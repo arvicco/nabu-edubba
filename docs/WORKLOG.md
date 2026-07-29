@@ -5,6 +5,16 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · M0-3 done · phase-0 pushed · Repo arvicco/nabu-edubba
+created by owner (public, empty); first push initially failed over SSH
+(publickey) — this box has no GitHub SSH key; nabu's remote is HTTPS
+with gh credential helper (gh auth: arvicco, protocol https). Durable
+fix: origin set to https://github.com/arvicco/nabu-edubba.git; future
+repos on this box use HTTPS remotes from the start. CI run 30436728929
+GREEN on the pushed head (gate job 38s: checkout, Ruby 3.3 +
+bundler-cache, full rake gate). Remaining Gate 0: owner enables Pages
+(Actions source), accepts README (M0-4), merges main.
+
 2026-07-29 · M0-1, M0-2 done · phase-0 · Owner ran the one-time
 `bundle install` (vendor/bundle, jekyll 4.4.1, html-proofer 5.2.2);
 full `rake gate` GREEN end-to-end (lint clean, 6/6 tests, build 0.012s,

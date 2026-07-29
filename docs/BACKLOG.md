@@ -30,7 +30,7 @@ Goal: buildable minimal site/ — _config.yml (Edubba branding,
 Acceptance: `rake build && rake check` green; index renders title,
       one-paragraph promise, and honest "under construction" state.
 
-## M0-3 · CI workflows  [tier: top — CI is the authority; first-of-kind] [status: in-progress — workflows written; green run verifiable only after owner creates the GitHub repo] [deps: M0-1]
+## M0-3 · CI workflows  [tier: top — CI is the authority; first-of-kind] [status: done] [deps: M0-1]
 Goal: .github/workflows/ci.yml runs `rake gate` on push/PR (Ruby 3.3,
       bundler-cache); pages.yml builds site/ with OUR bundle (Jekyll
       4.4 parity, not actions/jekyll-build-pages) and deploys on main.
