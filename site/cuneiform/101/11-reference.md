@@ -1,14 +1,14 @@
 ---
-title: "10 · Reference"
-short_title: "10 · Reference"
+title: "11 · Reference"
+short_title: "11 · Reference"
 description: >-
   Every sign taught in Cuneiform 101 with both selection criteria on
   display, the transliteration conventions used, and where to study
   next.
 layout: chapter
 course: cuneiform-101
-chapter: 10
-permalink: /cuneiform/101/10-reference/
+chapter: 11
+permalink: /cuneiform/101/11-reference/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: []
@@ -18,7 +18,7 @@ shows: []
 # Reference
 
 The scribes of the é-dub-ba-a opened their training with sign lists
-and never stopped consulting them; chapter 07 called the lexical
+and never stopped consulting them; chapter 08 called the lexical
 lists the first dictionaries. This page is this course's own small
 entry in that four-thousand-year-old genre — and unlike a clay list,
 it is generated directly from the course's sign registry, so it can
@@ -31,8 +31,8 @@ school's founding rule: corpus frequency (rank of the sign's cited
 value in the ETCSL literary and CDLI documentary corpora, computed by
 this site's own instrument over the Nabu library) and graphic
 simplicity (wedge count from the reference font; iconicity graded
-*classic* / *stated* / *unclear* per the standard sign lists — Labat,
-Borger's MZL, and the account in Finkel &amp; Taylor's *Cuneiform*).
+*classic* / *stated* / *unclear* per the standard sign lists (Labat;
+Borger's MZL).
 Where the origin is graded *unclear*, the course taught you the
 shape, not a story.
 
@@ -83,6 +83,9 @@ of the CDLI and Oracc corpora:
   marks a damaged but legible sign; a **prime** (′) on a line number
   means the surface's top is lost and counting starts at the first
   surviving line.
+- **▢** in a reading's script column stands for transliterated
+  value(s) whose sign has not yet been taught — a placeholder the
+  course fills as your inventory grows, never a gap in the original.
 - **Citations**: every ancient text on this site carries its Nabu
   URN (e.g. <code>urn:nabu:cdli:p101077:seal.1</code>), its source
   collection, and its license class. Follow the URN and you reach
@@ -96,7 +99,7 @@ of the CDLI and Oracc corpora:
 - **C. B. F. Walker, *Cuneiform*** (Reading the Past series, British
   Museum) — a compact classic on the script and its decipherment.
 - **The open corpora this course reads from:** the
-  <a href="https://cdli.mpiwg-berlin.mpg.de/">Cuneiform Digital
+  <a href="https://cdli.earth/">Cuneiform Digital
   Library Initiative</a> (CDLI), <a href="https://oracc.org/">Oracc</a>,
   and the <a href="https://etcsl.orinst.ox.ac.uk/">Electronic Text
   Corpus of Sumerian Literature</a> (ETCSL) — all reachable, with

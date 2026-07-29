@@ -80,8 +80,7 @@ configurations of wedges that a trained hand could press in seconds.
 
 Here is the standard textbook example, the sign SAG, "head",
 redrawn schematically after the evolution charts in the standard
-references (Labat's sign list; the charts in Finkel & Taylor's
-*Cuneiform*):
+references (Labat's sign list and the standard handbooks):
 
 <figure class="evolution">
   <svg viewBox="0 0 640 190" role="img" aria-label="Three stages of the sign SAG, head: an upright drawn profile of a head; the same shape rotated on its back; the same shape rebuilt from straight wedge strokes.">

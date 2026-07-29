@@ -9,18 +9,31 @@ layout: default
     {% if p.chapter > page.chapter and next_page == nil %}{% assign next_page = p %}{% endif %}
   {% endfor %}
 {% endif %}
-<nav class="chapter-nav" aria-label="Chapter">
-  <span>
-    {% if page.course_url %}<a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course contents" }}</a>{% endif %}
-  </span>
-  <span class="chapter-nav-steps">
-    {% if prev_page %}<a href="{{ prev_page.url | relative_url }}">&larr; {{ prev_page.short_title | default: prev_page.title }}</a>
-    {% elsif page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
-    {% if next_page %}<a href="{{ next_page.url | relative_url }}">{{ next_page.short_title | default: next_page.title }} &rarr;</a>
-    {% elsif page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
-  </span>
-</nav>
-
+<div class="chapter-shell">
+{% if page.course %}
+  <aside class="course-sidebar">
+    <details class="course-sidebar-details" open>
+      <summary class="course-sidebar-title">
+        <a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course" }}</a>
+      </summary>
+      <ol class="course-sidebar-list" start="0">
+        {% for p in course_pages %}
+        <li>
+          {% if p.url == page.url %}
+          <span class="current"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</span>
+          {% else %}
+          <a href="{{ p.url | relative_url }}"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </aside>
+{% endif %}
+<article class="chapter-main">
+{% if page.course %}
+  <p class="chapter-kicker">{{ page.course_title }} · Chapter {{ page.chapter | prepend: "00" | slice: -2, 2 }}</p>
+{% endif %}
 {{ content }}
 
 <nav class="chapter-nav chapter-nav-bottom" aria-label="Chapter, bottom">
@@ -34,3 +47,5 @@ layout: default
     {% elsif page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
   </span>
 </nav>
+</article>
+</div>

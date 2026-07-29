@@ -154,7 +154,8 @@ page per chapter, strictly progressive, readable end-to-end:
 Short courses may collapse rungs; no course skips Orientation, real
 readings, or Reference.
 
-Two standing pedagogical commitments:
+Standing pedagogical commitments (1–2 computed/enforced, 3–5 owner
+rulings 2026-07-29):
 
 1. **Sequencing driven by frequency AND simplicity — computed where
    computable, curated where judgment is needed** (owner refinement
@@ -172,6 +173,18 @@ Two standing pedagogical commitments:
 2. **Nothing untaught in a reading.** Every graded reading is
    machine-checked against the running set of taught signs/vocabulary —
    a gate, not an aspiration.
+3. **Every chapter teaches.** From the first-signs chapter onward,
+   every chapter introduces at least one (preferably 2–3) new signs,
+   related to its theme — ideally opening the chapter and building
+   its story from them. Knowledge accumulates gradually; no sign-free
+   chapters late in a course.
+4. **Every chapter shows.** At least one graphic illustration of the
+   chapter's topic per chapter — an SVG figure, a map, an enlarged
+   glyph exhibit. Show once rather than explain ten times.
+5. **Script beside transliteration, always.** Transliterated text is
+   coupled with the native script it represents as a matter of
+   principle; signs not yet taught appear as ▢ placeholders rather
+   than being omitted or shown out of order.
 
 ---
 

@@ -27,8 +27,7 @@ changes is what they can do once you let them repeat.
 
 The oldest tablets that survive are not stories, hymns, or letters —
 they are accounts: so many sheep, so many jars of grain, so many
-days' labor. Standard introductions to the script (Finkel and
-Taylor's *Cuneiform* among them) make this claim plainly: counting is
+days' labor. The standard introductions to the script make this claim plainly: counting is
 close to the native tongue of the writing system, not a later
 add-on. The wedge that means "one" is older, on the evidence of the
 earliest tablets, than most of what it would go on to write.
@@ -115,6 +114,14 @@ is the legacy: our 60-minute hour, our 60-second minute, and our
 transmission through Babylonian astronomy, from this same base sixty.
 Every time a clock's second hand completes a circuit, it is retracing
 a Sumerian accountant's number line.
+
+<figure class="composition">
+  <p class="composition-row script" aria-label="Twenty-three written in wedges">
+    <span>𒌋𒌋</span><span class="op">+</span><span>𒁹𒁹𒁹</span><span class="op">=</span><span style="font-size:1.6rem;font-family:Georgia">23</span>
+  </p>
+  <figcaption class="citation">Twenty-three at a glance: two tens,
+  three units — the whole system in one number.</figcaption>
+</figure>
 
 ## Counting things
 

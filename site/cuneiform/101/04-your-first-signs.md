@@ -32,7 +32,7 @@ library — 36,501 lines of Sumerian literature (ETCSL) and 1.5 million
 lines of administrative documents (CDLI). **Simplicity**: how few
 wedges a sign takes, and whether its shape still tells its story.
 A sign that is both frequent and simple earns an early seat. The
-full table, criterion by criterion, is in chapter 10.
+full table, criterion by criterion, is in chapter 11.
 
 ## Wave one: the atomic wedges
 
@@ -162,6 +162,24 @@ real entries from its lexicon — write each, then read it back aloud:
 
 Two-sign words, but genuine ones — *an-ki* and *é-kur* appear
 throughout the literary corpus you will read from.
+
+## Your wall chart
+
+All ten at a glance — copy this row of shapes somewhere you will see
+it daily:
+
+<div class="glyph-exhibit">
+  <figure><span class="script">𒀸</span><figcaption>aš</figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>diš</figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>u</figcaption></figure>
+  <figure><span class="script">𒀀</span><figcaption>a</figcaption></figure>
+  <figure><span class="script">𒆳</span><figcaption>kur</figcaption></figure>
+  <figure><span class="script">𒀭</span><figcaption>an</figcaption></figure>
+  <figure><span class="script">𒌓</span><figcaption>ud</figcaption></figure>
+  <figure><span class="script">𒊺</span><figcaption>še</figcaption></figure>
+  <figure><span class="script">𒆠</span><figcaption>ki</figcaption></figure>
+  <figure><span class="script">𒂍</span><figcaption>é</figcaption></figure>
+</div>
 
 ## Drill before you go on
 
