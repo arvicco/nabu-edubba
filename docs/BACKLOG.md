@@ -70,20 +70,20 @@ Acceptance: rake gate green; screenshot of served page read by the
       session shows real glyphs (surface checklist §6b); font files
       + OFL committed; no external font requests (lint/proofer clean).
 
-## M1-3 · Map-of-writing landing page  [tier: top — first-of-family content] [status: ready] [deps: M1-2]
+## M1-3 · Map-of-writing landing page  [tier: top — first-of-family content] [status: done] [deps: M1-2]
 Goal: replace the construction sign: typology grid (logographic /
       syllabary / abjad / alphabet / abugida / featural) + the family
       tree of writing, linking to school stubs; still text-pure.
 Acceptance: rake gate green; surface checklist pass; every school
       cell links to a stub that exists.
 
-## M1-4 · School stubs (waves 1–3)  [tier: implementation — template-following, spec below] [status: ready] [deps: M1-3]
+## M1-4 · School stubs (waves 1–3)  [tier: implementation — template-following, spec below] [status: done — delegated to implementation-tier agent, diff reviewed] [deps: M1-3]
 Goal: /cuneiform/, /hieroglyphs/, /hanzi/ catalog pages: one-paragraph
       school intro, planned course tree (from concept §3), honest
       "no courses yet" state.
 Acceptance: rake gate green; linked from landing; no dead links.
 
-## M1-5 · Sample chapter  [tier: top — establishes the chapter template family] [status: ready] [deps: M1-2]
+## M1-5 · Sample chapter  [tier: top — establishes the chapter template family] [status: done] [deps: M1-2]
 Goal: one fully-styled specimen chapter exercising the literacy-ladder
       layout end-to-end: chapter nav (prev/next/TOC), native-script +
       transliteration blocks, graded-reading panel with URN citation
