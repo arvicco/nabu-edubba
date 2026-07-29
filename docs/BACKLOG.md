@@ -53,7 +53,7 @@ Acceptance: owner accepts at Gate 0.
 
 ## Phase 1 — site skeleton (Gate 0 merged 2026-07-29; elaborated)
 
-## M1-1 · Auto-deploy on merge  [tier: top — deploy semantics, owner ruling] [status: in-progress] [deps: --]
+## M1-1 · Auto-deploy on merge  [tier: top — deploy semantics, owner ruling] [status: done] [deps: --]
 Goal: merging any PR to main deploys the site, no manual dispatch:
       pages.yml paths filter removed; github-pages environment policy
       fixed to allow main only (was pinned to phase-0 — see worklog
@@ -61,7 +61,7 @@ Goal: merging any PR to main deploys the site, no manual dispatch:
 Acceptance: the PR merging this packet itself triggers a green deploy
       run; construction sign live at arvicco.github.io/nabu-edubba.
 
-## M1-2 · Visual identity + vendored fonts  [tier: top — first-of-family design; identity is owner-adjacent] [status: ready] [deps: --]
+## M1-2 · Visual identity + vendored fonts  [tier: top — first-of-family design; identity is owner-adjacent] [status: done] [deps: --]
 Goal: typography scale, per-school accent tokens, and vendored
       subsetted webfonts (Noto Sans Cuneiform first; OFL license file
       alongside) so the 𒂍𒁾𒁀𒀀 wordmark and any cuneiform render

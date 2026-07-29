@@ -1,10 +1,14 @@
 # frozen_string_literal: true
 
+require_relative "cuneiform_scan"
+
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
 #   no-js         wave 1 is text-pure — no <script> tags, no .js assets
 #   front-matter  every Markdown page starts with front matter ("---")
 #   relative-links internal links never hard-code the production origin
+#   font-coverage every cuneiform codepoint used in site/ is covered by
+#                 the committed font subset manifest (no tofu ships)
 #
 # Usage: ruby script/lint.rb [SITE_DIR]   (exit 1 + report on violations)
 
@@ -17,9 +21,21 @@ module Edubba
 
     module_function
 
-    def violations(site_dir)
+    def violations(site_dir, manifest_path = CuneiformScan::MANIFEST)
       sources(site_dir).flat_map { |path| check_file(site_dir, path) } +
-        js_assets(site_dir)
+        js_assets(site_dir) +
+        font_coverage(site_dir, manifest_path)
+    end
+
+    def font_coverage(site_dir, manifest_path)
+      used = CuneiformScan.used_codepoints(site_dir)
+      return [] if used.empty?
+
+      covered = CuneiformScan.manifest_codepoints(manifest_path)
+      (used - covered).sort.map do |cp|
+        Violation.new(manifest_path, "font-coverage",
+                      "U+#{CuneiformScan.format_codepoint(cp)} used in site/ but not in font subset — run `rake fonts`")
+      end
     end
 
     def sources(site_dir)
