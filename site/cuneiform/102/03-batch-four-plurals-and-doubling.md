@@ -83,8 +83,7 @@ word, the same device intensifies it:
     <em>kur</em> "mountain, land" → <em>kur-kur</em> "all the lands"
     (doubling as plural); <em>gal</em> "big, great" →
     <em>gal-gal</em> "very great" (doubling as intensifier). Same
-    device, two jobs — the reader has to decide which from context,
-    as Foxvog's grammar lays out.
+    device, two jobs — the reader decides which from context.
   </figcaption>
 </figure>
 
