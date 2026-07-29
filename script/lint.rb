@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "cuneiform_scan"
+require_relative "course_check"
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -12,6 +13,9 @@ require_relative "cuneiform_scan"
 #                 at any base path (github.io/nabu-edubba AND edubba.ac)
 #   font-coverage every cuneiform codepoint used in site/ is covered by
 #                 the committed font subset manifest (no tofu ships)
+#   untaught-sign a course chapter uses only signs taught in chapters
+#                 <= its own (front-matter teaches:) plus its own
+#                 shows: exhibits (script/course_check.rb)
 #
 # Usage: ruby script/lint.rb [SITE_DIR]   (exit 1 + report on violations)
 
@@ -28,7 +32,8 @@ module Edubba
     def violations(site_dir, manifest_path = CuneiformScan::MANIFEST)
       sources(site_dir).flat_map { |path| check_file(site_dir, path) } +
         js_assets(site_dir) +
-        font_coverage(site_dir, manifest_path)
+        font_coverage(site_dir, manifest_path) +
+        CourseCheck.violations(site_dir)
     end
 
     def font_coverage(site_dir, manifest_path)

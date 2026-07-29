@@ -42,6 +42,73 @@ lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
 
+2026-07-29 · M2-18 done · Second review round (owner): (1) ch. 00
+stroke figure corrected — horizontal wedge head now at LEFT matching
+the font's AŠ (owner caught the reversal), corner wedge redrawn to
+match 𒌋; (2) Name-vs-Reads convention explained at first use (ch. 03
+notation section + reminder at ch. 04's first table); (3) sign-table
+Notes now carry graphic-origin context wherever the sign lists
+support it, "origin opaque — learn the shape" where they don't;
+(4) NEW ch. 08 The sign workshop (course now 13 chapters, 25 signs):
+SAG (the ch. 02 evolution example finally taught), KA (gunû hatching
+move), KA×A nag "drink" and KA×GAR gu7 "eat" (containment move) —
+codepoints verified by Unicode name search after first guesses
+proved WRONG (12295 not 122A1 etc — the name check earns its keep);
+09-12 renumbered; (5) ch. 07 filiation reading gained its script+▢
+column; (6) reading--script grid columns fixed to proportional
+fractions (alignment complaint); (7) ch. 12 sign count now computed
+by Liquid from the registry ("counted live, so this number can never
+lie") after owner caught the stale "twelve signs" text — generated
+beats prose for facts that move. Gate green; subset 26 codepoints.
+
+2026-07-29 · M2-17 done · Gate 2 review revisions per owner feedback
+(prose style approved and memorized; rules codified in concept §3.3–5
++ CLAUDE.md): (1) sidebar course layout — pure Liquid/CSS from
+course:/chapter: front matter, current chapter highlighted, kicker
+"Cuneiform 101 · Chapter NN", <details> fallback on mobile, zero JS;
+(2) every chapter from 04 teaches signs: course restructured to 12
+chapters (07-10 renumbered 08-11; NEW ch. 07 Of gods and men: LU2/
+GAL/TUR with LUGAL decomposed and a real filiation roster line, CDLI
+P109952), ch. 05 +GUR, ch. 08 +DUB/BA (opens by reading the site
+wordmark), ch. 09 +EN/LIL2 (reads Enlil), ch. 10 +NA/NI (names as
+the decipherers' crowbar) — 21 signs total, all codepoints verified
+via unicodedata names, wedge counts from renders, ranks from the
+committed tables; (3) ≥1 graphic per chapter (stroke figure + glyph
+exhibits in 00, stylus section-view in 01, AN-three-roles in 03,
+wall chart in 04, number exhibit in 05, cylinder-seal rolling in 06,
+LUGAL composition in 07, wordmark in 08, schematic Near East map +
+concrete middle-chronology dates in 09, trilingual-principle figure
+in 10); (4) script-beside-translit principle with ▢ placeholders in
+ch. 06 + specimen readings, ▢ documented in ch. 11, nabu ATF→signs
+feature request drafted in .docs/; (5) CDLI links → cdli.earth;
+Finkel & Taylor citations cut to ch. 01 + ch. 11 further-study.
+Gate green (validator re-proved the new teaching order); subset now
+22 codepoints / 8.4K.
+
+2026-07-29 · PHASE 2 COMPLETE (M2-1..M2-16) · phase-2 · Cuneiform 101
+Foundations: 11 chapters + course index live. Instruments first:
+course architecture with dynamic prev/next nav computed from
+course:/chapter: front matter (no dead links possible); taught-signs
+validator (untaught-sign gate rule; teaches:/shows: contract; 5
+tests); sign sequencing table realizing the frequency×simplicity
+ruling — bin/sign_seq.rb computed value frequencies from nabu exports
+(ETCSL 36,501 + CDLI 1,548,658 sux passages; per-corpus, never
+merged), curated per-sign wedge counts (counted from rendered Noto
+glyphs — all 14 candidate codepoints VERIFIED by rendering before
+use) and iconicity with certainty grades. Chapters: top tier wrote
+00/02/03/04/06 + reviewed everything; implementation tier (sonnet
+agents, written specs with factual anchors) wrote 01/05/07/08/09 —
+all five accepted, three with review fixes (07: etymology softened,
+wrong-target links unlinked; 09: two phrasing fixes after mandatory
+fact review; 08 clean; 01/05 clean). Ch. 06 reads three genuine Ur
+III texts (CDLI P101077, P128972, P210013; license attribution;
+URN-cited) incl. damage conventions and a year-name. Ch. 10 Reference
+is Liquid-GENERATED from site/_data/sign_teaching.yml so it cannot
+drift. Font subset grew 4→15 codepoints, coverage rule fired red at
+every new-glyph moment as designed. School/landing flipped to "101
+open"; README updated. Gate green throughout; every rendered surface
+screenshot-reviewed.
+
 2026-07-29 · M1-2 done · phase-1 · Font pipeline: full Noto Sans
 Cuneiform v2.001 (801K, OFL) vendored as SOURCE in assets-src/fonts/;
 site ships a computed subset (site/assets/fonts/, currently 4

@@ -154,16 +154,37 @@ page per chapter, strictly progressive, readable end-to-end:
 Short courses may collapse rungs; no course skips Orientation, real
 readings, or Reference.
 
-Two standing pedagogical commitments:
+Standing pedagogical commitments (1–2 computed/enforced, 3–5 owner
+rulings 2026-07-29):
 
-1. **Frequency-driven sequencing, computed, not guessed.** Sign and
-   vocabulary order is derived from actual counts over Nabu's corpora
-   (e.g., sign frequency across CDLI/Oracc transliterations, character
-   frequency over Kanripo/CBETA). The curriculum is an artifact built
-   from the library, and rebuildable when the library grows.
+1. **Sequencing driven by frequency AND simplicity — computed where
+   computable, curated where judgment is needed** (owner refinement
+   2026-07-29). Teaching order weighs two criteria together: (a)
+   corpus frequency, derived from actual counts over Nabu's corpora
+   (sign frequency across CDLI/Oracc transliterations, character
+   frequency over Kanripo/CBETA); and (b) graphic simplicity — a
+   learner moves more easily from simple, world-congruent shapes to
+   complex ones, so visual complexity (e.g., wedge or stroke count)
+   and iconicity (shape intuitively congruent with a real-world
+   object) pull simple signs earlier. Frequency alone never dictates
+   the order. The computed inputs are artifacts built from the
+   library, rebuildable when it grows; the curated judgments are
+   recorded per sign with their scholarly basis.
 2. **Nothing untaught in a reading.** Every graded reading is
    machine-checked against the running set of taught signs/vocabulary —
    a gate, not an aspiration.
+3. **Every chapter teaches.** From the first-signs chapter onward,
+   every chapter introduces at least one (preferably 2–3) new signs,
+   related to its theme — ideally opening the chapter and building
+   its story from them. Knowledge accumulates gradually; no sign-free
+   chapters late in a course.
+4. **Every chapter shows.** At least one graphic illustration of the
+   chapter's topic per chapter — an SVG figure, a map, an enlarged
+   glyph exhibit. Show once rather than explain ten times.
+5. **Script beside transliteration, always.** Transliterated text is
+   coupled with the native script it represents as a matter of
+   principle; signs not yet taught appear as ▢ placeholders rather
+   than being omitted or shown out of order.
 
 ---
 
