@@ -66,7 +66,13 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Didactic claims cite their scholarly basis (standard grammars, sign
   lists) in-line; no confident nonsense about ancient scripts.
 - Chapters are Markdown in `site/<school>/<course>/`, numbered
-  (`00-orientation.md`, …), one layout, shared stylesheet.
+  (`00-orientation.md`, …), `layout: chapter`, permalink
+  `/<school>/<NNN>/<NN-slug>/`. Front matter carries the pedagogy
+  contract: `chapter:` (ordinal), `teaches:` (signs this chapter
+  introduces, as glyph strings), `shows:` (display-only exhibits).
+  The gate enforces: a chapter's body may use only signs taught in
+  chapters <= its own, plus its own `shows:` — nothing untaught in a
+  reading, ever.
 
 ## Testing conventions
 

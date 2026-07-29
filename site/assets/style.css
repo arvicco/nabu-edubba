@@ -168,6 +168,12 @@ img, svg { max-width: 100%; }
   border-top: 2px solid var(--rule);
 }
 
+/* --- Course TOC --- */
+
+.course-toc { padding-left: 1.5rem; }
+.course-toc li { margin-block: 0.5rem; }
+.course-toc em { color: var(--muted); }
+
 /* --- Course chapters --- */
 
 .chapter-nav {
