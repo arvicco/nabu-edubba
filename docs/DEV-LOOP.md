@@ -87,13 +87,16 @@ validator per packet.
          nothing else moved
 7. **Pre-gate: README.md current** — honest about what does not work
    yet. A phase is not gate-ready with a stale README.
-8. **Phase gate**: top-tier review of the entire phase diff against
-   docs/concept.md; resolve blocked packets; update the "Current
-   phase" line in CLAUDE.md; produce the gate handoff as a RUNBOOK
+8. **Phase gate = a PR the loop prepares, the owner merges** (owner
+   ruling 2026-07-29): top-tier review of the entire phase diff
+   against docs/concept.md; resolve blocked packets; update the
+   "Current phase" line in CLAUDE.md; then open `phase-N -> main`
+   whose PR body carries (a) the phase RUNDOWN — what shipped, per-
+   packet evidence — and (b) the RUNBOOK for the gate's human actions
    (numbered steps, one command each, EXPECT lines; background
-   quarantined at the end). **The owner executes the gate's human
-   actions and merges.** Next phase's packets are elaborated only
-   after the gate closes.
+   quarantined at the end). **The owner reviews, executes the human
+   actions, and merges the PR.** Next phase's packets are elaborated
+   only after the gate closes.
 9. **Ring for the owner** when the loop stops on something only the
    owner can do — as the LAST tool call of that turn:
    `nohup "$HOME/.claude/hooks/attention-alarm.sh" sticky >/dev/null 2>&1 &`
@@ -136,7 +139,7 @@ good/bad looks like).
 
 | When | Action |
 |---|---|
-| Phase 0 | Create the GitHub repo; push; accept README v1; merge Gate 0 |
+| Phase 0 | Create the GitHub repo; accept README v1; merge the Gate 0 PR |
 | Phase 1 | Enable Pages (Actions source); set edubba.ac custom domain + DNS; approve visual identity |
 | Gates | Visual sign-offs; golden approvals; merges to main (= deploys); installs; tags |
 | Always | Rulings on decision items; owner-ruled-domain changes (concept §7, licenses, permalinks, ordering methodology) |
