@@ -20,20 +20,23 @@ with per-passage citations and licenses. The full design is in
 
 ## Status — honest, as of 2026-07-29
 
-**No courses exist yet; the site skeleton is up.** Live today:
+**The first real course is open: [Cuneiform 101 ·
+Foundations](https://edubba.ac/cuneiform/101/)** — eleven chapters
+from orientation to decipherment, including genuine Ur III royal
+inscriptions read in the original (CDLI texts via Nabu, cited by URN
+and license). Also live: the map-of-writing landing page, catalog
+stubs for the hieroglyphs and hanzi schools, and a layout specimen.
 
-- the landing page — the map of writing (typology and family tree);
-- catalog stubs for the first three schools (cuneiform, hieroglyphs,
-  hanzi/kanji) with their planned course trees;
-- a specimen chapter demonstrating the full chapter layout: sign
-  table, native script (vendored subset of Noto Sans Cuneiform),
-  and a graded reading of a real Ur III seal cited to CDLI via Nabu;
-- the quality gate (`rake gate`: conventions lint incl. the
-  no-JavaScript and font-coverage rules, unit tests, Jekyll build,
-  offline link check) and auto-deploy on merge.
+Under the hood: a computed curriculum (sign order = corpus frequency
+× graphic simplicity, from committed frequency tables over 1.5M+
+Nabu passages), a "nothing untaught" validator that fails the build
+if a chapter uses a sign not yet taught, a font-coverage rule that
+makes tofu unshippable (the site serves a computed subset of Noto
+Sans Cuneiform), and the full gate (`rake gate`: lint + tests +
+build + offline link check) with auto-deploy on merge.
 
-Next (Phase 2+): the cuneiform school's real courses, starting with
-101 Foundations.
+Next (Phase 3): Cuneiform 102 — the Sumerian literacy track's opening
+chapters.
 
 ## Building locally
 

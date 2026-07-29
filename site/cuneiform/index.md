@@ -20,11 +20,12 @@ the ability to look at a real tablet and read it.
 ## Course catalog
 
 - **[101 · Foundations]({{ '/cuneiform/101/' | relative_url }})** —
-  **in progress, chapters arriving now.** Wedge and stylus, tablet and
+  **open: all eleven chapters live.** Wedge and stylus, tablet and
   clay, sign anatomy and formation, how the system encodes language
   (logograms, syllabograms, determinatives, polyvalency), the arc from
   proto-cuneiform to the last dated tablet, and the decipherment
-  story. Prerequisite for everything below.
+  story — with real Ur III royal inscriptions read in chapter 06.
+  Prerequisite for everything below.
 - **102 · Sumerian** — planned. A literacy track: the sign inventory in
   frequency order, Sumerian to the degree reading demands, graded readings
   from royal inscriptions to proverbs and Edubba texts.
