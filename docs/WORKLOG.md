@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · GATE 0 CLOSED · PR #1 merged by owner (09:01Z) · Phase 0
+complete: M0-1..4 done, CI green on main merge commit. Owner rulings
+landed at the gate: (1) gates close via a PR the loop prepares
+(DEV-LOOP §4.8); (2) deploys must be automatic on merge — no manual
+dispatch step (implemented as M1-1). Phase 1 elaborated.
+
+2026-07-29 · INCIDENT: first Pages deploy failed · run 30437922348 ·
+What happened: owner's workflow_dispatch deploy failed at the deploy
+job: "Branch main is not allowed to deploy to github-pages due to
+environment protection rules." Root cause: the auto-created
+github-pages environment got a custom deployment-branch policy pinned
+to phase-0 — the default branch at the moment Pages/the environment
+came into being. Durable fix: policy now allows main ONLY (phase-0
+policy deleted — phase branches must never deploy); pages.yml paths
+filter removed so every merge to main deploys (a missed deploy is
+worse than a redundant rebuild). Lesson enforced: when enabling Pages
+on a repo whose default branch ever differed from main, verify
+environments/github-pages/deployment-branch-policies before the first
+deploy; M1-1 acceptance requires the merge itself to deploy green.
+
 2026-07-29 · M0-3 done · phase-0 pushed · Repo arvicco/nabu-edubba
 created by owner (public, empty); first push initially failed over SSH
 (publickey) — this box has no GitHub SSH key; nabu's remote is HTTPS
