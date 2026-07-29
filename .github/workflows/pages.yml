@@ -32,9 +32,15 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        run: bundle exec jekyll build --source site --destination _site
+        # base_path is "/nabu-edubba" on the project URL and "" once the
+        # custom domain is active — the build must work at either base,
+        # which is also why all internal links go through relative_url.
+        run: >-
+          bundle exec jekyll build --source site --destination _site
+          --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact

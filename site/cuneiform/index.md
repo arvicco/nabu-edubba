@@ -50,6 +50,6 @@ the ability to look at a real tablet and read it.
 No courses exist yet — this catalog is the plan, not a promise of what
 has already been built. Course numbers and scope are still to be firmed up
 as curriculum design proceeds. If you'd like to see the wider project, go
-back to [the map of writing](/); if you have thoughts, corrections, or
+back to [the map of writing]({{ '/' | relative_url }}); if you have thoughts, corrections, or
 requests for what should come first, they're welcome on
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).
