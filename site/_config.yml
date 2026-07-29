@@ -1,0 +1,24 @@
+title: Edubba
+tagline: A school of writing systems
+description: >-
+  Self-paced courses in the world's scripting traditions, ancient and
+  living — from cuneiform onward. Real literacy: read actual tablets,
+  inscriptions, and pages.
+url: "https://edubba.ac"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Null theme: hand-rolled _layouts/ + assets/ only.
+plugins: []
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+keep_files: []
+include:
+  - CNAME
