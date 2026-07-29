@@ -42,6 +42,30 @@ lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
 
+2026-07-29 · PHASE 2 COMPLETE (M2-1..M2-16) · phase-2 · Cuneiform 101
+Foundations: 11 chapters + course index live. Instruments first:
+course architecture with dynamic prev/next nav computed from
+course:/chapter: front matter (no dead links possible); taught-signs
+validator (untaught-sign gate rule; teaches:/shows: contract; 5
+tests); sign sequencing table realizing the frequency×simplicity
+ruling — bin/sign_seq.rb computed value frequencies from nabu exports
+(ETCSL 36,501 + CDLI 1,548,658 sux passages; per-corpus, never
+merged), curated per-sign wedge counts (counted from rendered Noto
+glyphs — all 14 candidate codepoints VERIFIED by rendering before
+use) and iconicity with certainty grades. Chapters: top tier wrote
+00/02/03/04/06 + reviewed everything; implementation tier (sonnet
+agents, written specs with factual anchors) wrote 01/05/07/08/09 —
+all five accepted, three with review fixes (07: etymology softened,
+wrong-target links unlinked; 09: two phrasing fixes after mandatory
+fact review; 08 clean; 01/05 clean). Ch. 06 reads three genuine Ur
+III texts (CDLI P101077, P128972, P210013; license attribution;
+URN-cited) incl. damage conventions and a year-name. Ch. 10 Reference
+is Liquid-GENERATED from site/_data/sign_teaching.yml so it cannot
+drift. Font subset grew 4→15 codepoints, coverage rule fired red at
+every new-glyph moment as designed. School/landing flipped to "101
+open"; README updated. Gate green throughout; every rendered surface
+screenshot-reviewed.
+
 2026-07-29 · M1-2 done · phase-1 · Font pipeline: full Noto Sans
 Cuneiform v2.001 (801K, OFL) vendored as SOURCE in assets-src/fonts/;
 site ships a computed subset (site/assets/fonts/, currently 4

@@ -98,8 +98,9 @@ the transliteration once the course's sign inventory covers it.
 ## Where a real chapter goes from here
 
 A course chapter closes with practice (write the signs; read the
-formula on a different seal) and a pointer to the next rung. This
-specimen closes by telling you the truth instead: the
-[cuneiform school]({{ '/cuneiform/' | relative_url }}) is where these chapters are being
-built. Found something wrong on this page? That is exactly what
+formula on a different seal) and a pointer to the next rung. The real
+thing now exists: [Cuneiform 101]({{ '/cuneiform/101/' | relative_url }})
+is open, and this seal is properly taught in its
+[chapter 06]({{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}).
+Found something wrong on this page? That is exactly what
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues) is for.

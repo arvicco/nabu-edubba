@@ -105,35 +105,35 @@ Acceptance: curl -sI https://edubba.ac returns 200 with the landing
 
 ## Phase 2 — Cuneiform 101 · Foundations (plan approved 2026-07-29)
 
-## M2-1 · Course architecture  [tier: top — first course of the site] [status: ready] [deps: --]
+## M2-1 · Course architecture  [tier: top — first course of the site] [status: done] [deps: --]
 Goal: /cuneiform/101/ course index (TOC 00–10), chapter template
       wiring (course/prev/next), taught-signs front-matter format.
 Acceptance: gate green; TOC lists all chapters; nav round-trips.
 
-## M2-2 · Taught-signs validator  [tier: top — pedagogy oracle, gate semantics] [status: ready] [deps: M2-1]
+## M2-2 · Taught-signs validator  [tier: top — pedagogy oracle, gate semantics] [status: done] [deps: M2-1]
 Goal: gate rule: a chapter may only use cuneiform signs taught in
       chapters ≤ its own (per `teaches:` front matter).
 Acceptance: seeded violation red; HEAD green; tests pin the rule.
 
-## M2-3 · Sign sequencing table  [tier: top — curriculum methodology, owner-adjacent] [status: ready] [deps: --]
+## M2-3 · Sign sequencing table  [tier: top — curriculum methodology, owner-adjacent] [status: done] [deps: --]
 Goal: corpus frequency (nabu: CDLI/Oracc) × curated complexity/
       iconicity per sign; committed data + offline-reproducible rank.
 Acceptance: data files committed with citations; ch. 04 starter set
       justified by BOTH criteria.
 
-## M2-4 · Ch. 00 Orientation  [tier: top — course voice] [status: ready] [deps: M2-1]
-## M2-5 · Ch. 03 How signs mean  [tier: top — mental-model spine] [status: ready] [deps: M2-1]
-## M2-6 · Ch. 04 Your first signs  [tier: top — sign-teaching template] [status: ready] [deps: M2-2, M2-3, M2-5]
-## M2-7 · Ch. 01 Clay and reed  [tier: implementation] [status: ready] [deps: M2-4]
-## M2-8 · Ch. 02 From tokens to signs  [tier: top — first SVG evolution panels] [status: ready] [deps: M2-4]
-## M2-9 · Ch. 05 Counting  [tier: implementation] [status: ready] [deps: M2-6]
-## M2-10 · Ch. 06 Seals and bricks  [tier: implementation — readings pre-pulled, top reviews licenses] [status: ready] [deps: M2-6]
-## M2-11 · Ch. 07 The tablet house  [tier: implementation] [status: ready] [deps: M2-4]
-## M2-12 · Ch. 08 One script, many tongues  [tier: implementation] [status: ready] [deps: M2-4]
-## M2-13 · Ch. 09 Decipherment  [tier: implementation — top fact-review mandatory] [status: ready] [deps: M2-4]
-## M2-14 · Ch. 10 Reference  [tier: implementation — partly generated from registry] [status: ready] [deps: M2-6]
-## M2-15 · School/landing flip to "101 open"  [tier: top — public promise] [status: ready] [deps: M2-4..M2-14]
-## M2-16 · Gate 2 prep: phase review, README, gate PR  [tier: top] [status: ready] [deps: M2-15]
+## M2-4 · Ch. 00 Orientation  [tier: top — course voice] [status: done] [deps: M2-1]
+## M2-5 · Ch. 03 How signs mean  [tier: top — mental-model spine] [status: done] [deps: M2-1]
+## M2-6 · Ch. 04 Your first signs  [tier: top — sign-teaching template] [status: done] [deps: M2-2, M2-3, M2-5]
+## M2-7 · Ch. 01 Clay and reed  [tier: implementation] [status: done] [deps: M2-4]
+## M2-8 · Ch. 02 From tokens to signs  [tier: top — first SVG evolution panels] [status: done] [deps: M2-4]
+## M2-9 · Ch. 05 Counting  [tier: implementation] [status: done] [deps: M2-6]
+## M2-10 · Ch. 06 Seals and bricks  [tier: implementation — readings pre-pulled, top reviews licenses] [status: done] [deps: M2-6]
+## M2-11 · Ch. 07 The tablet house  [tier: implementation] [status: done] [deps: M2-4]
+## M2-12 · Ch. 08 One script, many tongues  [tier: implementation] [status: done] [deps: M2-4]
+## M2-13 · Ch. 09 Decipherment  [tier: implementation — top fact-review mandatory] [status: done] [deps: M2-4]
+## M2-14 · Ch. 10 Reference  [tier: implementation — partly generated from registry] [status: done] [deps: M2-6]
+## M2-15 · School/landing flip to "101 open"  [tier: top — public promise] [status: done] [deps: M2-4..M2-14]
+## M2-16 · Gate 2 prep: phase review, README, gate PR  [tier: top] [status: done] [deps: M2-15]
 
 Chapter-packet acceptance (all): rake gate green (incl. taught-signs
 rule), surface review of rendered page, top-tier factual review with
