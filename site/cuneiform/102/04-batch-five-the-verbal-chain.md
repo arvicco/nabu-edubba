@@ -64,9 +64,7 @@ Five times each, aloud as you write: *du*, *ti*, *la*.
 The final slot in a Sumerian sentence is not one word so much as a
 short procession: prefixes first, then a stem carrying the real
 "go/build/do" meaning, then — sometimes — suffixes trailing after.
-This track will not walk that procession's full architecture (that
-belongs to the standard grammars — this course again leans on Daniel
-Foxvog's *Introduction to Sumerian Grammar* for the outline); two
+This track will not walk that procession's full architecture; two
 habits are enough for a first pass.
 
 **The stem sits late.** Whatever else crowds the front of a

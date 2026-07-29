@@ -70,6 +70,11 @@ rake serve          # local preview at http://127.0.0.1:4000
   theme-related signs (ideally opening the chapter); every chapter
   carries at least one graphic illustration; readings couple
   transliteration with native script, untaught signs as ▢.
+- Reference citations are FOOTNOTES (kramdown [^ref]) or Reference-
+  chapter entries, never inline meta in the lesson flow. Every
+  grammatical marker taught gets a concrete usage example a learner
+  can hold (who owns what, where the caravan goes) — never a bare
+  gloss.
 - Chapters are Markdown in `site/<school>/<course>/`, numbered
   (`00-orientation.md`, …), `layout: chapter`, permalink
   `/<school>/<NNN>/<NN-slug>/`. Front matter carries the pedagogy

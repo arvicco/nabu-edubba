@@ -20,10 +20,7 @@ shows: []
 101 taught you how *signs* work. To read running Sumerian you need
 one more machine: how the *sentence* works. This chapter is the
 whole of Sumerian grammar in the coarsest useful outline — the shape
-of it, so that every later grammar bite has somewhere to land. (The
-fine detail belongs to the standard grammars; this track follows
-the outline of Foxvog's open-access *Introduction to Sumerian
-Grammar* and simplifies it further.)
+of it, so that every later grammar bite has somewhere to land.[^ref]
 
 ## Batch two — chosen by the grammar itself
 
@@ -50,7 +47,8 @@ Grammar* and simplifies it further.)
       <td class="script sign-cell">𒁉</td><td>BI</td><td><em>bi</em></td>
       <td>"its, that"; the syllable bi</td>
       <td>~6 wedges; in origin a vessel (stated) — in grammar, the
-          possessive of things: é-bi, "its house"</td>
+          possessive of THINGS and places, as against persons: see
+          habit two below</td>
     </tr>
   </tbody>
 </table>
@@ -65,10 +63,24 @@ English need one deep breath.
 **Two: words wear their grammar as tags.** Sumerian is
 agglutinative: instead of changing a word's insides, it strings
 small elements onto the outside — after nouns, around the verb.
-Where English says *from the mountain*, Sumerian says
-*mountain-from*: <span class="script">𒆳𒋫</span> *kur-ta*. Where a
-dedication says *for (someone)*, it ends in
-<span class="script">𒂠</span> *-še₃*.
+Each tag, with a sentence to hold it by:
+
+- ***-ta* "from":** <span class="script">𒆳𒋫</span> *kur-ta*, "from
+  the mountains" — where a caravan comes from, where the timber was
+  brought from. Point of origin.
+- ***-še₃* "to, toward, for":** <span class="script">𒂍𒂠</span>
+  *é-še₃*, "to the house" — where the barley is delivered, where the
+  procession is headed. Destination or purpose. (In chapter 05 you
+  will see it end the most famous purpose-phrase in Sumerian: "for
+  his life".)
+- **possession, in two flavors.** Sumerian splits "belonging" by who
+  owns. A *person's* things take *-ani* "his, her":
+  <span class="script">𒂍𒀀𒉌</span> *é-a-ni*, "his house" — say, the
+  governor's. A *thing's or place's* things take *-bi* "its":
+  <span class="script">𒂍𒁉</span> *é-bi*, "its house" — say, the
+  city's temple, the estate's storehouse. Persons get *-ani*, everything
+  else gets *-bi*; when you meet *é-bi* in a text, look back for the
+  city, field, or herd that owns it.
 
 **Three: the doer can carry a mark.** In sentences with a
 transitive verb, the noun doing the deed often ends in *-e* —
@@ -128,10 +140,15 @@ modifier last.
 
 1. Write 𒂠, 𒂊, 𒁉 from memory; say *še₃*, *e*, *bi*.
 2. Compose in transliteration, then in signs: *kur-ta* ("from the
-   mountain"), *é-bi* ("its house"), *lugal-e* ("the king,
+   mountains"), *é-še₃* ("to the house"), *é-a-ni* ("his house"),
+   *é-bi* ("its house — the city's"), *lugal-e* ("the king,
    acting").
 3. Say aloud the three habits — verb last, grammar as tags, doer
    marked — and name one English sentence you could rebuild the
    Sumerian way.
 
 *Next: batch three — and the genitive, the case that hides.*
+
+[^ref]: The full machine, for when you want it: Daniel Foxvog's
+    open-access *Introduction to Sumerian Grammar* — the standing
+    reference behind this track's grammar bites.

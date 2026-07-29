@@ -73,9 +73,7 @@ Now the honest part. Say that phrase aloud and you will notice the
 /k/ barely wants to exist: *é lugal-ak* tends to surface, and get
 written, as something closer to *é lugal-a*, or even just
 *é lugal*, with no genitive tag visible at all. The rule of thumb
-handed down from the standard grammars — this track follows Daniel
-Foxvog's *Introduction to Sumerian Grammar* here, cited once for
-this whole point — is that the /k/ of *-ak* mostly surfaces only
+from the standard grammars is that the /k/ of *-ak* mostly surfaces only
 when another vowel follows it and gives it something to lean on;
 standing at the end of a phrase, alone, it routinely hides in the
 spelling. You will meet *é lugal-ak* far more often looking like
