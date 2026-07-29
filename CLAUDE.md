@@ -119,6 +119,6 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 1 — site skeleton (Gate 0 merged 2026-07-29): auto-deploy,
-visual identity + vendored fonts, map-of-writing landing, school
-stubs, sample chapter, edubba.ac live. Update this line at each gate.
+Phase 3 — Cuneiform 102 Sumerian, opening chapters (per D0-a).
+
+Gate 2 merged 2026-07-29 (101 complete: 13 chapters, 25 signs). Update this line at each gate.
