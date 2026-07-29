@@ -104,7 +104,6 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 0 complete pending Gate 0 PR merge (bootstrap: gate command,
-site stub, CI, README v1; concept ratified 2026-07-29). On merge,
-Phase 1 (site skeleton) packet elaboration begins. Update this line
-at each gate.
+Phase 1 — site skeleton (Gate 0 merged 2026-07-29): auto-deploy,
+visual identity + vendored fonts, map-of-writing landing, school
+stubs, sample chapter, edubba.ac live. Update this line at each gate.
