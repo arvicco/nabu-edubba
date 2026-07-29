@@ -156,11 +156,19 @@ readings, or Reference.
 
 Two standing pedagogical commitments:
 
-1. **Frequency-driven sequencing, computed, not guessed.** Sign and
-   vocabulary order is derived from actual counts over Nabu's corpora
-   (e.g., sign frequency across CDLI/Oracc transliterations, character
-   frequency over Kanripo/CBETA). The curriculum is an artifact built
-   from the library, and rebuildable when the library grows.
+1. **Sequencing driven by frequency AND simplicity — computed where
+   computable, curated where judgment is needed** (owner refinement
+   2026-07-29). Teaching order weighs two criteria together: (a)
+   corpus frequency, derived from actual counts over Nabu's corpora
+   (sign frequency across CDLI/Oracc transliterations, character
+   frequency over Kanripo/CBETA); and (b) graphic simplicity — a
+   learner moves more easily from simple, world-congruent shapes to
+   complex ones, so visual complexity (e.g., wedge or stroke count)
+   and iconicity (shape intuitively congruent with a real-world
+   object) pull simple signs earlier. Frequency alone never dictates
+   the order. The computed inputs are artifacts built from the
+   library, rebuildable when it grows; the curated judgments are
+   recorded per sign with their scholarly basis.
 2. **Nothing untaught in a reading.** Every graded reading is
    machine-checked against the running set of taught signs/vocabulary —
    a gate, not an aspiration.
