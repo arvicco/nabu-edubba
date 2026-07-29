@@ -70,30 +70,31 @@ then the seal-owner presenting himself as the king's servant. Note
 𒀭 *{d}* before the royal name and 𒆠 *{ki}* after the city names —
 and *lugal* 𒈗, twice.
 
-<figure class="reading">
+<figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="translit">{d}amar-{d}suen</span><span class="gloss">Amar-Suen,</span></div>
-    <div class="reading-line"><span class="translit">nita kal-ga</span><span class="gloss">mighty man,</span></div>
-    <div class="reading-line"><span class="translit">lugal uri5{ki}</span><span class="gloss">king of Ur,</span></div>
-    <div class="reading-line"><span class="translit">lugal an-ub-da limmu2-ba</span><span class="gloss">king of the four quarters:</span></div>
-    <div class="reading-line"><span class="translit">ur-{d}li9-si4</span><span class="gloss">Ur-Lisi,</span></div>
-    <div class="reading-line"><span class="translit">ensi2</span><span class="gloss">governor</span></div>
-    <div class="reading-line"><span class="translit">umma{ki}</span><span class="gloss">of Umma,</span></div>
-    <div class="reading-line"><span class="translit">ARAD2-zu</span><span class="gloss">is your servant.</span></div>
+    <div class="reading-line"><span class="script">𒀭▢𒀭▢</span><span class="translit">{d}amar-{d}suen</span><span class="gloss">Amar-Suen,</span></div>
+    <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">nita kal-ga</span><span class="gloss">mighty man,</span></div>
+    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri5{ki}</span><span class="gloss">king of Ur,</span></div>
+    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu2-ba</span><span class="gloss">king of the four quarters:</span></div>
+    <div class="reading-line"><span class="script">▢𒀭▢▢</span><span class="translit">ur-{d}li9-si4</span><span class="gloss">Ur-Lisi,</span></div>
+    <div class="reading-line"><span class="script">▢</span><span class="translit">ensi2</span><span class="gloss">governor</span></div>
+    <div class="reading-line"><span class="script">▢𒆠</span><span class="translit">umma{ki}</span><span class="gloss">of Umma,</span></div>
+    <div class="reading-line"><span class="script">▢▢</span><span class="translit">ARAD2-zu</span><span class="gloss">is your servant.</span></div>
   </div>
   <figcaption class="citation">
     Seal 1 of <em>AnOr</em> 01, 086 — an Ur III administrative tablet
     from Umma (period dated ca. 2100–2000 BCE), Bibliothèque Nationale
     et Universitaire de Strasbourg.
-    Source: <a href="https://cdli.mpiwg-berlin.mpg.de/artifacts/101077">CDLI P101077</a>
+    Source: <a href="https://cdli.earth/artifacts/101077">CDLI P101077</a>
     via <a href="https://arvicco.github.io/nabu/">Nabu</a>,
     <code>urn:nabu:cdli:p101077:seal.1</code> · license: attribution.
   </figcaption>
 </figure>
 
-In a real chapter this reading would be *graded*: every sign and word
-in it already taught, and the full cuneiform of each line shown beside
-the transliteration once the course's sign inventory covers it.
+In a real chapter this reading is *graded*: every ▢ is a sign not
+yet taught at that point in the course, and boxes turn into signs as
+the inventory grows — the native script always stands beside the
+transliteration, never omitted.
 
 ## Where a real chapter goes from here
 

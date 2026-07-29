@@ -12,7 +12,7 @@ permalink: /cuneiform/101/00-orientation/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: []
-shows: ["𒀭", "𒆳", "𒀀"]
+shows: ["𒀭", "𒆳", "𒀀", "𒀸", "𒁹", "𒌋"]
 ---
 
 # Orientation
@@ -54,6 +54,45 @@ survive — more original documents than from any other ancient
 civilization — because clay, unlike paper, does not burn: fire bakes
 it harder.
 
+
+## The three strokes — see them once
+
+Everything cuneiform is built from three marks a reed stylus presses
+into clay. Here they are, drawn large; chapter 01 explains the how
+and the why, but your eye should meet them now:
+
+<figure class="evolution">
+  <svg viewBox="0 0 640 150" role="img" aria-label="The three basic cuneiform strokes drawn large: a horizontal wedge with its head at the left, a vertical wedge with its head at the top, and the corner wedge, a small open angle.">
+    <title>The three basic strokes (schematic)</title>
+    <g fill="currentColor" stroke="none">
+      <path d="M40 65 L155 58 L155 76 Z"/>
+      <path d="M300 25 L318 25 L309 125 Z"/>
+      <path d="M480 45 L522 78 L510 86 L480 62 Z"/>
+      <path d="M480 45 L516 38 L512 52 L492 55 Z"/>
+    </g>
+    <text x="97" y="115" text-anchor="middle" fill="currentColor" font-size="15">horizontal wedge</text>
+    <text x="309" y="145" text-anchor="middle" fill="currentColor" font-size="15">vertical wedge</text>
+    <text x="500" y="125" text-anchor="middle" fill="currentColor" font-size="15">corner wedge</text>
+  </svg>
+  <figcaption class="citation">Head first — the deep, wide end where
+  the stylus bit in — then the tapering tail. Every sign in this
+  course decomposes into these three.</figcaption>
+</figure>
+
+And here they are at work inside real signs, enlarged from this
+site's own font — pure single strokes on the left, combinations on
+the right:
+
+<div class="glyph-exhibit">
+  <figure><span class="script">𒀸</span><figcaption>one horizontal</figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>one vertical</figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>one corner wedge</figcaption></figure>
+  <figure><span class="script">𒆳</span><figcaption>three corners: mountains</figcaption></figure>
+  <figure><span class="script">𒀭</span><figcaption>a star of wedges: heaven</figcaption></figure>
+</div>
+
+All five of these will be formally yours in chapter 04.
+
 ## The shape of the course
 
 Chapters build strictly on one another; read them in order.
@@ -65,9 +104,12 @@ Chapters build strictly on one another; read them in order.
 - **04–05** put signs in your hands: a starter inventory chosen for
   frequency *and* simplicity, then the number system.
 - **06** is the first summit: reading genuine seals and bricks.
-- **07–09** widen the view: the scribal school, the script's three
-  millennia and many languages, and how it was deciphered.
-- **10** is the reference: every sign taught, every convention used.
+- **07–09** keep the signs coming while widening the view: people
+  and gods, the scribal school itself, and the script's three
+  millennia and many languages.
+- **10** tells how the wedges were deciphered — and teaches the kind
+  of sign that made it possible.
+- **11** is the reference: every sign taught, every convention used.
 
 Two commitments hold everywhere in Edubba. **Nothing untaught:** a
 reading will never use a sign you have not been given — a rule our
@@ -88,7 +130,7 @@ identity, so you can always follow a text back to the tablet.
   by chapter; revisit old signs each session before meeting new ones.
 - **Say the readings aloud.** Sign names and sound values stick to
   the ear faster than to the eye.
-- **Use the reference early.** Chapter 10 grows with the course;
+- **Use the reference early.** Chapter 11 grows with the course;
   whenever a sign feels loose, look it up.
 
 ## About these materials

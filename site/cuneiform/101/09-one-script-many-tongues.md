@@ -1,21 +1,56 @@
 ---
-title: "08 · One script, many tongues"
-short_title: "08 · One script, many tongues"
+title: "09 · One script, many tongues"
+short_title: "09 · One script, many tongues"
 description: >-
   Three millennia of cuneiform in outline, and how a single writing
   system came to serve Sumerian, Akkadian, and a dozen other
   languages of the ancient Near East.
 layout: chapter
 course: cuneiform-101
-chapter: 8
-permalink: /cuneiform/101/08-one-script-many-tongues/
+chapter: 9
+permalink: /cuneiform/101/09-one-script-many-tongues/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
+teaches: ["𒂗", "𒆤"]
 shows: []
 ---
 
 # One script, many tongues
+
+Two signs to open — and with them, the name of the god who presided
+over the whole story this chapter tells.
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒂗</td><td>EN</td><td><em>en</em></td>
+      <td>lord; high priest</td>
+      <td>~7 wedges; ninth most frequent value in the literary corpus</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒆤</td><td>KID</td><td><em>lil₂</em> (lil2)</td>
+      <td>air, wind, spirit</td>
+      <td>~9 wedges; commonly connected with a reed mat in origin —
+          here for one job above all</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="composition">
+  <p class="composition-row script" aria-label="The three signs of the god Enlil">
+    <span>𒀭</span><span>𒂗</span><span>𒆤</span>
+  </p>
+  <figcaption class="citation">
+    <em>{d}en-lil₂</em> — <strong>Enlil</strong>, "Lord Air", chief
+    of the Sumerian pantheon: the silent divine star you have known
+    since chapter 03, then <em>en</em> + <em>lil₂</em>. His temple
+    you could already write in chapter 04: <span class="script">𒂍𒆳</span>,
+    the é-kur. Now you can write its landlord.
+  </figcaption>
+</figure>
 
 Every earlier chapter has treated cuneiform as one thing: a set of
 signs, a way of pressing them into clay, a system for turning marks
@@ -29,27 +64,70 @@ detail belongs to later, specialized courses. Think of it as a map of
 where this school's later offerings, the [2xx courses]({{ '/cuneiform/' | relative_url }}),
 will eventually take you.
 
+
+## The map under the story
+
+<figure class="evolution">
+  <svg viewBox="0 0 660 400" role="img" aria-label="Schematic map of the ancient Near East: the Mediterranean at the west, the Tigris and Euphrates flowing southeast to the Persian Gulf, with dots marking Hattusa in Anatolia, Ugarit on the Syrian coast, Assur and Nineveh on the upper Tigris, Babylon and Nippur in central Mesopotamia, Umma, Uruk and Ur in the south, Susa and Behistun to the east.">
+    <title>The cuneiform world (schematic, not to scale)</title>
+    <g fill="none" stroke="currentColor">
+      <path d="M120 60 C 100 120, 95 200, 115 260 C 122 285, 118 310, 100 340" stroke-width="3"/>
+      <path d="M530 330 C 555 340, 590 360, 610 390" stroke-width="3"/>
+      <path d="M255 95 C 230 150, 260 200, 330 245 C 400 288, 470 310, 535 332" stroke-width="2.5"/>
+      <path d="M330 80 C 330 140, 370 200, 430 250 C 480 290, 515 315, 545 330" stroke-width="2.5"/>
+      <path d="M560 100 l 18 -22 l 18 22 M560 150 l 18 -22 l 18 22 M560 200 l 18 -22 l 18 22" stroke-width="2" opacity="0.6"/>
+    </g>
+    <g fill="currentColor" font-size="13">
+      <text x="46" y="200" opacity="0.8">Mediterranean</text>
+      <text x="545" y="320" opacity="0.8">Persian Gulf</text>
+      <text x="243" y="188" opacity="0.8" transform="rotate(28 253 188)">Euphrates</text>
+      <text x="392" y="192" opacity="0.8" transform="rotate(35 392 192)">Tigris</text>
+      <text x="586" y="235" opacity="0.8">Zagros</text>
+      <circle cx="215" cy="55" r="5"/><text x="228" y="59">Hattusa (Hittite)</text>
+      <circle cx="130" cy="130" r="5"/><text x="142" y="134">Ugarit</text>
+      <circle cx="360" cy="140" r="5"/><text x="372" y="144">Assur</text>
+      <circle cx="352" cy="105" r="5"/><text x="364" y="103">Nineveh</text>
+      <circle cx="352" cy="252" r="5"/><text x="296" y="245">Babylon</text>
+      <circle cx="398" cy="277" r="5"/><text x="344" y="287">Nippur</text>
+      <circle cx="455" cy="297" r="5"/><text x="465" y="292">Umma</text>
+      <circle cx="440" cy="322" r="5"/><text x="392" y="332">Uruk</text>
+      <circle cx="487" cy="335" r="5"/><text x="494" y="354">Ur</text>
+      <circle cx="545" cy="270" r="5"/><text x="555" y="274">Susa (Elamite)</text>
+      <circle cx="555" cy="180" r="5"/><text x="498" y="168">Behistun</text>
+    </g>
+  </svg>
+  <figcaption class="citation">Schematic and not to scale — relative
+  positions only: the two rivers run from the highlands southeast to
+  the Gulf; the Sumerian heartland (Uruk, Ur, Umma, Nippur) sits in
+  the far south, Babylon upstream of it, the Assyrian cities on the
+  upper Tigris, and the cuneiform-adapting neighbors around the
+  edges.</figcaption>
+</figure>
+
 ## The arc, in broad periods
 
 Cuneiform's story runs in phases that most handbooks agree on, even
 where exact dates are debated. What follows is the standard outline,
-kept deliberately coarse.
+kept deliberately coarse. (Absolute dates before the mid-second
+millennium follow the conventional "middle chronology"; all such
+dates carry real scholarly uncertainty, which is why round numbers
+are used.)
 
-**Late fourth millennium BCE — origins.** The earliest antecedents of
+**Origins — ca. 3350–3000 BCE (the Uruk IV–III periods).** The earliest antecedents of
 the script appear around the city of Uruk, in the far south of
 Mesopotamia, as a tool of administration: counting goods, recording
 rations, tracking labor. This is proto-cuneiform, pictographic and
 not yet tied to any one spoken language.
 
-**Third millennium BCE — Sumerian.** Over the following centuries the
+**Sumerian — the third millennium (ca. 2900–2100 BCE from the early city-states to the Sargonic era, then the Ur III state ca. 2100–2000 BCE).** Over the following centuries the
 script grows from an accounting aid into a full writing system,
 capable of recording connected language — and the language it first
 records at length is Sumerian. Royal inscriptions, letters,
 literature, and enormous administrative archives survive from cities
 across southern Mesopotamia; the seals and bricks you read in
-chapter 6 belong to this world.
+chapter 06 belong to this world.
 
-**Later third millennium onward — Akkadian joins in.** Speakers of
+**Akkadian joins in — from ca. 2334 BCE (the Sargonic dynasty, ca. 2334–2154 BCE).** Speakers of
 Akkadian, a Semitic language wholly unrelated to Sumerian, adopt the
 same script for their own tongue. This shift is already visible under
 the Sargonic kings and becomes thoroughly established over the
@@ -57,17 +135,17 @@ centuries that follow. From this point on, cuneiform is no longer a
 Sumerian-only tool — it is a writing system available to more than
 one language, which is exactly the theme of this chapter.
 
-**Old Babylonian period — the classical age.** By the time of
-Hammurabi, Akkadian in its Babylonian form is a mature literary and
+**The Old Babylonian classical age — ca. 1900–1600 BCE.** By the
+time of Hammurabi of Babylon (r. ca. 1792–1750 BCE), Akkadian in its Babylonian form is a mature literary and
 legal language written in cuneiform, and this period supplies much of
 what later ages, and later scholars, treat as the classical standard
-— including the scribal schools you met in chapter 7. Sumerian, by
+— including the scribal schools you met in chapter 08. Sumerian, by
 now no longer anyone's native language, persists as a learned and
 liturgical one, copied and studied the way Latin would be studied
 long after Rome.
 
-**Late Bronze Age — an international script.** By the middle of the
-second millennium BCE, Akkadian cuneiform has become something close
+**The Late Bronze Age international script — ca. 1550–1200 BCE.** By
+the middle of the second millennium, Akkadian cuneiform has become something close
 to a diplomatic lingua franca across the whole eastern Mediterranean
 and Near East. The clearest evidence is startling if you have not met
 it before: the Amarna letters, a cache of correspondence between the
@@ -76,10 +154,11 @@ Egyptian hieroglyphs but in Akkadian cuneiform — the shared language
 of international affairs, even for a kingdom with its own venerable
 writing system.
 
-**First millennium BCE — Assyrian and Babylonian libraries.** Cuneiform
+**Assyrian and Babylonian libraries — the first millennium BCE.** Cuneiform
 continues as the working script of both Assyria and Babylonia,
 reaching one of its best-known high points in the library assembled
-at Nineveh under the Assyrian king Ashurbanipal — tens of thousands of
+at Nineveh under the Assyrian king Ashurbanipal (r. 668 – ca. 631
+BCE) — tens of thousands of
 tablets of literature, omens, medicine, and administration, much of it
 deliberately collected and copied.
 
@@ -174,7 +253,6 @@ per adapted tradition. The first-millennium library world and the
 paleography that traces sign forms across the centuries belong to the
 3xx special topics. None of those courses exist yet in full, but the
 map is now in front of you; the account above follows the outline
-given in standard references on the script, including Finkel and
-Taylor's *Cuneiform*.
+given in the standard references on the script.
 
 *Next: how a forgotten script came to be read again.*

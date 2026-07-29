@@ -42,6 +42,30 @@ lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
 
+2026-07-29 · M2-17 done · Gate 2 review revisions per owner feedback
+(prose style approved and memorized; rules codified in concept §3.3–5
++ CLAUDE.md): (1) sidebar course layout — pure Liquid/CSS from
+course:/chapter: front matter, current chapter highlighted, kicker
+"Cuneiform 101 · Chapter NN", <details> fallback on mobile, zero JS;
+(2) every chapter from 04 teaches signs: course restructured to 12
+chapters (07-10 renumbered 08-11; NEW ch. 07 Of gods and men: LU2/
+GAL/TUR with LUGAL decomposed and a real filiation roster line, CDLI
+P109952), ch. 05 +GUR, ch. 08 +DUB/BA (opens by reading the site
+wordmark), ch. 09 +EN/LIL2 (reads Enlil), ch. 10 +NA/NI (names as
+the decipherers' crowbar) — 21 signs total, all codepoints verified
+via unicodedata names, wedge counts from renders, ranks from the
+committed tables; (3) ≥1 graphic per chapter (stroke figure + glyph
+exhibits in 00, stylus section-view in 01, AN-three-roles in 03,
+wall chart in 04, number exhibit in 05, cylinder-seal rolling in 06,
+LUGAL composition in 07, wordmark in 08, schematic Near East map +
+concrete middle-chronology dates in 09, trilingual-principle figure
+in 10); (4) script-beside-translit principle with ▢ placeholders in
+ch. 06 + specimen readings, ▢ documented in ch. 11, nabu ATF→signs
+feature request drafted in .docs/; (5) CDLI links → cdli.earth;
+Finkel & Taylor citations cut to ch. 01 + ch. 11 further-study.
+Gate green (validator re-proved the new teaching order); subset now
+22 codepoints / 8.4K.
+
 2026-07-29 · PHASE 2 COMPLETE (M2-1..M2-16) · phase-2 · Cuneiform 101
 Foundations: 11 chapters + course index live. Instruments first:
 course architecture with dynamic prev/next nav computed from

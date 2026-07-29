@@ -69,6 +69,30 @@ way to press a curve; a curve requires the tool to change direction
 continuously against the surface, which a rigid corner pressed into
 resistant clay simply will not do.
 
+<figure class="evolution">
+  <svg viewBox="0 0 640 180" role="img" aria-label="Section view: a reed stylus held at an angle, its corner pressed into a clay surface, leaving a wedge-shaped depression that is deep at the head and shallow at the tail.">
+    <title>Press, don't drag: how a corner makes a wedge (schematic)</title>
+    <g fill="none" stroke="currentColor" stroke-width="3">
+      <path d="M30 130 H 610" stroke-width="4"/>
+      <path d="M30 150 H 610" stroke-width="1" opacity="0.4"/>
+      <!-- stylus -->
+      <g transform="rotate(-35 240 120)">
+        <rect x="228" y="10" width="24" height="110" rx="3"/>
+        <path d="M228 120 L252 120 L240 138 Z" fill="currentColor" stroke="none"/>
+      </g>
+      <!-- wedge depression -->
+      <path d="M240 130 L330 126 L330 134 Z" fill="currentColor" stroke="none" opacity="0.85"/>
+      <path d="M240 118 C 250 124, 258 128, 264 130" stroke-width="2" opacity="0.6"/>
+    </g>
+    <text x="180" y="40" fill="currentColor" font-size="15">reed stylus, cut corner</text>
+    <text x="360" y="115" fill="currentColor" font-size="15">head: deep bite</text>
+    <text x="440" y="160" fill="currentColor" font-size="15">tail: shallow lift</text>
+  </svg>
+  <figcaption class="citation">Schematic section — the corner bites
+  deepest where it enters and tapers where it lifts; that asymmetry
+  IS the wedge.</figcaption>
+</figure>
+
 Out of this constraint come three basic strokes, and only three:
 
 - a **horizontal wedge**, stylus corner pressed in from the left,

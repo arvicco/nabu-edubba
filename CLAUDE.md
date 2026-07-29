@@ -64,7 +64,12 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Graded readings may use only signs/vocabulary already taught (the
   "nothing untaught" validator joins the gate with the first course).
 - Didactic claims cite their scholarly basis (standard grammars, sign
-  lists) in-line; no confident nonsense about ancient scripts.
+  lists) in-line; no confident nonsense about ancient scripts. Cite a
+  given standard reference once or twice per course, not per chapter.
+- Every chapter from the first-signs chapter on teaches 1–3 new
+  theme-related signs (ideally opening the chapter); every chapter
+  carries at least one graphic illustration; readings couple
+  transliteration with native script, untaught signs as ▢.
 - Chapters are Markdown in `site/<school>/<course>/`, numbered
   (`00-orientation.md`, …), `layout: chapter`, permalink
   `/<school>/<NNN>/<NN-slug>/`. Front matter carries the pedagogy

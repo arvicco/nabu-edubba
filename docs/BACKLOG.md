@@ -139,6 +139,17 @@ Chapter-packet acceptance (all): rake gate green (incl. taught-signs
 rule), surface review of rendered page, top-tier factual review with
 named scholarly basis, citations resolve, licenses stated.
 
+## M2-17 · Gate 2 review revisions (owner feedback)  [tier: top — course-wide restructure] [status: done] [deps: M2-16]
+Goal: sidebar course layout + chapter kicker; every chapter from 04
+      teaches 1–3 theme-related signs (new ch. 07 Of gods and men;
+      course now 12 chapters, 00–11, 21 signs); ≥1 graphic per
+      chapter; script always beside translit with ▢ placeholders;
+      concrete dates + map in ch. 09; stroke figures in ch. 00;
+      CDLI links → cdli.earth; reference-citation dedup; nabu
+      ATF→signs feature request drafted (.docs/).
+Acceptance: rake gate green (validator re-proves the new teaching
+      order); sidebar + figures surface-reviewed; PR #5 updated.
+
 ## Decision items — Phase 2
 - D0-a · RULED with P2 approval (2026-07-29), option (a): P3 = 102
   Sumerian chapters 00–05, P4 opens the Egyptian school; 102/103

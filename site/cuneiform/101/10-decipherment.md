@@ -1,16 +1,16 @@
 ---
-title: "09 · Decipherment"
-short_title: "09 · Decipherment"
+title: "10 · Decipherment"
+short_title: "10 · Decipherment"
 description: >-
   How cuneiform, entirely forgotten for over a thousand years, was
   read again — and what still resists reading today.
 layout: chapter
 course: cuneiform-101
-chapter: 9
-permalink: /cuneiform/101/09-decipherment/
+chapter: 10
+permalink: /cuneiform/101/10-decipherment/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
+teaches: ["𒈾", "𒉌"]
 shows: []
 ---
 
@@ -24,9 +24,38 @@ handed down through unbroken tradition, the way the Latin alphabet
 was. It went out of use, entirely, and for well over a thousand years
 no living person could read a line of it. This chapter tells that
 recovery in outline, the way the standard histories of decipherment
-tell it — among them Irving Finkel and Jonathan Taylor's *Cuneiform*,
-a good next book for anyone who wants the full story — coarse on
-dates, careful on the logic that actually cracked the problem.
+tell it — coarse on dates, careful on the logic that actually
+cracked the problem.
+
+But first, two signs. They are not decoration: they are the kind of
+sign that made decipherment possible.
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒈾</td><td>NA</td><td><em>na</em></td>
+      <td>the syllable <em>na</em></td>
+      <td>~7 wedges; fourth most frequent value in the literary
+          corpus — pure phonetic workhorse</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒉌</td><td>NI</td><td><em>ni</em>, <em>ì</em> (i3)</td>
+      <td>the syllable <em>ni</em>; as <em>ì</em>, "oil"</td>
+      <td>~5 wedges; commonly connected with an oil jar in origin</td>
+    </tr>
+  </tbody>
+</table>
+
+Why open a history chapter with two syllable signs? Because signs
+like these — signs that carry pure sound — are what let cuneiform
+spell <em>names</em>. You met that in chapter 07 (your own name can
+only be spelled, not word-signed), and names, as you are about to
+see, were the decipherers' crowbar: the one thing a lost script and
+a known history could hold in common. A sign like 𒈾 keeps a spelled
+name honest, syllable by syllable.
 
 ## A script nobody could read
 
@@ -104,6 +133,31 @@ cliff face over more than one expedition in the 1830s and 1840s — and
 that copy, combined with the Old Persian reading already achieved,
 gave scholars a long, reliable bridge into the other two languages of
 the inscription, Babylonian above all.
+
+<figure class="evolution">
+  <svg viewBox="0 0 640 210" role="img" aria-label="Schematic of a trilingual inscription: three panels side by side labeled Old Persian, Elamite, and Babylonian, each carrying the same content represented as matching rows, with braces showing the same text stated three times.">
+    <title>One text, three scripts (schematic of the Behistun principle)</title>
+    <g fill="none" stroke="currentColor" stroke-width="3">
+      <rect x="40" y="30" width="160" height="120" rx="4"/>
+      <rect x="240" y="30" width="160" height="120" rx="4"/>
+      <rect x="440" y="30" width="160" height="120" rx="4"/>
+      <g stroke-width="2" opacity="0.7">
+        <path d="M55 55 h100 M55 75 h130 M55 95 h90 M55 115 h120"/>
+        <path d="M255 55 h120 M255 75 h95 M255 95 h130 M255 115 h85"/>
+        <path d="M455 55 h110 M455 75 h130 M455 95 h100 M455 115 h125"/>
+      </g>
+    </g>
+    <text x="120" y="175" text-anchor="middle" fill="currentColor" font-size="14">Old Persian</text>
+    <text x="120" y="193" text-anchor="middle" fill="currentColor" font-size="12" opacity="0.7">fewest signs — fell first</text>
+    <text x="320" y="175" text-anchor="middle" fill="currentColor" font-size="14">Elamite</text>
+    <text x="520" y="175" text-anchor="middle" fill="currentColor" font-size="14">Babylonian</text>
+    <text x="520" y="193" text-anchor="middle" fill="currentColor" font-size="12" opacity="0.7">hundreds of signs — fell last</text>
+  </svg>
+  <figcaption class="citation">The Behistun principle, schematically:
+  the same royal proclamation carved three times. Crack the easiest
+  column and the other two must say the same thing — a lever long
+  enough to move a whole script.</figcaption>
+</figure>
 
 ## Babylonian gives way
 

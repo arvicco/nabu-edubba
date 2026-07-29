@@ -59,7 +59,7 @@ the two gears freely in one line: logograms for the big content
 words, syllabograms for names, particles, and grammar. Akkadian
 scribes later pushed this even further, keeping Sumerian logograms as
 learned shorthand inside Akkadian sentences — but that story belongs
-to chapter 08.
+to chapter 09.
 
 ## Gear four: silent classifiers
 
@@ -72,6 +72,20 @@ the classifier of divine names. After a city or land, they wrote
 the classifier and knows what species of word is coming; a listener
 never hears it. In transliteration these are printed in braces:
 *{d}* and *{ki}*.
+
+<figure class="composition">
+  <p class="composition-row script" aria-label="The sign AN with three readings">
+    <span>𒀭</span>
+  </p>
+  <div class="glyph-exhibit">
+    <figure><span style="font-size:1.1rem"><em>an</em></span><figcaption>word: "heaven"</figcaption></figure>
+    <figure><span style="font-size:1.1rem"><em>diŋir</em></span><figcaption>word: "god"</figcaption></figure>
+    <figure><span style="font-size:1.1rem"><em>{d}</em></span><figcaption>silent: divine-name marker</figcaption></figure>
+  </div>
+  <figcaption class="citation">One sign, three jobs — the same
+  star does word-duty, other-word-duty, and silent classifier duty,
+  disambiguated purely by context.</figcaption>
+</figure>
 
 ## The price: one sign, many values
 
@@ -111,7 +125,7 @@ Four habits do the work, and this course trains all of them:
    maps the shape of the phrase around it.
 3. **Frequency.** A modest number of signs does most of the work —
    the reason this course's inventory is chosen by computed frequency
-   and graphic simplicity rather than by tradition (chapter 10
+   and graphic simplicity rather than by tradition (chapter 11
    documents both criteria, sign by sign).
 4. **Writing.** A sign your hand knows, your eye resolves faster.
    Which is exactly where the next chapter takes you.

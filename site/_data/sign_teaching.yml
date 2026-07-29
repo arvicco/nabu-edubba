@@ -137,7 +137,7 @@ signs:
   - glyph: "𒃲"
     codepoint: "120F2"
     name: "GAL"
-    taught_in: null
+    taught_in: 7
     value: "gal"
     meaning: "big, great"
     freq_etcsl: 29
@@ -173,7 +173,7 @@ signs:
   - glyph: "𒁾"
     codepoint: "1207E"
     name: "DUB"
-    taught_in: null
+    taught_in: 8
     value: "dub"
     meaning: "(clay) tablet"
     freq_etcsl: 170
@@ -193,4 +193,88 @@ signs:
     wedges: ~12
     iconicity: "LU₂×GAL 'big man' by composition, not picture"
     certainty: stated
+    tier: 3
+  - glyph: "𒇽"
+    codepoint: "121FD"
+    name: "LU2"
+    taught_in: 7
+    value: "lu₂ (lu2)"
+    meaning: "man, person"
+    freq_etcsl: 40
+    freq_cdli: 17
+    wedges: ~7
+    iconicity: "origin opaque in late forms; taught for its role in LUGAL and in professions"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒌉"
+    codepoint: "12309"
+    name: "TUR"
+    taught_in: 7
+    value: "dumu; tur"
+    meaning: "child, son (dumu); small (tur)"
+    freq_etcsl: 77
+    freq_cdli: 23
+    wedges: ~6
+    iconicity: "origin debated; the 'small' sign doing family duty"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒂗"
+    codepoint: "12097"
+    name: "EN"
+    taught_in: 9
+    value: "en"
+    meaning: "lord; high priest"
+    freq_etcsl: 9
+    freq_cdli: 31
+    wedges: ~7
+    iconicity: "origin opaque"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒆤"
+    codepoint: "121A4"
+    name: "KID"
+    taught_in: 9
+    value: "lil₂ (lil2); kid"
+    meaning: "air, spirit (lil₂) — the LIL of Enlil"
+    freq_etcsl: 56
+    freq_cdli: 79
+    wedges: ~9
+    iconicity: "commonly connected with a reed mat; late form opaque"
+    certainty: stated
+    tier: 3
+  - glyph: "𒈾"
+    codepoint: "1223E"
+    name: "NA"
+    taught_in: 10
+    value: "na"
+    meaning: "(syllable na); stone in some words"
+    freq_etcsl: 4
+    freq_cdli: 10
+    wedges: ~7
+    iconicity: "workhorse syllabogram; pictorial past not transparent"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒉌"
+    codepoint: "1224C"
+    name: "NI"
+    taught_in: 10
+    value: "ni; i₃ (i3)"
+    meaning: "(syllable ni); oil, butter as i₃"
+    freq_etcsl: 11
+    freq_cdli: 32
+    wedges: ~5
+    iconicity: "commonly connected with an oil jar"
+    certainty: stated
+    tier: 3
+  - glyph: "𒄥"
+    codepoint: "12125"
+    name: "GUR"
+    taught_in: 5
+    value: "gur"
+    meaning: "gur — the great capacity measure of grain accounts"
+    freq_etcsl: 215
+    freq_cdli: 33
+    wedges: ~6
+    iconicity: "origin opaque; taught for its job in accounts"
+    certainty: unclear
     tier: 3
