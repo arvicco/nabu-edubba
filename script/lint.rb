@@ -7,6 +7,9 @@ require_relative "cuneiform_scan"
 #   no-js         wave 1 is text-pure — no <script> tags, no .js assets
 #   front-matter  every Markdown page starts with front matter ("---")
 #   relative-links internal links never hard-code the production origin
+#   base-relative internal links go through Liquid's relative_url, never
+#                 root-absolute href="/x" or ](/x) — the site must work
+#                 at any base path (github.io/nabu-edubba AND edubba.ac)
 #   font-coverage every cuneiform codepoint used in site/ is covered by
 #                 the committed font subset manifest (no tofu ships)
 #
@@ -16,6 +19,7 @@ module Edubba
   module Lint
     PROD_ORIGIN = %r{https?://(www\.)?edubba\.ac}i
     SCRIPT_TAG = /<script\b/i
+    ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
 
     Violation = Struct.new(:file, :rule, :detail)
 
@@ -56,6 +60,10 @@ module Edubba
       end
       if PROD_ORIGIN.match?(text)
         found << Violation.new(path, "relative-links", "hard-coded production origin")
+      end
+      if ROOT_ABSOLUTE_LINK.match?(text)
+        found << Violation.new(path, "base-relative",
+                               %q(root-absolute internal link — use {{ '/x/' | relative_url }}))
       end
       if path.end_with?(".md") && !text.start_with?("---\n")
         found << Violation.new(path, "front-matter", "Markdown page without front matter")

@@ -16,7 +16,7 @@ class LintTest < Minitest::Test
     end
   end
 
-  CLEAN_PAGE = "---\ntitle: Test\n---\n\nWedge [basics](/cuneiform/).\n"
+  CLEAN_PAGE = "---\ntitle: Test\n---\n\nWedge [basics]({{ '/cuneiform/' | relative_url }}).\n"
 
   def test_clean_site_has_no_violations
     with_site("index.md" => CLEAN_PAGE, "_layouts/default.html" => "<html>{{ content }}</html>") do |dir|
@@ -55,6 +55,29 @@ class LintTest < Minitest::Test
   def test_html_layout_without_front_matter_is_not_flagged
     with_site("_layouts/default.html" => "<html>{{ content }}</html>") do |dir|
       refute_includes Edubba::Lint.violations(dir).map(&:rule), "front-matter"
+    end
+  end
+
+  # --- base-relative rule (site must work at any base path) ---
+
+  def test_root_absolute_markdown_link_is_flagged
+    with_site("index.md" => CLEAN_PAGE + "[school](/cuneiform/)\n") do |dir|
+      assert_includes Edubba::Lint.violations(dir).map(&:rule), "base-relative"
+    end
+  end
+
+  def test_root_absolute_href_is_flagged
+    with_site("index.md" => CLEAN_PAGE + "<a href=\"/hanzi/\">hanzi</a>\n") do |dir|
+      assert_includes Edubba::Lint.violations(dir).map(&:rule), "base-relative"
+    end
+  end
+
+  def test_relative_url_links_and_external_links_are_clean
+    page = CLEAN_PAGE +
+           "<a href=\"{{ '/hanzi/' | relative_url }}\">h</a> " \
+           "[gh](https://github.com/arvicco/nabu-edubba/issues)\n"
+    with_site("index.md" => page) do |dir|
+      refute_includes Edubba::Lint.violations(dir).map(&:rule), "base-relative"
     end
   end
 

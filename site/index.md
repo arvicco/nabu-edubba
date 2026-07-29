@@ -22,17 +22,17 @@ at any pace, forever.
 ## The schools
 
 <div class="school-grid">
-  <a class="school-card accent-cuneiform" href="/cuneiform/">
+  <a class="school-card accent-cuneiform" href="{{ '/cuneiform/' | relative_url }}">
     <span class="school-glyph script" aria-hidden="true">𒀭</span>
     <strong>Cuneiform</strong>
     <span class="school-note">Sumerian, Akkadian, and the wedge-written world — the first school, opening now</span>
   </a>
-  <a class="school-card accent-hieroglyphs" href="/hieroglyphs/">
+  <a class="school-card accent-hieroglyphs" href="{{ '/hieroglyphs/' | relative_url }}">
     <span class="school-glyph" aria-hidden="true">☥</span>
     <strong>Egyptian hieroglyphs</strong>
     <span class="school-note">The writing of the Nile, from sacred carvings to Coptic — planned next</span>
   </a>
-  <a class="school-card accent-hanzi" href="/hanzi/">
+  <a class="school-card accent-hanzi" href="{{ '/hanzi/' | relative_url }}">
     <span class="school-glyph" aria-hidden="true">字</span>
     <strong>Hanzi &amp; Kanji</strong>
     <span class="school-note">The living logographic tradition of China and Japan — planned</span>
@@ -85,7 +85,7 @@ decipherment works, and why these have not yielded yet.
 
 ## Start here
 
-The [cuneiform school](/cuneiform/) opens first: its foundations
+The [cuneiform school]({{ '/cuneiform/' | relative_url }}) opens first: its foundations
 course teaches how wedges on clay became writing, and its literacy
 tracks lead into Sumerian and Akkadian. The other schools open in
 successive waves.
