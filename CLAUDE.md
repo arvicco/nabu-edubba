@@ -93,8 +93,12 @@ calls in tests — committed extracts only.
 ```
 site/           the published site (Jekyll source): _config.yml,
                 _layouts/, assets/, index.md, <school>/<course>/
-docs/           process + concept (NOT published): concept.md,
-                DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+docs/           process + concept (in-repo public, not on the site):
+                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+.docs/          GITIGNORED internal docs — phase plans, owner
+                communication, surveys, consideration output. General
+                owner rule (2026-07-29): anything not intended for
+                public consumption goes here, never in docs/
 script/         gate tooling (lint.rb)
 test/           minitest suite
 bin/            authoring-time instruments (curriculum compiler; talks
@@ -104,7 +108,6 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 0 complete pending Gate 0 PR merge (bootstrap: gate command,
-site stub, CI, README v1; concept ratified 2026-07-29). On merge,
-Phase 1 (site skeleton) packet elaboration begins. Update this line
-at each gate.
+Phase 1 — site skeleton (Gate 0 merged 2026-07-29): auto-deploy,
+visual identity + vendored fonts, map-of-writing landing, school
+stubs, sample chapter, edubba.ac live. Update this line at each gate.

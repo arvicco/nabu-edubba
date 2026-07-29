@@ -1,17 +1,15 @@
 name: Deploy site to GitHub Pages
 
-# Deploys on merge to main — merging IS the deploy action (human-gated).
-# Builds with OUR bundle (Jekyll 4.4, same Gemfile.lock as local and CI)
-# rather than actions/jekyll-build-pages, so the deployed site is built
-# by exactly the toolchain the gate verified.
+# Deploys on EVERY push to main — merging a PR IS the deploy action
+# (human-gated; owner ruling 2026-07-29: no manual dispatch step). No
+# paths filter: a redundant rebuild is cheap, a silently missed deploy
+# is not. Builds with OUR bundle (Jekyll 4.4, same Gemfile.lock as
+# local and CI) rather than actions/jekyll-build-pages, so the deployed
+# site is built by exactly the toolchain the gate verified.
 
 on:
   push:
     branches: [main]
-    paths:
-      - "site/**"
-      - "Gemfile*"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:

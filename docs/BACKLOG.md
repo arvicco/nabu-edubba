@@ -37,7 +37,7 @@ Goal: .github/workflows/ci.yml runs `rake gate` on push/PR (Ruby 3.3,
 Acceptance: CI green on the pushed phase-0 head (verifiable only after
       the owner creates the GitHub repo — Gate 0 runbook step).
 
-## M0-4 · README v1  [tier: top — public authorship statement, owner-adjacent] [status: in-progress — written (with LICENSE, CC BY-SA); owner accepts at Gate 0] [deps: M0-2]
+## M0-4 · README v1  [tier: top — public authorship statement, owner-adjacent] [status: done — accepted via Gate 0 PR merge] [deps: M0-2]
 Goal: honest user-facing document: what Edubba is, what exists today
       (nothing but a stub), the roadmap, the plainly-stated AI-drafted-
       under-owner-review authorship stance, GitHub Issues as feedback,
@@ -51,10 +51,52 @@ Acceptance: owner accepts at Gate 0.
 
 ---
 
-## Phase 1 — site skeleton (outline only; elaborated after Gate 0)
+## Phase 1 — site skeleton (Gate 0 merged 2026-07-29; elaborated)
 
-Landing page as the map of writing (typology grid + family tree);
-shared visual identity (typography, per-school accents, vendored
-subsetted fonts incl. Noto Sans Cuneiform); one fully-styled sample
-chapter exercising the whole layout; school stub pages for waves 1–3;
-Pages live at edubba.ac (owner: Pages settings + DNS). Text-pure.
+## M1-1 · Auto-deploy on merge  [tier: top — deploy semantics, owner ruling] [status: in-progress] [deps: --]
+Goal: merging any PR to main deploys the site, no manual dispatch:
+      pages.yml paths filter removed; github-pages environment policy
+      fixed to allow main only (was pinned to phase-0 — see worklog
+      incident).
+Acceptance: the PR merging this packet itself triggers a green deploy
+      run; construction sign live at arvicco.github.io/nabu-edubba.
+
+## M1-2 · Visual identity + vendored fonts  [tier: top — first-of-family design; identity is owner-adjacent] [status: ready] [deps: --]
+Goal: typography scale, per-school accent tokens, and vendored
+      subsetted webfonts (Noto Sans Cuneiform first; OFL license file
+      alongside) so the 𒂍𒁾𒁀𒀀 wordmark and any cuneiform render
+      without tofu on stock systems.
+Acceptance: rake gate green; screenshot of served page read by the
+      session shows real glyphs (surface checklist §6b); font files
+      + OFL committed; no external font requests (lint/proofer clean).
+
+## M1-3 · Map-of-writing landing page  [tier: top — first-of-family content] [status: ready] [deps: M1-2]
+Goal: replace the construction sign: typology grid (logographic /
+      syllabary / abjad / alphabet / abugida / featural) + the family
+      tree of writing, linking to school stubs; still text-pure.
+Acceptance: rake gate green; surface checklist pass; every school
+      cell links to a stub that exists.
+
+## M1-4 · School stubs (waves 1–3)  [tier: implementation — template-following, spec below] [status: ready] [deps: M1-3]
+Goal: /cuneiform/, /hieroglyphs/, /hanzi/ catalog pages: one-paragraph
+      school intro, planned course tree (from concept §3), honest
+      "no courses yet" state.
+Acceptance: rake gate green; linked from landing; no dead links.
+
+## M1-5 · Sample chapter  [tier: top — establishes the chapter template family] [status: ready] [deps: M1-2]
+Goal: one fully-styled specimen chapter exercising the literacy-ladder
+      layout end-to-end: chapter nav (prev/next/TOC), native-script +
+      transliteration blocks, graded-reading panel with URN citation
+      footer, further-reading section. Lives under /specimen/ until a
+      real course adopts the template.
+Acceptance: rake gate green; surface checklist pass incl. mobile
+      geometry and text-browser sanity.
+
+## M1-6 · edubba.ac goes live  [owner action] [status: ready] [deps: M1-1]
+Goal: custom domain on Pages + DNS records; site serves at
+      https://edubba.ac with HTTPS.
+Acceptance: curl -sI https://edubba.ac returns 200 with the landing
+      page; recorded here.
+
+## Decision items — Phase 1
+- (none yet; D0-a still open, needed before Phase 2 elaboration)
