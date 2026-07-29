@@ -1,0 +1,179 @@
+# Sign teaching-order data — Cuneiform 101 candidate set (M2-3).
+#
+# Owner ruling 2026-07-29 (docs/concept.md §3.1): teaching order weighs
+# corpus FREQUENCY and graphic SIMPLICITY together; frequency alone
+# never dictates order.
+#
+# Sources & method:
+# - freq_*: rank of the sign's cited value in value-freq-etcsl.tsv /
+#   value-freq-cdli.tsv (computed by bin/sign_seq.rb from Nabu exports;
+#   corpus spellings differ — ETCSL c=š j=ŋ, CDLI ATF sz).
+# - wedges: counted by eye from the Noto Sans Cuneiform reference
+#   glyph (Neo-Assyrian standard forms) rendered at 110px; "~" marks
+#   dense signs where exact segmentation is debatable.
+# - iconicity: the commonly cited pictographic origin, per the
+#   standard accounts (Labat, Manuel d'épigraphie akkadienne; Borger,
+#   MZL; popular synthesis in Finkel & Taylor, Cuneiform, British
+#   Museum Press 2015). certainty: classic = textbook-standard;
+#   stated = commonly given but less diagnostic; unclear = origin
+#   debated, do not teach as fact.
+#
+# tier: proposed teaching wave inside ch. 04 (1 = first strokes,
+# 2 = iconic pictograph descendants, 3 = composite/complex signs
+# taught late in the course, not in ch. 04's core set).
+
+signs:
+  - glyph: "𒀸"
+    codepoint: "12038"
+    name: "AŠ"
+    value: "aš (ash/asz)"
+    meaning: "one; single"
+    freq_etcsl: null
+    freq_cdli: 8
+    wedges: 1
+    iconicity: "the atomic horizontal wedge itself — nothing to depict"
+    certainty: classic
+    tier: 1
+  - glyph: "𒁹"
+    codepoint: "12079"
+    name: "DIŠ"
+    value: "diš (disz)"
+    meaning: "one (counting); item marker"
+    freq_etcsl: null
+    freq_cdli: 1
+    wedges: 1
+    iconicity: "the atomic vertical wedge; the counting stroke"
+    certainty: classic
+    tier: 1
+  - glyph: "𒌋"
+    codepoint: "1230B"
+    name: "U"
+    value: "u"
+    meaning: "ten"
+    freq_etcsl: null
+    freq_cdli: 6
+    wedges: 1
+    iconicity: "the corner wedge (Winkelhaken), the impressed stylus tip"
+    certainty: classic
+    tier: 1
+  - glyph: "𒀀"
+    codepoint: "12000"
+    name: "A"
+    value: "a"
+    meaning: "water"
+    freq_etcsl: 1
+    freq_cdli: 3
+    wedges: 2
+    iconicity: "two streams of flowing water"
+    certainty: classic
+    tier: 2
+  - glyph: "𒆳"
+    codepoint: "121B3"
+    name: "KUR"
+    value: "kur"
+    meaning: "mountain; foreign land"
+    freq_etcsl: 43
+    freq_cdli: 173
+    wedges: 3
+    iconicity: "three mountain peaks"
+    certainty: classic
+    tier: 2
+  - glyph: "𒀭"
+    codepoint: "1202D"
+    name: "AN"
+    value: "an; diŋir (dijir/dingir)"
+    meaning: "heaven; god (determinative {d})"
+    freq_etcsl: 8
+    freq_cdli: 41
+    wedges: ~8
+    iconicity: "an eight-pointed star"
+    certainty: classic
+    tier: 2
+  - glyph: "𒌓"
+    codepoint: "12313"
+    name: "UD"
+    value: "ud; utu"
+    meaning: "day; sun"
+    freq_etcsl: 42
+    freq_cdli: 382
+    wedges: ~4
+    iconicity: "the sun rising between hills"
+    certainty: stated
+    tier: 2
+  - glyph: "𒊺"
+    codepoint: "122BA"
+    name: "ŠE"
+    value: "še (ce/sze)"
+    meaning: "barley; grain"
+    freq_etcsl: 83
+    freq_cdli: 25
+    wedges: ~8
+    iconicity: "an ear of barley on its stalk"
+    certainty: classic
+    tier: 2
+  - glyph: "𒆠"
+    codepoint: "121A0"
+    name: "KI"
+    value: "ki"
+    meaning: "earth; place (determinative {ki})"
+    freq_etcsl: 10
+    freq_cdli: 4
+    wedges: ~7
+    iconicity: "origin debated — teach shape, not story"
+    certainty: unclear
+    tier: 2
+  - glyph: "𒃲"
+    codepoint: "120F2"
+    name: "GAL"
+    value: "gal"
+    meaning: "big, great"
+    freq_etcsl: 29
+    freq_cdli: 49
+    wedges: ~6
+    iconicity: "origin not transparent in late forms"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒈬"
+    codepoint: "1222C"
+    name: "MU"
+    value: "mu"
+    meaning: "name; year"
+    freq_etcsl: 2
+    freq_cdli: 7
+    wedges: ~9
+    iconicity: "origin debated"
+    certainty: unclear
+    tier: 3
+  - glyph: "𒂍"
+    codepoint: "1208D"
+    name: "É"
+    value: "é (e2)"
+    meaning: "house, temple"
+    freq_etcsl: 30
+    freq_cdli: 28
+    wedges: ~10
+    iconicity: "often explained as a building/enclosure; late form opaque"
+    certainty: stated
+    tier: 3
+  - glyph: "𒁾"
+    codepoint: "1207E"
+    name: "DUB"
+    value: "dub"
+    meaning: "(clay) tablet"
+    freq_etcsl: 170
+    freq_cdli: 58
+    wedges: ~11
+    iconicity: "late form opaque; taught for its meaning (Edubba!)"
+    certainty: stated
+    tier: 3
+  - glyph: "𒈗"
+    codepoint: "12217"
+    name: "LUGAL"
+    value: "lugal"
+    meaning: "king"
+    freq_etcsl: 51
+    freq_cdli: 15
+    wedges: ~12
+    iconicity: "LU₂×GAL 'big man' by composition, not picture"
+    certainty: stated
+    tier: 3
