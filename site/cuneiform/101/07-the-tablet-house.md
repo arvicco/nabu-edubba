@@ -21,9 +21,8 @@ Cuneiform did not teach itself. Every scribe who ever pressed a
 stylus into clay had first sat in a schoolroom, copying signs a
 teacher had copied before them, back through a chain of apprenticeship
 that ran for three thousand years. The Sumerians called that
-schoolroom the **é-dub-ba-a** — literally "the house that distributes
-tablets," usually translated simply as "tablet house" or "scribal
-school." It is where this course's title comes from, and it is where
+schoolroom the **é-dub-ba-a** — conventionally translated "tablet
+house," the scribal school. It is where this course's title comes from, and it is where
 this chapter goes: not to another sign or another text type, but to
 the institution that produced every sign and text you have met so
 far.
@@ -143,10 +142,9 @@ copied by a student in one century could descend, with real fidelity,
 from a list compiled a thousand years earlier. That same
 lexical-list tradition — organized signs, arranged systematically,
 carried forward by copying — is the direct ancestor of the reference
-this course itself builds toward: [chapter 10]({{ '/cuneiform/101/' | relative_url }})
-gathers every sign this course has taught into exactly that kind of
-list, in the same spirit, if a much shorter one, as the scribes who
-compiled theirs on clay.
+this course itself builds toward: chapter 10 gathers every sign this
+course has taught into exactly that kind of list, in the same spirit,
+if a much shorter one, as the scribes who compiled theirs on clay.
 
 ## Colophons, pride, and libraries
 
@@ -165,10 +163,10 @@ of the Assyrian king Ashurbanipal at Nineveh — a royal collection
 assembled in the seventh century BCE that preserved enormous
 quantities of the literary and scholarly tradition the é-dub-ba-a had
 been copying, in one form or another, for two thousand years by then.
-The fuller story of that library, and of decipherment more generally,
-belongs to [chapter 08]({{ '/cuneiform/101/' | relative_url }}); here
-it stands as the summit that all the small, unglamorous discipline of
-sign lists and cane strokes was, in the end, building toward.
+The fuller story of that library belongs to chapter 08, and of
+decipherment to chapter 09; here it stands as the summit that all the
+small, unglamorous discipline of sign lists and cane strokes was, in
+the end, building toward.
 
 ## Why this site is called Edubba
 
@@ -177,9 +175,8 @@ Sumerians' own word for their scribal school because the shape of the
 work is the same: signs copied until they are second nature, lists
 worked through in order, model and exercise laid side by side, moving
 from the mechanical toward the literary. You began this course with
-signs and syllables, the way an é-dub-ba-a student began; by
-[chapter 06]({{ '/cuneiform/101/00-orientation/' | relative_url }})
-you were reading real inscriptions, the way a trained scribe read
+signs and syllables, the way an é-dub-ba-a student began; by chapter
+06 you were reading real inscriptions, the way a trained scribe read
 real contracts and letters. You are, in every way that matters, in
 the same apprenticeship the Old Babylonian schoolboy complained about
 in verse — minus, this course promises, the caning.

@@ -27,9 +27,9 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
   <li><a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">Your first signs</a> — a starter inventory, wedge by wedge</li>
   <li>Counting like a Sumerian — numbers and the world's first accounts <em>— forthcoming</em></li>
   <li>Reading real cuneiform — seals and bricks <em>— forthcoming</em></li>
-  <li>The tablet house — scribes and their school <em>— forthcoming</em></li>
-  <li>One script, many tongues — three millennia of adaptation <em>— forthcoming</em></li>
-  <li>Decipherment — how the wedges gave up their secret <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/07-the-tablet-house/' | relative_url }}">The tablet house</a> — scribes and their school</li>
+  <li><a href="{{ '/cuneiform/101/08-one-script-many-tongues/' | relative_url }}">One script, many tongues</a> — three millennia of adaptation</li>
+  <li><a href="{{ '/cuneiform/101/09-decipherment/' | relative_url }}">Decipherment</a> — how the wedges gave up their secret</li>
   <li>Reference — every sign taught, conventions, further study <em>— forthcoming</em></li>
 </ol>
 
