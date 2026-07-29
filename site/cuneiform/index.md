@@ -17,13 +17,14 @@ further courses for the wider cuneiform world and special topics. The aim
 throughout is genuine reading literacy: not trivia about the script, but
 the ability to look at a real tablet and read it.
 
-## Course catalog (planned)
+## Course catalog
 
-- **101 · Foundations** — planned. Wedge and stylus, tablet and clay, sign
-  anatomy and formation, how the system encodes language (logograms,
-  syllabograms, determinatives, polyvalency), the arc from proto-cuneiform
-  to the last dated tablet, and the decipherment story. Prerequisite for
-  everything below.
+- **[101 · Foundations]({{ '/cuneiform/101/' | relative_url }})** —
+  **in progress, chapters arriving now.** Wedge and stylus, tablet and
+  clay, sign anatomy and formation, how the system encodes language
+  (logograms, syllabograms, determinatives, polyvalency), the arc from
+  proto-cuneiform to the last dated tablet, and the decipherment
+  story. Prerequisite for everything below.
 - **102 · Sumerian** — planned. A literacy track: the sign inventory in
   frequency order, Sumerian to the degree reading demands, graded readings
   from royal inscriptions to proverbs and Edubba texts.
