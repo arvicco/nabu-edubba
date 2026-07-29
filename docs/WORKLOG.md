@@ -5,6 +5,16 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · M0-1, M0-2 done · phase-0 · Owner ran the one-time
+`bundle install` (vendor/bundle, jekyll 4.4.1, html-proofer 5.2.2);
+full `rake gate` GREEN end-to-end (lint clean, 6/6 tests, build 0.012s,
+htmlproofer 2 internal links OK). Outcome check on the built surface:
+_build/site/index.html rendered through the layout (wordmark/h1/footer
+present), CNAME=edubba.ac in the published tree, assets copied.
+Gemfile.lock committed for local/CI parity. M0-3 remains in-progress
+(CI green verifiable only once the GitHub repo exists); M0-4 awaits
+owner acceptance at Gate 0.
+
 2026-07-29 · M0-1..M0-4 (bootstrap sweep) · phase-0 · Repo initialized
 (main unborn; work on phase-0). Scaffolding committed from dev-loop
 templates with concept ratified same day. Gate tooling: Gemfile

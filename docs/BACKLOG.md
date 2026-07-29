@@ -16,14 +16,14 @@ Acceptance: <the machine-checkable oracle: which tests/checks prove it>
 
 ## Phase 0 — greenfield bootstrap (gate + conventions + stub)
 
-## M0-1 · The gate command  [tier: top — first-of-family for the repo] [status: in-progress — lint red-on-seed + green-on-HEAD and 6/6 tests verified on system Ruby; full `rake gate` (build+check) awaits owner-run `bundle install`] [deps: --]
+## M0-1 · The gate command  [tier: top — first-of-family for the repo] [status: done] [deps: --]
 Goal: `rake gate` = lint (script/lint.rb: no-JS rule, front matter,
       relative-links) + minitest suite + jekyll build + html-proofer
       (internal only). Fully offline.
 Acceptance: gate red on a seeded violation (a `<script>` tag in a site
       page), green on HEAD; lint rules pinned by test/lint_test.rb.
 
-## M0-2 · Site stub  [tier: top — establishes the visual/layout family] [status: in-progress — sources written and lint-clean; build+check verification awaits bundle install] [deps: M0-1]
+## M0-2 · Site stub  [tier: top — establishes the visual/layout family] [status: done] [deps: M0-1]
 Goal: buildable minimal site/ — _config.yml (Edubba branding,
       url edubba.ac), default layout, shared stylesheet skeleton,
       placeholder index, CNAME. No JS, semantic HTML.
