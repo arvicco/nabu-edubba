@@ -209,4 +209,9 @@ rule), surface review, top fact-review of grammar bites, citations
 script-beside-translit per chapter).
 
 ## Decision items — Phase 3
-- (none yet)
+- D3-a · May Edubba quote short NC-licensed passages (ETCSL, license
+  class nc) as graded readings? The site is non-commercial and every
+  reading is cited + licensed in place, but original prose is
+  CC BY-SA — owner ruling needed on the mix. Until ruled: CDLI
+  (attribution) only. Candidate NC readings recorded in
+  .docs/p3-readings.md (e.g. "an gal-ta ki gal-še3").
