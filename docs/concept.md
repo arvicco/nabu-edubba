@@ -190,8 +190,9 @@ rulings 2026-07-29):
 
 ## 4. Site architecture
 
-- **Hosting:** GitHub Pages from the `nabu-edubba` repo, served at
-  **edubba.ac** (CNAME). Branding is plain **Edubba** everywhere —
+- **Hosting:** GitHub Pages from the `nabu-edubba` repo; **edubba.ac**
+  redirects to the GitHub Pages URL (owner ruling 2026-07-29 — a
+  registrar forward, path-preserving, rather than a custom domain). Branding is plain **Edubba** everywhere —
   site, titles, prose; "nabu-edubba" is only the repo's name (logical
   grouping on GitHub). Nabu appears as the library Edubba reads from,
   with cross-links, not as part of the name.
@@ -285,8 +286,8 @@ permission profile). Specifics for this repo:
 - Generator: **Jekyll, null theme**.
 - **Wave 1 is text-pure** — no JS; minimalist scope overall.
 - License: **CC BY-SA** for original prose.
-- Repo stays **nabu-edubba**; site domain **edubba.ac**; branding is
-  plain **Edubba** everywhere else.
+- Repo stays **nabu-edubba**; **edubba.ac** redirects to the Pages
+  URL (ruling 2026-07-29); branding is plain **Edubba** everywhere.
 - Waves **1–3 confirmed** (Cuneiform, Egyptian, Hanzi/Kanji); wave 4+
   ordering deferred to the owner closer to the time.
 - Authorship stated **in README only**; **GitHub Issues** is the

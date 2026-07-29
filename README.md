@@ -4,8 +4,8 @@
 world's scripting traditions, ancient and living, from first signs to
 reading real texts.**
 
-Site: **[edubba.ac](https://edubba.ac)** (not yet live — see status
-below).
+Site: **[edubba.ac](https://edubba.ac)** (redirects to the GitHub
+Pages site).
 
 Edubba (Sumerian *é-dub-ba-a*, "the tablet house", the scribal school
 of ancient Mesopotamia) is a static site of **schools**, one per
@@ -20,12 +20,17 @@ with per-passage citations and licenses. The full design is in
 
 ## Status — honest, as of 2026-07-29
 
-**The first real course is open: [Cuneiform 101 ·
-Foundations](https://edubba.ac/cuneiform/101/)** — eleven chapters
-from orientation to decipherment, including genuine Ur III royal
-inscriptions read in the original (CDLI texts via Nabu, cited by URN
-and license). Also live: the map-of-writing landing page, catalog
-stubs for the hieroglyphs and hanzi schools, and a layout specimen.
+**Two courses live in the cuneiform school.**
+[101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
+thirteen chapters from orientation to decipherment, 25 signs,
+genuine Ur III royal inscriptions read in the original.
+[102 · Sumerian](https://edubba.ac/cuneiform/102/) has opened its
+first stretch — six chapters, 18 more signs in computed order,
+grammar in reading-sized bites, and readings from 4,600-year-old
+Fara-period tablets rendered in full cuneiform (all texts CDLI via
+Nabu, cited by URN and license). Also live: the map-of-writing
+landing page, catalog stubs for the hieroglyphs and hanzi schools,
+and a layout specimen.
 
 Under the hood: a computed curriculum (sign order = corpus frequency
 × graphic simplicity, from committed frequency tables over 1.5M+
@@ -35,8 +40,8 @@ makes tofu unshippable (the site serves a computed subset of Noto
 Sans Cuneiform), and the full gate (`rake gate`: lint + tests +
 build + offline link check) with auto-deploy on merge.
 
-Next (Phase 3): Cuneiform 102 — the Sumerian literacy track's opening
-chapters.
+Next (Phase 4): the Egyptian hieroglyphs school opens, while the
+Sumerian track continues in alternating phases.
 
 ## Building locally
 

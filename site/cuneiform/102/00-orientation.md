@@ -18,7 +18,7 @@ shows: []
 # Orientation: the long march
 
 Welcome back to the tablet house. You arrive with
-[101's](../101/) twenty-five signs, its conventions, and its habits —
+[101's]({{ '/cuneiform/101/' | relative_url }}) twenty-five signs, its conventions, and its habits —
 and this course assumes all of them without apology. 102 is a
 different kind of course: a **literacy track**. Fewer grand tours,
 more mileage. Each chapter grows your inventory by a computed batch,

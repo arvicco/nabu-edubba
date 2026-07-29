@@ -23,10 +23,10 @@ texts — increasingly in full cuneiform, boxes turning into signs.
 <ol class="course-toc" start="0">
   <li><a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">Orientation</a> — the long march, and your first new batch</li>
   <li><a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">The sentence in the clay</a> — Sumerian in one chapter</li>
-  <li>Batch II — and the genitive <em>— forthcoming</em></li>
-  <li>Batch III — plurals and doubling <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/102/02-batch-three-and-the-genitive/' | relative_url }}">Batch II</a> — and the genitive, the case that hides</li>
+  <li><a href="{{ '/cuneiform/102/03-batch-four-plurals-and-doubling/' | relative_url }}">Batch III</a> — plurals, doubling, and nam-</li>
   <li>Batch IV — the verbal chain, lightly <em>— forthcoming</em></li>
-  <li>Batch V — reading a royal dedication whole <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/102/05-batch-six-a-dedication-whole/' | relative_url }}">Batch V</a> — a dedication formula, whole</li>
 </ol>
 
 Chapters 00–05 are this course's committed opening stretch; further
