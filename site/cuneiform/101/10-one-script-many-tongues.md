@@ -1,14 +1,14 @@
 ---
-title: "09 · One script, many tongues"
-short_title: "09 · One script, many tongues"
+title: "10 · One script, many tongues"
+short_title: "10 · One script, many tongues"
 description: >-
   Three millennia of cuneiform in outline, and how a single writing
   system came to serve Sumerian, Akkadian, and a dozen other
   languages of the ancient Near East.
 layout: chapter
 course: cuneiform-101
-chapter: 9
-permalink: /cuneiform/101/09-one-script-many-tongues/
+chapter: 10
+permalink: /cuneiform/101/10-one-script-many-tongues/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: ["𒂗", "𒆤"]
@@ -28,7 +28,8 @@ over the whole story this chapter tells.
     <tr>
       <td class="script sign-cell">𒂗</td><td>EN</td><td><em>en</em></td>
       <td>lord; high priest</td>
-      <td>~7 wedges; ninth most frequent value in the literary corpus</td>
+      <td>~7 wedges; origin opaque in the late form; ninth most
+          frequent value in the literary corpus</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆤</td><td>KID</td><td><em>lil₂</em> (lil2)</td>
@@ -139,7 +140,7 @@ one language, which is exactly the theme of this chapter.
 time of Hammurabi of Babylon (r. ca. 1792–1750 BCE), Akkadian in its Babylonian form is a mature literary and
 legal language written in cuneiform, and this period supplies much of
 what later ages, and later scholars, treat as the classical standard
-— including the scribal schools you met in chapter 08. Sumerian, by
+— including the scribal schools you met in chapter 09. Sumerian, by
 now no longer anyone's native language, persists as a learned and
 liturgical one, copied and studied the way Latin would be studied
 long after Rome.

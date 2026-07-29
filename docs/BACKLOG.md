@@ -150,6 +150,15 @@ Goal: sidebar course layout + chapter kicker; every chapter from 04
 Acceptance: rake gate green (validator re-proves the new teaching
       order); sidebar + figures surface-reviewed; PR #5 updated.
 
+## M2-18 · Gate 2 review round 2 (owner feedback)  [tier: top] [status: done] [deps: M2-17]
+Goal: stroke-figure orientation fix; Name-vs-Reads explained early;
+      graphic-origin context in all sign-table notes; NEW ch. 08
+      The sign workshop (SAG/KA/KA×A/KA×GAR — course now 13 chapters,
+      25 signs); ch. 07 reading script column; reading-grid
+      alignment; ch. 12 sign count computed by Liquid.
+Acceptance: gate green; figures and alignment surface-reviewed;
+      PR #5 updated.
+
 ## Decision items — Phase 2
 - D0-a · RULED with P2 approval (2026-07-29), option (a): P3 = 102
   Sumerian chapters 00–05, P4 opens the Egyptian school; 102/103

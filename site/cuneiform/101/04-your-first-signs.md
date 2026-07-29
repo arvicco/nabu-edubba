@@ -32,13 +32,16 @@ library — 36,501 lines of Sumerian literature (ETCSL) and 1.5 million
 lines of administrative documents (CDLI). **Simplicity**: how few
 wedges a sign takes, and whether its shape still tells its story.
 A sign that is both frequent and simple earns an early seat. The
-full table, criterion by criterion, is in chapter 11.
+full table, criterion by criterion, is in chapter 12.
 
 ## Wave one: the atomic wedges
 
 Chapter 01 gave you the three basic strokes. Here is the payoff:
 each basic stroke, *on its own*, is already a sign — and not obscure
-ones, but the workhorses of a hundred thousand receipts.
+ones, but the workhorses of a hundred thousand receipts. (In these
+tables, remember chapter 03's convention: **Name** in capitals
+labels the sign itself; **Reads**, in italics, is what it says in
+text.)
 
 <table class="sign-table">
   <thead>

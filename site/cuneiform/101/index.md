@@ -28,10 +28,11 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
   <li><a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">Counting like a Sumerian</a> — numbers and the world's first accounts</li>
   <li><a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Reading real cuneiform</a> — seals and bricks</li>
   <li><a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">Of gods and men</a> — man, big man, son; the king disassembled</li>
-  <li><a href="{{ '/cuneiform/101/08-the-tablet-house/' | relative_url }}">The tablet house</a> — scribes and their school</li>
-  <li><a href="{{ '/cuneiform/101/09-one-script-many-tongues/' | relative_url }}">One script, many tongues</a> — three millennia of adaptation</li>
-  <li><a href="{{ '/cuneiform/101/10-decipherment/' | relative_url }}">Decipherment</a> — how the wedges gave up their secret</li>
-  <li><a href="{{ '/cuneiform/101/11-reference/' | relative_url }}">Reference</a> — every sign taught, conventions, further study</li>
+  <li><a href="{{ '/cuneiform/101/08-the-sign-workshop/' | relative_url }}">The sign workshop</a> — how scribes built new signs from old</li>
+  <li><a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">The tablet house</a> — scribes and their school</li>
+  <li><a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">One script, many tongues</a> — three millennia of adaptation</li>
+  <li><a href="{{ '/cuneiform/101/11-decipherment/' | relative_url }}">Decipherment</a> — how the wedges gave up their secret</li>
+  <li><a href="{{ '/cuneiform/101/12-reference/' | relative_url }}">Reference</a> — every sign taught, conventions, further study</li>
 </ol>
 
 Chapters appear here as they are finished; the list above is the

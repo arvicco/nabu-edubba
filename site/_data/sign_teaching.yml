@@ -173,7 +173,7 @@ signs:
   - glyph: "𒁾"
     codepoint: "1207E"
     name: "DUB"
-    taught_in: 8
+    taught_in: 9
     value: "dub"
     meaning: "(clay) tablet"
     freq_etcsl: 170
@@ -221,7 +221,7 @@ signs:
   - glyph: "𒂗"
     codepoint: "12097"
     name: "EN"
-    taught_in: 9
+    taught_in: 10
     value: "en"
     meaning: "lord; high priest"
     freq_etcsl: 9
@@ -233,7 +233,7 @@ signs:
   - glyph: "𒆤"
     codepoint: "121A4"
     name: "KID"
-    taught_in: 9
+    taught_in: 10
     value: "lil₂ (lil2); kid"
     meaning: "air, spirit (lil₂) — the LIL of Enlil"
     freq_etcsl: 56
@@ -245,7 +245,7 @@ signs:
   - glyph: "𒈾"
     codepoint: "1223E"
     name: "NA"
-    taught_in: 10
+    taught_in: 11
     value: "na"
     meaning: "(syllable na); stone in some words"
     freq_etcsl: 4
@@ -257,7 +257,7 @@ signs:
   - glyph: "𒉌"
     codepoint: "1224C"
     name: "NI"
-    taught_in: 10
+    taught_in: 11
     value: "ni; i₃ (i3)"
     meaning: "(syllable ni); oil, butter as i₃"
     freq_etcsl: 11
@@ -277,4 +277,52 @@ signs:
     wedges: ~6
     iconicity: "origin opaque; taught for its job in accounts"
     certainty: unclear
+    tier: 3
+  - glyph: "𒊕"
+    codepoint: "12295"
+    name: "SAG"
+    taught_in: 8
+    value: "saŋ (sag)"
+    meaning: "head; first"
+    freq_etcsl: null
+    freq_cdli: 68
+    wedges: ~8
+    iconicity: "a profile head, quarter-turned and wedge-rebuilt (the ch. 02 example)"
+    certainty: classic
+    tier: 3
+  - glyph: "𒅗"
+    codepoint: "12157"
+    name: "KA"
+    taught_in: 8
+    value: "ka"
+    meaning: "mouth"
+    freq_etcsl: 37
+    freq_cdli: 53
+    wedges: ~9
+    iconicity: "the head with strokes marking the mouth (gunû of SAG)"
+    certainty: classic
+    tier: 3
+  - glyph: "𒅘"
+    codepoint: "12158"
+    name: "KA×A"
+    taught_in: 8
+    value: "naŋ (nag)"
+    meaning: "to drink"
+    freq_etcsl: null
+    freq_cdli: 433
+    wedges: ~11
+    iconicity: "water written inside the mouth — containment made visible"
+    certainty: classic
+    tier: 3
+  - glyph: "𒅥"
+    codepoint: "12165"
+    name: "KA×GAR"
+    taught_in: 8
+    value: "gu₇ (gu7)"
+    meaning: "to eat"
+    freq_etcsl: 118
+    freq_cdli: 169
+    wedges: ~11
+    iconicity: "a portion written inside the mouth"
+    certainty: classic
     tier: 3

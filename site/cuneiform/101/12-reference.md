@@ -1,14 +1,14 @@
 ---
-title: "11 · Reference"
-short_title: "11 · Reference"
+title: "12 · Reference"
+short_title: "12 · Reference"
 description: >-
   Every sign taught in Cuneiform 101 with both selection criteria on
   display, the transliteration conventions used, and where to study
   next.
 layout: chapter
 course: cuneiform-101
-chapter: 11
-permalink: /cuneiform/101/11-reference/
+chapter: 12
+permalink: /cuneiform/101/12-reference/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: []
@@ -18,7 +18,7 @@ shows: []
 # Reference
 
 The scribes of the é-dub-ba-a opened their training with sign lists
-and never stopped consulting them; chapter 08 called the lexical
+and never stopped consulting them; chapter 09 called the lexical
 lists the first dictionaries. This page is this course's own small
 entry in that four-thousand-year-old genre — and unlike a clay list,
 it is generated directly from the course's sign registry, so it can
@@ -57,13 +57,14 @@ shape, not a story.
   </tbody>
 </table>
 
-Twelve signs is a genuine, if small, working inventory: enough to
-read the structural skeleton of every Ur III royal titulary, to
-compose any number below sixty, and to parse determinatives on
-sight. The registry holds further candidates (GAL "big", DUB
-"tablet") already measured by both criteria; they open the
-[Sumerian track](../), where the frequency-ordered long march
-begins.
+{% assign taught_count = site.data.sign_teaching.signs | where_exp: "s", "s.taught_in" | size %}
+{{ taught_count }} signs — counted live from the registry, so this
+number can never lie — make a genuine working inventory: enough to
+read the structural skeleton of every Ur III royal titulary, compose
+any number below sixty, parse determinatives on sight, spell with
+workhorse syllables, and see the workshop moves inside compound
+signs. The [Sumerian track](../) takes the inventory onward, in
+frequency-and-simplicity order, toward full reading literacy.
 
 ## Conventions used in this course
 
