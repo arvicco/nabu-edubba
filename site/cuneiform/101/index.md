@@ -21,9 +21,9 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
 
 <ol class="course-toc" start="0">
   <li><a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and how to study</li>
-  <li>Clay and reed — the medium that shaped the script <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">Clay and reed</a> — the medium that shaped the script</li>
   <li>From tokens to signs — where writing came from <em>— forthcoming</em></li>
-  <li>How signs mean — word-signs, syllables, determinatives <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">How signs mean</a> — word-signs, syllables, determinatives</li>
   <li>Your first signs — a starter inventory, wedge by wedge <em>— forthcoming</em></li>
   <li>Counting like a Sumerian — numbers and the world's first accounts <em>— forthcoming</em></li>
   <li>Reading real cuneiform — seals and bricks <em>— forthcoming</em></li>
