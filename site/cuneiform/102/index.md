@@ -1,5 +1,6 @@
 ---
 title: Cuneiform 102 · Sumerian
+assumes: cuneiform/101
 description: >-
   The Sumerian literacy track: the sign inventory grown in computed
   order, grammar in reading-sized bites, and real texts in full

@@ -27,6 +27,27 @@ module Edubba
       course_dirs(site_dir).flat_map { |dir| check_course(dir) }
     end
 
+    # A course index.md may declare `assumes: <relative course dir>`
+    # (e.g. "cuneiform/101"): every sign taught anywhere in that
+    # prerequisite course counts as taught from chapter 0 here.
+    def assumed_signs(course_dir)
+      index = File.join(course_dir, "index.md")
+      return Set.new unless File.exist?(index)
+
+      fm_text = File.read(index, encoding: "UTF-8")
+      return Set.new unless fm_text.start_with?("---\n") && (fm_end = fm_text.index("\n---", 4))
+
+      fm = YAML.safe_load(fm_text[4..fm_end]) || {}
+      prereq = fm["assumes"]
+      return Set.new unless prereq
+
+      prereq_dir = File.expand_path(File.join(course_dir, "..", "..", prereq))
+      Dir.glob(File.join(prereq_dir, "*.md")).each_with_object(Set.new) do |p, set|
+        ch = load_chapter(p)
+        set.merge(ch[:teaches]) if ch && ch[:chapter]
+      end
+    end
+
     def check_course(course_dir)
       chapters = Dir.glob(File.join(course_dir, "*.md"))
                     .map { |p| load_chapter(p) }
@@ -34,7 +55,7 @@ module Edubba
                     .select { |c| c[:chapter] }
                     .sort_by { |c| c[:chapter] }
       found = []
-      taught = Set.new
+      taught = assumed_signs(course_dir)
       chapters.each do |ch|
         taught.merge(ch[:teaches])
         allowed = taught + ch[:shows]
