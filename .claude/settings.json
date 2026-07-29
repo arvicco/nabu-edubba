@@ -1,0 +1,38 @@
+{
+  "//": "dev-loop permission profile — Edubba. Principle: inside the sandbox, full freedom; the boundary itself is hard. Deploys happen by merging to main, so main is the wall. No secrets exist in this project.",
+  "permissions": {
+    "allow": [
+      "Bash(rake gate)",
+      "Bash(rake test*)",
+      "Bash(rake lint*)",
+      "Bash(rake build*)",
+      "Bash(rake check*)",
+      "Bash(rake serve*)",
+      "Bash(bundle exec rake:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(bundle exec htmlproofer:*)",
+      "Bash(ruby script/*)",
+      "Bash(ruby test/*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git status)",
+      "Bash(git push origin phase-*)"
+    ],
+    "deny": [
+      "Bash(git push origin main*)",
+      "Bash(git push --force*)",
+      "Bash(git tag*)",
+      "Bash(bundle install*)",
+      "Bash(bundle update*)",
+      "Bash(gem install*)",
+      "Bash(brew install*)",
+      "Bash(npm *)",
+      "Bash(gh repo delete*)",
+      "Bash(gh api --method DELETE*)"
+    ]
+  }
+}
