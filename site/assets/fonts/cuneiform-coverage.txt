@@ -3,10 +3,14 @@
 # the gate fails if site/ uses a cuneiform codepoint not listed here.
 12000
 1202D
+12038
 12040
+12079
 1207E
 1208D
 121A0
 121B3
 12217
+122BA
+1230B
 12313

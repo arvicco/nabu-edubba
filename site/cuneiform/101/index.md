@@ -24,7 +24,7 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
   <li><a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">Clay and reed</a> — the medium that shaped the script</li>
   <li>From tokens to signs — where writing came from <em>— forthcoming</em></li>
   <li><a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">How signs mean</a> — word-signs, syllables, determinatives</li>
-  <li>Your first signs — a starter inventory, wedge by wedge <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">Your first signs</a> — a starter inventory, wedge by wedge</li>
   <li>Counting like a Sumerian — numbers and the world's first accounts <em>— forthcoming</em></li>
   <li>Reading real cuneiform — seals and bricks <em>— forthcoming</em></li>
   <li>The tablet house — scribes and their school <em>— forthcoming</em></li>
