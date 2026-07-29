@@ -16,28 +16,28 @@ Acceptance: <the machine-checkable oracle: which tests/checks prove it>
 
 ## Phase 0 — greenfield bootstrap (gate + conventions + stub)
 
-## M0-1 · The gate command  [tier: top — first-of-family for the repo] [status: in-progress] [deps: --]
+## M0-1 · The gate command  [tier: top — first-of-family for the repo] [status: in-progress — lint red-on-seed + green-on-HEAD and 6/6 tests verified on system Ruby; full `rake gate` (build+check) awaits owner-run `bundle install`] [deps: --]
 Goal: `rake gate` = lint (script/lint.rb: no-JS rule, front matter,
       relative-links) + minitest suite + jekyll build + html-proofer
       (internal only). Fully offline.
 Acceptance: gate red on a seeded violation (a `<script>` tag in a site
       page), green on HEAD; lint rules pinned by test/lint_test.rb.
 
-## M0-2 · Site stub  [tier: top — establishes the visual/layout family] [status: in-progress] [deps: M0-1]
+## M0-2 · Site stub  [tier: top — establishes the visual/layout family] [status: in-progress — sources written and lint-clean; build+check verification awaits bundle install] [deps: M0-1]
 Goal: buildable minimal site/ — _config.yml (Edubba branding,
       url edubba.ac), default layout, shared stylesheet skeleton,
       placeholder index, CNAME. No JS, semantic HTML.
 Acceptance: `rake build && rake check` green; index renders title,
       one-paragraph promise, and honest "under construction" state.
 
-## M0-3 · CI workflows  [tier: top — CI is the authority; first-of-kind] [status: in-progress] [deps: M0-1]
+## M0-3 · CI workflows  [tier: top — CI is the authority; first-of-kind] [status: in-progress — workflows written; green run verifiable only after owner creates the GitHub repo] [deps: M0-1]
 Goal: .github/workflows/ci.yml runs `rake gate` on push/PR (Ruby 3.3,
       bundler-cache); pages.yml builds site/ with OUR bundle (Jekyll
       4.4 parity, not actions/jekyll-build-pages) and deploys on main.
 Acceptance: CI green on the pushed phase-0 head (verifiable only after
       the owner creates the GitHub repo — Gate 0 runbook step).
 
-## M0-4 · README v1  [tier: top — public authorship statement, owner-adjacent] [status: in-progress] [deps: M0-2]
+## M0-4 · README v1  [tier: top — public authorship statement, owner-adjacent] [status: in-progress — written (with LICENSE, CC BY-SA); owner accepts at Gate 0] [deps: M0-2]
 Goal: honest user-facing document: what Edubba is, what exists today
       (nothing but a stub), the roadmap, the plainly-stated AI-drafted-
       under-owner-review authorship stance, GitHub Issues as feedback,
