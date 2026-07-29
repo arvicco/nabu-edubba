@@ -93,7 +93,10 @@ meant for readers; nothing internal lands in `docs/`.
          nothing else moved
 7. **Pre-gate: README.md current** — honest about what does not work
    yet. A phase is not gate-ready with a stale README.
-8. **Phase gate = a PR the loop prepares, the owner merges** (owner
+8. **One PR per phase** (owner ruling 2026-07-29): all of a phase's
+   improvements batch into its gate PR — no mid-phase PRs to main
+   except owner-sanctioned hotfixes (M1-1's deploy fix was one).
+   **Phase gate = a PR the loop prepares, the owner merges** (owner
    ruling 2026-07-29): top-tier review of the entire phase diff
    against docs/concept.md; resolve blocked packets; update the
    "Current phase" line in CLAUDE.md; then open `phase-N -> main`
