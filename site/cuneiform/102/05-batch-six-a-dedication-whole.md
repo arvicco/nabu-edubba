@@ -126,7 +126,7 @@ after six batches, needs no box.
 ## The stretch, measured
 
 Six chapters, eighteen new signs, forty-three in your hand counting
-[101](../101/)'s twenty-five. Set against that inventory: the
+[101]({{ '/cuneiform/101/' | relative_url }})'s twenty-five. Set against that inventory: the
 sentence's basic habits (verb last, grammar worn as tags, the doer
 sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
 *-da*, the genitive that hides its own consonant, doubling for
@@ -134,7 +134,7 @@ plurals and repeated action, *nam-* turning things into
 abstractions, the verbal chain's rough silhouette — and now, this
 chapter, a full dedication formula built from nothing but signs
 already sitting in your inventory. By the course's own compiler —
-the chart back in [chapter 00](00-orientation) — that inventory now
+the chart back in [chapter 00]({{ '/cuneiform/102/00-orientation/' | relative_url }}) — that inventory now
 covers roughly 38% of all sign-occurrences in the ETCSL literary
 corpus and 41% in the CDLI documentary corpus. Two out of every five
 signs on an administrative tablet, four-tenths of a line of

@@ -25,7 +25,7 @@ texts — increasingly in full cuneiform, boxes turning into signs.
   <li><a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">The sentence in the clay</a> — Sumerian in one chapter</li>
   <li><a href="{{ '/cuneiform/102/02-batch-three-and-the-genitive/' | relative_url }}">Batch II</a> — and the genitive, the case that hides</li>
   <li><a href="{{ '/cuneiform/102/03-batch-four-plurals-and-doubling/' | relative_url }}">Batch III</a> — plurals, doubling, and nam-</li>
-  <li>Batch IV — the verbal chain, lightly <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/102/04-batch-five-the-verbal-chain/' | relative_url }}">Batch IV</a> — the verbal chain, lightly; the arrow that means life</li>
   <li><a href="{{ '/cuneiform/102/05-batch-six-a-dedication-whole/' | relative_url }}">Batch V</a> — a dedication formula, whole</li>
 </ol>
 

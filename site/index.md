@@ -25,7 +25,7 @@ at any pace, forever.
   <a class="school-card accent-cuneiform" href="{{ '/cuneiform/' | relative_url }}">
     <span class="school-glyph script" aria-hidden="true">𒀭</span>
     <strong>Cuneiform</strong>
-    <span class="school-note">Sumerian, Akkadian, and the wedge-written world — 101 Foundations is open, start here</span>
+    <span class="school-note">Sumerian, Akkadian, and the wedge-written world — 101 complete, 102 Sumerian open</span>
   </a>
   <a class="school-card accent-hieroglyphs" href="{{ '/hieroglyphs/' | relative_url }}">
     <span class="school-glyph" aria-hidden="true">☥</span>
