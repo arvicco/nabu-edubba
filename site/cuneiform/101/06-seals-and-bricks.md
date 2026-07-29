@@ -43,8 +43,9 @@ you can see exactly how much of the original is already yours.
     <tr>
       <td class="script sign-cell">𒈬</td><td>MU</td><td><em>mu</em></td>
       <td>name; year</td>
-      <td>opens the year-name formulas that date thousands of
-          documents — and it is the #2 value in the literary corpus</td>
+      <td>origin debated (an old suggestion sees a plant); what is
+          certain is its job — opening the year-name formulas that
+          date thousands of documents</td>
     </tr>
   </tbody>
 </table>

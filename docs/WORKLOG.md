@@ -42,6 +42,25 @@ lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
 
+2026-07-29 · M2-18 done · Second review round (owner): (1) ch. 00
+stroke figure corrected — horizontal wedge head now at LEFT matching
+the font's AŠ (owner caught the reversal), corner wedge redrawn to
+match 𒌋; (2) Name-vs-Reads convention explained at first use (ch. 03
+notation section + reminder at ch. 04's first table); (3) sign-table
+Notes now carry graphic-origin context wherever the sign lists
+support it, "origin opaque — learn the shape" where they don't;
+(4) NEW ch. 08 The sign workshop (course now 13 chapters, 25 signs):
+SAG (the ch. 02 evolution example finally taught), KA (gunû hatching
+move), KA×A nag "drink" and KA×GAR gu7 "eat" (containment move) —
+codepoints verified by Unicode name search after first guesses
+proved WRONG (12295 not 122A1 etc — the name check earns its keep);
+09-12 renumbered; (5) ch. 07 filiation reading gained its script+▢
+column; (6) reading--script grid columns fixed to proportional
+fractions (alignment complaint); (7) ch. 12 sign count now computed
+by Liquid from the registry ("counted live, so this number can never
+lie") after owner caught the stale "twelve signs" text — generated
+beats prose for facts that move. Gate green; subset 26 codepoints.
+
 2026-07-29 · M2-17 done · Gate 2 review revisions per owner feedback
 (prose style approved and memorized; rules codified in concept §3.3–5
 + CLAUDE.md): (1) sidebar course layout — pure Liquid/CSS from

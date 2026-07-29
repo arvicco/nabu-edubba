@@ -59,7 +59,7 @@ the two gears freely in one line: logograms for the big content
 words, syllabograms for names, particles, and grammar. Akkadian
 scribes later pushed this even further, keeping Sumerian logograms as
 learned shorthand inside Akkadian sentences — but that story belongs
-to chapter 09.
+to chapter 10.
 
 ## Gear four: silent classifiers
 
@@ -111,8 +111,14 @@ While we are at it, the rest of the modern notation you will meet in
 every reading here, in the field-standard style used by the CDLI and
 Oracc corpora: sign values in lowercase with indices (*e2*, *u4*),
 determinatives in braces (*{d}*, *{ki}*), and hyphens joining the
-signs that spell one word. None of it exists on the clay; all of it
-is scaffolding for us.
+signs that spell one word. One more convention, because the sign
+tables in this course use it constantly: each sign has a modern
+**name**, written in CAPITALS (AN, KI, LUGAL) — a label for the sign
+itself, like calling a chess piece "the knight" — while its
+**readings**, in italic lowercase (*an*, *diŋir*), are the sounds
+and words it takes in actual text. One sign, one name, possibly many
+readings. None of it exists on the clay; all of it is scaffolding
+for us.
 
 ## How a reader actually copes
 

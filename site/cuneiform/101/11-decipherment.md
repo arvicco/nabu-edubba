@@ -1,13 +1,13 @@
 ---
-title: "10 · Decipherment"
-short_title: "10 · Decipherment"
+title: "11 · Decipherment"
+short_title: "11 · Decipherment"
 description: >-
   How cuneiform, entirely forgotten for over a thousand years, was
   read again — and what still resists reading today.
 layout: chapter
 course: cuneiform-101
-chapter: 10
-permalink: /cuneiform/101/10-decipherment/
+chapter: 11
+permalink: /cuneiform/101/11-decipherment/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: ["𒈾", "𒉌"]
@@ -38,8 +38,9 @@ sign that made decipherment possible.
     <tr>
       <td class="script sign-cell">𒈾</td><td>NA</td><td><em>na</em></td>
       <td>the syllable <em>na</em></td>
-      <td>~7 wedges; fourth most frequent value in the literary
-          corpus — pure phonetic workhorse</td>
+      <td>~7 wedges; pictorial origin not transparent — a pure
+          phonetic workhorse, fourth most frequent value in the
+          literary corpus</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉌</td><td>NI</td><td><em>ni</em>, <em>ì</em> (i3)</td>

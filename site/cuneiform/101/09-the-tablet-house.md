@@ -1,14 +1,14 @@
 ---
-title: "08 · The tablet house"
-short_title: "08 · The tablet house"
+title: "09 · The tablet house"
+short_title: "09 · The tablet house"
 description: >-
   The é-dub-ba-a, the Old Babylonian scribal school: how scribes were
   trained, who they were, and the schooldays literature that gives us
   our best window onto their world — and the name this site borrows.
 layout: chapter
 course: cuneiform-101
-chapter: 8
-permalink: /cuneiform/101/08-the-tablet-house/
+chapter: 9
+permalink: /cuneiform/101/09-the-tablet-house/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: ["𒁾", "𒁀"]
@@ -28,13 +28,14 @@ start of this course comes due.
     <tr>
       <td class="script sign-cell">𒁾</td><td>DUB</td><td><em>dub</em></td>
       <td>(clay) tablet</td>
-      <td>~11 wedges; the thing this whole tradition is made of</td>
+      <td>~11 wedges; early forms are read as a tablet shown with its
+          ruled lines — the object drawn as its own writing surface</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁀</td><td>BA</td><td><em>ba</em></td>
       <td>syllable <em>ba</em>; as a verb, "to allot"</td>
-      <td>~5 wedges; a workhorse syllable — top six in BOTH of this
-          course's counted corpora</td>
+      <td>~5 wedges; pictorial origin opaque — a pure workhorse
+          syllable, top six in BOTH of this course's counted corpora</td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +180,7 @@ copied by a student in one century could descend, with real fidelity,
 from a list compiled a thousand years earlier. That same
 lexical-list tradition — organized signs, arranged systematically,
 carried forward by copying — is the direct ancestor of the reference
-this course itself builds toward: chapter 11 gathers every sign this
+this course itself builds toward: chapter 12 gathers every sign this
 course has taught into exactly that kind of list, in the same spirit,
 if a much shorter one, as the scribes who compiled theirs on clay.
 
@@ -200,8 +201,8 @@ of the Assyrian king Ashurbanipal at Nineveh — a royal collection
 assembled in the seventh century BCE that preserved enormous
 quantities of the literary and scholarly tradition the é-dub-ba-a had
 been copying, in one form or another, for two thousand years by then.
-The fuller story of that library belongs to chapter 09, and of
-decipherment to chapter 10; here it stands as the summit that all the
+The fuller story of that library belongs to chapter 10, and of
+decipherment to chapter 11; here it stands as the summit that all the
 small, unglamorous discipline of sign lists and cane strokes was, in
 the end, building toward.
 

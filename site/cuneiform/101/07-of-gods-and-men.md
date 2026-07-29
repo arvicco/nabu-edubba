@@ -34,8 +34,8 @@ have been hiding inside a sign you already write.
     <tr>
       <td class="script sign-cell">𒃲</td><td>GAL</td><td><em>gal</em></td>
       <td>big, great</td>
-      <td>~6 wedges; ranks in the top fifty of both counted corpora —
-          greatness is a frequent topic</td>
+      <td>~6 wedges; its pictorial origin is not transparent in the
+          late form — but watch what it builds, below</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌉</td><td>TUR</td><td><em>dumu</em>, <em>tur</em></td>
@@ -83,10 +83,10 @@ seals; after the royal titulary of chapter 06 it is the most useful
 single pattern a beginner can own. Here it is in the wild, in two
 consecutive lines of an Ur III personnel roster from Girsu:
 
-<figure class="reading">
+<figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="translit">1(aš@c) 1(barig) ur-{d}nanše</span><span class="gloss">(grain allotment) for Ur-Nanše,</span></div>
-    <div class="reading-line"><span class="translit">dumu ma-šum bahar₂</span><span class="gloss">son of Mašum, the potter</span></div>
+    <div class="reading-line"><span class="script">𒀸 ▢ ▢𒀭▢</span><span class="translit">1(aš@c) 1(barig) ur-{d}nanše</span><span class="gloss">(grain allotment) for Ur-Nanše,</span></div>
+    <div class="reading-line"><span class="script">𒌉 ▢▢ ▢</span><span class="translit">dumu ma-šum bahar₂</span><span class="gloss">son of Mašum, the potter</span></div>
   </div>
   <figcaption class="citation">
     Obverse i 7–8 of <em>HLC</em> 074, Ur III Girsu (reign of Šulgi),
@@ -127,9 +127,8 @@ a beginning reader picks names out of a dense tablet: find the
    — how many gods hide in the Amar-Suen seal?
 4. Compose your own filiation line for yourself in the pattern
    *X dumu Y* (transliteration is fine — your name has no cuneiform
-   spelling yet; chapter 10 explains how the decipherers dealt with
+   spelling yet; chapter 11 explains how the decipherers dealt with
    exactly that problem for foreign names).
 
-*Next: the school that trained every scribe who ever wrote one of
-these — the tablet house itself, whose name you can now almost
-write.*
+*Next: the workshop — how scribes hatched, nested, and compounded
+old signs into new ones, starting with a head you have met before.*
