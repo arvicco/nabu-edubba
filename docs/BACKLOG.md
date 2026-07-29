@@ -53,7 +53,7 @@ Acceptance: owner accepts at Gate 0.
 
 ## Phase 1 — site skeleton (Gate 0 merged 2026-07-29; elaborated)
 
-## M1-1 · Auto-deploy on merge  [tier: top — deploy semantics, owner ruling] [status: in-progress] [deps: --]
+## M1-1 · Auto-deploy on merge  [tier: top — deploy semantics, owner ruling] [status: done] [deps: --]
 Goal: merging any PR to main deploys the site, no manual dispatch:
       pages.yml paths filter removed; github-pages environment policy
       fixed to allow main only (was pinned to phase-0 — see worklog
@@ -61,7 +61,7 @@ Goal: merging any PR to main deploys the site, no manual dispatch:
 Acceptance: the PR merging this packet itself triggers a green deploy
       run; construction sign live at arvicco.github.io/nabu-edubba.
 
-## M1-2 · Visual identity + vendored fonts  [tier: top — first-of-family design; identity is owner-adjacent] [status: ready] [deps: --]
+## M1-2 · Visual identity + vendored fonts  [tier: top — first-of-family design; identity is owner-adjacent] [status: done] [deps: --]
 Goal: typography scale, per-school accent tokens, and vendored
       subsetted webfonts (Noto Sans Cuneiform first; OFL license file
       alongside) so the 𒂍𒁾𒁀𒀀 wordmark and any cuneiform render
@@ -70,20 +70,20 @@ Acceptance: rake gate green; screenshot of served page read by the
       session shows real glyphs (surface checklist §6b); font files
       + OFL committed; no external font requests (lint/proofer clean).
 
-## M1-3 · Map-of-writing landing page  [tier: top — first-of-family content] [status: ready] [deps: M1-2]
+## M1-3 · Map-of-writing landing page  [tier: top — first-of-family content] [status: done] [deps: M1-2]
 Goal: replace the construction sign: typology grid (logographic /
       syllabary / abjad / alphabet / abugida / featural) + the family
       tree of writing, linking to school stubs; still text-pure.
 Acceptance: rake gate green; surface checklist pass; every school
       cell links to a stub that exists.
 
-## M1-4 · School stubs (waves 1–3)  [tier: implementation — template-following, spec below] [status: ready] [deps: M1-3]
+## M1-4 · School stubs (waves 1–3)  [tier: implementation — template-following, spec below] [status: done — delegated to implementation-tier agent, diff reviewed] [deps: M1-3]
 Goal: /cuneiform/, /hieroglyphs/, /hanzi/ catalog pages: one-paragraph
       school intro, planned course tree (from concept §3), honest
       "no courses yet" state.
 Acceptance: rake gate green; linked from landing; no dead links.
 
-## M1-5 · Sample chapter  [tier: top — establishes the chapter template family] [status: ready] [deps: M1-2]
+## M1-5 · Sample chapter  [tier: top — establishes the chapter template family] [status: done] [deps: M1-2]
 Goal: one fully-styled specimen chapter exercising the literacy-ladder
       layout end-to-end: chapter nav (prev/next/TOC), native-script +
       transliteration blocks, graded-reading panel with URN citation

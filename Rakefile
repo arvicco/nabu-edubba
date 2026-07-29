@@ -26,6 +26,11 @@ task :check do
   sh "bundle exec htmlproofer #{BUILD_DIR} --disable-external --no-enforce-https"
 end
 
+desc "Regenerate the cuneiform font subset from site/ usage (authoring-time; needs hb-subset)"
+task :fonts do
+  ruby "script/subset_fonts.rb"
+end
+
 desc "Local preview at http://127.0.0.1:4000"
 task :serve do
   sh "bundle exec jekyll serve --source site --destination #{BUILD_DIR}"

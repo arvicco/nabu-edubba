@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<nav class="chapter-nav" aria-label="Chapter">
+  <span>
+    {% if page.course_url %}<a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course contents" }}</a>{% endif %}
+  </span>
+  <span class="chapter-nav-steps">
+    {% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
+    {% if page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
+  </span>
+</nav>
+
+{{ content }}
+
+<nav class="chapter-nav chapter-nav-bottom" aria-label="Chapter, bottom">
+  <span>
+    {% if page.course_url %}<a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course contents" }}</a>{% endif %}
+  </span>
+  <span class="chapter-nav-steps">
+    {% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
+    {% if page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
+  </span>
+</nav>
