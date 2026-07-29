@@ -1,0 +1,25 @@
+# Candidate sign pool for Cuneiform 102's opening stretch (M3-2).
+# Curated by hand; codepoints verified against Unicode character
+# names; wedge counts from the Noto reference glyphs (~ approximate);
+# meanings kept conservative with certainty grades as in
+# sign_teaching.yml. Values in CDLI ATF spelling; etcsl_value given
+# where ETCSL's convention differs (c=š, j=ŋ).
+signs:
+  - { glyph: "𒂊", codepoint: "1208A", name: "E",    value: "e",    meaning: "syllable e; as a word, levee/ditch (stated)",              wedges: 7, freq_etcsl: 3,   freq_cdli: 37,  certainty: stated }
+  - { glyph: "𒊏", codepoint: "1228F", name: "RA",   value: "ra",   meaning: "syllable ra (dative marker in context)",                   wedges: 8, freq_etcsl: 7,   freq_cdli: 24,  certainty: unclear }
+  - { glyph: "𒂵", codepoint: "120B5", name: "GA",   value: "ga",   meaning: "milk; syllable ga",                                        wedges: 8, freq_etcsl: 12,  freq_cdli: 16,  certainty: classic }
+  - { glyph: "𒁕", codepoint: "12055", name: "DA",   value: "da",   meaning: "side; syllable da (comitative in context)",                wedges: 8, freq_etcsl: 13,  freq_cdli: 18,  certainty: stated }
+  - { glyph: "𒁉", codepoint: "12049", name: "BI",   value: "bi",   meaning: "its/that; syllable bi (a vessel in origin, stated)",       wedges: 6, freq_etcsl: 14,  freq_cdli: 29,  certainty: stated }
+  - { glyph: "𒋫", codepoint: "122EB", name: "TA",   value: "ta",   meaning: "syllable ta (ablative marker in context)",                 wedges: 5, freq_etcsl: 31,  freq_cdli: 13,  certainty: unclear }
+  - { glyph: "𒉈", codepoint: "12248", name: "NE",   value: "ne",   meaning: "brazier/fire (stated); syllable ne",                       wedges: 9, freq_etcsl: 26,  freq_cdli: 94,  certainty: stated }
+  - { glyph: "𒅎", codepoint: "1214E", name: "IM",   value: "im",   meaning: "clay; rain, storm",                                        wedges: 6, freq_etcsl: 27,  freq_cdli: 124, certainty: classic }
+  - { glyph: "𒍪", codepoint: "1236A", name: "ZU",   value: "zu",   meaning: "tooth; to know",                                           wedges: 8, freq_etcsl: 16,  freq_cdli: 67,  certainty: classic }
+  - { glyph: "𒈨", codepoint: "12228", name: "ME",   value: "me",   meaning: "rites, divine powers; to be",                              wedges: 2, freq_etcsl: 17,  freq_cdli: 57,  certainty: stated }
+  - { glyph: "𒌨", codepoint: "12328", name: "UR",   value: "ur",   meaning: "dog; young man/warrior (in names)",                        wedges: 5, freq_etcsl: 73,  freq_cdli: 12,  certainty: stated }
+  - { glyph: "𒎏", codepoint: "1238F", name: "NIN",  value: "nin",  meaning: "lady, queen, mistress",                                    wedges: 7, freq_etcsl: 44,  freq_cdli: 40,  certainty: classic }
+  - { glyph: "𒁺", codepoint: "1207A", name: "DU",   value: "du",   meaning: "to go; a foot/leg in origin",                              wedges: 5, freq_etcsl: 68,  freq_cdli: 47,  certainty: classic }
+  - { glyph: "𒀝", codepoint: "1201D", name: "AK",   value: "ak",   meaning: "to do, to make",                                           wedges: 6, freq_etcsl: 72,  freq_cdli: 157, certainty: unclear }
+  - { glyph: "𒉆", codepoint: "12246", name: "NAM",  value: "nam",  meaning: "fate, destiny; abstract-noun prefix",                      wedges: 7, freq_etcsl: 20,  freq_cdli: 102, certainty: stated }
+  - { glyph: "𒋾", codepoint: "122FE", name: "TI",   value: "ti",   meaning: "arrow; by rebus, life — the textbook rebus pair",          wedges: 4, freq_etcsl: 161, freq_cdli: 56,  certainty: classic }
+  - { glyph: "𒆷", codepoint: "121B7", name: "LA",   value: "la",   meaning: "syllable la; abundance (stated)",                          wedges: 9, freq_etcsl: 21,  freq_cdli: 36,  certainty: stated }
+  - { glyph: "𒂠", codepoint: "120A0", name: "EŠ2",  value: "sze3", etcsl_value: "ce3", meaning: "rope (stated); the terminative -še3", wedges: 4, freq_etcsl: 24,  freq_cdli: 35,  certainty: stated }
