@@ -93,8 +93,12 @@ calls in tests — committed extracts only.
 ```
 site/           the published site (Jekyll source): _config.yml,
                 _layouts/, assets/, index.md, <school>/<course>/
-docs/           process + concept (NOT published): concept.md,
-                DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+docs/           process + concept (in-repo public, not on the site):
+                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+.docs/          GITIGNORED internal docs — phase plans, owner
+                communication, surveys, consideration output. General
+                owner rule (2026-07-29): anything not intended for
+                public consumption goes here, never in docs/
 script/         gate tooling (lint.rb)
 test/           minitest suite
 bin/            authoring-time instruments (curriculum compiler; talks

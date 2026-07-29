@@ -46,6 +46,12 @@ coordination state — no external tracker; survives any session dying.
 Packets here are chapter-sized: one chapter, one instrument, or one
 validator per packet.
 
+**Internal docs rule (owner, 2026-07-29):** per-phase plans, owner
+communication, surveys, and all consideration output live in
+gitignored `.docs/` (e.g. `.docs/phase-1-plan.md`). The public repo
+carries only the coordination state (BACKLOG/WORKLOG) and documents
+meant for readers; nothing internal lands in `docs/`.
+
 ## 4. Loop mechanics
 
 1. **Pick** the first `ready` packet whose deps are `done`.
