@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · INCIDENT: deployed site unstyled · What happened: after
+Gate 1 merged, arvicco.github.io/nabu-edubba rendered as raw HTML
+(owner screenshot) while local builds were fine. Root cause: baseurl
+"" — pages referenced /assets/style.css and /cuneiform/ at the DOMAIN
+ROOT, but Pages serves the project under /nabu-edubba/; every internal
+reference 404'd. Why verification missed it: the deploy check curl'd
+individual files (which exist under /nabu-edubba/ and return 200) but
+never rendered the live page, so the wrong hrefs inside the HTML went
+unseen. Durable fix (hotfix branch): (1) pages.yml injects
+configure-pages' base_path into jekyll build --baseurl, so the build
+is correct at /nabu-edubba AND at edubba.ac (base ""); (2) all
+internal content links converted to {{ '/x/' | relative_url }}; (3)
+new lint rule base-relative forbids root-absolute href="/x" / ](/x)
+forever (tests 12/12); (4) verified locally by building with
+--baseurl /nabu-edubba, serving, and screenshotting — fully styled,
+all hrefs carry the base. Lesson enforced in DEV-LOOP §4.5: after any
+deploy, surface-review the deployed URL itself; a 200 on a file is
+not evidence the page references it.
+
 2026-07-29 · M1-3, M1-4, M1-5 done · phase-1 · Landing page (M1-3,
 top): map of writing — school cards with per-school accents + glyphs
 (𒀭 / ☥ / 字), family tree as accessible nested lists, start-here.

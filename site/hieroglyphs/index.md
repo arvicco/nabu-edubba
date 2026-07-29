@@ -36,6 +36,6 @@ No courses exist yet — this catalog is the plan, not a promise of what
 has already been built. Numbering and scope will be firmed up as
 curriculum design proceeds, following the cuneiform school's lead. If
 you'd like to see the wider project, go back to
-[the map of writing](/); if you have thoughts, corrections, or requests
+[the map of writing]({{ '/' | relative_url }}); if you have thoughts, corrections, or requests
 for what should come first, they're welcome on
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

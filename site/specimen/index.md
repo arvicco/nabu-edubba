@@ -100,6 +100,6 @@ the transliteration once the course's sign inventory covers it.
 A course chapter closes with practice (write the signs; read the
 formula on a different seal) and a pointer to the next rung. This
 specimen closes by telling you the truth instead: the
-[cuneiform school](/cuneiform/) is where these chapters are being
+[cuneiform school]({{ '/cuneiform/' | relative_url }}) is where these chapters are being
 built. Found something wrong on this page? That is exactly what
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues) is for.
