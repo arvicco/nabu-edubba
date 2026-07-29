@@ -1,0 +1,18 @@
+# Build output
+_build/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / bundler (repo-local gems)
+vendor/
+.bundle/
+.ruby-version
+
+# Owner-facing working docs (consideration output, never published)
+.docs/
+
+# OS / editor noise
+.DS_Store
+*.swp
+log/
