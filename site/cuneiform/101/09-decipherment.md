@@ -24,12 +24,13 @@ handed down through unbroken tradition, the way the Latin alphabet
 was. It went out of use, entirely, and for well over a thousand years
 no living person could read a line of it. This chapter tells that
 recovery in outline, the way the standard histories of decipherment
-tell it: coarse on dates, careful on the logic that actually cracked
-the problem.
+tell it — among them Irving Finkel and Jonathan Taylor's *Cuneiform*,
+a good next book for anyone who wants the full story — coarse on
+dates, careful on the logic that actually cracked the problem.
 
 ## A script nobody could read
 
-By the early centuries of the modern era, cuneiform writing had
+By the early centuries of the Common Era, cuneiform writing had
 stopped. The languages it had served — Sumerian long dead as a
 spoken tongue, Akkadian fading after it — were gone from use, and the
 script went with them. The stone-carved and clay-pressed wedges that
@@ -46,9 +47,9 @@ place, and only then asking what they said.
 
 ## Careful copies before careful reading
 
-Progress began with better copies. European travelers had brought
-back sketches of the Persepolis inscriptions since the 1600s, but the
-signs were too imprecisely rendered to analyze. The turning point,
+Progress began with better copies. Earlier European travelers had
+brought back sketches of the Persepolis inscriptions, but the signs
+were too imprecisely rendered to analyze. The turning point,
 as the standard histories tell it, was the German traveler and
 surveyor Carsten Niebuhr, whose late-eighteenth-century copies of the
 Persepolis monuments were accurate enough to work from. Niebuhr made
@@ -77,8 +78,8 @@ known, tended to follow a set formula naming a king, his royal title
 By matching repeated groups of signs in the Persepolis texts against
 that expected pattern, and against known Persian royal names from
 Greek and other historical sources, he proposed readings for a
-handful of signs and for royal names such as those of Darius and
-Xerxes. It was a narrow beachhead — a proposal about a few signs and
+handful of signs and for royal names such as that of Darius. It was
+a narrow beachhead — a proposal about a few signs and
 a few words, not a working knowledge of the language — but it held
 up, and later scholars, above all Henry Rawlinson, extended it into a
 far fuller reading of Old Persian cuneiform over the following
@@ -168,10 +169,10 @@ The earliest phase of the script, the proto-cuneiform of the fourth
 millennium BCE touched on in earlier chapters, still resists reading
 as language in any full sense — its earliest tablets can often be
 counted and categorized, but not read the way a sentence is read.
-Sumerian grammar and phonology, despite a century and a half of study
-built on those bilingual lists, still carry real points of scholarly
-disagreement — how certain forms worked, how the language actually
-sounded, are not closed questions. And the practical arithmetic is
+Sumerian grammar and phonology, despite long study built on those
+bilingual lists, still carry real points of scholarly disagreement —
+how certain forms worked, how the language actually sounded, are not
+closed questions. And the practical arithmetic is
 stark: hundreds of thousands of cuneiform tablets survive, museum
 collections still hold large numbers never transliterated, and the
 world's working cuneiformists number only in the hundreds. New texts
@@ -183,5 +184,5 @@ field, more scarce than the tablets themselves. Every reader this
 course trains, however modestly, is a small answer to a real and
 current shortage, not just an exercise in history.
 
-*Next: [the reference](../) — every sign taught, every convention
-used, gathered in one place.*
+*Next: the reference — every sign taught, every convention used,
+gathered in one place.*

@@ -36,11 +36,10 @@ where exact dates are debated. What follows is the standard outline,
 kept deliberately coarse.
 
 **Late fourth millennium BCE — origins.** The earliest antecedents of
-the script appear in and around the city of Uruk, in the far south of
+the script appear around the city of Uruk, in the far south of
 Mesopotamia, as a tool of administration: counting goods, recording
 rations, tracking labor. This is proto-cuneiform, pictographic and
-not yet tied to any one spoken language — a topic its own future
-course will take up in more depth.
+not yet tied to any one spoken language.
 
 **Third millennium BCE — Sumerian.** Over the following centuries the
 script grows from an accounting aid into a full writing system,
@@ -82,9 +81,7 @@ continues as the working script of both Assyria and Babylonia,
 reaching one of its best-known high points in the library assembled
 at Nineveh under the Assyrian king Ashurbanipal — tens of thousands of
 tablets of literature, omens, medicine, and administration, much of it
-deliberately collected and copied. This is also the period future
-special-topics courses on the first-millennium library world will
-explore in depth.
+deliberately collected and copied.
 
 **Decline.** Across the later first millennium BCE, Aramaic — written
 in an alphabet, on perishable materials, quicker to learn and write —
@@ -138,18 +135,17 @@ to fit sounds and grammar the script was never originally designed
 for.
 
 Two further cases push past straightforward borrowing. At the coastal
-city of Ugarit, on the Mediterranean, scribes devised a script made of
-wedge-shaped strokes pressed into clay — cuneiform in appearance and
-technique — that was in fact a true alphabet, a couple dozen signs
-each standing for one consonant, unrelated in structure to the
-logographic-syllabic system used everywhere else. It looks like
-cuneiform and is impressed like cuneiform, but works on entirely
-different principles. And in the first millennium BCE, the Achaemenid
-Persian court commissioned what amounts to a largely new invention:
-Old Persian cuneiform, a small, mostly alphabetic-syllabic set of
-signs created for royal inscriptions, wedge-shaped in form but owing
-little of its sign inventory to the older tradition it visually
-imitates.
+city of Ugarit, on the Mediterranean, scribes devised a script made
+of wedge-shaped strokes pressed into clay — cuneiform in appearance
+and technique — that was in fact a true alphabet, a couple dozen
+signs each standing for one consonant, unrelated in structure to the
+logographic-syllabic system used everywhere else: it looks and is
+impressed like cuneiform, but works on entirely different principles.
+And in the first millennium BCE, the Achaemenid Persian court
+commissioned what amounts to a largely new invention: Old Persian
+cuneiform, a small, mostly alphabetic-syllabic set of signs created
+for royal inscriptions, wedge-shaped in form but owing little of its
+sign inventory to the older tradition it visually imitates.
 
 ## Forms that changed, too
 
