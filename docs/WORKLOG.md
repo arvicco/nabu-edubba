@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · M1-3, M1-4, M1-5 done · phase-1 · Landing page (M1-3,
+top): map of writing — school cards with per-school accents + glyphs
+(𒀭 / ☥ / 字), family tree as accessible nested lists, start-here.
+School stubs (M1-4): first packet DELEGATED to an implementation-tier
+agent (sonnet) with a written spec (concept.md §2–3 as sole content
+source, hard constraints incl. no uncovered native glyphs); returned
+three constraint-clean catalog pages, diff reviewed and accepted —
+the tiering model works. Specimen chapter (M1-5, top): chapter layout
+family (_layouts/chapter.html: course/prev/next nav from front
+matter), sign table (𒀭 𒈗 𒆠), reading panel
+translit/gloss grid, citation footer. Reading content is REAL: the
+Amar-Suen seal from CDLI P101077 (AnOr 01, 086, Ur III Umma), pulled
+via nabu CLI (`nabu search`/`show`), license class attribution, cited
+by URN + CDLI link. Coverage rule proven live: adding 𒀭𒈗𒆠 turned
+lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
+review (headless Chrome, all three page types): glyphs real, accents
+correct, reading grid aligns, mobile OK. README refreshed pre-gate.
+
 2026-07-29 · M1-2 done · phase-1 · Font pipeline: full Noto Sans
 Cuneiform v2.001 (801K, OFL) vendored as SOURCE in assets-src/fonts/;
 site ships a computed subset (site/assets/fonts/, currently 4

@@ -103,3 +103,151 @@ img, svg { max-width: 100%; }
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* --- Landing: school grid --- */
+
+.school-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+
+.school-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--card-accent, var(--accent));
+  border-radius: 0 0 4px 4px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.school-card:hover strong { text-decoration: underline; }
+.school-card strong { font-size: 1.1rem; }
+
+.school-glyph {
+  font-size: 2rem;
+  line-height: 1.1;
+  color: var(--card-accent, var(--accent));
+}
+
+.school-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.accent-cuneiform   { --card-accent: var(--accent-cuneiform); }
+.accent-hieroglyphs { --card-accent: var(--accent-hieroglyphs); }
+.accent-hanzi       { --card-accent: var(--accent-hanzi); }
+
+/* --- Landing: family tree (nested lists, readable in any browser) --- */
+
+.tree, .tree ul {
+  list-style: none;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.tree { border-left: none; padding-left: 0; }
+
+.tree li {
+  margin-block: 0.6rem;
+  position: relative;
+}
+
+.tree ul li::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.7em;
+  width: 0.7rem;
+  border-top: 2px solid var(--rule);
+}
+
+/* --- Course chapters --- */
+
+.chapter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+  padding-block: 0.5rem;
+}
+
+.chapter-nav-bottom {
+  border-bottom: none;
+  border-top: 1px solid var(--rule);
+  margin-top: 2.5rem;
+}
+
+.chapter-nav-steps { display: inline-flex; gap: 1rem; }
+
+.chapter-standfirst {
+  color: var(--muted);
+  border-left: 3px solid var(--accent);
+  padding-left: 0.9rem;
+}
+
+.sign-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-block: 1rem;
+}
+
+.sign-table th, .sign-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: baseline;
+}
+
+.sign-table th {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sign-cell { font-size: 2rem; color: var(--accent); }
+
+.reading {
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  padding: 1rem 1.25rem;
+}
+
+.reading-line {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) 1fr;
+  gap: 0.35rem 1.5rem;
+  padding-block: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .reading-line { grid-template-columns: 1fr; }
+  .reading-line .gloss { padding-left: 1rem; }
+}
+
+.translit { font-style: italic; }
+.gloss { color: var(--muted); }
+
+.citation {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.citation code { font-size: 0.85em; }

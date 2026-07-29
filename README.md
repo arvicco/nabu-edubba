@@ -20,19 +20,20 @@ with per-passage citations and licenses. The full design is in
 
 ## Status — honest, as of 2026-07-29
 
-**Nothing is teachable yet.** The repo currently contains:
+**No courses exist yet; the site skeleton is up.** Live today:
 
-- the ratified concept (`docs/concept.md`);
-- the development process (`docs/DEV-LOOP.md`, backlog, worklog);
-- a working quality gate (`rake gate`: conventions lint incl. the
-  no-JavaScript rule, unit tests, Jekyll build, offline link check);
-- a placeholder site stub (construction sign) and CI/deploy
-  workflows.
+- the landing page — the map of writing (typology and family tree);
+- catalog stubs for the first three schools (cuneiform, hieroglyphs,
+  hanzi/kanji) with their planned course trees;
+- a specimen chapter demonstrating the full chapter layout: sign
+  table, native script (vendored subset of Noto Sans Cuneiform),
+  and a graded reading of a real Ur III seal cited to CDLI via Nabu;
+- the quality gate (`rake gate`: conventions lint incl. the
+  no-JavaScript and font-coverage rules, unit tests, Jekyll build,
+  offline link check) and auto-deploy on merge.
 
-Next up (Phase 1): the site skeleton — the "map of writing" landing
-page, shared visual identity with vendored fonts, one fully-styled
-sample chapter. Then (Phase 2+): the cuneiform school, course by
-course.
+Next (Phase 2+): the cuneiform school's real courses, starting with
+101 Foundations.
 
 ## Building locally
 
