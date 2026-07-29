@@ -16,8 +16,10 @@ module Edubba
 
     module_function
 
+    # yml included: site/_data files feed Liquid-generated pages (e.g.
+    # the 101 Reference sign list), so their glyphs need font coverage.
     def used_codepoints(site_dir)
-      Dir.glob(File.join(site_dir, "**", "*.{md,html}")).each_with_object(Set.new) do |path, set|
+      Dir.glob(File.join(site_dir, "**", "*.{md,html,yml}")).each_with_object(Set.new) do |path, set|
         File.read(path, encoding: "UTF-8").each_codepoint do |cp|
           set << cp if RANGE.cover?(cp)
         end
