@@ -31,6 +31,11 @@ module Edubba
   module Curriculum
     module_function
 
+    # "é (e2)" -> "e2"; "aš (ash/asz)" -> "asz"; "lugal" -> "lugal"
+    def atf_value(v)
+      (v[/\(([a-z0-9\/]+)\)/, 1] || v[/[a-z']+[0-9]*/]).to_s.split("/").last
+    end
+
     def wedge_num(w) = w.to_s.delete("~").to_i
 
     def score(sign)
@@ -71,7 +76,7 @@ if $PROGRAM_NAME == __FILE__
   queued = Edubba::Curriculum.assign_batches(Edubba::Curriculum.order(pool))
 
   # primary ATF/etcsl values of the already-taught 101 inventory
-  atf_taught = taught.map { |s| s["value"][/[a-zŋšḫ']+[0-9]*/] }.compact
+  atf_taught = taught.map { |s| Edubba::Curriculum.atf_value(s["value"]) }.compact
   etcsl_map = { "sze" => "ce", "sze3" => "ce3", "szul" => "cul" }
 
   cdli_vals = atf_taught.dup

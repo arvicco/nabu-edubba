@@ -21,8 +21,8 @@ texts — increasingly in full cuneiform, boxes turning into signs.
 ## Chapters
 
 <ol class="course-toc" start="0">
-  <li>Orientation — the long march, and your first new batch <em>— forthcoming</em></li>
-  <li>The sentence in the clay — Sumerian in one chapter <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">Orientation</a> — the long march, and your first new batch</li>
+  <li><a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">The sentence in the clay</a> — Sumerian in one chapter</li>
   <li>Batch II — and the genitive <em>— forthcoming</em></li>
   <li>Batch III — plurals and doubling <em>— forthcoming</em></li>
   <li>Batch IV — the verbal chain, lightly <em>— forthcoming</em></li>

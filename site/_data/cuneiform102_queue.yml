@@ -8,43 +8,43 @@ batches:
   - ME
   - UR
   - TA
-  coverage_etcsl_pct: 23.4
-  coverage_cdli_pct: 21.6
+  coverage_etcsl_pct: 21.3
+  coverage_cdli_pct: 32.3
 - chapter: 1
   signs:
   - EŠ2
   - E
   - BI
-  coverage_etcsl_pct: 28.4
-  coverage_cdli_pct: 23.8
+  coverage_etcsl_pct: 26.2
+  coverage_cdli_pct: 34.5
 - chapter: 2
   signs:
   - RA
   - IM
   - GA
-  coverage_etcsl_pct: 33.2
-  coverage_cdli_pct: 26.0
+  coverage_etcsl_pct: 31.0
+  coverage_cdli_pct: 36.7
 - chapter: 3
   signs:
   - NAM
   - DA
   - ZU
-  coverage_etcsl_pct: 37.1
-  coverage_cdli_pct: 27.5
+  coverage_etcsl_pct: 34.9
+  coverage_cdli_pct: 38.3
 - chapter: 4
   signs:
   - DU
   - TI
   - LA
-  coverage_etcsl_pct: 38.5
-  coverage_cdli_pct: 29.1
+  coverage_etcsl_pct: 36.3
+  coverage_cdli_pct: 39.9
 - chapter: 5
   signs:
   - NIN
   - NE
   - AK
-  coverage_etcsl_pct: 40.3
-  coverage_cdli_pct: 30.2
+  coverage_etcsl_pct: 38.1
+  coverage_cdli_pct: 40.9
 signs:
 - glyph: "\U00012228"
   codepoint: '12228'
