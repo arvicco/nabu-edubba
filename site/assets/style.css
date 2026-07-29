@@ -1,14 +1,28 @@
-/* Edubba — shared stylesheet skeleton (wave 1: text-pure, no JS).
-   Visual identity proper is a Phase 1 packet; this stub commits only
-   to legible typography, both color schemes, and the layout frame. */
+/* Edubba — shared stylesheet (wave 1: text-pure, no JS).
+   Identity: unfired clay + terracotta, serif text, real script glyphs
+   via vendored subset fonts (regenerate with `rake fonts`). */
+
+/* Noto Sans Cuneiform, subset to the codepoints the site uses
+   (site/assets/fonts/cuneiform-coverage.txt is the gate-checked
+   manifest). OFL 1.1 — license alongside the font file. */
+@font-face {
+  font-family: "Noto Sans Cuneiform";
+  src: url("fonts/NotoSansCuneiform-subset.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+12000-1254F;
+}
 
 :root {
   --bg: #faf8f4;        /* unfired clay, light */
   --ink: #26211c;
   --muted: #6b6257;
-  --accent: #8a4b2d;    /* terracotta */
+  --accent: #8a4b2d;    /* terracotta (site default) */
   --rule: #e0d9cd;
   --measure: 44rem;
+  /* Per-school accents (school layouts set --accent to one of these) */
+  --accent-cuneiform: #8a4b2d;   /* terracotta — clay and reed */
+  --accent-hieroglyphs: #1f5f8b; /* lapis — faience and Nile */
+  --accent-hanzi: #a83232;       /* cinnabar — seal ink */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +32,17 @@
     --muted: #a49a8c;
     --accent: #d08a5f;
     --rule: #3a342d;
+    --accent-cuneiform: #d08a5f;
+    --accent-hieroglyphs: #6fa8d0;
+    --accent-hanzi: #d76c6c;
   }
+}
+
+/* Native-script text: the unicode-range font-face applies wherever
+   these glyphs occur; this class adds sizing safe for dense signs. */
+.script, .wordmark-glyphs {
+  font-family: "Noto Sans Cuneiform", Georgia, serif;
+  font-style: normal;
 }
 
 * { box-sizing: border-box; }
@@ -38,8 +62,9 @@ body {
 
 .site-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.75rem;
+  gap: 0.25rem 0.75rem;
   padding-block: 1.25rem 0.75rem;
   border-bottom: 1px solid var(--rule);
 }
@@ -78,3 +103,151 @@ img, svg { max-width: 100%; }
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* --- Landing: school grid --- */
+
+.school-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+
+.school-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--card-accent, var(--accent));
+  border-radius: 0 0 4px 4px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.school-card:hover strong { text-decoration: underline; }
+.school-card strong { font-size: 1.1rem; }
+
+.school-glyph {
+  font-size: 2rem;
+  line-height: 1.1;
+  color: var(--card-accent, var(--accent));
+}
+
+.school-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.accent-cuneiform   { --card-accent: var(--accent-cuneiform); }
+.accent-hieroglyphs { --card-accent: var(--accent-hieroglyphs); }
+.accent-hanzi       { --card-accent: var(--accent-hanzi); }
+
+/* --- Landing: family tree (nested lists, readable in any browser) --- */
+
+.tree, .tree ul {
+  list-style: none;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.tree { border-left: none; padding-left: 0; }
+
+.tree li {
+  margin-block: 0.6rem;
+  position: relative;
+}
+
+.tree ul li::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.7em;
+  width: 0.7rem;
+  border-top: 2px solid var(--rule);
+}
+
+/* --- Course chapters --- */
+
+.chapter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+  padding-block: 0.5rem;
+}
+
+.chapter-nav-bottom {
+  border-bottom: none;
+  border-top: 1px solid var(--rule);
+  margin-top: 2.5rem;
+}
+
+.chapter-nav-steps { display: inline-flex; gap: 1rem; }
+
+.chapter-standfirst {
+  color: var(--muted);
+  border-left: 3px solid var(--accent);
+  padding-left: 0.9rem;
+}
+
+.sign-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-block: 1rem;
+}
+
+.sign-table th, .sign-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: baseline;
+}
+
+.sign-table th {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sign-cell { font-size: 2rem; color: var(--accent); }
+
+.reading {
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  padding: 1rem 1.25rem;
+}
+
+.reading-line {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) 1fr;
+  gap: 0.35rem 1.5rem;
+  padding-block: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .reading-line { grid-template-columns: 1fr; }
+  .reading-line .gloss { padding-left: 1rem; }
+}
+
+.translit { font-style: italic; }
+.gloss { color: var(--muted); }
+
+.citation {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.citation code { font-size: 0.85em; }

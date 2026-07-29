@@ -57,4 +57,28 @@ class LintTest < Minitest::Test
       refute_includes Edubba::Lint.violations(dir).map(&:rule), "front-matter"
     end
   end
+
+  # --- font-coverage rule (cuneiform must never ship as tofu) ---
+
+  CUNEIFORM_PAGE = CLEAN_PAGE + "\nThe sign 𒀀 (A, U+12000).\n"
+
+  def test_cuneiform_without_manifest_is_flagged
+    with_site("index.md" => CUNEIFORM_PAGE) do |dir|
+      offenses = Edubba::Lint.violations(dir, File.join(dir, "missing-manifest.txt"))
+      assert_includes offenses.map(&:rule), "font-coverage"
+      assert_match(/U\+12000/, offenses.find { |v| v.rule == "font-coverage" }.detail)
+    end
+  end
+
+  def test_cuneiform_covered_by_manifest_is_clean
+    with_site("index.md" => CUNEIFORM_PAGE, "coverage.txt" => "# comment\n12000\n") do |dir|
+      assert_empty Edubba::Lint.violations(dir, File.join(dir, "coverage.txt"))
+    end
+  end
+
+  def test_scanner_finds_codepoints_and_ignores_non_cuneiform
+    with_site("index.md" => CUNEIFORM_PAGE) do |dir|
+      assert_equal Set[0x12000], Edubba::CuneiformScan.used_codepoints(dir)
+    end
+  end
 end
