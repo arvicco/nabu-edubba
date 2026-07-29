@@ -167,36 +167,36 @@ Acceptance: gate green; figures and alignment surface-reviewed;
 
 ## Phase 3 — Cuneiform 102 · Sumerian, chapters 00–05 (plan approved 2026-07-29; D0-a)
 
-## M3-1 · 102 course architecture  [tier: top] [status: ready] [deps: --]
+## M3-1 · 102 course architecture  [tier: top] [status: done] [deps: --]
 Goal: /cuneiform/102/ index (track intro, committed TOC 00–05),
       school catalog row flips to in-progress.
 Acceptance: gate green; nav round-trips; 101 ch. 12 links forward.
 
-## M3-2 · Curriculum compiler v1  [tier: top — methodology] [status: ready] [deps: --]
+## M3-2 · Curriculum compiler v1  [tier: top — methodology] [status: done] [deps: --]
 Goal: bin/ instrument proposing sign batches by rank × simplicity ×
       unlocked-words; committed teaching queue for chapters 00–05.
 Acceptance: queue data committed with provenance; tests on the
       selection logic.
 
-## M3-3 · Value→sign map for the 102 inventory  [tier: top] [status: ready] [deps: M3-2]
+## M3-3 · Value→sign map for the 102 inventory  [tier: top] [status: done] [deps: M3-2]
 Goal: codepoint-verified value→glyph map covering the queue (or
       nabu-OGSL consumer if the upstream feature lands first).
 Acceptance: every queued sign renders; font subset covers it; map
       feeds the readings.
 
-## M3-4 · Reading picker + candidate readings  [tier: top — license-critical] [status: ready] [deps: M3-3]
+## M3-4 · Reading picker + candidate readings  [tier: top — license-critical] [status: done] [deps: M3-3]
 Goal: nabu query helper finding short attested passages with sign
       set ⊆ taught inventory; candidate list with URNs + license
       classes in .docs/ (NC texts become decision items, never
       silent inclusions).
 Acceptance: ≥2 license-clean readings per chapter 02–05.
 
-## M3-5 · Ch. 00 Orientation + first batch  [tier: top — track voice] [status: ready] [deps: M3-2]
-## M3-6 · Ch. 01 The sentence in the clay  [tier: top — grammar, fact-review critical] [status: ready] [deps: M3-5]
-## M3-7 · Ch. 02  [tier: impl — spec + pre-pulled readings] [status: ready] [deps: M3-4, M3-6]
-## M3-8 · Ch. 03  [tier: impl] [status: ready] [deps: M3-7]
-## M3-9 · Ch. 04  [tier: impl] [status: ready] [deps: M3-8]
-## M3-10 · Ch. 05  [tier: impl] [status: ready] [deps: M3-9]
+## M3-5 · Ch. 00 Orientation + first batch  [tier: top — track voice] [status: done] [deps: M3-2]
+## M3-6 · Ch. 01 The sentence in the clay  [tier: top — grammar, fact-review critical] [status: done] [deps: M3-5]
+## M3-7 · Ch. 02  [tier: impl — spec + pre-pulled readings] [status: done] [deps: M3-4, M3-6]
+## M3-8 · Ch. 03  [tier: impl] [status: done] [deps: M3-7]
+## M3-9 · Ch. 04  [tier: impl] [status: in-progress — agent writing] [deps: M3-8]
+## M3-10 · Ch. 05  [tier: impl] [status: done] [deps: M3-9]
 ## M3-11 · 101↔102 stitching  [tier: top] [status: ready] [deps: M3-10]
 ## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: ready] [deps: M3-11]
 Goal: owner addition 2026-07-29 — docs/ (concept "ratified decisions"

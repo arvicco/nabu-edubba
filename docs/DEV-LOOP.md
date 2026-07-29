@@ -61,7 +61,10 @@ meant for readers; nothing internal lands in `docs/`.
    (taught-set in, taught-set out, readings list) precedes prose.
 4. **Verify**: `rake gate` green + self-review checklist; contract-
    touching work diffs output against the contract test (updated in
-   the SAME commit, additively).
+   the SAME commit, additively). Judge the gate by its BARE exit code
+   — never through a pipe (`| tail` masks a red gate under zsh
+   without pipefail; near-miss 2026-07-29). While delegated agents
+   are writing files, commit explicit paths, never `git add -A`.
 5. **Commit** on `phase-N`, conventional message referencing the
    packet; update backlog + worklog; push and WATCH CI — local
    toolchains drift from the CI target; CI is the authority. **After

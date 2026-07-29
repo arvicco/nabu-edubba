@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-29 · PHASE 3 (M3-1..M3-10 substantially done) · phase-3 ·
+Cuneiform 102 opened: course architecture with validator
+prerequisite support (assumes: front matter — 102 inherits 101's
+inventory; test pins both directions); curriculum compiler v1
+(score = best rank + 8×wedges, calibrated so ME's 2 wedges beat RA's
+better raw rank; per-chapter batches committed as generated queue
+with cumulative coverage 38.1% ETCSL / 40.9% CDLI by ch. 05; 5
+tests); ATF value-extraction bug found and fixed (subscript chars
+truncated e2/lu2 — queue and coverage regenerated); reading picker
+(validator logic inverted over nabu jsonl exports; ETCSL confirmed
+license-class nc → D3-a decision item, CDLI attribution used
+exclusively). Chapters 00-01 top-tier (coverage chart from the
+compiler's own numbers; first zero-box reading lu2-dingir-mu from
+ED IIIa Fara lists; Sumerian-in-one-chapter with sentence-anatomy
+figure; Foxvog as the track's standing reference); chapters 02-05
+delegated with batch data + pre-rendered native readings + grammar
+outlines: genitive-that-hides, doubling/nam- (with -ene honestly
+deferred since NE was future), verbal chain lightly + TI rebus
+payoff + real account line i3/e2-gal/DU, dedication formula
+nam-ti-la-ni-sze3 assembled entirely from taught signs. All
+delegated chapters reviewed (02 post-hoc after the add -A near-miss;
+03/05 spot-checked clean). All readings ED IIIa (~2600-2500 BCE),
+attribution-licensed, URN-cited.
+
 2026-07-29 · INCIDENT: deployed site unstyled · What happened: after
 Gate 1 merged, arvicco.github.io/nabu-edubba rendered as raw HTML
 (owner screenshot) while local builds were fine. Root cause: baseurl
@@ -41,6 +65,18 @@ by URN + CDLI link. Coverage rule proven live: adding 𒀭𒈗𒆠 turned
 lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
+
+2026-07-29 · NEAR-MISS: gate exit code masked by pipe · The M3-5/6
+commit landed while `rake gate 2>&1 | tail -1` reported only tail's
+exit status (zsh, no pipefail) — the gate was actually RED (a
+relative ../101/ link resolving wrong from a permalink directory)
+and a concurrently-writing chapter agent's file (ch. 02) was swept
+into the commit by `git add -A` unreviewed. Caught on the next
+honest run; link fixed; ch. 02 reviewed post-hoc (excellent,
+accepted). Lessons enforced: gate invocations use the bare exit code
+(`rake gate >/dev/null && echo GREEN`), and no `git add -A` while
+chapter agents are running — add explicit paths. Both now noted in
+DEV-LOOP §4.4 practice.
 
 2026-07-29 · M2-18 done · Second review round (owner): (1) ch. 00
 stroke figure corrected — horizontal wedge head now at LEFT matching
