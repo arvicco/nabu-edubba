@@ -1,13 +1,23 @@
 ---
 layout: default
 ---
+{% if page.course %}
+  {% assign course_pages = site.pages | where: "course", page.course | where_exp: "p", "p.chapter" | sort: "chapter" %}
+  {% assign prev_page = nil %}{% assign next_page = nil %}
+  {% for p in course_pages %}
+    {% if p.chapter < page.chapter %}{% assign prev_page = p %}{% endif %}
+    {% if p.chapter > page.chapter and next_page == nil %}{% assign next_page = p %}{% endif %}
+  {% endfor %}
+{% endif %}
 <nav class="chapter-nav" aria-label="Chapter">
   <span>
     {% if page.course_url %}<a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course contents" }}</a>{% endif %}
   </span>
   <span class="chapter-nav-steps">
-    {% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
-    {% if page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
+    {% if prev_page %}<a href="{{ prev_page.url | relative_url }}">&larr; {{ prev_page.short_title | default: prev_page.title }}</a>
+    {% elsif page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
+    {% if next_page %}<a href="{{ next_page.url | relative_url }}">{{ next_page.short_title | default: next_page.title }} &rarr;</a>
+    {% elsif page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
   </span>
 </nav>
 
@@ -18,7 +28,9 @@ layout: default
     {% if page.course_url %}<a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course contents" }}</a>{% endif %}
   </span>
   <span class="chapter-nav-steps">
-    {% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
-    {% if page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
+    {% if prev_page %}<a href="{{ prev_page.url | relative_url }}">&larr; {{ prev_page.short_title | default: prev_page.title }}</a>
+    {% elsif page.prev_url %}<a href="{{ page.prev_url | relative_url }}">&larr; {{ page.prev_title | default: "Previous" }}</a>{% endif %}
+    {% if next_page %}<a href="{{ next_page.url | relative_url }}">{{ next_page.short_title | default: next_page.title }} &rarr;</a>
+    {% elsif page.next_url %}<a href="{{ page.next_url | relative_url }}">{{ page.next_title | default: "Next" }} &rarr;</a>{% endif %}
   </span>
 </nav>

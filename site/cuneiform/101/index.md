@@ -20,7 +20,7 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
 ## Chapters
 
 <ol class="course-toc" start="0">
-  <li>Orientation — what this course is, and how to study <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and how to study</li>
   <li>Clay and reed — the medium that shaped the script <em>— forthcoming</em></li>
   <li>From tokens to signs — where writing came from <em>— forthcoming</em></li>
   <li>How signs mean — word-signs, syllables, determinatives <em>— forthcoming</em></li>
