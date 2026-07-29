@@ -30,7 +30,7 @@ the literacy tracks for [Sumerian and Akkadian](../) build on it.
   <li><a href="{{ '/cuneiform/101/07-the-tablet-house/' | relative_url }}">The tablet house</a> — scribes and their school</li>
   <li><a href="{{ '/cuneiform/101/08-one-script-many-tongues/' | relative_url }}">One script, many tongues</a> — three millennia of adaptation</li>
   <li><a href="{{ '/cuneiform/101/09-decipherment/' | relative_url }}">Decipherment</a> — how the wedges gave up their secret</li>
-  <li>Reference — every sign taught, conventions, further study <em>— forthcoming</em></li>
+  <li><a href="{{ '/cuneiform/101/10-reference/' | relative_url }}">Reference</a> — every sign taught, conventions, further study</li>
 </ol>
 
 Chapters appear here as they are finished; the list above is the

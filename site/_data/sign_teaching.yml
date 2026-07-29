@@ -1,4 +1,7 @@
 # Sign teaching-order data — Cuneiform 101 candidate set (M2-3).
+# Lives in site/_data so chapter 10 (Reference) is GENERATED from it.
+# taught_in: the 101 chapter that formally teaches the sign (null =
+# not yet taught in 101; reserved for a later course).
 #
 # Owner ruling 2026-07-29 (docs/concept.md §3.1): teaching order weighs
 # corpus FREQUENCY and graphic SIMPLICITY together; frequency alone
@@ -26,6 +29,7 @@ signs:
   - glyph: "𒀸"
     codepoint: "12038"
     name: "AŠ"
+    taught_in: 4
     value: "aš (ash/asz)"
     meaning: "one; single"
     freq_etcsl: null
@@ -37,6 +41,7 @@ signs:
   - glyph: "𒁹"
     codepoint: "12079"
     name: "DIŠ"
+    taught_in: 4
     value: "diš (disz)"
     meaning: "one (counting); item marker"
     freq_etcsl: null
@@ -48,6 +53,7 @@ signs:
   - glyph: "𒌋"
     codepoint: "1230B"
     name: "U"
+    taught_in: 4
     value: "u"
     meaning: "ten"
     freq_etcsl: null
@@ -59,6 +65,7 @@ signs:
   - glyph: "𒀀"
     codepoint: "12000"
     name: "A"
+    taught_in: 4
     value: "a"
     meaning: "water"
     freq_etcsl: 1
@@ -70,6 +77,7 @@ signs:
   - glyph: "𒆳"
     codepoint: "121B3"
     name: "KUR"
+    taught_in: 4
     value: "kur"
     meaning: "mountain; foreign land"
     freq_etcsl: 43
@@ -81,6 +89,7 @@ signs:
   - glyph: "𒀭"
     codepoint: "1202D"
     name: "AN"
+    taught_in: 4
     value: "an; diŋir (dijir/dingir)"
     meaning: "heaven; god (determinative {d})"
     freq_etcsl: 8
@@ -92,6 +101,7 @@ signs:
   - glyph: "𒌓"
     codepoint: "12313"
     name: "UD"
+    taught_in: 4
     value: "ud; utu"
     meaning: "day; sun"
     freq_etcsl: 42
@@ -103,6 +113,7 @@ signs:
   - glyph: "𒊺"
     codepoint: "122BA"
     name: "ŠE"
+    taught_in: 4
     value: "še (ce/sze)"
     meaning: "barley; grain"
     freq_etcsl: 83
@@ -114,6 +125,7 @@ signs:
   - glyph: "𒆠"
     codepoint: "121A0"
     name: "KI"
+    taught_in: 4
     value: "ki"
     meaning: "earth; place (determinative {ki})"
     freq_etcsl: 10
@@ -125,6 +137,7 @@ signs:
   - glyph: "𒃲"
     codepoint: "120F2"
     name: "GAL"
+    taught_in: null
     value: "gal"
     meaning: "big, great"
     freq_etcsl: 29
@@ -136,6 +149,7 @@ signs:
   - glyph: "𒈬"
     codepoint: "1222C"
     name: "MU"
+    taught_in: 6
     value: "mu"
     meaning: "name; year"
     freq_etcsl: 2
@@ -147,6 +161,7 @@ signs:
   - glyph: "𒂍"
     codepoint: "1208D"
     name: "É"
+    taught_in: 4
     value: "é (e2)"
     meaning: "house, temple"
     freq_etcsl: 30
@@ -158,6 +173,7 @@ signs:
   - glyph: "𒁾"
     codepoint: "1207E"
     name: "DUB"
+    taught_in: null
     value: "dub"
     meaning: "(clay) tablet"
     freq_etcsl: 170
@@ -169,6 +185,7 @@ signs:
   - glyph: "𒈗"
     codepoint: "12217"
     name: "LUGAL"
+    taught_in: 6
     value: "lugal"
     meaning: "king"
     freq_etcsl: 51
