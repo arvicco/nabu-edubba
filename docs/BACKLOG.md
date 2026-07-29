@@ -92,11 +92,10 @@ Goal: one fully-styled specimen chapter exercising the literacy-ladder
 Acceptance: rake gate green; surface checklist pass incl. mobile
       geometry and text-browser sanity.
 
-## M1-6 · edubba.ac goes live  [owner action] [status: ready] [deps: M1-1]
-Goal: custom domain on Pages + DNS records; site serves at
-      https://edubba.ac with HTTPS.
-Acceptance: curl -sI https://edubba.ac returns 200 with the landing
-      page; recorded here.
+## M1-6 · edubba.ac goes live  [owner action] [status: done — owner ruling 2026-07-29: edubba.ac REDIRECTS to the GitHub Pages URL by design (registrar forward), rather than serving as custom domain] [deps: M1-1]
+Goal: edubba.ac reaches the site.
+Acceptance: https://edubba.ac 301-redirects to
+      arvicco.github.io/nabu-edubba (verified 2026-07-29).
 
 ## Decision items — Phase 1
 - (none)
