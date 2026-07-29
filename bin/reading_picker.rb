@@ -19,7 +19,7 @@ SOURCES = { "cdli" => "attribution", "etcsl" => "nc (DECISION ITEM before use)" 
 chapter_cap = (ARGV[0] || 5).to_i
 
 taught = YAML.safe_load_file("site/_data/sign_teaching.yml")["signs"]
-             .map { |s| s["value"][/[a-zŋš']+[0-9]*/] }
+             .map { |s| v = s["value"]; (v[/\(([a-z0-9\/]+)\)/, 1] || v[/[a-z']+[0-9]*/]).to_s.split("/").last }
 queue = YAML.safe_load_file("site/_data/cuneiform102_queue.yml")["signs"]
             .select { |s| s["chapter"] && s["chapter"] <= chapter_cap }
             .map { |s| s["value"] }
