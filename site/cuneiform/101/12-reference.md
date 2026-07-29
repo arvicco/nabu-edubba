@@ -106,8 +106,8 @@ of the CDLI and Oracc corpora:
   Corpus of Sumerian Literature</a> (ETCSL) — all reachable, with
   per-passage licenses, through the
   <a href="https://arvicco.github.io/nabu/">Nabu</a> library.
-- **Next in this school:** the [course catalog](../) — 102 Sumerian
-  is the natural continuation.
+- **Next in this school:** [102 · Sumerian]({{ '/cuneiform/102/' | relative_url }})
+  — the literacy track this course was built to feed.
 
 ## Sources and licenses
 

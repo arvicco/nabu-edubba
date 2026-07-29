@@ -1,0 +1,34 @@
+---
+title: Cuneiform 102 · Sumerian
+description: >-
+  The Sumerian literacy track: the sign inventory grown in computed
+  order, grammar in reading-sized bites, and real texts in full
+  cuneiform — from royal dedications to proverbs.
+---
+
+# Cuneiform 102 · Sumerian
+
+**The literacy track.** Prerequisite:
+[101 · Foundations]({{ '/cuneiform/101/' | relative_url }}) — this
+course assumes its 25 signs, its conventions, and its habits. Where
+101 taught how the machine works, 102 is about *mileage*: the sign
+inventory grows chapter by chapter in an order computed from corpus
+frequency and graphic simplicity, each chapter adds exactly as much
+Sumerian grammar as its readings demand, and the readings are real
+texts — increasingly in full cuneiform, boxes turning into signs.
+
+## Chapters
+
+<ol class="course-toc" start="0">
+  <li>Orientation — the long march, and your first new batch <em>— forthcoming</em></li>
+  <li>The sentence in the clay — Sumerian in one chapter <em>— forthcoming</em></li>
+  <li>Batch II — and the genitive <em>— forthcoming</em></li>
+  <li>Batch III — plurals and doubling <em>— forthcoming</em></li>
+  <li>Batch IV — the verbal chain, lightly <em>— forthcoming</em></li>
+  <li>Batch V — reading a royal dedication whole <em>— forthcoming</em></li>
+</ol>
+
+Chapters 00–05 are this course's committed opening stretch; further
+stretches follow in later phases, alternating with the opening of
+other schools. Corrections are welcome in
+[GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).
