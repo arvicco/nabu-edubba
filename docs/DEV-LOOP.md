@@ -64,7 +64,11 @@ meant for readers; nothing internal lands in `docs/`.
    the SAME commit, additively).
 5. **Commit** on `phase-N`, conventional message referencing the
    packet; update backlog + worklog; push and WATCH CI — local
-   toolchains drift from the CI target; CI is the authority.
+   toolchains drift from the CI target; CI is the authority. **After
+   any deploy, surface-review the DEPLOYED URL itself** (headless
+   screenshot + read), never just curl individual files — a 200 on a
+   file proves it exists, not that pages reference it correctly
+   (baseurl incident, 2026-07-29).
 6. **Escalate on failure**: two failed attempts at tier -> bump one
    tier, retry once; two failures at top -> `blocked: <diagnosis>`,
    move on. Owner-ruled-domain packets skip attempts -> `blocked:
