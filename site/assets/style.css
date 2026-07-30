@@ -456,9 +456,16 @@ a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.
   background: var(--bg);
   color: var(--ink);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  /* full typographic reset: bubbles must look identical no matter
+     what display styling (size, spacing, mono) the host glyph sits in */
+  font-family: Georgia, serif;
   font-size: 0.78rem;
   font-style: normal;
   font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
   line-height: 1.4;
   text-align: center;
   white-space: normal;

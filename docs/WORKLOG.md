@@ -19,7 +19,13 @@ with a stripped parenthetical, leaving "; oil…" — caught in built
 HTML). Own-page anchor cells get no bubble (the table row already
 shows the data). 6 new unit tests; visual check via forced-visible
 bubble over real built markup + site stylesheet in headless Chrome.
-Gate green (45 tests).
+Gate green (45 tests). Owner catch, same day: bubbles inside
+big-glyph exhibits inherited the host's display styling (2.6em,
+letter-spacing 0.2em → sprawling spaced-out text). .sign-tip now
+carries a full typographic reset (family, size, spacing, transform,
+indent) so every bubble is compact regardless of context;
+re-verified with a forced-visible bubble inside the ch05
+nam-ti-la-ni-še₃ exhibit itself.
 
 2026-07-30 · M3-15 incident+fix · Owner screenshot: the "subscripts"
 shipped in M3-15 rendered as full-size oldstyle digits — the serif
