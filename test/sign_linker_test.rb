@@ -91,4 +91,18 @@ class SignLinkerTest < Minitest::Test
     assert_equal "oil, butter as i₃",
                  Edubba::SignLinker.display_form("(syllable ni); oil, butter as i₃")
   end
+
+  def test_tip_join_keeps_gardiner_codes_raw
+    assert_equal "D46 · d · hand",
+                 Edubba::SignLinker.tip_join(["D46", "d", "hand"])
+  end
+
+  def test_hieroglyph_glyph_is_linked
+    owl = "\u{13153}"
+    map = { owl => { url: "/hieroglyphs/101/04-your-first-signs/", anchor: "sign-13153",
+                     tip: "G17 · m · owl" } }
+    out = Edubba::SignLinker.transform("<p>#{owl}</p>", map, "/x/", "")
+    assert_includes out, %(<a class="sign-link" href="/hieroglyphs/101/04-your-first-signs/#sign-13153">#{owl})
+    assert_includes out, "G17 · m · owl"
+  end
 end

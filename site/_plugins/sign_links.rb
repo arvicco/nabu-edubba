@@ -28,7 +28,9 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
     Array(site.data.dig("hiero_teaching", "signs")).each do |s|
       url = hiero_urls[s["taught_in"]] or next
       map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
-                          tip: Edubba::SignLinker.tip_text(s) }
+                          tip: Edubba::SignLinker.tip_join(
+                            [s["gardiner"], s["value"], s["meaning"]]
+                          ) }
     end
     map
   end
