@@ -1,4 +1,6 @@
 ---
+school: cuneiform
+course_no: 102
 title: Cuneiform 102 · Sumerian
 assumes: cuneiform/101
 description: >-
