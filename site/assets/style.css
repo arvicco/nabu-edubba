@@ -12,6 +12,15 @@
   unicode-range: U+12000-1254F;
 }
 
+/* Noto Sans Egyptian Hieroglyphs, same subset pipeline
+   (hieroglyphs-coverage.txt is the gate-checked manifest). */
+@font-face {
+  font-family: "Noto Sans Egyptian Hieroglyphs";
+  src: url("fonts/NotoSansEgyptianHieroglyphs-subset.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+13000-1342F;
+}
+
 :root {
   --bg: #faf8f4;        /* unfired clay, light */
   --ink: #26211c;
@@ -41,7 +50,7 @@
 /* Native-script text: the unicode-range font-face applies wherever
    these glyphs occur; this class adds sizing safe for dense signs. */
 .script, .wordmark-glyphs {
-  font-family: "Noto Sans Cuneiform", Georgia, serif;
+  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", Georgia, serif;
   font-style: normal;
 }
 
