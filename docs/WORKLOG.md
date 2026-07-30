@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-15 incident+fix · Owner screenshot: the "subscripts"
+shipped in M3-15 rendered as full-size oldstyle digits — the serif
+stack has no glyphs for U+2080-2089, so browsers fell back to
+whatever font had them. Lesson: a Unicode codepoint in the source
+is NOT a typographic guarantee; verify the rendered SURFACE (we had
+checked the bytes, not the pixels). Durable fix: new post_render
+transformer (script/subscript_render.rb + _plugins wiring, mirroring
+the sign-linker architecture) converts subscript-digit runs to real
+<sub> markup at build time — skips title/svg/script/style/code/pre/
+existing sub, attributes untouched; 7 unit tests; css sub rule
+(0.72em, line-height 0) keeps line rhythm. Sources stay clean
+Unicode (subscript-index lint rule unchanged). Verified in built
+HTML (i<sub>3</sub> e<sub>2</sub>-gal, ATF exhibit untouched) AND by
+headless-Chrome screenshot of the rendered chapter. Gate green (39
+tests).
+
 2026-07-30 · M3-15 done · Owner stylistic ruling: transliteration
 index numbers are ALWAYS Unicode subscripts (lu₂, e₂) in displayed
 text, never full-size ASCII digits — across all Edubba materials.
