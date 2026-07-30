@@ -42,3 +42,11 @@ signs:
   - { gardiner: V13, translit: "ṯ", mdc: "T", label: "tethering rope",           sound: "tj, as in 'tune' (British)",                taught_in: 4, certainty: classic }
   - { gardiner: D46, translit: "d", mdc: "d", label: "hand",                     sound: "d",                                         taught_in: 4, certainty: classic }
   - { gardiner: I10, translit: "ḏ", mdc: "D", label: "cobra at rest",            sound: "dj, as in 'adjust'",                        taught_in: 4, certainty: classic }
+  # Chapter 05 — names in rings
+  - { gardiner: V10, translit: "",   mdc: "",   label: "the cartouche — rope ring around royal names", sound: "not read; a frame",        taught_in: 5, certainty: classic }
+  - { gardiner: N5,  translit: "rꜥ", mdc: "ra", label: "sun disc; the god Ra",   sound: "ra",                                        taught_in: 5, certainty: classic }
+  - { gardiner: M23, translit: "sw", mdc: "sw", label: "sedge plant; writes nswt, king", sound: "su",                                taught_in: 5, certainty: classic }
+  # Chapter 06 — the offering formula
+  - { gardiner: R4,  translit: "ḥtp", mdc: "Htp", label: "loaf on a reed mat — offering, peace", sound: "hotep",                     taught_in: 6, certainty: classic }
+  - { gardiner: X8,  translit: "ḏi̯",  mdc: "di",  label: "conical loaf held out — give", sound: "di",                                taught_in: 6, certainty: classic }
+  - { gardiner: D28, translit: "kꜣ",  mdc: "kA",  label: "two raised arms — the ka, the life-force", sound: "ka",                    taught_in: 6, certainty: classic }

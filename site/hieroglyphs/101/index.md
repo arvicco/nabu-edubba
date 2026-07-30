@@ -29,12 +29,12 @@ is the fastest way to see that it is not a curiosity but a *design*.
 
 <ol class="course-toc" start="0">
   <li><a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and how to study</li>
-  <li>Stone, reed, and papyrus — the media that shaped two scripts in one</li>
-  <li>Pictures that talk — where Egyptian writing came from</li>
-  <li>How signs mean — sound-signs, word-signs, classifiers</li>
-  <li>Your first signs — the one-consonant signs, the scribe's kit</li>
-  <li>Names in rings — cartouches, and the names that cracked the code</li>
-  <li>The offering formula — Egypt's most-written sentence, whole</li>
+  <li><a href="{{ '/hieroglyphs/101/01-stone-reed-papyrus/' | relative_url }}">Stone, reed, and papyrus</a> — the media that shaped two scripts in one</li>
+  <li><a href="{{ '/hieroglyphs/101/02-pictures-that-talk/' | relative_url }}">Pictures that talk</a> — where Egyptian writing came from</li>
+  <li><a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">How signs mean</a> — sound-signs, word-signs, classifiers</li>
+  <li><a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">Your first signs</a> — the one-consonant signs, the scribe's kit</li>
+  <li><a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">Names in rings</a> — cartouches, and the names that cracked the code</li>
+  <li><a href="{{ '/hieroglyphs/101/06-the-offering-formula/' | relative_url }}">The offering formula</a> — Egypt's most-written sentence, whole</li>
   <li>Sounds in pairs and triples — biliterals, triliterals, complements</li>
   <li>Counting like an Egyptian — numbers, measures, accounts</li>
   <li>Gods and titles — the divine names and epithets everywhere on stone</li>

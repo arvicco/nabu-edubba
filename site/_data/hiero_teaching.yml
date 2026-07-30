@@ -290,3 +290,69 @@ signs:
   taught_in: 4
   freq_aes: 33
   certainty: classic
+- glyph: "𓍷"
+  codepoint: '13377'
+  gardiner: V10
+  name: V10
+  value: ''
+  meaning: the cartouche — rope ring around royal names
+  mdc: ''
+  sound: not read; a frame
+  taught_in: 5
+  freq_aes: 374
+  certainty: classic
+- glyph: "𓇳"
+  codepoint: 131F3
+  gardiner: N5
+  name: N5
+  value: rꜥ
+  meaning: sun disc; the god Ra
+  mdc: ra
+  sound: ra
+  taught_in: 5
+  freq_aes: 20
+  certainty: classic
+- glyph: "𓇓"
+  codepoint: 131D3
+  gardiner: M23
+  name: M23
+  value: sw
+  meaning: sedge plant; writes nswt, king
+  mdc: sw
+  sound: su
+  taught_in: 5
+  freq_aes: 35
+  certainty: classic
+- glyph: "𓊵"
+  codepoint: 132B5
+  gardiner: R4
+  name: R4
+  value: ḥtp
+  meaning: loaf on a reed mat — offering, peace
+  mdc: Htp
+  sound: hotep
+  taught_in: 6
+  freq_aes: 59
+  certainty: classic
+- glyph: "𓏙"
+  codepoint: 133D9
+  gardiner: X8
+  name: X8
+  value: ḏi̯
+  meaning: conical loaf held out — give
+  mdc: di
+  sound: di
+  taught_in: 6
+  freq_aes: 83
+  certainty: classic
+- glyph: "𓂓"
+  codepoint: '13093'
+  gardiner: D28
+  name: D28
+  value: kꜣ
+  meaning: two raised arms — the ka, the life-force
+  mdc: kA
+  sound: ka
+  taught_in: 6
+  freq_aes: 70
+  certainty: classic
