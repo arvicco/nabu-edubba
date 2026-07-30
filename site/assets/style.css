@@ -439,5 +439,37 @@ sub { font-size: 0.72em; line-height: 0; }
 
 /* --- Sign links (every returning glyph links to its introduction) --- */
 
-a.sign-link { text-decoration: none; color: inherit; }
+a.sign-link { text-decoration: none; color: inherit; position: relative; }
 a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
+
+/* Hover bubble: sign name · readings · meaning (pure CSS, no JS) */
+.sign-tip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.45em);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 16em;
+  padding: 0.35em 0.65em;
+  border: 1px solid var(--rule);
+  border-radius: 0.35em;
+  background: var(--bg);
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.12s ease-in 0.08s;
+  pointer-events: none;
+  z-index: 5;
+}
+a.sign-link:hover .sign-tip,
+a.sign-link:focus-visible .sign-tip {
+  visibility: visible;
+  opacity: 1;
+}

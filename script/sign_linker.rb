@@ -14,6 +14,10 @@
 # - Inside a `sign-cell` table cell ON the glyph's own target page,
 #   the first occurrence becomes the ANCHOR (<span id=...>) instead of
 #   a link — that is the destination the rest of the site points at.
+# - Each link carries a hover bubble (owner request 2026-07-30): a
+#   hidden <span class="sign-tip"> with name · readings · meaning,
+#   shown by pure CSS on hover/focus — no JS. Anchors on a sign's own
+#   page get no bubble (the table row already shows the same data).
 
 module Edubba
   module SignLinker
@@ -61,24 +65,47 @@ module Edubba
           %(<span id="#{anchor}">#{g}</span>)
         else
           href = entry[:url] == page_url ? "##{anchor}" : "#{baseurl}#{entry[:url]}##{anchor}"
-          %(<a class="sign-link" href="#{href}">#{g}</a>)
+          tip = entry[:tip] ? %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>) : ""
+          %(<a class="sign-link" href="#{href}">#{g}#{tip}</a>)
         end
       end
     end
 
-    # Build glyph -> {url:, anchor:} from the two data files.
+    # Build glyph -> {url:, anchor:, tip:} from the two data files.
     # reference_url: where 101 signs anchor; chapter_urls: {2=>"/...", ...}
     def build_map(sign_teaching, queue, reference_url, chapter_urls)
       map = {}
       Array(sign_teaching&.dig("signs")).each do |s|
-        map[s["glyph"]] = { url: reference_url, anchor: "sign-#{s['codepoint']}" }
+        map[s["glyph"]] = { url: reference_url, anchor: "sign-#{s['codepoint']}",
+                            tip: tip_text(s) }
       end
       Array(queue&.dig("signs")).each do |s|
         ch = s["chapter"] or next
         url = chapter_urls[ch] or next
-        map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}" }
+        map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                            tip: tip_text(s) }
       end
       map
+    end
+
+    # "AN · an; diŋir · heaven; god" — name, readings, short meaning.
+    # Parenthetical asides (ASCII forms, certainty grades) are stripped;
+    # ATF spellings normalized for display (sz -> š, index digits ->
+    # Unicode subscripts, which the subscript renderer then typesets).
+    def tip_text(sign)
+      parts = [sign["name"], sign["value"], sign["meaning"]].map { |p| display_form(p) }
+      tip = parts.map { |p| p.to_s.strip }.reject(&:empty?).join(" · ")
+      tip.empty? ? nil : tip.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;")
+    end
+
+    SUB_DIGITS = ("0".."9").zip("₀".."₉").to_h
+
+    def display_form(text)
+      text.to_s
+          .gsub(/\s*\([^)]*\)/, "")
+          .gsub("sz", "š")
+          .gsub(/(?<=\p{L})\d+/) { |run| run.each_char.map { |c| SUB_DIGITS[c] }.join }
+          .gsub(/\A[;,·\s]+|[;,·\s]+\z/, "")
     end
   end
 end
