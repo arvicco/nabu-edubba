@@ -73,9 +73,19 @@ rake serve          # local preview at http://127.0.0.1:4000
   lists) in-line; no confident nonsense about ancient scripts. Cite a
   given standard reference once or twice per course, not per chapter.
 - Every chapter from the first-signs chapter on teaches 1–3 new
-  theme-related signs (ideally opening the chapter); every chapter
-  carries at least one graphic illustration; readings couple
-  transliteration with native script, untaught signs as ▢.
+  theme-related signs (ideally opening the chapter) — and USES each
+  new sign in that same chapter, immediately; a sign never waits for
+  a later chapter for its first demonstration. Every chapter carries
+  at least one graphic illustration; readings couple transliteration
+  with native script, untaught signs as ▢. Recurring signs link back
+  to where they were first taught (earlier courses: to that course's
+  Reference summary) — the sign-linker plugin does this site-wide.
+- Simplicity and clarity over adornment: say the idea in the
+  plainest words that carry it; never dress up a simple fact.
+  Substance over meta: lesson prose serves the student's goal — no
+  corpus names, compiler talk, chart cross-references, or obscure
+  external references in lesson flow (orientation chapters,
+  citations, and footnotes are where machinery may speak).
 - Chapter titles express the chapter's ESSENCE in a few short words
   (the grammar piece, the main idea) — never mechanical labels like
   "Batch III". Batches are a mechanic, not a name.
