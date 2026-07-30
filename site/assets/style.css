@@ -434,3 +434,8 @@ img, svg { max-width: 100%; }
 }
 
 .citation code { font-size: 0.85em; }
+
+/* --- Sign links (every returning glyph links to its introduction) --- */
+
+a.sign-link { text-decoration: none; color: inherit; }
+a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }

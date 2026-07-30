@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-13 done · Gate 3 review revisions: (1) sidebar now
+lists every course of the school in numeric order (school:/course_no:
+front matter), current course expanded, siblings one-click links;
+(2) footnotes ordered below the bottom nav line (flex order — kramdown
+emits them in-content); (3) reference citations footnoted out of the
+lesson flow (ch. 01 carries the track's single [^ref]); (4) every
+grammar marker got a held example — the é-bi confusion resolved by
+teaching the actual animate/inanimate rule (é-a-ni his vs é-bi its);
+(5) ch. 04 rebuilt on the taught sign (𒈬𒁺 mu-du composed figure;
+the du3 homophone banished — "poor choice, ummia" acknowledged);
+(6) ch. 02's sign-count/translit mismatch made the explicit lesson;
+(7) SIGN LINKS: script/sign_linker.rb + site/_plugins/sign_links.rb —
+build-time transformer wraps every known glyph in a link to where it
+was introduced (101 signs → reference-page anchors, 102 signs → their
+batch table; own-page sign-cells become the anchors), skipping
+existing links/titles/svg; 7 tests (30 total); htmlproofer validates
+every generated link+anchor as part of the gate; zero visual change
+until hover. First _plugins use — allowed because we build with our
+own Jekyll in CI, not the github-pages gem.
+
+
 2026-07-29 · PHASE 3 (M3-1..M3-10 substantially done) · phase-3 ·
 Cuneiform 102 opened: course architecture with validator
 prerequisite support (assumes: front matter — 102 inherits 101's

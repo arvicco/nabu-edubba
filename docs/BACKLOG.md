@@ -208,6 +208,16 @@ rule), surface review, top fact-review of grammar bites, citations
 + license classes verified, standing pedagogy rules (signs+figure+
 script-beside-translit per chapter).
 
+## M3-13 · Gate 3 review revisions (owner feedback)  [tier: top] [status: done] [deps: M3-12]
+Goal: school-wide sidebar (all courses listed in order, only current
+      expanded); footnotes below the nav line; refs footnoted not
+      inline; concrete example per grammar marker (animate/inanimate
+      possession); ch. 04 rebuilt on taught 𒁺 (du3 banished); ch. 02
+      invisible-ak made the explicit lesson; EVERY returning glyph
+      now links to its introduction (build-time transformer plugin +
+      anchors, htmlproofer-validated).
+Acceptance: gate green; 30 tests; surface-reviewed; PR #6 updated.
+
 ## Decision items — Phase 3
 - D3-a · May Edubba quote short NC-licensed passages (ETCSL, license
   class nc) as graded readings? The site is non-commercial and every
