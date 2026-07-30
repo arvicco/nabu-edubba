@@ -5,6 +5,41 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M4-1..M4-11 (Phase 4 sweep) · Egyptian hieroglyphs
+school opened same-day as plan approval. Instruments first:
+ScriptScan generalizes the font-coverage + nothing-untaught gates to
+per-script ranges (adding a school = one SCRIPTS entry + vendored
+face); Noto Sans Egyptian Hieroglyphs vendored (OFL, google/fonts);
+bin/hiero_registry.rb resolves curated Gardiner codes against
+Unicode NAMES via python3 unicodedata (verified, never guessed —
+the cuneiform lesson institutionalized) and merges computed
+frequency from a full aes sweep (815k tokens, 267k with Gardiner
+codes; 14 of the 26 uniliterals in the corpus top-20 — computed
+frequency CONFIRMS the field's uniliteral-first didactic order,
+lovely validation of commitment §3.1-1). Psych catch: to_yaml
+escapes astral-plane glyphs (\U0001313F) which blinds the coverage
+scanner — registry post-processes to literal glyphs. Sign-linker
+catch: glyph regex was cuneiform-range-bound (hieroglyphs passed
+through unlinked) and tip_text's ATF normalization mangled Gardiner
+codes (D46→D₄₆) — GLYPH range union + tip_join raw path, tests
+pinned. Content: ch00-03 + ch06 top-tier (media/origins/mechanism/
+formula), ch04-05 Sonnet agents to written specs (both returned
+clean; review caught a corpus-name leak into lesson prose, a
+"long vowel" claim contradicting the no-vowels teaching, and
+duplicate shows: entries). Readings discovered by inventory-⊆
+search over cached aes export: Teti cartouche X1-X1-M17 standalone,
+Pepi Q3-Q3-M17-M17-Z4+det, honorific transposition attested in
+estate name Sḥtp-Ptḥ-Ttj, offering formula whole from the
+Mut-neferet stela (n kꜣ n) — all four URNs grep-verified exact
+against the export (1 match each); Ptolemy NOT attested
+hieroglyphically in aes/tla-hf (demotic only) → Rosetta exhibit
+treatment, flagged for ch11. Surface-reviewed built ch05/06 by
+headless screenshots (sign tables, cartouche SVG, formula strip —
+Q3's hollow-rectangle glyph looks like tofu but IS the stool sign;
+coverage rule proves no tofu can ship). README + school catalogs
+refreshed (stale "no courses exist" + "eleven chapters" fixed).
+Gate green throughout; readings data in .docs/p4-readings.md.
+
 2026-07-30 · Gate 3 CLOSED · PR #6 merged by owner 14:26Z; CI +
 Pages deploy green; live surface review of /cuneiform/102/04/ passed
 (sidebar, sign table, subscripts, sign links all correct on the

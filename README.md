@@ -18,30 +18,38 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-07-29
+## Status — honest, as of 2026-07-30
 
-**Two courses live in the cuneiform school.**
+**Two schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
 thirteen chapters from orientation to decipherment, 25 signs,
-genuine Ur III royal inscriptions read in the original.
-[102 · Sumerian](https://edubba.ac/cuneiform/102/) has opened its
-first stretch — six chapters, 18 more signs in computed order,
-grammar in reading-sized bites, and readings from 4,600-year-old
-Fara-period tablets rendered in full cuneiform (all texts CDLI via
-Nabu, cited by URN and license). Also live: the map-of-writing
-landing page, catalog stubs for the hieroglyphs and hanzi schools,
-and a layout specimen.
+genuine Ur III royal inscriptions read in the original — and
+[102 · Sumerian](https://edubba.ac/cuneiform/102/) has its first
+stretch live: six chapters, 18 more signs in computed order, and
+readings from 4,600-year-old Fara-period tablets in full cuneiform.
+The Egyptian school has opened with
+[Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/):
+seven chapters from the media and origins of the script through all
+26 one-consonant signs to real cartouches (Teti, Pepi) and a
+complete offering formula, read from real monuments (texts from the
+CDLI and BBAW/AES corpora via Nabu, cited by URN and license).
+Also live: the map-of-writing landing page, a catalog stub for the
+hanzi school, and a layout specimen. Every recurring sign links to
+where it was taught, with hover bubbles giving name, readings, and
+meaning — no JavaScript anywhere.
 
 Under the hood: a computed curriculum (sign order = corpus frequency
-× graphic simplicity, from committed frequency tables over 1.5M+
+× graphic simplicity, from committed frequency tables over 1.7M+
 Nabu passages), a "nothing untaught" validator that fails the build
-if a chapter uses a sign not yet taught, a font-coverage rule that
-makes tofu unshippable (the site serves a computed subset of Noto
-Sans Cuneiform), and the full gate (`rake gate`: lint + tests +
-build + offline link check) with auto-deploy on merge.
+if a chapter uses a sign not yet taught, a per-script font-coverage
+rule that makes tofu unshippable (computed subsets of Noto Sans
+Cuneiform and Noto Sans Egyptian Hieroglyphs), and the full gate
+(`rake gate`: lint + tests + build + offline link check) with
+auto-deploy on merge.
 
-Next (Phase 4): the Egyptian hieroglyphs school opens, while the
-Sumerian track continues in alternating phases.
+Next: the schools grow in alternating phases — the Sumerian track's
+second stretch, and the hieroglyphs course toward biliterals and
+the decipherment story.
 
 ## Building locally
 
