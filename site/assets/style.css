@@ -242,6 +242,20 @@ img, svg { max-width: 100%; }
   margin: 0 0 -0.5rem;
 }
 
+.course-sidebar-school {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin: 1.1rem 0 0.45rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+}
+.course-sidebar-school:first-child { margin-top: 0; }
+.course-sidebar-school a { color: inherit; text-decoration: none; }
+.course-sidebar-school a:hover { text-decoration: underline; }
+
 .course-sidebar-title {
   font-size: 0.8rem;
   font-weight: 700;
@@ -249,7 +263,7 @@ img, svg { max-width: 100%; }
   letter-spacing: 0.12em;
   cursor: pointer;
   color: var(--muted);
-  margin-bottom: 0.6rem;
+  margin: 0 0 0.6rem 0.5rem;
 }
 
 .course-sidebar-title a { color: inherit; text-decoration: none; }
@@ -362,7 +376,7 @@ img, svg { max-width: 100%; }
 .chapter-main > .footnotes hr { display: none; }
 
 .course-sidebar-other {
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.6rem 0.5rem;
   opacity: 0.85;
 }
 

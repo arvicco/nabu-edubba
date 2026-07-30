@@ -3,6 +3,7 @@ layout: course
 school: cuneiform
 course_no: 102
 title: Cuneiform 102 · Sumerian
+short_title: C 102 Sumerian
 assumes: cuneiform/101
 description: >-
   The Sumerian literacy track: the sign inventory grown in computed

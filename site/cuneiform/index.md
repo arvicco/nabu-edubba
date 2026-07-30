@@ -1,4 +1,5 @@
 ---
+school: cuneiform
 title: The Cuneiform School
 description: >-
   Planned catalog for the cuneiform school — the flagship of Edubba: wedge
