@@ -16,6 +16,11 @@ require_relative "course_check"
 #   untaught-sign a course chapter uses only signs taught in chapters
 #                 <= its own (front-matter teaches:) plus its own
 #                 shows: exhibits (script/course_check.rb)
+#   subscript-index transliteration display uses Unicode subscript
+#                 index digits (lu₂, e₂), never full-size ASCII (lu2)
+#                 — owner stylistic ruling 2026-07-30. Applies to
+#                 <span class="translit"> content; spans additionally
+#                 classed "atf" are exempt (verbatim raw-ATF exhibits)
 #
 # Usage: ruby script/lint.rb [SITE_DIR]   (exit 1 + report on violations)
 
@@ -24,6 +29,9 @@ module Edubba
     PROD_ORIGIN = %r{https?://(www\.)?edubba\.ac}i
     SCRIPT_TAG = /<script\b/i
     ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
+
+    TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>.*?)</span>}m
+    ASCII_INDEX = /[A-Za-zŠšŊŋĜĝḪḫŘř]\d/
 
     Violation = Struct.new(:file, :rule, :detail)
 
@@ -72,6 +80,15 @@ module Edubba
       end
       if path.end_with?(".md") && !text.start_with?("---\n")
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
+      end
+      text.scan(TRANSLIT_SPAN) do
+        extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
+        next if extra.split.include?("atf")
+
+        if (hit = body[ASCII_INDEX])
+          found << Violation.new(path, "subscript-index",
+                                 "full-size index digit #{hit.inspect} in translit span — use Unicode subscripts (lu₂), or class the span \"translit atf\" for verbatim ATF")
+        end
       end
       found
     rescue ArgumentError, Encoding::InvalidByteSequenceError

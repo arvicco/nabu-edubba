@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-15 done · Owner stylistic ruling: transliteration
+index numbers are ALWAYS Unicode subscripts (lu₂, e₂) in displayed
+text, never full-size ASCII digits — across all Edubba materials.
+Converted every offender: 101 ch. 06 seal readings 1-2 + figcaption
+(uri₅, limmu₂, li₉-si₄, ensi₂, ARAD₂), specimen page, 102 ch. 00
+(lu₂-dingir-mu), ch. 02 (ga-gu₇-gu₇, ur-e₂-gal), ch. 04 (i₃ e₂-gal
+DU, e₂-du-du, exercise 4); 101 ch. 03 convention paragraph now shows
+subscript examples. Deliberate ASCII survivors: verbatim raw-ATF
+exhibits (ch. 06 reading 3, now classed "translit atf" and its prose
+extended to teach the full-size-digit ATF convention) and explicit
+ASCII-convention mentions (ch. 03 e2 parenthetical, ch. 07 lu2, ch.
+12 Reference — bullet expanded to declare the subscript style).
+Enforcement: new subscript-index lint rule (letter+digit inside
+`<span class="translit">`, "atf" class exempts) + 2 tests; rule found
+an offender the manual grep missed (gu7) — oracle before hand-sweep,
+as usual. CLAUDE.md content rule added. Gate green (32 tests).
+
 2026-07-30 · M3-14 done · Review round 3: (1) essence titles — "Batch
 N" chapter names banned; 102 chs. 02-05 renamed with permalinks (The
 case that hides / Say it twice / The verbal chain, lightly / A
