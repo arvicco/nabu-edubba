@@ -126,7 +126,7 @@ squarely on this chapter's new sign. Two neighboring entries:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂵𒅥𒅥</span><span class="translit">ga-gu7-gu7</span><span class="gloss">"milk, eat, eat" — approximate; a nursery-ish name</span></div>
+    <div class="reading-line"><span class="script">𒂵𒅥𒅥</span><span class="translit">ga-gu₇-gu₇</span><span class="gloss">"milk, eat, eat" — approximate; a nursery-ish name</span></div>
     <div class="reading-line"><span class="script">𒂵𒅘𒅘</span><span class="translit">ga-nag-nag</span><span class="gloss">"milk, drink, drink" — approximate; a nursery-ish name</span></div>
   </div>
   <figcaption class="citation">
@@ -151,7 +151,7 @@ work without a single spelled-out *-ak*:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌨𒂍𒃲</span><span class="translit">ur-e2-gal</span><span class="gloss">Ur-egal — "man/servant of the palace" (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒌨𒂍𒃲</span><span class="translit">ur-e₂-gal</span><span class="gloss">Ur-egal — "man/servant of the palace" (approximate)</span></div>
   </div>
   <figcaption class="citation">
     TSŠ 0181, ED IIIa (ca. 2600–2500 BCE), Šuruppak.

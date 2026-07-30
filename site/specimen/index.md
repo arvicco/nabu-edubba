@@ -74,12 +74,12 @@ and *lugal* 𒈗, twice.
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀭▢𒀭▢</span><span class="translit">{d}amar-{d}suen</span><span class="gloss">Amar-Suen,</span></div>
     <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">nita kal-ga</span><span class="gloss">mighty man,</span></div>
-    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri5{ki}</span><span class="gloss">king of Ur,</span></div>
-    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu2-ba</span><span class="gloss">king of the four quarters:</span></div>
-    <div class="reading-line"><span class="script">▢𒀭▢▢</span><span class="translit">ur-{d}li9-si4</span><span class="gloss">Ur-Lisi,</span></div>
-    <div class="reading-line"><span class="script">▢</span><span class="translit">ensi2</span><span class="gloss">governor</span></div>
+    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri₅{ki}</span><span class="gloss">king of Ur,</span></div>
+    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu₂-ba</span><span class="gloss">king of the four quarters:</span></div>
+    <div class="reading-line"><span class="script">▢𒀭▢▢</span><span class="translit">ur-{d}li₉-si₄</span><span class="gloss">Ur-Lisi,</span></div>
+    <div class="reading-line"><span class="script">▢</span><span class="translit">ensi₂</span><span class="gloss">governor</span></div>
     <div class="reading-line"><span class="script">▢𒆠</span><span class="translit">umma{ki}</span><span class="gloss">of Umma,</span></div>
-    <div class="reading-line"><span class="script">▢▢</span><span class="translit">ARAD2-zu</span><span class="gloss">is your servant.</span></div>
+    <div class="reading-line"><span class="script">▢▢</span><span class="translit">ARAD₂-zu</span><span class="gloss">is your servant.</span></div>
   </div>
   <figcaption class="citation">
     Seal 1 of <em>AnOr</em> 01, 086 — an Ur III administrative tablet

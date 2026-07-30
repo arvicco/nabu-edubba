@@ -113,7 +113,7 @@ your 101 inventory already reads without a single box:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒇽𒀭𒈬</span><span class="translit">lu2-dingir-mu</span><span class="gloss">Lu-diŋirmu — "man of my god"</span></div>
+    <div class="reading-line"><span class="script">𒇽𒀭𒈬</span><span class="translit">lu₂-dingir-mu</span><span class="gloss">Lu-diŋirmu — "man of my god"</span></div>
   </div>
   <figcaption class="citation">
     Obverse vii 11 of <em>OIP</em> 104, 014, ED IIIa (ca. 2600–2500

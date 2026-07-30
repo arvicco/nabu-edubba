@@ -72,7 +72,10 @@ All transliteration in Edubba follows the field-standard ATF style
 of the CDLI and Oracc corpora:
 
 - **Values** in lowercase, with index numbers distinguishing
-  homophonous signs: *e2* is the second sign read *e* (the sign É).
+  homophonous signs: *e₂* is the second sign read *e* (the sign É).
+  Edubba always prints the index as a subscript; the corpora's plain
+  ASCII writes it full-size (*e2*), a form this site shows only when
+  quoting raw ATF.
 - ***š*** is written *sz* in CDLI's ASCII spelling (*szul-gi* =
   *šulgi*); the ETCSL corpus uses *c* for the same sound in its own
   files. This site prints *š* where typography allows and notes the

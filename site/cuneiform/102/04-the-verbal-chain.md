@@ -121,7 +121,7 @@ start to finish without a single box:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌 𒂍𒃲 𒁺</span><span class="translit">i3 e2-gal DU</span><span class="gloss">"oil — (to the) palace — delivered"</span></div>
+    <div class="reading-line"><span class="script">𒉌 𒂍𒃲 𒁺</span><span class="translit">i₃ e₂-gal DU</span><span class="gloss">"oil — (to the) palace — delivered"</span></div>
   </div>
   <figcaption class="citation">
     <em>FTP</em> 100, ED IIIa (ca. 2600–2500 BCE), Šuruppak (mod.
@@ -159,7 +159,7 @@ gave you for nouns:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂍𒁺𒁺</span><span class="translit">e2-du-du</span><span class="gloss">E-dudu — a name; "house" plus doubled "go" (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒂍𒁺𒁺</span><span class="translit">e₂-du-du</span><span class="gloss">E-dudu — a name; "house" plus doubled "go" (approximate)</span></div>
   </div>
   <figcaption class="citation">
     De Marcellis collection, ED IIIa (ca. 2600–2500 BCE).
@@ -219,7 +219,7 @@ doubled, in exactly chapter 03's manner:
    Then write *lugal-e-ne* "kings" and read 𒀀𒉈𒉈 back aloud.
 3. Write 𒈬𒁺 from memory and explain its two slots — which is the
    prefix, which is the stem, and why the stem sits last.
-4. In *i3 e2-gal DU*, name which sign is carrying its "second" value,
+4. In *i₃ e₂-gal DU*, name which sign is carrying its "second" value,
    and explain in one sentence what a capitalized reading inside a
    transliteration — as opposed to a sign-name column — tells you.
 

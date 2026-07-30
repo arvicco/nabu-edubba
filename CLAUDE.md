@@ -61,6 +61,12 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Native script always accompanied by transliteration in the field's
   standard convention (ATF for cuneiform, MdC/Leiden for Egyptian,
   IAST for Sanskrit); conventions declared in each course's Reference.
+- Transliteration index numbers are ALWAYS Unicode subscripts in
+  displayed text (lu₂, e₂, u₄) — owner stylistic ruling, all Edubba
+  materials. Full-size ASCII digits (lu2) appear only in verbatim
+  raw-ATF exhibits (span class "translit atf") and explicit mentions
+  of the ASCII convention; the subscript-index lint rule enforces
+  the reading-span case.
 - Graded readings may use only signs/vocabulary already taught (the
   "nothing untaught" validator joins the gate with the first course).
 - Didactic claims cite their scholarly basis (standard grammars, sign
