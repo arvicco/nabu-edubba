@@ -109,7 +109,8 @@ which sign wrote which word.
 
 While we are at it, the rest of the modern notation you will meet in
 every reading here, in the field-standard style used by the CDLI and
-Oracc corpora: sign values in lowercase with indices (*e2*, *u4*),
+Oracc corpora: sign values in lowercase with subscript indices
+(*e₂*, *u₄*),
 determinatives in braces (*{d}*, *{ki}*), and hyphens joining the
 signs that spell one word. One more convention, because the sign
 tables in this course use it constantly: each sign has a modern

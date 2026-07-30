@@ -5,6 +5,122 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-16 done · Hover bubbles on every linked sign (owner
+request): the sign-linker now embeds a hidden <span class="sign-tip">
+inside each generated sign link — "NAME · readings · meaning" — shown
+by pure CSS on :hover/:focus-visible (no JS; tap on touch follows the
+link, the designed fallback). Tip text composed in build_map from the
+same two data files that drive linking; display_form normalizes ATF
+for display (parentheticals/certainty grades stripped, sz→š, index
+digits→Unicode subscripts — which the subscript renderer then turns
+into real <sub>, since plugins run alphabetically sign_links before
+subscript_render), orphaned separators trimmed (the NI meaning began
+with a stripped parenthetical, leaving "; oil…" — caught in built
+HTML). Own-page anchor cells get no bubble (the table row already
+shows the data). 6 new unit tests; visual check via forced-visible
+bubble over real built markup + site stylesheet in headless Chrome.
+Gate green (45 tests). Owner catch, same day: bubbles inside
+big-glyph exhibits inherited the host's display styling (2.6em,
+letter-spacing 0.2em → sprawling spaced-out text). .sign-tip now
+carries a full typographic reset (family, size, spacing, transform,
+indent) so every bubble is compact regardless of context;
+re-verified with a forced-visible bubble inside the ch05
+nam-ti-la-ni-še₃ exhibit itself.
+
+2026-07-30 · M3-15 incident+fix · Owner screenshot: the "subscripts"
+shipped in M3-15 rendered as full-size oldstyle digits — the serif
+stack has no glyphs for U+2080-2089, so browsers fell back to
+whatever font had them. Lesson: a Unicode codepoint in the source
+is NOT a typographic guarantee; verify the rendered SURFACE (we had
+checked the bytes, not the pixels). Durable fix: new post_render
+transformer (script/subscript_render.rb + _plugins wiring, mirroring
+the sign-linker architecture) converts subscript-digit runs to real
+<sub> markup at build time — skips title/svg/script/style/code/pre/
+existing sub, attributes untouched; 7 unit tests; css sub rule
+(0.72em, line-height 0) keeps line rhythm. Sources stay clean
+Unicode (subscript-index lint rule unchanged). Verified in built
+HTML (i<sub>3</sub> e<sub>2</sub>-gal, ATF exhibit untouched) AND by
+headless-Chrome screenshot of the rendered chapter. Gate green (39
+tests).
+
+2026-07-30 · M3-15 done · Owner stylistic ruling: transliteration
+index numbers are ALWAYS Unicode subscripts (lu₂, e₂) in displayed
+text, never full-size ASCII digits — across all Edubba materials.
+Converted every offender: 101 ch. 06 seal readings 1-2 + figcaption
+(uri₅, limmu₂, li₉-si₄, ensi₂, ARAD₂), specimen page, 102 ch. 00
+(lu₂-dingir-mu), ch. 02 (ga-gu₇-gu₇, ur-e₂-gal), ch. 04 (i₃ e₂-gal
+DU, e₂-du-du, exercise 4); 101 ch. 03 convention paragraph now shows
+subscript examples. Deliberate ASCII survivors: verbatim raw-ATF
+exhibits (ch. 06 reading 3, now classed "translit atf" and its prose
+extended to teach the full-size-digit ATF convention) and explicit
+ASCII-convention mentions (ch. 03 e2 parenthetical, ch. 07 lu2, ch.
+12 Reference — bullet expanded to declare the subscript style).
+Enforcement: new subscript-index lint rule (letter+digit inside
+`<span class="translit">`, "atf" class exempts) + 2 tests; rule found
+an offender the manual grep missed (gu7) — oracle before hand-sweep,
+as usual. CLAUDE.md content rule added. Gate green (32 tests).
+
+2026-07-30 · M3-14 done · Review round 3: (1) essence titles — "Batch
+N" chapter names banned; 102 chs. 02-05 renamed with permalinks (The
+case that hides / Say it twice / The verbal chain, lightly / A
+dedication, whole); (2) NE↔LA swapped between chs. 04/05 so signs are
+taught where first USED — via a new curated `chapter:` pin in the
+pool that the compiler honors over raw score (pedagogy overrides
+frequency; queue regenerated, ch. 00 chart updated); NE now earns its
+seat in 04: lugal-e-ne closes ch. 03's -ene promise and a-ne-ne (OIP
+014, 049, ED IIIb Adab, P010528) shows it doubled in the wild; LA is
+taught in 05 two paragraphs before the formula uses it; (3) 𒀭𒀝
+{d}AK = Nabû added to ch. 05 — the scribes' god, the library's
+namesake, now writable in two taught signs; (4) sidebar extracted to
+an include and added to course INDEX pages via a new course layout —
+navigation is now universal. Gate green throughout.
+
+
+2026-07-30 · M3-13 done · Gate 3 review revisions: (1) sidebar now
+lists every course of the school in numeric order (school:/course_no:
+front matter), current course expanded, siblings one-click links;
+(2) footnotes ordered below the bottom nav line (flex order — kramdown
+emits them in-content); (3) reference citations footnoted out of the
+lesson flow (ch. 01 carries the track's single [^ref]); (4) every
+grammar marker got a held example — the é-bi confusion resolved by
+teaching the actual animate/inanimate rule (é-a-ni his vs é-bi its);
+(5) ch. 04 rebuilt on the taught sign (𒈬𒁺 mu-du composed figure;
+the du3 homophone banished — "poor choice, ummia" acknowledged);
+(6) ch. 02's sign-count/translit mismatch made the explicit lesson;
+(7) SIGN LINKS: script/sign_linker.rb + site/_plugins/sign_links.rb —
+build-time transformer wraps every known glyph in a link to where it
+was introduced (101 signs → reference-page anchors, 102 signs → their
+batch table; own-page sign-cells become the anchors), skipping
+existing links/titles/svg; 7 tests (30 total); htmlproofer validates
+every generated link+anchor as part of the gate; zero visual change
+until hover. First _plugins use — allowed because we build with our
+own Jekyll in CI, not the github-pages gem.
+
+
+2026-07-29 · PHASE 3 (M3-1..M3-10 substantially done) · phase-3 ·
+Cuneiform 102 opened: course architecture with validator
+prerequisite support (assumes: front matter — 102 inherits 101's
+inventory; test pins both directions); curriculum compiler v1
+(score = best rank + 8×wedges, calibrated so ME's 2 wedges beat RA's
+better raw rank; per-chapter batches committed as generated queue
+with cumulative coverage 38.1% ETCSL / 40.9% CDLI by ch. 05; 5
+tests); ATF value-extraction bug found and fixed (subscript chars
+truncated e2/lu2 — queue and coverage regenerated); reading picker
+(validator logic inverted over nabu jsonl exports; ETCSL confirmed
+license-class nc → D3-a decision item, CDLI attribution used
+exclusively). Chapters 00-01 top-tier (coverage chart from the
+compiler's own numbers; first zero-box reading lu2-dingir-mu from
+ED IIIa Fara lists; Sumerian-in-one-chapter with sentence-anatomy
+figure; Foxvog as the track's standing reference); chapters 02-05
+delegated with batch data + pre-rendered native readings + grammar
+outlines: genitive-that-hides, doubling/nam- (with -ene honestly
+deferred since NE was future), verbal chain lightly + TI rebus
+payoff + real account line i3/e2-gal/DU, dedication formula
+nam-ti-la-ni-sze3 assembled entirely from taught signs. All
+delegated chapters reviewed (02 post-hoc after the add -A near-miss;
+03/05 spot-checked clean). All readings ED IIIa (~2600-2500 BCE),
+attribution-licensed, URN-cited.
+
 2026-07-29 · INCIDENT: deployed site unstyled · What happened: after
 Gate 1 merged, arvicco.github.io/nabu-edubba rendered as raw HTML
 (owner screenshot) while local builds were fine. Root cause: baseurl
@@ -41,6 +157,18 @@ by URN + CDLI link. Coverage rule proven live: adding 𒀭𒈗𒆠 turned
 lint red until `rake fonts` (subset now 7 codepoints / 3.9K). Surface
 review (headless Chrome, all three page types): glyphs real, accents
 correct, reading grid aligns, mobile OK. README refreshed pre-gate.
+
+2026-07-29 · NEAR-MISS: gate exit code masked by pipe · The M3-5/6
+commit landed while `rake gate 2>&1 | tail -1` reported only tail's
+exit status (zsh, no pipefail) — the gate was actually RED (a
+relative ../101/ link resolving wrong from a permalink directory)
+and a concurrently-writing chapter agent's file (ch. 02) was swept
+into the commit by `git add -A` unreviewed. Caught on the next
+honest run; link fixed; ch. 02 reviewed post-hoc (excellent,
+accepted). Lessons enforced: gate invocations use the bare exit code
+(`rake gate >/dev/null && echo GREEN`), and no `git add -A` while
+chapter agents are running — add explicit paths. Both now noted in
+DEV-LOOP §4.4 practice.
 
 2026-07-29 · M2-18 done · Second review round (owner): (1) ch. 00
 stroke figure corrected — horizontal wedge head now at LEFT matching

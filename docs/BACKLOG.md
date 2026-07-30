@@ -92,11 +92,10 @@ Goal: one fully-styled specimen chapter exercising the literacy-ladder
 Acceptance: rake gate green; surface checklist pass incl. mobile
       geometry and text-browser sanity.
 
-## M1-6 · edubba.ac goes live  [owner action] [status: ready] [deps: M1-1]
-Goal: custom domain on Pages + DNS records; site serves at
-      https://edubba.ac with HTTPS.
-Acceptance: curl -sI https://edubba.ac returns 200 with the landing
-      page; recorded here.
+## M1-6 · edubba.ac goes live  [owner action] [status: done — owner ruling 2026-07-29: edubba.ac REDIRECTS to the GitHub Pages URL by design (registrar forward), rather than serving as custom domain] [deps: M1-1]
+Goal: edubba.ac reaches the site.
+Acceptance: https://edubba.ac 301-redirects to
+      arvicco.github.io/nabu-edubba (verified 2026-07-29).
 
 ## Decision items — Phase 1
 - (none)
@@ -163,3 +162,66 @@ Acceptance: gate green; figures and alignment surface-reviewed;
 - D0-a · RULED with P2 approval (2026-07-29), option (a): P3 = 102
   Sumerian chapters 00–05, P4 opens the Egyptian school; 102/103
   continue in alternating phases thereafter.
+
+---
+
+## Phase 3 — Cuneiform 102 · Sumerian, chapters 00–05 (plan approved 2026-07-29; D0-a)
+
+## M3-1 · 102 course architecture  [tier: top] [status: done] [deps: --]
+Goal: /cuneiform/102/ index (track intro, committed TOC 00–05),
+      school catalog row flips to in-progress.
+Acceptance: gate green; nav round-trips; 101 ch. 12 links forward.
+
+## M3-2 · Curriculum compiler v1  [tier: top — methodology] [status: done] [deps: --]
+Goal: bin/ instrument proposing sign batches by rank × simplicity ×
+      unlocked-words; committed teaching queue for chapters 00–05.
+Acceptance: queue data committed with provenance; tests on the
+      selection logic.
+
+## M3-3 · Value→sign map for the 102 inventory  [tier: top] [status: done] [deps: M3-2]
+Goal: codepoint-verified value→glyph map covering the queue (or
+      nabu-OGSL consumer if the upstream feature lands first).
+Acceptance: every queued sign renders; font subset covers it; map
+      feeds the readings.
+
+## M3-4 · Reading picker + candidate readings  [tier: top — license-critical] [status: done] [deps: M3-3]
+Goal: nabu query helper finding short attested passages with sign
+      set ⊆ taught inventory; candidate list with URNs + license
+      classes in .docs/ (NC texts become decision items, never
+      silent inclusions).
+Acceptance: ≥2 license-clean readings per chapter 02–05.
+
+## M3-5 · Ch. 00 Orientation + first batch  [tier: top — track voice] [status: done] [deps: M3-2]
+## M3-6 · Ch. 01 The sentence in the clay  [tier: top — grammar, fact-review critical] [status: done] [deps: M3-5]
+## M3-7 · Ch. 02  [tier: impl — spec + pre-pulled readings] [status: done] [deps: M3-4, M3-6]
+## M3-8 · Ch. 03  [tier: impl] [status: done] [deps: M3-7]
+## M3-9 · Ch. 04  [tier: impl] [status: in-progress — agent writing] [deps: M3-8]
+## M3-10 · Ch. 05  [tier: impl] [status: done] [deps: M3-9]
+## M3-11 · 101↔102 stitching  [tier: top] [status: ready] [deps: M3-10]
+## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: ready] [deps: M3-11]
+Goal: owner addition 2026-07-29 — docs/ (concept "ratified decisions"
+      currency, BACKLOG/WORKLOG hygiene) AND README refreshed to the
+      honest post-P3 state, then phase review + gate PR.
+
+Chapter-packet acceptance (all): gate green (incl. untaught-sign
+rule), surface review, top fact-review of grammar bites, citations
++ license classes verified, standing pedagogy rules (signs+figure+
+script-beside-translit per chapter).
+
+## M3-13 · Gate 3 review revisions (owner feedback)  [tier: top] [status: done] [deps: M3-12]
+Goal: school-wide sidebar (all courses listed in order, only current
+      expanded); footnotes below the nav line; refs footnoted not
+      inline; concrete example per grammar marker (animate/inanimate
+      possession); ch. 04 rebuilt on taught 𒁺 (du3 banished); ch. 02
+      invisible-ak made the explicit lesson; EVERY returning glyph
+      now links to its introduction (build-time transformer plugin +
+      anchors, htmlproofer-validated).
+Acceptance: gate green; 30 tests; surface-reviewed; PR #6 updated.
+
+## Decision items — Phase 3
+- D3-a · May Edubba quote short NC-licensed passages (ETCSL, license
+  class nc) as graded readings? The site is non-commercial and every
+  reading is cited + licensed in place, but original prose is
+  CC BY-SA — owner ruling needed on the mix. Until ruled: CDLI
+  (attribution) only. Candidate NC readings recorded in
+  .docs/p3-readings.md (e.g. "an gal-ta ki gal-še3").

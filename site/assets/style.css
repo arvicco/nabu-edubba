@@ -337,6 +337,28 @@ img, svg { max-width: 100%; }
   margin-top: 2.5rem;
 }
 
+/* Footnotes render below the bottom navigation line (owner rule):
+   kramdown emits .footnotes inside the content stream, so the
+   chapter column is a flex stack and the footnotes are ordered last. */
+.chapter-main { display: flex; flex-direction: column; }
+.chapter-main > * { order: 0; }
+.chapter-main > .chapter-nav-bottom { order: 1; }
+.chapter-main > .footnotes {
+  order: 2;
+  border: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+.chapter-main > .footnotes hr { display: none; }
+
+.course-sidebar-other {
+  margin: 0 0 0.6rem;
+  opacity: 0.85;
+}
+
+.course-sidebar-current { margin-top: 0.2rem; }
+
 .chapter-nav-steps { display: inline-flex; gap: 1rem; }
 
 .chapter-standfirst {
@@ -400,6 +422,8 @@ img, svg { max-width: 100%; }
 }
 
 .translit { font-style: italic; }
+/* transliteration indexes: rendered as real <sub> at build time */
+sub { font-size: 0.72em; line-height: 0; }
 .gloss { color: var(--muted); }
 
 .citation {
@@ -412,3 +436,47 @@ img, svg { max-width: 100%; }
 }
 
 .citation code { font-size: 0.85em; }
+
+/* --- Sign links (every returning glyph links to its introduction) --- */
+
+a.sign-link { text-decoration: none; color: inherit; position: relative; }
+a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
+
+/* Hover bubble: sign name · readings · meaning (pure CSS, no JS) */
+.sign-tip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.45em);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 16em;
+  padding: 0.35em 0.65em;
+  border: 1px solid var(--rule);
+  border-radius: 0.35em;
+  background: var(--bg);
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  /* full typographic reset: bubbles must look identical no matter
+     what display styling (size, spacing, mono) the host glyph sits in */
+  font-family: Georgia, serif;
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.12s ease-in 0.08s;
+  pointer-events: none;
+  z-index: 5;
+}
+a.sign-link:hover .sign-tip,
+a.sign-link:focus-visible .sign-tip {
+  visibility: visible;
+  opacity: 1;
+}

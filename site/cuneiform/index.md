@@ -26,7 +26,8 @@ the ability to look at a real tablet and read it.
   proto-cuneiform to the last dated tablet, and the decipherment
   story — with real Ur III royal inscriptions read in chapter 06.
   Prerequisite for everything below.
-- **102 · Sumerian** — planned. A literacy track: the sign inventory in
+- **[102 · Sumerian]({{ '/cuneiform/102/' | relative_url }})** —
+  **in progress, opening chapters arriving.** A literacy track: the sign inventory in
   frequency order, Sumerian to the degree reading demands, graded readings
   from royal inscriptions to proverbs and Edubba texts.
 - **103 · Akkadian** — planned. A literacy track centered on Old

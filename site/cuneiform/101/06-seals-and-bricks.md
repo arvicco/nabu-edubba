@@ -104,12 +104,12 @@ Umma, under king Amar-Suen:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀭▢𒀭▢</span><span class="translit">{d}amar-{d}suen</span><span class="gloss">Amar-Suen —</span></div>
     <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">nita kal-ga</span><span class="gloss">mighty man,</span></div>
-    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri5{ki}</span><span class="gloss">king of Ur,</span></div>
-    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu2-ba</span><span class="gloss">king of the four quarters:</span></div>
-    <div class="reading-line"><span class="script">▢𒀭▢▢</span><span class="translit">ur-{d}li9-si4</span><span class="gloss">Ur-Lisi,</span></div>
-    <div class="reading-line"><span class="script">▢</span><span class="translit">ensi2</span><span class="gloss">governor</span></div>
+    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri₅{ki}</span><span class="gloss">king of Ur,</span></div>
+    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu₂-ba</span><span class="gloss">king of the four quarters:</span></div>
+    <div class="reading-line"><span class="script">▢𒀭▢▢</span><span class="translit">ur-{d}li₉-si₄</span><span class="gloss">Ur-Lisi,</span></div>
+    <div class="reading-line"><span class="script">▢</span><span class="translit">ensi₂</span><span class="gloss">governor</span></div>
     <div class="reading-line"><span class="script">▢𒆠</span><span class="translit">umma{ki}</span><span class="gloss">of Umma,</span></div>
-    <div class="reading-line"><span class="script">▢▢</span><span class="translit">ARAD2-zu</span><span class="gloss">is your servant.</span></div>
+    <div class="reading-line"><span class="script">▢▢</span><span class="translit">ARAD₂-zu</span><span class="gloss">is your servant.</span></div>
   </div>
   <figcaption class="citation">
     Seal 1 of <em>AnOr</em> 01, 086, Ur III Umma (ca. 2100–2000 BCE),
@@ -117,7 +117,7 @@ Umma, under king Amar-Suen:
     <a href="https://cdli.earth/artifacts/101077">CDLI P101077</a>
     via Nabu, <code>urn:nabu:cdli:p101077:seal.1</code> · license:
     attribution. Each ▢ stands for one transliterated value not yet
-    taught; a few values (like <em>ensi2</em> and <em>uri5</em>) are
+    taught; a few values (like <em>ensi₂</em> and <em>uri₅</em>) are
     actually written with more than one sign — the ▢ hides that
     detail until the Sumerian track opens it up.
   </figcaption>
@@ -137,8 +137,8 @@ restored by editors; a hash marks a damaged but legible sign:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢</span><span class="translit">[...]</span><span class="gloss">[royal name, broken]</span></div>
     <div class="reading-line"><span class="script">𒈗▢▢</span><span class="translit">lugal kal-ga</span><span class="gloss">mighty king,</span></div>
-    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri5{ki}</span><span class="gloss">king of Ur,</span></div>
-    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu2-ba</span><span class="gloss">king of the four quarters —</span></div>
+    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri₅{ki}</span><span class="gloss">king of Ur,</span></div>
+    <div class="reading-line"><span class="script">𒈗𒀭▢▢▢▢</span><span class="translit">lugal an-ub-da limmu₂-ba</span><span class="gloss">king of the four quarters —</span></div>
   </div>
   <figcaption class="citation">
     Seal 1 of <em>SACT</em> 2, 015, Ur III Umma, reign of Šū-Suen,
@@ -165,7 +165,7 @@ embedded in the middle of bookkeeping, opened by your new sign *mu*,
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈬 𒀭▢▢ ▢▢ 𒈗▢𒆠 𒈗𒀭▢▢▢▢▢ …</span><span class="translit">mu {d}szul-gi [nita] kal-ga# lugal uri5#{ki#} lugal an-ub-da limmu2-ba-ke4 ...</span><span class="gloss">Year: (when) Šulgi, mighty man, king of Ur, king of the four quarters, …</span></div>
+    <div class="reading-line"><span class="script">𒈬 𒀭▢▢ ▢▢ 𒈗▢𒆠 𒈗𒀭▢▢▢▢▢ …</span><span class="translit atf">mu {d}szul-gi [nita] kal-ga# lugal uri5#{ki#} lugal an-ub-da limmu2-ba-ke4 ...</span><span class="gloss">Year: (when) Šulgi, mighty man, king of Ur, king of the four quarters, …</span></div>
   </div>
   <figcaption class="citation">
     Reverse iv 3′ of an Ur III account, Umma.
@@ -177,7 +177,9 @@ embedded in the middle of bookkeeping, opened by your new sign *mu*,
 </figure>
 
 The ATF spelling *szul-gi* is the same *š* you met as *še*: CDLI
-writes *š* as *sz*. One more convention and you have them all: the
+writes *š* as *sz*, and its plain ASCII keeps index numbers full-size
+(*uri5*, *ke4*) where this site prints them as subscripts (*uri₅*,
+*ke₄*). One more convention and you have them all: the
 prime (′) on the line number means the tablet's top is broken away,
 so editors number from the first *surviving* line.
 
