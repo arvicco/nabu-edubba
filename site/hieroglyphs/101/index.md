@@ -28,7 +28,7 @@ is the fastest way to see that it is not a curiosity but a *design*.
 ## Chapters
 
 <ol class="course-toc" start="0">
-  <li>Orientation — what this course is, and how to study</li>
+  <li><a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and how to study</li>
   <li>Stone, reed, and papyrus — the media that shaped two scripts in one</li>
   <li>Pictures that talk — where Egyptian writing came from</li>
   <li>How signs mean — sound-signs, word-signs, classifiers</li>
