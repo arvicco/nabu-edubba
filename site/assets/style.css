@@ -421,6 +421,10 @@ img, svg { max-width: 100%; }
   .reading-line .gloss { padding-left: 1rem; }
 }
 
+/* Course pages carry their school's accent (landing cards already do) */
+body.school-hieroglyphs { --accent: var(--accent-hieroglyphs); }
+body.school-hanzi { --accent: var(--accent-hanzi); }
+
 .translit { font-style: italic; }
 /* transliteration indexes: rendered as real <sub> at build time */
 sub { font-size: 0.72em; line-height: 0; }
