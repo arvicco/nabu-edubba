@@ -155,12 +155,10 @@ sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
 plurals and repeated action, *nam-* turning things into
 abstractions, the verbal chain's rough silhouette — and now, this
 chapter, a full dedication formula built from nothing but signs
-already sitting in your inventory. By the course's own compiler —
-the chart back in [chapter 00]({{ '/cuneiform/102/00-orientation/' | relative_url }}) — that inventory now
-covers roughly 38% of all sign-occurrences in the ETCSL literary
-corpus and 41% in the CDLI documentary corpus. Two out of every five
-signs on an administrative tablet, four-tenths of a line of
-literature: not fluency, but no longer a beginner's trickle either.
+already sitting in your inventory. In plain terms
+(the chart in [chapter 00]({{ '/cuneiform/102/00-orientation/' | relative_url }})): you can now read
+about 4 out of every 10 signs in the corpora — 38% of ETCSL's
+literature, 41% of CDLI's documents.
 
 What is left is exactly what this stretch has been pointing at. A
 later phase of this track returns to read real votive inscriptions
