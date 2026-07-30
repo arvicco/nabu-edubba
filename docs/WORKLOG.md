@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · Gate 3 CLOSED · PR #6 merged by owner 14:26Z; CI +
+Pages deploy green; live surface review of /cuneiform/102/04/ passed
+(sidebar, sign table, subscripts, sign links all correct on the
+deployed URL). CLAUDE.md phase line → Phase 4; BACKLOG M3 packets
+closed, carried-forward items recorded. Same day: Nabu `signs`
+shipped (P53) — smoke-tested against course readings: "i3 e2-gal DU"
+resolves all four tokens deterministically with correct codepoints,
+--json contract present, uri₅→|ŠEŠ.AB| compound correct (the case
+that motivated the request). Both response asks honored. Phase 4
+plan (Egyptian hieroglyphs school, per D0-a) drafted to
+.docs/phase-4-plan.md grounded in a Nabu holdings survey (aes 202k
+passages attribution-licensed, tla-hf, aed; tokens carry Leiden +
+MdC + partial Gardiner codes); three design decisions flagged for
+ruling (D4-a linear display, D4-b Leiden display convention, D4-c
+reading direction). Awaiting owner approval.
+
 2026-07-30 · M3-16 done · Hover bubbles on every linked sign (owner
 request): the sign-linker now embeds a hidden <span class="sign-tip">
 inside each generated sign link — "NAME · readings · meaning" — shown
