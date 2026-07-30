@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-14 done · Review round 3: (1) essence titles — "Batch
+N" chapter names banned; 102 chs. 02-05 renamed with permalinks (The
+case that hides / Say it twice / The verbal chain, lightly / A
+dedication, whole); (2) NE↔LA swapped between chs. 04/05 so signs are
+taught where first USED — via a new curated `chapter:` pin in the
+pool that the compiler honors over raw score (pedagogy overrides
+frequency; queue regenerated, ch. 00 chart updated); NE now earns its
+seat in 04: lugal-e-ne closes ch. 03's -ene promise and a-ne-ne (OIP
+014, 049, ED IIIb Adab, P010528) shows it doubled in the wild; LA is
+taught in 05 two paragraphs before the formula uses it; (3) 𒀭𒀝
+{d}AK = Nabû added to ch. 05 — the scribes' god, the library's
+namesake, now writable in two taught signs; (4) sidebar extracted to
+an include and added to course INDEX pages via a new course layout —
+navigation is now universal. Gate green throughout.
+
+
 2026-07-30 · M3-13 done · Gate 3 review revisions: (1) sidebar now
 lists every course of the school in numeric order (school:/course_no:
 front matter), current course expanded, siblings one-click links;

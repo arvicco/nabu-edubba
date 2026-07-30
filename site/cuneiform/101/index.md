@@ -1,4 +1,5 @@
 ---
+layout: course
 school: cuneiform
 course_no: 101
 title: Cuneiform 101 · Foundations

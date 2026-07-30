@@ -47,11 +47,17 @@ module Edubba
       pool.sort_by { |s| [score(s), s["name"]] }
     end
 
+    # Pool entries may carry a curated "chapter" pin — pedagogy (teach a
+    # sign where it is first USED) overrides raw score (owner ruling
+    # 2026-07-30). Pinned signs take their chapter's slots first; the
+    # rest fill remaining slots in score order.
     def assign_batches(ordered, batches = BATCHES)
-      out = []
-      queue = ordered.dup
+      pinned, free = ordered.partition { |s| s["chapter"] }
+      out = pinned.map { |s| s.merge("score" => score(s), "pinned" => true) }
+      queue = free.dup
       batches.each do |chapter, n|
-        queue.shift(n).each { |s| out << s.merge("chapter" => chapter, "score" => score(s)) }
+        remaining = n - pinned.count { |s| s["chapter"] == chapter }
+        queue.shift(remaining).each { |s| out << s.merge("chapter" => chapter, "score" => score(s)) }
       end
       out + queue.map { |s| s.merge("chapter" => nil, "score" => score(s)) }
     end

@@ -1,0 +1,36 @@
+{% comment %}
+  School-wide course sidebar. Parameters:
+    include.school  — school slug ("cuneiform")
+    include.current — current course string ("cuneiform-102")
+    include.here    — URL of the page being rendered (to highlight)
+{% endcomment %}
+{% assign school_courses = site.pages | where: "school", include.school | sort: "course_no" %}
+<aside class="course-sidebar">
+  {% for c in school_courses %}
+    {% assign c_course = include.school | append: "-" | append: c.course_no %}
+    {% if c_course == include.current %}
+  <details class="course-sidebar-details" open>
+    <summary class="course-sidebar-title course-sidebar-current">
+      {% if c.url == include.here %}<span class="here">{{ c.title }}</span>
+      {% else %}<a href="{{ c.url | relative_url }}">{{ c.title }}</a>{% endif %}
+    </summary>
+    {% assign course_pages = site.pages | where: "course", c_course | where_exp: "p", "p.chapter" | sort: "chapter" %}
+    <ol class="course-sidebar-list" start="0">
+      {% for p in course_pages %}
+      <li>
+        {% if p.url == include.here %}
+        <span class="current"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</span>
+        {% else %}
+        <a href="{{ p.url | relative_url }}"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+    {% else %}
+  <p class="course-sidebar-title course-sidebar-other">
+    <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+  </p>
+    {% endif %}
+  {% endfor %}
+</aside>
