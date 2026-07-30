@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-30 · M3-16 done · Hover bubbles on every linked sign (owner
+request): the sign-linker now embeds a hidden <span class="sign-tip">
+inside each generated sign link — "NAME · readings · meaning" — shown
+by pure CSS on :hover/:focus-visible (no JS; tap on touch follows the
+link, the designed fallback). Tip text composed in build_map from the
+same two data files that drive linking; display_form normalizes ATF
+for display (parentheticals/certainty grades stripped, sz→š, index
+digits→Unicode subscripts — which the subscript renderer then turns
+into real <sub>, since plugins run alphabetically sign_links before
+subscript_render), orphaned separators trimmed (the NI meaning began
+with a stripped parenthetical, leaving "; oil…" — caught in built
+HTML). Own-page anchor cells get no bubble (the table row already
+shows the data). 6 new unit tests; visual check via forced-visible
+bubble over real built markup + site stylesheet in headless Chrome.
+Gate green (45 tests).
+
 2026-07-30 · M3-15 incident+fix · Owner screenshot: the "subscripts"
 shipped in M3-15 rendered as full-size oldstyle digits — the serif
 stack has no glyphs for U+2080-2089, so browsers fell back to
