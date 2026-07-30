@@ -1,4 +1,6 @@
 ---
+school: cuneiform
+course_no: 101
 title: Cuneiform 101 · Foundations
 description: >-
   The foundations course of the cuneiform school: what cuneiform is,

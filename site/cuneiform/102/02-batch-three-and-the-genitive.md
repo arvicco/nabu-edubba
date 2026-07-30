@@ -64,10 +64,12 @@ down for — it puts the **possessed thing first**:
 
 > **X Y-ak** = "Y's X" (literally "X of-Y")
 
-House, king-of: <span class="script">𒂍 𒈗</span> *é lugal-ak*, "the
-king's house." The possessed noun (*é*, "house") leads; the
-possessor (*lugal*, "king") follows, carrying the genitive tag
-*-ak*.
+House, king-of: <span class="script">𒂍 𒈗</span> *é lugal(-ak)*,
+"the king's house." The possessed noun (*é*, "house") leads; the
+possessor (*lugal*, "king") follows, carrying the genitive tag.
+Now count the signs: **two** — and the transliteration shows a tag
+the clay does not. That mismatch is not a typo; it is this
+chapter's whole lesson, coming right up.
 
 Now the honest part. Say that phrase aloud and you will notice the
 /k/ barely wants to exist: *é lugal-ak* tends to surface, and get

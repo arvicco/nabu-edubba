@@ -73,23 +73,30 @@ arrives near the end of the chain, not the start.
 
 **Two prefixes you will now see constantly.** *Mu-* and *i₃-/im-*
 are among the commonest ways a Sumerian verb chain opens, and every
-sign involved is already yours: 𒈬 (*mu-*), 𒉌 (*i₃-*), 𒅎 (*im-*).
-Learn to spot them on sight. Do not try to parse what each one
-contributes yet — that is a job for later chapters, once the chain
-has more of your inventory to work with.
+sign involved is already yours: <span class="script">𒈬</span>
+(*mu-*), <span class="script">𒉌</span> (*i₃-*),
+<span class="script">𒅎</span> (*im-*). Learn to spot them on
+sight. Do not try to parse what each one contributes yet — that is
+a job for later chapters, once the chain has more of your inventory
+to work with.
 
-Put a chain like this to work and you get the most-quoted verb shape
-in the whole discipline, closing a thousand building inscriptions:
+Now put the two habits together with the stem you just learned, and
+write your first whole verb — prefix, then stem, in signs:
 
-> **mu-na-du₃** — "he built (it) for him/her"
-
-Notice the familiar opening: that is the same *mu-* you were just
-told to recognize and not parse. Everything between it and the stem
-stays a shape for now — and the stem itself, *du₃* "to build," is a
-different sign from this chapter's 𒁺 *du* (easy to confuse on the
-page, harder once you say them aloud), one that has not joined your
-inventory yet. So the formula stays in transliteration only here;
-its last sign arrives in chapter 05's reading world.
+<figure class="composition">
+  <p class="composition-row script" aria-label="mu prefix plus du stem yields mu-du, he went">
+    <span>𒈬</span><span class="op">+</span><span>𒁺</span><span class="op">→</span><span>𒈬𒁺</span>
+  </p>
+  <figcaption class="citation">
+    <em>mu-</em> + <em>du</em> → <em>mu-du</em>, "(he) went" — a
+    schematic minimal chain assembled from your own signs, not a
+    quotation from a tablet. Real chains grow longer in the middle;
+    the shape stays: prefix opens, stem lands late. (You have in
+    fact already seen <em>mu</em> and <em>DU</em> side by side in
+    the wild — delivery records use exactly this pair as a term of
+    art, which a later stretch will unpack.)
+  </figcaption>
+</figure>
 
 ## The rebus, made good
 
@@ -175,8 +182,8 @@ it at a verb instead of a noun.
 1. Write 𒁺, 𒋾, 𒆷 from memory; say *du*, *ti*, *la*.
 2. Spot 𒈬, 𒉌, 𒅎 inside any verb chain you meet from here on and just
    name them — *mu-*, *i₃-*, *im-* — without trying to parse further.
-3. Recite *mu-na-du₃*, "he built (it) for him/her," from memory, and
-   say which of its signs you cannot yet write, and why.
+3. Write 𒈬𒁺 from memory and explain its two slots — which is the
+   prefix, which is the stem, and why the stem sits last.
 4. In *i3 e2-gal DU*, name which sign is carrying its "second" value,
    and explain in one sentence what a capitalized reading inside a
    transliteration — as opposed to a sign-name column — tells you.

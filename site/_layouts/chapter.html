@@ -11,10 +11,15 @@ layout: default
 {% endif %}
 <div class="chapter-shell">
 {% if page.course %}
+  {% assign school_slug = page.course | split: "-" | first %}
+  {% assign school_courses = site.pages | where: "school", school_slug | sort: "course_no" %}
   <aside class="course-sidebar">
+    {% for c in school_courses %}
+      {% assign c_course = school_slug | append: "-" | append: c.course_no %}
+      {% if c_course == page.course %}
     <details class="course-sidebar-details" open>
-      <summary class="course-sidebar-title">
-        <a href="{{ page.course_url | relative_url }}">{{ page.course_title | default: "Course" }}</a>
+      <summary class="course-sidebar-title course-sidebar-current">
+        <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
       </summary>
       <ol class="course-sidebar-list" start="0">
         {% for p in course_pages %}
@@ -28,6 +33,12 @@ layout: default
         {% endfor %}
       </ol>
     </details>
+      {% else %}
+    <p class="course-sidebar-title course-sidebar-other">
+      <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+    </p>
+      {% endif %}
+    {% endfor %}
   </aside>
 {% endif %}
 <article class="chapter-main">
