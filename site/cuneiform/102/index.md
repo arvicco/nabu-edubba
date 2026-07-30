@@ -1,4 +1,5 @@
 ---
+layout: course
 school: cuneiform
 course_no: 102
 title: Cuneiform 102 · Sumerian

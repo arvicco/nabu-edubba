@@ -50,7 +50,7 @@ inventory will then cover. Watch the number climb:
       <rect x="70" y="70" width="262" height="12"/>
       <rect x="70" y="100" width="310" height="12"/>
       <rect x="70" y="130" width="349" height="12"/>
-      <rect x="70" y="160" width="363" height="12"/>
+      <rect x="70" y="160" width="362" height="12"/>
       <rect x="70" y="190" width="381" height="12"/>
     </g>
     <g fill="currentColor" font-size="12" opacity="0.85">
@@ -58,7 +58,7 @@ inventory will then cover. Watch the number climb:
       <text x="339" y="81">26.2% · 34.5%</text>
       <text x="387" y="111">31.0% · 36.7%</text>
       <text x="426" y="141">34.9% · 38.3%</text>
-      <text x="440" y="171">36.3% · 39.9%</text>
+      <text x="439" y="171">36.2% · 39.5%</text>
       <text x="458" y="201">38.1% · 40.9%</text>
     </g>
     <text x="70" y="228" fill="currentColor" font-size="12" opacity="0.7">bars: ETCSL literary corpus; paired figure: CDLI documentary corpus — primary values only, so a floor</text>

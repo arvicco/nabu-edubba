@@ -11,7 +11,7 @@ chapter: 5
 permalink: /cuneiform/102/05-a-dedication-whole/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
-teaches: ["𒎏", "𒉈", "𒀝"]
+teaches: ["𒎏", "𒆷", "𒀝"]
 shows: []
 ---
 
@@ -40,16 +40,19 @@ votive inscriptions than any other.
           way <em>lugal</em> opens kingly ones</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉈</td><td>NE</td><td><em>ne</em></td>
-      <td>brazier, fire (stated); the syllable ne</td>
-      <td>~9 wedges</td>
+      <td class="script sign-cell">𒆷</td><td>LA</td><td><em>la</em></td>
+      <td>the syllable la; abundance (stated)</td>
+      <td>~9 wedges; taught here because you are about to watch it
+          work — it is the spelling glue inside this chapter's
+          formula</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀝</td><td>AK</td><td><em>ak</em></td>
       <td>to do, to make</td>
       <td>~6 wedges; origin unclear — the doing-verb behind countless
           lines, and, look closely, the hidden <em>-ak</em> of
-          chapter 02's genitive, now standing as its own sign</td>
+          chapter 02's genitive, now standing as its own sign. One
+          more thing: see below</td>
     </tr>
   </tbody>
 </table>
@@ -97,6 +100,25 @@ phenomenon, not a word of its own — the grammars explain it as
 writing out the final consonant of *til*, the fuller shape behind
 *ti*, so that *-ni* has a consonant to land on. One sentence, no
 deeper; the standard grammars carry the rest.
+
+## The scribes' own god, in two signs
+
+The AK sign moonlights. In later periods the god **Nabû** — patron
+of scribes, divine custodian of libraries, and the namesake of the
+[Nabu](https://arvicco.github.io/nabu/) library every reading on
+this site comes from — is regularly written with exactly this sign,
+behind the silent divine star you have known since 101:
+
+<figure class="composition">
+  <p class="composition-row script" aria-label="dingir AK, the writing of the god Nabu">
+    <span>𒀭</span><span>𒀝</span>
+  </p>
+  <figcaption class="citation">
+    <em>{d}AK</em> — Nabû, as the standard sign lists record the
+    common first-millennium writing. Two signs, both yours: the
+    patron of everyone who has ever done this course's homework.
+  </figcaption>
+</figure>
 
 ## Reading: lady and knowing
 
@@ -156,7 +178,7 @@ this track sits among the others.
 
 ## Drill before the pause
 
-1. Write 𒎏, 𒉈, 𒀝 from memory; say *nin*, *ne*, *ak*.
+1. Write 𒎏, 𒆷, 𒀝 from memory; say *nin*, *la*, *ak*.
 2. Recite the dedication template's four slots in order, then write
    *nam-ti-la-ni-še₃* from memory, sign by sign.
 3. Say aloud what each of the five signs in that formula meant

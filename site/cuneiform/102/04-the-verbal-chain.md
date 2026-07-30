@@ -12,7 +12,7 @@ chapter: 4
 permalink: /cuneiform/102/04-the-verbal-chain/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
-teaches: ["𒁺", "𒋾", "𒆷"]
+teaches: ["𒁺", "𒋾", "𒉈"]
 shows: []
 ---
 
@@ -50,9 +50,9 @@ line, you recognize the shape instead of flinching at it.
           This is 101's rebus lesson, made good</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆷</td><td>LA</td><td><em>la</em></td>
-      <td>the syllable la; abundance (stated)</td>
-      <td>~9 wedges</td>
+      <td class="script sign-cell">𒉈</td><td>NE</td><td><em>ne</em></td>
+      <td>brazier, fire (stated); the syllable ne</td>
+      <td>~9 wedges; a promise-keeper — see below</td>
     </tr>
   </tbody>
 </table>
@@ -177,11 +177,46 @@ has insisted, the exact sense stays a proposal, not a certainty.
 Either way, the device is one you already own; this entry just aims
 it at a verb instead of a noun.
 
+## A promise kept: the people-plural
+
+Chapter 03 taught you the people-plural *-ene* and admitted its sign
+was not yet yours. It is now. The plural of persons is spelled with
+two signs you own — *e* plus your new *ne*:
+
+<figure class="composition">
+  <p class="composition-row script" aria-label="lugal-e-ne, kings">
+    <span>𒈗</span><span>𒂊</span><span>𒉈</span>
+  </p>
+  <figcaption class="citation">
+    <em>lugal-e-ne</em> — "kings." One king is 𒈗; kings, the
+    people-plural way, wear the tag written out in full. (Things and
+    lands still double, <em>kur-kur</em>-style; people take
+    <em>-ene</em>.)
+  </figcaption>
+</figure>
+
+And 𒉈 in the wild, in a name from an ED-period list at Adab —
+doubled, in exactly chapter 03's manner:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒀀𒉈𒉈</span><span class="translit">a-ne-ne</span><span class="gloss">A-nene — a name; translations of such short names stay approximate</span></div>
+  </div>
+  <figcaption class="citation">
+    Obverse iii 4 of <em>OIP</em> 014, 049, ED IIIb (ca. 2500–2340
+    BCE), Adab (mod. Bismaya).
+    <a href="https://cdli.earth/artifacts/10528">CDLI P010528</a>
+    via Nabu, <code>urn:nabu:cdli:p010528</code> · license:
+    attribution.
+  </figcaption>
+</figure>
+
 ## Drill before you go on
 
-1. Write 𒁺, 𒋾, 𒆷 from memory; say *du*, *ti*, *la*.
+1. Write 𒁺, 𒋾, 𒉈 from memory; say *du*, *ti*, *ne*.
 2. Spot 𒈬, 𒉌, 𒅎 inside any verb chain you meet from here on and just
    name them — *mu-*, *i₃-*, *im-* — without trying to parse further.
+   Then write *lugal-e-ne* "kings" and read 𒀀𒉈𒉈 back aloud.
 3. Write 𒈬𒁺 from memory and explain its two slots — which is the
    prefix, which is the stem, and why the stem sits last.
 4. In *i3 e2-gal DU*, name which sign is carrying its "second" value,

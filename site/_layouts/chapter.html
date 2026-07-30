@@ -12,34 +12,7 @@ layout: default
 <div class="chapter-shell">
 {% if page.course %}
   {% assign school_slug = page.course | split: "-" | first %}
-  {% assign school_courses = site.pages | where: "school", school_slug | sort: "course_no" %}
-  <aside class="course-sidebar">
-    {% for c in school_courses %}
-      {% assign c_course = school_slug | append: "-" | append: c.course_no %}
-      {% if c_course == page.course %}
-    <details class="course-sidebar-details" open>
-      <summary class="course-sidebar-title course-sidebar-current">
-        <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
-      </summary>
-      <ol class="course-sidebar-list" start="0">
-        {% for p in course_pages %}
-        <li>
-          {% if p.url == page.url %}
-          <span class="current"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</span>
-          {% else %}
-          <a href="{{ p.url | relative_url }}"><span class="ch-no">{{ p.chapter | prepend: "00" | slice: -2, 2 }}</span> {{ p.short_title | default: p.title | split: "· " | last }}</a>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ol>
-    </details>
-      {% else %}
-    <p class="course-sidebar-title course-sidebar-other">
-      <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
-    </p>
-      {% endif %}
-    {% endfor %}
-  </aside>
+  {% include course_sidebar.html school=school_slug current=page.course here=page.url %}
 {% endif %}
 <article class="chapter-main">
 {% if page.course %}
