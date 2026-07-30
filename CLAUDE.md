@@ -70,6 +70,9 @@ rake serve          # local preview at http://127.0.0.1:4000
   theme-related signs (ideally opening the chapter); every chapter
   carries at least one graphic illustration; readings couple
   transliteration with native script, untaught signs as ▢.
+- Chapter titles express the chapter's ESSENCE in a few short words
+  (the grammar piece, the main idea) — never mechanical labels like
+  "Batch III". Batches are a mechanic, not a name.
 - Reference citations are FOOTNOTES (kramdown [^ref]) or Reference-
   chapter entries, never inline meta in the lesson flow. Every
   grammatical marker taught gets a concrete usage example a learner

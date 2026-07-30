@@ -1,6 +1,6 @@
 ---
-title: "05 · Batch six — a dedication, whole"
-short_title: "05 · Dedication"
+title: "05 · A dedication, whole"
+short_title: "05 · A dedication"
 description: >-
   The closing chapter of 102's opening stretch: batch six — nin, ne,
   ak — and the votive dedication formula, assembled whole from signs
@@ -8,14 +8,14 @@ description: >-
 layout: chapter
 course: cuneiform-102
 chapter: 5
-permalink: /cuneiform/102/05-batch-six-a-dedication-whole/
+permalink: /cuneiform/102/05-a-dedication-whole/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
 teaches: ["𒎏", "𒉈", "𒀝"]
 shows: []
 ---
 
-# Batch six — a dedication, whole
+# A dedication, whole
 
 Five chapters have handed you a sentence's skeleton, a hidden case,
 a way to multiply nouns and verbs, and a rebus that turns "arrow"
@@ -25,7 +25,7 @@ doing something the whole stretch has been building toward: putting
 together, sign by sign, the single phrase that closes more Sumerian
 votive inscriptions than any other.
 
-## Batch six
+## Three new signs
 
 <table class="sign-table">
   <thead>

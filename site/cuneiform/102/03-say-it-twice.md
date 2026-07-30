@@ -1,6 +1,6 @@
 ---
-title: "03 · Batch four — plurals and doubling"
-short_title: "03 · Batch IV"
+title: "03 · Say it twice — doubling and nam-"
+short_title: "03 · Say it twice"
 description: >-
   Three more signs, and Sumerian's favorite trick for stretching a
   word: doubling it. Plurals, intensifiers, and the nam- prefix that
@@ -8,14 +8,14 @@ description: >-
 layout: chapter
 course: cuneiform-102
 chapter: 3
-permalink: /cuneiform/102/03-batch-four-plurals-and-doubling/
+permalink: /cuneiform/102/03-say-it-twice/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
 teaches: ["𒉆", "𒁕", "𒍪"]
 shows: []
 ---
 
-# Batch four — plurals and doubling
+# Say it twice
 
 Last chapter gave you the genitive — one noun folded inside another,
 the case that hides a whole possessive relationship in a single
@@ -25,7 +25,7 @@ more work than it did alone: to mark a plural, to intensify a
 quality, or to turn a concrete thing into an abstraction. Three
 signs, and one small, versatile grammar habit.
 
-## Batch four
+## Three new signs
 
 <table class="sign-table">
   <thead>
@@ -181,4 +181,4 @@ ago, named a child a sentence.
 4. Compose *dumu-da*, "with the child," and name the case this
    chapter added to your kit.
 
-*Next: batch five — the verbal chain, lightly.*
+*Next: the verbal chain, lightly.*

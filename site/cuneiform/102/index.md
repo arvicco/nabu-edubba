@@ -25,10 +25,10 @@ texts — increasingly in full cuneiform, boxes turning into signs.
 <ol class="course-toc" start="0">
   <li><a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">Orientation</a> — the long march, and your first new batch</li>
   <li><a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">The sentence in the clay</a> — Sumerian in one chapter</li>
-  <li><a href="{{ '/cuneiform/102/02-batch-three-and-the-genitive/' | relative_url }}">Batch II</a> — and the genitive, the case that hides</li>
-  <li><a href="{{ '/cuneiform/102/03-batch-four-plurals-and-doubling/' | relative_url }}">Batch III</a> — plurals, doubling, and nam-</li>
-  <li><a href="{{ '/cuneiform/102/04-batch-five-the-verbal-chain/' | relative_url }}">Batch IV</a> — the verbal chain, lightly; the arrow that means life</li>
-  <li><a href="{{ '/cuneiform/102/05-batch-six-a-dedication-whole/' | relative_url }}">Batch V</a> — a dedication formula, whole</li>
+  <li><a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">The case that hides</a> — the genitive</li>
+  <li><a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">Say it twice</a> — doubling, plurals, and the abstract nam-</li>
+  <li><a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">The verbal chain, lightly</a> — and the arrow that means life</li>
+  <li><a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">A dedication, whole</a> — the formula assembled</li>
 </ol>
 
 Chapters 00–05 are this course's committed opening stretch; further

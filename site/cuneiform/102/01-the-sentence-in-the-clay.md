@@ -22,7 +22,7 @@ one more machine: how the *sentence* works. This chapter is the
 whole of Sumerian grammar in the coarsest useful outline — the shape
 of it, so that every later grammar bite has somewhere to land.[^ref]
 
-## Batch two — chosen by the grammar itself
+## Three new signs — chosen by the grammar itself
 
 <table class="sign-table">
   <thead>
@@ -147,7 +147,7 @@ modifier last.
    marked — and name one English sentence you could rebuild the
    Sumerian way.
 
-*Next: batch three — and the genitive, the case that hides.*
+*Next: the case that hides.*
 
 [^ref]: The full machine, for when you want it: Daniel Foxvog's
     open-access *Introduction to Sumerian Grammar* — the standing

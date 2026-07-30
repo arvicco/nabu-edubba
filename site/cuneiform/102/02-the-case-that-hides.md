@@ -1,6 +1,6 @@
 ---
-title: "02 · Batch three — and the genitive"
-short_title: "02 · Batch III"
+title: "02 · The case that hides"
+short_title: "02 · The case that hides"
 description: >-
   Three new signs and the case that hides: how Sumerian says "the
   king's house" — and why the tag's own consonant so often
@@ -8,14 +8,14 @@ description: >-
 layout: chapter
 course: cuneiform-102
 chapter: 2
-permalink: /cuneiform/102/02-batch-three-and-the-genitive/
+permalink: /cuneiform/102/02-the-case-that-hides/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
 teaches: ["𒊏", "𒅎", "𒂵"]
 shows: []
 ---
 
-# Batch three — and the genitive
+# The case that hides
 
 Two signs bought you the sentence's skeleton — verb last, tags on
 the nouns, a doer that can be marked. This chapter's grammar bite is
@@ -23,7 +23,7 @@ smaller and sneakier: the tag that means "belonging to," which is
 everywhere in real texts and which likes to vanish from the
 spelling the moment you stop watching it.
 
-## Batch three
+## Three new signs
 
 <table class="sign-table">
   <thead>
@@ -181,4 +181,4 @@ is there even when the clay declines to write it.
 3. In the two milk-names above, name which sign is doubled for
    repetition and which two 101 compounds are hiding inside them.
 
-*Next: batch four — plurals and doubling.*
+*Next: say it twice — doubling, and the abstract nam-.*
