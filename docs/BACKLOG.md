@@ -235,17 +235,17 @@ pages surface-reviewed. Pedagogy commitments 6–9 codified
 
 ## Phase 4 — Egyptian hieroglyphs school opens (plan approved 2026-07-30; D0-a)
 
-## M4-1 · School + course architecture (/hieroglyphs/, 101 index)  [tier: top] [status: ready] [deps: --]
-## M4-2 · Gardiner→Unicode mapper + hiero registry + font pipeline  [tier: top] [status: ready] [deps: --]
-## M4-3 · Validator generalization to script ranges; linker/bubbles for school #2  [tier: top] [status: ready] [deps: M4-2]
-## M4-4 · Frequency instrument (aes) + uniliteral teaching queue  [tier: top] [status: ready] [deps: M4-2]
-## M4-5 · Reading picker over aes + candidate readings (.docs/p4-readings.md)  [tier: top] [status: ready] [deps: M4-4]
-## M4-6 · Ch. 00 Orientation + 01 Stone, reed, papyrus + 02 Pictures that talk  [tier: top — voice] [status: ready] [deps: M4-1]
-## M4-7 · Ch. 03 How signs mean  [tier: top — mechanism] [status: ready] [deps: M4-6]
-## M4-8 · Ch. 04 Your first signs (uniliterals)  [tier: impl — spec'd] [status: ready] [deps: M4-4, M4-7]
-## M4-9 · Ch. 05 Names in rings (cartouches)  [tier: impl — spec'd] [status: ready] [deps: M4-5, M4-8]
-## M4-10 · Ch. 06 The offering formula  [tier: top — formula] [status: ready] [deps: M4-9]
-## M4-11 · Cross-school stitching, docs/README refresh, gate PR  [tier: top] [status: ready] [deps: M4-10]
+## M4-1 · School + course architecture (/hieroglyphs/, 101 index)  [tier: top] [status: done] [deps: --]
+## M4-2 · Gardiner→Unicode mapper + hiero registry + font pipeline  [tier: top] [status: done] [deps: --]
+## M4-3 · Validator generalization to script ranges; linker/bubbles for school #2  [tier: top] [status: done] [deps: M4-2]
+## M4-4 · Frequency instrument (aes) + uniliteral teaching queue  [tier: top] [status: done] [deps: M4-2]
+## M4-5 · Reading picker over aes + candidate readings (.docs/p4-readings.md)  [tier: top] [status: done] [deps: M4-4]
+## M4-6 · Ch. 00 Orientation + 01 Stone, reed, papyrus + 02 Pictures that talk  [tier: top — voice] [status: done] [deps: M4-1]
+## M4-7 · Ch. 03 How signs mean  [tier: top — mechanism] [status: done] [deps: M4-6]
+## M4-8 · Ch. 04 Your first signs (uniliterals)  [tier: impl — spec'd] [status: done] [deps: M4-4, M4-7]
+## M4-9 · Ch. 05 Names in rings (cartouches)  [tier: impl — spec'd] [status: done] [deps: M4-5, M4-8]
+## M4-10 · Ch. 06 The offering formula  [tier: top — formula] [status: done] [deps: M4-9]
+## M4-11 · Cross-school stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M4-10]
 
 Acceptance per chapter packet: gate green (untaught-sign +
 font-coverage over U+13000–1342F), surface review, fact-review of
