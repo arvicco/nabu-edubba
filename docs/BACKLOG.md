@@ -195,10 +195,10 @@ Acceptance: ≥2 license-clean readings per chapter 02–05.
 ## M3-6 · Ch. 01 The sentence in the clay  [tier: top — grammar, fact-review critical] [status: done] [deps: M3-5]
 ## M3-7 · Ch. 02  [tier: impl — spec + pre-pulled readings] [status: done] [deps: M3-4, M3-6]
 ## M3-8 · Ch. 03  [tier: impl] [status: done] [deps: M3-7]
-## M3-9 · Ch. 04  [tier: impl] [status: in-progress — agent writing] [deps: M3-8]
+## M3-9 · Ch. 04  [tier: impl] [status: done] [deps: M3-8]
 ## M3-10 · Ch. 05  [tier: impl] [status: done] [deps: M3-9]
-## M3-11 · 101↔102 stitching  [tier: top] [status: ready] [deps: M3-10]
-## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: ready] [deps: M3-11]
+## M3-11 · 101↔102 stitching  [tier: top] [status: done] [deps: M3-10]
+## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: done] [deps: M3-11]
 Goal: owner addition 2026-07-29 — docs/ (concept "ratified decisions"
       currency, BACKLOG/WORKLOG hygiene) AND README refreshed to the
       honest post-P3 state, then phase review + gate PR.
@@ -217,6 +217,21 @@ Goal: school-wide sidebar (all courses listed in order, only current
       now links to its introduction (build-time transformer plugin +
       anchors, htmlproofer-validated).
 Acceptance: gate green; 30 tests; surface-reviewed; PR #6 updated.
+
+## M3-14 · Review round 3: universal sidebar, essence titles, NE↔LA, Nabu sign  [tier: top] [status: done] [deps: M3-13]
+## M3-15 · Subscript indexes site-wide (owner stylistic ruling) + <sub> renderer  [tier: top] [status: done] [deps: M3-14]
+## M3-16 · Sign hover bubbles (name · readings · meaning, pure CSS)  [tier: top] [status: done] [deps: M3-15]
+
+Gate 3 CLOSED — PR #6 merged 2026-07-30, deploy green, live 102
+pages surface-reviewed. Pedagogy commitments 6–9 codified
+(concept.md §3.1) from the review rounds.
+
+## Carried forward (post-P53, Nabu `signs` live 2026-07-30)
+- Replace the hand value→glyph map (assets-src/data/pool-102.yml
+  curation stays; identity resolution moves to `nabu signs --json`).
+- bin/sign_seq.rb: true sign-occurrence counts via `nabu signs` over
+  corpus lines instead of value-frequency proxy; regenerate queue at
+  the next 102 stretch, additive-only per the data contract.
 
 ## Decision items — Phase 3
 - D3-a · May Edubba quote short NC-licensed passages (ETCSL, license

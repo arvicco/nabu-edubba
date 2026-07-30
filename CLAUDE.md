@@ -143,6 +143,9 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 3 — Cuneiform 102 Sumerian, opening chapters (per D0-a).
+Phase 4 — Egyptian hieroglyphs school opens (per D0-a; plan pending
+owner approval).
 
-Gate 2 merged 2026-07-29 (101 complete: 13 chapters, 25 signs). Update this line at each gate.
+Gate 3 merged 2026-07-30 (102 opening stretch: chapters 00–05, 18
+new signs, 43 taught total; sign links, hover bubbles, subscript
+rendering). Update this line at each gate.
