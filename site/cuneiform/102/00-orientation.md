@@ -73,7 +73,7 @@ Two chapters from now, roughly a third of everything ever pressed
 into Sumerian clay will be made of signs you know. That is what a
 frequency-ordered inventory buys.
 
-## Batch one
+## Three signs to start
 
 <table class="sign-table">
   <thead>

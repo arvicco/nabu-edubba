@@ -1,6 +1,6 @@
 ---
-title: "04 · Batch five — the verbal chain, lightly"
-short_title: "04 · Batch V"
+title: "04 · The verbal chain, lightly"
+short_title: "04 · The verbal chain"
 description: >-
   Three signs — including the textbook rebus that turns an arrow into
   "life" — and the loosest possible sketch of the Sumerian verbal
@@ -9,14 +9,14 @@ description: >-
 layout: chapter
 course: cuneiform-102
 chapter: 4
-permalink: /cuneiform/102/04-batch-five-the-verbal-chain/
+permalink: /cuneiform/102/04-the-verbal-chain/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
 teaches: ["𒁺", "𒋾", "𒆷"]
 shows: []
 ---
 
-# Batch five — the verbal chain, lightly
+# The verbal chain, lightly
 
 Three chapters have given you a sentence's skeleton, a case that
 hides, and a doubling trick that pluralizes, intensifies, or builds
@@ -26,7 +26,7 @@ chapter does not open that machine all the way — it only shows you
 its silhouette, so the next time a wall of prefixes marches across a
 line, you recognize the shape instead of flinching at it.
 
-## Batch five
+## Three new signs
 
 <table class="sign-table">
   <thead>
@@ -139,7 +139,7 @@ you signs behave. É-gal, "palace," is the same big-house compound you
 first wrote in
 [101's chapter 07]({{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }})
 and read again inside a name in
-[chapter 02]({{ '/cuneiform/102/02-batch-three-and-the-genitive/' | relative_url }}).
+[chapter 02]({{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}).
 And the line ends, as chapter 01 promised every Sumerian sentence
 would, with its verb: 𒁺 *du*, closing a delivery the same way it
 would close a journey.
@@ -188,4 +188,4 @@ it at a verb instead of a noun.
    and explain in one sentence what a capitalized reading inside a
    transliteration — as opposed to a sign-name column — tells you.
 
-*Next: batch six — and a royal dedication read whole.*
+*Next: a dedication, read whole.*
