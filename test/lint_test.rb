@@ -45,6 +45,23 @@ class LintTest < Minitest::Test
     end
   end
 
+  def test_ascii_index_in_translit_span_is_flagged
+    page = CLEAN_PAGE + %(<span class="translit">lu2-dingir-mu</span>\n)
+    with_site("index.md" => page) do |dir|
+      rules = Edubba::Lint.violations(dir).map(&:rule)
+      assert_includes rules, "subscript-index"
+    end
+  end
+
+  def test_subscript_index_and_atf_exempt_span_are_clean
+    page = CLEAN_PAGE +
+           %(<span class="translit">lu₂-diŋir-mu ARAD₂ {ki}</span>\n) +
+           %(<span class="translit atf">mu {d}szul-gi kal-ga# limmu2-ba-ke4</span>\n)
+    with_site("index.md" => page) do |dir|
+      refute_includes Edubba::Lint.violations(dir).map(&:rule), "subscript-index"
+    end
+  end
+
   def test_hard_coded_production_origin_is_flagged
     with_site("index.md" => CLEAN_PAGE + "[home](https://edubba.ac/cuneiform/)\n") do |dir|
       rules = Edubba::Lint.violations(dir).map(&:rule)

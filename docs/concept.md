@@ -155,7 +155,7 @@ Short courses may collapse rungs; no course skips Orientation, real
 readings, or Reference.
 
 Standing pedagogical commitments (1–2 computed/enforced, 3–5 owner
-rulings 2026-07-29):
+rulings 2026-07-29, 6–9 owner rulings 2026-07-30):
 
 1. **Sequencing driven by frequency AND simplicity — computed where
    computable, curated where judgment is needed** (owner refinement
@@ -185,13 +185,32 @@ rulings 2026-07-29):
    coupled with the native script it represents as a matter of
    principle; signs not yet taught appear as ▢ placeholders rather
    than being omitted or shown out of order.
+6. **Taught means used.** A sign introduced in a chapter is
+   demonstrated in real use in that same chapter, immediately —
+   never parked for some later chapter. If the teaching order and
+   the point of first use disagree, the order moves (curated pins
+   over raw score).
+7. **Signs link home.** Every recurring sign links back to where it
+   was first taught — or, for signs from an earlier course, to that
+   course's reference summary. The learner is always one click from
+   "where do I know this sign from?".
+8. **Simple and clear over adorned.** State an idea in the plainest
+   words that carry it; no verbal decoration around simple facts
+   ("you can now read 4 of every 10 signs on a real tablet" — not a
+   paragraph dressing up two percentages).
+9. **Substance over meta.** Lesson prose serves the student's goal,
+   never the course's machinery: no corpus names, compiler talk,
+   chart cross-references, or obscure external references in lesson
+   flow. Meta lives in orientation chapters, citations, and
+   footnotes.
 
 ---
 
 ## 4. Site architecture
 
-- **Hosting:** GitHub Pages from the `nabu-edubba` repo, served at
-  **edubba.ac** (CNAME). Branding is plain **Edubba** everywhere —
+- **Hosting:** GitHub Pages from the `nabu-edubba` repo; **edubba.ac**
+  redirects to the GitHub Pages URL (owner ruling 2026-07-29 — a
+  registrar forward, path-preserving, rather than a custom domain). Branding is plain **Edubba** everywhere —
   site, titles, prose; "nabu-edubba" is only the repo's name (logical
   grouping on GitHub). Nabu appears as the library Edubba reads from,
   with cross-links, not as part of the name.
@@ -285,8 +304,8 @@ permission profile). Specifics for this repo:
 - Generator: **Jekyll, null theme**.
 - **Wave 1 is text-pure** — no JS; minimalist scope overall.
 - License: **CC BY-SA** for original prose.
-- Repo stays **nabu-edubba**; site domain **edubba.ac**; branding is
-  plain **Edubba** everywhere else.
+- Repo stays **nabu-edubba**; **edubba.ac** redirects to the Pages
+  URL (ruling 2026-07-29); branding is plain **Edubba** everywhere.
 - Waves **1–3 confirmed** (Cuneiform, Egyptian, Hanzi/Kanji); wave 4+
   ordering deferred to the owner closer to the time.
 - Authorship stated **in README only**; **GitHub Issues** is the

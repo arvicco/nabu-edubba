@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% assign this_course = page.school | append: "-" | append: page.course_no %}
+<div class="chapter-shell">
+{% include course_sidebar.html school=page.school current=this_course here=page.url %}
+<article class="chapter-main">
+{{ content }}
+</article>
+</div>

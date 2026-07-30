@@ -71,3 +71,26 @@ class CourseCheckTest < Minitest::Test
     end
   end
 end
+
+class CourseAssumesTest < Minitest::Test
+  AN = "\u{1202D}"
+  LUGAL = "\u{12217}"
+
+  def test_assumes_inherits_prerequisite_inventory
+    Dir.mktmpdir do |dir|
+      c101 = File.join(dir, "cuneiform", "101")
+      c102 = File.join(dir, "cuneiform", "102")
+      FileUtils.mkdir_p(c101); FileUtils.mkdir_p(c102)
+      File.write(File.join(c101, "00-a.md"),
+                 "---\nchapter: 0\nteaches: [\"#{AN}\"]\n---\nbody\n")
+      File.write(File.join(c102, "index.md"),
+                 "---\ntitle: T\nassumes: cuneiform/101\n---\ntoc\n")
+      File.write(File.join(c102, "00-b.md"),
+                 "---\nchapter: 0\nteaches: [\"#{LUGAL}\"]\n---\nUses #{AN} and #{LUGAL}\n")
+      assert_empty Edubba::CourseCheck.violations(dir)
+      # without assumes it would flag AN:
+      File.write(File.join(c102, "index.md"), "---\ntitle: T\n---\ntoc\n")
+      refute_empty Edubba::CourseCheck.violations(dir)
+    end
+  end
+end
