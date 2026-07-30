@@ -3,6 +3,7 @@ layout: course
 school: hieroglyphs
 course_no: 101
 title: Hieroglyphs 101 · Foundations
+short_title: E 101 Foundations
 description: >-
   The foundations course of the Egyptian school: what hieroglyphs
   are, how they work, your first signs, and your first real readings

@@ -1,4 +1,5 @@
 ---
+school: hieroglyphs
 title: The Hieroglyphs School
 description: >-
   Planned catalog for the Egyptian hieroglyphs school — the second great

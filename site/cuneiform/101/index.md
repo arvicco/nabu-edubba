@@ -3,6 +3,7 @@ layout: course
 school: cuneiform
 course_no: 101
 title: Cuneiform 101 · Foundations
+short_title: C 101 Foundations
 description: >-
   The foundations course of the cuneiform school: what cuneiform is,
   how it works, your first signs, and your first real readings —
