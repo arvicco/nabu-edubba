@@ -422,6 +422,8 @@ img, svg { max-width: 100%; }
 }
 
 .translit { font-style: italic; }
+/* transliteration indexes: rendered as real <sub> at build time */
+sub { font-size: 0.72em; line-height: 0; }
 .gloss { color: var(--muted); }
 
 .citation {
