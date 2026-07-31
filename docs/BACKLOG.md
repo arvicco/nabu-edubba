@@ -339,17 +339,18 @@ rulebooks as single source of truth (docs/courses/) with gate
 checks; notation standardized (ŋ, subscript indexes) after the
 drift incident.
 
-## Phase 7 — Cuneiform 102 third and final stretch (plan .docs/phase-7-plan.md; PENDING owner approval)
+## Phase 7 — Cuneiform 102 third and final stretch, chs 12–18 (plan .docs/phase-7-plan.md; PENDING owner approval; owner: six subject chapters, Reference at 18)
 
-## M7-1 · Pool/queue extension: batches for chs 12–16 (~15 signs), additive regen  [tier: top] [status: ready] [deps: --]
-## M7-2 · Reading sweep chs 12–17 (CDLI + ETCSL per D3-a) → .docs/p7-readings.md  [tier: top] [status: ready] [deps: M7-1]
+## M7-1 · Pool/queue extension: batches for chs 12–17 (~18 signs), additive regen  [tier: top] [status: ready] [deps: --]
+## M7-2 · Reading sweep chs 12–18 (CDLI + ETCSL per D3-a) → .docs/p7-readings.md  [tier: top] [status: ready] [deps: M7-1]
 ## M7-3 · Ch. 12 — the chain completed: mu-, -na-, the votive's verb fully parsed  [tier: top — Fable] [status: ready] [deps: M7-2]
 ## M7-4 · Ch. 13 — the locative and the cases, assembled whole  [tier: top — Fable] [status: ready] [deps: M7-3]
 ## M7-5 · Ch. 14 — a proverb run: first multi-line passage  [tier: top — Fable] [status: ready] [deps: M7-4]
 ## M7-6 · Ch. 15 — Šulgi's opening: a royal hymn passage whole  [tier: top — Fable] [status: ready] [deps: M7-5]
-## M7-7 · Ch. 16 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: ready] [deps: M7-6]
-## M7-8 · Ch. 17 — 102 Reference; course complete  [tier: top] [status: ready] [deps: M7-7]
-## M7-9 · Stitching, docs/README refresh, gate PR  [tier: top] [status: ready] [deps: M7-8]
+## M7-7 · Ch. 16 — the tablet house speaks (eduba literature)  [tier: top — Fable] [status: ready] [deps: M7-6]
+## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: ready] [deps: M7-7]
+## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: ready] [deps: M7-8]
+## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: ready] [deps: M7-9]
 
 Acceptance per packet: gate green (incl. rulebook checks), pedagogy
 commitments 1–9, rulebook (docs/courses/cuneiform.md) obeyed —
