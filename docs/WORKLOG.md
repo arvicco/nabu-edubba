@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Principles generalized + C101/C102 compliance sweep ·
+Three owner rulings codified (CLAUDE.md + concept §3.1-3): every
+chapter opens with signs in table form; technical terms carry
+bubble definitions linking to /terms/; Nabu URNs link to their axis
+desks. C101 retrofit: ch00 now teaches the promise trio 𒀭𒆳𒀀,
+ch01 the three one-stroke signs 𒀸𒁹𒌋 (they ARE the chapter's
+theme), ch02 barley 𒊺 (grain accounts becoming writing), ch03 the
+polyvalency star 𒌓; ch04 reframed as consolidation + its two
+genuinely new signs 𒆠𒂍 ("Wave three: the two new ones" — the old
+heading "two you have already met" had inverted meaning after the
+move). Registry taught_in retagged; five stale cross-references
+fixed (incl. ch02's "watch below how it got that shape" promising a
+ŠE evolution the chapter demonstrates with SAG — caught in
+self-review). 102 ch00 batch table lifted above the coverage chart
+(opens-with means opens-with). C102 01-05 and C101 05-11 already
+compliant (tables in first screen). Terms glossary grew 11 entries
+from a cuneiform jargon audit (terminative, genitive, titulary,
+colophon, paleography…); term bubbles verified live on cuneiform
+pages (automatic — the transformer is site-wide), URN links verified
+(4 in 101 ch06). Gate green; validator re-proves both courses.
+
 2026-07-30 · M4-1..M4-11 (Phase 4 sweep) · Egyptian hieroglyphs
 school opened same-day as plan approval. Instruments first:
 ScriptScan generalizes the font-coverage + nothing-untaught gates to

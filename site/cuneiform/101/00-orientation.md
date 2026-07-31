@@ -11,23 +11,48 @@ chapter: 0
 permalink: /cuneiform/101/00-orientation/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
-shows: ["𒀭", "𒆳", "𒀀", "𒀸", "𒁹", "𒌋"]
+teaches: ["𒀭", "𒆳", "𒀀"]
+shows: ["𒀸", "𒁹", "𒌋"]
 ---
 
 # Orientation
 
 You are at the start of the foundations course of the cuneiform
-school. It has no prerequisites. It asks only for patience and a pen.
+school. It has no prerequisites. It asks only for patience and a pen
+— and in Edubba every chapter begins by handing you signs, so here
+are your first three, right now:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒀭</td><td>AN</td><td><em>an</em>, <em>diŋir</em></td>
+      <td>heaven; god</td><td>an eight-pointed star</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒆳</td><td>KUR</td><td><em>kur</em></td>
+      <td>mountain; foreign land</td><td>three mountain peaks</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒀀</td><td>A</td><td><em>a</em></td>
+      <td>water</td><td>two streams rippling</td>
+    </tr>
+  </tbody>
+</table>
+
+Copy each one a few times before reading on — the star, the peaks,
+the streams. Chapter 04 will teach you their anatomy properly; from
+this page on, they are yours.
 
 ## The promise
 
-By the end of this course you will be able to look at signs like
-these —
+You have just read three cuneiform signs —
 
 <p class="script sign-strip" aria-label="Three cuneiform signs">𒀭&ensp;𒆳&ensp;𒀀</p>
 
-— and see not decoration but *writing*: a god, a mountain, water. You
+— not decoration but *writing*: a god, a mountain, water. You
 will know how a few hundred wedge-shaped strokes could record
 contracts, hymns, letters, and libraries for three thousand years.
 You will write signs yourself, in the order a scribe would. And you
@@ -86,11 +111,12 @@ the right:
   <figure><span class="script">𒀸</span><figcaption>one horizontal</figcaption></figure>
   <figure><span class="script">𒁹</span><figcaption>one vertical</figcaption></figure>
   <figure><span class="script">𒌋</span><figcaption>one corner wedge</figcaption></figure>
-  <figure><span class="script">𒆳</span><figcaption>three corners: mountains</figcaption></figure>
-  <figure><span class="script">𒀭</span><figcaption>a star of wedges: heaven</figcaption></figure>
+  <figure><span class="script">𒆳</span><figcaption>three corners: your mountains</figcaption></figure>
+  <figure><span class="script">𒀭</span><figcaption>a star of wedges: your heaven</figcaption></figure>
 </div>
 
-All five of these will be formally yours in chapter 04.
+The three single strokes become formally yours in chapter 01; the
+mountain and the star you can already read.
 
 ## The shape of the course
 
@@ -100,8 +126,10 @@ Chapters build strictly on one another; read them in order.
   where the signs came from.
 - **03** is the spine of the course: how signs carry meaning and
   sound. Read it twice.
-- **04–05** put signs in your hands: a starter inventory chosen for
-  frequency *and* simplicity, then the number system.
+- **04–05** complete the starter inventory (chosen, like every sign
+  batch here, for frequency *and* simplicity) and build the number
+  system — while 00–03 have already been handing you signs as they
+  go.
 - **06** is the first summit: reading genuine seals and bricks.
 - **07–08** keep the signs coming: people and gods (with the king
   disassembled), then the sign workshop — how scribes built new
