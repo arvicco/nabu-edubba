@@ -269,9 +269,11 @@ URN + license per reading, pedagogy commitments 1–9.
   stretch.
 
 ## Decision items — Phase 3
-- D3-a · May Edubba quote short NC-licensed passages (ETCSL, license
-  class nc) as graded readings? The site is non-commercial and every
-  reading is cited + licensed in place, but original prose is
-  CC BY-SA — owner ruling needed on the mix. Until ruled: CDLI
-  (attribution) only. Candidate NC readings recorded in
-  .docs/p3-readings.md (e.g. "an gal-ta ki gal-še3").
+- D3-a · RULED 2026-07-31: hybrid, leaning CDLI. Default to CDLI
+  exemplar tablets (attribution); use ETCSL wherever pedagogy
+  requires a clean composite line — short quotes, each labeled
+  "license: ETCSL · non-commercial" in place. The LICENSE
+  source-texts carve-out covers the mix; derivative users sort out
+  their own reuse (owner: explicitly not our concern). Unblocks
+  literary readings for the 102 continuation
+  (.docs/p3-readings.md candidates).
