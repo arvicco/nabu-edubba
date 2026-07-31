@@ -18,18 +18,19 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-07-30
+## Status — honest, as of 2026-07-31
 
 **Two schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
 thirteen chapters from orientation to decipherment, 26 signs,
 genuine Ur III royal inscriptions read in the original — and
-[102 · Sumerian](https://edubba.ac/cuneiform/102/) has two
-stretches live: twelve chapters, 34 more signs in computed order
-(60 taught in all — about half the sign-occurrences of the real
-corpora), readings from 4,600-year-old Fara-period tablets to
-Gilgameš lines, Sumerian proverbs, and a ruler's dedication read
-verbatim from its foundation inscription.
+[102 · Sumerian](https://edubba.ac/cuneiform/102/) is complete —
+nineteen chapters, 51 more signs in computed order (77 taught in
+all, covering over half the sign-occurrences of the real corpora),
+reading from 4,600-year-old Fara-period tablets through Sumerian
+proverbs, Šulgi's royal hymn, and the opening of Gudea's temple
+cylinders — the longest Sumerian composition — from its first
+line.
 In the Egyptian school,
 [Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/)
 is complete — thirteen chapters and 53 signs, from the media and

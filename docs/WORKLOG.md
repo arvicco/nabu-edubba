@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · M7-1..M7-10 · phase-7 · Cuneiform 102 completed
+same-day as approval: chapters 12–18 (chain completed with mu-/-na-
+on the votive's own verb, za-e + locative + seven-case paradigm,
+first connected proverb row with the na- prohibitive, Šulgi A
+lines 1–3 with the king's name assembled, the tablet house reading
+its own name and colophons, Gudea Cylinder A from line one with
+zero boxes, registry-generated Reference) — course at nineteen
+chapters, 51 signs (77 with 101), coverage 53.4/54.5 floor.
+Taught-means-used enforced twice: KU unpinned from ch13 (no
+attested line) then returned honestly at ch14 as dab₅ in the
+glutton proverb; LAL joined ch17 when the untaught-sign rule
+caught la₂ inside Enlil's spelling on the refrain line. Veterans
+gained readings only where readings demanded (išib, tum₂, de₃,
+be₂). ch11's purpose-wrapper promise reworded now that no later
+102 stretch exists; MI/LI/IB stay unpinned in the pool for a
+future course. All content Fable-written; rulebook checks green
+throughout; ch17 surface-reviewed in pixels.
+
 2026-07-31 · Owner ruling: course rulebooks (single source of
 truth) · After the ĝ/ŋ drift the owner ruled: before starting a
 course, a working document spells out its conventions, notations,
