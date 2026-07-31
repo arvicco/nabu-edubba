@@ -18,6 +18,11 @@ class HieroReadingPickerTest < Minitest::Test
     assert_equal [], P.codes(nil)
   end
 
+  def test_mixed_case_categories_upcase_instead_of_vanishing
+    assert_equal %w[AA1 D21], P.codes("Aa1;D21")
+    assert_equal %w[FF101 Z1], P.codes("Ff101;Z1")
+  end
+
   def test_line_codes_requires_annotation_and_wholeness
     assert_equal %w[N5 X1], P.line_codes([tok("Rꜥw", "N5"), tok("t", "X1")], "Rꜥw t")
     assert_nil P.line_codes([tok("Rꜥw", "N5"), tok("t", nil)], "Rꜥw t"),

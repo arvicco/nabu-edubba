@@ -35,8 +35,10 @@ module Edubba
 
     def damaged?(text) = text.to_s.match?(DAMAGE)
 
-    # "N5;T21" / "M17*G17:N35" -> ["N5", "T21"] / ["M17", "G17", "N35"]
-    def codes(inventar) = inventar.to_s.scan(/[A-Z]+[0-9]+[A-Z]*/)
+    # "N5;T21" / "M17*G17:N35" -> ["N5", "T21"] / ["M17", "G17", "N35"];
+    # mixed-case category names (Aa1, Ff101) upcased so they compare
+    # against the registry's AA1-style codes instead of vanishing.
+    def codes(inventar) = inventar.to_s.scan(/[A-Za-z]+[0-9]+[A-Za-z]?/).map(&:upcase)
 
     # All Gardiner codes of a line's tokens, or nil when any token
     # lacks its hiero_inventar annotation (no guessing) or the line
