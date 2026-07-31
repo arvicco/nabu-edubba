@@ -389,3 +389,201 @@ signs:
   taught_in: 6
   freq_aes: 70
   certainty: classic
+- glyph: "𓏠"
+  codepoint: 133E0
+  gardiner: Y5
+  name: Y5
+  value: mn
+  meaning: game board with pieces — mn
+  mdc: mn
+  sound: men
+  taught_in: 7
+  freq_aes: 46
+  certainty: classic
+- glyph: "𓎟"
+  codepoint: 1339F
+  gardiner: V30
+  name: V30
+  value: nb
+  meaning: wicker basket — lord; every
+  mdc: nb
+  sound: neb
+  taught_in: 7
+  freq_aes: 27
+  certainty: classic
+- glyph: "𓁷"
+  codepoint: '13077'
+  gardiner: D2
+  name: D2
+  value: ḥr
+  meaning: human face — face; upon
+  mdc: Hr
+  sound: her
+  taught_in: 7
+  freq_aes: 21
+  certainty: classic
+- glyph: "𓄟"
+  codepoint: 1311F
+  gardiner: F31
+  name: F31
+  value: ms
+  meaning: three fox skins tied — born of
+  mdc: ms
+  sound: mes
+  taught_in: 8
+  freq_aes: 88
+  certainty: classic
+- glyph: "𓅭"
+  codepoint: 1316D
+  gardiner: G39
+  name: G39
+  value: zꜣ
+  meaning: pintail duck — son
+  mdc: zA
+  sound: za
+  taught_in: 8
+  freq_aes: 60
+  certainty: classic
+- glyph: "𓏌"
+  codepoint: 133CC
+  gardiner: W24
+  name: W24
+  value: nw
+  meaning: round pot — nw
+  mdc: nw
+  sound: nu
+  taught_in: 8
+  freq_aes: 24
+  certainty: classic
+- glyph: "𓀀"
+  codepoint: '13000'
+  gardiner: A1
+  name: A1
+  value: ''
+  meaning: 'seated man — classifier: man, I'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 14
+  certainty: classic
+- glyph: "𓁐"
+  codepoint: '13050'
+  gardiner: B1
+  name: B1
+  value: ''
+  meaning: 'seated woman — classifier: woman'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 53
+  certainty: classic
+- glyph: "𓀁"
+  codepoint: '13001'
+  gardiner: A2
+  name: A2
+  value: ''
+  meaning: 'man with hand to mouth — classifier: eat, speak, think'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 32
+  certainty: classic
+- glyph: "𓏥"
+  codepoint: 133E5
+  gardiner: Z2
+  name: Z2
+  value: ''
+  meaning: 'three strokes — classifier: plural'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 8
+  certainty: classic
+- glyph: "𓏛"
+  codepoint: 133DB
+  gardiner: Y1
+  name: Y1
+  value: ''
+  meaning: 'papyrus roll tied shut — classifier: abstract idea'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 13
+  certainty: classic
+- glyph: "𓅪"
+  codepoint: 1316A
+  gardiner: G37
+  name: G37
+  value: ''
+  meaning: 'sparrow — classifier: small, bad, weak'
+  mdc: ''
+  sound: not read; classifies
+  taught_in: 9
+  freq_aes: 45
+  certainty: classic
+- glyph: "𓋹"
+  codepoint: 132F9
+  gardiner: S34
+  name: S34
+  value: ꜥnḫ
+  meaning: 'sandal strap? knot? — the ankh: life'
+  mdc: anx
+  sound: ankh
+  taught_in: 10
+  freq_aes: 41
+  certainty: unclear
+- glyph: "𓄤"
+  codepoint: '13124'
+  gardiner: F35
+  name: F35
+  value: nfr
+  meaning: 'heart and windpipe? — nefer: good, beautiful'
+  mdc: nfr
+  sound: nefer
+  taught_in: 10
+  freq_aes: 42
+  certainty: unclear
+- glyph: "𓆣"
+  codepoint: 131A3
+  gardiner: L1
+  name: L1
+  value: ḫpr
+  meaning: 'scarab beetle — kheper: become, transform'
+  mdc: xpr
+  sound: kheper
+  taught_in: 10
+  freq_aes: 81
+  certainty: classic
+- glyph: "𓊹"
+  codepoint: 132B9
+  gardiner: R8
+  name: R8
+  value: nṯr
+  meaning: 'temple flag on a pole — netjer: god'
+  mdc: nTr
+  sound: netcher
+  taught_in: 10
+  freq_aes: 34
+  certainty: classic
+- glyph: "𓃭"
+  codepoint: 130ED
+  gardiner: E23
+  name: E23
+  value: rw
+  meaning: recumbent lion — rw
+  mdc: rw
+  sound: ru; borrowed for L
+  taught_in: 11
+  freq_aes: 220
+  certainty: classic
+- glyph: "𓍯"
+  codepoint: 1336F
+  gardiner: V4
+  name: V4
+  value: wꜣ
+  meaning: lasso — wa
+  mdc: wA
+  sound: wa; carried o in Ptolemy
+  taught_in: 11
+  freq_aes: 105
+  certainty: classic
