@@ -115,19 +115,77 @@ Gudea's temple hymn, the newly built house is readied so
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒋗𒆬𒀀 𒂗𒊏𒋧𒈬𒁕</span><span class="translit">šu kug-ga en-ra šum₂-mu-da</span><span class="gloss">"that pure hands might give water to the lord" — hand (ch. 06), pure (ch. 07), give (this chapter), all in one literary breath</span></div>
-    <div class="reading-line"><span class="script">𒉆𒈤𒍪 𒂵𒄿𒄿</span><span class="translit">nam-mah-zu ga-i-i</span><span class="gloss">"let me proclaim your majesty" — chapter 09's ga- wish on the doubled vowel, chapter 07's majesty as its object</span></div>
+    <div class="reading-line"><span class="script">𒋗 𒆬 𒀀 𒂗𒊏 𒋧𒈬𒁕</span><span class="translit">šu kug a en-ra šum₂-mu-da</span><span class="gloss">"so that a pure hand might give water to the lord"</span></div>
   </div>
   <figcaption class="citation">
-    Gudea's temple hymn (<code>urn:nabu:etcsl:2.1.7:958</code>) and
-    a royal praise poem (<code>urn:nabu:etcsl:2.4.5.2:A.D.15</code>),
-    composite texts · license: ETCSL · non-commercial.
+    Gudea's temple hymn. <code>urn:nabu:etcsl:2.1.7:958</code> ·
+    license: ETCSL · non-commercial.
   </figcaption>
 </figure>
 
-*Let me proclaim your majesty* — a sentence whose every ring, sign,
-and case this stretch handed you on purpose. There are worse notes
-for a chapter of school to end on.
+Take it apart, word by word:
+
+- **šu kug** — "pure hand":
+  [chapter 06's]({{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }})
+  𒋗 *šu*, "hand," followed by
+  [chapter 07's]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
+  𒆬 in its fuller spoken shape *kug*, "pure." Note the order:
+  the adjective *follows* its noun — the same pattern as chapter
+  07's *e₂ ku₃*, "house pure," and chapter 10's *en zid*, "lord
+  true." Sumerian always praises in that order.
+- **a** — "water," on its own: 101's very first sign, here simply
+  the thing being offered.
+- **en-ra** — "to the lord": *en* (101) wearing the dative *-ra*,
+  "to/for," exactly the case tag
+  [chapter 02]({{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }})
+  taught — the receiver of the giving, marked the same way on a
+  hymn's lord as on a receipt's creditor.
+- **šum₂-mu-da** — the giving itself: this chapter's 𒋧 *šum₂* as
+  the stem, wrapped in a tail, *-mu-da*, that turns the verb into
+  a purpose — "in order to give, so that … might give." That
+  tail is real grammar with internal parts, and this course will
+  not pretend to unpack it in one bullet: hold onto the honest
+  outline — stem inside, purpose-wrapper outside — and let a
+  later stretch open the pieces.
+
+So: hand-pure / water / lord-to / give-in-order-to — and read in
+Sumerian order the line builds exactly the way chapter 01 said
+every Sumerian sentence would, participants first, verb last.
+
+One more line, from a royal praise poem, and the stretch can end
+on it:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒉆𒈤𒍪 𒂵𒄿𒄿</span><span class="translit">nam-mah-zu ga-i-i</span><span class="gloss">"let me proclaim your majesty"</span></div>
+  </div>
+  <figcaption class="citation">
+    A royal praise poem, composite text.
+    <code>urn:nabu:etcsl:2.4.5.2:A.D.15</code> · license: ETCSL ·
+    non-commercial.
+  </figcaption>
+</figure>
+
+- **nam-mah** — "majesty":
+  [chapter 03's]({{ '/cuneiform/102/03-say-it-twice/' | relative_url }})
+  abstraction-maker *nam-* on
+  [chapter 07's]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
+  *mah*, "exalted" — the word chapter 07 read on clay.
+- **-zu** — "your": the knowing-sign's suffix job, taught in
+  chapter 07 — the majesty belongs to the one being addressed.
+- **ga-** — "let me":
+  [chapter 09's]({{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }})
+  cohortative, the speaker volunteering, exactly as in *ga-gu₇*.
+- **i-i** — "bring forth, proclaim": this chapter's 𒄿, doubled —
+  and the doubling is chapter 03's oldest trick, the stem said
+  twice. As a verb, *i* means "to bring out"; said twice under
+  *ga-*, it is the singer stepping forward: *let me bring it
+  forth*.
+
+Object first, wish-prefix and verb last: *your majesty — let me
+proclaim it*. A sentence whose every piece — the abstraction, the
+suffix, the wish, the doubling — this stretch handed you on
+purpose. There are worse notes for a chapter of school to end on.
 
 ## The stretch, measured
 
