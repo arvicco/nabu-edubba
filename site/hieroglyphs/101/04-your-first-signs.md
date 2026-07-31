@@ -40,7 +40,7 @@ tablet; our reading corpus, counted sign by sign, reaches them again
 by arithmetic. 𓏏, the loaf of bread that reads *t* and opens this
 chapter's first tier, is the single most frequent sign in the whole
 corpus; your 𓈖 and 𓂋 from chapter 00 sit second and third.
-Fourteen of the twenty-six are in the corpus's top twenty signs
+Fifteen of the twenty-six are in the corpus's top twenty signs
 overall — not a coincidence, a consequence.
 
 ## Simple shapes first

@@ -30,12 +30,14 @@ stretches live: twelve chapters, 34 more signs in computed order
 corpora), readings from 4,600-year-old Fara-period tablets to
 Gilgameš lines, Sumerian proverbs, and a ruler's dedication read
 verbatim from its foundation inscription.
-The Egyptian school has opened with
-[Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/):
-seven chapters from the media and origins of the script through all
-26 one-consonant signs to real cartouches (Teti, Pepi) and a
-complete offering formula, read from real monuments (texts from the
-CDLI and BBAW/AES corpora via Nabu, cited by URN and license).
+In the Egyptian school,
+[Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/)
+is complete — thirteen chapters and 53 signs, from the media and
+origins of the script through uniliterals, biliterals, phonetic
+complements, the classifier system, and the culture words, to the
+Rosetta decipherment told with Ptolemy and Cleopatra read sign by
+sign — all texts from real monuments (the CDLI and BBAW/AES
+corpora via Nabu, cited by URN and license).
 Also live: the map-of-writing landing page, a catalog stub for the
 hanzi school, and a layout specimen. Every recurring sign links to
 where it was taught, with hover bubbles giving name, readings, and

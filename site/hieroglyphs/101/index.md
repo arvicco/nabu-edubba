@@ -36,14 +36,16 @@ is the fastest way to see that it is not a curiosity but a *design*.
   <li><a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">Your first signs</a> — the one-consonant signs, the scribe's kit</li>
   <li><a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">Names in rings</a> — cartouches, and the names that cracked the code</li>
   <li><a href="{{ '/hieroglyphs/101/06-the-offering-formula/' | relative_url }}">The offering formula</a> — Egypt's most-written sentence, whole</li>
-  <li>Sounds in pairs and triples — biliterals, triliterals, complements</li>
-  <li>Counting like an Egyptian — numbers, measures, accounts</li>
-  <li>Gods and titles — the divine names and epithets everywhere on stone</li>
-  <li>One tradition, four scripts — hieratic, demotic, Coptic</li>
-  <li>Decipherment — Rosetta, and how the birds gave up their secret</li>
-  <li>Reference — every sign taught, conventions, further study</li>
+  <li><a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">Two sounds in one sign</a> — biliterals, the script's shortcut layer</li>
+  <li><a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">Born of, son of</a> — phonetic complements, and tomb-wall family trees</li>
+  <li><a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">The signs that say nothing</a> — the classifier system</li>
+  <li><a href="{{ '/hieroglyphs/101/10-life-beauty-becoming/' | relative_url }}">Life, beauty, becoming</a> — ankh, nefer, the scarab, the god-flag</li>
+  <li><a href="{{ '/hieroglyphs/101/11-the-stone-that-talked/' | relative_url }}">The stone that talked</a> — Rosetta, Champollion, the compass rule</li>
+  <li><a href="{{ '/hieroglyphs/101/12-reference/' | relative_url }}">Reference</a> — every sign taught, conventions, further study</li>
 </ol>
 
-Chapters appear here as they are finished; the list above is the
-course's committed shape. Corrections are welcome in
+The course is complete — twelve chapters, both stretches live.
+Numbers, gods' names in depth, and the hieratic–demotic–Coptic
+line continue in this school's later courses. Corrections are
+welcome in
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

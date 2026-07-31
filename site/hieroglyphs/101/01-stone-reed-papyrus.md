@@ -33,7 +33,7 @@ one:
   </tbody>
 </table>
 
-The flowering reed is the fourth most frequent sign in the corpus,
+The flowering reed is among the five most frequent signs in the corpus,
 and the very plant this chapter is about: the marshes that gave
 Egypt its writing surface gave the script one of its busiest signs.
 Draw it — one stem, one bent flower head — and read on about what
