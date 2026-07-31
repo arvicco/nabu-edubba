@@ -156,7 +156,7 @@ the animals are the needle:
     </g>
     <g fill="currentColor" font-size="15">
       <text x="95" y="140">left to right: the signs face the start — read into their faces</text>
-      <text x="235" y="255" text-anchor="start">right to left: same word, mirrored — the faces still greet the reader</text>
+      <text x="180" y="255" text-anchor="start">right to left: same word, mirrored — read into the faces again</text>
     </g>
   </svg>
   <figcaption class="citation">
