@@ -503,7 +503,31 @@ a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.
   z-index: 5;
 }
 a.sign-link:hover .sign-tip,
-a.sign-link:focus-visible .sign-tip {
+a.sign-link:focus-visible .sign-tip,
+a.term:hover .sign-tip,
+a.term:focus-visible .sign-tip {
   visibility: visible;
   opacity: 1;
 }
+
+/* Glossary terms: dotted underline, bubble on hover, link to /terms/ */
+a.term {
+  position: relative;
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 0.2em;
+  cursor: help;
+}
+a.term:hover { text-decoration-color: var(--accent); }
+
+/* Cited Nabu URNs link to their axis desk; keep the code look */
+a.urn-link { text-decoration: none; }
+a.urn-link:hover code { color: var(--accent); }
+
+/* Glossary page */
+.terms-list dt { font-weight: 700; margin-top: 0.9rem; }
+.terms-list dd { margin: 0.15rem 0 0 1.25rem; color: var(--ink); }
+
+/* Sign strings in readings never wrap mid-cartouche */
+.reading-line .script { white-space: nowrap; }

@@ -72,10 +72,11 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Didactic claims cite their scholarly basis (standard grammars, sign
   lists) in-line; no confident nonsense about ancient scripts. Cite a
   given standard reference once or twice per course, not per chapter.
-- Every chapter from the first-signs chapter on teaches 1–3 new
-  theme-related signs (ideally opening the chapter) — and USES each
-  new sign in that same chapter, immediately; a sign never waits for
-  a later chapter for its first demonstration. Every chapter carries
+- EVERY chapter (chapter 00 included) OPENS with 1–3 new
+  theme-related signs in the standard sign-table format (owner
+  ruling 2026-07-31) — and USES each new sign in that same chapter,
+  immediately; a sign never waits for a later chapter for its first
+  demonstration. Every chapter carries
   at least one graphic illustration; readings couple transliteration
   with native script, untaught signs as ▢. Recurring signs link back
   to where they were first taught (earlier courses: to that course's
