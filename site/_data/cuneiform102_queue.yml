@@ -44,6 +44,47 @@ batches:
   - NIN
   coverage_etcsl_pct: 38.1
   coverage_cdli_pct: 40.9
+- chapter: 6
+  signs:
+  - ŠU
+  - MA
+  - IGI
+  coverage_etcsl_pct: 40.8
+  coverage_cdli_pct: 43.1
+- chapter: 7
+  signs:
+  - KU3
+  - MAH
+  - KALAM
+  coverage_etcsl_pct: 41.8
+  coverage_cdli_pct: 43.7
+- chapter: 8
+  signs:
+  - BA
+  - NU
+  - IN
+  coverage_etcsl_pct: 46.2
+  coverage_cdli_pct: 46.8
+- chapter: 9
+  signs:
+  - ŠA3
+  - GAR
+  - HA
+  coverage_etcsl_pct: 47.6
+  coverage_cdli_pct: 48.0
+- chapter: 10
+  signs:
+  - GIŠ
+  - ZI
+  - RI
+  coverage_etcsl_pct: 49.1
+  coverage_cdli_pct: 48.8
+- chapter: 11
+  signs:
+  - I
+  - SUM
+  coverage_etcsl_pct: 49.7
+  coverage_cdli_pct: 49.3
 signs:
 - glyph: "\U00012228"
   codepoint: '12228'
@@ -56,6 +97,30 @@ signs:
   certainty: stated
   chapter: 0
   score: 33
+  pinned: true
+- glyph: "\U00012040"
+  codepoint: '12040'
+  name: BA
+  value: ba
+  meaning: to allot; the verbal prefix ba-
+  wedges: "~4"
+  freq_etcsl: 6
+  freq_cdli: 5
+  certainty: unclear
+  chapter: 8
+  score: 37
+  pinned: true
+- glyph: "\U00012261"
+  codepoint: '12261'
+  name: NU
+  value: nu
+  meaning: not — the negation
+  wedges: 3
+  freq_etcsl: 19
+  freq_cdli: 46
+  certainty: unclear
+  chapter: 8
+  score: 43
   pinned: true
 - glyph: "\U00012328"
   codepoint: '12328'
@@ -106,6 +171,18 @@ signs:
   chapter: 1
   score: 59
   pinned: true
+- glyph: "\U00012111"
+  codepoint: '12111'
+  name: GIŠ
+  value: gisz
+  etcsl_value: jic
+  meaning: tree, wood; the {giš} determinative
+  wedges: "~4"
+  freq_etcsl: 28
+  certainty: classic
+  chapter: 10
+  score: 60
+  pinned: true
 - glyph: "\U00012049"
   codepoint: '12049'
   name: BI
@@ -117,6 +194,31 @@ signs:
   certainty: stated
   chapter: 1
   score: 62
+  pinned: true
+- glyph: "\U000122D7"
+  codepoint: 122D7
+  name: ŠU
+  value: szu
+  etcsl_value: cu
+  meaning: hand
+  wedges: "~5"
+  freq_etcsl: 32
+  freq_cdli: 22
+  certainty: classic
+  chapter: 6
+  score: 62
+  pinned: true
+- glyph: "\U00012220"
+  codepoint: '12220'
+  name: MA
+  value: ma
+  meaning: syllable ma — a spelling workhorse
+  wedges: "~6"
+  freq_etcsl: 15
+  freq_cdli: 21
+  certainty: unclear
+  chapter: 6
+  score: 63
   pinned: true
 - glyph: "\U0001228F"
   codepoint: 1228F
@@ -178,6 +280,31 @@ signs:
   chapter: 3
   score: 80
   pinned: true
+- glyph: "\U00012154"
+  codepoint: '12154'
+  name: IN
+  value: in
+  meaning: syllable in; the verbal prefix in-
+  wedges: "~8"
+  freq_etcsl: 18
+  freq_cdli: 91
+  certainty: unclear
+  chapter: 8
+  score: 82
+  pinned: true
+- glyph: "\U000122AE"
+  codepoint: 122AE
+  name: ŠA3
+  value: sza3
+  etcsl_value: cag4
+  meaning: heart, midst, mood
+  wedges: "~6"
+  freq_etcsl: 47
+  freq_cdli: 38
+  certainty: stated
+  chapter: 9
+  score: 86
+  pinned: true
 - glyph: "\U0001207A"
   codepoint: 1207A
   name: DU
@@ -202,6 +329,32 @@ signs:
   chapter: 4
   score: 88
   pinned: true
+- glyph: "\U00012363"
+  codepoint: '12363'
+  name: ZI
+  value: zi
+  etcsl_value: zid
+  meaning: breath, life; true, righteous (zid)
+  wedges: "~6"
+  freq_etcsl: 66
+  freq_cdli: 44
+  certainty: stated
+  chapter: 10
+  score: 92
+  pinned: true
+- glyph: "\U000120FB"
+  codepoint: 120FB
+  name: GAR
+  value: nig2
+  etcsl_value: nij2
+  meaning: thing, property (nig₂); to place (gar)
+  wedges: "~5"
+  freq_etcsl: 53
+  freq_cdli: 64
+  certainty: stated
+  chapter: 9
+  score: 93
+  pinned: true
 - glyph: "\U000121B7"
   codepoint: 121B7
   name: LA
@@ -214,10 +367,36 @@ signs:
   chapter: 5
   score: 93
   pinned: true
+- glyph: "\U00012146"
+  codepoint: '12146'
+  name: IGI
+  value: igi
+  meaning: eye; face; before — igi PN, "witnessed by"
+  wedges: "~4"
+  freq_etcsl: 62
+  freq_cdli: 84
+  certainty: classic
+  chapter: 6
+  score: 94
+  pinned: true
+- glyph: "\U000121AC"
+  codepoint: 121AC
+  name: KU3
+  value: ku3
+  etcsl_value: kug
+  meaning: pure, holy; precious metal
+  wedges: "~5"
+  freq_etcsl: 54
+  freq_cdli: 63
+  certainty: stated
+  chapter: 7
+  score: 94
+  pinned: true
 - glyph: "\U0001238F"
   codepoint: 1238F
   name: NIN
   value: nin
+  osl_name: "|SAL.TUG2|"
   meaning: lady, queen, mistress
   wedges: 7
   freq_etcsl: 44
@@ -238,6 +417,30 @@ signs:
   chapter: 4
   score: 98
   pinned: true
+- glyph: "\U0001213F"
+  codepoint: 1213F
+  name: I
+  value: i
+  meaning: the bare vowel i; the cry of laments (i-lu)
+  wedges: 5
+  freq_etcsl: 63
+  freq_cdli: 120
+  certainty: unclear
+  chapter: 11
+  score: 103
+  pinned: true
+- glyph: "\U00012129"
+  codepoint: '12129'
+  name: HA
+  value: ha
+  meaning: fish (the classic pictogram); the wish-prefix ha-
+  wedges: "~6"
+  freq_etcsl: 71
+  freq_cdli: 118
+  certainty: classic
+  chapter: 9
+  score: 119
+  pinned: true
 - glyph: "\U0001201D"
   codepoint: 1201D
   name: AK
@@ -249,4 +452,53 @@ signs:
   certainty: unclear
   chapter: 2
   score: 120
+  pinned: true
+- glyph: "\U000122E7"
+  codepoint: 122E7
+  name: SUM
+  value: szum2
+  etcsl_value: cum2
+  meaning: to give (a bundle of onions in origin, stated)
+  wedges: "~6"
+  freq_etcsl: 114
+  freq_cdli: 76
+  certainty: stated
+  chapter: 11
+  score: 124
+  pinned: true
+- glyph: "\U00012224"
+  codepoint: '12224'
+  name: MAH
+  value: mah
+  meaning: great, exalted
+  wedges: "~9"
+  freq_etcsl: 69
+  freq_cdli: 96
+  certainty: unclear
+  chapter: 7
+  score: 141
+  pinned: true
+- glyph: "\U00012291"
+  codepoint: '12291'
+  name: RI
+  value: ri
+  meaning: syllable ri; distant — ud ri-a, "in those days"
+  wedges: "~7"
+  freq_etcsl: 85
+  freq_cdli: 127
+  certainty: unclear
+  chapter: 10
+  score: 141
+  pinned: true
+- glyph: "\U00012327"
+  codepoint: '12327'
+  name: KALAM
+  value: kalam
+  meaning: the Land — Sumer as its own texts name it
+  wedges: "~9"
+  freq_etcsl: 126
+  freq_cdli: 371
+  certainty: stated
+  chapter: 7
+  score: 198
   pinned: true
