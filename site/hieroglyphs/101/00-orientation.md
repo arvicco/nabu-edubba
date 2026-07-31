@@ -10,26 +10,49 @@ chapter: 0
 permalink: /hieroglyphs/101/00-orientation/
 course_url: /hieroglyphs/101/
 course_title: "Hieroglyphs 101"
-teaches: []
-shows: ["𓅓", "𓈖", "𓂋", "𓊵", "𓏙", "𓇓", "𓍹", "𓍺"]
+teaches: ["𓅓", "𓈖", "𓂋"]
+shows: ["𓊵", "𓏙", "𓇓", "𓍹", "𓍺"]
 ---
 
 # Orientation
 
 You are at the start of the foundations course of the Egyptian
 school. It has no prerequisites. It asks only for patience and a
-pen — and it will repay both.
+pen — and it will repay both. In Edubba every chapter begins by
+handing you signs, so here are your first three, right now:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𓅓</td><td>G17</td><td><em>m</em></td>
+      <td>an owl</td><td>m</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𓈖</td><td>N35</td><td><em>n</em></td>
+      <td>a ripple of water</td><td>n</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𓂋</td><td>D21</td><td><em>r</em></td>
+      <td>a mouth</td><td>r</td>
+    </tr>
+  </tbody>
+</table>
+
+Draw each one a few times before reading on — an owl with its round
+face, a short zigzag, an eye-shaped mouth. The ripple and the mouth
+are the second and third most frequent signs in this school's whole
+reading corpus, the owl is sixth — and all three are yours as of
+this page.
 
 ## The promise
 
-By the end of this course's opening stretch you will be able to look
-at signs like these —
-
-<p class="script sign-strip" aria-label="Three Egyptian hieroglyphs">𓅓&ensp;𓈖&ensp;𓂋</p>
-
-— and see not decoration but *writing*: an owl, a ripple of water, a
-mouth — and, at the same time, the sounds *m*, *n*, *r*. You will
-learn the small kit of signs every Egyptian scribe learned first,
+You have just read three hieroglyphs — an owl, a ripple, a mouth
+that are, at the same time, the sounds *m*, *n*, *r*. By the end of
+this course's opening stretch you will own the small kit of signs
+every Egyptian scribe learned first,
 read real royal names inside their rings —
 
 <p class="script sign-strip" aria-label="An empty cartouche">𓍹&ensp;…&ensp;𓍺</p>
@@ -70,9 +93,9 @@ nothing here depends on it; this course stands on its own.
 
 ## The look of the script — see it once
 
-Hieroglyphs are drawn things. Here are three, enlarged from this
-site's own font — a bird, water, a body part, the three commonest
-kinds of picture in the script:
+Hieroglyphs are drawn things. Here are your three signs again,
+enlarged from this site's own font — a bird, water, a body part, the
+three commonest kinds of picture in the script:
 
 <div class="glyph-exhibit">
   <figure><span class="script">𓅓</span><figcaption>an owl — reads <em>m</em></figcaption></figure>
@@ -80,11 +103,11 @@ kinds of picture in the script:
   <figure><span class="script">𓂋</span><figcaption>a mouth — reads <em>r</em></figcaption></figure>
 </div>
 
-All three will be formally yours in chapter 04. Notice what the
-captions just did: each picture has a *reading* — a sound — that has
-nothing to do with owls, water, or mouths. How a picture comes to
-spell a sound is the story of chapter 03, and it is the same rebus
-story every writing system in this school tells.
+Notice what the table's Reads column already told you: each picture
+has a *reading* — a sound — that has nothing to do with owls, water,
+or mouths. How a picture comes to spell a sound is the story of
+chapter 03, and it is the same rebus story every writing system in
+this school tells.
 
 One honest note on display. Carved Egyptian text arranges signs in
 neat invisible squares, stacking short signs above one another, and
