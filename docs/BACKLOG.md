@@ -313,17 +313,17 @@ carry links; approximate name senses are given cautiously, never
 omitted; grammar walkthroughs piece by piece, never checklist
 glosses.
 
-## Phase 6 — Hieroglyphs 101 second stretch (plan .docs/phase-6-plan.md; PENDING owner approval)
+## Phase 6 — Hieroglyphs 101 second stretch (plan approved 2026-07-31, "Approved, execute")
 
-## M6-1 · hiero_reading_picker.rb as committed instrument (per-chapter buckets, aes) + tests  [tier: top] [status: ready] [deps: --]
-## M6-2 · Second-stretch sign pool: biliterals, triliterals, classifiers (registry + aes ranks)  [tier: top] [status: ready] [deps: M6-1]
-## M6-3 · Reading sweep over aes → .docs/p6-readings.md  [tier: top] [status: ready] [deps: M6-2]
-## M6-4 · Ch. 07 — biliterals (two sounds in one sign)  [tier: top — Fable, rule 9] [status: ready] [deps: M6-3]
-## M6-5 · Ch. 08 — phonetic complements (spelling that checks itself)  [tier: top — Fable] [status: ready] [deps: M6-4]
-## M6-6 · Ch. 09 — classifiers (ch05's promise: people and titles)  [tier: top — Fable] [status: ready] [deps: M6-5]
-## M6-7 · Ch. 10 — triliterals (ankh, nefer, hetep: the culture words)  [tier: top — Fable] [status: ready] [deps: M6-6]
-## M6-8 · Ch. 11 — decipherment: Rosetta, Champollion, Ptolemy whole; real RTL exhibit (D4-c delivery)  [tier: top — Fable] [status: ready] [deps: M6-7]
-## M6-9 · Ch. 12 — Reference; stitching, README, gate PR  [tier: top] [status: ready] [deps: M6-8]
+## M6-1 · hiero_reading_picker.rb as committed instrument (per-chapter buckets, aes) + tests  [tier: top] [status: done] [deps: --]
+## M6-2 · Second-stretch sign pool: biliterals, triliterals, classifiers (registry + aes ranks)  [tier: top] [status: done] [deps: M6-1]
+## M6-3 · Reading sweep over aes → .docs/p6-readings.md  [tier: top] [status: done] [deps: M6-2]
+## M6-4 · Ch. 07 — biliterals (two sounds in one sign)  [tier: top — Fable, rule 9] [status: done] [deps: M6-3]
+## M6-5 · Ch. 08 — phonetic complements (spelling that checks itself)  [tier: top — Fable] [status: done] [deps: M6-4]
+## M6-6 · Ch. 09 — classifiers (ch05's promise: people and titles)  [tier: top — Fable] [status: done] [deps: M6-5]
+## M6-7 · Ch. 10 — triliterals (ankh, nefer, hetep: the culture words)  [tier: top — Fable] [status: done] [deps: M6-6]
+## M6-8 · Ch. 11 — decipherment: Rosetta, Champollion, Ptolemy whole; real RTL exhibit (D4-c delivery)  [tier: top — Fable] [status: done] [deps: M6-7]
+## M6-9 · Ch. 12 — Reference; stitching, README, gate PR  [tier: top] [status: done] [deps: M6-8]
 
 Acceptance per chapter packet: gate green (untaught-sign +
 font-coverage over U+13000–1342F), pedagogy commitments 1–9,

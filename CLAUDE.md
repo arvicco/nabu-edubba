@@ -161,8 +161,8 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 6 — Hieroglyphs 101 second stretch (per D0-a alternation;
-plan pending owner approval).
+Phase 6 — Hieroglyphs 101 second stretch (approved 2026-07-31,
+executed; Gate 6 PR pending owner merge).
 
 Gate 5 merged 2026-07-31 (Cuneiform 102 second stretch: chs 06–11,
 17 new signs, 60 taught, ~49% corpus coverage; OSL identity
