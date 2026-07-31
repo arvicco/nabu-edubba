@@ -11,7 +11,7 @@ permalink: /cuneiform/101/01-clay-and-reed/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: ["𒅎", "𒆤"]
-shows: []
+shows: ["𒀸", "𒁹", "𒌋"]
 ---
 
 # Clay and reed
@@ -139,6 +139,16 @@ Out of this constraint come three basic strokes, and only three:
   *Winkelhaken* ("angle-hook"), made by pressing the stylus tip
   straight down and out, producing a small triangular notch used on
   its own rather than as part of a longer stroke.
+
+Here are the three shapes at full size, from this site's own font —
+each of them, standing alone, happens to be a complete sign, and
+chapter 05 will seat all three when the numbers need them:
+
+<div class="glyph-exhibit">
+  <figure><span class="script">𒀸</span><figcaption>the horizontal wedge — head at the left</figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>the vertical wedge — head at the top</figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>the corner impression — the <em>Winkelhaken</em></figcaption></figure>
+</div>
 
 Every cuneiform sign, however many strokes it has, is built from
 combinations of these three. There is no fourth basic stroke, and
