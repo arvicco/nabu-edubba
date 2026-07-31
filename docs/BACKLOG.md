@@ -287,16 +287,16 @@ subscript rendering, 3-level sidebar.
 
 ## Phase 5 — Cuneiform 102 second stretch (plan .docs/phase-5-plan.md; owner pre-approved "plan and execute" 2026-07-31)
 
-## M5-1 · Instruments: `nabu signs --json` identity resolution + sign_seq true counts + additive queue regen  [tier: top] [status: todo] [deps: --]
-## M5-2 · Second-stretch pool curation (batches for chs 06–11)  [tier: top] [status: todo] [deps: M5-1]
-## M5-3 · Reading sweep per D3-a (CDLI + ETCSL) → .docs/p5-readings.md  [tier: top] [status: todo] [deps: M5-2]
+## M5-1 · Instruments: `nabu signs --json` identity resolution + sign_seq true counts + additive queue regen  [tier: top] [status: done] [deps: --]
+## M5-2 · Second-stretch pool curation (batches for chs 06–11)  [tier: top] [status: done] [deps: M5-1]
+## M5-3 · Reading sweep per D3-a (CDLI + ETCSL) → .docs/p5-readings.md  [tier: top] [status: done] [deps: M5-2]
 ## M5-4 · Ch. 06 (names that are sentences — CDLI onomastics)  [tier: top — voice] [status: todo] [deps: M5-3]
 ## M5-5 · Ch. 07 (the copula: -me-en, "I am king")  [tier: impl — spec'd] [status: todo] [deps: M5-4]
 ## M5-6 · Ch. 08 (ergative + verbal chain round 2)  [tier: impl — spec'd] [status: todo] [deps: M5-5]
-## M5-7 · Ch. 09 (proverbs — first whole literary lines)  [tier: top] [status: todo] [deps: M5-6]
+## M5-7 · Ch. 09 (proverbs — first whole literary lines)  [tier: top] [status: done] [deps: M5-6]
 ## M5-8 · Ch. 10 (royal hymn lines — ud-bi-ta, the literary register)  [tier: impl — spec'd] [status: todo] [deps: M5-7]
-## M5-9 · Ch. 11 capstone (a literary passage whole)  [tier: top] [status: todo] [deps: M5-8]
-## M5-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: todo] [deps: M5-9]
+## M5-9 · Ch. 11 capstone (a literary passage whole)  [tier: top] [status: done] [deps: M5-8]
+## M5-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M5-9]
 
 Acceptance per chapter packet: gate green (untaught-sign +
 subscript-index + font coverage), surface review, pedagogy
