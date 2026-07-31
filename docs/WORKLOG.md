@@ -5,6 +5,19 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Gate 4 CLOSED · PR #7 merged by owner (beb9528), CI +
+Pages deploy green, live surface review passed (hieroglyphs 05
+cartouches + sign table, /terms/ glossary, retrofitted C101 05 —
+pixels verified per DEV-LOOP §4.5). Egyptian school open:
+Hieroglyphs 101 chs 00–06, 35 signs, aes readings URN-verified.
+Catch: the D3-a ruling commit (3d02e10) landed on phase-4 after
+the owner had merged, so it missed main — cherry-picked onto
+phase-5 (lesson: after "merging now", freeze the phase branch;
+late notes start the next branch). Phase 5 opened: Cuneiform 102
+second stretch (chs 06–11), literary readings unblocked by D3-a;
+plan at .docs/phase-5-plan.md, owner pre-approved "plan and
+execute".
+
 2026-07-31 · Owner correction: signs must be THEMATIC, taught once ·
 The C101 front-load had grabbed the three number-strokes for ch01
 (Clay and Reed) — convenient, not thematic, and it double-listed
