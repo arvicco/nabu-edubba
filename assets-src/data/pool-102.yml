@@ -58,7 +58,7 @@ signs:
   - { glyph: "𒊒", codepoint: "12292", name: "RU",   value: "ru",   meaning: "to dedicate — a mu-na-ru, the votive's closing verb",     wedges: ~5, freq_etcsl: 79,  freq_cdli: 113, certainty: unclear, chapter: 12 }
   - { glyph: "𒂼", codepoint: "120BC", name: "AMA",  value: "ama",  osl_name: "|GA2×AN|", meaning: "mother",                             wedges: ~7, freq_etcsl: 119, freq_cdli: 239, certainty: stated, chapter: 12 }
   - { glyph: "𒌗", codepoint: "12317", name: "ITI",  value: "iti",  osl_name: "|UD×(U.U.U)|", etcsl_value: "itid", meaning: "month — the day-sign with thirty tucked inside", wedges: ~5, freq_etcsl: 362, freq_cdli: 27, certainty: classic, chapter: 13 }
-  - { glyph: "𒆪", codepoint: "121AA", name: "KU",   value: "ku",   meaning: "to sit, to dwell (tuš); to place",                         wedges: ~4, freq_etcsl: 194, freq_cdli: 186, certainty: stated }
+  - { glyph: "𒆪", codepoint: "121AA", name: "KU",   value: "ku",   meaning: "to seize (dab₅); to sit, dwell (tuš)",                     wedges: ~4, freq_etcsl: 194, freq_cdli: 186, certainty: stated, chapter: 14 }
   - { glyph: "𒂄", codepoint: "12084", name: "DUN",  value: "szul", etcsl_value: "cul", meaning: "young man in his prime, hero (šul) — Šulgi's own name-word", wedges: ~5, freq_etcsl: 155, freq_cdli: 106, certainty: unclear, chapter: 15 }
   - { glyph: "𒌅", codepoint: "12305", name: "TU",   value: "tu",   meaning: "to be born (tu-ud)",                                       wedges: ~6, freq_etcsl: 195, freq_cdli: 122, certainty: stated, chapter: 15 }
   - { glyph: "𒆗", codepoint: "12197", name: "KAL",  value: "kal",  meaning: "mighty, strong (kalag); precious",                         wedges: ~5, freq_etcsl: 180, freq_cdli: 65,  certainty: stated, chapter: 15 }
