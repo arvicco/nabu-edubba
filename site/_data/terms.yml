@@ -115,6 +115,9 @@ terms:
   - name: copula
     slug: copula
     def: "a word or word-part meaning \"to be,\" linking a subject to what it is — Sumerian attaches it to the word itself: lugal-me-en, \"I am king\""
+  - name: classifier
+    slug: classifier
+    def: "Egyptology's name for a determinative — the silent sign closing a word to say what kind of thing it is: person, speech, plural, idea"
   - name: cohortative
     slug: cohortative
     def: "the verb form that says \"let me / let us\" — a wish the speaker makes about their own action; Sumerian fronts the verb with ga-"
