@@ -11,7 +11,7 @@ chapter: 17
 permalink: /cuneiform/102/17-the-day-destinies-were-decreed/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
-teaches: ["𒄘", "𒋻"]
+teaches: ["𒄘", "𒋻", "𒇲"]
 shows: []
 ---
 
@@ -20,7 +20,7 @@ shows: []
 This course has quoted Gudea's temple hymn since chapter 09 — a
 line here, a blessing there. Time to stand at its front door. The
 hymn that fills two clay cylinders, the longest Sumerian
-composition that survives, opens with a line you are two signs
+composition that survives, opens with a line you are three signs
 away from reading whole.
 
 ## Batch eighteen
@@ -42,6 +42,12 @@ away from reading whole.
       <td>neck; riverbank</td>
       <td>what a flood rises over — and, in the line below, what an
           inspired heart overflows</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒇲</td><td>LAL</td><td><em>la₂</em></td>
+      <td>to hang, to weigh out; the spelling la₂</td>
+      <td>the scales' verb on the receipts — and the glue inside
+          Enlil's own name as the refrain below writes it</td>
     </tr>
   </tbody>
 </table>
@@ -125,7 +131,7 @@ chapter left to shelve it properly.
 
 ## Drill before the last chapter
 
-1. Write 𒋻 and 𒄘 from memory; say *tar*, *gu₂*.
+1. Write 𒋻, 𒄘, and 𒇲 from memory; say *tar*, *gu₂*, *la₂*.
 2. Read Cylinder A's line 1 aloud, covering the gloss. You have
    waited seventeen chapters to do this cold.
 3. Explain *nam tar* in one sentence — what is fate, grammatically
