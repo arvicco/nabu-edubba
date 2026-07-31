@@ -161,10 +161,11 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 5 — Cuneiform 102 second stretch (per D0-a alternation;
-literary readings unblocked by D3-a).
+Phase 6 — Hieroglyphs 101 second stretch (per D0-a alternation;
+plan pending owner approval).
 
-Gate 4 merged 2026-07-31 (Egyptian school open: Hieroglyphs 101
-chs 00–06, 35 signs; C101 retrofitted to every-chapter-opens rule;
-terms glossary + bubbles; URN axis links; 3-level sidebar).
+Gate 5 merged 2026-07-31 (Cuneiform 102 second stretch: chs 06–11,
+17 new signs, 60 taught, ~49% corpus coverage; OSL identity
+instruments; literary readings per D3-a; content-is-Fable-only
+rule ratified as golden rule 9).
 Update this line at each gate.

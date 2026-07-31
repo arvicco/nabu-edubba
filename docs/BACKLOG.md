@@ -304,3 +304,30 @@ commitments 1–9 (thematic opening signs, taught-once, concrete
 example per marker, essence titles, terms.yml in same commit),
 URN + license class per reading (ETCSL quotes labeled non-
 commercial per D3-a), citations footnoted.
+Gate 5 CLOSED — PR #8 merged 2026-07-31, CI + deploy green, live
+pages surface-reviewed (ch09 pixels). 102 second stretch live:
+chs 06–11, 60 signs taught, ~49% coverage floor. Owner rulings
+absorbed during review: content is Fable-only (golden rule 9 —
+no delegated chapters, ever); back-references to prior material
+carry links; approximate name senses are given cautiously, never
+omitted; grammar walkthroughs piece by piece, never checklist
+glosses.
+
+## Phase 6 — Hieroglyphs 101 second stretch (plan .docs/phase-6-plan.md; PENDING owner approval)
+
+## M6-1 · hiero_reading_picker.rb as committed instrument (per-chapter buckets, aes) + tests  [tier: top] [status: ready] [deps: --]
+## M6-2 · Second-stretch sign pool: biliterals, triliterals, classifiers (registry + aes ranks)  [tier: top] [status: ready] [deps: M6-1]
+## M6-3 · Reading sweep over aes → .docs/p6-readings.md  [tier: top] [status: ready] [deps: M6-2]
+## M6-4 · Ch. 07 — biliterals (two sounds in one sign)  [tier: top — Fable, rule 9] [status: ready] [deps: M6-3]
+## M6-5 · Ch. 08 — phonetic complements (spelling that checks itself)  [tier: top — Fable] [status: ready] [deps: M6-4]
+## M6-6 · Ch. 09 — classifiers (ch05's promise: people and titles)  [tier: top — Fable] [status: ready] [deps: M6-5]
+## M6-7 · Ch. 10 — triliterals (ankh, nefer, hetep: the culture words)  [tier: top — Fable] [status: ready] [deps: M6-6]
+## M6-8 · Ch. 11 — decipherment: Rosetta, Champollion, Ptolemy whole; real RTL exhibit (D4-c delivery)  [tier: top — Fable] [status: ready] [deps: M6-7]
+## M6-9 · Ch. 12 — Reference; stitching, README, gate PR  [tier: top] [status: ready] [deps: M6-8]
+
+Acceptance per chapter packet: gate green (untaught-sign +
+font-coverage over U+13000–1342F), pedagogy commitments 1–9,
+Leiden display translit (D4-b), linear display w/ SVG stacking
+(D4-a), URN + license per reading, terms.yml in same commit,
+surface review. All content written by the session model
+(golden rule 9).
