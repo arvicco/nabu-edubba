@@ -152,6 +152,5 @@ The literacy track will fill the slots; the frame is now yours.
    taught you the sign.
 4. Explain the *ka* line — 𓂓𓏤 — using chapter 03's stroke rule.
 
-*This closes the opening stretch. The course continues in a later
-phase: two-sound and three-sound signs, numbers, gods and titles —
-and the full story of the decipherment.*
+*Next: signs that carry two sounds at once — and the shortcut
+layer that makes real inscriptions compact.*
