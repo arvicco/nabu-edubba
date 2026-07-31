@@ -227,10 +227,10 @@ pages surface-reviewed. Pedagogy commitments 6–9 codified
 (concept.md §3.1) from the review rounds.
 
 ## Carried forward — cuneiform school
-- Retrofit Cuneiform 101 chapters 00–03 to the strengthened
-  every-chapter-opens-with-signs rule (owner 2026-07-31; concept
-  §3.1-3): front-load starter signs the way Hieroglyphs 101 does.
-  Do at the next cuneiform stretch.
+- ~~Retrofit Cuneiform 101 chapters 00–03~~ DONE in Phase 4 review
+  rounds (2026-07-31): all 13 chapters comply with the
+  every-chapter-opens rule; IM moved to 101 ch. 01, strokes seated
+  as signs in ch. 05, taught-once rule enforced.
 
 ## Carried forward (post-P53, Nabu `signs` live 2026-07-30)
 - Replace the hand value→glyph map (assets-src/data/pool-102.yml
@@ -277,3 +277,30 @@ URN + license per reading, pedagogy commitments 1–9.
   their own reuse (owner: explicitly not our concern). Unblocks
   literary readings for the 102 continuation
   (.docs/p3-readings.md candidates).
+
+Gate 4 CLOSED — PR #7 merged 2026-07-31, CI + deploy green, live
+pages surface-reviewed (hieroglyphs 05, /terms/, retrofitted C101
+05). Egyptian school open: Hieroglyphs 101 chs 00–06, 35 signs.
+Site-wide principles shipped and codified: every-chapter-opens +
+taught-once, term bubbles + /terms/ glossary, URN axis links,
+subscript rendering, 3-level sidebar.
+
+## Phase 5 — Cuneiform 102 second stretch (plan .docs/phase-5-plan.md; owner pre-approved "plan and execute" 2026-07-31)
+
+## M5-1 · Instruments: `nabu signs --json` identity resolution + sign_seq true counts + additive queue regen  [tier: top] [status: todo] [deps: --]
+## M5-2 · Second-stretch pool curation (batches for chs 06–11)  [tier: top] [status: todo] [deps: M5-1]
+## M5-3 · Reading sweep per D3-a (CDLI + ETCSL) → .docs/p5-readings.md  [tier: top] [status: todo] [deps: M5-2]
+## M5-4 · Ch. 06 (names that are sentences — CDLI onomastics)  [tier: top — voice] [status: todo] [deps: M5-3]
+## M5-5 · Ch. 07 (the copula: -me-en, "I am king")  [tier: impl — spec'd] [status: todo] [deps: M5-4]
+## M5-6 · Ch. 08 (ergative + verbal chain round 2)  [tier: impl — spec'd] [status: todo] [deps: M5-5]
+## M5-7 · Ch. 09 (proverbs — first whole literary lines)  [tier: top] [status: todo] [deps: M5-6]
+## M5-8 · Ch. 10 (royal hymn lines — ud-bi-ta, the literary register)  [tier: impl — spec'd] [status: todo] [deps: M5-7]
+## M5-9 · Ch. 11 capstone (a literary passage whole)  [tier: top] [status: todo] [deps: M5-8]
+## M5-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: todo] [deps: M5-9]
+
+Acceptance per chapter packet: gate green (untaught-sign +
+subscript-index + font coverage), surface review, pedagogy
+commitments 1–9 (thematic opening signs, taught-once, concrete
+example per marker, essence titles, terms.yml in same commit),
+URN + license class per reading (ETCSL quotes labeled non-
+commercial per D3-a), citations footnoted.
