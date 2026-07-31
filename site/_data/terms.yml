@@ -112,3 +112,6 @@ terms:
   - name: ergative
     slug: ergative
     def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"
+  - name: copula
+    slug: copula
+    def: "a word or word-part meaning \"to be,\" linking a subject to what it is — Sumerian attaches it to the word itself: lugal-me-en, \"I am king\""
