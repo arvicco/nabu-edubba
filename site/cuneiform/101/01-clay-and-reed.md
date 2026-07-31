@@ -10,11 +10,39 @@ chapter: 1
 permalink: /cuneiform/101/01-clay-and-reed/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
+teaches: ["𒀸", "𒁹", "𒌋"]
 shows: []
 ---
 
 # Clay and reed
+
+This chapter is about the strokes a reed makes in clay — so it opens
+with the three simplest signs in all of cuneiform, one stroke each:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒀸</td><td>AŠ</td><td><em>aš</em></td>
+      <td>one; single</td><td>one horizontal wedge, head at the left</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td><em>diš</em></td>
+      <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒌋</td><td>U</td><td><em>u</em></td>
+      <td>ten</td><td>one corner wedge, an open angle</td>
+    </tr>
+  </tbody>
+</table>
+
+Each is a complete sign made of exactly one press of the stylus —
+the horizontal, the vertical, and the corner wedge you met on
+chapter 00's drawing. Everything else in this script is these three
+marks, combined. This chapter shows you where they come from.
 
 Every writing system is shaped by what it is written with, and on.
 Ink and brush give Chinese characters their tapering strokes; chisel

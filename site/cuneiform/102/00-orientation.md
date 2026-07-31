@@ -25,6 +25,38 @@ more mileage. Each chapter grows your inventory by a computed batch,
 adds exactly as much Sumerian grammar as its readings demand, and
 puts real clay in front of you.
 
+## Three signs to start
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒈨</td><td>ME</td><td><em>me</em></td>
+      <td>rites, divine powers; to be</td>
+      <td>2 wedges — the simplest sign in this course, carrying one of
+          Sumer's deepest words: the <em>me</em> are the divine
+          ordinances of civilization</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒌨</td><td>UR</td><td><em>ur</em></td>
+      <td>dog; young man, warrior (in names)</td>
+      <td>~5 wedges; you met it inside names in 101 — Ur-Nanše,
+          Ur-Lisi. Now the ur- names open by themselves</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒋫</td><td>TA</td><td><em>ta</em></td>
+      <td>the syllable ta; "from" (ablative)</td>
+      <td>~5 wedges; pictorial origin not transparent — a grammar
+          workhorse you will meet properly in chapter 01</td>
+    </tr>
+  </tbody>
+</table>
+
+Write each five times, as always. The habit survives the course
+change.
+
 ## The march, measured
 
 101 explained how the teaching order is computed — corpus frequency
@@ -73,37 +105,6 @@ Two chapters from now, roughly a third of everything ever pressed
 into Sumerian clay will be made of signs you know. That is what a
 frequency-ordered inventory buys.
 
-## Three signs to start
-
-<table class="sign-table">
-  <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="script sign-cell">𒈨</td><td>ME</td><td><em>me</em></td>
-      <td>rites, divine powers; to be</td>
-      <td>2 wedges — the simplest sign in this course, carrying one of
-          Sumer's deepest words: the <em>me</em> are the divine
-          ordinances of civilization</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒌨</td><td>UR</td><td><em>ur</em></td>
-      <td>dog; young man, warrior (in names)</td>
-      <td>~5 wedges; you met it inside names in 101 — Ur-Nanše,
-          Ur-Lisi. Now the ur- names open by themselves</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒋫</td><td>TA</td><td><em>ta</em></td>
-      <td>the syllable ta; "from" (ablative)</td>
-      <td>~5 wedges; pictorial origin not transparent — a grammar
-          workhorse you will meet properly in chapter 01</td>
-    </tr>
-  </tbody>
-</table>
-
-Write each five times, as always. The habit survives the course
-change.
 
 ## Your first reading of the track
 

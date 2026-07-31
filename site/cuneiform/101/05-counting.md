@@ -2,7 +2,7 @@
 title: "05 · Counting like a Sumerian"
 short_title: "05 · Counting"
 description: >-
-  The number system built from the three atomic wedges of chapter 04:
+  The number system built from the three atomic wedges of chapter 01:
   units and tens by repetition, the sexagesimal turn at sixty, and the
   shape of an account line — number followed by commodity.
 layout: chapter
@@ -86,7 +86,7 @@ table below groups them the same way.
   </tbody>
 </table>
 
-No new signs — the same vertical and corner wedges from chapter 04,
+No new signs — the same vertical and corner wedges from chapter 01,
 put to a second job: counting rather than naming.
 
 ## Sixty and beyond

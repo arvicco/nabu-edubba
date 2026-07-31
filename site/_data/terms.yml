@@ -82,3 +82,33 @@ terms:
   - name: agglutinative
     slug: agglutinative
     def: "building words by stacking small pieces, each with exactly one job — like beads on a string"
+  - name: homophony
+    slug: homophony
+    def: "several different signs sharing one sound — the mirror image of one sign having several readings"
+  - name: titulary
+    slug: titulary
+    def: "a ruler's full formal string of names and titles, repeated in fixed order on monuments"
+  - name: votive
+    slug: votive
+    def: "given to a god in fulfillment of a vow — votive objects carry dedication inscriptions"
+  - name: pictograph
+    slug: pictograph
+    def: "an early sign that is still simply a picture of the thing it means"
+  - name: paleography
+    slug: paleography
+    def: "reading the age and origin of a text from the changing shapes of its signs"
+  - name: colophon
+    slug: colophon
+    def: "a scribe's closing note on a tablet or manuscript — title, owner, date, the ancient equivalent of a title page at the end"
+  - name: terminative
+    slug: terminative
+    def: "the grammatical case meaning \"to, toward, up to\" — Sumerian marks it with -še₃"
+  - name: genitive
+    slug: genitive
+    def: "the grammatical case of possession or belonging — \"the king's house\", \"lord of Lagash\""
+  - name: ablative
+    slug: ablative
+    def: "the grammatical case meaning \"from, out of\" — Sumerian marks it with -ta"
+  - name: ergative
+    slug: ergative
+    def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"

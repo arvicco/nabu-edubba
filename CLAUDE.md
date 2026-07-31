@@ -90,6 +90,12 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Chapter titles express the chapter's ESSENCE in a few short words
   (the grammar piece, the main idea) — never mechanical labels like
   "Batch III". Batches are a mechanic, not a name.
+- Technical terms (glottal stop, determinative, genitive …) carry
+  hover-bubble definitions site-wide and link to the /terms/
+  glossary — when a chapter introduces new jargon, add it to
+  site/_data/terms.yml in the same commit (owner ruling 2026-07-31).
+- Every cited Nabu URN links to its axis desk (script/urn_linker.rb;
+  a new Nabu source needs an AXES entry in the same commit).
 - Reference citations are FOOTNOTES (kramdown [^ref]) or Reference-
   chapter entries, never inline meta in the lesson flow. Every
   grammatical marker taught gets a concrete usage example a learner

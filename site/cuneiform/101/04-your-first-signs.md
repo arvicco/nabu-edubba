@@ -11,17 +11,21 @@ chapter: 4
 permalink: /cuneiform/101/04-your-first-signs/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: ["𒀸", "𒁹", "𒌋", "𒀀", "𒆳", "𒀭", "𒌓", "𒊺", "𒆠", "𒂍"]
+teaches: ["𒆠", "𒂍"]
 shows: []
 ---
 
 # Your first signs
 
-Ten signs. By the end of this chapter your hand will know them, your
-eye will resolve them at a glance, and you will read your first
-two-sign words. Keep pen and paper beside you: **every sign in this
-chapter is to be written, not admired** — head of the wedge first,
-tail second, as chapter 01 taught.
+Ten signs — eight of them handed to you one by one across chapters
+00–03, and two new ones to complete the starter inventory:
+𒆠 and 𒂍, the earth and the house, introduced properly below. This
+chapter is where the whole inventory becomes *hand* knowledge: by
+the end your hand will know all ten, your eye will resolve them at
+a glance, and you will read your first two-sign words. Keep pen and
+paper beside you: **every sign in this chapter is to be written,
+not admired** — head of the wedge first, tail second, as chapter 01
+taught.
 
 ## How these ten were chosen
 
@@ -36,9 +40,9 @@ full table, criterion by criterion, is in chapter 12.
 
 ## Wave one: the atomic wedges
 
-Chapter 01 gave you the three basic strokes. Here is the payoff:
-each basic stroke, *on its own*, is already a sign — and not obscure
-ones, but the workhorses of a hundred thousand receipts. (In these
+Chapter 01 taught you the three one-stroke signs along with the
+strokes themselves. Here they are again as a drill — not obscure
+signs, but the workhorses of a hundred thousand receipts. (In these
 tables, remember chapter 03's convention: **Name** in capitals
 labels the sign itself; **Reads**, in italics, is what it says in
 text.)
@@ -76,7 +80,9 @@ the readings aloud.
 ## Wave two: pictures that survived
 
 Five signs whose shapes still show, more or less plainly, the things
-they began as. For each: the story of the shape (where the standard
+they began as — and all five are already yours: 𒀀, 𒆳, and 𒀭 from
+chapter 00, 𒊺 from chapter 02, 𒌓 from chapter 03. What is new here
+is the anatomy. For each: the story of the shape (where the standard
 accounts consider it solid), the readings, and the wedge count from
 this site's own reference font.
 
@@ -122,7 +128,10 @@ this site's own reference font.
 common center; for <span class="script">𒊺</span>, stalk first, then
 the grain-chevrons in pairs.
 
-## Wave three: two you have already met
+## Wave three: the two new ones
+
+The chapter's genuinely new signs — though both made cameo
+appearances in chapter 03's examples:
 
 <table class="sign-table">
   <thead>
