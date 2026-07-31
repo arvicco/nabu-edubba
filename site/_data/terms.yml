@@ -112,6 +112,15 @@ terms:
   - name: ergative
     slug: ergative
     def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"
+  - name: dative
+    slug: dative
+    def: "the grammatical case meaning \"to, for (someone)\" — Sumerian marks it with -ra"
+  - name: comitative
+    slug: comitative
+    def: "the grammatical case meaning \"together with\" — Sumerian marks it with -da"
+  - name: locative
+    slug: locative
+    def: "the grammatical case meaning \"in, on, at\" — Sumerian marks it with -a"
   - name: copula
     slug: copula
     def: "a word or word-part meaning \"to be,\" linking a subject to what it is — Sumerian attaches it to the word itself: lugal-me-en, \"I am king\""
