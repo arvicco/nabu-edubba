@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · M6-1..M6-9 · phase-6 · Hieroglyphs 101 completed
+same-day as approval: chapters 07–12 (biliterals, phonetic
+complements + tomb family album, classifier system, culture words,
+Rosetta decipherment, Reference), 18 new signs (53 total), every
+chapter Fable-written per golden rule 9. Instruments:
+hiero_reading_picker.rb committed (per-chapter buckets over aes
+hiero_inventar; qualifies only whole, fully-annotated lines);
+bin/hiero_freq.rb replaces the P4 ad-hoc counter. INCIDENT, the
+mixed-case Gardiner bug family: the P4 sweep, the registry rank
+lookup, AND the new picker's first regex all dropped Aa/Ff
+category codes ("Aa1" vs pool "AA1") — Aa1 (ḫ, true rank 14,
+10,720 hits) sat at rank 1802 count 1 in the committed table;
+caught via ch12's rendered rank column (pixels again). All three
+fixed with upcasing; freq table regenerated over 266k tokens;
+prose errata (fifteen-of-26 in top twenty; reed fifth not fourth).
+Editorial: ch05's Pepi turns out to be the Satire-of-the-Trades
+schoolboy (A51 dignitary classifier) — ch09 tells it as the
+payoff, ch05 caption de-ambiguated. Promises delivered: Pepi's
+box (ch09), Ptolemy in full + Cleopatra cross-check (ch11), RTL
+compass facsimile per D4-c, index placeholder arc superseded per
+approved plan (counting + hieratic/demotic line → later courses).
+Gate green throughout; ch11/ch12 surface-reviewed.
+
 2026-07-31 · Owner ruling: content is Fable-only (constitution) ·
 On PR #8 review the owner ruled: no Sonnet-drafted chapters, ever,
 period — all content writing is planned AND executed by the Fable
