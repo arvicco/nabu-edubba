@@ -134,7 +134,7 @@ start to finish without a single box:
 
 𒉌 is not doing syllable duty here; it is
 [101's]({{ '/cuneiform/101/' | relative_url }}) NI carrying its other
-value, *ì*, "oil" — same sign, different job, exactly as 101 warned
+value, *i₃*, "oil" — same sign, different job, exactly as 101 warned
 you signs behave. É-gal, "palace," is the same big-house compound you
 first wrote in
 [101's chapter 07]({{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }})

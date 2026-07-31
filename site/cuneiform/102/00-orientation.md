@@ -57,6 +57,34 @@ puts real clay in front of you.
 Write each five times, as always. The habit survives the course
 change.
 
+## The odd letters — a two-minute primer
+
+This course's transliterations carry a few marks that 101 used
+sparingly and this track uses on every page. None of them are
+decoration; two minutes here and they stop being noise.
+
+<table class="sign-table">
+  <thead>
+    <tr><th>You see</th><th>Say it as</th><th>What it is</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><em>š</em></td><td>"sh"</td><td>exactly English "sh": <em>ša₃</em> is "sha"</td></tr>
+    <tr><td><em>ŋ</em></td><td>"ng"</td><td>the "ng" of "song," a single sound Sumerian could start a syllable with: <em>saŋ</em>, <em>niŋ₂</em>. Many books print it <em>ĝ</em> — same sound, different hat</td></tr>
+    <tr><td><em>h</em></td><td>"kh"</td><td>Sumerian's h is the rasp of Scottish "lo<strong>ch</strong>": <em>ha</em>, <em>mah</em>. Specialist works often write it <em>ḫ</em></td></tr>
+    <tr><td><em>e₂, u₄, gu₇</em></td><td>"e", "u", "gu"</td><td>the little number is an index, not a pronunciation: <em>e₂</em> is "the second sign that reads e." Homophones are many; the index says which sign is meant</td></tr>
+    <tr><td><em>é, ì</em></td><td>"e", "i"</td><td>an older habit writes indexes 2 and 3 as accents instead: <em>é</em> = <em>e₂</em>, <em>ì</em> = <em>i₃</em>. You will meet it in books — and in this school's own name, <em>é-dub-ba-a</em></td></tr>
+  </tbody>
+</table>
+
+And the marks around the words: **hyphens** join the signs that
+spell one word; **braces** — *{d}*, *{ki}* — wrap the silent
+determinatives you have known since 101; **▢** stands for a sign
+not yet taught; and where a caption quotes the corpora's own ASCII
+(*sza3*, *ce3* — full-size digits, no special letters), it says
+so. Everything else on the page is plain
+reading. Flip back here whenever a mark looks unfamiliar — that is
+what an orientation chapter is for.
+
 ## The march, measured
 
 101 explained how the teaching order is computed — corpus frequency

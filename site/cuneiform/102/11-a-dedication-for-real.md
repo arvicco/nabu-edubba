@@ -64,7 +64,7 @@ Both go straight to work:
 ## The promise, kept
 
 Late in the third millennium BCE, Lu-Utu, ruler of the city of
-Umma, built a temple for the goddess Ninhursaĝ and had the deed
+Umma, built a temple for the goddess Ninhursag and had the deed
 written into its foundation. Here is his inscription — the real
 thing, line by line. Boxes stand for signs still ahead of you; one
 line, naming the beloved spot where the temple stood, is omitted —
@@ -72,8 +72,8 @@ its key sign is not yet yours. Everything else, you read.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒎏▢𒊕</span><span class="translit">{d}nin-hur-saĝ</span><span class="gloss">For Ninhursaĝ —</span></div>
-    <div class="reading-line"><span class="script">▢𒀭𒊑𒉈𒊏</span><span class="translit">ama diĝir-re-ne-ra</span><span class="gloss">mother of the gods (that -ra is chapter 02's "for"),</span></div>
+    <div class="reading-line"><span class="script">𒀭𒎏▢𒊕</span><span class="translit">{d}nin-hur-saŋ</span><span class="gloss">For Ninhursag —</span></div>
+    <div class="reading-line"><span class="script">▢𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">mother of the gods (that -ra is chapter 02's "for"),</span></div>
     <div class="reading-line"><span class="script">𒇽𒀭𒌓</span><span class="translit">lu₂-{d}utu</span><span class="gloss">Lu-Utu ("Man of the sun-god" — a name you can read whole),</span></div>
     <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">ensi₂</span><span class="gloss">ruler</span></div>
     <div class="reading-line"><span class="script">▢▢𒆠𒆤</span><span class="translit">umma{ki}-ke₄</span><span class="gloss">of Umma (the place-tag {ki} from 101; -ke₄ — the genitive's hidden /k/ surfacing, exactly as chapter 07 unmasked it),</span></div>
@@ -88,7 +88,7 @@ its key sign is not yet yours. Everything else, you read.
   </figcaption>
 </figure>
 
-Hold this against chapter 05's template: **deity** ("for Ninhursaĝ,
+Hold this against chapter 05's template: **deity** ("for Ninhursag,
 mother of the gods") — **donor, named and titled** ("Lu-Utu, ruler
 of Umma") — **purpose** (*nam-ti-la-ni-še₃*, "for his life",
 letter-for-letter the phrase you assembled from your own inventory)
