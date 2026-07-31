@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Owner correction: signs must be THEMATIC, taught once ·
+The C101 front-load had grabbed the three number-strokes for ch01
+(Clay and Reed) — convenient, not thematic, and it double-listed
+them in later tables. Redone per owner: ch01 now teaches its own
+materials 𒅎 IM (clay — brought forward from the 102 pool) and 𒆤
+KID (reed mat — moved from ch10, whose table now presents it as a
+veteran gaining the lil₂ reading for {d}en-lil₂: polyvalency shown,
+not re-taught); the strokes 𒀸𒁹𒌋 moved to ch05 Counting where
+they thematically belong (ch05 had violated every-chapter-teaches
+anyway), plus GUR — which the registry claimed ch05 taught but NO
+chapter ever did (latent registry/content inconsistency, now fixed
+with a real gur account line 3(aš) še gur). ch04 wall chart marks
+the strokes "ch. 05" via shows:. 102 side (owner suggestion): AK
+moved ch05→ch02 — the sign that writes the very -ak genitive ch02
+teaches; ch02 gained the pairing lesson (case=/ak/, sign=𒀝) and a
+chapter-05 hook; ch05 slimmed to nin+la (drill bug fixed: said
+"nin, ne, ak" for a nin/la/ak batch). Pool: IM removed, ALL batches
+pinned to their published chapters (published course = contract),
+BATCHES ch5=2; queue regenerated — batches stable, coverage chart
+updated (base now includes 101's IM). 101 grows to 26 signs; all
+"25/forty-three" claims updated. New principle codified: a sign is
+taught exactly once, later tables mark veterans explicitly. Gate
+green; validator proves both courses end-to-end.
+
 2026-07-31 · Principles generalized + C101/C102 compliance sweep ·
 Three owner rulings codified (CLAUDE.md + concept §3.1-3): every
 chapter opens with signs in table form; technical terms carry

@@ -2,9 +2,9 @@
 title: "04 · Your first signs"
 short_title: "04 · First signs"
 description: >-
-  Ten signs, chosen by computed frequency and graphic simplicity:
-  the three atomic wedges, then the great pictograph descendants —
-  learned wedge by wedge, written by hand.
+  The starter inventory consolidated wedge by wedge — the great
+  pictograph descendants drilled, and two new signs, earth and
+  house, to complete the set.
 layout: chapter
 course: cuneiform-101
 chapter: 4
@@ -12,22 +12,22 @@ permalink: /cuneiform/101/04-your-first-signs/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
 teaches: ["𒆠", "𒂍"]
-shows: []
+shows: ["𒀸", "𒁹", "𒌋"]
 ---
 
 # Your first signs
 
-Ten signs — eight of them handed to you one by one across chapters
-00–03, and two new ones to complete the starter inventory:
-𒆠 and 𒂍, the earth and the house, introduced properly below. This
-chapter is where the whole inventory becomes *hand* knowledge: by
-the end your hand will know all ten, your eye will resolve them at
-a glance, and you will read your first two-sign words. Keep pen and
+Seven signs handed to you one by one across chapters 00–03, and two
+new ones to complete this stretch of the inventory: 𒆠 and 𒂍, the
+earth and the house, introduced properly below. This chapter is
+where it all becomes *hand* knowledge: by the end your hand will
+know all nine, your eye will resolve them at a glance, and you will
+read your first two-sign words. Keep pen and
 paper beside you: **every sign in this chapter is to be written,
 not admired** — head of the wedge first, tail second, as chapter 01
 taught.
 
-## How these ten were chosen
+## How these signs were chosen
 
 Not by tradition — by two measurable criteria, applied together.
 **Frequency**: how often a sign's reading actually occurs, counted
@@ -38,46 +38,7 @@ wedges a sign takes, and whether its shape still tells its story.
 A sign that is both frequent and simple earns an early seat. The
 full table, criterion by criterion, is in chapter 12.
 
-## Wave one: the atomic wedges
-
-Chapter 01 taught you the three one-stroke signs along with the
-strokes themselves. Here they are again as a drill — not obscure
-signs, but the workhorses of a hundred thousand receipts. (In these
-tables, remember chapter 03's convention: **Name** in capitals
-labels the sign itself; **Reads**, in italics, is what it says in
-text.)
-
-<table class="sign-table">
-  <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Wedges</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="script sign-cell">𒀸</td><td>AŠ</td><td><em>aš</em></td>
-      <td>one, single</td><td>1 — a lone horizontal</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td><em>diš</em></td>
-      <td>one (counting)</td><td>1 — a lone vertical</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒌋</td><td>U</td><td><em>u</em></td>
-      <td>ten</td><td>1 — the corner wedge</td>
-    </tr>
-  </tbody>
-</table>
-
-In the counted CDLI documents, *diš* is the single most frequent
-value in the entire corpus, and *u* and *aš* both sit in the top
-ten — because these are the counting strokes of Sumerian accounting,
-pressed millions of times. Chapter 05 builds the whole number system
-out of exactly these marks.
-
-**Write them.** A horizontal, head at the left. A vertical, head at
-the top. A corner wedge, pressed and released. Ten of each, saying
-the readings aloud.
-
-## Wave two: pictures that survived
+## Wave one: pictures that survived
 
 Five signs whose shapes still show, more or less plainly, the things
 they began as — and all five are already yours: 𒀀, 𒆳, and 𒀭 from
@@ -128,7 +89,7 @@ this site's own reference font.
 common center; for <span class="script">𒊺</span>, stalk first, then
 the grain-chevrons in pairs.
 
-## Wave three: the two new ones
+## Wave two: the two new ones
 
 The chapter's genuinely new signs — though both made cameo
 appearances in chapter 03's examples:
@@ -177,13 +138,14 @@ throughout the literary corpus you will read from.
 
 ## Your wall chart
 
-All ten at a glance — copy this row of shapes somewhere you will see
-it daily:
+Everything so far at a glance — plus, in the first three places,
+the three single-wedge signs the next chapter is about to hand you.
+Copy this row of shapes somewhere you will see it daily:
 
 <div class="glyph-exhibit">
-  <figure><span class="script">𒀸</span><figcaption>aš</figcaption></figure>
-  <figure><span class="script">𒁹</span><figcaption>diš</figcaption></figure>
-  <figure><span class="script">𒌋</span><figcaption>u</figcaption></figure>
+  <figure><span class="script">𒀸</span><figcaption>aš — ch. 05</figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>diš — ch. 05</figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>u — ch. 05</figcaption></figure>
   <figure><span class="script">𒀀</span><figcaption>a</figcaption></figure>
   <figure><span class="script">𒆳</span><figcaption>kur</figcaption></figure>
   <figure><span class="script">𒀭</span><figcaption>an</figcaption></figure>
@@ -196,7 +158,8 @@ it daily:
 ## Drill before you go on
 
 1. Cover the tables. From memory, write: water · mountain · heaven ·
-   sun · barley · earth · house · the three counting strokes.
+   sun · barley · earth · house — then clay and reed-mat from
+   chapter 01.
 2. Read back your own page in random order, aloud.
 3. Anything shaky — write it five more times. The next chapter
    assumes all ten.

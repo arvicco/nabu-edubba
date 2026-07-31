@@ -11,17 +11,40 @@ chapter: 5
 permalink: /cuneiform/101/05-counting/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
+teaches: ["𒁹", "𒌋", "𒀸", "𒄥"]
 shows: []
 ---
 
 # Counting like a Sumerian
 
-You already own every stroke this chapter needs. No new signs today —
-only what you can build from three you drilled in
-[chapter 04]({{ '/cuneiform/101/04-your-first-signs/' | relative_url }}):
-the vertical wedge, the corner wedge, and the single horizontal. What
-changes is what they can do once you let them repeat.
+This is the numbers chapter, and its new signs are the three
+number-atoms of the entire script — each a single press of the
+stylus:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td><em>diš</em></td>
+      <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒌋</td><td>U</td><td><em>u</em></td>
+      <td>ten</td><td>one corner wedge, an open angle</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒀸</td><td>AŠ</td><td><em>aš</em></td>
+      <td>one; single</td><td>one horizontal wedge, head at the left</td>
+    </tr>
+  </tbody>
+</table>
+
+You met these three shapes as bare strokes in chapter 01's anatomy
+lesson; here they take their seats as *signs* — the workhorses of a
+hundred thousand receipts. What this chapter adds is what they can
+do once you let them repeat.
 
 ## Numbers came first
 
@@ -128,21 +151,23 @@ a Sumerian accountant's number line.
 A bare number is rarely the point — Sumerian accounts pair a number
 with what is being counted, number first, then the commodity sign.
 The examples below are schematic, built only to show the *shape* of
-an account line, not a transcription of any particular tablet; real
-accounts also carry measure-words for exactly which unit is meant
-(a specific volume, weight, or head-count), which this course leaves
-for later.
+an account line, not a transcription of any particular tablet — with
+one exception: the last line adds your new 𒄥, in the standard
+barley-account pattern the real corpus repeats endlessly.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒁹 𒊺</span><span class="translit">1 še</span><span class="gloss">one (unit) of barley</span></div>
     <div class="reading-line"><span class="script">𒁹𒁹𒁹 𒊺</span><span class="translit">3 še</span><span class="gloss">three (units) of barley</span></div>
     <div class="reading-line"><span class="script">𒌋𒌋 𒁹𒁹𒁹 𒊺</span><span class="translit">23 še</span><span class="gloss">twenty-three (units) of barley</span></div>
+    <div class="reading-line"><span class="script">𒀸𒀸𒀸 𒊺 𒄥</span><span class="translit">3(aš) še gur</span><span class="gloss">three gur of barley — the full measure-phrase of the granary texts</span></div>
   </div>
   <figcaption class="citation">
     Schematic examples in the pattern of real administrative texts,
-    not a transcription of an attested tablet; measure-words are
-    omitted deliberately, as noted above.
+    not a transcription of an attested tablet. In gur-accounting the
+    horizontal 𒀸 does the counting — which is why the humble
+    single-horizontal earns its keep on tens of thousands of
+    receipts.
   </figcaption>
 </figure>
 

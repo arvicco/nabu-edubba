@@ -22,7 +22,7 @@ with per-passage citations and licenses. The full design is in
 
 **Two schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
-thirteen chapters from orientation to decipherment, 25 signs,
+thirteen chapters from orientation to decipherment, 26 signs,
 genuine Ur III royal inscriptions read in the original — and
 [102 · Sumerian](https://edubba.ac/cuneiform/102/) has its first
 stretch live: six chapters, 18 more signs in computed order, and
