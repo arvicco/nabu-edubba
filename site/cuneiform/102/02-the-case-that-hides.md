@@ -11,7 +11,7 @@ chapter: 2
 permalink: /cuneiform/102/02-the-case-that-hides/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
-teaches: ["𒊏", "𒅎", "𒂵"]
+teaches: ["𒊏", "𒂵", "𒀝"]
 shows: []
 ---
 
@@ -37,23 +37,23 @@ spelling the moment you stop watching it.
           workhorse from its first appearance, no picture to lean on</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅎</td><td>IM</td><td><em>im</em></td>
-      <td>clay; rain, storm</td>
-      <td>~6 wedges; the classic reflexive sign of this whole
-          discipline — the stuff tablets are made of, now sitting in
-          your own hand as a sign</td>
-    </tr>
-    <tr>
       <td class="script sign-cell">𒂵</td><td>GA</td><td><em>ga</em></td>
       <td>milk; the syllable ga</td>
       <td>~8 wedges; classic origin: the sign lists connect it with
           the milk jug and dairy work — you will see why in this
           chapter's names</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒀝</td><td>AK</td><td><em>ak</em></td>
+      <td>to do, to make</td>
+      <td>~6 wedges; origin unclear — and the reason it sits in THIS
+          chapter: <em>ak</em> is also the sound of the case this
+          whole chapter is about</td>
+    </tr>
   </tbody>
 </table>
 
-Five times each, aloud as you write: *ra*, *im*, *ga*.
+Five times each, aloud as you write: *ra*, *ga*, *ak*.
 
 ## The genitive — the case that hides
 
@@ -90,7 +90,13 @@ all — the **dative**, *-ra*, marking the person something is done
 <span class="script">𒈗𒊏</span> *lugal-ra*, "for the king."
 
 The dative says its whole name every time. The genitive, notoriously,
-does not.
+does not. But when the shy /k/ *does* step into the open — when a
+vowel follows and gives it footing — the syllable it forms is
+exactly what your new sign 𒀝 writes. Keep that pairing: the case
+is */ak/*; the sign is <span class="script">𒀝</span>; the clay
+shows it only when the sound has somewhere to stand. (𒀝 also works
+a plainer day job as the verb "to do, to make" — and it has one
+more surprise waiting for you at the end of chapter 05.)
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="Diagram of the Sumerian genitive: two labeled boxes, possessed X on the left, possessor Y plus the tag ak on the right, with an arrow from the right box to the left showing the possession relationship, and the example house king-ak meaning the king's house, with a note that the k is often silent in spelling.">
@@ -173,7 +179,7 @@ is there even when the clay declines to write it.
 
 ## Drill before you go on
 
-1. Write 𒊏, 𒅎, 𒂵 from memory; say *ra*, *im*, *ga*.
+1. Write 𒊏, 𒂵, 𒀝 from memory; say *ra*, *ga*, *ak*.
 2. Compose in transliteration, then in signs: *lugal-ra* ("for the
    king," dative, fully spelled), and *é lugal-ak* ("the king's
    house," genitive — then say it again the way the clay usually

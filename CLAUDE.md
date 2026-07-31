@@ -72,10 +72,15 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Didactic claims cite their scholarly basis (standard grammars, sign
   lists) in-line; no confident nonsense about ancient scripts. Cite a
   given standard reference once or twice per course, not per chapter.
-- Every chapter from the first-signs chapter on teaches 1–3 new
-  theme-related signs (ideally opening the chapter) — and USES each
-  new sign in that same chapter, immediately; a sign never waits for
-  a later chapter for its first demonstration. Every chapter carries
+- EVERY chapter (chapter 00 included) OPENS with 1–3 new
+  theme-related signs in the standard sign-table format (owner
+  ruling 2026-07-31) — THEMATICALLY relevant signs, never filler —
+  and USES each new sign in that same chapter, immediately; a sign
+  never waits for a later chapter for its first demonstration.
+  A sign is TAUGHT exactly once: it never reappears as a new-sign
+  entry in a later chapter's table (owner ruling 2026-07-31 — no
+  double-entries); later tables may include it only explicitly
+  marked as a veteran (e.g. a known sign gaining a new reading). Every chapter carries
   at least one graphic illustration; readings couple transliteration
   with native script, untaught signs as ▢. Recurring signs link back
   to where they were first taught (earlier courses: to that course's
@@ -89,6 +94,12 @@ rake serve          # local preview at http://127.0.0.1:4000
 - Chapter titles express the chapter's ESSENCE in a few short words
   (the grammar piece, the main idea) — never mechanical labels like
   "Batch III". Batches are a mechanic, not a name.
+- Technical terms (glottal stop, determinative, genitive …) carry
+  hover-bubble definitions site-wide and link to the /terms/
+  glossary — when a chapter introduces new jargon, add it to
+  site/_data/terms.yml in the same commit (owner ruling 2026-07-31).
+- Every cited Nabu URN links to its axis desk (script/urn_linker.rb;
+  a new Nabu source needs an AXES entry in the same commit).
 - Reference citations are FOOTNOTES (kramdown [^ref]) or Reference-
   chapter entries, never inline meta in the lesson flow. Every
   grammatical marker taught gets a concrete usage example a learner
@@ -143,6 +154,9 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 3 — Cuneiform 102 Sumerian, opening chapters (per D0-a).
+Phase 4 — Egyptian hieroglyphs school opens (per D0-a; plan pending
+owner approval).
 
-Gate 2 merged 2026-07-29 (101 complete: 13 chapters, 25 signs). Update this line at each gate.
+Gate 3 merged 2026-07-30 (102 opening stretch: chapters 00–05, 18
+new signs, 43 taught total; sign links, hover bubbles, subscript
+rendering). Update this line at each gate.

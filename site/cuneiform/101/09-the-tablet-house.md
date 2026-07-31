@@ -49,7 +49,7 @@ wordmark — and read it:
   </p>
   <figcaption class="citation">
     <em>é</em> "house" (chapter 04) · <em>dub</em> "tablet" ·
-    <em>ba</em> · <em>a</em> (chapter 04) — <strong>é-dub-ba-a</strong>,
+    <em>ba</em> · <em>a</em> (chapter 00) — <strong>é-dub-ba-a</strong>,
     "the tablet house." You can now read the name of the school you
     are sitting in: every sign taught in order, no boxes left.
   </figcaption>

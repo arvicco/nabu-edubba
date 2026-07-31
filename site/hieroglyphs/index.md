@@ -1,4 +1,6 @@
 ---
+layout: school
+school: hieroglyphs
 title: The Hieroglyphs School
 description: >-
   Planned catalog for the Egyptian hieroglyphs school — the second great
@@ -17,10 +19,14 @@ that takes a reader toward genuine reading of real Egyptian texts, with
 further courses for the tradition's later phases. As with every Edubba
 school, the goal is not facts about the script but the ability to read it.
 
-## Course catalog (planned)
+## Course catalog
 
-- **101 · Foundations** — planned. How Egyptian hieroglyphic writing works
-  as a system. Prerequisite for everything below.
+- **[101 · Foundations]({{ '/hieroglyphs/101/' | relative_url }})** —
+  **open, opening chapters arriving.** How Egyptian hieroglyphic
+  writing works as a system: media and origins, sound-signs and
+  classifiers, the one-consonant signs, real royal names in
+  cartouches, and the offering formula read whole. Prerequisite for
+  everything below.
 - **102 · Middle Egyptian literacy** — planned. A literacy track building
   toward reading real Middle Egyptian texts.
 - **2xx · The wider Egyptian world** — planned. Further courses across the
@@ -32,8 +38,8 @@ school, the goal is not facts about the script but the ability to read it.
 
 ## A note on where things stand
 
-No courses exist yet — this catalog is the plan, not a promise of what
-has already been built. Numbering and scope will be firmed up as
+101 is open and growing; everything below it is plan, not promise.
+Numbering and scope for the later courses will be firmed up as
 curriculum design proceeds, following the cuneiform school's lead. If
 you'd like to see the wider project, go back to
 [the map of writing]({{ '/' | relative_url }}); if you have thoughts, corrections, or requests

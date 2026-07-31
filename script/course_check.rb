@@ -2,13 +2,14 @@
 
 require "set"
 require "yaml"
-require_relative "cuneiform_scan"
+require_relative "script_scan"
 
 # The "nothing untaught" validator (concept §3, pedagogy commitment 2).
 # For every course directory (site/<school>/<NNN>/), chapters are
 # ordered by their `chapter:` front matter; each chapter's body may use
-# only cuneiform signs taught in chapters <= its own (`teaches:`
-# accumulates) plus its own display-only `shows:` exhibits. The course
+# only tracked-script signs (any Edubba script — cuneiform,
+# hieroglyphs) taught in chapters <= its own (`teaches:` accumulates)
+# plus its own display-only `shows:` exhibits. The course
 # index page (index.md, no `chapter:` key) is exempt from the taught
 # rule but its glyphs must still be font-covered (lint's other rule).
 
@@ -61,7 +62,7 @@ module Edubba
         allowed = taught + ch[:shows]
         (ch[:used] - allowed).sort.each do |cp|
           found << Violation.new(ch[:path], "untaught-sign",
-                                 "U+#{CuneiformScan.format_codepoint(cp)} used but not taught by ch. #{ch[:chapter]} nor listed in shows:")
+                                 "U+#{ScriptScan.format_codepoint(cp)} used but not taught by ch. #{ch[:chapter]} nor listed in shows:")
         end
       end
       found
@@ -87,12 +88,12 @@ module Edubba
 
     def glyph_codepoints(list)
       Array(list).each_with_object(Set.new) do |glyphs, set|
-        glyphs.to_s.each_codepoint { |cp| set << cp if CuneiformScan::RANGE.cover?(cp) }
+        glyphs.to_s.each_codepoint { |cp| set << cp if ScriptScan.tracked?(cp) }
       end
     end
 
     def body_codepoints(body)
-      body.each_codepoint.select { |cp| CuneiformScan::RANGE.cover?(cp) }.to_set
+      body.each_codepoint.select { |cp| ScriptScan.tracked?(cp) }.to_set
     end
   end
 end

@@ -104,7 +104,7 @@ class LintTest < Minitest::Test
 
   def test_cuneiform_without_manifest_is_flagged
     with_site("index.md" => CUNEIFORM_PAGE) do |dir|
-      offenses = Edubba::Lint.violations(dir, File.join(dir, "missing-manifest.txt"))
+      offenses = Edubba::Lint.violations(dir, { "cuneiform" => File.join(dir, "missing-manifest.txt") })
       assert_includes offenses.map(&:rule), "font-coverage"
       assert_match(/U\+12000/, offenses.find { |v| v.rule == "font-coverage" }.detail)
     end
@@ -112,13 +112,33 @@ class LintTest < Minitest::Test
 
   def test_cuneiform_covered_by_manifest_is_clean
     with_site("index.md" => CUNEIFORM_PAGE, "coverage.txt" => "# comment\n12000\n") do |dir|
-      assert_empty Edubba::Lint.violations(dir, File.join(dir, "coverage.txt"))
+      assert_empty Edubba::Lint.violations(dir, { "cuneiform" => File.join(dir, "coverage.txt") })
     end
   end
 
-  def test_scanner_finds_codepoints_and_ignores_non_cuneiform
-    with_site("index.md" => CUNEIFORM_PAGE) do |dir|
-      assert_equal Set[0x12000], Edubba::CuneiformScan.used_codepoints(dir)
+  HIERO_PAGE = CLEAN_PAGE + "\nThe sign \u{13000} (GARDINER A1, U+13000).\n"
+
+  def test_hieroglyph_without_manifest_is_flagged
+    with_site("index.md" => HIERO_PAGE) do |dir|
+      offenses = Edubba::Lint.violations(dir, { "hieroglyphs" => File.join(dir, "missing-manifest.txt") })
+      hit = offenses.find { |v| v.rule == "font-coverage" }
+      refute_nil hit
+      assert_match(/U\+13000 \(hieroglyphs\)/, hit.detail)
+    end
+  end
+
+  def test_hieroglyph_covered_by_manifest_is_clean
+    with_site("index.md" => HIERO_PAGE, "coverage.txt" => "13000\n") do |dir|
+      assert_empty Edubba::Lint.violations(dir, { "hieroglyphs" => File.join(dir, "coverage.txt") })
+    end
+  end
+
+  def test_scanner_finds_codepoints_per_script_range
+    with_site("index.md" => CUNEIFORM_PAGE + HIERO_PAGE) do |dir|
+      cun = Edubba::ScriptScan::SCRIPTS["cuneiform"][:range]
+      hie = Edubba::ScriptScan::SCRIPTS["hieroglyphs"][:range]
+      assert_equal Set[0x12000], Edubba::ScriptScan.used_codepoints(dir, cun)
+      assert_equal Set[0x13000], Edubba::ScriptScan.used_codepoints(dir, hie)
     end
   end
 end
