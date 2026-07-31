@@ -1,54 +1,122 @@
 # frozen_string_literal: true
 
-# Reading picker (M3-4): the taught-signs validator's logic inverted
-# into a search. Streams nabu's jsonl export and keeps passages whose
-# every value lies inside the cumulative 102 inventory (101 signs +
-# the compiler's queue), so graded readings in FULL script can be
-# found instead of composed. License classes are reported per source;
-# nc sources are flagged, never silently included (plan rule).
+# Reading picker (M3-4, upgraded M5-3): the taught-signs validator's
+# logic inverted into a search. Streams nabu's jsonl export and
+# buckets passages by the EARLIEST chapter whose cumulative inventory
+# (101 registry + the compiler's queue) covers every value — so
+# graded readings in full script are found, never composed, and a
+# candidate needs no ▢ box unless we choose one.
 #
-# Usage: ruby bin/reading_picker.rb [chapter]   (default: 5 = full queue)
+# Inventories are per corpus convention, never merged: CDLI ATF vs
+# ETCSL romanization (c=š, j=ŋ), folded value-by-value from the
+# registries' own etcsl_value fields plus the fixed fold table —
+# the corpora are answered in their own spelling.
+#
+# License classes per source; D3-a (ruled 2026-07-31): CDLI
+# attribution is the default, ETCSL usable as short quotes labeled
+# "license: ETCSL · non-commercial" where pedagogy needs a clean
+# literary line.
+#
+# Usage: ruby bin/reading_picker.rb [from_ch] [to_ch]   (default 6 11)
+#        output is Markdown; redirect to .docs/p5-readings.md
 
 require "yaml"
 require "json"
+require "set"
 
 NABU = ENV.fetch("NABU_BIN", "/Users/vb/Dev/nabu/bin/nabu")
 NABU_DIR = File.expand_path("..", File.dirname(NABU))
-SOURCES = { "cdli" => "attribution", "etcsl" => "nc (DECISION ITEM before use)" }.freeze
+SOURCES = { "cdli" => "attribution",
+            "etcsl" => "ETCSL · non-commercial — short labeled quotes per D3-a" }.freeze
+PER_BUCKET = 30
 
-chapter_cap = (ARGV[0] || 5).to_i
+module Edubba
+  module ReadingPicker
+    module_function
 
-taught = YAML.safe_load_file("site/_data/sign_teaching.yml")["signs"]
-             .map { |s| v = s["value"]; (v[/\(([a-z0-9\/]+)\)/, 1] || v[/[a-z']+[0-9]*/]).to_s.split("/").last }
-queue = YAML.safe_load_file("site/_data/cuneiform102_queue.yml")["signs"]
-            .select { |s| s["chapter"] && s["chapter"] <= chapter_cap }
-            .map { |s| s["value"] }
-inventory = (taught + queue + %w[sz disz asz sze szul]).to_set
-# etcsl-convention variants
-inventory += inventory.map { |v| v.tr("c", "sz") }.to_set
-inventory += %w[ce ce3 caj saj]
+    # CDLI-ATF value -> ETCSL romanization where conventions differ.
+    ETCSL_FOLD = { "sze" => "ce", "sze3" => "ce3", "asz" => "ac",
+                   "disz" => "dic", "sag" => "saj", "nag" => "naj",
+                   "dingir" => "dijir", "szul" => "cul" }.freeze
 
-VALUE_RE = /\A[a-z']+[0-9]*\z/
+    VALUE_RE = /\A[a-z']+[0-9]*\z/
 
-def values_ok?(norm, inventory)
-  vals = norm.split
-  return false if vals.size < 3 || vals.size > 9
-  vals.all? { |v| VALUE_RE.match?(v) && inventory.include?(v) }
-end
+    # "é (e2)" -> ["e2"]; "an; diŋir (dijir/dingir)" -> ["an", "dingir"]
+    def atf_values(field)
+      field.to_s.split(";").map { |part|
+        (part[/\(([a-z0-9\/]+)\)/, 1] || part[/[a-z']+[0-9]*/]).to_s.split("/").last
+      }.reject(&:empty?)
+    end
 
-SOURCES.each_key do |source|
-  puts "## #{source} (license: #{SOURCES[source]})"
-  count = 0
-  IO.popen([NABU, "export", "--format=jsonl", "--lang=sux", "--source=#{source}"],
-           err: File::NULL, chdir: NABU_DIR) do |io|
-    io.each_line do |line|
-      rec = JSON.parse(line)
-      next unless values_ok?(rec["text_normalized"].to_s.strip, inventory)
-      glosses = (rec.dig("annotations", "tokens") || []).map { |t| t["label"] }.compact
-      puts "#{rec['urn']}  |  #{rec['text']}  |  #{glosses.join(' / ')}"
-      count += 1
-      break if count >= 40
+    def fold_etcsl(value) = ETCSL_FOLD[value] || value
+
+    # Clean value tokens of a normalized line, or nil if any token is
+    # not a plain value (damage markers, numbers-only rows, editorial
+    # brackets all fail the regex and disqualify the line).
+    def clean_tokens(normalized, min: 2, max: 12)
+      vals = normalized.split
+      return nil unless vals.size.between?(min, max)
+      return nil if vals.any? { |v| v == "x" || v == "n" }   # damage / unread
+      vals.all? { |v| VALUE_RE.match?(v) } ? vals : nil
+    end
+
+    # cumulative: ascending [chapter, Set]. Earliest covering chapter.
+    def readable_chapter(tokens, cumulative)
+      ch, = cumulative.find { |_c, inv| tokens.all? { |t| inv.include?(t) } }
+      ch
     end
   end
-  puts
+end
+
+if $PROGRAM_NAME == __FILE__
+  abort "reading_picker: #{NABU} not found" unless File.executable?(NABU)
+  from_ch = (ARGV[0] || 6).to_i
+  to_ch = (ARGV[1] || 11).to_i
+
+  taught = YAML.safe_load_file("site/_data/sign_teaching.yml")["signs"]
+  queue = YAML.safe_load_file("site/_data/cuneiform102_queue.yml")["signs"]
+
+  base = taught.flat_map { |s| Edubba::ReadingPicker.atf_values(s["value"]) }
+  inv = { "cdli" => Set.new(base),
+          "etcsl" => Set.new(base.map { |v| Edubba::ReadingPicker.fold_etcsl(v) }) }
+  cumulative = { "cdli" => [], "etcsl" => [] }
+  queue.select { |s| s["chapter"] }.group_by { |s| s["chapter"] }.sort.each do |ch, signs|
+    inv["cdli"] += signs.map { |s| s["value"] }
+    inv["etcsl"] += signs.map { |s| s["etcsl_value"] || Edubba::ReadingPicker.fold_etcsl(s["value"]) }
+    SOURCES.each_key { |src| cumulative[src] << [ch, inv[src].dup] }
+  end
+
+  buckets = Hash.new { |h, k| h[k] = [] }
+  SOURCES.each_key do |source|
+    kept = 0
+    IO.popen([NABU, "export", "--format=jsonl", "--lang=sux", "--source=#{source}"],
+             err: File::NULL, chdir: NABU_DIR) do |io|
+      io.each_line do |line|
+        rec = JSON.parse(line)
+        tokens = Edubba::ReadingPicker.clean_tokens(rec["text_normalized"].to_s.strip)
+        next unless tokens
+        ch = Edubba::ReadingPicker.readable_chapter(tokens, cumulative[source])
+        next unless ch && ch.between?(from_ch, to_ch)
+        glosses = (rec.dig("annotations", "tokens") || []).map { |t| t["label"] }.compact
+        bucket = buckets[[ch, source]]
+        bucket << "#{rec['urn']}  |  #{rec['text']}  |  #{glosses.join(' / ')}" if bucket.size < PER_BUCKET
+        kept += 1
+      end
+    end
+    warn "reading_picker: #{source} — #{kept} candidate lines in chapters #{from_ch}–#{to_ch}"
+  end
+
+  puts "# Reading candidates, chapters #{from_ch}–#{to_ch} (GENERATED by bin/reading_picker.rb)"
+  puts "#"
+  puts "# Whole clean corpus lines readable at their bucket's chapter with"
+  puts "# the registries' own cumulative inventories. Verify every URN at"
+  puts "# citation time; license classes per D3-a."
+  (from_ch..to_ch).each do |ch|
+    SOURCES.each do |source, lic|
+      lines = buckets[[ch, source]]
+      next if lines.empty?
+      puts "\n## ch. #{format('%02d', ch)} · #{source} (license: #{lic})"
+      lines.each { |l| puts l }
+    end
+  end
 end
