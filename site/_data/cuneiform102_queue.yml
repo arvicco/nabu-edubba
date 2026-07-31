@@ -103,27 +103,28 @@ batches:
   - SI
   - GI4
   - DI
-  coverage_etcsl_pct: 51.5
-  coverage_cdli_pct: 51.7
+  - KU
+  coverage_etcsl_pct: 51.6
+  coverage_cdli_pct: 51.8
 - chapter: 15
   signs:
   - GI
   - KAL
   - DUN
   - TU
-  coverage_etcsl_pct: 52.2
-  coverage_cdli_pct: 53.0
+  coverage_etcsl_pct: 52.3
+  coverage_cdli_pct: 53.1
 - chapter: 16
   signs:
   - SAR
-  coverage_etcsl_pct: 52.3
-  coverage_cdli_pct: 53.5
+  coverage_etcsl_pct: 52.4
+  coverage_cdli_pct: 53.6
 - chapter: 17
   signs:
   - GU2
   - TAR
-  coverage_etcsl_pct: 52.8
-  coverage_cdli_pct: 53.8
+  coverage_etcsl_pct: 52.9
+  coverage_cdli_pct: 53.9
 signs:
 - glyph: "\U00012228"
   codepoint: '12228'
@@ -725,6 +726,18 @@ signs:
   chapter: 7
   score: 198
   pinned: true
+- glyph: "\U000121AA"
+  codepoint: 121AA
+  name: KU
+  value: ku
+  meaning: to seize (dab₅); to sit, dwell (tuš)
+  wedges: "~4"
+  freq_etcsl: 194
+  freq_cdli: 186
+  certainty: stated
+  chapter: 14
+  score: 218
+  pinned: true
 - glyph: "\U00012141"
   codepoint: '12141'
   name: IB
@@ -758,14 +771,3 @@ signs:
   certainty: unclear
   chapter:
   score: 159
-- glyph: "\U000121AA"
-  codepoint: 121AA
-  name: KU
-  value: ku
-  meaning: to sit, to dwell (tuš); to place
-  wedges: "~4"
-  freq_etcsl: 194
-  freq_cdli: 186
-  certainty: stated
-  chapter:
-  score: 218
