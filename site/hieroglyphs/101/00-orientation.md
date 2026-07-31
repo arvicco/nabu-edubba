@@ -118,6 +118,66 @@ arrangements in figures, and the conventions are declared once in
 the course Reference. What you read here is real; how it sits on
 the page is the beginner-friendly arrangement.
 
+## The funny letters — a two-minute primer
+
+Beside every reading, this course prints the word in Latin letters
+— and some of them will look like typos: *ḥ*, *ꜣ*, *ḏ*, little
+hooks and dots everywhere. They are not typos. Egyptian had sounds
+English does not, so Egyptologists gave each one a letter of its
+own; this is the field's standard alphabet, and every book you
+ever open on Egypt uses it. Two minutes here saves confusion for
+the rest of the course.
+
+Most letters mean what you expect: *b p f m n r h s k g t d w y*
+sound as written. These are the strangers:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Letter</th><th>Say it as</th><th>What it really is</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><em>ꜣ</em></td><td>"a"</td><td>a glottal stop — the catch in "uh-oh"; the vulture sign's sound</td></tr>
+    <tr><td><em>ꜥ</em></td><td>"a"</td><td>a pharyngeal — squeezed deep in the throat, like Arabic ʿayn</td></tr>
+    <tr><td><em>j</em></td><td>"i"</td><td>a light y-ish glottal onset — never English j</td></tr>
+    <tr><td><em>ḥ</em></td><td>"h"</td><td>an emphatic h, breathed harder than plain <em>h</em></td></tr>
+    <tr><td><em>ḫ</em></td><td>"kh"</td><td>the rasp in Scottish "lo<strong>ch</strong>"</td></tr>
+    <tr><td><em>ẖ</em></td><td>"kh"</td><td>its softer twin, as in German "i<strong>ch</strong>"</td></tr>
+    <tr><td><em>š</em></td><td>"sh"</td><td>exactly English "sh"</td></tr>
+    <tr><td><em>q</em></td><td>"k"</td><td>an emphatic k, further back in the throat</td></tr>
+    <tr><td><em>ṯ</em></td><td>"tch"</td><td>the "ch" of "church"</td></tr>
+    <tr><td><em>ḏ</em></td><td>"j"</td><td>the "j" of "judge" — the sound the plain letter <em>j</em> above never makes</td></tr>
+    <tr><td><em>z</em></td><td>"s"</td><td>an s-sound; by the classic periods it had merged with <em>s</em></td></tr>
+  </tbody>
+</table>
+
+And the marks that ride along in transliterations — none of them
+are sounds:
+
+- **No vowels are written, ever.** Egyptian script recorded
+  consonants only; the vowels are lost. To say a word aloud,
+  Egyptologists drop in a flat "e" and read *ꜣ* and *ꜥ* as "a":
+  *nfr* becomes "nefer," *ḥtp* becomes "hotep," *Ppj* becomes
+  "Pepi." These are reading conveniences, not recovered
+  pronunciations — chapter 03 tells the whole story.
+- **≡** joins a suffix pronoun to its word: *zꜣ≡f*, "his son" —
+  the *≡f* is "his."
+- **Commas and dots** (*zꜣ,t*; *msi̯.t*) are editors' seams,
+  separating a word's endings so you can see them; the stone
+  writes no punctuation.
+- **i̯** — an *i* with a little bowl under it — marks a "weak"
+  final consonant of certain verbs that the spelling usually
+  drops. Pronounce nothing; read past it.
+- **Brackets** ([…], parentheses) mark text the editors restored
+  or filled in; you met the same convention in every scholarly
+  edition ever printed.
+
+You do not need to memorize this table now. It lives here, at the
+front door, so that when a *ḏ* or an *ꜣ* walks past in chapter 04
+you can flip back one page instead of wondering whether your
+screen is broken. The special terms in the table carry their own
+hover-notes wherever they appear, and the
+[glossary]({{ '/terms/' | relative_url }}) keeps the full list.
+
 ## The shape of the course
 
 Chapters build strictly on one another; read them in order.
