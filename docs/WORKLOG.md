@@ -5,6 +5,16 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Owner ruling: content is Fable-only (constitution) ·
+On PR #8 review the owner ruled: no Sonnet-drafted chapters, ever,
+period — all content writing is planned AND executed by the Fable
+session model; delegation stays permitted only for non-content work
+(code, tooling). Codified as CLAUDE.md golden rule 9; the P2–P5
+"impl-tier chapter" pattern is retired. The P5 agent drafts
+(07/08/10) stand as fully top-reviewed and revised in place. Also
+per review: back-references to prior chapters carry links — ch08's
+"chapter 04's delivery line" now links home.
+
 2026-07-31 · M5-1..M5-10 · phase-5 · Second stretch of Cuneiform 102
 shipped same-day: chapters 06–11 (names-as-sentences, copula +
 genitive unmasked, verbal-chain rings, proverbs + wish-forms,

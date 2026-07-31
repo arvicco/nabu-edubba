@@ -68,7 +68,8 @@ enough for a real grip on real lines.
 **i₃-.** Spelled with 𒉌 — the same NI you met in
 [101's chapter 11]({{ '/cuneiform/101/11-decipherment/' | relative_url }})
 as the syllable *ni* and, wearing its other value, *ì*, "oil"
-(chapter 04's delivery line used exactly that reading). Here it
+([chapter 04's delivery line]({{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }})
+used exactly that reading). Here it
 takes on a third job, its most common one of all: opening a finite
 verb chain, no lexical meaning of its own. A veteran sign, doing new
 work again.
