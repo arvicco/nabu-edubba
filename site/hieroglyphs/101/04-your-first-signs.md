@@ -10,19 +10,21 @@ chapter: 4
 permalink: /hieroglyphs/101/04-your-first-signs/
 course_url: /hieroglyphs/101/
 course_title: "Hieroglyphs 101"
-teaches: ["𓏏", "𓈖", "𓂋", "𓊃", "𓋴", "𓊪", "𓎡", "𓐍", "𓄿", "𓅓", "𓅱", "𓆑", "𓆓", "𓃀", "𓄡", "𓇋", "𓏭", "𓂝", "𓏲", "𓉔", "𓎛", "𓈙", "𓈎", "𓎼", "𓍿", "𓂧"]
+teaches: ["𓏏", "𓊃", "𓋴", "𓊪", "𓎡", "𓐍", "𓄿", "𓅱", "𓆑", "𓆓", "𓃀", "𓄡", "𓏭", "𓂝", "𓏲", "𓉔", "𓎛", "𓈙", "𓈎", "𓍿", "𓂧"]
 shows: []
 ---
 
 # Your first signs
 
-Twenty-six signs. Every one of them reads a single consonant, and
-together they are the closest thing Egyptian has to an alphabet —
+The scribe's kit is twenty-six signs, each reading a single
+consonant — together the closest thing Egyptian has to an alphabet,
 except that it isn't quite one. No vowels are written. One sign, one
 consonant, and the reader supplies the rest, the way a shorthand note
-supplies the words a stenographer never wrote in full. Learn these
-twenty-six and you can already sound out real words, which is exactly
-what this chapter has you do.[^allen]
+supplies the words a stenographer never wrote in full. Five of the
+twenty-six are already yours — the owl, the ripple, and the mouth
+from chapter 00, the reed from chapter 01, the jar stand from
+chapter 02. This chapter hands you the remaining **twenty-one**, and
+then has you sound out real words with the full kit.[^allen]
 
 ## Why these twenty-six
 
@@ -35,15 +37,15 @@ constantly, and scribes who write a shape daily for forty years wear
 it down to its simplest form. Four thousand years of Egyptian
 schooling reached the same twenty-six signs by trial, tablet after
 tablet; our reading corpus, counted sign by sign, reaches them again
-by arithmetic. 𓏏, the loaf of bread that reads *t*, is the single most
-frequent sign in the corpus. 𓈖, the ripple of water that reads *n*,
-is second. 𓂋, the mouth that reads *r*, is third. Fourteen of the
-twenty-six sit in the corpus's top twenty signs overall — not a
-coincidence, a consequence.
+by arithmetic. 𓏏, the loaf of bread that reads *t* and opens this
+chapter's first tier, is the single most frequent sign in the whole
+corpus; your 𓈖 and 𓂋 from chapter 00 sit second and third.
+Fourteen of the twenty-six are in the corpus's top twenty signs
+overall — not a coincidence, a consequence.
 
 ## Simple shapes first
 
-Eight signs that are mostly lines, curves, and one bolt-shape — draw
+Six signs that are mostly lines, curves, and one bolt-shape — draw
 them and you will see there is barely anything to get wrong.
 
 <table class="sign-table">
@@ -54,14 +56,6 @@ them and you will see there is barely anything to get wrong.
     <tr>
       <td class="script sign-cell">𓏏</td><td>X1</td><td><em>t</em></td>
       <td>a loaf of bread</td><td>t</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𓈖</td><td>N35</td><td><em>n</em></td>
-      <td>a ripple of water</td><td>n</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𓂋</td><td>D21</td><td><em>r</em></td>
-      <td>a mouth</td><td>r</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓊃</td><td>O34</td><td><em>z</em></td>
@@ -87,9 +81,8 @@ them and you will see there is barely anything to get wrong.
   </tbody>
 </table>
 
-**Write all eight.** 𓏏 is one curved stroke closed by a flat base;
-𓈖 is a short zigzag; 𓂋 is two arcs meeting at two points, like an
-eye lying on its side; 𓊃 is a bar with an upright tick. The last
+**Write all six.** 𓏏 is one curved stroke closed by a flat base;
+𓊃 is a bar with an upright tick. The last
 one, 𓐍, keeps its exact ancient identity honestly unsettled —
 Egyptologists still argue whether the shape started as a sieve or a
 placenta — but its shape and reading are not in doubt at all, which
@@ -98,7 +91,7 @@ pictures are not.
 
 ## Signs with something alive in them
 
-Seven signs whose shapes are unmistakably a creature or a body part —
+Six signs whose shapes are unmistakably a creature or a body part —
 the eye does the memorizing here.
 
 <table class="sign-table">
@@ -110,10 +103,6 @@ the eye does the memorizing here.
       <td class="script sign-cell">𓄿</td><td>G1</td><td><em>ꜣ</em></td>
       <td>an Egyptian vulture</td>
       <td>glottal stop; conventionally read as 'a'</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𓅓</td><td>G17</td><td><em>m</em></td>
-      <td>an owl</td><td>m</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓅱</td><td>G43</td><td><em>w</em></td>
@@ -140,14 +129,14 @@ the eye does the memorizing here.
   </tbody>
 </table>
 
-**Write all seven.** 𓄿's vulture keeps its wing and its raised head;
-𓅓's owl keeps its round face and folded wings; 𓆑's viper is a single
+**Write all six.** 𓄿's vulture keeps its wing and its raised head;
+𓆑's viper is a single
 looping line with a triangular head — the sign you will meet most of
 all, for reasons that come at the end of this chapter.
 
 ## The rest of the kit
 
-Eleven more: everyday objects, a scrap of landscape, and two marks
+Nine more: everyday objects, a scrap of landscape, and two marks
 that come from grammar rather than a picture at all. No less
 essential for arriving last.
 
@@ -156,11 +145,6 @@ essential for arriving last.
     <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td class="script sign-cell">𓇋</td><td>M17</td><td><em>j</em></td>
-      <td>a flowering reed</td>
-      <td>y / glottal onset; conventionally 'i'</td>
-    </tr>
     <tr>
       <td class="script sign-cell">𓏭</td><td>Z4</td><td><em>y</em></td>
       <td>two strokes — not a picture, a grammatical mark</td>
@@ -197,10 +181,6 @@ essential for arriving last.
       <td>emphatic k</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓎼</td><td>W11</td><td><em>g</em></td>
-      <td>a jar stand</td><td>g</td>
-    </tr>
-    <tr>
       <td class="script sign-cell">𓍿</td><td>V13</td><td><em>ṯ</em></td>
       <td>a tethering rope</td>
       <td>tj, as in British <em>tune</em></td>
@@ -212,7 +192,8 @@ essential for arriving last.
   </tbody>
 </table>
 
-**Write all eleven**, then read back all twenty-six in random order,
+**Write all nine**, then read back the full kit of twenty-six —
+these and your five veterans — in random order,
 aloud, before you go on.
 
 ## How the simple ones are drawn
@@ -260,14 +241,32 @@ short ones, honestly, but genuine and heavily attested:
     <div class="reading-line"><span class="script">𓎛𓈖𓂝</span><span class="translit">ḥnꜥ</span><span class="gloss">"together with, and" — 529 attestations</span></div>
     <div class="reading-line"><span class="script">𓏏𓄿</span><span class="translit">tꜣ</span><span class="gloss">"the" (feminine article, later Egyptian) — 418 attestations</span></div>
     <div class="reading-line"><span class="script">𓊪𓏲</span><span class="translit">pw</span><span class="gloss">"this is / it is" — 821 attestations</span></div>
-    <div class="reading-line"><span class="script">𓇋𓏲</span><span class="translit">jw</span><span class="gloss">sentence-opening particle — 2,329 attestations</span></div>
+    <div class="reading-line"><span class="script">𓇋𓏲</span><span class="translit">jw</span><span class="gloss">"it is so that…" — opens a statement of fact; demonstrated below — 2,329 attestations</span></div>
   </div>
   <figcaption class="citation">Counts computed over the aes corpus
   (BBAW Ancient Egyptian Sentences) via Nabu, license: attribution.</figcaption>
 </figure>
 
-Notice what kind of words these are: particles, pronouns, a
-demonstrative, a little verb of speaking. Honest reason: a real
+That last word, *jw*, deserves its promised demonstration, because
+nothing like it exists in English. Egyptian opens a plain statement
+of fact with a little marker word — roughly the "it is so that…"
+buried inside English "he *is* in the house". With chapter 03's
+house you can watch it work, in the textbook sentence every
+Egyptian grammar reaches for first:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𓇋𓏲𓆑𓅓𓉐𓏤</span><span class="translit">jw=f m pr</span><span class="gloss">"he is in the house"</span></div>
+  </div>
+  <figcaption class="citation">A composed textbook sentence, not a
+  quoted monument: <em>jw</em> opens the statement, the viper 𓆑 is
+  the pronoun "he" (explained just below), the owl 𓅓 is doing duty
+  as the word <em>m</em>, "in", and chapter 03's house-plus-stroke
+  closes it. Six signs, one grammatical sentence, all yours.</figcaption>
+</figure>
+
+Notice what kind of words the attested list gives you: particles,
+pronouns, a demonstrative, a little verb of speaking. Honest reason: a real
 content word — a noun, most verbs — usually carries an extra sign or
 two you have not met yet, so the words the corpus lets you read
 *whole*, this early, tend to be its smallest grammatical joints. That
@@ -304,8 +303,9 @@ meet both in real texts.
 
 ## Drill before you go on
 
-1. Draw each tier from memory: the eight simple shapes, the seven
-   living creatures, the eleven objects and marks.
+1. Draw each tier from memory: the six simple shapes, the six
+   living creatures, the nine objects and marks — then the five
+   veterans from chapters 00-02.
 2. Write 𓆓𓂧, 𓊪𓈖, and 𓎛𓈖𓂝 without looking at the tables.
 3. Read 𓊪𓈖, 𓇋𓅓, and 𓏏𓄿 cold, aloud, no hesitation.
 4. Anything shaky — five more repetitions. Chapter 05 assumes all

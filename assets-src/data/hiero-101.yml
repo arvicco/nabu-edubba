@@ -17,7 +17,7 @@
 
 signs:
   - { gardiner: G1,  translit: "ꜣ", mdc: "A", label: "Egyptian vulture",         sound: "glottal stop; conventionally read as 'a'", taught_in: 4, certainty: classic }
-  - { gardiner: M17, translit: "j", mdc: "i", label: "flowering reed",           sound: "y/glottal onset; conventionally 'i'",       taught_in: 4, certainty: classic }
+  - { gardiner: M17, translit: "j", mdc: "i", label: "flowering reed",           sound: "y/glottal onset; conventionally 'i'",       taught_in: 1, certainty: classic }
   - { gardiner: Z4,  translit: "y", mdc: "y", label: "two strokes",              sound: "y (usually word-final)",                    taught_in: 4, certainty: classic }
   - { gardiner: D36, translit: "ꜥ", mdc: "a", label: "forearm",                  sound: "pharyngeal; conventionally 'a'",            taught_in: 4, certainty: classic }
   - { gardiner: G43, translit: "w", mdc: "w", label: "quail chick",              sound: "w / u",                                     taught_in: 4, certainty: classic }
@@ -25,9 +25,9 @@ signs:
   - { gardiner: D58, translit: "b", mdc: "b", label: "lower leg and foot",       sound: "b",                                         taught_in: 4, certainty: classic }
   - { gardiner: Q3,  translit: "p", mdc: "p", label: "reed mat or stool",        sound: "p",                                         taught_in: 4, certainty: classic }
   - { gardiner: I9,  translit: "f", mdc: "f", label: "horned viper",             sound: "f",                                         taught_in: 4, certainty: classic }
-  - { gardiner: G17, translit: "m", mdc: "m", label: "owl",                      sound: "m",                                         taught_in: 4, certainty: classic }
-  - { gardiner: N35, translit: "n", mdc: "n", label: "ripple of water",          sound: "n",                                         taught_in: 4, certainty: classic }
-  - { gardiner: D21, translit: "r", mdc: "r", label: "mouth",                    sound: "r",                                         taught_in: 4, certainty: classic }
+  - { gardiner: G17, translit: "m", mdc: "m", label: "owl",                      sound: "m",                                         taught_in: 0, certainty: classic }
+  - { gardiner: N35, translit: "n", mdc: "n", label: "ripple of water",          sound: "n",                                         taught_in: 0, certainty: classic }
+  - { gardiner: D21, translit: "r", mdc: "r", label: "mouth",                    sound: "r",                                         taught_in: 0, certainty: classic }
   - { gardiner: O4,  translit: "h", mdc: "h", label: "reed shelter",             sound: "h as in 'hat'",                             taught_in: 4, certainty: classic }
   - { gardiner: V28, translit: "ḥ", mdc: "H", label: "twisted wick",             sound: "emphatic h",                                taught_in: 4, certainty: classic }
   - { gardiner: AA1, translit: "ḫ", mdc: "x", label: "sieve? placenta?",         sound: "ch as in Scottish 'loch'",                  taught_in: 4, certainty: unclear }
@@ -37,11 +37,15 @@ signs:
   - { gardiner: N37, translit: "š", mdc: "S", label: "pool of water",            sound: "sh",                                        taught_in: 4, certainty: classic }
   - { gardiner: N29, translit: "q", mdc: "q", label: "slope of a hill",          sound: "emphatic k",                                taught_in: 4, certainty: classic }
   - { gardiner: V31, translit: "k", mdc: "k", label: "basket with handle",       sound: "k",                                         taught_in: 4, certainty: classic }
-  - { gardiner: W11, translit: "g", mdc: "g", label: "jar stand",                sound: "g",                                         taught_in: 4, certainty: classic }
+  - { gardiner: W11, translit: "g", mdc: "g", label: "jar stand",                sound: "g",                                         taught_in: 2, certainty: classic }
   - { gardiner: X1,  translit: "t", mdc: "t", label: "loaf of bread",            sound: "t",                                         taught_in: 4, certainty: classic }
   - { gardiner: V13, translit: "ṯ", mdc: "T", label: "tethering rope",           sound: "tj, as in 'tune' (British)",                taught_in: 4, certainty: classic }
   - { gardiner: D46, translit: "d", mdc: "d", label: "hand",                     sound: "d",                                         taught_in: 4, certainty: classic }
   - { gardiner: I10, translit: "ḏ", mdc: "D", label: "cobra at rest",            sound: "dj, as in 'adjust'",                        taught_in: 4, certainty: classic }
+  # Chapter 03 — how signs mean (the demonstration trio)
+  - { gardiner: O1,  translit: "pr", mdc: "pr", label: "house (ground-plan)",   sound: "per",                                       taught_in: 3, certainty: classic }
+  - { gardiner: Z1,  translit: "",   mdc: "",   label: "the word-sign stroke — 'this sign means what it shows'", sound: "not read; a marker", taught_in: 3, certainty: classic }
+  - { gardiner: D54, translit: "",   mdc: "",   label: "walking legs — classifier for motion words", sound: "not read; a classifier", taught_in: 3, certainty: classic }
   # Chapter 05 — names in rings
   - { gardiner: V10, translit: "",   mdc: "",   label: "the cartouche — rope ring around royal names", sound: "not read; a frame",        taught_in: 5, certainty: classic }
   - { gardiner: N5,  translit: "rꜥ", mdc: "ra", label: "sun disc; the god Ra",   sound: "ra",                                        taught_in: 5, certainty: classic }

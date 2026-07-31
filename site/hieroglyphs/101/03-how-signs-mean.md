@@ -10,24 +10,46 @@ chapter: 3
 permalink: /hieroglyphs/101/03-how-signs-mean/
 course_url: /hieroglyphs/101/
 course_title: "Hieroglyphs 101"
-teaches: []
-shows: ["𓉐", "𓂋", "𓂻", "𓏤", "𓈖", "𓀁", "𓆓", "𓂧", "𓇳"]
+teaches: ["𓉐", "𓏤", "𓂻"]
+shows: ["𓀁", "𓆓", "𓂧", "𓇳"]
 ---
 
 # How signs mean
 
-This is the chapter the whole course stands on. Egyptian writing
-runs on three kinds of sign — signs for **sounds**, signs for
-**words**, and silent signs that **classify**. Every inscription you
-will ever read is these three, mixed. Read this chapter twice.
+This is the chapter the whole course stands on, and its three new
+signs are the demonstration kit:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Job</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𓉐</td><td>O1</td><td><em>pr</em></td>
+      <td>a house, in ground-plan</td>
+      <td>the star of this chapter — watch it work three different jobs</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𓏤</td><td>Z1</td><td>—</td>
+      <td>a single stroke</td>
+      <td>not read aloud; marks "this sign means the thing it shows"</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𓂻</td><td>D54</td><td>—</td>
+      <td>walking legs</td>
+      <td>not read aloud; silently classifies a word as motion</td>
+    </tr>
+  </tbody>
+</table>
+
+Egyptian writing runs on three kinds of sign — signs for **sounds**,
+signs for **words**, and silent signs that **classify**. Every
+inscription you will ever read is these three, mixed. Read this
+chapter twice.
 
 ## One picture, three jobs
 
-Here is a single sign, the ground-plan of a house:
-
-<p class="script sign-strip" aria-label="The house sign">𓉐</p>
-
-Watch it do all three jobs in turn.
+Take the house, and watch it do all three jobs in turn.
 
 **Job one: a word-sign.** Write 𓉐 with a small upright stroke 𓏤
 beside it — the stroke is the script's way of saying "this sign

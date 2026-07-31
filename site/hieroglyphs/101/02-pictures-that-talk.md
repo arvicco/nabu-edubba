@@ -10,11 +10,33 @@ chapter: 2
 permalink: /hieroglyphs/101/02-pictures-that-talk/
 course_url: /hieroglyphs/101/
 course_title: "Hieroglyphs 101"
-teaches: []
+teaches: ["𓎼"]
 shows: []
 ---
 
 # Pictures that talk
+
+This chapter is about labels on jars of oil and wine — so its sign
+is the stand such a jar stood on:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𓎼</td><td>W11</td><td><em>g</em></td>
+      <td>a ring-shaped jar stand</td><td>g</td>
+    </tr>
+  </tbody>
+</table>
+
+A round-bottomed jar cannot stand on its own; Egyptian households
+propped theirs on rings like this one. Draw it — a squat ring seen
+from the side — and notice, once more, the pattern from chapter 00:
+a piece of kitchen furniture, borrowed to spell the sound *g*,
+nothing jar-like about it. Why pictures behave this way is exactly
+this chapter's story.
 
 A picture of an owl is just an owl. Writing begins at the moment a
 picture stops meaning what it shows and starts meaning what it

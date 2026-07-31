@@ -11,11 +11,33 @@ chapter: 1
 permalink: /hieroglyphs/101/01-stone-reed-papyrus/
 course_url: /hieroglyphs/101/
 course_title: "Hieroglyphs 101"
-teaches: []
-shows: ["𓅓", "𓇋", "𓆑"]
+teaches: ["𓇋"]
+shows: ["𓆑"]
 ---
 
 # Stone, reed, and papyrus
+
+This chapter is about reeds, among other things, so it opens with
+one:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𓇋</td><td>M17</td><td><em>j</em></td>
+      <td>a flowering reed</td>
+      <td>y / a light glottal onset; conventionally said as "i"</td>
+    </tr>
+  </tbody>
+</table>
+
+The flowering reed is the fourth most frequent sign in the corpus,
+and the very plant this chapter is about: the marshes that gave
+Egypt its writing surface gave the script one of its busiest signs.
+Draw it — one stem, one bent flower head — and read on about what
+reeds did for writing.
 
 Cuneiform is what happens when writing meets damp clay. Egyptian
 writing is what happens when writing meets *two* surfaces at once —
@@ -127,12 +149,10 @@ Three carved forms, enlarged from this site's own font — a bird, a
 plant, an animal, each still exactly what it is:
 
 <div class="glyph-exhibit">
-  <figure><span class="script">𓅓</span><figcaption>the owl, full face in a profile script</figcaption></figure>
-  <figure><span class="script">𓇋</span><figcaption>a flowering reed</figcaption></figure>
-  <figure><span class="script">𓆑</span><figcaption>the horned viper</figcaption></figure>
+  <figure><span class="script">𓅓</span><figcaption>the owl, full face in a profile script — yours since chapter 00</figcaption></figure>
+  <figure><span class="script">𓇋</span><figcaption>the flowering reed — yours as of this chapter</figcaption></figure>
+  <figure><span class="script">𓆑</span><figcaption>the horned viper — waiting for you in chapter 04</figcaption></figure>
 </div>
-
-All three join your inventory in chapter 04.
 
 ## Drill before you go on
 

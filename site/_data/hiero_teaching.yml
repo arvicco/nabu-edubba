@@ -23,7 +23,7 @@ signs:
   meaning: flowering reed
   mdc: i
   sound: y/glottal onset; conventionally 'i'
-  taught_in: 4
+  taught_in: 1
   freq_aes: 4
   certainty: classic
 - glyph: "𓏭"
@@ -111,7 +111,7 @@ signs:
   meaning: owl
   mdc: m
   sound: m
-  taught_in: 4
+  taught_in: 0
   freq_aes: 6
   certainty: classic
 - glyph: "𓈖"
@@ -122,7 +122,7 @@ signs:
   meaning: ripple of water
   mdc: "n"
   sound: "n"
-  taught_in: 4
+  taught_in: 0
   freq_aes: 2
   certainty: classic
 - glyph: "𓂋"
@@ -133,7 +133,7 @@ signs:
   meaning: mouth
   mdc: r
   sound: r
-  taught_in: 4
+  taught_in: 0
   freq_aes: 3
   certainty: classic
 - glyph: "𓉔"
@@ -243,7 +243,7 @@ signs:
   meaning: jar stand
   mdc: g
   sound: g
-  taught_in: 4
+  taught_in: 2
   freq_aes: 68
   certainty: classic
 - glyph: "𓏏"
@@ -289,6 +289,39 @@ signs:
   sound: dj, as in 'adjust'
   taught_in: 4
   freq_aes: 33
+  certainty: classic
+- glyph: "𓉐"
+  codepoint: '13250'
+  gardiner: O1
+  name: O1
+  value: pr
+  meaning: house (ground-plan)
+  mdc: pr
+  sound: per
+  taught_in: 3
+  freq_aes: 29
+  certainty: classic
+- glyph: "𓏤"
+  codepoint: 133E4
+  gardiner: Z1
+  name: Z1
+  value: ''
+  meaning: the word-sign stroke — 'this sign means what it shows'
+  mdc: ''
+  sound: not read; a marker
+  taught_in: 3
+  freq_aes: 5
+  certainty: classic
+- glyph: "𓂻"
+  codepoint: 130BB
+  gardiner: D54
+  name: D54
+  value: ''
+  meaning: walking legs — classifier for motion words
+  mdc: ''
+  sound: not read; a classifier
+  taught_in: 3
+  freq_aes: 28
   certainty: classic
 - glyph: "𓍷"
   codepoint: '13377'
