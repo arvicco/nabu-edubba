@@ -1,4 +1,5 @@
 ---
+layout: school
 school: hanzi
 title: The Hanzi School
 description: >-

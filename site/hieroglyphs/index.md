@@ -1,4 +1,5 @@
 ---
+layout: school
 school: hieroglyphs
 title: The Hieroglyphs School
 description: >-

@@ -11,7 +11,10 @@
 <aside class="course-sidebar">
   {% for s in schools %}
   {% capture school_url %}/{{ s }}/{% endcapture %}
-  <p class="course-sidebar-school"><a href="{{ school_url | relative_url }}">{{ s | capitalize }}</a></p>
+  <p class="course-sidebar-school">
+    {% if school_url == include.here %}<span class="here">{{ s | capitalize }}</span>
+    {% else %}<a href="{{ school_url | relative_url }}">{{ s | capitalize }}</a>{% endif %}
+  </p>
   {% assign school_courses = all_courses | where: "school", s %}
   {% for c in school_courses %}
     {% assign c_course = s | append: "-" | append: c.course_no %}
