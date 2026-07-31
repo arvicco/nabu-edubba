@@ -74,17 +74,17 @@ batches:
   coverage_cdli_pct: 48.0
 - chapter: 10
   signs:
-  - GIŠ
   - ZI
+  - A2
   - RI
-  coverage_etcsl_pct: 49.1
-  coverage_cdli_pct: 48.8
+  coverage_etcsl_pct: 48.6
+  coverage_cdli_pct: 49.1
 - chapter: 11
   signs:
   - I
   - SUM
-  coverage_etcsl_pct: 49.7
-  coverage_cdli_pct: 49.3
+  coverage_etcsl_pct: 49.1
+  coverage_cdli_pct: 49.5
 signs:
 - glyph: "\U00012228"
   codepoint: '12228'
@@ -170,18 +170,6 @@ signs:
   certainty: stated
   chapter: 1
   score: 59
-  pinned: true
-- glyph: "\U00012111"
-  codepoint: '12111'
-  name: GIŠ
-  value: gisz
-  etcsl_value: jic
-  meaning: tree, wood; the {giš} determinative
-  wedges: "~4"
-  freq_etcsl: 28
-  certainty: classic
-  chapter: 10
-  score: 60
   pinned: true
 - glyph: "\U00012049"
   codepoint: '12049'
@@ -452,6 +440,18 @@ signs:
   certainty: unclear
   chapter: 2
   score: 120
+  pinned: true
+- glyph: "\U00012009"
+  codepoint: '12009'
+  name: A2
+  value: a2
+  meaning: arm; strength; side — a₂ zid-da, the right side
+  wedges: "~6"
+  freq_etcsl: 74
+  freq_cdli: 81
+  certainty: stated
+  chapter: 10
+  score: 122
   pinned: true
 - glyph: "\U000122E7"
   codepoint: 122E7
