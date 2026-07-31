@@ -1,0 +1,95 @@
+# Cuneiform school — course rulebook
+
+Governs: Cuneiform 101 · Foundations, Cuneiform 102 · Sumerian, and
+every later course of the cuneiform school. This document spells
+out the school's conventions, notations, and standards choices
+explicitly (owner ruling 2026-07-31, after the ĝ/ŋ notation drift
+incident). It is written BEFORE content and updated in the same
+commit as any new choice; the gate checks content against its
+machine-enforceable subset (`script/rulebook.rb`, run by
+`rake lint`) before every Gate.
+
+## 1 · Transliteration display
+
+- Values in **ATF style**, lowercase italic: *lugal*, *nam-ti*.
+- Homophone indexes are **Unicode subscripts, always**: *lu₂*,
+  *e₂*, *gu₇* (owner stylistic ruling 2026-07-30). Full-size ASCII
+  digits (*lu2*) appear only inside verbatim raw-ATF exhibits
+  (`span class="translit atf"`) and explicit mentions of the ASCII
+  convention. Enforced by the `subscript-index` lint rule.
+- The velar nasal is printed **ŋ** (*saŋ*, *niŋ₂*), **never ĝ**.
+  The ĝ spelling may be *mentioned* as other books' habit (the 102
+  Orientation primer does), never used as this school's notation.
+  Enforced by the rulebook lint rule.
+- **Accent notation is not used as indexing**: *e₂* and *i₃*,
+  never *é* and *ì*. Accented forms appear only in explicit
+  mentions of the convention and in the school's own name,
+  *é-dub-ba-a*. Enforced (ì í ù ú) by the rulebook lint rule.
+- The velar fricative is printed plain **h** in values (*ha*,
+  *mah*), matching the corpora's folding; *ḫ* appears only when
+  discussing notation itself.
+- **š** is always printed š in display; *sz* (CDLI) and *c*
+  (ETCSL) only in verbatim corpus quotes, marked as such.
+- Sign NAMES in capitals (LUGAL, EŠ2, É — the accented É is the
+  sign's conventional name and is fine in that role); names may
+  carry ASCII indexes (ŠA3) since they are names, not readings.
+
+## 2 · Corpus conventions
+
+- CDLI (ATF: sz, full-size digits) and ETCSL (c = š, j = ŋ) keep
+  their own spellings; they are **never merged** and never
+  silently converted — folding happens in instruments
+  (`bin/reading_picker.rb`), with the fold table in code.
+- Corpus-convention text is quoted only verbatim, in captions or
+  `translit atf` spans, and labeled as the corpus's own spelling.
+
+## 3 · Readings and citations
+
+- Every reading's script column is **OSL-resolved** — glyphs come
+  from `nabu signs` resolution of the cited passage, never from
+  memory or guesswork. Sign order follows the word.
+- ▢ stands for a sign untaught at that chapter; damaged lines are
+  not used as readings.
+- **CDLI quotes**: license class attribution — the citation
+  carries `license: attribution` and a cdli.earth artifact link.
+- **ETCSL quotes** (per D3-a, ruled 2026-07-31): short, and each
+  labeled `license: ETCSL · non-commercial` in place. Default to
+  CDLI; use ETCSL where pedagogy needs a clean composite line.
+  Both label rules are enforced by the rulebook lint rule.
+- Personal-name translations are marked **approximate**; an
+  approximate sense is *given cautiously, never omitted* (owner
+  ruling 2026-07-31).
+
+## 4 · Prose register
+
+- Gods and places take conventional English forms in prose
+  (Ninhursag, Enlil, Umma); transliteration lines keep the exact
+  forms (*nin-hur-saŋ*).
+- Simple over adorned; substance over meta: corpus names and
+  tooling live in citations and footnotes, never in lesson flow.
+- Back-references to prior material carry links (owner ruling
+  2026-07-31). Grammar walkthroughs go piece by piece — no
+  checklist glosses (owner ruling 2026-07-31).
+- Standard references are footnoted, once or twice per course
+  (102 uses Foxvog's *Introduction to Sumerian Grammar*).
+
+## 5 · Pedagogy mechanics
+
+The site-wide rules of CLAUDE.md apply in full: every chapter
+opens with 1–3 thematically relevant new signs in the standard
+table and uses them immediately; a sign is taught exactly once
+(veterans marked explicitly); every grammatical marker gets a
+concrete holdable example; batch label = chapter number + 1
+("Batch nine" is chapter 08); new jargon enters
+`site/_data/terms.yml` in the same commit; chapter titles express
+essence. The nothing-untaught validator and the every-chapter
+rules are enforced by `rake gate`.
+
+## 6 · What the gate checks mechanically
+
+From this rulebook: ŋ-not-ĝ, no accent indexes, ETCSL and CDLI
+license labels (`script/rulebook.rb`); plus the standing rules —
+subscript-index, untaught-sign, font coverage, no-JS, link
+hygiene. Everything else above is law for the author and material
+for review; when a rule becomes regexable, its check joins the
+script in the same commit.
