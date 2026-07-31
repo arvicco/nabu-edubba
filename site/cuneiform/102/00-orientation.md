@@ -18,7 +18,7 @@ shows: []
 # Orientation: the long march
 
 Welcome back to the tablet house. You arrive with
-[101's]({{ '/cuneiform/101/' | relative_url }}) twenty-five signs, its conventions, and its habits —
+[101's]({{ '/cuneiform/101/' | relative_url }}) twenty-six signs, its conventions, and its habits —
 and this course assumes all of them without apology. 102 is a
 different kind of course: a **literacy track**. Fewer grand tours,
 more mileage. Each chapter grows your inventory by a computed batch,
@@ -67,7 +67,7 @@ of *all sign-value occurrences* in two corpora that your cumulative
 inventory will then cover. Watch the number climb:
 
 <figure class="evolution">
-  <svg viewBox="0 0 640 240" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory after each chapter of 102, rising from about 21 percent to 38 percent of Sumerian literature, and from 32 to 41 percent of administrative documents.">
+  <svg viewBox="0 0 640 240" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory after each chapter of 102, rising from about 22 percent to 38 percent of Sumerian literature, and from 32 to 41 percent of administrative documents.">
     <title>Cumulative coverage by chapter (primary values — a floor)</title>
     <g fill="currentColor" font-size="13">
       <text x="8" y="52">ch. 00</text>
@@ -78,19 +78,19 @@ inventory will then cover. Watch the number climb:
       <text x="8" y="202">ch. 05</text>
     </g>
     <g fill="var(--accent, currentColor)" opacity="0.9">
-      <rect x="70" y="40" width="213" height="12"/>
-      <rect x="70" y="70" width="262" height="12"/>
-      <rect x="70" y="100" width="310" height="12"/>
-      <rect x="70" y="130" width="349" height="12"/>
-      <rect x="70" y="160" width="362" height="12"/>
+      <rect x="70" y="40" width="221" height="12"/>
+      <rect x="70" y="70" width="271" height="12"/>
+      <rect x="70" y="100" width="313" height="12"/>
+      <rect x="70" y="130" width="352" height="12"/>
+      <rect x="70" y="160" width="366" height="12"/>
       <rect x="70" y="190" width="381" height="12"/>
     </g>
     <g fill="currentColor" font-size="12" opacity="0.85">
-      <text x="290" y="51">21.3% of literature · 32.3% of documents</text>
-      <text x="339" y="81">26.2% · 34.5%</text>
-      <text x="387" y="111">31.0% · 36.7%</text>
-      <text x="426" y="141">34.9% · 38.3%</text>
-      <text x="439" y="171">36.2% · 39.5%</text>
+      <text x="298" y="51">22.1% of literature · 32.5% of documents</text>
+      <text x="348" y="81">27.1% · 34.7%</text>
+      <text x="390" y="111">31.3% · 36.8%</text>
+      <text x="429" y="141">35.2% · 38.4%</text>
+      <text x="443" y="171">36.6% · 39.6%</text>
       <text x="458" y="201">38.1% · 40.9%</text>
     </g>
     <text x="70" y="228" fill="currentColor" font-size="12" opacity="0.7">bars: ETCSL literary corpus; paired figure: CDLI documentary corpus — primary values only, so a floor</text>

@@ -10,39 +10,40 @@ chapter: 1
 permalink: /cuneiform/101/01-clay-and-reed/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: ["𒀸", "𒁹", "𒌋"]
+teaches: ["𒅎", "𒆤"]
 shows: []
 ---
 
 # Clay and reed
 
-This chapter is about the strokes a reed makes in clay — so it opens
-with the three simplest signs in all of cuneiform, one stroke each:
+This chapter is about two materials — so its two new signs are the
+materials themselves:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒀸</td><td>AŠ</td><td><em>aš</em></td>
-      <td>one; single</td><td>one horizontal wedge, head at the left</td>
+      <td class="script sign-cell">𒅎</td><td>IM</td><td><em>im</em></td>
+      <td>clay; also rain, storm</td>
+      <td>~6 wedges. The scribes' own word for their medium: a tablet
+      is an <em>im</em>, a thing of clay — and the same sign covers
+      the wet weather clay comes from</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td><em>diš</em></td>
-      <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒌋</td><td>U</td><td><em>u</em></td>
-      <td>ten</td><td>one corner wedge, an open angle</td>
+      <td class="script sign-cell">𒆤</td><td>KID</td><td><em>kid</em></td>
+      <td>reed mat; matting</td>
+      <td>~6 wedges. Woven reed — the same marsh plant that, cut at
+      an angle, becomes the stylus. It is hiding a second reading
+      you will meet in chapter 10</td>
     </tr>
   </tbody>
 </table>
 
-Each is a complete sign made of exactly one press of the stylus —
-the horizontal, the vertical, and the corner wedge you met on
-chapter 00's drawing. Everything else in this script is these three
-marks, combined. This chapter shows you where they come from.
+Copy both a few times — and notice that you are writing the words
+*clay* and *reedwork* in the very materials they name. The rest of
+this chapter explains why that is not a coincidence.
 
 Every writing system is shaped by what it is written with, and on.
 Ink and brush give Chinese characters their tapering strokes; chisel
@@ -59,7 +60,10 @@ stone and timber but sits on enormous beds of river silt. Clay was
 the one resource that cost nothing and lay everywhere underfoot. A
 scribe did not requisition a scarce material; they dug it up, wetted
 it, and kneaded it into a small, hand-sized pillow — a shape you can
-still feel the palm-print of on tablets today.
+still feel the palm-print of on tablets today. When the scribes
+named their own medium, they wrote 𒅎, *im* — and when a later
+chapter's texts speak of storm and rain, the same sign will be
+doing the talking.
 
 Most tablets were meant to be temporary. A receipt, a school
 exercise, a letter did its job and was no longer needed; the clay was
@@ -78,6 +82,11 @@ survive from ancient Mesopotamia than from any other civilization of
 comparable age — ordinary clay outlasted the empires that used it.
 
 ## The reed and the wedge
+
+Reed was the clay's partner everywhere in scribal life: woven into
+the mats — 𒆤, *kid* — that scribes sat and worked on, bundled into
+the walls of the reed shelters where accounts were kept, and, cut
+to a length, sharpened into the stylus itself.
 
 A reed stylus is not a pen. A pen — whether a reed pen, a quill, or a
 ballpoint — has a point or a nib that is *dragged* across a surface,

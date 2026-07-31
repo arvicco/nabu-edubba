@@ -74,9 +74,13 @@ rake serve          # local preview at http://127.0.0.1:4000
   given standard reference once or twice per course, not per chapter.
 - EVERY chapter (chapter 00 included) OPENS with 1–3 new
   theme-related signs in the standard sign-table format (owner
-  ruling 2026-07-31) — and USES each new sign in that same chapter,
-  immediately; a sign never waits for a later chapter for its first
-  demonstration. Every chapter carries
+  ruling 2026-07-31) — THEMATICALLY relevant signs, never filler —
+  and USES each new sign in that same chapter, immediately; a sign
+  never waits for a later chapter for its first demonstration.
+  A sign is TAUGHT exactly once: it never reappears as a new-sign
+  entry in a later chapter's table (owner ruling 2026-07-31 — no
+  double-entries); later tables may include it only explicitly
+  marked as a veteran (e.g. a known sign gaining a new reading). Every chapter carries
   at least one graphic illustration; readings couple transliteration
   with native script, untaught signs as ▢. Recurring signs link back
   to where they were first taught (earlier courses: to that course's

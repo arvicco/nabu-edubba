@@ -25,7 +25,8 @@ require "yaml"
 require "date"
 
 WEDGE_WEIGHT = 8
-BATCHES = { 0 => 3, 1 => 3, 2 => 3, 3 => 3, 4 => 3, 5 => 3 }.freeze
+# ch. 5 holds two signs since AK moved forward to ch. 2 (2026-07-31)
+BATCHES = { 0 => 3, 1 => 3, 2 => 3, 3 => 3, 4 => 3, 5 => 2 }.freeze
 
 module Edubba
   module Curriculum

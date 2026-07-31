@@ -11,14 +11,15 @@ chapter: 10
 permalink: /cuneiform/101/10-one-script-many-tongues/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: ["𒂗", "𒆤"]
+teaches: ["𒂗"]
 shows: []
 ---
 
 # One script, many tongues
 
-Two signs to open — and with them, the name of the god who presided
-over the whole story this chapter tells.
+One new sign to open — and, beside it, an old friend from chapter
+01 revealing a second face. Together they spell the name of the god
+who presided over the whole story this chapter tells.
 
 <table class="sign-table">
   <thead>
@@ -34,8 +35,10 @@ over the whole story this chapter tells.
     <tr>
       <td class="script sign-cell">𒆤</td><td>KID</td><td><em>lil₂</em> (lil2)</td>
       <td>air, wind, spirit</td>
-      <td>~9 wedges; commonly connected with a reed mat in origin —
-          here for one job above all</td>
+      <td>not a new sign — your reed mat from chapter 01, now
+          showing the polyvalency chapter 03 promised: the same
+          wedges also read <em>lil₂</em>, and that reading is this
+          chapter's whole reason for it</td>
     </tr>
   </tbody>
 </table>
