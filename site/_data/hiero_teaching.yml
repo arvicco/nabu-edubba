@@ -24,7 +24,7 @@ signs:
   mdc: i
   sound: y/glottal onset; conventionally 'i'
   taught_in: 1
-  freq_aes: 4
+  freq_aes: 5
   certainty: classic
 - glyph: "𓏭"
   codepoint: 133ED
@@ -35,7 +35,7 @@ signs:
   mdc: "y"
   sound: y (usually word-final)
   taught_in: 4
-  freq_aes: 23
+  freq_aes: 24
   certainty: classic
 - glyph: "𓂝"
   codepoint: 1309D
@@ -90,7 +90,7 @@ signs:
   mdc: p
   sound: p
   taught_in: 4
-  freq_aes: 17
+  freq_aes: 16
   certainty: classic
 - glyph: "𓆑"
   codepoint: '13191'
@@ -101,7 +101,7 @@ signs:
   mdc: f
   sound: f
   taught_in: 4
-  freq_aes: 9
+  freq_aes: 8
   certainty: classic
 - glyph: "𓅓"
   codepoint: '13153'
@@ -145,7 +145,7 @@ signs:
   mdc: h
   sound: h as in 'hat'
   taught_in: 4
-  freq_aes: 50
+  freq_aes: 51
   certainty: classic
 - glyph: "𓎛"
   codepoint: 1339B
@@ -156,7 +156,7 @@ signs:
   mdc: H
   sound: emphatic h
   taught_in: 4
-  freq_aes: 16
+  freq_aes: 19
   certainty: classic
 - glyph: "𓐍"
   codepoint: 1340D
@@ -167,7 +167,7 @@ signs:
   mdc: x
   sound: ch as in Scottish 'loch'
   taught_in: 4
-  freq_aes: 1802
+  freq_aes: 14
   certainty: unclear
 - glyph: "𓄡"
   codepoint: '13121'
@@ -178,7 +178,7 @@ signs:
   mdc: X
   sound: softer ch, as in German 'ich'
   taught_in: 4
-  freq_aes: 97
+  freq_aes: 98
   certainty: classic
 - glyph: "𓊃"
   codepoint: '13283'
@@ -189,7 +189,7 @@ signs:
   mdc: z
   sound: z/s
   taught_in: 4
-  freq_aes: 26
+  freq_aes: 27
   certainty: classic
 - glyph: "𓋴"
   codepoint: 132F4
@@ -211,7 +211,7 @@ signs:
   mdc: S
   sound: sh
   taught_in: 4
-  freq_aes: 39
+  freq_aes: 40
   certainty: classic
 - glyph: "𓈎"
   codepoint: 1320E
@@ -222,7 +222,7 @@ signs:
   mdc: q
   sound: emphatic k
   taught_in: 4
-  freq_aes: 40
+  freq_aes: 41
   certainty: classic
 - glyph: "𓎡"
   codepoint: 133A1
@@ -233,7 +233,7 @@ signs:
   mdc: k
   sound: k
   taught_in: 4
-  freq_aes: 22
+  freq_aes: 23
   certainty: classic
 - glyph: "𓎼"
   codepoint: 133BC
@@ -244,7 +244,7 @@ signs:
   mdc: g
   sound: g
   taught_in: 2
-  freq_aes: 68
+  freq_aes: 73
   certainty: classic
 - glyph: "𓏏"
   codepoint: 133CF
@@ -266,7 +266,7 @@ signs:
   mdc: T
   sound: tj, as in 'tune' (British)
   taught_in: 4
-  freq_aes: 82
+  freq_aes: 84
   certainty: classic
 - glyph: "𓂧"
   codepoint: 130A7
@@ -277,7 +277,7 @@ signs:
   mdc: d
   sound: d
   taught_in: 4
-  freq_aes: 19
+  freq_aes: 20
   certainty: classic
 - glyph: "𓆓"
   codepoint: '13193'
@@ -288,7 +288,7 @@ signs:
   mdc: D
   sound: dj, as in 'adjust'
   taught_in: 4
-  freq_aes: 33
+  freq_aes: 34
   certainty: classic
 - glyph: "𓉐"
   codepoint: '13250'
@@ -299,7 +299,7 @@ signs:
   mdc: pr
   sound: per
   taught_in: 3
-  freq_aes: 29
+  freq_aes: 30
   certainty: classic
 - glyph: "𓏤"
   codepoint: 133E4
@@ -310,7 +310,7 @@ signs:
   mdc: ''
   sound: not read; a marker
   taught_in: 3
-  freq_aes: 5
+  freq_aes: 4
   certainty: classic
 - glyph: "𓂻"
   codepoint: 130BB
@@ -332,7 +332,7 @@ signs:
   mdc: ''
   sound: not read; a frame
   taught_in: 5
-  freq_aes: 374
+  freq_aes: 393
   certainty: classic
 - glyph: "𓇳"
   codepoint: 131F3
@@ -343,7 +343,7 @@ signs:
   mdc: ra
   sound: ra
   taught_in: 5
-  freq_aes: 20
+  freq_aes: 21
   certainty: classic
 - glyph: "𓇓"
   codepoint: 131D3
@@ -365,7 +365,7 @@ signs:
   mdc: Htp
   sound: hotep
   taught_in: 6
-  freq_aes: 59
+  freq_aes: 60
   certainty: classic
 - glyph: "𓏙"
   codepoint: 133D9
@@ -376,7 +376,7 @@ signs:
   mdc: di
   sound: di
   taught_in: 6
-  freq_aes: 83
+  freq_aes: 87
   certainty: classic
 - glyph: "𓂓"
   codepoint: '13093'
@@ -387,7 +387,7 @@ signs:
   mdc: kA
   sound: ka
   taught_in: 6
-  freq_aes: 70
+  freq_aes: 77
   certainty: classic
 - glyph: "𓏠"
   codepoint: 133E0
@@ -398,7 +398,7 @@ signs:
   mdc: mn
   sound: men
   taught_in: 7
-  freq_aes: 46
+  freq_aes: 48
   certainty: classic
 - glyph: "𓎟"
   codepoint: 1339F
@@ -409,7 +409,7 @@ signs:
   mdc: nb
   sound: neb
   taught_in: 7
-  freq_aes: 27
+  freq_aes: 29
   certainty: classic
 - glyph: "𓁷"
   codepoint: '13077'
@@ -420,7 +420,7 @@ signs:
   mdc: Hr
   sound: her
   taught_in: 7
-  freq_aes: 21
+  freq_aes: 22
   certainty: classic
 - glyph: "𓄟"
   codepoint: 1311F
@@ -431,7 +431,7 @@ signs:
   mdc: ms
   sound: mes
   taught_in: 8
-  freq_aes: 88
+  freq_aes: 90
   certainty: classic
 - glyph: "𓅭"
   codepoint: 1316D
@@ -442,7 +442,7 @@ signs:
   mdc: zA
   sound: za
   taught_in: 8
-  freq_aes: 60
+  freq_aes: 61
   certainty: classic
 - glyph: "𓏌"
   codepoint: 133CC
@@ -453,7 +453,7 @@ signs:
   mdc: nw
   sound: nu
   taught_in: 8
-  freq_aes: 24
+  freq_aes: 26
   certainty: classic
 - glyph: "𓀀"
   codepoint: '13000'
@@ -464,7 +464,7 @@ signs:
   mdc: ''
   sound: not read; classifies
   taught_in: 9
-  freq_aes: 14
+  freq_aes: 15
   certainty: classic
 - glyph: "𓁐"
   codepoint: '13050'
@@ -475,7 +475,7 @@ signs:
   mdc: ''
   sound: not read; classifies
   taught_in: 9
-  freq_aes: 53
+  freq_aes: 56
   certainty: classic
 - glyph: "𓀁"
   codepoint: '13001'
@@ -497,7 +497,7 @@ signs:
   mdc: ''
   sound: not read; classifies
   taught_in: 9
-  freq_aes: 8
+  freq_aes: 9
   certainty: classic
 - glyph: "𓏛"
   codepoint: 133DB
@@ -519,7 +519,7 @@ signs:
   mdc: ''
   sound: not read; classifies
   taught_in: 9
-  freq_aes: 45
+  freq_aes: 46
   certainty: classic
 - glyph: "𓋹"
   codepoint: 132F9
@@ -530,7 +530,7 @@ signs:
   mdc: anx
   sound: ankh
   taught_in: 10
-  freq_aes: 41
+  freq_aes: 42
   certainty: unclear
 - glyph: "𓄤"
   codepoint: '13124'
@@ -541,7 +541,7 @@ signs:
   mdc: nfr
   sound: nefer
   taught_in: 10
-  freq_aes: 42
+  freq_aes: 47
   certainty: unclear
 - glyph: "𓆣"
   codepoint: 131A3
@@ -552,7 +552,7 @@ signs:
   mdc: xpr
   sound: kheper
   taught_in: 10
-  freq_aes: 81
+  freq_aes: 83
   certainty: classic
 - glyph: "𓊹"
   codepoint: 132B9
@@ -563,7 +563,7 @@ signs:
   mdc: nTr
   sound: netcher
   taught_in: 10
-  freq_aes: 34
+  freq_aes: 39
   certainty: classic
 - glyph: "𓃭"
   codepoint: 130ED
@@ -574,7 +574,7 @@ signs:
   mdc: rw
   sound: ru; borrowed for L
   taught_in: 11
-  freq_aes: 220
+  freq_aes: 235
   certainty: classic
 - glyph: "𓍯"
   codepoint: 1336F
@@ -585,5 +585,5 @@ signs:
   mdc: wA
   sound: wa; carried o in Ptolemy
   taught_in: 11
-  freq_aes: 105
+  freq_aes: 108
   certainty: classic
