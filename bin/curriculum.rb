@@ -29,7 +29,7 @@ WEDGE_WEIGHT = 8
 # chs 6–11 are the second stretch (M5-2), capstone ch. 11 lighter.
 BATCHES = { 0 => 3, 1 => 3, 2 => 3, 3 => 3, 4 => 3, 5 => 2,
             6 => 3, 7 => 3, 8 => 3, 9 => 3, 10 => 3, 11 => 2,
-            12 => 3, 13 => 3, 14 => 3, 15 => 3, 16 => 3, 17 => 3 }.freeze
+            12 => 3, 13 => 3, 14 => 3, 15 => 4, 16 => 1, 17 => 2 }.freeze
 
 module Edubba
   module Curriculum
