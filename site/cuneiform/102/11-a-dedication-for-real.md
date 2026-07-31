@@ -145,8 +145,8 @@ Take it apart, word by word:
   a purpose — "in order to give, so that … might give." That
   tail is real grammar with internal parts, and this course will
   not pretend to unpack it in one bullet: hold onto the honest
-  outline — stem inside, purpose-wrapper outside — and let a
-  later stretch open the pieces.
+  outline — stem inside, purpose-wrapper outside — and leave the
+  pieces to the grammars.
 
 So: hand-pure / water / lord-to / give-in-order-to — and read in
 Sumerian order the line builds exactly the way chapter 01 said
