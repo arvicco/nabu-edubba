@@ -11,18 +11,42 @@ chapter: 2
 permalink: /cuneiform/101/02-from-tokens-to-signs/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
+teaches: ["𒊺"]
 shows: ["𒀭"]
 ---
 
 # From tokens to signs
+
+This chapter is about grain accounts becoming writing — so its sign
+is the grain itself:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒊺</td><td>ŠE</td><td><em>še</em></td>
+      <td>barley; grain</td>
+      <td>a stalk with grains hanging off it — the field's classic
+      example of a picture worn down to wedges</td>
+    </tr>
+  </tbody>
+</table>
+
+Barley was the currency of early Mesopotamia — wages, rations, loans
+and temple dues were all counted in it — so 𒊺 is everywhere on the
+early tablets: exactly the kind of sign the first accountants
+needed. Copy it once now, stalk and grains — and keep it in mind as
+this chapter shows how pictures like it were turned and rebuilt
+into wedges.
 
 Writing was not invented to record poetry, prayer, or kings. On the
 evidence of the earliest tablets themselves, it was invented to stop
 people arguing about sheep. This chapter follows the trail from
 counters of clay to true signs — and shows the two transformations
 that turned recognizable little pictures into the abstract wedge
-clusters you will be writing from chapter 04 on.
+clusters you have already begun writing.
 
 ## Counting before writing
 
@@ -118,10 +142,10 @@ references (Labat's sign list and the standard handbooks):
   </figcaption>
 </figure>
 
-And one you can verify yourself in chapter 04: the sign AN began as
-a drawn **star**; pressed into wedges it became
-<span class="script">𒀭</span> — count the strokes and the star is
-still there, straightened. Not every sign kept its story legible
+And one you can verify yourself right now, on a sign you already
+own: AN began as a drawn **star**; pressed into wedges it became
+your <span class="script">𒀭</span> from chapter 00 — count the
+strokes and the star is still there, straightened. Not every sign kept its story legible
 (you will meet KI, whose past is genuinely obscure), but the
 principle is general: every classical sign is some old drawing,
 turned and rebuilt in the only strokes a stylus allows.

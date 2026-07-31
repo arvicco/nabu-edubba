@@ -195,10 +195,10 @@ Acceptance: ≥2 license-clean readings per chapter 02–05.
 ## M3-6 · Ch. 01 The sentence in the clay  [tier: top — grammar, fact-review critical] [status: done] [deps: M3-5]
 ## M3-7 · Ch. 02  [tier: impl — spec + pre-pulled readings] [status: done] [deps: M3-4, M3-6]
 ## M3-8 · Ch. 03  [tier: impl] [status: done] [deps: M3-7]
-## M3-9 · Ch. 04  [tier: impl] [status: in-progress — agent writing] [deps: M3-8]
+## M3-9 · Ch. 04  [tier: impl] [status: done] [deps: M3-8]
 ## M3-10 · Ch. 05  [tier: impl] [status: done] [deps: M3-9]
-## M3-11 · 101↔102 stitching  [tier: top] [status: ready] [deps: M3-10]
-## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: ready] [deps: M3-11]
+## M3-11 · 101↔102 stitching  [tier: top] [status: done] [deps: M3-10]
+## M3-12 · Gate 3 prep: docs/ + README refresh, phase review, gate PR  [tier: top] [status: done] [deps: M3-11]
 Goal: owner addition 2026-07-29 — docs/ (concept "ratified decisions"
       currency, BACKLOG/WORKLOG hygiene) AND README refreshed to the
       honest post-P3 state, then phase review + gate PR.
@@ -217,6 +217,56 @@ Goal: school-wide sidebar (all courses listed in order, only current
       now links to its introduction (build-time transformer plugin +
       anchors, htmlproofer-validated).
 Acceptance: gate green; 30 tests; surface-reviewed; PR #6 updated.
+
+## M3-14 · Review round 3: universal sidebar, essence titles, NE↔LA, Nabu sign  [tier: top] [status: done] [deps: M3-13]
+## M3-15 · Subscript indexes site-wide (owner stylistic ruling) + <sub> renderer  [tier: top] [status: done] [deps: M3-14]
+## M3-16 · Sign hover bubbles (name · readings · meaning, pure CSS)  [tier: top] [status: done] [deps: M3-15]
+
+Gate 3 CLOSED — PR #6 merged 2026-07-30, deploy green, live 102
+pages surface-reviewed. Pedagogy commitments 6–9 codified
+(concept.md §3.1) from the review rounds.
+
+## Carried forward — cuneiform school
+- Retrofit Cuneiform 101 chapters 00–03 to the strengthened
+  every-chapter-opens-with-signs rule (owner 2026-07-31; concept
+  §3.1-3): front-load starter signs the way Hieroglyphs 101 does.
+  Do at the next cuneiform stretch.
+
+## Carried forward (post-P53, Nabu `signs` live 2026-07-30)
+- Replace the hand value→glyph map (assets-src/data/pool-102.yml
+  curation stays; identity resolution moves to `nabu signs --json`).
+- bin/sign_seq.rb: true sign-occurrence counts via `nabu signs` over
+  corpus lines instead of value-frequency proxy; regenerate queue at
+  the next 102 stretch, additive-only per the data contract.
+
+## Phase 4 — Egyptian hieroglyphs school opens (plan approved 2026-07-30; D0-a)
+
+## M4-1 · School + course architecture (/hieroglyphs/, 101 index)  [tier: top] [status: done] [deps: --]
+## M4-2 · Gardiner→Unicode mapper + hiero registry + font pipeline  [tier: top] [status: done] [deps: --]
+## M4-3 · Validator generalization to script ranges; linker/bubbles for school #2  [tier: top] [status: done] [deps: M4-2]
+## M4-4 · Frequency instrument (aes) + uniliteral teaching queue  [tier: top] [status: done] [deps: M4-2]
+## M4-5 · Reading picker over aes + candidate readings (.docs/p4-readings.md)  [tier: top] [status: done] [deps: M4-4]
+## M4-6 · Ch. 00 Orientation + 01 Stone, reed, papyrus + 02 Pictures that talk  [tier: top — voice] [status: done] [deps: M4-1]
+## M4-7 · Ch. 03 How signs mean  [tier: top — mechanism] [status: done] [deps: M4-6]
+## M4-8 · Ch. 04 Your first signs (uniliterals)  [tier: impl — spec'd] [status: done] [deps: M4-4, M4-7]
+## M4-9 · Ch. 05 Names in rings (cartouches)  [tier: impl — spec'd] [status: done] [deps: M4-5, M4-8]
+## M4-10 · Ch. 06 The offering formula  [tier: top — formula] [status: done] [deps: M4-9]
+## M4-11 · Cross-school stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M4-10]
+
+Acceptance per chapter packet: gate green (untaught-sign +
+font-coverage over U+13000–1342F), surface review, fact-review of
+script-history claims against cited grammars (Allen, Gardiner),
+URN + license per reading, pedagogy commitments 1–9.
+
+## Decision items — Phase 4 (ruled 2026-07-30, with plan approval)
+- D4-a · RULED: linear sign display; quadrat stacking taught via SVG
+  figures; simplification declared in the course Reference.
+- D4-b · RULED: Leiden/Egyptological display transliteration
+  (ꜣ ꜥ ḥ ḫ š ṯ ḏ, italic); MdC ASCII only when explicitly quoting
+  corpus data (the ATF/subscript pattern).
+- D4-c · RULED: opening-stretch readings print left-to-right; sign
+  orientation/direction taught early, real RTL exhibit in a later
+  stretch.
 
 ## Decision items — Phase 3
 - D3-a · May Edubba quote short NC-licensed passages (ETCSL, license

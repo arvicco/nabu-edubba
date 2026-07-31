@@ -1,0 +1,114 @@
+# Technical-term glossary (owner request 2026-07-31): each term gets
+# a hover bubble wherever it appears in prose, and an entry on the
+# site-wide /terms/ page. Definitions are one plain sentence a modern
+# reader can hold — no jargon defined by more jargon.
+# The term linker matches these names case-insensitively (an optional
+# plural -s is tolerated) in rendered text, outside links, headings,
+# code, and figures' SVG.
+
+terms:
+  - name: glottal stop
+    slug: glottal-stop
+    def: "a consonant made by briefly closing the throat — the catch in the middle of English \"uh-oh\""
+  - name: glottal onset
+    slug: glottal-onset
+    def: "a light throat-catch at the start of a syllable — the small click before \"apple\" said carefully"
+  - name: pharyngeal
+    slug: pharyngeal
+    def: "a consonant squeezed deep in the throat (like Arabic ʿayn); English has nothing similar"
+  - name: emphatic
+    slug: emphatic
+    def: "pronounced with extra tension further back in the throat than its plain twin — q versus k, ḥ versus h"
+  - name: determinative
+    slug: determinative
+    def: "a silent sign at the end (in cuneiform, often the front) of a word that classifies it — person, god, place, motion — never pronounced"
+  - name: phonogram
+    slug: phonogram
+    def: "a sign used purely for its sound, whatever it happens to picture"
+  - name: logogram
+    slug: logogram
+    def: "a sign that writes a whole word by itself"
+  - name: ideogram
+    slug: ideogram
+    def: "a sign meaning the very thing it depicts — in practice, another name for a logogram"
+  - name: syllabogram
+    slug: syllabogram
+    def: "a sign spelling one syllable — ba, du, an"
+  - name: polyvalency
+    slug: polyvalency
+    def: "one sign carrying several possible readings; context picks the right one"
+  - name: uniliteral
+    slug: uniliteral
+    def: "a sound-sign spelling exactly one consonant"
+  - name: biliteral
+    slug: biliteral
+    def: "a sound-sign spelling a fixed pair of consonants at once"
+  - name: triliteral
+    slug: triliteral
+    def: "a sound-sign spelling three consonants at once"
+  - name: phonetic complement
+    slug: phonetic-complement
+    def: "a sound-sign that repeats part of a neighboring sign's value — spelling belt-and-suspenders, for the reader's safety"
+  - name: rebus
+    slug: rebus
+    def: "borrowing a picture for its sound instead of its meaning — drawing a sun to write \"son\""
+  - name: cartouche
+    slug: cartouche
+    def: "the rope ring drawn around a royal name in Egyptian writing"
+  - name: serekh
+    slug: serekh
+    def: "the palace-facade frame around the earliest Egyptian royal names — the cartouche's ancestor"
+  - name: honorific transposition
+    slug: honorific-transposition
+    def: "writing a king's or god's name first out of respect, even though it is read in its normal grammatical place"
+  - name: transliteration
+    slug: transliteration
+    def: "the sign-by-sign rendering of ancient writing in modern letters, so every sign stays accountable"
+  - name: hieratic
+    slug: hieratic
+    def: "the fast cursive everyday form of Egyptian writing, done with brush and ink"
+  - name: demotic
+    slug: demotic
+    def: "the even faster successor of hieratic, used for daily business in later Egypt"
+  - name: ostraca
+    slug: ostraca
+    def: "flakes of limestone or broken pottery used as cheap writing surfaces — the ancient scratch paper"
+  - name: suffix pronoun
+    slug: suffix-pronoun
+    def: "a mini-pronoun glued to the end of a word — \"his\", \"your\", \"hers\" as a single sign"
+  - name: particle
+    slug: particle
+    def: "a small function word that frames or flavors a sentence without naming any thing or action"
+  - name: agglutinative
+    slug: agglutinative
+    def: "building words by stacking small pieces, each with exactly one job — like beads on a string"
+  - name: homophony
+    slug: homophony
+    def: "several different signs sharing one sound — the mirror image of one sign having several readings"
+  - name: titulary
+    slug: titulary
+    def: "a ruler's full formal string of names and titles, repeated in fixed order on monuments"
+  - name: votive
+    slug: votive
+    def: "given to a god in fulfillment of a vow — votive objects carry dedication inscriptions"
+  - name: pictograph
+    slug: pictograph
+    def: "an early sign that is still simply a picture of the thing it means"
+  - name: paleography
+    slug: paleography
+    def: "reading the age and origin of a text from the changing shapes of its signs"
+  - name: colophon
+    slug: colophon
+    def: "a scribe's closing note on a tablet or manuscript — title, owner, date, the ancient equivalent of a title page at the end"
+  - name: terminative
+    slug: terminative
+    def: "the grammatical case meaning \"to, toward, up to\" — Sumerian marks it with -še₃"
+  - name: genitive
+    slug: genitive
+    def: "the grammatical case of possession or belonging — \"the king's house\", \"lord of Lagash\""
+  - name: ablative
+    slug: ablative
+    def: "the grammatical case meaning \"from, out of\" — Sumerian marks it with -ta"
+  - name: ergative
+    slug: ergative
+    def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"

@@ -5,6 +5,102 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Owner correction: signs must be THEMATIC, taught once ·
+The C101 front-load had grabbed the three number-strokes for ch01
+(Clay and Reed) — convenient, not thematic, and it double-listed
+them in later tables. Redone per owner: ch01 now teaches its own
+materials 𒅎 IM (clay — brought forward from the 102 pool) and 𒆤
+KID (reed mat — moved from ch10, whose table now presents it as a
+veteran gaining the lil₂ reading for {d}en-lil₂: polyvalency shown,
+not re-taught); the strokes 𒀸𒁹𒌋 moved to ch05 Counting where
+they thematically belong (ch05 had violated every-chapter-teaches
+anyway), plus GUR — which the registry claimed ch05 taught but NO
+chapter ever did (latent registry/content inconsistency, now fixed
+with a real gur account line 3(aš) še gur). ch04 wall chart marks
+the strokes "ch. 05" via shows:. 102 side (owner suggestion): AK
+moved ch05→ch02 — the sign that writes the very -ak genitive ch02
+teaches; ch02 gained the pairing lesson (case=/ak/, sign=𒀝) and a
+chapter-05 hook; ch05 slimmed to nin+la (drill bug fixed: said
+"nin, ne, ak" for a nin/la/ak batch). Pool: IM removed, ALL batches
+pinned to their published chapters (published course = contract),
+BATCHES ch5=2; queue regenerated — batches stable, coverage chart
+updated (base now includes 101's IM). 101 grows to 26 signs; all
+"25/forty-three" claims updated. New principle codified: a sign is
+taught exactly once, later tables mark veterans explicitly. Gate
+green; validator proves both courses end-to-end.
+
+2026-07-31 · Principles generalized + C101/C102 compliance sweep ·
+Three owner rulings codified (CLAUDE.md + concept §3.1-3): every
+chapter opens with signs in table form; technical terms carry
+bubble definitions linking to /terms/; Nabu URNs link to their axis
+desks. C101 retrofit: ch00 now teaches the promise trio 𒀭𒆳𒀀,
+ch01 the three one-stroke signs 𒀸𒁹𒌋 (they ARE the chapter's
+theme), ch02 barley 𒊺 (grain accounts becoming writing), ch03 the
+polyvalency star 𒌓; ch04 reframed as consolidation + its two
+genuinely new signs 𒆠𒂍 ("Wave three: the two new ones" — the old
+heading "two you have already met" had inverted meaning after the
+move). Registry taught_in retagged; five stale cross-references
+fixed (incl. ch02's "watch below how it got that shape" promising a
+ŠE evolution the chapter demonstrates with SAG — caught in
+self-review). 102 ch00 batch table lifted above the coverage chart
+(opens-with means opens-with). C102 01-05 and C101 05-11 already
+compliant (tables in first screen). Terms glossary grew 11 entries
+from a cuneiform jargon audit (terminative, genitive, titulary,
+colophon, paleography…); term bubbles verified live on cuneiform
+pages (automatic — the transformer is site-wide), URN links verified
+(4 in 101 ch06). Gate green; validator re-proves both courses.
+
+2026-07-30 · M4-1..M4-11 (Phase 4 sweep) · Egyptian hieroglyphs
+school opened same-day as plan approval. Instruments first:
+ScriptScan generalizes the font-coverage + nothing-untaught gates to
+per-script ranges (adding a school = one SCRIPTS entry + vendored
+face); Noto Sans Egyptian Hieroglyphs vendored (OFL, google/fonts);
+bin/hiero_registry.rb resolves curated Gardiner codes against
+Unicode NAMES via python3 unicodedata (verified, never guessed —
+the cuneiform lesson institutionalized) and merges computed
+frequency from a full aes sweep (815k tokens, 267k with Gardiner
+codes; 14 of the 26 uniliterals in the corpus top-20 — computed
+frequency CONFIRMS the field's uniliteral-first didactic order,
+lovely validation of commitment §3.1-1). Psych catch: to_yaml
+escapes astral-plane glyphs (\U0001313F) which blinds the coverage
+scanner — registry post-processes to literal glyphs. Sign-linker
+catch: glyph regex was cuneiform-range-bound (hieroglyphs passed
+through unlinked) and tip_text's ATF normalization mangled Gardiner
+codes (D46→D₄₆) — GLYPH range union + tip_join raw path, tests
+pinned. Content: ch00-03 + ch06 top-tier (media/origins/mechanism/
+formula), ch04-05 Sonnet agents to written specs (both returned
+clean; review caught a corpus-name leak into lesson prose, a
+"long vowel" claim contradicting the no-vowels teaching, and
+duplicate shows: entries). Readings discovered by inventory-⊆
+search over cached aes export: Teti cartouche X1-X1-M17 standalone,
+Pepi Q3-Q3-M17-M17-Z4+det, honorific transposition attested in
+estate name Sḥtp-Ptḥ-Ttj, offering formula whole from the
+Mut-neferet stela (n kꜣ n) — all four URNs grep-verified exact
+against the export (1 match each); Ptolemy NOT attested
+hieroglyphically in aes/tla-hf (demotic only) → Rosetta exhibit
+treatment, flagged for ch11. Surface-reviewed built ch05/06 by
+headless screenshots (sign tables, cartouche SVG, formula strip —
+Q3's hollow-rectangle glyph looks like tofu but IS the stool sign;
+coverage rule proves no tofu can ship). README + school catalogs
+refreshed (stale "no courses exist" + "eleven chapters" fixed).
+Gate green throughout; readings data in .docs/p4-readings.md.
+
+2026-07-30 · Gate 3 CLOSED · PR #6 merged by owner 14:26Z; CI +
+Pages deploy green; live surface review of /cuneiform/102/04/ passed
+(sidebar, sign table, subscripts, sign links all correct on the
+deployed URL). CLAUDE.md phase line → Phase 4; BACKLOG M3 packets
+closed, carried-forward items recorded. Same day: Nabu `signs`
+shipped (P53) — smoke-tested against course readings: "i3 e2-gal DU"
+resolves all four tokens deterministically with correct codepoints,
+--json contract present, uri₅→|ŠEŠ.AB| compound correct (the case
+that motivated the request). Both response asks honored. Phase 4
+plan (Egyptian hieroglyphs school, per D0-a) drafted to
+.docs/phase-4-plan.md grounded in a Nabu holdings survey (aes 202k
+passages attribution-licensed, tla-hf, aed; tokens carry Leiden +
+MdC + partial Gardiner codes); three design decisions flagged for
+ruling (D4-a linear display, D4-b Leiden display convention, D4-c
+reading direction). Awaiting owner approval.
+
 2026-07-30 · M3-16 done · Hover bubbles on every linked sign (owner
 request): the sign-linker now embeds a hidden <span class="sign-tip">
 inside each generated sign link — "NAME · readings · meaning" — shown

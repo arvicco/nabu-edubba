@@ -1,4 +1,6 @@
 ---
+layout: school
+school: cuneiform
 title: The Cuneiform School
 description: >-
   Planned catalog for the cuneiform school — the flagship of Edubba: wedge
@@ -20,7 +22,7 @@ the ability to look at a real tablet and read it.
 ## Course catalog
 
 - **[101 · Foundations]({{ '/cuneiform/101/' | relative_url }})** —
-  **open: all eleven chapters live.** Wedge and stylus, tablet and
+  **open: complete, thirteen chapters live.** Wedge and stylus, tablet and
   clay, sign anatomy and formation, how the system encodes language
   (logograms, syllabograms, determinatives, polyvalency), the arc from
   proto-cuneiform to the last dated tablet, and the decipherment
@@ -50,9 +52,10 @@ the ability to look at a real tablet and read it.
 
 ## A note on where things stand
 
-No courses exist yet — this catalog is the plan, not a promise of what
-has already been built. Course numbers and scope are still to be firmed up
-as curriculum design proceeds. If you'd like to see the wider project, go
+101 is complete and 102's first stretch is live; everything below
+them is plan, not promise. Course numbers and scope for the later
+courses are still to be firmed up as curriculum design proceeds. If
+you'd like to see the wider project, go
 back to [the map of writing]({{ '/' | relative_url }}); if you have thoughts, corrections, or
 requests for what should come first, they're welcome on
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

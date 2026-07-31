@@ -2,8 +2,8 @@
 title: "05 · A dedication, whole"
 short_title: "05 · A dedication"
 description: >-
-  The closing chapter of 102's opening stretch: batch six — nin, ne,
-  ak — and the votive dedication formula, assembled whole from signs
+  The closing chapter of 102's opening stretch: batch six — nin and
+  la — and the votive dedication formula, assembled whole from signs
   you already own.
 layout: chapter
 course: cuneiform-102
@@ -11,7 +11,7 @@ chapter: 5
 permalink: /cuneiform/102/05-a-dedication-whole/
 course_url: /cuneiform/102/
 course_title: "Cuneiform 102"
-teaches: ["𒎏", "𒆷", "𒀝"]
+teaches: ["𒎏", "𒆷"]
 shows: []
 ---
 
@@ -20,12 +20,12 @@ shows: []
 Five chapters have handed you a sentence's skeleton, a hidden case,
 a way to multiply nouns and verbs, and a rebus that turns "arrow"
 into "life." This chapter closes the opening stretch of 102 with
-one more batch of three signs — and then spends its grammar bite
+a final batch of two signs — and then spends its grammar bite
 doing something the whole stretch has been building toward: putting
 together, sign by sign, the single phrase that closes more Sumerian
 votive inscriptions than any other.
 
-## Three new signs
+## Two new signs
 
 <table class="sign-table">
   <thead>
@@ -46,19 +46,11 @@ votive inscriptions than any other.
           work — it is the spelling glue inside this chapter's
           formula</td>
     </tr>
-    <tr>
-      <td class="script sign-cell">𒀝</td><td>AK</td><td><em>ak</em></td>
-      <td>to do, to make</td>
-      <td>~6 wedges; origin unclear — the doing-verb behind countless
-          lines, and, look closely, the hidden <em>-ak</em> of
-          chapter 02's genitive, now standing as its own sign. One
-          more thing: see below</td>
-    </tr>
   </tbody>
 </table>
 
-Five times each, aloud as you write: *nin*, *ne*, *ak*. That closes
-the batch, and with it the sixth and last batch of this opening
+Five times each, aloud as you write: *nin*, *la*. That closes the
+batch, and with it the sixth and last batch of this opening
 stretch.
 
 ## Grammar bite — the dedication formula, assembled
@@ -103,7 +95,8 @@ deeper; the standard grammars carry the rest.
 
 ## The scribes' own god, in two signs
 
-The AK sign moonlights. In later periods the god **Nabû** — patron
+Chapter 02 promised its 𒀝 had one more surprise. The AK sign
+moonlights. In later periods the god **Nabû** — patron
 of scribes, divine custodian of libraries, and the namesake of the
 [Nabu](https://arvicco.github.io/nabu/) library every reading on
 this site comes from — is regularly written with exactly this sign,
@@ -147,8 +140,8 @@ after six batches, needs no box.
 
 ## The stretch, measured
 
-Six chapters, eighteen new signs, forty-three in your hand counting
-[101]({{ '/cuneiform/101/' | relative_url }})'s twenty-five. Set against that inventory: the
+Six chapters, its new signs batch by batch, forty-four in your hand counting
+[101]({{ '/cuneiform/101/' | relative_url }})'s twenty-six. Set against that inventory: the
 sentence's basic habits (verb last, grammar worn as tags, the doer
 sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
 *-da*, the genitive that hides its own consonant, doubling for
@@ -174,7 +167,7 @@ this track sits among the others.
 
 ## Drill before the pause
 
-1. Write 𒎏, 𒆷, 𒀝 from memory; say *nin*, *la*, *ak*.
+1. Write 𒎏 and 𒆷 from memory; say *nin*, *la*.
 2. Recite the dedication template's four slots in order, then write
    *nam-ti-la-ni-še₃* from memory, sign by sign.
 3. Say aloud what each of the five signs in that formula meant

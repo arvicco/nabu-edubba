@@ -1,4 +1,6 @@
 ---
+layout: school
+school: hanzi
 title: The Hanzi School
 description: >-
   Planned catalog for the Hanzi/Kanji school — the living logographic

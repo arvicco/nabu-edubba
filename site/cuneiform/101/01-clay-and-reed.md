@@ -10,11 +10,40 @@ chapter: 1
 permalink: /cuneiform/101/01-clay-and-reed/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: []
-shows: []
+teaches: ["𒅎", "𒆤"]
+shows: ["𒀸", "𒁹", "𒌋"]
 ---
 
 # Clay and reed
+
+This chapter is about two materials — so its two new signs are the
+materials themselves:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒅎</td><td>IM</td><td><em>im</em></td>
+      <td>clay; also rain, storm</td>
+      <td>~6 wedges. The scribes' own word for their medium: a tablet
+      is an <em>im</em>, a thing of clay — and the same sign covers
+      the wet weather clay comes from</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒆤</td><td>KID</td><td><em>kid</em></td>
+      <td>reed mat; matting</td>
+      <td>~6 wedges. Woven reed — the same marsh plant that, cut at
+      an angle, becomes the stylus. It is hiding a second reading
+      you will meet in chapter 10</td>
+    </tr>
+  </tbody>
+</table>
+
+Copy both a few times — and notice that you are writing the words
+*clay* and *reedwork* in the very materials they name. The rest of
+this chapter explains why that is not a coincidence.
 
 Every writing system is shaped by what it is written with, and on.
 Ink and brush give Chinese characters their tapering strokes; chisel
@@ -31,7 +60,10 @@ stone and timber but sits on enormous beds of river silt. Clay was
 the one resource that cost nothing and lay everywhere underfoot. A
 scribe did not requisition a scarce material; they dug it up, wetted
 it, and kneaded it into a small, hand-sized pillow — a shape you can
-still feel the palm-print of on tablets today.
+still feel the palm-print of on tablets today. When the scribes
+named their own medium, they wrote 𒅎, *im* — and when a later
+chapter's texts speak of storm and rain, the same sign will be
+doing the talking.
 
 Most tablets were meant to be temporary. A receipt, a school
 exercise, a letter did its job and was no longer needed; the clay was
@@ -50,6 +82,11 @@ survive from ancient Mesopotamia than from any other civilization of
 comparable age — ordinary clay outlasted the empires that used it.
 
 ## The reed and the wedge
+
+Reed was the clay's partner everywhere in scribal life: woven into
+the mats — 𒆤, *kid* — that scribes sat and worked on, bundled into
+the walls of the reed shelters where accounts were kept, and, cut
+to a length, sharpened into the stylus itself.
 
 A reed stylus is not a pen. A pen — whether a reed pen, a quill, or a
 ballpoint — has a point or a nib that is *dragged* across a surface,
@@ -102,6 +139,16 @@ Out of this constraint come three basic strokes, and only three:
   *Winkelhaken* ("angle-hook"), made by pressing the stylus tip
   straight down and out, producing a small triangular notch used on
   its own rather than as part of a longer stroke.
+
+Here are the three shapes at full size, from this site's own font —
+each of them, standing alone, happens to be a complete sign, and
+chapter 05 will seat all three when the numbers need them:
+
+<div class="glyph-exhibit">
+  <figure><span class="script">𒀸</span><figcaption>the horizontal wedge — head at the left</figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>the vertical wedge — head at the top</figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>the corner impression — the <em>Winkelhaken</em></figcaption></figure>
+</div>
 
 Every cuneiform sign, however many strokes it has, is built from
 combinations of these three. There is no fourth basic stroke, and

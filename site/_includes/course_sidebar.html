@@ -1,18 +1,29 @@
 {% comment %}
-  School-wide course sidebar. Parameters:
-    include.school  — school slug ("cuneiform")
+  Three-level sidebar: School -> Course -> Chapters (owner ruling
+  2026-07-30). Every school with at least one course appears; course
+  labels are the short form (C 101 Foundations, E 101 Foundations);
+  the current course expands to its chapter list. Parameters:
     include.current — current course string ("cuneiform-102")
     include.here    — URL of the page being rendered (to highlight)
 {% endcomment %}
-{% assign school_courses = site.pages | where: "school", include.school | sort: "course_no" %}
+{% assign all_courses = site.pages | where_exp: "p", "p.course_no" | sort: "url" %}
+{% assign schools = all_courses | map: "school" | uniq %}
 <aside class="course-sidebar">
+  {% for s in schools %}
+  {% capture school_url %}/{{ s }}/{% endcapture %}
+  <p class="course-sidebar-school">
+    {% if school_url == include.here %}<span class="here">{{ s | capitalize }}</span>
+    {% else %}<a href="{{ school_url | relative_url }}">{{ s | capitalize }}</a>{% endif %}
+  </p>
+  {% assign school_courses = all_courses | where: "school", s %}
   {% for c in school_courses %}
-    {% assign c_course = include.school | append: "-" | append: c.course_no %}
+    {% assign c_course = s | append: "-" | append: c.course_no %}
+    {% assign c_label = c.short_title | default: c.title %}
     {% if c_course == include.current %}
   <details class="course-sidebar-details" open>
     <summary class="course-sidebar-title course-sidebar-current">
-      {% if c.url == include.here %}<span class="here">{{ c.title }}</span>
-      {% else %}<a href="{{ c.url | relative_url }}">{{ c.title }}</a>{% endif %}
+      {% if c.url == include.here %}<span class="here">{{ c_label }}</span>
+      {% else %}<a href="{{ c.url | relative_url }}">{{ c_label }}</a>{% endif %}
     </summary>
     {% assign course_pages = site.pages | where: "course", c_course | where_exp: "p", "p.chapter" | sort: "chapter" %}
     <ol class="course-sidebar-list" start="0">
@@ -29,8 +40,9 @@
   </details>
     {% else %}
   <p class="course-sidebar-title course-sidebar-other">
-    <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+    <a href="{{ c.url | relative_url }}">{{ c_label }}</a>
   </p>
     {% endif %}
+  {% endfor %}
   {% endfor %}
 </aside>

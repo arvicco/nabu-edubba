@@ -21,14 +21,15 @@
 
 module Edubba
   module SignLinker
-    RANGE = (0x12000..0x1254F)
+    # All tracked script ranges (cuneiform + Egyptian hieroglyphs).
+    GLYPH = /[\u{12000}-\u{1254F}\u{13000}-\u{1342F}]/
     TOKEN = /<[^>]*>|[^<]+/m
 
     module_function
 
     # map: { "𒀭" => { url: "/cuneiform/101/12-reference/", anchor: "sign-1202D" }, ... }
     def transform(html, map, page_url, baseurl = "")
-      return html unless html.match?(/[\u{12000}-\u{1254F}]/)
+      return html unless html.match?(GLYPH)
 
       a_depth = 0
       skip_depth = 0 # title/svg/script/style nesting
@@ -55,7 +56,7 @@ module Edubba
     end
 
     def link_glyphs(text, map, page_url, baseurl, in_sign_cell, emitted_ids)
-      text.gsub(/[\u{12000}-\u{1254F}]/) do |g|
+      text.gsub(GLYPH) do |g|
         entry = map[g]
         next g unless entry
 
@@ -88,12 +89,16 @@ module Edubba
       map
     end
 
-    # "AN · an; diŋir · heaven; god" — name, readings, short meaning.
-    # Parenthetical asides (ASCII forms, certainty grades) are stripped;
-    # ATF spellings normalized for display (sz -> š, index digits ->
-    # Unicode subscripts, which the subscript renderer then typesets).
+    # "AN · an; diŋir · heaven; god" — name, readings, short meaning,
+    # for CUNEIFORM registry entries: parenthetical asides stripped and
+    # ATF spellings normalized (sz -> š, index digits -> subscripts).
     def tip_text(sign)
-      parts = [sign["name"], sign["value"], sign["meaning"]].map { |p| display_form(p) }
+      tip_join([sign["name"], sign["value"], sign["meaning"]].map { |p| display_form(p) })
+    end
+
+    # For registries whose fields are already display-form (hieroglyphs:
+    # Gardiner codes like D46 must NOT get subscript digits).
+    def tip_join(parts)
       tip = parts.map { |p| p.to_s.strip }.reject(&:empty?).join(" · ")
       tip.empty? ? nil : tip.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;")
     end
