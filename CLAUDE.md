@@ -41,6 +41,13 @@ decisions, and pedagogy. docs/DEV-LOOP.md governs process.
    do not reformat, rename, or "clean up" beyond the task's scope.
 8. **No secrets exist in this project and none may enter it.** The
    repo is public; never commit tokens, keys, or personal data.
+9. **All content is written by the top-tier model itself — never
+   delegated.** Chapter prose, readings, glosses, pedagogy: planned
+   AND executed by the Fable session model (owner ruling
+   2026-07-31; no Sonnet-drafted chapters, ever). Delegation to
+   lesser models is permitted only for non-content work (code,
+   tooling, mechanical transforms). Opus is banned from this
+   project entirely (owner ruling 2026-07-30).
 
 ## Commands
 
