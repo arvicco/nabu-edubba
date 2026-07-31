@@ -173,11 +173,13 @@ rulings 2026-07-29, 6–9 owner rulings 2026-07-30):
 2. **Nothing untaught in a reading.** Every graded reading is
    machine-checked against the running set of taught signs/vocabulary —
    a gate, not an aspiration.
-3. **Every chapter teaches.** From the first-signs chapter onward,
-   every chapter introduces at least one (preferably 2–3) new signs,
-   related to its theme — ideally opening the chapter and building
-   its story from them. Knowledge accumulates gradually; no sign-free
-   chapters late in a course.
+3. **Every chapter teaches — from chapter 00.** Every chapter,
+   orientation included, OPENS with at least one (preferably 2–3)
+   new theme-related signs, presented in the standard sign-table
+   format (strengthened by owner ruling 2026-07-31: no sign-free
+   chapters at all; front-loading early signs makes the first-signs
+   chapter lighter). The chapter then uses its signs. Knowledge
+   accumulates gradually from the first page of a course.
 4. **Every chapter shows.** At least one graphic illustration of the
    chapter's topic per chapter — an SVG figure, a map, an enlarged
    glyph exhibit. Show once rather than explain ten times.

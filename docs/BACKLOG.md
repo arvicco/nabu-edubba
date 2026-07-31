@@ -226,6 +226,12 @@ Gate 3 CLOSED — PR #6 merged 2026-07-30, deploy green, live 102
 pages surface-reviewed. Pedagogy commitments 6–9 codified
 (concept.md §3.1) from the review rounds.
 
+## Carried forward — cuneiform school
+- Retrofit Cuneiform 101 chapters 00–03 to the strengthened
+  every-chapter-opens-with-signs rule (owner 2026-07-31; concept
+  §3.1-3): front-load starter signs the way Hieroglyphs 101 does.
+  Do at the next cuneiform stretch.
+
 ## Carried forward (post-P53, Nabu `signs` live 2026-07-30)
 - Replace the hand value→glyph map (assets-src/data/pool-102.yml
   curation stays; identity resolution moves to `nabu signs --json`).
