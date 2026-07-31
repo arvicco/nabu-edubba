@@ -17,9 +17,10 @@ shows: []
 
 # Counting like a Sumerian
 
-This is the numbers chapter, and its new signs are the three
+This is the numbers chapter. Three of its four new signs are the
 number-atoms of the entire script — each a single press of the
-stylus:
+stylus (the fourth, a measure for the counting, joins further
+down):
 
 <table class="sign-table">
   <thead>
@@ -109,8 +110,8 @@ table below groups them the same way.
   </tbody>
 </table>
 
-No new signs — the same vertical and corner wedges from chapter 01,
-put to a second job: counting rather than naming.
+Nothing here beyond this chapter's own atoms — the same vertical
+and corner wedges, put to their counting job by pure repetition.
 
 ## Sixty and beyond
 
@@ -147,6 +148,24 @@ a Sumerian accountant's number line.
 </figure>
 
 ## Counting things
+
+Counting needs something to count — so here the chapter's fourth
+sign takes its seat, the unit that follows the number on a thousand
+barley receipts:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="script sign-cell">𒄥</td><td>GUR</td><td><em>gur</em></td>
+      <td>the great capacity measure of grain accounts</td>
+      <td>~6 wedges; roughly 300 liters in the Ur III standard — when
+      a granary counted big, it counted in gur</td>
+    </tr>
+  </tbody>
+</table>
 
 A bare number is rarely the point — Sumerian accounts pair a number
 with what is being counted, number first, then the commodity sign.
