@@ -26,3 +26,27 @@ signs:
   - { glyph: "𒋾", codepoint: "122FE", name: "TI",   value: "ti",   meaning: "arrow; by rebus, life — the textbook rebus pair",          wedges: 4, freq_etcsl: 161, freq_cdli: 56,  certainty: classic, chapter: 4 }
   - { glyph: "𒆷", codepoint: "121B7", name: "LA",   value: "la",   meaning: "syllable la; abundance (stated)",                          wedges: 9, freq_etcsl: 21,  freq_cdli: 36,  certainty: stated, chapter: 5 }
   - { glyph: "𒂠", codepoint: "120A0", name: "EŠ2",  value: "sze3", etcsl_value: "ce3", meaning: "rope (stated); the terminative -še3", wedges: 4, freq_etcsl: 24,  freq_cdli: 35,  certainty: stated, chapter: 1 }
+  # ——— Second stretch (chs 06–11, M5-2). Identities value→sign→
+  # codepoint confirmed against the Oracc Sign List by
+  # bin/pool_check.rb (no more hand verification); freq ranks remain
+  # VALUE-table ranks — the same basis as the rest of the pool — with
+  # the sign-freq tables serving cross-validation and identity, not
+  # scoring. All batches pinned: thematic placement (owner rule) —
+  # a sign is taught in the chapter whose theme it serves.
+  - { glyph: "𒋗", codepoint: "122D7", name: "ŠU",   value: "szu",  etcsl_value: "cu",   meaning: "hand",                                                     wedges: ~5, freq_etcsl: 32,  freq_cdli: 22,  certainty: classic, chapter: 6 }
+  - { glyph: "𒈠", codepoint: "12220", name: "MA",   value: "ma",   meaning: "syllable ma — a spelling workhorse",                       wedges: ~6, freq_etcsl: 15,  freq_cdli: 21,  certainty: unclear, chapter: 6 }
+  - { glyph: "𒅆", codepoint: "12146", name: "IGI",  value: "igi",  meaning: "eye; face; before — igi PN, \"witnessed by\"",             wedges: ~4, freq_etcsl: 62,  freq_cdli: 84,  certainty: classic, chapter: 6 }
+  - { glyph: "𒌧", codepoint: "12327", name: "KALAM", value: "kalam", meaning: "the Land — Sumer as its own texts name it",              wedges: ~9, freq_etcsl: 126, freq_cdli: 371, certainty: stated, chapter: 7 }
+  - { glyph: "𒈤", codepoint: "12224", name: "MAH",  value: "mah",  meaning: "great, exalted",                                           wedges: ~9, freq_etcsl: 69,  freq_cdli: 96,  certainty: unclear, chapter: 7 }
+  - { glyph: "𒆬", codepoint: "121AC", name: "KU3",  value: "ku3",  etcsl_value: "kug",  meaning: "pure, holy; precious metal",          wedges: ~5, freq_etcsl: 54,  freq_cdli: 63,  certainty: stated, chapter: 7 }
+  - { glyph: "𒁀", codepoint: "12040", name: "BA",   value: "ba",   meaning: "to allot; the verbal prefix ba-",                          wedges: ~4, freq_etcsl: 6,   freq_cdli: 5,   certainty: unclear, chapter: 8 }
+  - { glyph: "𒅔", codepoint: "12154", name: "IN",   value: "in",   meaning: "syllable in; the verbal prefix in-",                       wedges: ~8, freq_etcsl: 18,  freq_cdli: 91,  certainty: unclear, chapter: 8 }
+  - { glyph: "𒉡", codepoint: "12261", name: "NU",   value: "nu",   meaning: "not — the negation",                                       wedges: 3,  freq_etcsl: 19,  freq_cdli: 46,  certainty: unclear, chapter: 8 }
+  - { glyph: "𒄩", codepoint: "12129", name: "HA",   value: "ha",   meaning: "fish (the classic pictogram); the wish-prefix ha-",        wedges: ~6, freq_etcsl: 71,  freq_cdli: 118, certainty: classic, chapter: 9 }
+  - { glyph: "𒃻", codepoint: "120FB", name: "GAR",  value: "nig2", etcsl_value: "nij2", meaning: "thing, property (nig₂); to place (gar)", wedges: ~5, freq_etcsl: 53, freq_cdli: 64, certainty: stated, chapter: 9 }
+  - { glyph: "𒊮", codepoint: "122AE", name: "ŠA3",  value: "sza3", etcsl_value: "cag4", meaning: "heart, midst, mood",                  wedges: ~6, freq_etcsl: 47,  freq_cdli: 38,  certainty: stated, chapter: 9 }
+  - { glyph: "𒊑", codepoint: "12291", name: "RI",   value: "ri",   meaning: "syllable ri; distant — ud ri-a, \"in those days\"",        wedges: ~7, freq_etcsl: 85,  freq_cdli: 127, certainty: unclear, chapter: 10 }
+  - { glyph: "𒄑", codepoint: "12111", name: "GIŠ",  value: "gisz", etcsl_value: "jic",  meaning: "tree, wood; the {giš} determinative", wedges: ~4, freq_etcsl: 28,  certainty: classic, chapter: 10 }
+  - { glyph: "𒍣", codepoint: "12363", name: "ZI",   value: "zi",   etcsl_value: "zid",  meaning: "breath, life; true, righteous (zid)", wedges: ~6, freq_etcsl: 66,  freq_cdli: 44,  certainty: stated, chapter: 10 }
+  - { glyph: "𒋧", codepoint: "122E7", name: "SUM",  value: "szum2", etcsl_value: "cum2", meaning: "to give (a bundle of onions in origin, stated)", wedges: ~6, freq_etcsl: 114, freq_cdli: 76, certainty: stated, chapter: 11 }
+  - { glyph: "𒄿", codepoint: "1213F", name: "I",    value: "i",    meaning: "the bare vowel i; the cry of laments (i-lu)",              wedges: 5,  freq_etcsl: 63,  freq_cdli: 120, certainty: unclear, chapter: 11 }
