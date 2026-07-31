@@ -19,7 +19,7 @@ signs:
   - { glyph: "𒍪", codepoint: "1236A", name: "ZU",   value: "zu",   meaning: "tooth; to know",                                           wedges: 8, freq_etcsl: 16,  freq_cdli: 67,  certainty: classic, chapter: 3 }
   - { glyph: "𒈨", codepoint: "12228", name: "ME",   value: "me",   meaning: "rites, divine powers; to be",                              wedges: 2, freq_etcsl: 17,  freq_cdli: 57,  certainty: stated, chapter: 0 }
   - { glyph: "𒌨", codepoint: "12328", name: "UR",   value: "ur",   meaning: "dog; young man/warrior (in names)",                        wedges: 5, freq_etcsl: 73,  freq_cdli: 12,  certainty: stated, chapter: 0 }
-  - { glyph: "𒎏", codepoint: "1238F", name: "NIN",  value: "nin",  meaning: "lady, queen, mistress",                                    wedges: 7, freq_etcsl: 44,  freq_cdli: 40,  certainty: classic, chapter: 5 }
+  - { glyph: "𒎏", codepoint: "1238F", name: "NIN",  value: "nin",  osl_name: "|SAL.TUG2|", meaning: "lady, queen, mistress",             wedges: 7, freq_etcsl: 44,  freq_cdli: 40,  certainty: classic, chapter: 5 }
   - { glyph: "𒁺", codepoint: "1207A", name: "DU",   value: "du",   meaning: "to go; a foot/leg in origin",                              wedges: 5, freq_etcsl: 68,  freq_cdli: 47,  certainty: classic, chapter: 4 }
   - { glyph: "𒀝", codepoint: "1201D", name: "AK",   value: "ak",   meaning: "to do, to make",                                           wedges: 6, freq_etcsl: 72,  freq_cdli: 157, certainty: unclear, chapter: 2 }
   - { glyph: "𒉆", codepoint: "12246", name: "NAM",  value: "nam",  meaning: "fate, destiny; abstract-noun prefix",                      wedges: 7, freq_etcsl: 20,  freq_cdli: 102, certainty: stated, chapter: 3 }
