@@ -63,6 +63,14 @@ rake serve          # local preview at http://127.0.0.1:4000
 
 ## Content rules (this project's equivalent of code style)
 
+- Each school's conventions, notations, and standards choices are
+  spelled out EXPLICITLY in docs/courses/<school>.md — the single
+  source of truth, written BEFORE course content and updated in
+  the same commit as any new choice (owner ruling 2026-07-31,
+  after the ĝ/ŋ notation drift). script/rulebook.rb implements the
+  machine-checkable subset; the gate runs it before every Gate. A
+  notation decision never lands in content without landing in the
+  rulebook.
 - Every borrowed text/passage carries its Nabu URN and license class;
   original prose is CC BY-SA. Never strip or alter attribution.
 - Native script always accompanied by transliteration in the field's
@@ -147,7 +155,8 @@ calls in tests — committed extracts only.
 site/           the published site (Jekyll source): _config.yml,
                 _layouts/, assets/, index.md, <school>/<course>/
 docs/           process + concept (in-repo public, not on the site):
-                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md,
+                courses/ (per-school rulebooks — conventions law)
 .docs/          GITIGNORED internal docs — phase plans, owner
                 communication, surveys, consideration output. General
                 owner rule (2026-07-29): anything not intended for

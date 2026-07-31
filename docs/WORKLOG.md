@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Owner ruling: course rulebooks (single source of
+truth) · After the ĝ/ŋ drift the owner ruled: before starting a
+course, a working document spells out its conventions, notations,
+and standards choices explicitly, and mechanics check produced
+content against that rulebook before each Gate. Retrofitted:
+docs/courses/cuneiform.md + hieroglyphs.md (human-readable law —
+transliteration display, corpus quoting, license labels, prose
+register, pedagogy mechanics, and what the gate enforces);
+script/rulebook.rb implements the machine-checkable subset (ŋ not
+ĝ, no accent indexes, ETCSL/CDLI/aes license labels), wired into
+lint; every check cites its rulebook section. First run caught a
+published Gate-2-era accent (101 ch11's ì → i₃) and validated all
+license labels once whitespace-wrapping was handled. Codified in
+CLAUDE.md content rules: a notation decision never lands in
+content without landing in the rulebook; a new school writes its
+rulebook before any chapter.
+
 2026-07-31 · M6-1..M6-9 · phase-6 · Hieroglyphs 101 completed
 same-day as approval: chapters 07–12 (biliterals, phonetic
 complements + tomb family album, classifier system, culture words,
