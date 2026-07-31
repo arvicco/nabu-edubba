@@ -190,6 +190,17 @@ again, exactly as chapter 02 predicted it would — one phrase catching
 the consonant out in the open, another catching it hiding, and now
 you can tell the difference on sight.
 
+One more thing rode into that line and deserves to be named: the
+*-zu* on *nin-zu* is
+[chapter 03's]({{ '/cuneiform/102/03-say-it-twice/' | relative_url }})
+knowing-sign 𒍪 in a second job — as a suffix it means "your."
+You already own its partner: the *-ni*, "his/her," inside
+[chapter 05's]({{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }})
+*nam-ti-la-ni-še₃*. *-zu* is the "your" of that same family, and
+the register this chapter opened leans on it constantly — praise
+is always spoken *to* someone. A veteran sign, a new reading;
+the verb "to know" has not gone anywhere.
+
 ## Drill before you go on
 
 1. Write 𒆬, 𒈤, 𒌧 from memory; say *ku₃*, *mah*, *kalam*.

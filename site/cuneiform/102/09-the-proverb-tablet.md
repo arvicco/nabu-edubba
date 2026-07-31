@@ -160,10 +160,15 @@ its deepest work:
 </figure>
 
 Read the second line slowly: *niĝ₂ ak-zu* "the things you do" —
-the thing-maker plus chapter 02's *ak* plus "your"; *a-ba* "who?";
+the thing-maker plus chapter 02's *ak* plus the suffix *-zu*,
+"your," the knowing-sign's second job that
+[chapter 07]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
+named; *a-ba* "who?";
 *i₃-zu-zu* — chapter 08's *i₃-* ring on a doubled *zu*, "will
-really know." Every ring, every doubling, every case in that
-sentence is one this course handed you on purpose.
+really know." Notice 𒍪 working both its jobs in one line: suffix
+"your" at the start, verb "know" at the end. Every ring, every
+doubling, every case in that sentence is one this course handed
+you on purpose.
 
 ## Drill before you go on
 
