@@ -67,7 +67,7 @@ of *all sign-value occurrences* in two corpora that your cumulative
 inventory will then cover. Watch the number climb:
 
 <figure class="evolution">
-  <svg viewBox="0 0 640 240" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory after each chapter of 102, rising from about 22 percent to 38 percent of Sumerian literature, and from 32 to 41 percent of administrative documents.">
+  <svg viewBox="0 0 640 420" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory after each chapter of 102, rising from about 22 percent to 49 percent of Sumerian literature, and from 32 to 50 percent of administrative documents.">
     <title>Cumulative coverage by chapter (primary values — a floor)</title>
     <g fill="currentColor" font-size="13">
       <text x="8" y="52">ch. 00</text>
@@ -76,6 +76,12 @@ inventory will then cover. Watch the number climb:
       <text x="8" y="142">ch. 03</text>
       <text x="8" y="172">ch. 04</text>
       <text x="8" y="202">ch. 05</text>
+      <text x="8" y="232">ch. 06</text>
+      <text x="8" y="262">ch. 07</text>
+      <text x="8" y="292">ch. 08</text>
+      <text x="8" y="322">ch. 09</text>
+      <text x="8" y="352">ch. 10</text>
+      <text x="8" y="382">ch. 11</text>
     </g>
     <g fill="var(--accent, currentColor)" opacity="0.9">
       <rect x="70" y="40" width="221" height="12"/>
@@ -84,6 +90,12 @@ inventory will then cover. Watch the number climb:
       <rect x="70" y="130" width="352" height="12"/>
       <rect x="70" y="160" width="366" height="12"/>
       <rect x="70" y="190" width="381" height="12"/>
+      <rect x="70" y="220" width="408" height="12"/>
+      <rect x="70" y="250" width="418" height="12"/>
+      <rect x="70" y="280" width="462" height="12"/>
+      <rect x="70" y="310" width="476" height="12"/>
+      <rect x="70" y="340" width="486" height="12"/>
+      <rect x="70" y="370" width="491" height="12"/>
     </g>
     <g fill="currentColor" font-size="12" opacity="0.85">
       <text x="298" y="51">22.1% of literature · 32.5% of documents</text>
@@ -92,8 +104,14 @@ inventory will then cover. Watch the number climb:
       <text x="429" y="141">35.2% · 38.4%</text>
       <text x="443" y="171">36.6% · 39.6%</text>
       <text x="458" y="201">38.1% · 40.9%</text>
+      <text x="485" y="231">40.8% · 43.1%</text>
+      <text x="495" y="261">41.8% · 43.7%</text>
+      <text x="539" y="291">46.2% · 46.8%</text>
+      <text x="553" y="321">47.6% · 48.0%</text>
+      <text x="563" y="351">48.6% · 49.1%</text>
+      <text x="568" y="381">49.1% · 49.5%</text>
     </g>
-    <text x="70" y="228" fill="currentColor" font-size="12" opacity="0.7">bars: ETCSL literary corpus; paired figure: CDLI documentary corpus — primary values only, so a floor</text>
+    <text x="70" y="408" fill="currentColor" font-size="12" opacity="0.7">bars: ETCSL literary corpus; paired figure: CDLI documentary corpus — primary values only, so a floor</text>
   </svg>
   <figcaption class="citation">Computed by <code>bin/curriculum.rb</code>
   over the committed frequency tables (36,501 literary + 1.55M

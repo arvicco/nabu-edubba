@@ -41,6 +41,13 @@ decisions, and pedagogy. docs/DEV-LOOP.md governs process.
    do not reformat, rename, or "clean up" beyond the task's scope.
 8. **No secrets exist in this project and none may enter it.** The
    repo is public; never commit tokens, keys, or personal data.
+9. **All content is written by the top-tier model itself — never
+   delegated.** Chapter prose, readings, glosses, pedagogy: planned
+   AND executed by the Fable session model (owner ruling
+   2026-07-31; no Sonnet-drafted chapters, ever). Delegation to
+   lesser models is permitted only for non-content work (code,
+   tooling, mechanical transforms). Opus is banned from this
+   project entirely (owner ruling 2026-07-30).
 
 ## Commands
 
@@ -154,9 +161,10 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 4 — Egyptian hieroglyphs school opens (per D0-a; plan pending
-owner approval).
+Phase 5 — Cuneiform 102 second stretch (per D0-a alternation;
+literary readings unblocked by D3-a).
 
-Gate 3 merged 2026-07-30 (102 opening stretch: chapters 00–05, 18
-new signs, 43 taught total; sign links, hover bubbles, subscript
-rendering). Update this line at each gate.
+Gate 4 merged 2026-07-31 (Egyptian school open: Hieroglyphs 101
+chs 00–06, 35 signs; C101 retrofitted to every-chapter-opens rule;
+terms glossary + bubbles; URN axis links; 3-level sidebar).
+Update this line at each gate.
