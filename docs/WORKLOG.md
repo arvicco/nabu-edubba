@@ -5,6 +5,55 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-07-31 · Owner ruling: content is Fable-only (constitution) ·
+On PR #8 review the owner ruled: no Sonnet-drafted chapters, ever,
+period — all content writing is planned AND executed by the Fable
+session model; delegation stays permitted only for non-content work
+(code, tooling). Codified as CLAUDE.md golden rule 9; the P2–P5
+"impl-tier chapter" pattern is retired. The P5 agent drafts
+(07/08/10) stand as fully top-reviewed and revised in place. Also
+per review: back-references to prior chapters carry links — ch08's
+"chapter 04's delivery line" now links home.
+
+2026-07-31 · M5-1..M5-10 · phase-5 · Second stretch of Cuneiform 102
+shipped same-day: chapters 06–11 (names-as-sentences, copula +
+genitive unmasked, verbal-chain rings, proverbs + wish-forms,
+literary register, votive capstone), 17 new signs (60 taught),
+coverage ~49%/49.5% (floor). Instruments first: bin/pool_check.rb
+verifies pool identities against the OSL via nabu signs --json
+(first catch: OSL names NIN |SAL.TUG₂| — codepoint anchors
+identity, osl_name: acknowledges naming variance); sign_seq.rb
+signs mode counts TRUE sign occurrences (ETCSL 384k tokens 92%
+deterministic; CDLI 8M tokens as background run); reading_picker
+upgraded to per-chapter buckets with registry-driven ETCSL folding.
+GIŠ swapped out for A₂ when no attested line used it within
+inventory — taught-means-used admits no exceptions; lugal-a2-zi-da
+proved the replacement. Chapter 05's promise kept literally:
+nam-ti-la-ni-sze3 found verbatim in Lu-Utu of Umma's foundation
+inscription (P216741), read line by line in ch11. D3-a exercised:
+ETCSL quotes short + labeled non-commercial (Gilgamesh, Gudea,
+proverbs, incipit catalogues). Agent-drafted 07/08/10 top-reviewed;
+caught: 0.2.01 URNs are CATALOGUE entries misread as hymn lines
+(rewritten honestly), en zid hails the god not the ruler, third
+Foxvog citation over the 2-per-course cap, corpus name leaked into
+lesson prose, ch11 crediting ch08 with untaught mu-/-na- rings
+(agent's own flag). Errata fixed: ch05 "forty-four"→forty-three,
+README "18 more signs"→34 (off-by-one family). Gate green
+end-to-end; built pages surface-reviewed (pixels).
+
+2026-07-31 · Gate 4 CLOSED · PR #7 merged by owner (beb9528), CI +
+Pages deploy green, live surface review passed (hieroglyphs 05
+cartouches + sign table, /terms/ glossary, retrofitted C101 05 —
+pixels verified per DEV-LOOP §4.5). Egyptian school open:
+Hieroglyphs 101 chs 00–06, 35 signs, aes readings URN-verified.
+Catch: the D3-a ruling commit (3d02e10) landed on phase-4 after
+the owner had merged, so it missed main — cherry-picked onto
+phase-5 (lesson: after "merging now", freeze the phase branch;
+late notes start the next branch). Phase 5 opened: Cuneiform 102
+second stretch (chs 06–11), literary readings unblocked by D3-a;
+plan at .docs/phase-5-plan.md, owner pre-approved "plan and
+execute".
+
 2026-07-31 · Owner correction: signs must be THEMATIC, taught once ·
 The C101 front-load had grabbed the three number-strokes for ch01
 (Clay and Reed) — convenient, not thematic, and it double-listed

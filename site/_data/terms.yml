@@ -112,3 +112,12 @@ terms:
   - name: ergative
     slug: ergative
     def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"
+  - name: copula
+    slug: copula
+    def: "a word or word-part meaning \"to be,\" linking a subject to what it is — Sumerian attaches it to the word itself: lugal-me-en, \"I am king\""
+  - name: cohortative
+    slug: cohortative
+    def: "the verb form that says \"let me / let us\" — a wish the speaker makes about their own action; Sumerian fronts the verb with ga-"
+  - name: precative
+    slug: precative
+    def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"

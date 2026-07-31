@@ -24,9 +24,12 @@ with per-passage citations and licenses. The full design is in
 [101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
 thirteen chapters from orientation to decipherment, 26 signs,
 genuine Ur III royal inscriptions read in the original — and
-[102 · Sumerian](https://edubba.ac/cuneiform/102/) has its first
-stretch live: six chapters, 18 more signs in computed order, and
-readings from 4,600-year-old Fara-period tablets in full cuneiform.
+[102 · Sumerian](https://edubba.ac/cuneiform/102/) has two
+stretches live: twelve chapters, 34 more signs in computed order
+(60 taught in all — about half the sign-occurrences of the real
+corpora), readings from 4,600-year-old Fara-period tablets to
+Gilgameš lines, Sumerian proverbs, and a ruler's dedication read
+verbatim from its foundation inscription.
 The Egyptian school has opened with
 [Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/):
 seven chapters from the media and origins of the script through all
