@@ -37,10 +37,10 @@ shared at the end of a school day. First, the batch.
           the heart of the water</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒃻</td><td>GAR</td><td><em>niĝ₂</em></td>
+      <td class="script sign-cell">𒃻</td><td>GAR</td><td><em>niŋ₂</em></td>
       <td>thing, property</td>
       <td>the thing-maker: what <em>nam-</em> (ch. 03) does for
-          abstractions, <em>niĝ₂-</em> does for concrete stuff; the
+          abstractions, <em>niŋ₂-</em> does for concrete stuff; the
           sign also reads <em>gar</em>, "to place" — one shape, two
           jobs, as usual</td>
     </tr>
@@ -54,7 +54,7 @@ shared at the end of a school day. First, the batch.
   </tbody>
 </table>
 
-Write each five times, saying *ša₃*, *niĝ₂*, *ha*. The fish is the
+Write each five times, saying *ša₃*, *niŋ₂*, *ha*. The fish is the
 most honest picture left in your inventory; enjoy it.
 
 ## Grammar bite — the wish rings
@@ -106,11 +106,11 @@ half thousand years later, the sentence still translates itself.
 ## Things, given and owned
 
 The thing-maker earns its wedges on the receipts. The single
-commonest *niĝ₂*-word in the accounts is this one:
+commonest *niŋ₂*-word in the accounts is this one:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒃻𒁀</span><span class="translit">niĝ₂-ba</span><span class="gloss">gift — literally "a thing allotted," chapter 08's ba- frozen into a noun</span></div>
+    <div class="reading-line"><span class="script">𒃻𒁀</span><span class="translit">niŋ₂-ba</span><span class="gloss">gift — literally "a thing allotted," chapter 08's ba- frozen into a noun</span></div>
     <div class="reading-line"><span class="script">𒀀𒊮 𒈗𒄩𒈠𒋾</span><span class="translit">a-ša₃ lugal-ha-ma-ti</span><span class="gloss">"field of Lugal-hamati" — the holder's name is itself this chapter's wish-prefix at work: "may the king keep me alive," roughly — ha- on ti, "live" (approximate)</span></div>
     <div class="reading-line"><span class="script">𒉆𒄩𒉌 𒋗𒁀𒋾</span><span class="translit">nam-ha-ni šu ba-ti</span><span class="gloss">"Nam-hani received" — chapter 08's receipt verb; the name is built on nam-, "fate" (perhaps "may it be his fate" — name compression keeps it approximate), wrapped around this chapter's fish</span></div>
   </div>
@@ -149,7 +149,7 @@ its deepest work:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒊮𒁉𒉡𒍪</span><span class="translit">ša₃-bi nu-zu</span><span class="gloss">"its heart is unknowable" — said of a god's mind</span></div>
-    <div class="reading-line"><span class="script">𒃻𒀝𒍪 𒀀𒁀𒉌𒍪𒍪</span><span class="translit">niĝ₂ ak-zu a-ba i₃-zu-zu</span><span class="gloss">"the things you do — who can know them?"</span></div>
+    <div class="reading-line"><span class="script">𒃻𒀝𒍪 𒀀𒁀𒉌𒍪𒍪</span><span class="translit">niŋ₂ ak-zu a-ba i₃-zu-zu</span><span class="gloss">"the things you do — who can know them?"</span></div>
   </div>
   <figcaption class="citation">
     Gudea's temple hymn
@@ -159,7 +159,7 @@ its deepest work:
   </figcaption>
 </figure>
 
-Read the second line slowly: *niĝ₂ ak-zu* "the things you do" —
+Read the second line slowly: *niŋ₂ ak-zu* "the things you do" —
 the thing-maker plus chapter 02's *ak* plus the suffix *-zu*,
 "your," the knowing-sign's second job that
 [chapter 07]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
@@ -172,7 +172,7 @@ you on purpose.
 
 ## Drill before you go on
 
-1. Write 𒊮, 𒃻, 𒄩 from memory; say *ša₃*, *niĝ₂*, *ha*.
+1. Write 𒊮, 𒃻, 𒄩 from memory; say *ša₃*, *niŋ₂*, *ha*.
 2. Read both proverb lines cold, covering translit and gloss.
 3. Compose, in transliteration, "let me know" on the pattern of
    *ga-gu₇* — then write it in signs. (Two signs, both old.)

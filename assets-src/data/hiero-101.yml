@@ -54,3 +54,26 @@ signs:
   - { gardiner: R4,  translit: "ḥtp", mdc: "Htp", label: "loaf on a reed mat — offering, peace", sound: "hotep",                     taught_in: 6, certainty: classic }
   - { gardiner: X8,  translit: "ḏi̯",  mdc: "di",  label: "conical loaf held out — give", sound: "di",                                taught_in: 6, certainty: classic }
   - { gardiner: D28, translit: "kꜣ",  mdc: "kA",  label: "two raised arms — the ka, the life-force", sound: "ka",                    taught_in: 6, certainty: classic }
+  # ——— Second stretch (chs 07–11, M6-2). Biliterals, the classifier
+  # system, the culture words, and decipherment's two foreign-sound
+  # workhorses. Same authorities: Gardiner Sign List identifications,
+  # Allen §§2.6–3.5 for the sign classes; ranks merge from the aes
+  # frequency table as before.
+  - { gardiner: Y5,  translit: "mn",  mdc: "mn",  label: "game board with pieces — mn",   sound: "men",                        taught_in: 7, certainty: classic }
+  - { gardiner: V30, translit: "nb",  mdc: "nb",  label: "wicker basket — lord; every",   sound: "neb",                        taught_in: 7, certainty: classic }
+  - { gardiner: D2,  translit: "ḥr",  mdc: "Hr",  label: "human face — face; upon",       sound: "her",                        taught_in: 7, certainty: classic }
+  - { gardiner: F31, translit: "ms",  mdc: "ms",  label: "three fox skins tied — born of", sound: "mes",                       taught_in: 8, certainty: classic }
+  - { gardiner: G39, translit: "zꜣ",  mdc: "zA",  label: "pintail duck — son",            sound: "za",                         taught_in: 8, certainty: classic }
+  - { gardiner: W24, translit: "nw",  mdc: "nw",  label: "round pot — nw",                sound: "nu",                         taught_in: 8, certainty: classic }
+  - { gardiner: A1,  translit: "",    mdc: "",    label: "seated man — classifier: man, I", sound: "not read; classifies",     taught_in: 9, certainty: classic }
+  - { gardiner: B1,  translit: "",    mdc: "",    label: "seated woman — classifier: woman", sound: "not read; classifies",    taught_in: 9, certainty: classic }
+  - { gardiner: A2,  translit: "",    mdc: "",    label: "man with hand to mouth — classifier: eat, speak, think", sound: "not read; classifies", taught_in: 9, certainty: classic }
+  - { gardiner: Z2,  translit: "",    mdc: "",    label: "three strokes — classifier: plural", sound: "not read; classifies",  taught_in: 9, certainty: classic }
+  - { gardiner: Y1,  translit: "",    mdc: "",    label: "papyrus roll tied shut — classifier: abstract idea", sound: "not read; classifies", taught_in: 9, certainty: classic }
+  - { gardiner: G37, translit: "",    mdc: "",    label: "sparrow — classifier: small, bad, weak", sound: "not read; classifies", taught_in: 9, certainty: classic }
+  - { gardiner: S34, translit: "ꜥnḫ", mdc: "anx", label: "sandal strap? knot? — the ankh: life", sound: "ankh",                taught_in: 10, certainty: unclear }
+  - { gardiner: F35, translit: "nfr", mdc: "nfr", label: "heart and windpipe? — nefer: good, beautiful", sound: "nefer",       taught_in: 10, certainty: unclear }
+  - { gardiner: L1,  translit: "ḫpr", mdc: "xpr", label: "scarab beetle — kheper: become, transform", sound: "kheper",         taught_in: 10, certainty: classic }
+  - { gardiner: R8,  translit: "nṯr", mdc: "nTr", label: "temple flag on a pole — netjer: god", sound: "netcher",              taught_in: 10, certainty: classic }
+  - { gardiner: E23, translit: "rw",  mdc: "rw",  label: "recumbent lion — rw",           sound: "ru; borrowed for L",         taught_in: 11, certainty: classic }
+  - { gardiner: V4,  translit: "wꜣ",  mdc: "wA",  label: "lasso — wa",                    sound: "wa; carried o in Ptolemy",   taught_in: 11, certainty: classic }

@@ -126,8 +126,10 @@ final sound generously, and it ends in a sign you have not met:
     Nabu,
     <code>urn:nabu:aes:sawlit:L4M2NZM2YZAZRBIKQQBAVX743U:IBUBd34TiLKLQ0FqjeiMWhwlezE</code>
     · license: attribution. The final ▢ is a seated-figure sign that
-    classifies the word as a person's name — a determinative, chapter
-    03's silent classifier, still untaught in glyph form.
+    classifies the word as a person of rank — a determinative,
+    chapter 03's silent classifier, still untaught in glyph form.
+    This papyrus writes the name as borne by a namesake, not the
+    king himself — chapter 09 tells that story, and opens the box.
   </figcaption>
 </figure>
 

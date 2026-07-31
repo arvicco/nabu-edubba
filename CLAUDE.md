@@ -63,6 +63,14 @@ rake serve          # local preview at http://127.0.0.1:4000
 
 ## Content rules (this project's equivalent of code style)
 
+- Each school's conventions, notations, and standards choices are
+  spelled out EXPLICITLY in docs/courses/<school>.md — the single
+  source of truth, written BEFORE course content and updated in
+  the same commit as any new choice (owner ruling 2026-07-31,
+  after the ĝ/ŋ notation drift). script/rulebook.rb implements the
+  machine-checkable subset; the gate runs it before every Gate. A
+  notation decision never lands in content without landing in the
+  rulebook.
 - Every borrowed text/passage carries its Nabu URN and license class;
   original prose is CC BY-SA. Never strip or alter attribution.
 - Native script always accompanied by transliteration in the field's
@@ -147,7 +155,8 @@ calls in tests — committed extracts only.
 site/           the published site (Jekyll source): _config.yml,
                 _layouts/, assets/, index.md, <school>/<course>/
 docs/           process + concept (in-repo public, not on the site):
-                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md
+                concept.md, DEV-LOOP.md, BACKLOG.md, WORKLOG.md,
+                courses/ (per-school rulebooks — conventions law)
 .docs/          GITIGNORED internal docs — phase plans, owner
                 communication, surveys, consideration output. General
                 owner rule (2026-07-29): anything not intended for
@@ -161,10 +170,11 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 5 — Cuneiform 102 second stretch (per D0-a alternation;
-literary readings unblocked by D3-a).
+Phase 6 — Hieroglyphs 101 second stretch (approved 2026-07-31,
+executed; Gate 6 PR pending owner merge).
 
-Gate 4 merged 2026-07-31 (Egyptian school open: Hieroglyphs 101
-chs 00–06, 35 signs; C101 retrofitted to every-chapter-opens rule;
-terms glossary + bubbles; URN axis links; 3-level sidebar).
+Gate 5 merged 2026-07-31 (Cuneiform 102 second stretch: chs 06–11,
+17 new signs, 60 taught, ~49% corpus coverage; OSL identity
+instruments; literary readings per D3-a; content-is-Fable-only
+rule ratified as golden rule 9).
 Update this line at each gate.

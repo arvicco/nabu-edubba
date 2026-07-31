@@ -21,9 +21,11 @@ OUT = "site/_data/hiero_teaching.yml"
 pool = YAML.safe_load_file(POOL)["signs"]
 
 # Rank Gardiner codes by aes occurrence count (1 = most frequent).
+# Keys upcase so the table's mixed-case categories (Aa1) meet the
+# pool's AA1-style codes; first (best) rank wins on collision.
 ranks = {}
 File.readlines(FREQ, chomp: true).reject { |l| l.start_with?("#") || l.empty? }
-    .each_with_index { |l, i| ranks[l.split("\t").first] = i + 1 }
+    .each_with_index { |l, i| ranks[l.split("\t").first.upcase] ||= i + 1 }
 
 # Resolve all codes in one python3 pass; abort on any miss.
 codes = pool.map { |s| s["gardiner"] }

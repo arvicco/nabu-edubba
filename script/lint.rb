@@ -2,6 +2,7 @@
 
 require_relative "script_scan"
 require_relative "course_check"
+require_relative "rulebook"
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -23,6 +24,10 @@ require_relative "course_check"
 #                 — owner stylistic ruling 2026-07-30. Applies to
 #                 <span class="translit"> content; spans additionally
 #                 classed "atf" are exempt (verbatim raw-ATF exhibits)
+#   rulebook      course content obeys its school's rulebook
+#                 (docs/courses/<school>.md — the single source of
+#                 truth for conventions; script/rulebook.rb
+#                 implements the machine-checkable subset)
 #
 # Usage: ruby script/lint.rb [SITE_DIR]   (exit 1 + report on violations)
 
@@ -45,7 +50,8 @@ module Edubba
       sources(site_dir).flat_map { |path| check_file(site_dir, path) } +
         js_assets(site_dir) +
         font_coverage(site_dir, manifests) +
-        CourseCheck.violations(site_dir)
+        CourseCheck.violations(site_dir) +
+        Rulebook.violations(site_dir)
     end
 
     def font_coverage(site_dir, manifests = {})
