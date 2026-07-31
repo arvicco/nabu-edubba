@@ -140,7 +140,7 @@ after six batches, needs no box.
 
 ## The stretch, measured
 
-Six chapters, its new signs batch by batch, forty-four in your hand counting
+Six chapters, its new signs batch by batch, forty-three in your hand counting
 [101]({{ '/cuneiform/101/' | relative_url }})'s twenty-six. Set against that inventory: the
 sentence's basic habits (verb last, grammar worn as tags, the doer
 sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
