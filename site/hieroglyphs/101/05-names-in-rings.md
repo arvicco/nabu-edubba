@@ -96,7 +96,7 @@ it is already yours:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𓍹𓏏𓏏𓇋𓍺</span><span class="translit">Ttj</span><span class="gloss">Teti</span></div>
+    <div class="reading-line"><span class="script"><span class="nobr">𓍹𓏏𓏏𓇋𓍺</span></span><span class="translit">Ttj</span><span class="gloss">Teti</span></div>
   </div>
   <figcaption class="citation">
     Tomb inscriptions corpus (BBAW <em>Grabinschriften</em>), Old
@@ -181,7 +181,7 @@ nothing pictorial hiding the sounds.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𓍹𓊪𓏏𓍯𓃭𓅓𓇋𓇋𓋴𓍺</span><span class="translit">Ptwlmys</span><span class="gloss">Ptolemy</span></div>
+    <div class="reading-line"><span class="script"><span class="nobr">𓍹𓊪𓏏𓍯𓃭𓅓𓇋𓇋𓋴𓍺</span></span><span class="translit">Ptwlmys</span><span class="gloss">Ptolemy</span></div>
   </div>
   <figcaption class="citation">
     As carved on the Rosetta Stone, British Museum EA 24. Shown here

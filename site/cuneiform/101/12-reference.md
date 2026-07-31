@@ -117,7 +117,6 @@ of the CDLI and Oracc corpora:
 Original prose on this page and throughout the course is
 CC BY-SA 4.0. The ancient texts quoted in chapters 04 and 06 come
 from CDLI (license class: attribution) and are cited in place with
-URNs. Frequency data was computed from Nabu's ETCSL and CDLI
-holdings by <code>bin/sign_seq.rb</code> in this site's own
-repository — the counts, commands, and corpus sizes are committed
-alongside the site and reproducible.
+URNs. Sign frequencies were counted over Nabu's ETCSL and CDLI
+holdings — 36,501 lines of Sumerian literature and about 1.5
+million lines of administrative documents.

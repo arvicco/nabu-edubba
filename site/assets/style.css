@@ -529,5 +529,6 @@ a.urn-link:hover code { color: var(--accent); }
 .terms-list dt { font-weight: 700; margin-top: 0.9rem; }
 .terms-list dd { margin: 0.15rem 0 0 1.25rem; color: var(--ink); }
 
-/* Sign strings in readings never wrap mid-cartouche */
-.reading-line .script { white-space: nowrap; }
+/* Long sign strings may wrap (grid columns stay intact); runs that
+   must never split — cartouche + contents — are marked .nobr */
+.script .nobr { white-space: nowrap; }
