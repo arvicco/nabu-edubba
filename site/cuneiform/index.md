@@ -1,4 +1,5 @@
 ---
+layout: school
 school: cuneiform
 title: The Cuneiform School
 description: >-
