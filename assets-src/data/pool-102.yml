@@ -72,4 +72,5 @@ signs:
   - { glyph: "𒋻", codepoint: "122FB", name: "TAR",  value: "tar",  meaning: "to cut; to decree (nam ... tar, to decree fate)",          wedges: ~5, freq_etcsl: 97,  freq_cdli: 242, certainty: unclear, chapter: 17 }
   - { glyph: "𒇷", codepoint: "121F7", name: "LI",   value: "li",   meaning: "syllable li; juniper (stated)",                            wedges: ~7, freq_etcsl: 103, freq_cdli: 162, certainty: unclear }
   - { glyph: "𒅁", codepoint: "12141", name: "IB",   value: "ib",   meaning: "syllable ib; corner (stated)",                             wedges: ~5, freq_etcsl: 65,  freq_cdli: 274, certainty: unclear }
+  - { glyph: "𒇲", codepoint: "121F2", name: "LAL",  value: "la2",  meaning: "to hang, to weigh out; the spelling la₂",                  wedges: ~4, freq_etcsl: 52,  freq_cdli: 42,  certainty: stated, chapter: 17 }
   - { glyph: "𒍝", codepoint: "1235D", name: "ZA",   value: "za",   meaning: "bead, precious stone; syllable za — za-e, \"you\"",       wedges: ~3, freq_etcsl: 50,  freq_cdli: 97,  certainty: stated, chapter: 13 }

@@ -121,10 +121,11 @@ batches:
   coverage_cdli_pct: 53.6
 - chapter: 17
   signs:
+  - LAL
   - GU2
   - TAR
-  coverage_etcsl_pct: 52.9
-  coverage_cdli_pct: 53.9
+  coverage_etcsl_pct: 53.4
+  coverage_cdli_pct: 54.5
 signs:
 - glyph: "\U00012228"
   codepoint: '12228'
@@ -273,6 +274,18 @@ signs:
   certainty: unclear
   chapter: 2
   score: 71
+  pinned: true
+- glyph: "\U000121F2"
+  codepoint: 121F2
+  name: LAL
+  value: la2
+  meaning: to hang, to weigh out; the spelling la₂
+  wedges: "~4"
+  freq_etcsl: 52
+  freq_cdli: 42
+  certainty: stated
+  chapter: 17
+  score: 74
   pinned: true
 - glyph: "\U0001235D"
   codepoint: 1235D
