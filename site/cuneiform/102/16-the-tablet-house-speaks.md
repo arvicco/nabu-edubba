@@ -121,6 +121,22 @@ sample:
   </figcaption>
 </figure>
 
+The pieces you can hold, piece by piece:
+
+- **niŋ₂ … niŋ₂-e** — "a thing … the thing": <a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">chapter 09's</a>
+  thing-word twice — and the second time it wears the doer's *-e*
+  from <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>:
+  in the second half, the *thing* is the one acting. That reversal
+  is the proverb's whole engine.
+- **kal-kal … kal-kal** — <a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">chapter 15's</a>
+  "precious," doubled for intensity on both sides: treasuring,
+  thoroughly, in both directions.
+- **-en** — "you," closing the first half: the advice is aimed.
+- The two openers, *nam-* and *me-*, are verbal prefixes from
+  deeper in the chain than this course goes — the grammars carry
+  them; the proverb's symmetry (you treasure it / it treasures you
+  back) stands without them.
+
 The *Instructions* are framed as a father advising his son — the
 same frame as Egypt's Satire of the Trades, invented independently
 a thousand kilometers away, because parents are parents. Copying

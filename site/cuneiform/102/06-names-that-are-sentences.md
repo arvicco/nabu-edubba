@@ -83,9 +83,13 @@ Start with one you could have read five chapters ago:
   </figcaption>
 </figure>
 
-Three signs, three words, a subject and a verb — a sentence someone
-answered to. Now the new batch goes to work on two more, from the
-same genre of tablets:
+Three signs, three words: *lugal* the king, *gal* "great," *zu*
+the knowing — and the gloss's two readings differ only in how they
+wire them: is the king the one who knows greatness, or the great
+one who knows *you*? Names compress harder than sentences, and
+editors keep both wirings open. Either way, a subject, a verb —
+a sentence someone answered to. Now the new batch goes to work on
+two more, from the same genre of tablets:
 
 <figure class="reading reading--script">
   <div class="reading-lines">

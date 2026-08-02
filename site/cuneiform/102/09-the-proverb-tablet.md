@@ -173,15 +173,32 @@ its deepest work:
   </figcaption>
 </figure>
 
-Read the second line slowly: *niŋ₂ ak-zu* "the things you do" —
-the thing-maker plus <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> *ak* plus the suffix *-zu*,
-"your," the knowing-sign's second job that
-[chapter 07]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
-named; *a-ba* "who?";
-*i₃-zu-zu* — <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> *i₃-* ring on a doubled *zu*, "will
-really know." Notice 𒍪 working both its jobs in one line: suffix
+Piece by piece — first line:
+
+- **ša₃-bi** — "its heart": this chapter's 𒊮 wearing
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a>
+  *-bi*, the "its" of things — look back for the owner, and the
+  owner is a god's unknowable mind.
+- **nu-zu** — "not known":
+  <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a>
+  *nu-* flat against the knowing 𒍪 — the exact pattern of that
+  chapter's "hero unknown."
+
+And the second:
+
+- **niŋ₂ ak-zu** — "the things you do": the thing-maker, plus
+  <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a>
+  *ak*, "to do," plus the suffix *-zu*, "your" — the knowing-sign's
+  second job that
+  [chapter 07]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
+  named.
+- **a-ba** — "who?": the question word, bare.
+- **i₃-zu-zu** — <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> *i₃-* ring on a doubled *zu*: "will
+  really know."
+
+Notice 𒍪 working both its jobs in one line: suffix
 "your" at the start, verb "know" at the end. Every ring, every
-doubling, every case in that sentence is one this course handed
+doubling, every case in these sentences is one this course handed
 you on purpose.
 
 ## Drill before you go on

@@ -119,6 +119,32 @@ warnings short enough to copy before lunch. This is why the
 proverbs were the school's curriculum: every one is a grammar
 drill wearing a punchline.
 
+The row's two longest chains, taken fully apart:
+
+- **ur-e nu-mu-na-an-šum₂** — the dog first, wearing the doer's
+  *-e* from
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>;
+  then one chain: *nu-* "not"
+  (<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">ch. 08</a>),
+  *mu-* the homeward opener and *-na-* "to him"
+  (<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">ch. 12</a>),
+  a small *-an-* agreement piece the full grammars carry, and
+  *šum₂*, <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a>
+  giving verb as the stem. Dog — to-him — gave — not: he gave him
+  none.
+- **kug-zu nam-kug-zu na-an-ak-e** — *kug-zu*, "wise": literally
+  pure-knowing, <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a>
+  *kug* beside the knowing 𒍪. Then *nam-kug-zu*, "wisdom" —
+  <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
+  maker on the same word. Then the warning: *na-*, this chapter's
+  finger-wag, the same little *-an-*, and *ak*, "to do"
+  (<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">ch. 02</a>),
+  with a final *-e* the grammars file with the not-yet-done. The
+  wise — their wisdom — let them not perform it.
+
+And the fifth saying's *du₃-a* is this chapter's own describer
+ring in the wild: "a house *which* an honest man built."
+
 ## The blessing that answers
 
 *Gi₄* means "return" — and doubled under a wish-ring, it becomes
@@ -148,7 +174,7 @@ generous:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀 𒃲𒃲𒂊 𒊺 𒋛𒋛𒀀𒁕</span><span class="translit">a gal-gal-e še si-si-a-da</span><span class="gloss">"that the great waters might fill (the land) with barley" — si doubled into abundance; <a href="{{ '/cuneiform/101/' | relative_url }}">101's</a> water, great, and barley doing what they always did</span></div>
+    <div class="reading-line"><span class="script">𒀀 𒃲𒃲𒂊 𒊺 𒋛𒋛𒀀𒁕</span><span class="translit">a gal-gal-e še si-si-a-da</span><span class="gloss">"that the great waters might fill (the land) with barley" — si doubled into abundance; <a href="{{ '/cuneiform/101/' | relative_url }}">101's</a> water, great, and barley doing what they always did; and the -da tail wraps the verb into a purpose, "SO THAT they might fill" — the same wrapper as <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> šum₂-mu-da</span></div>
   </div>
   <figcaption class="citation">
     Gudea's temple hymn. <code>urn:nabu:etcsl:2.1.7:1158</code> ·
