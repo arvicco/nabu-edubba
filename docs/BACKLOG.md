@@ -351,6 +351,19 @@ drift incident.
 ## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: done] [deps: M7-7]
 ## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: done] [deps: M7-8]
 ## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M7-9]
+## M7-13 · E Addenda: Egyptian glossary split out  [tier: top — Fable] [status: done] [deps: M7-12]
+   Owner-directed: hieroglyphs school gets its own Addenda shelf at
+   /hieroglyphs/addenda/ with the Egyptian glossary — 17 terms used
+   only by the Egyptian courses (classified empirically by grep:
+   serekh, cartouche, uniliteral…, hieratic, demotic) tagged
+   school: hieroglyphs in terms.yml (additive field) and rendered
+   at /hieroglyphs/addenda/terms/; /terms/ keeps the shared +
+   cuneiform terms with a cross-link. Term linker now routes each
+   bubble to its term's home glossary (multi-page support in
+   script/term_linker.rb + plugin, tests added). C102 ch17
+   "emphatic prefix" reworded to "affirmative prefix" (Foxvog's
+   term — and dodges the phonetics bubble). Stale hieroglyphs
+   catalog entry ("opening chapters arriving") fixed in passing.
 ## M7-12 · C Addenda: writing primer + terms anchored  [tier: top — Fable] [status: done] [deps: M7-11]
    Owner-directed: new school-level Addenda section (out-of-course
    shelf) at /cuneiform/addenda/ holding the Writing primer — the

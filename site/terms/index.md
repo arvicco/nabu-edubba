@@ -19,8 +19,12 @@ you hover a dotted-underlined term anywhere on the site; this page
 is the place to look one up deliberately. Terms are listed
 alphabetically.
 
+Egyptian-specific terms — cartouche, uniliteral, serekh, and their
+kin — have their own page in the hieroglyphs school's
+[Egyptian glossary]({{ '/hieroglyphs/addenda/terms/' | relative_url }}).
+
 <dl class="terms-list">
-{% assign sorted = site.data.terms.terms | sort: "name" %}
+{% assign sorted = site.data.terms.terms | where_exp: "t", "t.school != 'hieroglyphs'" | sort: "name" %}
 {% for t in sorted %}
   <dt id="term-{{ t.slug }}">{{ t.name }}</dt>
   <dd>{{ t.def }}</dd>
