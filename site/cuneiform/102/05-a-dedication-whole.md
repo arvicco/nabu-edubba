@@ -140,32 +140,14 @@ named for the god or the god took the name first is the kind of
 question these lists never quite settle — but the reading itself,
 after six batches, needs no box.
 
-## The stretch, measured
-
-Six chapters, its new signs batch by batch, forty-three in your hand counting
-[101]({{ '/cuneiform/101/' | relative_url }})'s twenty-six. Set against that inventory: the
-sentence's basic habits (verb last, grammar worn as tags, the doer
-sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
-*-da*, the genitive that hides its own consonant, doubling for
-plurals and repeated action, *nam-* turning things into
-abstractions, the verbal chain's rough silhouette — and now, this
-chapter, a full dedication formula built from nothing but signs
-already sitting in your inventory. Put simply: you can now read
-about 4 out of every 10 signs on a real tablet.
-
-What is left is exactly what this stretch has been pointing at. A
-later phase of this track returns to read real votive inscriptions
-verbatim — the formula above quoted from actual stone and clay, not
-assembled for a lesson — to unmask the genitive's hidden consonant
-properly, and to take the verbal chain's silhouette apart piece by
-piece. Batches will keep coming the same computed way; grammar will
-keep arriving only when a reading demands it.
-
-For now: the opening stretch is done. Revisit the
-[course page]({{ '/cuneiform/102/' | relative_url }}) for the map of
-what came before, or step back to the
-[school catalog]({{ '/cuneiform/' | relative_url }}) to see where
-this track sits among the others.
+The opening stretch ends here. What comes next is exactly what it
+has been pointing at: a later stretch returns to read real votive
+inscriptions verbatim — the formula above quoted from actual stone
+and clay, not assembled for a lesson — to unmask the genitive's
+hidden consonant properly, and to take the verbal chain's
+silhouette apart piece by piece. Batches will keep coming the same
+computed way; grammar will keep arriving only when a reading
+demands it.
 
 ## Drill before the pause
 

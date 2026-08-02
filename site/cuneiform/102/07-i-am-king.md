@@ -111,8 +111,8 @@ he speaks, and the first thing out of his mouth is *lugal-me-en*.
 One more thing, worth a single sentence and no table: Sumerian also
 has a third-person copula, "it is" or "he/she/it is," which shows up
 as *-am₃* — commonly written with two more old friends of yours,
-𒀀 and 𒀭. You are not learning that form yet; just notice it exists,
-so it does not surprise you later.
+𒀀 and 𒀭. A real line at the end of this chapter puts it to work,
+as soon as its other pieces are yours.
 
 ## Vocabulary that leans on it
 
@@ -160,7 +160,7 @@ that promise, kept, in *kalam*, this chapter's own new sign:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌧𒈠𒅗</span><span class="translit">kalam-ma-ka</span><span class="gloss">"of the Land" — kalam + the genitive -ak, its hidden /k/ surfacing before a further vowel, written out in full as -ka</span></div>
+    <div class="reading-line"><span class="script">𒌧𒈠𒅗</span><span class="translit">kalam-ma-ka</span><span class="gloss">"in (the house) of the Land" — kalam + the genitive -ak with its hidden /k/ written out, because a real vowel follows: the locative -a of chapter 01, "in"</span></div>
   </div>
   <figcaption class="citation">
     From a praise poem of Enlil-bani. <code>urn:nabu:etcsl:2.5.8.1:181</code>
@@ -173,8 +173,16 @@ word's own final /m/ written again as glue, the same job
 <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter
 05's</a> *-la-* did for *til* — carrying the genitive's vowel, and then
 the genitive's /k/ stepping fully into view in *-ka* because, this
-time, a vowel follows for it to stand on. This is the exact
-mechanism <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02</a> described in the abstract, now sitting in
+time, a vowel follows for it to stand on. And that vowel is no
+filler: it is the locative *-a* from
+<a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter
+01's</a> tag list — the line says "*in* (the house) of the Land,"
+and the house the poem has just named is the *e₂-dub-ba-a* itself,
+the tablet house, which
+<a href="{{ '/cuneiform/102/16-the-tablet-house-speaks/' | relative_url }}">chapter
+16</a> will walk into through this very passage. Genitive /k/, held
+up by a locative — this is the exact mechanism
+<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02</a> described in the abstract, now sitting in
 front of you written out: the tag was never gone, only shy.
 
 <figure class="reading reading--script">
@@ -201,7 +209,30 @@ You already own its partner: the *-ni*, "his/her," inside
 *nam-ti-la-ni-še₃*. *-zu* is the "your" of that same family, and
 the register this chapter opened leans on it constantly — praise
 is always spoken *to* someone. A veteran sign, a new reading;
-the verb "to know" has not gone anywhere.
+the verb "to know" has not gone anywhere. In fact it is working
+both jobs in that one line: *a-zu*, the healer, is — by the
+traditional reading — "the one who knows the waters": 𒀀, 101's
+very first sign, plus the knowing 𒍪. Suffix "your" on the lady,
+verb "know" inside the healer's title, three signs apart.
+
+And now that *-zu* is yours, the third-person copula from this
+chapter's grammar bite can stop being an abstraction. Here it is
+on a real line, wearing this chapter's own vocabulary:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒂍𒍪 𒈤𒀀𒀭</span><span class="translit">e₂-zu mah-am₃</span><span class="gloss">"your house is majestic" — house + your + mah, this chapter's majesty word + -am₃, "it is": the third-person copula at work</span></div>
+  </div>
+  <figcaption class="citation">
+    From <em>Ninurta's journey to Eridug</em>, a hymn whose praise
+    runs in pairs — "your city is majestic, your house is
+    majestic." <code>urn:nabu:etcsl:4.27.02:D.8</code> · license:
+    ETCSL · non-commercial.
+  </figcaption>
+</figure>
+
+*Lugal-me-en* said "I am"; *e₂-zu mah-am₃* says "it is." Between
+them, the copula's two faces — and every sign in both is yours.
 
 ## Drill before you go on
 
@@ -212,8 +243,9 @@ the verb "to know" has not gone anywhere.
    carries.
 4. Read *kalam-ma-ka* aloud and explain, in one sentence, why its /k/
    is written out while the /k/ in *e₂ lugal-ak* usually is not.
-5. Say aloud what *-am₃* is a preview of, and which two signs
-   commonly spell it.
+5. Write *e₂-zu mah-am₃* from memory, name which two old friends
+   spell the *-am₃* — and say in one sentence how it differs from
+   *-me-en*.
 
 *Next: the verbal chain taken apart — the prefixes ba-, i₃-, and
 in-, and how Sumerian says no.*

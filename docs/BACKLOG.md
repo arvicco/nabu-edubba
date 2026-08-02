@@ -351,6 +351,15 @@ drift incident.
 ## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: done] [deps: M7-7]
 ## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: done] [deps: M7-8]
 ## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M7-9]
+## M7-14 · Owner review round 4 (rebuilt notes)  [tier: top — Fable] [status: done] [deps: M7-13]
+   Six findings dictated after the ctrl-s draft loss (preserved in
+   .docs/owner-review-round4.md): gur term bubble; "stretch,
+   measured" gloating cut from chs 05/11 (promises kept, brag
+   removed); ch07 kalam-ma-ka's final -a identified as the locative
+   (corpus context verified — it is the eduba doxology ch16 quotes),
+   a-zu's a- unpacked, -am₃ gets an attested example (e₂-zu mah-am₃,
+   Ninurta B D.8, signs OSL-resolved); ch08 ba-/in- show their
+   glyphs and the ba-ti diagram reordered noun-first/verb-last.
 ## M7-13 · E Addenda: Egyptian glossary split out  [tier: top — Fable] [status: done] [deps: M7-12]
    Owner-directed: hieroglyphs school gets its own Addenda shelf at
    /hieroglyphs/addenda/ with the Egyptian glossary — 17 terms used
