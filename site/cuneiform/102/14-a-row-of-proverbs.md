@@ -83,48 +83,82 @@ ate," "built" becomes "built by" — a sentence collapsed into a
 label you can hang on a noun (the grammars file it as the
 nominalizer). And it is a different worker from the locative *-a*
 of <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>: that one rides nouns and says "in"; this one rides
-verbs and says "who, which, where." The row below uses it twice
-in its first five lines.
+verbs and says "who, which, where." Two of the row's sayings
+below run on it — the glutton and the honest house.
 
 ## The row
 
-Read it the way a schoolboy copied it — straight through, one
-saying after another:
+A schoolboy's exercise tablet strings unrelated sayings one after
+another — that is what "a row" is. Here is one such row, five
+sayings from four different proverb collections, each taken on its
+own terms. (Proverbs compress; glosses follow the corpus's own and
+stay approximate where a saying is cryptic.)
+
+**The glutton.** Two lines, one proverb — gluttony, then
+consequence:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒇽 𒅥𒀀</span><span class="translit">lu₂ gu₇-a</span><span class="gloss">"the man who ate —"</span></div>
-    <div class="reading-line"><span class="script">𒀭 𒀭𒆪𒁉</span><span class="translit">diŋir an-dab₅-be₂</span><span class="gloss">"— the god seizes him." A two-line proverb: gluttony, then consequence; 𒁉 wearing its be₂ reading, a veteran's new job</span></div>
-    <div class="reading-line"><span class="script">𒌨 𒄿𒅎𒁲</span><span class="translit">ur i-im-di</span><span class="gloss">"the dog wanders about" — di's going-sense, per the corpus's own gloss; <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> clay-sign 𒅎 riding inside the chain</span></div>
-    <div class="reading-line"><span class="script">𒌨𒂊 𒉡𒈬𒈾𒀭𒋧</span><span class="translit">ur-e nu-mu-na-an-šum₂</span><span class="gloss">"the dog gave him none" — a whole chain in the wild: doer's -e, nu-, mu-, -na-, and the giving verb of <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a></span></div>
-    <div class="reading-line"><span class="script">𒂍 𒇽 𒍣𒁕 𒆕𒀀</span><span class="translit">e₂ lu₂ zid-da du₃-a</span><span class="gloss">"a house built by an honest man" — <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10's</a> zid and <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> du₃, shoulder to shoulder</span></div>
-    <div class="reading-line"><span class="script">𒆬𒍪 𒉆𒆬𒍪 𒈾𒀭𒀝𒂊</span><span class="translit">kug-zu nam-kug-zu na-an-ak-e</span><span class="gloss">"let the wise not perform their wisdom" — the na- ring, live: modesty, ordered by proverb</span></div>
+    <div class="reading-line"><span class="script">𒀭 𒀭𒆪𒁉</span><span class="translit">diŋir an-dab₅-be₂</span><span class="gloss">"— the god seizes him."</span></div>
   </div>
   <figcaption class="citation">
-    Sumerian proverb collections, composite texts:
+    <em>Proverbs: collection 22</em>, composite text.
     <code>urn:nabu:etcsl:6.1.22:22.ll.276-277.276</code> and
-    <code>.277</code>, <code>urn:nabu:etcsl:6.1.07:C.7.73.8</code>,
-    <code>urn:nabu:etcsl:6.1.03:A.3.94.176</code>,
-    <code>urn:nabu:etcsl:6.1.23:B.23.7.11</code>,
-    <code>urn:nabu:etcsl:6.2.3:104.1</code> · license: ETCSL ·
-    non-commercial. Proverbs compress; glosses follow the corpus's
-    own and stay approximate where the saying is cryptic.
+    <code>.277</code> · license: ETCSL · non-commercial.
   </figcaption>
 </figure>
 
-Six sayings, and look what they exercise: <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> chain rings,
-<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> giving verb, <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> builder, this chapter's
-seize and wander, and a brand-new ring — all inside jokes and
-warnings short enough to copy before lunch. This is why the
-proverbs were the school's curriculum: every one is a grammar
-drill wearing a punchline.
+- **lu₂ gu₇-a** — "the man who ate": this chapter's describer *-a*
+  on its first outing, folding "the man ate" into a label — and
+  leaving him hanging there, waiting for line two.
+- **diŋir an-dab₅-be₂** — the god, then the seizing: *dab₅*, this
+  chapter's new stem, inside a chain whose small *an-* opener and
+  *-be₂* ending (𒁉 in a veteran's new reading) are agreement
+  pieces the full grammars carry. The sense needs no help:
+  *seizes*.
 
-The row's two longest chains, taken fully apart:
+**The dog at large.** From another collection entirely:
 
-- **ur-e nu-mu-na-an-šum₂** — the dog first, wearing the doer's
-  *-e* from
-  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>;
-  then one chain: *nu-* "not"
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒌨 𒄿𒅎𒁲</span><span class="translit">ur i-im-di</span><span class="gloss">"the dog wanders about"</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Proverbs: collection 7</em>, composite text.
+    <code>urn:nabu:etcsl:6.1.07:C.7.73.8</code> · license: ETCSL ·
+    non-commercial.
+  </figcaption>
+</figure>
+
+- **ur** — the dog, *bare*: no doer's *-e*, because nothing is
+  acted on — wandering just happens. Hold that thought for the
+  next saying.
+- **i-im-di** — the opener in its *im-* shape
+  (<a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a>
+  taught you to spot 𒅎 in a chain), on *di* in its going-sense,
+  per the corpus's own gloss.
+
+**The stingy dog.** A different collection's dog, and this one
+acts:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒌨𒂊 𒉡𒈬𒈾𒀭𒋧</span><span class="translit">ur-e nu-mu-na-an-šum₂</span><span class="gloss">"the dog gave him none"</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Proverbs: collection 3</em>, composite text.
+    <code>urn:nabu:etcsl:6.1.03:A.3.94.176</code> · license: ETCSL ·
+    non-commercial.
+  </figcaption>
+</figure>
+
+- **ur-e** — the dog again — but wearing the doer's *-e* from
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>
+  this time, because this dog *does* something. Two sayings, one
+  animal: bare when he wanders, tagged when he acts — the ergative
+  habit, demonstrated by dogs.
+- **nu-mu-na-an-šum₂** — one whole chain: *nu-* "not"
   (<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">ch. 08</a>),
   *mu-* the homeward opener and *-na-* "to him"
   (<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">ch. 12</a>),
@@ -132,18 +166,62 @@ The row's two longest chains, taken fully apart:
   *šum₂*, <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a>
   giving verb as the stem. Dog — to-him — gave — not: he gave him
   none.
-- **kug-zu nam-kug-zu na-an-ak-e** — *kug-zu*, "wise": literally
-  pure-knowing, <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a>
-  *kug* beside the knowing 𒍪. Then *nam-kug-zu*, "wisdom" —
+
+**The honest house.**
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒂍 𒇽 𒍣𒁕 𒆕𒀀</span><span class="translit">e₂ lu₂ zid-da du₃-a</span><span class="gloss">"a house built by an honest man"</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Proverbs: collection 23</em>, composite text.
+    <code>urn:nabu:etcsl:6.1.23:B.23.7.11</code> · license: ETCSL ·
+    non-commercial.
+  </figcaption>
+</figure>
+
+- **e₂** — the house, first: what the rest of the line describes.
+- **lu₂ zid-da** — "an honest man":
+  <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10's</a>
+  *zid*, "true," with its spelling glue *-da* — the very pattern
+  of that chapter's *a₂-zi-da*.
+- **du₃-a** —
+  <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a>
+  build-stem plus the describer *-a* again: "a house *which* an
+  honest man built" — and, the proverb implies, one that stands.
+
+**Modesty, ordered.** The row's finish, and the new ring live:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">𒆬𒍪 𒉆𒆬𒍪 𒈾𒀭𒀝𒂊</span><span class="translit">kug-zu nam-kug-zu na-an-ak-e</span><span class="gloss">"let the wise not perform their wisdom"</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Proverbs from Urim</em>, composite text.
+    <code>urn:nabu:etcsl:6.2.3:104.1</code> · license: ETCSL ·
+    non-commercial.
+  </figcaption>
+</figure>
+
+- **kug-zu** — "wise": literally pure-knowing,
+  <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a>
+  *kug* beside the knowing 𒍪.
+- **nam-kug-zu** — "wisdom":
   <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
-  maker on the same word. Then the warning: *na-*, this chapter's
-  finger-wag, the same little *-an-*, and *ak*, "to do"
+  maker on the same word.
+- **na-an-ak-e** — the warning: *na-*, this chapter's finger-wag,
+  the same little *-an-*, and *ak*, "to do"
   (<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">ch. 02</a>),
   with a final *-e* the grammars file with the not-yet-done. The
   wise — their wisdom — let them not perform it.
 
-And the fifth saying's *du₃-a* is this chapter's own describer
-ring in the wild: "a house *which* an honest man built."
+Five sayings, and look what they exercise between them:
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> chain rings,
+<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> giving verb, <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> builder, this chapter's
+seize and wander and describer, and a brand-new ring — all inside
+jokes and warnings short enough to copy before lunch. This is why
+the proverbs were the school's curriculum: every one is a grammar
+drill wearing a punchline.
 
 ## The blessing that answers
 
@@ -193,9 +271,9 @@ generous:
 4. Parse *ha-ma-gi₄-gi₄* ring by ring.
 5. Compose, in transliteration, a na- warning of your own against
    over-eating. The proverbs would approve.
-6. The row's first and fifth sayings both carry the nominalizing
-   -a. Point to each, and say in one sentence how you know neither
-   is the locative.
+6. The glutton and the honest house both carry the nominalizing
+   -a. Point to it in each, and say in one sentence how you know
+   neither is the locative.
 
 *Next: the king who was born a hero — Šulgi's own hymn, at last,
 with his own name in your hands.*
