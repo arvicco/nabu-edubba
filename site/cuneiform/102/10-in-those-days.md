@@ -47,7 +47,8 @@ the vocabulary the shift runs on.
     </tr>
     <tr>
       <td class="script sign-cell">𒊑</td><td>RI</td><td><em>ri</em></td>
-      <td>the syllable ri (also re); distant</td>
+      <td>the syllable ri (also re); distant; as a verb, to pour
+          out, set upon</td>
       <td>the sign behind Sumerian epic's favorite way to begin:
           <em>ud ri-a</em> / <em>ud re-a</em>, "in those distant
           days"</td>
@@ -173,7 +174,7 @@ hymn that gave last chapter's "its heart is unknowable":
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂗𒍣𒀀𒆳𒃲𒂊𒊑𒀀</span><span class="translit">en zid a kur gal-e ri-a</span><span class="gloss">"true lord, seed poured out by the great mountain" — en zid, "true lord" + a … ri-a, "engendered, poured out" + kur gal-e, "by the great mountain," Enlil's own praise-name, marked with the doer's tag -e from <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></span></div>
+    <div class="reading-line"><span class="script">𒂗𒍣𒀀𒆳𒃲𒂊𒊑𒀀</span><span class="translit">en zid a kur gal-e ri-a</span><span class="gloss">"true lord, seed poured out by the great mountain" — taken apart piece by piece below</span></div>
   </div>
   <figcaption class="citation">
     Gudea's temple hymn. <code>urn:nabu:etcsl:2.1.7:210</code> ·
@@ -181,12 +182,32 @@ hymn that gave last chapter's "its heart is unknowable":
   </figcaption>
 </figure>
 
-Read it in order: the temple's own god is hailed as *en zid*,
-"true lord," then credited to a divine source — *a … ri-a* frames
-him as water "poured out," engendered, and the source is *kur
-gal-e*, "the great mountain," one of the god Enlil's own
-praise-names, wearing the doer's tag *-e* you first met on
-*lugal-e* back in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>. Four
+Piece by piece, in the line's own order:
+
+- **en zid** — "true lord": the register's seal of approval, here
+  on the temple's own god.
+- **a** — "water," 101's very first sign, in its oldest metaphor:
+  the engendering seed. Everything after this word describes where
+  that seed came from.
+- **kur gal-e** — "the great mountain," one of the god Enlil's own
+  praise-names, wearing the doer's tag *-e* you first met on
+  *lugal-e* back in
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>:
+  the mountain is the one doing what comes next.
+- **ri-a** — two small pieces doing the line's biggest work. *Ri*
+  here is **not** this chapter's "distant": it is the same sign's
+  other job, a verb — "to pour out, to set upon." And the final
+  *-a* is the describer ring you met on
+  <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter
+  08's</a> lion line: it folds the sentence "the great mountain
+  poured the seed" into a description hung back on the lord —
+  "true lord, *seed-poured-out-by-the-great-mountain*."
+  <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">Chapter 14</a>
+  opens that ring properly.
+
+One sign, two lives in one chapter: *ri* the pointer ("that
+distant day") and *ri* the verb ("poured out"). Context — and the
+company each keeps — tells you which you are reading. Four
 of this chapter's readings stack the same word, *zid*, over four
 different kinds of nobility — a son, an arm, a set of powers, a
 lord — and every time it means the same thing: this one is the real
@@ -221,7 +242,8 @@ receipt never repeats a line for effect; a lament always does.
 
 1. Write 𒍣, 𒀉, 𒊑 from memory; say *zi*, *a₂*, *ri*.
 2. Read *ud re-a* aloud and explain, in one sentence, what job the
-   "distant" sense of *ri/re* is doing there.
+   "distant" sense of *ri/re* is doing there — then name the
+   *other* job *ri* works in this chapter's last praise-line.
 3. Name the four different nouns that *zid* attaches to across this
    chapter's readings, and say in one sentence what the word adds
    each time.
