@@ -133,6 +133,9 @@ terms:
   - name: precative
     slug: precative
     def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+  - name: transitive
+    slug: transitive
+    def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
   - name: nominalizer
     slug: nominalizer
     def: "a small word-part that folds a whole clause into a description or a thing — Sumerian's is -a: \"ate\" becomes \"who ate\""

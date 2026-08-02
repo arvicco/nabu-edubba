@@ -88,11 +88,13 @@ Each tag, with a sentence to hold it by:
   <span class="script">𒂍𒁉</span> *e₂-bi*, "its house" — say, the
   city's temple, the estate's storehouse. Persons get *-ani*, everything
   else gets *-bi*; when you meet *e₂-bi* in a text, look back for the
-  city, field, or herd that owns it.
+  city or the temple that owns it.
 
 **Three: the doer can carry a mark.** In sentences with a
 transitive verb, the noun doing the deed often ends in *-e* —
-<span class="script">𒈗𒂊</span> *lugal-e*, "the king (acting)".
+<span class="script">𒈗𒂊</span> *lugal-e*, "the king (acting)" —
+while the thing acted on wears no tag at all: in "the king built
+a temple," the king takes *-e* and the temple stands bare.
 From here on you will spot that little tag in nearly every royal
 inscription this course reads. (Linguists call the full system
 "ergative"; the label matters less than the habit of noticing the
@@ -113,7 +115,7 @@ tag.)
       <text x="315" y="106" opacity="0.7">+ tags (-še₃, -ta …)</text>
       <text x="520" y="86">VERB CHAIN</text>
       <text x="520" y="106" opacity="0.7">always last</text>
-      <text x="115" y="150" opacity="0.7">"the king"</text>
+      <text x="115" y="150" opacity="0.7">"the king (acting)"</text>
       <text x="315" y="150" opacity="0.7">"a temple, for his life"</text>
       <text x="520" y="150" opacity="0.7">"built"</text>
     </g>
@@ -122,10 +124,10 @@ tag.)
   but every royal inscription you will read in this track fits it.</figcaption>
 </figure>
 
-## Reading: a name with a case inside
+## Reading: a name in Sumerian order
 
-Fara-period name lists again — this time a name that is a little
-sentence with a location in it:
+Fara-period name lists again — this time a name that shows the
+ordering habit at work:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
