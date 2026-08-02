@@ -71,7 +71,14 @@ machine-enforceable subset (`script/rulebook.rb`, run by
   tooling live in citations and footnotes, never in lesson flow.
 - Back-references to prior material carry links (owner ruling
   2026-07-31). Grammar walkthroughs go piece by piece — no
-  checklist glosses (owner ruling 2026-07-31).
+  checklist glosses (owner ruling 2026-07-31); sharpened
+  2026-08-02: any reading of three or more meaningful pieces gets
+  a bullet-form walkthrough in the body — one bullet per piece,
+  each naming what it is and where it was taught — with the figure
+  gloss carrying only the translation. Single-sentence analysis is
+  reserved for one- or two-piece items. Pieces beyond the course's
+  depth are named and honestly deferred ("the grammars carry it"),
+  never silently skipped.
 - Standard references are footnoted, once or twice per course
   (102 uses Foxvog's *Introduction to Sumerian Grammar*).
 
