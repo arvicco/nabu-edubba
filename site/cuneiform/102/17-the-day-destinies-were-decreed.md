@@ -17,7 +17,7 @@ shows: []
 
 # The day destinies were decreed
 
-This course has quoted Gudea's temple hymn since chapter 09 — a
+This course has quoted Gudea's temple hymn since <a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">chapter 09</a> — a
 line here, a blessing there. Time to stand at its front door. The
 hymn that fills two clay cylinders, the longest Sumerian
 composition that survives, opens with a line you are three signs
@@ -34,8 +34,9 @@ away from reading whole.
       <td class="script sign-cell">𒋻</td><td>TAR</td><td><em>tar</em></td>
       <td>to cut; to decree</td>
       <td>fate, in Sumerian, is a thing <em>cut</em> — <em>nam
-          tar</em>, "to cut a destiny," is how gods decide; chapter
-          03's nam- comes full circle</td>
+          tar</em>, "to cut a destiny," is how gods decide;
+          <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter
+          03's</a> nam- comes full circle</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄘</td><td>GU2</td><td><em>gu₂</em></td>
@@ -66,12 +67,13 @@ away from reading whole.
 </figure>
 
 Not one box. Read it again and take inventory: *ud*, the day,
-yours since 101; *an* and *ki*, heaven and earth, from the same
+yours since [101]({{ '/cuneiform/101/' | relative_url }}); *an*
+and *ki*, heaven and earth, from the same
 year of your life; the locative *-a* you learned to name in
-chapter 13; *nam*, chapter 03's fate; and *tar* with its
+<a href="{{ '/cuneiform/102/13-you-are/' | relative_url }}">chapter 13</a>; *nam*, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> fate; and *tar* with its
 spelled-out tail — the cutting, in progress, at the beginning of
 things. Sumerian literature's grandest opening move is the
-mythic-time formula you met as *ud ri-a* in chapter 10, here at
+mythic-time formula you met as *ud ri-a* in <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a>, here at
 its most solemn: pull the camera back to the day the world's
 blueprints were signed, then zoom in on your city.
 
@@ -96,9 +98,10 @@ running:
 </figure>
 
 One sign in the refrain needs a flag before it fools you: the
-*nam-* in *nam-gi₄* is neither chapter 03's fate-maker — that one
-just passed by, honestly employed, in line 1's *nam* — nor chapter
-14's warning *na-*. Opening this verb it is an emphatic prefix the
+*nam-* in *nam-gi₄* is neither <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> fate-maker — that one
+just passed by, honestly employed, in line 1's *nam* — nor
+<a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">chapter
+14's</a> warning *na-*. Opening this verb it is an emphatic prefix the
 grammars describe alongside the wish-rings: the line insists, with
 full weight, that the heart *did* overflow. Three jobs, one shape;
 the seat in the chain and the sense of the line decide.
@@ -107,10 +110,10 @@ A god's heart, in this image, is the Tigris in spring: when Enlil
 is moved, it does not trickle — it goes over the banks, 𒄘, this
 chapter's sign, and the whole hymn pours out of the breach. Notice
 the craft: line, variation, line again — the refrain technique
-chapter 10 showed you in the laments, here used for joy. Out of
+<a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a> showed you in the laments, here used for joy. Out of
 that overflow comes the flood of the whole story: Enlil's
 abundance sent down, Gudea's dream, "build it for me, build it
-for me" (chapter 12), and two cylinders of temple-raising. You
+for me" (<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12</a>), and two cylinders of temple-raising. You
 have now read this hymn at its beginning, its dream, its blessing,
 and its prayer for barley — five chapters of visits, finally on a
 map.
@@ -122,7 +125,7 @@ Ur reaches for the same day:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓 𒉆 𒆳𒆳𒊏 𒁀𒋻𒊏</span><span class="translit">ud nam kur-kur-ra ba-tar-ra</span><span class="gloss">"the day destiny was decreed for all the lands" — the same formula, different scribe, kur doubled the way chapter 03 taught plurals</span></div>
+    <div class="reading-line"><span class="script">𒌓 𒉆 𒆳𒆳𒊏 𒁀𒋻𒊏</span><span class="translit">ud nam kur-kur-ra ba-tar-ra</span><span class="gloss">"the day destiny was decreed for all the lands" — the same formula, different scribe, kur doubled the way <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a> taught plurals</span></div>
   </div>
   <figcaption class="citation">
     From a royal hymn of the Ur III circle.
@@ -145,7 +148,7 @@ chapter left to shelve it properly.
 3. Explain *nam tar* in one sentence — what is fate, grammatically
    and picturesquely, in Sumerian?
 4. What does the refrain in lines 5–7 do that saying it once would
-   not? You answered this for laments in chapter 10; check whether
+   not? You answered this for laments in <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a>; check whether
    your answer still holds for joy.
 
 *Next, and last: the Reference — every sign of the course on one

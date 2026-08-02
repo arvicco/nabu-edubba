@@ -67,7 +67,7 @@ had better not"). Three wish-rings, one shelf: *ga-* volunteers,
 *ha-* blesses, *na-* wags a finger. The row below ends on one.
 
 One caution before it does: this *na-* shares its sign with
-chapter 12's *-na-*, "for him" — and the seat decides which is
+<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> *-na-*, "for him" — and the seat decides which is
 which. Chain-first, before everything, it wags the finger; tucked
 inside, after an opener (*nu-mu-na-…*), it is still the dative.
 The row below carries one of each, so you can watch the seats at
@@ -75,14 +75,14 @@ work.
 
 ## Grammar bite — the -a that makes a description
 
-One more ring, and it is a promise being kept: chapter 08 read
+One more ring, and it is a promise being kept: <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08</a> read
 *in-gu₇-a*, "the place *where* the lion ate," and left its
 trailing *-a* for later. Later is now. Hung after a verb, **-a
 folds the whole clause into a description** — "ate" becomes "who
 ate," "built" becomes "built by" — a sentence collapsed into a
 label you can hang on a noun (the grammars file it as the
 nominalizer). And it is a different worker from the locative *-a*
-of chapter 01: that one rides nouns and says "in"; this one rides
+of <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>: that one rides nouns and says "in"; this one rides
 verbs and says "who, which, where." The row below uses it twice
 in its first five lines.
 
@@ -95,9 +95,9 @@ saying after another:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒇽 𒅥𒀀</span><span class="translit">lu₂ gu₇-a</span><span class="gloss">"the man who ate —"</span></div>
     <div class="reading-line"><span class="script">𒀭 𒀭𒆪𒁉</span><span class="translit">diŋir an-dab₅-be₂</span><span class="gloss">"— the god seizes him." A two-line proverb: gluttony, then consequence; 𒁉 wearing its be₂ reading, a veteran's new job</span></div>
-    <div class="reading-line"><span class="script">𒌨 𒄿𒅎𒁲</span><span class="translit">ur i-im-di</span><span class="gloss">"the dog wanders about" — di's going-sense, per the corpus's own gloss; chapter 01's clay-sign 𒅎 riding inside the chain</span></div>
-    <div class="reading-line"><span class="script">𒌨𒂊 𒉡𒈬𒈾𒀭𒋧</span><span class="translit">ur-e nu-mu-na-an-šum₂</span><span class="gloss">"the dog gave him none" — a whole chain in the wild: doer's -e, nu-, mu-, -na-, and the giving verb of chapter 11</span></div>
-    <div class="reading-line"><span class="script">𒂍 𒇽 𒍣𒁕 𒆕𒀀</span><span class="translit">e₂ lu₂ zid-da du₃-a</span><span class="gloss">"a house built by an honest man" — chapter 10's zid and chapter 12's du₃, shoulder to shoulder</span></div>
+    <div class="reading-line"><span class="script">𒌨 𒄿𒅎𒁲</span><span class="translit">ur i-im-di</span><span class="gloss">"the dog wanders about" — di's going-sense, per the corpus's own gloss; <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> clay-sign 𒅎 riding inside the chain</span></div>
+    <div class="reading-line"><span class="script">𒌨𒂊 𒉡𒈬𒈾𒀭𒋧</span><span class="translit">ur-e nu-mu-na-an-šum₂</span><span class="gloss">"the dog gave him none" — a whole chain in the wild: doer's -e, nu-, mu-, -na-, and the giving verb of <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a></span></div>
+    <div class="reading-line"><span class="script">𒂍 𒇽 𒍣𒁕 𒆕𒀀</span><span class="translit">e₂ lu₂ zid-da du₃-a</span><span class="gloss">"a house built by an honest man" — <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10's</a> zid and <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> du₃, shoulder to shoulder</span></div>
     <div class="reading-line"><span class="script">𒆬𒍪 𒉆𒆬𒍪 𒈾𒀭𒀝𒂊</span><span class="translit">kug-zu nam-kug-zu na-an-ak-e</span><span class="gloss">"let the wise not perform their wisdom" — the na- ring, live: modesty, ordered by proverb</span></div>
   </div>
   <figcaption class="citation">
@@ -112,8 +112,8 @@ saying after another:
   </figcaption>
 </figure>
 
-Six sayings, and look what they exercise: chapter 08's chain rings,
-chapter 11's giving verb, chapter 12's builder, this chapter's
+Six sayings, and look what they exercise: <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> chain rings,
+<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> giving verb, <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> builder, this chapter's
 seize and wander, and a brand-new ring — all inside jokes and
 warnings short enough to copy before lunch. This is why the
 proverbs were the school's curriculum: every one is a grammar
@@ -126,7 +126,7 @@ one of the warmest sentences Sumerian knows how to say:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒊮𒍪 𒆠𒁉 𒄩𒈠𒄄𒄄</span><span class="translit">šag₄-zu ki-bi ha-ma-gi₄-gi₄</span><span class="gloss">"may your heart be restored to its place for me" — ha- (ch. 09) + ma- (ch. 12's "for me") + gi₄ doubled: the standard consolation</span></div>
+    <div class="reading-line"><span class="script">𒊮𒍪 𒆠𒁉 𒄩𒈠𒄄𒄄</span><span class="translit">šag₄-zu ki-bi ha-ma-gi₄-gi₄</span><span class="gloss">"may your heart be restored to its place for me" — ha- (<a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">ch. 09</a>) + ma- (<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">ch. 12</a>'s "for me") + gi₄ doubled: the standard consolation</span></div>
   </div>
   <figcaption class="citation">
     From a hymn's plea. <code>urn:nabu:etcsl:4.07.3:271</code> ·
@@ -141,13 +141,14 @@ for — "may your heart go home."
 
 ## And one horn of plenty
 
-*Si* earns its seat outside the proverbs, in the register chapter
-10 taught you to hear — a temple hymn praying for the flood to be
+*Si* earns its seat outside the proverbs, in the register
+<a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter
+10</a> taught you to hear — a temple hymn praying for the flood to be
 generous:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀 𒃲𒃲𒂊 𒊺 𒋛𒋛𒀀𒁕</span><span class="translit">a gal-gal-e še si-si-a-da</span><span class="gloss">"that the great waters might fill (the land) with barley" — si doubled into abundance; 101's water, great, and barley doing what they always did</span></div>
+    <div class="reading-line"><span class="script">𒀀 𒃲𒃲𒂊 𒊺 𒋛𒋛𒀀𒁕</span><span class="translit">a gal-gal-e še si-si-a-da</span><span class="gloss">"that the great waters might fill (the land) with barley" — si doubled into abundance; <a href="{{ '/cuneiform/101/' | relative_url }}">101's</a> water, great, and barley doing what they always did</span></div>
   </div>
   <figcaption class="citation">
     Gudea's temple hymn. <code>urn:nabu:etcsl:2.1.7:1158</code> ·

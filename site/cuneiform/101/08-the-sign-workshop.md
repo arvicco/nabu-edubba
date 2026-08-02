@@ -26,7 +26,7 @@ with it.
 
 ## The head you already know
 
-Remember chapter 02's evolution figure — the drawn head that turned
+Remember <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02's</a> evolution figure — the drawn head that turned
 on its back and dissolved into wedges? That sign has been waiting
 for you since then. It is yours now:
 
@@ -39,13 +39,13 @@ for you since then. It is yours now:
       <td class="script sign-cell">𒊕</td><td>SAG</td><td><em>saŋ</em> (sag)</td>
       <td>head; first, foremost</td>
       <td>the drawn profile of a head, quarter-turned and rebuilt in
-          wedges — you watched it happen in chapter 02</td>
+          wedges — you watched it happen in <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a></td>
     </tr>
   </tbody>
 </table>
 
 Write it slowly the first time: the big framing wedges first, then
-the interior. As you do, keep chapter 02's drawing in mind — a
+the interior. As you do, keep <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02's</a> drawing in mind — a
 profile head, quarter-turned and rebuilt in the only strokes a
 stylus allows.
 
@@ -129,7 +129,7 @@ or portion, not yet yours — one ▢ still owed) written inside:
 
 Three moves, and you have seen two of them today (the third —
 compounding two signs side by side into one word, like *e₂-gal* — you
-have been doing since chapter 04):
+have been doing since <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">chapter 04</a>):
 
 1. **Hatch a part** (gunû): head → mouth.
 2. **Contain**: mouth × water → drink; mouth × portion → eat.
@@ -146,7 +146,7 @@ hands you a monster of a sign, look for the workshop inside it.
 1. Write the chain 𒊕 → 𒅗 → 𒅘 from memory, saying *saŋ*, *ka*,
    *naŋ* — head, mouth, drink.
 2. Write 𒅥 and explain its recipe to an imaginary student.
-3. Review chapter 07's figure: which workshop move built 𒈗?
+3. Review <a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">chapter 07's</a> figure: which workshop move built 𒈗?
 4. Look back at 𒂍𒃲 "palace" — which move is that?
 
 *Next: the school that trained every scribe who ever pressed these

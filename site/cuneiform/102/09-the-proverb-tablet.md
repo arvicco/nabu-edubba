@@ -39,7 +39,7 @@ shared at the end of a school day. First, the batch.
     <tr>
       <td class="script sign-cell">𒃻</td><td>GAR</td><td><em>niŋ₂</em></td>
       <td>thing, property</td>
-      <td>the thing-maker: what <em>nam-</em> (ch. 03) does for
+      <td>the thing-maker: what <em>nam-</em> (<a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) does for
           abstractions, <em>niŋ₂-</em> does for concrete stuff; the
           sign also reads <em>gar</em>, "to place" — one shape, two
           jobs, as usual</td>
@@ -64,7 +64,7 @@ something happened; *nu-* says it did not. Sumerian has two more
 rings for things that have *not* happened but should:
 
 - **ga-** — "let me, let us": the speaker volunteers. You have owned
-  the sign <span class="script">𒂵</span> since chapter 02; here it
+  the sign <span class="script">𒂵</span> since <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02</a>; here it
   takes up its grammatical job. *ga-gu₇* — "let me eat."
 - **ha-** — "may he, may it": a wish aimed outward, at someone
   else's action or at the world. This chapter's new
@@ -75,7 +75,7 @@ rings for things that have *not* happened but should:
 
 Concrete and holdable: *ga-gu₇* "let me eat" is a wish you make
 about yourself; a blessing like "may the king live" runs on *ha-*.
-Both rings sit exactly where chapter 08 taught prefixes to sit — in
+Both rings sit exactly where <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08</a> taught prefixes to sit — in
 front of everything else.
 
 ## The oldest after-school sentence
@@ -98,9 +98,10 @@ anywhere — a pair of lines runs:
 </figure>
 
 Every ring is one you own: *ga-* "let me," then the verb doubled —
-chapter 03's doubling, meaning *again and again, thoroughly*. Mouth
+<a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> doubling, meaning *again and again, thoroughly*. Mouth
 (𒅗) with bread in it eats; mouth with water in it drinks — you have
-known both compound signs since 101's sign workshop. Four and a
+known both compound signs since
+[101's sign workshop]({{ '/cuneiform/101/08-the-sign-workshop/' | relative_url }}). Four and a
 half thousand years later, the sentence still translates itself.
 
 ## Things, given and owned
@@ -110,9 +111,9 @@ commonest *niŋ₂*-word in the accounts is this one:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒃻𒁀</span><span class="translit">niŋ₂-ba</span><span class="gloss">gift — literally "a thing allotted," chapter 08's ba- frozen into a noun</span></div>
-    <div class="reading-line"><span class="script">𒀀𒊮 𒈗𒄩𒈠𒋾</span><span class="translit">a-ša₃ lugal-ha-ma-ti</span><span class="gloss">"field of Lugal-hamati" — the holder's name is itself this chapter's wish-prefix at work: "may the king keep me alive," roughly — ha-, then a -ma- ring meaning "for me" that chapter 12 opens, then ti, "live" (approximate)</span></div>
-    <div class="reading-line"><span class="script">𒉆𒄩𒉌 𒋗𒁀𒋾</span><span class="translit">nam-ha-ni šu ba-ti</span><span class="gloss">"Nam-hani received" — chapter 08's receipt verb; the name is built on nam-, "fate" (perhaps "may it be his fate" — name compression keeps it approximate), wrapped around this chapter's fish</span></div>
+    <div class="reading-line"><span class="script">𒃻𒁀</span><span class="translit">niŋ₂-ba</span><span class="gloss">gift — literally "a thing allotted," <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> ba- frozen into a noun</span></div>
+    <div class="reading-line"><span class="script">𒀀𒊮 𒈗𒄩𒈠𒋾</span><span class="translit">a-ša₃ lugal-ha-ma-ti</span><span class="gloss">"field of Lugal-hamati" — the holder's name is itself this chapter's wish-prefix at work: "may the king keep me alive," roughly — ha-, then a -ma- ring meaning "for me" that <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12</a> opens, then ti, "live" (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒉆𒄩𒉌 𒋗𒁀𒋾</span><span class="translit">nam-ha-ni šu ba-ti</span><span class="gloss">"Nam-hani received" — <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> receipt verb; the name is built on nam-, "fate" (perhaps "may it be his fate" — name compression keeps it approximate), wrapped around this chapter's fish</span></div>
   </div>
   <figcaption class="citation">
     Early Dynastic gift list,
@@ -160,11 +161,11 @@ its deepest work:
 </figure>
 
 Read the second line slowly: *niŋ₂ ak-zu* "the things you do" —
-the thing-maker plus chapter 02's *ak* plus the suffix *-zu*,
+the thing-maker plus <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> *ak* plus the suffix *-zu*,
 "your," the knowing-sign's second job that
 [chapter 07]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
 named; *a-ba* "who?";
-*i₃-zu-zu* — chapter 08's *i₃-* ring on a doubled *zu*, "will
+*i₃-zu-zu* — <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> *i₃-* ring on a doubled *zu*, "will
 really know." Notice 𒍪 working both its jobs in one line: suffix
 "your" at the start, verb "know" at the end. Every ring, every
 doubling, every case in that sentence is one this course handed

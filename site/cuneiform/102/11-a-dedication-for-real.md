@@ -48,7 +48,7 @@ Both go straight to work:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒈾𒋧</span><span class="translit">an-na-šum₂</span><span class="gloss">"An gave (him)" — a thanksgiving folded into a personal name, chapter 06's lesson still paying out (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒀭𒈾𒋧</span><span class="translit">an-na-šum₂</span><span class="gloss">"An gave (him)" — a thanksgiving folded into a personal name, <a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">chapter 06's</a> lesson still paying out (approximate)</span></div>
     <div class="reading-line"><span class="script">𒋗𒄿</span><span class="translit">šu-i</span><span class="gloss">barber — the profession title, as the receipts spell it</span></div>
   </div>
   <figcaption class="citation">
@@ -73,10 +73,10 @@ its key sign is not yet yours. Everything else, you read.
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀭𒎏▢𒊕</span><span class="translit">{d}nin-hur-saŋ</span><span class="gloss">For Ninhursag —</span></div>
-    <div class="reading-line"><span class="script">▢𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">mother of the gods (that -ra is chapter 02's "for"),</span></div>
+    <div class="reading-line"><span class="script">▢𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">mother of the gods (that -ra is <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> "for"),</span></div>
     <div class="reading-line"><span class="script">𒇽𒀭𒌓</span><span class="translit">lu₂-{d}utu</span><span class="gloss">Lu-Utu ("Man of the sun-god" — a name you can read whole),</span></div>
     <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">ensi₂</span><span class="gloss">ruler</span></div>
-    <div class="reading-line"><span class="script">▢▢𒆠𒆤</span><span class="translit">umma{ki}-ke₄</span><span class="gloss">of Umma (the place-tag {ki} from 101; -ke₄ is two tags stacked: the genitive's hidden /k/, surfacing as chapter 07 unmasked it, plus the doer's -e from chapter 01 — the ruler-of-Umma is the one doing the building),</span></div>
+    <div class="reading-line"><span class="script">▢▢𒆠𒆤</span><span class="translit">umma{ki}-ke₄</span><span class="gloss">of Umma (the place-tag {ki} from <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">101</a>; -ke₄ is two tags stacked: the genitive's hidden /k/, surfacing as <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07</a> unmasked it, plus the doer's -e from <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> — the ruler-of-Umma is the one doing the building),</span></div>
     <div class="reading-line"><span class="script">𒉆𒋾𒆷𒉌𒂠</span><span class="translit">nam-ti-la-ni-še₃</span><span class="gloss">for his life —</span></div>
     <div class="reading-line"><span class="script">𒂍𒈬𒈾▢</span><span class="translit">e₂ mu-na-du₃</span><span class="gloss">built her the temple.</span></div>
   </div>
@@ -88,12 +88,12 @@ its key sign is not yet yours. Everything else, you read.
   </figcaption>
 </figure>
 
-Hold this against chapter 05's template: **deity** ("for Ninhursag,
+Hold this against <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05's</a> template: **deity** ("for Ninhursag,
 mother of the gods") — **donor, named and titled** ("Lu-Utu, ruler
 of Umma") — **purpose** (*nam-ti-la-ni-še₃*, "for his life",
 letter-for-letter the phrase you assembled from your own inventory)
 — **verb, last** (*mu-na-du₃*, "built it for her": a verbal chain
-whose shape you know from chapters 04 and 08, carrying two rings —
+whose shape you know from chapters <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">04</a> and <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">08</a>, carrying two rings —
 an opener and a "for her" — whose full anatomy a later stretch
 opens). Nothing was
 simplified for you. That is a real ruler's real dedication, and the
@@ -130,8 +130,9 @@ Take it apart, word by word:
   𒋗 *šu*, "hand," followed by
   [chapter 07's]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
   𒆬 in its fuller spoken shape *kug*, "pure." Note the order:
-  the adjective *follows* its noun — the same pattern as chapter
-  07's *e₂ ku₃*, "house pure," and chapter 10's *en zid*, "lord
+  the adjective *follows* its noun — the same pattern as
+  <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter
+  07's</a> *e₂ ku₃*, "house pure," and <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10's</a> *en zid*, "lord
   true." Sumerian always praises in that order.
 - **a** — "water," on its own: 101's very first sign, here simply
   the thing being offered.
@@ -149,7 +150,7 @@ Take it apart, word by word:
   pieces to the grammars.
 
 So: hand-pure / water / lord-to / give-in-order-to — and read in
-Sumerian order the line builds exactly the way chapter 01 said
+Sumerian order the line builds exactly the way <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> said
 every Sumerian sentence would, participants first, verb last.
 
 One more line, from a royal praise poem, and the stretch can end
@@ -170,14 +171,14 @@ on it:
   [chapter 03's]({{ '/cuneiform/102/03-say-it-twice/' | relative_url }})
   abstraction-maker *nam-* on
   [chapter 07's]({{ '/cuneiform/102/07-i-am-king/' | relative_url }})
-  *mah*, "exalted" — the word chapter 07 read on clay.
+  *mah*, "exalted" — the word <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07</a> read on clay.
 - **-zu** — "your": the knowing-sign's suffix job, taught in
-  chapter 07 — the majesty belongs to the one being addressed.
+  <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07</a> — the majesty belongs to the one being addressed.
 - **ga-** — "let me":
   [chapter 09's]({{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }})
   cohortative, the speaker volunteering, exactly as in *ga-gu₇*.
 - **i-i** — "bring forth, proclaim": this chapter's 𒄿, doubled —
-  and the doubling is chapter 03's oldest trick, the stem said
+  and the doubling is <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> oldest trick, the stem said
   twice. As a verb, *i* means "to bring out"; said twice under
   *ga-*, it is the singer stepping forward: *let me bring it
   forth*.

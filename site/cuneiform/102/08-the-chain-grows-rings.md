@@ -60,7 +60,7 @@ A finite Sumerian verb chain — one that actually reports "he did"
 rather than sitting as a bare stem — opens with a short run of
 prefixes before the stem itself ever arrives. The full system is
 deep water: person, direction, aspect, a dozen distinctions the
-standard grammars need whole chapters for — chapter 01's footnote
+standard grammars need whole chapters for — <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> footnote
 already names the one this track leans on. This course will
 not chase it that far. Three prefixes, named and put to work, are
 enough for a real grip on real lines.
@@ -83,7 +83,7 @@ without always translating as a separate word of its own.
 a transitive "he/she/it did," with no extra color to explain.
 
 Put one to work with a stem you already own. Chapter 06 taught you
-𒋗 *šu*, "hand"; chapter 04 taught you 𒋾 *ti*, "arrow — by rebus,
+𒋗 *šu*, "hand"; <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> taught you 𒋾 *ti*, "arrow — by rebus,
 life," which also carries the plain meaning "to approach, to
 reach." Hand-plus-approach is how Sumerian says *receive* — a hand
 that reaches an object is a hand that has gotten it:
@@ -123,7 +123,7 @@ English one.
 
 That is the chain, ring by ring, as far as this course takes it:
 negation outermost, a finite prefix next, the stem last — with,
-sometimes, suffixes trailing after the stem, which chapter 04
+sometimes, suffixes trailing after the stem, which <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a>
 already warned you existed and which the readings below will let you
 glimpse, though this course leaves them for another day.
 
@@ -147,7 +147,7 @@ glimpse, though this course leaves them for another day.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further ring ("to him" — chapter 12 opens it properly), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
+    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further ring ("to him" — <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12</a> opens it properly), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
   </div>
   <figcaption class="citation">
     <em>BIN</em> 08, 015, ED IIIa (ca. 2600–2500 BCE), Adab (mod.
@@ -163,7 +163,7 @@ glimpse, though this course leaves them for another day.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉡𒀝</span><span class="translit">nu-ak</span><span class="gloss">"not done" — negated "to do" (chapter 02's AK), most likely folded inside a personal name; short name-fragments like this stay approximate</span></div>
+    <div class="reading-line"><span class="script">𒉡𒀝</span><span class="translit">nu-ak</span><span class="gloss">"not done" — negated "to do" (<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> AK), most likely folded inside a personal name; short name-fragments like this stay approximate</span></div>
   </div>
   <figcaption class="citation">
     <em>OIP</em> 104, 014, ED IIIa (ca. 2600–2500 BCE), provenience
@@ -177,12 +177,12 @@ glimpse, though this course leaves them for another day.
 ## Reading: hero known, hero unknown
 
 Real literary Sumerian, not an administrative line, and *nu-*
-flipping a verb you already own — 𒍪 *zu*, "to know," chapter 03's
+flipping a verb you already own — 𒍪 *zu*, "to know," <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
 sign:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌨𒊕 𒍪 𒌨𒊕 𒉡𒍪</span><span class="translit">ur-saŋ zu ur-saŋ nu-zu</span><span class="gloss">"the hero known, the hero unknown" — saŋ, 101's head-sign as a veteran, turns ur into "hero"; nu- flips the second zu flat</span></div>
+    <div class="reading-line"><span class="script">𒌨𒊕 𒍪 𒌨𒊕 𒉡𒍪</span><span class="translit">ur-saŋ zu ur-saŋ nu-zu</span><span class="gloss">"the hero known, the hero unknown" — saŋ, <a href="{{ '/cuneiform/101/08-the-sign-workshop/' | relative_url }}">101's</a> head-sign as a veteran, turns ur into "hero"; nu- flips the second zu flat</span></div>
   </div>
   <figcaption class="citation">
     <em>Gilgameš and Ḫuwawa</em> (Version B), a Sumerian literary
@@ -215,9 +215,9 @@ someone, with every ring of this chapter's chain visible at once.
 Ring by ring, left to right:
 
 - **ki** — "place," on its own, from 101.
-- **ur-mah-e** — "lion" (dog + *mah*, chapter 07's sign for "great,
+- **ur-mah-e** — "lion" (dog + *mah*, <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a> sign for "great,
   exalted," doing an adjective's job here, not a noun's) plus the
-  *e* you have known since chapter 01: the doer of a transitive verb
+  *e* you have known since <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>: the doer of a transitive verb
   marked, exactly as that chapter taught — the lion is the one
   acting.
 - **lu₂** — "person, man," from 101: the one the action lands on.
@@ -226,8 +226,8 @@ Ring by ring, left to right:
   trailing after it, a suffix, *-a*, hooking the whole verb back to
   *ki* so the line reads "the place *where*…" rather than a bare
   "ate." That trailing ring is real, and you can see exactly where
-  it sits — after the stem, the way chapter 04 said suffixes
-  sometimes would — but unpacking what it does is chapter 14's
+  it sits — after the stem, the way <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> said suffixes
+  sometimes would — but unpacking what it does is <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">chapter 14's</a>
   job, where a whole row of proverbs runs on it.
 
 Read straight through: place, lion-as-doer, man, ate-there. A

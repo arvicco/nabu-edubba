@@ -83,7 +83,7 @@ it harder.
 ## The three strokes — see them once
 
 Everything cuneiform is built from three marks a reed stylus presses
-into clay. Here they are, drawn large; chapter 01 explains the how
+into clay. Here they are, drawn large; <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a> explains the how
 and the why, but your eye should meet them now:
 
 <figure class="evolution">
@@ -115,7 +115,7 @@ the right:
   <figure><span class="script">𒀭</span><figcaption>a star of wedges: your heaven</figcaption></figure>
 </div>
 
-The three single strokes become formally yours in chapter 01; the
+The three single strokes become formally yours in <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>; the
 mountain and the star you can already read.
 
 ## The shape of the course

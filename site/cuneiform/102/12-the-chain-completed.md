@@ -47,7 +47,7 @@ gifts.
     <tr>
       <td class="script sign-cell">𒂼</td><td>AMA</td><td><em>ama</em></td>
       <td>mother</td>
-      <td>the word chapter 11 had to box; a goddess's favorite title
+      <td>the word <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a> had to box; a goddess's favorite title
           — <em>ama kalam-ma</em>, "mother of the Land"</td>
     </tr>
   </tbody>
@@ -67,10 +67,10 @@ dedications run on:
   chapter of its own; "the homeward opener" is the working grip
   this course needs.
 - **-na-** — "for him, for her": the dative you have known since
-  chapter 02's *-ra*, folded *inside* the verb. Sumerian says the
+  <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> *-ra*, folded *inside* the verb. Sumerian says the
   receiver twice — once on the noun, once in the chain — and the
   chain's copy is *-na-*. You have already watched it ride by: the
-  unnamed ring in chapter 08's *i₃-na-ba* was exactly this.
+  unnamed ring in <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> *i₃-na-ba* was exactly this.
 
 <figure class="composition">
   <p class="composition-row script" aria-label="mu plus na plus du3 assembling the votive verb">
@@ -85,12 +85,12 @@ dedications run on:
 
 ## The boxes fall
 
-Go back to Lu-Utu's foundation inscription — the one chapter 11
+Go back to Lu-Utu's foundation inscription — the one <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a>
 read with boxes. Two of its lines just came fully open:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂼𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">"for the mother of the gods" — the ▢ of chapter 11 was 𒂼, and now the line is yours end to end</span></div>
+    <div class="reading-line"><span class="script">𒂼𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">"for the mother of the gods" — the ▢ of <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a> was 𒂼, and now the line is yours end to end</span></div>
     <div class="reading-line"><span class="script">𒂍𒈬𒈾𒆕</span><span class="translit">e₂ mu-na-du₃</span><span class="gloss">"built her the temple" — every ring named: house, homeward opener, for-her, build</span></div>
   </div>
   <figcaption class="citation">
@@ -101,7 +101,7 @@ read with boxes. Two of its lines just came fully open:
   </figcaption>
 </figure>
 
-This is what the course has meant since chapter 00, where ▢
+This is what the course has meant since <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter 00</a>, where ▢
 entered as "a sign not yet taught." The inscription did not
 change. You did.
 
@@ -109,7 +109,7 @@ change. You did.
 
 The building verb's most famous scene is a dream. Gudea, ruler of
 Lagash, dreamt that his god Ninŋirsu stood over him with a demand
-— and the hymn writes the demand with chapter 03's oldest trick,
+— and the hymn writes the demand with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> oldest trick,
 saying it twice:
 
 <figure class="reading reading--script">
@@ -138,8 +138,8 @@ of them. From a dedication of a ruler of Uruk:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒉆𒋾</span><span class="translit">nam-ti</span><span class="gloss">"(for) the life" — the purpose slot, compressed</span></div>
-    <div class="reading-line"><span class="script">𒈗𒀭𒈾𒁺</span><span class="translit">lugal-an-na-tum₂</span><span class="gloss">Lugal-anatum — the donor; 𒁺, chapter 04's going-foot, here wearing its tum₂ reading (a veteran's third job)</span></div>
-    <div class="reading-line"><span class="script">𒈨𒀭𒈾𒆤</span><span class="translit">išib an-na-ke₄</span><span class="gloss">"purification priest of An" — 𒈨, this course's very first sign, wearing its priestly reading išib; -ke₄, the stacked genitive-plus-doer tags from chapter 11's votive</span></div>
+    <div class="reading-line"><span class="script">𒈗𒀭𒈾𒁺</span><span class="translit">lugal-an-na-tum₂</span><span class="gloss">Lugal-anatum — the donor; 𒁺, <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04's</a> going-foot, here wearing its tum₂ reading (a veteran's third job)</span></div>
+    <div class="reading-line"><span class="script">𒈨𒀭𒈾𒆤</span><span class="translit">išib an-na-ke₄</span><span class="gloss">"purification priest of An" — 𒈨, this course's very first sign, wearing its priestly reading išib; -ke₄, the stacked genitive-plus-doer tags from <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> votive</span></div>
     <div class="reading-line"><span class="script">𒀀𒈬𒈾𒊒</span><span class="translit">a mu-na-ru</span><span class="gloss">"dedicated this to him" — the genre's closing verb, with both of this chapter's rings in place</span></div>
   </div>
   <figcaption class="citation">
@@ -163,7 +163,7 @@ any museum case closes with a sentence you cannot read.
    *a mu-na-ru*.
 3. Why can the god's demand say "for me" in one syllable? One
    sentence.
-4. Re-read chapter 11's full inscription. Count what is still
+4. Re-read <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> full inscription. Count what is still
    boxed, and notice what no longer is.
 
 *Next: "you are" — the pronoun Sumerian saves for speaking to

@@ -36,7 +36,7 @@ materials themselves:
       <td>reed mat; matting</td>
       <td>~6 wedges. Woven reed — the same marsh plant that, cut at
       an angle, becomes the stylus. It is hiding a second reading
-      you will meet in chapter 10</td>
+      you will meet in <a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">chapter 10</a></td>
     </tr>
   </tbody>
 </table>
@@ -142,7 +142,7 @@ Out of this constraint come three basic strokes, and only three:
 
 Here are the three shapes at full size, from this site's own font —
 each of them, standing alone, happens to be a complete sign, and
-chapter 05 will seat all three when the numbers need them:
+<a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">chapter 05</a> will seat all three when the numbers need them:
 
 <div class="glyph-exhibit">
   <figure><span class="script">𒀸</span><figcaption>the horizontal wedge — head at the left</figcaption></figure>
@@ -234,5 +234,5 @@ from it, tapering to a point. Head first, tail second, every stroke,
 every sign, for the rest of the course. It feels unnatural for the
 first few signs and automatic soon after.
 
-*Next: chapter 02 — how curved pictures became wedge-built signs, one
+*Next: <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a> — how curved pictures became wedge-built signs, one
 sign at a time.*

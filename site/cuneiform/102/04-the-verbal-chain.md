@@ -140,7 +140,7 @@ first wrote in
 [101's chapter 07]({{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }})
 and read again inside a name in
 [chapter 02]({{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}).
-And the line ends, as chapter 01 promised every Sumerian sentence
+And the line ends, as <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> promised every Sumerian sentence
 would, with its verb: 𒁺 *du*, closing a delivery the same way it
 would close a journey.
 
@@ -154,7 +154,7 @@ bare sign name, still capitalized: an honest flag, not a typo.
 ## Reading: a name doubled on "go"
 
 Another Fara-period entry, a personal name this time, and it runs
-this chapter's verb sign through the same doubling device chapter 03
+this chapter's verb sign through the same doubling device <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a>
 gave you for nouns:
 
 <figure class="reading reading--script">
@@ -169,7 +169,7 @@ gave you for nouns:
   </figcaption>
 </figure>
 
-House, and go-go: chapter 03 taught you that a doubled sign can mark
+House, and go-go: <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a> taught you that a doubled sign can mark
 a plural or an intensity; here, doubled the same way, a verb reads as
 something closer to "goes and goes," or "the coming-and-going one" —
 a plausible shape for a name, though, as every name in this stretch
@@ -196,7 +196,7 @@ two signs you own — *e* plus your new *ne*:
 </figure>
 
 And 𒉈 in the wild, in a name from an ED-period list at Adab —
-doubled, in exactly chapter 03's manner:
+doubled, in exactly <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> manner:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
