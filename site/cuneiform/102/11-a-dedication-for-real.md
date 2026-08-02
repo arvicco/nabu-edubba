@@ -188,27 +188,11 @@ proclaim it*. A sentence whose every piece — the abstraction, the
 suffix, the wish, the doubling — this stretch handed you on
 purpose. There are worse notes for a chapter of school to end on.
 
-## The stretch, measured
-
-Six more chapters, seventeen more signs: sixty in your hand
-counting everything since 101's first wedge. Set against them: names
-read as sentences, the copula and the genitive's unmasked /k/, the
-verbal chain's rings named one by one — *i₃-*, *in-*, *ba-*, *nu-*,
-and the wishes *ga-* and *ha-* — the literary register's true lords
-and distant days, and a ruler's dedication read from real clay with
-the formula standing in it verbatim. Put simply: about half the
-sign-occurrences on a real tablet are now signs you know.
-
-The track keeps going the same way it has: batches in computed
-order, grammar only when a reading demands it, real texts all the
-way down. A later stretch opens the verbal chain's remaining rings,
-brings the literary readings to full passages, and keeps its own
-promises in turn.
-
-For now: back to the [course page]({{ '/cuneiform/102/' |
-relative_url }}) for the map, or the
-[school catalog]({{ '/cuneiform/' | relative_url }}) for the wider
-view.
+The second stretch ends here. The track keeps going the same way
+it has: batches in computed order, grammar only when a reading
+demands it, real texts all the way down. A later stretch opens the
+verbal chain's remaining rings, brings the literary readings to
+full passages, and keeps its own promises in turn.
 
 ## Drill before the pause
 

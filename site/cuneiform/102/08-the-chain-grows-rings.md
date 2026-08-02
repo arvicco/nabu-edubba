@@ -74,13 +74,16 @@ takes on a third job, its most common one of all: opening a finite
 verb chain, no lexical meaning of its own. A veteran sign, doing new
 work again.
 
-**ba-.** This chapter's new sign, and already a familiar shape from
+**ba-.** Spelled with this chapter's new
+<span class="script">𒁀</span>, and already a familiar shape from
 the receipts: as a whole word it means "allotted." As a prefix it
 keeps that flavor — it colors the verb toward "away, for itself" —
 without always translating as a separate word of its own.
 
-**in-.** This chapter's plainest new prefix: the ordinary opener of
-a transitive "he/she/it did," with no extra color to explain.
+**in-.** Spelled with this chapter's new
+<span class="script">𒅔</span> — the plainest prefix of the three:
+the ordinary opener of a transitive "he/she/it did," with no extra
+color to explain.
 
 Put one to work with a stem you already own. Chapter 06 taught you
 𒋗 *šu*, "hand"; <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> taught you 𒋾 *ti*, "arrow — by rebus,
@@ -89,20 +92,20 @@ reach." Hand-plus-approach is how Sumerian says *receive* — a hand
 that reaches an object is a hand that has gotten it:
 
 <figure class="composition">
-  <svg viewBox="0 0 640 240" role="img" aria-label="ba-ti exploded into two rings: prefix ba- and stem ti, with šu, hand, standing outside the verb as the noun that shows what was received">
-    <title>ba-ti, ring by ring</title>
+  <svg viewBox="0 0 640 240" role="img" aria-label="ba-ti exploded into two rings, in sentence order: first šu, hand, the noun standing outside the verb, then the verb chain last — prefix ba-, then stem ti.">
+    <title>ba-ti, ring by ring — the verb chain last, as always</title>
     <g fill="none" stroke="currentColor" stroke-width="3">
-      <rect x="20" y="30" width="140" height="60" rx="6"/>
-      <rect x="190" y="30" width="140" height="60" rx="6" stroke-width="5"/>
-      <rect x="420" y="30" width="200" height="60" rx="6" stroke-dasharray="6 5"/>
+      <rect x="20" y="30" width="200" height="60" rx="6" stroke-dasharray="6 5"/>
+      <rect x="280" y="30" width="140" height="60" rx="6"/>
+      <rect x="450" y="30" width="140" height="60" rx="6" stroke-width="5"/>
     </g>
     <g fill="currentColor" font-size="15" text-anchor="middle">
-      <text x="90" y="56">ring 1 · prefix</text>
-      <text x="90" y="76" opacity="0.8" font-style="italic">ba-</text>
-      <text x="260" y="56">ring 2 · stem</text>
-      <text x="260" y="76" opacity="0.8" font-style="italic">ti "approach"</text>
-      <text x="520" y="56">the noun beside it</text>
-      <text x="520" y="76" opacity="0.8" font-style="italic">šu "hand" (not part of the chain)</text>
+      <text x="120" y="56">the noun before it</text>
+      <text x="120" y="76" opacity="0.8" font-style="italic">šu "hand" (not part of the chain)</text>
+      <text x="350" y="56">ring 1 · prefix</text>
+      <text x="350" y="76" opacity="0.8" font-style="italic">ba-</text>
+      <text x="520" y="56">ring 2 · stem</text>
+      <text x="520" y="76" opacity="0.8" font-style="italic">ti "approach"</text>
       <text x="320" y="150" font-size="34">𒁀𒋾</text>
       <text x="320" y="180" opacity="0.7">ba-ti — "(it) was received"</text>
       <text x="320" y="205" opacity="0.6" font-size="13">lu₂ šu ba-ti — "the man received (it)": hand reached, and stayed</text>

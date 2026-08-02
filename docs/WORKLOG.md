@@ -5,6 +5,32 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-02 · M7-14 · phase-7 · Review round 4, rebuilt from memory
+after an incident: the owner lost ~2h of dictated review notes to
+ctrl+s (chat stash — single in-memory slot, overwritten; nothing
+persisted to disk; recovery attempted via stash toggle, input
+undo, session/state files, .claude.json backups — all empty;
+ctrl+s now unbound in ~/.claude/keybindings.json, and long drafts
+should go through ctrl+g external editing. Lesson: owner notes are
+dictated in fragments now and land in .docs/ immediately). The six
+rebuilt findings, applied: gur joins the glossary (300-liter
+measure, mina/shekel's granary counterpart); the "stretch,
+measured" self-congratulation cut from chs 05 and 11 — the
+promises those sections made survive (ch08/ch12 openers depend on
+them), the inventory brags do not; ch07's kalam-ma-ka finally
+names its final vowel — the locative -a (nabu context check: lines
+178–182 are the eduba doxology, "in the house … of the Land," the
+very passage ch16 quotes at 179 — cross-linked), a-zu unpacked as
+"the one who knows the waters," and -am₃ gets its concrete
+attested example e₂-zu mah-am₃ "your house is majestic" (Ninurta's
+journey to Eridug, 4.27.02:D.8 — first clause of the line is
+damage-restored so only the intact clause is quoted; signs
+OSL-resolved 𒂍𒍪𒈤𒀀𒀭), placed after -zu is taught and paired
+with lugal-me-en as the copula's two faces; ch08's ba-/in-
+paragraphs now show 𒁀/𒅔 like i₃- shows 𒉌, and the ba-ti ring
+diagram reordered — šu's dashed noun box first, verb chain last,
+practicing what ch01 preaches.
+
 2026-08-02 · M7-13 · phase-7 · E Addenda + glossary split
 (owner-directed): the hieroglyphs school gains its own Addenda
 shelf, and the glossary splits along school lines — 17 terms used

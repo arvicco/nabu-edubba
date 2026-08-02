@@ -162,6 +162,9 @@ terms:
   - name: homophone
     slug: homophone
     def: "one of several different words or signs sharing the same sound — like English \"two\", \"too\", and \"to\"; index numbers (e₂, u₄) tell same-sounding signs apart"
+  - name: gur
+    slug: gur
+    def: "the big Mesopotamian grain measure — three hundred sila of roughly a liter each, so about 300 liters of barley; the granary's counterpart to the silver-scale's mina"
   - name: mina
     slug: mina
     def: "the Mesopotamian pound: a weight of about 500 grams, divided into sixty shekels — silver by the mina was serious wealth"
