@@ -152,8 +152,8 @@ carried into two different rooms.
 ## The genitive's hidden consonant, caught in the open
 
 Chapter 02 taught you the genitive *-ak* and warned you it likes to
-hide: *é lugal-ak*, "the king's house," routinely surfaces on clay as
-*é lugal-a*, its final /k/ swallowed. That chapter promised the /k/
+hide: *e₂ lugal-ak*, "the king's house," routinely surfaces on clay as
+*e₂ lugal-a*, its final /k/ swallowed. That chapter promised the /k/
 comes back the moment a vowel gives it somewhere to land. Here is
 that promise, kept, in *kalam*, this chapter's own new sign:
 
@@ -206,10 +206,10 @@ the verb "to know" has not gone anywhere.
 1. Write 𒆬, 𒈤, 𒌧 from memory; say *ku₃*, *mah*, *kalam*.
 2. Write *lugal-me-en* from memory, sign by sign, and say what each
    of its three signs meant before it joined this phrase.
-3. Build *nam-mah* and *é ku₃* in signs, and give both meanings each
+3. Build *nam-mah* and *e₂ ku₃* in signs, and give both meanings each
    carries.
 4. Read *kalam-ma-ka* aloud and explain, in one sentence, why its /k/
-   is written out while the /k/ in *é lugal-ak* usually is not.
+   is written out while the /k/ in *e₂ lugal-ak* usually is not.
 5. Say aloud what *-am₃* is a preview of, and which two signs
    commonly spell it.
 

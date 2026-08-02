@@ -69,8 +69,8 @@ standard sign lists:
 
 Sumerian built titles the same way it built compounds like *an-ki*:
 transparently. The king is the big man; a queen's palace, the
-*é-gal* — "big house" — a word you can now write yourself:
-<span class="script">𒂍𒃲</span>. (It traveled far: *é-gal* was
+*e₂-gal* — "big house" — a word you can now write yourself:
+<span class="script">𒂍𒃲</span>. (It traveled far: *e₂-gal* was
 borrowed into Akkadian as *ēkallu*, and echoes of it survive in
 several later languages of the region for "palace" and "temple".)
 
@@ -121,7 +121,7 @@ a beginning reader picks names out of a dense tablet: find the
 ## Drill before you go on
 
 1. Write 𒇽, 𒃲, 𒌉 from memory; say *lu₂*, *gal*, *dumu*.
-2. Write *é-gal* and explain to an imaginary student why the king is
+2. Write *e₂-gal* and explain to an imaginary student why the king is
    a "big man" — with glyphs.
 3. From chapter 06's Reading 1, find the divine determinatives again
    — how many gods hide in the Amar-Suen seal?

@@ -128,7 +128,7 @@ or portion, not yet yours — one ▢ still owed) written inside:
 ## Why the workshop matters
 
 Three moves, and you have seen two of them today (the third —
-compounding two signs side by side into one word, like *é-gal* — you
+compounding two signs side by side into one word, like *e₂-gal* — you
 have been doing since chapter 04):
 
 1. **Hatch a part** (gunû): head → mouth.

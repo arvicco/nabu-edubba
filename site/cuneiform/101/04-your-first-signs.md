@@ -107,7 +107,7 @@ appearances in chapter 03's examples:
           not a story: a diamond with barred heart</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒂍</td><td>É</td><td><em>é</em> (e₂)</td>
+      <td class="script sign-cell">𒂍</td><td>É</td><td><em>e₂</em> (also written <em>é</em>)</td>
       <td>house, temple</td>
       <td>~10 wedges, the most complex sign of this chapter — earned
           by being the É of é-dub-ba-a, this school's own name</td>
@@ -124,16 +124,16 @@ real entries from its lexicon — write each, then read it back aloud:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀭𒆠</span><span class="translit">an-ki</span><span class="gloss">heaven and earth — the cosmos</span></div>
     <div class="reading-line"><span class="script">𒆳𒆳</span><span class="translit">kur-kur</span><span class="gloss">the mountains, all the lands (doubling marks plural)</span></div>
-    <div class="reading-line"><span class="script">𒂍𒆳</span><span class="translit">é-kur</span><span class="gloss">"Mountain House" — Ekur, the great temple of Enlil at Nippur</span></div>
+    <div class="reading-line"><span class="script">𒂍𒆳</span><span class="translit">e₂-kur</span><span class="gloss">"Mountain House" — Ekur, the great temple of Enlil at Nippur</span></div>
   </div>
   <figcaption class="citation">
     Compounds as given in the standard beginner's grammars and the
-    ETCSL corpus; é-kur as the temple's proper name is standard in
+    ETCSL corpus; e₂-kur as the temple's proper name is standard in
     the literature (e.g., the ETCSL translations passim).
   </figcaption>
 </figure>
 
-Two-sign words, but genuine ones — *an-ki* and *é-kur* appear
+Two-sign words, but genuine ones — *an-ki* and *e₂-kur* appear
 throughout the literary corpus you will read from.
 
 ## Your wall chart
@@ -152,7 +152,7 @@ Copy this row of shapes somewhere you will see it daily:
   <figure><span class="script">𒌓</span><figcaption>ud</figcaption></figure>
   <figure><span class="script">𒊺</span><figcaption>še</figcaption></figure>
   <figure><span class="script">𒆠</span><figcaption>ki</figcaption></figure>
-  <figure><span class="script">𒂍</span><figcaption>é</figcaption></figure>
+  <figure><span class="script">𒂍</span><figcaption>e₂</figcaption></figure>
 </div>
 
 ## Drill before you go on

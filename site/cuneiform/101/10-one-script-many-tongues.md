@@ -52,7 +52,7 @@ who presided over the whole story this chapter tells.
     of the Sumerian pantheon: the silent divine star you have known
     since chapter 03, then <em>en</em> + <em>lil₂</em>. His temple
     you could already write in chapter 04: <span class="script">𒂍𒆳</span>,
-    the é-kur. Now you can write its landlord.
+    the e₂-kur. Now you can write its landlord.
   </figcaption>
 </figure>
 

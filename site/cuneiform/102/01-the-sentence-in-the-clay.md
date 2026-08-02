@@ -69,7 +69,7 @@ Each tag, with a sentence to hold it by:
   the mountains" — where a caravan comes from, where the timber was
   brought from. Point of origin.
 - ***-še₃* "to, toward, for":** <span class="script">𒂍𒂠</span>
-  *é-še₃*, "to the house" — where the barley is delivered, where the
+  *e₂-še₃*, "to the house" — where the barley is delivered, where the
   procession is headed. Destination or purpose. (In chapter 05 you
   will see it end the most famous purpose-phrase in Sumerian: "for
   his life".)
@@ -82,11 +82,11 @@ Each tag, with a sentence to hold it by:
   shelves it beside its siblings.
 - **possession, in two flavors.** Sumerian splits "belonging" by who
   owns. A *person's* things take *-ani* "his, her":
-  <span class="script">𒂍𒀀𒉌</span> *é-a-ni*, "his house" — say, the
+  <span class="script">𒂍𒀀𒉌</span> *e₂-a-ni*, "his house" — say, the
   governor's. A *thing's or place's* things take *-bi* "its":
-  <span class="script">𒂍𒁉</span> *é-bi*, "its house" — say, the
+  <span class="script">𒂍𒁉</span> *e₂-bi*, "its house" — say, the
   city's temple, the estate's storehouse. Persons get *-ani*, everything
-  else gets *-bi*; when you meet *é-bi* in a text, look back for the
+  else gets *-bi*; when you meet *e₂-bi* in a text, look back for the
   city, field, or herd that owns it.
 
 **Three: the doer can carry a mark.** In sentences with a
@@ -148,8 +148,8 @@ modifier last.
 
 1. Write 𒂠, 𒂊, 𒁉 from memory; say *še₃*, *e*, *bi*.
 2. Compose in transliteration, then in signs: *kur-ta* ("from the
-   mountains"), *é-še₃* ("to the house"), *e₂-a* ("in the house"),
-   *é-a-ni* ("his house"), *é-bi* ("its house — the city's"),
+   mountains"), *e₂-še₃* ("to the house"), *e₂-a* ("in the house"),
+   *e₂-a-ni* ("his house"), *e₂-bi* ("its house — the city's"),
    *lugal-e* ("the king, acting").
 3. Say aloud the three habits — verb last, grammar as tags, doer
    marked — and name one English sentence you could rebuild the

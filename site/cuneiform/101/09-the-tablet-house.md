@@ -48,7 +48,7 @@ wordmark — and read it:
     <span>𒂍</span><span>𒁾</span><span>𒁀</span><span>𒀀</span>
   </p>
   <figcaption class="citation">
-    <em>é</em> "house" (chapter 04) · <em>dub</em> "tablet" ·
+    <em>e₂</em> "house" (chapter 04) · <em>dub</em> "tablet" ·
     <em>ba</em> · <em>a</em> (chapter 00) — <strong>é-dub-ba-a</strong>,
     "the tablet house." You can now read the name of the school you
     are sitting in: every sign taught in order, no boxes left.
