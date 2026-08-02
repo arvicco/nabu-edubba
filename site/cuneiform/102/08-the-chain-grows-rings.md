@@ -119,7 +119,8 @@ that reaches an object is a hand that has gotten it:
 </figure>
 
 **nu-, the negation, sits first of all.** Whatever else opens a
-Sumerian verb chain, *nu-* — three wedges — steps in front of it,
+Sumerian verb chain, *nu-* — this chapter's new
+<span class="script">𒉡</span>, three wedges — steps in front of it,
 so it is always the first thing your eye meets. It needs no further
 grammar: it just flips the sentence under it, the way "not" flips an
 English one.
@@ -146,21 +147,54 @@ glimpse, though this course leaves them for another day.
   </figcaption>
 </figure>
 
+Word by word, in chapter 01's order:
+
+- **lu₂** — the man: the one doing the receiving, named first.
+- **šu** — hand. Sumerian has no single word for "receive"; it says
+  *hand* + *reach*, and this is the hand — the receiver's own —
+  that the sentence brings on stage to do it.
+- **ba-ti** — the chain, last as always. *Ba-* colors the action
+  toward the taker's own benefit — the goods move *away* from the
+  giver, *into* this man's keeping — and *ti*, "to reach," is the
+  stem. His hand reached it, for himself: he received it.
+
+Three words, one idiom, and the entire receipts genre stands on
+it. On tablet after tablet, whoever's name stands where *lu₂*
+stands is the one who signed for the goods.
+
 ## Reading: an allotment, prefixed
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further ring ("to him" — <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12</a> opens it properly), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
+    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"(he) allotted (it) to him" — one whole verb chain: an opener, a "to him" ring, and the stem "allot," unpacked below</span></div>
   </div>
   <figcaption class="citation">
     <em>BIN</em> 08, 015, ED IIIa (ca. 2600–2500 BCE), Adab (mod.
     Bismaya)?, Yale Babylonian Collection.
     <a href="https://cdli.earth/artifacts/10012">CDLI P010012</a> via
     Nabu, <code>urn:nabu:cdli:p010012:obverse:1:4</code> · license:
-    attribution. The same sign, 𒁀, as this chapter's prefix — here
-    doing its other job, as the stem the prefixes attach to.
+    attribution.
   </figcaption>
 </figure>
+
+This verb does not float alone — on its tablet it closes a
+complete sentence. The three lines before it (most of their signs
+still ahead of you) say: *a field of one eše — the giver's name —
+the receiver's name*, that last one wearing chapter 02's dative
+*-ra*, "to, for." Then comes this chain, one ring at a time:
+
+- **i₃-** — the opener, the very prefix this chapter just taught:
+  the sentence is a plain report, "he did."
+- **-na-** — "to him": the chain points back at the receiver.
+  Notice the doubling of roles — his name already wore *-ra* two
+  lines up, and now the verb says "to him" *again*, inside itself.
+  Sumerian likes to name the receiver twice; that habit is
+  <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter
+  12's</a> whole lesson, met here in the wild first.
+- **ba** — the stem, "to allot." Yes: the same three wedges that
+  are a *prefix* elsewhere in this chapter. Position decides
+  everything. In front of a chain, 𒁀 colors someone else's verb;
+  standing last, it *is* the verb — and a man just got a field.
 
 ## Reading: a name, negated — cautiously
 
@@ -225,13 +259,18 @@ Ring by ring, left to right:
   acting.
 - **lu₂** — "person, man," from 101: the one the action lands on.
 - **in-gu₇-a** — this chapter's *in-* opening the chain, then 𒅥
-  *gu₇*, "to eat" (101's mouth-with-bread compound), as the stem — and,
-  trailing after it, a suffix, *-a*, hooking the whole verb back to
-  *ki* so the line reads "the place *where*…" rather than a bare
-  "ate." That trailing ring is real, and you can see exactly where
-  it sits — after the stem, the way <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> said suffixes
-  sometimes would — but unpacking what it does is <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">chapter 14's</a>
-  job, where a whole row of proverbs runs on it.
+  *gu₇*, "to eat" (101's mouth-with-bread compound), as the stem —
+  and, trailing after the stem, one more *-a*. Be careful with it:
+  this is **not**
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a>
+  locative — that *-a* rides *nouns* and means "in." This one rides
+  a finished *verb*, and it folds the whole sentence into a
+  description: "the lion ate a man" collapses into a label hung on
+  *ki* — "the place *where* the lion ate a man."
+  <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">Chapter 14</a>
+  opens this describer ring properly; for now, just see where it
+  sits — after the stem, exactly where <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> said trailing
+  suffixes would.
 
 Read straight through: place, lion-as-doer, man, ate-there. A
 complete sentence, a real proverb, and not one sign in it wearing a
