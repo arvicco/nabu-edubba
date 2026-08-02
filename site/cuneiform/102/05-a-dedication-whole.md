@@ -75,10 +75,10 @@ sign in it is now something you own.
     The template, assembled from your own inventory — not quoted
     from any one tablet; you will meet it verbatim on real votive
     objects in the next stretch. Sign by sign: <strong>𒉆</strong>
-    <em>nam-</em> (abstraction, ch. 03) + <strong>𒋾</strong> <em>ti</em>
-    (life, ch. 04's rebus) + <strong>𒆷</strong> <em>-la</em> (spelling
+    <em>nam-</em> (abstraction, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) + <strong>𒋾</strong> <em>ti</em>
+    (life, <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">ch. 04</a>'s rebus) + <strong>𒆷</strong> <em>-la</em> (spelling
     glue for the /l/) + <strong>𒉌</strong> <em>-ni</em> ("his/her") +
-    <strong>𒂠</strong> <em>-še₃</em> ("for," ch. 01) — "for his
+    <strong>𒂠</strong> <em>-še₃</em> ("for," <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">ch. 01</a>) — "for his
     life."
   </figcaption>
 </figure>
@@ -86,8 +86,10 @@ sign in it is now something you own.
 Read it as a chain, the way you now read any Sumerian word: the
 abstraction-maker turns "life" into "life-ness," a spelling vowel
 carries the /l/ into the next syllable, "his" attaches, and the
-terminative tag you met in chapter 01 aims the whole thing at its
-purpose. One honest loose end: *-la-* here is a spelling
+terminative tag you met in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> aims the whole thing at its
+purpose. And that *-ni* is no stranger: it is <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> *-ani*,
+"his/her," traveling light — after a vowel the tag's own /a/
+merges away, and only *-ni* surfaces in the spelling. One honest loose end: *-la-* here is a spelling
 phenomenon, not a word of its own — the grammars explain it as
 writing out the final consonant of *til*, the fuller shape behind
 *ti*, so that *-ni* has a consonant to land on. One sentence, no
@@ -138,32 +140,14 @@ named for the god or the god took the name first is the kind of
 question these lists never quite settle — but the reading itself,
 after six batches, needs no box.
 
-## The stretch, measured
-
-Six chapters, its new signs batch by batch, forty-three in your hand counting
-[101]({{ '/cuneiform/101/' | relative_url }})'s twenty-six. Set against that inventory: the
-sentence's basic habits (verb last, grammar worn as tags, the doer
-sometimes marked), the case tags *-e*, *-ta*, *-še₃*, *-ra*, and
-*-da*, the genitive that hides its own consonant, doubling for
-plurals and repeated action, *nam-* turning things into
-abstractions, the verbal chain's rough silhouette — and now, this
-chapter, a full dedication formula built from nothing but signs
-already sitting in your inventory. Put simply: you can now read
-about 4 out of every 10 signs on a real tablet.
-
-What is left is exactly what this stretch has been pointing at. A
-later phase of this track returns to read real votive inscriptions
-verbatim — the formula above quoted from actual stone and clay, not
-assembled for a lesson — to unmask the genitive's hidden consonant
-properly, and to take the verbal chain's silhouette apart piece by
-piece. Batches will keep coming the same computed way; grammar will
-keep arriving only when a reading demands it.
-
-For now: the opening stretch is done. Revisit the
-[course page]({{ '/cuneiform/102/' | relative_url }}) for the map of
-what came before, or step back to the
-[school catalog]({{ '/cuneiform/' | relative_url }}) to see where
-this track sits among the others.
+The opening stretch ends here. What comes next is exactly what it
+has been pointing at: a later stretch returns to read real votive
+inscriptions verbatim — the formula above quoted from actual stone
+and clay, not assembled for a lesson — to unmask the genitive's
+hidden consonant properly, and to take the verbal chain's
+silhouette apart piece by piece. Batches will keep coming the same
+computed way; grammar will keep arriving only when a reading
+demands it.
 
 ## Drill before the pause
 

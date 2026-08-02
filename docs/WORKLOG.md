@@ -5,6 +5,126 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-02 · M7-14 · phase-7 · Review round 4, rebuilt from memory
+after an incident: the owner lost ~2h of dictated review notes to
+ctrl+s (chat stash — single in-memory slot, overwritten; nothing
+persisted to disk; recovery attempted via stash toggle, input
+undo, session/state files, .claude.json backups — all empty;
+ctrl+s now unbound in ~/.claude/keybindings.json, and long drafts
+should go through ctrl+g external editing. Lesson: owner notes are
+dictated in fragments now and land in .docs/ immediately). The six
+rebuilt findings, applied: gur joins the glossary (300-liter
+measure, mina/shekel's granary counterpart); the "stretch,
+measured" self-congratulation cut from chs 05 and 11 — the
+promises those sections made survive (ch08/ch12 openers depend on
+them), the inventory brags do not; ch07's kalam-ma-ka finally
+names its final vowel — the locative -a (nabu context check: lines
+178–182 are the eduba doxology, "in the house … of the Land," the
+very passage ch16 quotes at 179 — cross-linked), a-zu unpacked as
+"the one who knows the waters," and -am₃ gets its concrete
+attested example e₂-zu mah-am₃ "your house is majestic" (Ninurta's
+journey to Eridug, 4.27.02:D.8 — first clause of the line is
+damage-restored so only the intact clause is quoted; signs
+OSL-resolved 𒂍𒍪𒈤𒀀𒀭), placed after -zu is taught and paired
+with lugal-me-en as the copula's two faces; ch08's ba-/in-
+paragraphs now show 𒁀/𒅔 like i₃- shows 𒉌, and the ba-ti ring
+diagram reordered — šu's dashed noun box first, verb chain last,
+practicing what ch01 preaches.
+
+2026-08-02 · M7-13 · phase-7 · E Addenda + glossary split
+(owner-directed): the hieroglyphs school gains its own Addenda
+shelf, and the glossary splits along school lines — 17 terms used
+only by Egyptian pages (classified empirically, grep over site
+content, not by intuition: the phonetics row ꜣ/ʿ/ḥ, the sign-class
+row uniliteral→triliteral + phonetic complement + phonogram +
+ideogram, the culture row cartouche/serekh/honorific
+transposition/hieratic/demotic/ostraca/suffix pronoun) tagged with
+an additive school: field in terms.yml and rendered at
+/hieroglyphs/addenda/terms/, sidebar-anchored under E Addenda;
+/terms/ keeps the rest and cross-links. The term linker learned
+multi-glossary routing: glossary pages declare terms_school, the
+plugin builds a school→URL map, each bubble links to its term's
+home page (String arg still accepted; tests cover both). Verified
+in built HTML: all 14 cartouche bubbles route to the Egyptian
+page, determinative stays general. Two catches in passing: C102
+ch17's "emphatic prefix" would have worn the phonetics bubble —
+reworded to "affirmative prefix," Foxvog's own term; and
+"classifier" stays general because cuneiform 101/03 uses it,
+despite its Egyptology-flavored definition. Hieroglyphs catalog's
+stale "101 opening chapters arriving" fixed (same disease as the
+cuneiform catalog's, caught in M7-12).
+
+2026-08-02 · M7-12 · phase-7 · C Addenda born (owner-directed after
+the wedge-order scout): a school-level out-of-course shelf at
+/cuneiform/addenda/ — appears in the sidebar as C Addenda between
+the numbered courses and the hieroglyphs school. First residents:
+the Writing primer (the scribe's hand — three wedges and stylus
+mechanics per Cammarosano, overlap paleography with schematic SVG,
+Taylor's standardization finding and the PA-vs-GIŠ per-sign
+convention with his own kanji parallel, KI's re-choreographing,
+Wright/Huehnergard reconstruction rules with their disagreement
+shown — every claim labeled proven-from-clay vs attested-tendency
+vs honest-reconstruction; four sources footnoted; primary sources
+re-fetched before writing per owner instruction) and the /terms/
+glossary, previously unanchored, now listed under Addenda (URL
+unchanged — permalinks frozen). C101 ch00 gains the two
+honestly-teachable habits (drill the three strokes first as the
+school exercises did; top-before-bottom, left-before-right) with
+links to the primer. Mechanics: addenda dir is outside
+course_check's numeric-course glob so the pedagogy contract stays
+course-only; PA+GIŠ joined the font subset (79 codepoints);
+Winkelhaken termed; chapter layout gained kicker_no_chapter so the
+primer isn't mislabeled a chapter; school catalog's stale "102 in
+progress" line fixed in passing.
+
+2026-08-02 · M7-11 · phase-7 (ac58627, ce881e0, 45b44f2) · Owner
+review round 3: full sequential re-read of C102 (mine) plus the
+owner's own pass, seventeen findings all fixed. Structural: the
+locative -a now enters at ch01's tag list and ud re-a's gloss
+names it (ch13's table becomes consolidation, not revelation); the
+nominalizing -a — promised by ch08, used ever after, never
+delivered — got its named bite in ch14 with the locative-collision
+warning and a Reference shelf entry. Explanation gaps closed:
+nam-gi₄'s emphatic prefix flagged in ch17 (three jobs, one shape),
+-ke₄ explained as genitive+ergative stack, -ani/-ni reconciled,
+-ma-/-na- forward and back pointers. Dead references rooted out:
+a₂-ki-ti "from chapter 10" (never existed), ch12's invented ch05
+quote, ch01's phantom "search hit," ch03's kur-kur attributed to a
+number-line reading (it was ch04's first words), the stale
+sitting-down teaser; plus du/ti/la and "two signs" slips.
+Owner-directed orientation rework: coverage chart cut to 12 rows
+(every chapter through 04, then evens + finale) with figures after
+the bars and a one-sentence student-facing caption (machinery →
+footnote), course-end promise stated, MU-as-"my" explained with a
+ŋu₁₀ footnote, hyphens get an immediate example, homophone/mina/
+shekel/nominalizer term bubbles, emesal disclaimer footnoted.
+Notation: accent-é banned in transliteration — both courses
+normalized (102 chs 01/02/07, 101 chs 04/07/08/09/10,
+sign_teaching.yml), é-dub-ba-a exempt at pattern level, rulebook
+doc+rule+test in one commit. And a course-wide sweep per the new
+ruling that chapter mentions always carry links: ~100 back-
+references linked across 101+102 (script for the mechanical part,
+hand-fixes for wrapped lines and ranges). Gate green at each
+commit; chart and bubbles verified in pixels.
+
+2026-07-31 · M7-1..M7-10 · phase-7 · Cuneiform 102 completed
+same-day as approval: chapters 12–18 (chain completed with mu-/-na-
+on the votive's own verb, za-e + locative + seven-case paradigm,
+first connected proverb row with the na- prohibitive, Šulgi A
+lines 1–3 with the king's name assembled, the tablet house reading
+its own name and colophons, Gudea Cylinder A from line one with
+zero boxes, registry-generated Reference) — course at nineteen
+chapters, 51 signs (77 with 101), coverage 53.4/54.5 floor.
+Taught-means-used enforced twice: KU unpinned from ch13 (no
+attested line) then returned honestly at ch14 as dab₅ in the
+glutton proverb; LAL joined ch17 when the untaught-sign rule
+caught la₂ inside Enlil's spelling on the refrain line. Veterans
+gained readings only where readings demanded (išib, tum₂, de₃,
+be₂). ch11's purpose-wrapper promise reworded now that no later
+102 stretch exists; MI/LI/IB stay unpinned in the pool for a
+future course. All content Fable-written; rulebook checks green
+throughout; ch17 surface-reviewed in pixels.
+
 2026-07-31 · Owner ruling: course rulebooks (single source of
 truth) · After the ĝ/ŋ drift the owner ruled: before starting a
 course, a working document spells out its conventions, notations,

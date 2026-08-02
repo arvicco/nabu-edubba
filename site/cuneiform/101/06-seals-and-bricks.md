@@ -38,7 +38,7 @@ you can see exactly how much of the original is already yours.
       <td class="script sign-cell">𒈗</td><td>LUGAL</td><td><em>lugal</em></td>
       <td>king</td>
       <td>the keyword of every royal text below — ~12 wedges, your
-          most complex sign yet (its secret is opened in chapter 07)</td>
+          most complex sign yet (its secret is opened in <a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">chapter 07</a>)</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈬</td><td>MU</td><td><em>mu</em></td>
@@ -189,7 +189,7 @@ Every ▢ above is a sign the course still owes you. As your inventory
 grows through this course and into the
 [Sumerian track](../), boxes turn into signs — the same lines,
 progressively unmasked. What the course will never do is show signs
-out of order to fake completeness: chapter 03 called that the
+out of order to fake completeness: <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a> called that the
 "nothing untaught" rule, and it is enforced by the same build system
 that publishes this page.
 

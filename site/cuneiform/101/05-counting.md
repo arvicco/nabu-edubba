@@ -42,7 +42,7 @@ down):
   </tbody>
 </table>
 
-You met these three shapes as bare strokes in chapter 01's anatomy
+You met these three shapes as bare strokes in <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01's</a> anatomy
 lesson; here they take their seats as *signs* — the workhorses of a
 hundred thousand receipts. What this chapter adds is what they can
 do once you let them repeat.

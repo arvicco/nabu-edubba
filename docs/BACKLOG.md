@@ -331,3 +331,69 @@ Leiden display translit (D4-b), linear display w/ SVG stacking
 (D4-a), URN + license per reading, terms.yml in same commit,
 surface review. All content written by the session model
 (golden rule 9).
+
+Gate 6 CLOSED — PR #9 merged 2026-07-31, CI + deploy green.
+Hieroglyphs 101 complete (13 chapters, 53 signs). Owner rulings
+absorbed: phonetics primers front-door in both schools; course
+rulebooks as single source of truth (docs/courses/) with gate
+checks; notation standardized (ŋ, subscript indexes) after the
+drift incident.
+
+## Phase 7 — Cuneiform 102 third and final stretch, chs 12–18 (approved 2026-07-31, "Approved, go"; six subject chapters, Reference at 18)
+
+## M7-1 · Pool/queue extension: batches for chs 12–17 (~18 signs), additive regen  [tier: top] [status: done] [deps: --]
+## M7-2 · Reading sweep chs 12–18 (CDLI + ETCSL per D3-a) → .docs/p7-readings.md  [tier: top] [status: done] [deps: M7-1]
+## M7-3 · Ch. 12 — the chain completed: mu-, -na-, the votive's verb fully parsed  [tier: top — Fable] [status: done] [deps: M7-2]
+## M7-4 · Ch. 13 — the locative and the cases, assembled whole  [tier: top — Fable] [status: done] [deps: M7-3]
+## M7-5 · Ch. 14 — a proverb run: first multi-line passage  [tier: top — Fable] [status: done] [deps: M7-4]
+## M7-6 · Ch. 15 — Šulgi's opening: a royal hymn passage whole  [tier: top — Fable] [status: done] [deps: M7-5]
+## M7-7 · Ch. 16 — the tablet house speaks (eduba literature)  [tier: top — Fable] [status: done] [deps: M7-6]
+## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: done] [deps: M7-7]
+## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: done] [deps: M7-8]
+## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M7-9]
+## M7-14 · Owner review round 4 (rebuilt notes)  [tier: top — Fable] [status: done] [deps: M7-13]
+   Six findings dictated after the ctrl-s draft loss (preserved in
+   .docs/owner-review-round4.md): gur term bubble; "stretch,
+   measured" gloating cut from chs 05/11 (promises kept, brag
+   removed); ch07 kalam-ma-ka's final -a identified as the locative
+   (corpus context verified — it is the eduba doxology ch16 quotes),
+   a-zu's a- unpacked, -am₃ gets an attested example (e₂-zu mah-am₃,
+   Ninurta B D.8, signs OSL-resolved); ch08 ba-/in- show their
+   glyphs and the ba-ti diagram reordered noun-first/verb-last.
+## M7-13 · E Addenda: Egyptian glossary split out  [tier: top — Fable] [status: done] [deps: M7-12]
+   Owner-directed: hieroglyphs school gets its own Addenda shelf at
+   /hieroglyphs/addenda/ with the Egyptian glossary — 17 terms used
+   only by the Egyptian courses (classified empirically by grep:
+   serekh, cartouche, uniliteral…, hieratic, demotic) tagged
+   school: hieroglyphs in terms.yml (additive field) and rendered
+   at /hieroglyphs/addenda/terms/; /terms/ keeps the shared +
+   cuneiform terms with a cross-link. Term linker now routes each
+   bubble to its term's home glossary (multi-page support in
+   script/term_linker.rb + plugin, tests added). C102 ch17
+   "emphatic prefix" reworded to "affirmative prefix" (Foxvog's
+   term — and dodges the phonetics bubble). Stale hieroglyphs
+   catalog entry ("opening chapters arriving") fixed in passing.
+## M7-12 · C Addenda: writing primer + terms anchored  [tier: top — Fable] [status: done] [deps: M7-11]
+   Owner-directed: new school-level Addenda section (out-of-course
+   shelf) at /cuneiform/addenda/ holding the Writing primer — the
+   scribe's hand, sourced from the wedge-order scout (Taylor 2015
+   overlap paleography, Cammarosano CWT, Wright/Huehnergard
+   reconstructions; primary sources re-fetched before writing) with
+   proven-vs-reconstruction labels, PA/GIŠ, overlap SVG — and the
+   /terms/ glossary, now anchored in the sidebar under C Addenda.
+   C101 ch00 gains the honestly-teachable wedge facts + primer
+   links; school catalog updated (stale 102 entry fixed); PA+GIŠ
+   into the font subset; Winkelhaken term added.
+## M7-11 · Owner review round 3: full-course sequential fixes  [tier: top — Fable] [status: done] [deps: M7-10]
+   Sequential review of all 19 chapters (mine + owner's own pass):
+   locative named at ch01 and read honestly at ch10; nominalizer -a
+   bite in ch14 (ch08's promise kept); nam-gi₄/-ke₄/-ani/-ma- gaps
+   closed; dangling refs and slips fixed; ch00 chart decluttered +
+   course promise + mu "my"; term bubbles (homophone, mina, shekel,
+   nominalizer); meta → footnotes; é banned in translit (rulebook);
+   chapter back-references linked course-wide.
+
+Acceptance per packet: gate green (incl. rulebook checks), pedagogy
+commitments 1–9, rulebook (docs/courses/cuneiform.md) obeyed —
+notation decisions land there first; URN + license label per
+reading; terms.yml same-commit (locative due); surface review.

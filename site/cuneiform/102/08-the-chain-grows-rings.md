@@ -60,7 +60,7 @@ A finite Sumerian verb chain — one that actually reports "he did"
 rather than sitting as a bare stem — opens with a short run of
 prefixes before the stem itself ever arrives. The full system is
 deep water: person, direction, aspect, a dozen distinctions the
-standard grammars need whole chapters for — chapter 01's footnote
+standard grammars need whole chapters for — <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> footnote
 already names the one this track leans on. This course will
 not chase it that far. Three prefixes, named and put to work, are
 enough for a real grip on real lines.
@@ -74,35 +74,38 @@ takes on a third job, its most common one of all: opening a finite
 verb chain, no lexical meaning of its own. A veteran sign, doing new
 work again.
 
-**ba-.** This chapter's new sign, and already a familiar shape from
+**ba-.** Spelled with this chapter's new
+<span class="script">𒁀</span>, and already a familiar shape from
 the receipts: as a whole word it means "allotted." As a prefix it
 keeps that flavor — it colors the verb toward "away, for itself" —
 without always translating as a separate word of its own.
 
-**in-.** This chapter's plainest new prefix: the ordinary opener of
-a transitive "he/she/it did," with no extra color to explain.
+**in-.** Spelled with this chapter's new
+<span class="script">𒅔</span> — the plainest prefix of the three:
+the ordinary opener of a transitive "he/she/it did," with no extra
+color to explain.
 
 Put one to work with a stem you already own. Chapter 06 taught you
-𒋗 *šu*, "hand"; chapter 04 taught you 𒋾 *ti*, "arrow — by rebus,
+𒋗 *šu*, "hand"; <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> taught you 𒋾 *ti*, "arrow — by rebus,
 life," which also carries the plain meaning "to approach, to
 reach." Hand-plus-approach is how Sumerian says *receive* — a hand
 that reaches an object is a hand that has gotten it:
 
 <figure class="composition">
-  <svg viewBox="0 0 640 240" role="img" aria-label="ba-ti exploded into two rings: prefix ba- and stem ti, with šu, hand, standing outside the verb as the noun that shows what was received">
-    <title>ba-ti, ring by ring</title>
+  <svg viewBox="0 0 640 240" role="img" aria-label="ba-ti exploded into two rings, in sentence order: first šu, hand, the noun standing outside the verb, then the verb chain last — prefix ba-, then stem ti.">
+    <title>ba-ti, ring by ring — the verb chain last, as always</title>
     <g fill="none" stroke="currentColor" stroke-width="3">
-      <rect x="20" y="30" width="140" height="60" rx="6"/>
-      <rect x="190" y="30" width="140" height="60" rx="6" stroke-width="5"/>
-      <rect x="420" y="30" width="200" height="60" rx="6" stroke-dasharray="6 5"/>
+      <rect x="20" y="30" width="200" height="60" rx="6" stroke-dasharray="6 5"/>
+      <rect x="280" y="30" width="140" height="60" rx="6"/>
+      <rect x="450" y="30" width="140" height="60" rx="6" stroke-width="5"/>
     </g>
     <g fill="currentColor" font-size="15" text-anchor="middle">
-      <text x="90" y="56">ring 1 · prefix</text>
-      <text x="90" y="76" opacity="0.8" font-style="italic">ba-</text>
-      <text x="260" y="56">ring 2 · stem</text>
-      <text x="260" y="76" opacity="0.8" font-style="italic">ti "approach"</text>
-      <text x="520" y="56">the noun beside it</text>
-      <text x="520" y="76" opacity="0.8" font-style="italic">šu "hand" (not part of the chain)</text>
+      <text x="120" y="56">the noun before it</text>
+      <text x="120" y="76" opacity="0.8" font-style="italic">šu "hand" (not part of the chain)</text>
+      <text x="350" y="56">ring 1 · prefix</text>
+      <text x="350" y="76" opacity="0.8" font-style="italic">ba-</text>
+      <text x="520" y="56">ring 2 · stem</text>
+      <text x="520" y="76" opacity="0.8" font-style="italic">ti "approach"</text>
       <text x="320" y="150" font-size="34">𒁀𒋾</text>
       <text x="320" y="180" opacity="0.7">ba-ti — "(it) was received"</text>
       <text x="320" y="205" opacity="0.6" font-size="13">lu₂ šu ba-ti — "the man received (it)": hand reached, and stayed</text>
@@ -116,14 +119,15 @@ that reaches an object is a hand that has gotten it:
 </figure>
 
 **nu-, the negation, sits first of all.** Whatever else opens a
-Sumerian verb chain, *nu-* — three wedges — steps in front of it,
+Sumerian verb chain, *nu-* — this chapter's new
+<span class="script">𒉡</span>, three wedges — steps in front of it,
 so it is always the first thing your eye meets. It needs no further
 grammar: it just flips the sentence under it, the way "not" flips an
 English one.
 
 That is the chain, ring by ring, as far as this course takes it:
 negation outermost, a finite prefix next, the stem last — with,
-sometimes, suffixes trailing after the stem, which chapter 04
+sometimes, suffixes trailing after the stem, which <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a>
 already warned you existed and which the readings below will let you
 glimpse, though this course leaves them for another day.
 
@@ -143,27 +147,60 @@ glimpse, though this course leaves them for another day.
   </figcaption>
 </figure>
 
+Word by word, in chapter 01's order:
+
+- **lu₂** — the man: the one doing the receiving, named first.
+- **šu** — hand. Sumerian has no single word for "receive"; it says
+  *hand* + *reach*, and this is the hand — the receiver's own —
+  that the sentence brings on stage to do it.
+- **ba-ti** — the chain, last as always. *Ba-* colors the action
+  toward the taker's own benefit — the goods move *away* from the
+  giver, *into* this man's keeping — and *ti*, "to reach," is the
+  stem. His hand reached it, for himself: he received it.
+
+Three words, one idiom, and the entire receipts genre stands on
+it. On tablet after tablet, whoever's name stands where *lu₂*
+stands is the one who signed for the goods.
+
 ## Reading: an allotment, prefixed
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further prefix the grammars unpack (not this course), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
+    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"(he) allotted (it) to him" — one whole verb chain: an opener, a "to him" ring, and the stem "allot," unpacked below</span></div>
   </div>
   <figcaption class="citation">
     <em>BIN</em> 08, 015, ED IIIa (ca. 2600–2500 BCE), Adab (mod.
     Bismaya)?, Yale Babylonian Collection.
     <a href="https://cdli.earth/artifacts/10012">CDLI P010012</a> via
     Nabu, <code>urn:nabu:cdli:p010012:obverse:1:4</code> · license:
-    attribution. The same sign, 𒁀, as this chapter's prefix — here
-    doing its other job, as the stem the prefixes attach to.
+    attribution.
   </figcaption>
 </figure>
+
+This verb does not float alone — on its tablet it closes a
+complete sentence. The three lines before it (most of their signs
+still ahead of you) say: *a field of one eše — the giver's name —
+the receiver's name*, that last one wearing chapter 02's dative
+*-ra*, "to, for." Then comes this chain, one ring at a time:
+
+- **i₃-** — the opener, the very prefix this chapter just taught:
+  the sentence is a plain report, "he did."
+- **-na-** — "to him": the chain points back at the receiver.
+  Notice the doubling of roles — his name already wore *-ra* two
+  lines up, and now the verb says "to him" *again*, inside itself.
+  Sumerian likes to name the receiver twice; that habit is
+  <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter
+  12's</a> whole lesson, met here in the wild first.
+- **ba** — the stem, "to allot." Yes: the same three wedges that
+  are a *prefix* elsewhere in this chapter. Position decides
+  everything. In front of a chain, 𒁀 colors someone else's verb;
+  standing last, it *is* the verb — and a man just got a field.
 
 ## Reading: a name, negated — cautiously
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉡𒀝</span><span class="translit">nu-ak</span><span class="gloss">"not done" — negated "to do" (chapter 02's AK), most likely folded inside a personal name; short name-fragments like this stay approximate</span></div>
+    <div class="reading-line"><span class="script">𒉡𒀝</span><span class="translit">nu-ak</span><span class="gloss">"not done" — negated "to do" (<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> AK), most likely folded inside a personal name; short name-fragments like this stay approximate</span></div>
   </div>
   <figcaption class="citation">
     <em>OIP</em> 104, 014, ED IIIa (ca. 2600–2500 BCE), provenience
@@ -177,12 +214,12 @@ glimpse, though this course leaves them for another day.
 ## Reading: hero known, hero unknown
 
 Real literary Sumerian, not an administrative line, and *nu-*
-flipping a verb you already own — 𒍪 *zu*, "to know," chapter 03's
+flipping a verb you already own — 𒍪 *zu*, "to know," <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
 sign:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌨𒊕 𒍪 𒌨𒊕 𒉡𒍪</span><span class="translit">ur-saŋ zu ur-saŋ nu-zu</span><span class="gloss">"the hero known, the hero unknown" — saŋ, 101's head-sign as a veteran, turns ur into "hero"; nu- flips the second zu flat</span></div>
+    <div class="reading-line"><span class="script">𒌨𒊕 𒍪 𒌨𒊕 𒉡𒍪</span><span class="translit">ur-saŋ zu ur-saŋ nu-zu</span><span class="gloss">"the hero known, the hero unknown" — saŋ, <a href="{{ '/cuneiform/101/08-the-sign-workshop/' | relative_url }}">101's</a> head-sign as a veteran, turns ur into "hero"; nu- flips the second zu flat</span></div>
   </div>
   <figcaption class="citation">
     <em>Gilgameš and Ḫuwawa</em> (Version B), a Sumerian literary
@@ -215,20 +252,25 @@ someone, with every ring of this chapter's chain visible at once.
 Ring by ring, left to right:
 
 - **ki** — "place," on its own, from 101.
-- **ur-mah-e** — "lion" (dog + *mah*, chapter 07's sign for "great,
+- **ur-mah-e** — "lion" (dog + *mah*, <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a> sign for "great,
   exalted," doing an adjective's job here, not a noun's) plus the
-  *e* you have known since chapter 01: the doer of a transitive verb
+  *e* you have known since <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>: the doer of a transitive verb
   marked, exactly as that chapter taught — the lion is the one
   acting.
 - **lu₂** — "person, man," from 101: the one the action lands on.
 - **in-gu₇-a** — this chapter's *in-* opening the chain, then 𒅥
-  *gu₇*, "to eat" (101's mouth-with-bread compound), as the stem — and,
-  trailing after it, a suffix, *-a*, hooking the whole verb back to
-  *ki* so the line reads "the place *where*…" rather than a bare
-  "ate." That trailing ring is real, and you can see exactly where
-  it sits — after the stem, the way chapter 04 said suffixes
-  sometimes would — but unpacking what it does is a later chapter's
-  job, not this one's.
+  *gu₇*, "to eat" (101's mouth-with-bread compound), as the stem —
+  and, trailing after the stem, one more *-a*. Be careful with it:
+  this is **not**
+  <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a>
+  locative — that *-a* rides *nouns* and means "in." This one rides
+  a finished *verb*, and it folds the whole sentence into a
+  description: "the lion ate a man" collapses into a label hung on
+  *ki* — "the place *where* the lion ate a man."
+  <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">Chapter 14</a>
+  opens this describer ring properly; for now, just see where it
+  sits — after the stem, exactly where <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> said trailing
+  suffixes would.
 
 Read straight through: place, lion-as-doer, man, ate-there. A
 complete sentence, a real proverb, and not one sign in it wearing a

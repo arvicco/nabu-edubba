@@ -23,6 +23,13 @@ class RulebookTest < Minitest::Test
     assert_match(/accent index/, details[0])
   end
 
+  def test_accent_e_flags_but_the_school_name_is_exempt
+    details = Edubba::Rulebook.check_text("write *é-gal* now", "cuneiform/101/07-x.md", CUNEIFORM)
+    assert_equal 1, details.size
+    assert_match(/use e₂/, details[0])
+    assert_empty Edubba::Rulebook.check_text("the é-dub-ba-a, the tablet house", "cuneiform/102/16-x.md", CUNEIFORM)
+  end
+
   def test_etcsl_quote_requires_noncommercial_label
     bare = "<code>urn:nabu:etcsl:2.1.7:958</code>"
     assert_match(/non-commercial/, Edubba::Rulebook.check_text(bare, "cuneiform/102/11-x.md", CUNEIFORM)[0])

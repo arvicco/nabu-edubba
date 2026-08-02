@@ -13,7 +13,7 @@ layout: default
 {% include course_sidebar.html current=page.course here=page.url %}
 <article class="chapter-main">
 {% if page.course %}
-  <p class="chapter-kicker">{{ page.course_title }} · Chapter {{ page.chapter | prepend: "00" | slice: -2, 2 }}</p>
+  <p class="chapter-kicker">{{ page.course_title }}{% unless page.kicker_no_chapter %} · Chapter {{ page.chapter | prepend: "00" | slice: -2, 2 }}{% endunless %}</p>
 {% endif %}
 {{ content }}
 

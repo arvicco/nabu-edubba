@@ -17,8 +17,9 @@ shows: []
 
 # One script, many tongues
 
-One new sign to open — and, beside it, an old friend from chapter
-01 revealing a second face. Together they spell the name of the god
+One new sign to open — and, beside it, an old friend from
+<a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter
+01</a> revealing a second face. Together they spell the name of the god
 who presided over the whole story this chapter tells.
 
 <table class="sign-table">
@@ -35,8 +36,8 @@ who presided over the whole story this chapter tells.
     <tr>
       <td class="script sign-cell">𒆤</td><td>KID</td><td><em>lil₂</em> (lil2)</td>
       <td>air, wind, spirit</td>
-      <td>not a new sign — your reed mat from chapter 01, now
-          showing the polyvalency chapter 03 promised: the same
+      <td>not a new sign — your reed mat from <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>, now
+          showing the polyvalency <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a> promised: the same
           wedges also read <em>lil₂</em>, and that reading is this
           chapter's whole reason for it</td>
     </tr>
@@ -50,9 +51,9 @@ who presided over the whole story this chapter tells.
   <figcaption class="citation">
     <em>{d}en-lil₂</em> — <strong>Enlil</strong>, "Lord Air", chief
     of the Sumerian pantheon: the silent divine star you have known
-    since chapter 03, then <em>en</em> + <em>lil₂</em>. His temple
-    you could already write in chapter 04: <span class="script">𒂍𒆳</span>,
-    the é-kur. Now you can write its landlord.
+    since <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>, then <em>en</em> + <em>lil₂</em>. His temple
+    you could already write in <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">chapter 04</a>: <span class="script">𒂍𒆳</span>,
+    the e₂-kur. Now you can write its landlord.
   </figcaption>
 </figure>
 
@@ -129,7 +130,7 @@ capable of recording connected language — and the language it first
 records at length is Sumerian. Royal inscriptions, letters,
 literature, and enormous administrative archives survive from cities
 across southern Mesopotamia; the seals and bricks you read in
-chapter 06 belong to this world.
+<a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter 06</a> belong to this world.
 
 **Akkadian joins in — from ca. 2334 BCE (the Sargonic dynasty, ca. 2334–2154 BCE).** Speakers of
 Akkadian, a Semitic language wholly unrelated to Sumerian, adopt the
@@ -143,7 +144,7 @@ one language, which is exactly the theme of this chapter.
 time of Hammurabi of Babylon (r. ca. 1792–1750 BCE), Akkadian in its Babylonian form is a mature literary and
 legal language written in cuneiform, and this period supplies much of
 what later ages, and later scholars, treat as the classical standard
-— including the scribal schools you met in chapter 09. Sumerian, by
+— including the scribal schools you met in <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">chapter 09</a>. Sumerian, by
 now no longer anyone's native language, persists as a learned and
 liturgical one, copied and studied the way Latin would be studied
 long after Rome.
@@ -195,7 +196,7 @@ the same script Sumerian scribes had used — keeping many Sumerian
 word-signs as logograms (a Sumerian sign standing for an Akkadian
 word, read aloud in Akkadian) while writing the grammar and the rest
 of the vocabulary syllabically, sound by sound, in Akkadian's own
-phonology. This is exactly why chapter 3's discussion of polyvalency
+phonology. This is exactly why <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 3's</a> discussion of polyvalency
 matters as more than a curiosity: a single sign carrying several
 possible readings is precisely what let one inventory of signs serve
 two unrelated languages at once, and it is also why so many signs in

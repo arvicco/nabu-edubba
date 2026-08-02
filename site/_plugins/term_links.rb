@@ -11,12 +11,15 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
   next unless page.output_ext == ".html"
 
   site = page.site
-  terms_page = site.pages.find { |p| p.data["terms_page"] }
-  next unless terms_page
-  next if page == terms_page # the glossary defines; it does not bubble
+  terms_pages = site.pages.select { |p| p.data["terms_page"] }
+  next if terms_pages.empty?
+  next if terms_pages.include?(page) # a glossary defines; it does not bubble
 
+  # Each glossary page may scope itself with `terms_school`; the page
+  # without one is the general glossary and the fallback target.
+  urls = terms_pages.each_with_object({}) { |p, h| h[p.data["terms_school"]] = p.url }
   terms = Array(site.data.dig("terms", "terms"))
   page.output = Edubba::TermLinker.transform(
-    page.output, terms, terms_page.url, site.baseurl.to_s
+    page.output, terms, urls, site.baseurl.to_s
   )
 end

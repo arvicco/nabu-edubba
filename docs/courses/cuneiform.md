@@ -24,7 +24,9 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - **Accent notation is not used as indexing**: *e₂* and *i₃*,
   never *é* and *ì*. Accented forms appear only in explicit
   mentions of the convention and in the school's own name,
-  *é-dub-ba-a*. Enforced (ì í ù ú) by the rulebook lint rule.
+  *é-dub-ba-a*. Enforced (é ì í ù ú) by the rulebook lint rule;
+  *é-dub-ba-a* is exempt at the pattern level, other explicit
+  mentions by per-file allowance.
 - The velar fricative is printed plain **h** in values (*ha*,
   *mah*), matching the corpora's folding; *ḫ* appears only when
   discussing notation itself.
@@ -69,7 +71,14 @@ machine-enforceable subset (`script/rulebook.rb`, run by
   tooling live in citations and footnotes, never in lesson flow.
 - Back-references to prior material carry links (owner ruling
   2026-07-31). Grammar walkthroughs go piece by piece — no
-  checklist glosses (owner ruling 2026-07-31).
+  checklist glosses (owner ruling 2026-07-31); sharpened
+  2026-08-02: any reading of three or more meaningful pieces gets
+  a bullet-form walkthrough in the body — one bullet per piece,
+  each naming what it is and where it was taught — with the figure
+  gloss carrying only the translation. Single-sentence analysis is
+  reserved for one- or two-piece items. Pieces beyond the course's
+  depth are named and honestly deferred ("the grammars carry it"),
+  never silently skipped.
 - Standard references are footnoted, once or twice per course
   (102 uses Foxvog's *Introduction to Sumerian Grammar*).
 

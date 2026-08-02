@@ -77,7 +77,7 @@ the two gears freely in one line: logograms for the big content
 words, syllabograms for names, particles, and grammar. Akkadian
 scribes later pushed this even further, keeping Sumerian logograms as
 learned shorthand inside Akkadian sentences — but that story belongs
-to chapter 10.
+to <a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">chapter 10</a>.
 
 ## Gear four: silent classifiers
 
@@ -150,7 +150,7 @@ Four habits do the work, and this course trains all of them:
    maps the shape of the phrase around it.
 3. **Frequency.** A modest number of signs does most of the work —
    the reason this course's inventory is chosen by computed frequency
-   and graphic simplicity rather than by tradition (chapter 11
+   and graphic simplicity rather than by tradition (<a href="{{ '/cuneiform/101/11-decipherment/' | relative_url }}">chapter 11</a>
    documents both criteria, sign by sign).
 4. **Writing.** A sign your hand knows, your eye resolves faster.
    Which is exactly where the next chapter takes you.

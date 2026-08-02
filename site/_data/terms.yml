@@ -9,27 +9,33 @@
 terms:
   - name: glottal stop
     slug: glottal-stop
+    school: hieroglyphs
     def: "a consonant made by briefly closing the throat — the catch in the middle of English \"uh-oh\""
   - name: glottal onset
     slug: glottal-onset
+    school: hieroglyphs
     def: "a light throat-catch at the start of a syllable — the small click before \"apple\" said carefully"
   - name: pharyngeal
     slug: pharyngeal
+    school: hieroglyphs
     def: "a consonant squeezed deep in the throat (like Arabic ʿayn); English has nothing similar"
   - name: emphatic
     slug: emphatic
+    school: hieroglyphs
     def: "pronounced with extra tension further back in the throat than its plain twin — q versus k, ḥ versus h"
   - name: determinative
     slug: determinative
     def: "a silent sign at the end (in cuneiform, often the front) of a word that classifies it — person, god, place, motion — never pronounced"
   - name: phonogram
     slug: phonogram
+    school: hieroglyphs
     def: "a sign used purely for its sound, whatever it happens to picture"
   - name: logogram
     slug: logogram
     def: "a sign that writes a whole word by itself"
   - name: ideogram
     slug: ideogram
+    school: hieroglyphs
     def: "a sign meaning the very thing it depicts — in practice, another name for a logogram"
   - name: syllabogram
     slug: syllabogram
@@ -39,42 +45,53 @@ terms:
     def: "one sign carrying several possible readings; context picks the right one"
   - name: uniliteral
     slug: uniliteral
+    school: hieroglyphs
     def: "a sound-sign spelling exactly one consonant"
   - name: biliteral
     slug: biliteral
+    school: hieroglyphs
     def: "a sound-sign spelling a fixed pair of consonants at once"
   - name: triliteral
     slug: triliteral
+    school: hieroglyphs
     def: "a sound-sign spelling three consonants at once"
   - name: phonetic complement
     slug: phonetic-complement
+    school: hieroglyphs
     def: "a sound-sign that repeats part of a neighboring sign's value — spelling belt-and-suspenders, for the reader's safety"
   - name: rebus
     slug: rebus
     def: "borrowing a picture for its sound instead of its meaning — drawing a sun to write \"son\""
   - name: cartouche
     slug: cartouche
+    school: hieroglyphs
     def: "the rope ring drawn around a royal name in Egyptian writing"
   - name: serekh
     slug: serekh
+    school: hieroglyphs
     def: "the palace-facade frame around the earliest Egyptian royal names — the cartouche's ancestor"
   - name: honorific transposition
     slug: honorific-transposition
+    school: hieroglyphs
     def: "writing a king's or god's name first out of respect, even though it is read in its normal grammatical place"
   - name: transliteration
     slug: transliteration
     def: "the sign-by-sign rendering of ancient writing in modern letters, so every sign stays accountable"
   - name: hieratic
     slug: hieratic
+    school: hieroglyphs
     def: "the fast cursive everyday form of Egyptian writing, done with brush and ink"
   - name: demotic
     slug: demotic
+    school: hieroglyphs
     def: "the even faster successor of hieratic, used for daily business in later Egypt"
   - name: ostraca
     slug: ostraca
+    school: hieroglyphs
     def: "flakes of limestone or broken pottery used as cheap writing surfaces — the ancient scratch paper"
   - name: suffix pronoun
     slug: suffix-pronoun
+    school: hieroglyphs
     def: "a mini-pronoun glued to the end of a word — \"his\", \"your\", \"hers\" as a single sign"
   - name: particle
     slug: particle
@@ -112,6 +129,15 @@ terms:
   - name: ergative
     slug: ergative
     def: "the case marking the doer of an action verb — Sumerian tags it with -e, treating doers and be-ers differently"
+  - name: dative
+    slug: dative
+    def: "the grammatical case meaning \"to, for (someone)\" — Sumerian marks it with -ra"
+  - name: comitative
+    slug: comitative
+    def: "the grammatical case meaning \"together with\" — Sumerian marks it with -da"
+  - name: locative
+    slug: locative
+    def: "the grammatical case meaning \"in, on, at\" — Sumerian marks it with -a"
   - name: copula
     slug: copula
     def: "a word or word-part meaning \"to be,\" linking a subject to what it is — Sumerian attaches it to the word itself: lugal-me-en, \"I am king\""
@@ -124,3 +150,24 @@ terms:
   - name: precative
     slug: precative
     def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+  - name: Winkelhaken
+    slug: winkelhaken
+    def: "the field's name (German, \"angle-hook\") for the corner wedge — the small open-angle impression made with the corner of the stylus tip"
+  - name: transitive
+    slug: transitive
+    def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
+  - name: nominalizer
+    slug: nominalizer
+    def: "a small word-part that folds a whole clause into a description or a thing — Sumerian's is -a: \"ate\" becomes \"who ate\""
+  - name: homophone
+    slug: homophone
+    def: "one of several different words or signs sharing the same sound — like English \"two\", \"too\", and \"to\"; index numbers (e₂, u₄) tell same-sounding signs apart"
+  - name: gur
+    slug: gur
+    def: "the big Mesopotamian grain measure — three hundred sila of roughly a liter each, so about 300 liters of barley; the granary's counterpart to the silver-scale's mina"
+  - name: mina
+    slug: mina
+    def: "the Mesopotamian pound: a weight of about 500 grams, divided into sixty shekels — silver by the mina was serious wealth"
+  - name: shekel
+    slug: shekel
+    def: "the basic Mesopotamian weight, about 8 grams — one shekel of silver was roughly a hired worker's monthly wage"
