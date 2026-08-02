@@ -101,9 +101,9 @@ One sign in the refrain needs a flag before it fools you: the
 *nam-* in *nam-gi₄* is neither <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> fate-maker — that one
 just passed by, honestly employed, in line 1's *nam* — nor
 <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">chapter
-14's</a> warning *na-*. Opening this verb it is an emphatic prefix the
-grammars describe alongside the wish-rings: the line insists, with
-full weight, that the heart *did* overflow. Three jobs, one shape;
+14's</a> warning *na-*. Opening this verb it is an affirmative
+prefix the grammars describe alongside the wish-rings: the line
+insists, with full weight, that the heart *did* overflow. Three jobs, one shape;
 the seat in the chain and the sense of the line decide.
 
 A god's heart, in this image, is the Tigris in spring: when Enlil

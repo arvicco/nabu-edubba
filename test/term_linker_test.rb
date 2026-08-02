@@ -45,6 +45,22 @@ class TermLinkerTest < Minitest::Test
   def test_no_match_inside_longer_words
     assert_equal "<p>indeterminatives?</p>", t("<p>indeterminatives?</p>")
   end
+
+  def test_school_terms_route_to_their_own_glossary
+    terms = TERMS + [
+      { "name" => "serekh", "slug" => "serekh", "def" => "a palace-facade frame", "school" => "hieroglyphs" }
+    ]
+    urls = { nil => "/terms/", "hieroglyphs" => "/hieroglyphs/addenda/terms/" }
+    out = Edubba::TermLinker.transform("<p>a serekh, a determinative</p>", terms, urls, "")
+    assert_includes out, %(href="/hieroglyphs/addenda/terms/#term-serekh")
+    assert_includes out, %(href="/terms/#term-determinative")
+  end
+
+  def test_school_term_falls_back_to_general_glossary_with_string_url
+    terms = [{ "name" => "serekh", "slug" => "serekh", "def" => "x", "school" => "hieroglyphs" }]
+    out = Edubba::TermLinker.transform("<p>serekh</p>", terms, "/terms/", "")
+    assert_includes out, %(href="/terms/#term-serekh")
+  end
 end
 
 class UrnLinkerTest < Minitest::Test

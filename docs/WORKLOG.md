@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-02 · M7-13 · phase-7 · E Addenda + glossary split
+(owner-directed): the hieroglyphs school gains its own Addenda
+shelf, and the glossary splits along school lines — 17 terms used
+only by Egyptian pages (classified empirically, grep over site
+content, not by intuition: the phonetics row ꜣ/ʿ/ḥ, the sign-class
+row uniliteral→triliteral + phonetic complement + phonogram +
+ideogram, the culture row cartouche/serekh/honorific
+transposition/hieratic/demotic/ostraca/suffix pronoun) tagged with
+an additive school: field in terms.yml and rendered at
+/hieroglyphs/addenda/terms/, sidebar-anchored under E Addenda;
+/terms/ keeps the rest and cross-links. The term linker learned
+multi-glossary routing: glossary pages declare terms_school, the
+plugin builds a school→URL map, each bubble links to its term's
+home page (String arg still accepted; tests cover both). Verified
+in built HTML: all 14 cartouche bubbles route to the Egyptian
+page, determinative stays general. Two catches in passing: C102
+ch17's "emphatic prefix" would have worn the phonetics bubble —
+reworded to "affirmative prefix," Foxvog's own term; and
+"classifier" stays general because cuneiform 101/03 uses it,
+despite its Egyptology-flavored definition. Hieroglyphs catalog's
+stale "101 opening chapters arriving" fixed (same disease as the
+cuneiform catalog's, caught in M7-12).
+
 2026-08-02 · M7-12 · phase-7 · C Addenda born (owner-directed after
 the wedge-order scout): a school-level out-of-course shelf at
 /cuneiform/addenda/ — appears in the sidebar as C Addenda between
