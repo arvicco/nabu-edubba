@@ -101,7 +101,15 @@ students your age read exactly these lines as homework:
   </figcaption>
 </figure>
 
-Take line two apart and count what this course has handed you:
+Line one is already yours entire: *lugal-me-en*, the phrase this
+chapter came for; then *šag₄-ta* —
+<a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">chapter 09's</a>
+heart-sign wearing
+<a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a>
+"from": *from the womb* — and *ur-saŋ-me-en* closing on the copula
+again: a hero, he insists, from the start.
+
+Now take line two apart and count what this course has handed you:
 the divine star, both halves of the king's name, the copula
 *-me-en* three lines running, *ba-* opening "was born," 𒉈
 wearing a new veteran reading *de₃* inside the verb's tail, and

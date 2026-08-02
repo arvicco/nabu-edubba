@@ -69,10 +69,15 @@ away from reading whole.
 Not one box. Read it again and take inventory: *ud*, the day,
 yours since [101]({{ '/cuneiform/101/' | relative_url }}); *an*
 and *ki*, heaven and earth, from the same
-year of your life; the locative *-a* you learned to name in
+year of your life; the locative *-a* from
+<a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter
+01's</a> tag list, shelved with its siblings in
 <a href="{{ '/cuneiform/102/13-you-are/' | relative_url }}">chapter 13</a>; *nam*, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> fate; and *tar* with its
 spelled-out tail — the cutting, in progress, at the beginning of
-things. Sumerian literature's grandest opening move is the
+things (that tail, *-re-da*, is the one wrapper the
+<a href="{{ '/cuneiform/102/18-reference/' | relative_url }}">Reference</a>
+honestly shelves for a later course; hold only its sense — "were
+*being* decreed," ongoing). Sumerian literature's grandest opening move is the
 mythic-time formula you met as *ud ri-a* in <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a>, here at
 its most solemn: pull the camera back to the day the world's
 blueprints were signed, then zoom in on your city.
@@ -125,7 +130,7 @@ Ur reaches for the same day:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓 𒉆 𒆳𒆳𒊏 𒁀𒋻𒊏</span><span class="translit">ud nam kur-kur-ra ba-tar-ra</span><span class="gloss">"the day destiny was decreed for all the lands" — the same formula, different scribe, kur doubled the way <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a> taught plurals</span></div>
+    <div class="reading-line"><span class="script">𒌓 𒉆 𒆳𒆳𒊏 𒁀𒋻𒊏</span><span class="translit">ud nam kur-kur-ra ba-tar-ra</span><span class="gloss">"the day destiny was decreed for all the lands" — the same formula, different scribe: kur doubled the way <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a> taught plurals, and ba-tar-ra parsing with your own kit — <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08's</a> ba-, the cutting stem, and the describer -a: "the day ON WHICH destiny was cut"</span></div>
   </div>
   <figcaption class="citation">
     From a royal hymn of the Ur III circle.
