@@ -64,22 +64,22 @@ down for — it puts the **possessed thing first**:
 
 > **X Y-ak** = "Y's X" (literally "X of-Y")
 
-House, king-of: <span class="script">𒂍 𒈗</span> *é lugal(-ak)*,
-"the king's house." The possessed noun (*é*, "house") leads; the
+House, king-of: <span class="script">𒂍 𒈗</span> *e₂ lugal(-ak)*,
+"the king's house." The possessed noun (*e₂*, "house") leads; the
 possessor (*lugal*, "king") follows, carrying the genitive tag.
 Now count the signs: **two** — and the transliteration shows a tag
 the clay does not. That mismatch is not a typo; it is this
 chapter's whole lesson, coming right up.
 
 Now the honest part. Say that phrase aloud and you will notice the
-/k/ barely wants to exist: *é lugal-ak* tends to surface, and get
-written, as something closer to *é lugal-a*, or even just
-*é lugal*, with no genitive tag visible at all. The rule of thumb
+/k/ barely wants to exist: *e₂ lugal-ak* tends to surface, and get
+written, as something closer to *e₂ lugal-a*, or even just
+*e₂ lugal*, with no genitive tag visible at all. The rule of thumb
 from the standard grammars is that the /k/ of *-ak* mostly surfaces only
 when another vowel follows it and gives it something to lean on;
 standing at the end of a phrase, alone, it routinely hides in the
-spelling. You will meet *é lugal-ak* far more often looking like
-*é lugal-a* than looking like its full form. Learn the pattern
+spelling. You will meet *e₂ lugal-ak* far more often looking like
+*e₂ lugal-a* than looking like its full form. Learn the pattern
 (possessed first, possessor-plus-tag second) and expect the tag
 itself to be shy.
 
@@ -116,7 +116,7 @@ more surprise waiting for you at the end of chapter 05.)
     </g>
     <g fill="currentColor" font-size="17" text-anchor="middle">
       <text x="320" y="150">𒂍 𒈗</text>
-      <text x="320" y="172" font-size="13" opacity="0.8">é lugal-(ak) — "the king's house"</text>
+      <text x="320" y="172" font-size="13" opacity="0.8">e₂ lugal-(ak) — "the king's house"</text>
     </g>
   </svg>
   <figcaption class="citation">Schematic, per this course's habit —
@@ -167,10 +167,10 @@ work without a single spelled-out *-ak*:
   </figcaption>
 </figure>
 
-*é-gal*, "big house" — the palace — is
+*e₂-gal*, "big house" — the palace — is
 [101]({{ '/cuneiform/101/' | relative_url }}) chapter 07's word,
 and here it sits as the possessed thing a man belongs to: not
-*ur é-gal-ak* spelled in full, but *ur é-gal* — "Ur," of the
+*ur e₂-gal-ak* spelled in full, but *ur e₂-gal* — "Ur," of the
 "palace," tag hidden exactly the way this chapter warned you it
 would be. Ur, the classic 101 sign for "dog" doing service as
 "man/servant" in names, plus palace, plus a genitive you have to
@@ -181,7 +181,7 @@ is there even when the clay declines to write it.
 
 1. Write 𒊏, 𒂵, 𒀝 from memory; say *ra*, *ga*, *ak*.
 2. Compose in transliteration, then in signs: *lugal-ra* ("for the
-   king," dative, fully spelled), and *é lugal-ak* ("the king's
+   king," dative, fully spelled), and *e₂ lugal-ak* ("the king's
    house," genitive — then say it again the way the clay usually
    would, with the /k/ dropped).
 3. In the two milk-names above, name which sign is doubled for

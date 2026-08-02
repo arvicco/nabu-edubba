@@ -24,7 +24,9 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - **Accent notation is not used as indexing**: *e₂* and *i₃*,
   never *é* and *ì*. Accented forms appear only in explicit
   mentions of the convention and in the school's own name,
-  *é-dub-ba-a*. Enforced (ì í ù ú) by the rulebook lint rule.
+  *é-dub-ba-a*. Enforced (é ì í ù ú) by the rulebook lint rule;
+  *é-dub-ba-a* is exempt at the pattern level, other explicit
+  mentions by per-file allowance.
 - The velar fricative is printed plain **h** in values (*ha*,
   *mah*), matching the corpora's folding; *ḫ* appears only when
   discussing notation itself.
