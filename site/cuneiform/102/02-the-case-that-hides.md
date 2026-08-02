@@ -149,7 +149,11 @@ friends: <span class="script">𒅥</span> and <span class="script">𒅘</span>
 are 101's sign-workshop compounds, built on the mouth — "eat" and
 "drink" doubled here the way Sumerian doubles a verb for repeated
 or ongoing action. The mouth eats and drinks again, twice over, and
-somebody's baby got a name out of it.
+somebody's baby got a name out of it. Hold the milk loosely,
+though: 𒂵 has a second, grammatical job waiting in
+[chapter 09]({{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}),
+and when you own it, these same two names will open a second — and
+better — reading. The clay keeps; the course will come back.
 
 ## Reading: a name with a hidden genitive
 

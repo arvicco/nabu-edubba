@@ -104,6 +104,19 @@ known both compound signs since
 [101's sign workshop]({{ '/cuneiform/101/08-the-sign-workshop/' | relative_url }}). Four and a
 half thousand years later, the sentence still translates itself.
 
+And check the citation: this is the very tablet — the same two
+entries — that
+[chapter 02]({{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }})
+read as milk names, 𒂵 the milk jug plus eat, plus drink. That
+chapter told you to hold the milk loosely; here is why. Now that
+you own *ga-* the ring, a second reading opens: not "milk, eat,
+eat" but "let me eat and eat" — a wish, worn as a name. Which did
+the parents mean? Both readings are live, and a Fara name can
+carry the pun entire; editors keep them approximate for exactly
+this reason. What is certain is what changed: the clay did not.
+You did — and the same three signs now say more to you than they
+did seven chapters ago.
+
 ## Things, given and owned
 
 The thing-maker earns its wedges on the receipts. The single
