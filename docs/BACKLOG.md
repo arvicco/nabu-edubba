@@ -351,6 +351,17 @@ drift incident.
 ## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: done] [deps: M7-7]
 ## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: done] [deps: M7-8]
 ## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M7-9]
+## M7-12 · C Addenda: writing primer + terms anchored  [tier: top — Fable] [status: done] [deps: M7-11]
+   Owner-directed: new school-level Addenda section (out-of-course
+   shelf) at /cuneiform/addenda/ holding the Writing primer — the
+   scribe's hand, sourced from the wedge-order scout (Taylor 2015
+   overlap paleography, Cammarosano CWT, Wright/Huehnergard
+   reconstructions; primary sources re-fetched before writing) with
+   proven-vs-reconstruction labels, PA/GIŠ, overlap SVG — and the
+   /terms/ glossary, now anchored in the sidebar under C Addenda.
+   C101 ch00 gains the honestly-teachable wedge facts + primer
+   links; school catalog updated (stale 102 entry fixed); PA+GIŠ
+   into the font subset; Winkelhaken term added.
 ## M7-11 · Owner review round 3: full-course sequential fixes  [tier: top — Fable] [status: done] [deps: M7-10]
    Sequential review of all 19 chapters (mine + owner's own pass):
    locative named at ch01 and read honestly at ch10; nominalizer -a

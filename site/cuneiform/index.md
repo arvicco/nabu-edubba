@@ -29,9 +29,11 @@ the ability to look at a real tablet and read it.
   story — with real Ur III royal inscriptions read in chapter 06.
   Prerequisite for everything below.
 - **[102 · Sumerian]({{ '/cuneiform/102/' | relative_url }})** —
-  **in progress, opening chapters arriving.** A literacy track: the sign inventory in
-  frequency order, Sumerian to the degree reading demands, graded readings
-  from royal inscriptions to proverbs and Edubba texts.
+  **open: complete, nineteen chapters live.** A literacy track: 51 more
+  signs in computed frequency order (77 in all), Sumerian grammar to the
+  degree reading demands, and real readings from Fara-period name lists
+  through proverbs, Šulgi's royal hymn, and the opening of Gudea's
+  temple cylinders.
 - **103 · Akkadian** — planned. A literacy track centered on Old
   Babylonian: syllabary-first reading, Akkadian grammar as needed, graded
   readings toward Hammurabi and letters.
@@ -49,6 +51,16 @@ the ability to look at a real tablet and read it.
     Ashurbanipal — planned.
   - Origins and proto-cuneiform — planned.
   - Open questions of the field — planned.
+
+## Addenda — the school's shelf
+
+Outside the numbered sequence, the
+**[Addenda]({{ '/cuneiform/addenda/' | relative_url }})** collect
+materials that serve every course and belong to none: the
+[writing primer]({{ '/cuneiform/addenda/writing-primer/' | relative_url }})
+(the scribe's hand — the three wedges and the order the clay itself
+proves) and the site's
+[working glossary of terms]({{ '/terms/' | relative_url }}).
 
 ## A note on where things stand
 

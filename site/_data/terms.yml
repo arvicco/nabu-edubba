@@ -133,6 +133,9 @@ terms:
   - name: precative
     slug: precative
     def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+  - name: Winkelhaken
+    slug: winkelhaken
+    def: "the field's name (German, \"angle-hook\") for the corner wedge — the small open-angle impression made with the corner of the stylus tip"
   - name: transitive
     slug: transitive
     def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
