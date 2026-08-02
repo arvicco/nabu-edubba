@@ -111,7 +111,7 @@ commonest *niŋ₂*-word in the accounts is this one:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒃻𒁀</span><span class="translit">niŋ₂-ba</span><span class="gloss">gift — literally "a thing allotted," chapter 08's ba- frozen into a noun</span></div>
-    <div class="reading-line"><span class="script">𒀀𒊮 𒈗𒄩𒈠𒋾</span><span class="translit">a-ša₃ lugal-ha-ma-ti</span><span class="gloss">"field of Lugal-hamati" — the holder's name is itself this chapter's wish-prefix at work: "may the king keep me alive," roughly — ha- on ti, "live" (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒀀𒊮 𒈗𒄩𒈠𒋾</span><span class="translit">a-ša₃ lugal-ha-ma-ti</span><span class="gloss">"field of Lugal-hamati" — the holder's name is itself this chapter's wish-prefix at work: "may the king keep me alive," roughly — ha-, then a -ma- ring meaning "for me" that chapter 12 opens, then ti, "live" (approximate)</span></div>
     <div class="reading-line"><span class="script">𒉆𒄩𒉌 𒋗𒁀𒋾</span><span class="translit">nam-ha-ni šu ba-ti</span><span class="gloss">"Nam-hani received" — chapter 08's receipt verb; the name is built on nam-, "fate" (perhaps "may it be his fate" — name compression keeps it approximate), wrapped around this chapter's fish</span></div>
   </div>
   <figcaption class="citation">

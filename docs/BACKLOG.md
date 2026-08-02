@@ -351,6 +351,14 @@ drift incident.
 ## M7-8 · Ch. 17 — a literary capstone passage (per sweep)  [tier: top — Fable] [status: done] [deps: M7-7]
 ## M7-9 · Ch. 18 — 102 Reference; course complete  [tier: top] [status: done] [deps: M7-8]
 ## M7-10 · Stitching, docs/README refresh, gate PR  [tier: top] [status: done] [deps: M7-9]
+## M7-11 · Owner review round 3: full-course sequential fixes  [tier: top — Fable] [status: done] [deps: M7-10]
+   Sequential review of all 19 chapters (mine + owner's own pass):
+   locative named at ch01 and read honestly at ch10; nominalizer -a
+   bite in ch14 (ch08's promise kept); nam-gi₄/-ke₄/-ani/-ma- gaps
+   closed; dangling refs and slips fixed; ch00 chart decluttered +
+   course promise + mu "my"; term bubbles (homophone, mina, shekel,
+   nominalizer); meta → footnotes; é banned in translit (rulebook);
+   chapter back-references linked course-wide.
 
 Acceptance per packet: gate green (incl. rulebook checks), pedagogy
 commitments 1–9, rulebook (docs/courses/cuneiform.md) obeyed —

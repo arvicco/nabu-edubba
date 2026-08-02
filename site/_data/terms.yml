@@ -133,3 +133,15 @@ terms:
   - name: precative
     slug: precative
     def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+  - name: nominalizer
+    slug: nominalizer
+    def: "a small word-part that folds a whole clause into a description or a thing — Sumerian's is -a: \"ate\" becomes \"who ate\""
+  - name: homophone
+    slug: homophone
+    def: "one of several different words or signs sharing the same sound — like English \"two\", \"too\", and \"to\"; index numbers (e₂, u₄) tell same-sounding signs apart"
+  - name: mina
+    slug: mina
+    def: "the Mesopotamian pound: a weight of about 500 grams, divided into sixty shekels — silver by the mina was serious wealth"
+  - name: shekel
+    slug: shekel
+    def: "the basic Mesopotamian weight, about 8 grams — one shekel of silver was roughly a hired worker's monthly wage"

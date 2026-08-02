@@ -66,8 +66,10 @@ exactly where readings demanded them.
 - **The verbal chain**: negation and wishes outermost (*nu-*,
   *ga-*, *ha-*, *na-*), finite openers next (*i₃-*, *in-*, *ba-*,
   *mu-* and its fused *ma-*), the dative *-na-* inside, stem, and
-  trailing suffixes glimpsed but not yet opened (chs. 04, 08, 09,
-  12, 14).
+  trailing suffixes mostly glimpsed (chs. 04, 08, 09, 12, 14).
+- **The nominalizing -a**, folding a clause into a description —
+  "who ate," "built by an honest man" (chs. 08, 14); its
+  noun-riding twin, the locative *-a*, sits in the case table.
 - **The copula** *-me-en* for "I am" and "you are," with *za-e*
   settling person (chs. 07, 13); third-person *-am₃* previewed
   only.

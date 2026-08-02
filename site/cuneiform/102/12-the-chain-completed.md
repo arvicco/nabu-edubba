@@ -69,7 +69,8 @@ dedications run on:
 - **-na-** — "for him, for her": the dative you have known since
   chapter 02's *-ra*, folded *inside* the verb. Sumerian says the
   receiver twice — once on the noun, once in the chain — and the
-  chain's copy is *-na-*.
+  chain's copy is *-na-*. You have already watched it ride by: the
+  unnamed ring in chapter 08's *i₃-na-ba* was exactly this.
 
 <figure class="composition">
   <p class="composition-row script" aria-label="mu plus na plus du3 assembling the votive verb">
@@ -100,9 +101,9 @@ read with boxes. Two of its lines just came fully open:
   </figcaption>
 </figure>
 
-This is what the course meant, back in chapter 05, when it said ▢
-is "a placeholder the course fills as your inventory grows." The
-inscription did not change. You did.
+This is what the course has meant since chapter 00, where ▢
+entered as "a sign not yet taught." The inscription did not
+change. You did.
 
 ## The god who wanted his house
 
@@ -138,7 +139,7 @@ of them. From a dedication of a ruler of Uruk:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒉆𒋾</span><span class="translit">nam-ti</span><span class="gloss">"(for) the life" — the purpose slot, compressed</span></div>
     <div class="reading-line"><span class="script">𒈗𒀭𒈾𒁺</span><span class="translit">lugal-an-na-tum₂</span><span class="gloss">Lugal-anatum — the donor; 𒁺, chapter 04's going-foot, here wearing its tum₂ reading (a veteran's third job)</span></div>
-    <div class="reading-line"><span class="script">𒈨𒀭𒈾𒆤</span><span class="translit">išib an-na-ke₄</span><span class="gloss">"purification priest of An" — 𒈨, this course's very first sign, wearing its priestly reading išib; the genitive's -ke₄ from chapter 11's votive</span></div>
+    <div class="reading-line"><span class="script">𒈨𒀭𒈾𒆤</span><span class="translit">išib an-na-ke₄</span><span class="gloss">"purification priest of An" — 𒈨, this course's very first sign, wearing its priestly reading išib; -ke₄, the stacked genitive-plus-doer tags from chapter 11's votive</span></div>
     <div class="reading-line"><span class="script">𒀀𒈬𒈾𒊒</span><span class="translit">a mu-na-ru</span><span class="gloss">"dedicated this to him" — the genre's closing verb, with both of this chapter's rings in place</span></div>
   </div>
   <figcaption class="citation">
@@ -166,4 +167,5 @@ any museum case closes with a sentence you cannot read.
    boxed, and notice what no longer is.
 
 *Next: "you are" — the pronoun Sumerian saves for speaking to
-kings and gods, plus the month-sign and the art of sitting down.*
+kings and gods, plus the month-sign, real date lines, and the
+whole case system on one table at last.*

@@ -84,10 +84,10 @@ same little copula carries both.
 
 ## The case that was hiding in plain sight
 
-One case tag has slipped through this course's readings unnamed:
-the **locative** *-a*, "in, on, at." You read it in chapter 10's
-*ud re-a*, "in that distant day," and its everyday twin is
-everywhere:
+One case tag has been on quiet duty since chapter 01's list first
+named it: the **locative** *-a*, "in, on, at" — one bare vowel,
+easy to read past. Chapter 10's *ud re-a*, "in that distant day,"
+wore it; its everyday twin is everywhere:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -111,7 +111,7 @@ every example already yours:
     <tr><td>ergative</td><td><em>-e</em></td><td>the doer</td><td><em>ur-mah-e</em>, the lion that ate (ch. 08)</td></tr>
     <tr><td>genitive</td><td><em>-a(k)</em></td><td>of</td><td><em>kalam-ma-ka</em>, of the Land (ch. 07)</td></tr>
     <tr><td>dative</td><td><em>-ra</em></td><td>to, for</td><td><em>en-ra</em>, to the lord (ch. 11)</td></tr>
-    <tr><td>comitative</td><td><em>-da</em></td><td>with</td><td><em>lugal-da</em>, with the king (ch. 03)</td></tr>
+    <tr><td>comitative</td><td><em>-da</em></td><td>with</td><td><em>dumu-da</em>, with the child (ch. 03)</td></tr>
     <tr><td>ablative</td><td><em>-ta</em></td><td>from</td><td><em>igi-ni-ta</em>, from his presence (ch. 06)</td></tr>
     <tr><td>terminative</td><td><em>-še₃</em></td><td>toward, for</td><td><em>nam-ti-la-ni-še₃</em>, for his life (ch. 05)</td></tr>
     <tr><td>locative</td><td><em>-a</em></td><td>in, on, at</td><td><em>ud-bi-a</em>, on that day — this page</td></tr>
@@ -119,18 +119,19 @@ every example already yours:
 </table>
 
 Seven cases, seven tags, no memorization drills sprung on you —
-each one arrived when a real reading needed it, which is why the
-table reads like a scrapbook instead of a syllabus.
+each one arrived when a reading (or, for the rarer comitative, a
+composed example) needed it, which is why the table reads like a
+scrapbook instead of a syllabus.
 
 ## The month of the festival
 
 The month-sign earns its keep on the dated receipts. Ur III
-bookkeepers closed their tablets with the month, and one month
-names a festival you have already met in a personal name:
+bookkeepers closed their tablets with the month, and one month is
+named for the Akiti, the great new-year festival of Ur:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌗 𒀉𒆠𒋾</span><span class="translit">iti a₂-ki-ti</span><span class="gloss">"month of the Akiti festival" — the new-year festival that gave chapter 10's a₂-ki-ti its name</span></div>
+    <div class="reading-line"><span class="script">𒌗 𒀉𒆠𒋾</span><span class="translit">iti a₂-ki-ti</span><span class="gloss">"month of the Akiti festival" — the festival's name spelled entirely from signs you hold: chapter 10's a₂, 101's ki, chapter 04's ti</span></div>
     <div class="reading-line"><span class="script">𒌗 𒀉𒆠𒋾𒋫</span><span class="translit">iti a₂-ki-ti-ta</span><span class="gloss">"from the month of Akiti" — the same line wearing chapter 01's ablative: bookkeeping across time</span></div>
   </div>
   <figcaption class="citation">

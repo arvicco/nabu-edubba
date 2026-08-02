@@ -17,7 +17,7 @@ shows: []
 
 # The case that hides
 
-Two signs bought you the sentence's skeleton — verb last, tags on
+Three signs bought you the sentence's skeleton — verb last, tags on
 the nouns, a doer that can be marked. This chapter's grammar bite is
 smaller and sneakier: the tag that means "belonging to," which is
 everywhere in real texts and which likes to vanish from the

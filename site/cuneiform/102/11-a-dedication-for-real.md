@@ -76,7 +76,7 @@ its key sign is not yet yours. Everything else, you read.
     <div class="reading-line"><span class="script">▢𒀭𒊑𒉈𒊏</span><span class="translit">ama diŋir-re-ne-ra</span><span class="gloss">mother of the gods (that -ra is chapter 02's "for"),</span></div>
     <div class="reading-line"><span class="script">𒇽𒀭𒌓</span><span class="translit">lu₂-{d}utu</span><span class="gloss">Lu-Utu ("Man of the sun-god" — a name you can read whole),</span></div>
     <div class="reading-line"><span class="script">▢▢▢</span><span class="translit">ensi₂</span><span class="gloss">ruler</span></div>
-    <div class="reading-line"><span class="script">▢▢𒆠𒆤</span><span class="translit">umma{ki}-ke₄</span><span class="gloss">of Umma (the place-tag {ki} from 101; -ke₄ — the genitive's hidden /k/ surfacing, exactly as chapter 07 unmasked it),</span></div>
+    <div class="reading-line"><span class="script">▢▢𒆠𒆤</span><span class="translit">umma{ki}-ke₄</span><span class="gloss">of Umma (the place-tag {ki} from 101; -ke₄ is two tags stacked: the genitive's hidden /k/, surfacing as chapter 07 unmasked it, plus the doer's -e from chapter 01 — the ruler-of-Umma is the one doing the building),</span></div>
     <div class="reading-line"><span class="script">𒉆𒋾𒆷𒉌𒂠</span><span class="translit">nam-ti-la-ni-še₃</span><span class="gloss">for his life —</span></div>
     <div class="reading-line"><span class="script">𒂍𒈬𒈾▢</span><span class="translit">e₂ mu-na-du₃</span><span class="gloss">built her the temple.</span></div>
   </div>
