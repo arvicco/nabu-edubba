@@ -18,7 +18,7 @@ shows: []
 # Reference
 
 The scribes of the é-dub-ba-a opened their training with sign lists
-and never stopped consulting them; chapter 09 called the lexical
+and never stopped consulting them; <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">chapter 09</a> called the lexical
 lists the first dictionaries. This page is this course's own small
 entry in that four-thousand-year-old genre — and unlike a clay list,
 it is generated directly from the course's sign registry, so it can
@@ -115,7 +115,7 @@ of the CDLI and Oracc corpora:
 ## Sources and licenses
 
 Original prose on this page and throughout the course is
-CC BY-SA 4.0. The ancient texts quoted in chapters 04 and 06 come
+CC BY-SA 4.0. The ancient texts quoted in chapters <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">04</a> and <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">06</a> come
 from CDLI (license class: attribution) and are cited in place with
 URNs. Sign frequencies were counted over Nabu's ETCSL and CDLI
 holdings — 36,501 lines of Sumerian literature and about 1.5

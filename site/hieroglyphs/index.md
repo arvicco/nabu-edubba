@@ -22,11 +22,12 @@ school, the goal is not facts about the script but the ability to read it.
 ## Course catalog
 
 - **[101 · Foundations]({{ '/hieroglyphs/101/' | relative_url }})** —
-  **open, opening chapters arriving.** How Egyptian hieroglyphic
-  writing works as a system: media and origins, sound-signs and
-  classifiers, the one-consonant signs, real royal names in
-  cartouches, and the offering formula read whole. Prerequisite for
-  everything below.
+  **open: complete, thirteen chapters live.** How Egyptian hieroglyphic
+  writing works as a system: media and origins, uniliterals,
+  biliterals and phonetic complements, the classifier system, the
+  culture words, real royal names in cartouches — and the Rosetta
+  decipherment told with Ptolemy and Cleopatra read sign by sign.
+  Prerequisite for everything below.
 - **102 · Middle Egyptian literacy** — planned. A literacy track building
   toward reading real Middle Egyptian texts.
 - **2xx · The wider Egyptian world** — planned. Further courses across the
@@ -35,6 +36,15 @@ school, the goal is not facts about the script but the ability to read it.
   - Demotic — planned.
   - Coptic — planned.
   - Ptolemaic — planned.
+
+## Addenda — the school's shelf
+
+Outside the numbered sequence, the
+**[Addenda]({{ '/hieroglyphs/addenda/' | relative_url }})** collect
+materials that serve every course and belong to none — starting
+with the
+[Egyptian glossary]({{ '/hieroglyphs/addenda/terms/' | relative_url }}),
+every hieroglyph-specific term in one plain sentence each.
 
 ## A note on where things stand
 

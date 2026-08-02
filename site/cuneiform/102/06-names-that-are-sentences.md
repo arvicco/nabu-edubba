@@ -83,9 +83,13 @@ Start with one you could have read five chapters ago:
   </figcaption>
 </figure>
 
-Three signs, three words, a subject and a verb — a sentence someone
-answered to. Now the new batch goes to work on two more, from the
-same genre of tablets:
+Three signs, three words: *lugal* the king, *gal* "great," *zu*
+the knowing — and the gloss's two readings differ only in how they
+wire them: is the king the one who knows greatness, or the great
+one who knows *you*? Names compress harder than sentences, and
+editors keep both wirings open. Either way, a subject, a verb —
+a sentence someone answered to. Now the new batch goes to work on
+two more, from the same genre of tablets:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -135,7 +139,7 @@ same Šuruppak archives:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒅆𒉌𒋫</span><span class="translit">igi-ni-ta</span><span class="gloss">"from his presence" — eye + his + the ablative -ta of chapter 01</span></div>
+    <div class="reading-line"><span class="script">𒅆𒉌𒋫</span><span class="translit">igi-ni-ta</span><span class="gloss">"from his presence" — eye + his + the ablative -ta of <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></span></div>
   </div>
   <figcaption class="citation">
     Early Dynastic administrative tablet.
@@ -162,7 +166,8 @@ because it never stopped being used:
   </figcaption>
 </figure>
 
-Silver by the mina, barley by the gur: with 101's
+Silver by the mina, barley by the gur: with
+[101's]({{ '/cuneiform/101/05-counting/' | relative_url }})
 <span class="script">𒄥</span> and this chapter's
 <span class="script">𒈠𒈾</span> you now hold both pans of the
 Sumerian economy's scale.

@@ -17,7 +17,8 @@ shows: []
 
 # The sentence in the clay
 
-101 taught you how *signs* work. To read running Sumerian you need
+[101]({{ '/cuneiform/101/' | relative_url }}) taught you how
+*signs* work. To read running Sumerian you need
 one more machine: how the *sentence* works. This chapter is the
 whole of Sumerian grammar in the coarsest useful outline — the shape
 of it, so that every later grammar bite has somewhere to land.[^ref]
@@ -69,25 +70,35 @@ Each tag, with a sentence to hold it by:
   the mountains" — where a caravan comes from, where the timber was
   brought from. Point of origin.
 - ***-še₃* "to, toward, for":** <span class="script">𒂍𒂠</span>
-  *é-še₃*, "to the house" — where the barley is delivered, where the
-  procession is headed. Destination or purpose. (In chapter 05 you
+  *e₂-še₃*, "to the house" — where the barley is delivered, where the
+  procession is headed. Destination or purpose. (In <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a> you
   will see it end the most famous purpose-phrase in Sumerian: "for
   his life".)
+- ***-a* "in, on, at":** <span class="script">𒂍𒀀</span> *e₂-a*,
+  "in the house" — where something sits or happens. The plainest
+  tag of all, one bare vowel — 101's very first sign in yet another
+  job. The grammars call it the locative; you will read it on real
+  clay long before
+  [chapter 13]({{ '/cuneiform/102/13-you-are/' | relative_url }})
+  shelves it beside its siblings.
 - **possession, in two flavors.** Sumerian splits "belonging" by who
   owns. A *person's* things take *-ani* "his, her":
-  <span class="script">𒂍𒀀𒉌</span> *é-a-ni*, "his house" — say, the
+  <span class="script">𒂍𒀀𒉌</span> *e₂-a-ni*, "his house" — say, the
   governor's. A *thing's or place's* things take *-bi* "its":
-  <span class="script">𒂍𒁉</span> *é-bi*, "its house" — say, the
+  <span class="script">𒂍𒁉</span> *e₂-bi*, "its house" — say, the
   city's temple, the estate's storehouse. Persons get *-ani*, everything
-  else gets *-bi*; when you meet *é-bi* in a text, look back for the
-  city, field, or herd that owns it.
+  else gets *-bi*; when you meet *e₂-bi* in a text, look back for the
+  city or the temple that owns it.
 
 **Three: the doer can carry a mark.** In sentences with a
 transitive verb, the noun doing the deed often ends in *-e* —
-<span class="script">𒈗𒂊</span> *lugal-e*, "the king (acting)".
-You met this very form in a search hit back in 101's readings; now
-it has a name. (Linguists call the full system "ergative"; the
-label matters less than the habit of noticing the tag.)
+<span class="script">𒈗𒂊</span> *lugal-e*, "the king (acting)" —
+while the thing acted on wears no tag at all: in "the king built
+a temple," the king takes *-e* and the temple stands bare.
+From here on you will spot that little tag in nearly every royal
+inscription this course reads. (Linguists call the full system
+"ergative"; the label matters less than the habit of noticing the
+tag.)
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="Anatomy of a Sumerian sentence: three blocks in order — agent noun with tag -e, object noun with a case tag, then the verb chain last — with the verb block emphasized.">
@@ -104,7 +115,7 @@ label matters less than the habit of noticing the tag.)
       <text x="315" y="106" opacity="0.7">+ tags (-še₃, -ta …)</text>
       <text x="520" y="86">VERB CHAIN</text>
       <text x="520" y="106" opacity="0.7">always last</text>
-      <text x="115" y="150" opacity="0.7">"the king"</text>
+      <text x="115" y="150" opacity="0.7">"the king (acting)"</text>
       <text x="315" y="150" opacity="0.7">"a temple, for his life"</text>
       <text x="520" y="150" opacity="0.7">"built"</text>
     </g>
@@ -113,10 +124,10 @@ label matters less than the habit of noticing the tag.)
   but every royal inscription you will read in this track fits it.</figcaption>
 </figure>
 
-## Reading: a name with a case inside
+## Reading: a name in Sumerian order
 
-Fara-period name lists again — this time a name that is a little
-sentence with a location in it:
+Fara-period name lists again — this time a name that shows the
+ordering habit at work:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -140,9 +151,9 @@ modifier last.
 
 1. Write 𒂠, 𒂊, 𒁉 from memory; say *še₃*, *e*, *bi*.
 2. Compose in transliteration, then in signs: *kur-ta* ("from the
-   mountains"), *é-še₃* ("to the house"), *é-a-ni* ("his house"),
-   *é-bi* ("its house — the city's"), *lugal-e* ("the king,
-   acting").
+   mountains"), *e₂-še₃* ("to the house"), *e₂-a* ("in the house"),
+   *e₂-a-ni* ("his house"), *e₂-bi* ("its house — the city's"),
+   *lugal-e* ("the king, acting").
 3. Say aloud the three habits — verb last, grammar as tags, doer
    marked — and name one English sentence you could rebuild the
    Sumerian way.

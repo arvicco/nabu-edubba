@@ -170,11 +170,11 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 6 — Hieroglyphs 101 second stretch (approved 2026-07-31,
-executed; Gate 6 PR pending owner merge).
+Phase 7 — Cuneiform 102 third and final stretch (chs 12–17;
+plan pending owner approval).
 
-Gate 5 merged 2026-07-31 (Cuneiform 102 second stretch: chs 06–11,
-17 new signs, 60 taught, ~49% corpus coverage; OSL identity
-instruments; literary readings per D3-a; content-is-Fable-only
-rule ratified as golden rule 9).
+Gate 6 merged 2026-07-31 (Hieroglyphs 101 complete: chs 07–12, 53
+signs, Rosetta decipherment; phonetics primers both schools;
+course rulebooks in docs/courses/ enforced by the gate; hiero
+frequency table regenerated after the mixed-case incident).
 Update this line at each gate.

@@ -17,7 +17,7 @@ shows: []
 
 # The case that hides
 
-Two signs bought you the sentence's skeleton — verb last, tags on
+Three signs bought you the sentence's skeleton — verb last, tags on
 the nouns, a doer that can be marked. This chapter's grammar bite is
 smaller and sneakier: the tag that means "belonging to," which is
 everywhere in real texts and which likes to vanish from the
@@ -64,22 +64,22 @@ down for — it puts the **possessed thing first**:
 
 > **X Y-ak** = "Y's X" (literally "X of-Y")
 
-House, king-of: <span class="script">𒂍 𒈗</span> *é lugal(-ak)*,
-"the king's house." The possessed noun (*é*, "house") leads; the
+House, king-of: <span class="script">𒂍 𒈗</span> *e₂ lugal(-ak)*,
+"the king's house." The possessed noun (*e₂*, "house") leads; the
 possessor (*lugal*, "king") follows, carrying the genitive tag.
 Now count the signs: **two** — and the transliteration shows a tag
 the clay does not. That mismatch is not a typo; it is this
 chapter's whole lesson, coming right up.
 
 Now the honest part. Say that phrase aloud and you will notice the
-/k/ barely wants to exist: *é lugal-ak* tends to surface, and get
-written, as something closer to *é lugal-a*, or even just
-*é lugal*, with no genitive tag visible at all. The rule of thumb
+/k/ barely wants to exist: *e₂ lugal-ak* tends to surface, and get
+written, as something closer to *e₂ lugal-a*, or even just
+*e₂ lugal*, with no genitive tag visible at all. The rule of thumb
 from the standard grammars is that the /k/ of *-ak* mostly surfaces only
 when another vowel follows it and gives it something to lean on;
 standing at the end of a phrase, alone, it routinely hides in the
-spelling. You will meet *é lugal-ak* far more often looking like
-*é lugal-a* than looking like its full form. Learn the pattern
+spelling. You will meet *e₂ lugal-ak* far more often looking like
+*e₂ lugal-a* than looking like its full form. Learn the pattern
 (possessed first, possessor-plus-tag second) and expect the tag
 itself to be shy.
 
@@ -96,7 +96,7 @@ exactly what your new sign 𒀝 writes. Keep that pairing: the case
 is */ak/*; the sign is <span class="script">𒀝</span>; the clay
 shows it only when the sound has somewhere to stand. (𒀝 also works
 a plainer day job as the verb "to do, to make" — and it has one
-more surprise waiting for you at the end of chapter 05.)
+more surprise waiting for you at the end of <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a>.)
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="Diagram of the Sumerian genitive: two labeled boxes, possessed X on the left, possessor Y plus the tag ak on the right, with an arrow from the right box to the left showing the possession relationship, and the example house king-ak meaning the king's house, with a note that the k is often silent in spelling.">
@@ -116,7 +116,7 @@ more surprise waiting for you at the end of chapter 05.)
     </g>
     <g fill="currentColor" font-size="17" text-anchor="middle">
       <text x="320" y="150">𒂍 𒈗</text>
-      <text x="320" y="172" font-size="13" opacity="0.8">é lugal-(ak) — "the king's house"</text>
+      <text x="320" y="172" font-size="13" opacity="0.8">e₂ lugal-(ak) — "the king's house"</text>
     </g>
   </svg>
   <figcaption class="citation">Schematic, per this course's habit —
@@ -126,8 +126,9 @@ more surprise waiting for you at the end of chapter 05.)
 
 ## Reading: milk names from Fara
 
-The same Early Dynastic IIIa name lists that gave 101 and chapter
-00 their readings include a small run of children's names built
+The same Early Dynastic IIIa name lists that gave 101 and
+<a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter
+00</a> their readings include a small run of children's names built
 squarely on this chapter's new sign. Two neighboring entries:
 
 <figure class="reading reading--script">
@@ -148,7 +149,11 @@ friends: <span class="script">𒅥</span> and <span class="script">𒅘</span>
 are 101's sign-workshop compounds, built on the mouth — "eat" and
 "drink" doubled here the way Sumerian doubles a verb for repeated
 or ongoing action. The mouth eats and drinks again, twice over, and
-somebody's baby got a name out of it.
+somebody's baby got a name out of it. Hold the milk loosely,
+though: 𒂵 has a second, grammatical job waiting in
+[chapter 09]({{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}),
+and when you own it, these same two names will open a second — and
+better — reading. The clay keeps; the course will come back.
 
 ## Reading: a name with a hidden genitive
 
@@ -167,10 +172,10 @@ work without a single spelled-out *-ak*:
   </figcaption>
 </figure>
 
-*é-gal*, "big house" — the palace — is
-[101]({{ '/cuneiform/101/' | relative_url }}) chapter 07's word,
+*e₂-gal*, "big house" — the palace — is
+[101]({{ '/cuneiform/101/' | relative_url }}) <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a> word,
 and here it sits as the possessed thing a man belongs to: not
-*ur é-gal-ak* spelled in full, but *ur é-gal* — "Ur," of the
+*ur e₂-gal-ak* spelled in full, but *ur e₂-gal* — "Ur," of the
 "palace," tag hidden exactly the way this chapter warned you it
 would be. Ur, the classic 101 sign for "dog" doing service as
 "man/servant" in names, plus palace, plus a genitive you have to
@@ -181,7 +186,7 @@ is there even when the clay declines to write it.
 
 1. Write 𒊏, 𒂵, 𒀝 from memory; say *ra*, *ga*, *ak*.
 2. Compose in transliteration, then in signs: *lugal-ra* ("for the
-   king," dative, fully spelled), and *é lugal-ak* ("the king's
+   king," dative, fully spelled), and *e₂ lugal-ak* ("the king's
    house," genitive — then say it again the way the clay usually
    would, with the /k/ dropped).
 3. In the two milk-names above, name which sign is doubled for

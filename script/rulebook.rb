@@ -24,7 +24,11 @@ module Edubba
             allow: ["cuneiform/102/00-orientation.md"] },   # explicit mention in the primer
           { pattern: /[ìíùú]/,
             message: "accent index notation — use Unicode subscripts (i₃), accents only in explicit mentions (§1)",
-            allow: ["cuneiform/102/00-orientation.md"] }
+            allow: ["cuneiform/102/00-orientation.md"] },
+          { pattern: /é(?!-dub-ba-a)/,   # the school's own name keeps its accent
+            message: "accent index é — use e₂; é only in explicit mentions and in é-dub-ba-a (§1)",
+            allow: ["cuneiform/102/00-orientation.md",     # primer's explicit mention
+                    "cuneiform/101/04-your-first-signs.md"] } # accent habit noted where É is taught
         ],
         license_labels: [
           { urn: "urn:nabu:etcsl",

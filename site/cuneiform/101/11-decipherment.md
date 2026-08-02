@@ -52,7 +52,7 @@ sign that made decipherment possible.
 
 Why open a history chapter with two syllable signs? Because signs
 like these — signs that carry pure sound — are what let cuneiform
-spell <em>names</em>. You met that in chapter 07 (your own name can
+spell <em>names</em>. You met that in <a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">chapter 07</a> (your own name can
 only be spelled, not word-signed), and names, as you are about to
 see, were the decipherers' crowbar: the one thing a lost script and
 a known history could hold in common. A sign like 𒈾 keeps a spelled

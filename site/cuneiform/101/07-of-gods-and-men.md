@@ -69,8 +69,8 @@ standard sign lists:
 
 Sumerian built titles the same way it built compounds like *an-ki*:
 transparently. The king is the big man; a queen's palace, the
-*é-gal* — "big house" — a word you can now write yourself:
-<span class="script">𒂍𒃲</span>. (It traveled far: *é-gal* was
+*e₂-gal* — "big house" — a word you can now write yourself:
+<span class="script">𒂍𒃲</span>. (It traveled far: *e₂-gal* was
 borrowed into Akkadian as *ēkallu*, and echoes of it survive in
 several later languages of the region for "palace" and "temple".)
 
@@ -79,7 +79,7 @@ several later languages of the region for "palace" and "temple".)
 Mesopotamia had no surnames. A person was identified by name and
 father: *X dumu Y* — "X, son of Y" — often with a trade or title
 appended. This filiation formula fills rosters, contracts, and
-seals; after the royal titulary of chapter 06 it is the most useful
+seals; after the royal titulary of <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter 06</a> it is the most useful
 single pattern a beginner can own. Here it is in the wild, in two
 consecutive lines of an Ur III personnel roster from Girsu:
 
@@ -95,7 +95,7 @@ consecutive lines of an Ur III personnel roster from Girsu:
     via <a href="https://arvicco.github.io/nabu/">Nabu</a>,
     <code>urn:nabu:cdli:p109952</code> · license: attribution.
     The line opens with grain measures in the number notation of
-    chapter 05 (ATF's <em>@c</em> marks a curved, archaic variant of
+    <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">chapter 05</a> (ATF's <em>@c</em> marks a curved, archaic variant of
     the AŠ wedge).
   </figcaption>
 </figure>
@@ -110,9 +110,9 @@ is listed as <em>lu₂-{d}nin-gir₂-su</em>, "Man-of-Ningirsu": your
 That last example shows the other half of this chapter's title.
 Mesopotamian personal names are tiny sentences, and gods live inside
 them: *Man-of-Ningirsu*, *Ur-Nanše*, *Amar-Suen* ("calf of Suen" —
-the king from chapter 06). In writing, every one of those divine
+the king from <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter 06</a>). In writing, every one of those divine
 names is flagged by the silent determinative you have known since
-chapter 03: 𒀭, the star, whispering *a god is named here* to the
+<a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>: 𒀭, the star, whispering *a god is named here* to the
 reader and nothing at all to the ear. Scan any list of Sumerian
 names and the stars glitter down the column — which is exactly how
 a beginning reader picks names out of a dense tablet: find the
@@ -121,13 +121,13 @@ a beginning reader picks names out of a dense tablet: find the
 ## Drill before you go on
 
 1. Write 𒇽, 𒃲, 𒌉 from memory; say *lu₂*, *gal*, *dumu*.
-2. Write *é-gal* and explain to an imaginary student why the king is
+2. Write *e₂-gal* and explain to an imaginary student why the king is
    a "big man" — with glyphs.
-3. From chapter 06's Reading 1, find the divine determinatives again
+3. From <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter 06's</a> Reading 1, find the divine determinatives again
    — how many gods hide in the Amar-Suen seal?
 4. Compose your own filiation line for yourself in the pattern
    *X dumu Y* (transliteration is fine — your name has no cuneiform
-   spelling yet; chapter 11 explains how the decipherers dealt with
+   spelling yet; <a href="{{ '/cuneiform/101/11-decipherment/' | relative_url }}">chapter 11</a> explains how the decipherers dealt with
    exactly that problem for foreign names).
 
 *Next: the workshop — how scribes hatched, nested, and compounded

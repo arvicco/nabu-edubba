@@ -49,7 +49,7 @@ puts real clay in front of you.
       <td class="script sign-cell">𒋫</td><td>TA</td><td><em>ta</em></td>
       <td>the syllable ta; "from" (ablative)</td>
       <td>~5 wedges; pictorial origin not transparent — a grammar
-          workhorse you will meet properly in chapter 01</td>
+          workhorse you will meet properly in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></td>
     </tr>
   </tbody>
 </table>
@@ -77,7 +77,8 @@ decoration; two minutes here and they stop being noise.
 </table>
 
 And the marks around the words: **hyphens** join the signs that
-spell one word; **braces** — *{d}*, *{ki}* — wrap the silent
+spell one word — *e₂-gal*, two signs, one word, "palace";
+**braces** — *{d}*, *{ki}* — wrap the silent
 determinatives you have known since 101; **▢** stands for a sign
 not yet taught; and where a caption quotes the corpora's own ASCII
 (*sza3*, *ce3* — full-size digits, no special letters), it says
@@ -87,69 +88,70 @@ what an orientation chapter is for.
 
 ## The march, measured
 
-101 explained how the teaching order is computed — corpus frequency
+[101 explained]({{ '/cuneiform/101/12-reference/' | relative_url }})
+how the teaching order is computed — corpus frequency
 and graphic simplicity, weighed together. In this course that
-machinery runs in the open: the batches below were produced by this
-site's own curriculum compiler, and next to each batch is the share
-of *all sign-value occurrences* in two corpora that your cumulative
-inventory will then cover. Watch the number climb:
+machinery runs in the open: each chapter's batch comes out of that
+computation, and next to each chapter below is the share of all the
+signs on real tablets that your inventory will then read. Watch the
+number climb:[^chart]
 
 <figure class="evolution">
-  <svg viewBox="0 0 640 420" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory after each chapter of 102, rising from about 22 percent to 49 percent of Sumerian literature, and from 32 to 50 percent of administrative documents.">
-    <title>Cumulative coverage by chapter (primary values — a floor)</title>
+  <svg viewBox="0 0 640 400" role="img" aria-label="Bar chart: cumulative corpus coverage of the inventory, chapter by chapter of 102, rising from about 22 percent to 53 percent of Sumerian literature, and from 32 to 55 percent of administrative documents.">
+    <title>Cumulative coverage by chapter (a floor)</title>
     <g fill="currentColor" font-size="13">
       <text x="8" y="52">ch. 00</text>
       <text x="8" y="82">ch. 01</text>
       <text x="8" y="112">ch. 02</text>
       <text x="8" y="142">ch. 03</text>
       <text x="8" y="172">ch. 04</text>
-      <text x="8" y="202">ch. 05</text>
-      <text x="8" y="232">ch. 06</text>
-      <text x="8" y="262">ch. 07</text>
-      <text x="8" y="292">ch. 08</text>
-      <text x="8" y="322">ch. 09</text>
-      <text x="8" y="352">ch. 10</text>
-      <text x="8" y="382">ch. 11</text>
+      <text x="8" y="202">ch. 06</text>
+      <text x="8" y="232">ch. 08</text>
+      <text x="8" y="262">ch. 10</text>
+      <text x="8" y="292">ch. 12</text>
+      <text x="8" y="322">ch. 14</text>
+      <text x="8" y="352">ch. 16</text>
+      <text x="8" y="382">ch. 17</text>
     </g>
     <g fill="var(--accent, currentColor)" opacity="0.9">
-      <rect x="70" y="40" width="221" height="12"/>
-      <rect x="70" y="70" width="271" height="12"/>
-      <rect x="70" y="100" width="313" height="12"/>
-      <rect x="70" y="130" width="352" height="12"/>
-      <rect x="70" y="160" width="366" height="12"/>
-      <rect x="70" y="190" width="381" height="12"/>
-      <rect x="70" y="220" width="408" height="12"/>
-      <rect x="70" y="250" width="418" height="12"/>
-      <rect x="70" y="280" width="462" height="12"/>
-      <rect x="70" y="310" width="476" height="12"/>
-      <rect x="70" y="340" width="486" height="12"/>
-      <rect x="70" y="370" width="491" height="12"/>
+      <rect x="70" y="40" width="177" height="12"/>
+      <rect x="70" y="70" width="217" height="12"/>
+      <rect x="70" y="100" width="250" height="12"/>
+      <rect x="70" y="130" width="282" height="12"/>
+      <rect x="70" y="160" width="293" height="12"/>
+      <rect x="70" y="190" width="326" height="12"/>
+      <rect x="70" y="220" width="370" height="12"/>
+      <rect x="70" y="250" width="389" height="12"/>
+      <rect x="70" y="280" width="398" height="12"/>
+      <rect x="70" y="310" width="413" height="12"/>
+      <rect x="70" y="340" width="419" height="12"/>
+      <rect x="70" y="370" width="427" height="12"/>
     </g>
     <g fill="currentColor" font-size="12" opacity="0.85">
-      <text x="298" y="51">22.1% of literature · 32.5% of documents</text>
-      <text x="348" y="81">27.1% · 34.7%</text>
-      <text x="390" y="111">31.3% · 36.8%</text>
-      <text x="429" y="141">35.2% · 38.4%</text>
-      <text x="443" y="171">36.6% · 39.6%</text>
-      <text x="458" y="201">38.1% · 40.9%</text>
-      <text x="485" y="231">40.8% · 43.1%</text>
-      <text x="495" y="261">41.8% · 43.7%</text>
-      <text x="539" y="291">46.2% · 46.8%</text>
-      <text x="553" y="321">47.6% · 48.0%</text>
-      <text x="563" y="351">48.6% · 49.1%</text>
-      <text x="568" y="381">49.1% · 49.5%</text>
+      <text x="255" y="51">22.1% of literature · 32.5% of documents</text>
+      <text x="295" y="81">27.1% · 34.7%</text>
+      <text x="328" y="111">31.3% · 36.8%</text>
+      <text x="360" y="141">35.2% · 38.4%</text>
+      <text x="371" y="171">36.6% · 39.6%</text>
+      <text x="404" y="201">40.8% · 43.1%</text>
+      <text x="448" y="231">46.2% · 46.8%</text>
+      <text x="467" y="261">48.6% · 49.1%</text>
+      <text x="476" y="291">49.8% · 50.1%</text>
+      <text x="491" y="321">51.6% · 51.8%</text>
+      <text x="497" y="351">52.4% · 53.6%</text>
+      <text x="505" y="381">53.4% · 54.5%</text>
     </g>
-    <text x="70" y="408" fill="currentColor" font-size="12" opacity="0.7">bars: ETCSL literary corpus; paired figure: CDLI documentary corpus — primary values only, so a floor</text>
   </svg>
-  <figcaption class="citation">Computed by <code>bin/curriculum.rb</code>
-  over the committed frequency tables (36,501 literary + 1.55M
-  documentary lines via Nabu); "primary values only" undercounts, since
-  polyvalent signs cover more than one value.</figcaption>
+  <figcaption class="citation">How much of real Sumerian your signs
+  will read after each chapter — of literature (bars) and of everyday
+  documents (second figure). Every number is a floor: signs with more
+  than one reading cover more than we count.</figcaption>
 </figure>
 
 Two chapters from now, roughly a third of everything ever pressed
-into Sumerian clay will be made of signs you know. That is what a
-frequency-ordered inventory buys.
+into Sumerian clay will be made of signs you know; by the course's
+final batch, over half of it. That is the course's promise, and it
+is what a frequency-ordered inventory buys.
 
 
 ## Your first reading of the track
@@ -173,14 +175,21 @@ your 101 inventory already reads without a single box:
   </figcaption>
 </figure>
 
-Man — god — my. A person's whole name, in signs you learned last
-course, on clay older than most things humans have built. The track
-ahead is made of exactly this, at growing length.
+Man — god — my. Two of those signs do exactly what 101 taught. The
+third deserves a word before it slips past: 𒈬 is
+[101 chapter 06's]({{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }})
+MU, "name" and "year" — and hung on the *end* of a word, as here, it
+does a second job, writing "my".[^my] It is the first of a small
+family of owner-tags this course will teach one by one. A person's
+whole name, then, in signs you learned last course, on clay older
+than most things humans have built. The track ahead is made of
+exactly this, at growing length.
 
 ## How this course works
 
-- **Batches are computed, not curated by whim** — and chapter 12 of
-  101 still holds every sign's data.
+- **Batches are computed, not curated by whim** — and
+  [chapter 12 of 101]({{ '/cuneiform/101/12-reference/' | relative_url }})
+  still holds every sign's data.
 - **Grammar arrives in bites**, only when a reading needs it. The
   full grammar lives in the standard references (this track leans on
   Daniel Foxvog's freely available *Introduction to Sumerian
@@ -191,3 +200,12 @@ ahead is made of exactly this, at growing length.
 
 *Next: the sentence in the clay — how Sumerian actually arranges
 its words, in one chapter.*
+
+[^chart]: Computed by this site's own curriculum compiler from
+    committed frequency tables over 1.6 million corpus lines of
+    Sumerian — literature (the ETCSL corpus) and everyday documents
+    (the CDLI corpus) — counting each sign's primary value only.
+
+[^my]: The scholarly grammars render this possessive suffix *ŋu₁₀*,
+    written with the MU sign; the corpus transliteration quoted
+    here keeps the plain *mu*, and this course follows the corpus.

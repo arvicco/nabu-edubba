@@ -19,10 +19,15 @@ module Edubba
 
     module_function
 
-    # terms: [{ "name" => ..., "slug" => ..., "def" => ... }, ...]
+    # terms: [{ "name" => ..., "slug" => ..., "def" => ...,
+    #           "school" => optional glossary key }, ...]
+    # terms_url: a String (single glossary page) or a Hash mapping a
+    # term's "school" key to its glossary page URL (nil key = the
+    # general glossary; terms without a matching key fall back to it).
     def transform(html, terms, terms_url, baseurl = "")
       return html if terms.empty?
 
+      urls = terms_url.is_a?(Hash) ? terms_url : { nil => terms_url }
       pattern = build_pattern(terms)
       by_name = terms.each_with_object({}) do |t, h|
         h[t["name"].downcase] = t
@@ -42,7 +47,10 @@ module Edubba
             term = by_name[word.downcase] || by_name[base]
             next word unless term
 
-            %(<a class="term" href="#{baseurl}#{terms_url}#term-#{term['slug']}">#{word}<span class="sign-tip" aria-hidden="true">#{escape(term['def'])}</span></a>)
+            url = urls[term["school"]] || urls[nil]
+            next word unless url
+
+            %(<a class="term" href="#{baseurl}#{url}#term-#{term['slug']}">#{word}<span class="sign-tip" aria-hidden="true">#{escape(term['def'])}</span></a>)
           end
         end
       end
