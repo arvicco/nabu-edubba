@@ -96,7 +96,7 @@ exactly what your new sign 𒀝 writes. Keep that pairing: the case
 is */ak/*; the sign is <span class="script">𒀝</span>; the clay
 shows it only when the sound has somewhere to stand. (𒀝 also works
 a plainer day job as the verb "to do, to make" — and it has one
-more surprise waiting for you at the end of chapter 05.)
+more surprise waiting for you at the end of <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a>.)
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="Diagram of the Sumerian genitive: two labeled boxes, possessed X on the left, possessor Y plus the tag ak on the right, with an arrow from the right box to the left showing the possession relationship, and the example house king-ak meaning the king's house, with a note that the k is often silent in spelling.">
@@ -126,8 +126,9 @@ more surprise waiting for you at the end of chapter 05.)
 
 ## Reading: milk names from Fara
 
-The same Early Dynastic IIIa name lists that gave 101 and chapter
-00 their readings include a small run of children's names built
+The same Early Dynastic IIIa name lists that gave 101 and
+<a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter
+00</a> their readings include a small run of children's names built
 squarely on this chapter's new sign. Two neighboring entries:
 
 <figure class="reading reading--script">
@@ -168,7 +169,7 @@ work without a single spelled-out *-ak*:
 </figure>
 
 *e₂-gal*, "big house" — the palace — is
-[101]({{ '/cuneiform/101/' | relative_url }}) chapter 07's word,
+[101]({{ '/cuneiform/101/' | relative_url }}) <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a> word,
 and here it sits as the possessed thing a man belongs to: not
 *ur e₂-gal-ak* spelled in full, but *ur e₂-gal* — "Ur," of the
 "palace," tag hidden exactly the way this chapter warned you it

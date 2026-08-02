@@ -71,12 +71,12 @@ composition rather than a sentence — Sumerian's own way of saying
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓𒊑𒀀</span><span class="translit">ud re-a</span><span class="gloss">"in that distant day" — ud, "day" (101, veteran) + re, "that," this chapter's RI sign carrying a demonstrative sense of distance + the locative -a of chapter 01, carrying the "in"</span></div>
+    <div class="reading-line"><span class="script">𒌓𒊑𒀀</span><span class="translit">ud re-a</span><span class="gloss">"in that distant day" — ud, "day" (<a href="{{ '/cuneiform/101/' | relative_url }}">101</a>, veteran) + re, "that," this chapter's RI sign carrying a demonstrative sense of distance + the locative -a of <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>, carrying the "in"</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian catalogue of Sumerian compositions, which
     files a whole work under this opening formula — the librarians'
-    habit chapter 07 met at Yale.
+    habit <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07</a> met at Yale.
     <code>urn:nabu:etcsl:0.2.01:7</code> · license: ETCSL ·
     non-commercial.
   </figcaption>
@@ -86,7 +86,7 @@ composition rather than a sentence — Sumerian's own way of saying
 *re* here rather than *ri*, supplies the "that" — pointing not at
 today but at a day pushed off into the distance, the way a
 storyteller's "once" pushes its story out of the present. The last
-sign is the quietest: the locative *-a* from chapter 01's tag list,
+sign is the quietest: the locative *-a* from <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> tag list,
 carrying the "in" — day, distant, *in*. A hymn
 does not announce when it happens; it announces that it happened
 *then*, in days already far away, and lets that distance carry the
@@ -102,7 +102,7 @@ of approval stamped by the word *zid* itself.[^limit]
 ## True son, true arm
 
 The plainest use of *zi(d)* is not in a hymn at all — it is stitched
-into names, the way chapter 06 taught you names carry sentences:
+into names, the way <a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">chapter 06</a> taught you names carry sentences:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -137,9 +137,9 @@ name, both new signs sharing a single word:
 </figure>
 
 *A₂ zid-da*, "the right side," is literally "the true arm" — and
-the *-da* is chapter 03's sign doing spelling-glue work, writing
+the *-da* is <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a> sign doing spelling-glue work, writing
 out *zid*'s own final /d/ with a vowel to carry it, exactly the
-job *-la-* did inside chapter 05's formula. A single name, both of
+job *-la-* did inside <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05's</a> formula. A single name, both of
 this chapter's new signs, no gaps.
 
 ## Lady of the true powers
@@ -149,7 +149,7 @@ person and starts decorating a god:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒎏𒈨𒍣𒁕</span><span class="translit">nin me zid-da</span><span class="gloss">"lady of the true me" — nin, "lady" (ch. 05, veteran) + me, "the divine powers" (ch. 00, veteran) + zid-da, "true"</span></div>
+    <div class="reading-line"><span class="script">𒎏𒈨𒍣𒁕</span><span class="translit">nin me zid-da</span><span class="gloss">"lady of the true me" — nin, "lady" (<a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">ch. 05</a>, veteran) + me, "the divine powers" (<a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">ch. 00</a>, veteran) + zid-da, "true"</span></div>
   </div>
   <figcaption class="citation">
     The same Old Babylonian catalogue, sixteen entries later — a
@@ -161,7 +161,7 @@ person and starts decorating a god:
 
 The catalogue that filed a composition under *ud re-a* files
 another under this: a hymn to a lady — not merely the lady who
-holds the *me*, chapter 00's word for the divine powers that keep
+holds the *me*, <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter 00's</a> word for the divine powers that keep
 the world running, but the lady of the *true* ones. Praise in this
 register rarely stops at naming what someone holds; it certifies
 the holding as genuine.
@@ -173,7 +173,7 @@ hymn that gave last chapter's "its heart is unknowable":
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂗𒍣𒀀𒆳𒃲𒂊𒊑𒀀</span><span class="translit">en zid a kur gal-e ri-a</span><span class="gloss">"true lord, seed poured out by the great mountain" — en zid, "true lord" + a … ri-a, "engendered, poured out" + kur gal-e, "by the great mountain," Enlil's own praise-name, marked with the doer's tag -e from chapter 01</span></div>
+    <div class="reading-line"><span class="script">𒂗𒍣𒀀𒆳𒃲𒂊𒊑𒀀</span><span class="translit">en zid a kur gal-e ri-a</span><span class="gloss">"true lord, seed poured out by the great mountain" — en zid, "true lord" + a … ri-a, "engendered, poured out" + kur gal-e, "by the great mountain," Enlil's own praise-name, marked with the doer's tag -e from <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></span></div>
   </div>
   <figcaption class="citation">
     Gudea's temple hymn. <code>urn:nabu:etcsl:2.1.7:210</code> ·
@@ -186,7 +186,7 @@ Read it in order: the temple's own god is hailed as *en zid*,
 him as water "poured out," engendered, and the source is *kur
 gal-e*, "the great mountain," one of the god Enlil's own
 praise-names, wearing the doer's tag *-e* you first met on
-*lugal-e* back in chapter 01. Four
+*lugal-e* back in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>. Four
 of this chapter's readings stack the same word, *zid*, over four
 different kinds of nobility — a son, an arm, a set of powers, a
 lord — and every time it means the same thing: this one is the real
@@ -212,7 +212,7 @@ its point by saying it again:
 first chapter, wearing yet another job here: not "water" but a bare
 cry of grief, "alas." *E₂ zid*, "true house," is 101's *e₂*
 carrying this chapter's praise-word; *lu₂-bi*, "its people," is
-101's *lu₂* with chapter 01's *-bi*. Nothing in the line is new
+101's *lu₂* with <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> *-bi*. Nothing in the line is new
 grammar — what is new is the habit of saying the same true thing
 twice before moving on, so that the loss lands twice as hard. A
 receipt never repeats a line for effect; a lament always does.

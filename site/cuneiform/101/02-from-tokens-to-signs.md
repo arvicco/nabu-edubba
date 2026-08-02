@@ -68,7 +68,7 @@ receipts.
 The earliest things we can properly call written tablets appear in
 the late fourth millennium BCE in the city of Uruk in southern
 Mesopotamia — the same world of temples and administrators you met
-in chapter 01. The oldest are almost purely numerical; then come
+in <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>. The oldest are almost purely numerical; then come
 tablets that pair numbers with small drawn pictures: a head of
 grain, a jar, a fish, an ox head. Scholars call this stage
 **proto-cuneiform**. It is bookkeeping of real sophistication — and
@@ -144,7 +144,7 @@ references (Labat's sign list and the standard handbooks):
 
 And one you can verify yourself right now, on a sign you already
 own: AN began as a drawn **star**; pressed into wedges it became
-your <span class="script">𒀭</span> from chapter 00 — count the
+your <span class="script">𒀭</span> from <a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">chapter 00</a> — count the
 strokes and the star is still there, straightened. Not every sign kept its story legible
 (you will meet KI, whose past is genuinely obscure), but the
 principle is general: every classical sign is some old drawing,
@@ -162,7 +162,7 @@ them:
 2. **Simplicity is real.** Some signs are one stroke; some are a
    dozen. That measurable difference — along with how often a sign
    actually occurs — is exactly how this course orders its teaching,
-   as chapter 04 is about to demonstrate.
+   as <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">chapter 04</a> is about to demonstrate.
 3. **Age shows.** Because forms drifted for three thousand years, a
    trained eye can date a tablet by its sign shapes alone. That
    skill, paleography, has its own place later in this school's

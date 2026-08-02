@@ -17,7 +17,8 @@ shows: []
 
 # The sentence in the clay
 
-101 taught you how *signs* work. To read running Sumerian you need
+[101]({{ '/cuneiform/101/' | relative_url }}) taught you how
+*signs* work. To read running Sumerian you need
 one more machine: how the *sentence* works. This chapter is the
 whole of Sumerian grammar in the coarsest useful outline — the shape
 of it, so that every later grammar bite has somewhere to land.[^ref]
@@ -70,7 +71,7 @@ Each tag, with a sentence to hold it by:
   brought from. Point of origin.
 - ***-še₃* "to, toward, for":** <span class="script">𒂍𒂠</span>
   *e₂-še₃*, "to the house" — where the barley is delivered, where the
-  procession is headed. Destination or purpose. (In chapter 05 you
+  procession is headed. Destination or purpose. (In <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a> you
   will see it end the most famous purpose-phrase in Sumerian: "for
   his life".)
 - ***-a* "in, on, at":** <span class="script">𒂍𒀀</span> *e₂-a*,

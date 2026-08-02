@@ -123,7 +123,7 @@ and after Šulgi wore it:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌨𒂄</span><span class="translit">ur-šul</span><span class="gloss">"servant of the Youth" — the ur- pattern of chapter 06 on this chapter's šul (approximate)</span></div>
+    <div class="reading-line"><span class="script">𒌨𒂄</span><span class="translit">ur-šul</span><span class="gloss">"servant of the Youth" — the ur- pattern of <a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">chapter 06</a> on this chapter's šul (approximate)</span></div>
     <div class="reading-line"><span class="script">𒇽𒆗𒆷</span><span class="translit">lu₂-kal-la</span><span class="gloss">"the precious one" — an Ur III official's name, rolled from his own cylinder seal</span></div>
   </div>
   <figcaption class="citation">
@@ -141,7 +141,7 @@ wet clay to sign for goods, and the impression — his name in the
 same signs you just read — survives on receipt after receipt. The
 hymn's grand words and the warehouse's daily grind share one
 inventory. That has been this course's whole argument since
-chapter 00.
+<a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter 00</a>.
 
 ## Drill before you go on
 

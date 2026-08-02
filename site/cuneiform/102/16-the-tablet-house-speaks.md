@@ -44,14 +44,14 @@ the verb for what you are doing.
 
 ## The scribe, spelled
 
-Put the new verb after chapter 09's tablet, and out comes the
+Put the new verb after <a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">chapter 09's</a> tablet, and out comes the
 profession this whole civilization ran on:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒁾𒊬</span><span class="translit">dub-sar</span><span class="gloss">"scribe" — tablet-writer, plainly; the single commonest job title in the corpus</span></div>
-    <div class="reading-line"><span class="script">𒁾𒊬𒈤</span><span class="translit">dub-sar-mah</span><span class="gloss">"chief scribe" — chapter 07's mah promoting the tablet-writer</span></div>
-    <div class="reading-line"><span class="script">𒁾 𒈬𒊬</span><span class="translit">dub mu-sar</span><span class="gloss">"wrote (this) tablet" — the colophon: a scribe signing off, with chapter 12's homeward mu- on the writing itself</span></div>
+    <div class="reading-line"><span class="script">𒁾𒊬𒈤</span><span class="translit">dub-sar-mah</span><span class="gloss">"chief scribe" — <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">chapter 07's</a> mah promoting the tablet-writer</span></div>
+    <div class="reading-line"><span class="script">𒁾 𒈬𒊬</span><span class="translit">dub mu-sar</span><span class="gloss">"wrote (this) tablet" — the colophon: a scribe signing off, with <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">chapter 12's</a> homeward mu- on the writing itself</span></div>
   </div>
   <figcaption class="citation">
     Early Dynastic administrative tablets.
@@ -78,7 +78,7 @@ should look familiar, because this site is named after it:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂍𒁾𒁀𒀀</span><span class="translit">e₂-dub-ba-a</span><span class="gloss">"the tablet house" — the school; house + tablet + the spelling glue you have known since chapter 05's formula</span></div>
+    <div class="reading-line"><span class="script">𒂍𒁾𒁀𒀀</span><span class="translit">e₂-dub-ba-a</span><span class="gloss">"the tablet house" — the school; house + tablet + the spelling glue you have known since <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05's</a> formula</span></div>
     <div class="reading-line"><span class="script">𒌉 𒂍𒁾𒁀</span><span class="translit">dumu e₂-dub-ba</span><span class="gloss">"son of the tablet house" — what a schoolboy was called; an ancient library catalogue files a whole composition under the phrase</span></div>
   </div>
   <figcaption class="citation">
@@ -90,13 +90,16 @@ should look familiar, because this site is named after it:
 </figure>
 
 Every sign in the school's name has been yours for chapters —
-house from 101, tablet from 101, the *-ba-a* glue from the
+house from [101]({{ '/cuneiform/101/04-your-first-signs/' | relative_url }}),
+tablet from [101]({{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}),
+the *-ba-a* glue from the
 dedication formula. You could have read your own school's
-letterhead since chapter 05; now you have, off real lists.
+letterhead since <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a>; now you have, off real lists.
 
 The tablet house had a curriculum this course has been quietly
-retracing: sign lists first, then proverbs by the row (chapter
-14's genre — school copies are how most proverbs survive), then
+retracing: sign lists first, then proverbs by the row
+(<a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">chapter
+14's</a> genre — school copies are how most proverbs survive), then
 the classics: Šulgi's hymns, Gudea's temple, the laments. The
 compositions known as the eduba texts — *Schooldays* and its
 kin — describe the life around the copying: a boy late with his
@@ -108,7 +111,7 @@ sample:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒃻 𒉆𒆗𒆗𒂗 𒃻𒂊 𒈨𒆗𒆗</span><span class="translit">niŋ₂ nam-kal-kal-en niŋ₂-e me-kal-kal</span><span class="gloss">"treasure a thing, and the thing treasures you" — chapter 15's kal doubled on both sides of the oldest advice about caring for your tools (approximate; the saying compresses)</span></div>
+    <div class="reading-line"><span class="script">𒃻 𒉆𒆗𒆗𒂗 𒃻𒂊 𒈨𒆗𒆗</span><span class="translit">niŋ₂ nam-kal-kal-en niŋ₂-e me-kal-kal</span><span class="gloss">"treasure a thing, and the thing treasures you" — <a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">chapter 15's</a> kal doubled on both sides of the oldest advice about caring for your tools (approximate; the saying compresses)</span></div>
   </div>
   <figcaption class="citation">
     <em>The instructions of Šuruppak</em>, the oldest wisdom

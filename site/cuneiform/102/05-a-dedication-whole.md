@@ -75,10 +75,10 @@ sign in it is now something you own.
     The template, assembled from your own inventory — not quoted
     from any one tablet; you will meet it verbatim on real votive
     objects in the next stretch. Sign by sign: <strong>𒉆</strong>
-    <em>nam-</em> (abstraction, ch. 03) + <strong>𒋾</strong> <em>ti</em>
-    (life, ch. 04's rebus) + <strong>𒆷</strong> <em>-la</em> (spelling
+    <em>nam-</em> (abstraction, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) + <strong>𒋾</strong> <em>ti</em>
+    (life, <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">ch. 04</a>'s rebus) + <strong>𒆷</strong> <em>-la</em> (spelling
     glue for the /l/) + <strong>𒉌</strong> <em>-ni</em> ("his/her") +
-    <strong>𒂠</strong> <em>-še₃</em> ("for," ch. 01) — "for his
+    <strong>𒂠</strong> <em>-še₃</em> ("for," <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">ch. 01</a>) — "for his
     life."
   </figcaption>
 </figure>
@@ -86,8 +86,8 @@ sign in it is now something you own.
 Read it as a chain, the way you now read any Sumerian word: the
 abstraction-maker turns "life" into "life-ness," a spelling vowel
 carries the /l/ into the next syllable, "his" attaches, and the
-terminative tag you met in chapter 01 aims the whole thing at its
-purpose. And that *-ni* is no stranger: it is chapter 01's *-ani*,
+terminative tag you met in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> aims the whole thing at its
+purpose. And that *-ni* is no stranger: it is <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> *-ani*,
 "his/her," traveling light — after a vowel the tag's own /a/
 merges away, and only *-ni* surfaces in the spelling. One honest loose end: *-la-* here is a spelling
 phenomenon, not a word of its own — the grammars explain it as

@@ -17,14 +17,15 @@ shows: ["𒀸", "𒁹", "𒌋"]
 
 # Your first signs
 
-Seven signs handed to you one by one across chapters 00–03, and two
+Seven signs handed to you one by one across chapters
+<a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">00</a>–<a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">03</a>, and two
 new ones to complete this stretch of the inventory: 𒆠 and 𒂍, the
 earth and the house, introduced properly below. This chapter is
 where it all becomes *hand* knowledge: by the end your hand will
 know all nine, your eye will resolve them at a glance, and you will
 read your first two-sign words. Keep pen and
 paper beside you: **every sign in this chapter is to be written,
-not admired** — head of the wedge first, tail second, as chapter 01
+not admired** — head of the wedge first, tail second, as <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>
 taught.
 
 ## How these signs were chosen
@@ -36,13 +37,13 @@ library — 36,501 lines of Sumerian literature (ETCSL) and 1.5 million
 lines of administrative documents (CDLI). **Simplicity**: how few
 wedges a sign takes, and whether its shape still tells its story.
 A sign that is both frequent and simple earns an early seat. The
-full table, criterion by criterion, is in chapter 12.
+full table, criterion by criterion, is in <a href="{{ '/cuneiform/101/12-reference/' | relative_url }}">chapter 12</a>.
 
 ## Wave one: pictures that survived
 
 Five signs whose shapes still show, more or less plainly, the things
 they began as — and all five are already yours: 𒀀, 𒆳, and 𒀭 from
-chapter 00, 𒊺 from chapter 02, 𒌓 from chapter 03. What is new here
+<a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">chapter 00</a>, 𒊺 from <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a>, 𒌓 from <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>. What is new here
 is the anatomy. For each: the story of the shape (where the standard
 accounts consider it solid), the readings, and the wedge count from
 this site's own reference font.
@@ -67,7 +68,7 @@ this site's own reference font.
     <tr>
       <td class="script sign-cell">𒀭</td><td>AN</td><td><em>an</em>, <em>diŋir</em>, <em>{d}</em></td>
       <td>heaven; god</td>
-      <td>an eight-pointed star — ~8 wedges; chapter 03's champion of
+      <td>an eight-pointed star — ~8 wedges; <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> champion of
           polyvalency</td>
     </tr>
     <tr>
@@ -92,7 +93,7 @@ the grain-chevrons in pairs.
 ## Wave two: the two new ones
 
 The chapter's genuinely new signs — though both made cameo
-appearances in chapter 03's examples:
+appearances in <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> examples:
 
 <table class="sign-table">
   <thead>
@@ -102,7 +103,7 @@ appearances in chapter 03's examples:
     <tr>
       <td class="script sign-cell">𒆠</td><td>KI</td><td><em>ki</em>, <em>{ki}</em></td>
       <td>earth; place</td>
-      <td>~7 wedges; the place-determinative of chapter 03. Its
+      <td>~7 wedges; the place-determinative of <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>. Its
           pictorial origin is genuinely debated — learn the shape,
           not a story: a diamond with barred heart</td>
     </tr>
@@ -143,9 +144,9 @@ the three single-wedge signs the next chapter is about to hand you.
 Copy this row of shapes somewhere you will see it daily:
 
 <div class="glyph-exhibit">
-  <figure><span class="script">𒀸</span><figcaption>aš — ch. 05</figcaption></figure>
-  <figure><span class="script">𒁹</span><figcaption>diš — ch. 05</figcaption></figure>
-  <figure><span class="script">𒌋</span><figcaption>u — ch. 05</figcaption></figure>
+  <figure><span class="script">𒀸</span><figcaption>aš — <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">ch. 05</a></figcaption></figure>
+  <figure><span class="script">𒁹</span><figcaption>diš — <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">ch. 05</a></figcaption></figure>
+  <figure><span class="script">𒌋</span><figcaption>u — <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">ch. 05</a></figcaption></figure>
   <figure><span class="script">𒀀</span><figcaption>a</figcaption></figure>
   <figure><span class="script">𒆳</span><figcaption>kur</figcaption></figure>
   <figure><span class="script">𒀭</span><figcaption>an</figcaption></figure>
@@ -159,7 +160,7 @@ Copy this row of shapes somewhere you will see it daily:
 
 1. Cover the tables. From memory, write: water · mountain · heaven ·
    sun · barley · earth · house — then clay and reed-mat from
-   chapter 01.
+   <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>.
 2. Read back your own page in random order, aloud.
 3. Anything shaky — write it five more times. The next chapter
    assumes all ten.

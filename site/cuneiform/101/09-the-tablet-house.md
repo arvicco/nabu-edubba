@@ -48,8 +48,8 @@ wordmark — and read it:
     <span>𒂍</span><span>𒁾</span><span>𒁀</span><span>𒀀</span>
   </p>
   <figcaption class="citation">
-    <em>e₂</em> "house" (chapter 04) · <em>dub</em> "tablet" ·
-    <em>ba</em> · <em>a</em> (chapter 00) — <strong>é-dub-ba-a</strong>,
+    <em>e₂</em> "house" (<a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">chapter 04</a>) · <em>dub</em> "tablet" ·
+    <em>ba</em> · <em>a</em> (<a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">chapter 00</a>) — <strong>é-dub-ba-a</strong>,
     "the tablet house." You can now read the name of the school you
     are sitting in: every sign taught in order, no boxes left.
   </figcaption>
@@ -180,7 +180,7 @@ copied by a student in one century could descend, with real fidelity,
 from a list compiled a thousand years earlier. That same
 lexical-list tradition — organized signs, arranged systematically,
 carried forward by copying — is the direct ancestor of the reference
-this course itself builds toward: chapter 12 gathers every sign this
+this course itself builds toward: <a href="{{ '/cuneiform/101/12-reference/' | relative_url }}">chapter 12</a> gathers every sign this
 course has taught into exactly that kind of list, in the same spirit,
 if a much shorter one, as the scribes who compiled theirs on clay.
 
@@ -201,8 +201,8 @@ of the Assyrian king Ashurbanipal at Nineveh — a royal collection
 assembled in the seventh century BCE that preserved enormous
 quantities of the literary and scholarly tradition the é-dub-ba-a had
 been copying, in one form or another, for two thousand years by then.
-The fuller story of that library belongs to chapter 10, and of
-decipherment to chapter 11; here it stands as the summit that all the
+The fuller story of that library belongs to <a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">chapter 10</a>, and of
+decipherment to <a href="{{ '/cuneiform/101/11-decipherment/' | relative_url }}">chapter 11</a>; here it stands as the summit that all the
 small, unglamorous discipline of sign lists and cane strokes was, in
 the end, building toward.
 
@@ -213,8 +213,9 @@ Sumerians' own word for their scribal school because the shape of the
 work is the same: signs copied until they are second nature, lists
 worked through in order, model and exercise laid side by side, moving
 from the mechanical toward the literary. You began this course with
-signs and syllables, the way an é-dub-ba-a student began; by chapter
-06 you were reading real inscriptions, the way a trained scribe read
+signs and syllables, the way an é-dub-ba-a student began; by
+<a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter
+06</a> you were reading real inscriptions, the way a trained scribe read
 real contracts and letters. You are, in every way that matters, in
 the same apprenticeship the Old Babylonian schoolboy complained about
 in verse — minus, this course promises, the caning.

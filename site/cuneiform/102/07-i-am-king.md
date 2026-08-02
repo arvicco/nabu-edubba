@@ -20,7 +20,8 @@ shows: []
 Chapter 06 closed with a promise: the little word that lets a king
 say "I am" — and the palace-sized vocabulary that follows it. Here
 is the surprise this chapter opens with: the little word is not new.
-You have owned both of its signs since 101 and since chapter 00 of
+You have owned both of its signs since
+[101]({{ '/cuneiform/101/' | relative_url }}) and since <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter 00</a> of
 this very course. What is new is only the vocabulary a king reaches
 for once he can say it.
 
@@ -38,12 +39,12 @@ for once he can say it.
           is anything else — and royal praise leans on this word
           constantly. Its fuller spoken shape is <em>kug</em>, the
           final consonant surfacing before vowels the same way
-          chapter 02's hidden genitive does</td>
+          <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> hidden genitive does</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈤</td><td>MAH</td><td><em>mah</em></td>
       <td>great, exalted</td>
-      <td>~7 wedges; the majesty word — combine it with chapter 03's
+      <td>~7 wedges; the majesty word — combine it with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
           abstraction-maker and you get <em>nam-mah</em>,
           "greatness, majesty," one of the commonest words in royal
           titulary</td>
@@ -73,9 +74,9 @@ Sumerian builds "I am X" by gluing a short tag onto the end of X:
   <p class="composition-translit" style="opacity: 0.85; margin: 0 0 0.6em;">lugal- me -en</p>
   <figcaption class="citation">
     Assembled from your own inventory, sign by sign: <strong>𒈗</strong>
-    <em>lugal</em> ("king," 101 ch. 06) + <strong>𒈨</strong> <em>me</em>
-    (this course's very first sign, ch. 00) + <strong>𒂗</strong>
-    <em>en</em> (101 ch. 10) — "I am king." Zero new signs. This
+    <em>lugal</em> ("king," <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">101 ch. 06</a>) + <strong>𒈨</strong> <em>me</em>
+    (this course's very first sign, <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">ch. 00</a>) + <strong>𒂗</strong>
+    <em>en</em> (<a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">101 ch. 10</a>) — "I am king." Zero new signs. This
     chapter's batch is not what says it; it is what royalty says
     with it.
   </figcaption>
@@ -115,14 +116,14 @@ so it does not surprise you later.
 
 ## Vocabulary that leans on it
 
-Now the batch goes to work. *Nam-mah*, "majesty," is chapter 03's
+Now the batch goes to work. *Nam-mah*, "majesty," is <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
 abstraction-maker in front of this chapter's new majesty word — the
 same production line that turned *lugal* into *nam-lugal*,
 "kingship":
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉆𒈤</span><span class="translit">nam-mah</span><span class="gloss">"majesty, greatness" — nam- (abstraction, ch. 03) + mah, this chapter's new sign for "great, exalted"</span></div>
+    <div class="reading-line"><span class="script">𒉆𒈤</span><span class="translit">nam-mah</span><span class="gloss">"majesty, greatness" — nam- (abstraction, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) + mah, this chapter's new sign for "great, exalted"</span></div>
   </div>
   <figcaption class="citation">
     <a href="https://cdli.earth/artifacts/10059">CDLI P010059</a>
@@ -168,11 +169,12 @@ that promise, kept, in *kalam*, this chapter's own new sign:
 </figure>
 
 Read the chain slowly: *kalam* ("the Land"), then *-ma-* — the
-word's own final /m/ written again as glue, the same job chapter
-05's *-la-* did for *til* — carrying the genitive's vowel, and then
+word's own final /m/ written again as glue, the same job
+<a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter
+05's</a> *-la-* did for *til* — carrying the genitive's vowel, and then
 the genitive's /k/ stepping fully into view in *-ka* because, this
 time, a vowel follows for it to stand on. This is the exact
-mechanism chapter 02 described in the abstract, now sitting in
+mechanism <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02</a> described in the abstract, now sitting in
 front of you written out: the tag was never gone, only shy.
 
 <figure class="reading reading--script">
@@ -186,7 +188,7 @@ front of you written out: the tag was never gone, only shy.
 </figure>
 
 Here the same *kalam-ma* sits at the end of the line, /k/ hidden
-again, exactly as chapter 02 predicted it would — one phrase catching
+again, exactly as <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02</a> predicted it would — one phrase catching
 the consonant out in the open, another catching it hiding, and now
 you can tell the difference on sight.
 

@@ -16,8 +16,9 @@ shows: []
 
 # Reference
 
-The lexical lists were chapter 09 of 101; the colophon was chapter
-16 of this course. This page is both at once: the course's own
+The lexical lists were <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">chapter 09 of 101</a>; the colophon was
+<a href="{{ '/cuneiform/102/16-the-tablet-house-speaks/' | relative_url }}">chapter
+16</a> of this course. This page is both at once: the course's own
 sign list, generated live from its registry, with the scribe's
 closing line implied. The track that began with three signs and a
 promise is complete.
@@ -50,7 +51,7 @@ the registry — on top of
 seventy-seven in all. Set against the corpora, your inventory now
 covers a little over half of all sign-value occurrences in both
 Sumerian literature and the administrative record (a floor, as
-chapter 00's chart explains — polyvalent signs cover more than we
+<a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">chapter 00's</a> chart explains — polyvalent signs cover more than we
 count). Values in the Reads column are each sign's primary
 teaching value; veterans picked up further readings along the way
 (*lil₂*, *i₃*, *ke₄*, *išib*, *tum₂*, *de₃*, *be₂*)
@@ -58,25 +59,25 @@ exactly where readings demanded them.
 
 ## The grammar, shelved
 
-- **The sentence**: participants first, verb last (ch. 01).
+- **The sentence**: participants first, verb last (<a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">ch. 01</a>).
 - **The cases**, all seven with taught examples: the table in
   [chapter 13]({{ '/cuneiform/102/13-you-are/' | relative_url }}).
-- **The genitive's** hidden /k/ and when it surfaces (chs. 02, 07,
+- **The genitive's** hidden /k/ and when it surfaces (chs. <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">02</a>, <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">07</a>,
   11).
 - **The verbal chain**: negation and wishes outermost (*nu-*,
   *ga-*, *ha-*, *na-*), finite openers next (*i₃-*, *in-*, *ba-*,
   *mu-* and its fused *ma-*), the dative *-na-* inside, stem, and
-  trailing suffixes mostly glimpsed (chs. 04, 08, 09, 12, 14).
+  trailing suffixes mostly glimpsed (chs. <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">04</a>, <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">08</a>, <a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">09</a>, <a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">12</a>, <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">14</a>).
 - **The nominalizing -a**, folding a clause into a description —
-  "who ate," "built by an honest man" (chs. 08, 14); its
+  "who ate," "built by an honest man" (chs. <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">08</a>, <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/' | relative_url }}">14</a>); its
   noun-riding twin, the locative *-a*, sits in the case table.
 - **The copula** *-me-en* for "I am" and "you are," with *za-e*
-  settling person (chs. 07, 13); third-person *-am₃* previewed
+  settling person (chs. <a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">07</a>, <a href="{{ '/cuneiform/102/13-you-are/' | relative_url }}">13</a>); third-person *-am₃* previewed
   only.
-- **Doubling** for plurals, intensity, and refrains (chs. 03, 09,
+- **Doubling** for plurals, intensity, and refrains (chs. <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">03</a>, <a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">09</a>,
   10, 17).
 - **nam-** and **niŋ₂-** building abstractions and things (chs.
-  03, 09); *nam tar*, fate as a thing cut (ch. 17).
+  03, 09); *nam tar*, fate as a thing cut (<a href="{{ '/cuneiform/102/17-the-day-destinies-were-decreed/' | relative_url }}">ch. 17</a>).
 
 What this course left explicitly unopened: the chain's dimensional
 suffix machinery, the *-eda* purpose-wrapper's internal parts, the
@@ -103,7 +104,7 @@ Reference conventions; the essentials:
 
 - **Daniel Foxvog, *Introduction to Sumerian Grammar*** (open
   access) — the reference this course's grammar bites lean on,
-  cited in chapters 00 and 01; when you want the full chain, start
+  cited in chapters <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">00</a> and <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">01</a>; when you want the full chain, start
   there.
 - **The open corpora this course reads from:** the
   <a href="https://cdli.earth/">CDLI</a> and the
@@ -122,7 +123,10 @@ CC BY-SA 4.0. Ancient texts are quoted in place with URNs
 throughout: CDLI material under license class attribution, ETCSL
 material as short quotes under its non-commercial terms (the
 site's LICENSE carries the source-texts carve-out). The votive
-inscriptions of chapters 11–12 and every name list and receipt
-behind chapters 06–17 remain one click away, whole, through their
+inscriptions of chapters
+<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">11</a>–<a href="{{ '/cuneiform/102/12-the-chain-completed/' | relative_url }}">12</a>
+and every name list and receipt behind chapters
+<a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">06</a>–<a href="{{ '/cuneiform/102/17-the-day-destinies-were-decreed/' | relative_url }}">17</a>
+remain one click away, whole, through their
 URNs — which was the promise of the tablet house all along: the
 texts outlive everyone who copies them.

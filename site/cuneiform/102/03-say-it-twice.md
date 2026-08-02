@@ -62,8 +62,9 @@ Write each five times, as always, before you read on.
 
 ## Saying it twice
 
-You have already met this device without a name. Back in 101, a
-number-line reading gave you <span class="script">𒆳𒆳</span>
+You have already met this device without a name. Back among
+[101's first words]({{ '/cuneiform/101/04-your-first-signs/' | relative_url }}),
+a reading gave you <span class="script">𒆳𒆳</span>
 *kur-kur*, "all the lands" — literally *kur* "mountain, land" said
 twice. That doubling was not decoration; it was the plural. Sumerian
 has other ways to mark plurality, but the plainest, oldest, and
