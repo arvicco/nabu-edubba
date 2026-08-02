@@ -5,6 +5,36 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-02 · M7-11 · phase-7 (ac58627, ce881e0, 45b44f2) · Owner
+review round 3: full sequential re-read of C102 (mine) plus the
+owner's own pass, seventeen findings all fixed. Structural: the
+locative -a now enters at ch01's tag list and ud re-a's gloss
+names it (ch13's table becomes consolidation, not revelation); the
+nominalizing -a — promised by ch08, used ever after, never
+delivered — got its named bite in ch14 with the locative-collision
+warning and a Reference shelf entry. Explanation gaps closed:
+nam-gi₄'s emphatic prefix flagged in ch17 (three jobs, one shape),
+-ke₄ explained as genitive+ergative stack, -ani/-ni reconciled,
+-ma-/-na- forward and back pointers. Dead references rooted out:
+a₂-ki-ti "from chapter 10" (never existed), ch12's invented ch05
+quote, ch01's phantom "search hit," ch03's kur-kur attributed to a
+number-line reading (it was ch04's first words), the stale
+sitting-down teaser; plus du/ti/la and "two signs" slips.
+Owner-directed orientation rework: coverage chart cut to 12 rows
+(every chapter through 04, then evens + finale) with figures after
+the bars and a one-sentence student-facing caption (machinery →
+footnote), course-end promise stated, MU-as-"my" explained with a
+ŋu₁₀ footnote, hyphens get an immediate example, homophone/mina/
+shekel/nominalizer term bubbles, emesal disclaimer footnoted.
+Notation: accent-é banned in transliteration — both courses
+normalized (102 chs 01/02/07, 101 chs 04/07/08/09/10,
+sign_teaching.yml), é-dub-ba-a exempt at pattern level, rulebook
+doc+rule+test in one commit. And a course-wide sweep per the new
+ruling that chapter mentions always carry links: ~100 back-
+references linked across 101+102 (script for the mechanical part,
+hand-fixes for wrapped lines and ranges). Gate green at each
+commit; chart and bubbles verified in pixels.
+
 2026-07-31 · M7-1..M7-10 · phase-7 · Cuneiform 102 completed
 same-day as approval: chapters 12–18 (chain completed with mu-/-na-
 on the votive's own verb, za-e + locative + seven-case paradigm,
