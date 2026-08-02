@@ -118,6 +118,20 @@ the right:
 The three single strokes become formally yours in <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>; the
 mountain and the star you can already read.
 
+Two habits are worth forming from the very first sign, because
+they are the ancient school's own. **First: drill the three
+strokes before any sign** — surviving practice began with rows of
+single wedges, verticals and horizontals and corners in series,
+and so should yours. **Second: keep an order.** The scribes did —
+modern study of the impressions shows their wedge order was
+standardized for well over a thousand years, and its confirmed
+tendencies are simple: in a stack of horizontals, the top one
+first; within a row, left before right. The full story — how the
+clay itself preserves the order of a hand that moved five thousand
+years ago — lives in the school's
+[writing primer]({{ '/cuneiform/addenda/writing-primer/' | relative_url }}),
+which you can visit at any point in the course.
+
 ## The shape of the course
 
 Chapters build strictly on one another; read them in order.
@@ -151,7 +165,9 @@ identity, so you can always follow a text back to the tablet.
 
 - **Write everything.** A sign you have written ten times is yours; a
   sign you have only looked at is not. Pen and paper are fine; you
-  are learning shapes and stroke order, not clay technique. (Chapter
+  are learning shapes and stroke order, not clay technique — the
+  [writing primer]({{ '/cuneiform/addenda/writing-primer/' | relative_url }})
+  has the stroke-order story whenever you want it. (Chapter
   01 shows why writing *was* different on clay — and if you ever
   press a chopstick into plasticine, you will learn more in ten
   minutes than in an hour of reading.)

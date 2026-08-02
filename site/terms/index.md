@@ -1,6 +1,9 @@
 ---
 layout: school
 title: "Terms — a working glossary"
+short_title: "Terms"
+course: cuneiform-addenda
+chapter: 2
 terms_page: true
 description: >-
   Every technical term Edubba's courses use, defined in one plain

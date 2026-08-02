@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-02 · M7-12 · phase-7 · C Addenda born (owner-directed after
+the wedge-order scout): a school-level out-of-course shelf at
+/cuneiform/addenda/ — appears in the sidebar as C Addenda between
+the numbered courses and the hieroglyphs school. First residents:
+the Writing primer (the scribe's hand — three wedges and stylus
+mechanics per Cammarosano, overlap paleography with schematic SVG,
+Taylor's standardization finding and the PA-vs-GIŠ per-sign
+convention with his own kanji parallel, KI's re-choreographing,
+Wright/Huehnergard reconstruction rules with their disagreement
+shown — every claim labeled proven-from-clay vs attested-tendency
+vs honest-reconstruction; four sources footnoted; primary sources
+re-fetched before writing per owner instruction) and the /terms/
+glossary, previously unanchored, now listed under Addenda (URL
+unchanged — permalinks frozen). C101 ch00 gains the two
+honestly-teachable habits (drill the three strokes first as the
+school exercises did; top-before-bottom, left-before-right) with
+links to the primer. Mechanics: addenda dir is outside
+course_check's numeric-course glob so the pedagogy contract stays
+course-only; PA+GIŠ joined the font subset (79 codepoints);
+Winkelhaken termed; chapter layout gained kicker_no_chapter so the
+primer isn't mislabeled a chapter; school catalog's stale "102 in
+progress" line fixed in passing.
+
 2026-08-02 · M7-11 · phase-7 (ac58627, ce881e0, 45b44f2) · Owner
 review round 3: full sequential re-read of C102 (mine) plus the
 owner's own pass, seventeen findings all fixed. Structural: the
