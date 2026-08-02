@@ -105,9 +105,9 @@ Take line two apart and count what this course has handed you:
 the divine star, both halves of the king's name, the copula
 *-me-en* three lines running, *ba-* opening "was born," 𒉈
 wearing a new veteran reading *de₃* inside the verb's tail, and
-the ablative *-ta* turning the whole birth into "ever since." A
-year ago this line was wallpaper; now it is a sentence by a man
-you can hear showing off.
+the ablative *-ta* turning the whole birth into "ever since."
+Fifteen chapters ago this line was wallpaper; now it is a sentence
+by a man you can hear showing off.
 
 And he earned some of it: elsewhere in this same hymn Šulgi
 claims he ran from Nippur to Ur — some hundred and sixty

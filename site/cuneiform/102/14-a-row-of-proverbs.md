@@ -66,6 +66,26 @@ on it hard: **na-** — "let him *not*," the prohibitive. Where
 had better not"). Three wish-rings, one shelf: *ga-* volunteers,
 *ha-* blesses, *na-* wags a finger. The row below ends on one.
 
+One caution before it does: this *na-* shares its sign with
+chapter 12's *-na-*, "for him" — and the seat decides which is
+which. Chain-first, before everything, it wags the finger; tucked
+inside, after an opener (*nu-mu-na-…*), it is still the dative.
+The row below carries one of each, so you can watch the seats at
+work.
+
+## Grammar bite — the -a that makes a description
+
+One more ring, and it is a promise being kept: chapter 08 read
+*in-gu₇-a*, "the place *where* the lion ate," and left its
+trailing *-a* for later. Later is now. Hung after a verb, **-a
+folds the whole clause into a description** — "ate" becomes "who
+ate," "built" becomes "built by" — a sentence collapsed into a
+label you can hang on a noun (the grammars file it as the
+nominalizer). And it is a different worker from the locative *-a*
+of chapter 01: that one rides nouns and says "in"; this one rides
+verbs and says "who, which, where." The row below uses it twice
+in its first five lines.
+
 ## The row
 
 Read it the way a schoolboy copied it — straight through, one
@@ -146,6 +166,9 @@ generous:
 4. Parse *ha-ma-gi₄-gi₄* ring by ring.
 5. Compose, in transliteration, a na- warning of your own against
    over-eating. The proverbs would approve.
+6. The row's first and fifth sayings both carry the nominalizing
+   -a. Point to each, and say in one sentence how you know neither
+   is the locative.
 
 *Next: the king who was born a hero — Šulgi's own hymn, at last,
 with his own name in your hands.*

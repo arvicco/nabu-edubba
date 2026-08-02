@@ -57,7 +57,7 @@ line, you recognize the shape instead of flinching at it.
   </tbody>
 </table>
 
-Five times each, aloud as you write: *du*, *ti*, *la*.
+Five times each, aloud as you write: *du*, *ti*, *ne*.
 
 ## The verbal chain — lightly
 

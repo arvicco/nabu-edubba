@@ -147,7 +147,7 @@ glimpse, though this course leaves them for another day.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further prefix the grammars unpack (not this course), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
+    <div class="reading-line"><span class="script">𒉌𒈾𒁀</span><span class="translit">i₃-na-ba</span><span class="gloss">"he allotted (it) to him" — i₃- opens the chain, na- rides along as a further ring ("to him" — chapter 12 opens it properly), and ba here is not the prefix but the verb stem itself, "to allot"</span></div>
   </div>
   <figcaption class="citation">
     <em>BIN</em> 08, 015, ED IIIa (ca. 2600–2500 BCE), Adab (mod.
@@ -227,8 +227,8 @@ Ring by ring, left to right:
   *ki* so the line reads "the place *where*…" rather than a bare
   "ate." That trailing ring is real, and you can see exactly where
   it sits — after the stem, the way chapter 04 said suffixes
-  sometimes would — but unpacking what it does is a later chapter's
-  job, not this one's.
+  sometimes would — but unpacking what it does is chapter 14's
+  job, where a whole row of proverbs runs on it.
 
 Read straight through: place, lion-as-doer, man, ate-there. A
 complete sentence, a real proverb, and not one sign in it wearing a

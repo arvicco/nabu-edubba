@@ -71,7 +71,7 @@ composition rather than a sentence — Sumerian's own way of saying
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓𒊑𒀀</span><span class="translit">ud re-a</span><span class="gloss">"in that distant day" — ud, "day" (101, veteran) + re-a, "that," this chapter's RI sign carrying a demonstrative sense of distance</span></div>
+    <div class="reading-line"><span class="script">𒌓𒊑𒀀</span><span class="translit">ud re-a</span><span class="gloss">"in that distant day" — ud, "day" (101, veteran) + re, "that," this chapter's RI sign carrying a demonstrative sense of distance + the locative -a of chapter 01, carrying the "in"</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian catalogue of Sumerian compositions, which
@@ -85,7 +85,9 @@ composition rather than a sentence — Sumerian's own way of saying
 *Ud*, "day," you have owned since 101; this chapter's RI sign, read
 *re* here rather than *ri*, supplies the "that" — pointing not at
 today but at a day pushed off into the distance, the way a
-storyteller's "once" pushes its story out of the present. A hymn
+storyteller's "once" pushes its story out of the present. The last
+sign is the quietest: the locative *-a* from chapter 01's tag list,
+carrying the "in" — day, distant, *in*. A hymn
 does not announce when it happens; it announces that it happened
 *then*, in days already far away, and lets that distance carry the
 weight.
@@ -95,12 +97,7 @@ noun: *en zid*, "true lord"; *e₂ zid*, "true house." Ordinary prose
 does not stack "true" onto every lord and every house it mentions;
 literary Sumerian does, routinely, and the sense drifts from
 "genuine" toward something closer to "worthy of the name" — a seal
-of approval stamped by the word *zid* itself. One honest limit: the
-full literary language carries far more machinery than this — a
-whole second dialect, *emesal*, used by certain speakers and by
-laments, and tiers of rare signs no receipt ever needed — and this
-course leaves all of that for the standard grammars to teach
-properly.
+of approval stamped by the word *zid* itself.[^limit]
 
 ## True son, true arm
 
@@ -235,3 +232,9 @@ receipt never repeats a line for effect; a lament always does.
 
 *Next: a real dedication, read whole from actual stone — and the
 stretch's close.*
+
+[^limit]: An honest limit: the full literary language carries far
+    more machinery than this — a whole second dialect, *emesal*,
+    used by certain speakers and by laments, and tiers of rare
+    signs no receipt ever needed. This course leaves all of that
+    for the standard grammars to teach properly.

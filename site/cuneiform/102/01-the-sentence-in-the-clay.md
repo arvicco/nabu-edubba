@@ -73,6 +73,13 @@ Each tag, with a sentence to hold it by:
   procession is headed. Destination or purpose. (In chapter 05 you
   will see it end the most famous purpose-phrase in Sumerian: "for
   his life".)
+- ***-a* "in, on, at":** <span class="script">𒂍𒀀</span> *e₂-a*,
+  "in the house" — where something sits or happens. The plainest
+  tag of all, one bare vowel — 101's very first sign in yet another
+  job. The grammars call it the locative; you will read it on real
+  clay long before
+  [chapter 13]({{ '/cuneiform/102/13-you-are/' | relative_url }})
+  shelves it beside its siblings.
 - **possession, in two flavors.** Sumerian splits "belonging" by who
   owns. A *person's* things take *-ani* "his, her":
   <span class="script">𒂍𒀀𒉌</span> *é-a-ni*, "his house" — say, the
@@ -85,9 +92,10 @@ Each tag, with a sentence to hold it by:
 **Three: the doer can carry a mark.** In sentences with a
 transitive verb, the noun doing the deed often ends in *-e* —
 <span class="script">𒈗𒂊</span> *lugal-e*, "the king (acting)".
-You met this very form in a search hit back in 101's readings; now
-it has a name. (Linguists call the full system "ergative"; the
-label matters less than the habit of noticing the tag.)
+From here on you will spot that little tag in nearly every royal
+inscription this course reads. (Linguists call the full system
+"ergative"; the label matters less than the habit of noticing the
+tag.)
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="Anatomy of a Sumerian sentence: three blocks in order — agent noun with tag -e, object noun with a case tag, then the verb chain last — with the verb block emphasized.">
@@ -140,9 +148,9 @@ modifier last.
 
 1. Write 𒂠, 𒂊, 𒁉 from memory; say *še₃*, *e*, *bi*.
 2. Compose in transliteration, then in signs: *kur-ta* ("from the
-   mountains"), *é-še₃* ("to the house"), *é-a-ni* ("his house"),
-   *é-bi* ("its house — the city's"), *lugal-e* ("the king,
-   acting").
+   mountains"), *é-še₃* ("to the house"), *e₂-a* ("in the house"),
+   *é-a-ni* ("his house"), *é-bi* ("its house — the city's"),
+   *lugal-e* ("the king, acting").
 3. Say aloud the three habits — verb last, grammar as tags, doer
    marked — and name one English sentence you could rebuild the
    Sumerian way.

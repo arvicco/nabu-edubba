@@ -87,7 +87,9 @@ Read it as a chain, the way you now read any Sumerian word: the
 abstraction-maker turns "life" into "life-ness," a spelling vowel
 carries the /l/ into the next syllable, "his" attaches, and the
 terminative tag you met in chapter 01 aims the whole thing at its
-purpose. One honest loose end: *-la-* here is a spelling
+purpose. And that *-ni* is no stranger: it is chapter 01's *-ani*,
+"his/her," traveling light — after a vowel the tag's own /a/
+merges away, and only *-ni* surfaces in the spelling. One honest loose end: *-la-* here is a spelling
 phenomenon, not a word of its own — the grammars explain it as
 writing out the final consonant of *til*, the fuller shape behind
 *ti*, so that *-ni* has a consonant to land on. One sentence, no
