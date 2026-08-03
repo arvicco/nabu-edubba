@@ -84,3 +84,50 @@ From this rulebook: the aes license label
 font coverage, no-JS, link hygiene. Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
+
+## 8 · E102 · Middle Egyptian — the literacy track's conventions
+
+Ruled 2026-08-03 at the start of Phase 8, before any E102 content
+(the rulebook law).
+
+- **Course shape**: a literacy track in stretches, the proven C102
+  pattern. Sign batches are computed from the committed aes
+  frequency table (frequency × graphic simplicity), continuing
+  from 101's inventory of 53; the queue lives in
+  `site/_data/hieroglyphs102_queue.yml` — additive-only once
+  introduced, contract-tested. Thematic pinning is allowed;
+  taught-means-used: a sign keeps its batch seat only with an
+  attested line readable at its chapter.
+- **Verb forms**: the suffix conjugation is displayed with the
+  school's join — *sḏm≡f*, "he hears" — never `sdm=f` outside
+  verbatim corpus quotes (§1 already rules the join for nouns;
+  this extends it to verbs). Paradigm names in prose use the
+  display form ("the *sḏm≡f*"). Glosses carry the subject ("he
+  hears," "may he give"); where Middle Egyptian aspect is
+  ambiguous, the gloss follows the cited corpus translation and
+  hedges rather than invents.
+- **Sentence types** are taught under Allen's names — nominal,
+  adjectival, adverbial, verbal — at most one new type per
+  chapter, each entering `site/_data/terms.yml`
+  (`school: hieroglyphs`) in the same commit it is taught.
+- **Genitives** under the names "direct" and "indirect" (*nj*);
+  *nisba* is mentioned as the grammars' term and bubble-defined
+  when taught.
+- **Readings**: whole, fully-annotated aes lines only (the
+  `hiero_inventar` exact-match law, §2). The literacy track
+  prefers connected clauses over isolated captions; formulaic
+  genres — offering formulas, titularies, stela openings — are
+  this track's receipts: used proudly, each formula taught once
+  as a pattern and read thereafter.
+- **Coverage chart** (ch00): cumulative share of sign-occurrences
+  in the aes corpus per the committed frequency table; labeled a
+  floor; machinery cited in a footnote, never in lesson flow.
+- **Walkthrough law** (site-wide owner ruling 2026-08-02, restated
+  for this school): any reading of three or more meaningful pieces
+  gets a bullet-form piece-by-piece walkthrough — one bullet per
+  piece, taught origin named, gloss carrying only the translation;
+  deferrals explicit ("the grammars carry it"), never silent.
+- Nothing in this section adds a safely regexable check beyond §7
+  today; the ≡-in-verbs rule joins `script/rulebook.rb` if a
+  robust pattern is found (bare `=` is unregexable in Markdown
+  source full of HTML attributes).
