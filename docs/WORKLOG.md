@@ -5,6 +5,19 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-03 · Gate 7 closed · PR #10 merged 2026-08-02 by owner, CI
++ Pages deploy green, live surface verified in pixels (ch14 split
+row, both Addenda shelves in sidebar, Egyptian glossary serving).
+Cuneiform 102 stands complete at nineteen chapters; the phase also
+grew the school-level Addenda concept (Writing primer from the
+wedge-order scout, glossaries split C/E with a routing term
+linker), banned accent-é with rulebook enforcement, linked every
+chapter mention in both cuneiform courses, and absorbed four owner
+review rounds — the fourth rebuilt from memory after the ctrl+s
+incident. Branch phase-8 opened from main; Phase 8 plan (E102
+Middle Egyptian first stretch, M8-1..9, rulebook-extension-first)
+presented for owner approval with C103 Akkadian as the alternative.
+
 2026-08-02 · M7-14 · phase-7 · Review round 4, rebuilt from memory
 after an incident: the owner lost ~2h of dictated review notes to
 ctrl+s (chat stash — single in-memory slot, overwritten; nothing
