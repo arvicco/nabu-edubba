@@ -417,7 +417,7 @@ immediately, long drafts via external editor).
    sentence-type terminology, corpus line-selection rules for the
    literacy track, coverage-chart method. Machine-checkable subset
    into script/rulebook.rb same commit.
-## M8-2 · Instruments: E102 queue + reading sweep  [tier: top] [status: todo] [deps: M8-1]
+## M8-2 · Instruments: E102 queue + reading sweep  [tier: top] [status: in-progress — pool+compiler+contract done; reading sweep BLOCKED: nabu catalog.sqlite3 empty (another session mid-migration, test run + mcp process live); resume when owner signals nabu healthy] [deps: M8-1]
    Computed sign queue for the literacy track (curriculum-compiler
    run over the committed aes frequency table, continuing from
    E101's 53 signs; additive site/_data/hieroglyphs102_queue.yml +
