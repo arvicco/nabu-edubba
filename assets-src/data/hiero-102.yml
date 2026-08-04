@@ -12,46 +12,46 @@
 # Classifiers are silent (rulebook §3): translit "—".
 
 signs:
-  - { gardiner: D4,   translit: "jr",  mdc: "ir",   label: "eye",                        sense: "eye (jrt); the verb jrj, to do, to make",            chapter: 3, certainty: classic }
-  - { gardiner: D37,  translit: "dj",  mdc: "di",   label: "arm handing a loaf",         sense: "the verb rdj/dj, to give",                           chapter: 3, certainty: classic }
-  - { gardiner: E34,  translit: "wn",  mdc: "wn",   label: "desert hare",                sense: "wn; the verb wnn, to be, to exist",                  chapter: 3, certainty: classic }
+  - { gardiner: D4,   translit: "jr",  mdc: "ir",   label: "eye",                        sense: "eye (jrt); the verb jrj, to do, to make",            chapter: 3, certainty: classic, keyword: "eye" }
+  - { gardiner: D37,  translit: "dj",  mdc: "di",   label: "arm handing a loaf",         sense: "the verb rdj/dj, to give",                           chapter: 3, certainty: classic, keyword: "giving arm", confusable_with: ["D36", "D40"] }
+  - { gardiner: E34,  translit: "wn",  mdc: "wn",   label: "desert hare",                sense: "wn; the verb wnn, to be, to exist",                  chapter: 3, certainty: classic, keyword: "hare" }
   - { gardiner: U1,   translit: "mꜣ",  mdc: "mA",   label: "sickle",                     sense: "mꜣ; the verb mꜣꜣ, to see",                           chapter: null, certainty: classic }
   - { gardiner: U7,   translit: "mr",  mdc: "mr",   label: "hoe",                        sense: "mr; the verb mrj, to love, to want",                 chapter: null, certainty: classic }
-  - { gardiner: D35,  translit: "n",   mdc: "n",    label: "arms spread in refusal",     sense: "the negation — n, nj, 'not'",                        chapter: 4, certainty: classic }
-  - { gardiner: O29,  translit: "ꜥꜣ",  mdc: "aA",   label: "wooden column, laid flat",   sense: "ꜥꜣ, great, big",                                     chapter: 6, certainty: classic }
-  - { gardiner: G36,  translit: "wr",  mdc: "wr",   label: "swallow",                    sense: "wr, great, elder; the swallow itself",               chapter: 6, certainty: classic }
-  - { gardiner: N1,   translit: "pt",  mdc: "pt",   label: "sky",                        sense: "pt, sky, heaven; classifier of things above",        chapter: 0, certainty: classic }
-  - { gardiner: N17,  translit: "tꜣ",  mdc: "tA",   label: "flat strip of land",         sense: "tꜣ, land, earth",                                    chapter: 0, certainty: classic }
+  - { gardiner: D35,  translit: "n",   mdc: "n",    label: "arms spread in refusal",     sense: "the negation — n, nj, 'not'",                        chapter: 4, certainty: classic, keyword: "refusal" }
+  - { gardiner: O29,  translit: "ꜥꜣ",  mdc: "aA",   label: "wooden column, laid flat",   sense: "ꜥꜣ, great, big",                                     chapter: 6, certainty: classic, keyword: "great" }
+  - { gardiner: G36,  translit: "wr",  mdc: "wr",   label: "swallow",                    sense: "wr, great, elder; the swallow itself",               chapter: 6, certainty: classic, keyword: "elder", confusable_with: ["G37"] }
+  - { gardiner: N1,   translit: "pt",  mdc: "pt",   label: "sky",                        sense: "pt, sky, heaven; classifier of things above",        chapter: 0, certainty: classic, keyword: "sky" }
+  - { gardiner: N17,  translit: "tꜣ",  mdc: "tA",   label: "flat strip of land",         sense: "tꜣ, land, earth",                                    chapter: 0, certainty: classic, keyword: "land" }
   - { gardiner: N16,  translit: "tꜣ",  mdc: "tA",   label: "land with grains beneath",   sense: "tꜣ, land — N17's fuller twin; one word, two shapes", chapter: null, certainty: classic }
-  - { gardiner: F34,  translit: "jb",  mdc: "ib",   label: "heart",                      sense: "jb, heart, mind",                                    chapter: 4, certainty: classic }
+  - { gardiner: F34,  translit: "jb",  mdc: "ib",   label: "heart",                      sense: "jb, heart, mind",                                    chapter: 4, certainty: classic, keyword: "heart" }
   - { gardiner: D1,   translit: "tp",  mdc: "tp",   label: "head in profile",            sense: "tp, head; upon; first",                              chapter: null, certainty: classic }
   - { gardiner: T28,  translit: "ẖr",  mdc: "Xr",   label: "butcher's block",            sense: "ẖr, under, carrying — the preposition",              chapter: null, certainty: classic }
-  - { gardiner: W19,  translit: "mj",  mdc: "mi",   label: "milk jug in a carrying net", sense: "mj, like — the preposition of likeness",             chapter: 1, certainty: classic }
-  - { gardiner: Q1,   translit: "st",  mdc: "st",   label: "seat, throne",               sense: "st, seat, place; opens Osiris' name",                chapter: 4, certainty: classic }
+  - { gardiner: W19,  translit: "mj",  mdc: "mi",   label: "milk jug in a carrying net", sense: "mj, like — the preposition of likeness",             chapter: 1, certainty: classic, keyword: "likeness" }
+  - { gardiner: Q1,   translit: "st",  mdc: "st",   label: "seat, throne",               sense: "st, seat, place; opens Osiris' name",                chapter: 4, certainty: classic, keyword: "throne" }
   - { gardiner: O49,  translit: "njwt", mdc: "niwt", label: "town: crossroads in a wall", sense: "njwt, town, city; classifier of settled places",    chapter: null, certainty: classic }
   - { gardiner: N25,  translit: "ḫꜣst", mdc: "xAst", label: "three desert hills",        sense: "ḫꜣst, desert, foreign land; classifier of abroad",   chapter: null, certainty: classic }
-  - { gardiner: U36,  translit: "ḥm",  mdc: "Hm",   label: "fuller's club",              sense: "ḥm — Majesty (ḥm≡f); also servant (ḥm-nṯr, priest)", chapter: 2, certainty: classic }
-  - { gardiner: U28,  translit: "ḏꜣ",  mdc: "DA",   label: "fire-drill",                 sense: "ḏꜣ; wḏꜣ, to be whole, to prosper — the ꜥnḫ wḏꜣ snb wish", chapter: 6, certainty: classic }
+  - { gardiner: U36,  translit: "ḥm",  mdc: "Hm",   label: "fuller's club",              sense: "ḥm — Majesty (ḥm≡f); also servant (ḥm-nṯr, priest)", chapter: 2, certainty: classic, keyword: "majesty" }
+  - { gardiner: U28,  translit: "ḏꜣ",  mdc: "DA",   label: "fire-drill",                 sense: "ḏꜣ; wḏꜣ, to be whole, to prosper — the ꜥnḫ wḏꜣ snb wish", chapter: 6, certainty: classic, keyword: "fire-drill" }
   - { gardiner: M12,  translit: "ḫꜣ",  mdc: "xA",   label: "lotus leaf on its stalk",    sense: "ḫꜣ, one thousand — the offering-count numeral",      chapter: null, certainty: classic }
   - { gardiner: W22,  translit: "ḥnqt", mdc: "Hnqt", label: "beer jug",                  sense: "ḥnqt, beer; classifier of jars and drink",           chapter: null, certainty: classic }
   - { gardiner: M3,   translit: "ḫt",  mdc: "xt",   label: "branch",                     sense: "ḫt, wood, stick; classifier of things wooden",       chapter: null, certainty: classic }
   - { gardiner: U33,  translit: "tj",  mdc: "ti",   label: "pestle",                     sense: "the syllable tj",                                    chapter: null, certainty: classic }
-  - { gardiner: V31A, translit: "k",   mdc: "k",    label: "basket with handle (left)",  sense: "k — V31's mirror twin; one sound, two shapes",       chapter: 2, certainty: classic }
-  - { gardiner: G7,   translit: "—",   mdc: "",     label: "falcon on the standard",     sense: "silent classifier of gods and kings; Horus watching over the word", chapter: 2, certainty: classic }
+  - { gardiner: V31A, translit: "k",   mdc: "k",    label: "basket with handle (left)",  sense: "k — V31's mirror twin; one sound, two shapes",       chapter: 2, certainty: classic, keyword: "mirror basket", confusable_with: ["V31"] }
+  - { gardiner: G7,   translit: "—",   mdc: "",     label: "falcon on the standard",     sense: "silent classifier of gods and kings; Horus watching over the word", chapter: 2, certainty: classic, keyword: "watcher" }
   - { gardiner: Z3,   translit: "—",   mdc: "",     label: "three strokes, in a row",    sense: "silent classifier: plurality",                       chapter: null, certainty: classic }
   - { gardiner: Z3A,  translit: "—",   mdc: "",     label: "three strokes, upright",     sense: "silent classifier: plurality (upright variant)",     chapter: null, certainty: classic }
-  - { gardiner: A24,  translit: "—",   mdc: "",     label: "man striking, two-handed",   sense: "silent classifier: force, effort, violence",         chapter: 5, certainty: classic }
-  - { gardiner: D40,  translit: "—",   mdc: "",     label: "arm gripping a stick",       sense: "silent classifier: strength, forceful action",       chapter: 5, certainty: classic }
-  - { gardiner: N33,  translit: "—",   mdc: "",     label: "grain of sand",              sense: "silent classifier: sand, minerals, pellets",         chapter: 5, certainty: classic }
+  - { gardiner: A24,  translit: "—",   mdc: "",     label: "man striking, two-handed",   sense: "silent classifier: force, effort, violence",         chapter: 5, certainty: classic, keyword: "effort" }
+  - { gardiner: D40,  translit: "—",   mdc: "",     label: "arm gripping a stick",       sense: "silent classifier: strength, forceful action",       chapter: 5, certainty: classic, keyword: "force", confusable_with: ["D36", "D37"] }
+  - { gardiner: N33,  translit: "—",   mdc: "",     label: "grain of sand",              sense: "silent classifier: sand, minerals, pellets",         chapter: 5, certainty: classic, keyword: "sand", confusable_with: ["W24"] }
   - { gardiner: N23,  translit: "—",   mdc: "",     label: "irrigation canal",           sense: "silent classifier: watered land, plots",             chapter: null, certainty: classic }
-  - { gardiner: N35A, translit: "mw",  mdc: "mw",   label: "three ripples of water",     sense: "mw, water; classifier of liquids",                   chapter: 1, certainty: classic }
+  - { gardiner: N35A, translit: "mw",  mdc: "mw",   label: "three ripples of water",     sense: "mw, water; classifier of liquids",                   chapter: 1, certainty: classic, keyword: "water", confusable_with: ["N35"] }
   - { gardiner: F51,  translit: "—",   mdc: "",     label: "piece of flesh",             sense: "silent classifier: flesh, body parts",               chapter: null, certainty: classic }
   - { gardiner: Q7,   translit: "—",   mdc: "",     label: "brazier with flame",         sense: "silent classifier: fire, heat, cooking",             chapter: null, certainty: classic }
   - { gardiner: Z9,   translit: "—",   mdc: "",     label: "two sticks crossed",         sense: "silent classifier: breaking, crossing, parting",     chapter: null, certainty: classic }
-  - { gardiner: Z6,   translit: "—",   mdc: "",     label: "substitute stroke",          sense: "hieratic stand-in drawn instead of dangerous signs — the enemy, death", chapter: 4, certainty: classic }
+  - { gardiner: Z6,   translit: "—",   mdc: "",     label: "substitute stroke",          sense: "hieratic stand-in drawn instead of dangerous signs — the enemy, death", chapter: 4, certainty: classic, keyword: "death's stand-in" }
   - { gardiner: Z5,   translit: "—",   mdc: "",     label: "diagonal stroke",            sense: "substitute for any sign too intricate to draw small", chapter: null, certainty: classic }
   - { gardiner: G41,  translit: "ḫn",  mdc: "xn",   label: "pintail duck alighting",     sense: "ḫn, to alight; classifier of landing and stopping",  chapter: null, certainty: classic }
   - { gardiner: H8,   translit: "—",   mdc: "",     label: "egg",                        sense: "silent classifier in goddess names and words of birth", chapter: null, certainty: classic }
   - { gardiner: M2,   translit: "ḥn",  mdc: "Hn",   label: "herb",                       sense: "ḥn; classifier of plants and growing things",        chapter: null, certainty: classic }
   - { gardiner: AA15, translit: "m",   mdc: "m",    label: "unknown object (a rib?)",    sense: "reads m in a family of small words; origin debated", chapter: null, certainty: unclear }
-  - { gardiner: AA2,  translit: "—",   mdc: "",     label: "pustule (?)",                sense: "silent classifier: sickness, bodily conditions; picture debated", chapter: 5, certainty: unclear }
+  - { gardiner: AA2,  translit: "—",   mdc: "",     label: "pustule (?)",                sense: "silent classifier: sickness, bodily conditions; picture debated", chapter: 5, certainty: unclear, keyword: "sickness" }
