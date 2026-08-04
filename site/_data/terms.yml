@@ -156,6 +156,14 @@ terms:
   - name: transitive
     slug: transitive
     def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
+  - name: verbal sentence
+    slug: verbal-sentence
+    school: hieroglyphs
+    def: "a sentence built on a conjugated verb — in Middle Egyptian the verb comes first, wearing its subject as a suffix: ḏd≡f, \"he says\""
+  - name: suffix conjugation
+    slug: suffix-conjugation
+    school: hieroglyphs
+    def: "the Egyptian verb form whose subject is a suffix pronoun on the stem — the grammars' sḏm≡f, \"he hears\""
   - name: nominal sentence
     slug: nominal-sentence
     school: hieroglyphs

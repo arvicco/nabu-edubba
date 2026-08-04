@@ -64,8 +64,9 @@ for saying words aloud, the **≡** that joins a suffix to its word
 (*msi̯*) and comma (*zꜣ,t*). Flip back there whenever a mark looks
 unfamiliar; nothing new is sprung on you here. One promise for this
 track: when a verb starts carrying those suffixes — and in Middle
-Egyptian they carry the whole story — an early chapter of this
-stretch slows down and takes the machinery apart properly.
+Egyptian they carry the whole story —
+[chapter 02]({{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }})
+slows down and takes the machinery apart properly.
 
 ## The road, measured
 
