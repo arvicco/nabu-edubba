@@ -445,8 +445,11 @@ failure) — gates are now read plain, never filtered.
 
 Source: .docs/sign-retention-plan.md (owner-ruled rewrite: the
 keyword + story layer is the foundation; retrieval instruments
-follow in a later stage). Permalinks owner-ruled: keyword slugs,
-/<school>/addenda/signs/<keyword>/, frozen once live.
+follow in a later stage). Permalinks owner-ruled (2026-08-04,
+final): traditional sign-name slugs — /cuneiform/addenda/signs/
+<name>/ (ASCII forms: asz, gal, e2), /hieroglyphs/addenda/signs/
+<gardiner>/ — names are stable and unique where keywords may be
+re-chosen as better stories emerge.
 
 ## M9-1 · Codex laws into both rulebooks  [tier: top — Fable] [status: todo]
    Laws BEFORE content: keyword uniqueness within each school;
