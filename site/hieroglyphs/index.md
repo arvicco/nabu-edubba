@@ -28,8 +28,13 @@ school, the goal is not facts about the script but the ability to read it.
   culture words, real royal names in cartouches — and the Rosetta
   decipherment told with Ptolemy and Cleopatra read sign by sign.
   Prerequisite for everything below.
-- **102 · Middle Egyptian literacy** — planned. A literacy track building
-  toward reading real Middle Egyptian texts.
+- **[102 · Middle Egyptian]({{ '/hieroglyphs/102/' | relative_url }})** —
+  **open: first stretch live, seven chapters.** The literacy track:
+  the sign inventory grown in computed order past seventy signs,
+  Middle Egyptian's three sentence types and the suffix
+  conjugation in reading-sized bites, and real lines from the
+  classics — Khufu's court, the Doomed Prince, Piye's stela, the
+  doctors' papyri, Neferti, Wenamun.
 - **2xx · The wider Egyptian world** — planned. Further courses across the
   tradition's later phases:
   - Hieratic — planned.
