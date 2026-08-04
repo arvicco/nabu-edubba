@@ -29,24 +29,24 @@ puts real clay in front of you.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒈨</td><td>ME</td><td><em>me</em></td>
+      <td class="script sign-cell">𒈨</td><td>ME</td><td>rites</td><td><em>me</em></td>
       <td>rites, divine powers; to be</td>
       <td>2 wedges — the simplest sign in this course, carrying one of
           Sumer's deepest words: the <em>me</em> are the divine
           ordinances of civilization</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌨</td><td>UR</td><td><em>ur</em></td>
+      <td class="script sign-cell">𒌨</td><td>UR</td><td>dog</td><td><em>ur</em></td>
       <td>dog; young man, warrior (in names)</td>
       <td>~5 wedges; you met it inside names in 101 — Ur-Nanše,
           Ur-Lisi. Now the ur- names open by themselves</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒋫</td><td>TA</td><td><em>ta</em></td>
+      <td class="script sign-cell">𒋫</td><td>TA</td><td>from</td><td><em>ta</em></td>
       <td>the syllable ta; "from" (ablative)</td>
       <td>~5 wedges; pictorial origin not transparent — a grammar
           workhorse you will meet properly in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></td>

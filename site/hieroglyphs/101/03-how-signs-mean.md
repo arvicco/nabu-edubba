@@ -21,21 +21,21 @@ signs are the demonstration kit:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Job</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Job</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓉐</td><td>O1</td><td><em>pr</em></td>
+      <td class="script sign-cell">𓉐</td><td>O1</td><td>house</td><td><em>pr</em></td>
       <td>a house, in ground-plan</td>
       <td>the star of this chapter — watch it work three different jobs</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓏤</td><td>Z1</td><td>—</td>
+      <td class="script sign-cell">𓏤</td><td>Z1</td><td>stroke</td><td>—</td>
       <td>a single stroke</td>
       <td>not read aloud; marks "this sign means the thing it shows"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂻</td><td>D54</td><td>—</td>
+      <td class="script sign-cell">𓂻</td><td>D54</td><td>walking</td><td>—</td>
       <td>walking legs</td>
       <td>not read aloud; silently classifies a word as motion</td>
     </tr>

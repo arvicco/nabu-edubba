@@ -25,24 +25,24 @@ work immediately, on stone.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓍷</td><td>V10</td><td>—</td>
+      <td class="script sign-cell">𓍷</td><td>V10</td><td>cartouche</td><td>—</td>
       <td>the cartouche: a loop of rope with a tie</td>
       <td>from the verb <em>šn</em>, "encircle" — the ring drawn around
           a royal name, so that everything the sun encircles belongs
           to it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓇳</td><td>N5</td><td><em>rꜥ</em></td>
+      <td class="script sign-cell">𓇳</td><td>N5</td><td>sun</td><td><em>rꜥ</em></td>
       <td>sun disc; the god Ra</td>
       <td>sits inside nearly every king's throne name — you will meet
           it below, twice</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓇓</td><td>M23</td><td><em>sw</em></td>
+      <td class="script sign-cell">𓇓</td><td>M23</td><td>sedge</td><td><em>sw</em></td>
       <td>sedge plant</td>
       <td>the word <em>nswt</em>, "king (of Upper Egypt)," is written
           with it; it returns as the opening sign of chapter 06's

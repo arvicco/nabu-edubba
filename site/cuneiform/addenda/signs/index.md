@@ -32,9 +32,9 @@ scaffolding — the moment your own picture forms, throw ours away.
 The origin stories follow the standard accounts,[^origins] and each
 says plainly how sure the scholarship is.
 
-<table class="sign-table">
+<table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Means</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Means</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign c101 = site.data.sign_teaching.signs | sort: "taught_in" %}

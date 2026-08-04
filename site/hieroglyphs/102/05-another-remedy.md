@@ -28,31 +28,31 @@ of them makes a sound. That silence is the lesson.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓀜</td><td>A24</td><td>—</td>
+      <td class="script sign-cell">𓀜</td><td>A24</td><td>effort</td><td>—</td>
       <td>man striking with both hands</td>
       <td>the classifier of force and effort — it closes verbs of
           hitting, driving, teaching-by-the-stick</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂡</td><td>D40</td><td>—</td>
+      <td class="script sign-cell">𓂡</td><td>D40</td><td>force</td><td>—</td>
       <td>arm gripping a stick</td>
       <td>the working arm — classifier of strength and forceful
           action; A24's close cousin, one limb instead of a whole
           man</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓈒</td><td>N33</td><td>—</td>
+      <td class="script sign-cell">𓈒</td><td>N33</td><td>sand</td><td>—</td>
       <td>grain, pellet</td>
       <td>the classifier of sands, minerals, powders, pills —
           anything that comes in small dry pieces; the pharmacy's
           own sign</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓐎</td><td>AA2</td><td>—</td>
+      <td class="script sign-cell">𓐎</td><td>AA2</td><td>sickness</td><td>—</td>
       <td>pustule (?)</td>
       <td>the classifier of sickness and bodily trouble; what the
           picture shows is genuinely debated — the sign lists keep

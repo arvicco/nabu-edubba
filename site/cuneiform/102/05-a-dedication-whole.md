@@ -29,18 +29,18 @@ votive inscriptions than any other.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒎏</td><td>NIN</td><td><em>nin</em></td>
+      <td class="script sign-cell">𒎏</td><td>NIN</td><td>lady</td><td><em>nin</em></td>
       <td>lady, queen, mistress</td>
       <td>the classic female counterpart to <em>en</em> and
           <em>lugal</em>; opens goddess names and queenly titles the
           way <em>lugal</em> opens kingly ones</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆷</td><td>LA</td><td><em>la</em></td>
+      <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td><em>la</em></td>
       <td>the syllable la; abundance (stated)</td>
       <td>~9 wedges; taught here because you are about to watch it
           work — it is the spelling glue inside this chapter's

@@ -27,24 +27,24 @@ spelling the moment you stop watching it.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊏</td><td>RA</td><td><em>ra</em></td>
+      <td class="script sign-cell">𒊏</td><td>RA</td><td>toward</td><td><em>ra</em></td>
       <td>the syllable ra; "to, for" (a person) — the dative tag</td>
       <td>~8 wedges; pictorial origin not transparent — a grammar
           workhorse from its first appearance, no picture to lean on</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒂵</td><td>GA</td><td><em>ga</em></td>
+      <td class="script sign-cell">𒂵</td><td>GA</td><td>milk</td><td><em>ga</em></td>
       <td>milk; the syllable ga</td>
       <td>~8 wedges; classic origin: the sign lists connect it with
           the milk jug and dairy work — you will see why in this
           chapter's names</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀝</td><td>AK</td><td><em>ak</em></td>
+      <td class="script sign-cell">𒀝</td><td>AK</td><td>do</td><td><em>ak</em></td>
       <td>to do, to make</td>
       <td>~6 wedges; origin unclear — and the reason it sits in THIS
           chapter: <em>ak</em> is also the sound of the case this

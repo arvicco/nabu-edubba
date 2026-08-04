@@ -22,11 +22,11 @@ one:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓇋</td><td>M17</td><td><em>j</em></td>
+      <td class="script sign-cell">𓇋</td><td>M17</td><td>reed</td><td><em>j</em></td>
       <td>a flowering reed</td>
       <td>y / a light glottal onset; conventionally said as "i"</td>
     </tr>

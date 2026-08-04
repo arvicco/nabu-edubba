@@ -26,18 +26,18 @@ pays off a case the course has been quietly reading past since
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌗</td><td>ITI</td><td><em>iti</em></td>
+      <td class="script sign-cell">𒌗</td><td>ITI</td><td>month</td><td><em>iti</em></td>
       <td>month</td>
       <td>look closely: it is the day-sign 𒌓 with a thirty tucked
           inside — a month <em>is</em> thirty days, drawn as exactly
           that; the workhorse of every dated receipt</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒍝</td><td>ZA</td><td><em>za</em></td>
+      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td><em>za</em></td>
       <td>bead, precious stone; the syllable za</td>
       <td>~3 wedges; its star turn is the word below — <em>za-e</em>,
           "you"</td>

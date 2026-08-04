@@ -23,19 +23,19 @@ handing you signs, so here are your first three, right now:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓅓</td><td>G17</td><td><em>m</em></td>
+      <td class="script sign-cell">𓅓</td><td>G17</td><td>owl</td><td><em>m</em></td>
       <td>an owl</td><td>m</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓈖</td><td>N35</td><td><em>n</em></td>
+      <td class="script sign-cell">𓈖</td><td>N35</td><td>ripple</td><td><em>n</em></td>
       <td>a ripple of water</td><td>n</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂋</td><td>D21</td><td><em>r</em></td>
+      <td class="script sign-cell">𓂋</td><td>D21</td><td>mouth</td><td><em>r</em></td>
       <td>a mouth</td><td>r</td>
     </tr>
   </tbody>

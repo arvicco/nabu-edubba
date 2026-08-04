@@ -21,11 +21,11 @@ is the stand such a jar stood on:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓎼</td><td>W11</td><td><em>g</em></td>
+      <td class="script sign-cell">𓎼</td><td>W11</td><td>stand</td><td><em>g</em></td>
       <td>a ring-shaped jar stand</td><td>g</td>
     </tr>
   </tbody>
