@@ -535,7 +535,7 @@ pages Stages A–B laid down. Everything text-pure: retrieval via
 native <details>/<summary> disclosure, wall-clock scheduling via
 exported decks, zero JS.
 
-## M11-1 · Retrieval laws into the rulebooks  [tier: top — Fable] [status: todo]
+## M11-1 · Retrieval laws into the rulebooks  [tier: top — Fable] [status: done]
    Conventions BEFORE instruments: warm-up panel format (prompts
    by keyword, production direction first, answers folded);
    drill-shelf format (three directions, deterministic interleave,
@@ -549,29 +549,29 @@ exported decks, zero JS.
    older signs due for reinforcement are preferred — the pickers
    score it; a line that only shows the new sign loses to one
    that revises while it teaches.
-## M11-2 · The spiral warm-up  [tier: top] [status: todo] [deps: M11-1]
+## M11-2 · The spiral warm-up  [tier: top] [status: done — 47 chapters]
    A generated panel at the top of every subject chapter, zero
    hand-authoring: 4–6 retrieval prompts against signs from
    chapters N−1, N−2, N−4, N−8 (cross-course into 101 per
    school), keyword-first ("*big* — draw it, then check"),
    answers behind <details>. Rendered by the chapter layout from
    the registries — no per-file edits; all four courses at once.
-## M11-3 · Drill shelves in both Addenda  [tier: top] [status: todo] [deps: M11-1]
+## M11-3 · Drill shelves in both Addenda  [tier: top] [status: done]
    Per school, a generated drill page: every taught sign as
    disclosure-cards in three directions, deterministically
    shuffled so neighbors are not chapter-mates, confusable pairs
    deliberately adjacent as contrast rows; a print stylesheet
    turns the same page into cut-out Leitner cards.
-## M11-4 · Study decks shelf + deck exports  [tier: top] [status: todo] [deps: M11-1]
+## M11-4 · Study decks shelf + deck exports  [tier: top] [status: done — 151 cards, contract-tested]
    bin/deck_export.rb emits per-course Anki-importable CSV
    (committed, downloadable); the Study decks Addenda shelf
    (owner-ruled home): download links, the Anki-import and
    FSRS-switch how-to, tool links — tooling talk lives here and
    nowhere else.
-## M11-5 · Read-it-cold + frontier  [tier: top — Fable] [status: todo] [deps: M11-2]
+## M11-5 · Read-it-cold + frontier  [tier: top — Fable] [status: done — cold-read transform (35 chapters), reinforcement scoring in both pickers, frontier picker + two Almost yours pages]
    Each course's star readings repeated bare at chapter end
    behind a disclosure (read the script cold, then unfold); the
    picker gains a ≥90% mode feeding a per-school "almost yours"
    frontier page — famous passages three signs out of reach,
    ▢-tolerant by design and saying so.
-## M11-6 · Stitching + surface review, gate PR  [tier: top] [status: todo] [deps: M11-2..M11-5]
+## M11-6 · Stitching + surface review, gate PR  [tier: top] [status: done]

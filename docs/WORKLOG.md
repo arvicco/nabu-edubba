@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · M11-1..M11-6 · phase-11 · Stage C, the retrieval
+layer, in one run — laws first (§8/§10, including the owner's
+approval-time addition: reinforcement selection, a new chapter's
+example lines preferring candidates that also revise older signs).
+The spiral warm-up: a Liquid tag the chapter layout calls, so 47
+subject chapters gained folded panels of up to six keyword-first
+prompts against seats N−1/−2/−4/−8 of each school's combined
+sequence, zero content edits, references and openers naturally
+excluded. Drill shelves: both Addenda gained every-sign card decks
+in three directions, codepoint-hash interleaved with a
+chapter-mate fix-up pass, confusable clusters as codex-linked
+contrast cells, print CSS cutting Leitner slips. Study decks:
+bin/deck_export.rb mines registries + codex pages into four
+committed Anki TSVs (151 cards; ETCSL lines lawfully absent,
+unknown licenses hard-fail), shelf pages with the FSRS how-to,
+contract test pinning counts/columns/licensing. Read-it-cold: a
+post-render transform repeats each subject chapter's last reading
+bare with the original folded behind check-yourself (35 chapters).
+Reinforcement scoring landed in both reading pickers (sweep rows
+annotated and buckets sorted by revise-while-teaching score); a
+new bin/frontier_picker.rb found ≥90%-covered lines and the two
+Almost yours pages curate three each — the one ▢-by-design
+Addenda surface. All instruments text-pure on native <details>.
+
 2026-08-04 · Gate 10 closed · PR #13 merged by owner same day
 after four review rounds, CI + deploy green, live E shelf verified
 in pixels. The rounds became durable fixes site-wide: the school
