@@ -25,6 +25,10 @@ point in your study.
       — the hieroglyph-specific glossary: uniliterals and
       cartouches, hieratic and serekh, one plain sentence each; the
       same definitions behind the hover bubbles</li>
+  <li><a href="{{ '/hieroglyphs/addenda/signs/' | relative_url }}">Signs — one page for every sign</a>
+      — each taught sign's permanent home: its keyword, the picture
+      Gardiner identified, a way to remember it, its lookalikes,
+      and one real line it lives in</li>
 </ol>
 
 Terms shared across all scripts — determinative, logogram, rebus,
