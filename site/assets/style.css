@@ -598,3 +598,8 @@ a.urn-link:hover code { color: var(--accent); }
 /* Long sign strings may wrap (grid columns stay intact); runs that
    must never split — cartouche + contents — are marked .nobr */
 .script .nobr { white-space: nowrap; }
+
+/* --- Read it cold --- */
+.cold-read { margin-top: 2.5rem; }
+.cold-read-check { margin: 0.75rem 0; }
+.cold-read-check > summary { cursor: pointer; color: var(--muted); }
