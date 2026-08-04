@@ -170,14 +170,15 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 10 — Sign Codex, Stage B: the hieroglyph codex (74 pages,
-E101 + E102) per .docs/sign-retention-plan.md (plan pending owner
-approval).
+Phase 11 — Sign Codex, Stage C: the retrieval layer (spiral
+warm-ups, drill shelves, Anki deck exports) per
+.docs/sign-retention-plan.md (plan pending owner approval).
 
-Gate 9 merged 2026-08-04 (Sign Codex Stage A: codex laws in both
-rulebooks — keyword uniqueness, two-heading honesty rule,
-name-slug permalinks, no-box codex lines; keywords on all 154
-signs; 77 cuneiform pages at /cuneiform/addenda/signs/; sign-table
-glyphs link to codex pages via sign_linker, anchors preserved;
-BA double-teach fixed with school-wide taught-once guard).
+Gate 10 merged 2026-08-04 (Sign Codex Stage B: 74 hieroglyph
+pages, codex complete site-wide at 151; site favicon É; E102
+wired into sign_linker at last — links, anchors, codex tables;
+school accent derived from URL (E pages had rendered orange since
+E101); keyword column in every chapter sign table; sign-table
+widths rebalanced, headers shortened to Name/Key; V10 cartouche
+carries a flagged no-box exception).
 Update this line at each gate.
