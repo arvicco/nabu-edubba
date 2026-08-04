@@ -28,7 +28,8 @@ module Edubba
           { pattern: /é(?!-dub-ba-a)/,   # the school's own name keeps its accent
             message: "accent index é — use e₂; é only in explicit mentions and in é-dub-ba-a (§1)",
             allow: ["cuneiform/102/00-orientation.md",     # primer's explicit mention
-                    "cuneiform/101/04-your-first-signs.md"] } # accent habit noted where É is taught
+                    "cuneiform/101/04-your-first-signs.md",  # accent habit noted where É is taught
+                    "cuneiform/addenda/signs/index.md"] }    # slug-builder Liquid maps é→e2 mechanically
         ],
         license_labels: [
           { urn: "urn:nabu:etcsl",
