@@ -27,11 +27,11 @@ the verb the whole place existed to teach.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊬</td><td>SAR</td><td><em>sar</em></td>
+      <td class="script sign-cell">𒊬</td><td>SAR</td><td>write</td><td><em>sar</em></td>
       <td>to write</td>
       <td>a garden plot in origin, the sign lists say — neat rows,
           which is also a fair description of good handwriting</td>

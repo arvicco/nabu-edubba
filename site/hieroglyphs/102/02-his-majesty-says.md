@@ -29,11 +29,11 @@ survives from Egypt. Three signs first, all three from the court.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Gardiner</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓍛</td><td>U36</td><td><em>ḥm</em></td>
+      <td class="script sign-cell">𓍛</td><td>U36</td><td>majesty</td><td><em>ḥm</em></td>
       <td>Majesty; servant</td>
       <td>a fuller's club, the laundry-beater — by sound it writes
           both ḥm "Majesty" and ḥm "servant," king and washerman
@@ -41,7 +41,7 @@ survives from Egypt. Three signs first, all three from the court.
           for priest</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓅆</td><td>G7</td><td>—</td>
+      <td class="script sign-cell">𓅆</td><td>G7</td><td>watcher</td><td>—</td>
       <td>the falcon on the standard</td>
       <td>a silent classifier: Horus perched over the word, marking
           gods, kings, and everything that belongs to them — the
@@ -49,7 +49,7 @@ survives from Egypt. Three signs first, all three from the court.
           and it never makes a sound</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓎢</td><td>V31A</td><td><em>k</em></td>
+      <td class="script sign-cell">𓎢</td><td>V31A</td><td>mirror basket</td><td><em>k</em></td>
       <td>basket with handle (turned left)</td>
       <td>101's basket 𓎡 in its mirror shape — one sound, two
           twins; scribes used both freely, and the corpus is full

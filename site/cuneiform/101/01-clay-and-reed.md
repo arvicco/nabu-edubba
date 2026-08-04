@@ -21,18 +21,18 @@ materials themselves:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒅎</td><td>IM</td><td><em>im</em></td>
+      <td class="script sign-cell">𒅎</td><td>IM</td><td>storm</td><td><em>im</em></td>
       <td>clay; also rain, storm</td>
       <td>~6 wedges. The scribes' own word for their medium: a tablet
       is an <em>im</em>, a thing of clay — and the same sign covers
       the wet weather clay comes from</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆤</td><td>KID</td><td><em>kid</em></td>
+      <td class="script sign-cell">𒆤</td><td>KID</td><td>spirit</td><td><em>kid</em></td>
       <td>reed mat; matting</td>
       <td>~6 wedges. Woven reed — the same marsh plant that, cut at
       an angle, becomes the stylus. It is hiding a second reading

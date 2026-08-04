@@ -32,18 +32,18 @@ doctors' prescriptions, from temple walls.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Gardiner</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓇯</td><td>N1</td><td><em>pt</em></td>
+      <td class="script sign-cell">𓇯</td><td>N1</td><td>sky</td><td><em>pt</em></td>
       <td>sky, heaven</td>
       <td>the sky as a ceiling slab, ends turned down at the
           horizons — it rides above gods' names and closes its own
           word, and you will read it in this chapter</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓇿</td><td>N17</td><td><em>tꜣ</em></td>
+      <td class="script sign-cell">𓇿</td><td>N17</td><td>land</td><td><em>tꜣ</em></td>
       <td>land, earth</td>
       <td>the flat strip of the world the sky covers — Egypt drew
           its cosmos as two lines, and this is the lower one</td>

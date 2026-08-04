@@ -22,17 +22,17 @@ start of this course comes due.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁾</td><td>DUB</td><td><em>dub</em></td>
+      <td class="script sign-cell">𒁾</td><td>DUB</td><td>tablet</td><td><em>dub</em></td>
       <td>(clay) tablet</td>
       <td>~11 wedges; early forms are read as a tablet shown with its
           ruled lines — the object drawn as its own writing surface</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁀</td><td>BA</td><td><em>ba</em></td>
+      <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td><em>ba</em></td>
       <td>syllable <em>ba</em>; as a verb, "to allot"</td>
       <td>~5 wedges; pictorial origin opaque — a pure workhorse
           syllable, top six in BOTH of this course's counted corpora.

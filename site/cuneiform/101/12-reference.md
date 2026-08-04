@@ -38,7 +38,7 @@ shape, not a story.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Wedges</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Wedges</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.sign_teaching.signs | where_exp: "s", "s.taught_in" %}
@@ -46,6 +46,7 @@ shape, not a story.
     <tr>
       <td class="script sign-cell">{{ s.glyph }}</td>
       <td>{{ s.name }}</td>
+      <td>{{ s.keyword }}</td>
       <td><em>{{ s.value }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.wedges }}</td>

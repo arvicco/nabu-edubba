@@ -32,18 +32,18 @@ sign that made decipherment possible.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒈾</td><td>NA</td><td><em>na</em></td>
+      <td class="script sign-cell">𒈾</td><td>NA</td><td>stone</td><td><em>na</em></td>
       <td>the syllable <em>na</em></td>
       <td>~7 wedges; pictorial origin not transparent — a pure
           phonetic workhorse, fourth most frequent value in the
           literary corpus</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉌</td><td>NI</td><td><em>ni</em>, <em>i₃</em></td>
+      <td class="script sign-cell">𒉌</td><td>NI</td><td>oil</td><td><em>ni</em>, <em>i₃</em></td>
       <td>the syllable <em>ni</em>; as <em>i₃</em>, "oil"</td>
       <td>~5 wedges; commonly connected with an oil jar in origin</td>
     </tr>

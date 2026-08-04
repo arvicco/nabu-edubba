@@ -27,31 +27,31 @@ Egypt carved about itself.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓋹</td><td>S34</td><td><em>ꜥnḫ</em></td>
+      <td class="script sign-cell">𓋹</td><td>S34</td><td>life</td><td><em>ꜥnḫ</em></td>
       <td>life — the ankh; a sandal strap or a knot, the sign lists
           say, honestly unsure</td>
       <td>the sound ꜥ+n+ḫ; gods hold it to kings' faces in every
           temple relief — offering life itself</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓄤</td><td>F35</td><td><em>nfr</em></td>
+      <td class="script sign-cell">𓄤</td><td>F35</td><td>beautiful</td><td><em>nfr</em></td>
       <td>good, beautiful, complete — nefer; a heart and windpipe by
           the standard account, also debated</td>
       <td>n+f+r; the word behind queens' names from Nefertiti to
           Nefertari — "the beautiful one has come"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓆣</td><td>L1</td><td><em>ḫpr</em></td>
+      <td class="script sign-cell">𓆣</td><td>L1</td><td>scarab</td><td><em>ḫpr</em></td>
       <td>the scarab beetle — kheper: to become, to transform</td>
       <td>ḫ+p+r; the beetle that rolls the sun over the horizon
           each dawn, and the verb for everything that changes</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓊹</td><td>R8</td><td><em>nṯr</em></td>
+      <td class="script sign-cell">𓊹</td><td>R8</td><td>flag</td><td><em>nṯr</em></td>
       <td>a temple flag on its pole — netjer: god</td>
       <td>n+ṯ+r; not a picture of a god but of the banner that
           marked sacred ground — the abstraction is the point</td>

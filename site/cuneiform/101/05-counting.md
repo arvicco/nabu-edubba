@@ -24,19 +24,19 @@ down):
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td><em>diš</em></td>
+      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td>tally</td><td><em>diš</em></td>
       <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌋</td><td>U</td><td><em>u</em></td>
+      <td class="script sign-cell">𒌋</td><td>U</td><td>ten</td><td><em>u</em></td>
       <td>ten</td><td>one corner wedge, an open angle</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀸</td><td>AŠ</td><td><em>aš</em></td>
+      <td class="script sign-cell">𒀸</td><td>AŠ</td><td>one</td><td><em>aš</em></td>
       <td>one; single</td><td>one horizontal wedge, head at the left</td>
     </tr>
   </tbody>
@@ -155,11 +155,11 @@ barley receipts:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒄥</td><td>GUR</td><td><em>gur</em></td>
+      <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td><em>gur</em></td>
       <td>the great capacity measure of grain accounts</td>
       <td>~6 wedges; roughly 300 liters in the Ur III standard — when
       a granary counted big, it counted in gur</td>

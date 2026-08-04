@@ -30,11 +30,11 @@ line, you recognize the shape instead of flinching at it.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁺</td><td>DU</td><td><em>du</em></td>
+      <td class="script sign-cell">𒁺</td><td>DU</td><td>go</td><td><em>du</em></td>
       <td>to go; (in accounts) delivered, brought</td>
       <td>a foot/leg, by the classic reading of the picture — a
           person's own legs, doing the going; in administrative
@@ -42,7 +42,7 @@ line, you recognize the shape instead of flinching at it.
           rather than a literal journey</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒋾</td><td>TI</td><td><em>ti</em></td>
+      <td class="script sign-cell">𒋾</td><td>TI</td><td>arrow</td><td><em>ti</em></td>
       <td>arrow; by rebus, LIFE</td>
       <td>~4 wedges; the textbook rebus pair of the whole
           discipline — arrow and life sounded close enough in
@@ -50,7 +50,7 @@ line, you recognize the shape instead of flinching at it.
           This is 101's rebus lesson, made good</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉈</td><td>NE</td><td><em>ne</em></td>
+      <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td><em>ne</em></td>
       <td>brazier, fire (stated); the syllable ne</td>
       <td>~9 wedges; a promise-keeper — see below</td>
     </tr>
