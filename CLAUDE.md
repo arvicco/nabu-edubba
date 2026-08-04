@@ -170,14 +170,14 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 9 — Sign Codex, Stage A: keyword law + one-page-per-sign
-Addenda shelves, cuneiform pages first (.docs/sign-retention-plan.md,
-approved in principle 2026-08-04; plan pending "go").
+Phase 10 — Sign Codex, Stage B: the hieroglyph codex (74 pages,
+E101 + E102) per .docs/sign-retention-plan.md (plan pending owner
+approval).
 
-Gate 8 merged 2026-08-04 (Hieroglyphs 102 first stretch: chs
-00–06, 21 signs, aes coverage 71.4→79.0%; rulebook §8 before
-content — sḏm≡f display, one sentence type per chapter; readings
-token-verified from Ptahhotep, Westcar, the Doomed Prince, Piye,
-Neferti, Wenamun, the medical papyri; sentence-type terms in the
-Egyptian glossary).
+Gate 9 merged 2026-08-04 (Sign Codex Stage A: codex laws in both
+rulebooks — keyword uniqueness, two-heading honesty rule,
+name-slug permalinks, no-box codex lines; keywords on all 154
+signs; 77 cuneiform pages at /cuneiform/addenda/signs/; sign-table
+glyphs link to codex pages via sign_linker, anchors preserved;
+BA double-teach fixed with school-wide taught-once guard).
 Update this line at each gate.

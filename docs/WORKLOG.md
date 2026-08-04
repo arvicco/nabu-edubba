@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · Gate 9 closed · PR #12 merged by owner same day after
+two review rounds, CI + deploy green, live surface verified (AŠ
+page: hero wedge, keyword title, taught-in link, bubbles). Round 1
+became law: codex lines fully readable, never a ▢ (rulebook §7,
+number notation counts as taught) — a full-inventory picker pass
+over the corpus requoted 11 pages, upgrades all (Sumer's own name
+ki-en-gi for KI and GI; lu₂-diŋir-mu, the course's famous "my",
+for MU; the royal-measure line 1(u) še gur lugal for U and GUR);
+round 2 unhooked link underlines from sign-cell glyphs. Branch
+phase-10 opened; M10-1..M10-5 skeleton laid for Stage B (74
+hieroglyph pages).
+
 2026-08-04 · M9-1..M9-7 · phase-9 · Sign Codex Stage A executed in
 one day, laws first: rulebook §7 (cuneiform, the shared law) and §9
 (hieroglyphs) before any content — name-slug permalinks (names
