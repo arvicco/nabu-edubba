@@ -6,6 +6,7 @@
 # suite can exercise it without Jekyll.
 
 require_relative "../../script/sign_linker"
+require_relative "../../script/rulebook"
 
 Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
   next unless page.output_ext == ".html"
@@ -31,6 +32,21 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                           tip: Edubba::SignLinker.tip_join(
                             [s["gardiner"], s["value"], s["meaning"]]
                           ) }
+    end
+    # Codex pages (rulebook §7/§9): sign-table cells link the glyph
+    # to its Addenda sign page — wired per school as each shelf
+    # ships, keyed on the page actually existing in the build.
+    page_urls = site.pages.each_with_object({}) { |p, h| h[p.url] = true }
+    { "cuneiform" => [site.data["sign_teaching"], site.data["cuneiform102_queue"]],
+      "hieroglyphs" => [site.data["hiero_teaching"], site.data["hieroglyphs102_queue"]] }.each do |school, regs|
+      regs.each do |reg|
+        Array(reg&.dig("signs")).each do |s|
+          entry = map[s["glyph"]] or next
+          slug = Edubba::Rulebook.sign_slug(s["gardiner"] || s["name"])
+          url = "/#{school}/addenda/signs/#{slug}/"
+          entry[:codex] = url if page_urls[url]
+        end
+      end
     end
     map
   end

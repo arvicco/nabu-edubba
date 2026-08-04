@@ -5,6 +5,36 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · M9-1..M9-7 · phase-9 · Sign Codex Stage A executed in
+one day, laws first: rulebook §7 (cuneiform, the shared law) and §9
+(hieroglyphs) before any content — name-slug permalinks (names
+stable, keywords deliberately revisable and out of URLs, owner
+reversal same day), keyword uniqueness per school, the two-heading
+honesty rule, page-ships-with-sign, curated confusables — with the
+machine subset in rulebook.rb under staged activation (orphan pages
+and duplicate keywords flag from day one; keyword checks flipped at
+the backfill, the C page-per-sign check when the shelf completed).
+Backfill: one global content pass chose 154 keywords (GAL big / MAH
+exalted, O29 great / G36 elder, X8 given loaf / D37 giving arm) and
+shape-neighbor confusable sets; fields live in the pool sources and
+flow through compilers (whitelists extended, regeneration verified
+additive-only). Machinery: sign layout rendering all mechanical
+parts from the registries, C Signs shelf index live from data,
+graceful links while pages landed. Then all 77 cuneiform pages,
+each with a certainty-honest origin (standard accounts cited once
+on the shelf), an invented hook explicitly ours, and one attested
+line reused from gate-verified course readings or freshly
+nabu-verified and sign-resolved (P453265 sheep totals, P112410 loan
+barley, P210013 ration line). The sweep surfaced and fixed two
+shipped defects: BA taught in full twice (C101 ch09 + C102 ch08 —
+now one seat at its queue pin, shown early as borrowed in ch09,
+school-wide taught-once test added) and P210013 miscited as Umma
+(it is Girsu). Table linking is a sign_linker extension, not a
+40-file sweep: sign-cell glyphs link to their codex page while
+keeping their anchor ids (taught-in links still land), keyed on the
+page existing in the build so E102 self-heals at Stage B. Number
+clusters 𒎙 𒐍 𒐌 joined the font subset.
+
 2026-08-04 · Gate 8 closed · PR #11 merged by owner same day, CI +
 Pages deploy green, live surface verified in pixels (E102 ch04
 sign table, glyphs, grammar bite, term underlines all serving).

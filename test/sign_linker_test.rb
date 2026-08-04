@@ -57,6 +57,40 @@ class SignLinkerTest < Minitest::Test
     assert_includes out, %(href="#{REF}#sign-1202D")
   end
 
+  # --- codex links in sign-table cells (rulebook §7) ---
+
+  CODEX = "/cuneiform/addenda/signs/an/"
+  CODEX_MAP = {
+    AN => { url: REF, anchor: "sign-1202D", tip: "AN · an · heaven", codex: CODEX }
+  }.freeze
+
+  def tc(html, page_url: "/x/", baseurl: "")
+    Edubba::SignLinker.transform(html, CODEX_MAP, page_url, baseurl)
+  end
+
+  def test_sign_cell_links_to_codex_with_tip
+    out = tc(%(<td class="sign-cell">#{AN}</td>), baseurl: "/b")
+    assert_includes out,
+                    %(<a class="sign-link" href="/b#{CODEX}">#{AN}) +
+                    %(<span class="sign-tip" aria-hidden="true">AN · an · heaven</span></a>)
+  end
+
+  def test_own_page_sign_cell_keeps_anchor_id_on_codex_link
+    out = tc(%(<td class="sign-cell">#{AN}</td>), page_url: REF)
+    assert_includes out, %(<a class="sign-link" id="sign-1202D" href="#{CODEX}">#{AN}</a>)
+  end
+
+  def test_codex_page_itself_gets_no_self_link_in_cells
+    out = tc(%(<td class="sign-cell">#{AN}</td>), page_url: CODEX)
+    assert_includes out, %(href="#{REF}#sign-1202D")
+  end
+
+  def test_body_text_still_links_to_teaching_location_not_codex
+    out = tc("<p>#{AN}</p>")
+    assert_includes out, %(href="#{REF}#sign-1202D")
+    refute_includes out, %(href="#{CODEX}")
+  end
+
   def test_build_map_prefers_queue_chapters_for_queue_signs
     teaching = { "signs" => [{ "glyph" => AN, "codepoint" => "1202D" }] }
     queue = { "signs" => [{ "glyph" => ME, "codepoint" => "12228", "chapter" => 0 }] }

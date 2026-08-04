@@ -451,29 +451,29 @@ final): traditional sign-name slugs — /cuneiform/addenda/signs/
 <gardiner>/ — names are stable and unique where keywords may be
 re-chosen as better stories emerge.
 
-## M9-1 · Codex laws into both rulebooks  [tier: top — Fable] [status: todo]
+## M9-1 · Codex laws into both rulebooks  [tier: top — Fable] [status: done]
    Laws BEFORE content: keyword uniqueness within each school;
    the two-heading honesty rule (attested "Where it comes from"
    vs invented "How to remember it" — invention never masquerades
    as history); a chapter that teaches a sign ships its codex
    page same-commit; keyword-slug permalinks. Machine-checkable
    subset into script/rulebook.rb + tests same commit.
-## M9-2 · Keywords + confusables backfill (all 151 signs, both schools)  [tier: top — Fable] [status: todo] [deps: M9-1]
+## M9-2 · Keywords + confusables backfill (all 154 signs, both schools)  [tier: top — Fable] [status: done — incl. the 3 unpinned pool signs] [deps: M9-1]
    Additive keyword: field in all four registries (unique per
    school — the three "great/big"s differentiated on purpose;
    invented keywords for pure syllabograms); curated
    confusable_with: sets; contract tests updated same commit;
    gate check for uniqueness and presence.
-## M9-3 · Codex machinery  [tier: top] [status: todo] [deps: M9-2]
+## M9-3 · Codex machinery  [tier: top] [status: done] [deps: M9-2]
    sign layout (glyph, keyword title, readings, taught-in link,
    confusable rows rendered from data; prose sections are the
    only hand content); Signs shelf index for the C Addenda
    (glyph + keyword + readings + taught-in, curriculum order);
    sidebar wiring; fonts.
-## M9-4 · C101 codex pages (26 signs)  [tier: top — Fable] [status: todo] [deps: M9-3]
-## M9-5 · C102 codex pages I (chs 00–08, ~25 signs)  [tier: top — Fable] [status: todo] [deps: M9-3]
-## M9-6 · C102 codex pages II (chs 09–18, ~26 signs)  [tier: top — Fable] [status: todo] [deps: M9-5]
-## M9-7 · C-school sign-table link sweep + stitching, gate PR  [tier: top] [status: todo] [deps: M9-6]
+## M9-4 · C101 codex pages (26 signs)  [tier: top — Fable] [status: done — plus BA taught-twice fix + taught-once guard] [deps: M9-3]
+## M9-5 · C102 codex pages I (chs 00–08, 26 signs)  [tier: top — Fable] [status: done] [deps: M9-3]
+## M9-6 · C102 codex pages II (chs 09–17, 25 signs)  [tier: top — Fable] [status: done] [deps: M9-5]
+## M9-7 · C-school sign-table link sweep + stitching, gate PR  [tier: top] [status: done — sweep is a sign_linker extension, anchors preserved] [deps: M9-6]
    Every C-course sign-table glyph links to its codex page (links
    land only once all pages exist — gate enforces resolvable
    links); page-exists gate check activated for the C school;
