@@ -26,6 +26,7 @@ medical prescriptions, temple walls — in full hieroglyphs.
 
 <ol class="course-toc" start="0">
   <li><a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">Orientation</a> — the road to reading, and your first new batch</li>
+  <li><a href="{{ '/hieroglyphs/102/01-it-is-water/' | relative_url }}">It is water</a> — the nominal sentence, and Ptahhotep mid-maxim</li>
 </ol>
 
 The first stretch (chapters 00–06) is arriving chapter by chapter.

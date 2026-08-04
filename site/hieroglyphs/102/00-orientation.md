@@ -93,7 +93,7 @@ read.[^chart] Watch the number climb — and notice where it starts:
     <g fill="var(--accent, currentColor)" opacity="0.9">
       <rect x="90" y="40" width="393" height="12"/>
       <rect x="90" y="70" width="394" height="12"/>
-      <rect x="90" y="100" width="399" height="12"/>
+      <rect x="90" y="100" width="398" height="12"/>
       <rect x="90" y="130" width="411" height="12"/>
       <rect x="90" y="160" width="418" height="12"/>
       <rect x="90" y="190" width="422" height="12"/>
@@ -103,7 +103,7 @@ read.[^chart] Watch the number climb — and notice where it starts:
     <g fill="currentColor" font-size="12" opacity="0.85">
       <text x="491" y="51">71.4% of the corpus</text>
       <text x="492" y="81">71.7%</text>
-      <text x="497" y="111">72.6%</text>
+      <text x="496" y="111">72.3%</text>
       <text x="509" y="141">74.7%</text>
       <text x="516" y="171">76.0%</text>
       <text x="520" y="201">76.8%</text>
@@ -195,8 +195,8 @@ what the king holds — is yours to read.
   full hieroglyphs the moment the inventory allows — the ▢ boxes
   of 101 are already rare here, because 101 did its job.
 
-*Next: two ways to say "is" — the shortest sentences in Egyptian,
-and the water that is simply water.*
+*Next: the shortest sentence in Egyptian — and what Ptahhotep
+meant when he said "it is water."*
 
 [^chart]: Computed by this site's own curriculum compiler from the
     committed frequency table over the aes corpus's 266,222
