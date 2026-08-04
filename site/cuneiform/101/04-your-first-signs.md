@@ -50,7 +50,7 @@ this site's own reference font.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>The shape's story</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>The shape's story</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -97,7 +97,7 @@ appearances in <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>

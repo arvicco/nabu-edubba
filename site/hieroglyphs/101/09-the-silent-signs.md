@@ -27,7 +27,7 @@ all and still run the show.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -88,7 +88,7 @@ quietly filing Nut where she belongs.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>

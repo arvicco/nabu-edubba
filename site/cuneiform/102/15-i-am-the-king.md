@@ -27,7 +27,7 @@ his name; to write his name, you need a reed.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -68,7 +68,7 @@ Assemble the royal name before reading a word of the hymn:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>

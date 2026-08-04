@@ -27,7 +27,7 @@ and it will buy you your first complete Egyptian sentence.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Keyword</th><th>Reads</th><th>Picture</th><th>In the formula</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>In the formula</th></tr>
   </thead>
   <tbody>
     <tr>

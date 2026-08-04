@@ -32,7 +32,7 @@ for you since then. It is yours now:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -70,7 +70,7 @@ mouth. New meaning, minimal new drawing:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -106,7 +106,7 @@ or portion, not yet yours — one ▢ still owed) written inside:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
