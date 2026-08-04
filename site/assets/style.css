@@ -412,6 +412,8 @@ img, svg { max-width: 100%; }
 }
 
 .sign-cell { font-size: 2rem; color: var(--accent); }
+.sign-cell a { text-decoration: none; color: inherit; }
+.sign-cell a:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
 
 /* --- Sign Codex pages (Addenda Signs shelves) --- */
 .sign-hero {
