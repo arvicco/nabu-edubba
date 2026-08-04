@@ -496,6 +496,10 @@ P210013 miscited as Umma (Girsu).
 
 ## Phase 10 — Sign Codex, Stage B: the hieroglyph codex (plan pending owner approval)
 
+## M10-0 · Site favicon (owner add-on, approved with the plan)  [tier: top] [status: done]
+   The family favicon from Nabu (.docs/inbox delivery): É 𒂍, the
+   house — dark chocolate on old paper; svg + ico + touch icon in
+   the site root, wired in the default layout head.
 ## M10-1 · E Signs shelf index + Addenda wiring  [tier: top] [status: todo]
    /hieroglyphs/addenda/signs/ index live from both E registries in
    curriculum order (machinery reused; Gardiner-code slugs); E
