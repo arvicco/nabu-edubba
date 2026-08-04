@@ -31,8 +31,10 @@ medical prescriptions, temple walls — in full hieroglyphs.
   <li><a href="{{ '/hieroglyphs/102/03-to-do-to-give-to-be/' | relative_url }}">To do, to give, to be</a> — the three hardest-working stems</li>
   <li><a href="{{ '/hieroglyphs/102/04-saying-no/' | relative_url }}">Saying no</a> — the adverbial sentence, three negations, and Osiris</li>
   <li><a href="{{ '/hieroglyphs/102/05-another-remedy/' | relative_url }}">Another remedy</a> — the doctor's papyri and the silent signs</li>
+  <li><a href="{{ '/hieroglyphs/102/06-life-prosperity-health/' | relative_url }}">Life, prosperity, health</a> — the royal wish, and the Great House that became "pharaoh"</li>
 </ol>
 
-The first stretch (chapters 00–06) is arriving chapter by chapter.
-Corrections are welcome in
+The first stretch (chapters 00–06) is complete; the track
+continues in a later phase — deeper into the tales, toward Sinuhe
+and the classics. Corrections are welcome in
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).
