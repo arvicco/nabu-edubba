@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{% comment %}
+  Sign Codex page (rulebook: cuneiform.md §7 / hieroglyphs.md §9).
+  Mechanical parts render from the registries; the page body carries
+  only the two story sections and the attested line. Front matter:
+  school, sign (traditional name / Gardiner code), reads (display-
+  convention readings, hand-curated), course/course_url/course_title.
+{% endcomment %}
+{% if page.school == "hieroglyphs" %}
+  {% assign r1 = site.data.hiero_teaching.signs %}
+  {% assign r2 = site.data.hieroglyphs102_queue.signs %}
+{% else %}
+  {% assign r1 = site.data.sign_teaching.signs %}
+  {% assign r2 = site.data.cuneiform102_queue.signs %}
+{% endif %}
+{% assign entry = r1 | where: "name", page.sign | first %}
+{% if entry %}
+  {% assign taught_course = page.school | append: "-101" %}
+  {% assign taught_ch = entry.taught_in %}
+{% else %}
+  {% assign entry = r2 | where: "name", page.sign | first %}
+  {% assign taught_course = page.school | append: "-102" %}
+  {% assign taught_ch = entry.chapter %}
+{% endif %}
+{% assign taught_page = site.pages | where: "course", taught_course | where: "chapter", taught_ch | first %}
+<div class="chapter-shell">
+{% include course_sidebar.html current=page.course here=page.url %}
+<article class="chapter-main sign-page">
+<p class="chapter-kicker">{{ page.course_title }} · Signs</p>
+
+<p class="sign-hero script">{{ entry.glyph }}</p>
+<h1>{{ entry.keyword }}</h1>
+
+<table class="sign-table sign-facts">
+  <tbody>
+    <tr><th>Name</th><td>{{ entry.name }}</td></tr>
+    <tr><th>Reads</th><td><span class="translit">{{ page.reads }}</span></td></tr>
+    <tr><th>Means</th><td>{{ entry.meaning }}</td></tr>
+    <tr><th>Taught in</th><td><a href="{{ taught_page.url | relative_url }}">{{ taught_page.title }}</a></td></tr>
+  </tbody>
+</table>
+
+{{ content }}
+
+{% if entry.confusable_with %}
+<h2>Easily confused</h2>
+<table class="sign-table">
+  <thead><tr><th>Sign</th><th>Name</th><th>Keyword</th></tr></thead>
+  <tbody>
+  {% for cn in entry.confusable_with %}
+    {% assign ce = r1 | where: "name", cn | first %}
+    {% unless ce %}{% assign ce = r2 | where: "name", cn | first %}{% endunless %}
+    {% assign cslug = cn | downcase | replace: "š", "sz" | replace: "é", "e2" | replace: "×", "x" %}
+    {% capture ctarget %}{{ page.course_url }}signs/{{ cslug }}/{% endcapture %}
+    {% assign cpage = site.pages | where: "url", ctarget | first %}
+    <tr>
+      <td class="script sign-cell">{{ ce.glyph }}</td>
+      <td>{% if cpage %}<a href="{{ ctarget | relative_url }}">{{ ce.name }}</a>{% else %}{{ ce.name }}{% endif %}</td>
+      <td>{{ ce.keyword }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<nav class="chapter-nav chapter-nav-bottom" aria-label="Codex, bottom">
+  <span><a href="{{ page.course_url | append: 'signs/' | relative_url }}">All signs</a></span>
+  <span><a href="{{ page.course_url | relative_url }}">{{ page.course_title }}</a></span>
+</nav>
+</article>
+</div>

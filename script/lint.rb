@@ -51,7 +51,8 @@ module Edubba
         js_assets(site_dir) +
         font_coverage(site_dir, manifests) +
         CourseCheck.violations(site_dir) +
-        Rulebook.violations(site_dir)
+        Rulebook.violations(site_dir) +
+        Rulebook.codex_violations(site_dir)
     end
 
     def font_coverage(site_dir, manifests = {})

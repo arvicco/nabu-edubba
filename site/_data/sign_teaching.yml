@@ -29,6 +29,8 @@ signs:
   - glyph: "𒀸"
     codepoint: "12038"
     name: "AŠ"
+    keyword: "one"
+    confusable_with: ["DIŠ", "U"]
     taught_in: 5
     value: "aš (ash/asz)"
     meaning: "one; single"
@@ -41,6 +43,8 @@ signs:
   - glyph: "𒁹"
     codepoint: "12079"
     name: "DIŠ"
+    keyword: "tally"
+    confusable_with: ["AŠ", "U"]
     taught_in: 5
     value: "diš (disz)"
     meaning: "one (counting); item marker"
@@ -53,6 +57,8 @@ signs:
   - glyph: "𒌋"
     codepoint: "1230B"
     name: "U"
+    keyword: "ten"
+    confusable_with: ["AŠ", "DIŠ"]
     taught_in: 5
     value: "u"
     meaning: "ten"
@@ -65,6 +71,7 @@ signs:
   - glyph: "𒀀"
     codepoint: "12000"
     name: "A"
+    keyword: "water"
     taught_in: 0
     value: "a"
     meaning: "water"
@@ -77,6 +84,7 @@ signs:
   - glyph: "𒆳"
     codepoint: "121B3"
     name: "KUR"
+    keyword: "mountain"
     taught_in: 0
     value: "kur"
     meaning: "mountain; foreign land"
@@ -89,6 +97,7 @@ signs:
   - glyph: "𒀭"
     codepoint: "1202D"
     name: "AN"
+    keyword: "heaven"
     taught_in: 0
     value: "an; diŋir (dijir/dingir)"
     meaning: "heaven; god (determinative {d})"
@@ -101,6 +110,7 @@ signs:
   - glyph: "𒌓"
     codepoint: "12313"
     name: "UD"
+    keyword: "day"
     taught_in: 3
     value: "ud; utu"
     meaning: "day; sun"
@@ -113,6 +123,7 @@ signs:
   - glyph: "𒊺"
     codepoint: "122BA"
     name: "ŠE"
+    keyword: "barley"
     taught_in: 2
     value: "še (ce/sze)"
     meaning: "barley; grain"
@@ -125,6 +136,7 @@ signs:
   - glyph: "𒆠"
     codepoint: "121A0"
     name: "KI"
+    keyword: "place"
     taught_in: 4
     value: "ki"
     meaning: "earth; place (determinative {ki})"
@@ -137,6 +149,7 @@ signs:
   - glyph: "𒃲"
     codepoint: "120F2"
     name: "GAL"
+    keyword: "big"
     taught_in: 7
     value: "gal"
     meaning: "big, great"
@@ -149,6 +162,7 @@ signs:
   - glyph: "𒈬"
     codepoint: "1222C"
     name: "MU"
+    keyword: "name"
     taught_in: 6
     value: "mu"
     meaning: "name; year"
@@ -161,6 +175,8 @@ signs:
   - glyph: "𒂍"
     codepoint: "1208D"
     name: "É"
+    keyword: "house"
+    confusable_with: ["E"]
     taught_in: 4
     value: "e₂ (e2)"
     meaning: "house, temple"
@@ -173,6 +189,7 @@ signs:
   - glyph: "𒁾"
     codepoint: "1207E"
     name: "DUB"
+    keyword: "tablet"
     taught_in: 9
     value: "dub"
     meaning: "(clay) tablet"
@@ -185,6 +202,7 @@ signs:
   - glyph: "𒈗"
     codepoint: "12217"
     name: "LUGAL"
+    keyword: "king"
     taught_in: 6
     value: "lugal"
     meaning: "king"
@@ -197,6 +215,7 @@ signs:
   - glyph: "𒇽"
     codepoint: "121FD"
     name: "LU2"
+    keyword: "man"
     taught_in: 7
     value: "lu₂ (lu2)"
     meaning: "man, person"
@@ -209,6 +228,7 @@ signs:
   - glyph: "𒌉"
     codepoint: "12309"
     name: "TUR"
+    keyword: "child"
     taught_in: 7
     value: "dumu; tur"
     meaning: "child, son (dumu); small (tur)"
@@ -221,6 +241,7 @@ signs:
   - glyph: "𒂗"
     codepoint: "12097"
     name: "EN"
+    keyword: "lord"
     taught_in: 10
     value: "en"
     meaning: "lord; high priest"
@@ -233,6 +254,7 @@ signs:
   - glyph: "𒆤"
     codepoint: "121A4"
     name: "KID"
+    keyword: "spirit"
     taught_in: 1
     value: "lil₂ (lil2); kid"
     meaning: "air, spirit (lil₂) — the LIL of Enlil"
@@ -245,6 +267,7 @@ signs:
   - glyph: "𒈾"
     codepoint: "1223E"
     name: "NA"
+    keyword: "stone"
     taught_in: 11
     value: "na"
     meaning: "(syllable na); stone in some words"
@@ -257,6 +280,7 @@ signs:
   - glyph: "𒉌"
     codepoint: "1224C"
     name: "NI"
+    keyword: "oil"
     taught_in: 11
     value: "ni; i₃ (i3)"
     meaning: "(syllable ni); oil, butter as i₃"
@@ -269,6 +293,7 @@ signs:
   - glyph: "𒅎"
     codepoint: "1214E"
     name: "IM"
+    keyword: "storm"
     taught_in: 1
     value: "im"
     meaning: "clay; rain, storm"
@@ -280,6 +305,7 @@ signs:
   - glyph: "𒄥"
     codepoint: "12125"
     name: "GUR"
+    keyword: "bushel"
     taught_in: 5
     value: "gur"
     meaning: "gur — the great capacity measure of grain accounts"
@@ -292,6 +318,7 @@ signs:
   - glyph: "𒊕"
     codepoint: "12295"
     name: "SAG"
+    keyword: "head"
     taught_in: 8
     value: "saŋ (sag)"
     meaning: "head; first"
@@ -304,6 +331,8 @@ signs:
   - glyph: "𒅗"
     codepoint: "12157"
     name: "KA"
+    keyword: "mouth"
+    confusable_with: ["KA×A", "KA×GAR"]
     taught_in: 8
     value: "ka"
     meaning: "mouth"
@@ -316,6 +345,8 @@ signs:
   - glyph: "𒅘"
     codepoint: "12158"
     name: "KA×A"
+    keyword: "drink"
+    confusable_with: ["KA", "KA×GAR"]
     taught_in: 8
     value: "naŋ (nag)"
     meaning: "to drink"
@@ -328,6 +359,8 @@ signs:
   - glyph: "𒅥"
     codepoint: "12165"
     name: "KA×GAR"
+    keyword: "eat"
+    confusable_with: ["KA", "KA×A"]
     taught_in: 8
     value: "gu₇ (gu7)"
     meaning: "to eat"

@@ -412,6 +412,20 @@ img, svg { max-width: 100%; }
 }
 
 .sign-cell { font-size: 2rem; color: var(--accent); }
+.sign-cell a { text-decoration: none; color: inherit; }
+.sign-cell a:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
+
+/* --- Sign Codex pages (Addenda Signs shelves) --- */
+.sign-hero {
+  font-size: 6.5rem;
+  line-height: 1.15;
+  color: var(--accent);
+  text-align: center;
+  margin: 1.5rem 0 0;
+}
+.sign-page h1 { text-align: center; margin-top: 0.25rem; }
+.sign-facts { max-width: 36rem; margin-inline: auto; }
+.sign-facts th { width: 7rem; }
 
 .reading {
   margin: 1.5rem 0;

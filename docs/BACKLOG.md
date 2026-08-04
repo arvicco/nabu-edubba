@@ -432,3 +432,55 @@ immediately, long drafts via external editor).
    prepositions); every chapter opens with 1–3 thematic signs,
    piece-by-piece walkthroughs per the sharpened law.
 ## M8-10 · Stretch close + stitching, gate PR  [tier: top] [status: done] [deps: M8-9]
+
+Gate 8 CLOSED — PR #11 merged 2026-08-04, CI + deploy green, live
+surface verified in pixels. Hieroglyphs 102 first stretch live
+(chs 00–06, 21 signs, aes coverage 71.4→79.0%); rulebook §8
+landed before content; every reading token-verified with URNs.
+Incident recorded mid-phase: a red gate shipped once when its
+output was piped through grep|head (pipeline exit masked the
+failure) — gates are now read plain, never filtered.
+
+## Phase 9 — Sign Codex, Stage A (retention plan approved in principle 2026-08-04; keywords + one-page-per-sign Addenda shelves, cuneiform pages first)
+
+Source: .docs/sign-retention-plan.md (owner-ruled rewrite: the
+keyword + story layer is the foundation; retrieval instruments
+follow in a later stage). Permalinks owner-ruled (2026-08-04,
+final): traditional sign-name slugs — /cuneiform/addenda/signs/
+<name>/ (ASCII forms: asz, gal, e2), /hieroglyphs/addenda/signs/
+<gardiner>/ — names are stable and unique where keywords may be
+re-chosen as better stories emerge.
+
+## M9-1 · Codex laws into both rulebooks  [tier: top — Fable] [status: done]
+   Laws BEFORE content: keyword uniqueness within each school;
+   the two-heading honesty rule (attested "Where it comes from"
+   vs invented "How to remember it" — invention never masquerades
+   as history); a chapter that teaches a sign ships its codex
+   page same-commit; keyword-slug permalinks. Machine-checkable
+   subset into script/rulebook.rb + tests same commit.
+## M9-2 · Keywords + confusables backfill (all 154 signs, both schools)  [tier: top — Fable] [status: done — incl. the 3 unpinned pool signs] [deps: M9-1]
+   Additive keyword: field in all four registries (unique per
+   school — the three "great/big"s differentiated on purpose;
+   invented keywords for pure syllabograms); curated
+   confusable_with: sets; contract tests updated same commit;
+   gate check for uniqueness and presence.
+## M9-3 · Codex machinery  [tier: top] [status: done] [deps: M9-2]
+   sign layout (glyph, keyword title, readings, taught-in link,
+   confusable rows rendered from data; prose sections are the
+   only hand content); Signs shelf index for the C Addenda
+   (glyph + keyword + readings + taught-in, curriculum order);
+   sidebar wiring; fonts.
+## M9-4 · C101 codex pages (26 signs)  [tier: top — Fable] [status: done — plus BA taught-twice fix + taught-once guard] [deps: M9-3]
+## M9-5 · C102 codex pages I (chs 00–08, 26 signs)  [tier: top — Fable] [status: done] [deps: M9-3]
+## M9-6 · C102 codex pages II (chs 09–17, 25 signs)  [tier: top — Fable] [status: done] [deps: M9-5]
+## M9-7 · C-school sign-table link sweep + stitching, gate PR  [tier: top] [status: done — sweep is a sign_linker extension, anchors preserved] [deps: M9-6]
+   Every C-course sign-table glyph links to its codex page (links
+   land only once all pages exist — gate enforces resolvable
+   links); page-exists gate check activated for the C school;
+   Addenda catalog updated; surface review in pixels; PR.
+
+Acceptance per packet: gate green (incl. new rulebook checks);
+origin sections cited with certainty flagged; stories tied to
+keyword AND shape, plainly marked as ours; minimal diffs to
+published chapters (glyph links only). E-school pages + links and
+the retrieval/decks stages are OUT of this phase (Stages B–C).

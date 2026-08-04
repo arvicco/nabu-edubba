@@ -11,8 +11,8 @@ chapter: 9
 permalink: /cuneiform/101/09-the-tablet-house/
 course_url: /cuneiform/101/
 course_title: "Cuneiform 101"
-teaches: ["𒁾", "𒁀"]
-shows: []
+teaches: ["𒁾"]
+shows: ["𒁀"]
 ---
 
 # The tablet house
@@ -35,7 +35,10 @@ start of this course comes due.
       <td class="script sign-cell">𒁀</td><td>BA</td><td><em>ba</em></td>
       <td>syllable <em>ba</em>; as a verb, "to allot"</td>
       <td>~5 wedges; pictorial origin opaque — a pure workhorse
-          syllable, top six in BOTH of this course's counted corpora</td>
+          syllable, top six in BOTH of this course's counted corpora.
+          Borrowed a course ahead: its formal seat is the Sumerian
+          course's <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08</a> — it stands here early because
+          the school's own name cannot be read without it</td>
     </tr>
   </tbody>
 </table>
@@ -51,7 +54,8 @@ wordmark — and read it:
     <em>e₂</em> "house" (<a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">chapter 04</a>) · <em>dub</em> "tablet" ·
     <em>ba</em> · <em>a</em> (<a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">chapter 00</a>) — <strong>é-dub-ba-a</strong>,
     "the tablet house." You can now read the name of the school you
-    are sitting in: every sign taught in order, no boxes left.
+    are sitting in, no boxes left — three of the four signs yours in
+    order, and <em>ba</em> borrowed from the course ahead.
   </figcaption>
 </figure>
 
