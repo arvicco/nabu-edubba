@@ -543,7 +543,12 @@ exported decks, zero JS.
    keyword + story + one attested line, CDLI/aes attribution only
    — ETCSL stays out of redistributable decks); the read-it-cold
    clause (script-with-translit law gains a folded-translit drill
-   exhibit form).
+   exhibit form); and the REINFORCEMENT-SELECTION law (owner
+   ruling 2026-08-04, approved with the plan): when choosing a
+   NEW chapter's example lines, candidates that also exercise
+   older signs due for reinforcement are preferred — the pickers
+   score it; a line that only shows the new sign loses to one
+   that revises while it teaches.
 ## M11-2 · The spiral warm-up  [tier: top] [status: todo] [deps: M11-1]
    A generated panel at the top of every subject chapter, zero
    hand-authoring: 4–6 retrieval prompts against signs from
