@@ -30,6 +30,7 @@ medical prescriptions, temple walls — in full hieroglyphs.
   <li><a href="{{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }}">His Majesty says</a> — the suffix conjugation, at Khufu's court</li>
   <li><a href="{{ '/hieroglyphs/102/03-to-do-to-give-to-be/' | relative_url }}">To do, to give, to be</a> — the three hardest-working stems</li>
   <li><a href="{{ '/hieroglyphs/102/04-saying-no/' | relative_url }}">Saying no</a> — the adverbial sentence, three negations, and Osiris</li>
+  <li><a href="{{ '/hieroglyphs/102/05-another-remedy/' | relative_url }}">Another remedy</a> — the doctor's papyri and the silent signs</li>
 </ol>
 
 The first stretch (chapters 00–06) is arriving chapter by chapter.
