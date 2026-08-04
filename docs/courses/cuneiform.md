@@ -97,8 +97,53 @@ rules are enforced by `rake gate`.
 ## 6 · What the gate checks mechanically
 
 From this rulebook: ŋ-not-ĝ, no accent indexes, ETCSL and CDLI
-license labels (`script/rulebook.rb`); plus the standing rules —
-subscript-index, untaught-sign, font coverage, no-JS, link
-hygiene. Everything else above is law for the author and material
-for review; when a rule becomes regexable, its check joins the
-script in the same commit.
+license labels (`script/rulebook.rb`); from §7, the codex checks —
+keyword presence and uniqueness, one codex page per taught sign,
+name-slug agreement (activation staged per school as the pages
+land); plus the standing rules — subscript-index, untaught-sign,
+font coverage, no-JS, link hygiene. Everything else above is law
+for the author and material for review; when a rule becomes
+regexable, its check joins the script in the same commit.
+
+## 7 · The Sign Codex (Addenda Signs shelf)
+
+Ruled 2026-08-04 at the start of Phase 9, before any codex content
+(source: the sign-retention plan, approved in principle).
+
+- **One page per taught sign**, the sign's permanent home for
+  in-depth study, on the school's Addenda Signs shelf. Permalink:
+  `/cuneiform/addenda/signs/<slug>/` where the slug is the
+  **traditional sign name** in lowercase ASCII — š→sz, É→e2, ×→x,
+  index digits full-size (*asz, gal, e2, kaxa, sza3*). Names are
+  the permalink because they are stable identifiers; keywords are
+  not, so they stay out of URLs.
+- **The keyword law.** Every taught sign carries a `keyword:` in
+  its registry: one short English handle, **unique within the
+  school at any moment**, chosen for discriminability and
+  imageability (GAL "big" vs MAH "exalted" — near-synonyms
+  differentiated on purpose; pure syllabograms take invented
+  story-keywords). The keyword titles the codex page and is used
+  verbatim wherever the sign is drilled or named by sense —
+  never paraphrased. Keywords are revisable in later phases
+  (they are not permalinks); a revision updates every surface in
+  the same commit.
+- **The two-heading honesty rule.** Codex prose tells the sign in
+  exactly two story sections, kept typographically and legally
+  separate: **"Where it comes from"** — the attested or classical
+  origin, cited, certainty flagged, the no-confident-nonsense law
+  in full force — and **"How to remember it"** — an invented
+  memory hook tying the keyword to the sign's actual shape,
+  explicitly ours, never presented as history. Where the honest
+  origin is already vivid, this section sharpens it into the
+  keyword instead of inventing.
+- **Page-ships-with-sign.** From Phase 9 onward, a chapter that
+  teaches a sign ships that sign's codex page in the same commit
+  (the terms.yml pattern).
+- **Confusables.** `confusable_with:` in the registry lists
+  curated shape-neighbors only — pairs a learner actually
+  confuses — each rendered as a contrast row with one
+  discriminating detail.
+- **Citations.** Every codex page carries one attested corpus
+  line with URN + license per §3; the display laws (§1) apply in
+  full. In chapter sign tables, the glyph itself links to the
+  sign's codex page.

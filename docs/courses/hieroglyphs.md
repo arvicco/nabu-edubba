@@ -80,7 +80,10 @@ the delivering chapter says so.
 ## 7 · What the gate checks mechanically
 
 From this rulebook: the aes license label
-(`script/rulebook.rb`); plus the standing rules — untaught-sign,
+(`script/rulebook.rb`); from §9, the codex checks — keyword
+presence and uniqueness, one codex page per taught sign, code-slug
+agreement (activation staged as this school's pages land, Stage B
+of the retention plan); plus the standing rules — untaught-sign,
 font coverage, no-JS, link hygiene. Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
@@ -131,3 +134,23 @@ Ruled 2026-08-03 at the start of Phase 8, before any E102 content
   today; the ≡-in-verbs rule joins `script/rulebook.rb` if a
   robust pattern is found (bare `=` is unregexable in Markdown
   source full of HTML attributes).
+
+## 9 · The Sign Codex (Addenda Signs shelf)
+
+Ruled 2026-08-04 at the start of Phase 9, before any codex content
+(source: the sign-retention plan, approved in principle). The
+cuneiform rulebook §7 states the shared law in full — keyword law,
+two-heading honesty rule, page-ships-with-sign, confusables,
+glyph-links-to-page — and it binds this school identically. This
+school's specifics:
+
+- **Permalink**: `/hieroglyphs/addenda/signs/<slug>/` where the
+  slug is the lowercase **Gardiner code** (*g1, n35a, aa2*) — the
+  traditional stable name Egyptian signs have (§3 already rules
+  codes as identity; descriptions describe, codes name).
+- Keywords for classifiers name the FUNCTION a learner should
+  recall (Z6 "death's stand-in"), since classifiers have no sound
+  to anchor.
+- This school's pages and sign-table links land in Stage B of the
+  retention plan; its `keyword:` backfill lands with the school-
+  wide pass in Stage A. Gate activation follows the pages.
