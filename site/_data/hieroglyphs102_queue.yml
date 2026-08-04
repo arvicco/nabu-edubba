@@ -14,7 +14,7 @@ signs:
   meaning: eye
   sense: eye (jrt); the verb jrj, to do, to make
   mdc: ir
-  chapter:
+  chapter: 3
   freq_aes: 33
   certainty: classic
 - glyph: "𓂞"
@@ -25,7 +25,7 @@ signs:
   meaning: arm handing a loaf
   sense: the verb rdj/dj, to give
   mdc: di
-  chapter:
+  chapter: 3
   freq_aes: 66
   certainty: classic
 - glyph: "𓃹"
@@ -36,7 +36,7 @@ signs:
   meaning: desert hare
   sense: wn; the verb wnn, to be, to exist
   mdc: wn
-  chapter:
+  chapter: 3
   freq_aes: 58
   certainty: classic
 - glyph: "𓌳"
@@ -69,7 +69,7 @@ signs:
   meaning: arms spread in refusal
   sense: the negation — n, nj, 'not'
   mdc: "n"
-  chapter:
+  chapter: 4
   freq_aes: 49
   certainty: classic
 - glyph: "𓉻"
@@ -80,7 +80,7 @@ signs:
   meaning: wooden column, laid flat
   sense: ꜥꜣ, great, big
   mdc: aA
-  chapter:
+  chapter: 6
   freq_aes: 54
   certainty: classic
 - glyph: "𓅨"
@@ -91,7 +91,7 @@ signs:
   meaning: swallow
   sense: wr, great, elder; the swallow itself
   mdc: wr
-  chapter:
+  chapter: 6
   freq_aes: 57
   certainty: classic
 - glyph: "𓇯"
@@ -102,7 +102,7 @@ signs:
   meaning: sky
   sense: pt, sky, heaven; classifier of things above
   mdc: pt
-  chapter:
+  chapter: 0
   freq_aes: 94
   certainty: classic
 - glyph: "𓇿"
@@ -113,7 +113,7 @@ signs:
   meaning: flat strip of land
   sense: tꜣ, land, earth
   mdc: tA
-  chapter:
+  chapter: 0
   freq_aes: 67
   certainty: classic
 - glyph: "𓇾"
@@ -135,7 +135,7 @@ signs:
   meaning: heart
   sense: jb, heart, mind
   mdc: ib
-  chapter:
+  chapter: 4
   freq_aes: 62
   certainty: classic
 - glyph: "𓁶"
@@ -168,7 +168,7 @@ signs:
   meaning: milk jug in a carrying net
   sense: mj, like — the preposition of likeness
   mdc: mi
-  chapter:
+  chapter: 1
   freq_aes: 68
   certainty: classic
 - glyph: "𓊨"
@@ -179,7 +179,7 @@ signs:
   meaning: seat, throne
   sense: st, seat, place; opens Osiris' name
   mdc: st
-  chapter:
+  chapter: 1
   freq_aes: 52
   certainty: classic
 - glyph: "𓊖"
@@ -212,7 +212,7 @@ signs:
   meaning: fuller's club
   sense: ḥm — Majesty (ḥm≡f); also servant (ḥm-nṯr, priest)
   mdc: Hm
-  chapter:
+  chapter: 2
   freq_aes: 86
   certainty: classic
 - glyph: "𓍑"
@@ -223,7 +223,7 @@ signs:
   meaning: fire-drill
   sense: ḏꜣ; wḏꜣ, to be whole, to prosper — the ꜥnḫ wḏꜣ snb wish
   mdc: DA
-  chapter:
+  chapter: 6
   freq_aes: 80
   certainty: classic
 - glyph: "𓆼"
@@ -278,7 +278,7 @@ signs:
   meaning: basket with handle (left)
   sense: k — V31's mirror twin; one sound, two shapes
   mdc: k
-  chapter:
+  chapter: 2
   freq_aes: 31
   certainty: classic
 - glyph: "𓅆"
@@ -289,7 +289,7 @@ signs:
   meaning: falcon on the standard
   sense: silent classifier of gods and kings; Horus watching over the word
   mdc: ''
-  chapter:
+  chapter: 2
   freq_aes: 17
   certainty: classic
 - glyph: "𓏪"
@@ -322,7 +322,7 @@ signs:
   meaning: man striking, two-handed
   sense: 'silent classifier: force, effort, violence'
   mdc: ''
-  chapter:
+  chapter: 5
   freq_aes: 37
   certainty: classic
 - glyph: "𓂡"
@@ -333,7 +333,7 @@ signs:
   meaning: arm gripping a stick
   sense: 'silent classifier: strength, forceful action'
   mdc: ''
-  chapter:
+  chapter: 5
   freq_aes: 71
   certainty: classic
 - glyph: "𓈒"
@@ -344,7 +344,7 @@ signs:
   meaning: grain of sand
   sense: 'silent classifier: sand, minerals, pellets'
   mdc: ''
-  chapter:
+  chapter: 5
   freq_aes: 38
   certainty: classic
 - glyph: "𓈇"
@@ -366,7 +366,7 @@ signs:
   meaning: three ripples of water
   sense: mw, water; classifier of liquids
   mdc: mw
-  chapter:
+  chapter: 1
   freq_aes: 55
   certainty: classic
 - glyph: "𓄹"
@@ -410,7 +410,7 @@ signs:
   meaning: substitute stroke
   sense: hieratic stand-in drawn instead of dangerous signs — the enemy, death
   mdc: ''
-  chapter:
+  chapter: 4
   freq_aes: 69
   certainty: classic
 - glyph: "𓏯"
@@ -476,7 +476,49 @@ signs:
   meaning: pustule (?)
   sense: 'silent classifier: sickness, bodily conditions; picture debated'
   mdc: ''
-  chapter:
+  chapter: 5
   freq_aes: 64
   certainty: unclear
-batches: []
+batches:
+- chapter: 0
+  signs:
+  - N1
+  - N17
+  coverage_aes_pct: 71.7
+- chapter: 1
+  signs:
+  - W19
+  - Q1
+  - N35A
+  coverage_aes_pct: 72.6
+- chapter: 2
+  signs:
+  - U36
+  - V31A
+  - G7
+  coverage_aes_pct: 74.7
+- chapter: 3
+  signs:
+  - D4
+  - D37
+  - E34
+  coverage_aes_pct: 76.0
+- chapter: 4
+  signs:
+  - D35
+  - F34
+  - Z6
+  coverage_aes_pct: 76.8
+- chapter: 5
+  signs:
+  - A24
+  - D40
+  - N33
+  - AA2
+  coverage_aes_pct: 78.2
+- chapter: 6
+  signs:
+  - O29
+  - G36
+  - U28
+  coverage_aes_pct: 79.0
