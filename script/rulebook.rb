@@ -62,7 +62,7 @@ module Edubba
         registries: %w[_data/sign_teaching.yml _data/cuneiform102_queue.yml],
         shelf: "cuneiform/addenda/signs",
         keywords: true,
-        pages: false },
+        pages: true },
       { doc: "docs/courses/hieroglyphs.md §9",
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
         shelf: "hieroglyphs/addenda/signs",
