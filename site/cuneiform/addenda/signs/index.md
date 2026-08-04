@@ -29,6 +29,8 @@ those: the sign's lookalikes, and one real corpus line it lives in.
 One thing before the table: a memory image you build yourself
 sticks better than any image handed to you.[^gen] Use our hooks as
 scaffolding — the moment your own picture forms, throw ours away.
+The origin stories follow the standard accounts,[^origins] and each
+says plainly how sure the scholarship is.
 
 <table class="sign-table">
   <thead>
@@ -68,3 +70,9 @@ scaffolding — the moment your own picture forms, throw ours away.
     better than supplied material — Slamecka & Graf, "The
     generation effect: delineation of a phenomenon," *Journal of
     Experimental Psychology: Human Learning and Memory* 4 (1978).
+
+[^origins]: Sign origins per the standard references: Labat,
+    *Manuel d'épigraphie akkadienne*; Borger, *Mesopotamisches
+    Zeichenlexikon*; the accessible synthesis in Finkel & Taylor,
+    *Cuneiform* (British Museum Press, 2015). Where these hedge,
+    our pages hedge.
