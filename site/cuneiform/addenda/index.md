@@ -35,6 +35,9 @@ in your study.
   <li><a href="{{ '/cuneiform/addenda/drills/' | relative_url }}">Drills — every sign, three ways</a>
       — the whole inventory as retrieval cards, interleaved and
       printable as cut-out Leitner slips</li>
+  <li><a href="{{ '/cuneiform/addenda/decks/' | relative_url }}">Study decks — real spaced repetition</a>
+      — downloadable Anki decks, one card per sign, and the three
+      steps to FSRS scheduling</li>
 </ol>
 
 The shelf will grow — extended materials that outgrow a course
