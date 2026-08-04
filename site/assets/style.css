@@ -446,6 +446,27 @@ img, svg { max-width: 100%; }
 .warmup-answer { margin: 0.4rem 0 0.2rem 1rem; color: var(--muted); }
 .warmup-answer .script { font-size: 1.8rem; }
 
+/* --- Drill shelves --- */
+.drill-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 0.6rem; }
+.drill-card { border: 1px solid var(--rule); border-radius: 4px; padding: 0.55rem 0.8rem; }
+.drill-card summary { cursor: pointer; }
+.drill-card .script { font-size: 1.7rem; color: var(--accent); }
+.drill-contrasts { list-style: none; padding: 0; }
+.drill-contrast-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.6rem 0; }
+.drill-contrast-cell {
+  border: 1px solid var(--rule); border-radius: 4px;
+  padding: 0.4rem 0.9rem; text-decoration: none; color: inherit;
+}
+.drill-contrast-cell:hover { border-color: var(--accent); }
+.drill-contrast-cell .script { font-size: 1.9rem; color: var(--accent); }
+
+@media print {
+  .course-sidebar, .site-header, .site-footer, .chapter-nav, .warmup { display: none; }
+  .drill-card { break-inside: avoid; border: 1px dashed #999; }
+  .drill-list { grid-template-columns: repeat(3, 1fr); }
+  .drill-card details > *:not(summary) { display: none; }
+}
+
 /* --- Sign Codex pages (Addenda Signs shelves) --- */
 .sign-hero {
   font-size: 6.5rem;
