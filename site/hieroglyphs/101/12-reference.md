@@ -24,9 +24,9 @@ registry so it can never drift out of date with the lessons.
 
 ## Every sign taught in 101
 
-<table class="sign-table">
+<table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Code</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Corpus rank</th><th>Origin</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Corpus rank</th><th>Origin</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.hiero_teaching.signs | where_exp: "s", "s.taught_in" %}

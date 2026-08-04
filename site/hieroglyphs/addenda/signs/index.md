@@ -31,9 +31,9 @@ One thing before the table: a memory image you build yourself
 sticks better than any image handed to you.[^gen] Use our hooks as
 scaffolding — the moment your own picture forms, throw ours away.
 
-<table class="sign-table">
+<table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Code</th><th>Keyword</th><th>Means</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Means</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign e101 = site.data.hiero_teaching.signs | sort: "taught_in" %}

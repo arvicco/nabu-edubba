@@ -23,7 +23,7 @@ handing you signs, so here are your first three, right now:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Keyword</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>

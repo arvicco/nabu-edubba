@@ -21,7 +21,7 @@ materials themselves:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>

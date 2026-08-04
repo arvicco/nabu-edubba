@@ -29,7 +29,7 @@ words on any monument fall open.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>

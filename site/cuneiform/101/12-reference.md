@@ -36,9 +36,9 @@ Borger's MZL).
 Where the origin is graded *unclear*, the course taught you the
 shape, not a story.
 
-<table class="sign-table">
+<table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Wedges</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Wedges</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.sign_teaching.signs | where_exp: "s", "s.taught_in" %}

@@ -47,7 +47,7 @@ layout: default
 {% if entry.confusable_with %}
 <h2>Easily confused</h2>
 <table class="sign-table">
-  <thead><tr><th>Sign</th><th>Name</th><th>Keyword</th></tr></thead>
+  <thead><tr><th>Sign</th><th>Name</th><th>Key</th></tr></thead>
   <tbody>
   {% for cn in entry.confusable_with %}
     {% assign ce = r1 | where: "name", cn | first %}
