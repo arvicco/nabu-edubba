@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · M8-1..M8-10 · phase-8 · E102 Middle Egyptian first
+stretch executed the day the nabu blocker cleared: rulebook §8
+first (sḏm≡f display, one-sentence-type-per-chapter, formulaic
+genres as the track's receipts), then instruments (43-sign pool
+with Gardiner identities, hiero_curriculum compiler with offline
+coverage from the committed tsv, picker --course=102, discovery
+sweep of 2203 unlockable lines driving every pin — Q1 repinned
+mid-course when its attestation's sentence type belonged to ch04,
+one-type law self-enforced), then seven chapters, each reading
+token-verified against hiero_inventar with per-line URNs: ch00
+sky/land + the 71.4% dowry chart + jnk nb-pt at one new sign;
+ch01 the nominal sentence via Ptahhotep's disputed 'mw pw' (the
+translation fight told, the grammar certain); ch02 sḏm≡f from
+Papyrus Westcar's own hinge (identified by its Khufu refrain) +
+the falcon-on-the-pronoun; ch03 jr/dj/wnn with Amarna's eternity
+parallelism and a foreman's 'do your work!'; ch04 the adverbial
+sentence + three negations from the Doomed Prince, the temple
+library, Piye's stela, and a kind doctor — closing on Wsjr =
+eye+throne, the two-chapter cliffhanger paid; ch05 the recipe
+register with four silent signs and the feminine-agreement bite;
+ch06 anx-wDA-snb, the pharaoh etymology, Neferti bookending
+Westcar (father and son), Wenamun's drink. Coverage 71.4→79.0%.
+Sentence-type terms entered the Egyptian glossary as taught, per
+the rulebook. Stitching: school catalog, E101 Reference pointer,
+README. Incident absorbed mid-phase: one commit shipped red when
+the gate was piped through grep|head (exit masked) — fixed
+forward, gates now read plain.
+
 2026-08-03 · Gate 7 closed · PR #10 merged 2026-08-02 by owner, CI
 + Pages deploy green, live surface verified in pixels (ch14 split
 row, both Addenda shelves in sidebar, Egyptian glossary serving).

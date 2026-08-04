@@ -18,7 +18,7 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-07-31
+## Status — honest, as of 2026-08-04
 
 **Two schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
@@ -32,6 +32,11 @@ proverbs, Šulgi's royal hymn, and the opening of Gudea's temple
 cylinders — the longest Sumerian composition — from its first
 line.
 In the Egyptian school,
+[102 · Middle Egyptian](https://edubba.ac/hieroglyphs/102/) has
+opened its first stretch — seven chapters: the three sentence
+types, the suffix conjugation, negations and the doctors' recipe
+register, read from Papyrus Westcar, the Doomed Prince, Piye's
+victory stela, and the medical papyri — and
 [Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/)
 is complete — thirteen chapters and 53 signs, from the media and
 origins of the script through uniliterals, biliterals, phonetic
@@ -53,9 +58,9 @@ Cuneiform and Noto Sans Egyptian Hieroglyphs), and the full gate
 (`rake gate`: lint + tests + build + offline link check) with
 auto-deploy on merge.
 
-Next: the schools grow in alternating phases — the Sumerian track's
-second stretch, and the hieroglyphs course toward biliterals and
-the decipherment story.
+Next: the schools grow in alternating phases — the Egyptian
+literacy track's later stretches (toward Sinuhe), and Cuneiform
+103 · Akkadian.
 
 ## Building locally
 

@@ -92,9 +92,10 @@ world.
   heirs of the <em>Wörterbuch</em> project), reachable with
   per-passage licenses through the
   <a href="https://arvicco.github.io/nabu/">Nabu</a> library.
-- **Next in this school:** a later course takes on connected
-  prose — verbs in their tenses, real letters and stories read
-  whole. Watch the [school catalog]({{ '/hieroglyphs/' | relative_url }}).
+- **Next in this school:**
+  [102 · Middle Egyptian]({{ '/hieroglyphs/102/' | relative_url }})
+  is open — connected prose, verbs in their tenses, the tales
+  themselves. Your fifty-three signs are its assumed inventory.
 
 ## Sources and licenses
 
