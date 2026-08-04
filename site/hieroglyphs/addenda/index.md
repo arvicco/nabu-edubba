@@ -32,6 +32,9 @@ point in your study.
   <li><a href="{{ '/hieroglyphs/addenda/drills/' | relative_url }}">Drills — every sign, three ways</a>
       — the whole inventory as retrieval cards, interleaved and
       printable as cut-out Leitner slips</li>
+  <li><a href="{{ '/hieroglyphs/addenda/decks/' | relative_url }}">Study decks — real spaced repetition</a>
+      — downloadable Anki decks, one card per sign, and the three
+      steps to FSRS scheduling</li>
 </ol>
 
 Terms shared across all scripts — determinative, logogram, rebus,
