@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · Gate 8 closed · PR #11 merged by owner same day, CI +
+Pages deploy green, live surface verified in pixels (E102 ch04
+sign table, glyphs, grammar bite, term underlines all serving).
+Between the PR and the merge, the sign-retention consideration ran
+its full arc: first draft scored encoding as done and retrieval as
+the gap; owner overruled — stories and keywords are the foundation
+of human memory, not an accelerant — and the plan was rewritten
+around the Sign Codex: one page per taught sign in each school's
+Addenda (keyword as title, attested origin and invented mnemonic
+under separate honesty-lawed headings, confusable rows, taught-in
+loop), Heisig keyword law with gate-checked uniqueness, sign-table
+glyphs linking to their pages, decks/tools on their own future
+Addenda shelf (deck exports only, never a trainer — SRS assessment
+confirmed). Owner ruled keyword-slug permalinks and approved the
+plan in principle with Stage A as Phase 9; branch phase-9 opened
+from main; M9-1..M9-7 skeleton laid (laws → backfill → machinery →
+77 cuneiform pages → link sweep). E102 takes keywords in Stage A
+and pages + links in Stage B, obviously.
+
 2026-08-04 · M8-1..M8-10 · phase-8 · E102 Middle Egyptian first
 stretch executed the day the nabu blocker cleared: rulebook §8
 first (sḏm≡f display, one-sentence-type-per-chapter, formulaic
