@@ -5,6 +5,41 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · M10-0..M10-5 · phase-10 · Stage B in one run: the site
+got its favicon (Nabu's family delivery — É, dark chocolate on old
+paper, wired in the layout head) and the hieroglyph school got its
+codex: the E Signs shelf live from both registries, then all 74
+pages in three batches, each line box-free from the full-inventory
+sweep of the aes corpus and inventar-exact — the offering formula
+whole under R4/X8, Ptahhotep's mw pw under the stool, the Dispute
+of a Man with His Ba speaking for the seated man, Piye's refusal
+under the spread arms, the two greats split column/swallow, and
+kohl carrying the eye-sign inside the word for eye-paint. V10 the
+cartouche holds the school's one flagged exception: it never
+stands outside royal names full of untaught signs, so its page
+shows its working life (Ptolemy's ring, Rosetta) instead of a
+boxed line. M10-5 found the real E102 gap: its signs had NEVER
+been in the sign_linker map (no links, no anchors since Gate 8) —
+the queue is now wired in exactly like C102's, so E102 chapters
+gained body-glyph links, table anchors, and codex table-links in
+one stroke; the E page-per-sign check is live, completing the
+codex site-wide at 151 pages. Incident, again: one commit pushed
+red when the gate ran through `| tail` — the same pipeline-masking
+the law records; gates now run to a log with the exit code echoed
+plain, and the BACKLOG notes the relapse.
+
+2026-08-04 · Gate 9 closed · PR #12 merged by owner same day after
+two review rounds, CI + deploy green, live surface verified (AŠ
+page: hero wedge, keyword title, taught-in link, bubbles). Round 1
+became law: codex lines fully readable, never a ▢ (rulebook §7,
+number notation counts as taught) — a full-inventory picker pass
+over the corpus requoted 11 pages, upgrades all (Sumer's own name
+ki-en-gi for KI and GI; lu₂-diŋir-mu, the course's famous "my",
+for MU; the royal-measure line 1(u) še gur lugal for U and GUR);
+round 2 unhooked link underlines from sign-cell glyphs. Branch
+phase-10 opened; M10-1..M10-5 skeleton laid for Stage B (74
+hieroglyph pages).
+
 2026-08-04 · M9-1..M9-7 · phase-9 · Sign Codex Stage A executed in
 one day, laws first: rulebook §7 (cuneiform, the shared law) and §9
 (hieroglyphs) before any content — name-slug permalinks (names

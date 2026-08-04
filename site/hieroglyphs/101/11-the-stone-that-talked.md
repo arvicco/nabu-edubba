@@ -34,18 +34,18 @@ chapter's batch.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓃭</td><td>E23</td><td><em>rw</em></td>
+      <td class="script sign-cell">𓃭</td><td>E23</td><td>lion</td><td><em>rw</em></td>
       <td>a lion, lying down</td>
       <td>r+w — and the sign Egyptian reached for to spell the
           foreign sound L, which its own language did not need a
           letter for</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓍯</td><td>V4</td><td><em>wꜣ</em></td>
+      <td class="script sign-cell">𓍯</td><td>V4</td><td>lasso</td><td><em>wꜣ</em></td>
       <td>a lasso</td>
       <td>w+ꜣ — the loop that carried the O-sound in foreign names;
           you saw both signs waiting inside Ptolemy's ring in

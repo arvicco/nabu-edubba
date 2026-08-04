@@ -29,11 +29,11 @@ signs, and one small, versatile grammar habit.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒉆</td><td>NAM</td><td><em>nam</em></td>
+      <td class="script sign-cell">𒉆</td><td>NAM</td><td>fate</td><td><em>nam</em></td>
       <td>fate, destiny; the abstract-noun prefix</td>
       <td>~7 wedges; its pictorial origin is stated variously across
           the sign lists, and for once the etymology matters less
@@ -41,7 +41,7 @@ signs, and one small, versatile grammar habit.
           builds the abstraction (<em>nam-lugal</em>, "kingship")</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁕</td><td>DA</td><td><em>da</em></td>
+      <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td><em>da</em></td>
       <td>side; the syllable da; the comitative tag "-da" (together
           with)</td>
       <td>~8 wedges; an arm or side, by the usual reading of the
@@ -49,7 +49,7 @@ signs, and one small, versatile grammar habit.
           <em>dumu-da</em>, "with the child"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒍪</td><td>ZU</td><td><em>zu</em></td>
+      <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td><em>zu</em></td>
       <td>tooth; to know</td>
       <td>~8 wedges; the classic case cited in every introduction to
           the script — a tooth, extended to knowing, as if insight

@@ -27,22 +27,22 @@ and it will buy you your first complete Egyptian sentence.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>In the formula</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>In the formula</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓊵</td><td>R4</td><td><em>ḥtp</em></td>
+      <td class="script sign-cell">𓊵</td><td>R4</td><td>offering</td><td><em>ḥtp</em></td>
       <td>a loaf of bread on a reed mat</td>
       <td>"offering; peace, contentment" — the formula's first word,
       and a picture of exactly what it means: food set out on a mat</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓏙</td><td>X8</td><td><em>ḏi̯</em></td>
+      <td class="script sign-cell">𓏙</td><td>X8</td><td>given loaf</td><td><em>ḏi̯</em></td>
       <td>a conical loaf, held out</td>
       <td>"give" — bread offered forward is the script's verb of giving</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂓</td><td>D28</td><td><em>kꜣ</em></td>
+      <td class="script sign-cell">𓂓</td><td>D28</td><td>ka</td><td><em>kꜣ</em></td>
       <td>two arms raised</td>
       <td>the <em>ka</em> — the life-force that receives the offering</td>
     </tr>

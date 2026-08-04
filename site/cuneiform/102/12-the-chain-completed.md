@@ -28,24 +28,24 @@ gifts.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒆕</td><td>KAK</td><td><em>du₃</em></td>
+      <td class="script sign-cell">𒆕</td><td>KAK</td><td>build</td><td><em>du₃</em></td>
       <td>to build; a peg</td>
       <td>~3 wedges — a peg driven in, and the verb of every temple
           ever raised in this course's readings</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒊒</td><td>RU</td><td><em>ru</em></td>
+      <td class="script sign-cell">𒊒</td><td>RU</td><td>dedicate</td><td><em>ru</em></td>
       <td>to dedicate</td>
       <td>the closing verb of the votive genre: <em>a mu-na-ru</em>,
           "dedicated this to him" — you will read it on real clay
           below</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒂼</td><td>AMA</td><td><em>ama</em></td>
+      <td class="script sign-cell">𒂼</td><td>AMA</td><td>mother</td><td><em>ama</em></td>
       <td>mother</td>
       <td>the word <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a> had to box; a goddess's favorite title
           — <em>ama kalam-ma</em>, "mother of the Land"</td>

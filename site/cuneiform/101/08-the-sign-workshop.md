@@ -32,11 +32,11 @@ for you since then. It is yours now:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊕</td><td>SAG</td><td><em>saŋ</em> (sag)</td>
+      <td class="script sign-cell">𒊕</td><td>SAG</td><td>head</td><td><em>saŋ</em> (sag)</td>
       <td>head; first, foremost</td>
       <td>the drawn profile of a head, quarter-turned and rebuilt in
           wedges — you watched it happen in <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a></td>
@@ -70,11 +70,11 @@ mouth. New meaning, minimal new drawing:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒅗</td><td>KA</td><td><em>ka</em></td>
+      <td class="script sign-cell">𒅗</td><td>KA</td><td>mouth</td><td><em>ka</em></td>
       <td>mouth</td>
       <td>the head with its mouth marked; a busy sign in both
           corpora — mouths say, eat, and drink, and the script
@@ -106,18 +106,18 @@ or portion, not yet yours — one ▢ still owed) written inside:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒅘</td><td>KA×A</td><td><em>naŋ</em> (nag)</td>
+      <td class="script sign-cell">𒅘</td><td>KA×A</td><td>drink</td><td><em>naŋ</em> (nag)</td>
       <td>to drink</td>
       <td>water in the mouth. Rare in the counted corpora — it is
           here because no frequent sign teaches the containment move
           half as clearly</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅥</td><td>KA×GAR</td><td><em>gu₇</em> (gu7)</td>
+      <td class="script sign-cell">𒅥</td><td>KA×GAR</td><td>eat</td><td><em>gu₇</em> (gu7)</td>
       <td>to eat</td>
       <td>a portion in the mouth; the everyday verb of ration lists —
           mid-table in both corpora</td>

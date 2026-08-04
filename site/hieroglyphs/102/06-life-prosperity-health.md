@@ -28,25 +28,25 @@ stories in the language.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓉻</td><td>O29</td><td><em>ꜥꜣ</em></td>
+      <td class="script sign-cell">𓉻</td><td>O29</td><td>great</td><td><em>ꜥꜣ</em></td>
       <td>great, big</td>
       <td>a wooden column laid on its side — bigness as
           architecture; pr-ꜥꜣ, "the Great House," is a word you
           already know without knowing it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓅨</td><td>G36</td><td><em>wr</em></td>
+      <td class="script sign-cell">𓅨</td><td>G36</td><td>elder</td><td><em>wr</em></td>
       <td>great, elder; the swallow</td>
       <td>the swallow at rest — Egyptian's other "great": persons
           of rank, elders, gods in their titles; also pure sound
           wr inside longer words</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓍑</td><td>U28</td><td><em>ḏꜣ</em></td>
+      <td class="script sign-cell">𓍑</td><td>U28</td><td>fire-drill</td><td><em>ḏꜣ</em></td>
       <td>the fire-drill; wḏꜣ, to be whole</td>
       <td>the drill that makes fire by spinning — by sound it
           carries wḏꜣ, "to be whole, to prosper," the middle wish

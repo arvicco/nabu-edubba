@@ -50,31 +50,31 @@ them and you will see there is barely anything to get wrong.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓏏</td><td>X1</td><td><em>t</em></td>
+      <td class="script sign-cell">𓏏</td><td>X1</td><td>loaf</td><td><em>t</em></td>
       <td>a loaf of bread</td><td>t</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓊃</td><td>O34</td><td><em>z</em></td>
+      <td class="script sign-cell">𓊃</td><td>O34</td><td>bolt</td><td><em>z</em></td>
       <td>a door bolt</td><td>z, as in s</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓋴</td><td>S29</td><td><em>s</em></td>
+      <td class="script sign-cell">𓋴</td><td>S29</td><td>cloth</td><td><em>s</em></td>
       <td>a folded cloth</td><td>s</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓊪</td><td>Q3</td><td><em>p</em></td>
+      <td class="script sign-cell">𓊪</td><td>Q3</td><td>stool</td><td><em>p</em></td>
       <td>a reed mat or stool</td><td>p</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓎡</td><td>V31</td><td><em>k</em></td>
+      <td class="script sign-cell">𓎡</td><td>V31</td><td>basket</td><td><em>k</em></td>
       <td>a basket with a handle</td><td>k</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓐍</td><td>AA1</td><td><em>ḫ</em></td>
+      <td class="script sign-cell">𓐍</td><td>AA1</td><td>sieve</td><td><em>ḫ</em></td>
       <td>sieve? placenta? — the field is honestly unsure</td>
       <td>ch, as in Scottish <em>loch</em></td>
     </tr>
@@ -96,33 +96,33 @@ the eye does the memorizing here.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓄿</td><td>G1</td><td><em>ꜣ</em></td>
+      <td class="script sign-cell">𓄿</td><td>G1</td><td>vulture</td><td><em>ꜣ</em></td>
       <td>an Egyptian vulture</td>
       <td>glottal stop; conventionally read as 'a'</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓅱</td><td>G43</td><td><em>w</em></td>
+      <td class="script sign-cell">𓅱</td><td>G43</td><td>chick</td><td><em>w</em></td>
       <td>a quail chick</td><td>w / u</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓆑</td><td>I9</td><td><em>f</em></td>
+      <td class="script sign-cell">𓆑</td><td>I9</td><td>viper</td><td><em>f</em></td>
       <td>a horned viper</td><td>f</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓆓</td><td>I10</td><td><em>ḏ</em></td>
+      <td class="script sign-cell">𓆓</td><td>I10</td><td>cobra</td><td><em>ḏ</em></td>
       <td>a cobra at rest</td>
       <td>dj, as in <em>adjust</em></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓃀</td><td>D58</td><td><em>b</em></td>
+      <td class="script sign-cell">𓃀</td><td>D58</td><td>leg</td><td><em>b</em></td>
       <td>a lower leg and foot</td><td>b</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓄡</td><td>F32</td><td><em>ẖ</em></td>
+      <td class="script sign-cell">𓄡</td><td>F32</td><td>belly</td><td><em>ẖ</em></td>
       <td>an animal's belly and tail</td>
       <td>softer ch, as in German <em>ich</em></td>
     </tr>
@@ -142,51 +142,51 @@ essential for arriving last.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Gardiner</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Picture</th><th>Sound hint</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓏭</td><td>Z4</td><td><em>y</em></td>
+      <td class="script sign-cell">𓏭</td><td>Z4</td><td>pair</td><td><em>y</em></td>
       <td>two strokes — not a picture, a grammatical mark</td>
       <td>y (usually word-final)</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂝</td><td>D36</td><td><em>ꜥ</em></td>
+      <td class="script sign-cell">𓂝</td><td>D36</td><td>forearm</td><td><em>ꜥ</em></td>
       <td>a forearm</td>
       <td>pharyngeal; conventionally 'a'</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓏲</td><td>Z7</td><td><em>w</em></td>
+      <td class="script sign-cell">𓏲</td><td>Z7</td><td>coil</td><td><em>w</em></td>
       <td>a coil — cursive shorthand for the quail chick above</td>
       <td>w / u</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓉔</td><td>O4</td><td><em>h</em></td>
+      <td class="script sign-cell">𓉔</td><td>O4</td><td>shelter</td><td><em>h</em></td>
       <td>a reed shelter</td>
       <td>h, as in <em>hat</em></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓎛</td><td>V28</td><td><em>ḥ</em></td>
+      <td class="script sign-cell">𓎛</td><td>V28</td><td>wick</td><td><em>ḥ</em></td>
       <td>a twisted wick</td>
       <td>emphatic h</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓈙</td><td>N37</td><td><em>š</em></td>
+      <td class="script sign-cell">𓈙</td><td>N37</td><td>pool</td><td><em>š</em></td>
       <td>a pool of water</td>
       <td>sh</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓈎</td><td>N29</td><td><em>q</em></td>
+      <td class="script sign-cell">𓈎</td><td>N29</td><td>slope</td><td><em>q</em></td>
       <td>the slope of a hill</td>
       <td>emphatic k</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓍿</td><td>V13</td><td><em>ṯ</em></td>
+      <td class="script sign-cell">𓍿</td><td>V13</td><td>tether</td><td><em>ṯ</em></td>
       <td>a tethering rope</td>
       <td>tj, as in British <em>tune</em></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓂧</td><td>D46</td><td><em>d</em></td>
+      <td class="script sign-cell">𓂧</td><td>D46</td><td>hand</td><td><em>d</em></td>
       <td>a hand</td><td>d</td>
     </tr>
   </tbody>

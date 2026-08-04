@@ -25,9 +25,9 @@ promise is complete.
 
 ## Every sign taught in 102
 
-<table class="sign-table">
+<table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Freq. rank (lit / doc)</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Freq. rank (lit / doc)</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.cuneiform102_queue.signs | where_exp: "s", "s.chapter" %}
@@ -35,6 +35,7 @@ promise is complete.
     <tr>
       <td class="script sign-cell">{{ s.glyph }}</td>
       <td>{{ s.name }}</td>
+      <td>{{ s.keyword }}</td>
       <td><em>{{ s.value }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>

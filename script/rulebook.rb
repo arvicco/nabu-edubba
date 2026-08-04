@@ -67,7 +67,7 @@ module Edubba
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
         shelf: "hieroglyphs/addenda/signs",
         keywords: true,
-        pages: false }
+        pages: true }
     ].freeze
 
     module_function

@@ -22,11 +22,11 @@ best demonstration piece:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌓</td><td>UD</td><td><em>ud</em>, <em>u₄</em>, <em>utu</em></td>
+      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td><em>ud</em>, <em>u₄</em>, <em>utu</em></td>
       <td>day; sun; the sun-god</td>
       <td>the sun rising between hills, worn down to wedges</td>
     </tr>

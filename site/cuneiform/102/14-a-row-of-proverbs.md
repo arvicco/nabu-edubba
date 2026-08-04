@@ -27,29 +27,29 @@ them will have earned its seat before the row is done.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋛</td><td>SI</td><td><em>si</em></td>
+      <td class="script sign-cell">𒋛</td><td>SI</td><td>horn</td><td><em>si</em></td>
       <td>horn; to fill</td>
       <td>a horn in profile — and, doubled, the verb of granaries
           and floods filling up</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒄄</td><td>GI4</td><td><em>gi₄</em></td>
+      <td class="script sign-cell">𒄄</td><td>GI4</td><td>return</td><td><em>gi₄</em></td>
       <td>to return, restore; to answer</td>
       <td>the homecoming verb — hearts, messengers, and answers all
           travel on it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁲</td><td>DI</td><td><em>di</em></td>
+      <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td><em>di</em></td>
       <td>lawsuit, judgment; also a going</td>
       <td>court records say <em>di</em> for a case; the proverbs use
           its going-sense for anyone who wanders</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆪</td><td>KU</td><td><em>dab₅</em></td>
+      <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td><em>dab₅</em></td>
       <td>to seize; also to sit, dwell (tuš)</td>
       <td>~4 wedges, several jobs; today it is the hand of fate
           closing on a glutton</td>

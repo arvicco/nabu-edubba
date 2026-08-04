@@ -22,11 +22,11 @@ is the grain itself:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Looks like</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊺</td><td>ŠE</td><td><em>še</em></td>
+      <td class="script sign-cell">𒊺</td><td>ŠE</td><td>barley</td><td><em>še</em></td>
       <td>barley; grain</td>
       <td>a stalk with grains hanging off it — the field's classic
       example of a picture worn down to wedges</td>
