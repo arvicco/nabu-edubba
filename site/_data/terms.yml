@@ -164,6 +164,10 @@ terms:
     slug: suffix-conjugation
     school: hieroglyphs
     def: "the Egyptian verb form whose subject is a suffix pronoun on the stem — the grammars' sḏm≡f, \"he hears\""
+  - name: adverbial sentence
+    slug: adverbial-sentence
+    school: hieroglyphs
+    def: "a sentence made of a subject and a where-phrase, no verb at all — Egyptian's sw m s,t≡f, \"he is in his place\""
   - name: nominal sentence
     slug: nominal-sentence
     school: hieroglyphs

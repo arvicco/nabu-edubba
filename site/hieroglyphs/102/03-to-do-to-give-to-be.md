@@ -166,7 +166,9 @@ mud, in one stem — is what "hardest-working verb" means.
 Now the promised cliff. Egypt's great god of the dead is Osiris —
 *Wsjr* — and his name is regularly written with exactly two
 signs: the eye you learned today, and a throne. The eye is yours;
-the throne is the very next chapter's. You are one sign away from reading the name that ruled the
+the throne is
+[chapter 04's]({{ '/hieroglyphs/102/04-saying-no/' | relative_url }}).
+You are one sign away from reading the name that ruled the
 Egyptian afterlife — and the chapter that teaches it is, fittingly,
 the one about death, negation, and hearts weighed. Bring your eye.
 
