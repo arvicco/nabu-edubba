@@ -72,7 +72,11 @@ signs = pool102.map do |s|
     "chapter" => s["chapter"],
     "freq_aes" => ranks[s["gardiner"].upcase],
     "certainty" => s["certainty"]
-  }
+  }.tap do |h|
+    # Sign Codex fields (rulebook §9) — present only where curated.
+    h["keyword"] = s["keyword"] if s["keyword"]
+    h["confusable_with"] = s["confusable_with"] if s["confusable_with"]
+  end
 end
 
 covered = pool101.map { |s| s["gardiner"].upcase }.to_set

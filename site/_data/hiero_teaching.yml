@@ -15,6 +15,7 @@ signs:
   taught_in: 4
   freq_aes: 12
   certainty: classic
+  keyword: vulture
 - glyph: "𓇋"
   codepoint: 131CB
   gardiner: M17
@@ -26,6 +27,7 @@ signs:
   taught_in: 1
   freq_aes: 5
   certainty: classic
+  keyword: reed
 - glyph: "𓏭"
   codepoint: 133ED
   gardiner: Z4
@@ -37,6 +39,10 @@ signs:
   taught_in: 4
   freq_aes: 24
   certainty: classic
+  keyword: pair
+  confusable_with:
+  - Z1
+  - Z2
 - glyph: "𓂝"
   codepoint: 1309D
   gardiner: D36
@@ -48,6 +54,10 @@ signs:
   taught_in: 4
   freq_aes: 11
   certainty: classic
+  keyword: forearm
+  confusable_with:
+  - D37
+  - D40
 - glyph: "𓅱"
   codepoint: '13171'
   gardiner: G43
@@ -59,6 +69,9 @@ signs:
   taught_in: 4
   freq_aes: 18
   certainty: classic
+  keyword: chick
+  confusable_with:
+  - Z7
 - glyph: "𓏲"
   codepoint: 133F2
   gardiner: Z7
@@ -70,6 +83,9 @@ signs:
   taught_in: 4
   freq_aes: 7
   certainty: classic
+  keyword: coil
+  confusable_with:
+  - G43
 - glyph: "𓃀"
   codepoint: 130C0
   gardiner: D58
@@ -81,6 +97,7 @@ signs:
   taught_in: 4
   freq_aes: 25
   certainty: classic
+  keyword: leg
 - glyph: "𓊪"
   codepoint: 132AA
   gardiner: Q3
@@ -92,6 +109,7 @@ signs:
   taught_in: 4
   freq_aes: 16
   certainty: classic
+  keyword: stool
 - glyph: "𓆑"
   codepoint: '13191'
   gardiner: I9
@@ -103,6 +121,9 @@ signs:
   taught_in: 4
   freq_aes: 8
   certainty: classic
+  keyword: viper
+  confusable_with:
+  - I10
 - glyph: "𓅓"
   codepoint: '13153'
   gardiner: G17
@@ -114,6 +135,7 @@ signs:
   taught_in: 0
   freq_aes: 6
   certainty: classic
+  keyword: owl
 - glyph: "𓈖"
   codepoint: '13216'
   gardiner: N35
@@ -125,6 +147,9 @@ signs:
   taught_in: 0
   freq_aes: 2
   certainty: classic
+  keyword: ripple
+  confusable_with:
+  - N35A
 - glyph: "𓂋"
   codepoint: 1308B
   gardiner: D21
@@ -136,6 +161,7 @@ signs:
   taught_in: 0
   freq_aes: 3
   certainty: classic
+  keyword: mouth
 - glyph: "𓉔"
   codepoint: '13254'
   gardiner: O4
@@ -147,6 +173,7 @@ signs:
   taught_in: 4
   freq_aes: 51
   certainty: classic
+  keyword: shelter
 - glyph: "𓎛"
   codepoint: 1339B
   gardiner: V28
@@ -158,6 +185,7 @@ signs:
   taught_in: 4
   freq_aes: 19
   certainty: classic
+  keyword: wick
 - glyph: "𓐍"
   codepoint: 1340D
   gardiner: AA1
@@ -169,6 +197,7 @@ signs:
   taught_in: 4
   freq_aes: 14
   certainty: unclear
+  keyword: sieve
 - glyph: "𓄡"
   codepoint: '13121'
   gardiner: F32
@@ -180,6 +209,7 @@ signs:
   taught_in: 4
   freq_aes: 98
   certainty: classic
+  keyword: belly
 - glyph: "𓊃"
   codepoint: '13283'
   gardiner: O34
@@ -191,6 +221,7 @@ signs:
   taught_in: 4
   freq_aes: 27
   certainty: classic
+  keyword: bolt
 - glyph: "𓋴"
   codepoint: 132F4
   gardiner: S29
@@ -202,6 +233,7 @@ signs:
   taught_in: 4
   freq_aes: 10
   certainty: classic
+  keyword: cloth
 - glyph: "𓈙"
   codepoint: '13219'
   gardiner: N37
@@ -213,6 +245,7 @@ signs:
   taught_in: 4
   freq_aes: 40
   certainty: classic
+  keyword: pool
 - glyph: "𓈎"
   codepoint: 1320E
   gardiner: N29
@@ -224,6 +257,7 @@ signs:
   taught_in: 4
   freq_aes: 41
   certainty: classic
+  keyword: slope
 - glyph: "𓎡"
   codepoint: 133A1
   gardiner: V31
@@ -235,6 +269,9 @@ signs:
   taught_in: 4
   freq_aes: 23
   certainty: classic
+  keyword: basket
+  confusable_with:
+  - V31A
 - glyph: "𓎼"
   codepoint: 133BC
   gardiner: W11
@@ -246,6 +283,7 @@ signs:
   taught_in: 2
   freq_aes: 73
   certainty: classic
+  keyword: stand
 - glyph: "𓏏"
   codepoint: 133CF
   gardiner: X1
@@ -257,6 +295,9 @@ signs:
   taught_in: 4
   freq_aes: 1
   certainty: classic
+  keyword: loaf
+  confusable_with:
+  - X8
 - glyph: "𓍿"
   codepoint: 1337F
   gardiner: V13
@@ -268,6 +309,7 @@ signs:
   taught_in: 4
   freq_aes: 84
   certainty: classic
+  keyword: tether
 - glyph: "𓂧"
   codepoint: 130A7
   gardiner: D46
@@ -279,6 +321,7 @@ signs:
   taught_in: 4
   freq_aes: 20
   certainty: classic
+  keyword: hand
 - glyph: "𓆓"
   codepoint: '13193'
   gardiner: I10
@@ -290,6 +333,9 @@ signs:
   taught_in: 4
   freq_aes: 34
   certainty: classic
+  keyword: cobra
+  confusable_with:
+  - I9
 - glyph: "𓉐"
   codepoint: '13250'
   gardiner: O1
@@ -301,6 +347,7 @@ signs:
   taught_in: 3
   freq_aes: 30
   certainty: classic
+  keyword: house
 - glyph: "𓏤"
   codepoint: 133E4
   gardiner: Z1
@@ -312,6 +359,10 @@ signs:
   taught_in: 3
   freq_aes: 4
   certainty: classic
+  keyword: stroke
+  confusable_with:
+  - Z4
+  - Z2
 - glyph: "𓂻"
   codepoint: 130BB
   gardiner: D54
@@ -323,6 +374,7 @@ signs:
   taught_in: 3
   freq_aes: 28
   certainty: classic
+  keyword: walking
 - glyph: "𓍷"
   codepoint: '13377'
   gardiner: V10
@@ -334,6 +386,7 @@ signs:
   taught_in: 5
   freq_aes: 393
   certainty: classic
+  keyword: cartouche
 - glyph: "𓇳"
   codepoint: 131F3
   gardiner: N5
@@ -345,6 +398,7 @@ signs:
   taught_in: 5
   freq_aes: 21
   certainty: classic
+  keyword: sun
 - glyph: "𓇓"
   codepoint: 131D3
   gardiner: M23
@@ -356,6 +410,7 @@ signs:
   taught_in: 5
   freq_aes: 35
   certainty: classic
+  keyword: sedge
 - glyph: "𓊵"
   codepoint: 132B5
   gardiner: R4
@@ -367,6 +422,7 @@ signs:
   taught_in: 6
   freq_aes: 60
   certainty: classic
+  keyword: offering
 - glyph: "𓏙"
   codepoint: 133D9
   gardiner: X8
@@ -378,6 +434,9 @@ signs:
   taught_in: 6
   freq_aes: 87
   certainty: classic
+  keyword: given loaf
+  confusable_with:
+  - X1
 - glyph: "𓂓"
   codepoint: '13093'
   gardiner: D28
@@ -389,6 +448,7 @@ signs:
   taught_in: 6
   freq_aes: 77
   certainty: classic
+  keyword: ka
 - glyph: "𓏠"
   codepoint: 133E0
   gardiner: Y5
@@ -400,6 +460,7 @@ signs:
   taught_in: 7
   freq_aes: 48
   certainty: classic
+  keyword: board
 - glyph: "𓎟"
   codepoint: 1339F
   gardiner: V30
@@ -411,6 +472,7 @@ signs:
   taught_in: 7
   freq_aes: 29
   certainty: classic
+  keyword: lord
 - glyph: "𓁷"
   codepoint: '13077'
   gardiner: D2
@@ -422,6 +484,7 @@ signs:
   taught_in: 7
   freq_aes: 22
   certainty: classic
+  keyword: face
 - glyph: "𓄟"
   codepoint: 1311F
   gardiner: F31
@@ -433,6 +496,7 @@ signs:
   taught_in: 8
   freq_aes: 90
   certainty: classic
+  keyword: skins
 - glyph: "𓅭"
   codepoint: 1316D
   gardiner: G39
@@ -444,6 +508,7 @@ signs:
   taught_in: 8
   freq_aes: 61
   certainty: classic
+  keyword: duck
 - glyph: "𓏌"
   codepoint: 133CC
   gardiner: W24
@@ -455,6 +520,9 @@ signs:
   taught_in: 8
   freq_aes: 26
   certainty: classic
+  keyword: pot
+  confusable_with:
+  - N33
 - glyph: "𓀀"
   codepoint: '13000'
   gardiner: A1
@@ -466,6 +534,7 @@ signs:
   taught_in: 9
   freq_aes: 15
   certainty: classic
+  keyword: person
 - glyph: "𓁐"
   codepoint: '13050'
   gardiner: B1
@@ -477,6 +546,7 @@ signs:
   taught_in: 9
   freq_aes: 56
   certainty: classic
+  keyword: woman
 - glyph: "𓀁"
   codepoint: '13001'
   gardiner: A2
@@ -488,6 +558,7 @@ signs:
   taught_in: 9
   freq_aes: 32
   certainty: classic
+  keyword: hand to mouth
 - glyph: "𓏥"
   codepoint: 133E5
   gardiner: Z2
@@ -499,6 +570,10 @@ signs:
   taught_in: 9
   freq_aes: 9
   certainty: classic
+  keyword: plural
+  confusable_with:
+  - Z1
+  - Z4
 - glyph: "𓏛"
   codepoint: 133DB
   gardiner: Y1
@@ -510,6 +585,7 @@ signs:
   taught_in: 9
   freq_aes: 13
   certainty: classic
+  keyword: idea
 - glyph: "𓅪"
   codepoint: 1316A
   gardiner: G37
@@ -521,6 +597,9 @@ signs:
   taught_in: 9
   freq_aes: 46
   certainty: classic
+  keyword: smallness
+  confusable_with:
+  - G36
 - glyph: "𓋹"
   codepoint: 132F9
   gardiner: S34
@@ -532,6 +611,7 @@ signs:
   taught_in: 10
   freq_aes: 42
   certainty: unclear
+  keyword: life
 - glyph: "𓄤"
   codepoint: '13124'
   gardiner: F35
@@ -543,6 +623,7 @@ signs:
   taught_in: 10
   freq_aes: 47
   certainty: unclear
+  keyword: beautiful
 - glyph: "𓆣"
   codepoint: 131A3
   gardiner: L1
@@ -554,6 +635,7 @@ signs:
   taught_in: 10
   freq_aes: 83
   certainty: classic
+  keyword: scarab
 - glyph: "𓊹"
   codepoint: 132B9
   gardiner: R8
@@ -565,6 +647,7 @@ signs:
   taught_in: 10
   freq_aes: 39
   certainty: classic
+  keyword: flag
 - glyph: "𓃭"
   codepoint: 130ED
   gardiner: E23
@@ -576,6 +659,7 @@ signs:
   taught_in: 11
   freq_aes: 235
   certainty: classic
+  keyword: lion
 - glyph: "𓍯"
   codepoint: 1336F
   gardiner: V4
@@ -587,3 +671,4 @@ signs:
   taught_in: 11
   freq_aes: 108
   certainty: classic
+  keyword: lasso

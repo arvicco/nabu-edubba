@@ -60,12 +60,12 @@ module Edubba
       { doc: "docs/courses/cuneiform.md §7",
         registries: %w[_data/sign_teaching.yml _data/cuneiform102_queue.yml],
         shelf: "cuneiform/addenda/signs",
-        keywords: false,
+        keywords: true,
         pages: false },
       { doc: "docs/courses/hieroglyphs.md §9",
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
         shelf: "hieroglyphs/addenda/signs",
-        keywords: false,
+        keywords: true,
         pages: false }
     ].freeze
 
