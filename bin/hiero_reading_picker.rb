@@ -66,15 +66,27 @@ end
 
 if $PROGRAM_NAME == __FILE__
   abort "hiero_reading_picker: #{NABU} not found" unless File.executable?(NABU)
-  from_ch = (ARGV[0] || 7).to_i
-  to_ch = (ARGV[1] || 12).to_i
+  course102 = ARGV.delete("--course=102")
+  from_ch = (ARGV[0] || (course102 ? 0 : 7)).to_i
+  to_ch = (ARGV[1] || (course102 ? 6 : 12)).to_i
 
   registry = YAML.safe_load_file("site/_data/hiero_teaching.yml")["signs"]
   cumulative = []
   inv = Set.new
-  registry.select { |s| s["taught_in"] }.group_by { |s| s["taught_in"] }.sort.each do |ch, signs|
-    inv += signs.map { |s| s["gardiner"] }
-    cumulative << [ch, inv.dup]
+  if course102
+    # E102: all of E101 is the baseline; buckets follow the queue's
+    # chapter pins (site/_data/hieroglyphs102_queue.yml).
+    inv += registry.map { |s| s["gardiner"].upcase }
+    queue = YAML.safe_load_file("site/_data/hieroglyphs102_queue.yml")["signs"]
+    queue.select { |s| s["chapter"] }.group_by { |s| s["chapter"] }.sort.each do |ch, signs|
+      inv += signs.map { |s| s["gardiner"].upcase }
+      cumulative << [ch, inv.dup]
+    end
+  else
+    registry.select { |s| s["taught_in"] }.group_by { |s| s["taught_in"] }.sort.each do |ch, signs|
+      inv += signs.map { |s| s["gardiner"] }
+      cumulative << [ch, inv.dup]
+    end
   end
 
   buckets = Hash.new { |h, k| h[k] = [] }
