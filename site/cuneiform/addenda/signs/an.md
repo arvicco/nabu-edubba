@@ -32,22 +32,19 @@ up: sky, sky-god, or any god at all.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒎏▢𒊕</span><span class="translit">{d}nin-hur-saŋ</span><span class="gloss">For Ninhursag —</span></div>
+    <div class="reading-line"><span class="script">𒀭𒀭</span><span class="translit">diŋir-diŋir</span><span class="gloss">"god-god" — the star doubled, on an Early Dynastic roster (a name or divine pair; approximate)</span></div>
   </div>
   <figcaption class="citation">
-    Foundation inscription of Lu-Utu of Umma, late third millennium
-    BCE. <a href="https://cdli.earth/artifacts/216741">CDLI
-    P216741</a> via Nabu, <code>urn:nabu:cdli:p216741</code> ·
-    license: attribution.
+    <em>FTP</em> 103, ED IIIa (ca. 2600–2500 BCE), Šuruppak (mod.
+    Fara), University of Pennsylvania Museum.
+    <a href="https://cdli.earth/artifacts/10019">CDLI P010019</a>
+    via Nabu, <code>urn:nabu:cdli:p010019:reverse:4:2'</code> ·
+    license: attribution. Name translations are approximate by
+    nature.
   </figcaption>
 </figure>
 
-Piece by piece:
-
-- **{d}** — the star, written but never spoken: *a goddess follows*
-- **nin-hur-saŋ** — "Lady of the mountain slopes," her mountain
-  sign still ahead of you
-
-The first sign of a temple dedication, and no one ever pronounced
-it. The whole inscription is read in
-<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">102's chapter 11</a>.
+Twice the star, and nothing else on the line — the sign that is
+heaven, god, and the silent flag before divine names, wearing two
+of its three jobs at once. The three jobs are taught in
+<a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">101's chapter 03</a>.

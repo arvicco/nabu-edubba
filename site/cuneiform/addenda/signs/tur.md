@@ -32,23 +32,26 @@ little sign does the introducing: *son of*.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌉 ▢▢ ▢</span><span class="translit">dumu ma-šum bahar₂</span><span class="gloss">son of Mašum, the potter</span></div>
+    <div class="reading-line"><span class="script">𒌉𒍣</span><span class="translit">dumu-zi</span><span class="gloss">Dumuzi, "the true son" (approximate)</span></div>
   </div>
   <figcaption class="citation">
-    Obverse i 8 of <em>HLC</em> 074, Ur III Girsu, Oriental
-    Institute, Chicago.
-    <a href="https://cdli.earth/artifacts/109952">CDLI P109952</a>
-    via Nabu, <code>urn:nabu:cdli:p109952</code> · license:
-    attribution.
+    <em>FTP</em> 103, ED IIIa (ca. 2600–2500 BCE), Šuruppak (mod.
+    Fara), University of Pennsylvania Museum.
+    <a href="https://cdli.earth/artifacts/10019">CDLI P010019</a>
+    via Nabu, <code>urn:nabu:cdli:p010019:reverse:3:3'</code> ·
+    license: attribution. Name translations are approximate by
+    nature.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **dumu** — son of
-- **ma-šum** — the father's name
-- **bahar₂** — his trade: potter, its sign still ahead of you
+- **dumu** — son: this sign, doing family duty
+- **-zi** — true
 
-No surnames in Mesopotamia — a man is his name plus his father,
-and this sign makes the join. The formula is taught in
-<a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">101's chapter 07</a>.
+The shepherd-god of the love songs, named "true son" on a tablet
+older than his oldest myth. The filiation formula *X dumu Y* is
+taught in
+<a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">101's chapter 07</a>;
+the name is read in
+<a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">102's chapter 10</a>.

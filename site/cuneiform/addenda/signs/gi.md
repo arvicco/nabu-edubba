@@ -30,22 +30,25 @@ a reed — this is the sign where the tool signs its work.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒂄𒄀𒈨𒂗 𒁀𒌅𒌓𒉈𒂗𒈾𒋫 ▢𒆗𒂵𒈨𒂗</span><span class="translit">{d}šul-gi-me-en ba-tu-ud-de₃-en-na-ta nitah kalag-ga-me-en</span><span class="gloss">"I am Šulgi: a mighty male since the day I was born"</span></div>
+    <div class="reading-line"><span class="script">𒆠𒂗𒄀</span><span class="translit">ki-en-gi</span><span class="gloss">Kiengi — Sumer, in its own oldest name</span></div>
   </div>
   <figcaption class="citation">
-    <em>Šulgi A</em>, a praise poem of Šulgi, line 2.
-    <code>urn:nabu:etcsl:2.4.2.01:2</code> · license: ETCSL ·
-    non-commercial.
+    <em>Iraq</em> 40, 518, ED IIIa (ca. 2600–2500 BCE), probably
+    Abu Salabikh, National Museum of Iraq, Baghdad.
+    <a href="https://cdli.earth/artifacts/10447">CDLI P010447</a>
+    via Nabu, <code>urn:nabu:cdli:p010447:reverse:2:6</code> ·
+    license: attribution.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **{d}šul-gi-me-en** — I am Šulgi: the reed closing the royal
-  name
-- **ba-tu-ud-de₃-en-na-ta** — since I was born
-- **nitah kalag-ga-me-en** — a mighty male am I
+- **ki-en** — place, lord: the name's first two signs
+- **gi** — the reed, closing the country's own name — how the
+  whole parses is a debate the grammars carry
 
-A king whose name ends in a reed — fitting, for the king the
-schools remembered as their patron. The hymn is read in
-<a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">102's chapter 15</a>.
+Sumer's name for itself ends in a reed — the plant its script,
+its boats, and its houses were all cut from. The reed as tool is
+told in
+<a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">102's chapter 15</a>
+and the writing primer.

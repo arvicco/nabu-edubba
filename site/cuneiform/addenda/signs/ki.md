@@ -33,23 +33,24 @@ stand on.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈗▢𒆠</span><span class="translit">lugal uri₅{ki}</span><span class="gloss">king of Ur,</span></div>
+    <div class="reading-line"><span class="script">𒆠𒂗𒄀</span><span class="translit">ki-en-gi</span><span class="gloss">Kiengi — Sumer, in its own oldest name</span></div>
   </div>
   <figcaption class="citation">
-    Seal 1 of <em>AnOr</em> 01, 086, Ur III Umma, Bibliothèque
-    Nationale et Universitaire de Strasbourg.
-    <a href="https://cdli.earth/artifacts/101077">CDLI P101077</a>
-    via Nabu, <code>urn:nabu:cdli:p101077:seal.1</code> · license:
-    attribution.
+    <em>Iraq</em> 40, 518, ED IIIa (ca. 2600–2500 BCE), probably
+    Abu Salabikh, National Museum of Iraq, Baghdad.
+    <a href="https://cdli.earth/artifacts/10447">CDLI P010447</a>
+    via Nabu, <code>urn:nabu:cdli:p010447:reverse:2:6</code> ·
+    license: attribution.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **lugal** — king
-- **uri₅** — Ur, its sign still boxed for you
-- **{ki}** — the silent tag: *that was a city*
+- **ki** — place: this sign, opening the country's name
+- **en-gi** — the rest of *ki-en-gi*, "Sumer" — how the name
+  parses beyond "place of…" is a debate the grammars carry
 
-A royal seal names the city, and the place-tag seals the claim.
-The full titulary is read in
-<a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">101's chapter 06</a>.
+"Sumer" is our word, borrowed through Akkadian; the Sumerians'
+own name for their country starts with the place-sign itself.
+The place-tag's grammar is taught in
+<a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">101's chapter 03</a>.
