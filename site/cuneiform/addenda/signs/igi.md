@@ -31,22 +31,23 @@ say *witnessed*.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢ 𒅆 ▢ ▢▢𒂊 𒌅𒁕𒈨𒂗</span><span class="translit">piriŋ igi huš ušumgal-e tud-da-me-en</span><span class="gloss">"— a fierce-eyed lion, born of a dragon am I!"</span></div>
+    <div class="reading-line"><span class="script">𒅆𒌧</span><span class="translit">igi-kalam</span><span class="gloss">Igi-kalam — "Eye of the Land" (approximate)</span></div>
   </div>
   <figcaption class="citation">
-    <em>Šulgi A</em>, a praise poem of Šulgi, line 3.
-    <code>urn:nabu:etcsl:2.4.2.01:3</code> · license: ETCSL ·
-    non-commercial.
+    <em>SF</em> 028, ED IIIa (ca. 2600–2500 BCE), Šuruppak (mod.
+    Fara), Vorderasiatisches Museum, Berlin.
+    <a href="https://cdli.earth/artifacts/10607">CDLI P010607</a>
+    via Nabu, <code>urn:nabu:cdli:p010607:reverse:3:8</code> ·
+    license: attribution. Name translations are approximate by
+    nature.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **piriŋ igi huš** — a lion with a fierce eye: the lion and the
-  fierceness await their signs
-- **ušumgal-e tud-da-me-en** — born of a dragon am I
+- **igi** — eye: this sign, watching
+- **kalam** — the Land
 
-Royal bragging needs an eye to glare with. The boast is read in
-<a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">102's chapter 15</a>;
-the witness formula in
-<a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">chapter 06</a>.
+A person named as the country's watching eye — the same eye that
+witnesses documents. The witness formula is taught in
+<a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">102's chapter 06</a>.

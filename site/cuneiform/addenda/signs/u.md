@@ -32,26 +32,24 @@ tens sit as hooks.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒋗▢ 𒎙𒐍 ▢▢ 𒋗▢ 𒎙𒐌 ▢▢</span><span class="translit">šunigin 2(u) 8(diš) kir₁₁ šunigin 2(u) 7(diš) sila₄-nita₂</span><span class="gloss">total: 28 female lambs; total: 27 male lambs</span></div>
+    <div class="reading-line"><span class="script">𒌋 𒊺𒄥 𒈗</span><span class="translit">1(u) še gur lugal</span><span class="gloss">"ten gur of barley, by the royal gur"</span></div>
   </div>
   <figcaption class="citation">
-    Reverse 14 of <em>Nisaba</em> 26, 097, an Ur III herding account
-    from Umma, British Museum.
-    <a href="https://cdli.earth/artifacts/453265">CDLI P453265</a>
-    via Nabu, <code>urn:nabu:cdli:p453265:reverse:14</code> ·
+    Obverse 1 of <em>AAS</em> 090, an Ur III account from Umma
+    (reign of Šulgi), Louvre.
+    <a href="https://cdli.earth/artifacts/100077">CDLI P100077</a>
+    via Nabu, <code>urn:nabu:cdli:p100077:obverse:1</code> ·
     license: attribution.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **šunigin** — "total"; its compound sign is not yet yours
-- **2(u) 8(diš)** — twenty-eight: in this scribe's tight hand the
-  two ten-corners press into one cluster 𒎙, and the eight tallies
-  into 𒐍
-- **kir₁₁ / sila₄-nita₂** — female lamb, male lamb; the herding
-  vocabulary waits for a later course
+- **1(u)** — ten: one corner wedge, one press of the tip
+- **še gur** — of barley, by the bushel
+- **lugal** — "royal": the king's standard measure, stamped on
+  the unit
 
-A shepherd's year, closed out in corners and strokes. The counting
-system itself is taught in
+Ten in a single dent, opening a granary line. The counting system
+is taught in
 <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">101's chapter 05</a>.

@@ -30,21 +30,24 @@ opens the account — *since I was born…*
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒂄𒄀𒈨𒂗 𒁀𒌅𒌓𒉈𒂗𒈾𒋫 ▢𒆗𒂵𒈨𒂗</span><span class="translit">{d}šul-gi-me-en ba-tu-ud-de₃-en-na-ta nitah kalag-ga-me-en</span><span class="gloss">"I am Šulgi: a mighty male since the day I was born"</span></div>
+    <div class="reading-line"><span class="script">𒆠 𒀀𒌅𒋫</span><span class="translit">ki a-tu-ta</span><span class="gloss">"from Atu" — the receipts' from-so-and-so formula</span></div>
   </div>
   <figcaption class="citation">
-    <em>Šulgi A</em>, a praise poem of Šulgi, line 2.
-    <code>urn:nabu:etcsl:2.4.2.01:2</code> · license: ETCSL ·
-    non-commercial.
+    Obverse 2 of <em>AAS</em> 046, an Ur III account from Umma
+    (reign of Šulgi), Louvre.
+    <a href="https://cdli.earth/artifacts/100034">CDLI P100034</a>
+    via Nabu, <code>urn:nabu:cdli:p100034:obverse:2</code> ·
+    license: attribution. Name translations are approximate by
+    nature.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **{d}šul-gi-me-en** — I am Šulgi
-- **ba-tu-ud-de₃-en-na-ta** — since I was born: this sign at the
-  heart of the clause
-- **nitah kalag-ga-me-en** — a mighty male am I
+- **ki … -ta** — "from (the place of) …": place plus the ablative,
+  the standard transfer formula
+- **a-tu** — the man's name, Atu — this sign closing it
 
-Royal modesty: mighty from day one. The hymn is read in
+Goods change hands, and the record names their source. The hymn
+where this sign does its birth-work is read in
 <a href="{{ '/cuneiform/102/15-i-am-the-king/' | relative_url }}">102's chapter 15</a>.

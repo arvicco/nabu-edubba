@@ -32,24 +32,23 @@ you already own it — there is nothing else to hold.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀸 ▢ ▢𒀭▢</span><span class="translit">1(aš@c) 1(barig) ur-{d}nanše</span><span class="gloss">(grain allotment) for Ur-Nanše</span></div>
+    <div class="reading-line"><span class="script">𒀸 𒇽 𒋗 𒁀𒋾</span><span class="translit">1(aš) lu₂ šu ba-ti</span><span class="gloss">"one (unit) — the man received (it)"</span></div>
   </div>
   <figcaption class="citation">
-    Obverse i 7 of <em>HLC</em> 074, Ur III Girsu (reign of Šulgi),
-    Oriental Institute, Chicago.
-    <a href="https://cdli.earth/artifacts/109952">CDLI P109952</a>
-    via Nabu, <code>urn:nabu:cdli:p109952</code> · license:
-    attribution.
+    <em>TSŠ</em> 0050, ED IIIa (ca. 2600–2500 BCE), Šuruppak (mod.
+    Fara), Arkeoloji Müzeleri, Istanbul.
+    <a href="https://cdli.earth/artifacts/10721">CDLI P010721</a>
+    via Nabu, <code>urn:nabu:cdli:p010721:obverse:1:3</code> ·
+    license: attribution.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **1(aš@c)** — one unit of grain; ATF's *@c* marks the curved,
-  archaic variant of this very wedge
-- **1(barig)** — a smaller grain measure, its sign not yet taught
-- **ur-{d}nanše** — the man being paid, Ur-Nanše
+- **1(aš)** — one unit: this wedge, doing its oldest job
+- **lu₂ šu ba-ti** — the man received it: the receipts' star
+  sentence
 
-A personnel roster pays a man his grain, and the first thing on the
-line is this sign doing its oldest job. You first read this line in
-<a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">101's chapter 07</a>.
+One wedge opens the line, and the oldest formula in bookkeeping
+follows. The formula is assembled in
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">102's chapter 08</a>.

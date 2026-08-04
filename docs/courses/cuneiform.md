@@ -147,3 +147,9 @@ Ruled 2026-08-04 at the start of Phase 9, before any codex content
   line with URN + license per §3; the display laws (§1) apply in
   full. In chapter sign tables, the glyph itself links to the
   sign's codex page.
+- **Fully readable, no boxes** (owner ruling 2026-08-04): a codex
+  page's attested line contains NO untaught sign — never a ▢.
+  Chapters may box what a student hasn't met; the sign's own
+  home page shows it only in company it can fully keep. Number
+  notation n(aš), n(diš), n(u) counts as taught — repeated
+  taught wedges.

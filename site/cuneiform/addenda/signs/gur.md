@@ -32,24 +32,24 @@ bushel*.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒎙𒊺𒄥 𒊺▢𒊏 𒄥</span><span class="translit">2(u) še gur še ur₅-ra gur</span><span class="gloss">twenty gur of barley — barley of the loan — in gur</span></div>
+    <div class="reading-line"><span class="script">𒌋 𒊺𒄥 𒈗</span><span class="translit">1(u) še gur lugal</span><span class="gloss">"ten gur of barley, by the royal gur"</span></div>
   </div>
   <figcaption class="citation">
-    Obverse 1 of <em>Kyoto</em> 05, an Ur III account from Umma
-    (reign of Šulgi), Kyoto University.
-    <a href="https://cdli.earth/artifacts/112410">CDLI P112410</a>
-    via Nabu, <code>urn:nabu:cdli:p112410:obverse:1</code> ·
+    Obverse 1 of <em>AAS</em> 090, an Ur III account from Umma
+    (reign of Šulgi), Louvre.
+    <a href="https://cdli.earth/artifacts/100077">CDLI P100077</a>
+    via Nabu, <code>urn:nabu:cdli:p100077:obverse:1</code> ·
     license: attribution.
   </figcaption>
 </figure>
 
 Piece by piece:
 
-- **2(u) še gur** — twenty gur of barley, the tens pressed into
-  one cluster 𒎙
-- **še ur₅-ra** — barley of the loan; *ur₅* is not yet yours
-- **gur** — the measure stamped once more
+- **1(u) še** — ten (units) of barley
+- **gur** — the bushel, stamping the unit
+- **lugal** — "royal": measured by the king's own standard gur
 
-Somebody owed the granary twenty bushels, and the tablet says so
-twice. The measure is taught with the counting system in
+Ten bushels, certified against the royal measure — the granary
+texts' everyday opening. The measure is taught with the counting
+system in
 <a href="{{ '/cuneiform/101/05-counting/' | relative_url }}">101's chapter 05</a>.
