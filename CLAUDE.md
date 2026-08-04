@@ -170,11 +170,13 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 7 — Cuneiform 102 third and final stretch (chs 12–17;
-plan pending owner approval).
+Phase 8 — Hieroglyphs 102 · Middle Egyptian, first stretch (plan
+pending owner approval; C103 Akkadian the alternative).
 
-Gate 6 merged 2026-07-31 (Hieroglyphs 101 complete: chs 07–12, 53
-signs, Rosetta decipherment; phonetics primers both schools;
-course rulebooks in docs/courses/ enforced by the gate; hiero
-frequency table regenerated after the mixed-case incident).
+Gate 7 merged 2026-08-02 (Cuneiform 102 complete: chs 12–18, 51
+signs, 77 total, ~54% coverage floor; owner review rounds 1–4
+absorbed — locative early, nominalizer bite, piece-by-piece
+walkthrough law sharpened; Addenda shelves in both schools with
+the Writing primer and split glossaries; é banned in translit
+course-wide; every chapter mention linked).
 Update this line at each gate.

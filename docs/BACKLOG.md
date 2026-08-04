@@ -397,3 +397,38 @@ Acceptance per packet: gate green (incl. rulebook checks), pedagogy
 commitments 1–9, rulebook (docs/courses/cuneiform.md) obeyed —
 notation decisions land there first; URN + license label per
 reading; terms.yml same-commit (locative due); surface review.
+
+Gate 7 CLOSED — PR #10 merged 2026-08-02, CI + deploy green, live
+surface verified. Cuneiform 102 complete (19 chapters, 51 signs,
+77 total, ~54% coverage floor). Owner review rounds 1–4 absorbed;
+walkthrough law sharpened in the rulebook (piece-by-piece, no
+crammed glosses); Addenda shelves born in both schools (Writing
+primer from the wedge-order scout; glossary split C/E); é banned
+in transliteration with rulebook enforcement; every chapter
+mention linked course-wide. Incident recorded: 2h of owner review
+notes lost to ctrl+s stash (unbound now; notes land in .docs/
+immediately, long drafts via external editor).
+
+## Phase 8 — Hieroglyphs 102 · Middle Egyptian, first stretch (approved 2026-08-03: "E102, let's have 6 chapters in the first stretch" — 00 + chs 01–06)
+
+## M8-1 · E102 rulebook extension (docs/courses/hieroglyphs.md)  [tier: top — Fable] [status: done]
+   Conventions BEFORE content, per the rulebook law: verb-form
+   display and glossing (sḏm=f notation), suffix-pronoun display,
+   sentence-type terminology, corpus line-selection rules for the
+   literacy track, coverage-chart method. Machine-checkable subset
+   into script/rulebook.rb same commit.
+## M8-2 · Instruments: E102 queue + reading sweep  [tier: top] [status: done — blocker cleared 2026-08-04, discovery-driven pins, 2120-line sweep] [deps: M8-1]
+   Computed sign queue for the literacy track (curriculum-compiler
+   run over the committed aes frequency table, continuing from
+   E101's 53 signs; additive site/_data/hieroglyphs102_queue.yml +
+   contract test); reading sweep via hiero_reading_picker into
+   .docs/p8-readings.md — whole fully-annotated aes lines only,
+   URNs verified before any citation.
+## M8-3 · Ch. 00 — orientation: the literacy track  [tier: top — Fable] [status: done] [deps: M8-2]
+## M8-4..M8-9 · Chs. 01–06 — first stretch subject chapters  [tier: top — Fable] [status: done] [deps: M8-3]
+   Grammar in reading-sized bites, sequence driven by the sweep
+   (expected terrain: the verbal sentence and sḏm=f, direct and
+   indirect genitive, adjectives, adverbial sentences with
+   prepositions); every chapter opens with 1–3 thematic signs,
+   piece-by-piece walkthroughs per the sharpened law.
+## M8-10 · Stretch close + stitching, gate PR  [tier: top] [status: done] [deps: M8-9]
