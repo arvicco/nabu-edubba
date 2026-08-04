@@ -33,6 +33,19 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                             [s["gardiner"], s["value"], s["meaning"]]
                           ) }
     end
+    # E102's queue joins the map the way C102's always did — its
+    # chapters predate this wiring, so their tables self-heal here.
+    hiero102_urls = site.pages.each_with_object({}) do |p, h|
+      h[p.data["chapter"]] = p.url if p.data["course"] == "hieroglyphs-102" && p.data["chapter"]
+    end
+    Array(site.data.dig("hieroglyphs102_queue", "signs")).each do |s|
+      ch = s["chapter"] or next
+      url = hiero102_urls[ch] or next
+      map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                          tip: Edubba::SignLinker.tip_join(
+                            [s["gardiner"], s["value"], s["meaning"]]
+                          ) }
+    end
     # Codex pages (rulebook §7/§9): sign-table cells link the glyph
     # to its Addenda sign page — wired per school as each shelf
     # ships, keyed on the page actually existing in the build.

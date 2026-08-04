@@ -500,17 +500,17 @@ P210013 miscited as Umma (Girsu).
    The family favicon from Nabu (.docs/inbox delivery): É 𒂍, the
    house — dark chocolate on old paper; svg + ico + touch icon in
    the site root, wired in the default layout head.
-## M10-1 · E Signs shelf index + Addenda wiring  [tier: top] [status: todo]
+## M10-1 · E Signs shelf index + Addenda wiring  [tier: top] [status: done]
    /hieroglyphs/addenda/signs/ index live from both E registries in
    curriculum order (machinery reused; Gardiner-code slugs); E
    Addenda catalog entry; sidebar chapter.
-## M10-2 · E101 codex pages I (chs 0–4, 27 signs)  [tier: top — Fable] [status: todo] [deps: M10-1]
+## M10-2 · E101 codex pages I (chs 0–4, 29 signs + 2 pulled forward)  [tier: top — Fable] [status: done]
    The uniliteral core: attested lines box-free per the §7 law,
    found via the hiero picker with the full 74-sign inventory,
    every display token-matched to the source's hiero_inventar.
-## M10-3 · E101 codex pages II (chs 5–11, 26 signs)  [tier: top — Fable] [status: todo] [deps: M10-2]
-## M10-4 · E102 codex pages (21 signs)  [tier: top — Fable] [status: todo] [deps: M10-3]
-## M10-5 · Activation + stitching, gate PR  [tier: top] [status: todo] [deps: M10-4]
+## M10-3 · E101 codex pages II (chs 5–11, 24 signs)  [tier: top — Fable] [status: done — pushed red once: gate piped through tail, law re-broken and re-learned; fixed by the M10-4 commit]
+## M10-4 · E102 codex pages (19 remaining signs)  [tier: top — Fable] [status: done — V10 cartouche carries a flagged no-line exception]
+## M10-5 · Activation + stitching, gate PR  [tier: top] [status: done — E102 queue wired into sign_linker (its tables had never been linked at all); E page-check live]
    Flip the E page-per-sign gate check; sign-table glyph links
    self-heal via sign_linker (verify in pixels, incl. E102's
    promised retrofit); Addenda catalogs; surface review; PR.
