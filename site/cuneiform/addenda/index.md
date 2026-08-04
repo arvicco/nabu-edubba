@@ -38,6 +38,9 @@ in your study.
   <li><a href="{{ '/cuneiform/addenda/decks/' | relative_url }}">Study decks — real spaced repetition</a>
       — downloadable Anki decks, one card per sign, and the three
       steps to FSRS scheduling</li>
+  <li><a href="{{ '/cuneiform/addenda/frontier/' | relative_url }}">Almost yours — the frontier</a>
+      — real corpus lines one sign beyond your inventory, ▢ by
+      design: the edge of your reading, made visible</li>
 </ol>
 
 The shelf will grow — extended materials that outgrow a course
