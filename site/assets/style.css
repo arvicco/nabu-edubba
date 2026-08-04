@@ -424,6 +424,28 @@ img, svg { max-width: 100%; }
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }
 
+/* --- Spiral warm-up (Stage C retrieval panels) --- */
+.warmup {
+  margin: 1.25rem 0 2rem;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+}
+.warmup > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.warmup-list { margin: 0.75rem 0 0.25rem; padding-left: 1.4rem; }
+.warmup-list li { margin: 0.5rem 0; }
+.warmup-list summary { cursor: pointer; }
+.warmup-list .script { font-size: 1.6rem; color: var(--accent); }
+.warmup-answer { margin: 0.4rem 0 0.2rem 1rem; color: var(--muted); }
+.warmup-answer .script { font-size: 1.8rem; }
+
 /* --- Sign Codex pages (Addenda Signs shelves) --- */
 .sign-hero {
   font-size: 6.5rem;
