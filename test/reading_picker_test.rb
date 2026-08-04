@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# (reinforcement tests appended at bottom — §8 owner ruling)
+
 require "minitest/autorun"
 require "set"
 require_relative "../bin/reading_picker"
@@ -34,5 +36,21 @@ class ReadingPickerTest < Minitest::Test
     assert_equal 6, P.readable_chapter(%w[lugal kur], cumulative)
     assert_equal 7, P.readable_chapter(%w[lugal mah], cumulative)
     assert_nil P.readable_chapter(%w[lugal zag], cumulative)
+  end
+end
+
+class ReinforcementTest < Minitest::Test
+  def test_counts_distinct_vintage_values_only
+    val2ch = { "me" => 0, "ur" => 0, "sze3" => 1, "szu" => 6, "ba" => 8 }
+    score, hits = Edubba::ReadingPicker.reinforcement(%w[ba ba szu lugal], 9, val2ch)
+    assert_equal 1, score                       # ba at N-1; szu at N-3 misses; ba counted once
+    assert_equal ["ba"], hits
+  end
+
+  def test_exact_vintage_offsets
+    val2ch = { "a" => 1, "b" => 3, "c" => 5, "d" => 9, "e" => 2 }
+    score, hits = Edubba::ReadingPicker.reinforcement(%w[a b c d e], 5, val2ch)
+    assert_equal %w[a b], hits.sort             # offsets 4 and 2; c=0, d=-4, e=3
+    assert_equal 2, score
   end
 end
