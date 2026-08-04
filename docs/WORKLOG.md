@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-04 · Gate 10 closed · PR #13 merged by owner same day
+after four review rounds, CI + deploy green, live E shelf verified
+in pixels. The rounds became durable fixes site-wide: the school
+accent is now derived from the URL (chapters never carried school:
+front matter, so every hieroglyph page had rendered in cuneiform
+orange since E101 shipped — one layout line fixes all pages
+forever); the keyword column entered every chapter sign table by
+registry-verified sweep (158 rows, zero misses — §7's
+"everywhere the sign is named" finally fully true) plus the three
+generated References; and the sign tables were rebalanced (last
+column takes 42%, references/shelves opt out via tail-fit with
+nowrap) with headers shortened to Name/Key at the owner's
+suggestion — the long GARDINER/KEYWORD headers had been inflating
+three-character columns. Branch phase-11 opened; Stage C (the
+retrieval layer) proposed as the next phase.
+
 2026-08-04 · M10-0..M10-5 · phase-10 · Stage B in one run: the site
 got its favicon (Nabu's family delivery — É, dark chocolate on old
 paper, wired in the layout head) and the hieroglyph school got its
