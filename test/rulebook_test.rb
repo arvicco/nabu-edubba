@@ -50,4 +50,57 @@ class RulebookTest < Minitest::Test
              "#{rb[:doc]} missing — the docs are the source of truth"
     end
   end
+
+  # --- Sign Codex (cuneiform.md §7 / hieroglyphs.md §9) ---
+
+  CODEX_ON = { doc: "docs/courses/cuneiform.md §7",
+               shelf: "cuneiform/addenda/signs",
+               keywords: true, pages: true }.freeze
+
+  def test_sign_slug_exact_values
+    { "AŠ" => "asz", "GAL" => "gal", "É" => "e2", "KA×A" => "kaxa",
+      "ŠA3" => "sza3", "EŠ2" => "esz2", "LU2" => "lu2", "N35A" => "n35a" }.each do |name, slug|
+      assert_equal slug, Edubba::Rulebook.sign_slug(name)
+    end
+  end
+
+  def test_codex_flags_duplicate_keywords_even_before_activation
+    signs = [{ "name" => "GAL", "taught_in" => 6, "keyword" => "big" },
+             { "name" => "MAH", "chapter" => 3, "keyword" => "big" }]
+    details = Edubba::Rulebook.check_codex(signs, [], CODEX_ON.merge(keywords: false, pages: false))
+    assert_equal 1, details.size
+    assert_match(/"big" on more than one sign/, details[0])
+  end
+
+  def test_codex_requires_keywords_on_taught_signs_only
+    signs = [{ "name" => "GAL", "taught_in" => 6 },
+             { "name" => "MI", "chapter" => nil }]   # unpinned pool sign — exempt
+    details = Edubba::Rulebook.check_codex(signs, [], CODEX_ON.merge(pages: false))
+    assert_equal 1, details.size
+    assert_match(/GAL has no keyword/, details[0])
+  end
+
+  def test_codex_requires_a_page_per_taught_sign_and_flags_orphans
+    signs = [{ "name" => "GAL", "taught_in" => 6, "keyword" => "big" },
+             { "name" => "É", "chapter" => 7, "keyword" => "house" }]
+    details = Edubba::Rulebook.check_codex(signs, ["gal", "ee2"], CODEX_ON)
+    assert_equal 2, details.size
+    assert_match(/ee2\.md matches no taught sign/, details[0])
+    assert_match(/É has no codex page e2\.md/, details[1])
+  end
+
+  def test_codex_orphan_pages_flag_even_before_activation
+    signs = [{ "name" => "GAL", "taught_in" => 6 }]
+    details = Edubba::Rulebook.check_codex(signs, ["gall"], CODEX_ON.merge(keywords: false, pages: false))
+    assert_equal 1, details.size
+    assert_match(/gall\.md matches no taught sign/, details[0])
+  end
+
+  def test_codex_gardiner_identity_wins_and_live_config_is_quiet_today
+    signs = [{ "gardiner" => "G1", "name" => "G1", "taught_in" => 4, "keyword" => "vulture" }]
+    assert_empty Edubba::Rulebook.check_codex(signs, ["g1"], CODEX_ON)
+    site = File.expand_path("../site", __dir__)
+    assert_empty Edubba::Rulebook.codex_violations(site),
+                 "live registries/shelves must satisfy the codex config as flagged"
+  end
 end

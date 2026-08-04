@@ -19,6 +19,12 @@ class HieroQueueContractTest < Minitest::Test
     end
   end
 
+  def test_every_pinned_sign_carries_a_keyword
+    QUEUE["signs"].select { |s| s["chapter"] }.each do |s|
+      refute_nil s["keyword"], "#{s['gardiner']} pinned without a keyword (rulebook §9)"
+    end
+  end
+
   def test_glyph_matches_its_declared_codepoint
     QUEUE["signs"].each do |s|
       assert_equal s["codepoint"].hex, s["glyph"].codepoints.first,

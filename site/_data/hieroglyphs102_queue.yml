@@ -17,6 +17,7 @@ signs:
   chapter: 3
   freq_aes: 33
   certainty: classic
+  keyword: eye
 - glyph: "𓂞"
   codepoint: 1309E
   gardiner: D37
@@ -28,6 +29,10 @@ signs:
   chapter: 3
   freq_aes: 66
   certainty: classic
+  keyword: giving arm
+  confusable_with:
+  - D36
+  - D40
 - glyph: "𓃹"
   codepoint: 130F9
   gardiner: E34
@@ -39,6 +44,7 @@ signs:
   chapter: 3
   freq_aes: 58
   certainty: classic
+  keyword: hare
 - glyph: "𓌳"
   codepoint: '13333'
   gardiner: U1
@@ -72,6 +78,7 @@ signs:
   chapter: 4
   freq_aes: 49
   certainty: classic
+  keyword: refusal
 - glyph: "𓉻"
   codepoint: 1327B
   gardiner: O29
@@ -83,6 +90,7 @@ signs:
   chapter: 6
   freq_aes: 54
   certainty: classic
+  keyword: great
 - glyph: "𓅨"
   codepoint: '13168'
   gardiner: G36
@@ -94,6 +102,9 @@ signs:
   chapter: 6
   freq_aes: 57
   certainty: classic
+  keyword: elder
+  confusable_with:
+  - G37
 - glyph: "𓇯"
   codepoint: 131EF
   gardiner: N1
@@ -105,6 +116,7 @@ signs:
   chapter: 0
   freq_aes: 94
   certainty: classic
+  keyword: sky
 - glyph: "𓇿"
   codepoint: 131FF
   gardiner: N17
@@ -116,6 +128,7 @@ signs:
   chapter: 0
   freq_aes: 67
   certainty: classic
+  keyword: land
 - glyph: "𓇾"
   codepoint: 131FE
   gardiner: N16
@@ -138,6 +151,7 @@ signs:
   chapter: 4
   freq_aes: 62
   certainty: classic
+  keyword: heart
 - glyph: "𓁶"
   codepoint: '13076'
   gardiner: D1
@@ -171,6 +185,7 @@ signs:
   chapter: 1
   freq_aes: 68
   certainty: classic
+  keyword: likeness
 - glyph: "𓊨"
   codepoint: 132A8
   gardiner: Q1
@@ -182,6 +197,7 @@ signs:
   chapter: 4
   freq_aes: 52
   certainty: classic
+  keyword: throne
 - glyph: "𓊖"
   codepoint: '13296'
   gardiner: O49
@@ -215,6 +231,7 @@ signs:
   chapter: 2
   freq_aes: 86
   certainty: classic
+  keyword: majesty
 - glyph: "𓍑"
   codepoint: '13351'
   gardiner: U28
@@ -226,6 +243,7 @@ signs:
   chapter: 6
   freq_aes: 80
   certainty: classic
+  keyword: fire-drill
 - glyph: "𓆼"
   codepoint: 131BC
   gardiner: M12
@@ -281,6 +299,9 @@ signs:
   chapter: 2
   freq_aes: 31
   certainty: classic
+  keyword: mirror basket
+  confusable_with:
+  - V31
 - glyph: "𓅆"
   codepoint: '13146'
   gardiner: G7
@@ -292,6 +313,7 @@ signs:
   chapter: 2
   freq_aes: 17
   certainty: classic
+  keyword: watcher
 - glyph: "𓏪"
   codepoint: 133EA
   gardiner: Z3
@@ -325,6 +347,7 @@ signs:
   chapter: 5
   freq_aes: 37
   certainty: classic
+  keyword: effort
 - glyph: "𓂡"
   codepoint: 130A1
   gardiner: D40
@@ -336,6 +359,10 @@ signs:
   chapter: 5
   freq_aes: 71
   certainty: classic
+  keyword: force
+  confusable_with:
+  - D36
+  - D37
 - glyph: "𓈒"
   codepoint: '13212'
   gardiner: N33
@@ -347,6 +374,9 @@ signs:
   chapter: 5
   freq_aes: 38
   certainty: classic
+  keyword: sand
+  confusable_with:
+  - W24
 - glyph: "𓈇"
   codepoint: '13207'
   gardiner: N23
@@ -369,6 +399,9 @@ signs:
   chapter: 1
   freq_aes: 55
   certainty: classic
+  keyword: water
+  confusable_with:
+  - N35
 - glyph: "𓄹"
   codepoint: '13139'
   gardiner: F51
@@ -413,6 +446,7 @@ signs:
   chapter: 4
   freq_aes: 69
   certainty: classic
+  keyword: death's stand-in
 - glyph: "𓏯"
   codepoint: 133EF
   gardiner: Z5
@@ -479,6 +513,7 @@ signs:
   chapter: 5
   freq_aes: 64
   certainty: unclear
+  keyword: sickness
 batches:
 - chapter: 0
   signs:

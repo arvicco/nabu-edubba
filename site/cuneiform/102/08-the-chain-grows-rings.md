@@ -35,7 +35,9 @@ that chapter. Three new signs, and the chain finally gets named.
       <td>to allot, to share out; the verbal prefix <em>ba-</em></td>
       <td>~4 wedges; on receipts it is a whole verb, "allotted"; inside
           a chain it is a prefix that colors the action toward "away,
-          for itself" — the difference is position, not the sign</td>
+          for itself" — the difference is position, not the sign. You
+          met these wedges once before their time, in the school's own
+          name in <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">101's tablet house</a></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅔</td><td>IN</td><td><em>in</em></td>

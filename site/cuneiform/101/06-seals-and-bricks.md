@@ -158,7 +158,7 @@ of Assyriology, in miniature.
 ### Reading 3 — the formula becomes a date
 
 Mesopotamian years were named after royal deeds, and documents carry
-those names as their dates. On a labor receipt from Umma, the date
+those names as their dates. On a labor account from Girsu, the date
 line runs the full titulary of king Šulgi — the formula you now know,
 embedded in the middle of bookkeeping, opened by your new sign *mu*,
 "year":
@@ -168,7 +168,7 @@ embedded in the middle of bookkeeping, opened by your new sign *mu*,
     <div class="reading-line"><span class="script">𒈬 𒀭▢▢ ▢▢ 𒈗▢𒆠 𒈗𒀭▢▢▢▢▢ …</span><span class="translit atf">mu {d}szul-gi [nita] kal-ga# lugal uri5#{ki#} lugal an-ub-da limmu2-ba-ke4 ...</span><span class="gloss">Year: (when) Šulgi, mighty man, king of Ur, king of the four quarters, …</span></div>
   </div>
   <figcaption class="citation">
-    Reverse iv 3′ of an Ur III account, Umma.
+    Reverse iv 3′ of an Ur III account, Girsu.
     <a href="https://cdli.earth/artifacts/210013">CDLI P210013</a>
     via Nabu, <code>urn:nabu:cdli:p210013</code> (also carried, with
     gold lemmatization, as <code>urn:nabu:oracc:epsd2-admin-ur3:P210013</code>) ·

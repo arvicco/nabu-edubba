@@ -65,7 +65,11 @@ signs = pool.map do |s|
     "taught_in" => s["taught_in"],
     "freq_aes" => ranks[s["gardiner"]],
     "certainty" => s["certainty"]
-  }
+  }.tap do |h|
+    # Sign Codex fields (rulebook §9) — present only where curated.
+    h["keyword"] = s["keyword"] if s["keyword"]
+    h["confusable_with"] = s["confusable_with"] if s["confusable_with"]
+  end
 end
 
 # Psych escapes astral-plane glyphs (\U0001313F); the registry must

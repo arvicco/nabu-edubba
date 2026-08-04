@@ -61,6 +61,23 @@ module Edubba
         next g unless entry
 
         anchor = entry[:anchor]
+        # Sign-table cells link to the sign's codex page (rulebook §7,
+        # owner design 2026-08-04) once that page exists; on the sign's
+        # own teaching page the cell keeps its anchor id so incoming
+        # taught-in links still land. Without a codex page (a school
+        # whose shelf hasn't shipped) the original behavior stands.
+        if in_sign_cell && (codex = entry[:codex]) && codex != page_url
+          tip = ""
+          id_attr = ""
+          if entry[:url] == page_url && !emitted_ids[anchor]
+            emitted_ids[anchor] = true
+            id_attr = %( id="#{anchor}")
+          elsif entry[:tip]
+            tip = %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>)
+          end
+          next %(<a class="sign-link"#{id_attr} href="#{baseurl}#{codex}">#{g}#{tip}</a>)
+        end
+
         if in_sign_cell && entry[:url] == page_url && !emitted_ids[anchor]
           emitted_ids[anchor] = true
           %(<span id="#{anchor}">#{g}</span>)
