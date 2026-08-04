@@ -29,24 +29,24 @@ words on any monument fall open.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Why now</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𓏠</td><td>Y5</td><td><em>mn</em></td>
+      <td class="script sign-cell">𓏠</td><td>Y5</td><td>board</td><td><em>mn</em></td>
       <td>a game board with its pieces, seen from the side</td>
       <td>the two sounds <em>m</em>+<em>n</em> in one sign — it sits
           inside the god Amun, king Menes, and "enduring," one of
           Egypt's favorite words about itself</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓎟</td><td>V30</td><td><em>nb</em></td>
+      <td class="script sign-cell">𓎟</td><td>V30</td><td>lord</td><td><em>nb</em></td>
       <td>a wicker basket</td>
       <td><em>n</em>+<em>b</em>: the word for both "lord" and
           "every" — few signs appear on more monuments</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𓁷</td><td>D2</td><td><em>ḥr</em></td>
+      <td class="script sign-cell">𓁷</td><td>D2</td><td>face</td><td><em>ḥr</em></td>
       <td>a human face, straight on</td>
       <td><em>ḥ</em>+<em>r</em>: "face," and by extension "upon" —
           and the god Horus is close by whenever it appears</td>

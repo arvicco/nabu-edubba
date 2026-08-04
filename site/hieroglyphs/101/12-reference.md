@@ -26,7 +26,7 @@ registry so it can never drift out of date with the lessons.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Code</th><th>Reads</th><th>Means</th><th>Corpus rank</th><th>Origin</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Code</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Corpus rank</th><th>Origin</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.hiero_teaching.signs | where_exp: "s", "s.taught_in" %}
@@ -34,6 +34,7 @@ registry so it can never drift out of date with the lessons.
     <tr>
       <td class="script sign-cell">{{ s.glyph }}</td>
       <td>{{ s.gardiner }}</td>
+      <td>{{ s.keyword }}</td>
       <td>{% if s.value == "" %}—{% else %}<em>{{ s.value }}</em>{% endif %}</td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_aes | default: "—" }}</td>

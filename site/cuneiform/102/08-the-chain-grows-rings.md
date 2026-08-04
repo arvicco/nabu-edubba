@@ -27,11 +27,11 @@ that chapter. Three new signs, and the chain finally gets named.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Keyword</th><th>Reads</th><th>Means</th><th>Notes</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁀</td><td>BA</td><td><em>ba</em></td>
+      <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td><em>ba</em></td>
       <td>to allot, to share out; the verbal prefix <em>ba-</em></td>
       <td>~4 wedges; on receipts it is a whole verb, "allotted"; inside
           a chain it is a prefix that colors the action toward "away,
@@ -40,13 +40,13 @@ that chapter. Three new signs, and the chain finally gets named.
           name in <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">101's tablet house</a></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅔</td><td>IN</td><td><em>in</em></td>
+      <td class="script sign-cell">𒅔</td><td>IN</td><td>in-</td><td><em>in</em></td>
       <td>the syllable <em>in</em>; the verbal prefix <em>in-</em></td>
       <td>~8 wedges; the plain "he/she/it did" opener of thousands of
           administrative and literary lines alike</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉡</td><td>NU</td><td><em>nu</em></td>
+      <td class="script sign-cell">𒉡</td><td>NU</td><td>not</td><td><em>nu</em></td>
       <td>not — the negation</td>
       <td>3 wedges, the simplest sign of the whole stretch; it flips
           any sentence it opens</td>
