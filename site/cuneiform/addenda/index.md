@@ -28,6 +28,10 @@ in your study.
   <li><a href="{{ '/terms/' | relative_url }}">Terms — the working glossary</a>
       — every technical term the courses use, one plain sentence
       each; the same definitions behind the hover bubbles site-wide</li>
+  <li><a href="{{ '/cuneiform/addenda/signs/' | relative_url }}">Signs — one page for every sign</a>
+      — each taught sign's permanent home: its keyword, where the
+      shape comes from, a way to remember it, its lookalikes, and
+      one real line it lives in</li>
 </ol>
 
 The shelf will grow — extended materials that outgrow a course
