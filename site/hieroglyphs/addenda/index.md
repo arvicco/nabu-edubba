@@ -29,6 +29,9 @@ point in your study.
       — each taught sign's permanent home: its keyword, the picture
       Gardiner identified, a way to remember it, its lookalikes,
       and one real line it lives in</li>
+  <li><a href="{{ '/hieroglyphs/addenda/drills/' | relative_url }}">Drills — every sign, three ways</a>
+      — the whole inventory as retrieval cards, interleaved and
+      printable as cut-out Leitner slips</li>
 </ol>
 
 Terms shared across all scripts — determinative, logogram, rebus,

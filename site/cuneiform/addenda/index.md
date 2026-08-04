@@ -32,6 +32,9 @@ in your study.
       — each taught sign's permanent home: its keyword, where the
       shape comes from, a way to remember it, its lookalikes, and
       one real line it lives in</li>
+  <li><a href="{{ '/cuneiform/addenda/drills/' | relative_url }}">Drills — every sign, three ways</a>
+      — the whole inventory as retrieval cards, interleaved and
+      printable as cut-out Leitner slips</li>
 </ol>
 
 The shelf will grow — extended materials that outgrow a course
