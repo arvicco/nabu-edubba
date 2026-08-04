@@ -179,7 +179,7 @@ signs:
   meaning: seat, throne
   sense: st, seat, place; opens Osiris' name
   mdc: st
-  chapter: 1
+  chapter: 4
   freq_aes: 52
   certainty: classic
 - glyph: "𓊖"
@@ -488,25 +488,25 @@ batches:
 - chapter: 1
   signs:
   - W19
-  - Q1
   - N35A
-  coverage_aes_pct: 72.6
+  coverage_aes_pct: 72.3
 - chapter: 2
   signs:
   - U36
   - V31A
   - G7
-  coverage_aes_pct: 74.7
+  coverage_aes_pct: 74.4
 - chapter: 3
   signs:
   - D4
   - D37
   - E34
-  coverage_aes_pct: 76.0
+  coverage_aes_pct: 75.6
 - chapter: 4
   signs:
   - D35
   - F34
+  - Q1
   - Z6
   coverage_aes_pct: 76.8
 - chapter: 5

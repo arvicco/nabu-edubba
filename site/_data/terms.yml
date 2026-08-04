@@ -156,6 +156,10 @@ terms:
   - name: transitive
     slug: transitive
     def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
+  - name: nominal sentence
+    slug: nominal-sentence
+    school: hieroglyphs
+    def: "a sentence made of nouns side by side, no verb \"to be\" at all — Egyptian's mw pw, \"it is water\""
   - name: nominalizer
     slug: nominalizer
     def: "a small word-part that folds a whole clause into a description or a thing — Sumerian's is -a: \"ate\" becomes \"who ate\""
