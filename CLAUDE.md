@@ -170,13 +170,14 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 8 — Hieroglyphs 102 · Middle Egyptian, first stretch (plan
-pending owner approval; C103 Akkadian the alternative).
+Phase 9 — Sign Codex, Stage A: keyword law + one-page-per-sign
+Addenda shelves, cuneiform pages first (.docs/sign-retention-plan.md,
+approved in principle 2026-08-04; plan pending "go").
 
-Gate 7 merged 2026-08-02 (Cuneiform 102 complete: chs 12–18, 51
-signs, 77 total, ~54% coverage floor; owner review rounds 1–4
-absorbed — locative early, nominalizer bite, piece-by-piece
-walkthrough law sharpened; Addenda shelves in both schools with
-the Writing primer and split glossaries; é banned in translit
-course-wide; every chapter mention linked).
+Gate 8 merged 2026-08-04 (Hieroglyphs 102 first stretch: chs
+00–06, 21 signs, aes coverage 71.4→79.0%; rulebook §8 before
+content — sḏm≡f display, one sentence type per chapter; readings
+token-verified from Ptahhotep, Westcar, the Doomed Prince, Piye,
+Neferti, Wenamun, the medical papyri; sentence-type terms in the
+Egyptian glossary).
 Update this line at each gate.
