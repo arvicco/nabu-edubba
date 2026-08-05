@@ -596,10 +596,28 @@ under the tiles; Taught-in cells linked on every surface that had
 them as text; wedge counts dropped from all displays (registry
 field and compiler scoring intact).
 
-## Phase 12 — C103 Akkadian (plan pending owner approval)
+## Phase 12 — C103 Akkadian, stretch 1 (plan pending owner approval)
 
 Source: owner pick 2026-08-05 ("let's start on Akkadian").
-Rulebook extension FIRST (cuneiform.md Akkadian conventions —
-carried constraint from the Phase 11 closure), then the course.
-Detailed plan: .docs/phase-12-plan.md; M12 packet skeleton lands
-with the approved plan.
+Rulebook extension FIRST (carried constraint from the Phase 11
+closure). Detailed plan: .docs/phase-12-plan.md. Anchor text
+verified in Nabu: Codex Hammurapi composite (cdli p464358,
+3,641 lines, license attribution). Proposed rulings pending
+owner sign-off: dialect = Old Babylonian; stretch-1 shape
+(orientation + ~7 chapters to real CH laws); transliteration/
+normalization law; veteran-readings mechanism; akk frequency
+run over lect=akk:ob.
+
+## M12-1 · The Akkadian law  [tier: top — Fable] [status: open]
+   cuneiform.md Akkadian sections (dialect, transliteration +
+   bound transcription, veteran readings, ordering) + rulebook.rb
+   checks + terms.yml. No content until this lands.
+## M12-2 · Instruments  [tier: mid] [status: open]
+   akk value-frequency (lect=akk:ob), picker --lang=akk,
+   cuneiform103 registry/queue + pool-103, compiler run; warmup/
+   drills/decks/codex/sign_linker learn course 3; exact-value
+   tests. Fold the ASCII value-display nit fix.
+## M12-3 · Orientation + first syllables  [tier: top — Fable] [status: open]
+## M12-4 · The shape of the language  [tier: top — Fable] [status: open]
+## M12-5 · šumma awīlum  [tier: top — Fable] [status: open]
+## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: open]
