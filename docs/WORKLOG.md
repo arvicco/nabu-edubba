@@ -38,7 +38,20 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
-Second review round (owner): Means columns recalibrated — the
+Third review round (owner report: "reads ku, not ku₃ — many
+such cases; check what produced them first"): root cause found —
+the C102 Reference printed {{ s.value }} RAW, so all 51 rows
+showed ATF ASCII (ku3, sza3, szu, nig2…). This was the ASCII
+value-display nit carried since the Phase-12 plan, which M12-2's
+status claimed folded in but was not — the claim was wrong until
+now. Fix at the root: a sign_reads Liquid filter (display_value
+field when a row carries one, else the standard fold, which also
+learned ṣ/ṭ for Akkadian); GAR gains display_value niŋ₂ (the one
+fold g→ŋ can't know); warm-up reads and sign tips prefer
+display_value too; queue regenerated; exact-value tests pin the
+folds. Every remaining ASCII-digit em on the site audited: all
+are explicit convention-mentions, lawful. Second review round
+(owner): Means columns recalibrated — the
 [lam] bracket notation replaces every "the syllable lam" phrase
 site-wide (pools, registries, chapter cells, codex pages; queues
 regenerated), certainty tags ((stated)/(classic)) left all table

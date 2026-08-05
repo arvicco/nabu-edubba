@@ -77,8 +77,9 @@ module Edubba
 
     def reads(sign, school)
       return "—" if silent?(sign)
+      return sign["value"] unless school == "cuneiform"
 
-      school == "cuneiform" ? SignLinker.display_form(sign["value"]) : sign["value"]
+      sign["display_value"] || SignLinker.display_form(sign["value"])
     end
 
     def ident(sign) = sign["gardiner"] || sign["name"]
