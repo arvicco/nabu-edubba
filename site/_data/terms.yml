@@ -196,3 +196,15 @@ terms:
   - name: bound transcription
     slug: bound-transcription
     def: "the joined-up dictionary form of an Akkadian word (šarrum, awīlum), reconstructed from its syllable-by-syllable transliteration with vowel lengths marked"
+  - name: mimation
+    slug: mimation
+    def: "the -m that closes Old Babylonian noun endings (šarrum, not šarru) — a hallmark of Hammurabi's stage of the language, dropped in later centuries"
+  - name: construct state
+    slug: construct-state
+    def: "the stripped-down form a noun takes to bind with the noun after it — bēl šamê, \"lord-of-heaven\" — losing its ending to gain an \"of\""
+  - name: preterite
+    slug: preterite
+    def: "the Akkadian verb shape for a done deed — iddi, \"he charged\": simple past, one word, subject included"
+  - name: durative
+    slug: durative
+    def: "the Akkadian verb shape for what happens or shall happen — inaddin, \"he shall pay\": the laws pronounce every sentence in it"

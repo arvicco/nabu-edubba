@@ -537,6 +537,10 @@ body.school-hieroglyphs { --accent: var(--accent-hieroglyphs); }
 body.school-hanzi { --accent: var(--accent-hanzi); }
 
 .translit { font-style: italic; }
+/* Bound transcription (rulebook §9): its own register beside the
+   hyphenated transliteration — italic too, but visually set off
+   by a hair of letterspacing; hyphens vs macrons do the rest. */
+.norm { font-style: italic; letter-spacing: 0.02em; }
 /* transliteration indexes: rendered as real <sub> at build time */
 sub { font-size: 0.72em; line-height: 0; }
 .gloss { color: var(--muted); }

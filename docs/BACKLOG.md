@@ -624,7 +624,7 @@ the school); C103 veterans link to the akk codex.
    run; warm-up third segment; sign_linker per-course routing to
    the akk codex; C AKK Addenda scaffolding + C SUX retitle;
    exact-value tests. Fold the ASCII value-display nit fix.
-## M12-3 · Orientation + first syllables  [tier: top — Fable] [status: open]
-## M12-4 · The shape of the language  [tier: top — Fable] [status: open]
-## M12-5 · šumma awīlum  [tier: top — Fable] [status: open]
-## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: open]
+## M12-3 · Orientation + first syllables  [tier: top — Fable] [status: done — pool-103 (20 new + 6 veterans, all pinned, nabu-verified), akk compiler, ch 00-01]
+## M12-4 · The shape of the language  [tier: top — Fable] [status: done — ch 02-05: cases/mimation, construct, prologue lines 1-3, preterite/durative]
+## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
+## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]

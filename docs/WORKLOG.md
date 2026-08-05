@@ -5,6 +5,40 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-05 · M12-1..M12-6 · phase-12 · C103 Akkadian, stretch 1,
+in one run — the school's first language-border crossing. Laws
+first (§9: OB dialect, transliteration + bound transcription as
+distinct layers, LANGUAGE SEPARATION with keyword invariance,
+separate akk frequency base); rulebook.rb learned the two-codex
+school (per-codex checks + cross-codex keyword invariance, both
+directions, exact-value tested). Instruments: bin/akk_seq.rb
+counted 204,820 OB passages (lect-ruled CDLI slice via nabu lect
+list — CLI only, no DB reaching) into three tallies; pool-103
+curated around the anchor text with every identity resolved by
+nabu signs --lang=akk (all deterministic — including the
+surprises: šum = TAG not ŠUM, pi₂ = veteran BI, id = veteran A2,
+u3 = |IGI.DIB|); bin/akk_curriculum.rb validates pins (1-3 new
+per chapter) and reports coverage (ambient veteran base = taught
+sux values ∩ OB table: the course STARTS at 55% coverage, ends
+the stretch at 67.5%). Course: 8 chapters to real Codex Hammurapi
+(prologue lines 1-3, be-el sza-me-e block, law 1 with exactly one
+pedagogically-placed box that falls in ch 07, dannum enšam) —
+every reading's glyph sequence composed from nabu signs
+resolutions, never by hand; readings hand-picked from the anchor
+text (pedagogy overrules picker scores, stated per §8). C AKK
+Addenda shipped with 26 codex pages (20 new + 6 veterans, each
+with an In-Sumerian pointer row); sign_linker routes C103
+sign-cells to the akk codex (fallback = teaching link, never the
+sux codex); warm-up grew its third course segment (C103 spirals
+into 102/101); the drill deck deliberately stays sux-only.
+Catches: the §1 accent-index rule caught my ú/í/ṭú display forms
+(8 violations — the site's law is subscripts: u₂, pi₂, ṭu₂;
+sweep + two redundant reads: fields); é-allowlist needed the akk
+slug-builder; the akk signs index initially showed raw-ATF in a
+Reads column — dropped to match the sux index shape. assumes:
+grew list support (C103 assumes 101+102). Determinative law
+corrected to the site's actual braces convention mid-write.
+
 2026-08-05 · Gate 11 closed · PR #14 merged by owner same day
 after three review rounds, CI + deploy green, live verified in
 pixels: the daily deal is real in production (today's tile reads

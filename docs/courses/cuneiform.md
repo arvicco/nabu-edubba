@@ -254,7 +254,8 @@ content exists.
   carve-out as the subscript rule. Sumerograms inside Akkadian
   text display in the field's CAPS convention (LUGAL, KALAM);
   the ATF underscore notation (`_lugal_`) is raw-ATF-exhibit
-  material only. Determinatives superscript, as everywhere.
+  material only. Determinatives stay in braces ({d}, {diš}) —
+  the school's convention since C101 ch. 03.
 - **Normalization (bound transcription).** A layer distinct from
   transliteration: dictionary-form Akkadian with vowel length
   marked (šarrum, awīlum, ā/â). It renders in its own visual
