@@ -603,20 +603,27 @@ Rulebook extension FIRST (carried constraint from the Phase 11
 closure). Detailed plan: .docs/phase-12-plan.md. Anchor text
 verified in Nabu: Codex Hammurapi composite (cdli p464358,
 3,641 lines, license attribution). Proposed rulings pending
-owner sign-off: dialect = Old Babylonian; stretch-1 shape
-(orientation + ~7 chapters to real CH laws); transliteration/
-normalization law; veteran-readings mechanism; akk frequency
-run over lect=akk:ob.
+owner rulings 2026-08-05: dialect = Old Babylonian; course
+/cuneiform/103/ ships stretch 1; transliteration law approved;
+akk frequency base approved; LANGUAGE SEPARATION ruled — no
+mixed codex: existing Addenda stays purely Sumerian (retitled
+C SUX Addenda, permalinks untouched), a new C AKK Addenda
+carries a completely separate Akkadian Sign Codex on its own
+frequency base; the KEYWORD is the cross-language invariant
+(one keyword per sign, identical across codices, unique across
+the school); C103 veterans link to the akk codex.
 
 ## M12-1 · The Akkadian law  [tier: top — Fable] [status: open]
    cuneiform.md Akkadian sections (dialect, transliteration +
-   bound transcription, veteran readings, ordering) + rulebook.rb
-   checks + terms.yml. No content until this lands.
+   bound transcription, language separation + keyword invariance,
+   ordering) + rulebook.rb two-codex checks + terms.yml. No
+   content until this lands.
 ## M12-2 · Instruments  [tier: mid] [status: open]
-   akk value-frequency (lect=akk:ob), picker --lang=akk,
-   cuneiform103 registry/queue + pool-103, compiler run; warmup/
-   drills/decks/codex/sign_linker learn course 3; exact-value
-   tests. Fold the ASCII value-display nit fix.
+   akk value-frequency (lect=akk:ob, separate base), picker
+   --lang=akk, cuneiform103 registry/queue + pool-103, compiler
+   run; warm-up third segment; sign_linker per-course routing to
+   the akk codex; C AKK Addenda scaffolding + C SUX retitle;
+   exact-value tests. Fold the ASCII value-display nit fix.
 ## M12-3 · Orientation + first syllables  [tier: top — Fable] [status: open]
 ## M12-4 · The shape of the language  [tier: top — Fable] [status: open]
 ## M12-5 · šumma awīlum  [tier: top — Fable] [status: open]
