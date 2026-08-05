@@ -585,3 +585,21 @@ exported decks, zero JS.
    all twelve as face-down tiles, :visited fading used ones. A
    daily cron on the Pages workflow re-renders main, committing
    nothing. Law in cuneiform.md §8 "The deal".
+
+Gate 11 CLOSED — PR #14 merged 2026-08-05, CI + deploy green,
+live verified in pixels (today's tile cut 10 for the deploy date,
+cut pages and confusables serving, reference Wedges gone and
+Taught-in linking). Owner review absorbed in three rounds, each a
+durable change: the deal (M11-7, both active and passive
+entropy); Easily confused split to its own shelf; the deck hidden
+under the tiles; Taught-in cells linked on every surface that had
+them as text; wedge counts dropped from all displays (registry
+field and compiler scoring intact).
+
+## Phase 12 — C103 Akkadian (plan pending owner approval)
+
+Source: owner pick 2026-08-05 ("let's start on Akkadian").
+Rulebook extension FIRST (cuneiform.md Akkadian conventions —
+carried constraint from the Phase 11 closure), then the course.
+Detailed plan: .docs/phase-12-plan.md; M12 packet skeleton lands
+with the approved plan.

@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-05 · Gate 11 closed · PR #14 merged by owner same day
+after three review rounds, CI + deploy green, live verified in
+pixels: the daily deal is real in production (today's tile reads
+"10 · today" — MJD mod 12 of the deploy date), cut pages and both
+confusables shelves serve with correct accents, the C101
+reference shows linked Taught-in and no Wedges column. The rounds
+all became durable structure: the deal itself (M11-7), the
+confusables split, the hidden deck, Taught-in links everywhere,
+wedge counts out of the displays. Branch phase-12 opened; owner
+picked C103 Akkadian as the next phase — Akkadian rulebook
+extension first, per the constraint carried since planning.
+
 2026-08-05 · M11-7 · phase-11 · The deal — owner-ratified during
 PR-#14 review: pseudo-random drills with zero JS. The deck now
 ships as twelve seeded cuts per school (the hash MULTIPLIER
