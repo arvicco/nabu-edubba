@@ -8,12 +8,18 @@ layout: default
   school, sign (traditional name / Gardiner code), reads (display-
   convention readings, hand-curated), course/course_url/course_title.
 {% endcomment %}
-{% if page.school == "hieroglyphs" %}
+{% if page.course == "cuneiform-addenda-akk" %}
+  {% assign r1 = "" | split: "," %}
+  {% assign r2 = site.data.cuneiform103_queue.signs %}
+  {% assign queue_course = "cuneiform-103" %}
+{% elsif page.school == "hieroglyphs" %}
   {% assign r1 = site.data.hiero_teaching.signs %}
   {% assign r2 = site.data.hieroglyphs102_queue.signs %}
+  {% assign queue_course = "hieroglyphs-102" %}
 {% else %}
   {% assign r1 = site.data.sign_teaching.signs %}
   {% assign r2 = site.data.cuneiform102_queue.signs %}
+  {% assign queue_course = "cuneiform-102" %}
 {% endif %}
 {% assign entry = r1 | where: "name", page.sign | first %}
 {% if entry %}
@@ -21,7 +27,7 @@ layout: default
   {% assign taught_ch = entry.taught_in %}
 {% else %}
   {% assign entry = r2 | where: "name", page.sign | first %}
-  {% assign taught_course = page.school | append: "-102" %}
+  {% assign taught_course = queue_course %}
   {% assign taught_ch = entry.chapter %}
 {% endif %}
 {% assign taught_page = site.pages | where: "course", taught_course | where: "chapter", taught_ch | first %}
@@ -39,6 +45,10 @@ layout: default
     <tr><th>Reads</th><td><span class="translit">{{ page.reads }}</span></td></tr>
     <tr><th>Means</th><td>{{ entry.meaning }}</td></tr>
     <tr><th>Taught in</th><td><a href="{{ taught_page.url | relative_url }}">{{ taught_page.title }}</a></td></tr>
+    {% if entry.veteran %}
+    {% assign vslug = entry.name | downcase | replace: "š", "sz" | replace: "é", "e2" | replace: "×", "x" %}
+    <tr><th>In Sumerian</th><td><a href="{{ '/cuneiform/addenda/signs/' | append: vslug | append: '/' | relative_url }}">the same sign's Sumerian page</a></td></tr>
+    {% endif %}
   </tbody>
 </table>
 

@@ -29,7 +29,8 @@ module Edubba
             message: "accent index é — use e₂; é only in explicit mentions and in é-dub-ba-a (§1)",
             allow: ["cuneiform/102/00-orientation.md",     # primer's explicit mention
                     "cuneiform/101/04-your-first-signs.md",  # accent habit noted where É is taught
-                    "cuneiform/addenda/signs/index.md"] }    # slug-builder Liquid maps é→e2 mechanically
+                    "cuneiform/addenda/signs/index.md",      # slug-builder Liquid maps é→e2 mechanically
+                    "cuneiform/addenda-akk/signs/index.md"] }  # same slug builder, akk codex (§9)
         ],
         license_labels: [
           { urn: "urn:nabu:etcsl",
@@ -73,8 +74,8 @@ module Edubba
         school: "cuneiform",
         registries: %w[_data/cuneiform103_queue.yml],
         shelf: "cuneiform/addenda-akk/signs",
-        keywords: false,
-        pages: false },
+        keywords: true,
+        pages: true },
       { doc: "docs/courses/hieroglyphs.md §9",
         school: "hieroglyphs",
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
