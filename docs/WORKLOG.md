@@ -38,6 +38,10 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Review round (owner): sidebar ordering made explicit via
+nav_order on course indexes — each language's addenda follows its
+language's courses (C 101, C 102, C SUX Addenda, C 103, C AKK
+Addenda), replacing the URL-sort accident.
 
 2026-08-05 · Gate 11 closed · PR #14 merged by owner same day
 after three review rounds, CI + deploy green, live verified in
