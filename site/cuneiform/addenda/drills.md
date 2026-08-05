@@ -29,11 +29,11 @@ Work a stretch daily rather than the whole deck weekly; the
 answers link nowhere, but every sign's full story lives one click
 away on the [Signs shelf]({{ '/cuneiform/addenda/signs/' | relative_url }}).
 
-To drill on paper, print this page: the cards become cut-out
-slips (fronts only — the Signs shelf is your answer sheet), ready
-for a shoebox Leitner system: three boxes, daily / every few days
-/ weekly, cards moving up when you get them right and back to
-daily when you miss.
+To drill on paper, open a cut below and print it: the cards
+become cut-out slips (fronts only — the Signs shelf is your
+answer sheet), ready for a shoebox Leitner system: three boxes,
+daily / every few days / weekly, cards moving up when you get
+them right and back to daily when you miss.
 
 The lookalikes that keep trading places have a shelf of their
 own: [Easily confused]({{ '/cuneiform/addenda/confusables/' | relative_url }}),
@@ -42,12 +42,11 @@ apart.
 
 ## The deck
 
-The order below is today's deal: it reshuffles with the
-calendar, so a visit tomorrow replays nothing. Sitting down for
-a real session? Cut the deck yourself — every tile is the whole
-deck in a different order, and tiles you have already worked
-through fade. Pick blind; your hand is the shuffle.
+The deck lies face-down: every tile below holds all the cards,
+each in a different order. The marked tile is today's deal — it
+moves with the calendar, so a casual visit never replays
+yesterday's sequence. Sitting down for a real session? Pick any
+tile — the ones you have already worked through fade. Pick
+blind; your hand is the shuffle.
 
 {% drill_shelf deal %}
-
-{% drill_shelf cards %}

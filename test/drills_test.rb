@@ -64,5 +64,7 @@ class DrillsTest < Minitest::Test
     assert_equal Edubba::Drills::CUTS, html.scan(/<a class="deal-tile/).size
     assert_includes html, %(href="/b/cuneiform/addenda/drills/cut-12/")
     assert_includes html, %(deal-tile--today" href="/b/cuneiform/addenda/drills/cut-10/")
+    assert_includes html, %(<span class="deal-tile-n">10 · today</span>)
+    refute_includes html, %(<span class="deal-tile-n">11 · today</span>)
   end
 end

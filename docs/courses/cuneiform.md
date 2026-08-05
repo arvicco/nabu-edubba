@@ -193,11 +193,14 @@ renders. These laws bind both schools (the hieroglyph rulebook
   as TWELVE pre-generated cuts — the same cards under twelve
   seeded orderings, each produced by the same hash-and-spread
   rule, so every cut is content the gate has verified. The
-  drills page shows one cut inline (the featured deal) and
-  offers all twelve as tiles ("cut the deck"); the reader's
-  pick is the only random source the site ever uses, and
-  visited-link styling may fade used tiles — no other state
-  exists. WHICH cut is featured follows the calendar: the
+  drills page holds no deck of its own (owner ruling
+  2026-08-05: the deck stays hidden under the tiles): it deals
+  all twelve cuts face-down, the calendar-picked one marked as
+  today's deal, and each tile opens the full deck in that
+  ordering; the reader's pick is the only random source the
+  site ever uses, and visited-link styling may fade used tiles
+  — no other state exists. WHICH cut is featured follows the
+  calendar: the
   deploy workflow rebuilds `main` on a daily schedule, passing
   the build date, and date → cut is a fixed public function
   (modified Julian day mod 12, plus one). Gate and local builds

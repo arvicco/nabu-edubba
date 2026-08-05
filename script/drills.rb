@@ -120,7 +120,8 @@ module Edubba
       tiles = (1..CUTS).map do |n|
         classes = +"deal-tile"
         classes << " deal-tile--today" if n == featured
-        %(<a class="#{classes}" href="#{drills_url}cut-#{n}/"><span class="script">#{back_glyph}</span><span class="deal-tile-n">#{n}</span></a>)
+        label = n == featured ? "#{n} · today" : n.to_s
+        %(<a class="#{classes}" href="#{drills_url}cut-#{n}/"><span class="script">#{back_glyph}</span><span class="deal-tile-n">#{label}</span></a>)
       end.join("\n  ")
       %(<nav class="deal-row" aria-label="Cuts of the deck">\n  #{tiles}\n</nav>)
     end
