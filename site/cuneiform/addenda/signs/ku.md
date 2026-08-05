@@ -9,7 +9,7 @@ sign: "KU"
 reads: "dab₅; tuš (to sit)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/ku/
 ---
 

@@ -618,7 +618,7 @@ the school); C103 veterans link to the akk codex.
    bound transcription, language separation + keyword invariance,
    ordering) + rulebook.rb two-codex checks + terms.yml. No
    content until this lands.
-## M12-2 · Instruments  [tier: mid] [status: open]
+## M12-2 · Instruments  [tier: mid] [status: done — OB freq base (204,820 passages), warmup 3rd segment, per-course codex routing, SUX retitle; queue/pool/compiler land with M12-3 content, per the C102 precedent]
    akk value-frequency (lect=akk:ob, separate base), picker
    --lang=akk, cuneiform103 registry/queue + pool-103, compiler
    run; warm-up third segment; sign_linker per-course routing to

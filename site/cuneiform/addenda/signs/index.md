@@ -10,7 +10,7 @@ course: cuneiform-addenda
 chapter: 3
 permalink: /cuneiform/addenda/signs/
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 kicker_no_chapter: true
 teaches: []
 shows: []

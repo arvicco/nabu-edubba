@@ -11,7 +11,7 @@ course: cuneiform-addenda
 chapter: 1
 permalink: /cuneiform/addenda/writing-primer/
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 kicker_no_chapter: true
 teaches: []
 shows: ["𒀸", "𒁹", "𒌋", "𒉺", "𒄑", "𒆠"]

@@ -28,7 +28,11 @@ module Edubba
     module_function
 
     # map: { "𒀭" => { url: "/cuneiform/101/12-reference/", anchor: "sign-1202D" }, ... }
-    def transform(html, map, page_url, baseurl = "")
+    # codex_key routes sign-cell links by language (§9 separation):
+    # :codex (sux, the default) or :codex_akk on Akkadian-course
+    # pages. A sign with no page in the routed codex falls back to
+    # its plain teaching link — never to the other language's codex.
+    def transform(html, map, page_url, baseurl = "", codex_key = :codex)
       return html unless html.match?(GLYPH)
 
       a_depth = 0
@@ -50,12 +54,12 @@ module Edubba
         elsif a_depth.positive? || skip_depth.positive?
           tok
         else
-          link_glyphs(tok, map, page_url, baseurl, in_sign_cell, emitted_ids)
+          link_glyphs(tok, map, page_url, baseurl, in_sign_cell, emitted_ids, codex_key)
         end
       end
     end
 
-    def link_glyphs(text, map, page_url, baseurl, in_sign_cell, emitted_ids)
+    def link_glyphs(text, map, page_url, baseurl, in_sign_cell, emitted_ids, codex_key = :codex)
       text.gsub(GLYPH) do |g|
         entry = map[g]
         next g unless entry
@@ -66,7 +70,7 @@ module Edubba
         # own teaching page the cell keeps its anchor id so incoming
         # taught-in links still land. Without a codex page (a school
         # whose shelf hasn't shipped) the original behavior stands.
-        if in_sign_cell && (codex = entry[:codex]) && codex != page_url
+        if in_sign_cell && (codex = entry[codex_key]) && codex != page_url
           tip = ""
           id_attr = ""
           if entry[:url] == page_url && !emitted_ids[anchor]

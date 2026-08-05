@@ -9,7 +9,7 @@ sign: "KA×A"
 reads: "naŋ"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/kaxa/
 ---
 

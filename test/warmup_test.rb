@@ -25,6 +25,18 @@ class WarmupTest < Minitest::Test
     refute SEATS.flat_map { |s| s[:signs] }.any? { |s| s["name"] == "MI" }
   end
 
+  R103 = [
+    { "name" => "UM", "glyph" => "𒌝", "keyword" => "cord", "value" => "um", "meaning" => "(syllable)", "chapter" => 1 }
+  ].freeze
+
+  def test_sequence_grows_a_third_course_and_103_looks_back
+    seats = Edubba::Warmup.sequence(R101, R102, "cuneiform", R103)
+    assert_equal ["cuneiform-103", 1], [seats.last[:course], seats.last[:chapter]]
+    picks = Edubba::Warmup.prompts("cuneiform-103", 1, seats)
+    courses = picks.map { |p| p[:seat][:course] }.uniq
+    assert_includes courses, "cuneiform-102"   # the spiral crosses into 102/101
+  end
+
   def test_first_chapter_and_references_get_no_panel
     assert_nil Edubba::Warmup.prompts("cuneiform-101", 0, SEATS)
     assert_nil Edubba::Warmup.prompts("cuneiform-101", 12, SEATS)   # no seat
