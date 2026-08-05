@@ -511,6 +511,77 @@ P210013 miscited as Umma (Girsu).
 ## M10-3 · E101 codex pages II (chs 5–11, 24 signs)  [tier: top — Fable] [status: done — pushed red once: gate piped through tail, law re-broken and re-learned; fixed by the M10-4 commit]
 ## M10-4 · E102 codex pages (19 remaining signs)  [tier: top — Fable] [status: done — V10 cartouche carries a flagged no-line exception]
 ## M10-5 · Activation + stitching, gate PR  [tier: top] [status: done — E102 queue wired into sign_linker (its tables had never been linked at all); E page-check live]
+
+Gate 10 CLOSED — PR #13 merged 2026-08-04, CI + deploy green,
+live surface verified in pixels (E shelf in school blue, keyword
+columns serving). Owner review absorbed in four rounds: school
+accent now derived from URL (every E page had rendered in
+cuneiform orange since E101 shipped — chapters never carried
+school: front matter); keyword column added to every chapter sign
+table by registry-verified sweep (158 rows, the §7 law finally
+fully delivered); sign-table widths rebalanced (last column 42%,
+tail-fit opt-out for references/shelves) with headers shortened
+to Name/Key. One red push mid-phase (gate piped through tail —
+the recorded incident relapsed) fixed forward same hour.
    Flip the E page-per-sign gate check; sign-table glyph links
    self-heal via sign_linker (verify in pixels, incl. E102's
    promised retrofit); Addenda catalogs; surface review; PR.
+
+## Phase 11 — Sign Codex, Stage C: the retrieval layer (plan pending owner approval)
+
+Source: .docs/sign-retention-plan.md Stage C — the survey's top
+evidence tier (spaced retrieval), built on the keywords and codex
+pages Stages A–B laid down. Everything text-pure: retrieval via
+native <details>/<summary> disclosure, wall-clock scheduling via
+exported decks, zero JS.
+
+## M11-1 · Retrieval laws into the rulebooks  [tier: top — Fable] [status: done]
+   Conventions BEFORE instruments: warm-up panel format (prompts
+   by keyword, production direction first, answers folded);
+   drill-shelf format (three directions, deterministic interleave,
+   lookalikes adjacent); deck-export rules (sign→identity cards,
+   keyword + story + one attested line, CDLI/aes attribution only
+   — ETCSL stays out of redistributable decks); the read-it-cold
+   clause (script-with-translit law gains a folded-translit drill
+   exhibit form); and the REINFORCEMENT-SELECTION law (owner
+   ruling 2026-08-04, approved with the plan): when choosing a
+   NEW chapter's example lines, candidates that also exercise
+   older signs due for reinforcement are preferred — the pickers
+   score it; a line that only shows the new sign loses to one
+   that revises while it teaches.
+## M11-2 · The spiral warm-up  [tier: top] [status: done — 47 chapters]
+   A generated panel at the top of every subject chapter, zero
+   hand-authoring: 4–6 retrieval prompts against signs from
+   chapters N−1, N−2, N−4, N−8 (cross-course into 101 per
+   school), keyword-first ("*big* — draw it, then check"),
+   answers behind <details>. Rendered by the chapter layout from
+   the registries — no per-file edits; all four courses at once.
+## M11-3 · Drill shelves in both Addenda  [tier: top] [status: done]
+   Per school, a generated drill page: every taught sign as
+   disclosure-cards in three directions, deterministically
+   shuffled so neighbors are not chapter-mates, confusable pairs
+   deliberately adjacent as contrast rows; a print stylesheet
+   turns the same page into cut-out Leitner cards.
+## M11-4 · Study decks shelf + deck exports  [tier: top] [status: done — 151 cards, contract-tested]
+   bin/deck_export.rb emits per-course Anki-importable CSV
+   (committed, downloadable); the Study decks Addenda shelf
+   (owner-ruled home): download links, the Anki-import and
+   FSRS-switch how-to, tool links — tooling talk lives here and
+   nowhere else.
+## M11-5 · Read-it-cold + frontier  [tier: top — Fable] [status: done — cold-read transform (35 chapters), reinforcement scoring in both pickers, frontier picker + two Almost yours pages]
+   Each course's star readings repeated bare at chapter end
+   behind a disclosure (read the script cold, then unfold); the
+   picker gains a ≥90% mode feeding a per-school "almost yours"
+   frontier page — famous passages three signs out of reach,
+   ▢-tolerant by design and saying so.
+## M11-6 · Stitching + surface review, gate PR  [tier: top] [status: done]
+## M11-7 · The deal — drill deck cuts  [tier: top] [status: done — 12 cuts/school, dated deploy features one, tiles + :visited fade; review round: confusables split to own shelf page]
+   Owner-ratified 2026-08-05 in PR-#14 review: pseudo-randomness
+   without JS. Twelve seeded orderings of the same deck (varied
+   hash multiplier — a constant offset would only rotate the
+   cyclic order), generated as cut pages; the drills page inlines
+   the cut picked by EDUBBA_DEAL_DATE (MJD mod 12, deploy-only —
+   gate/local builds are date-free and feature cut 1) and deals
+   all twelve as face-down tiles, :visited fading used ones. A
+   daily cron on the Pages workflow re-renders main, committing
+   nothing. Law in cuneiform.md §8 "The deal".

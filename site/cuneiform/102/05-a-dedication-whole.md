@@ -42,7 +42,7 @@ votive inscriptions than any other.
     <tr>
       <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td><em>la</em></td>
       <td>the syllable la; abundance (stated)</td>
-      <td>~9 wedges; taught here because you are about to watch it
+      <td>taught here because you are about to watch it
           work — it is the spelling glue inside this chapter's
           formula</td>
     </tr>

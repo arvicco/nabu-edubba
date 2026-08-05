@@ -5,6 +5,82 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-05 · M11-7 · phase-11 · The deal — owner-ratified during
+PR-#14 review: pseudo-random drills with zero JS. The deck now
+ships as twelve seeded cuts per school (the hash MULTIPLIER
+varies per seed — an additive offset would only rotate the same
+cyclic order, i.e. cut without shuffling; seed 0 reproduces the
+historic order exactly), emitted as generated cut pages that stay
+out of nav/sidebars by carrying no chapter key. The drills page
+inlines the featured cut and deals all twelve as face-down
+𒁾/𓏛-backed tiles; :visited CSS fades used tiles — per-reader
+state with no script, kept by the browser. WHICH cut is featured
+is a fixed public function of the deploy date (MJD mod 12 + 1),
+passed as EDUBBA_DEAL_DATE by the Pages workflow, which gained a
+daily cron (04:17 UTC) that re-renders main and commits nothing —
+gate/CI builds never set the date and always feature cut 1, so
+reproducibility holds. Law: cuneiform.md §8 "The deal"; exact-value
+tests pin the date mapping, multiset preservation, and distinct
+orders. Verified end-to-end: dated build features cut 10 for
+2026-08-05 with the inline deck identical to /cut-10/. Catch: a
+test regex `class="deal-tile` also matched the tile-number spans
+(24 not 12) — anchor-prefixed. Review round (owner, same day):
+Easily confused split off the deck onto its own Addenda shelf
+(/…/addenda/confusables/, ordinals bumped, catalogs + §8 updated,
+cross-links both ways). Second round: the drills page holds no
+deck of its own — the deck stays hidden under the face-down
+tiles (today's deal marked "N · today"), print instructions
+point at the cuts; §8 wording updated. Also per the same round:
+Taught-in columns are links everywhere they were text (three
+References + both codex indexes; codex sign pages already
+linked), and the wedge counts left the displays — the C101
+Reference column dropped (prose now says simplicity weighed in
+at selection and needs no column; the registry field and the
+compiler's scoring are untouched) and the "~N wedges" stats
+stripped from every chapter sign-table cell, keeping wedge talk
+only where wedges are the lesson (writing primer, counting,
+"five wedges for one small sound", narrative prose).
+
+2026-08-04 · M11-1..M11-6 · phase-11 · Stage C, the retrieval
+layer, in one run — laws first (§8/§10, including the owner's
+approval-time addition: reinforcement selection, a new chapter's
+example lines preferring candidates that also revise older signs).
+The spiral warm-up: a Liquid tag the chapter layout calls, so 47
+subject chapters gained folded panels of up to six keyword-first
+prompts against seats N−1/−2/−4/−8 of each school's combined
+sequence, zero content edits, references and openers naturally
+excluded. Drill shelves: both Addenda gained every-sign card decks
+in three directions, codepoint-hash interleaved with a
+chapter-mate fix-up pass, confusable clusters as codex-linked
+contrast cells, print CSS cutting Leitner slips. Study decks:
+bin/deck_export.rb mines registries + codex pages into four
+committed Anki TSVs (151 cards; ETCSL lines lawfully absent,
+unknown licenses hard-fail), shelf pages with the FSRS how-to,
+contract test pinning counts/columns/licensing. Read-it-cold: a
+post-render transform repeats each subject chapter's last reading
+bare with the original folded behind check-yourself (35 chapters).
+Reinforcement scoring landed in both reading pickers (sweep rows
+annotated and buckets sorted by revise-while-teaching score); a
+new bin/frontier_picker.rb found ≥90%-covered lines and the two
+Almost yours pages curate three each — the one ▢-by-design
+Addenda surface. All instruments text-pure on native <details>.
+
+2026-08-04 · Gate 10 closed · PR #13 merged by owner same day
+after four review rounds, CI + deploy green, live E shelf verified
+in pixels. The rounds became durable fixes site-wide: the school
+accent is now derived from the URL (chapters never carried school:
+front matter, so every hieroglyph page had rendered in cuneiform
+orange since E101 shipped — one layout line fixes all pages
+forever); the keyword column entered every chapter sign table by
+registry-verified sweep (158 rows, zero misses — §7's
+"everywhere the sign is named" finally fully true) plus the three
+generated References; and the sign tables were rebalanced (last
+column takes 42%, references/shelves opt out via tail-fit with
+nowrap) with headers shortened to Name/Key at the owner's
+suggestion — the long GARDINER/KEYWORD headers had been inflating
+three-character columns. Branch phase-11 opened; Stage C (the
+retrieval layer) proposed as the next phase.
+
 2026-08-04 · M10-0..M10-5 · phase-10 · Stage B in one run: the site
 got its favicon (Nabu's family delivery — É, dark chocolate on old
 paper, wired in the layout head) and the hieroglyph school got its

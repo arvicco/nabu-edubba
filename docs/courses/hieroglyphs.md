@@ -154,3 +154,16 @@ school's specifics:
 - This school's pages and sign-table links land in Stage B of the
   retention plan; its `keyword:` backfill lands with the school-
   wide pass in Stage A. Gate activation follows the pages.
+
+## 10 · Retrieval instruments (Stage C)
+
+Ruled 2026-08-04. The cuneiform rulebook §8 states the shared law
+in full — reinforcement selection for new example lines, the
+spiral warm-up, drill shelves and their dealt cuts, Study decks
+(attribution-only
+lines: aes qualifies, and this school has no ETCSL exposure),
+read-it-cold, the frontier page — and it binds this school
+identically. School specifics: warm-up lookback runs E102 → E101
+through the combined sequence; classifier prompts ask for the
+FUNCTION ("death's stand-in — draw the stroke"), since silent
+signs have no reading to produce.

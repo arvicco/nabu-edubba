@@ -39,7 +39,8 @@ registry so it can never drift out of date with the lessons.
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_aes | default: "—" }}</td>
       <td>{{ s.certainty }}</td>
-      <td>ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</td>
+      {% assign ch = site.pages | where: "course", "hieroglyphs-101" | where: "chapter", s.taught_in | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</a>{% else %}ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

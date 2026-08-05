@@ -15,6 +15,7 @@ layout: default
 {% if page.course %}
   <p class="chapter-kicker">{{ page.course_title }}{% unless page.kicker_no_chapter %} · Chapter {{ page.chapter | prepend: "00" | slice: -2, 2 }}{% endunless %}</p>
 {% endif %}
+{% warmup_panel %}
 {{ content }}
 
 <nav class="chapter-nav chapter-nav-bottom" aria-label="Chapter, bottom">
