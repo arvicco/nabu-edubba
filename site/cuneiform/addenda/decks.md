@@ -8,7 +8,7 @@ description: >-
 layout: chapter
 school: cuneiform
 course: cuneiform-addenda
-chapter: 5
+chapter: 6
 permalink: /cuneiform/addenda/decks/
 course_url: /cuneiform/addenda/
 course_title: "Cuneiform Addenda"

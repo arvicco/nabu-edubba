@@ -185,8 +185,10 @@ renders. These laws bind both schools (the hieroglyph rulebook
   adjacent (interleaving) — the order is a stable function of
   the sign data, never of a clock or a random source, so builds
   reproduce. Confusable pairs additionally stand side by side as
-  contrast rows. A print stylesheet renders the same page as
-  cut-out Leitner cards.
+  contrast rows on a shelf page of their own (owner ruling
+  2026-08-05: the deck and the lookalikes are separate drill
+  pages). A print stylesheet renders the deck as cut-out Leitner
+  cards.
 - **The deal** (owner ruling 2026-08-05): the drill deck ships
   as TWELVE pre-generated cuts — the same cards under twelve
   seeded orderings, each produced by the same hash-and-spread

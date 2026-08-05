@@ -35,12 +35,10 @@ for a shoebox Leitner system: three boxes, daily / every few days
 / weekly, cards moving up when you get them right and back to
 daily when you miss.
 
-## Easily confused — drill these side by side
-
-The lookalikes, deliberately together: tell them apart before
-they blur.
-
-{% drill_shelf contrasts %}
+The lookalikes that keep trading places have a shelf of their
+own: [Easily confused]({{ '/cuneiform/addenda/confusables/' | relative_url }}),
+where each pair stands side by side until you can tell them
+apart.
 
 ## The deck
 

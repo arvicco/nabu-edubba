@@ -8,7 +8,7 @@ description: >-
 layout: chapter
 school: hieroglyphs
 course: hieroglyphs-addenda
-chapter: 4
+chapter: 5
 permalink: /hieroglyphs/addenda/decks/
 course_url: /hieroglyphs/addenda/
 course_title: "Hieroglyphs Addenda"

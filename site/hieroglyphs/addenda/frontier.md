@@ -7,7 +7,7 @@ description: >-
 layout: chapter
 school: hieroglyphs
 course: hieroglyphs-addenda
-chapter: 5
+chapter: 6
 permalink: /hieroglyphs/addenda/frontier/
 course_url: /hieroglyphs/addenda/
 course_title: "Hieroglyphs Addenda"
