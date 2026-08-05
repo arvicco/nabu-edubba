@@ -30,14 +30,14 @@ words — why any of these laws exist at all.
   <tbody>
     <tr>
       <td class="script sign-cell">𒇴</td><td>LAM</td><td>flourish</td><td><em>lam</em></td>
-      <td>luxuriance, flourishing (stated); the syllable lam</td>
+      <td>luxuriance, flourishing</td>
       <td>the sign the box was holding a seat for: it closes
           <span class="norm">awīlam</span>, and law 1 is yours
           entire</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆗</td><td>KAL</td><td>mighty</td><td><em>dan</em></td>
-      <td>the syllable dan</td>
+      <td>—</td>
       <td><strong>veteran</strong> — 102's mighty-sign carries
           exactly the right word across the border:
           <span class="norm">dannum</span>, "the strong," opens
@@ -46,7 +46,7 @@ words — why any of these laws exist at all.
     </tr>
     <tr>
       <td class="script sign-cell">𒌅</td><td>TU</td><td>born</td><td><em>ṭu₂</em></td>
-      <td>the syllable ṭu₂</td>
+      <td>—</td>
       <td><strong>veteran</strong> — 102's birth-sign gains the
           emphatic ṭ: <span class="norm">ṭubbim</span>, "to make
           well," ends the stele's mission statement on it</td>

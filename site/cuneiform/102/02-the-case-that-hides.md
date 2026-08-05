@@ -32,13 +32,13 @@ spelling the moment you stop watching it.
   <tbody>
     <tr>
       <td class="script sign-cell">𒊏</td><td>RA</td><td>toward</td><td><em>ra</em></td>
-      <td>the syllable ra; "to, for" (a person) — the dative tag</td>
+      <td>[ra]; "to, for" (a person) — the dative tag</td>
       <td>pictorial origin not transparent — a grammar
           workhorse from its first appearance, no picture to lean on</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂵</td><td>GA</td><td>milk</td><td><em>ga</em></td>
-      <td>milk; the syllable ga</td>
+      <td>milk; [ga]</td>
       <td>classic origin: the sign lists connect it with
           the milk jug and dairy work — you will see why in this
           chapter's names</td>

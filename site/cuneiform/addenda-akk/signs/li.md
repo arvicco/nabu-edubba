@@ -1,7 +1,7 @@
 ---
 title: "LI · juniper"
 description: >-
-  The sign LI in Akkadian — the syllable li, tenth most frequent
+  The sign LI in Akkadian — [li], tenth most frequent
   in the Old Babylonian corpus.
 layout: sign
 school: cuneiform

@@ -1,7 +1,7 @@
 ---
 title: "UB · nook"
 description: >-
-  The sign UB in Akkadian — the syllable ub, second stroke of the
+  The sign UB in Akkadian — [ub], second stroke of the
   laws' verbs of accusation and repair.
 layout: sign
 school: cuneiform

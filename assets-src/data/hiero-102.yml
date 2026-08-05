@@ -35,7 +35,7 @@ signs:
   - { gardiner: M12,  translit: "ḫꜣ",  mdc: "xA",   label: "lotus leaf on its stalk",    sense: "ḫꜣ, one thousand — the offering-count numeral",      chapter: null, certainty: classic }
   - { gardiner: W22,  translit: "ḥnqt", mdc: "Hnqt", label: "beer jug",                  sense: "ḥnqt, beer; classifier of jars and drink",           chapter: null, certainty: classic }
   - { gardiner: M3,   translit: "ḫt",  mdc: "xt",   label: "branch",                     sense: "ḫt, wood, stick; classifier of things wooden",       chapter: null, certainty: classic }
-  - { gardiner: U33,  translit: "tj",  mdc: "ti",   label: "pestle",                     sense: "the syllable tj",                                    chapter: null, certainty: classic }
+  - { gardiner: U33,  translit: "tj",  mdc: "ti",   label: "pestle",                     sense: "[tj]",                                    chapter: null, certainty: classic }
   - { gardiner: V31A, translit: "k",   mdc: "k",    label: "basket with handle (left)",  sense: "k — V31's mirror twin; one sound, two shapes",       chapter: 2, certainty: classic, keyword: "mirror basket", confusable_with: ["V31"] }
   - { gardiner: G7,   translit: "—",   mdc: "",     label: "falcon on the standard",     sense: "silent classifier of gods and kings; Horus watching over the word", chapter: 2, certainty: classic, keyword: "watcher" }
   - { gardiner: Z3,   translit: "—",   mdc: "",     label: "three strokes, in a row",    sense: "silent classifier: plurality",                       chapter: null, certainty: classic }

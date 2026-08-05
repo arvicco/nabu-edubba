@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda/signs/e/
 
 ## Where it comes from
 
-As a word it is a levee or ditch (stated) — the earthwork lines
+As a word it is a levee or ditch — the earthwork lines
 of an irrigated country. Its rank comes from grammar: the bare
 vowel *e* marks the agent in context and sits inside everyday
 words like *za-e*, "you" — enough duty to make it the

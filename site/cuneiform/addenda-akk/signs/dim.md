@@ -1,7 +1,7 @@
 ---
 title: "DIM · post"
 description: >-
-  The sign DIM in Akkadian — the syllable tim, the genitive's
+  The sign DIM in Akkadian — [tim], the genitive's
   workhorse ending.
 layout: sign
 school: cuneiform

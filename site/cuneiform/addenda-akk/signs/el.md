@@ -1,7 +1,7 @@
 ---
 title: "EL · bright"
 description: >-
-  The sign EL in Akkadian — the syllable el, with the word ellum,
+  The sign EL in Akkadian — [el], with the word ellum,
   "bright, pure," living inside it.
 layout: sign
 school: cuneiform
@@ -17,7 +17,7 @@ permalink: /cuneiform/addenda-akk/signs/el/
 
 One of the rare signs whose Akkadian sound and an Akkadian word
 coincide: *ellum* means "bright, pure" — cultically clean — and
-the lists connect the sign with that sense (stated). On syllable
+the lists connect the sign with that sense. On syllable
 duty it is simply *el*, and its steadiest job in this school's
 texts is closing the construct <span class="norm">bēl</span>:
 *be-el*, "lord of."

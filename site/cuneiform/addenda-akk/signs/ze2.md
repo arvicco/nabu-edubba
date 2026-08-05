@@ -1,7 +1,7 @@
 ---
 title: "ZE2 · bile"
 description: >-
-  The sign ZE2 in Akkadian — the syllables ṣi and ṣe, carrying the
+  The sign ZE2 in Akkadian — [ṣi/ṣe], carrying the
   emphatic ṣ that Sumerian never wrote.
 layout: sign
 school: cuneiform
@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/ze2/
 
 ## Where it comes from
 
-Bile, gall — the bitter fluid — per the sign lists (stated).
+Bile, gall — the bitter fluid — per the sign lists.
 Akkadian drafted it for a sound of its own: the emphatic *ṣ*, a
 pressed, sharp s that belongs to the Semitic side of the family
 and had no Sumerian sign waiting for it. The scribes' solution

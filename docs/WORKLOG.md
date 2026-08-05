@@ -38,7 +38,14 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
-Review round (owner): sidebar ordering made explicit via
+Second review round (owner): Means columns recalibrated — the
+[lam] bracket notation replaces every "the syllable lam" phrase
+site-wide (pools, registries, chapter cells, codex pages; queues
+regenerated), certainty tags ((stated)/(classic)) left all table
+cells and meaning fields (grading stays in the Reference Origin
+column and codex prose), and Means cells now carry the semantic
+core only — the sound is the Reads column's job. All three now
+law in §1. First round (owner): sidebar ordering made explicit via
 nav_order on course indexes — each language's addenda follows its
 language's courses (C 101, C 102, C SUX Addenda, C 103, C AKK
 Addenda), replacing the URL-sort accident.

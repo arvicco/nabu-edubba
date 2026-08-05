@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda/signs/bi/
 
 ## Where it comes from
 
-In origin a vessel (stated). In grammar it is *-bi*: "its, that"
+In origin a vessel. In grammar it is *-bi*: "its, that"
 — the possessive of THINGS and places, as against persons, who
 take *-ani*. A canal's banks, a house's wall, a story's ending:
 all wear *-bi*.

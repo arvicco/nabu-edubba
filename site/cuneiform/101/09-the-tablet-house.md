@@ -33,7 +33,7 @@ start of this course comes due.
     </tr>
     <tr>
       <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td><em>ba</em></td>
-      <td>syllable <em>ba</em>; as a verb, "to allot"</td>
+      <td>[ba]; as a verb, "to allot"</td>
       <td>pictorial origin opaque — a pure workhorse
           syllable, top six in BOTH of this course's counted corpora.
           Borrowed a course ahead: its formal seat is the Sumerian

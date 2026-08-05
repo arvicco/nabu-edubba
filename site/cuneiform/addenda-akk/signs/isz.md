@@ -1,7 +1,7 @@
 ---
 title: "IŠ · dust"
 description: >-
-  The sign IŠ in Akkadian — the syllable iš, the vowel-first sound
+  The sign IŠ in Akkadian — [iš], the vowel-first sound
   that opens foundations and preterites.
 layout: sign
 school: cuneiform

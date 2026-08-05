@@ -41,7 +41,7 @@ that chapter. Three new signs, and the chain finally gets named.
     </tr>
     <tr>
       <td class="script sign-cell">𒅔</td><td>IN</td><td>in-</td><td><em>in</em></td>
-      <td>the syllable <em>in</em>; the verbal prefix <em>in-</em></td>
+      <td>[in]; the verbal prefix <em>in-</em></td>
       <td>the plain "he/she/it did" opener of thousands of
           administrative and literary lines alike</td>
     </tr>

@@ -1,7 +1,7 @@
 ---
 title: "NUN · prince"
 description: >-
-  The sign NUN in Akkadian — the syllable nun, at the heart of the
+  The sign NUN in Akkadian — [nun], at the heart of the
   Anunnaki's name.
 layout: sign
 school: cuneiform

@@ -1,7 +1,7 @@
 ---
 title: "PI · ear"
 description: >-
-  The sign PI in Akkadian — the syllables wa and wi: the w-sounds
+  The sign PI in Akkadian — [wa/wi]: the w-sounds
   Sumerian never wrote, carried by an ear.
 layout: sign
 school: cuneiform
@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/pi/
 
 ## Where it comes from
 
-An ear — so the lists identify the shape (stated), and Sumerian
+An ear — so the lists identify the shape, and Sumerian
 used it in words of hearing and wisdom. Akkadian faced a problem
 Sumerian never had: a real *w* sound with no sign to write it.
 The scribes' fix was this sign — the ear was drafted to carry

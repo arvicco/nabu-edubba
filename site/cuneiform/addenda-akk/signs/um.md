@@ -1,7 +1,7 @@
 ---
 title: "UM · tether"
 description: >-
-  The sign UM in Akkadian — the syllable um, the sound every Old
+  The sign UM in Akkadian — [um], the sound every Old
   Babylonian noun ends on when it is the subject.
 layout: sign
 school: cuneiform

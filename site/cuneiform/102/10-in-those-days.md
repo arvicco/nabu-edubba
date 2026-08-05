@@ -2,7 +2,7 @@
 title: "10 · In those days"
 short_title: "10 · In those days"
 description: >-
-  Breath, arm, and the syllable ri — and the literary register: how
+  Breath, arm, and [ri] — and the literary register: how
   hymns and epics open with "in those distant days" and seal their
   praise with the word zid, "true."
 layout: chapter
@@ -47,7 +47,7 @@ the vocabulary the shift runs on.
     </tr>
     <tr>
       <td class="script sign-cell">𒊑</td><td>RI</td><td>distant</td><td><em>ri</em></td>
-      <td>the syllable ri (also re); distant; as a verb, to pour
+      <td>[ri] (also re); distant; as a verb, to pour
           out, set upon</td>
       <td>the sign behind Sumerian epic's favorite way to begin:
           <em>ud ri-a</em> / <em>ud re-a</em>, "in those distant

@@ -34,20 +34,20 @@ chapter teaches you to see all three.
   <tbody>
     <tr>
       <td class="script sign-cell">𒄠</td><td>AM</td><td>wild bull</td><td><em>am</em></td>
-      <td>wild bull (stated); the syllable am</td>
+      <td>wild bull</td>
       <td>a bull-sign with "mountain" pressed inside — the beast
           of the high country; as a sound, it is the accusative's
           favorite ending</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁴</td><td>DIM</td><td>post</td><td><em>tim</em></td>
-      <td>post, pillar (stated); the syllable tim</td>
+      <td>post, pillar</td>
       <td>the genitive loves it: <em>mātim</em>, "of the land,"
           ends on this sign</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒍢</td><td>ZE2</td><td>bile</td><td><em>ṣi / ṣe</em></td>
-      <td>bile, gall (stated); the syllables ṣi and ṣe</td>
+      <td>bile, gall</td>
       <td>your first <strong>emphatic</strong>: ṣ is a pressed,
           sharp s that Sumerian never wrote — Akkadian brought its
           own sounds to the borrowed script, and this sign was
@@ -55,7 +55,7 @@ chapter teaches you to see all three.
     </tr>
     <tr>
       <td class="script sign-cell">𒁉</td><td>BI</td><td>its</td><td><em>pi₂</em></td>
-      <td>the syllable pi₂</td>
+      <td>—</td>
       <td><strong>veteran</strong> — 102's BI crosses the border
           with a new voice: Akkadian uses it for <em>pi/pi₂</em>,
           and you are four lines away from finding it at the end

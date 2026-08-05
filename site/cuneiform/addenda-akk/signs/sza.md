@@ -1,7 +1,7 @@
 ---
 title: "ŠA · which"
 description: >-
-  The sign ŠA in Akkadian — the syllable ša and the particle ša,
+  The sign ŠA in Akkadian — [ša] and the particle ša,
   "which, of": the busiest little word in the language.
 layout: sign
 school: cuneiform

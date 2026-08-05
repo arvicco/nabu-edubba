@@ -31,7 +31,7 @@ signs. One new sign is all it still needs from you.
   <tbody>
     <tr>
       <td class="script sign-cell">𒉣</td><td>NUN</td><td>prince</td><td><em>nun</em></td>
-      <td>prince, noble (classic)</td>
+      <td>prince, noble</td>
       <td>an old and honest picture-sign of rank; here it sits
           inside the name of the gods themselves — the
           A-<strong>nun</strong>-na-ki, "the princely offspring,"

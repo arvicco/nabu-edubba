@@ -37,14 +37,14 @@ sign that made decipherment possible.
   <tbody>
     <tr>
       <td class="script sign-cell">𒈾</td><td>NA</td><td>stone</td><td><em>na</em></td>
-      <td>the syllable <em>na</em></td>
+      <td>[na]</td>
       <td>pictorial origin not transparent — a pure
           phonetic workhorse, fourth most frequent value in the
           literary corpus</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉌</td><td>NI</td><td>oil</td><td><em>ni</em>, <em>i₃</em></td>
-      <td>the syllable <em>ni</em>; as <em>i₃</em>, "oil"</td>
+      <td>[ni]; as <em>i₃</em>, "oil"</td>
       <td>commonly connected with an oil jar in origin</td>
     </tr>
   </tbody>

@@ -1,7 +1,7 @@
 ---
 title: "BAD · open"
 description: >-
-  The sign BAD in Akkadian — the syllable be, the opening sound of
+  The sign BAD in Akkadian — [be], the opening sound of
   bēlum, "lord."
 layout: sign
 school: cuneiform

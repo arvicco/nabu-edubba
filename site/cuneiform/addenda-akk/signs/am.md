@@ -1,7 +1,7 @@
 ---
 title: "AM · wild bull"
 description: >-
-  The sign AM in Akkadian — the syllable am, the accusative's
+  The sign AM in Akkadian — [am], the accusative's
   favorite ending, with a bull and a mountain in its bones.
 layout: sign
 school: cuneiform

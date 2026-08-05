@@ -1,7 +1,7 @@
 ---
 title: "LUM · ripen"
 description: >-
-  The sign LUM in Akkadian — the syllable lum, the close of
+  The sign LUM in Akkadian — [lum], the close of
   awīlum, the legal person of the laws.
 layout: sign
 school: cuneiform

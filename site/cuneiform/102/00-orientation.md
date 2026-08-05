@@ -47,7 +47,7 @@ puts real clay in front of you.
     </tr>
     <tr>
       <td class="script sign-cell">𒋫</td><td>TA</td><td>from</td><td><em>ta</em></td>
-      <td>the syllable ta; "from" (ablative)</td>
+      <td>[ta]; "from" (ablative)</td>
       <td>pictorial origin not transparent — a grammar
           workhorse you will meet properly in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></td>
     </tr>
