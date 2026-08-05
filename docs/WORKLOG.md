@@ -27,7 +27,19 @@ test regex `class="deal-tile` also matched the tile-number spans
 (24 not 12) — anchor-prefixed. Review round (owner, same day):
 Easily confused split off the deck onto its own Addenda shelf
 (/…/addenda/confusables/, ordinals bumped, catalogs + §8 updated,
-cross-links both ways) — the deck page is now deal + cards only.
+cross-links both ways). Second round: the drills page holds no
+deck of its own — the deck stays hidden under the face-down
+tiles (today's deal marked "N · today"), print instructions
+point at the cuts; §8 wording updated. Also per the same round:
+Taught-in columns are links everywhere they were text (three
+References + both codex indexes; codex sign pages already
+linked), and the wedge counts left the displays — the C101
+Reference column dropped (prose now says simplicity weighed in
+at selection and needs no column; the registry field and the
+compiler's scoring are untouched) and the "~N wedges" stats
+stripped from every chapter sign-table cell, keeping wedge talk
+only where wedges are the lesson (writing primer, counting,
+"five wedges for one small sound", narrative prose).
 
 2026-08-04 · M11-1..M11-6 · phase-11 · Stage C, the retrieval
 layer, in one run — laws first (§8/§10, including the owner's
