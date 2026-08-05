@@ -47,7 +47,8 @@ scaffolding — the moment your own picture forms, throw ours away.
       <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s.gardiner }}</a>{% else %}{{ s.gardiner }}{% endif %}</td>
       <td>{{ s.keyword }}</td>
       <td>{{ s.meaning }}</td>
-      <td>101 · ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</td>
+      {% assign ch = site.pages | where: "course", "hieroglyphs-101" | where: "chapter", s.taught_in | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">101 · ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</a>{% else %}101 · ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
     </tr>
   {% endfor %}
   {% for s in e102 %}
@@ -59,7 +60,8 @@ scaffolding — the moment your own picture forms, throw ours away.
       <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s.gardiner }}</a>{% else %}{{ s.gardiner }}{% endif %}</td>
       <td>{{ s.keyword }}</td>
       <td>{{ s.meaning }}</td>
-      <td>102 · ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</td>
+      {% assign ch = site.pages | where: "course", "hieroglyphs-102" | where: "chapter", s.chapter | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">102 · ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</a>{% else %}102 · ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

@@ -30,7 +30,7 @@ who presided over the whole story this chapter tells.
     <tr>
       <td class="script sign-cell">𒂗</td><td>EN</td><td>lord</td><td><em>en</em></td>
       <td>lord; high priest</td>
-      <td>~7 wedges; origin opaque in the late form; ninth most
+      <td>origin opaque in the late form; ninth most
           frequent value in the literary corpus</td>
     </tr>
     <tr>

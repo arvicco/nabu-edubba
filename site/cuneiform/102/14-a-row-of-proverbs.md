@@ -51,7 +51,7 @@ them will have earned its seat before the row is done.
     <tr>
       <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td><em>dab₅</em></td>
       <td>to seize; also to sit, dwell (tuš)</td>
-      <td>~4 wedges, several jobs; today it is the hand of fate
+      <td>several jobs; today it is the hand of fate
           closing on a glutton</td>
     </tr>
   </tbody>

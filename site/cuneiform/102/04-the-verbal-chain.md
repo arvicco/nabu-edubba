@@ -44,7 +44,7 @@ line, you recognize the shape instead of flinching at it.
     <tr>
       <td class="script sign-cell">𒋾</td><td>TI</td><td>arrow</td><td><em>ti</em></td>
       <td>arrow; by rebus, LIFE</td>
-      <td>~4 wedges; the textbook rebus pair of the whole
+      <td>the textbook rebus pair of the whole
           discipline — arrow and life sounded close enough in
           Sumerian that the arrow sign was drafted to write "life."
           This is 101's rebus lesson, made good</td>
@@ -52,7 +52,7 @@ line, you recognize the shape instead of flinching at it.
     <tr>
       <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td><em>ne</em></td>
       <td>brazier, fire (stated); the syllable ne</td>
-      <td>~9 wedges; a promise-keeper — see below</td>
+      <td>a promise-keeper — see below</td>
     </tr>
   </tbody>
 </table>

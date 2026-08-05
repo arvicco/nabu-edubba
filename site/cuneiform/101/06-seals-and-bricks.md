@@ -37,7 +37,7 @@ you can see exactly how much of the original is already yours.
     <tr>
       <td class="script sign-cell">𒈗</td><td>LUGAL</td><td>king</td><td><em>lugal</em></td>
       <td>king</td>
-      <td>the keyword of every royal text below — ~12 wedges, your
+      <td>the keyword of every royal text below — your
           most complex sign yet (its secret is opened in <a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">chapter 07</a>)</td>
     </tr>
     <tr>
