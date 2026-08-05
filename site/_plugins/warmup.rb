@@ -11,7 +11,7 @@ require_relative "../../script/warmup"
 
 class WarmupPanelTag < Liquid::Tag
   SCHOOLS = {
-    "cuneiform" => %w[sign_teaching cuneiform102_queue],
+    "cuneiform" => %w[sign_teaching cuneiform102_queue cuneiform103_queue],
     "hieroglyphs" => %w[hiero_teaching hieroglyphs102_queue]
   }.freeze
 
@@ -19,13 +19,13 @@ class WarmupPanelTag < Liquid::Tag
     site = context.registers[:site]
     page = context.registers[:page]
     course = page["course"].to_s
-    school = course[/\A(cuneiform|hieroglyphs)-10[12]\z/, 1]
+    school = course[/\A(cuneiform|hieroglyphs)-10[123]\z/, 1]
     return "" unless school && page["chapter"].is_a?(Integer)
 
     @cache ||= {}
     seats = (@cache[school] ||= begin
-      r101, r102 = SCHOOLS[school].map { |d| site.data.dig(d, "signs") }
-      Edubba::Warmup.sequence(r101, r102, school)
+      r101, r102, r103 = SCHOOLS[school].map { |d| site.data.dig(d, "signs") }
+      Edubba::Warmup.sequence(r101, r102, school, r103)
     end)
     urls = (@cache[:urls] ||= site.pages.each_with_object({}) do |p, h|
       next unless p.data["course"] && p.data["chapter"]

@@ -11,7 +11,7 @@ course: cuneiform-addenda
 chapter: 6
 permalink: /cuneiform/addenda/decks/
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 kicker_no_chapter: true
 teaches: []
 shows: []

@@ -2,15 +2,15 @@
 layout: course
 school: cuneiform
 course_no: addenda
-title: Cuneiform Addenda
-short_title: C Addenda
+title: Sumerian Addenda
+short_title: C SUX Addenda
 description: >-
   School-wide materials that belong to no single course: the writing
   primer — the scribe's hand, wedge by wedge — and the site's working
   glossary of terms.
 ---
 
-# Cuneiform Addenda
+# Sumerian Addenda
 
 The numbered courses teach in sequence — each chapter assumes the
 ones before it. The addenda work the other way: they are the

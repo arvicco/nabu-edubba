@@ -91,6 +91,36 @@ class SignLinkerTest < Minitest::Test
     refute_includes out, %(href="#{CODEX}")
   end
 
+  # --- §9 language separation: per-course codex routing ---
+
+  AKK_CODEX = "/cuneiform/addenda-akk/signs/an/"
+  TWO_CODEX_MAP = {
+    AN => { url: REF, anchor: "sign-1202D", tip: "AN · an · heaven",
+            codex: CODEX, codex_akk: AKK_CODEX },
+    ME => { url: CH0, anchor: "sign-12228", codex: "/cuneiform/addenda/signs/me/" }
+  }.freeze
+
+  def test_akkadian_pages_route_sign_cells_to_the_akk_codex
+    html = %(<td class="sign-cell">#{AN}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/103/01-x/", "", :codex_akk)
+    assert_includes out, %(href="#{AKK_CODEX}")
+    refute_includes out, %(href="#{CODEX}")
+  end
+
+  def test_akk_routing_falls_back_to_teaching_link_never_the_sux_codex
+    html = %(<td class="sign-cell">#{ME}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/103/01-x/", "", :codex_akk)
+    assert_includes out, %(href="#{CH0}#sign-12228")
+    refute_includes out, %(addenda/signs/me)
+  end
+
+  def test_sux_pages_still_route_to_the_sux_codex
+    html = %(<td class="sign-cell">#{AN}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/102/01-x/", "")
+    assert_includes out, %(href="#{CODEX}")
+    refute_includes out, %(addenda-akk)
+  end
+
   def test_build_map_prefers_queue_chapters_for_queue_signs
     teaching = { "signs" => [{ "glyph" => AN, "codepoint" => "1202D" }] }
     queue = { "signs" => [{ "glyph" => ME, "codepoint" => "12228", "chapter" => 0 }] }

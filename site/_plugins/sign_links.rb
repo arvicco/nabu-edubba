@@ -46,9 +46,26 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                             [s["gardiner"], s["value"], s["meaning"]]
                           ) }
     end
+    # C103 (Akkadian): new signs link to their teaching chapter;
+    # veterans keep their sux teaching entry (body links follow
+    # where-first-taught, §9 routes only the codex below).
+    akk_urls = site.pages.each_with_object({}) do |p, h|
+      h[p.data["chapter"]] = p.url if p.data["course"] == "cuneiform-103" && p.data["chapter"]
+    end
+    Array(site.data.dig("cuneiform103_queue", "signs")).each do |s|
+      ch = s["chapter"] or next
+      next if map[s["glyph"]] # veteran — sux teaching entry stands
+
+      url = akk_urls[ch] or next
+      map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                          tip: Edubba::SignLinker.tip_text(s) }
+    end
     # Codex pages (rulebook §7/§9): sign-table cells link the glyph
     # to its Addenda sign page — wired per school as each shelf
-    # ships, keyed on the page actually existing in the build.
+    # ships, keyed on the page actually existing in the build. The
+    # akk codex is a separate shelf (§9 language separation); every
+    # sign the Akkadian course uses gets :codex_akk, routed to on
+    # Akkadian-course pages only.
     page_urls = site.pages.each_with_object({}) { |p, h| h[p.url] = true }
     { "cuneiform" => [site.data["sign_teaching"], site.data["cuneiform102_queue"]],
       "hieroglyphs" => [site.data["hiero_teaching"], site.data["hieroglyphs102_queue"]] }.each do |school, regs|
@@ -61,10 +78,18 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
         end
       end
     end
+    Array(site.data.dig("cuneiform103_queue", "signs")).each do |s|
+      entry = map[s["glyph"]] or next
+      slug = Edubba::Rulebook.sign_slug(s["name"])
+      url = "/cuneiform/addenda-akk/signs/#{slug}/"
+      entry[:codex_akk] = url if page_urls[url]
+    end
     map
   end
 
+  akk_page = %w[cuneiform-103 cuneiform-addenda-akk].include?(page.data["course"])
   page.output = Edubba::SignLinker.transform(
-    page.output, @sign_map, page.url, site.baseurl.to_s
+    page.output, @sign_map, page.url, site.baseurl.to_s,
+    akk_page ? :codex_akk : :codex
   )
 end

@@ -9,7 +9,7 @@ sign: "DU"
 reads: "du; also tum₂ (brought)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/du/
 ---
 
