@@ -7,20 +7,30 @@
 # chapter-mates apart), never of a clock. Confusables stand
 # adjacent as contrast rows. A print stylesheet turns the page
 # into cut-out Leitner cards.
+#
+# The deal (rulebook §8, owner ruling 2026-08-05): the deck ships
+# in CUTS pre-generated seeded orderings; the featured cut follows
+# the deploy date (EDUBBA_DEAL_DATE), gate/local builds feature
+# cut 1. The reader's tile pick is the site's only random source.
 
+require "date"
 require_relative "warmup"
 require_relative "rulebook"
 
 module Edubba
   module Drills
     DIRECTIONS = %i[read write mean].freeze
+    CUTS = 12
 
     module_function
 
     # All cards for a school's seats: each sign in up to three
     # directions (silent signs drop :read/:mean prompts that need a
     # reading and keep draw-style :write), pseudo-shuffled stably.
-    def cards(seats)
+    # Each seed yields a different full interleave (the multiplier
+    # varies, not an additive offset — an offset would merely
+    # rotate the same cyclic order); seed 0 is the historic one.
+    def cards(seats, seed = 0)
       list = []
       seats.each do |seat|
         seat[:signs].each do |sign|
@@ -28,13 +38,22 @@ module Edubba
           dirs.each { |d| list << { sign: sign, seat: seat, direction: d } }
         end
       end
-      shuffled = list.sort_by { |c| sort_key(c) }
+      shuffled = list.sort_by { |c| sort_key(c, seed) }
       spread(shuffled)
     end
 
-    def sort_key(card)
+    def sort_key(card, seed = 0)
       cp = (card[:sign]["codepoint"] || card[:sign]["glyph"].to_s.codepoints.first.to_s(16)).to_s.hex
-      (cp * 2_654_435_761 + DIRECTIONS.index(card[:direction]) * 7_919) % 104_729
+      (cp * (2_654_435_761 + seed * 2) + DIRECTIONS.index(card[:direction]) * 7_919) % 104_729
+    end
+
+    # Which cut the drills page features: fixed public function of
+    # the build date (MJD mod CUTS, one-based). No date — no
+    # calendar in the build — always cut 1.
+    def featured_cut(date_str = ENV["EDUBBA_DEAL_DATE"])
+      return 1 if date_str.nil? || date_str.strip.empty?
+
+      Date.iso8601(date_str.strip).mjd % CUTS + 1
     end
 
     # One deterministic pass: adjacent cards from the same seat swap
@@ -94,8 +113,20 @@ module Edubba
       out.reject { |g| g.size < 2 }
     end
 
-    def shelf_html(seats, school, slug_base, baseurl = "")
-      items = cards(seats).map { |c| card_html(c, school) }.join("\n")
+    # The face-down tile row: all CUTS cuts of the deck, the
+    # featured one marked. Visited-link CSS fades used tiles —
+    # the deck remembers without a byte of script.
+    def deal_html(drills_url, featured, back_glyph)
+      tiles = (1..CUTS).map do |n|
+        classes = +"deal-tile"
+        classes << " deal-tile--today" if n == featured
+        %(<a class="#{classes}" href="#{drills_url}cut-#{n}/"><span class="script">#{back_glyph}</span><span class="deal-tile-n">#{n}</span></a>)
+      end.join("\n  ")
+      %(<nav class="deal-row" aria-label="Cuts of the deck">\n  #{tiles}\n</nav>)
+    end
+
+    def shelf_html(seats, school, slug_base, baseurl = "", seed = 0)
+      items = cards(seats, seed).map { |c| card_html(c, school) }.join("\n")
       rows = clusters(seats).map do |group|
         cells = group.map do |s|
           slug = Rulebook.sign_slug(Warmup.ident(s))

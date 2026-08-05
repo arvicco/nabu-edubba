@@ -44,4 +44,12 @@ they blur.
 
 ## The deck
 
+The order below is today's deal: it reshuffles with the
+calendar, so a visit tomorrow replays nothing. Sitting down for
+a real session? Cut the deck yourself — every tile is the whole
+deck in a different order, and tiles you have already worked
+through fade. Pick blind; your hand is the shuffle.
+
+{% drill_shelf deal %}
+
 {% drill_shelf cards %}

@@ -159,7 +159,8 @@ school's specifics:
 
 Ruled 2026-08-04. The cuneiform rulebook §8 states the shared law
 in full — reinforcement selection for new example lines, the
-spiral warm-up, drill shelves, Study decks (attribution-only
+spiral warm-up, drill shelves and their dealt cuts, Study decks
+(attribution-only
 lines: aes qualifies, and this school has no ETCSL exposure),
 read-it-cold, the frontier page — and it binds this school
 identically. School specifics: warm-up lookback runs E102 → E101
