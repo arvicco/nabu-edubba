@@ -34,29 +34,27 @@ stele's opening is built out of it.
   <tbody>
     <tr>
       <td class="script sign-cell">𒁁</td><td>BAD</td><td>open</td><td><em>be</em></td>
-      <td>the syllable be; as a word, to open, apart (stated
-          variously)</td>
+      <td>to open, apart</td>
       <td>the be- of <span class="norm">bēlum</span>, "lord" — a
           sign you will now see at the head of titles constantly</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂖</td><td>EL</td><td>bright</td><td><em>el</em></td>
-      <td>bright, pure (<span class="norm">ellum</span>); the
-          syllable el</td>
+      <td>bright, pure (<span class="norm">ellum</span>)</td>
       <td>carries its own Akkadian word inside it — and closes
           <em>be-el</em>, the spelling of the construct
           <span class="norm">bēl</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td><em>ad / at</em></td>
-      <td>father (classic); the syllables ad and at</td>
+      <td>father</td>
       <td>the picture is a father in the oldest lists; the sound
           will close <em>ši-ma-at</em>, "destinies," four lines
           from now</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td><em>ši</em></td>
-      <td>the syllable ši</td>
+      <td>—</td>
       <td><strong>veteran</strong> — 102's eye-sign crosses the
           border as pure sound: its Sumerian reading <em>ši</em>
           becomes an all-purpose Akkadian syllable, free of the

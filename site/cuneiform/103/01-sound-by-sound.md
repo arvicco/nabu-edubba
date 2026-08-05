@@ -33,22 +33,21 @@ them in runs.
   <tbody>
     <tr>
       <td class="script sign-cell">𒇷</td><td>LI</td><td>juniper</td><td><em>li</em></td>
-      <td>the syllable li; a juniper in the sign lists (stated)</td>
+      <td>a juniper in the sign lists</td>
       <td>tenth most frequent syllable in the Old Babylonian
           corpus — it will be everywhere, including inside the
           word for "over him" below</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅖</td><td>IŠ</td><td>dust</td><td><em>iš</em></td>
-      <td>dust, soil (stated); the syllable iš</td>
+      <td>dust, soil</td>
       <td>your first vowel-first sign of the course: Akkadian
           needs syllables that END in a consonant, and Sumerian's
           inventory had them ready</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅕</td><td>IR</td><td>scent</td><td><em>ir / er</em></td>
-      <td>scent, perfume in the lists (stated); the syllables
-          ir and er</td>
+      <td>scent, perfume in the lists</td>
       <td>one sign, two neighboring vowels — Akkadian spelling
           tolerates that blur, and context settles it</td>
     </tr>

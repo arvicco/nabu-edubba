@@ -40,7 +40,7 @@ own. First, the batch that makes it possible.
     </tr>
     <tr>
       <td class="script sign-cell">𒈠</td><td>MA</td><td>workhorse</td><td><em>ma</em></td>
-      <td>the syllable ma</td>
+      <td>[ma]</td>
       <td>a spelling workhorse with no picture-story to tell — it
           earns its keep in names and loanwords on thousands of
           tablets</td>

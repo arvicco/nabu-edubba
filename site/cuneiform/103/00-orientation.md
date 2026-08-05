@@ -47,7 +47,7 @@ Akkadian reaches for constantly.
   <tbody>
     <tr>
       <td class="script sign-cell">𒊭</td><td>ŠA</td><td>which</td><td><em>ša</em></td>
-      <td>the syllable ša; the particle <em>ša</em>, "which, of"</td>
+      <td>the particle <em>ša</em>, "which, of"</td>
       <td>the busiest little word in Akkadian: it glues nouns to
           nouns and clauses to clauses — fifth most frequent
           syllable in the whole Old Babylonian corpus</td>
@@ -60,7 +60,7 @@ Akkadian reaches for constantly.
     </tr>
     <tr>
       <td class="script sign-cell">𒌝</td><td>UM</td><td>tether</td><td><em>um</em></td>
-      <td>the syllable um</td>
+      <td>—</td>
       <td>the sound every Old Babylonian noun ends on when it is
           the subject: <em>šarrum</em>, <em>awīlum</em> — learn
           this sign and you can spot a noun's ending on sight</td>

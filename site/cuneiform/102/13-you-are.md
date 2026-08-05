@@ -38,7 +38,7 @@ pays off a case the course has been quietly reading past since
     </tr>
     <tr>
       <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td><em>za</em></td>
-      <td>bead, precious stone; the syllable za</td>
+      <td>bead, precious stone; [za]</td>
       <td>its star turn is the word below — <em>za-e</em>,
           "you"</td>
     </tr>

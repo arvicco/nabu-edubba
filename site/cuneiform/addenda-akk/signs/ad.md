@@ -1,7 +1,7 @@
 ---
 title: "AD · father"
 description: >-
-  The sign AD in Akkadian — the syllables ad and at, from the
+  The sign AD in Akkadian — [ad/at], from the
   classic father-sign of the oldest lists.
 layout: sign
 school: cuneiform

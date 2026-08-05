@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda/signs/la/
 
 ## Where it comes from
 
-As a word, abundance (stated); as a working syllable, the
+As a word, abundance; as a working syllable, the
 spelling glue of the corpus — *la* smooths joins inside words
 and formulas: *nam-ti-la-ni-še₃*, "for his life"; *lu₂-kal-la*,
 "the precious one." Plenty of everything, including work.

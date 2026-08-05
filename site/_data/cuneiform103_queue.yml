@@ -59,7 +59,7 @@ signs:
   codepoint: 122AD
   name: ŠA
   value: sza
-  meaning: syllable ša; the little word ša — "which, of" — that carries Akkadian syntax
+  meaning: the particle ša — "which, of"; the school's hinge-word
   freq_akkob: 5
   certainty: unclear
   chapter: 0
@@ -69,7 +69,7 @@ signs:
   name: U3
   value: u3
   osl_name: "|IGI.DIB|"
-  meaning: the conjunction u, "and"; syllable u₃
+  meaning: the conjunction u — "and"
   freq_akkob: 14
   certainty: unclear
   chapter: 0
@@ -78,7 +78,7 @@ signs:
   codepoint: 1231D
   name: UM
   value: um
-  meaning: syllable um — the -um every Old Babylonian noun wears in the nominative
+  meaning: "[um]; the nominative's closing -um"
   freq_akkob: 9
   certainty: unclear
   chapter: 0
@@ -87,7 +87,7 @@ signs:
   codepoint: 121F7
   name: LI
   value: li
-  meaning: syllable li; a juniper in the sign lists (stated)
+  meaning: "[li]; a juniper in the lists"
   freq_akkob: 10
   certainty: unclear
   chapter: 1
@@ -96,7 +96,7 @@ signs:
   codepoint: '12156'
   name: IŠ
   value: isz
-  meaning: dust, soil (stated); syllable iš — the iš- that opens so many preterites
+  meaning: dust, soil
   freq_akkob: 35
   certainty: stated
   chapter: 1
@@ -105,7 +105,7 @@ signs:
   codepoint: '12155'
   name: IR
   value: ir
-  meaning: syllables ir/er; scent, perfume in the lists (stated)
+  meaning: scent, perfume in the lists
   freq_akkob: 66
   certainty: stated
   chapter: 1
@@ -115,7 +115,7 @@ signs:
   name: AM
   value: am
   osl_name: "|GUD×KUR|"
-  meaning: wild bull (a bull-sign marked with "mountain"; stated); syllable am
+  meaning: wild bull — a bull-sign marked with "mountain"
   freq_akkob: 7
   certainty: stated
   chapter: 2
@@ -124,7 +124,7 @@ signs:
   codepoint: '12074'
   name: DIM
   value: tim
-  meaning: post, pillar (stated); syllable tim — the genitive's -tim
+  meaning: post, pillar; the genitive's -tim
   freq_akkob: 40
   certainty: stated
   chapter: 2
@@ -133,7 +133,7 @@ signs:
   codepoint: '12362'
   name: ZE2
   value: s,i
-  meaning: bile, gall (stated); syllables ṣi/ṣe — the emphatic ṣ
+  meaning: bile, gall; the emphatic ṣ
   freq_akkob: 88
   certainty: stated
   chapter: 2
@@ -143,7 +143,7 @@ signs:
   name: BI
   value: pi2
   veteran: true
-  meaning: 'veteran — BI gains pí: the last syllable of Ḫa-am-mu-ra-pí'
+  meaning: 'veteran — BI gains [pi₂]: the last syllable of Ḫa-am-mu-ra-pi₂'
   freq_akkob: 50
   certainty: stated
   chapter: 2
@@ -152,7 +152,7 @@ signs:
   codepoint: '12041'
   name: BAD
   value: be
-  meaning: syllable be; as a word, to open / apart (stated variously)
+  meaning: "[be]; as a word, to open, apart"
   freq_akkob: 46
   certainty: unclear
   chapter: 3
@@ -161,7 +161,7 @@ signs:
   codepoint: '12096'
   name: EL
   value: el
-  meaning: bright, pure (ellum); syllable el
+  meaning: bright, pure (ellum)
   freq_akkob: 81
   certainty: stated
   chapter: 3
@@ -170,7 +170,7 @@ signs:
   codepoint: 1201C
   name: AD
   value: at
-  meaning: father (classic); syllables ad/at
+  meaning: father
   freq_akkob: 45
   certainty: classic
   chapter: 3
@@ -180,7 +180,7 @@ signs:
   name: IGI
   value: szi
   veteran: true
-  meaning: 'veteran — IGI gains ši: šīmātum, the destinies it decrees'
+  meaning: 'veteran — IGI gains [ši]: šīmātum, the destinies it decrees'
   freq_akkob: 32
   certainty: stated
   chapter: 3
@@ -189,7 +189,7 @@ signs:
   codepoint: '12263'
   name: NUN
   value: nun
-  meaning: prince, noble (classic); the nun of the Anunnaki
+  meaning: prince, noble
   freq_akkob: 199
   certainty: classic
   chapter: 4
@@ -198,7 +198,7 @@ signs:
   codepoint: '12312'
   name: UB
   value: ub
-  meaning: syllable ub; a corner-nook in the lists (stated)
+  meaning: "[ub]; a corner-nook in the lists"
   freq_akkob: 116
   certainty: stated
   chapter: 5
@@ -208,7 +208,7 @@ signs:
   name: UG
   value: uk
   osl_name: "|PIRIG×UD|"
-  meaning: a raging beast — a lion-sign marked with "day" (stated); syllables ug/uk
+  meaning: a raging beast — a lion-sign marked with "day"
   freq_akkob: 169
   certainty: stated
   chapter: 5
@@ -217,7 +217,7 @@ signs:
   codepoint: '12311'
   name: U2
   value: u2
-  meaning: plant, grass (stated); syllable ú — the verb-opening u₂- of the laws
+  meaning: plant, grass
   freq_akkob: 13
   certainty: stated
   chapter: 5
@@ -227,7 +227,7 @@ signs:
   name: A2
   value: id
   veteran: true
-  meaning: 'veteran — A₂ gains id: iddi-ma, "he charged — and"'
+  meaning: 'veteran — A₂ gains [id]: iddi-ma, "he charged — and"'
   freq_akkob: 101
   certainty: stated
   chapter: 5
@@ -236,7 +236,7 @@ signs:
   codepoint: 122F3
   name: TAG
   value: szum
-  meaning: to touch, strike (stated); syllable šum — šumma's first half
+  meaning: to touch, strike; šumma's first half
   freq_akkob: 56
   certainty: stated
   chapter: 6
@@ -245,7 +245,7 @@ signs:
   codepoint: 1227F
   name: PI
   value: wi
-  meaning: ear (stated); syllables wa/wi — the w Sumerian never wrote
+  meaning: ear; the w Sumerian never wrote
   freq_akkob: 69
   certainty: stated
   chapter: 6
@@ -254,7 +254,7 @@ signs:
   codepoint: 1221D
   name: LUM
   value: lum
-  meaning: to ripen, be fruitful (stated); syllable lum
+  meaning: to ripen, be fruitful
   freq_akkob: 95
   certainty: unclear
   chapter: 6
@@ -264,7 +264,7 @@ signs:
   name: UD
   value: tam
   veteran: true
-  meaning: 'veteran — UD gains tam: nērtam, the murder charge of law 1'
+  meaning: 'veteran — UD gains [tam]: nērtam, the murder charge of law 1'
   freq_akkob: 105
   certainty: stated
   chapter: 6
@@ -273,7 +273,7 @@ signs:
   codepoint: 121F4
   name: LAM
   value: lam
-  meaning: luxuriance, flourishing (stated); syllable lam — law 1's last box falls
+  meaning: luxuriance, flourishing
   freq_akkob: 112
   certainty: unclear
   chapter: 7
@@ -283,7 +283,7 @@ signs:
   name: KAL
   value: dan
   veteran: true
-  meaning: 'veteran — KAL gains dan: dannum, "the strong"'
+  meaning: 'veteran — KAL gains [dan]: dannum, "the strong"'
   freq_akkob: 284
   certainty: stated
   chapter: 7
@@ -293,7 +293,7 @@ signs:
   name: TU
   value: t,u2
   veteran: true
-  meaning: 'veteran — TU gains ṭú: ṭubbim, "to make well"'
+  meaning: 'veteran — TU gains [ṭu₂]: ṭubbim, "to make well"'
   freq_akkob: 125
   certainty: stated
   chapter: 7

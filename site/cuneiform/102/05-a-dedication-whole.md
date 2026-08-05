@@ -41,7 +41,7 @@ votive inscriptions than any other.
     </tr>
     <tr>
       <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td><em>la</em></td>
-      <td>the syllable la; abundance (stated)</td>
+      <td>[la]; abundance</td>
       <td>taught here because you are about to watch it
           work — it is the spelling glue inside this chapter's
           formula</td>

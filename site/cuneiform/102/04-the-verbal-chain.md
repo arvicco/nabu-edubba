@@ -51,7 +51,7 @@ line, you recognize the shape instead of flinching at it.
     </tr>
     <tr>
       <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td><em>ne</em></td>
-      <td>brazier, fire (stated); the syllable ne</td>
+      <td>brazier, fire; [ne]</td>
       <td>a promise-keeper — see below</td>
     </tr>
   </tbody>

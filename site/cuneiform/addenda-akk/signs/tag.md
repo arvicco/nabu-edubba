@@ -1,7 +1,7 @@
 ---
 title: "TAG · touch"
 description: >-
-  The sign TAG in Akkadian — the syllable šum, first half of šumma,
+  The sign TAG in Akkadian — [šum], first half of šumma,
   the "if" that opens nearly every law on the stele.
 layout: sign
 school: cuneiform

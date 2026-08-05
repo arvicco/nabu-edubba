@@ -2,7 +2,7 @@
 title: "IGI · eye"
 description: >-
   The veteran sign IGI in Akkadian — pure sound at last: the
-  syllable ši, free of the eye entirely.
+  [ši], free of the eye entirely.
 layout: sign
 school: cuneiform
 sign: "IGI"

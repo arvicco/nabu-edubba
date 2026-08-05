@@ -1,7 +1,7 @@
 ---
 title: "IR · scent"
 description: >-
-  The sign IR in Akkadian — the syllables ir and er, one sign
+  The sign IR in Akkadian — [ir/er], one sign
   covering two neighboring vowels.
 layout: sign
 school: cuneiform

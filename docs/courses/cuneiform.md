@@ -35,6 +35,13 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Sign NAMES in capitals (LUGAL, EŠ2, É — the accented É is the
   sign's conventional name and is fine in that role); names may
   carry ASCII indexes (ŠA3) since they are names, not readings.
+- **Pure sound values in running text use bracket notation**
+  (owner ruling 2026-08-05): [lam], [ṣi/ṣe] — never the phrase
+  "the syllable lam". Certainty tags — (stated), (classic) — do
+  not appear in table cells or meaning fields: grading lives in
+  the Reference's Origin column and the codex pages' prose. A
+  Means cell carries the semantic core only; the sound is the
+  Reads column's job.
 
 ## 2 · Corpus conventions
 

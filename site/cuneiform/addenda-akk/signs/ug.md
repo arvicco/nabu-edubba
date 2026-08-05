@@ -1,7 +1,7 @@
 ---
 title: "UG · lion"
 description: >-
-  The sign UG in Akkadian — the syllables ug and uk, a raging
+  The sign UG in Akkadian — [ug/uk], a raging
   beast drafted for the verbs of conviction.
 layout: sign
 school: cuneiform

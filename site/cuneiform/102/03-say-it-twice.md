@@ -42,7 +42,7 @@ signs, and one small, versatile grammar habit.
     </tr>
     <tr>
       <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td><em>da</em></td>
-      <td>side; the syllable da; the comitative tag "-da" (together
+      <td>side; [da]; the comitative tag "-da" (together
           with)</td>
       <td>an arm or side, by the usual reading of the
           picture — as a grammar tag it rides on the end of a noun:
