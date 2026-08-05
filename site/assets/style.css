@@ -460,11 +460,33 @@ img, svg { max-width: 100%; }
 .drill-contrast-cell:hover { border-color: var(--accent); }
 .drill-contrast-cell .script { font-size: 1.9rem; color: var(--accent); }
 
+/* The deal — cuts of the deck; :visited fades tiles already worked
+   (the only per-reader state the site keeps, and the browser keeps
+   it for us). Today's featured cut wears the thicker border, which
+   a :visited rule cannot unset. */
+.deal-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0 1.5rem; }
+a.deal-tile {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 3.4rem; padding: 0.5rem 0.6rem 0.35rem;
+  border: 1px solid var(--rule); border-radius: 4px;
+  text-decoration: none; color: var(--accent);
+}
+a.deal-tile .script { font-size: 1.9rem; color: currentColor; }
+.deal-tile-n { font-size: 0.75rem; color: currentColor; opacity: 0.75; }
+a.deal-tile:hover { border-color: var(--accent); }
+a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
+.deal-tile--today { border-width: 2px; }
+.deal-next { margin-top: 1.5rem; }
+@media (prefers-color-scheme: dark) {
+  a.deal-tile:visited { color: #7d766f; border-color: #4a453f; }
+}
+
 @media print {
   .course-sidebar, .site-header, .site-footer, .chapter-nav, .warmup { display: none; }
   .drill-card { break-inside: avoid; border: 1px dashed #999; }
   .drill-list { grid-template-columns: repeat(3, 1fr); }
   .drill-card details > *:not(summary) { display: none; }
+  .deal-row, .deal-next { display: none; }
 }
 
 /* --- Sign Codex pages (Addenda Signs shelves) --- */

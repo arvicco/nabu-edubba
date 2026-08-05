@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-05 · M11-7 · phase-11 · The deal — owner-ratified during
+PR-#14 review: pseudo-random drills with zero JS. The deck now
+ships as twelve seeded cuts per school (the hash MULTIPLIER
+varies per seed — an additive offset would only rotate the same
+cyclic order, i.e. cut without shuffling; seed 0 reproduces the
+historic order exactly), emitted as generated cut pages that stay
+out of nav/sidebars by carrying no chapter key. The drills page
+inlines the featured cut and deals all twelve as face-down
+𒁾/𓏛-backed tiles; :visited CSS fades used tiles — per-reader
+state with no script, kept by the browser. WHICH cut is featured
+is a fixed public function of the deploy date (MJD mod 12 + 1),
+passed as EDUBBA_DEAL_DATE by the Pages workflow, which gained a
+daily cron (04:17 UTC) that re-renders main and commits nothing —
+gate/CI builds never set the date and always feature cut 1, so
+reproducibility holds. Law: cuneiform.md §8 "The deal"; exact-value
+tests pin the date mapping, multiset preservation, and distinct
+orders. Verified end-to-end: dated build features cut 10 for
+2026-08-05 with the inline deck identical to /cut-10/. Catch: a
+test regex `class="deal-tile` also matched the tile-number spans
+(24 not 12) — anchor-prefixed.
+
 2026-08-04 · M11-1..M11-6 · phase-11 · Stage C, the retrieval
 layer, in one run — laws first (§8/§10, including the owner's
 approval-time addition: reinforcement selection, a new chapter's

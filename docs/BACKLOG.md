@@ -575,3 +575,13 @@ exported decks, zero JS.
    frontier page — famous passages three signs out of reach,
    ▢-tolerant by design and saying so.
 ## M11-6 · Stitching + surface review, gate PR  [tier: top] [status: done]
+## M11-7 · The deal — drill deck cuts  [tier: top] [status: done — 12 cuts/school, dated deploy features one, tiles + :visited fade]
+   Owner-ratified 2026-08-05 in PR-#14 review: pseudo-randomness
+   without JS. Twelve seeded orderings of the same deck (varied
+   hash multiplier — a constant offset would only rotate the
+   cyclic order), generated as cut pages; the drills page inlines
+   the cut picked by EDUBBA_DEAL_DATE (MJD mod 12, deploy-only —
+   gate/local builds are date-free and feature cut 1) and deals
+   all twelve as face-down tiles, :visited fading used ones. A
+   daily cron on the Pages workflow re-renders main, committing
+   nothing. Law in cuneiform.md §8 "The deal".
