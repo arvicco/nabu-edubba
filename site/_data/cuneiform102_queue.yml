@@ -457,8 +457,9 @@ signs:
   codepoint: 120FB
   name: GAR
   value: nig2
+  display_value: niŋ₂
   etcsl_value: nij2
-  meaning: thing, property (nig₂); to place (gar)
+  meaning: thing, property (niŋ₂); to place (gar)
   wedges: "~5"
   freq_etcsl: 53
   freq_cdli: 64

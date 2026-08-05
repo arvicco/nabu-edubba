@@ -36,7 +36,7 @@ promise is complete.
       <td class="script sign-cell">{{ s.glyph }}</td>
       <td>{{ s.name }}</td>
       <td>{{ s.keyword }}</td>
-      <td><em>{{ s.value }}</em></td>
+      <td><em>{{ s | sign_reads }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>
       {% assign ch = site.pages | where: "course", "cuneiform-102" | where: "chapter", s.chapter | first %}

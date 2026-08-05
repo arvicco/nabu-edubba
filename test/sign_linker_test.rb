@@ -121,6 +121,20 @@ class SignLinkerTest < Minitest::Test
     refute_includes out, %(addenda-akk)
   end
 
+  def test_display_form_folds_akkadian_emphatics_and_subscripts
+    assert_equal "ṣi", Edubba::SignLinker.display_form("s,i")
+    assert_equal "ṭu₂", Edubba::SignLinker.display_form("t,u2")
+    assert_equal "ku₃", Edubba::SignLinker.display_form("ku3")
+    assert_equal "šum₂", Edubba::SignLinker.display_form("szum2")
+  end
+
+  def test_tip_text_prefers_explicit_display_value
+    tip = Edubba::SignLinker.tip_text(
+      { "name" => "GAR", "value" => "nig2", "display_value" => "niŋ₂", "meaning" => "thing" }
+    )
+    assert_equal "GAR · niŋ₂ · thing", tip
+  end
+
   def test_build_map_prefers_queue_chapters_for_queue_signs
     teaching = { "signs" => [{ "glyph" => AN, "codepoint" => "1202D" }] }
     queue = { "signs" => [{ "glyph" => ME, "codepoint" => "12228", "chapter" => 0 }] }

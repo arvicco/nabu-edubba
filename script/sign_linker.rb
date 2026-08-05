@@ -113,8 +113,11 @@ module Edubba
     # "AN · an; diŋir · heaven; god" — name, readings, short meaning,
     # for CUNEIFORM registry entries: parenthetical asides stripped and
     # ATF spellings normalized (sz -> š, index digits -> subscripts).
+    # A registry row may carry an explicit display_value where the
+    # mechanical fold can't know better (nig2 -> niŋ₂).
     def tip_text(sign)
-      tip_join([sign["name"], sign["value"], sign["meaning"]].map { |p| display_form(p) })
+      reads = sign["display_value"] || display_form(sign["value"])
+      tip_join([display_form(sign["name"]), reads, display_form(sign["meaning"])])
     end
 
     # For registries whose fields are already display-form (hieroglyphs:
@@ -129,7 +132,7 @@ module Edubba
     def display_form(text)
       text.to_s
           .gsub(/\s*\([^)]*\)/, "")
-          .gsub("sz", "š")
+          .gsub("sz", "š").gsub("s,", "ṣ").gsub("t,", "ṭ")
           .gsub(/(?<=\p{L})\d+/) { |run| run.each_char.map { |c| SUB_DIGITS[c] }.join }
           .gsub(/\A[;,·\s]+|[;,·\s]+\z/, "")
     end
