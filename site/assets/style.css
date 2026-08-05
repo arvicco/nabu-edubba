@@ -424,6 +424,71 @@ img, svg { max-width: 100%; }
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }
 
+/* --- Spiral warm-up (Stage C retrieval panels) --- */
+.warmup {
+  margin: 1.25rem 0 2rem;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+}
+.warmup > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.warmup-list { margin: 0.75rem 0 0.25rem; padding-left: 1.4rem; }
+.warmup-list li { margin: 0.5rem 0; }
+.warmup-list summary { cursor: pointer; }
+.warmup-list .script { font-size: 1.6rem; color: var(--accent); }
+.warmup-answer { margin: 0.4rem 0 0.2rem 1rem; color: var(--muted); }
+.warmup-answer .script { font-size: 1.8rem; }
+
+/* --- Drill shelves --- */
+.drill-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 0.6rem; }
+.drill-card { border: 1px solid var(--rule); border-radius: 4px; padding: 0.55rem 0.8rem; }
+.drill-card summary { cursor: pointer; }
+.drill-card .script { font-size: 1.7rem; color: var(--accent); }
+.drill-contrasts { list-style: none; padding: 0; }
+.drill-contrast-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.6rem 0; }
+.drill-contrast-cell {
+  border: 1px solid var(--rule); border-radius: 4px;
+  padding: 0.4rem 0.9rem; text-decoration: none; color: inherit;
+}
+.drill-contrast-cell:hover { border-color: var(--accent); }
+.drill-contrast-cell .script { font-size: 1.9rem; color: var(--accent); }
+
+/* The deal — cuts of the deck; :visited fades tiles already worked
+   (the only per-reader state the site keeps, and the browser keeps
+   it for us). Today's featured cut wears the thicker border, which
+   a :visited rule cannot unset. */
+.deal-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0 1.5rem; }
+a.deal-tile {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 3.4rem; padding: 0.5rem 0.6rem 0.35rem;
+  border: 1px solid var(--rule); border-radius: 4px;
+  text-decoration: none; color: var(--accent);
+}
+a.deal-tile .script { font-size: 1.9rem; color: currentColor; }
+.deal-tile-n { font-size: 0.75rem; color: currentColor; opacity: 0.75; }
+a.deal-tile:hover { border-color: var(--accent); }
+a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
+.deal-tile--today { border-width: 2px; }
+.deal-next { margin-top: 1.5rem; }
+@media (prefers-color-scheme: dark) {
+  a.deal-tile:visited { color: #7d766f; border-color: #4a453f; }
+}
+
+@media print {
+  .course-sidebar, .site-header, .site-footer, .chapter-nav, .warmup { display: none; }
+  .drill-card { break-inside: avoid; border: 1px dashed #999; }
+  .drill-list { grid-template-columns: repeat(3, 1fr); }
+  .drill-card details > *:not(summary) { display: none; }
+  .deal-row, .deal-next { display: none; }
+}
+
 /* --- Sign Codex pages (Addenda Signs shelves) --- */
 .sign-hero {
   font-size: 6.5rem;
@@ -555,3 +620,8 @@ a.urn-link:hover code { color: var(--accent); }
 /* Long sign strings may wrap (grid columns stay intact); runs that
    must never split — cartouche + contents — are marked .nobr */
 .script .nobr { white-space: nowrap; }
+
+/* --- Read it cold --- */
+.cold-read { margin-top: 2.5rem; }
+.cold-read-check { margin: 0.75rem 0; }
+.cold-read-check > summary { cursor: pointer; color: var(--muted); }

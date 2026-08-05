@@ -10,6 +10,13 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # Daily rebuild rotates the featured drill cut (owner-ratified
+    # 2026-08-05, rulebook cuneiform.md §8 "The deal"): re-renders
+    # main with the build date, commits nothing — everything served
+    # is content the gate verified at merge. Note GitHub pauses
+    # scheduled workflows after ~60 days without repo activity.
+    - cron: "17 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,7 +45,10 @@ jobs:
         # base_path is "/nabu-edubba" on the project URL and "" once the
         # custom domain is active — the build must work at either base,
         # which is also why all internal links go through relative_url.
+        # EDUBBA_DEAL_DATE picks the featured drill cut (MJD mod 12);
+        # gate/CI builds never set it, so they stay date-free.
         run: >-
+          EDUBBA_DEAL_DATE="$(date -u +%F)"
           bundle exec jekyll build --source site --destination _site
           --baseurl "${{ steps.pages.outputs.base_path }}"
         env:

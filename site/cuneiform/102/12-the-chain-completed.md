@@ -34,7 +34,7 @@ gifts.
     <tr>
       <td class="script sign-cell">𒆕</td><td>KAK</td><td>build</td><td><em>du₃</em></td>
       <td>to build; a peg</td>
-      <td>~3 wedges — a peg driven in, and the verb of every temple
+      <td>a peg driven in, and the verb of every temple
           ever raised in this course's readings</td>
     </tr>
     <tr>

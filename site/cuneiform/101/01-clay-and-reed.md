@@ -27,14 +27,14 @@ materials themselves:
     <tr>
       <td class="script sign-cell">𒅎</td><td>IM</td><td>storm</td><td><em>im</em></td>
       <td>clay; also rain, storm</td>
-      <td>~6 wedges. The scribes' own word for their medium: a tablet
+      <td>The scribes' own word for their medium: a tablet
       is an <em>im</em>, a thing of clay — and the same sign covers
       the wet weather clay comes from</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆤</td><td>KID</td><td>spirit</td><td><em>kid</em></td>
       <td>reed mat; matting</td>
-      <td>~6 wedges. Woven reed — the same marsh plant that, cut at
+      <td>Woven reed — the same marsh plant that, cut at
       an angle, becomes the stylus. It is hiding a second reading
       you will meet in <a href="{{ '/cuneiform/101/10-one-script-many-tongues/' | relative_url }}">chapter 10</a></td>
     </tr>

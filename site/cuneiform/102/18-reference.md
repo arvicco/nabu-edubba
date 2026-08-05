@@ -39,7 +39,8 @@ promise is complete.
       <td><em>{{ s.value }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>
-      <td>ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</td>
+      {% assign ch = site.pages | where: "course", "cuneiform-102" | where: "chapter", s.chapter | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</a>{% else %}ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

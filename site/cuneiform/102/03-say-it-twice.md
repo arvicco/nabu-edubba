@@ -35,7 +35,7 @@ signs, and one small, versatile grammar habit.
     <tr>
       <td class="script sign-cell">𒉆</td><td>NAM</td><td>fate</td><td><em>nam</em></td>
       <td>fate, destiny; the abstract-noun prefix</td>
-      <td>~7 wedges; its pictorial origin is stated variously across
+      <td>its pictorial origin is stated variously across
           the sign lists, and for once the etymology matters less
           than the job — prefixed to a concrete word, <em>nam-</em>
           builds the abstraction (<em>nam-lugal</em>, "kingship")</td>
@@ -44,14 +44,14 @@ signs, and one small, versatile grammar habit.
       <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td><em>da</em></td>
       <td>side; the syllable da; the comitative tag "-da" (together
           with)</td>
-      <td>~8 wedges; an arm or side, by the usual reading of the
+      <td>an arm or side, by the usual reading of the
           picture — as a grammar tag it rides on the end of a noun:
           <em>dumu-da</em>, "with the child"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td><em>zu</em></td>
       <td>tooth; to know</td>
-      <td>~8 wedges; the classic case cited in every introduction to
+      <td>the classic case cited in every introduction to
           the script — a tooth, extended to knowing, as if insight
           were something you could bite down on</td>
     </tr>
