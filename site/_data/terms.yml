@@ -187,3 +187,12 @@ terms:
   - name: shekel
     slug: shekel
     def: "the basic Mesopotamian weight, about 8 grams — one shekel of silver was roughly a hired worker's monthly wage"
+  - name: syllabogram
+    slug: syllabogram
+    def: "a sign standing for a spoken syllable rather than a word — the workhorse of Akkadian spelling, where ša-ru-um builds a word sound by sound"
+  - name: sumerogram
+    slug: sumerogram
+    def: "a Sumerian word-sign kept inside Akkadian text as learned shorthand — written LUGAL, read aloud as Akkadian šarrum, \"king\""
+  - name: bound transcription
+    slug: bound-transcription
+    def: "the joined-up dictionary form of an Akkadian word (šarrum, awīlum), reconstructed from its syllable-by-syllable transliteration with vowel lengths marked"
