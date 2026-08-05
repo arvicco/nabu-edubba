@@ -24,7 +24,10 @@ tests pin the date mapping, multiset preservation, and distinct
 orders. Verified end-to-end: dated build features cut 10 for
 2026-08-05 with the inline deck identical to /cut-10/. Catch: a
 test regex `class="deal-tile` also matched the tile-number spans
-(24 not 12) — anchor-prefixed.
+(24 not 12) — anchor-prefixed. Review round (owner, same day):
+Easily confused split off the deck onto its own Addenda shelf
+(/…/addenda/confusables/, ordinals bumped, catalogs + §8 updated,
+cross-links both ways) — the deck page is now deal + cards only.
 
 2026-08-04 · M11-1..M11-6 · phase-11 · Stage C, the retrieval
 layer, in one run — laws first (§8/§10, including the owner's

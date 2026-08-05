@@ -7,7 +7,7 @@ description: >-
 layout: chapter
 school: cuneiform
 course: cuneiform-addenda
-chapter: 6
+chapter: 7
 permalink: /cuneiform/addenda/frontier/
 course_url: /cuneiform/addenda/
 course_title: "Cuneiform Addenda"

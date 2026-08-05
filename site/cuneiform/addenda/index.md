@@ -33,8 +33,12 @@ in your study.
       shape comes from, a way to remember it, its lookalikes, and
       one real line it lives in</li>
   <li><a href="{{ '/cuneiform/addenda/drills/' | relative_url }}">Drills — every sign, three ways</a>
-      — the whole inventory as retrieval cards, interleaved and
-      printable as cut-out Leitner slips</li>
+      — the whole inventory as retrieval cards, dealt in a fresh
+      order each day (or cut the deck yourself) and printable as
+      cut-out Leitner slips</li>
+  <li><a href="{{ '/cuneiform/addenda/confusables/' | relative_url }}">Easily confused — side by side</a>
+      — the lookalike signs drilled deliberately together: tell
+      them apart before they blur</li>
   <li><a href="{{ '/cuneiform/addenda/decks/' | relative_url }}">Study decks — real spaced repetition</a>
       — downloadable Anki decks, one card per sign, and the three
       steps to FSRS scheduling</li>

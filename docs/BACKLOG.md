@@ -575,7 +575,7 @@ exported decks, zero JS.
    frontier page — famous passages three signs out of reach,
    ▢-tolerant by design and saying so.
 ## M11-6 · Stitching + surface review, gate PR  [tier: top] [status: done]
-## M11-7 · The deal — drill deck cuts  [tier: top] [status: done — 12 cuts/school, dated deploy features one, tiles + :visited fade]
+## M11-7 · The deal — drill deck cuts  [tier: top] [status: done — 12 cuts/school, dated deploy features one, tiles + :visited fade; review round: confusables split to own shelf page]
    Owner-ratified 2026-08-05 in PR-#14 review: pseudo-randomness
    without JS. Twelve seeded orderings of the same deck (varied
    hash multiplier — a constant offset would only rotate the
