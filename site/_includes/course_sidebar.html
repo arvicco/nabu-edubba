@@ -6,7 +6,12 @@
     include.current — current course string ("cuneiform-102")
     include.here    — URL of the page being rendered (to highlight)
 {% endcomment %}
-{% assign all_courses = site.pages | where_exp: "p", "p.course_no" | sort: "url" %}
+{% comment %}
+  nav_order (owner ruling 2026-08-05): each language's addenda shelf
+  follows that language's courses — C 101, C 102, C SUX Addenda,
+  C 103, C AKK Addenda — so ordering is explicit, not URL-derived.
+{% endcomment %}
+{% assign all_courses = site.pages | where_exp: "p", "p.course_no" | sort: "nav_order" %}
 {% assign schools = all_courses | map: "school" | uniq %}
 <aside class="course-sidebar">
   {% for s in schools %}
