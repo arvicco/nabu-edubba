@@ -161,7 +161,7 @@ barley receipts:
     <tr>
       <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td><em>gur</em></td>
       <td>the great capacity measure of grain accounts</td>
-      <td>~6 wedges; roughly 300 liters in the Ur III standard — when
+      <td>roughly 300 liters in the Ur III standard — when
       a granary counted big, it counted in gur</td>
     </tr>
   </tbody>

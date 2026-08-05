@@ -26,19 +26,18 @@ never drift out of date with the chapters.
 
 ## Every sign taught in 101
 
-Both selection criteria are on display for every sign, per this
-school's founding rule: corpus frequency (rank of the sign's cited
-value in the ETCSL literary and CDLI documentary corpora, computed by
-this site's own instrument over the Nabu library) and graphic
-simplicity (wedge count from the reference font; iconicity graded
-*classic* / *stated* / *unclear* per the standard sign lists (Labat;
-Borger's MZL).
-Where the origin is graded *unclear*, the course taught you the
-shape, not a story.
+Frequency, the founding criterion, is on display for every sign:
+the rank of the sign's cited value in the ETCSL literary and CDLI
+documentary corpora, computed by this site's own instrument over
+the Nabu library (graphic simplicity, the other half of the rule,
+weighed in at selection and needs no column). Origins are graded
+*classic* / *stated* / *unclear* per the standard sign lists
+(Labat; Borger's MZL). Where the origin is graded *unclear*, the
+course taught you the shape, not a story.
 
 <table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Wedges</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Freq. rank (lit / doc)</th><th>Origin</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign taught = site.data.sign_teaching.signs | where_exp: "s", "s.taught_in" %}
@@ -49,10 +48,10 @@ shape, not a story.
       <td>{{ s.keyword }}</td>
       <td><em>{{ s.value }}</em></td>
       <td>{{ s.meaning }}</td>
-      <td>{{ s.wedges }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>
       <td>{{ s.iconicity }} <em>({{ s.certainty }})</em></td>
-      <td>ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</td>
+      {% assign ch = site.pages | where: "course", "cuneiform-101" | where: "chapter", s.taught_in | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}</a>{% else %}ch. {{ s.taught_in | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

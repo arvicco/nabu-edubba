@@ -35,7 +35,7 @@ for once he can say it.
     <tr>
       <td class="script sign-cell">𒆬</td><td>KU₃</td><td>pure</td><td><em>ku₃</em></td>
       <td>pure, holy; precious metal (silver)</td>
-      <td>~5 wedges; silver is "pure metal" in Sumerian long before it
+      <td>silver is "pure metal" in Sumerian long before it
           is anything else — and royal praise leans on this word
           constantly. Its fuller spoken shape is <em>kug</em>, the
           final consonant surfacing before vowels the same way
@@ -44,7 +44,7 @@ for once he can say it.
     <tr>
       <td class="script sign-cell">𒈤</td><td>MAH</td><td>exalted</td><td><em>mah</em></td>
       <td>great, exalted</td>
-      <td>~7 wedges; the majesty word — combine it with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
+      <td>the majesty word — combine it with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
           abstraction-maker and you get <em>nam-mah</em>,
           "greatness, majesty," one of the commonest words in royal
           titulary</td>
@@ -52,7 +52,7 @@ for once he can say it.
     <tr>
       <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td><em>kalam</em></td>
       <td>the Land — Sumer, as its own texts name itself</td>
-      <td>~9 wedges; not "a land" among others but <em>the</em> Land,
+      <td>not "a land" among others but <em>the</em> Land,
           the way a Sumerian text names its own country — kings are
           <em>lugal kalam-ma</em>, "king of the Land"</td>
     </tr>
