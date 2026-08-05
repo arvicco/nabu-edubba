@@ -613,7 +613,7 @@ frequency base; the KEYWORD is the cross-language invariant
 (one keyword per sign, identical across codices, unique across
 the school); C103 veterans link to the akk codex.
 
-## M12-1 · The Akkadian law  [tier: top — Fable] [status: open]
+## M12-1 · The Akkadian law  [tier: top — Fable] [status: done — §9 ruled, two-codex checks live, 3 terms]
    cuneiform.md Akkadian sections (dialect, transliteration +
    bound transcription, language separation + keyword invariance,
    ordering) + rulebook.rb two-codex checks + terms.yml. No

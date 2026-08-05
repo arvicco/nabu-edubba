@@ -231,3 +231,65 @@ renders. These laws bind both schools (the hieroglyph rulebook
   inventory (≥90% covered, per the picker's frontier mode) —
   the ONE surface where ▢ appears by design in Addenda material,
   labeled as such, for motivation and honest stretch practice.
+
+## 9 · Akkadian (C103 and later)
+
+Ruled 2026-08-05 at the opening of Phase 12, before any Akkadian
+content exists.
+
+- **Dialect: Old Babylonian.** The entry dialect of the standard
+  teaching grammars and the dialect of the course's anchor text
+  (the Codex Hammurapi, `urn:nabu:cdli:p464358`, license
+  attribution). Cited reference for didactic claims:
+  Huehnergard, *A Grammar of Akkadian* (cited once or twice per
+  course, per the site rule). Later dialects (Standard
+  Babylonian, Neo-Assyrian) belong to later courses and enter
+  this rulebook before they enter content.
+- **Transliteration display** (extends §1). Akkadian syllabic
+  values are italic, hyphenated, with Unicode subscript indices
+  (i₃-nu, ša-i-im). ATF phoneme ASCII folds to the field's
+  standard signs in ALL displayed transliteration: sz → š,
+  s, → ṣ, t, → ṭ, h → ḫ, ' → ʾ; raw ASCII appears only in
+  verbatim raw-ATF exhibits (span class "translit atf"), same
+  carve-out as the subscript rule. Sumerograms inside Akkadian
+  text display in the field's CAPS convention (LUGAL, KALAM);
+  the ATF underscore notation (`_lugal_`) is raw-ATF-exhibit
+  material only. Determinatives superscript, as everywhere.
+- **Normalization (bound transcription).** A layer distinct from
+  transliteration: dictionary-form Akkadian with vowel length
+  marked (šarrum, awīlum, ā/â). It renders in its own visual
+  register (its own span class — never the hyphenated
+  transliteration style), is introduced and explained in the
+  C103 orientation before first use, and NEVER appears in a
+  reading without the transliteration it normalizes.
+- **Language separation** (owner ruling 2026-08-05). Sumerian
+  and Akkadian never mix in the codex. The existing Addenda is
+  purely Sumerian — titled C SUX Addenda (title only; its live
+  permalinks are frozen). A separate C AKK Addenda follows the
+  Akkadian courses, at `/cuneiform/addenda-akk/`, carrying a
+  completely separate Sign Codex (`/cuneiform/addenda-akk/signs/
+  <slug>/`, same name-slug scheme) on its own frequency base.
+  An Akkadian codex page tells the sign's AKKADIAN story: its
+  syllabic work, its fit to Semitic phonology, its OB corpus
+  rank. The codex laws of §7 (two-heading honesty, page ships
+  with its sign, no-box attested line) and the retrieval laws of
+  §8 bind the akk codex identically — its attested line is an
+  AKKADIAN line from the OB corpus containing no sign untaught
+  in the school.
+- **The keyword is the cross-language invariant.** One keyword
+  per sign, identical on its sux and akk codex pages,
+  unchangingly unique across the whole school. The rulebook
+  enforces both directions: the same sign may never carry two
+  keywords across codices, and two different signs may never
+  share one anywhere in the school.
+- **Veteran signs.** A sign taught in C101/C102 never re-enters
+  as a new sign (the taught-once law stands). In C103 sign
+  tables it appears only as a marked veteran gaining its
+  Akkadian reading, and its glyph links to its AKKADIAN codex
+  page: sign_linker routes by course — C101/C102 surfaces link
+  the sux codex, C103 surfaces the akk codex.
+- **Ordering.** Value-frequency computed over the OB sub-corpus
+  (CDLI `lect=akk:ob`) by the ratified frequency methodology,
+  extended as a separate base — sux and akk ranks never mix.
+  Reinforcement selection (§8) applies from the first chapter:
+  candidate lines are scored for the veterans they revise.
