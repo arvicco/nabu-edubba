@@ -224,3 +224,7 @@ terms:
     school: akk
     slug: durative
     def: "the Akkadian verb shape for what happens or shall happen — inaddin, \"he shall pay\": the laws pronounce every sentence in it"
+  - name: infinitive
+    school: akk
+    slug: infinitive
+    def: "a verb packed whole into a noun — ḫabālum, \"to wrong / the wronging\" — and, being a noun, it wears the case endings like any other"

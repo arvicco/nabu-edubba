@@ -85,6 +85,36 @@ law. Read it from the stone:
   </figcaption>
 </figure>
 
+The line runs on machinery you own, plus one new part. Take it
+apart, item by item:
+
+- <span class="norm">dannum</span> — "the strong (one)": an
+  adjective standing alone as a noun, wearing
+  <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a>
+  nominative -um. The doer.
+- <span class="norm">enšam</span> — "the weak (one)," accusative
+  -am. The done-to. No verb has arrived, and the whole plot is
+  already cast.
+- <span class="norm">ana</span> — "to, for," from
+  <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a>
+  preposition pair. Like <span class="norm">ina</span> in
+  <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>,
+  it governs the genitive: whatever ana touches will end in -im.
+- <span class="norm">lā</span> —
+  <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05's</a>
+  negation, parked this time in front of a noun.
+- <span class="norm">ḫabālim</span> — "the wronging": the
+  **infinitive**, a verb packed whole into a noun — and since it
+  is a noun, ana's rule applies and it wears the genitive -im.
+
+Now reassemble, literally: "the strong (subject) — the weak
+(object) — for the not-wronging." The doer and the done-to hang
+directly off the packed verb-noun, cases intact, and the whole
+phrase means: *so that the strong not wrong the weak.* One
+preposition, one negation, one noun-shaped verb — that is the
+entire legal philosophy of the monument, in grammar you can
+point at.
+
 And the warmer half of the same commission, two veterans deep:
 
 <figure class="reading reading--script">
@@ -98,6 +128,36 @@ And the warmer half of the same commission, two veterans deep:
     · license: attribution.
   </figcaption>
 </figure>
+
+Same drill — item by item:
+
+- <span class="norm">ana</span> — "for," again; again the
+  genitive is coming.
+- <span class="norm">šīr</span> — "flesh," with its ending
+  conspicuously gone:
+  <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03's</a>
+  construct signal. The noun is reaching for the next word —
+  "flesh-of…"
+- <span class="norm">nišī</span> — "the people," closing the
+  construct chain in the genitive. One honest note: "people" is
+  a plural, and its genitive ends in -ī — a column
+  <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a>
+  singular table does not have. The next stretch tables the
+  plurals; for now, hold the chain's sense: *flesh-of
+  the-people.*
+- <span class="norm">ṭubbim</span> — "the making-well": another
+  infinitive, so another noun — and under ana's rule it takes
+  the genitive -im, exactly as <span class="norm">ḫabālim</span>
+  did. It is one of the "thickened" verb shapes
+  <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
+  promised to name properly next stretch: plain
+  <span class="norm">ṭâbum</span> is "to be well," this shape
+  makes it "to *make* well."
+
+Literally: "for the making-well of the flesh of the people" —
+the same purpose-machine as the first half, now with a construct
+chain riding inside it. Cold justice and warm welfare, built
+from one identical frame.
 
 <figure class="glyph-exhibit">
   <span class="script">𒆗𒉡𒌝 𒂗𒊭𒄠</span>

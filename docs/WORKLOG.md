@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · review round 19 (item-by-item breakdowns) · phase-12 ·
+Owner report: ch07's commission readings (ana lā ḫabālim, ana šīr
+nišī) lumped their grammar into hasty one-line glosses — "This
+won't do. Needs item-by-item analysis in the style of C102 longer
+text breakdowns." Fixed: both ch07 readings now carry full
+take-it-apart inventories after the figure (every word: form,
+ending, function, teaching-seat link — then the line reassembled
+literally), teaching en route the infinitive (new terms.yml entry,
+akk shelf), ana's genitive government, the plural genitive -ī
+honestly flagged as beyond ch02's singular table, and ṭubbim as a
+"thickened" shape per ch05's honesty note. Swept the other C103
+chapters: ch06's three bare law-1 glosses (ubbirma, iddima, lā
+uktīnšu) enriched with parses + teaching links; ch02/03/04/05
+already carried per-line analysis and passed. Law added to §5:
+a reading with NEW grammar gets an item-by-item breakdown; lumped
+glosses never introduce grammar, and review glosses link their
+teaching chapter.
+
 2026-08-06 · review round 18 (five owner reports in one round) ·
 phase-12 · (1) ch05 Means column crushed to a word a line by the
 42% Notes floor — CSS floor added for the second-to-last column
