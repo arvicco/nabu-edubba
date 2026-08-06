@@ -196,6 +196,9 @@ terms:
   - name: bound transcription
     slug: bound-transcription
     def: "the joined-up dictionary form of an Akkadian word (šarrum, awīlum), reconstructed from its syllable-by-syllable transliteration with vowel lengths marked"
+  - name: consonantal root
+    slug: consonantal-root
+    def: "the consonant skeleton at the heart of a Semitic word — n-d-n \"give\" stays fixed while vowel patterns flex around it: nadānum, iddin, inaddin"
   - name: mimation
     slug: mimation
     def: "the -m that closes Old Babylonian noun endings (šarrum, not šarru) — a hallmark of Hammurabi's stage of the language, dropped in later centuries"
