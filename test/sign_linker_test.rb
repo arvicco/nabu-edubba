@@ -114,6 +114,18 @@ class SignLinkerTest < Minitest::Test
     refute_includes out, %(addenda/signs/me)
   end
 
+  def test_akkadian_pages_show_the_akkadian_tip_never_the_sumerian
+    map = { AN => { url: REF, anchor: "sign-1202D",
+                    tip: "AN · [an], diŋir · heaven; god",
+                    tip_akk: "AN · [an] · the sky-god, unchanged" } }
+    akk = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/103/04-x/", "", :codex_akk)
+    assert_includes akk, "the sky-god, unchanged"
+    refute_includes akk, "diŋir · heaven"
+    sux = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/102/04-x/", "")
+    assert_includes sux, "diŋir · heaven"
+    refute_includes sux, "sky-god, unchanged"
+  end
+
   def test_sux_pages_still_route_to_the_sux_codex
     html = %(<td class="sign-cell">#{AN}</td>)
     out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/102/01-x/", "")

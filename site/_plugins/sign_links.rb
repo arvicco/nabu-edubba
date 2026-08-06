@@ -54,7 +54,12 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
     end
     Array(site.data.dig("cuneiform103_queue", "signs")).each do |s|
       ch = s["chapter"] or next
-      next if map[s["glyph"]] # veteran — sux teaching entry stands
+      if (entry = map[s["glyph"]])
+        # veteran — sux teaching entry stands; attach the AKKADIAN
+        # tip so Akkadian pages never show the Sumerian bubble (§9)
+        entry[:tip_akk] = Edubba::SignLinker.tip_text(s)
+        next
+      end
 
       url = akk_urls[ch] or next
       map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",

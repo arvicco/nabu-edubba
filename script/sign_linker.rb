@@ -65,6 +65,10 @@ module Edubba
         next g unless entry
 
         anchor = entry[:anchor]
+        # §9 separation extends to the hover bubble: on Akkadian
+        # pages a veteran shows its AKKADIAN tip (tip_akk), never
+        # leaking the Sumerian one — and vice versa.
+        tip_text = (codex_key == :codex_akk && entry[:tip_akk]) || entry[:tip]
         # Sign-table cells link to the sign's codex page (rulebook §7,
         # owner design 2026-08-04) once that page exists; on the sign's
         # own teaching page the cell keeps its anchor id so incoming
@@ -76,8 +80,8 @@ module Edubba
           if entry[:url] == page_url && !emitted_ids[anchor]
             emitted_ids[anchor] = true
             id_attr = %( id="#{anchor}")
-          elsif entry[:tip]
-            tip = %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>)
+          elsif tip_text
+            tip = %(<span class="sign-tip" aria-hidden="true">#{tip_text}</span>)
           end
           next %(<a class="sign-link"#{id_attr} href="#{baseurl}#{codex}">#{g}#{tip}</a>)
         end
@@ -87,7 +91,7 @@ module Edubba
           %(<span id="#{anchor}">#{g}</span>)
         else
           href = entry[:url] == page_url ? "##{anchor}" : "#{baseurl}#{entry[:url]}##{anchor}"
-          tip = entry[:tip] ? %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>) : ""
+          tip = tip_text ? %(<span class="sign-tip" aria-hidden="true">#{tip_text}</span>) : ""
           %(<a class="sign-link" href="#{href}">#{g}#{tip}</a>)
         end
       end
@@ -157,7 +161,7 @@ module Edubba
     def display_form(text)
       text.to_s
           .gsub(/\s*\([^)]*\)/, "")
-          .gsub("sz", "š").gsub("s,", "ṣ").gsub("t,", "ṭ")
+          .gsub("sz", "š").gsub(/s,(?=[aeiouāēīū])/, "ṣ").gsub(/t,(?=[aeiouāēīū])/, "ṭ")
           .gsub(/(?<=\p{L})\d+/) { |run| run.each_char.map { |c| SUB_DIGITS[c] }.join }
           .gsub(/\A[;,·\s]+|[;,·\s]+\z/, "")
     end

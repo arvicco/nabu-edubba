@@ -279,7 +279,11 @@ content exists.
   text display in the field's CAPS convention (LUGAL, KALAM);
   the ATF underscore notation (`_lugal_`) is raw-ATF-exhibit
   material only. Determinatives stay in braces ({d}, {diš}) —
-  the school's convention since C101 ch. 03.
+  the school's convention since C101 ch. 03. The conjunction
+  written with U₃ transliterates plain *u* in reading lines
+  (owner ruling 2026-08-06) — the script column carries the sign
+  identity; the accent-index ù of the handbooks is banned by §1
+  anyway.
 - **Normalization (bound transcription).** A layer distinct from
   transliteration: dictionary-form Akkadian with vowel length
   marked (šarrum, awīlum, ā/â). It renders in its own visual
