@@ -150,7 +150,7 @@ terms:
     def: "the verb form that says \"let me / let us\" — a wish the speaker makes about their own action; Sumerian fronts the verb with ga-"
   - name: precative
     slug: precative
-    def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+    def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-, Akkadian with l-: liṭīb, \"may it be well\""
   - name: Winkelhaken
     slug: winkelhaken
     def: "the field's name (German, \"angle-hook\") for the corner wedge — the small open-angle impression made with the corner of the stylus tip"
@@ -240,7 +240,3 @@ terms:
     school: akk
     slug: imperative
     def: "the naked command form of a verb, no prefix at all — qibīma, \"speak!\"; šūbilam, \"send it!\""
-  - name: precative
-    school: akk
-    slug: precative
-    def: "the wish form — l- in front of a verb turns a statement into a blessing: liṭīb, \"may it be well\""
