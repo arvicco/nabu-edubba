@@ -637,3 +637,29 @@ the school); C103 veterans link to the akk codex.
 ## M12-4 · The shape of the language  [tier: top — Fable] [status: done — ch 02-05: cases/mimation, construct, prologue lines 1-3, preterite/durative]
 ## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
 ## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]
+
+## Phase 13 — C103 Akkadian, stretch 2 (plan pending owner approval)
+
+Source: owner pick 2026-08-06 ("AKK stretch next"). Honors stretch
+1's three promises: the D/Š/N stems named (ch05 footnote), the
+plurals tabled (ch07 breakdown), anāku (ch07 close). Detailed
+plan: .docs/phase-13-plan.md. Reading arc: plurals → stems → laws
+2–3 → laws 196–200 (eye for an eye) → one OB letter → anāku →
+stretch close; akk retrieval mirror (drills + deck) lands at the
+end, lifting the Gate-12 deferral.
+
+## M13-1 · The stretch-2 law  [tier: top — Fable] [status: todo]
+   Rulebook §9: plural display, stem naming (G/D/Š/N), epistolary
+   citations, independent pronouns; terms.yml additions. No
+   content until this lands.
+## M13-2 · Instruments  [tier: mid] [status: todo]
+   pool-103 stretch-2 pins (identities via nabu signs --lang=akk),
+   letter pick (CDLI OB, attribution only), coverage report.
+## M13-3 · ch 08–09 — plural; the stems named  [tier: top — Fable] [status: todo]
+## M13-4 · ch 10–11 — laws 2–3; eye for an eye  [tier: top — Fable] [status: todo]
+## M13-5 · ch 12–13 — a letter home; anāku  [tier: top — Fable] [status: todo]
+## M13-6 · ch 14 + akk codex pages  [tier: top — Fable] [status: todo]
+## M13-7 · Akk retrieval mirror  [tier: mid] [status: todo]
+   DRILL_SCHOOLS gains akk; edubba-cuneiform-103 deck (license-
+   hard-fail as ever).
+## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: todo]
