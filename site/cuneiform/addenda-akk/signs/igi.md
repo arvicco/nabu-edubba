@@ -33,7 +33,7 @@ without seeing a thing.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at kalam</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye as pure ši, with a sumerogram for a neighbor</span></div>
+    <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at KALAM</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye as pure ši, with a sumerogram for a neighbor</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

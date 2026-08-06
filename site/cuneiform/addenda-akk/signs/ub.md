@@ -20,7 +20,7 @@ A corner, a nook — a recess of the world's edge in the lists
 school already has a "corner": the Sumerian shelf's IB. Two
 different signs, two neighboring senses — this one is the
 *nook*, and its Akkadian life is the syllable *ub*, riding second
-position in verbs like *u₂-ub-bi-ir-ma*.
+position in verbs like *u-ub-bi-ir-ma*.
 
 ## How to remember it
 
@@ -32,7 +32,7 @@ the middle of the action.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu₂-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span>, "to make well" — the stele's mission statement ends on the people's wellbeing, with ub tucked inside</span></div>
+    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span>, "to make well" — the stele's mission statement ends on the people's wellbeing, with ub tucked inside</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

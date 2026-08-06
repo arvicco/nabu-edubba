@@ -1,7 +1,7 @@
 ---
 title: "BI · its"
 description: >-
-  The veteran sign BI in Akkadian — the new voice pi₂, last
+  The veteran sign BI in Akkadian — the new voice [pi], last
   syllable of Hammurabi's own name.
 layout: sign
 school: cuneiform
@@ -34,7 +34,7 @@ Mesopotamia without this veteran's new reading.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi₂</span><span class="gloss"><span class="norm">Ḫammurapi</span> — the veteran at the end of the royal name</span></div>
+    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi</span><span class="gloss"><span class="norm">Ḫammurapi</span> — the veteran at the end of the royal name</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

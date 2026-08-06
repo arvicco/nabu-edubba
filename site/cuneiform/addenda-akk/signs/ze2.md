@@ -33,7 +33,7 @@ an edge.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒉡 𒀭 𒍢𒊒𒌝</span><span class="translit">i₃-nu an ṣi-ru-um</span><span class="gloss"><span class="norm">inu An ṣīrum</span>, "When lofty An" — the opening words of the Codex Hammurapi, with the bile-sign carrying the loftiness</span></div>
+    <div class="reading-line"><span class="script">𒉌𒉡 𒀭 𒍢𒊒𒌝</span><span class="translit">i-nu an ṣi-ru-um</span><span class="gloss"><span class="norm">inu An ṣīrum</span>, "When lofty An" — the opening words of the Codex Hammurapi, with the bile-sign carrying the loftiness</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue, line 1.

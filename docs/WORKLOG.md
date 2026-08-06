@@ -38,6 +38,17 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Seventeenth review round (owner, ch04: "i₃-nu — indexes in
+reading again; lugal — Sumerian reading leaking, check
+everywhere"): the u₃→u ruling GENERALIZED — Akkadian reading
+transliterations carry no homophone indexes at all (i-nu,
+ḫa-am-mu-ra-pi, ṭu-ub-bi-im, {d}en-lil; the script column owns
+sign identity) and sumerograms go CAPS in readings (LUGAL {d}a-
+nun-na-ki, ši-ma-at KALAM) per §9's own display law. Sixteen
+files swept (chapters + akk codex, decks regenerated), prose
+value-mentions bracketed ([i] and [nu], [pi]), and the new
+akk-translit lint rule enforces both halves mechanically —
+Sumerian courses keep their indexes untouched.
 Sixteenth review round (owner, three items on ch03): (1) IR's
 tip said [ir] only — five akk pool rows carried single variants
 (IR, ZE2, PI, UG, AD); all now list full variant sets, and the

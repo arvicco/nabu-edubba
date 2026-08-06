@@ -57,7 +57,7 @@ chapter teaches you to see all three.
       <td class="script sign-cell">𒁉</td><td>BI</td><td>its</td><td>[pi]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/#sign-12049' | relative_url }}">102's BI</a> crosses the border
-          with a new voice: Akkadian uses it for <em>pi/pi₂</em>,
+          with a new voice: Akkadian uses it for [pi],
           and you are four lines away from finding it at the end
           of a king's name</td>
     </tr>
@@ -109,7 +109,7 @@ loud:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi₂</span><span class="gloss"><span class="norm">Ḫammurapi</span> — HA and MU and RA from your Sumerian years, AM from this page, and the veteran BI wearing its new voice pi₂ at the end. You have just read the name of the king of Babylon in his own spelling.</span></div>
+    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi</span><span class="gloss"><span class="norm">Ḫammurapi</span> — HA and MU and RA from your Sumerian years, AM from this page, and the veteran BI wearing its new voice [pi] at the end. You have just read the name of the king of Babylon in his own spelling.</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.
@@ -119,7 +119,7 @@ loud:
 
 <figure class="glyph-exhibit">
   <span class="script">𒄩 𒄠 𒈬 𒊏 𒁉</span>
-  <figcaption>ḫa — am — mu — ra — pi₂: five syllables, four of them
+  <figcaption>ḫa — am — mu — ra — pi: five syllables, four of them
   from signs you brought with you. The most famous name in
   Mesopotamian history is mostly review.</figcaption>
 </figure>

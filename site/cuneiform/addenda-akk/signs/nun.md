@@ -31,7 +31,7 @@ line carry the prince-sign in their own family name.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈗 𒀭𒀀𒉣𒈾𒆠</span><span class="translit">lugal {d}a-nun-na-ki</span><span class="gloss"><span class="norm">šar Anunnakī</span>, "king of the Anunnaki" — An's title on the stele's second line, prince-sign at its heart</span></div>
+    <div class="reading-line"><span class="script">𒈗 𒀭𒀀𒉣𒈾𒆠</span><span class="translit">LUGAL {d}a-nun-na-ki</span><span class="gloss"><span class="norm">šar Anunnakī</span>, "king of the Anunnaki" — An's title on the stele's second line, prince-sign at its heart</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue, line 2.
