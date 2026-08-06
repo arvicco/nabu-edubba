@@ -61,7 +61,7 @@ if $PROGRAM_NAME == __FILE__
 
   cum = []
   report = pool.group_by { |s| s["chapter"] }.sort.map do |ch, signs|
-    cum += signs.map { |s| s["value"] }
+    cum += signs.flat_map { |s| s["value"].split(/\s*[;,]\s*/) }
     { "chapter" => ch,
       "signs" => signs.map { |s| s["veteran"] ? "#{s['name']} (vet)" : s["name"] },
       "coverage_akkob_pct" => Edubba::Curriculum.coverage(

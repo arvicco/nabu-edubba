@@ -38,6 +38,20 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Sixteenth review round (owner, three items on ch03): (1) IR's
+tip said [ir] only — five akk pool rows carried single variants
+(IR, ZE2, PI, UG, AD); all now list full variant sets, and the
+akk compiler + frontier picker learned to split multi-value
+strings (coverage: stretch ends 68.0%); (2) the conjunction
+written U₃ transliterates plain u in reading lines — ruled into
+§9 (the script column carries sign identity; accent-ù is banned
+anyway); (3) veteran tips LEAKED Sumerian bubbles onto Akkadian
+pages (IGI showed "eye; face; witnessed-by" in a CH reading) —
+entries now carry tip_akk and the linker routes bubbles by
+course, both directions sealed, exact-value tested. Bonus catch
+while verifying: my ṭ-fold mangled English prose ("scenṭ
+perfume") — the emphatic digraph folds now require a following
+vowel; zero mangled characters in the built site.
 Fifteenth review round (owner: "a linter that mechanically
 catches Ch XX mentions without backlinks?"): the chapter-link
 lint rule now enforces §4 mechanically — every "chapter NN" in a
