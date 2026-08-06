@@ -28,7 +28,7 @@ are your first three, right now:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an/diŋir]</td>
+      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an], diŋir</td>
       <td>heaven; god</td><td>an eight-pointed star</td>
     </tr>
     <tr>

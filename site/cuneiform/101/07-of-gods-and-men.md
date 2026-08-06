@@ -38,7 +38,7 @@ have been hiding inside a sign you already write.
           late form — but watch what it builds, below</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌉</td><td>TUR</td><td>child</td><td>[dumu/tur]</td>
+      <td class="script sign-cell">𒌉</td><td>TUR</td><td>child</td><td>[dumu], tur</td>
       <td>child, son; small</td>
       <td>one sign for both "small" and "child" — the
           logic is visible from across four millennia</td>

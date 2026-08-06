@@ -15,8 +15,7 @@ module Edubba
     def sign_reads(sign)
       return "" unless sign.is_a?(Hash)
 
-      p = Edubba::SignLinker.phonetic(sign["display_value"] || sign["value"])
-      p.empty? ? "" : "[#{p}]"
+      Edubba::SignLinker.reads_display(sign["display_value"] || sign["value"])
     end
 
     # Sign NAMES display with subscript indexes (EŠ₂, not EŠ2);
