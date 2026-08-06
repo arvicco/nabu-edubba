@@ -38,6 +38,13 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Eleventh review round (owner: a codex Reads row carried "the
+particle ša…" — meaning prose in a readings field, "many such
+cases"): audit found five (ŠA, U₃, AN, KI, DU across both
+codices); all purified to pure readings, and a new codex-reads
+lint rule pins the grammar — one phonetic bracket, optional
+word-readings in transliteration, at most a "(fuller form …)"
+note; meaning belongs to Means and the body. Exact-value tests.
 Tenth review round (owner: sidebar said "šumma", page said "If a
 man…"): short_titles had drifted into independent labels — 21
 chapters across both schools, some shipped long before this

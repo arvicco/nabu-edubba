@@ -96,6 +96,7 @@ module Edubba
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
       found.concat(check_nav_label(path, text))
+      found.concat(check_codex_reads(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -130,6 +131,24 @@ module Edubba
 
       [Violation.new(path, "nav-label",
                      "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
+    end
+
+    # codex-reads (owner report 2026-08-06: a Reads row carried "the
+    # particle ša, …" — meaning prose): a cuneiform codex page's
+    # reads: field holds READINGS only — one bracket of phonetic
+    # variants, then optional word-readings in transliteration, then
+    # at most a "(fuller form …)" note. Meaning belongs to Means and
+    # the page body.
+    CODEX_READS = %r{\A\[[a-zšṣṭḫŋʾ'/]+\](, [a-zšṣṭḫŋ₀-₉]+)*( \(fuller form [a-zšṣṭḫŋ₀-₉]+\))?\z}
+    def check_codex_reads(path, text)
+      return [] unless path.match?(%r{cuneiform/addenda[^/]*/signs/}) && !path.end_with?("index.md")
+      return [] unless (m = text.match(/^reads: "((?:[^"\\]|\\.)*)"$/))
+
+      reads = m[1].gsub('\\"', '"')
+      return [] if reads.match?(CODEX_READS)
+
+      [Violation.new(path, "codex-reads",
+                     "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
     end
   end
 end
