@@ -200,6 +200,14 @@ terms:
     school: akk
     slug: consonantal-root
     def: "the consonant skeleton at the heart of a Semitic word — n-d-n \"give\" stays fixed while vowel patterns flex around it: nadānum, iddin, inaddin"
+  - name: nominative
+    school: akk
+    slug: nominative
+    def: "the case of the subject — the noun the sentence is about; Old Babylonian marks it with -um: šarrum, \"the king (does something)\""
+  - name: accusative
+    school: akk
+    slug: accusative
+    def: "the case of the direct object — the noun the action lands on; Old Babylonian marks it with -am: awīlam, \"(he accused) a man\""
   - name: mimation
     school: akk
     slug: mimation
