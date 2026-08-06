@@ -38,6 +38,10 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Thirteenth review round (owner: nominative/accusative used
+unexplained): both join the akk glossary with concrete OB
+examples (šarrum / awīlam) — hover bubbles now live on every
+mention across chapters 02-07.
 Twelfth review round (owner: the noun-endings table's nominative
 example was ṣīrum, "lofty" — an adjective heading a table about
 nouns): swapped to šarrum, "the king" (chapter 00's own spelling
