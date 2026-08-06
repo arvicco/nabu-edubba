@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "ŠA"
-reads: "[ša]; the particle ša, \"which, of\""
+reads: "[ša]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
