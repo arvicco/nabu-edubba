@@ -30,14 +30,14 @@ pays off a case the course has been quietly reading past since
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌗</td><td>ITI</td><td>month</td><td><em>iti</em></td>
+      <td class="script sign-cell">𒌗</td><td>ITI</td><td>month</td><td>[iti]</td>
       <td>month</td>
       <td>look closely: it is the day-sign 𒌓 with a thirty tucked
           inside — a month <em>is</em> thirty days, drawn as exactly
           that; the workhorse of every dated receipt</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td><em>za</em></td>
+      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[za]</td>
       <td>bead, precious stone; [za]</td>
       <td>its star turn is the word below — <em>za-e</em>,
           "you"</td>

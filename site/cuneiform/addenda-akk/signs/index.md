@@ -41,7 +41,7 @@ a separate base, never mixed with the Sumerian ranks.
     {% assign spage = site.pages | where: "url", target | first %}
     <tr>
       <td class="script sign-cell">{% if spage %}<a href="{{ target | relative_url }}">{{ s.glyph }}</a>{% else %}{{ s.glyph }}{% endif %}</td>
-      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% if s.veteran %} <em>(vet)</em>{% endif %}</td>
+      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s | sign_name }}</a>{% else %}{{ s | sign_name }}{% endif %}{% if s.veteran %} <em>(vet)</em>{% endif %}</td>
       <td>{{ s.keyword }}</td>
       {% assign ch = site.pages | where: "course", "cuneiform-103" | where: "chapter", s.chapter | first %}
       <td>{% if ch %}<a href="{{ ch.url | relative_url }}">103 · ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</a>{% else %}103 · ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}{% endif %}</td>

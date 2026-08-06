@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "UR"
-reads: "ur"
+reads: "[ur]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

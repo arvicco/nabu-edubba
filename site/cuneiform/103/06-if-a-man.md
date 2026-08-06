@@ -31,7 +31,7 @@ from the top.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋳</td><td>TAG</td><td>touch</td><td><em>šum</em></td>
+      <td class="script sign-cell">𒋳</td><td>TAG</td><td>touch</td><td>[šum]</td>
       <td>to touch, strike</td>
       <td>šumma's first half; mind its lookalike — 102's
           give-sign 𒋧 reads <em>šum₂</em>, a different sign with
@@ -39,20 +39,20 @@ from the top.
           field's way of keeping them apart</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉿</td><td>PI</td><td>ear</td><td><em>wa / wi</em></td>
+      <td class="script sign-cell">𒉿</td><td>PI</td><td>ear</td><td>[wa/wi]</td>
       <td>ear</td>
       <td>Akkadian has a <em>w</em> that Sumerian never wrote, so
           the scribes drafted the ear-sign to carry it — the wi
           of <span class="norm">awīlum</span> is this sign</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒈝</td><td>LUM</td><td>ripen</td><td><em>lum</em></td>
+      <td class="script sign-cell">𒈝</td><td>LUM</td><td>ripen</td><td>[lum]</td>
       <td>to ripen, be fruitful</td>
       <td>closes <em>a-wi-lum</em> in the nominative — the most
           important noun in Babylonian law ends on it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td><em>tam</em></td>
+      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[tam]</td>
       <td>—</td>
       <td><strong>veteran</strong> — 101's day-sign, polyvalent
           since the beginning (ud, utu), crosses the border with

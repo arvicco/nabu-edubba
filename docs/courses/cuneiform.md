@@ -35,13 +35,20 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Sign NAMES in capitals (LUGAL, EŠ2, É — the accented É is the
   sign's conventional name and is fine in that role); names may
   carry ASCII indexes (ŠA3) since they are names, not readings.
-- **Pure sound values in running text use bracket notation**
-  (owner ruling 2026-08-05): [lam], [ṣi/ṣe] — never the phrase
-  "the syllable lam". Certainty tags — (stated), (classic) — do
-  not appear in table cells or meaning fields: grading lives in
-  the Reference's Origin column and the codex pages' prose. A
-  Means cell carries the semantic core only; the sound is the
-  Reads column's job.
+- **Readings are PHONETIC, in brackets** (owner rulings
+  2026-08-05/06): wherever the site states what a sign READS —
+  Reads columns, codex Reads rows, warm-up and drill prompts,
+  sign tips — it shows the sound: [ku], [pi], [wa/wi], never
+  ku₃ or pi₂. The homophone index is transliteration
+  bookkeeping, not phonetics: it appears in transliterated text
+  (*e₂ ku₃* in a reading line) and in sign NAMES (KU₃), and
+  nowhere else. Multiple readings join with a slash inside one
+  bracket. Certainty tags — (stated), (classic) — do not appear
+  in chapter sign tables or sign hover tips, which stay compact;
+  the CODEX pages and the Reference's Origin column may carry
+  them — that is where grading lives (owner clarification
+  2026-08-06). A Means cell carries the semantic core only; the
+  sound is the Reads column's job.
 
 ## 2 · Corpus conventions
 

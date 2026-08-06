@@ -128,11 +128,18 @@ class SignLinkerTest < Minitest::Test
     assert_equal "šum₂", Edubba::SignLinker.display_form("szum2")
   end
 
+  def test_phonetic_strips_indexes_and_joins_values
+    assert_equal "ku", Edubba::SignLinker.phonetic("ku3")
+    assert_equal "an/diŋir", Edubba::SignLinker.phonetic("an; diŋir (dijir/dingir)")
+    assert_equal "ṣi/ṣe", Edubba::SignLinker.phonetic("s,i; s,e")
+    assert_equal "niŋ", Edubba::SignLinker.phonetic("niŋ₂")
+  end
+
   def test_tip_text_prefers_explicit_display_value
     tip = Edubba::SignLinker.tip_text(
       { "name" => "GAR", "value" => "nig2", "display_value" => "niŋ₂", "meaning" => "thing" }
     )
-    assert_equal "GAR · niŋ₂ · thing", tip
+    assert_equal "GAR · [niŋ] · thing", tip
   end
 
   def test_build_map_prefers_queue_chapters_for_queue_signs
@@ -151,8 +158,8 @@ class SignLinkerTest < Minitest::Test
                             "name" => "EŠ2", "value" => "sze3",
                             "meaning" => "rope (stated); the terminative -sze3" }] }
     map = Edubba::SignLinker.build_map(teaching, queue, REF, { 0 => CH0 })
-    assert_equal "AN · an; diŋir · heaven; god", map[AN][:tip]
-    assert_equal "EŠ₂ · še₃ · rope; the terminative -še₃", map[ME][:tip]
+    assert_equal "AN · [an/diŋir] · heaven; god", map[AN][:tip]
+    assert_equal "EŠ₂ · [še] · rope; the terminative -še₃", map[ME][:tip]
   end
 
   def test_tip_text_escapes_html_and_skips_empty

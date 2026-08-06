@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KAL"
-reads: "kal (fuller form kalag)"
+reads: "[kal] (fuller form kalag)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

@@ -1,12 +1,12 @@
 ---
-title: "ZE2 · bile"
+title: "ZE₂ · bile"
 description: >-
   The sign ZE2 in Akkadian — [ṣi/ṣe], carrying the
   emphatic ṣ that Sumerian never wrote.
 layout: sign
 school: cuneiform
 sign: "ZE2"
-reads: "ṣi, ṣe"
+reads: "[ṣi/ṣe]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"

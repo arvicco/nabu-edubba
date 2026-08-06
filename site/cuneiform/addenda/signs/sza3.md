@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "ŠA3"
-reads: "ša₃ (fuller form šag₄)"
+reads: "[ša] (fuller form šag₄)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

@@ -30,13 +30,13 @@ batch of the stretch, like the one that closed the last.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋧</td><td>SUM</td><td>give</td><td><em>šum₂</em></td>
+      <td class="script sign-cell">𒋧</td><td>SUM</td><td>give</td><td>[šum]</td>
       <td>to give</td>
       <td>a bundle of onions in origin, the standard lists say — the
           giving verb of gods and administrators alike</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒄿</td><td>I</td><td>cry</td><td><em>i</em></td>
+      <td class="script sign-cell">𒄿</td><td>I</td><td>cry</td><td>[i]</td>
       <td>the bare vowel i</td>
       <td>five wedges for one small sound; spells names, professions,
           and — doubled — the verb "to bring forth, to proclaim"</td>

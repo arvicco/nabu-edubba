@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "GAL"
-reads: "gal"
+reads: "[gal]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

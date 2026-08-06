@@ -35,13 +35,13 @@ you can see exactly how much of the original is already yours.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒈗</td><td>LUGAL</td><td>king</td><td><em>lugal</em></td>
+      <td class="script sign-cell">𒈗</td><td>LUGAL</td><td>king</td><td>[lugal]</td>
       <td>king</td>
       <td>the keyword of every royal text below — your
           most complex sign yet (its secret is opened in <a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">chapter 07</a>)</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒈬</td><td>MU</td><td>name</td><td><em>mu</em></td>
+      <td class="script sign-cell">𒈬</td><td>MU</td><td>name</td><td>[mu]</td>
       <td>name; year</td>
       <td>origin debated (an old suggestion sees a plant); what is
           certain is its job — opening the year-name formulas that
