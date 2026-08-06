@@ -228,3 +228,7 @@ terms:
     school: akk
     slug: infinitive
     def: "a verb packed whole into a noun — ḫabālum, \"to wrong / the wronging\" — and, being a noun, it wears the case endings like any other"
+  - name: verbal stem
+    school: akk
+    slug: verbal-stem
+    def: "one of the shapes a verb's root can be built into — G the ground stem, D the doubled-middle, Š the causative, N the passive — each with its own preterite and durative"
