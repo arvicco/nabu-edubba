@@ -155,6 +155,23 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_nav_label("x.md", index)
   end
 
+  def test_nav_order_must_be_globally_unique
+    Dir.mktmpdir do |dir|
+      %w[a b].each do |s|
+        FileUtils.mkdir_p(File.join(dir, s))
+        File.write(File.join(dir, s, "index.md"),
+                   "---\nnav_order: 10\ncourse_no: \"101\"\n---\n")
+      end
+      v = Edubba::Lint.nav_order_unique(dir)
+      assert_equal 2, v.size
+      assert_equal "nav-order-unique", v[0].rule
+
+      File.write(File.join(dir, "b", "index.md"),
+                 "---\nnav_order: 20\ncourse_no: \"101\"\n---\n")
+      assert_empty Edubba::Lint.nav_order_unique(dir)
+    end
+  end
+
   def test_codex_reads_holds_readings_only
     path = "site/cuneiform/addenda-akk/signs/sza.md"
     bad = %(---\nreads: "[ša]; the particle ša"\n---\nbody)

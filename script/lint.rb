@@ -50,9 +50,35 @@ module Edubba
       sources(site_dir).flat_map { |path| check_file(site_dir, path) } +
         js_assets(site_dir) +
         font_coverage(site_dir, manifests) +
+        nav_order_unique(site_dir) +
         CourseCheck.violations(site_dir) +
         Rulebook.violations(site_dir) +
         Rulebook.codex_violations(site_dir)
+    end
+
+    # nav-order-unique (live-site incident 2026-08-06): the sidebar
+    # sorts courses by nav_order and derives school order from first
+    # appearance. Liquid's sort is stable, so a TIE falls back to
+    # Jekyll's filesystem enumeration — cuneiform-first on macOS,
+    # hash-order on CI's Linux, where hieroglyphs jumped the queue on
+    # the deployed site. Ordering must never depend on the OS:
+    # nav_order is globally unique across the site.
+    def nav_order_unique(site_dir)
+      require "yaml"
+      orders = Dir.glob(File.join(site_dir, "**", "index.md")).filter_map do |path|
+        text = File.read(path, encoding: "UTF-8")
+        next unless text.start_with?("---\n") && (fm_end = text.index("\n---", 4))
+
+        fm = YAML.safe_load(text[4..fm_end]) rescue nil
+        [path, fm["nav_order"]] if fm.is_a?(Hash) && fm["nav_order"]
+      end
+      orders.group_by { |_, n| n }.select { |_, g| g.size > 1 }.flat_map do |n, group|
+        group.map do |path, _|
+          Violation.new(path, "nav-order-unique",
+                        "nav_order #{n} is shared by #{group.size} pages — ties resolve by " \
+                        "filesystem order, which differs between macOS and CI; make it unique")
+        end
+      end
     end
 
     def font_coverage(site_dir, manifests = {})

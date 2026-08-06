@@ -15,10 +15,13 @@ permalink: /cuneiform/addenda/signs/en/
 
 ## Where it comes from
 
-Origin opaque — the late form gives no picture to hold. The word
-carries the weight instead: *en* is "lord," and in the oldest
-cities also the high priest, the one who stood for the city before
-its god. It ranks among the most frequent signs of the literary
+The late form gives no picture to hold, but the earliest forms
+have a story: museum sign-charts (the Louvre's among them) read
+the archaic shape as a **throne**, rotated and simplified over
+the centuries like everything else in the script — a fitting seat
+for the word. The word carries the weight either way: *en* is
+"lord," and in the oldest cities also the high priest, the one
+who stood for the city before its god. It ranks among the most frequent signs of the literary
 corpus, because hymns are always addressing someone above.
 
 ## How to remember it

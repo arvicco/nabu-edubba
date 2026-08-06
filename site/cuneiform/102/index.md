@@ -1,7 +1,7 @@
 ---
 layout: course
 school: cuneiform
-nav_order: 20
+nav_order: 120
 course_no: 102
 title: Cuneiform 102 · Sumerian
 short_title: C 102 Sumerian

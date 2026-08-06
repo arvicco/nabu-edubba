@@ -1,8 +1,8 @@
 ---
 title: "ZU · know"
 description: >-
-  The sign ZU, keyword "know" — a tooth extended to knowing, the
-  classic case every introduction cites.
+  The sign ZU, keyword "know" — the knowing sign, and the -zu
+  of "your."
 layout: sign
 school: cuneiform
 sign: "ZU"
@@ -15,16 +15,21 @@ permalink: /cuneiform/addenda/signs/zu/
 
 ## Where it comes from
 
-The classic case cited in every introduction to the script: a
-tooth, extended to "to know" — as if insight were something you
-could bite down on. The same sound serves the possessive *-zu*,
-"your," which keeps the sign busy in proverbs and prayers alike.
+An honest correction lives on this page. Older introductions
+loved to call this sign "a tooth, extended to knowing" — but the
+tooth word *zu₂* is written with the mouth-sign
+<a href="{{ '/cuneiform/addenda/signs/ka/' | relative_url }}">KA</a>,
+not with this sign; the two words merely sound alike, and the
+story migrated from the sound to the wrong wedges. This sign's
+own picture is not established. What is certain is the work it
+does: *zu*, "to know," and the possessive *-zu*, "your," which
+keeps the sign busy in proverbs and prayers alike.
 
 ## How to remember it
 
-To **know** something is to have teeth in it: bite down and find
-out. One sign for the tooth, the knowing, and the "your" — what
-you know is what you have chewed.
+What is **your**s is what you **know**: one sound covers both,
+and this one sign writes them both. Say *-zu* — "your" — and the
+knowing comes along free.
 
 ## In the wild
 
