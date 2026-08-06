@@ -596,7 +596,16 @@ under the tiles; Taught-in cells linked on every surface that had
 them as text; wedge counts dropped from all displays (registry
 field and compiler scoring intact).
 
-## Phase 12 — C103 Akkadian, stretch 1 (plan pending owner approval)
+## Phase 12 — C103 Akkadian, stretch 1 (Gate 12 CLOSED — PR #15
+merged 2026-08-06, nineteen review rounds absorbed; the rounds
+ruled: phonetic bracket law refinements, no homophone indexes +
+CAPS sumerograms in akk readings (akk-translit lint), veteran
+tips = name·reads·hook, veteran links route to the akk
+reintroduction, sumerograms are veterans too (KALAM/LUGAL rows +
+codex pages), ambient veterans keep sux bubbles, item-by-item
+breakdowns for new-grammar readings (§5), Means-column CSS floor,
+chapter-link + nav-label + codex-reads lint rules, terms contract
+test)
 
 Source: owner pick 2026-08-05 ("let's start on Akkadian").
 Rulebook extension FIRST (carried constraint from the Phase 11

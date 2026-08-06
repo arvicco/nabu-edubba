@@ -1,7 +1,7 @@
 ---
 layout: course
 school: hieroglyphs
-nav_order: 30
+nav_order: 230
 course_no: addenda
 title: Hieroglyphs Addenda
 short_title: E Addenda

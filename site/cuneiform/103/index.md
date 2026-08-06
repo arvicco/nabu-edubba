@@ -1,7 +1,7 @@
 ---
 layout: course
 school: cuneiform
-nav_order: 40
+nav_order: 140
 course_no: 103
 title: Cuneiform 103 · Akkadian
 short_title: C 103 Akkadian
