@@ -68,3 +68,13 @@ signs:
   - { glyph: "𒅋", codepoint: "1214B", name: "IL",  value: "il",   meaning: "the il- of illak, \"he goes\"",                             freq_akkob: 64,  certainty: unclear, chapter: 9, keyword: "step" }
   - { glyph: "𒀠", codepoint: "12020", name: "AL",  value: "al",   meaning: "the hoe",                                                   freq_akkob: 51,  certainty: classic, chapter: 9, keyword: "hoe" }
   - { glyph: "𒋰", codepoint: "122F0", name: "TAB", value: "tab, tap", meaning: "two wedges side by side — a pair; to double",           freq_akkob: 219, certainty: stated,  chapter: 9, keyword: "pair" }
+  # ch 10 · The River decides (law 2, the ordeal)
+  - { glyph: "𒂍", codepoint: "1208D", name: "É",   value: "bitum",   display_value: "bītum", veteran: true, meaning: "veteran — É gains [bītum]: the house-sign as a sumerogram",  certainty: stated, chapter: 10, keyword: "house" }
+  - { glyph: "𒇉", codepoint: "121C9", name: "ENGUR", value: "engur", osl_name: "|LAGAB×HAL|", meaning: "the sweet waters under the earth; with A before it, the River", certainty: stated, chapter: 10, keyword: "the deep" }
+  - { glyph: "𒁍", codepoint: "1204D", name: "BU",  value: "bu, pu", meaning: "[bu]; to tear away in the lists",                           freq_akkob: 38,  certainty: unclear, chapter: 10, keyword: "tear" }
+  - { glyph: "𒅅", codepoint: "12145", name: "IG",  value: "ig, ik, iq", meaning: "the door",                                              freq_akkob: 109, certainty: stated,  chapter: 10, keyword: "door" }
+  # ch 11 · An eye for an eye (laws 196-197)
+  - { glyph: "𒌔", codepoint: "12314", name: "UH2", value: "uh2",  osl_name: "|UD.KUŠU₂|", meaning: "spittle, phlegm in the lists",           freq_akkob: 220, certainty: stated,  chapter: 11, keyword: "spittle" }
+  - { glyph: "𒉺", codepoint: "1227A", name: "PA",  value: "pa",   meaning: "branch; the scepter in Sumerian",                            freq_akkob: 48,  certainty: classic, chapter: 11, keyword: "branch" }
+  - { glyph: "𒀊", codepoint: "1200A", name: "AB",  value: "ab, ap", meaning: "a window in the lists",                                    freq_akkob: 74,  certainty: unclear, chapter: 11, keyword: "window" }
+  - { glyph: "𒌉", codepoint: "12309", name: "TUR", value: "marum", display_value: "mārum", veteran: true, meaning: "veteran — TUR gains [mārum]: the son-sign DUMU as a sumerogram", certainty: stated, chapter: 11, keyword: "child" }

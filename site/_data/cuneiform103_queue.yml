@@ -68,6 +68,20 @@ batches:
   - AL
   - TAB
   coverage_akkob_pct: 70.6
+- chapter: 10
+  signs:
+  - É (vet)
+  - ENGUR
+  - BU
+  - IG
+  coverage_akkob_pct: 72.2
+- chapter: 11
+  signs:
+  - UH2
+  - PA
+  - AB
+  - TUR (vet)
+  coverage_akkob_pct: 73.4
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -386,3 +400,78 @@ signs:
   certainty: stated
   chapter: 9
   keyword: pair
+- glyph: "\U0001208D"
+  codepoint: 1208D
+  name: É
+  value: bitum
+  display_value: bītum
+  veteran: true
+  meaning: 'veteran — É gains [bītum]: the house-sign as a sumerogram'
+  certainty: stated
+  chapter: 10
+  keyword: house
+- glyph: "\U000121C9"
+  codepoint: 121C9
+  name: ENGUR
+  value: engur
+  osl_name: "|LAGAB×HAL|"
+  meaning: the sweet waters under the earth; with A before it, the River
+  certainty: stated
+  chapter: 10
+  keyword: the deep
+- glyph: "\U0001204D"
+  codepoint: 1204D
+  name: BU
+  value: bu, pu
+  meaning: "[bu]; to tear away in the lists"
+  freq_akkob: 38
+  certainty: unclear
+  chapter: 10
+  keyword: tear
+- glyph: "\U00012145"
+  codepoint: '12145'
+  name: IG
+  value: ig, ik, iq
+  meaning: the door
+  freq_akkob: 109
+  certainty: stated
+  chapter: 10
+  keyword: door
+- glyph: "\U00012314"
+  codepoint: '12314'
+  name: UH2
+  value: uh2
+  osl_name: "|UD.KUŠU₂|"
+  meaning: spittle, phlegm in the lists
+  freq_akkob: 220
+  certainty: stated
+  chapter: 11
+  keyword: spittle
+- glyph: "\U0001227A"
+  codepoint: 1227A
+  name: PA
+  value: pa
+  meaning: branch; the scepter in Sumerian
+  freq_akkob: 48
+  certainty: classic
+  chapter: 11
+  keyword: branch
+- glyph: "\U0001200A"
+  codepoint: 1200A
+  name: AB
+  value: ab, ap
+  meaning: a window in the lists
+  freq_akkob: 74
+  certainty: unclear
+  chapter: 11
+  keyword: window
+- glyph: "\U00012309"
+  codepoint: '12309'
+  name: TUR
+  value: marum
+  display_value: mārum
+  veteran: true
+  meaning: 'veteran — TUR gains [mārum]: the son-sign DUMU as a sumerogram'
+  certainty: stated
+  chapter: 11
+  keyword: child
