@@ -90,7 +90,11 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Simple over adorned; substance over meta: corpus names and
   tooling live in citations and footnotes, never in lesson flow.
 - Back-references to prior material carry links (owner ruling
-  2026-07-31). Grammar walkthroughs go piece by piece — no
+  2026-07-31; reaffirmed 2026-08-06 after C103 shipped bare
+  "chapter NN" and "102's SIGN" mentions): a mention of ANY
+  earlier material — a chapter, a sign, a course — links at the
+  mention; a veteran sign's mention links its teaching-seat
+  anchor (#sign-<codepoint>). Grammar walkthroughs go piece by piece — no
   checklist glosses (owner ruling 2026-07-31); sharpened
   2026-08-02: any reading of three or more meaningful pieces gets
   a bullet-form walkthrough in the body — one bullet per piece,

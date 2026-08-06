@@ -20,7 +20,7 @@ inside it (GUD×KUR): the wild bull of the highlands, Akkadian
 *rīmum*, the beast kings compared themselves to. The picture is
 stated by the lists; the sound is beyond doubt — *am*, seventh
 most frequent syllable of the Old Babylonian corpus, largely
-because chapter 02's accusative ends on it: *awīlam*, *ṣīram*,
+because <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> accusative ends on it: *awīlam*, *ṣīram*,
 *rubâm*.
 
 ## How to remember it

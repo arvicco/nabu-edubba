@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/kal/
 
 ## Where it comes from
 
-102's mighty-sign — Sumerian *kal(ag)*, "strong, precious."
+<a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12197' | relative_url }}">102's mighty-sign</a> — Sumerian *kal(ag)*, "strong, precious."
 Akkadian reads it *dan*, and for once the borrowed sound and the
 old meaning shake hands: <span class="norm">dannum</span>, "the
 strong (one)," opens on it in the most quoted line of Babylonian

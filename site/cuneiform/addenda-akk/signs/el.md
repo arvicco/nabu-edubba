@@ -32,7 +32,7 @@ title gleams.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒁁𒂖 𒊭𒈨𒂊</span><span class="translit">be-el ša-me-e</span><span class="gloss"><span class="norm">bēl šamê</span>, "lord of heaven" — el closing the construct state, exactly where chapter 03 taught you to expect a missing ending</span></div>
+    <div class="reading-line"><span class="script">𒁁𒂖 𒊭𒈨𒂊</span><span class="translit">be-el ša-me-e</span><span class="gloss"><span class="norm">bēl šamê</span>, "lord of heaven" — el closing the construct state, exactly where <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03</a> taught you to expect a missing ending</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

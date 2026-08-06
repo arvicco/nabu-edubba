@@ -38,7 +38,7 @@ words — why any of these laws exist at all.
     <tr>
       <td class="script sign-cell">𒆗</td><td>KAL</td><td>mighty</td><td>[dan]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 102's mighty-sign carries
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12197' | relative_url }}">102's mighty-sign</a> carries
           exactly the right word across the border:
           <span class="norm">dannum</span>, "the strong," opens
           on it — the sign's Sumerian sense and its Akkadian
@@ -47,7 +47,7 @@ words — why any of these laws exist at all.
     <tr>
       <td class="script sign-cell">𒌅</td><td>TU</td><td>born</td><td>[ṭu]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 102's birth-sign gains the
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12305' | relative_url }}">102's birth-sign</a> gains the
           emphatic ṭ: <span class="norm">ṭubbim</span>, "to make
           well," ends the stele's mission statement on it</td>
     </tr>
@@ -75,7 +75,7 @@ law. Read it from the stone:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒆗𒉡𒌝 𒂗𒊭𒄠</span><span class="translit">dan-nu-um en-ša-am</span><span class="gloss"><span class="norm">dannum enšam</span> — "the strong (subject)… the weak (object)" — chapter 02's endings carrying the whole drama before any verb arrives; note en on pure syllable duty, no lordship about it</span></div>
+    <div class="reading-line"><span class="script">𒆗𒉡𒌝 𒂗𒊭𒄠</span><span class="translit">dan-nu-um en-ša-am</span><span class="gloss"><span class="norm">dannum enšam</span> — "the strong (subject)… the weak (object)" — <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> endings carrying the whole drama before any verb arrives; note en on pure syllable duty, no lordship about it</span></div>
     <div class="reading-line"><span class="script">𒀀𒈾 𒆷 𒄩𒁀𒇷𒅎</span><span class="translit">a-na la ḫa-ba-li-im</span><span class="gloss"><span class="norm">ana lā ḫabālim</span> — "so that he not wrong (him)": ana + the negation + the verb turned noun in the genitive — "toward the not-wronging of the weak by the strong"</span></div>
   </div>
   <figcaption class="citation">
@@ -89,7 +89,7 @@ And the warmer half of the same commission, two veterans deep:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾 𒅆𒅕 𒉌𒅆</span><span class="translit">a-na ši-ir ni-ši</span><span class="gloss"><span class="norm">ana šīr nišī</span> — "for the flesh of the people": the eye-sign's ši twice over, construct chains from chapter 03</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒅆𒅕 𒉌𒅆</span><span class="translit">a-na ši-ir ni-ši</span><span class="gloss"><span class="norm">ana šīr nišī</span> — "for the flesh of the people": the eye-sign's ši twice over, construct chains from <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03</a></span></div>
     <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu₂-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span> — "to make well." The king's stated job, in one word: the wellbeing of the people's own bodies</span></div>
   </div>
   <figcaption class="citation">

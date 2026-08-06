@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/igi/
 
 ## Where it comes from
 
-The eye-sign of 102 — *igi*, "eye, face, before," the witness
+The eye-sign of <a href="{{ '/cuneiform/102/06-names-that-are-sentences/#sign-12146' | relative_url }}">102</a> — *igi*, "eye, face, before," the witness
 formula's workhorse. Its Sumerian readings included *ši*, and
 that is the piece Akkadian kept: a bare, busy syllable spent on
 any word that needs it, no eyes involved. Thirty-second most

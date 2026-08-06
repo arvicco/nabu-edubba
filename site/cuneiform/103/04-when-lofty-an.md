@@ -49,7 +49,7 @@ arrives — monumental Akkadian loves a long suspense — and the
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒉌𒉡 𒀭 𒍢𒊒𒌝</span><span class="translit">i₃-nu an ṣi-ru-um</span><span class="gloss"><span class="norm">inu An ṣīrum</span> — "When lofty An": i₃ and nu on veteran duty spelling <span class="norm">inu</span>, "when"; then the sky-god's name written with his own old sign; then chapter 02's -um closing the adjective — nominative, because An is the subject of the long sentence just beginning</span></div>
+    <div class="reading-line"><span class="script">𒉌𒉡 𒀭 𒍢𒊒𒌝</span><span class="translit">i₃-nu an ṣi-ru-um</span><span class="gloss"><span class="norm">inu An ṣīrum</span> — "When lofty An": i₃ and nu on veteran duty spelling <span class="norm">inu</span>, "when"; then the sky-god's name written with his own old sign; then <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> -um closing the adjective — nominative, because An is the subject of the long sentence just beginning</span></div>
     <div class="reading-line"><span class="script">𒈗 𒀭𒀀𒉣𒈾𒆠</span><span class="translit">lugal {d}a-nun-na-ki</span><span class="gloss"><span class="norm">šar Anunnakī</span>, "king of the Anunnaki" — the king-sign as a sumerogram (written LUGAL, spoken <span class="norm">šar</span>, construct!), then the divine determinative, then the gods' family name with this page's NUN at its heart</span></div>
     <div class="reading-line"><span class="script">𒀭𒂗𒆤</span><span class="translit">{d}en-lil₂</span><span class="gloss"><span class="norm">Enlil</span> — written precisely as Sumer always wrote him, determinative and all: some names crossed the border without changing a single wedge</span></div>
   </div>
@@ -64,7 +64,7 @@ Notice what the three lines quietly demonstrate. Line 1 is pure
 syllable-spelling. Line 3 is pure Sumerian heritage, untouched.
 And line 2 is the mixture that makes Akkadian cuneiform what it
 is: a sumerogram read in Akkadian (*šar*, construct state — the
-missing -um is chapter 03's signal), a silent classifier, and a
+missing -um is <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03's</a> signal), a silent classifier, and a
 name spelled out sound by sound. Every skill this course has
 taught you, in one line of stone.
 
@@ -93,7 +93,7 @@ where the king finally says <span class="norm">anāku</span> —
 3. In line 2, which sign is silent, which is a sumerogram, and
    how do you know the sumerogram is in the construct state?
 4. Why does <span class="norm">ṣīrum</span> end in -um and
-   chapter 02's <span class="norm">ṣīram</span> in -am? One
+   <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> <span class="norm">ṣīram</span> in -am? One
    sentence.
 
 *Next: the verb arrives — he charged, he did not convict, he

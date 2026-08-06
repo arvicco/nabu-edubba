@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/tu/
 
 ## Where it comes from
 
-102's birth-sign — Sumerian *tu(d)*, "to be born." Akkadian
+<a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12305' | relative_url }}">102's birth-sign</a> — Sumerian *tu(d)*, "to be born." Akkadian
 enlisted it for a sound Sumerian never separated out: the
 emphatic *ṭ*, the pressed t of the Semitic consonant row. As
 *ṭu₂* it stands at the head of
