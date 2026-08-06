@@ -38,7 +38,14 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
-Eighth review round (owner): Akkadian-specific glossary terms
+Ninth review round (owner caught a DUPLICATE glossary entry —
+syllabogram had two defs, mine from M12-1 stacked on a
+pre-existing one, both then tagged akk and shown side by side —
+and asked whether anything lints duplicates; nothing did): the
+entries merged to one, and test/terms_contract_test.rb now pins
+the glossary contract — unique names (case-insensitive), unique
+slugs, name/slug/def present, school scopes naming known
+glossaries. Eighth review round (owner): Akkadian-specific glossary terms
 (consonantal root, mimation, construct state, preterite,
 durative, bound transcription, sumerogram, syllabogram) moved to
 a new AKK Addenda terms shelf (/cuneiform/addenda-akk/terms/,

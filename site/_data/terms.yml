@@ -40,7 +40,7 @@ terms:
   - name: syllabogram
     school: akk
     slug: syllabogram
-    def: "a sign spelling one syllable — ba, du, an"
+    def: "a sign spelling one syllable rather than a whole word — ba, du, an; the workhorse of Akkadian spelling"
   - name: polyvalency
     slug: polyvalency
     def: "one sign carrying several possible readings; context picks the right one"
@@ -188,10 +188,6 @@ terms:
   - name: shekel
     slug: shekel
     def: "the basic Mesopotamian weight, about 8 grams — one shekel of silver was roughly a hired worker's monthly wage"
-  - name: syllabogram
-    school: akk
-    slug: syllabogram
-    def: "a sign standing for a spoken syllable rather than a word — the workhorse of Akkadian spelling, where ša-ru-um builds a word sound by sound"
   - name: sumerogram
     school: akk
     slug: sumerogram
