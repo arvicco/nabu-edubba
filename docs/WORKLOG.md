@@ -38,6 +38,11 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Twelfth review round (owner: the noun-endings table's nominative
+example was ṣīrum, "lofty" — an adjective heading a table about
+nouns): swapped to šarrum, "the king" (chapter 00's own spelling
+demo); adjective agreement stays taught where it belongs, at the
+ṣi-ra-am reading's gloss.
 Eleventh review round (owner: a codex Reads row carried "the
 particle ša…" — meaning prose in a readings field, "many such
 cases"): audit found five (ŠA, U₃, AN, KI, DU across both

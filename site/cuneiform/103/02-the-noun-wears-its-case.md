@@ -74,7 +74,7 @@ endings:[^mimation]
     <tr><th>Role</th><th>Ending</th><th>Sounds like</th><th>You will read it in</th></tr>
   </thead>
   <tbody>
-    <tr><td>subject (nominative)</td><td><em>-um</em></td><td>𒌝</td><td><span class="norm">ṣīrum</span>, "lofty" — chapter 04's first line</td></tr>
+    <tr><td>subject (nominative)</td><td><em>-um</em></td><td>𒌝</td><td><span class="norm">šarrum</span>, "the king" — chapter 00's very first spelling</td></tr>
     <tr><td>object (accusative)</td><td><em>-am</em></td><td>𒄠</td><td><span class="norm">rubâm</span>, "the prince" — below</td></tr>
     <tr><td>after "of" / a preposition (genitive)</td><td><em>-im</em></td><td>𒅎</td><td><span class="norm">mātim</span>, "of the land" — below</td></tr>
   </tbody>
