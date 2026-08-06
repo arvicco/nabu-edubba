@@ -1,6 +1,6 @@
 ---
 title: "03 · To do, to give, to be"
-short_title: "03 · Do, give, be"
+short_title: "03 · To do, to give, to be"
 description: >-
   The three hardest-working verb stems in Egyptian — the eye that
   means "make," the arm that means "give," the hare that means

@@ -1,6 +1,6 @@
 ---
 title: "10 · Life, beauty, becoming"
-short_title: "10 · Culture words"
+short_title: "10 · Life, beauty, becoming"
 description: >-
   The four signs everyone already half-knows — ankh, nefer, the
   scarab, and the god-flag — taught honestly, with the words and

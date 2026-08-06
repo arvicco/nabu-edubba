@@ -1,6 +1,6 @@
 ---
 title: "07 · The strong shall not wrong the weak"
-short_title: "07 · The creed"
+short_title: "07 · The strong"
 description: >-
   The last box falls: law 1 complete, the stele's statement of
   purpose read whole, and where the course stands — measured — at

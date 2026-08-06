@@ -1,6 +1,6 @@
 ---
 title: "11 · The stone that talked"
-short_title: "11 · Decipherment"
+short_title: "11 · The stone that talked"
 description: >-
   Rosetta, Champollion, and the promise kept: Ptolemy's cartouche
   read in full, Cleopatra as the cross-check, Ramses as the leap —

@@ -38,6 +38,13 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Tenth review round (owner: sidebar said "šumma", page said "If a
+man…"): short_titles had drifted into independent labels — 21
+chapters across both schools, some shipped long before this
+phase. All swept to title-substrings, and a new nav-label lint
+rule makes the drift impossible: a chapter's short_title must be
+drawn from its title (course indexes keep their deliberate codes
+— C SUX Addenda is the owner's own label). Exact-value lint test.
 Ninth review round (owner caught a DUPLICATE glossary entry —
 syllabogram had two defs, mine from M12-1 stacked on a
 pre-existing one, both then tagged akk and shown side by side —

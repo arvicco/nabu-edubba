@@ -1,6 +1,6 @@
 ---
 title: "06 · If a man…"
-short_title: "06 · šumma"
+short_title: "06 · If a man…"
 description: >-
   The conditional šumma, the legal person awīlum, the w-sounds
   Sumerian never wrote — and the first law of the Codex Hammurapi,

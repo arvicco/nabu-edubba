@@ -141,4 +141,17 @@ class LintTest < Minitest::Test
       assert_equal Set[0x13000], Edubba::ScriptScan.used_codepoints(dir, hie)
     end
   end
+
+  def test_nav_label_must_be_drawn_from_title
+    bad = "---\ntitle: \"06 · If a man…\"\nshort_title: \"06 · šumma\"\nchapter: 6\n---\nbody"
+    v = Edubba::Lint.check_nav_label("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "nav-label", v[0].rule
+
+    good = bad.sub("06 · šumma", "06 · If a man…")
+    assert_empty Edubba::Lint.check_nav_label("x.md", good)
+
+    index = "---\ntitle: \"Sumerian Addenda\"\nshort_title: \"C SUX Addenda\"\n---\nbody"
+    assert_empty Edubba::Lint.check_nav_label("x.md", index)
+  end
 end

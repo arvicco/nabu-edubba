@@ -1,6 +1,6 @@
 ---
 title: "09 · The signs that say nothing"
-short_title: "09 · Classifiers"
+short_title: "09 · The signs that say nothing"
 description: >-
   Classifiers — the silent signs that sort every Egyptian word into
   its kind: man, woman, speech, plural, idea, small. And the truth

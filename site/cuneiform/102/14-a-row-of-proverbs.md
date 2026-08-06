@@ -1,6 +1,6 @@
 ---
 title: "14 · A row of proverbs"
-short_title: "14 · Proverbs, rows"
+short_title: "14 · A row of proverbs"
 description: >-
   Connected reading begins: a row of school proverbs — dogs, gluttons,
   the wise and their modesty — plus the last wish-ring, na-, and four

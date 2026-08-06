@@ -1,6 +1,6 @@
 ---
 title: "12 · Build it for me"
-short_title: "12 · The chain, whole"
+short_title: "12 · Build it for me"
 description: >-
   The third stretch opens: the builder's peg, the dedicating verb,
   and mother — and the two chain rings, mu- and -na-, that finally

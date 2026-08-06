@@ -1,6 +1,6 @@
 ---
 title: "04 · When lofty An…"
-short_title: "04 · The prologue opens"
+short_title: "04 · When lofty An…"
 description: >-
   The first three lines of the Codex Hammurapi read in the
   original: the temporal inu, the Anunnaki with their prince-sign,
