@@ -1,7 +1,7 @@
 ---
 layout: course
 school: hieroglyphs
-nav_order: 20
+nav_order: 220
 course_no: 102
 title: Hieroglyphs 102 · Middle Egyptian
 short_title: E 102 Middle Egyptian

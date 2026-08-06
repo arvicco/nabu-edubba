@@ -1,7 +1,7 @@
 ---
 layout: course
 school: hieroglyphs
-nav_order: 10
+nav_order: 210
 course_no: 101
 title: Hieroglyphs 101 · Foundations
 short_title: E 101 Foundations
