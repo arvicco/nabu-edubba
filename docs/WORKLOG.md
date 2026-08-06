@@ -5,6 +5,28 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · Wiktionary codex sweep · phase-13 · Owner request:
+audit both Sign Codices against Wiktionary's per-glyph pages before
+the next phase. 97 glyphs fetched + compared (8 extraction agents,
+mechanical only; all judgment and prose Fable per rule 9); every
+conflict candidate re-judged against OSL/ePSD2/standard grammars.
+Result: readings/values clean across all 97; ONE real taught error
+found and fixed — ZU's "tooth extended to knowing" (the primer
+chestnut) fails identity: tooth-word zu₂ is KA's, per OSL; zu.md
+now teaches the honest correction, ch03 + registry + deck follow.
+Registry drift fixed (UR "young man/warrior" → the codex's own
+"hound of"), HA's fish-reading attribution sharpened (ku₆), EN's
+origin upgraded from "opaque" to the Louvre-charted throne. Five
+conflict candidates judged Wiktionary gaps, not our errors (me, la,
+lam, ri, gur) — kept with their hedges. ~110 enrichment leads
+curated into .docs/wiktionary-sweep.md (É's */haj/-hekal story,
+DI=SILIM health, BAD's live/die polarity, IGI=1,000 ligature, MU=
+nīšum "life", + a full sumerogram bank for future akk pages).
+Lessons: Wikimedia 429s masquerade as 200s under anonymous curl
+(30/97 — verify content, set a UA); the one real error hid under
+certainty: classic — "every primer says so" is where folk
+etymology lives.
+
 2026-08-06 · INCIDENT: live sidebar school order flipped · phase-13 ·
 After the Gate 12 merge deployed (second attempt — the first Pages
 deployment died in GitHub's own "degraded performance" incident,

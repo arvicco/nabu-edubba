@@ -50,10 +50,10 @@ signs, and one small, versatile grammar habit.
     </tr>
     <tr>
       <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[zu]</td>
-      <td>tooth; to know</td>
-      <td>the classic case cited in every introduction to
-          the script — a tooth, extended to knowing, as if insight
-          were something you could bite down on</td>
+      <td>to know; -zu, "your"</td>
+      <td>the knowing sign, and by the same sound the possessive
+          "your" — what is yours is what you know; its picture,
+          honestly, is not established</td>
     </tr>
   </tbody>
 </table>
@@ -142,7 +142,7 @@ the normal condition of these readings, only usually left unsaid:
   </figcaption>
 </figure>
 
-Three signs you can now all name — god, water, tooth-that-knows —
+Three signs you can now all name — god, water, the knowing sign —
 and a meaning that scholarship offers only cautiously. That caution
 is not a failure of the field; it is what four and a half thousand
 years of distance actually looks like up close.
