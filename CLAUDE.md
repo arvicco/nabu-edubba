@@ -170,16 +170,15 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 12 — C103 Akkadian: the cuneiform school's third course,
-Akkadian rulebook extension FIRST (docs/courses/cuneiform.md),
-per .docs/phase-12-plan.md (plan pending owner approval).
+Phase 13 — pending owner pick (candidates: E102 stretch 2 toward
+Sinuhe; C103 stretch 2 — verbal stems, letters; akk retrieval
+instruments).
 
-Gate 11 merged 2026-08-05 (Sign Codex Stage C, the retrieval
-layer: reinforcement-selection law + scoring in both pickers;
-spiral warm-ups on 47 chapters; drill shelves with the deal —
-twelve seeded cuts, daily cron rotates the featured one, deck
-hidden under face-down tiles; Easily confused split to its own
-shelf; Study decks (4 Anki TSVs, license-hard-fail); read-it-cold
-on 35 chapters; frontier pages; Taught-in links everywhere;
-wedge counts dropped from displays).
+Gate 12 merged 2026-08-06 (C103 Akkadian stretch 1: §9 Akkadian
+law + two-codex rulebook checks, OB frequency base off 204,820
+passages, 8 chapters reading the real Codex Hammurapi through
+law 1 and the creed, C AKK Addenda with 28 codex pages,
+LANGUAGE SEPARATION with keyword invariance, veteran routing
+(tips, links, sumerograms), item-by-item breakdown law, four
+new lint rules + terms contract test; nineteen review rounds).
 Update this line at each gate.
