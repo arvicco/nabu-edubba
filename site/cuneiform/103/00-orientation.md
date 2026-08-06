@@ -35,6 +35,48 @@ sign's *sound* and used it as a bare syllable, spelling their own
 words piece by piece. The king of Babylon is *šarrum* — written
 *ša-ru-um*, three signs, three syllables, no "king"-sign in sight.
 
+## A different kind of language
+
+The deeper difference is not the sounds but the machinery.
+Sumerian, as 102 taught you, builds sentences by **stacking
+unchanging pieces**: words keep their shape, grammar arrives as
+little tags on the end of a phrase (*-e*, *-ra*, *-še₃*) and as a
+chain of prefixes marching toward the verb. Akkadian works from
+the inside out. Most of its words are a **consonantal root** — a
+skeleton of (usually) three consonants — dressed in changing
+vowel patterns that do the grammar:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>One skeleton: n-d-n, "give"</th><th>Says</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><span class="norm">nadānum</span></td><td>"to give" — the dictionary shape</td></tr>
+    <tr><td><span class="norm">iddin</span></td><td>"he gave" — one word, subject included</td></tr>
+    <tr><td><span class="norm">inaddin</span></td><td>"he shall give" — the laws' favorite verdict</td></tr>
+  </tbody>
+</table>
+
+The consonants stay; the vowels flex. Hebrew and Arabic, its
+cousins, work the same way — this is the Semitic family trait.
+Three more differences will organize everything ahead:
+
+- **The noun carries its own case.** Where Sumerian hangs a tag
+  on the end of a whole phrase, an Akkadian noun inflects its own
+  ending — *-um*, *-am*, *-im* (chapter 02).
+- **The ergative is gone.** No more *lugal-e* for doers of
+  transitive deeds: an Akkadian subject is simply the subject,
+  whatever the verb.
+- **The verb is one dense word.** *Iddin* already contains "he" —
+  no chain of prefixes, but an inner pattern (chapter 05).
+
+And one thing did NOT change: the verb still comes **last**.
+Semitic languages usually lead with the verb — Akkadian kept
+Sumerian's verb-final habit after centuries of sharing the same
+cities, the same scribes, and the same clay. The two languages
+are unrelated, but they were neighbors so long they began to
+rhyme.
+
 ## The signature sounds
 
 Three signs open the course — the ones that carry sounds and words
@@ -87,6 +129,36 @@ this course without the spelling it came from.
   three syllables, one Akkadian word: <span class="norm">šamê</span>,
   "of heaven."</figcaption>
 </figure>
+
+## The sounds Akkadian brings
+
+A Semitic language arrives with a Semitic mouth, and several of
+its sounds simply did not exist in Sumerian — which means the
+borrowed script had no signs waiting for them. The scribes'
+solution, every time, was to draft a nearby sign into the new
+job; this stretch meets each recruit at the moment a real text
+needs it.
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sound</th><th>What it is</th><th>You will meet it</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td>chapter 02, in the very first line of the stele</td></tr>
+    <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td>chapter 07, in the king's promise to make the people well</td></tr>
+    <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td>chapter 06, standing in the middle of <span class="norm">awīlum</span>, "man"</td></tr>
+    <tr><td><strong>ʾ</strong></td><td>the glottal stop — a catch in the throat between vowels</td><td>chapter 03, unwritten but audible in <span class="norm">šā'im</span>, "who decrees"</td></tr>
+    <tr><td><strong>ā ē ī ū</strong></td><td>vowel LENGTH — long vowels that change meaning</td><td>everywhere in bound transcription; the tablet often hints at them by writing the vowel twice</td></tr>
+  </tbody>
+</table>
+
+Akkadian also has the rasping <span class="norm">ḫ</span> —
+which Sumerian *did* have, so its signs crossed the border
+unchanged (this school prints it plain *h* in values, as the
+corpora do). A third emphatic, *q*, waits for the next stretch,
+along with the signs that carry it. None of these sounds needs
+memorizing now: each arrives attached to a sign, a word, and a
+line of the stele, exactly where it will stick.
 
 ## What your Sumerian years already bought
 

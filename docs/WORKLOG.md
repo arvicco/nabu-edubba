@@ -38,6 +38,14 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Sixth review round (owner): the C103 orientation gained what
+E101's always had — "The sounds Akkadian brings" (ṣ, ṭ, w, ʾ,
+vowel length — each pointed at the chapter where a real text
+needs it) and "A different kind of language" (consonantal roots
+via n-d-n/nadānum/iddin/inaddin, noun-borne case, no ergative,
+one-word verbs — and the shared verb-final habit as the trace of
+neighborhood); new consonantal-root glossary term; both new
+tables balanced without tail-fit after a live width report.
 Fifth review round (owner correction: the bracket had fused
 DIFFERENT LEXEMES — [an/diŋir] wrongly implied diŋir is a
 phonetic value of an): a bracket holds one reading's phonetic
