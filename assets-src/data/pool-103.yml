@@ -31,14 +31,20 @@ signs:
   - { glyph: "𒄠", codepoint: "12120", name: "AM",  value: "am",   osl_name: "|GUD×KUR|", meaning: "wild bull — a bull-sign marked with \"mountain\"",   freq_akkob: 7,   certainty: stated,  chapter: 2, keyword: "wild bull" }
   - { glyph: "𒁴", codepoint: "12074", name: "DIM", value: "tim",  meaning: "post, pillar; the genitive's -tim",                      freq_akkob: 40,  certainty: stated,  chapter: 2, keyword: "post" }
   - { glyph: "𒍢", codepoint: "12362", name: "ZE2", value: "s,i, s,e",  meaning: "bile, gall; the emphatic ṣ",                          freq_akkob: 88,  certainty: stated,  chapter: 2, keyword: "bile" }
-  - { glyph: "𒁉", codepoint: "12049", name: "BI",  value: "pi2",  veteran: true, meaning: "veteran — BI gains [pi₂]: the last syllable of Ḫa-am-mu-ra-pi₂",      freq_akkob: 50,  certainty: stated,  chapter: 2, keyword: "its" }
+  - { glyph: "𒁉", codepoint: "12049", name: "BI",  value: "pi2",  veteran: true, meaning: "veteran — BI gains [pi₂]: the last syllable of Ḫammurapi",            freq_akkob: 50,  certainty: stated,  chapter: 2, keyword: "its" }
   # ch 03 · bēl šamê — lord of heaven (the construct state)
   - { glyph: "𒁁", codepoint: "12041", name: "BAD", value: "be",   meaning: "[be]; as a word, to open, apart",                     freq_akkob: 46,  certainty: unclear, chapter: 3, keyword: "open" }
   - { glyph: "𒂖", codepoint: "12096", name: "EL",  value: "el",   meaning: "bright, pure (ellum)",                                              freq_akkob: 81,  certainty: stated,  chapter: 3, keyword: "bright" }
   - { glyph: "𒀜", codepoint: "1201C", name: "AD",  value: "ad, at",   meaning: "father",                                              freq_akkob: 45,  certainty: classic, chapter: 3, keyword: "father" }
   - { glyph: "𒅆", codepoint: "12146", name: "IGI", value: "szi",  veteran: true, meaning: "veteran — IGI gains [ši]: šīmātum, the destinies it decrees",       freq_akkob: 32,  certainty: stated,  chapter: 3, keyword: "eye" }
+  # Sumerogram veterans (owner ruling 2026-08-06): signs crossing the
+  # border WHOLE — written Sumerian, spoken as the Akkadian word.
+  # Their value is that word (no freq_akkob: word-sign use is not a
+  # syllable count, and we do not invent ranks).
+  - { glyph: "𒌧", codepoint: "12327", name: "KALAM", value: "matum",   display_value: "mātum",  veteran: true, meaning: "veteran — KALAM gains [mātum]: the Land-sign as a sumerogram",  certainty: stated, chapter: 3, keyword: "the Land" }
   # ch 04 · inu An ṣīrum — the prologue opens
   - { glyph: "𒉣", codepoint: "12263", name: "NUN", value: "nun",  meaning: "prince, noble",                               freq_akkob: 199, certainty: classic, chapter: 4, keyword: "prince" }
+  - { glyph: "𒈗", codepoint: "12217", name: "LUGAL", value: "szarrum", display_value: "šarrum", veteran: true, meaning: "veteran — LUGAL gains [šarrum]: the king-sign as a sumerogram", certainty: stated, chapter: 4, keyword: "king" }
   # ch 05 · The verb arrives (iprus — the preterite)
   - { glyph: "𒌒", codepoint: "12312", name: "UB",  value: "ub",   meaning: "[ub]; a corner-nook in the lists",                               freq_akkob: 116, certainty: stated,  chapter: 5, keyword: "nook" }
   - { glyph: "𒊌", codepoint: "1228C", name: "UG",  value: "ug, uk",   osl_name: "|PIRIG×UD|", meaning: "a raging beast — a lion-sign marked with \"day\"", freq_akkob: 169, certainty: stated, chapter: 5, keyword: "lion" }

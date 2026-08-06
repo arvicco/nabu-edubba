@@ -46,22 +46,23 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                             [s["gardiner"], s["value"], s["meaning"]]
                           ) }
     end
-    # C103 (Akkadian): new signs link to their teaching chapter;
-    # veterans keep their sux teaching entry (body links follow
-    # where-first-taught, §9 routes only the codex below).
+    # C103 (Akkadian): new signs link to their teaching chapter.
+    # Veterans keep their sux entry for Sumerian pages but carry
+    # url_akk + tip_akk (owner ruling 2026-08-06): on Akkadian
+    # pages the glyph points at its AKKADIAN reintroduction and
+    # shows the Akkadian bubble — no cross-language leaks (§9).
     akk_urls = site.pages.each_with_object({}) do |p, h|
       h[p.data["chapter"]] = p.url if p.data["course"] == "cuneiform-103" && p.data["chapter"]
     end
     Array(site.data.dig("cuneiform103_queue", "signs")).each do |s|
       ch = s["chapter"] or next
+      url = akk_urls[ch] or next
       if (entry = map[s["glyph"]])
-        # veteran — sux teaching entry stands; attach the AKKADIAN
-        # tip so Akkadian pages never show the Sumerian bubble (§9)
-        entry[:tip_akk] = Edubba::SignLinker.tip_text(s)
+        entry[:url_akk] = url
+        entry[:tip_akk] = Edubba::SignLinker.tip_text_veteran(s)
         next
       end
 
-      url = akk_urls[ch] or next
       map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
                           tip: Edubba::SignLinker.tip_text(s) }
     end
