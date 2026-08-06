@@ -31,23 +31,23 @@ of it, so that every later grammar bite has somewhere to land.[^ref]
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒂠</td><td>EŠ₂</td><td>rope</td><td><em>še₃</em> (sze3)</td>
+      <td class="script sign-cell">𒂠</td><td>EŠ₂</td><td>rope</td><td>[še]</td>
       <td>"to, for" — the terminative case tag</td>
       <td>the sign lists give the sign's own picture as a
-          rope (stated); as a tag it ends countless dedications —
+          rope; as a tag it ends countless dedications —
           "for his life…"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒂊</td><td>E</td><td>levee</td><td><em>e</em></td>
-      <td>the syllable e; marks the agent in context</td>
-      <td>as a word, a levee or ditch (stated) — but its
+      <td class="script sign-cell">𒂊</td><td>E</td><td>levee</td><td>[e]</td>
+      <td>[e]; marks the agent in context</td>
+      <td>as a word, a levee or ditch — but its
           grammar duty is why it ranks #3 in all of Sumerian
           literature</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁉</td><td>BI</td><td>its</td><td><em>bi</em></td>
-      <td>"its, that"; the syllable bi</td>
-      <td>in origin a vessel (stated) — in grammar, the
+      <td class="script sign-cell">𒁉</td><td>BI</td><td>its</td><td>[bi]</td>
+      <td>"its, that"; [bi]</td>
+      <td>in origin a vessel — in grammar, the
           possessive of THINGS and places, as against persons: see
           habit two below</td>
     </tr>

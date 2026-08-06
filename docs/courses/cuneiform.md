@@ -35,6 +35,26 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Sign NAMES in capitals (LUGAL, EŠ2, É — the accented É is the
   sign's conventional name and is fine in that role); names may
   carry ASCII indexes (ŠA3) since they are names, not readings.
+- **Readings are PHONETIC, in brackets** (owner rulings
+  2026-08-05/06): wherever the site states what a sign READS —
+  Reads columns, codex Reads rows, warm-up and drill prompts,
+  sign tips — it shows the sound: [ku], [pi], [wa/wi], never
+  ku₃ or pi₂. The homophone index is transliteration
+  bookkeeping, not phonetics: it appears in transliterated text
+  (*e₂ ku₃* in a reading line) and in sign NAMES (KU₃), and
+  nowhere else. A bracket holds ONE reading's phonetic variants
+  joined by slashes ([wa/wi], [ir/er]); a sign's OTHER lexemes —
+  ideographic word-readings like diŋir, utu, dumu, i₃ — are not
+  phonetic values of the first and list separately after it, in
+  transliteration form: "[an], diŋir" (owner correction
+  2026-08-06). In registry values, ";" separates lexemes while
+  ","/"/" separate phonetic variants — the display rule reads
+  that structure mechanically. Certainty tags — (stated), (classic) — do not appear
+  in chapter sign tables or sign hover tips, which stay compact;
+  the CODEX pages and the Reference's Origin column may carry
+  them — that is where grading lives (owner clarification
+  2026-08-06). A Means cell carries the semantic core only; the
+  sound is the Reads column's job.
 
 ## 2 · Corpus conventions
 
@@ -70,7 +90,11 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Simple over adorned; substance over meta: corpus names and
   tooling live in citations and footnotes, never in lesson flow.
 - Back-references to prior material carry links (owner ruling
-  2026-07-31). Grammar walkthroughs go piece by piece — no
+  2026-07-31; reaffirmed 2026-08-06 after C103 shipped bare
+  "chapter NN" and "102's SIGN" mentions): a mention of ANY
+  earlier material — a chapter, a sign, a course — links at the
+  mention; a veteran sign's mention links its teaching-seat
+  anchor (#sign-<codepoint>). Grammar walkthroughs go piece by piece — no
   checklist glosses (owner ruling 2026-07-31); sharpened
   2026-08-02: any reading of three or more meaningful pieces gets
   a bullet-form walkthrough in the body — one bullet per piece,
@@ -93,6 +117,14 @@ concrete holdable example; batch label = chapter number + 1
 `site/_data/terms.yml` in the same commit; chapter titles express
 essence. The nothing-untaught validator and the every-chapter
 rules are enforced by `rake gate`.
+
+A reading that carries NEW grammar gets an item-by-item
+breakdown after the figure (owner ruling 2026-08-06, the C102
+"take inventory" style): every word parsed — form, ending,
+function, teaching-seat link — then the line reassembled
+literally. A lumped one-line gloss never introduces grammar on
+its own; quick glosses are for review material, and even those
+link the chapter that taught the form.
 
 ## 6 · What the gate checks mechanically
 
@@ -231,3 +263,92 @@ renders. These laws bind both schools (the hieroglyph rulebook
   inventory (≥90% covered, per the picker's frontier mode) —
   the ONE surface where ▢ appears by design in Addenda material,
   labeled as such, for motivation and honest stretch practice.
+
+## 9 · Akkadian (C103 and later)
+
+Ruled 2026-08-05 at the opening of Phase 12, before any Akkadian
+content exists.
+
+- **Dialect: Old Babylonian.** The entry dialect of the standard
+  teaching grammars and the dialect of the course's anchor text
+  (the Codex Hammurapi, `urn:nabu:cdli:p464358`, license
+  attribution). Cited reference for didactic claims:
+  Huehnergard, *A Grammar of Akkadian* (cited once or twice per
+  course, per the site rule). Later dialects (Standard
+  Babylonian, Neo-Assyrian) belong to later courses and enter
+  this rulebook before they enter content.
+- **Transliteration display** (extends §1). Akkadian syllabic
+  values are italic, hyphenated, with Unicode subscript indices
+  (i₃-nu, ša-i-im). ATF phoneme ASCII folds to the field's
+  standard signs in ALL displayed transliteration: sz → š,
+  s, → ṣ, t, → ṭ, h → ḫ, ' → ʾ; raw ASCII appears only in
+  verbatim raw-ATF exhibits (span class "translit atf"), same
+  carve-out as the subscript rule. Sumerograms inside Akkadian
+  text display in the field's CAPS convention (LUGAL, KALAM);
+  the ATF underscore notation (`_lugal_`) is raw-ATF-exhibit
+  material only. Determinatives stay in braces ({d}, {diš}) —
+  the school's convention since C101 ch. 03. **Akkadian reading
+  transliterations carry NO homophone indexes** (owner rulings
+  2026-08-06, generalizing from u₃ → u): i-nu, ḫa-am-mu-ra-pi,
+  ṭu-ub-bi-im, {d}en-lil — the script column carries the sign
+  identity, and the accent-indexes of the handbooks are banned
+  by §1 anyway. Sumerogram values inside Akkadian reading lines
+  are CAPS (LUGAL, KALAM), per this section's display law —
+  lowercase would read as Sumerian leaking in. Sumerian-course
+  transliterations keep their indexes (field standard, §1).
+  Enforced by the akk-translit lint rule.
+- **Normalization (bound transcription).** A layer distinct from
+  transliteration: dictionary-form Akkadian with vowel length
+  marked (šarrum, awīlum, ā/â). It renders in its own visual
+  register (its own span class — never the hyphenated
+  transliteration style), is introduced and explained in the
+  C103 orientation before first use, and NEVER appears in a
+  reading without the transliteration it normalizes.
+- **Language separation** (owner ruling 2026-08-05). Sumerian
+  and Akkadian never mix in the codex. The existing Addenda is
+  purely Sumerian — titled C SUX Addenda (title only; its live
+  permalinks are frozen). A separate C AKK Addenda follows the
+  Akkadian courses, at `/cuneiform/addenda-akk/`, carrying a
+  completely separate Sign Codex (`/cuneiform/addenda-akk/signs/
+  <slug>/`, same name-slug scheme) on its own frequency base.
+  An Akkadian codex page tells the sign's AKKADIAN story: its
+  syllabic work, its fit to Semitic phonology, its OB corpus
+  rank. The codex laws of §7 (two-heading honesty, page ships
+  with its sign, no-box attested line) and the retrieval laws of
+  §8 bind the akk codex identically — its attested line is an
+  AKKADIAN line from the OB corpus containing no sign untaught
+  in the school.
+- **The keyword is the cross-language invariant.** One keyword
+  per sign, identical on its sux and akk codex pages,
+  unchangingly unique across the whole school. The rulebook
+  enforces both directions: the same sign may never carry two
+  keywords across codices, and two different signs may never
+  share one anywhere in the school.
+- **Veteran signs.** A sign taught in C101/C102 never re-enters
+  as a new sign (the taught-once law stands). In C103 sign
+  tables it appears only as a marked veteran gaining its
+  Akkadian reading, and its glyph links to its AKKADIAN codex
+  page: sign_linker routes by course — C101/C102 surfaces link
+  the sux codex, C103 surfaces the akk codex. On Akkadian pages
+  a veteran's glyph links its AKKADIAN reintroduction chapter,
+  never the Sumerian teaching seat (owner ruling 2026-08-06);
+  Sumerian pages keep the sux seat. Its Akkadian hover tip
+  stays hover-sized (same ruling): name · reads · the value's
+  hook, the redundant "veteran — X gains [y]" boilerplate
+  stripped — the full story is codex-page prose, never a
+  bubble. A sign the course uses as a **sumerogram** (KALAM,
+  LUGAL) is itself a veteran in this sense: it re-enters in a
+  marked veteran table row with the Akkadian word it writes as
+  its reading ([mātum], [šarrum]), gets its own akk codex page,
+  and its bubble tells the Akkadian truth — a bubble may never
+  imply a Sumerian reading on an Akkadian page. AMBIENT veterans
+  — signs whose value crosses the border unchanged (A, MU, GI…)
+  — keep their Sumerian bubble everywhere (owner ruling
+  2026-08-06): the reading misleads nobody and the original
+  teaching stands; only a sign that gains a NEW Akkadian reading
+  (syllabic or sumerographic) gets the akk treatment above.
+- **Ordering.** Value-frequency computed over the OB sub-corpus
+  (CDLI `lect=akk:ob`) by the ratified frequency methodology,
+  extended as a separate base — sux and akk ranks never mix.
+  Reinforcement selection (§8) applies from the first chapter:
+  candidate lines are scored for the veterans they revise.

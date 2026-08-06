@@ -32,21 +32,21 @@ own. First, the batch that makes it possible.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋗</td><td>ŠU</td><td>hand</td><td><em>šu</em></td>
+      <td class="script sign-cell">𒋗</td><td>ŠU</td><td>hand</td><td>[šu]</td>
       <td>hand</td>
       <td>a picture that stayed honest: forearm and fingers; opens
           names, and the single most important verb of the receipts
           in the next grammar chapter</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒈠</td><td>MA</td><td>workhorse</td><td><em>ma</em></td>
-      <td>the syllable ma</td>
+      <td class="script sign-cell">𒈠</td><td>MA</td><td>workhorse</td><td>[ma]</td>
+      <td>[ma]</td>
       <td>a spelling workhorse with no picture-story to tell — it
           earns its keep in names and loanwords on thousands of
           tablets</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td><em>igi</em></td>
+      <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[igi]</td>
       <td>eye; face; before</td>
       <td>another honest picture — an eye on its side; "before
           someone's eye" is how a witness is named, as you are about

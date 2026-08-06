@@ -26,7 +26,7 @@ is the grain itself:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊺</td><td>ŠE</td><td>barley</td><td><em>še</em></td>
+      <td class="script sign-cell">𒊺</td><td>ŠE</td><td>barley</td><td>[še]</td>
       <td>barley; grain</td>
       <td>a stalk with grains hanging off it — the field's classic
       example of a picture worn down to wedges</td>
@@ -95,7 +95,7 @@ longer stands upright, it stops asking to be seen as a head.
 
 ## Transformation two: the wedge rebuild
 
-Chapter 01 gave you the mechanics: a pressed stylus cannot draw a
+<a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">Chapter 01</a> gave you the mechanics: a pressed stylus cannot draw a
 curve. As scribes shifted from drawing freehand lines to pressing
 wedges — faster, cleaner, more uniform — every curved outline had to
 be *rebuilt* out of straight wedge strokes. The two changes together

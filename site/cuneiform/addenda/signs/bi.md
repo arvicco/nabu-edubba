@@ -6,16 +6,16 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "BI"
-reads: "bi"
+reads: "[bi]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/bi/
 ---
 
 ## Where it comes from
 
-In origin a vessel (stated). In grammar it is *-bi*: "its, that"
+In origin a vessel. In grammar it is *-bi*: "its, that"
 — the possessive of THINGS and places, as against persons, who
 take *-ani*. A canal's banks, a house's wall, a story's ending:
 all wear *-bi*.

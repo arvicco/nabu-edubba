@@ -31,7 +31,7 @@ the verb the whole place existed to teach.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊬</td><td>SAR</td><td>write</td><td><em>sar</em></td>
+      <td class="script sign-cell">𒊬</td><td>SAR</td><td>write</td><td>[sar]</td>
       <td>to write</td>
       <td>a garden plot in origin, the sign lists say — neat rows,
           which is also a fair description of good handwriting</td>

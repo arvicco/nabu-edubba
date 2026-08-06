@@ -33,15 +33,15 @@ votive inscriptions than any other.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒎏</td><td>NIN</td><td>lady</td><td><em>nin</em></td>
+      <td class="script sign-cell">𒎏</td><td>NIN</td><td>lady</td><td>[nin]</td>
       <td>lady, queen, mistress</td>
       <td>the classic female counterpart to <em>en</em> and
           <em>lugal</em>; opens goddess names and queenly titles the
           way <em>lugal</em> opens kingly ones</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td><em>la</em></td>
-      <td>the syllable la; abundance (stated)</td>
+      <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td>[la]</td>
+      <td>[la]; abundance</td>
       <td>taught here because you are about to watch it
           work — it is the spelling glue inside this chapter's
           formula</td>
@@ -97,7 +97,7 @@ deeper; the standard grammars carry the rest.
 
 ## The scribes' own god, in two signs
 
-Chapter 02 promised its 𒀝 had one more surprise. The AK sign
+<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">Chapter 02</a> promised its 𒀝 had one more surprise. The AK sign
 moonlights. In later periods the god **Nabû** — patron
 of scribes, divine custodian of libraries, and the namesake of the
 [Nabu](https://arvicco.github.io/nabu/) library every reading on

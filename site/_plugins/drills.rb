@@ -11,6 +11,9 @@
 
 require_relative "../../script/drills"
 
+# Deliberately WITHOUT cuneiform103_queue: the drill deck is a
+# Sumerian-Addenda instrument (§9 language separation) — Akkadian
+# gets its own retrieval shelves when its inventory warrants them.
 DRILL_SCHOOLS = {
   "cuneiform" => %w[sign_teaching cuneiform102_queue],
   "hieroglyphs" => %w[hiero_teaching hieroglyphs102_queue]
@@ -59,7 +62,7 @@ class DrillCutPage < Jekyll::PageWithoutAFile
       "school" => school,
       "course" => "#{school}-addenda",
       "course_url" => "/#{school}/addenda/",
-      "course_title" => "#{titled} Addenda",
+      "course_title" => school == "cuneiform" ? "Sumerian Addenda" : "#{titled} Addenda",
       "kicker_no_chapter" => true,
       "drill_cut" => cut,
       "permalink" => "/#{school}/addenda/drills/cut-#{cut}/",

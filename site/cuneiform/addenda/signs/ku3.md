@@ -6,10 +6,10 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KU3"
-reads: "ku₃ (fuller form kug)"
+reads: "[ku] (fuller form kug)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/ku3/
 ---
 

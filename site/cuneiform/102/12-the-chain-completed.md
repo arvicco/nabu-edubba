@@ -1,6 +1,6 @@
 ---
 title: "12 · Build it for me"
-short_title: "12 · The chain, whole"
+short_title: "12 · Build it for me"
 description: >-
   The third stretch opens: the builder's peg, the dedicating verb,
   and mother — and the two chain rings, mu- and -na-, that finally
@@ -17,7 +17,7 @@ shows: []
 
 # Build it for me
 
-Chapter 11 read a ruler's dedication and left two rings of its
+<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">Chapter 11</a> read a ruler's dedication and left two rings of its
 final verb politely unopened — *mu-na-du₃*, "built it for her,"
 carried "an opener and a 'for her' whose full anatomy a later
 stretch opens." This is that stretch, and this chapter opens the
@@ -32,20 +32,20 @@ gifts.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒆕</td><td>KAK</td><td>build</td><td><em>du₃</em></td>
+      <td class="script sign-cell">𒆕</td><td>KAK</td><td>build</td><td>[du]</td>
       <td>to build; a peg</td>
       <td>a peg driven in, and the verb of every temple
           ever raised in this course's readings</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒊒</td><td>RU</td><td>dedicate</td><td><em>ru</em></td>
+      <td class="script sign-cell">𒊒</td><td>RU</td><td>dedicate</td><td>[ru]</td>
       <td>to dedicate</td>
       <td>the closing verb of the votive genre: <em>a mu-na-ru</em>,
           "dedicated this to him" — you will read it on real clay
           below</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒂼</td><td>AMA</td><td>mother</td><td><em>ama</em></td>
+      <td class="script sign-cell">𒂼</td><td>AMA</td><td>mother</td><td>[ama]</td>
       <td>mother</td>
       <td>the word <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a> had to box; a goddess's favorite title
           — <em>ama kalam-ma</em>, "mother of the Land"</td>
@@ -57,7 +57,7 @@ Write each five times: *du₃*, *ru*, *ama*.
 
 ## Grammar bite — the last two rings
 
-Chapter 08 named the chain's openers *i₃-*, *in-*, *ba-* and the
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">Chapter 08</a> named the chain's openers *i₃-*, *in-*, *ba-* and the
 wishes *ga-*, *ha-*. Two rings remained, and they are the two the
 dedications run on:
 
@@ -78,7 +78,7 @@ dedications run on:
   </p>
   <figcaption class="citation">
     <em>mu-na-du₃</em>, ring by ring: the homeward opener, the
-    "for her," the build. Chapter 11's verb, no longer a
+    "for her," the build. <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">Chapter 11's</a> verb, no longer a
     silhouette.
   </figcaption>
 </figure>

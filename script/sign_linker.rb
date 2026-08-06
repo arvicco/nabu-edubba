@@ -28,7 +28,11 @@ module Edubba
     module_function
 
     # map: { "𒀭" => { url: "/cuneiform/101/12-reference/", anchor: "sign-1202D" }, ... }
-    def transform(html, map, page_url, baseurl = "")
+    # codex_key routes sign-cell links by language (§9 separation):
+    # :codex (sux, the default) or :codex_akk on Akkadian-course
+    # pages. A sign with no page in the routed codex falls back to
+    # its plain teaching link — never to the other language's codex.
+    def transform(html, map, page_url, baseurl = "", codex_key = :codex)
       return html unless html.match?(GLYPH)
 
       a_depth = 0
@@ -50,40 +54,46 @@ module Edubba
         elsif a_depth.positive? || skip_depth.positive?
           tok
         else
-          link_glyphs(tok, map, page_url, baseurl, in_sign_cell, emitted_ids)
+          link_glyphs(tok, map, page_url, baseurl, in_sign_cell, emitted_ids, codex_key)
         end
       end
     end
 
-    def link_glyphs(text, map, page_url, baseurl, in_sign_cell, emitted_ids)
+    def link_glyphs(text, map, page_url, baseurl, in_sign_cell, emitted_ids, codex_key = :codex)
       text.gsub(GLYPH) do |g|
         entry = map[g]
         next g unless entry
 
         anchor = entry[:anchor]
+        # §9 separation extends to the hover bubble AND the target:
+        # on Akkadian pages a veteran shows its AKKADIAN tip and
+        # links its AKKADIAN reintroduction (url_akk), never the
+        # Sumerian seat — and vice versa.
+        tip_text = (codex_key == :codex_akk && entry[:tip_akk]) || entry[:tip]
+        url = (codex_key == :codex_akk && entry[:url_akk]) || entry[:url]
         # Sign-table cells link to the sign's codex page (rulebook §7,
         # owner design 2026-08-04) once that page exists; on the sign's
         # own teaching page the cell keeps its anchor id so incoming
         # taught-in links still land. Without a codex page (a school
         # whose shelf hasn't shipped) the original behavior stands.
-        if in_sign_cell && (codex = entry[:codex]) && codex != page_url
+        if in_sign_cell && (codex = entry[codex_key]) && codex != page_url
           tip = ""
           id_attr = ""
-          if entry[:url] == page_url && !emitted_ids[anchor]
+          if url == page_url && !emitted_ids[anchor]
             emitted_ids[anchor] = true
             id_attr = %( id="#{anchor}")
-          elsif entry[:tip]
-            tip = %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>)
+          elsif tip_text
+            tip = %(<span class="sign-tip" aria-hidden="true">#{tip_text}</span>)
           end
           next %(<a class="sign-link"#{id_attr} href="#{baseurl}#{codex}">#{g}#{tip}</a>)
         end
 
-        if in_sign_cell && entry[:url] == page_url && !emitted_ids[anchor]
+        if in_sign_cell && url == page_url && !emitted_ids[anchor]
           emitted_ids[anchor] = true
           %(<span id="#{anchor}">#{g}</span>)
         else
-          href = entry[:url] == page_url ? "##{anchor}" : "#{baseurl}#{entry[:url]}##{anchor}"
-          tip = entry[:tip] ? %(<span class="sign-tip" aria-hidden="true">#{entry[:tip]}</span>) : ""
+          href = url == page_url ? "##{anchor}" : "#{baseurl}#{url}##{anchor}"
+          tip = tip_text ? %(<span class="sign-tip" aria-hidden="true">#{tip_text}</span>) : ""
           %(<a class="sign-link" href="#{href}">#{g}#{tip}</a>)
         end
       end
@@ -106,11 +116,24 @@ module Edubba
       map
     end
 
-    # "AN · an; diŋir · heaven; god" — name, readings, short meaning,
-    # for CUNEIFORM registry entries: parenthetical asides stripped and
-    # ATF spellings normalized (sz -> š, index digits -> subscripts).
+    # "AN · [an/diŋir] · heaven; god" — name (subscript-indexed),
+    # PHONETIC reading in brackets (§1), short meaning. A registry
+    # row may carry an explicit display_value where the mechanical
+    # fold can't know better (nig2 -> niŋ₂ -> [niŋ]).
     def tip_text(sign)
-      tip_join([sign["name"], sign["value"], sign["meaning"]].map { |p| display_form(p) })
+      reads = reads_display(sign["display_value"] || sign["value"])
+      tip_join([display_form(sign["name"]), reads, display_form(sign["meaning"])])
+    end
+
+    # A veteran's Akkadian tip (§9, owner rulings 2026-08-06): the
+    # bubble carries name · reads · the value's hook — the pool
+    # meaning minus its "veteran — X gains [y]:" boilerplate, which
+    # only repeats the name and reading already in the bubble. The
+    # full story stays on the codex page.
+    def tip_text_veteran(sign)
+      reads = reads_display(sign["display_value"] || sign["value"])
+      hook = sign["meaning"].to_s.sub(/\Aveteran\s*—\s*\S+ gains \[[^\]]*\]:\s*/, "")
+      tip_join([display_form(sign["name"]), reads, display_form(hook)])
     end
 
     # For registries whose fields are already display-form (hieroglyphs:
@@ -122,10 +145,36 @@ module Edubba
 
     SUB_DIGITS = ("0".."9").zip("₀".."₉").to_h
 
+    # The PHONETIC reading (§1, owner ruling 2026-08-06): what the
+    # sign actually says — folded, homophone indexes stripped,
+    # variants joined with "/". [ku] not ku₃; [pi] not pi₂.
+    # Brackets are applied by the caller (they are presentation).
+    def phonetic(value)
+      display_form(value)
+        .gsub(/[₀-₉]+/, "")
+        .split(/\s*[;,\/]\s*/)
+        .reject(&:empty?)
+        .uniq
+        .join("/")
+    end
+
+    # The full Reads display (§1, owner correction 2026-08-06): in
+    # registry values ";" separates LEXEMES, ","/"/" separate
+    # phonetic variants. The first lexeme's sound goes in brackets;
+    # the others are ideographic word-readings, listed after in
+    # transliteration form: "an; diŋir" -> "[an], diŋir".
+    def reads_display(value)
+      lexemes = value.to_s.split(";").map { |part| display_form(part) }.reject(&:empty?)
+      return "" if lexemes.empty?
+
+      head = "[#{phonetic(lexemes.first)}]"
+      ([head] + lexemes.drop(1)).join(", ")
+    end
+
     def display_form(text)
       text.to_s
           .gsub(/\s*\([^)]*\)/, "")
-          .gsub("sz", "š")
+          .gsub("sz", "š").gsub(/s,(?=[aeiouāēīū])/, "ṣ").gsub(/t,(?=[aeiouāēīū])/, "ṭ")
           .gsub(/(?<=\p{L})\d+/) { |run| run.each_char.map { |c| SUB_DIGITS[c] }.join }
           .gsub(/\A[;,·\s]+|[;,·\s]+\z/, "")
     end

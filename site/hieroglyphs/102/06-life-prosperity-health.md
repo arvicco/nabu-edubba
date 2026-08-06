@@ -1,6 +1,6 @@
 ---
 title: "06 · Life, prosperity, health"
-short_title: "06 · L.p.h."
+short_title: "06 · Life, prosperity, health"
 description: >-
   The stretch's close: the wish that follows every king — ꜥnḫ wḏꜣ
   snb — the Great House that became the word "pharaoh," and the two
@@ -94,7 +94,7 @@ uses the same hinge, grown by the wish you can now read:
   </figcaption>
 </figure>
 
-- **ḏd.jn ḥm≡f** — chapter 02's formula, sign for sign: the
+- **ḏd.jn ḥm≡f** — <a href="{{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }}">chapter 02's</a> formula, sign for sign: the
   storyteller's "then," the club, the falcon, the viper.
 - **ꜥnḫ-wḏꜣ-snb** — the wish, in its classic shorthand: the ankh
   𓋹 for *live*, your new drill 𓍑 for *be whole*, and a lone
@@ -162,7 +162,7 @@ Kingdom name:
   taught you to see.
 - **swrj** — "drink": *s*, then the swallow carrying only its
   *sound* *wr*, an *r* confirming it, a *j* — and then two silent
-  friends: chapter 01's water 𓈗 classifying the liquid, and the
+  friends: <a href="{{ '/hieroglyphs/102/01-it-is-water/' | relative_url }}">chapter 01's</a> water 𓈗 classifying the liquid, and the
   hand-to-mouth man 𓀁 classifying the act. The word comes from
   the *Report of Wenamun*, the travelogue of a temple official
   whose mission goes wrong in every port — offered a drink at a

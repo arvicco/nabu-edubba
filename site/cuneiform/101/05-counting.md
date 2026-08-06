@@ -28,15 +28,15 @@ down):
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td>tally</td><td><em>diš</em></td>
+      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td>tally</td><td>[diš]</td>
       <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌋</td><td>U</td><td>ten</td><td><em>u</em></td>
+      <td class="script sign-cell">𒌋</td><td>U</td><td>ten</td><td>[u]</td>
       <td>ten</td><td>one corner wedge, an open angle</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀸</td><td>AŠ</td><td>one</td><td><em>aš</em></td>
+      <td class="script sign-cell">𒀸</td><td>AŠ</td><td>one</td><td>[aš]</td>
       <td>one; single</td><td>one horizontal wedge, head at the left</td>
     </tr>
   </tbody>
@@ -159,7 +159,7 @@ barley receipts:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td><em>gur</em></td>
+      <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td>[gur]</td>
       <td>the great capacity measure of grain accounts</td>
       <td>roughly 300 liters in the Ur III standard — when
       a granary counted big, it counted in gur</td>
@@ -205,7 +205,7 @@ sheep, silver, and labor.
    then check yourself against it.
 4. Read back, aloud, the three barley lines in the reading panel —
    cover the translit and gloss columns first.
-5. Anything shaky — write it five more times. Chapter 06 assumes you
+5. Anything shaky — write it five more times. <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Chapter 06</a> assumes you
    can compose any number up to fifty-nine without pausing to think.
 
 ## Where this leads
@@ -214,7 +214,7 @@ This course's own frequency counts over the CDLI corpus put
 <span class="script">𒁹</span> — the plain counting stroke — at the
 very top of the entire administrative record: the single most
 frequent sign, over a million lines of text. For most of the
-cuneiform corpus, number literacy *is* reading literacy. Chapter 06
+cuneiform corpus, number literacy *is* reading literacy. <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Chapter 06</a>
 takes you into the seals-and-bricks world of ownership marks, where
 these same counting habits sit alongside names and titles on the
 receipts, tags, and dockets that make up the bulk of what survives.

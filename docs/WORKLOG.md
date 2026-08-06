@@ -5,6 +5,239 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · review round 19 (item-by-item breakdowns) · phase-12 ·
+Owner report: ch07's commission readings (ana lā ḫabālim, ana šīr
+nišī) lumped their grammar into hasty one-line glosses — "This
+won't do. Needs item-by-item analysis in the style of C102 longer
+text breakdowns." Fixed: both ch07 readings now carry full
+take-it-apart inventories after the figure (every word: form,
+ending, function, teaching-seat link — then the line reassembled
+literally), teaching en route the infinitive (new terms.yml entry,
+akk shelf), ana's genitive government, the plural genitive -ī
+honestly flagged as beyond ch02's singular table, and ṭubbim as a
+"thickened" shape per ch05's honesty note. Swept the other C103
+chapters: ch06's three bare law-1 glosses (ubbirma, iddima, lā
+uktīnšu) enriched with parses + teaching links; ch02/03/04/05
+already carried per-line analysis and passed. Law added to §5:
+a reading with NEW grammar gets an item-by-item breakdown; lumped
+glosses never introduce grammar, and review glosses link their
+teaching chapter.
+
+2026-08-06 · review round 18 (five owner reports in one round) ·
+phase-12 · (1) ch05 Means column crushed to a word a line by the
+42% Notes floor — CSS floor added for the second-to-last column
+of non-tail-fit sign tables (24%), Notes eased to 38%,
+pixel-verified across C103/C102/E102. (2) BI's veteran bubble
+carried the pool's whole "veteran — BI gains [pi₂]: …" story —
+first fix over-corrected to name·reads·keyword, stripping the
+useful hook (owner escalated, rightly): tips now carry
+name · reads · hook, the hook = pool meaning minus the
+boilerplate that repeats name and reading; contract test pins
+every pool-103 veteran tip to keep its [reads], stay ≤60 chars,
+and never leak "veteran" prose. MY ERROR in the middle step:
+compact ≠ empty — the fix for "too much" is removing the
+REDUNDANT part, not the informative part. (3) ch05's verb-shape
+table glossed only one example per row (iddâk unexplained
+anywhere) — every form now carries its meaning at the mention;
+swept all C103 norm-spans for bare forms, rest were clean.
+(4) Owner ruling: veteran glyphs on Akkadian pages link their
+AKKADIAN reintroduction chapter, never the sux seat —
+sign_linker routes url_akk by codex_key (unit-tested), anchors
+emit on the C103 chapters. (5) KALAM hovered Sumerian on an
+Akkadian page ("[kalam]" implied, real reading mātum) —
+generalized: sumerograms are veterans too; KALAM + LUGAL got
+pool rows (value = the Akkadian word, no invented freq ranks),
+marked veteran table rows in ch03/ch04, akk codex pages
+(kalam, lugal — attested CH lines), routed bubbles
+("KALAM · [mātum] · the Land-sign as a sumerogram");
+codex-reads lint learned macron vowels. §9 amended: tip law,
+link-routing law, sumerogram-veteran law.
+
+2026-08-05 · M12-1..M12-6 · phase-12 · C103 Akkadian, stretch 1,
+in one run — the school's first language-border crossing. Laws
+first (§9: OB dialect, transliteration + bound transcription as
+distinct layers, LANGUAGE SEPARATION with keyword invariance,
+separate akk frequency base); rulebook.rb learned the two-codex
+school (per-codex checks + cross-codex keyword invariance, both
+directions, exact-value tested). Instruments: bin/akk_seq.rb
+counted 204,820 OB passages (lect-ruled CDLI slice via nabu lect
+list — CLI only, no DB reaching) into three tallies; pool-103
+curated around the anchor text with every identity resolved by
+nabu signs --lang=akk (all deterministic — including the
+surprises: šum = TAG not ŠUM, pi₂ = veteran BI, id = veteran A2,
+u3 = |IGI.DIB|); bin/akk_curriculum.rb validates pins (1-3 new
+per chapter) and reports coverage (ambient veteran base = taught
+sux values ∩ OB table: the course STARTS at 55% coverage, ends
+the stretch at 67.5%). Course: 8 chapters to real Codex Hammurapi
+(prologue lines 1-3, be-el sza-me-e block, law 1 with exactly one
+pedagogically-placed box that falls in ch 07, dannum enšam) —
+every reading's glyph sequence composed from nabu signs
+resolutions, never by hand; readings hand-picked from the anchor
+text (pedagogy overrules picker scores, stated per §8). C AKK
+Addenda shipped with 26 codex pages (20 new + 6 veterans, each
+with an In-Sumerian pointer row); sign_linker routes C103
+sign-cells to the akk codex (fallback = teaching link, never the
+sux codex); warm-up grew its third course segment (C103 spirals
+into 102/101); the drill deck deliberately stays sux-only.
+Catches: the §1 accent-index rule caught my ú/í/ṭú display forms
+(8 violations — the site's law is subscripts: u₂, pi₂, ṭu₂;
+sweep + two redundant reads: fields); é-allowlist needed the akk
+slug-builder; the akk signs index initially showed raw-ATF in a
+Reads column — dropped to match the sux index shape. assumes:
+grew list support (C103 assumes 101+102). Determinative law
+corrected to the site's actual braces convention mid-write.
+Seventeenth review round (owner, ch04: "i₃-nu — indexes in
+reading again; lugal — Sumerian reading leaking, check
+everywhere"): the u₃→u ruling GENERALIZED — Akkadian reading
+transliterations carry no homophone indexes at all (i-nu,
+ḫa-am-mu-ra-pi, ṭu-ub-bi-im, {d}en-lil; the script column owns
+sign identity) and sumerograms go CAPS in readings (LUGAL {d}a-
+nun-na-ki, ši-ma-at KALAM) per §9's own display law. Sixteen
+files swept (chapters + akk codex, decks regenerated), prose
+value-mentions bracketed ([i] and [nu], [pi]), and the new
+akk-translit lint rule enforces both halves mechanically —
+Sumerian courses keep their indexes untouched.
+Sixteenth review round (owner, three items on ch03): (1) IR's
+tip said [ir] only — five akk pool rows carried single variants
+(IR, ZE2, PI, UG, AD); all now list full variant sets, and the
+akk compiler + frontier picker learned to split multi-value
+strings (coverage: stretch ends 68.0%); (2) the conjunction
+written U₃ transliterates plain u in reading lines — ruled into
+§9 (the script column carries sign identity; accent-ù is banned
+anyway); (3) veteran tips LEAKED Sumerian bubbles onto Akkadian
+pages (IGI showed "eye; face; witnessed-by" in a CH reading) —
+entries now carry tip_akk and the linker routes bubbles by
+course, both directions sealed, exact-value tested. Bonus catch
+while verifying: my ṭ-fold mangled English prose ("scenṭ
+perfume") — the emphatic digraph folds now require a following
+vowel; zero mangled characters in the built site.
+Fifteenth review round (owner: "a linter that mechanically
+catches Ch XX mentions without backlinks?"): the chapter-link
+lint rule now enforces §4 mechanically — every "chapter NN" in a
+page body must sit inside a link (HTML or markdown), own-chapter
+self-references and SVG labels exempt. First run found 116 MORE
+bare mentions beyond the hand sweep (C101, C102, both E courses,
+three index pages) — all linked to their same-course chapters,
+one E102-index range linked at its start. Exact-value tests.
+Fourteenth review round (owner: "102's BI" mentioned without a
+link — old material mentioned = LINK IT): the back-reference law
+existed since 2026-07-31 and C103 had violated it; 29 mentions
+swept across the eight chapters and the akk codex — "chapter NN"
+mentions link their chapters, veteran/course mentions ("102's
+BI", "101's day-sign") link their teaching-seat anchors, all
+proofer-validated; §4's law sharpened with the reaffirmation.
+Thirteenth review round (owner: nominative/accusative used
+unexplained): both join the akk glossary with concrete OB
+examples (šarrum / awīlam) — hover bubbles now live on every
+mention across chapters 02-07.
+Twelfth review round (owner: the noun-endings table's nominative
+example was ṣīrum, "lofty" — an adjective heading a table about
+nouns): swapped to šarrum, "the king" (chapter 00's own spelling
+demo); adjective agreement stays taught where it belongs, at the
+ṣi-ra-am reading's gloss.
+Eleventh review round (owner: a codex Reads row carried "the
+particle ša…" — meaning prose in a readings field, "many such
+cases"): audit found five (ŠA, U₃, AN, KI, DU across both
+codices); all purified to pure readings, and a new codex-reads
+lint rule pins the grammar — one phonetic bracket, optional
+word-readings in transliteration, at most a "(fuller form …)"
+note; meaning belongs to Means and the body. Exact-value tests.
+Tenth review round (owner: sidebar said "šumma", page said "If a
+man…"): short_titles had drifted into independent labels — 21
+chapters across both schools, some shipped long before this
+phase. All swept to title-substrings, and a new nav-label lint
+rule makes the drift impossible: a chapter's short_title must be
+drawn from its title (course indexes keep their deliberate codes
+— C SUX Addenda is the owner's own label). Exact-value lint test.
+Ninth review round (owner caught a DUPLICATE glossary entry —
+syllabogram had two defs, mine from M12-1 stacked on a
+pre-existing one, both then tagged akk and shown side by side —
+and asked whether anything lints duplicates; nothing did): the
+entries merged to one, and test/terms_contract_test.rb now pins
+the glossary contract — unique names (case-insensitive), unique
+slugs, name/slug/def present, school scopes naming known
+glossaries. Eighth review round (owner): Akkadian-specific glossary terms
+(consonantal root, mimation, construct state, preterite,
+durative, bound transcription, sumerogram, syllabogram) moved to
+a new AKK Addenda terms shelf (/cuneiform/addenda-akk/terms/,
+terms_school routing — same mechanism as the E glossary); the
+general /terms/ page now lists unscoped terms only; catalog
+updated. Seventh review round (owner: deferring q was "a forgetfulness
+trap"): the sounds table now spills the COMPLETE phonology — all
+three emphatics (q included, via ḫulluqum), the glide y, plus
+the closing inventory statement (everything else Sumerian's
+script already handled) and the reverse traffic note: Akkadian
+has no ŋ. No promissory notes left in the chapter.
+Sixth review round (owner): the C103 orientation gained what
+E101's always had — "The sounds Akkadian brings" (ṣ, ṭ, w, ʾ,
+vowel length — each pointed at the chapter where a real text
+needs it) and "A different kind of language" (consonantal roots
+via n-d-n/nadānum/iddin/inaddin, noun-borne case, no ergative,
+one-word verbs — and the shared verb-final habit as the trace of
+neighborhood); new consonantal-root glossary term; both new
+tables balanced without tail-fit after a live width report.
+Fifth review round (owner correction: the bracket had fused
+DIFFERENT LEXEMES — [an/diŋir] wrongly implied diŋir is a
+phonetic value of an): a bracket holds one reading's phonetic
+variants; a sign's other lexemes (ideographic word-readings:
+diŋir, utu, dumu, i₃) list separately after it in transliteration
+form — "[an], diŋir". The registries already encode the split
+(";" = lexemes, ","//"/" = variants), so reads_display() reads it
+mechanically for tips/warm-ups/References/decks; six chapter rows
+and eight codex fields hand-fixed; §1 amended; exact-value tests.
+Fourth review round (owner: "pi2 reading… Nothing fixed" — the
+first fix had missed the actual point): READINGS ARE PHONETIC.
+ku₃/pi₂ is transliteration bookkeeping, not a sound; wherever the
+site states what a sign READS it now shows bracket phonetics —
+[ku], [pi], [wa/wi] — with homophone indexes surviving only in
+transliterated text and sign NAMES (which themselves now display
+subscript-indexed: EŠ₂, never EŠ2 — the flagged row "EŠ2 · še3
+(sze3)" had three digit styles at once). Ruled into §1; new
+SignLinker.phonetic() feeds tips, warm-ups, drills, deck exports
+(regenerated), the sign_reads/sign_name Liquid filters feed both
+References and codex indexes; all 38 chapter files' sign tables
+and all 103 codex reads: fields swept (fuller-form notes
+restored on codex pages per the same-day clarification:
+certainty tags and richness stay ON codex pages — only chapter
+tables and hover tips must be compact). Stale "103 opens in a
+later phase" note in the 102 Reference fixed in passing.
+Third review round (owner report: "reads ku, not ku₃ — many
+such cases; check what produced them first"): root cause found —
+the C102 Reference printed {{ s.value }} RAW, so all 51 rows
+showed ATF ASCII (ku3, sza3, szu, nig2…). This was the ASCII
+value-display nit carried since the Phase-12 plan, which M12-2's
+status claimed folded in but was not — the claim was wrong until
+now. Fix at the root: a sign_reads Liquid filter (display_value
+field when a row carries one, else the standard fold, which also
+learned ṣ/ṭ for Akkadian); GAR gains display_value niŋ₂ (the one
+fold g→ŋ can't know); warm-up reads and sign tips prefer
+display_value too; queue regenerated; exact-value tests pin the
+folds. Every remaining ASCII-digit em on the site audited: all
+are explicit convention-mentions, lawful. Second review round
+(owner): Means columns recalibrated — the
+[lam] bracket notation replaces every "the syllable lam" phrase
+site-wide (pools, registries, chapter cells, codex pages; queues
+regenerated), certainty tags ((stated)/(classic)) left all table
+cells and meaning fields (grading stays in the Reference Origin
+column and codex prose), and Means cells now carry the semantic
+core only — the sound is the Reads column's job. All three now
+law in §1. First round (owner): sidebar ordering made explicit via
+nav_order on course indexes — each language's addenda follows its
+language's courses (C 101, C 102, C SUX Addenda, C 103, C AKK
+Addenda), replacing the URL-sort accident.
+
+2026-08-05 · Gate 11 closed · PR #14 merged by owner same day
+after three review rounds, CI + deploy green, live verified in
+pixels: the daily deal is real in production (today's tile reads
+"10 · today" — MJD mod 12 of the deploy date), cut pages and both
+confusables shelves serve with correct accents, the C101
+reference shows linked Taught-in and no Wedges column. The rounds
+all became durable structure: the deal itself (M11-7), the
+confusables split, the hidden deck, Taught-in links everywhere,
+wedge counts out of the displays. Branch phase-12 opened; owner
+picked C103 Akkadian as the next phase — Akkadian rulebook
+extension first, per the constraint carried since planning.
+
 2026-08-05 · M11-7 · phase-11 · The deal — owner-ratified during
 PR-#14 review: pseudo-random drills with zero JS. The deck now
 ships as twelve seeded cuts per school (the hash MULTIPLIER

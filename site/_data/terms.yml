@@ -38,8 +38,9 @@ terms:
     school: hieroglyphs
     def: "a sign meaning the very thing it depicts — in practice, another name for a logogram"
   - name: syllabogram
+    school: akk
     slug: syllabogram
-    def: "a sign spelling one syllable — ba, du, an"
+    def: "a sign spelling one syllable rather than a whole word — ba, du, an; the workhorse of Akkadian spelling"
   - name: polyvalency
     slug: polyvalency
     def: "one sign carrying several possible readings; context picks the right one"
@@ -187,3 +188,43 @@ terms:
   - name: shekel
     slug: shekel
     def: "the basic Mesopotamian weight, about 8 grams — one shekel of silver was roughly a hired worker's monthly wage"
+  - name: sumerogram
+    school: akk
+    slug: sumerogram
+    def: "a Sumerian word-sign kept inside Akkadian text as learned shorthand — written LUGAL, read aloud as Akkadian šarrum, \"king\""
+  - name: bound transcription
+    school: akk
+    slug: bound-transcription
+    def: "the joined-up dictionary form of an Akkadian word (šarrum, awīlum), reconstructed from its syllable-by-syllable transliteration with vowel lengths marked"
+  - name: consonantal root
+    school: akk
+    slug: consonantal-root
+    def: "the consonant skeleton at the heart of a Semitic word — n-d-n \"give\" stays fixed while vowel patterns flex around it: nadānum, iddin, inaddin"
+  - name: nominative
+    school: akk
+    slug: nominative
+    def: "the case of the subject — the noun the sentence is about; Old Babylonian marks it with -um: šarrum, \"the king (does something)\""
+  - name: accusative
+    school: akk
+    slug: accusative
+    def: "the case of the direct object — the noun the action lands on; Old Babylonian marks it with -am: awīlam, \"(he accused) a man\""
+  - name: mimation
+    school: akk
+    slug: mimation
+    def: "the -m that closes Old Babylonian noun endings (šarrum, not šarru) — a hallmark of Hammurabi's stage of the language, dropped in later centuries"
+  - name: construct state
+    school: akk
+    slug: construct-state
+    def: "the stripped-down form a noun takes to bind with the noun after it — bēl šamê, \"lord-of-heaven\" — losing its ending to gain an \"of\""
+  - name: preterite
+    school: akk
+    slug: preterite
+    def: "the Akkadian verb shape for a done deed — iddi, \"he charged\": simple past, one word, subject included"
+  - name: durative
+    school: akk
+    slug: durative
+    def: "the Akkadian verb shape for what happens or shall happen — inaddin, \"he shall pay\": the laws pronounce every sentence in it"
+  - name: infinitive
+    school: akk
+    slug: infinitive
+    def: "a verb packed whole into a noun — ḫabālum, \"to wrong / the wronging\" — and, being a noun, it wears the case endings like any other"

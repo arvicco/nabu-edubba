@@ -18,16 +18,20 @@ module Edubba
 
     # Combined sequence of teaching seats for a school:
     # [{course:, chapter:, signs: [sign-hash,...]}, ...] in
-    # curriculum order. reg101 uses taught_in; reg102 uses chapter.
-    def sequence(reg101, reg102, school)
+    # curriculum order. reg101 uses taught_in; queues (102, 103) use
+    # chapter. A third course joins the spiral the moment its queue
+    # exists — C103 chapters look back into 102 and 101.
+    def sequence(reg101, reg102, school, reg103 = nil)
       seats = []
       Array(reg101).group_by { |s| s["taught_in"] }
                    .reject { |ch, _| ch.nil? }.sort.each do |ch, signs|
         seats << { course: "#{school}-101", chapter: ch, signs: signs }
       end
-      Array(reg102).select { |s| s["chapter"] }
-                   .group_by { |s| s["chapter"] }.sort.each do |ch, signs|
-        seats << { course: "#{school}-102", chapter: ch, signs: signs }
+      { "102" => reg102, "103" => reg103 }.each do |course, reg|
+        Array(reg).select { |s| s["chapter"] }
+                  .group_by { |s| s["chapter"] }.sort.each do |ch, signs|
+          seats << { course: "#{school}-#{course}", chapter: ch, signs: signs }
+        end
       end
       seats
     end
@@ -71,10 +75,14 @@ module Edubba
       v.empty? || v == "—"
     end
 
+    # Phonetic bracket reading (§1): [ku], never ku₃ — the index is
+    # transliteration bookkeeping. Hieroglyph values are already
+    # bare sounds; they get the same brackets for consistency.
     def reads(sign, school)
       return "—" if silent?(sign)
+      return "[#{sign['value']}]" unless school == "cuneiform"
 
-      school == "cuneiform" ? SignLinker.display_form(sign["value"]) : sign["value"]
+      SignLinker.reads_display(sign["display_value"] || sign["value"])
     end
 
     def ident(sign) = sign["gardiner"] || sign["name"]

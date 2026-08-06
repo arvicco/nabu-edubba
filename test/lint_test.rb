@@ -141,4 +141,63 @@ class LintTest < Minitest::Test
       assert_equal Set[0x13000], Edubba::ScriptScan.used_codepoints(dir, hie)
     end
   end
+
+  def test_nav_label_must_be_drawn_from_title
+    bad = "---\ntitle: \"06 · If a man…\"\nshort_title: \"06 · šumma\"\nchapter: 6\n---\nbody"
+    v = Edubba::Lint.check_nav_label("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "nav-label", v[0].rule
+
+    good = bad.sub("06 · šumma", "06 · If a man…")
+    assert_empty Edubba::Lint.check_nav_label("x.md", good)
+
+    index = "---\ntitle: \"Sumerian Addenda\"\nshort_title: \"C SUX Addenda\"\n---\nbody"
+    assert_empty Edubba::Lint.check_nav_label("x.md", index)
+  end
+
+  def test_codex_reads_holds_readings_only
+    path = "site/cuneiform/addenda-akk/signs/sza.md"
+    bad = %(---\nreads: "[ša]; the particle ša"\n---\nbody)
+    v = Edubba::Lint.check_codex_reads(path, bad)
+    assert_equal 1, v.size
+    assert_equal "codex-reads", v[0].rule
+
+    ["[ša]", "[an], diŋir", "[ku], dab₅, tuš",
+     "[zi] (fuller form zid)", "[wa/wi]", "[mātum]", "[šarrum]"].each do |ok|
+      assert_empty Edubba::Lint.check_codex_reads(path, %(---\nreads: "#{ok}"\n---\n)),
+                   "#{ok} should pass"
+    end
+    assert_empty Edubba::Lint.check_codex_reads("site/cuneiform/103/00-orientation.md", bad),
+                 "rule scopes to codex shelves only"
+  end
+
+  def test_chapter_mentions_must_carry_links
+    bad = "---\nchapter: 3\n---\nsee chapter 02 for the rule"
+    v = Edubba::Lint.check_chapter_links("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "chapter-link", v[0].rule
+
+    linked = %(---\nchapter: 3\n---\nsee <a href="/x/">chapter 02</a> and [chapter 04](/y/))
+    assert_empty Edubba::Lint.check_chapter_links("x.md", linked)
+    selfref = "---\nchapter: 3\n---\nthis chapter 03 speaks of itself"
+    assert_empty Edubba::Lint.check_chapter_links("x.md", selfref)
+    svg = "---\nchapter: 3\n---\n<svg><title>after chapter 06</title></svg>"
+    assert_empty Edubba::Lint.check_chapter_links("x.md", svg)
+  end
+
+  def test_akk_translit_bans_indexes_and_lowercase_sumerograms
+    path = "site/cuneiform/103/04-x.md"
+    idx = %(<span class="translit">i₃-nu an</span>)
+    v = Edubba::Lint.check_akk_translit(path, idx)
+    assert_equal 1, v.size
+    assert_equal "akk-translit", v[0].rule
+
+    low = %(<span class="translit">lugal {d}a-nun-na-ki</span>)
+    assert_equal 1, Edubba::Lint.check_akk_translit(path, low).size
+
+    ok = %(<span class="translit">LUGAL {d}a-nun-na-ki i-nu</span>)
+    assert_empty Edubba::Lint.check_akk_translit(path, ok)
+    assert_empty Edubba::Lint.check_akk_translit("site/cuneiform/102/01-x.md", idx),
+                 "Sumerian courses keep their indexes"
+  end
 end

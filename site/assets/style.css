@@ -419,7 +419,13 @@ img, svg { max-width: 100%; }
    Why now); give it the width the short label columns waste.
    Tables whose last column is short (references, shelf indexes)
    opt out with sign-table--tail-fit. */
-.sign-table th:last-child, .sign-table td:last-child { width: 42%; }
+.sign-table th:last-child, .sign-table td:last-child { width: 38%; }
+/* Means (second-to-last) carries the sign's semantic core; without
+   a floor, auto layout crushes it to a word per line against the
+   wide Notes column. Tail-fit tables (references, shelf indexes)
+   keep auto columns. */
+.sign-table:not(.sign-table--tail-fit) th:nth-last-child(2),
+.sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 24%; }
 .sign-table--tail-fit th:last-child,
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }
@@ -537,6 +543,10 @@ body.school-hieroglyphs { --accent: var(--accent-hieroglyphs); }
 body.school-hanzi { --accent: var(--accent-hanzi); }
 
 .translit { font-style: italic; }
+/* Bound transcription (rulebook §9): its own register beside the
+   hyphenated transliteration — italic too, but visually set off
+   by a hair of letterspacing; hyphens vs macrons do the rest. */
+.norm { font-style: italic; letter-spacing: 0.02em; }
 /* transliteration indexes: rendered as real <sub> at build time */
 sub { font-size: 0.72em; line-height: 0; }
 .gloss { color: var(--muted); }

@@ -29,7 +29,8 @@ module Edubba
             message: "accent index é — use e₂; é only in explicit mentions and in é-dub-ba-a (§1)",
             allow: ["cuneiform/102/00-orientation.md",     # primer's explicit mention
                     "cuneiform/101/04-your-first-signs.md",  # accent habit noted where É is taught
-                    "cuneiform/addenda/signs/index.md"] }    # slug-builder Liquid maps é→e2 mechanically
+                    "cuneiform/addenda/signs/index.md",      # slug-builder Liquid maps é→e2 mechanically
+                    "cuneiform/addenda-akk/signs/index.md"] }  # same slug builder, akk codex (§9)
         ],
         license_labels: [
           { urn: "urn:nabu:etcsl",
@@ -57,13 +58,26 @@ module Edubba
     # the school, slug = traditional name in lowercase ASCII.
     # :keywords flips with the Stage-A backfill; :pages flips when a
     # school's shelf is complete (staged activation is the law).
+    # §9 language separation: a school may carry one codex per
+    # language (cuneiform: sux + akk), each on its own shelf and
+    # frequency base. The KEYWORD is the cross-language invariant —
+    # one keyword per sign, identical across a school's codices,
+    # unique across the school (cross_codex_check below).
     CODEX = [
       { doc: "docs/courses/cuneiform.md §7",
+        school: "cuneiform",
         registries: %w[_data/sign_teaching.yml _data/cuneiform102_queue.yml],
         shelf: "cuneiform/addenda/signs",
         keywords: true,
         pages: true },
+      { doc: "docs/courses/cuneiform.md §9",
+        school: "cuneiform",
+        registries: %w[_data/cuneiform103_queue.yml],
+        shelf: "cuneiform/addenda-akk/signs",
+        keywords: true,
+        pages: true },
       { doc: "docs/courses/hieroglyphs.md §9",
+        school: "hieroglyphs",
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
         shelf: "hieroglyphs/addenda/signs",
         keywords: true,
@@ -81,19 +95,53 @@ module Edubba
 
     def codex_violations(site_dir, codexes = CODEX)
       require "yaml"
-      codexes.flat_map do |cx|
+      loaded = codexes.map do |cx|
         signs = cx[:registries].flat_map do |rel|
           path = File.join(site_dir, rel)
           # Fixture sites carry no registries; the contract tests pin
           # their presence in the real one.
           File.exist?(path) ? YAML.load_file(path)["signs"] : []
         end
+        [cx, signs]
+      end
+      per = loaded.flat_map do |cx, signs|
         shelf = File.join(site_dir, cx[:shelf])
         pages = Dir.glob(File.join(shelf, "*.md"))
                    .map { |p| File.basename(p, ".md") } - ["index"]
         check_codex(signs, pages, cx)
           .map { |detail| Violation.new(cx[:shelf], "rulebook-codex", detail) }
       end
+      per + cross_codex_check(loaded).map do |detail|
+        Violation.new("(cross-codex)", "rulebook-codex", detail)
+      end
+    end
+
+    # §9 keyword invariance across a school's codices: the SAME sign
+    # must keep its ONE keyword in every codex; two DIFFERENT signs
+    # must never share a keyword anywhere in the school.
+    def cross_codex_check(loaded)
+      out = []
+      loaded.group_by { |cx, _| cx[:school] }.each_value do |group|
+        next if group.size < 2
+
+        maps = group.map do |cx, signs|
+          [cx, signs.to_h { |s| [(s["gardiner"] || s["name"]), s["keyword"]] }]
+        end
+        maps.combination(2) do |(cxa, a), (cxb, b)|
+          (a.keys & b.keys).each do |name|
+            next if a[name].nil? || b[name].nil? || a[name] == b[name]
+
+            out << "sign #{name} keyword differs across codices (#{a[name].inspect} on #{cxa[:shelf]}, #{b[name].inspect} on #{cxb[:shelf]}) — the keyword is the cross-language invariant (#{cxb[:doc]})"
+          end
+          a.each do |name, kw|
+            next unless kw
+
+            clash = b.find { |n, k| n != name && k == kw }
+            out << "keyword #{kw.inspect} on #{name} (#{cxa[:shelf]}) and #{clash[0]} (#{cxb[:shelf]}) — unique across the school (#{cxb[:doc]})" if clash
+          end
+        end
+      end
+      out
     end
 
     # Pure: registry entries + existing page slugs + codex hash ->

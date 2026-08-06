@@ -24,7 +24,7 @@ kin — have their own page in the hieroglyphs school's
 [Egyptian glossary]({{ '/hieroglyphs/addenda/terms/' | relative_url }}).
 
 <dl class="terms-list">
-{% assign sorted = site.data.terms.terms | where_exp: "t", "t.school != 'hieroglyphs'" | sort: "name" %}
+{% assign sorted = site.data.terms.terms | where_exp: "t", "t.school == nil" | sort: "name" %}
 {% for t in sorted %}
   <dt id="term-{{ t.slug }}">{{ t.name }}</dt>
   <dd>{{ t.def }}</dd>

@@ -6,10 +6,10 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "IN"
-reads: "in"
+reads: "[in]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/in/
 ---
 

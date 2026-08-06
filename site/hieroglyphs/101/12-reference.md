@@ -66,11 +66,11 @@ world.
   (MdC) spellings — <span class="translit atf">anx</span> for
   *ꜥnḫ* — appear only when quoting raw corpus data.
 - **Vowels are not written.** Renderings like "Amun" or "hotep"
-  are conventional pronunciations, not readings; chapter 03
+  are conventional pronunciations, not readings; <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>
   carries the full warning.
 - **Sign order and layout.** This course prints signs in a single
   left-to-right line. Real inscriptions stack signs into balanced
-  blocks and run in either direction (or in columns); chapter 11's
+  blocks and run in either direction (or in columns); <a href="{{ '/hieroglyphs/101/11-the-stone-that-talked/' | relative_url }}">chapter 11's</a>
   compass rule — read into the faces — finds the true order on
   any wall. Stacking is shown in figures where it matters, never
   silently.
@@ -102,7 +102,7 @@ world.
 ## Sources and licenses
 
 Original prose on this page and throughout the course is
-CC BY-SA 4.0. The ancient texts quoted in chapters 05–11 come from
+CC BY-SA 4.0. The ancient texts quoted in <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapters 05</a>–11 come from
 the Berlin-Brandenburg Academy corpora and the Leipzig literary
 corpus via Nabu (license class: attribution), cited in place with
 URNs; the Rosetta and Philae cartouches are museum exhibits cited

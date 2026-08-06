@@ -170,15 +170,16 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 11 — Sign Codex, Stage C: the retrieval layer (spiral
-warm-ups, drill shelves, Anki deck exports) per
-.docs/sign-retention-plan.md (plan pending owner approval).
+Phase 12 — C103 Akkadian: the cuneiform school's third course,
+Akkadian rulebook extension FIRST (docs/courses/cuneiform.md),
+per .docs/phase-12-plan.md (plan pending owner approval).
 
-Gate 10 merged 2026-08-04 (Sign Codex Stage B: 74 hieroglyph
-pages, codex complete site-wide at 151; site favicon É; E102
-wired into sign_linker at last — links, anchors, codex tables;
-school accent derived from URL (E pages had rendered orange since
-E101); keyword column in every chapter sign table; sign-table
-widths rebalanced, headers shortened to Name/Key; V10 cartouche
-carries a flagged no-box exception).
+Gate 11 merged 2026-08-05 (Sign Codex Stage C, the retrieval
+layer: reinforcement-selection law + scoring in both pickers;
+spiral warm-ups on 47 chapters; drill shelves with the deal —
+twelve seeded cuts, daily cron rotates the featured one, deck
+hidden under face-down tiles; Easily confused split to its own
+shelf; Study decks (4 Anki TSVs, license-hard-fail); read-it-cold
+on 35 chapters; frontier pages; Taught-in links everywhere;
+wedge counts dropped from displays).
 Update this line at each gate.

@@ -26,7 +26,7 @@ if school == "cuneiform"
   taught = YAML.safe_load_file("site/_data/sign_teaching.yml")["signs"]
   queue = YAML.safe_load_file("site/_data/cuneiform102_queue.yml")["signs"].select { |s| s["chapter"] }
   base = taught.flat_map { |s| Edubba::ReadingPicker.atf_values(s["value"]) }
-  inv = { "cdli" => Set.new(base + queue.map { |s| s["value"] }),
+  inv = { "cdli" => Set.new(base + queue.flat_map { |s| s["value"].split(/\s*[;,]\s*/) }),
           "etcsl" => Set.new(base.map { |v| Edubba::ReadingPicker.fold_etcsl(v) } +
                              queue.map { |s| s["etcsl_value"] || Edubba::ReadingPicker.fold_etcsl(s["value"]) }) }
   %w[cdli etcsl].each do |source|

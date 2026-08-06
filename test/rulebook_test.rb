@@ -103,4 +103,37 @@ class RulebookTest < Minitest::Test
     assert_empty Edubba::Rulebook.codex_violations(site),
                  "live registries/shelves must satisfy the codex config as flagged"
   end
+
+  SUX = { school: "cuneiform", shelf: "cuneiform/addenda/signs", doc: "§7" }.freeze
+  AKK = { school: "cuneiform", shelf: "cuneiform/addenda-akk/signs", doc: "§9" }.freeze
+
+  def test_cross_codex_same_sign_must_keep_its_keyword
+    loaded = [[SUX, [{ "name" => "AN", "keyword" => "heaven" }]],
+              [AKK, [{ "name" => "AN", "keyword" => "sky" }]]]
+    details = Edubba::Rulebook.cross_codex_check(loaded)
+    assert_equal 1, details.size
+    assert_match(/AN keyword differs across codices/, details[0])
+  end
+
+  def test_cross_codex_two_signs_never_share_a_keyword
+    loaded = [[SUX, [{ "name" => "A", "keyword" => "water" }]],
+              [AKK, [{ "name" => "ZU", "keyword" => "water" }]]]
+    details = Edubba::Rulebook.cross_codex_check(loaded)
+    assert_equal 1, details.size
+    assert_match(/"water" on A .* and ZU .* unique across the school/, details[0])
+  end
+
+  def test_cross_codex_shared_sign_same_keyword_is_the_required_shape
+    loaded = [[SUX, [{ "name" => "AN", "keyword" => "heaven" }, { "name" => "A", "keyword" => "water" }]],
+              [AKK, [{ "name" => "AN", "keyword" => "heaven" }, { "name" => "UM", "keyword" => "cord" }]]]
+    assert_empty Edubba::Rulebook.cross_codex_check(loaded)
+  end
+
+  def test_cross_codex_ignores_single_codex_schools_and_missing_keywords
+    hiero = { school: "hieroglyphs", shelf: "hieroglyphs/addenda/signs", doc: "§9" }
+    loaded = [[hiero, [{ "name" => "G1", "keyword" => "vulture" }]],
+              [SUX, [{ "name" => "AN", "keyword" => "heaven" }]],
+              [AKK, [{ "name" => "AN" }]]]   # akk keyword not yet backfilled — quiet
+    assert_empty Edubba::Rulebook.cross_codex_check(loaded)
+  end
 end

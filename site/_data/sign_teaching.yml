@@ -270,7 +270,7 @@ signs:
     keyword: "stone"
     taught_in: 11
     value: "na"
-    meaning: "(syllable na); stone in some words"
+    meaning: "[na]; stone in some words"
     freq_etcsl: 4
     freq_cdli: 10
     wedges: ~7
@@ -283,7 +283,7 @@ signs:
     keyword: "oil"
     taught_in: 11
     value: "ni; i₃ (i3)"
-    meaning: "(syllable ni); oil, butter as i₃"
+    meaning: "[ni]; oil, butter as i₃"
     freq_etcsl: 11
     freq_cdli: 32
     wedges: ~5
