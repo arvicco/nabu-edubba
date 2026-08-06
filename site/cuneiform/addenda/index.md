@@ -1,7 +1,7 @@
 ---
 layout: course
 school: cuneiform
-nav_order: 30
+nav_order: 130
 course_no: addenda
 title: Sumerian Addenda
 short_title: C SUX Addenda

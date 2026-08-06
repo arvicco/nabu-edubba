@@ -1,7 +1,7 @@
 ---
 layout: course
 school: cuneiform
-nav_order: 50
+nav_order: 150
 course_no: addenda-akk
 title: Akkadian Addenda
 short_title: C AKK Addenda

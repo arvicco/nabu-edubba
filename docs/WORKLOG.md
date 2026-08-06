@@ -5,6 +5,28 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · INCIDENT: live sidebar school order flipped · phase-13 ·
+After the Gate 12 merge deployed (second attempt — the first Pages
+deployment died in GitHub's own "degraded performance" incident,
+build green, backend stuck at deployment_in_progress until the
+action's 10-minute timeout), the owner reported "deployed pages
+look weird": HIEROGLYPHS sat above CUNEIFORM in the sidebar. Root
+cause: nav_order values TIED across schools (both 101s = 10, both
+102s = 20 …); Liquid's sort is stable, so ties fall back to
+Jekyll's filesystem enumeration order — cuneiform-first on macOS
+(every local build and pixel check), hash-order on CI's Linux,
+where hieroglyphs jumped the queue. The bug was invisible in every
+local verification by construction. Durable fix: nav_order made
+globally unique (cuneiform 110–150, hieroglyphs 210–230) and a
+nav-order-unique lint rule (tmpdir-tested) so a tie can never ship
+again. Lesson enforced: ordering must never depend on the OS; any
+sort key the site relies on gets a uniqueness guard in the gate.
+False lead owned: first diagnosis blamed a wiped Pages custom
+domain — wrong; edubba.ac → github.io redirect is the ratified
+architecture (CLAUDE.md line 1), and reading it as breakage nearly
+produced a harmful "fix." Verify the intended state before
+repairing it.
+
 2026-08-06 · review round 19 (item-by-item breakdowns) · phase-12 ·
 Owner report: ch07's commission readings (ana lā ḫabālim, ana šīr
 nišī) lumped their grammar into hasty one-line glosses — "This
