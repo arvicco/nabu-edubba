@@ -1,6 +1,6 @@
 ---
 title: "06 · Reading real cuneiform: seals and bricks"
-short_title: "06 · Seals & bricks"
+short_title: "06 · Seals and bricks"
 description: >-
   The first summit: genuine Ur III royal titulary — a governor's seal,
   a damaged seal, and a year-name on a receipt — read with your own

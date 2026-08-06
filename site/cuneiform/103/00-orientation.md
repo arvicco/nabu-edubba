@@ -1,6 +1,6 @@
 ---
 title: "00 · A script crosses a border"
-short_title: "00 · Orientation"
+short_title: "00 · A script crosses a border"
 description: >-
   What Akkadian is, why the same wedges can write it, what your 77
   signs already buy you — and the three little signs that carry the

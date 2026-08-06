@@ -1,6 +1,6 @@
 ---
 title: "07 · Two sounds in one sign"
-short_title: "07 · Biliterals"
+short_title: "07 · Two sounds in one sign"
 description: >-
   The second stretch opens: mn, nb, and ḥr — signs that carry two
   consonants at once, the layer that makes Egyptian writing compact

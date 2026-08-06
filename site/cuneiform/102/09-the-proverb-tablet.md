@@ -1,6 +1,6 @@
 ---
 title: "09 · Let me eat, let me drink"
-short_title: "09 · Proverbs"
+short_title: "09 · Let me eat"
 description: >-
   Heart, thing, and fish — and the wish-forms ga- and ha- that let
   the oldest school tablets joke, bless, and complain in complete

@@ -1,6 +1,6 @@
 ---
 title: "15 · Born a hero"
-short_title: "15 · Šulgi's hymn"
+short_title: "15 · Born a hero"
 description: >-
   The royal hymn at last: Šulgi of Ur praising himself in his own
   words, his name in your hands — reed, youth, birth, and might.

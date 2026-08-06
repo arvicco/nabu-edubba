@@ -1,6 +1,6 @@
 ---
 title: "01 · Stone, reed, and papyrus"
-short_title: "01 · Stone, reed, papyrus"
+short_title: "01 · Stone, reed, and papyrus"
 description: >-
   The media that shaped Egyptian writing — and why one tradition was
   always two scripts: carved pictures for eternity, fast ink for

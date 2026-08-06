@@ -95,6 +95,7 @@ module Edubba
       if path.end_with?(".md") && !text.start_with?("---\n")
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
+      found.concat(check_nav_label(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -107,6 +108,28 @@ module Edubba
       found
     rescue ArgumentError, Encoding::InvalidByteSequenceError
       [Violation.new(path, "encoding", "not valid UTF-8")]
+    end
+
+    # nav-label (owner report 2026-08-06: the sidebar said "šumma"
+    # while the page said "If a man…"): a CHAPTER's short_title must
+    # be drawn from its title — the label text (after the "NN · "
+    # prefix) a case-insensitive substring of the title text — so
+    # navbar and page can never disagree. Course indexes (no
+    # chapter:) keep their deliberate short codes (C SUX Addenda).
+    def check_nav_label(path, text)
+      return [] unless path.end_with?(".md") && text.start_with?("---\n")
+      return [] unless (fm_end = text.index("\n---", 4))
+
+      require "yaml"
+      fm = YAML.safe_load(text[4..fm_end]) rescue nil
+      return [] unless fm.is_a?(Hash) && fm["chapter"] && fm["title"] && fm["short_title"]
+
+      strip = ->(s) { s.to_s.sub(/\A\d+\s*·\s*/, "").downcase }
+      title, label = strip.call(fm["title"]), strip.call(fm["short_title"])
+      return [] if title.include?(label)
+
+      [Violation.new(path, "nav-label",
+                     "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
     end
   end
 end

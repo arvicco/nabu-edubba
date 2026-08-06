@@ -1,6 +1,6 @@
 ---
 title: "Easily confused — side by side"
-short_title: "Confusables"
+short_title: "Easily confused"
 description: >-
   The lookalike hieroglyphs drilled deliberately together — tell
   them apart before they blur.

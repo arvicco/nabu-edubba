@@ -1,6 +1,6 @@
 ---
 title: "08 · Born of, son of"
-short_title: "08 · Complements"
+short_title: "08 · Born of, son of"
 description: >-
   Why scribes double their sounds — the phonetic complement, spelling
   that checks itself — and the family trees Egyptians carved on their

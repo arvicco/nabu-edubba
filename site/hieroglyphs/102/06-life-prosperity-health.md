@@ -1,6 +1,6 @@
 ---
 title: "06 · Life, prosperity, health"
-short_title: "06 · L.p.h."
+short_title: "06 · Life, prosperity, health"
 description: >-
   The stretch's close: the wish that follows every king — ꜥnḫ wḏꜣ
   snb — the Great House that became the word "pharaoh," and the two

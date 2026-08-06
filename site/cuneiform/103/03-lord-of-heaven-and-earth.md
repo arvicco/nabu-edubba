@@ -1,6 +1,6 @@
 ---
 title: "03 · Lord of heaven and earth"
-short_title: "03 · The construct"
+short_title: "03 · Lord of heaven and earth"
 description: >-
   Two nouns bound into one phrase — the construct state — and four
   consecutive lines of the stele read whole: lord of heaven and

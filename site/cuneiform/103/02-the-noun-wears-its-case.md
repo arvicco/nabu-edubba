@@ -1,6 +1,6 @@
 ---
 title: "02 · The noun wears its case"
-short_title: "02 · Cases"
+short_title: "02 · The noun wears its case"
 description: >-
   The Old Babylonian case endings -um, -am, -im and the mimation
   they share; the wild-bull sign; and the king's own name, spelled
