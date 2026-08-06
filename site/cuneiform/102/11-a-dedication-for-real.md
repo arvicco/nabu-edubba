@@ -17,7 +17,7 @@ shows: []
 
 # A dedication, for real
 
-Chapter 05 assembled the dedication formula from your inventory and
+<a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">Chapter 05</a> assembled the dedication formula from your inventory and
 made a promise: you would meet it verbatim on real stone and clay.
 This chapter keeps that promise. Two last signs first — the lightest
 batch of the stretch, like the one that closed the last.
@@ -103,7 +103,7 @@ formula sits in it exactly where the course said it would.
   <p class="composition-row script" aria-label="The formula's purpose slot, verbatim on the stone">
     <span>𒉆𒋾𒆷𒉌𒂠</span>
   </p>
-  <figcaption class="citation">Chapter 05 assembled it; Lu-Utu's
+  <figcaption class="citation"><a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">Chapter 05</a> assembled it; Lu-Utu's
   scribe carved it. Same five signs, same order — the template and
   the tablet agree.</figcaption>
 </figure>

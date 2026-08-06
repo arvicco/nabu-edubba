@@ -33,7 +33,7 @@ is the stand such a jar stood on:
 
 A round-bottomed jar cannot stand on its own; Egyptian households
 propped theirs on rings like this one. Draw it — a squat ring seen
-from the side — and notice, once more, the pattern from chapter 00:
+from the side — and notice, once more, the pattern from <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapter 00</a>:
 a piece of kitchen furniture, borrowed to spell the sound *g*,
 nothing jar-like about it. Why pictures behave this way is exactly
 this chapter's story.
@@ -94,14 +94,14 @@ purely for their sounds, exactly as if English wrote "Carson" with a
 drawing of a car and a drawing of a sun. This borrowing — the
 **rebus** — is the engine inside every early writing system, and
 Egypt's version of it is the direct ancestor of the signs you will
-learn in chapter 04: an owl that means nothing owlish, only the
+learn in <a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">chapter 04</a>: an owl that means nothing owlish, only the
 sound *m*; a mouth that has stopped being about mouths and become
 the sound *r*.
 
 One more detail worth noticing: Narmer's name sits inside a frame —
 a rectangle representing the royal palace facade, called a *serekh*.
 The habit of putting a king's name in a protective enclosure is as
-old as Egyptian kingship itself; in chapter 05 you will meet its
+old as Egyptian kingship itself; in <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> you will meet its
 famous successor, the ring-shaped cartouche, and read real names
 inside it.
 

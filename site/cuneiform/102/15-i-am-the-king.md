@@ -16,7 +16,7 @@ shows: []
 
 # Born a hero
 
-Chapter 07 met the phrase *lugal-me-en* — "I am the king" — filed
+<a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">Chapter 07</a> met the phrase *lugal-me-en* — "I am the king" — filed
 in an ancient library catalogue. This chapter opens the hymn that
 made the phrase famous: the self-praise of Šulgi, king of Ur for
 almost half a century, tireless runner, self-declared scholar, and

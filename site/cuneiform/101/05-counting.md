@@ -205,7 +205,7 @@ sheep, silver, and labor.
    then check yourself against it.
 4. Read back, aloud, the three barley lines in the reading panel —
    cover the translit and gloss columns first.
-5. Anything shaky — write it five more times. Chapter 06 assumes you
+5. Anything shaky — write it five more times. <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Chapter 06</a> assumes you
    can compose any number up to fifty-nine without pausing to think.
 
 ## Where this leads
@@ -214,7 +214,7 @@ This course's own frequency counts over the CDLI corpus put
 <span class="script">𒁹</span> — the plain counting stroke — at the
 very top of the entire administrative record: the single most
 frequent sign, over a million lines of text. For most of the
-cuneiform corpus, number literacy *is* reading literacy. Chapter 06
+cuneiform corpus, number literacy *is* reading literacy. <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Chapter 06</a>
 takes you into the seals-and-bricks world of ownership marks, where
 these same counting habits sit alongside names and titles on the
 receipts, tags, and dockets that make up the bulk of what survives.

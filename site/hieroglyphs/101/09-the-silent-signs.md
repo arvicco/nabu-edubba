@@ -17,7 +17,7 @@ shows: ["𓀼"]
 
 # The signs that say nothing
 
-Chapter 05 left a debt. Pepi's name ended in a box — "a
+<a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">Chapter 05</a> left a debt. Pepi's name ended in a box — "a
 seated-figure sign that classifies the word as a person's name,"
 this course said, and promised you would own it here. Time to pay
 up, and to meet the whole family of signs that make no sound at
@@ -53,7 +53,7 @@ all and still run the show.
 </table>
 
 These are **classifiers** — Egyptology's other name for the
-determinatives you met in chapter 03. They are never pronounced.
+determinatives you met in <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>. They are never pronounced.
 They stand at the end of a word and answer one question before you
 even read it: *what kind of thing is this?* A person? Which sort?
 Something said, eaten, felt? Egyptian is the only major script
@@ -80,7 +80,7 @@ goddess receives the dead:
 </figure>
 
 Every sounding sign in that line is an old friend — the duck, the
-pot, the giving loaf from chapter 06, water, basket, forearm. The
+pot, the giving loaf from <a href="{{ '/hieroglyphs/101/06-the-offering-formula/' | relative_url }}">chapter 06</a>, water, basket, forearm. The
 one sign you could not have read is the one that says nothing: 𓁐,
 quietly filing Nut where she belongs.
 
@@ -145,7 +145,7 @@ sparrow gets its turn on a name you already know:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𓎛𓈖𓏌𓅱𓏏𓋴𓈖 𓅪𓏏</span><span class="translit">Ḥn,wt≡sn šrj,t</span><span class="gloss">"Henutsen the younger" — chapter 08's queen-name on a daughter, and the sparrow marking her the little one of the house</span></div>
+    <div class="reading-line"><span class="script">𓎛𓈖𓏌𓅱𓏏𓋴𓈖 𓅪𓏏</span><span class="translit">Ḥn,wt≡sn šrj,t</span><span class="gloss">"Henutsen the younger" — <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">chapter 08's</a> queen-name on a daughter, and the sparrow marking her the little one of the house</span></div>
   </div>
   <figcaption class="citation">
     Old Kingdom tomb inscriptions (BBAW <em>Grabinschriften</em>),
@@ -161,7 +161,7 @@ four and a half thousand years.
 
 ## Pepi, at last — and a confession
 
-Now the debt. The box at the end of Pepi's name in chapter 05 was
+Now the debt. The box at the end of Pepi's name in <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> was
 this sign — shown here as an exhibit, one size up from the plain
 seated man:
 
@@ -173,7 +173,7 @@ seated man:
     𓀼 — the seated dignitary (Gardiner A51): a man of rank on a
     chair. Same family as 𓀀, better furniture. It classified Pepi
     as a person of standing — display exhibit; you have now read
-    every sounding sign of the name since chapter 05.
+    every sounding sign of the name since <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a>.
   </figcaption>
 </figure>
 
@@ -183,10 +183,10 @@ the king at all. It is the *Satire of the Trades* — the teaching a
 father named Dua-Khety composed "for his son, Pepi by name," on
 the boat ride to school, cataloguing every other profession's
 miseries so the boy would appreciate his desk. A namesake
-schoolboy, not a pharaoh — carrying a king's name the way chapter
-08's Teti and Bebi carried theirs. The world's oldest surviving
+schoolboy, not a pharaoh — carrying a king's name the way <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">chapter
+08's</a> Teti and Bebi carried theirs. The world's oldest surviving
 "stay in school" speech, and its addressee has been your
-classmate since chapter 05.[^satire]
+classmate since <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a>.[^satire]
 
 ## Drill before you go on
 

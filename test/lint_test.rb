@@ -170,4 +170,18 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_codex_reads("site/cuneiform/103/00-orientation.md", bad),
                  "rule scopes to codex shelves only"
   end
+
+  def test_chapter_mentions_must_carry_links
+    bad = "---\nchapter: 3\n---\nsee chapter 02 for the rule"
+    v = Edubba::Lint.check_chapter_links("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "chapter-link", v[0].rule
+
+    linked = %(---\nchapter: 3\n---\nsee <a href="/x/">chapter 02</a> and [chapter 04](/y/))
+    assert_empty Edubba::Lint.check_chapter_links("x.md", linked)
+    selfref = "---\nchapter: 3\n---\nthis chapter 03 speaks of itself"
+    assert_empty Edubba::Lint.check_chapter_links("x.md", selfref)
+    svg = "---\nchapter: 3\n---\n<svg><title>after chapter 06</title></svg>"
+    assert_empty Edubba::Lint.check_chapter_links("x.md", svg)
+  end
 end

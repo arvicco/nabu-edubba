@@ -61,7 +61,7 @@ Stone is slow, and that is the point. What went on stone was meant
 to be read forever: names, titles, offerings, the deeds of kings,
 the addresses of the dead. When this course reads real monuments,
 you will notice how much of eternity is, in practice, *names* —
-which is why chapter 05 can promise you real kings so early.
+which is why <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> can promise you real kings so early.
 
 ## The fast script
 
@@ -149,9 +149,9 @@ Three carved forms, enlarged from this site's own font — a bird, a
 plant, an animal, each still exactly what it is:
 
 <div class="glyph-exhibit">
-  <figure><span class="script">𓅓</span><figcaption>the owl, full face in a profile script — yours since chapter 00</figcaption></figure>
+  <figure><span class="script">𓅓</span><figcaption>the owl, full face in a profile script — yours since <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapter 00</a></figcaption></figure>
   <figure><span class="script">𓇋</span><figcaption>the flowering reed — yours as of this chapter</figcaption></figure>
-  <figure><span class="script">𓆑</span><figcaption>the horned viper — waiting for you in chapter 04</figcaption></figure>
+  <figure><span class="script">𓆑</span><figcaption>the horned viper — waiting for you in <a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">chapter 04</a></figcaption></figure>
 </div>
 
 ## Drill before you go on

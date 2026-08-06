@@ -17,7 +17,7 @@ shows: []
 
 # Let me eat, let me drink
 
-Chapter 08 took the verbal chain apart into rings. This chapter adds
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">Chapter 08</a> took the verbal chain apart into rings. This chapter adds
 the rings that make Sumerian *wish* — and then reads the oldest
 recorded version of a sentiment every student of every era has
 shared at the end of a school day. First, the batch.
@@ -59,7 +59,7 @@ most honest picture left in your inventory; enjoy it.
 
 ## Grammar bite — the wish rings
 
-Chapter 08's prefixes reported facts: *i₃-*, *in-*, *ba-* say that
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">Chapter 08's</a> prefixes reported facts: *i₃-*, *in-*, *ba-* say that
 something happened; *nu-* says it did not. Sumerian has two more
 rings for things that have *not* happened but should:
 

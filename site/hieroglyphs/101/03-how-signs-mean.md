@@ -58,7 +58,7 @@ means the thing it shows" — and you have written the word *pr*,
 **logogram** (or ideogram).
 
 **Job two: a sound-sign.** The word for "go out" happened to sound
-like *pr* too. So the scribes borrowed the house — chapter 02's
+like *pr* too. So the scribes borrowed the house — <a href="{{ '/hieroglyphs/101/02-pictures-that-talk/' | relative_url }}">chapter 02's</a>
 rebus, working exactly as it did for Narmer's catfish — and wrote
 "go out" as 𓉐𓂋𓂻. The house here contributes only its *sound*,
 p-r. Nothing in "go out" is about houses. Signs used this way are
@@ -78,7 +78,7 @@ have met.
 And the middle sign, the mouth 𓂋? That is a sound-sign too — it
 reads *r*, and it is there to *reinforce* the r-sound already inside
 *pr*, a habit called a phonetic complement. The script loves belt
-and suspenders. Chapter 07 makes a proper study of complements; for
+and suspenders. <a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">Chapter 07</a> makes a proper study of complements; for
 now, just don't be surprised when a sound seems to be written twice.
 
 So the same house sign is a word in 𓉐𓏤, a pure sound in 𓉐𓂋𓂻,

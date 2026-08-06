@@ -77,7 +77,7 @@ same *t*:
 
 - **k.t** — "another (she)": the word for "other" with the
   feminine *t*, agreeing with an unspoken *remedy*.
-- **n.t** — "of": chapter 01's little genitive *n*, also wearing
+- **n.t** — "of": <a href="{{ '/hieroglyphs/102/01-it-is-water/' | relative_url }}">chapter 01's</a> little genitive *n*, also wearing
   the *t* — even "of" agrees in Egyptian.
 
 So the header every recipe starts with — *k.t n.t …* — is
@@ -101,7 +101,7 @@ the same clipped formula:
   </figcaption>
 </figure>
 
-- **k.t** — "another": chapter 02's mirror basket with the
+- **k.t** — "another": <a href="{{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }}">chapter 02's</a> mirror basket with the
   feminine *t* — the bite's first agreement.
 - **n.t** — "for": the genitive, agreeing — the second.
 - **dr** — "driving out": *d-r* spelled plainly, and your new
@@ -132,7 +132,7 @@ Then come the instructions — verbs stripped to the bone:
   </figcaption>
 </figure>
 
-- **jri̯** — chapter 03's eye-verb in the recipe's clipped voice:
+- **jri̯** — <a href="{{ '/hieroglyphs/102/03-to-do-to-give-to-be/' | relative_url }}">chapter 03's</a> eye-verb in the recipe's clipped voice:
   "make," with doer and object left to the kitchen.
 - **m** — "into": the owl as transformation — made *into*.
 - **pns,t** — "a pill": spelled out *p-n-s-t* and classified by
@@ -165,7 +165,7 @@ of them are today's:
 
 ## Then you will die
 
-Chapter 04's doctor said *bn m(w)t≡k* — "you will not die." The
+<a href="{{ '/hieroglyphs/102/04-saying-no/' | relative_url }}">Chapter 04's</a> doctor said *bn m(w)t≡k* — "you will not die." The
 same profession, in the same corpus, could also say the other
 thing:
 
@@ -201,7 +201,7 @@ Medicine has never said more with less.
    unspoken word they agree with.
 3. Compose, in the recipe's voice: "another (remedy): (it) is
    made into water" — every sign already yours.
-4. Read the two verdicts — chapter 04's kind one and this
+4. Read the two verdicts — <a href="{{ '/hieroglyphs/102/04-saying-no/' | relative_url }}">chapter 04's</a> kind one and this
    chapter's grim one — aloud, back to back, covering the
    glosses.
 

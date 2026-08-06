@@ -95,7 +95,7 @@ longer stands upright, it stops asking to be seen as a head.
 
 ## Transformation two: the wedge rebuild
 
-Chapter 01 gave you the mechanics: a pressed stylus cannot draw a
+<a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">Chapter 01</a> gave you the mechanics: a pressed stylus cannot draw a
 curve. As scribes shifted from drawing freehand lines to pressing
 wedges — faster, cleaner, more uniform — every curved outline had to
 be *rebuilt* out of straight wedge strokes. The two changes together

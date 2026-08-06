@@ -26,7 +26,7 @@ the ability to look at a real tablet and read it.
   clay, sign anatomy and formation, how the system encodes language
   (logograms, syllabograms, determinatives, polyvalency), the arc from
   proto-cuneiform to the last dated tablet, and the decipherment
-  story — with real Ur III royal inscriptions read in chapter 06.
+  story — with real Ur III royal inscriptions read in <a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">chapter 06</a>.
   Prerequisite for everything below.
 - **[102 · Sumerian]({{ '/cuneiform/102/' | relative_url }})** —
   **open: complete, nineteen chapters live.** A literacy track: 51 more

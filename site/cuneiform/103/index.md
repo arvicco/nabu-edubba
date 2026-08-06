@@ -44,7 +44,7 @@ Hammurapi** and its first law, in the original.
 This is the course's first stretch; it ends mid-story on purpose.
 The laws run to nearly three hundred, the epilogue is a monument of
 its own, and the letters of Hammurabi's chancery wait behind them —
-the next stretch continues where chapter 07 leaves you: reading.
+the next stretch continues where <a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a> leaves you: reading.
 
 The conventions this course writes by — transliteration, the
 normalization layer, how a familiar sign is marked when it gains an

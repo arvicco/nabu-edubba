@@ -145,9 +145,9 @@ tablet-house graduate carried. You now carry the same toolkit,
 which is the point of this course, and there is exactly one
 chapter left to shelve it properly.
 
-## Drill before the last chapter
+## Drill before the last <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter
 
-1. Write 𒋻, 𒄘, and 𒇲 from memory; say *tar*, *gu₂*, *la₂*.
+1</a>. Write 𒋻, 𒄘, and 𒇲 from memory; say *tar*, *gu₂*, *la₂*.
 2. Read Cylinder A's line 1 aloud, covering the gloss. You have
    waited seventeen chapters to do this cold.
 3. Explain *nam tar* in one sentence — what is fate, grammatically
