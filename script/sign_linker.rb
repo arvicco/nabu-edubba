@@ -115,8 +115,7 @@ module Edubba
     # row may carry an explicit display_value where the mechanical
     # fold can't know better (nig2 -> niŋ₂ -> [niŋ]).
     def tip_text(sign)
-      reads = phonetic(sign["display_value"] || sign["value"])
-      reads = "[#{reads}]" unless reads.empty?
+      reads = reads_display(sign["display_value"] || sign["value"])
       tip_join([display_form(sign["name"]), reads, display_form(sign["meaning"])])
     end
 
@@ -131,15 +130,28 @@ module Edubba
 
     # The PHONETIC reading (§1, owner ruling 2026-08-06): what the
     # sign actually says — folded, homophone indexes stripped,
-    # multiple values joined with "/". [ku] not ku₃; [pi] not pi₂.
+    # variants joined with "/". [ku] not ku₃; [pi] not pi₂.
     # Brackets are applied by the caller (they are presentation).
     def phonetic(value)
       display_form(value)
         .gsub(/[₀-₉]+/, "")
-        .split(/\s*[;,]\s*/)
+        .split(/\s*[;,\/]\s*/)
         .reject(&:empty?)
         .uniq
         .join("/")
+    end
+
+    # The full Reads display (§1, owner correction 2026-08-06): in
+    # registry values ";" separates LEXEMES, ","/"/" separate
+    # phonetic variants. The first lexeme's sound goes in brackets;
+    # the others are ideographic word-readings, listed after in
+    # transliteration form: "an; diŋir" -> "[an], diŋir".
+    def reads_display(value)
+      lexemes = value.to_s.split(";").map { |part| display_form(part) }.reject(&:empty?)
+      return "" if lexemes.empty?
+
+      head = "[#{phonetic(lexemes.first)}]"
+      ([head] + lexemes.drop(1)).join(", ")
     end
 
     def display_form(text)

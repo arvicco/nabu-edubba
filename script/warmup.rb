@@ -82,7 +82,7 @@ module Edubba
       return "—" if silent?(sign)
       return "[#{sign['value']}]" unless school == "cuneiform"
 
-      "[#{SignLinker.phonetic(sign['display_value'] || sign['value'])}]"
+      SignLinker.reads_display(sign["display_value"] || sign["value"])
     end
 
     def ident(sign) = sign["gardiner"] || sign["name"]

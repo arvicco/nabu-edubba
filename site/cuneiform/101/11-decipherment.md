@@ -43,7 +43,7 @@ sign that made decipherment possible.
           literary corpus</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉌</td><td>NI</td><td>oil</td><td>[ni/i]</td>
+      <td class="script sign-cell">𒉌</td><td>NI</td><td>oil</td><td>[ni], i₃</td>
       <td>[ni]; as <em>i₃</em>, "oil"</td>
       <td>commonly connected with an oil jar in origin</td>
     </tr>

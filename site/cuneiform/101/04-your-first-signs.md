@@ -66,13 +66,13 @@ this site's own reference font.
           and abroad were the same direction</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an/diŋir], {d}</td>
+      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an], diŋir, {d}</td>
       <td>heaven; god</td>
       <td>an eight-pointed star — <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> champion of
           polyvalency</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[ud/utu]</td>
+      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[ud], utu</td>
       <td>day; sun</td>
       <td>commonly explained as the sun rising</td>
     </tr>

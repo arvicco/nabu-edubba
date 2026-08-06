@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "DU"
-reads: "[du]; also tum₂ (brought)"
+reads: "[du], tum₂ (brought)"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

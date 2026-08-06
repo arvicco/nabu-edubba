@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KU"
-reads: "[dab]; tuš (to sit)"
+reads: "[ku], dab₅, tuš"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

@@ -26,7 +26,7 @@ best demonstration piece:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[ud/u/utu]</td>
+      <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[ud/u], utu</td>
       <td>day; sun; the sun-god</td>
       <td>the sun rising between hills, worn down to wedges</td>
     </tr>

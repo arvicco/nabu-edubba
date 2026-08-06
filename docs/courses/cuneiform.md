@@ -42,8 +42,14 @@ machine-enforceable subset (`script/rulebook.rb`, run by
   ku₃ or pi₂. The homophone index is transliteration
   bookkeeping, not phonetics: it appears in transliterated text
   (*e₂ ku₃* in a reading line) and in sign NAMES (KU₃), and
-  nowhere else. Multiple readings join with a slash inside one
-  bracket. Certainty tags — (stated), (classic) — do not appear
+  nowhere else. A bracket holds ONE reading's phonetic variants
+  joined by slashes ([wa/wi], [ir/er]); a sign's OTHER lexemes —
+  ideographic word-readings like diŋir, utu, dumu, i₃ — are not
+  phonetic values of the first and list separately after it, in
+  transliteration form: "[an], diŋir" (owner correction
+  2026-08-06). In registry values, ";" separates lexemes while
+  ","/"/" separate phonetic variants — the display rule reads
+  that structure mechanically. Certainty tags — (stated), (classic) — do not appear
   in chapter sign tables or sign hover tips, which stay compact;
   the CODEX pages and the Reference's Origin column may carry
   them — that is where grading lives (owner clarification

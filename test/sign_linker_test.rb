@@ -128,11 +128,17 @@ class SignLinkerTest < Minitest::Test
     assert_equal "šum₂", Edubba::SignLinker.display_form("szum2")
   end
 
-  def test_phonetic_strips_indexes_and_joins_values
+  def test_phonetic_strips_indexes_and_joins_variants
     assert_equal "ku", Edubba::SignLinker.phonetic("ku3")
-    assert_equal "an/diŋir", Edubba::SignLinker.phonetic("an; diŋir (dijir/dingir)")
-    assert_equal "ṣi/ṣe", Edubba::SignLinker.phonetic("s,i; s,e")
+    assert_equal "ṣi/ṣe", Edubba::SignLinker.phonetic("s,i, s,e")
     assert_equal "niŋ", Edubba::SignLinker.phonetic("niŋ₂")
+  end
+
+  def test_reads_display_separates_lexemes_from_phonetic_variants
+    assert_equal "[an], diŋir", Edubba::SignLinker.reads_display("an; diŋir (dijir/dingir)")
+    assert_equal "[wa/wi]", Edubba::SignLinker.reads_display("wa, wi")
+    assert_equal "[dumu], tur", Edubba::SignLinker.reads_display("dumu; tur")
+    assert_equal "[ni], i₃", Edubba::SignLinker.reads_display("ni; i₃ (i3)")
   end
 
   def test_tip_text_prefers_explicit_display_value
@@ -158,7 +164,7 @@ class SignLinkerTest < Minitest::Test
                             "name" => "EŠ2", "value" => "sze3",
                             "meaning" => "rope (stated); the terminative -sze3" }] }
     map = Edubba::SignLinker.build_map(teaching, queue, REF, { 0 => CH0 })
-    assert_equal "AN · [an/diŋir] · heaven; god", map[AN][:tip]
+    assert_equal "AN · [an], diŋir · heaven; god", map[AN][:tip]
     assert_equal "EŠ₂ · [še] · rope; the terminative -še₃", map[ME][:tip]
   end
 

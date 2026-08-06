@@ -38,6 +38,15 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Fifth review round (owner correction: the bracket had fused
+DIFFERENT LEXEMES — [an/diŋir] wrongly implied diŋir is a
+phonetic value of an): a bracket holds one reading's phonetic
+variants; a sign's other lexemes (ideographic word-readings:
+diŋir, utu, dumu, i₃) list separately after it in transliteration
+form — "[an], diŋir". The registries already encode the split
+(";" = lexemes, ","//"/" = variants), so reads_display() reads it
+mechanically for tips/warm-ups/References/decks; six chapter rows
+and eight codex fields hand-fixed; §1 amended; exact-value tests.
 Fourth review round (owner: "pi2 reading… Nothing fixed" — the
 first fix had missed the actual point): READINGS ARE PHONETIC.
 ku₃/pi₂ is transliteration bookkeeping, not a sound; wherever the
