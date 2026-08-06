@@ -44,9 +44,9 @@ course taught you the shape, not a story.
   {% for s in taught %}
     <tr>
       <td class="script sign-cell">{{ s.glyph }}</td>
-      <td>{{ s.name }}</td>
+      <td>{{ s | sign_name }}</td>
       <td>{{ s.keyword }}</td>
-      <td><em>{{ s.value }}</em></td>
+      <td><em>{{ s | sign_reads }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>
       <td>{{ s.iconicity }} <em>({{ s.certainty }})</em></td>

@@ -1,6 +1,6 @@
 ---
 title: "11 · The stone that talked"
-short_title: "11 · Decipherment"
+short_title: "11 · The stone that talked"
 description: >-
   Rosetta, Champollion, and the promise kept: Ptolemy's cartouche
   read in full, Cleopatra as the cross-check, Ramses as the leap —
@@ -49,7 +49,7 @@ chapter's batch.
       <td>a lasso</td>
       <td>w+ꜣ — the loop that carried the O-sound in foreign names;
           you saw both signs waiting inside Ptolemy's ring in
-          chapter 05</td>
+          <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a></td>
     </tr>
   </tbody>
 </table>
@@ -80,9 +80,9 @@ script.
 The Greek band of the Rosetta Stone is a decree honoring King
 Ptolemy V. The hieroglyphic band, whatever it said, kept
 repeating one group of signs inside a rope ring — and you know
-from chapter 05 what a cartouche wraps: a royal name. If the rings
+from <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> what a cartouche wraps: a royal name. If the rings
 held "Ptolemy," then a foreign king's name — spellable only sound
-by sound, as chapter 05 explained — would hand over the value of
+by sound, as <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> explained — would hand over the value of
 every sign inside it. That was the hunch. Here is the payoff,
 kept exactly as promised:
 
@@ -92,7 +92,7 @@ kept exactly as promised:
   </div>
   <figcaption class="citation">
     As carved on the Rosetta Stone, British Museum EA 24 — the
-    exhibit of chapter 05, now read in full. The lion and the lasso
+    exhibit of <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a>, now read in full. The lion and the lasso
     were the last two holdouts; this chapter taught them.
   </figcaption>
 </figure>
@@ -100,7 +100,7 @@ kept exactly as promised:
 Walk it: 𓊪 *p* — 𓏏 *t* — 𓍯 the lasso, carrying *o* — 𓃭 the lion,
 borrowed for *L* — 𓅓 *m* — 𓇋𓇋 *y* — 𓋴 *s*. *Ptolmys*: Ptolemy.
 Seven sounds, one Greek king, and not a single box left. The
-chapter 05 exhibit is now simply a reading.
+<a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> exhibit is now simply a reading.
 
 ## The cross-check: Cleopatra
 
@@ -112,7 +112,7 @@ sign still beyond this course:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script"><span class="nobr">𓍹𓈎𓃭𓇋𓍯𓊪𓄿𓂧𓂋𓄿𓏏▢𓁐𓍺</span></span><span class="translit">Qljwpꜣdrꜣ,t</span><span class="gloss">Cleopatra — with chapter 09's seated woman closing the queen's name, and one ▢ (an egg, another feminine marker) for a later day</span></div>
+    <div class="reading-line"><span class="script"><span class="nobr">𓍹𓈎𓃭𓇋𓍯𓊪𓄿𓂧𓂋𓄿𓏏▢𓁐𓍺</span></span><span class="translit">Qljwpꜣdrꜣ,t</span><span class="gloss">Cleopatra — with <a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">chapter 09's</a> seated woman closing the queen's name, and one ▢ (an egg, another feminine marker) for a later day</span></div>
   </div>
   <figcaption class="citation">
     As carved on the Philae obelisk (the Bankes obelisk, Kingston
@@ -136,7 +136,7 @@ therefore everything was.
 ## Which way does a line run?
 
 One more tool the decipherers needed, and so do you. This course
-prints every reading left-to-right, and told you so in chapter 01
+prints every reading left-to-right, and told you so in <a href="{{ '/hieroglyphs/101/01-stone-reed-papyrus/' | relative_url }}">chapter 01</a>
 — but real walls run whichever way the architecture wanted, and
 half the time that is right-to-left. The rule is a compass, and
 the animals are the needle:
@@ -196,7 +196,7 @@ Coptic word for "born." He knew 𓋴 from the rings. *Ra-mes-es* —
 historians: Ramses. The sound-signs were not a special trick for
 foreigners; they were the script's own machinery, and Egyptian
 royal names had been sentences all along, just like Meni's
-neighbors in chapter 07. Champollion ran to his brother's office,
+neighbors in <a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">chapter 07</a>. Champollion ran to his brother's office,
 announced *"Je tiens l'affaire!"* — I've got it — and fainted.
 He was out for five days. When he woke, everything you have done
 in this course had become possible.[^decipher]

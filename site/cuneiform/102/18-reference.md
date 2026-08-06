@@ -34,9 +34,9 @@ promise is complete.
   {% for s in taught %}
     <tr>
       <td class="script sign-cell">{{ s.glyph }}</td>
-      <td>{{ s.name }}</td>
+      <td>{{ s | sign_name }}</td>
       <td>{{ s.keyword }}</td>
-      <td><em>{{ s.value }}</em></td>
+      <td><em>{{ s | sign_reads }}</em></td>
       <td>{{ s.meaning }}</td>
       <td>{{ s.freq_etcsl | default: "—" }} / {{ s.freq_cdli | default: "—" }}</td>
       {% assign ch = site.pages | where: "course", "cuneiform-102" | where: "chapter", s.chapter | first %}
@@ -113,10 +113,10 @@ Reference conventions; the essentials:
   <a href="https://etcsl.orinst.ox.ac.uk/">ETCSL</a>, reachable
   with per-passage licenses through the
   <a href="https://arvicco.github.io/nabu/">Nabu</a> library.
-- **Next in this school:** Cuneiform 103 · Akkadian — the script's
-  second life in a Semitic tongue — opens in a later phase. The
-  [school catalog]({{ '/cuneiform/' | relative_url }}) holds the
-  map.
+- **Next in this school:**
+  [103 · Akkadian]({{ '/cuneiform/103/' | relative_url }}) — the
+  script's second life in a Semitic tongue, open and reading the
+  Codex Hammurapi.
 
 ## Sources and licenses
 

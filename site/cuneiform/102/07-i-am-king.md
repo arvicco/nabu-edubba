@@ -17,7 +17,7 @@ shows: []
 
 # I am king
 
-Chapter 06 closed with a promise: the little word that lets a king
+<a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">Chapter 06</a> closed with a promise: the little word that lets a king
 say "I am" — and the palace-sized vocabulary that follows it. Here
 is the surprise this chapter opens with: the little word is not new.
 You have owned both of its signs since
@@ -33,7 +33,7 @@ for once he can say it.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒆬</td><td>KU₃</td><td>pure</td><td><em>ku₃</em></td>
+      <td class="script sign-cell">𒆬</td><td>KU₃</td><td>pure</td><td>[ku]</td>
       <td>pure, holy; precious metal (silver)</td>
       <td>silver is "pure metal" in Sumerian long before it
           is anything else — and royal praise leans on this word
@@ -42,7 +42,7 @@ for once he can say it.
           <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> hidden genitive does</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒈤</td><td>MAH</td><td>exalted</td><td><em>mah</em></td>
+      <td class="script sign-cell">𒈤</td><td>MAH</td><td>exalted</td><td>[mah]</td>
       <td>great, exalted</td>
       <td>the majesty word — combine it with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
           abstraction-maker and you get <em>nam-mah</em>,
@@ -50,7 +50,7 @@ for once he can say it.
           titulary</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td><em>kalam</em></td>
+      <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td>[kalam]</td>
       <td>the Land — Sumer, as its own texts name itself</td>
       <td>not "a land" among others but <em>the</em> Land,
           the way a Sumerian text names its own country — kings are
@@ -152,7 +152,7 @@ carried into two different rooms.
 
 ## The genitive's hidden consonant, caught in the open
 
-Chapter 02 taught you the genitive *-ak* and warned you it likes to
+<a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">Chapter 02</a> taught you the genitive *-ak* and warned you it likes to
 hide: *e₂ lugal-ak*, "the king's house," routinely surfaces on clay as
 *e₂ lugal-a*, its final /k/ swallowed. That chapter promised the /k/
 comes back the moment a vowel gives it somewhere to land. Here is
@@ -160,7 +160,7 @@ that promise, kept, in *kalam*, this chapter's own new sign:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌧𒈠𒅗</span><span class="translit">kalam-ma-ka</span><span class="gloss">"in (the house) of the Land" — kalam + the genitive -ak with its hidden /k/ written out, because a real vowel follows: the locative -a of chapter 01, "in"</span></div>
+    <div class="reading-line"><span class="script">𒌧𒈠𒅗</span><span class="translit">kalam-ma-ka</span><span class="gloss">"in (the house) of the Land" — kalam + the genitive -ak with its hidden /k/ written out, because a real vowel follows: the locative -a of <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a>, "in"</span></div>
   </div>
   <figcaption class="citation">
     From a praise poem of Enlil-bani. <code>urn:nabu:etcsl:2.5.8.1:181</code>

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
+require "yaml"
 require_relative "../script/sign_linker"
 
 class SignLinkerTest < Minitest::Test
@@ -91,6 +92,75 @@ class SignLinkerTest < Minitest::Test
     refute_includes out, %(href="#{CODEX}")
   end
 
+  # --- §9 language separation: per-course codex routing ---
+
+  AKK_CODEX = "/cuneiform/addenda-akk/signs/an/"
+  TWO_CODEX_MAP = {
+    AN => { url: REF, anchor: "sign-1202D", tip: "AN · an · heaven",
+            codex: CODEX, codex_akk: AKK_CODEX },
+    ME => { url: CH0, anchor: "sign-12228", codex: "/cuneiform/addenda/signs/me/" }
+  }.freeze
+
+  def test_akkadian_pages_route_sign_cells_to_the_akk_codex
+    html = %(<td class="sign-cell">#{AN}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/103/01-x/", "", :codex_akk)
+    assert_includes out, %(href="#{AKK_CODEX}")
+    refute_includes out, %(href="#{CODEX}")
+  end
+
+  def test_akk_routing_falls_back_to_teaching_link_never_the_sux_codex
+    html = %(<td class="sign-cell">#{ME}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/103/01-x/", "", :codex_akk)
+    assert_includes out, %(href="#{CH0}#sign-12228")
+    refute_includes out, %(addenda/signs/me)
+  end
+
+  def test_akkadian_pages_show_the_akkadian_tip_never_the_sumerian
+    map = { AN => { url: REF, anchor: "sign-1202D",
+                    tip: "AN · [an], diŋir · heaven; god",
+                    tip_akk: "AN · [an] · the sky-god, unchanged" } }
+    akk = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/103/04-x/", "", :codex_akk)
+    assert_includes akk, "the sky-god, unchanged"
+    refute_includes akk, "diŋir · heaven"
+    sux = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/102/04-x/", "")
+    assert_includes sux, "diŋir · heaven"
+    refute_includes sux, "sky-god, unchanged"
+  end
+
+  def test_sux_pages_still_route_to_the_sux_codex
+    html = %(<td class="sign-cell">#{AN}</td>)
+    out = Edubba::SignLinker.transform(html, TWO_CODEX_MAP, "/cuneiform/102/01-x/", "")
+    assert_includes out, %(href="#{CODEX}")
+    refute_includes out, %(addenda-akk)
+  end
+
+  def test_display_form_folds_akkadian_emphatics_and_subscripts
+    assert_equal "ṣi", Edubba::SignLinker.display_form("s,i")
+    assert_equal "ṭu₂", Edubba::SignLinker.display_form("t,u2")
+    assert_equal "ku₃", Edubba::SignLinker.display_form("ku3")
+    assert_equal "šum₂", Edubba::SignLinker.display_form("szum2")
+  end
+
+  def test_phonetic_strips_indexes_and_joins_variants
+    assert_equal "ku", Edubba::SignLinker.phonetic("ku3")
+    assert_equal "ṣi/ṣe", Edubba::SignLinker.phonetic("s,i, s,e")
+    assert_equal "niŋ", Edubba::SignLinker.phonetic("niŋ₂")
+  end
+
+  def test_reads_display_separates_lexemes_from_phonetic_variants
+    assert_equal "[an], diŋir", Edubba::SignLinker.reads_display("an; diŋir (dijir/dingir)")
+    assert_equal "[wa/wi]", Edubba::SignLinker.reads_display("wa, wi")
+    assert_equal "[dumu], tur", Edubba::SignLinker.reads_display("dumu; tur")
+    assert_equal "[ni], i₃", Edubba::SignLinker.reads_display("ni; i₃ (i3)")
+  end
+
+  def test_tip_text_prefers_explicit_display_value
+    tip = Edubba::SignLinker.tip_text(
+      { "name" => "GAR", "value" => "nig2", "display_value" => "niŋ₂", "meaning" => "thing" }
+    )
+    assert_equal "GAR · [niŋ] · thing", tip
+  end
+
   def test_build_map_prefers_queue_chapters_for_queue_signs
     teaching = { "signs" => [{ "glyph" => AN, "codepoint" => "1202D" }] }
     queue = { "signs" => [{ "glyph" => ME, "codepoint" => "12228", "chapter" => 0 }] }
@@ -107,8 +177,37 @@ class SignLinkerTest < Minitest::Test
                             "name" => "EŠ2", "value" => "sze3",
                             "meaning" => "rope (stated); the terminative -sze3" }] }
     map = Edubba::SignLinker.build_map(teaching, queue, REF, { 0 => CH0 })
-    assert_equal "AN · an; diŋir · heaven; god", map[AN][:tip]
-    assert_equal "EŠ₂ · še₃ · rope; the terminative -še₃", map[ME][:tip]
+    assert_equal "AN · [an], diŋir · heaven; god", map[AN][:tip]
+    assert_equal "EŠ₂ · [še] · rope; the terminative -še₃", map[ME][:tip]
+  end
+
+  def test_tip_text_veteran_keeps_reads_and_hook_drops_boilerplate
+    tip = Edubba::SignLinker.tip_text_veteran(
+      { "name" => "BI", "value" => "pi2", "keyword" => "its",
+        "meaning" => "veteran — BI gains [pi₂]: the last syllable of Ḫammurapi" }
+    )
+    assert_equal "BI · [pi] · the last syllable of Ḫammurapi", tip
+  end
+
+  def test_pool_103_veteran_tips_stay_hover_sized
+    pool = YAML.safe_load_file("assets-src/data/pool-103.yml")["signs"]
+    pool.select { |s| s["veteran"] }.each do |s|
+      tip = Edubba::SignLinker.tip_text_veteran(s)
+      refute_match(/veteran/, tip, "#{s['name']}: boilerplate leaked into a hover tip")
+      assert_match(/·\s\[/, tip, "#{s['name']}: tip #{tip.inspect} lost the Akkadian reading")
+      assert_operator tip.length, :<=, 60, "#{s['name']}: tip #{tip.inspect} outgrew a hover bubble"
+    end
+  end
+
+  def test_transform_routes_veteran_to_akk_reintroduction_on_akk_pages
+    map = { AN => { url: "/cuneiform/102/03-say-it-twice/", url_akk: "/cuneiform/103/05-the-verb-arrives/",
+                    anchor: "sign-1202D", tip: "sux tip", tip_akk: "akk tip" } }
+    sux = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/102/09-x/", "", :codex)
+    akk = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/103/06-if-a-man/", "", :codex_akk)
+    assert_includes sux, 'href="/cuneiform/102/03-say-it-twice/#sign-1202D"'
+    assert_includes sux, ">sux tip<"
+    assert_includes akk, 'href="/cuneiform/103/05-the-verb-arrives/#sign-1202D"'
+    assert_includes akk, ">akk tip<"
   end
 
   def test_tip_text_escapes_html_and_skips_empty

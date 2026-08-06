@@ -106,14 +106,14 @@ three commonest kinds of picture in the script:
 Notice what the table's Reads column already told you: each picture
 has a *reading* — a sound — that has nothing to do with owls, water,
 or mouths. How a picture comes to spell a sound is the story of
-chapter 03, and it is the same rebus story every writing system in
+<a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>, and it is the same rebus story every writing system in
 this school tells.
 
 One honest note on display. Carved Egyptian text arranges signs in
 neat invisible squares, stacking short signs above one another, and
 runs as often right-to-left as left-to-right. This site prints
 hieroglyphs in a single line, left to right, so that you can always
-match a sign to its transliteration; chapter 01 shows real stacked
+match a sign to its transliteration; <a href="{{ '/hieroglyphs/101/01-stone-reed-papyrus/' | relative_url }}">chapter 01</a> shows real stacked
 arrangements in figures, and the conventions are declared once in
 the course Reference. What you read here is real; how it sits on
 the page is the beginner-friendly arrangement.
@@ -158,7 +158,7 @@ are sounds:
   Egyptologists drop in a flat "e" and read *ꜣ* and *ꜥ* as "a":
   *nfr* becomes "nefer," *ḥtp* becomes "hotep," *Ppj* becomes
   "Pepi." These are reading conveniences, not recovered
-  pronunciations — chapter 03 tells the whole story.
+  pronunciations — <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a> tells the whole story.
 - **≡** joins a suffix pronoun to its word: *zꜣ≡f*, "his son" —
   the *≡f* is "his."
 - **Commas and dots** (*zꜣ,t*; *msi̯.t*) are editors' seams,
@@ -172,7 +172,7 @@ are sounds:
   edition ever printed.
 
 You do not need to memorize this table now. It lives here, at the
-front door, so that when a *ḏ* or an *ꜣ* walks past in chapter 04
+front door, so that when a *ḏ* or an *ꜣ* walks past in <a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">chapter 04</a>
 you can flip back one page instead of wondering whether your
 screen is broken. The special terms in the table carry their own
 hover-notes wherever they appear, and the

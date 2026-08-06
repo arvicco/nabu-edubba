@@ -1,6 +1,7 @@
 ---
 layout: course
 school: cuneiform
+nav_order: 10
 course_no: 101
 title: Cuneiform 101 · Foundations
 short_title: C 101 Foundations

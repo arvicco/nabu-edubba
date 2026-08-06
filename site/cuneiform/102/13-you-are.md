@@ -17,7 +17,7 @@ shows: []
 
 # You are
 
-Chapter 07 taught a king to say "I am." This chapter teaches the
+<a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">Chapter 07</a> taught a king to say "I am." This chapter teaches the
 other half of every hymn and every argument — *you are* — and then
 pays off a case the course has been quietly reading past since
 <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a>. A light batch of two, both put to work at once.
@@ -30,15 +30,15 @@ pays off a case the course has been quietly reading past since
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌗</td><td>ITI</td><td>month</td><td><em>iti</em></td>
+      <td class="script sign-cell">𒌗</td><td>ITI</td><td>month</td><td>[iti]</td>
       <td>month</td>
       <td>look closely: it is the day-sign 𒌓 with a thirty tucked
           inside — a month <em>is</em> thirty days, drawn as exactly
           that; the workhorse of every dated receipt</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td><em>za</em></td>
-      <td>bead, precious stone; the syllable za</td>
+      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[za]</td>
+      <td>bead, precious stone; [za]</td>
       <td>its star turn is the word below — <em>za-e</em>,
           "you"</td>
     </tr>
@@ -86,7 +86,7 @@ same little copula carries both.
 
 One case tag has been on quiet duty since <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> list first
 named it: the **locative** *-a*, "in, on, at" — one bare vowel,
-easy to read past. Chapter 10's *ud re-a*, "in that distant day,"
+easy to read past. <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">Chapter 10's</a> *ud re-a*, "in that distant day,"
 wore it; its everyday twin is everywhere:
 
 <figure class="reading reading--script">

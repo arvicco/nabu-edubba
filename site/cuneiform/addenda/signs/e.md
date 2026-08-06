@@ -6,16 +6,16 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "E"
-reads: "e"
+reads: "[e]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/e/
 ---
 
 ## Where it comes from
 
-As a word it is a levee or ditch (stated) — the earthwork lines
+As a word it is a levee or ditch — the earthwork lines
 of an irrigated country. Its rank comes from grammar: the bare
 vowel *e* marks the agent in context and sits inside everyday
 words like *za-e*, "you" — enough duty to make it the

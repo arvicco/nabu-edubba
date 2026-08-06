@@ -585,3 +585,46 @@ exported decks, zero JS.
    all twelve as face-down tiles, :visited fading used ones. A
    daily cron on the Pages workflow re-renders main, committing
    nothing. Law in cuneiform.md §8 "The deal".
+
+Gate 11 CLOSED — PR #14 merged 2026-08-05, CI + deploy green,
+live verified in pixels (today's tile cut 10 for the deploy date,
+cut pages and confusables serving, reference Wedges gone and
+Taught-in linking). Owner review absorbed in three rounds, each a
+durable change: the deal (M11-7, both active and passive
+entropy); Easily confused split to its own shelf; the deck hidden
+under the tiles; Taught-in cells linked on every surface that had
+them as text; wedge counts dropped from all displays (registry
+field and compiler scoring intact).
+
+## Phase 12 — C103 Akkadian, stretch 1 (plan pending owner approval)
+
+Source: owner pick 2026-08-05 ("let's start on Akkadian").
+Rulebook extension FIRST (carried constraint from the Phase 11
+closure). Detailed plan: .docs/phase-12-plan.md. Anchor text
+verified in Nabu: Codex Hammurapi composite (cdli p464358,
+3,641 lines, license attribution). Proposed rulings pending
+owner rulings 2026-08-05: dialect = Old Babylonian; course
+/cuneiform/103/ ships stretch 1; transliteration law approved;
+akk frequency base approved; LANGUAGE SEPARATION ruled — no
+mixed codex: existing Addenda stays purely Sumerian (retitled
+C SUX Addenda, permalinks untouched), a new C AKK Addenda
+carries a completely separate Akkadian Sign Codex on its own
+frequency base; the KEYWORD is the cross-language invariant
+(one keyword per sign, identical across codices, unique across
+the school); C103 veterans link to the akk codex.
+
+## M12-1 · The Akkadian law  [tier: top — Fable] [status: done — §9 ruled, two-codex checks live, 3 terms]
+   cuneiform.md Akkadian sections (dialect, transliteration +
+   bound transcription, language separation + keyword invariance,
+   ordering) + rulebook.rb two-codex checks + terms.yml. No
+   content until this lands.
+## M12-2 · Instruments  [tier: mid] [status: done — OB freq base (204,820 passages), warmup 3rd segment, per-course codex routing, SUX retitle; queue/pool/compiler land with M12-3 content, per the C102 precedent]
+   akk value-frequency (lect=akk:ob, separate base), picker
+   --lang=akk, cuneiform103 registry/queue + pool-103, compiler
+   run; warm-up third segment; sign_linker per-course routing to
+   the akk codex; C AKK Addenda scaffolding + C SUX retitle;
+   exact-value tests. Fold the ASCII value-display nit fix.
+## M12-3 · Orientation + first syllables  [tier: top — Fable] [status: done — pool-103 (20 new + 6 veterans, all pinned, nabu-verified), akk compiler, ch 00-01]
+## M12-4 · The shape of the language  [tier: top — Fable] [status: done — ch 02-05: cases/mimation, construct, prologue lines 1-3, preterite/durative]
+## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
+## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]

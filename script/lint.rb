@@ -95,6 +95,10 @@ module Edubba
       if path.end_with?(".md") && !text.start_with?("---\n")
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
+      found.concat(check_nav_label(path, text))
+      found.concat(check_codex_reads(path, text))
+      found.concat(check_chapter_links(path, text))
+      found.concat(check_akk_translit(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -107,6 +111,102 @@ module Edubba
       found
     rescue ArgumentError, Encoding::InvalidByteSequenceError
       [Violation.new(path, "encoding", "not valid UTF-8")]
+    end
+
+    # nav-label (owner report 2026-08-06: the sidebar said "šumma"
+    # while the page said "If a man…"): a CHAPTER's short_title must
+    # be drawn from its title — the label text (after the "NN · "
+    # prefix) a case-insensitive substring of the title text — so
+    # navbar and page can never disagree. Course indexes (no
+    # chapter:) keep their deliberate short codes (C SUX Addenda).
+    def check_nav_label(path, text)
+      return [] unless path.end_with?(".md") && text.start_with?("---\n")
+      return [] unless (fm_end = text.index("\n---", 4))
+
+      require "yaml"
+      fm = YAML.safe_load(text[4..fm_end]) rescue nil
+      return [] unless fm.is_a?(Hash) && fm["chapter"] && fm["title"] && fm["short_title"]
+
+      strip = ->(s) { s.to_s.sub(/\A\d+\s*·\s*/, "").downcase }
+      title, label = strip.call(fm["title"]), strip.call(fm["short_title"])
+      return [] if title.include?(label)
+
+      [Violation.new(path, "nav-label",
+                     "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
+    end
+
+    # akk-translit (§9, owner rulings 2026-08-06): Akkadian reading
+    # transliterations carry no homophone indexes (i-nu, not i₃-nu)
+    # and no lowercase sumerograms (KALAM, not kalam) — the script
+    # column carries sign identity. Applies to translit spans on
+    # Akkadian-course pages only; raw-ATF spans exempt as ever.
+    SUMEROGRAMS = /\b(lugal|kalam|dumu|iti|e2|ku3-babbar)\b/
+    def check_akk_translit(path, text)
+      return [] unless path.match?(%r{cuneiform/(103|addenda-akk)/})
+
+      found = []
+      text.scan(TRANSLIT_SPAN) do
+        extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
+        next if extra.split.include?("atf")
+
+        if (hit = body[/\p{L}[₀-₉]+/])
+          found << Violation.new(path, "akk-translit",
+                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9)")
+        end
+        if (hit = body[SUMEROGRAMS])
+          found << Violation.new(path, "akk-translit",
+                                 "lowercase sumerogram #{hit.inspect} in an Akkadian reading — CAPS (LUGAL, KALAM) per §9")
+        end
+      end
+      found
+    end
+
+    # codex-reads (owner report 2026-08-06: a Reads row carried "the
+    # particle ša, …" — meaning prose): a cuneiform codex page's
+    # reads: field holds READINGS only — one bracket of phonetic
+    # variants, then optional word-readings in transliteration, then
+    # at most a "(fuller form …)" note. Meaning belongs to Means and
+    # the page body.
+    CODEX_READS = %r{\A\[[a-zāēīūâêîûšṣṭḫŋʾ'/]+\](, [a-zšṣṭḫŋ₀-₉]+)*( \(fuller form [a-zšṣṭḫŋ₀-₉]+\))?\z}
+    def check_codex_reads(path, text)
+      return [] unless path.match?(%r{cuneiform/addenda[^/]*/signs/}) && !path.end_with?("index.md")
+      return [] unless (m = text.match(/^reads: "((?:[^"\\]|\\.)*)"$/))
+
+      reads = m[1].gsub('\\"', '"')
+      return [] if reads.match?(CODEX_READS)
+
+      [Violation.new(path, "codex-reads",
+                     "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
+    end
+
+    # chapter-link (owner request 2026-08-06, mechanizing the §4
+    # back-reference law): every "chapter NN" mention in a page BODY
+    # must sit inside a link — HTML or markdown — except a page's
+    # reference to its own chapter number. Front matter is exempt
+    # (descriptions cannot carry links).
+    def check_chapter_links(path, text)
+      return [] unless path.end_with?(".md")
+
+      body = text
+      own = nil
+      if text.start_with?("---\n") && (fm_end = text.index("\n---", 4))
+        require "yaml"
+        fm = YAML.safe_load(text[4..fm_end]) rescue nil
+        own = fm["chapter"] if fm.is_a?(Hash)
+        body = text[(fm_end + 4)..].to_s
+      end
+      linkless = body.gsub(%r{<svg\b.*?</svg>}m, "")
+                     .gsub(%r{<a\b[^>]*>.*?</a>}m, "")
+                     .gsub(/\[[^\]]*\]\([^)]*\)/, "")
+      found = []
+      linkless.scan(/chapters?\s+(\d{1,2})\b/i) do
+        n = Regexp.last_match(1).to_i
+        next if own && n == own
+
+        found << Violation.new(path, "chapter-link",
+                               "\"chapter #{Regexp.last_match(1)}\" mentioned without a link — back-references carry links (§4)")
+      end
+      found
     end
   end
 end

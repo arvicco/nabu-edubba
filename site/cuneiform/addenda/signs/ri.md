@@ -6,10 +6,10 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "RI"
-reads: "ri, re"
+reads: "[ri/re]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/ri/
 ---
 

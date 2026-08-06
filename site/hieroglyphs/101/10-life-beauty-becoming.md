@@ -1,6 +1,6 @@
 ---
 title: "10 · Life, beauty, becoming"
-short_title: "10 · Culture words"
+short_title: "10 · Life, beauty, becoming"
 description: >-
   The four signs everyone already half-knows — ankh, nefer, the
   scarab, and the god-flag — taught honestly, with the words and
@@ -90,7 +90,7 @@ with a chisel.
 
 ## Khufu lives
 
-The family-album genre of chapter 08, one more time — now with a
+The family-album genre of <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">chapter 08</a>, one more time — now with a
 name that smuggles in the grandest builder of them all:
 
 <figure class="reading reading--script">
@@ -119,7 +119,7 @@ could have been written this morning:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𓃀𓏲𓄤𓆑𓂋 𓆣𓂋 𓅓 𓃀𓏲𓃀𓇋𓈖𓅪</span><span class="translit">bw-nfr ḫpr m bw-bjn</span><span class="gloss">"the good becomes the bad" — nfr with its complements f and r; the scarab turning it; and "bad" closed by chapter 09's sparrow, right on schedule</span></div>
+    <div class="reading-line"><span class="script">𓃀𓏲𓄤𓆑𓂋 𓆣𓂋 𓅓 𓃀𓏲𓃀𓇋𓈖𓅪</span><span class="translit">bw-nfr ḫpr m bw-bjn</span><span class="gloss">"the good becomes the bad" — nfr with its complements f and r; the scarab turning it; and "bad" closed by <a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">chapter 09's</a> sparrow, right on schedule</span></div>
   </div>
   <figcaption class="citation">
     Middle Kingdom literary papyrus (SAW <em>Literatur</em>), via

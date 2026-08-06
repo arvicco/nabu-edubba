@@ -1,6 +1,6 @@
 ---
 title: "08 · Born of, son of"
-short_title: "08 · Complements"
+short_title: "08 · Born of, son of"
 description: >-
   Why scribes double their sounds — the phonetic complement, spelling
   that checks itself — and the family trees Egyptians carved on their
@@ -17,7 +17,7 @@ shows: []
 
 # Born of, son of
 
-Chapter 07 kept pointing at little signs "shadowing" bigger ones
+<a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">Chapter 07</a> kept pointing at little signs "shadowing" bigger ones
 and promising an explanation. Here it is — and it turns out to be
 one of the most humane ideas in the whole script: Egyptian spelling
 checks itself. Three new signs first, all three chosen because the
@@ -58,7 +58,7 @@ upturned tail and it is unmistakably a pintail.
 
 ## Grammar bite — spelling that checks itself
 
-Here is the trick chapter 07 showed you without naming. A scribe
+Here is the trick <a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">chapter 07</a> showed you without naming. A scribe
 writes 𓏠 *mn* — and then adds 𓈖 *n* right after it. Not because
 the word has three sounds; it has two. The extra 𓈖 is a
 **phonetic complement**: a one-sound sign repeating part of what
@@ -70,7 +70,7 @@ because some signs carry more than one value. The complement
 settles it: whatever this sign might be elsewhere, *here* it ends
 in *n*. Egyptians read with training wheels permanently attached —
 and it made their writing astonishingly robust. You already met the
-same spirit in chapter 03's "belt and suspenders" spellings; now it
+same spirit in <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> "belt and suspenders" spellings; now it
 has a name and a system.
 
 Watch it work on this chapter's own verb:
@@ -101,8 +101,8 @@ full:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓅭 𓆑 𓃀𓃀𓇋</span><span class="translit">zꜣ≡f Bbj</span><span class="gloss">"his son, Bebi"</span></div>
-    <div class="reading-line"><span class="script">𓅭𓏏 𓆑 𓊵𓏏𓊪𓁷𓂋𓋴</span><span class="translit">zꜣ,t≡f Ḥtp-ḥr≡s</span><span class="gloss">"his daughter, Hetep-heres" — the queen's name from chapter 07, worn by a daughter; the -t after the duck makes "son" into "daughter"</span></div>
-    <div class="reading-line"><span class="script">𓅭 𓆑 𓈖 𓄡𓏏 𓆑 𓏏𓏏𓇋</span><span class="translit">zꜣ≡f n ẖ,t≡f Ttj</span><span class="gloss">"his son of his body, Teti" — the full formal phrase for a child of one's own; and there is chapter 05's royal name again, on a family wall</span></div>
+    <div class="reading-line"><span class="script">𓅭𓏏 𓆑 𓊵𓏏𓊪𓁷𓂋𓋴</span><span class="translit">zꜣ,t≡f Ḥtp-ḥr≡s</span><span class="gloss">"his daughter, Hetep-heres" — the queen's name from <a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">chapter 07</a>, worn by a daughter; the -t after the duck makes "son" into "daughter"</span></div>
+    <div class="reading-line"><span class="script">𓅭 𓆑 𓈖 𓄡𓏏 𓆑 𓏏𓏏𓇋</span><span class="translit">zꜣ≡f n ẖ,t≡f Ttj</span><span class="gloss">"his son of his body, Teti" — the full formal phrase for a child of one's own; and there is <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05's</a> royal name again, on a family wall</span></div>
   </div>
   <figcaption class="citation">
     Old Kingdom tomb inscriptions (BBAW <em>Grabinschriften</em>),
@@ -146,8 +146,8 @@ sense: knock one sign out, and the word usually still reads.
 
 ## A pharaoh assembled
 
-Chapter 07 composed Amun. Add the offering-table word you have had
-since chapter 06, and a pharaoh's name falls together:
+<a href="{{ '/hieroglyphs/101/07-two-sounds-one-sign/' | relative_url }}">Chapter 07</a> composed Amun. Add the offering-table word you have had
+since <a href="{{ '/hieroglyphs/101/06-the-offering-formula/' | relative_url }}">chapter 06</a>, and a pharaoh's name falls together:
 
 <figure class="composition">
   <p class="composition-row script" aria-label="Amun plus hotep spelling Amenhotep">

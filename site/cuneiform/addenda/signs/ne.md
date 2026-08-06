@@ -6,16 +6,16 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "NE"
-reads: "ne"
+reads: "[ne]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
-course_title: "Cuneiform Addenda"
+course_title: "Sumerian Addenda"
 permalink: /cuneiform/addenda/signs/ne/
 ---
 
 ## Where it comes from
 
-A brazier or fire (stated) — the household flame in its stand.
+A brazier or fire — the household flame in its stand.
 As a syllable *ne* it works far from the hearth: in pronouns
 (*a-ne*, "he/she"; *diŋir-re-ne*, "the gods"), in names, and as
 *ne-en*, "this." The fire-sign, hired out as a sound.

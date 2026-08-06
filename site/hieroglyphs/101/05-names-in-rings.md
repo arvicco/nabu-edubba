@@ -45,7 +45,7 @@ work immediately, on stone.
       <td class="script sign-cell">𓇓</td><td>M23</td><td>sedge</td><td><em>sw</em></td>
       <td>sedge plant</td>
       <td>the word <em>nswt</em>, "king (of Upper Egypt)," is written
-          with it; it returns as the opening sign of chapter 06's
+          with it; it returns as the opening sign of <a href="{{ '/hieroglyphs/101/06-the-offering-formula/' | relative_url }}">chapter 06's</a>
           formula</td>
     </tr>
   </tbody>
@@ -127,18 +127,18 @@ final sound generously, and it ends in a sign you have not met:
     <code>urn:nabu:aes:sawlit:L4M2NZM2YZAZRBIKQQBAVX743U:IBUBd34TiLKLQ0FqjeiMWhwlezE</code>
     · license: attribution. The final ▢ is a seated-figure sign that
     classifies the word as a person of rank — a determinative,
-    chapter 03's silent classifier, still untaught in glyph form.
+    <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> silent classifier, still untaught in glyph form.
     This papyrus writes the name as borne by a namesake, not the
-    king himself — chapter 09 tells that story, and opens the box.
+    king himself — <a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">chapter 09</a> tells that story, and opens the box.
   </figcaption>
 </figure>
 
 Read it cold before checking the gloss: 𓊪 *p*, 𓊪 *p*, then the reed
 doubled 𓇋𓇋 and the y-mark 𓏭 — three signs all spelling the name's
-final glide, belt and suspenders in the manner of chapter 03.
+final glide, belt and suspenders in the manner of <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>.
 Egyptologists render it *Ppj*: Pepi. The box at the end tells you
 only that a person is meant; it
-does not spell a sound. You will own it when chapter 09 opens the
+does not spell a sound. You will own it when <a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">chapter 09</a> opens the
 classifiers of people and titles.
 
 ## The name carved first
@@ -188,7 +188,7 @@ nothing pictorial hiding the sounds.
   <figcaption class="citation">
     As carved on the Rosetta Stone, British Museum EA 24. Shown here
     as an exhibit; read in full, with its decipherment story, in
-    chapter 11.
+    <a href="{{ '/hieroglyphs/101/11-the-stone-that-talked/' | relative_url }}">chapter 11</a>.
   </figcaption>
 </figure>
 

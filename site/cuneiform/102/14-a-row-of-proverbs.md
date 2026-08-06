@@ -1,6 +1,6 @@
 ---
 title: "14 · A row of proverbs"
-short_title: "14 · Proverbs, rows"
+short_title: "14 · A row of proverbs"
 description: >-
   Connected reading begins: a row of school proverbs — dogs, gluttons,
   the wise and their modesty — plus the last wish-ring, na-, and four
@@ -17,7 +17,7 @@ shows: []
 
 # A row of proverbs
 
-Chapter 09 read two proverb lines and called them the oldest
+<a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">Chapter 09</a> read two proverb lines and called them the oldest
 after-school sentences on earth. Schoolboys in the é-dub-ba-a did
 not copy proverbs one at a time — they copied them by the row, and
 from this chapter on, so do you. Four signs first; every one of
@@ -31,25 +31,25 @@ them will have earned its seat before the row is done.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋛</td><td>SI</td><td>horn</td><td><em>si</em></td>
+      <td class="script sign-cell">𒋛</td><td>SI</td><td>horn</td><td>[si]</td>
       <td>horn; to fill</td>
       <td>a horn in profile — and, doubled, the verb of granaries
           and floods filling up</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒄄</td><td>GI4</td><td>return</td><td><em>gi₄</em></td>
+      <td class="script sign-cell">𒄄</td><td>GI₄</td><td>return</td><td>[gi]</td>
       <td>to return, restore; to answer</td>
       <td>the homecoming verb — hearts, messengers, and answers all
           travel on it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td><em>di</em></td>
+      <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td>[di]</td>
       <td>lawsuit, judgment; also a going</td>
       <td>court records say <em>di</em> for a case; the proverbs use
           its going-sense for anyone who wanders</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td><em>dab₅</em></td>
+      <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td>[dab]</td>
       <td>to seize; also to sit, dwell (tuš)</td>
       <td>several jobs; today it is the hand of fate
           closing on a glutton</td>
@@ -59,7 +59,7 @@ them will have earned its seat before the row is done.
 
 ## Grammar bite — the last wish-ring
 
-Chapter 09 gave you *ga-* ("let me") and *ha-* ("may it be").
+<a href="{{ '/cuneiform/102/09-the-proverb-tablet/' | relative_url }}">Chapter 09</a> gave you *ga-* ("let me") and *ha-* ("may it be").
 Sumerian has one more ring in that family, and the proverbs lean
 on it hard: **na-** — "let him *not*," the prohibitive. Where
 *nu-* states a fact ("he did not"), *na-* issues a warning ("he
