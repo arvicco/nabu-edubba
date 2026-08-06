@@ -214,6 +214,9 @@ class LintTest < Minitest::Test
 
     ok = %(<span class="translit">LUGAL {d}a-nun-na-ki i-nu</span>)
     assert_empty Edubba::Lint.check_akk_translit(path, ok)
+    caps_name = %(<span class="translit">E₂-su i-tab-ba-al</span>)
+    assert_empty Edubba::Lint.check_akk_translit(path, caps_name),
+                 "a sumerogram NAME keeps its index (E₂)"
     assert_empty Edubba::Lint.check_akk_translit("site/cuneiform/102/01-x.md", idx),
                  "Sumerian courses keep their indexes"
   end

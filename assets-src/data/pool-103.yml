@@ -59,3 +59,12 @@ signs:
   - { glyph: "𒇴", codepoint: "121F4", name: "LAM", value: "lam",  meaning: "luxuriance, flourishing",       freq_akkob: 112, certainty: unclear, chapter: 7, keyword: "flourish" }
   - { glyph: "𒆗", codepoint: "12197", name: "KAL", value: "dan",  veteran: true, meaning: "veteran — KAL gains [dan]: dannum, \"the strong\"",                 freq_akkob: 284, certainty: stated,  chapter: 7, keyword: "mighty" }
   - { glyph: "𒌅", codepoint: "12305", name: "TU",  value: "t,u2", veteran: true, meaning: "veteran — TU gains [ṭu₂]: ṭubbim, \"to make well\"",                 freq_akkob: 125, certainty: stated,  chapter: 7, keyword: "born" }
+  # ---- stretch 2 (phase 13) ----
+  # ch 08 · More than one (the plural)
+  - { glyph: "𒈪", codepoint: "1222A", name: "MI",  value: "mi",   meaning: "night, black",                                              freq_akkob: 33,  certainty: stated,  chapter: 8, keyword: "night" }
+  - { glyph: "𒀾", codepoint: "1203E", name: "AŠ2", value: "as2",  meaning: "a curse in the lists",                                      freq_akkob: 194, certainty: unclear, chapter: 8, keyword: "curse" }
+  - { glyph: "𒅁", codepoint: "12141", name: "IB",  value: "ib, eb, ep", meaning: "a corner in the lists",                               freq_akkob: 52,  certainty: unclear, chapter: 8, keyword: "corner" }
+  # ch 09 · The stems named (G, D, Š, N)
+  - { glyph: "𒅋", codepoint: "1214B", name: "IL",  value: "il",   meaning: "the il- of illak, \"he goes\"",                             freq_akkob: 64,  certainty: unclear, chapter: 9, keyword: "step" }
+  - { glyph: "𒀠", codepoint: "12020", name: "AL",  value: "al",   meaning: "the hoe",                                                   freq_akkob: 51,  certainty: classic, chapter: 9, keyword: "hoe" }
+  - { glyph: "𒋰", codepoint: "122F0", name: "TAB", value: "tab, tap", meaning: "two wedges side by side — a pair; to double",           freq_akkob: 219, certainty: stated,  chapter: 9, keyword: "pair" }

@@ -56,6 +56,18 @@ batches:
   - KAL (vet)
   - TU (vet)
   coverage_akkob_pct: 68.0
+- chapter: 8
+  signs:
+  - MI
+  - AŠ2
+  - IB
+  coverage_akkob_pct: 69.5
+- chapter: 9
+  signs:
+  - IL
+  - AL
+  - TAB
+  coverage_akkob_pct: 70.6
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -320,3 +332,57 @@ signs:
   certainty: stated
   chapter: 7
   keyword: born
+- glyph: "\U0001222A"
+  codepoint: 1222A
+  name: MI
+  value: mi
+  meaning: night, black
+  freq_akkob: 33
+  certainty: stated
+  chapter: 8
+  keyword: night
+- glyph: "\U0001203E"
+  codepoint: 1203E
+  name: AŠ2
+  value: as2
+  meaning: a curse in the lists
+  freq_akkob: 194
+  certainty: unclear
+  chapter: 8
+  keyword: curse
+- glyph: "\U00012141"
+  codepoint: '12141'
+  name: IB
+  value: ib, eb, ep
+  meaning: a corner in the lists
+  freq_akkob: 52
+  certainty: unclear
+  chapter: 8
+  keyword: corner
+- glyph: "\U0001214B"
+  codepoint: 1214B
+  name: IL
+  value: il
+  meaning: the il- of illak, "he goes"
+  freq_akkob: 64
+  certainty: unclear
+  chapter: 9
+  keyword: step
+- glyph: "\U00012020"
+  codepoint: '12020'
+  name: AL
+  value: al
+  meaning: the hoe
+  freq_akkob: 51
+  certainty: classic
+  chapter: 9
+  keyword: hoe
+- glyph: "\U000122F0"
+  codepoint: 122F0
+  name: TAB
+  value: tab, tap
+  meaning: two wedges side by side — a pair; to double
+  freq_akkob: 219
+  certainty: stated
+  chapter: 9
+  keyword: pair

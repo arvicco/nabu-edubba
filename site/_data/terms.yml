@@ -232,3 +232,7 @@ terms:
     school: akk
     slug: verbal-stem
     def: "one of the shapes a verb's root can be built into — G the ground stem, D the doubled-middle, Š the causative, N the passive — each with its own preterite and durative"
+  - name: stative
+    school: akk
+    slug: stative
+    def: "an adjective or noun conjugated like a tiny verb, stating a condition with no verb in sight — nasqā, \"(my words) are choice\""

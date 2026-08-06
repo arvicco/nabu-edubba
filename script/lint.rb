@@ -175,9 +175,9 @@ module Edubba
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
 
-        if (hit = body[/\p{L}[₀-₉]+/])
+        if (hit = body[/\p{Lower}[₀-₉]+/])
           found << Violation.new(path, "akk-translit",
-                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9)")
+                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9). CAPS sumerogram NAMES (E₂) keep theirs")
         end
         if (hit = body[SUMEROGRAMS])
           found << Violation.new(path, "akk-translit",

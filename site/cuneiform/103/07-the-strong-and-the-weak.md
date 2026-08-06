@@ -142,8 +142,9 @@ Same drill — item by item:
   construct chain in the genitive. One honest note: "people" is
   a plural, and its genitive ends in -ī — a column
   <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a>
-  singular table does not have. The next stretch tables the
-  plurals; for now, hold the chain's sense: *flesh-of
+  singular table does not have.
+  <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">Chapter 08</a>
+  tables the plurals; for now, hold the chain's sense: *flesh-of
   the-people.*
 - <span class="norm">ṭubbim</span> — "the making-well": another
   infinitive, so another noun — and under ana's rule it takes

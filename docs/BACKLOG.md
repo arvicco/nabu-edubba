@@ -648,14 +648,14 @@ plan: .docs/phase-13-plan.md. Reading arc: plurals → stems → laws
 stretch close; akk retrieval mirror (drills + deck) lands at the
 end, lifting the Gate-12 deferral.
 
-## M13-1 · The stretch-2 law  [tier: top — Fable] [status: todo]
+## M13-1 · The stretch-2 law  [tier: top — Fable] [status: done — §9 stretch-2 rules + verbal stem term]
    Rulebook §9: plural display, stem naming (G/D/Š/N), epistolary
    citations, independent pronouns; terms.yml additions. No
    content until this lands.
-## M13-2 · Instruments  [tier: mid] [status: todo]
+## M13-2 · Instruments  [tier: mid] [status: done — reading map + pins in .docs/phase-13-plan.md; letters picked (CUSAS 43,28 + YOS 13,172); pool rows land with chapters per the stretch-1 precedent]
    pool-103 stretch-2 pins (identities via nabu signs --lang=akk),
    letter pick (CDLI OB, attribution only), coverage report.
-## M13-3 · ch 08–09 — plural; the stems named  [tier: top — Fable] [status: todo]
+## M13-3 · ch 08–09 — plural; the stems named  [tier: top — Fable] [status: done — 2 chapters, 6 signs, 6 codex pages, stative term, hedges resolved]
 ## M13-4 · ch 10–11 — laws 2–3; eye for an eye  [tier: top — Fable] [status: todo]
 ## M13-5 · ch 12–13 — a letter home; anāku  [tier: top — Fable] [status: todo]
 ## M13-6 · ch 14 + akk codex pages  [tier: top — Fable] [status: todo]
