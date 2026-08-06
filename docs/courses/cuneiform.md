@@ -294,7 +294,9 @@ content exists.
   identity, and the accent-indexes of the handbooks are banned
   by §1 anyway. Sumerogram values inside Akkadian reading lines
   are CAPS (LUGAL, KALAM), per this section's display law —
-  lowercase would read as Sumerian leaking in. Sumerian-course
+  lowercase would read as Sumerian leaking in. A sumerogram
+  NAME keeps its index (E₂-su — the index belongs to the name,
+  §1); only lowercase readings drop theirs. Sumerian-course
   transliterations keep their indexes (field standard, §1).
   Enforced by the akk-translit lint rule.
 - **Normalization (bound transcription).** A layer distinct from
