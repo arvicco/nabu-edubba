@@ -84,3 +84,5 @@ signs:
   - { glyph: "𒄰", codepoint: "12130", name: "KAM", value: "kam",  osl_name: "|HI×BAD|", meaning: "the counting tag after numbers — \"-th\"",          freq_akkob: 139, certainty: stated,  chapter: 12, keyword: "ordinal" }
   # ch 13 · anāku — I am he
   - { glyph: "𒌌", codepoint: "1230C", name: "UL",  value: "ul",   osl_name: "|U.GUD|", meaning: "the flat no of statements",                          freq_akkob: 57,  certainty: stated,  chapter: 13, keyword: "never" }
+  # ch 14 · Where you stand (stretch close; the last box falls)
+  - { glyph: "𒋼", codepoint: "122FC", name: "TE",  value: "te",   meaning: "to approach in the lists",                                  freq_akkob: 87,  certainty: unclear, chapter: 14, keyword: "approach" }

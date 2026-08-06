@@ -92,6 +92,10 @@ batches:
   signs:
   - UL
   coverage_akkob_pct: 74.9
+- chapter: 14
+  signs:
+  - TE
+  coverage_akkob_pct: 75.2
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -523,3 +527,12 @@ signs:
   certainty: stated
   chapter: 13
   keyword: never
+- glyph: "\U000122FC"
+  codepoint: 122FC
+  name: TE
+  value: te
+  meaning: to approach in the lists
+  freq_akkob: 87
+  certainty: unclear
+  chapter: 14
+  keyword: approach
