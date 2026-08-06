@@ -184,4 +184,20 @@ class LintTest < Minitest::Test
     svg = "---\nchapter: 3\n---\n<svg><title>after chapter 06</title></svg>"
     assert_empty Edubba::Lint.check_chapter_links("x.md", svg)
   end
+
+  def test_akk_translit_bans_indexes_and_lowercase_sumerograms
+    path = "site/cuneiform/103/04-x.md"
+    idx = %(<span class="translit">i₃-nu an</span>)
+    v = Edubba::Lint.check_akk_translit(path, idx)
+    assert_equal 1, v.size
+    assert_equal "akk-translit", v[0].rule
+
+    low = %(<span class="translit">lugal {d}a-nun-na-ki</span>)
+    assert_equal 1, Edubba::Lint.check_akk_translit(path, low).size
+
+    ok = %(<span class="translit">LUGAL {d}a-nun-na-ki i-nu</span>)
+    assert_empty Edubba::Lint.check_akk_translit(path, ok)
+    assert_empty Edubba::Lint.check_akk_translit("site/cuneiform/102/01-x.md", idx),
+                 "Sumerian courses keep their indexes"
+  end
 end

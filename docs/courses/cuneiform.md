@@ -279,11 +279,16 @@ content exists.
   text display in the field's CAPS convention (LUGAL, KALAM);
   the ATF underscore notation (`_lugal_`) is raw-ATF-exhibit
   material only. Determinatives stay in braces ({d}, {diš}) —
-  the school's convention since C101 ch. 03. The conjunction
-  written with U₃ transliterates plain *u* in reading lines
-  (owner ruling 2026-08-06) — the script column carries the sign
-  identity; the accent-index ù of the handbooks is banned by §1
-  anyway.
+  the school's convention since C101 ch. 03. **Akkadian reading
+  transliterations carry NO homophone indexes** (owner rulings
+  2026-08-06, generalizing from u₃ → u): i-nu, ḫa-am-mu-ra-pi,
+  ṭu-ub-bi-im, {d}en-lil — the script column carries the sign
+  identity, and the accent-indexes of the handbooks are banned
+  by §1 anyway. Sumerogram values inside Akkadian reading lines
+  are CAPS (LUGAL, KALAM), per this section's display law —
+  lowercase would read as Sumerian leaking in. Sumerian-course
+  transliterations keep their indexes (field standard, §1).
+  Enforced by the akk-translit lint rule.
 - **Normalization (bound transcription).** A layer distinct from
   transliteration: dictionary-form Akkadian with vowel length
   marked (šarrum, awīlum, ā/â). It renders in its own visual

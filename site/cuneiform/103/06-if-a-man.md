@@ -81,7 +81,7 @@ if-clause piling up deeds with -ma, then the two-word verdict.
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒀀𒉿𒈝 𒀀𒉿▢</span><span class="translit">šum-ma a-wi-lum a-wi-lam</span><span class="gloss"><span class="norm">šumma awīlum awīlam</span> — "If a man (subject, -um)… a man (object, -am)…" — the case endings alone tell you who does what; the boxed sign is next chapter's</span></div>
-    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u₂-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span> — "accused, and —"</span></div>
+    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span> — "accused, and —"</span></div>
     <div class="reading-line"><span class="script">𒉈𒅕𒌓 𒂊𒇷𒋗</span><span class="translit">ne-er-tam e-li-šu</span><span class="gloss"><span class="norm">nērtam elīšu</span> — "a murder (charge) against him": the veteran day-sign as tam, and <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01's</a> elīšu paying rent again</span></div>
     <div class="reading-line"><span class="script">𒀉𒁲𒈠</span><span class="translit">id-di-ma</span><span class="gloss"><span class="norm">iddima</span> — "laid (it), and —"</span></div>
     <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span> — "did not convict him"</span></div>

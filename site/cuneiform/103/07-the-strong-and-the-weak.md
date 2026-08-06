@@ -90,7 +90,7 @@ And the warmer half of the same commission, two veterans deep:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀀𒈾 𒅆𒅕 𒉌𒅆</span><span class="translit">a-na ši-ir ni-ši</span><span class="gloss"><span class="norm">ana šīr nišī</span> — "for the flesh of the people": the eye-sign's ši twice over, construct chains from <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03</a></span></div>
-    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu₂-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span> — "to make well." The king's stated job, in one word: the wellbeing of the people's own bodies</span></div>
+    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span> — "to make well." The king's stated job, in one word: the wellbeing of the people's own bodies</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

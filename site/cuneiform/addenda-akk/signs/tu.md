@@ -33,7 +33,7 @@ birth-sign carries the king's promise to keep it so.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu₂-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span>, "to make well" — the stele's mission statement ends on the veteran's new voice</span></div>
+    <div class="reading-line"><span class="script">𒌅𒌒𒁉𒅎</span><span class="translit">ṭu-ub-bi-im</span><span class="gloss"><span class="norm">ṭubbim</span>, "to make well" — the stele's mission statement ends on the veteran's new voice</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

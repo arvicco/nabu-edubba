@@ -98,6 +98,7 @@ module Edubba
       found.concat(check_nav_label(path, text))
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
+      found.concat(check_akk_translit(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -132,6 +133,32 @@ module Edubba
 
       [Violation.new(path, "nav-label",
                      "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
+    end
+
+    # akk-translit (§9, owner rulings 2026-08-06): Akkadian reading
+    # transliterations carry no homophone indexes (i-nu, not i₃-nu)
+    # and no lowercase sumerograms (KALAM, not kalam) — the script
+    # column carries sign identity. Applies to translit spans on
+    # Akkadian-course pages only; raw-ATF spans exempt as ever.
+    SUMEROGRAMS = /\b(lugal|kalam|dumu|iti|e2|ku3-babbar)\b/
+    def check_akk_translit(path, text)
+      return [] unless path.match?(%r{cuneiform/(103|addenda-akk)/})
+
+      found = []
+      text.scan(TRANSLIT_SPAN) do
+        extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
+        next if extra.split.include?("atf")
+
+        if (hit = body[/\p{L}[₀-₉]+/])
+          found << Violation.new(path, "akk-translit",
+                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9)")
+        end
+        if (hit = body[SUMEROGRAMS])
+          found << Violation.new(path, "akk-translit",
+                                 "lowercase sumerogram #{hit.inspect} in an Akkadian reading — CAPS (LUGAL, KALAM) per §9")
+        end
+      end
+      found
     end
 
     # codex-reads (owner report 2026-08-06: a Reads row carried "the

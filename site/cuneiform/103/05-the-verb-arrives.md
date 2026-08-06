@@ -36,7 +36,7 @@ the laws spell them with.
       <td class="script sign-cell">𒌑</td><td>U₂</td><td>grass</td><td>[u]</td>
       <td>plant, grass</td>
       <td>the vowel that opens so many of the laws' verbs —
-          <em>u₂-ub-bi-ir-ma</em> starts here</td>
+          <em>u-ub-bi-ir-ma</em> starts here</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌒</td><td>UB</td><td>nook</td><td>[ub]</td>
@@ -83,7 +83,7 @@ one at a time:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u₂-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span>, "he accused, and —" the doubled vowel-spelling u₂-ub you learned to expect in <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01</a>, then bi-ir, then the chaining -ma</span></div>
+    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span>, "he accused, and —" the doubled vowel-spelling u-ub you learned to expect in <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01</a>, then bi-ir, then the chaining -ma</span></div>
     <div class="reading-line"><span class="script">𒀉𒁲𒈠</span><span class="translit">id-di-ma</span><span class="gloss"><span class="norm">iddima</span>, "he laid (the charge), and —" the veteran arm-sign as id, <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-12072' | relative_url }}">102's verdict-sign</a> as pure di</span></div>
     <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span>, "he did not convict him" — the negation, the lion-sign's uk, and the -šu of <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01</a> back as "him"</span></div>
     <div class="reading-line"><span class="script">𒄿𒈾𒀜𒁲𒅔</span><span class="translit">i-na-ad-di-in</span><span class="gloss"><span class="norm">inaddin</span>, "he shall pay" — the durative: the tariff-lines of the stele end on this word dozens of times, and now it reads itself</span></div>
@@ -112,7 +112,7 @@ let the shapes accumulate.
 
 ## Drill before you go on
 
-1. Write 𒌑, 𒌒, 𒊌 from memory; say <em>u₂</em>, <em>ub</em>,
+1. Write 𒌑, 𒌒, 𒊌 from memory; say <em>u</em>, <em>ub</em>,
    <em>uk</em>.
 2. Preterite or durative: <span class="norm">iddi</span>?
    <span class="norm">inaddin</span>? What does each one say

@@ -33,7 +33,7 @@ it is the object of the story: handle with care.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi₂</span><span class="gloss"><span class="norm">Ḫammurapi</span> — the king's own name, with am as its second syllable</span></div>
+    <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi</span><span class="gloss"><span class="norm">Ḫammurapi</span> — the king's own name, with am as its second syllable</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.
