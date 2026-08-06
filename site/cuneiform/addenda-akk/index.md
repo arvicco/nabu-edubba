@@ -28,6 +28,10 @@ shelves — one handle-word per sign, wherever it travels.
       — each sign the Akkadian course uses: its syllable-values,
       how it came to carry them, a way to remember them, and one
       real line of the Codex Hammurapi it lives in</li>
+  <li><a href="{{ '/cuneiform/addenda-akk/terms/' | relative_url }}">Akkadian terms — the language's own glossary</a>
+      — mimation, construct state, consonantal root and their kin,
+      one plain sentence each; the same definitions behind the
+      hover bubbles</li>
 </ol>
 
 The shelf will grow as the Akkadian courses do: drills, decks,
