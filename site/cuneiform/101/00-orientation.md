@@ -28,15 +28,15 @@ are your first three, right now:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td><em>an</em>, <em>diŋir</em></td>
+      <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an/diŋir]</td>
       <td>heaven; god</td><td>an eight-pointed star</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆳</td><td>KUR</td><td>mountain</td><td><em>kur</em></td>
+      <td class="script sign-cell">𒆳</td><td>KUR</td><td>mountain</td><td>[kur]</td>
       <td>mountain; foreign land</td><td>three mountain peaks</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀀</td><td>A</td><td>water</td><td><em>a</em></td>
+      <td class="script sign-cell">𒀀</td><td>A</td><td>water</td><td>[a]</td>
       <td>water</td><td>two streams rippling</td>
     </tr>
   </tbody>

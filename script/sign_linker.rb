@@ -110,13 +110,13 @@ module Edubba
       map
     end
 
-    # "AN · an; diŋir · heaven; god" — name, readings, short meaning,
-    # for CUNEIFORM registry entries: parenthetical asides stripped and
-    # ATF spellings normalized (sz -> š, index digits -> subscripts).
-    # A registry row may carry an explicit display_value where the
-    # mechanical fold can't know better (nig2 -> niŋ₂).
+    # "AN · [an/diŋir] · heaven; god" — name (subscript-indexed),
+    # PHONETIC reading in brackets (§1), short meaning. A registry
+    # row may carry an explicit display_value where the mechanical
+    # fold can't know better (nig2 -> niŋ₂ -> [niŋ]).
     def tip_text(sign)
-      reads = sign["display_value"] || display_form(sign["value"])
+      reads = phonetic(sign["display_value"] || sign["value"])
+      reads = "[#{reads}]" unless reads.empty?
       tip_join([display_form(sign["name"]), reads, display_form(sign["meaning"])])
     end
 
@@ -128,6 +128,19 @@ module Edubba
     end
 
     SUB_DIGITS = ("0".."9").zip("₀".."₉").to_h
+
+    # The PHONETIC reading (§1, owner ruling 2026-08-06): what the
+    # sign actually says — folded, homophone indexes stripped,
+    # multiple values joined with "/". [ku] not ku₃; [pi] not pi₂.
+    # Brackets are applied by the caller (they are presentation).
+    def phonetic(value)
+      display_form(value)
+        .gsub(/[₀-₉]+/, "")
+        .split(/\s*[;,]\s*/)
+        .reject(&:empty?)
+        .uniq
+        .join("/")
+    end
 
     def display_form(text)
       text.to_s

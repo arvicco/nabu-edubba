@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "BI"
-reads: "pi₂"
+reads: "[pi]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"

@@ -41,7 +41,7 @@ layout: default
 
 <table class="sign-table sign-facts">
   <tbody>
-    <tr><th>Name</th><td>{{ entry.name }}</td></tr>
+    <tr><th>Name</th><td>{{ entry | sign_name }}</td></tr>
     <tr><th>Reads</th><td><span class="translit">{{ page.reads }}</span></td></tr>
     <tr><th>Means</th><td>{{ entry.meaning }}</td></tr>
     <tr><th>Taught in</th><td><a href="{{ taught_page.url | relative_url }}">{{ taught_page.title }}</a></td></tr>

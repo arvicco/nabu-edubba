@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KA×A"
-reads: "naŋ"
+reads: "[naŋ]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

@@ -33,25 +33,25 @@ the laws spell them with.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒌑</td><td>U2</td><td>grass</td><td><em>u₂</em></td>
+      <td class="script sign-cell">𒌑</td><td>U₂</td><td>grass</td><td>[u]</td>
       <td>plant, grass</td>
       <td>the vowel that opens so many of the laws' verbs —
           <em>u₂-ub-bi-ir-ma</em> starts here</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌒</td><td>UB</td><td>nook</td><td><em>ub</em></td>
+      <td class="script sign-cell">𒌒</td><td>UB</td><td>nook</td><td>[ub]</td>
       <td>a corner-nook in the lists</td>
       <td>second sign of the same verb — the accusation is two
           signs old before its consonants double</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒊌</td><td>UG</td><td>lion</td><td><em>ug / uk</em></td>
+      <td class="script sign-cell">𒊌</td><td>UG</td><td>lion</td><td>[ug/uk]</td>
       <td>a raging beast — a lion-sign marked with "day"</td>
       <td>the uk- of <em>uk-ti-in</em>, "he convicted" — a verb
           with teeth, fittingly</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀉</td><td>A2</td><td>arm</td><td><em>id</em></td>
+      <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[id]</td>
       <td>—</td>
       <td><strong>veteran</strong> — 102's arm-sign crosses the
           border as pure sound: <em>id-di-ma</em>, "he charged,

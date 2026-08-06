@@ -28,13 +28,13 @@ who presided over the whole story this chapter tells.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒂗</td><td>EN</td><td>lord</td><td><em>en</em></td>
+      <td class="script sign-cell">𒂗</td><td>EN</td><td>lord</td><td>[en]</td>
       <td>lord; high priest</td>
       <td>origin opaque in the late form; ninth most
           frequent value in the literary corpus</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆤</td><td>KID</td><td>spirit</td><td><em>lil₂</em> (lil2)</td>
+      <td class="script sign-cell">𒆤</td><td>KID</td><td>spirit</td><td>[lil]</td>
       <td>air, wind, spirit</td>
       <td>not a new sign — your reed mat from <a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">chapter 01</a>, now
           showing the polyvalency <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a> promised: the same

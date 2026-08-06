@@ -45,7 +45,7 @@ says plainly how sure the scholarship is.
     {% assign spage = site.pages | where: "url", target | first %}
     <tr>
       <td class="script sign-cell">{% if spage %}<a href="{{ target | relative_url }}">{{ s.glyph }}</a>{% else %}{{ s.glyph }}{% endif %}</td>
-      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</td>
+      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s | sign_name }}</a>{% else %}{{ s | sign_name }}{% endif %}</td>
       <td>{{ s.keyword }}</td>
       <td>{{ s.meaning }}</td>
       {% assign ch = site.pages | where: "course", "cuneiform-101" | where: "chapter", s.taught_in | first %}
@@ -58,7 +58,7 @@ says plainly how sure the scholarship is.
     {% assign spage = site.pages | where: "url", target | first %}
     <tr>
       <td class="script sign-cell">{% if spage %}<a href="{{ target | relative_url }}">{{ s.glyph }}</a>{% else %}{{ s.glyph }}{% endif %}</td>
-      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</td>
+      <td>{% if spage %}<a href="{{ target | relative_url }}">{{ s | sign_name }}</a>{% else %}{{ s | sign_name }}{% endif %}</td>
       <td>{{ s.keyword }}</td>
       <td>{{ s.meaning }}</td>
       {% assign ch = site.pages | where: "course", "cuneiform-102" | where: "chapter", s.chapter | first %}

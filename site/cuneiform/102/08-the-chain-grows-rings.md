@@ -31,7 +31,7 @@ that chapter. Three new signs, and the chain finally gets named.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td><em>ba</em></td>
+      <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td>[ba]</td>
       <td>to allot, to share out; the verbal prefix <em>ba-</em></td>
       <td>on receipts it is a whole verb, "allotted"; inside
           a chain it is a prefix that colors the action toward "away,
@@ -40,13 +40,13 @@ that chapter. Three new signs, and the chain finally gets named.
           name in <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">101's tablet house</a></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅔</td><td>IN</td><td>in-</td><td><em>in</em></td>
+      <td class="script sign-cell">𒅔</td><td>IN</td><td>in-</td><td>[in]</td>
       <td>[in]; the verbal prefix <em>in-</em></td>
       <td>the plain "he/she/it did" opener of thousands of
           administrative and literary lines alike</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒉡</td><td>NU</td><td>not</td><td><em>nu</em></td>
+      <td class="script sign-cell">𒉡</td><td>NU</td><td>not</td><td>[nu]</td>
       <td>not — the negation</td>
       <td>the simplest sign of the whole stretch; it flips
           any sentence it opens</td>

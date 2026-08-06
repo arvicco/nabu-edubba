@@ -63,8 +63,9 @@ class WarmupTest < Minitest::Test
     assert_equal "—", Edubba::Warmup.reads(silent, "hieroglyphs")
   end
 
-  def test_cuneiform_reads_are_display_form
-    assert_equal "šu", Edubba::Warmup.reads(R102[1], "cuneiform")
+  def test_cuneiform_reads_are_bracket_phonetics
+    szu = R102.find { |s| s["name"] == "SZU" } || R102[1]
+    assert_equal "[šu]", Edubba::Warmup.reads(szu, "cuneiform")
   end
 
   def test_panel_html_folds_answers_and_links_the_seat

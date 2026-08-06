@@ -38,6 +38,22 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Fourth review round (owner: "pi2 reading… Nothing fixed" — the
+first fix had missed the actual point): READINGS ARE PHONETIC.
+ku₃/pi₂ is transliteration bookkeeping, not a sound; wherever the
+site states what a sign READS it now shows bracket phonetics —
+[ku], [pi], [wa/wi] — with homophone indexes surviving only in
+transliterated text and sign NAMES (which themselves now display
+subscript-indexed: EŠ₂, never EŠ2 — the flagged row "EŠ2 · še3
+(sze3)" had three digit styles at once). Ruled into §1; new
+SignLinker.phonetic() feeds tips, warm-ups, drills, deck exports
+(regenerated), the sign_reads/sign_name Liquid filters feed both
+References and codex indexes; all 38 chapter files' sign tables
+and all 103 codex reads: fields swept (fuller-form notes
+restored on codex pages per the same-day clarification:
+certainty tags and richness stay ON codex pages — only chapter
+tables and hover tips must be compact). Stale "103 opens in a
+later phase" note in the 102 Reference fixed in passing.
 Third review round (owner report: "reads ku, not ku₃ — many
 such cases; check what produced them first"): root cause found —
 the C102 Reference printed {{ s.value }} RAW, so all 51 rows

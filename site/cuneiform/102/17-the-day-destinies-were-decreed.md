@@ -31,7 +31,7 @@ away from reading whole.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒋻</td><td>TAR</td><td>cut</td><td><em>tar</em></td>
+      <td class="script sign-cell">𒋻</td><td>TAR</td><td>cut</td><td>[tar]</td>
       <td>to cut; to decree</td>
       <td>fate, in Sumerian, is a thing <em>cut</em> — <em>nam
           tar</em>, "to cut a destiny," is how gods decide;
@@ -39,13 +39,13 @@ away from reading whole.
           03's</a> nam- comes full circle</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒄘</td><td>GU2</td><td>neck</td><td><em>gu₂</em></td>
+      <td class="script sign-cell">𒄘</td><td>GU₂</td><td>neck</td><td>[gu]</td>
       <td>neck; riverbank</td>
       <td>what a flood rises over — and, in the line below, what an
           inspired heart overflows</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒇲</td><td>LAL</td><td>weigh</td><td><em>la₂</em></td>
+      <td class="script sign-cell">𒇲</td><td>LAL</td><td>weigh</td><td>[la]</td>
       <td>to hang, to weigh out; the spelling la₂</td>
       <td>the scales' verb on the receipts — and the glue inside
           Enlil's own name as the refrain below writes it</td>

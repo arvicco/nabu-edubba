@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "IŠ"
-reads: "iš"
+reads: "[iš]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"

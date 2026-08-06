@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KID"
-reads: "kid, lil₂, ke₄"
+reads: "[kid/lil/ke]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

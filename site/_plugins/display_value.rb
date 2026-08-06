@@ -15,7 +15,15 @@ module Edubba
     def sign_reads(sign)
       return "" unless sign.is_a?(Hash)
 
-      sign["display_value"] || Edubba::SignLinker.display_form(sign["value"])
+      p = Edubba::SignLinker.phonetic(sign["display_value"] || sign["value"])
+      p.empty? ? "" : "[#{p}]"
+    end
+
+    # Sign NAMES display with subscript indexes (EŠ₂, not EŠ2);
+    # ASCII stays in identifiers and slugs only.
+    def sign_name(sign)
+      name = sign.is_a?(Hash) ? sign["name"] : sign
+      name.to_s.gsub(/(?<=\p{L})\d+/) { |run| run.each_char.map { |c| Edubba::SignLinker::SUB_DIGITS[c] }.join }
     end
   end
 end

@@ -75,11 +75,14 @@ module Edubba
       v.empty? || v == "—"
     end
 
+    # Phonetic bracket reading (§1): [ku], never ku₃ — the index is
+    # transliteration bookkeeping. Hieroglyph values are already
+    # bare sounds; they get the same brackets for consistency.
     def reads(sign, school)
       return "—" if silent?(sign)
-      return sign["value"] unless school == "cuneiform"
+      return "[#{sign['value']}]" unless school == "cuneiform"
 
-      sign["display_value"] || SignLinker.display_form(sign["value"])
+      "[#{SignLinker.phonetic(sign['display_value'] || sign['value'])}]"
     end
 
     def ident(sign) = sign["gardiner"] || sign["name"]

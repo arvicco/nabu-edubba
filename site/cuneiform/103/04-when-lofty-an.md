@@ -30,7 +30,7 @@ signs. One new sign is all it still needs from you.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒉣</td><td>NUN</td><td>prince</td><td><em>nun</em></td>
+      <td class="script sign-cell">𒉣</td><td>NUN</td><td>prince</td><td>[nun]</td>
       <td>prince, noble</td>
       <td>an old and honest picture-sign of rank; here it sits
           inside the name of the gods themselves — the

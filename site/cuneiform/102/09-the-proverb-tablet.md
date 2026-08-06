@@ -30,14 +30,14 @@ shared at the end of a school day. First, the batch.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊮</td><td>ŠA3</td><td>heart</td><td><em>ša₃</em></td>
+      <td class="script sign-cell">𒊮</td><td>ŠA₃</td><td>heart</td><td>[ša]</td>
       <td>heart; midst, interior</td>
       <td>where feelings, thoughts, and the middle of anything live;
           with 𒀀 in front it is <em>a-ša₃</em>, "field" — the plot at
           the heart of the water</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒃻</td><td>GAR</td><td>thing</td><td><em>niŋ₂</em></td>
+      <td class="script sign-cell">𒃻</td><td>GAR</td><td>thing</td><td>[niŋ]</td>
       <td>thing, property</td>
       <td>the thing-maker: what <em>nam-</em> (<a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) does for
           abstractions, <em>niŋ₂-</em> does for concrete stuff; the
@@ -45,7 +45,7 @@ shared at the end of a school day. First, the batch.
           jobs, as usual</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒄩</td><td>HA</td><td>fish</td><td><em>ha</em></td>
+      <td class="script sign-cell">𒄩</td><td>HA</td><td>fish</td><td>[ha]</td>
       <td>fish; the wish-prefix ha-</td>
       <td>a fish that kept its fins through the wedge era — and, by
           pure sound, the syllable that fronts a verb to say

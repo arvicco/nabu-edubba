@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KAK"
-reads: "du₃"
+reads: "[du]"
 course: cuneiform-addenda
 course_url: /cuneiform/addenda/
 course_title: "Sumerian Addenda"

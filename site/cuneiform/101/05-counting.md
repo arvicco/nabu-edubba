@@ -28,15 +28,15 @@ down):
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td>tally</td><td><em>diš</em></td>
+      <td class="script sign-cell">𒁹</td><td>DIŠ</td><td>tally</td><td>[diš]</td>
       <td>one (the counting one)</td><td>one vertical wedge, head at the top</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌋</td><td>U</td><td>ten</td><td><em>u</em></td>
+      <td class="script sign-cell">𒌋</td><td>U</td><td>ten</td><td>[u]</td>
       <td>ten</td><td>one corner wedge, an open angle</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀸</td><td>AŠ</td><td>one</td><td><em>aš</em></td>
+      <td class="script sign-cell">𒀸</td><td>AŠ</td><td>one</td><td>[aš]</td>
       <td>one; single</td><td>one horizontal wedge, head at the left</td>
     </tr>
   </tbody>
@@ -159,7 +159,7 @@ barley receipts:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td><em>gur</em></td>
+      <td class="script sign-cell">𒄥</td><td>GUR</td><td>bushel</td><td>[gur]</td>
       <td>the great capacity measure of grain accounts</td>
       <td>roughly 300 liters in the Ur III standard — when
       a granary counted big, it counted in gur</td>

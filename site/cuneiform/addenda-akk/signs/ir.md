@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "IR"
-reads: "ir, er"
+reads: "[ir/er]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"

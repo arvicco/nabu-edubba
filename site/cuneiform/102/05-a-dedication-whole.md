@@ -33,14 +33,14 @@ votive inscriptions than any other.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒎏</td><td>NIN</td><td>lady</td><td><em>nin</em></td>
+      <td class="script sign-cell">𒎏</td><td>NIN</td><td>lady</td><td>[nin]</td>
       <td>lady, queen, mistress</td>
       <td>the classic female counterpart to <em>en</em> and
           <em>lugal</em>; opens goddess names and queenly titles the
           way <em>lugal</em> opens kingly ones</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td><em>la</em></td>
+      <td class="script sign-cell">𒆷</td><td>LA</td><td>abundance</td><td>[la]</td>
       <td>[la]; abundance</td>
       <td>taught here because you are about to watch it
           work — it is the spelling glue inside this chapter's

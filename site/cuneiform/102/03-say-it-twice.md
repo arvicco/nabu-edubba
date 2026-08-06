@@ -33,7 +33,7 @@ signs, and one small, versatile grammar habit.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒉆</td><td>NAM</td><td>fate</td><td><em>nam</em></td>
+      <td class="script sign-cell">𒉆</td><td>NAM</td><td>fate</td><td>[nam]</td>
       <td>fate, destiny; the abstract-noun prefix</td>
       <td>its pictorial origin is stated variously across
           the sign lists, and for once the etymology matters less
@@ -41,7 +41,7 @@ signs, and one small, versatile grammar habit.
           builds the abstraction (<em>nam-lugal</em>, "kingship")</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td><em>da</em></td>
+      <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td>[da]</td>
       <td>side; [da]; the comitative tag "-da" (together
           with)</td>
       <td>an arm or side, by the usual reading of the
@@ -49,7 +49,7 @@ signs, and one small, versatile grammar habit.
           <em>dumu-da</em>, "with the child"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td><em>zu</em></td>
+      <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[zu]</td>
       <td>tooth; to know</td>
       <td>the classic case cited in every introduction to
           the script — a tooth, extended to knowing, as if insight

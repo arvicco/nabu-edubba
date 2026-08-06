@@ -46,20 +46,20 @@ Akkadian reaches for constantly.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒊭</td><td>ŠA</td><td>which</td><td><em>ša</em></td>
+      <td class="script sign-cell">𒊭</td><td>ŠA</td><td>which</td><td>[ša]</td>
       <td>the particle <em>ša</em>, "which, of"</td>
       <td>the busiest little word in Akkadian: it glues nouns to
           nouns and clauses to clauses — fifth most frequent
           syllable in the whole Old Babylonian corpus</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒅇</td><td>U3</td><td>and</td><td><em>u₃</em></td>
+      <td class="script sign-cell">𒅇</td><td>U₃</td><td>and</td><td>[u]</td>
       <td>the conjunction <em>u</em>, "and"</td>
       <td>Sumerian mostly did without an "and"; Akkadian says it
           out loud, and this is its sign</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒌝</td><td>UM</td><td>tether</td><td><em>um</em></td>
+      <td class="script sign-cell">𒌝</td><td>UM</td><td>tether</td><td>[um]</td>
       <td>—</td>
       <td>the sound every Old Babylonian noun ends on when it is
           the subject: <em>šarrum</em>, <em>awīlum</em> — learn
