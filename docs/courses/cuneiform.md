@@ -333,7 +333,12 @@ content exists.
   marked veteran table row with the Akkadian word it writes as
   its reading ([mātum], [šarrum]), gets its own akk codex page,
   and its bubble tells the Akkadian truth — a bubble may never
-  imply a Sumerian reading on an Akkadian page.
+  imply a Sumerian reading on an Akkadian page. AMBIENT veterans
+  — signs whose value crosses the border unchanged (A, MU, GI…)
+  — keep their Sumerian bubble everywhere (owner ruling
+  2026-08-06): the reading misleads nobody and the original
+  teaching stands; only a sign that gains a NEW Akkadian reading
+  (syllabic or sumerographic) gets the akk treatment above.
 - **Ordering.** Value-frequency computed over the OB sub-corpus
   (CDLI `lect=akk:ob`) by the ratified frequency methodology,
   extended as a separate base — sux and akk ranks never mix.
