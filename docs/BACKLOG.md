@@ -659,7 +659,7 @@ end, lifting the Gate-12 deferral.
 ## M13-4 · ch 10–11 — law 2 whole; eye for an eye  [tier: top — Fable] [status: done — ordeal both halves (one TE box, falls ch14), law 196 + 197 exhibit, E2/TUR sumerogram veterans, 8 codex pages]
 ## M13-5 · ch 12–13 — a letter; anāku  [tier: top — Fable] [status: done — epistolary frame + plea, epilogue self-naming, la/ul law, 4 codex pages]
 ## M13-6 · ch 14 + catalogs  [tier: top — Fable] [status: done — stretch close, TE box falls, course/school indexes updated]
-## M13-7 · Akk retrieval mirror  [tier: mid] [status: todo]
+## M13-7 · Akk retrieval mirror  [tier: mid] [status: done — DRILL_SHELVES per-course config, akk drills + 12 cuts + Anki deck (47 cards), decks page]
    DRILL_SCHOOLS gains akk; edubba-cuneiform-103 deck (license-
    hard-fail as ever).
 ## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: todo]

@@ -32,10 +32,14 @@ shelves — one handle-word per sign, wherever it travels.
       — mimation, construct state, consonantal root and their kin,
       one plain sentence each; the same definitions behind the
       hover bubbles</li>
+  <li><a href="{{ '/cuneiform/addenda-akk/drills/' | relative_url }}">Drills — the Akkadian signs, three ways</a>
+      — every sign the course teaches as retrieval cards, dealt
+      in twelve seeded cuts, on this shelf's own deck</li>
+  <li><a href="{{ '/cuneiform/addenda-akk/decks/' | relative_url }}">Study deck — Anki, one card per sign</a>
+      — keyword, hook, and a real attested line on every card;
+      import and let the calendar space it</li>
 </ol>
 
-The shelf will grow as the Akkadian courses do: drills, decks,
-and the rest of the retrieval instruments will mirror here once
-the inventory is worth drilling — for now, the
-[Sumerian shelf's drills]({{ '/cuneiform/addenda/drills/' | relative_url }})
-keep every veteran sharp.
+The [Sumerian shelf's drills]({{ '/cuneiform/addenda/drills/' | relative_url }})
+keep the veterans' first lives sharp; this shelf drills their
+Akkadian ones.

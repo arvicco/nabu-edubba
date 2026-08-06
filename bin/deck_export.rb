@@ -19,11 +19,15 @@ require_relative "../script/warmup"
 
 OUT_DIR = "site/assets/decks"
 
+# deck => [school, registry, seat key, codex shelf dir]. The 103
+# deck reads the AKKADIAN shelf (§9 separation) — its hooks and
+# attested lines come from addenda-akk, never the Sumerian codex.
 COURSES = {
-  "edubba-cuneiform-101" => ["cuneiform", "site/_data/sign_teaching.yml", :taught_in],
-  "edubba-cuneiform-102" => ["cuneiform", "site/_data/cuneiform102_queue.yml", :chapter],
-  "edubba-hieroglyphs-101" => ["hieroglyphs", "site/_data/hiero_teaching.yml", :taught_in],
-  "edubba-hieroglyphs-102" => ["hieroglyphs", "site/_data/hieroglyphs102_queue.yml", :chapter]
+  "edubba-cuneiform-101" => ["cuneiform", "site/_data/sign_teaching.yml", :taught_in, "addenda"],
+  "edubba-cuneiform-102" => ["cuneiform", "site/_data/cuneiform102_queue.yml", :chapter, "addenda"],
+  "edubba-cuneiform-103" => ["cuneiform", "site/_data/cuneiform103_queue.yml", :chapter, "addenda-akk"],
+  "edubba-hieroglyphs-101" => ["hieroglyphs", "site/_data/hiero_teaching.yml", :taught_in, "addenda"],
+  "edubba-hieroglyphs-102" => ["hieroglyphs", "site/_data/hieroglyphs102_queue.yml", :chapter, "addenda"]
 }.freeze
 
 def strip_prose(text)
@@ -33,8 +37,8 @@ def strip_prose(text)
       .gsub(/\s+/, " ").strip
 end
 
-def codex_bits(school, ident)
-  path = "site/#{school}/addenda/signs/#{Edubba::Rulebook.sign_slug(ident)}.md"
+def codex_bits(school, ident, shelf = "addenda")
+  path = "site/#{school}/#{shelf}/signs/#{Edubba::Rulebook.sign_slug(ident)}.md"
   text = File.read(path, encoding: "UTF-8")
 
   hook = text[/^## How to remember it\n\n(.+?)\n\n## /m, 1]
@@ -60,12 +64,12 @@ end
 require "fileutils"
 FileUtils.mkdir_p(OUT_DIR)
 
-COURSES.each do |deck, (school, registry, seat_key)|
+COURSES.each do |deck, (school, registry, seat_key, shelf)|
   signs = YAML.safe_load_file(registry)["signs"]
              .select { |s| s[seat_key.to_s] }
   rows = signs.map do |s|
     ident = s["gardiner"] || s["name"]
-    hook, line = codex_bits(school, ident)
+    hook, line = codex_bits(school, ident, shelf)
     reads = Edubba::Warmup.reads(s, school)
     back = +"<b>#{s['keyword']}</b> · #{ident} · <i>#{reads}</i> · #{s['meaning']}"
     back << "<br>#{hook}" unless hook.empty?
