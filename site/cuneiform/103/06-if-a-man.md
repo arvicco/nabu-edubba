@@ -33,8 +33,7 @@ from the top.
     <tr>
       <td class="script sign-cell">𒋳</td><td>TAG</td><td>touch</td><td>[šum]</td>
       <td>to touch, strike</td>
-      <td>šumma's first half; mind its lookalike — 102's
-          give-sign 𒋧 reads <em>šum₂</em>, a different sign with
+      <td>šumma's first half; mind its lookalike — <a href="{{ '/cuneiform/102/11-a-dedication-for-real/#sign-122E7' | relative_url }}">102's give-sign</a> 𒋧 reads <em>šum₂</em>, a different sign with
           a nearly identical name, and the index digit is the
           field's way of keeping them apart</td>
     </tr>
@@ -54,7 +53,7 @@ from the top.
     <tr>
       <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[tam]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 101's day-sign, polyvalent
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12313' | relative_url }}">101's day-sign</a>, polyvalent
           since the beginning (ud, utu), crosses the border with
           yet another voice: the tam that closes
           <span class="norm">nērtam</span>, "a murder charge"</td>
@@ -69,7 +68,7 @@ is the stele's word for a free man in full legal standing; the
 laws weigh compensation differently for an
 <span class="norm">awīlum</span> than for anyone else, which
 makes this one noun a keyhole view of Babylonian society. In the
-accusative (chapter 02!) it is <span class="norm">awīlam</span>,
+accusative (<a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>!) it is <span class="norm">awīlam</span>,
 <em>a-wi-lam</em> — and that little -lam is the one sign this
 chapter has not taught you. Watch what that does to the reading
 below: one honest box, in the second word of the law.
@@ -83,11 +82,11 @@ if-clause piling up deeds with -ma, then the two-word verdict.
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒀀𒉿𒈝 𒀀𒉿▢</span><span class="translit">šum-ma a-wi-lum a-wi-lam</span><span class="gloss"><span class="norm">šumma awīlum awīlam</span> — "If a man (subject, -um)… a man (object, -am)…" — the case endings alone tell you who does what; the boxed sign is next chapter's</span></div>
     <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u₂-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span> — "accused, and —"</span></div>
-    <div class="reading-line"><span class="script">𒉈𒅕𒌓 𒂊𒇷𒋗</span><span class="translit">ne-er-tam e-li-šu</span><span class="gloss"><span class="norm">nērtam elīšu</span> — "a murder (charge) against him": the veteran day-sign as tam, and chapter 01's elīšu paying rent again</span></div>
+    <div class="reading-line"><span class="script">𒉈𒅕𒌓 𒂊𒇷𒋗</span><span class="translit">ne-er-tam e-li-šu</span><span class="gloss"><span class="norm">nērtam elīšu</span> — "a murder (charge) against him": the veteran day-sign as tam, and <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01's</a> elīšu paying rent again</span></div>
     <div class="reading-line"><span class="script">𒀉𒁲𒈠</span><span class="translit">id-di-ma</span><span class="gloss"><span class="norm">iddima</span> — "laid (it), and —"</span></div>
     <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span> — "did not convict him"</span></div>
     <div class="reading-line"><span class="script">𒈬𒌒𒁉𒅕𒋗</span><span class="translit">mu-ub-bi-ir-šu</span><span class="gloss"><span class="norm">mubbiršu</span> — "his accuser": the accusing verb turned into a doer-noun, wearing the -šu of "his"</span></div>
-    <div class="reading-line"><span class="script">𒀉𒁕𒀝</span><span class="translit">id-da-ak</span><span class="gloss"><span class="norm">iddâk</span> — "shall be killed." Two signs and a veteran do the sentencing; the durative shape from chapter 05 makes it a standing rule, not a report</span></div>
+    <div class="reading-line"><span class="script">𒀉𒁕𒀝</span><span class="translit">id-da-ak</span><span class="gloss"><span class="norm">iddâk</span> — "shall be killed." Two signs and a veteran do the sentencing; the durative shape from <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a> makes it a standing rule, not a report</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 1.

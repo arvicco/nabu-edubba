@@ -38,6 +38,13 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Fourteenth review round (owner: "102's BI" mentioned without a
+link — old material mentioned = LINK IT): the back-reference law
+existed since 2026-07-31 and C103 had violated it; 29 mentions
+swept across the eight chapters and the akk codex — "chapter NN"
+mentions link their chapters, veteran/course mentions ("102's
+BI", "101's day-sign") link their teaching-seat anchors, all
+proofer-validated; §4's law sharpened with the reaffirmation.
 Thirteenth review round (owner: nominative/accusative used
 unexplained): both join the akk glossary with concrete OB
 examples (šarrum / awīlam) — hover bubbles now live on every

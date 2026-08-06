@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/ud/
 
 ## Where it comes from
 
-The day-sign — one of 101's first signs, polyvalent from its
+The day-sign — one of <a href="{{ '/cuneiform/101/12-reference/#sign-12313' | relative_url }}">101's first signs</a>, polyvalent from its
 first appearance: *ud*, "day," and *utu*, the sun-god. Akkadian
 inherited the whole bundle and added *tam* to it, a value the
 sign had carried in syllabic use since early times. In this

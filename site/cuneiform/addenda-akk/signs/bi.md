@@ -15,7 +15,7 @@ permalink: /cuneiform/addenda-akk/signs/bi/
 
 ## Where it comes from
 
-A Sumerian veteran — the school taught it in 102 as *bi*,
+A Sumerian veteran — the school taught it in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/#sign-12049' | relative_url }}">102</a> as *bi*,
 "its/that." Akkadian kept that voice and added a near twin:
 because b and p sit a hair apart in the mouth, the scribes let
 the sign carry *pi₂* as well, and Old Babylonian spelling uses it

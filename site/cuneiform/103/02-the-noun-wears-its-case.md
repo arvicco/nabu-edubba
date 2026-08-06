@@ -56,7 +56,7 @@ chapter teaches you to see all three.
     <tr>
       <td class="script sign-cell">𒁉</td><td>BI</td><td>its</td><td>[pi]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 102's BI crosses the border
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/#sign-12049' | relative_url }}">102's BI</a> crosses the border
           with a new voice: Akkadian uses it for <em>pi/pi₂</em>,
           and you are four lines away from finding it at the end
           of a king's name</td>
@@ -74,7 +74,7 @@ endings:[^mimation]
     <tr><th>Role</th><th>Ending</th><th>Sounds like</th><th>You will read it in</th></tr>
   </thead>
   <tbody>
-    <tr><td>subject (nominative)</td><td><em>-um</em></td><td>𒌝</td><td><span class="norm">šarrum</span>, "the king" — chapter 00's very first spelling</td></tr>
+    <tr><td>subject (nominative)</td><td><em>-um</em></td><td>𒌝</td><td><span class="norm">šarrum</span>, "the king" — <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a> very first spelling</td></tr>
     <tr><td>object (accusative)</td><td><em>-am</em></td><td>𒄠</td><td><span class="norm">rubâm</span>, "the prince" — below</td></tr>
     <tr><td>after "of" / a preposition (genitive)</td><td><em>-im</em></td><td>𒅎</td><td><span class="norm">mātim</span>, "of the land" — below</td></tr>
   </tbody>
@@ -90,7 +90,7 @@ hearing Hammurabi's century.
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒊒𒁀𒄠</span><span class="translit">ru-ba-am</span><span class="gloss"><span class="norm">rubâm</span>, "the prince" (object) — RU and BA on veteran duty, AM from this page closing the accusative</span></div>
     <div class="reading-line"><span class="script">𒍢𒊏𒄠</span><span class="translit">ṣi-ra-am</span><span class="gloss"><span class="norm">ṣīram</span>, "exalted" (object) — the stele says the gods named Babylon's kingship <em>exalted</em>, and the adjective agrees with its noun: -am matching -am</span></div>
-    <div class="reading-line"><span class="script">𒄿𒈾 𒈠𒁴</span><span class="translit">i-na ma-tim</span><span class="gloss"><span class="norm">ina mātim</span>, "in the land" — after the preposition, the genitive: -im, spelled with chapter 00's other workhorse and this page's DIM</span></div>
+    <div class="reading-line"><span class="script">𒄿𒈾 𒈠𒁴</span><span class="translit">i-na ma-tim</span><span class="gloss"><span class="norm">ina mātim</span>, "in the land" — after the preposition, the genitive: -im, spelled with <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a> other workhorse and this page's DIM</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.
@@ -102,7 +102,7 @@ hearing Hammurabi's century.
 ## The name on the stone
 
 Now the payoff. The stele's prologue introduces its king with a
-personal-name determinative — 101's tally-stroke 𒁹, which in
+personal-name determinative — <a href="{{ '/cuneiform/101/12-reference/#sign-12079' | relative_url }}">101's tally-stroke</a> 𒁹, which in
 Akkadian documents stands silently before a person's name the way
 𒀭 stands before a god's. Read what follows it, sign by sign, out
 loud:

@@ -67,7 +67,7 @@ riding on the noun *eli*, "over":
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒂊𒇷𒋗</span><span class="translit">e-li-šu</span><span class="gloss"><span class="norm">elīšu</span>, "over him, against him" — E and ŠU on Sumerian pension, LI from this page; the -šu is "his," and it will close a thousand phrases in the laws</span></div>
-    <div class="reading-line"><span class="script">𒅖𒁕𒊭</span><span class="translit">iš-da-ša</span><span class="gloss"><span class="norm">išdāša</span>, "its foundations" — IŠ from this page, DA a veteran, ŠA from chapter 00 doing double work: here it is the ending -ša, "her/its"</span></div>
+    <div class="reading-line"><span class="script">𒅖𒁕𒊭</span><span class="translit">iš-da-ša</span><span class="gloss"><span class="norm">išdāša</span>, "its foundations" — IŠ from this page, DA a veteran, ŠA from <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00</a> doing double work: here it is the ending -ša, "her/its"</span></div>
     <div class="reading-line"><span class="script">𒅕𒉌𒋾</span><span class="translit">ir-ni-ti</span><span class="gloss"><span class="norm">irnitti</span>, "triumph" — IR from this page between two veterans; say it aloud and hear the syllables snap together</span></div>
   </div>
   <figcaption class="citation">

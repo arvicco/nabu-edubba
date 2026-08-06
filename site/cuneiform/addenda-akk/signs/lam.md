@@ -26,7 +26,7 @@ deed — in the laws' opening formula.
 **Flourish** is what the second man in law 1 was doing until the
 accusation landed on him — the object of the sentence, closed by
 this sign. In this school's own story, LAM is also the last box
-to fall: chapter 06 read law 1 around it, and chapter 07 finally
+to fall: <a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">chapter 06</a> read law 1 around it, and <a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a> finally
 taught it.
 
 ## In the wild

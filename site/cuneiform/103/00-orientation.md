@@ -63,12 +63,12 @@ Three more differences will organize everything ahead:
 
 - **The noun carries its own case.** Where Sumerian hangs a tag
   on the end of a whole phrase, an Akkadian noun inflects its own
-  ending — *-um*, *-am*, *-im* (chapter 02).
+  ending — *-um*, *-am*, *-im* (<a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>).
 - **The ergative is gone.** No more *lugal-e* for doers of
   transitive deeds: an Akkadian subject is simply the subject,
   whatever the verb.
 - **The verb is one dense word.** *Iddin* already contains "he" —
-  no chain of prefixes, but an inner pattern (chapter 05).
+  no chain of prefixes, but an inner pattern (<a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>).
 
 And one thing did NOT change: the verb still comes **last**.
 Semitic languages usually lead with the verb — Akkadian kept
@@ -147,12 +147,12 @@ that Sumerian's script had never needed to write:
     <tr><th>Sound</th><th>What it is</th><th>You will meet it</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td>chapter 02, in the very first line of the stele</td></tr>
-    <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td>chapter 07, in the king's promise to make the people well</td></tr>
+    <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td><a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>, in the very first line of the stele</td></tr>
+    <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a>, in the king's promise to make the people well</td></tr>
     <tr><td><strong>q</strong></td><td>an emphatic k — the third of the pressed set</td><td>in the laws' vocabulary: <span class="norm">ḫulluqum</span>, "to destroy"</td></tr>
-    <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td>chapter 06, standing in the middle of <span class="norm">awīlum</span>, "man"</td></tr>
+    <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td><a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">chapter 06</a>, standing in the middle of <span class="norm">awīlum</span>, "man"</td></tr>
     <tr><td><strong>y</strong></td><td>the glide y — rare, and often melted into its vowels</td><td>in words like <span class="norm">ayyum</span>, "which one?"</td></tr>
-    <tr><td><strong>ʾ</strong></td><td>the glottal stop — a catch in the throat between vowels</td><td>chapter 03, unwritten but audible in <span class="norm">šā'im</span>, "who decrees"</td></tr>
+    <tr><td><strong>ʾ</strong></td><td>the glottal stop — a catch in the throat between vowels</td><td><a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03</a>, unwritten but audible in <span class="norm">šā'im</span>, "who decrees"</td></tr>
     <tr><td><strong>ā ē ī ū, â</strong></td><td>vowel LENGTH — long vowels that change meaning; the circumflex marks length born from two vowels contracting</td><td>everywhere in bound transcription; the tablet often hints at length by writing the vowel twice</td></tr>
   </tbody>
 </table>
@@ -179,7 +179,7 @@ around it. Two of the very first words:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾</span><span class="translit">a-na</span><span class="gloss"><span class="norm">ana</span>, "to, for" — the preposition that opens a thousand dedications, spelled with 101's water-sign and 101's na</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾</span><span class="translit">a-na</span><span class="gloss"><span class="norm">ana</span>, "to, for" — the preposition that opens a thousand dedications, spelled with <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a> and <a href="{{ '/cuneiform/101/12-reference/#sign-1223E' | relative_url }}">101's na</a></span></div>
     <div class="reading-line"><span class="script">𒄿𒈾</span><span class="translit">i-na</span><span class="gloss"><span class="norm">ina</span>, "in, by" — its twin; swap one vowel-sign and the meaning turns</span></div>
   </div>
   <figcaption class="citation">
@@ -205,8 +205,8 @@ The destination is a real monument. Around 1750 BCE, Hammurabi,
 king of Babylon, set up a stone stele carrying almost three hundred
 laws between a prologue and an epilogue — the **Codex Hammurapi**,
 the most famous Akkadian text in existence. Its opening words are
-<em>i-nu an ṣi-ru-um</em>, "when lofty An…" — and by chapter 04
-you will read them in the original, every sign yours. By chapter 06
+<em>i-nu an ṣi-ru-um</em>, "when lofty An…" — and by <a href="{{ '/cuneiform/103/04-when-lofty-an/' | relative_url }}">chapter 04</a>
+you will read them in the original, every sign yours. By <a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">chapter 06</a>
 you will read its first law. This is not a specimen course: it is a
 straight march to the stone.
 

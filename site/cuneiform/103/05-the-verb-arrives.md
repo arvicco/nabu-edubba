@@ -53,7 +53,7 @@ the laws spell them with.
     <tr>
       <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[id]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 102's arm-sign crosses the
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12009' | relative_url }}">102's arm-sign</a> crosses the
           border as pure sound: <em>id-di-ma</em>, "he charged,
           and…," and the executioner's <em>id-da-ak</em> both
           open on it</td>
@@ -83,9 +83,9 @@ one at a time:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u₂-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span>, "he accused, and —" the doubled vowel-spelling u₂-ub you learned to expect in chapter 01, then bi-ir, then the chaining -ma</span></div>
-    <div class="reading-line"><span class="script">𒀉𒁲𒈠</span><span class="translit">id-di-ma</span><span class="gloss"><span class="norm">iddima</span>, "he laid (the charge), and —" the veteran arm-sign as id, 102's verdict-sign as pure di</span></div>
-    <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span>, "he did not convict him" — the negation, the lion-sign's uk, and the -šu of chapter 01 back as "him"</span></div>
+    <div class="reading-line"><span class="script">𒌑𒌒𒁉𒅕𒈠</span><span class="translit">u₂-ub-bi-ir-ma</span><span class="gloss"><span class="norm">ubbirma</span>, "he accused, and —" the doubled vowel-spelling u₂-ub you learned to expect in <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01</a>, then bi-ir, then the chaining -ma</span></div>
+    <div class="reading-line"><span class="script">𒀉𒁲𒈠</span><span class="translit">id-di-ma</span><span class="gloss"><span class="norm">iddima</span>, "he laid (the charge), and —" the veteran arm-sign as id, <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-12072' | relative_url }}">102's verdict-sign</a> as pure di</span></div>
+    <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span>, "he did not convict him" — the negation, the lion-sign's uk, and the -šu of <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01</a> back as "him"</span></div>
     <div class="reading-line"><span class="script">𒄿𒈾𒀜𒁲𒅔</span><span class="translit">i-na-ad-di-in</span><span class="gloss"><span class="norm">inaddin</span>, "he shall pay" — the durative: the tariff-lines of the stele end on this word dozens of times, and now it reads itself</span></div>
   </div>
   <figcaption class="citation">

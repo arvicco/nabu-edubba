@@ -18,7 +18,7 @@ shows: []
 # Lord of heaven and earth
 
 English says "the lord **of** heaven" with a little word in the
-middle. Akkadian can use chapter 00's *ša* for that — or it can do
+middle. Akkadian can use <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a> *ša* for that — or it can do
 something tighter: strip the first noun down and bind the pair
 into a single phrase. *Bēlum*, "lord," loses its ending and
 becomes *bēl*; *bēl šamê* is "lord-of-heaven," one breath. The
@@ -55,7 +55,7 @@ stele's opening is built out of it.
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[ši]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — 102's eye-sign crosses the
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/06-names-that-are-sentences/#sign-12146' | relative_url }}">102's eye-sign</a> crosses the
           border as pure sound: its Sumerian reading <em>ši</em>
           becomes an all-purpose Akkadian syllable, free of the
           eye entirely; it opens
@@ -78,7 +78,7 @@ stele's opening is built out of it.
 
 The rule of thumb that covers this course: **a noun missing its
 mimation is reaching for the noun after it.** When an ending you
-learned in chapter 02 is conspicuously absent, read on — the
+learned in <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a> is conspicuously absent, read on — the
 phrase isn't finished.
 
 ## Four lines of the stele, whole
@@ -89,7 +89,7 @@ yours; read aloud, joint by joint:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒁁𒂖 𒊭𒈨𒂊</span><span class="translit">be-el ša-me-e</span><span class="gloss"><span class="norm">bēl šamê</span>, "lord of heaven" — the construct you just met, on the stone</span></div>
-    <div class="reading-line"><span class="script">𒅇 𒅕𒍢𒁴</span><span class="translit">u₃ er-ṣe-tim</span><span class="gloss"><span class="norm">u erṣetim</span>, "and of earth" — chapter 00's "and," then earth in the genitive: -tim doing chapter 02's work</span></div>
+    <div class="reading-line"><span class="script">𒅇 𒅕𒍢𒁴</span><span class="translit">u₃ er-ṣe-tim</span><span class="gloss"><span class="norm">u erṣetim</span>, "and of earth" — <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a> "and," then earth in the genitive: -tim doing <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> work</span></div>
     <div class="reading-line"><span class="script">𒊭𒄿𒅎</span><span class="translit">ša-i-im</span><span class="gloss"><span class="norm">šā'im</span>, "who decrees" — ša opening its other career: "the one who…"</span></div>
     <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at kalam</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye-sign as ši, AD closing the construct, and then a pure Sumerian guest: the Land-sign itself, read as Akkadian <span class="norm">mātim</span></span></div>
   </div>
@@ -101,7 +101,7 @@ yours; read aloud, joint by joint:
 </figure>
 
 That last line deserves a second look. The scribe spelled three
-words syllable by syllable, then dropped in 𒌧 — 102's KALAM,
+words syllable by syllable, then dropped in 𒌧 — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's KALAM</a>,
 "the Land" — as a whole word, and every reader knew to *say* it in
 Akkadian: <span class="norm">mātim</span>. A Sumerian word-sign
 embedded in Akkadian text is called a sumerogram, and this is the
