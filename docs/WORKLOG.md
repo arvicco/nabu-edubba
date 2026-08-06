@@ -38,7 +38,13 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
-Seventh review round (owner: deferring q was "a forgetfulness
+Eighth review round (owner): Akkadian-specific glossary terms
+(consonantal root, mimation, construct state, preterite,
+durative, bound transcription, sumerogram, syllabogram) moved to
+a new AKK Addenda terms shelf (/cuneiform/addenda-akk/terms/,
+terms_school routing — same mechanism as the E glossary); the
+general /terms/ page now lists unscoped terms only; catalog
+updated. Seventh review round (owner: deferring q was "a forgetfulness
 trap"): the sounds table now spills the COMPLETE phonology — all
 three emphatics (q included, via ḫulluqum), the glide y, plus
 the closing inventory statement (everything else Sumerian's
