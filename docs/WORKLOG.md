@@ -5,6 +5,39 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · M13-1..M13-8 · phase-13 · C103 Akkadian stretch 2 in
+one run. Laws first (§9 stretch-2: plural display, G/D/Š/N stem
+letters with plain handles — Roman numerals banned, epistolary
+citations, independent pronouns; sumerogram NAMES keep their index
+in readings — E₂-su — akk-translit lint refined). Instruments:
+reading map + pins resolved wholly through nabu (law 2 :311-334,
+law 196-197 :2507'-2515', epilogue :3144'-3149' + :3330'-3339',
+letters CUSAS 43,28 + YOS 13,172 — all clean lines, damage
+honestly narrated not read); every glyph string OSL-emitted, never
+typed from memory. Seven chapters (08-14): the plural (monument's
+own name dīnāt mīšarim; king's boast with the verb held back),
+stems named (all three deferrals paid; Š taught on 'if you love
+me, send it!'), law 2 WHOLE (ordeal + mirror, one honest TE box
+echoing stretch 1's device), eye for an eye (196 read, 197
+exhibit), real mail (qibīma frame, 3600-year blessing), anāku
+(liṭīb rhyming with ch07's commission; ul closes ch08's cliff),
+stretch close (box falls, 75.2% coverage floor). 17 new signs + 4
+sumerogram veterans (É=bītum, TUR=DUMU/mārum joining KALAM/LUGAL
+under the round-18 law), 21 codex pages, terms: verbal stem,
+stative, imperative, precative (MERGED into the existing Sumerian
+entry after the terms contract caught my duplicate — which I had
+pushed RED: the commit chain wasn't conditioned on the gate exit.
+The discipline is log-file + explicit exit check BEFORE commit;
+re-broken here by chaining with ';' then '&&' from the echo, not
+from rake. Fixed green two minutes later; lesson stands). Retrieval
+mirror lifts the Gate-12 deferral: DRILL_SHELVES per-course
+(sux/hiero shelves unchanged, permalinks frozen), akk drills + 12
+cuts + deal, edubba-cuneiform-103 deck (47 cards, license-checked).
+Catches: gate caught ĝ/ŋ drift in mi.md and a bare chapter-00
+mention in ch13; cross-codex keyword check forced pool name É
+(not E2) for same-sign identity; TUR's teaching seat is C101's
+Reference, not C102 ch07 (proofer caught the wrong anchor).
+
 2026-08-06 · Wiktionary codex sweep · phase-13 · Owner request:
 audit both Sign Codices against Wiktionary's per-glyph pages before
 the next phase. 97 glyphs fetched + compared (8 extraction agents,

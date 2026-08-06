@@ -662,4 +662,4 @@ end, lifting the Gate-12 deferral.
 ## M13-7 · Akk retrieval mirror  [tier: mid] [status: done — DRILL_SHELVES per-course config, akk drills + 12 cuts + Anki deck (47 cards), decks page]
    DRILL_SCHOOLS gains akk; edubba-cuneiform-103 deck (license-
    hard-fail as ever).
-## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: todo]
+## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: done — pixels verified (ch08/10/13, akk drills), WORKLOG, PR]
