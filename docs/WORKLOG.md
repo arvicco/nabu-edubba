@@ -38,6 +38,12 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Seventh review round (owner: deferring q was "a forgetfulness
+trap"): the sounds table now spills the COMPLETE phonology — all
+three emphatics (q included, via ḫulluqum), the glide y, plus
+the closing inventory statement (everything else Sumerian's
+script already handled) and the reverse traffic note: Akkadian
+has no ŋ. No promissory notes left in the chapter.
 Sixth review round (owner): the C103 orientation gained what
 E101's always had — "The sounds Akkadian brings" (ṣ, ṭ, w, ʾ,
 vowel length — each pointed at the chapter where a real text

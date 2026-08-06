@@ -139,6 +139,9 @@ solution, every time, was to draft a nearby sign into the new
 job; this stretch meets each recruit at the moment a real text
 needs it.
 
+Here is the complete delegation — every sound Akkadian brings
+that Sumerian's script had never needed to write:
+
 <table class="sign-table">
   <thead>
     <tr><th>Sound</th><th>What it is</th><th>You will meet it</th></tr>
@@ -146,19 +149,23 @@ needs it.
   <tbody>
     <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td>chapter 02, in the very first line of the stele</td></tr>
     <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td>chapter 07, in the king's promise to make the people well</td></tr>
+    <tr><td><strong>q</strong></td><td>an emphatic k — the third of the pressed set</td><td>in the laws' vocabulary: <span class="norm">ḫulluqum</span>, "to destroy"</td></tr>
     <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td>chapter 06, standing in the middle of <span class="norm">awīlum</span>, "man"</td></tr>
+    <tr><td><strong>y</strong></td><td>the glide y — rare, and often melted into its vowels</td><td>in words like <span class="norm">ayyum</span>, "which one?"</td></tr>
     <tr><td><strong>ʾ</strong></td><td>the glottal stop — a catch in the throat between vowels</td><td>chapter 03, unwritten but audible in <span class="norm">šā'im</span>, "who decrees"</td></tr>
-    <tr><td><strong>ā ē ī ū</strong></td><td>vowel LENGTH — long vowels that change meaning</td><td>everywhere in bound transcription; the tablet often hints at them by writing the vowel twice</td></tr>
+    <tr><td><strong>ā ē ī ū, â</strong></td><td>vowel LENGTH — long vowels that change meaning; the circumflex marks length born from two vowels contracting</td><td>everywhere in bound transcription; the tablet often hints at length by writing the vowel twice</td></tr>
   </tbody>
 </table>
 
-Akkadian also has the rasping <span class="norm">ḫ</span> —
-which Sumerian *did* have, so its signs crossed the border
-unchanged (this school prints it plain *h* in values, as the
-corpora do). A third emphatic, *q*, waits for the next stretch,
-along with the signs that carry it. None of these sounds needs
-memorizing now: each arrives attached to a sign, a word, and a
-line of the stele, exactly where it will stick.
+That is the whole list. Everything else in Akkadian's mouth —
+b, d, g; p, t, k; s, z, š; the rasping ḫ (printed plain *h* in
+values, as the corpora do); m, n, l, r; and the four vowels a,
+e, i, u — Sumerian's script already handled. Traffic ran the
+other way too: Akkadian has no **ŋ** — the velar nasal of *saŋ*
+and *niŋ₂* stays behind with Sumerian, and no Akkadian word will
+ever ask you for it. None of the new sounds needs memorizing
+now: each arrives attached to a sign, a word, and a line of the
+stele, exactly where it will stick.
 
 ## What your Sumerian years already bought
 
