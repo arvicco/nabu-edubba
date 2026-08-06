@@ -61,11 +61,11 @@ pieces standing on top are what make it 𓏠 and not just a table.
 
 A biliteral is not an abbreviation and not a syllable — it is two
 consonants fused in one shape, vowels still nobody's business,
-exactly as chapter 03 warned. The reflex to build is simple: when
+exactly as <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a> warned. The reflex to build is simple: when
 you see 𓏠, hear *m-n*; when you see 𓎟, hear *n-b*; when you see
 𓁷, hear *ḥ-r*. One-sound signs still do the fine work between
-them — you will see them shadowing the biliterals in a way chapter
-08 will name properly. For now, read through it.
+them — you will see them shadowing the biliterals in a way <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">chapter
+08</a> will name properly. For now, read through it.
 
 Start with a man's name, four and a half thousand years old:
 
@@ -110,7 +110,7 @@ hidden tomb furniture is a treasure of the Cairo museum. This one,
 on a private tomb wall, is a namesake; the name itself, "her face
 is at peace," is a small poem either way. Notice 𓏏 and 𓊪 tucked
 after the offering-table sign, and 𓂋 after the face: one-sound
-signs shadowing bigger signs' sounds. Chapter 08 explains why the
+signs shadowing bigger signs' sounds. <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">Chapter 08</a> explains why the
 scribes doubled up like that; for now, trust the word.
 
 ## Lord of the sentence
@@ -135,12 +135,12 @@ Four words, a whole future. The little *r*, "toward," does the work
 English does with "become": you are *heading to* lordship. And 𓎟
 at the end is the destination — the same basket that, on temple
 walls, means "every": *nb tꜣwy*, lord of the Two Lands; *nṯr nb*,
-every god. One sign, both jobs, context deciding — chapter 03's
+every god. One sign, both jobs, context deciding — <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a>
 oldest lesson still running.
 
 ## The hidden one
 
-Three signs you have owned since chapter 00 — reed, game board,
+Three signs you have owned since <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapter 00</a> — reed, game board,
 water — now spell one of the biggest names in Egypt:
 
 <figure class="composition">
@@ -150,7 +150,7 @@ water — now spell one of the biggest names in Egypt:
   <figcaption class="citation">
     <em>Jmn</em> — Amun, "the hidden one." Composed here from taught
     signs in the standard spelling; you will meet him carved in real
-    titles soon enough. The final 𓈖 shadows the 𓏠 — chapter 08's
+    titles soon enough. The final 𓈖 shadows the 𓏠 — <a href="{{ '/hieroglyphs/101/08-born-of-son-of/' | relative_url }}">chapter 08's</a>
     story, one page early.
   </figcaption>
 </figure>

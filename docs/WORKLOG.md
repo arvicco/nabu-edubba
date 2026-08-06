@@ -38,6 +38,14 @@ slug-builder; the akk signs index initially showed raw-ATF in a
 Reads column — dropped to match the sux index shape. assumes:
 grew list support (C103 assumes 101+102). Determinative law
 corrected to the site's actual braces convention mid-write.
+Fifteenth review round (owner: "a linter that mechanically
+catches Ch XX mentions without backlinks?"): the chapter-link
+lint rule now enforces §4 mechanically — every "chapter NN" in a
+page body must sit inside a link (HTML or markdown), own-chapter
+self-references and SVG labels exempt. First run found 116 MORE
+bare mentions beyond the hand sweep (C101, C102, both E courses,
+three index pages) — all linked to their same-course chapters,
+one E102-index range linked at its start. Exact-value tests.
 Fourteenth review round (owner: "102's BI" mentioned without a
 link — old material mentioned = LINK IT): the back-reference law
 existed since 2026-07-31 and C103 had violated it; 29 mentions

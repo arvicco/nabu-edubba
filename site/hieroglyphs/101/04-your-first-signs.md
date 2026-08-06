@@ -22,8 +22,8 @@ except that it isn't quite one. No vowels are written. One sign, one
 consonant, and the reader supplies the rest, the way a shorthand note
 supplies the words a stenographer never wrote in full. Five of the
 twenty-six are already yours — the owl, the ripple, and the mouth
-from chapter 00, the reed from chapter 01, the jar stand from
-chapter 02. This chapter hands you the remaining **twenty-one**, and
+from <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapter 00</a>, the reed from <a href="{{ '/hieroglyphs/101/01-stone-reed-papyrus/' | relative_url }}">chapter 01</a>, the jar stand from
+<a href="{{ '/hieroglyphs/101/02-pictures-that-talk/' | relative_url }}">chapter 02</a>. This chapter hands you the remaining **twenty-one**, and
 then has you sound out real words with the full kit.[^allen]
 
 ## Why these twenty-six
@@ -39,7 +39,7 @@ schooling reached the same twenty-six signs by trial, tablet after
 tablet; our reading corpus, counted sign by sign, reaches them again
 by arithmetic. 𓏏, the loaf of bread that reads *t* and opens this
 chapter's first tier, is the single most frequent sign in the whole
-corpus; your 𓈖 and 𓂋 from chapter 00 sit second and third.
+corpus; your 𓈖 and 𓂋 from <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapter 00</a> sit second and third.
 Fifteen of the twenty-six are in the corpus's top twenty signs
 overall — not a coincidence, a consequence.
 
@@ -250,7 +250,7 @@ short ones, honestly, but genuine and heavily attested:
 That last word, *jw*, deserves its promised demonstration, because
 nothing like it exists in English. Egyptian opens a plain statement
 of fact with a little marker word — roughly the "it is so that…"
-buried inside English "he *is* in the house". With chapter 03's
+buried inside English "he *is* in the house". With <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a>
 house you can watch it work, in the textbook sentence every
 Egyptian grammar reaches for first:
 
@@ -261,7 +261,7 @@ Egyptian grammar reaches for first:
   <figcaption class="citation">A composed textbook sentence, not a
   quoted monument: <em>jw</em> opens the statement, the viper 𓆑 is
   the pronoun "he" (explained just below), the owl 𓅓 is doing duty
-  as the word <em>m</em>, "in", and chapter 03's house-plus-stroke
+  as the word <em>m</em>, "in", and <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> house-plus-stroke
   closes it. Six signs, one grammatical sentence, all yours.</figcaption>
 </figure>
 
@@ -305,10 +305,10 @@ meet both in real texts.
 
 1. Draw each tier from memory: the six simple shapes, the six
    living creatures, the nine objects and marks — then the five
-   veterans from chapters 00-02.
+   veterans from <a href="{{ '/hieroglyphs/101/00-orientation/' | relative_url }}">chapters 00</a>-02.
 2. Write 𓆓𓂧, 𓊪𓈖, and 𓎛𓈖𓂝 without looking at the tables.
 3. Read 𓊪𓈖, 𓇋𓅓, and 𓏏𓄿 cold, aloud, no hesitation.
-4. Anything shaky — five more repetitions. Chapter 05 assumes all
+4. Anything shaky — five more repetitions. <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">Chapter 05</a> assumes all
    twenty-six.
 
 *Next: names in rings — the cartouche, and real kings read by name.*

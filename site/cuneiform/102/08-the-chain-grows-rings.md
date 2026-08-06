@@ -17,8 +17,8 @@ shows: []
 
 # The chain grows rings
 
-Chapter 04 showed you the verbal chain's silhouette and asked you
-only to spot its prefixes marching by, not to parse them. Chapter 05
+<a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">Chapter 04</a> showed you the verbal chain's silhouette and asked you
+only to spot its prefixes marching by, not to parse them. <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">Chapter 05</a>
 closed the opening stretch with a promise: a later chapter would
 come back and take that silhouette apart, piece by piece. This is
 that chapter. Three new signs, and the chain finally gets named.
@@ -87,7 +87,7 @@ without always translating as a separate word of its own.
 the ordinary opener of a transitive "he/she/it did," with no extra
 color to explain.
 
-Put one to work with a stem you already own. Chapter 06 taught you
+Put one to work with a stem you already own. <a href="{{ '/cuneiform/102/06-names-that-are-sentences/' | relative_url }}">Chapter 06</a> taught you
 𒋗 *šu*, "hand"; <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">chapter 04</a> taught you 𒋾 *ti*, "arrow — by rebus,
 life," which also carries the plain meaning "to approach, to
 reach." Hand-plus-approach is how Sumerian says *receive* — a hand
@@ -149,7 +149,7 @@ glimpse, though this course leaves them for another day.
   </figcaption>
 </figure>
 
-Word by word, in chapter 01's order:
+Word by word, in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> order:
 
 - **lu₂** — the man: the one doing the receiving, named first.
 - **šu** — hand. Sumerian has no single word for "receive"; it says
@@ -182,7 +182,7 @@ stands is the one who signed for the goods.
 This verb does not float alone — on its tablet it closes a
 complete sentence. The three lines before it (most of their signs
 still ahead of you) say: *a field of one eše — the giver's name —
-the receiver's name*, that last one wearing chapter 02's dative
+the receiver's name*, that last one wearing <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> dative
 *-ra*, "to, for." Then comes this chain, one ring at a time:
 
 - **i₃-** — the opener, the very prefix this chapter just taught:

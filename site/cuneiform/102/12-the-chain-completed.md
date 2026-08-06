@@ -17,7 +17,7 @@ shows: []
 
 # Build it for me
 
-Chapter 11 read a ruler's dedication and left two rings of its
+<a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">Chapter 11</a> read a ruler's dedication and left two rings of its
 final verb politely unopened — *mu-na-du₃*, "built it for her,"
 carried "an opener and a 'for her' whose full anatomy a later
 stretch opens." This is that stretch, and this chapter opens the
@@ -57,7 +57,7 @@ Write each five times: *du₃*, *ru*, *ama*.
 
 ## Grammar bite — the last two rings
 
-Chapter 08 named the chain's openers *i₃-*, *in-*, *ba-* and the
+<a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">Chapter 08</a> named the chain's openers *i₃-*, *in-*, *ba-* and the
 wishes *ga-*, *ha-*. Two rings remained, and they are the two the
 dedications run on:
 
@@ -78,7 +78,7 @@ dedications run on:
   </p>
   <figcaption class="citation">
     <em>mu-na-du₃</em>, ring by ring: the homeward opener, the
-    "for her," the build. Chapter 11's verb, no longer a
+    "for her," the build. <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">Chapter 11's</a> verb, no longer a
     silhouette.
   </figcaption>
 </figure>

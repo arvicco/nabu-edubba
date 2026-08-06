@@ -63,7 +63,7 @@ that the king gives". Watch the carved order:
 Read the signs: sedge (*nswt*) — conical loaf (*ḏi̯*) — mat with
 bread (*ḥtp*) — and a *p* completing the sound of *ḥtp*. But the
 *reading order* is *ḥtp-ḏi̯-nswt*: the offering first, the king
-last. You met this move in chapter 05 — **honorific transposition**.
+last. You met this move in <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}">chapter 05</a> — **honorific transposition**.
 The king outranks the sentence, so his sign is carved at the head of
 the phrase regardless of where grammar puts him. On stone, protocol
 beats syntax.
@@ -119,13 +119,13 @@ weight actually sits:
     · license: attribution. The deceased is called "the Osiris
     Mut-neferet": in death, every Egyptian hoped to become one with
     the god of the dead. 𓏤 after 𓂓 is the word-sign stroke you met
-    in chapter 03.
+    in <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>.
   </figcaption>
 </figure>
 
 Take stock of what you just did. *ḥtp-ḏi̯-nswt* — read from taught
 signs. The little grammar of the sentence — *n* "for", *n* "of" —
-carried entirely by 𓈖, chapter 04's water ripple. The *ka* that
+carried entirely by 𓈖, <a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">chapter 04's</a> water ripple. The *ka* that
 receives the offering, read sign by sign. The boxes hide a basket, a
 land-sign, two divine spellings, and a seated woman — inventory for
 later stretches, not mysteries.
@@ -150,7 +150,7 @@ The literacy track will fill the slots; the frame is now yours.
    is a picture borrowed only for its sound?
 3. In the reading, find both jobs of 𓈖 — and name the chapter that
    taught you the sign.
-4. Explain the *ka* line — 𓂓𓏤 — using chapter 03's stroke rule.
+4. Explain the *ka* line — 𓂓𓏤 — using <a href="{{ '/hieroglyphs/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> stroke rule.
 
 *Next: signs that carry two sounds at once — and the shortcut
 layer that makes real inscriptions compact.*

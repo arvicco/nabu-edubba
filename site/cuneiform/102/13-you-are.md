@@ -17,7 +17,7 @@ shows: []
 
 # You are
 
-Chapter 07 taught a king to say "I am." This chapter teaches the
+<a href="{{ '/cuneiform/102/07-i-am-king/' | relative_url }}">Chapter 07</a> taught a king to say "I am." This chapter teaches the
 other half of every hymn and every argument — *you are* — and then
 pays off a case the course has been quietly reading past since
 <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">chapter 10</a>. A light batch of two, both put to work at once.
@@ -86,7 +86,7 @@ same little copula carries both.
 
 One case tag has been on quiet duty since <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01's</a> list first
 named it: the **locative** *-a*, "in, on, at" — one bare vowel,
-easy to read past. Chapter 10's *ud re-a*, "in that distant day,"
+easy to read past. <a href="{{ '/cuneiform/102/10-in-those-days/' | relative_url }}">Chapter 10's</a> *ud re-a*, "in that distant day,"
 wore it; its everyday twin is everywhere:
 
 <figure class="reading reading--script">

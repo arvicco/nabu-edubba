@@ -63,7 +63,7 @@ after the first noun:
 
 That is the whole machine. *Mw pw*: "it is water." The grammars
 call this the **nominal sentence** — a sentence made of nouns —
-and you have already met its other face: chapter 00's *jnk
+and you have already met its other face: <a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapter 00's</a> *jnk
 nb-p,t*, where an independent pronoun (*jnk*, "I") stands in the
 first slot instead. First slot names, second slot identifies;
 Egyptian trusts the bare arrangement to say "is."[^allen-nominal]
@@ -155,7 +155,7 @@ family, where being royal means resembling the Sun itself:
 - **mj** — "like": your new jug, doing its preposition job.
 - **msi̯.w Jtn** — "the Aten is born": the birth verb again, and
   the sun-god of Amarna spelled *j-t-n* with the sun-disk 𓇳
-  closing its own name — the same architecture as chapter 00's
+  closing its own name — the same architecture as <a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapter 00's</a>
   *p,t*.
 
 A verb wearing two suffixes and telling a whole story — that is
@@ -167,7 +167,7 @@ Majesty himself.
 ## Drill before you go on
 
 1. Draw 𓈗 and 𓏇 from memory; say *mw*, *mj*.
-2. Compose, in transliteration: "it is the sky" (chapter 00's
+2. Compose, in transliteration: "it is the sky" (<a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapter 00's</a>
    noun, this chapter's pattern) — then write it in signs.
 3. Read *rʾ n mw* aloud and explain which ripple is which.
 4. In the Amarna line, point to both suffixes and say what each
@@ -179,4 +179,4 @@ falcon that watches over words.*
 
 [^allen-nominal]: Allen, *Middle Egyptian* (3rd ed.), ch. 7, on
     nominal sentences — the reference behind this bite, cited in
-    full in chapter 00.
+    full in <a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapter 00</a>.

@@ -43,7 +43,7 @@ are your first three, right now:
 </table>
 
 Copy each one a few times before reading on — the star, the peaks,
-the streams. Chapter 04 will teach you their anatomy properly; from
+the streams. <a href="{{ '/cuneiform/101/04-your-first-signs/' | relative_url }}">Chapter 04</a> will teach you their anatomy properly; from
 this page on, they are yours.
 
 ## The promise
@@ -167,15 +167,15 @@ identity, so you can always follow a text back to the tablet.
   sign you have only looked at is not. Pen and paper are fine; you
   are learning shapes and stroke order, not clay technique — the
   [writing primer]({{ '/cuneiform/addenda/writing-primer/' | relative_url }})
-  has the stroke-order story whenever you want it. (Chapter
-  01 shows why writing *was* different on clay — and if you ever
+  has the stroke-order story whenever you want it. (<a href="{{ '/cuneiform/101/01-clay-and-reed/' | relative_url }}">Chapter
+  01</a> shows why writing *was* different on clay — and if you ever
   press a chopstick into plasticine, you will learn more in ten
   minutes than in an hour of reading.)
 - **Small sessions beat marathons.** The sign inventory grows chapter
   by chapter; revisit old signs each session before meeting new ones.
 - **Say the readings aloud.** Sign names and sound values stick to
   the ear faster than to the eye.
-- **Use the reference early.** Chapter 12 grows with the course;
+- **Use the reference early.** <a href="{{ '/cuneiform/101/12-reference/' | relative_url }}">Chapter 12</a> grows with the course;
   whenever a sign feels loose, look it up.
 
 ## About these materials

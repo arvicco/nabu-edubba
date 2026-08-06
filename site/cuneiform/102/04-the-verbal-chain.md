@@ -179,7 +179,7 @@ it at a verb instead of a noun.
 
 ## A promise kept: the people-plural
 
-Chapter 03 taught you the people-plural *-ene* and admitted its sign
+<a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">Chapter 03</a> taught you the people-plural *-ene* and admitted its sign
 was not yet yours. It is now. The plural of persons is spelled with
 two signs you own — *e* plus your new *ne*:
 

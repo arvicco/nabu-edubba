@@ -50,7 +50,7 @@ Write each five times before reading on. Then look at what you have.
 
 ## The king, disassembled
 
-Chapter 06 taught you <span class="script">𒈗</span> *lugal*, "king",
+<a href="{{ '/cuneiform/101/06-seals-and-bricks/' | relative_url }}">Chapter 06</a> taught you <span class="script">𒈗</span> *lugal*, "king",
 as one sign. Here is the open secret of its construction, plain in
 the earliest forms of the sign and still described this way in the
 standard sign lists:

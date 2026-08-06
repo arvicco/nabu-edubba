@@ -17,7 +17,7 @@ shows: []
 
 # The sign workshop
 
-Chapter 07 ended with a king taken apart into *man* and *big*. That
+<a href="{{ '/cuneiform/101/07-of-gods-and-men/' | relative_url }}">Chapter 07</a> ended with a king taken apart into *man* and *big*. That
 was not a party trick — it was a glimpse of the script's productive
 machine. Scribes did not invent every sign from nothing; they
 *derived* signs from signs, by a small set of moves a learner can

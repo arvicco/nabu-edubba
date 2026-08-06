@@ -97,6 +97,7 @@ module Edubba
       end
       found.concat(check_nav_label(path, text))
       found.concat(check_codex_reads(path, text))
+      found.concat(check_chapter_links(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -149,6 +150,36 @@ module Edubba
 
       [Violation.new(path, "codex-reads",
                      "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
+    end
+
+    # chapter-link (owner request 2026-08-06, mechanizing the §4
+    # back-reference law): every "chapter NN" mention in a page BODY
+    # must sit inside a link — HTML or markdown — except a page's
+    # reference to its own chapter number. Front matter is exempt
+    # (descriptions cannot carry links).
+    def check_chapter_links(path, text)
+      return [] unless path.end_with?(".md")
+
+      body = text
+      own = nil
+      if text.start_with?("---\n") && (fm_end = text.index("\n---", 4))
+        require "yaml"
+        fm = YAML.safe_load(text[4..fm_end]) rescue nil
+        own = fm["chapter"] if fm.is_a?(Hash)
+        body = text[(fm_end + 4)..].to_s
+      end
+      linkless = body.gsub(%r{<svg\b.*?</svg>}m, "")
+                     .gsub(%r{<a\b[^>]*>.*?</a>}m, "")
+                     .gsub(/\[[^\]]*\]\([^)]*\)/, "")
+      found = []
+      linkless.scan(/chapters?\s+(\d{1,2})\b/i) do
+        n = Regexp.last_match(1).to_i
+        next if own && n == own
+
+        found << Violation.new(path, "chapter-link",
+                               "\"chapter #{Regexp.last_match(1)}\" mentioned without a link — back-references carry links (§4)")
+      end
+      found
     end
   end
 end

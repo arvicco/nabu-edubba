@@ -78,7 +78,7 @@ grammars' own nickname for the whole pattern — is the workhorse
 form of Middle Egyptian.[^allen-sdmf] The suffixes run through the
 persons you already know: *ḏd≡j* "I say," *ḏd≡k* "you say,"
 *ḏd≡f* "he says," *ḏd≡s* "she says," *ḏd≡sn* "they say" — and
-chapter 01's *≡tw*, "one," makes any of them impersonal. One more
+<a href="{{ '/hieroglyphs/102/01-it-is-water/' | relative_url }}">chapter 01's</a> *≡tw*, "one," makes any of them impersonal. One more
 piece and you can read a storyteller at work: slide **.jn** in
 between stem and suffix — *ḏd.jn≡f* — and the verb becomes the
 narrative past the tales run on: "then he said." Hold *.jn* as
@@ -151,9 +151,9 @@ First line, piece by piece:
   scribe classified the *pronoun*. Even "you" bows when it points
   at a god.
 
-And the second line is chapter 01's nominal sentence, back
+And the second line is <a href="{{ '/hieroglyphs/102/01-it-is-water/' | relative_url }}">chapter 01's</a> nominal sentence, back
 already: **mntk** — "you" as an independent pronoun, the
-second-person twin of chapter 00's *jnk* — then **zꜣ-Jmn**, "son
+second-person twin of <a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapter 00's</a> *jnk* — then **zꜣ-Jmn**, "son
 of Amun," 101's duckling 𓅭 beside the god's name. *You are the
 son of Amun*: no verb, two nouns, a coronation in five signs.
 

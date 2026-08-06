@@ -100,7 +100,7 @@ makes the pharaoh a promise built entirely from your signs:
   own word. No suffix on this *wnn*: the sky itself is the
   subject, named in full.
 - **wnn≡k** — "you will exist": the same stem, now wearing
-  chapter 02's machinery — *≡k*, "you," the king addressed.
+  <a href="{{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }}">chapter 02's</a> machinery — *≡k*, "you," the king addressed.
 
 Sky-exists, you-exist: two verbal sentences laid side by side, and
 the parallelism *is* the promise. Egyptian eternity is grammar.
@@ -176,7 +176,7 @@ the one about death, negation, and hearts weighed. Bring your eye.
 
 1. Draw 𓁹, 𓂞, 𓃹 from memory; say *jr*, *dj*, *wn*.
 2. Conjugate *ḏi̯* through *≡j*, *≡k*, *≡f*, *≡sn* aloud — then
-   put chapter 02's *.jn* into one of them and translate it.
+   put <a href="{{ '/hieroglyphs/102/02-his-majesty-says/' | relative_url }}">chapter 02's</a> *.jn* into one of them and translate it.
 3. Read *wnn p,t wnn≡k* cold, covering the gloss, and explain why
    the first *wnn* wears no suffix.
 4. Compose in transliteration, on the bite's pattern: "you rise in

@@ -180,7 +180,7 @@ were kept from his palace:
 </figure>
 
 - **n** — the spread arms, opening the refusal.
-- **rdi̯.n** — "put" with the past *.n*: chapter 03's giving verb
+- **rdi̯.n** — "put" with the past *.n*: <a href="{{ '/hieroglyphs/102/03-to-do-to-give-to-be/' | relative_url }}">chapter 03's</a> giving verb
   in its fuller *rdj* shape — 101's little give-arm 𓏙 inside the
   spelling — closing the *n … .n* frame: "did not put."
 - **≡sn** — "they": the plural suffix, its three strokes 𓏥
@@ -245,7 +245,7 @@ giver is the name you came for:
 - **ḥtp-ḏi̯ Jnp,w** — "an offering Anubis gives": the
   jackal-god's name spelled plainly, *j-n-p*.
 - **ḥtp-ḏi̯ Wsjr** — "an offering **Osiris** gives": 𓁹𓊨 — the
-  eye of chapter 03 seated on the throne of chapter 04. Two signs,
+  eye of <a href="{{ '/hieroglyphs/102/03-to-do-to-give-to-be/' | relative_url }}">chapter 03</a> seated on the throne of chapter 04. Two signs,
   and you are reading the name of the lord of the dead — on a
   tomb wall, where he was needed most.
 
