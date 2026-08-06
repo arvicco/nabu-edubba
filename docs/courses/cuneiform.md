@@ -118,6 +118,14 @@ concrete holdable example; batch label = chapter number + 1
 essence. The nothing-untaught validator and the every-chapter
 rules are enforced by `rake gate`.
 
+A reading that carries NEW grammar gets an item-by-item
+breakdown after the figure (owner ruling 2026-08-06, the C102
+"take inventory" style): every word parsed — form, ending,
+function, teaching-seat link — then the line reassembled
+literally. A lumped one-line gloss never introduces grammar on
+its own; quick glosses are for review material, and even those
+link the chapter that taught the form.
+
 ## 6 · What the gate checks mechanically
 
 From this rulebook: ŋ-not-ĝ, no accent indexes, ETCSL and CDLI
