@@ -78,3 +78,9 @@ signs:
   - { glyph: "𒉺", codepoint: "1227A", name: "PA",  value: "pa",   meaning: "branch; the scepter in Sumerian",                            freq_akkob: 48,  certainty: classic, chapter: 11, keyword: "branch" }
   - { glyph: "𒀊", codepoint: "1200A", name: "AB",  value: "ab, ap", meaning: "a window in the lists",                                    freq_akkob: 74,  certainty: unclear, chapter: 11, keyword: "window" }
   - { glyph: "𒌉", codepoint: "12309", name: "TUR", value: "marum", display_value: "mārum", veteran: true, meaning: "veteran — TUR gains [mārum]: the son-sign DUMU as a sumerogram", certainty: stated, chapter: 11, keyword: "child" }
+  # ch 12 · Say to him: a letter (the epistolary frame)
+  - { glyph: "𒅀", codepoint: "12140", name: "IA",  value: "ia",   osl_name: "|I.A|", meaning: "i and a fused in one sign — the -ya of \"my\"",        freq_akkob: 26,  certainty: stated,  chapter: 12, keyword: "my" }
+  - { glyph: "𒊹", codepoint: "122B9", name: "ŠAR2", value: "szar2", meaning: "3600 — the number of everything",                            certainty: stated,  chapter: 12, keyword: "myriad" }
+  - { glyph: "𒄰", codepoint: "12130", name: "KAM", value: "kam",  osl_name: "|HI×BAD|", meaning: "the counting tag after numbers — \"-th\"",          freq_akkob: 139, certainty: stated,  chapter: 12, keyword: "ordinal" }
+  # ch 13 · anāku — I am he
+  - { glyph: "𒌌", codepoint: "1230C", name: "UL",  value: "ul",   osl_name: "|U.GUD|", meaning: "the flat no of statements",                          freq_akkob: 57,  certainty: stated,  chapter: 13, keyword: "never" }

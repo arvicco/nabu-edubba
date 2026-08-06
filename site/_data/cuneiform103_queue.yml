@@ -82,6 +82,16 @@ batches:
   - AB
   - TUR (vet)
   coverage_akkob_pct: 73.4
+- chapter: 12
+  signs:
+  - IA
+  - ŠAR2
+  - KAM
+  coverage_akkob_pct: 74.5
+- chapter: 13
+  signs:
+  - UL
+  coverage_akkob_pct: 74.9
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -475,3 +485,41 @@ signs:
   certainty: stated
   chapter: 11
   keyword: child
+- glyph: "\U00012140"
+  codepoint: '12140'
+  name: IA
+  value: ia
+  osl_name: "|I.A|"
+  meaning: i and a fused in one sign — the -ya of "my"
+  freq_akkob: 26
+  certainty: stated
+  chapter: 12
+  keyword: my
+- glyph: "\U000122B9"
+  codepoint: 122B9
+  name: ŠAR2
+  value: szar2
+  meaning: 3600 — the number of everything
+  certainty: stated
+  chapter: 12
+  keyword: myriad
+- glyph: "\U00012130"
+  codepoint: '12130'
+  name: KAM
+  value: kam
+  osl_name: "|HI×BAD|"
+  meaning: the counting tag after numbers — "-th"
+  freq_akkob: 139
+  certainty: stated
+  chapter: 12
+  keyword: ordinal
+- glyph: "\U0001230C"
+  codepoint: 1230C
+  name: UL
+  value: ul
+  osl_name: "|U.GUD|"
+  meaning: the flat no of statements
+  freq_akkob: 57
+  certainty: stated
+  chapter: 13
+  keyword: never
