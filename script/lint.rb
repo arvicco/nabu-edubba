@@ -167,7 +167,7 @@ module Edubba
     # variants, then optional word-readings in transliteration, then
     # at most a "(fuller form …)" note. Meaning belongs to Means and
     # the page body.
-    CODEX_READS = %r{\A\[[a-zšṣṭḫŋʾ'/]+\](, [a-zšṣṭḫŋ₀-₉]+)*( \(fuller form [a-zšṣṭḫŋ₀-₉]+\))?\z}
+    CODEX_READS = %r{\A\[[a-zāēīūâêîûšṣṭḫŋʾ'/]+\](, [a-zšṣṭḫŋ₀-₉]+)*( \(fuller form [a-zšṣṭḫŋ₀-₉]+\))?\z}
     def check_codex_reads(path, text)
       return [] unless path.match?(%r{cuneiform/addenda[^/]*/signs/}) && !path.end_with?("index.md")
       return [] unless (m = text.match(/^reads: "((?:[^"\\]|\\.)*)"$/))

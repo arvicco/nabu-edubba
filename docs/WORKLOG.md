@@ -5,6 +5,36 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-06 · review round 18 (five owner reports in one round) ·
+phase-12 · (1) ch05 Means column crushed to a word a line by the
+42% Notes floor — CSS floor added for the second-to-last column
+of non-tail-fit sign tables (24%), Notes eased to 38%,
+pixel-verified across C103/C102/E102. (2) BI's veteran bubble
+carried the pool's whole "veteran — BI gains [pi₂]: …" story —
+first fix over-corrected to name·reads·keyword, stripping the
+useful hook (owner escalated, rightly): tips now carry
+name · reads · hook, the hook = pool meaning minus the
+boilerplate that repeats name and reading; contract test pins
+every pool-103 veteran tip to keep its [reads], stay ≤60 chars,
+and never leak "veteran" prose. MY ERROR in the middle step:
+compact ≠ empty — the fix for "too much" is removing the
+REDUNDANT part, not the informative part. (3) ch05's verb-shape
+table glossed only one example per row (iddâk unexplained
+anywhere) — every form now carries its meaning at the mention;
+swept all C103 norm-spans for bare forms, rest were clean.
+(4) Owner ruling: veteran glyphs on Akkadian pages link their
+AKKADIAN reintroduction chapter, never the sux seat —
+sign_linker routes url_akk by codex_key (unit-tested), anchors
+emit on the C103 chapters. (5) KALAM hovered Sumerian on an
+Akkadian page ("[kalam]" implied, real reading mātum) —
+generalized: sumerograms are veterans too; KALAM + LUGAL got
+pool rows (value = the Akkadian word, no invented freq ranks),
+marked veteran table rows in ch03/ch04, akk codex pages
+(kalam, lugal — attested CH lines), routed bubbles
+("KALAM · [mātum] · the Land-sign as a sumerogram");
+codex-reads lint learned macron vowels. §9 amended: tip law,
+link-routing law, sumerogram-veteran law.
+
 2026-08-05 · M12-1..M12-6 · phase-12 · C103 Akkadian, stretch 1,
 in one run — the school's first language-border crossing. Laws
 first (§9: OB dialect, transliteration + bound transcription as

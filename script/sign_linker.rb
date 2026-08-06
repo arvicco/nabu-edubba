@@ -65,10 +65,12 @@ module Edubba
         next g unless entry
 
         anchor = entry[:anchor]
-        # §9 separation extends to the hover bubble: on Akkadian
-        # pages a veteran shows its AKKADIAN tip (tip_akk), never
-        # leaking the Sumerian one — and vice versa.
+        # §9 separation extends to the hover bubble AND the target:
+        # on Akkadian pages a veteran shows its AKKADIAN tip and
+        # links its AKKADIAN reintroduction (url_akk), never the
+        # Sumerian seat — and vice versa.
         tip_text = (codex_key == :codex_akk && entry[:tip_akk]) || entry[:tip]
+        url = (codex_key == :codex_akk && entry[:url_akk]) || entry[:url]
         # Sign-table cells link to the sign's codex page (rulebook §7,
         # owner design 2026-08-04) once that page exists; on the sign's
         # own teaching page the cell keeps its anchor id so incoming
@@ -77,7 +79,7 @@ module Edubba
         if in_sign_cell && (codex = entry[codex_key]) && codex != page_url
           tip = ""
           id_attr = ""
-          if entry[:url] == page_url && !emitted_ids[anchor]
+          if url == page_url && !emitted_ids[anchor]
             emitted_ids[anchor] = true
             id_attr = %( id="#{anchor}")
           elsif tip_text
@@ -86,11 +88,11 @@ module Edubba
           next %(<a class="sign-link"#{id_attr} href="#{baseurl}#{codex}">#{g}#{tip}</a>)
         end
 
-        if in_sign_cell && entry[:url] == page_url && !emitted_ids[anchor]
+        if in_sign_cell && url == page_url && !emitted_ids[anchor]
           emitted_ids[anchor] = true
           %(<span id="#{anchor}">#{g}</span>)
         else
-          href = entry[:url] == page_url ? "##{anchor}" : "#{baseurl}#{entry[:url]}##{anchor}"
+          href = url == page_url ? "##{anchor}" : "#{baseurl}#{url}##{anchor}"
           tip = tip_text ? %(<span class="sign-tip" aria-hidden="true">#{tip_text}</span>) : ""
           %(<a class="sign-link" href="#{href}">#{g}#{tip}</a>)
         end
@@ -121,6 +123,17 @@ module Edubba
     def tip_text(sign)
       reads = reads_display(sign["display_value"] || sign["value"])
       tip_join([display_form(sign["name"]), reads, display_form(sign["meaning"])])
+    end
+
+    # A veteran's Akkadian tip (§9, owner rulings 2026-08-06): the
+    # bubble carries name · reads · the value's hook — the pool
+    # meaning minus its "veteran — X gains [y]:" boilerplate, which
+    # only repeats the name and reading already in the bubble. The
+    # full story stays on the codex page.
+    def tip_text_veteran(sign)
+      reads = reads_display(sign["display_value"] || sign["value"])
+      hook = sign["meaning"].to_s.sub(/\Aveteran\s*—\s*\S+ gains \[[^\]]*\]:\s*/, "")
+      tip_join([display_form(sign["name"]), reads, display_form(hook)])
     end
 
     # For registries whose fields are already display-form (hieroglyphs:

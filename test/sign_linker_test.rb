@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
+require "yaml"
 require_relative "../script/sign_linker"
 
 class SignLinkerTest < Minitest::Test
@@ -178,6 +179,35 @@ class SignLinkerTest < Minitest::Test
     map = Edubba::SignLinker.build_map(teaching, queue, REF, { 0 => CH0 })
     assert_equal "AN · [an], diŋir · heaven; god", map[AN][:tip]
     assert_equal "EŠ₂ · [še] · rope; the terminative -še₃", map[ME][:tip]
+  end
+
+  def test_tip_text_veteran_keeps_reads_and_hook_drops_boilerplate
+    tip = Edubba::SignLinker.tip_text_veteran(
+      { "name" => "BI", "value" => "pi2", "keyword" => "its",
+        "meaning" => "veteran — BI gains [pi₂]: the last syllable of Ḫammurapi" }
+    )
+    assert_equal "BI · [pi] · the last syllable of Ḫammurapi", tip
+  end
+
+  def test_pool_103_veteran_tips_stay_hover_sized
+    pool = YAML.safe_load_file("assets-src/data/pool-103.yml")["signs"]
+    pool.select { |s| s["veteran"] }.each do |s|
+      tip = Edubba::SignLinker.tip_text_veteran(s)
+      refute_match(/veteran/, tip, "#{s['name']}: boilerplate leaked into a hover tip")
+      assert_match(/·\s\[/, tip, "#{s['name']}: tip #{tip.inspect} lost the Akkadian reading")
+      assert_operator tip.length, :<=, 60, "#{s['name']}: tip #{tip.inspect} outgrew a hover bubble"
+    end
+  end
+
+  def test_transform_routes_veteran_to_akk_reintroduction_on_akk_pages
+    map = { AN => { url: "/cuneiform/102/03-say-it-twice/", url_akk: "/cuneiform/103/05-the-verb-arrives/",
+                    anchor: "sign-1202D", tip: "sux tip", tip_akk: "akk tip" } }
+    sux = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/102/09-x/", "", :codex)
+    akk = Edubba::SignLinker.transform("<p>#{AN}</p>", map, "/cuneiform/103/06-if-a-man/", "", :codex_akk)
+    assert_includes sux, 'href="/cuneiform/102/03-say-it-twice/#sign-1202D"'
+    assert_includes sux, ">sux tip<"
+    assert_includes akk, 'href="/cuneiform/103/05-the-verb-arrives/#sign-1202D"'
+    assert_includes akk, ">akk tip<"
   end
 
   def test_tip_text_escapes_html_and_skips_empty

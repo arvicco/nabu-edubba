@@ -29,10 +29,12 @@ batches:
   - EL
   - AD
   - IGI (vet)
+  - KALAM (vet)
   coverage_akkob_pct: 64.2
 - chapter: 4
   signs:
   - NUN
+  - LUGAL (vet)
   coverage_akkob_pct: 64.2
 - chapter: 5
   signs:
@@ -143,7 +145,7 @@ signs:
   name: BI
   value: pi2
   veteran: true
-  meaning: 'veteran — BI gains [pi₂]: the last syllable of Ḫa-am-mu-ra-pi₂'
+  meaning: 'veteran — BI gains [pi₂]: the last syllable of Ḫammurapi'
   freq_akkob: 50
   certainty: stated
   chapter: 2
@@ -185,6 +187,16 @@ signs:
   certainty: stated
   chapter: 3
   keyword: eye
+- glyph: "\U00012327"
+  codepoint: '12327'
+  name: KALAM
+  value: matum
+  display_value: mātum
+  veteran: true
+  meaning: 'veteran — KALAM gains [mātum]: the Land-sign as a sumerogram'
+  certainty: stated
+  chapter: 3
+  keyword: the Land
 - glyph: "\U00012263"
   codepoint: '12263'
   name: NUN
@@ -194,6 +206,16 @@ signs:
   certainty: classic
   chapter: 4
   keyword: prince
+- glyph: "\U00012217"
+  codepoint: '12217'
+  name: LUGAL
+  value: szarrum
+  display_value: šarrum
+  veteran: true
+  meaning: 'veteran — LUGAL gains [šarrum]: the king-sign as a sumerogram'
+  certainty: stated
+  chapter: 4
+  keyword: king
 - glyph: "\U00012312"
   codepoint: '12312'
   name: UB

@@ -55,8 +55,8 @@ the laws spell them with.
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12009' | relative_url }}">102's arm-sign</a> crosses the
           border as pure sound: <em>id-di-ma</em>, "he charged,
-          and…," and the executioner's <em>id-da-ak</em> both
-          open on it</td>
+          and…," and the executioner's <em>id-da-ak</em>, "he
+          shall be killed," both open on it</td>
     </tr>
   </tbody>
 </table>
@@ -70,8 +70,8 @@ Old Babylonian runs its laws on two verb shapes:[^verbs]
     <tr><th>Shape</th><th>Says</th><th>On the stone</th></tr>
   </thead>
   <tbody>
-    <tr><td>preterite</td><td>a done deed: "he charged"</td><td><span class="norm">iddi</span>, <span class="norm">ubbir</span></td></tr>
-    <tr><td>durative</td><td>what shall now happen: "he shall pay"</td><td><span class="norm">inaddin</span>, <span class="norm">iddâk</span></td></tr>
+    <tr><td>preterite</td><td>a done deed, told past</td><td><span class="norm">iddi</span> "he charged" · <span class="norm">ubbir</span> "he accused"</td></tr>
+    <tr><td>durative</td><td>what shall now happen</td><td><span class="norm">inaddin</span> "he shall pay" · <span class="norm">iddâk</span> "he shall be killed"</td></tr>
   </tbody>
 </table>
 

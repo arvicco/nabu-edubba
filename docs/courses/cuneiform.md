@@ -321,7 +321,19 @@ content exists.
   tables it appears only as a marked veteran gaining its
   Akkadian reading, and its glyph links to its AKKADIAN codex
   page: sign_linker routes by course — C101/C102 surfaces link
-  the sux codex, C103 surfaces the akk codex.
+  the sux codex, C103 surfaces the akk codex. On Akkadian pages
+  a veteran's glyph links its AKKADIAN reintroduction chapter,
+  never the Sumerian teaching seat (owner ruling 2026-08-06);
+  Sumerian pages keep the sux seat. Its Akkadian hover tip
+  stays hover-sized (same ruling): name · reads · the value's
+  hook, the redundant "veteran — X gains [y]" boilerplate
+  stripped — the full story is codex-page prose, never a
+  bubble. A sign the course uses as a **sumerogram** (KALAM,
+  LUGAL) is itself a veteran in this sense: it re-enters in a
+  marked veteran table row with the Akkadian word it writes as
+  its reading ([mātum], [šarrum]), gets its own akk codex page,
+  and its bubble tells the Akkadian truth — a bubble may never
+  imply a Sumerian reading on an Akkadian page.
 - **Ordering.** Value-frequency computed over the OB sub-corpus
   (CDLI `lect=akk:ob`) by the ratified frequency methodology,
   extended as a separate base — sux and akk ranks never mix.

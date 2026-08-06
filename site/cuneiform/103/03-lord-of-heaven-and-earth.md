@@ -61,6 +61,15 @@ stele's opening is built out of it.
           eye entirely; it opens
           <span class="norm">šīmātum</span>, "destinies"</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td>[mātum]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's Land-sign</a> crosses the
+          border whole, as a sumerogram: written KALAM, spoken as
+          the Akkadian word <span class="norm">mātum</span>,
+          "the land" — you will see it do exactly that four lines
+          from now</td>
+    </tr>
   </tbody>
 </table>
 

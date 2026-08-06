@@ -163,7 +163,7 @@ class LintTest < Minitest::Test
     assert_equal "codex-reads", v[0].rule
 
     ["[ša]", "[an], diŋir", "[ku], dab₅, tuš",
-     "[zi] (fuller form zid)", "[wa/wi]"].each do |ok|
+     "[zi] (fuller form zid)", "[wa/wi]", "[mātum]", "[šarrum]"].each do |ok|
       assert_empty Edubba::Lint.check_codex_reads(path, %(---\nreads: "#{ok}"\n---\n)),
                    "#{ok} should pass"
     end
