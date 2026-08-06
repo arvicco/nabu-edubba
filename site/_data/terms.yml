@@ -236,3 +236,11 @@ terms:
     school: akk
     slug: stative
     def: "an adjective or noun conjugated like a tiny verb, stating a condition with no verb in sight — nasqā, \"(my words) are choice\""
+  - name: imperative
+    school: akk
+    slug: imperative
+    def: "the naked command form of a verb, no prefix at all — qibīma, \"speak!\"; šūbilam, \"send it!\""
+  - name: precative
+    school: akk
+    slug: precative
+    def: "the wish form — l- in front of a verb turns a statement into a blessing: liṭīb, \"may it be well\""
