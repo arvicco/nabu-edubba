@@ -352,3 +352,33 @@ content exists.
   extended as a separate base — sux and akk ranks never mix.
   Reinforcement selection (§8) applies from the first chapter:
   candidate lines are scored for the veterans they revise.
+
+### Stretch 2 (ruled 2026-08-06 at the phase-13 opening, before content)
+
+- **Plurals.** Displayed in the same two layers as the singular
+  (§9 transliteration + bound transcription, vowel length always
+  marked: nišū, nišī, šīmātum). Taught as the singular was — one
+  table, concrete holdable examples (masc. -ū nominative / -ī
+  genitive-accusative; fem. -ātum / -ātim). The "singular only"
+  hedges stretch 1 planted (ch02's table, ch07's nišī note) are
+  resolved by the plural chapter and link forward to it.
+- **Verbal stems.** The course names stems with the field's
+  letters — G, D, Š, N (as in Huehnergard) — and at first mention
+  each letter carries a plain-word handle: G "the ground stem,"
+  D "the doubled-middle stem," Š "the causative," N "the
+  passive." The Roman-numeral stem systems of some handbooks
+  never appear in this school. Stem letters are upright Latin
+  caps. Stretch 1's "thickened forms" honesty note resolves into
+  this naming; t-infixed forms (uktīn) are named where met, not
+  systematized until a later stretch.
+- **Letters.** Epistolary readings enter from the CDLI OB slice,
+  license attribution only (the deck law stands). The citation
+  line identifies the text as a letter with sender and recipient
+  when known, plus the URN as ever. The epistolary frame (ana X
+  qibīma — umma Y-ma) is taught before the first letter line is
+  read; letter readings obey every §9 display law (no homophone
+  indexes, CAPS sumerograms, bound transcription alongside).
+- **Independent pronouns.** anāku, atta, šū … display in bound
+  transcription; each pronoun taught with a concrete line, never
+  a bare paradigm; the paradigm table stays course-sized (the
+  persons the readings actually use).
