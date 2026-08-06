@@ -656,7 +656,7 @@ end, lifting the Gate-12 deferral.
    pool-103 stretch-2 pins (identities via nabu signs --lang=akk),
    letter pick (CDLI OB, attribution only), coverage report.
 ## M13-3 · ch 08–09 — plural; the stems named  [tier: top — Fable] [status: done — 2 chapters, 6 signs, 6 codex pages, stative term, hedges resolved]
-## M13-4 · ch 10–11 — laws 2–3; eye for an eye  [tier: top — Fable] [status: todo]
+## M13-4 · ch 10–11 — law 2 whole; eye for an eye  [tier: top — Fable] [status: done — ordeal both halves (one TE box, falls ch14), law 196 + 197 exhibit, E2/TUR sumerogram veterans, 8 codex pages]
 ## M13-5 · ch 12–13 — a letter home; anāku  [tier: top — Fable] [status: todo]
 ## M13-6 · ch 14 + akk codex pages  [tier: top — Fable] [status: todo]
 ## M13-7 · Akk retrieval mirror  [tier: mid] [status: todo]
