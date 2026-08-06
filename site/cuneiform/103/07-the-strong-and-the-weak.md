@@ -188,8 +188,9 @@ one glossed politely, and the moment the king finally says
 4. Both veterans this chapter carry sounds Sumerian never wrote
    the same way. Name the two sounds.
 
-*This closes the first stretch of Cuneiform 103. The
+*This closes the first stretch of Cuneiform 103 — and the second
+begins at once: the plural, in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>.
+The
 [Akkadian Addenda]({{ '/cuneiform/addenda-akk/' | relative_url }})
-holds every sign's Akkadian story; the drills and decks of the
-[Sumerian shelf]({{ '/cuneiform/addenda/' | relative_url }}) keep
-your veterans sharp while the next stretch is written.*
+holds every sign's Akkadian story.*
