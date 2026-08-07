@@ -30,12 +30,15 @@ can exist? — and hands the case to a judge no one can bribe.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒇉</td><td>ENGUR</td><td>the deep</td><td>[engur]</td>
+      <td class="script sign-cell">𒇉</td><td>ENGUR</td><td>the deep</td><td>[id]</td>
       <td>the sweet waters under the earth</td>
-      <td>Enki's own domain — and with
-          <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>
-          in front of it, 𒀀𒇉 writes the River itself, read as
-          the Akkadian name <span class="norm">Id</span></td>
+      <td>Sumer called this sign <em>engur</em>, Enki's deep;
+          Akkadian never voices it alone. It stands only behind
+          <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>,
+          and the pair 𒀀𒇉 is spoken as one name:
+          <span class="norm">Id</span>, the River — not
+          <a href="{{ '/cuneiform/103/05-the-verb-arrives/#sign-12009' | relative_url }}">chapter 05's</a>
+          syllable id (the arm), but the god's own name</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁍</td><td>BU</td><td>tear</td><td>[bu/pu]</td>
@@ -64,8 +67,11 @@ can exist? — and hands the case to a judge no one can bribe.
 ## A god you can wade into
 
 The stele writes the River as 𒀭𒀀𒇉 — the divine
-determinative, then water, then the deep: {d}I₇, spoken
-<span class="norm">Id</span>. This is the **ordeal**: the
+determinative, then water, then the deep — and the last two
+signs are read as ONE word: <span class="norm">Id</span>, the
+River's name. Neither sign is sounded on its own; water-plus-deep
+IS the name, a picture of a river speaking as a river. This is
+the **ordeal**: the
 accused walks into the god and the god gives a verdict no
 appeal can touch. Every sign of the phrase is now yours, and
 so is the whole law.

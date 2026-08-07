@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-07 · review round (Gate 13, ch10 ENGUR) · phase-13 ·
+Owner: why does the Reads bracket say [engur] when the chapter
+says the writing is SPOKEN Id? Right — the bracket is the voice,
+and 𒇉 is never voiced alone in this course: pool value engur →
+id (queue + deck regenerated), ch10 table row and prose now teach
+the pair 𒀀𒇉 as ONE spoken word (with the id-vs-arm-syllable
+disambiguation linked to ch05's A₂), engur.md codex page reads
+[id] with the identity/voice split stated. New §9 law:
+compound-only signs bracket what the reader speaks for the
+writing; the Sumerian identity-value lives in Name, keyword and
+story — the bracket is always the voice.
+
 2026-08-07 · review round (Gate 13, ch09 stems) · phase-13 ·
 Owner: "Complete failure at the teaching" — the stems table
 ASSERTED its mechanisms instead of showing them: "the verb,

@@ -70,7 +70,7 @@ signs:
   - { glyph: "𒋰", codepoint: "122F0", name: "TAB", value: "tab, tap", meaning: "two wedges side by side — a pair; to double",           freq_akkob: 219, certainty: stated,  chapter: 9, keyword: "pair" }
   # ch 10 · The River decides (law 2, the ordeal)
   - { glyph: "𒂍", codepoint: "1208D", name: "É",   value: "bitum",   display_value: "bītum", veteran: true, meaning: "veteran — É gains [bītum]: the house-sign as a sumerogram",  certainty: stated, chapter: 10, keyword: "house" }
-  - { glyph: "𒇉", codepoint: "121C9", name: "ENGUR", value: "engur", osl_name: "|LAGAB×HAL|", meaning: "the sweet waters under the earth; with A before it, the River", certainty: stated, chapter: 10, keyword: "the deep" }
+  - { glyph: "𒇉", codepoint: "121C9", name: "ENGUR", value: "id", osl_name: "|LAGAB×HAL|", meaning: "the sweet waters under the earth (engur); with A before it, spoken Id — the River", certainty: stated, chapter: 10, keyword: "the deep" }
   - { glyph: "𒁍", codepoint: "1204D", name: "BU",  value: "bu, pu", meaning: "[bu]; to tear away in the lists",                           freq_akkob: 38,  certainty: unclear, chapter: 10, keyword: "tear" }
   - { glyph: "𒅅", codepoint: "12145", name: "IG",  value: "ig, ik, iq", meaning: "the door",                                              freq_akkob: 109, certainty: stated,  chapter: 10, keyword: "door" }
   # ch 11 · An eye for an eye (laws 196-197)
