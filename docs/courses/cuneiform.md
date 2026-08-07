@@ -134,7 +134,12 @@ can see (u-ub-bi-ir), a prefix they can point at — and terms
 like "causative" are explained in plain words (fall vs fell)
 before the label is used. A form that hides the mechanism
 (ukīn's doubling inside a weak root) never carries the
-demonstration.
+demonstration. Sharpened same day: a PARADIGM is taught on ONE
+model verb run consistently through every slot, in phonetic
+transcription (the grammars' p-r-s), with the changing material
+marked — never a different verb per slot with shifting
+meanings. Only after the model grid stands are the corpus's
+real (often weak-rooted) verbs mapped onto it.
 
 ## 6 · What the gate checks mechanically
 

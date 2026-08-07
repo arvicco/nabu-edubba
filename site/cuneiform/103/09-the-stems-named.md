@@ -73,61 +73,71 @@ stem** is a fixed way of building flesh back onto the skeleton
 single letters;[^stems] each letter stands for something you
 can see on the clay and hear in your mouth.
 
-**G — the ground stem.** The skeleton built with nothing added:
-root, a person-prefix, the tense — done. The verb means exactly
-what the dictionary says, which is why the grammars call it
-"ground": it is the floor the other builds stand on. Everything
-<a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
-taught was G: <span class="norm">iddi</span> "he charged,"
-<span class="norm">inaddin</span> "he shall give,"
-<span class="norm">illak</span> "he goes."
-
-**D — the doubled-middle stem.** Say the root's *middle*
-consonant twice, and the action turns thorough, formal,
-official. You have already seen the doubling with your own
-eyes: <em>u-ub-<strong>bi</strong>-ir</em> spells
-<span class="norm">ubbir</span> — the accusing-verb's middle
-consonant is b, and the spelling writes it double, -bb-. Not
-"he grumbled a blame" but "he lodged an accusation." The same
-build sits in
-<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08's</a>
-<span class="norm">ukinnū</span>, "he made firm — established":
-the -nn- is doubled right there on the clay.
-
-**Š — the causative.** Put **š-** in front, and the subject
-stops doing the deed himself — he *makes someone else do it*.
-English needs a different verb for this (the tree *falls*; the
-woodsman *fells* it — that is, causes it to fall); Akkadian
-needs one sound. Watch it work on the carrying-verb, root
-**w-b-l**: in the G it is <span class="norm">itabbal</span>,
-"he carries off." Add the š-:
-<span class="norm">šūbilam</span> — "make-(someone)-carry it
-(to me)." And what do you call making someone carry a thing to
-you? *Sending for it.* One letter turns carrying into shipping;
-"send it to me!" is the causative of "carry," and Babylon said
-it that way every day.
-
-**N — the passive.** Put **n-** in front, and the verb flips
-direction: the subject stops doing and starts being done to.
-The killing-verb <span class="norm">dâkum</span>: in the G,
-someone kills; in the N — <span class="norm">iddâk</span> —
-"he *is* killed." (You never see the n itself because it melts
-into the consonant after it; that melting is exactly where
-iddâk's -dd- comes from.)
-
-The recap, now that each build has been seen:
+Now watch ONE root go through all four builds. The grammars
+demonstrate on **p-r-s**, "to divide — to decide a case" (a
+fitting verb for a law course), and so will we. This is pure
+transcription — no signs yet, nothing to spell, just the sounds:
+keep your eye on the three consonants **p**, **r**, **s**, which
+never move, while the build around them changes. All four forms
+say "he …-ed":
 
 <table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Stem</th><th>The build</th><th>What it does</th><th>Seen in</th></tr>
+    <tr><th>Stem</th><th>The build</th><th>p-r-s, "decide"</th><th>Says</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>G</strong> ground</td><td>the bare root</td><td>the dictionary meaning, unchanged</td><td><span class="norm">iddi</span> · <span class="norm">inaddin</span> · <span class="norm">illak</span></td></tr>
-    <tr><td><strong>D</strong> doubled-middle</td><td>middle consonant twice (-bb-, -nn-)</td><td>thorough, formal, official</td><td><span class="norm">ubbir</span> · <span class="norm">ukinnū</span></td></tr>
-    <tr><td><strong>Š</strong> causative</td><td>š- in front</td><td>make someone do it</td><td><span class="norm">šūbilam</span> "send it!"</td></tr>
-    <tr><td><strong>N</strong> passive</td><td>n- in front (melts into the root)</td><td>be done to</td><td><span class="norm">iddâk</span> "shall be killed"</td></tr>
+    <tr><td><strong>G</strong> — the ground stem</td><td>root + "he" prefix, nothing else</td><td><span class="norm">iprus</span></td><td>"he decided" — the plain dictionary deed; "ground" because every other build stands on it</td></tr>
+    <tr><td><strong>D</strong> — the doubled-middle</td><td>the MIDDLE consonant said twice</td><td><span class="norm">upa<strong>rr</strong>is</span></td><td>"he decided piece by piece, parceled out" — the same deed made thorough, formal</td></tr>
+    <tr><td><strong>Š</strong> — the causative</td><td><strong>š-</strong> put in front</td><td><span class="norm">u<strong>š</strong>apris</span></td><td>"he MADE (someone) decide" — did not do it himself, caused it</td></tr>
+    <tr><td><strong>N</strong> — the passive</td><td><strong>n-</strong> put in front, melting into the root</td><td><span class="norm">i<strong>pp</strong>aris</span></td><td>"it WAS decided" — the subject is done-to; the n melted into p, leaving -pp-</td></tr>
   </tbody>
 </table>
+
+Say the column aloud: <span class="norm">iprus</span>,
+<span class="norm">uparris</span>,
+<span class="norm">ušapris</span>,
+<span class="norm">ipparis</span>. One skeleton, four garments.
+On the causative, if the idea feels slippery, English has it
+too — it just needs a different word each time: the tree
+*falls*, the woodsman *fells* it (makes it fall); the child
+*eats*, the nurse *feeds* her (makes her eat). Akkadian does
+all of that with the one š-.
+
+## Now the verbs you own
+
+Hold the p-r-s grid and place the real verbs from your readings
+onto it:
+
+- <span class="norm">iddi</span> "he charged,"
+  <span class="norm">inaddin</span> "he shall give,"
+  <span class="norm">illak</span> "he goes" — all in the
+  **iprus** slot and its durative: plain ground-stem verbs,
+  everything
+  <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
+  taught.
+- <span class="norm">ubbir</span>, "he accused" — the
+  **uparris** slot. The accusing-verb's middle consonant is b,
+  and the clay writes the doubling out in full:
+  <em>u-ub-<strong>bi</strong>-ir</em>, -bb- where uparris has
+  -rr-. Not casual blame; a formal accusation.
+  <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">Chapter 08's</a>
+  <span class="norm">ukinnū</span>, "established," sits in the
+  same slot: its doubled -nn- is right there in the spelling.
+- <span class="norm">šūbilam</span>, "send it here!" — the
+  **ušapris** slot, on the carrying-root **w-b-l**. Its first
+  consonant is a weak w that the vowels close over, so
+  ušapris's shape surfaces as <span class="norm">šūbil-</span>;
+  but the š- in front is still the entire story: *make-carry*.
+  And making someone carry a thing to you is, in one word,
+  sending for it. (The plain G of the same root,
+  <span class="norm">itabbal</span> "he carries off," walks
+  through the exhibits just below.)
+- <span class="norm">iddâk</span>, "he shall be killed" — the
+  **ipparis** slot, on the killing-verb
+  <span class="norm">dâkum</span>. The melted n- survives as
+  the doubled -dd-, exactly as it survived as -pp- in ipparis:
+  the verb flipped from doing to being-done-to, and law 1's
+  verdict stands in it.
 
 And each build still tells time the way
 <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
