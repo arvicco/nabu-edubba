@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-07 · review round (Gate 13, ch09 stems II) · phase-13 ·
+Owner: better but still not clear — teach the paradigm on 2-3
+verbs run CONSISTENTLY through all stems, root spelled first, in
+phonetic transcription; only then map the real corpus verbs.
+Done: the section now runs the grammars' own model root p-r-s
+("to decide" — a law-course fit) through all four slots in pure
+transcription (iprus / uparris / ušapris / ipparis, changing
+material bolded, meanings held constant as "he decided" variants),
+with the causative eased by two English pairs (fall/fell,
+eat/feed); a "Now the verbs you own" section then places iddi,
+ubbir/ukinnū, šūbilam (weak-w wrinkle stated), iddâk onto the
+grid by slot name. §5 sharpened: one model verb through every
+slot, never a different verb per slot with shifting meanings.
+
 2026-08-07 · review round (Gate 13, ch10 ENGUR) · phase-13 ·
 Owner: why does the Reads bracket say [engur] when the chapter
 says the writing is SPOKEN Id? Right — the bracket is the voice,
