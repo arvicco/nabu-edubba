@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-07 · review round (Gate 13, ch09 stems) · phase-13 ·
+Owner: "Complete failure at the teaching" — the stems table
+ASSERTED its mechanisms instead of showing them: "the verb,
+plain" unexplained; D demonstrated on ukīn, whose doubling is
+invisible (weak middle root); the causative glossed circularly
+("cause to…") with no plain-words teaching; causative/passive
+used without glossary entries — breaking the existing new-jargon
+law. Rewrite: each stem now taught in prose BEFORE the recap
+table, with the mechanism visible in the spelling — G stripped
+from inaddin to the n-d-n skeleton; D shown on u-ub-bi-ir's
+written -bb- (and ukinnū's -nn-), ukīn dropped; Š taught via
+fall/fell then carried→sent on the shared w-b-l root; N via
+dākum→iddâk with the n-melting explained. causative + passive
+join terms.yml (general shelf, hover-bubbled site-wide). New §5
+law: a mechanism is demonstrated, never asserted — the example
+must show it in its spelling.
+
 2026-08-06 · M13-1..M13-8 · phase-13 · C103 Akkadian stretch 2 in
 one run. Laws first (§9 stretch-2: plural display, G/D/Š/N stem
 letters with plain handles — Roman numerals banned, epistolary

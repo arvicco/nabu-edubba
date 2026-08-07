@@ -126,6 +126,16 @@ literally. A lumped one-line gloss never introduces grammar on
 its own; quick glosses are for review material, and even those
 link the chapter that taught the form.
 
+A grammatical MECHANISM is demonstrated, never asserted (owner
+ruling 2026-08-07, after the stems table taught "doubled" on a
+form whose doubling is invisible): the demonstrating example
+must SHOW the mechanism in its spelling — a doubling the reader
+can see (u-ub-bi-ir), a prefix they can point at — and terms
+like "causative" are explained in plain words (fall vs fell)
+before the label is used. A form that hides the mechanism
+(ukīn's doubling inside a weak root) never carries the
+demonstration.
+
 ## 6 · What the gate checks mechanically
 
 From this rulebook: ŋ-not-ĝ, no accent indexes, ETCSL and CDLI
