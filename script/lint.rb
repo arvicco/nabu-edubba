@@ -24,6 +24,10 @@ require_relative "rulebook"
 #                 — owner stylistic ruling 2026-07-30. Applies to
 #                 <span class="translit"> content; spans additionally
 #                 classed "atf" are exempt (verbatim raw-ATF exhibits)
+#   tail-fit-width a sign-table--tail-fit table pins its last
+#                 column to one unwrapped line (style.css), so
+#                 cells there stay <= 60 chars of rendered text —
+#                 commentary belongs in prose, never in cells (§5)
 #   rulebook      course content obeys its school's rulebook
 #                 (docs/courses/<school>.md — the single source of
 #                 truth for conventions; script/rulebook.rb
@@ -122,6 +126,7 @@ module Edubba
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
       found.concat(check_nav_label(path, text))
+      found.concat(check_tail_fit(path, text))
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
       found.concat(check_akk_translit(path, text))
@@ -159,6 +164,32 @@ module Edubba
 
       [Violation.new(path, "nav-label",
                      "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
+    end
+
+    # tail-fit-width (§5, owner report 2026-08-07: the stems table's
+    # Says column carried whole sentences and blew the layout):
+    # sign-table--tail-fit sets white-space: nowrap on the last
+    # column, so its cells must stay short — <= 60 characters after
+    # stripping tags and Liquid. Longer commentary lives in prose
+    # around the table, or the table drops the tail-fit class.
+    TAIL_FIT_MAX = 60
+    TAIL_FIT_TABLE = %r{<table[^>]*class="[^"]*sign-table--tail-fit[^"]*"[^>]*>.*?</table>}m
+    def check_tail_fit(path, text)
+      found = []
+      text.scan(TAIL_FIT_TABLE) do |tbl|
+        tbl.scan(%r{<tr>(.*?)</tr>}m) do |(row)|
+          cells = row.scan(%r{<td[^>]*>(.*?)</td>}m).flatten
+          next if cells.empty?
+
+          plain = cells.last.gsub(/\{%.*?%\}/m, "").gsub(/\{\{.*?\}\}/m, "")
+                       .gsub(/<[^>]+>/, "").gsub(/\s+/, " ").strip
+          next if plain.length <= TAIL_FIT_MAX
+
+          found << Violation.new(path, "tail-fit-width",
+                                 "tail-fit last column cannot wrap, but #{plain[0, 40].inspect}… is #{plain.length} chars (max #{TAIL_FIT_MAX}) — move commentary into prose (§5)")
+        end
+      end
+      found
     end
 
     # akk-translit (§9, owner rulings 2026-08-06): Akkadian reading
