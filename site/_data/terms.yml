@@ -157,6 +157,12 @@ terms:
   - name: transitive
     slug: transitive
     def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
+  - name: causative
+    slug: causative
+    def: "a verb build meaning \"make someone do it\" — the tree falls, the woodsman FELLS it; Akkadian builds it with š- in front (šūbilam, \"make-carry it — send it\")"
+  - name: passive
+    slug: passive
+    def: "a verb build that flips who suffers the action — \"he kills\" versus \"he IS killed\"; Akkadian builds it with n- in front (iddâk)"
   - name: verbal sentence
     slug: verbal-sentence
     school: hieroglyphs

@@ -62,31 +62,81 @@ introduced — and each way of building has a name.
 
 ## Four ways to build one root
 
-Every verb you have read is one root wearing one of four builds —
-the **verbal stems**. The field names them with letters:[^stems]
+Take the giving-verb you have known since
+<a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00</a>:
+<span class="norm">inaddin</span>, "he shall give." Strip away
+the "he" prefix and the tense-vowels, and a skeleton of three
+consonants remains: **n-d-n**, "give." That skeleton is the
+consonantal root, and every Akkadian verb has one. A **verbal
+stem** is a fixed way of building flesh back onto the skeleton
+— and Old Babylonian uses four. The grammars name them with
+single letters;[^stems] each letter stands for something you
+can see on the clay and hear in your mouth.
+
+**G — the ground stem.** The skeleton built with nothing added:
+root, a person-prefix, the tense — done. The verb means exactly
+what the dictionary says, which is why the grammars call it
+"ground": it is the floor the other builds stand on. Everything
+<a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
+taught was G: <span class="norm">iddi</span> "he charged,"
+<span class="norm">inaddin</span> "he shall give,"
+<span class="norm">illak</span> "he goes."
+
+**D — the doubled-middle stem.** Say the root's *middle*
+consonant twice, and the action turns thorough, formal,
+official. You have already seen the doubling with your own
+eyes: <em>u-ub-<strong>bi</strong>-ir</em> spells
+<span class="norm">ubbir</span> — the accusing-verb's middle
+consonant is b, and the spelling writes it double, -bb-. Not
+"he grumbled a blame" but "he lodged an accusation." The same
+build sits in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08's</a>
+<span class="norm">ukinnū</span>, "he made firm — established":
+the -nn- is doubled right there on the clay.
+
+**Š — the causative.** Put **š-** in front, and the subject
+stops doing the deed himself — he *makes someone else do it*.
+English needs a different verb for this (the tree *falls*; the
+woodsman *fells* it — that is, causes it to fall); Akkadian
+needs one sound. Watch it work on the carrying-verb, root
+**w-b-l**: in the G it is <span class="norm">itabbal</span>,
+"he carries off." Add the š-:
+<span class="norm">šūbilam</span> — "make-(someone)-carry it
+(to me)." And what do you call making someone carry a thing to
+you? *Sending for it.* One letter turns carrying into shipping;
+"send it to me!" is the causative of "carry," and Babylon said
+it that way every day.
+
+**N — the passive.** Put **n-** in front, and the verb flips
+direction: the subject stops doing and starts being done to.
+The killing-verb <span class="norm">dâkum</span>: in the G,
+someone kills; in the N — <span class="norm">iddâk</span> —
+"he *is* killed." (You never see the n itself because it melts
+into the consonant after it; that melting is exactly where
+iddâk's -dd- comes from.)
+
+The recap, now that each build has been seen:
 
 <table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Stem</th><th>The idea</th><th>You have read it</th></tr>
+    <tr><th>Stem</th><th>The build</th><th>What it does</th><th>Seen in</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>G</strong> — the ground stem</td><td>the verb, plain</td><td><span class="norm">iddi</span> "he charged" · <span class="norm">inaddin</span> "he shall pay"</td></tr>
-    <tr><td><strong>D</strong> — the doubled-middle stem</td><td>middle consonant doubled; often "do thoroughly, do to many"</td><td><span class="norm">ubbir</span> "he accused" · <span class="norm">ukīn</span> "he established"</td></tr>
-    <tr><td><strong>Š</strong> — the causative</td><td>š- in front: "cause to…"</td><td><span class="norm">šūbilam</span> "have it carried — send it!"</td></tr>
-    <tr><td><strong>N</strong> — the passive</td><td>n- in front: "be …-ed"</td><td><span class="norm">iddâk</span> "he shall be killed"</td></tr>
+    <tr><td><strong>G</strong> ground</td><td>the bare root</td><td>the dictionary meaning, unchanged</td><td><span class="norm">iddi</span> · <span class="norm">inaddin</span> · <span class="norm">illak</span></td></tr>
+    <tr><td><strong>D</strong> doubled-middle</td><td>middle consonant twice (-bb-, -nn-)</td><td>thorough, formal, official</td><td><span class="norm">ubbir</span> · <span class="norm">ukinnū</span></td></tr>
+    <tr><td><strong>Š</strong> causative</td><td>š- in front</td><td>make someone do it</td><td><span class="norm">šūbilam</span> "send it!"</td></tr>
+    <tr><td><strong>N</strong> passive</td><td>n- in front (melts into the root)</td><td>be done to</td><td><span class="norm">iddâk</span> "shall be killed"</td></tr>
   </tbody>
 </table>
 
-Hold the idea, not a paradigm: same skeleton, four builds, and
-each build still tells time the way
+And each build still tells time the way
 <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
 taught — a preterite for the done deed, a durative for what
-shall happen. <span class="norm">Ubbir</span> is just the
-preterite of the D stem; <span class="norm">iddâk</span> the
-durative of the N. And <span class="norm">uktīn</span>? A D
-stem with a -t- slipped inside — the grammars build a whole
-wing for those infixes; this course names them where met and
-moves on.
+shall happen. <span class="norm">Ubbir</span> is the D
+preterite; <span class="norm">iddâk</span> the N durative. And
+<span class="norm">uktīn</span>? A D stem with a -t- slipped
+inside — the grammars build a whole wing for those infixes;
+this course names them where met and moves on.
 
 ## Two verbs, walking
 
