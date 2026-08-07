@@ -367,6 +367,14 @@ content exists.
 
 ### Stretch 2 (ruled 2026-08-06 at the phase-13 opening, before content)
 
+- **Compound-only signs** (owner ruling 2026-08-07, after ENGUR
+  shipped with Reads [engur] while the chapter said "spoken
+  Id"): when a sign is taught only as part of a compound
+  writing, its Reads bracket carries what the reader SPEAKS for
+  that writing ([id] for 𒇉 in 𒀀𒇉), never the sign's Sumerian
+  identity-value — that identity (engur, the deep) lives in the
+  Name, keyword and story. The bracket is always the voice.
+
 - **Plurals.** Displayed in the same two layers as the singular
   (§9 transliteration + bound transcription, vowel length always
   marked: nišū, nišī, šīmātum). Taught as the singular was — one

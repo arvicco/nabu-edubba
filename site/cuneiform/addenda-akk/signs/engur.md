@@ -1,12 +1,12 @@
 ---
 title: "ENGUR · the deep"
 description: >-
-  The sign ENGUR in Akkadian — the sweet waters under the earth,
-  and with A before it, the divine River of the ordeal.
+  The sign ENGUR in Akkadian — never voiced alone: behind the
+  water-sign the pair speaks as Id, the divine River.
 layout: sign
 school: cuneiform
 sign: "ENGUR"
-reads: "[engur]"
+reads: "[id]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -18,9 +18,10 @@ permalink: /cuneiform/addenda-akk/signs/engur/
 An enclosure with water inside it — the lists read the shape as
 the **engur**, the sweet waters under the earth, the deep that
 wells up in springs and rivers: Enki's own address (stated).
-Akkadian keeps it for water at its most solemn. Written after
+That is the sign's identity, not its reading here: in this
+course it is never voiced alone. Written after
 <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>,
-𒀀𒇉 is the River — read as the Akkadian divine name
+the pair 𒀀𒇉 is read as ONE word — the Akkadian divine name
 <span class="norm">Id</span>, the god a man walks into when no
 human court can judge him.
 
