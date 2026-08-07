@@ -139,7 +139,27 @@ model verb run consistently through every slot, in phonetic
 transcription (the grammars' p-r-s), with the changing material
 marked — never a different verb per slot with shifting
 meanings. Only after the model grid stands are the corpus's
-real (often weak-rooted) verbs mapped onto it.
+real (often weak-rooted) verbs mapped onto it. Sharpened again
+2026-08-07 (owner request): when the pattern must be seen to
+GENERALIZE, a second model root runs through the same slots in
+parallel — every root filling EVERY slot, so the reader watches
+the identical build land on different consonants. Model roots
+are strong roots with textbook-standard forms in every slot;
+gaps and weak-root wrinkles belong to the mapping step after —
+and in that step each real verb's ROOT is spelled out before
+its slot is named (owner report 2026-08-07: "the accusing-verb's
+middle consonant is b" — of which root?), so the reader always
+sees skeleton, then build, then form.
+
+Table cells hold forms and few-word glosses; sentence-length
+commentary lives in prose AROUND the table, never inside cells
+(owner report 2026-08-07: the stems table's Says column carried
+whole sentences and blew the layout). Mechanically:
+`sign-table--tail-fit` pins the table's last column to a single
+unwrapped line, so cells there stay ≤ 60 characters of rendered
+text — the tail-fit-width lint enforces it; a longer tail
+column means the class is wrong or the commentary belongs in
+prose.
 
 ## 6 · What the gate checks mechanically
 
@@ -148,7 +168,7 @@ license labels (`script/rulebook.rb`); from §7, the codex checks —
 keyword presence and uniqueness, one codex page per taught sign,
 name-slug agreement (activation staged per school as the pages
 land); plus the standing rules — subscript-index, untaught-sign,
-font coverage, no-JS, link hygiene. Everything else above is law
+font coverage, no-JS, link hygiene, tail-fit-width (§5). Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
 

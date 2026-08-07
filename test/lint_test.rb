@@ -202,6 +202,30 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_chapter_links("x.md", svg)
   end
 
+  def test_tail_fit_last_column_stays_short
+    long = "x" * 61
+    bad = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <tbody><tr><td>G</td><td>#{long}</td></tr></tbody>
+      </table>
+    HTML
+    v = Edubba::Lint.check_tail_fit("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "tail-fit-width", v[0].rule
+
+    liquid = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <tbody><tr><td>A</td><td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. 04</a>{% else %}ch. 04{% endif %}</td></tr></tbody>
+      </table>
+    HTML
+    assert_empty Edubba::Lint.check_tail_fit("x.md", liquid),
+                 "Liquid and tags are stripped before measuring"
+
+    plain_table = "<table class=\"sign-table\"><tbody><tr><td>#{long}</td></tr></tbody></table>"
+    assert_empty Edubba::Lint.check_tail_fit("x.md", plain_table),
+                 "tables without tail-fit may wrap and are exempt"
+  end
+
   def test_akk_translit_bans_indexes_and_lowercase_sumerograms
     path = "site/cuneiform/103/04-x.md"
     idx = %(<span class="translit">i₃-nu an</span>)

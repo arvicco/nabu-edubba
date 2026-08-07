@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-07 · review round (Gate 13, ch09 stems III + layout) ·
+phase-13 · Owner, three reports in one round: (a) the stems
+table is too wide, especially the Says column; (b) show 2–3
+roots changing through the stems, not one; (c) when mapping the
+owned verbs, SPELL each root before naming its build ("the
+accusing-verb's middle consonant is b" — of which root?). Root
+cause of (a): sign-table--tail-fit pins the last column to
+white-space: nowrap (built for short "Taught in" links), and
+the Says cells carried ~90-char sentences — the one such table
+site-wide, found by measuring every tail-fit last column. Done:
+Says cells cut to few-word glosses, commentary moved to prose
+after the table; the grid now runs TWO strong model roots in
+parallel (p-r-s "decide" beside the grammars' drill verb m-ḫ-ṣ
+"strike" — imḫaṣ / umaḫḫiṣ / ušamḫiṣ / immaḫiṣ), so the reader
+watches the identical build land on different consonants (-rr-
+/ -ḫḫ-, -pp- / -mm-); the mapping list is root-first (n-d-n,
+a-l-k, a-b-r, k-w-n, w-b-l, d-w-k), with the idâk/iddâk
+one-doubling kill-vs-be-killed pair added. Laws: §5 gains the
+parallel-second-root and root-spelled-before-slot sharpenings
+plus the commentary-in-prose-not-cells table law; new
+tail-fit-width lint (last column ≤ 60 chars rendered, Liquid
+stripped) with test — the class of blown table cannot recur.
+
 2026-08-07 · review round (Gate 13, ch09 stems II) · phase-13 ·
 Owner: better but still not clear — teach the paradigm on 2-3
 verbs run CONSISTENTLY through all stems, root spelled first, in
