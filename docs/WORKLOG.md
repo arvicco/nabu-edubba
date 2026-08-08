@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-2 · phase-14 · Instruments: every stretch-3
+reading pinned against the 114-glyph taught inventory with a
+line-by-line nabu resolution check. Finds: law 202 costs ONE
+sign (AZ 𒊍 — and carries im-ta-ḫa-aṣ / im-maḫ-ḫa-aṣ, the ch09
+model root m-ḫ-ṣ in the corpus flesh); law 200 costs one (AḪ,
+meḫrišu); law 197 costs the owed GIR₃+PAD; the ch18 close is
+the epilogue's INVITATION (a:3240'–3256', "let the wronged man
+have my stele read aloud … let his heart breathe") — 17 lines,
+exactly 3 new signs (AR, UR₂, ALAN), precative-dense on taught
+grammar. Contract picked: PBS 8/2, 195 (p257793, Sippar under
+Immerum, attribution) — silver, interest (MAŠ₂), šu ba-an-ti,
+year-name (INANNA), witnesses incl. the sign-free
+sentence-name Sîn-išmeanni; GIN₂ the shekel sign. Laws
+198/199/201 stay transcription (MAŠ/ARAD₂/sa₁₀ = one-line
+signs); LU (freq rank 37) stays reserve — no reading needs it,
+and names alone don't seat a sign. 10 new signs total, freq-
+justified, identities OSL-deterministic.
+
 2026-08-08 · M14-1 · phase-14 · Stretch-3 law before content:
 §9 gains the perfect (iptaras, -ta- after the first radical,
 met forms re-parsed, šumma tense chain stated once), the dual
