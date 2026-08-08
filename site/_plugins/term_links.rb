@@ -20,6 +20,6 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
   urls = terms_pages.each_with_object({}) { |p, h| h[p.data["terms_school"]] = p.url }
   terms = Array(site.data.dig("terms", "terms"))
   page.output = Edubba::TermLinker.transform(
-    page.output, terms, urls, site.baseurl.to_s
+    page.output, terms, urls, site.baseurl.to_s, page_url: page.url
   )
 end

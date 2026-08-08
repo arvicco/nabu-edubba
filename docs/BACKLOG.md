@@ -682,3 +682,28 @@ end, lifting the Gate-12 deferral.
   an exemption or the same ban. Needs an owner ruling + a
   hieroglyphs-rulebook entry; the mechanical check is scoped to
   cuneiform until then.
+
+## Phase 14 — C103 Akkadian, stretch 3: the course closed (plan approved 2026-08-08)
+
+Source: owner pick 2026-08-08 ("C103 stretch 3, let's wrap up
+Akk"), plan approved same day. Pays every standing debt (ch02
+dual, ch09 perfect hedge, ch11 bone law in signs, ch14 contracts
+promise) and closes the course at ch18 with its Reference.
+Detailed plan: .docs/phase-14-plan.md.
+
+## M14-1 · The stretch-3 law  [tier: top — Fable] [status: done — §9 stretch-3 (perfect, dual, compound sumerograms, contracts, weights, Reference), perfect/dual terms + term-scope guard]
+   Rulebook §9 stretch-3: perfect, dual, compound sumerograms,
+   contracts, weights, Reference conventions; terms perfect +
+   dual with the new term-scope guard. No content until this
+   lands.
+## M14-2 · Instruments  [tier: mid] [status: ready] [deps: M14-1]
+   pool-103 stretch-3 pins (nabu signs --lang=akk), contract
+   pick (CDLI OB legal, attribution only), coverage report,
+   reading map + pins appended to the plan.
+## M14-3 · ch 15 — the perfect  [tier: top — Fable] [status: ready] [deps: M14-2]
+## M14-4 · ch 16 — eye, tooth, bone + dual  [tier: top — Fable] [status: ready] [deps: M14-3]
+## M14-5 · ch 17 — a contract  [tier: top — Fable] [status: ready] [deps: M14-4]
+## M14-6 · ch 18 + catalogs — close + Reference  [tier: top — Fable] [status: ready] [deps: M14-5]
+## M14-7 · Retrieval mirror update  [tier: mid] [status: ready] [deps: M14-6]
+   akk drills + deck regenerated; decks page counts.
+## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: ready] [deps: M14-7]
