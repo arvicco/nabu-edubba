@@ -704,6 +704,6 @@ Detailed plan: .docs/phase-14-plan.md.
 ## M14-4 · ch 16 — eye, tooth, bone + dual  [tier: top — Fable] [status: done — law 197 paid in signs, law 200 whole (meḫrišu), scale of persons in transcription, dual paid; GIR₃/PAD/AḪ + DU veteran, 4 codex pages, 54-card deck, 75.7%] [deps: M14-3]
 ## M14-5 · ch 17 — a contract  [tier: top — Fable] [status: done — PBS 8/2, 195 whole (obverse + year-name + 2 witnesses), two-languages-one-tablet teaching, EN.ZU rebus, year-name term; MAŠ₂/GIN₂/INANNA + KI veteran, 4 codex pages, 58-card deck] [deps: M14-4]
 ## M14-6 · ch 18 + catalogs — close + Reference  [tier: top — Fable] [status: done — the invitation read whole (17 lines, precative festival), tense×stem grid with honest dashes, queue-driven Reference table with anchors, 76.4% final coverage, frontier; AR/UR₂/ALAN, 3 codex pages, catalogs flipped to complete] [deps: M14-5]
-## M14-7 · Retrieval mirror update  [tier: mid] [status: ready] [deps: M14-6]
+## M14-7 · Retrieval mirror update  [tier: mid] [status: done — deal includes all stretch-3 signs (build-verified), deck 61 cards with loan lines, decks-page provenance line updated, Reference-anchor law reconciled with the site-wide chapter-seat convention] [deps: M14-6]
    akk drills + deck regenerated; decks page counts.
 ## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: ready] [deps: M14-7]

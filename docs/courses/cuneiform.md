@@ -505,9 +505,12 @@ content exists.
   values); a modern equivalence may appear once per chapter at
   first mention, never per line.
 - **The Reference (course close).** ch18 closes the course in
-  the 101-ch12 / 102-ch18 mold: the full taught-sign table with
-  #sign-<cp> anchors (the teaching-seat targets future courses
-  link), veterans pointing at their original seats,
+  the 101-ch12 / 102-ch18 mold: the full taught-sign table,
+  each glyph linking its codex page. Future courses link a 103
+  sign to its CHAPTER teaching-seat anchor (#sign-<cp> on the
+  chapter that taught it) — the site-wide convention; 101's
+  reference-page anchors are that course's own historical
+  seat. Veterans point at their original seats,
   instrument-reported coverage (no invented numbers), the
   frontier named honestly (omens, mathematics, Standard
   Babylonian). Every standing lint applies — title-language,
