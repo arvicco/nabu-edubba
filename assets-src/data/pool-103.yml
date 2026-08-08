@@ -86,3 +86,7 @@ signs:
   - { glyph: "𒌌", codepoint: "1230C", name: "UL",  value: "ul",   osl_name: "|U.GUD|", meaning: "the flat no of statements",                          freq_akkob: 57,  certainty: stated,  chapter: 13, keyword: "never" }
   # ch 14 · Where you stand (stretch close; the last box falls)
   - { glyph: "𒋼", codepoint: "122FC", name: "TE",  value: "te",   meaning: "to approach in the lists",                                  freq_akkob: 87,  certainty: unclear, chapter: 14, keyword: "approach" }
+  # ch 15 · It has happened (the perfect; law 202)
+  - { glyph: "𒊍", codepoint: "1228D", name: "AZ",  value: "as, az, as,", osl_name: "|PIRIG×ZA|", meaning: "the bear in the lists; one sign for three tails — as, az, and the pressed aṣ", freq_akkob: 585, certainty: stated, chapter: 15, keyword: "bear" }
+  - { glyph: "𒋫", codepoint: "122EB", name: "TA",  value: "ta",   veteran: true, keyword: "from", meaning: "veteran — TA gains [ta]: the perfect's own marker, im-ta-ḫa-aṣ", chapter: 15 }
+  - { glyph: "𒈤", codepoint: "12224", name: "MAH", value: "mah",  veteran: true, keyword: "exalted", meaning: "veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, \"he shall be struck\"", chapter: 15 }

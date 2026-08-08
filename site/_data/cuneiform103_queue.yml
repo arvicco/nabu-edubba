@@ -96,6 +96,12 @@ batches:
   signs:
   - TE
   coverage_akkob_pct: 75.2
+- chapter: 15
+  signs:
+  - AZ
+  - TA (vet)
+  - MAH (vet)
+  coverage_akkob_pct: 75.3
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -537,3 +543,30 @@ signs:
   certainty: unclear
   chapter: 14
   keyword: approach
+- glyph: "\U0001228D"
+  codepoint: 1228D
+  name: AZ
+  value: as, az, as,
+  osl_name: "|PIRIG×ZA|"
+  meaning: the bear in the lists; one sign for three tails — as, az, and the pressed
+    aṣ
+  freq_akkob: 585
+  certainty: stated
+  chapter: 15
+  keyword: bear
+- glyph: "\U000122EB"
+  codepoint: 122EB
+  name: TA
+  value: ta
+  veteran: true
+  keyword: from
+  meaning: 'veteran — TA gains [ta]: the perfect''s own marker, im-ta-ḫa-aṣ'
+  chapter: 15
+- glyph: "\U00012224"
+  codepoint: '12224'
+  name: MAH
+  value: mah
+  veteran: true
+  keyword: exalted
+  meaning: 'veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, "he shall be struck"'
+  chapter: 15
