@@ -696,7 +696,7 @@ Detailed plan: .docs/phase-14-plan.md.
    contracts, weights, Reference conventions; terms perfect +
    dual with the new term-scope guard. No content until this
    lands.
-## M14-2 · Instruments  [tier: mid] [status: ready] [deps: M14-1]
+## M14-2 · Instruments  [tier: mid] [status: done — reading map + pins in .docs/phase-14-plan.md; 10 new signs OSL-pinned (1+3+3+3, all within the 1–3 law); contract picked (PBS 8/2, 195 = p257793, attribution); ch18 close = the epilogue invitation a:3240'–3256'; LU stays reserve, stated honestly] [deps: M14-1]
    pool-103 stretch-3 pins (nabu signs --lang=akk), contract
    pick (CDLI OB legal, attribution only), coverage report,
    reading map + pins appended to the plan.
