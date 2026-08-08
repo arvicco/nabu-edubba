@@ -21,9 +21,10 @@ wells up in springs and rivers: Enki's own address (stated).
 That is the sign's identity, not its reading here: in this
 course it is never voiced alone. Written after
 <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>,
-the pair 𒀀𒇉 is read as ONE word — the Akkadian divine name
-<span class="norm">Id</span>, the god a man walks into when no
-human court can judge him.
+the pair 𒀀𒇉 is read as ONE word — transliterated ID₂, a
+capitals-and-index sign-name like E₂ — and spoken as the
+Akkadian divine name <span class="norm">Id</span>, the god a
+man walks into when no human court can judge him.
 
 ## How to remember it
 
@@ -36,7 +37,7 @@ case.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒀀𒇉 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}I₇ i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span>, "into the River he shall plunge, and —" the ordeal of law 2</span></div>
+    <div class="reading-line"><span class="script">𒀭𒀀𒇉 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}ID₂ i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span>, "into the River he shall plunge, and —" the ordeal of law 2</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 2.

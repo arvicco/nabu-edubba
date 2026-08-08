@@ -5,6 +5,28 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · review round (Gate 13, ch09 balance + ch10 River
+chain) · phase-13 · Owner, two reports: (a) the stems grid
+unbalanced again, now on The build column; (b) the River's
+labels never connect — table says ENGUR [id], the reading line
+says {d}I₇, the gloss says Id: "EVERY reading here is
+completely different." Checked the references: OSL lists id₂
+and i₇ as the SAME deterministic value of |A.LAGAB×HAL| (𒀀𒇉),
+and CDLI's ATF files it as {d}i7. Ruling (§9 compound law
+extended): the reading-line transliteration carries the same
+VOICE as the bracket and the word — glyph → transliteration →
+bracket → word chains without a leap — so the pair is now {d}ID₂
+everywhere (ch10 ×5, ch14, engur codex, deck), the E₂ index
+habit; ch10 teaches the name/spelling/voice equation in one
+place (ENGUR the shelf-name, ID₂ the spelling, Id the voice),
+the corpus's i₇ filing owned in a footnote, and drill 1 no
+longer asks the student to SAY engur. For (a): build cells cut
+to labels ("middle said twice"); §5 table law sharpened — a
+table's width budget is shared, non-tail cells capped at 180/n
+chars for n columns — and the tail-fit-width lint now enforces
+both caps (a <th(?:\s…)?> fix en route: <thead> had been
+counted as a column).
+
 2026-08-07 · review round (Gate 13, ch09 stems III + layout) ·
 phase-13 · Owner, three reports in one round: (a) the stems
 table is too wide, especially the Says column; (b) show 2–3

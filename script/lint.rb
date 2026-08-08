@@ -166,27 +166,39 @@ module Edubba
                      "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
     end
 
-    # tail-fit-width (§5, owner report 2026-08-07: the stems table's
-    # Says column carried whole sentences and blew the layout):
-    # sign-table--tail-fit sets white-space: nowrap on the last
-    # column, so its cells must stay short — <= 60 characters after
-    # stripping tags and Liquid. Longer commentary lives in prose
-    # around the table, or the table drops the tail-fit class.
+    # tail-fit-width (§5, owner reports 2026-08-07/08: the stems
+    # table blew its layout twice — first on sentence-length Says
+    # cells, then on clause-length build labels): sign-table--tail-fit
+    # sets white-space: nowrap on the last column, so its cells must
+    # stay short — <= 60 characters after stripping tags and Liquid.
+    # And the table's width budget is shared: in an n-column table,
+    # non-tail cells are labels capped at 180/n characters. Longer
+    # commentary lives in prose around the table.
     TAIL_FIT_MAX = 60
+    TAIL_FIT_BUDGET = 180
     TAIL_FIT_TABLE = %r{<table[^>]*class="[^"]*sign-table--tail-fit[^"]*"[^>]*>.*?</table>}m
     def check_tail_fit(path, text)
       found = []
       text.scan(TAIL_FIT_TABLE) do |tbl|
+        ncols = tbl.scan(%r{<th(?:\s[^>]*)?>}).size
         tbl.scan(%r{<tr>(.*?)</tr>}m) do |(row)|
           cells = row.scan(%r{<td[^>]*>(.*?)</td>}m).flatten
           next if cells.empty?
 
-          plain = cells.last.gsub(/\{%.*?%\}/m, "").gsub(/\{\{.*?\}\}/m, "")
-                       .gsub(/<[^>]+>/, "").gsub(/\s+/, " ").strip
-          next if plain.length <= TAIL_FIT_MAX
+          label_max = TAIL_FIT_BUDGET / [ncols, cells.size, 1].max
+          cells.each_with_index do |cell, i|
+            plain = cell.gsub(/\{%.*?%\}/m, "").gsub(/\{\{.*?\}\}/m, "")
+                        .gsub(/<[^>]+>/, "").gsub(/\s+/, " ").strip
+            max, what = if i == cells.size - 1
+                          [TAIL_FIT_MAX, "tail-fit last column cannot wrap"]
+                        else
+                          [label_max, "non-tail cells are labels (#{TAIL_FIT_BUDGET}/#{[ncols, cells.size].max} columns)"]
+                        end
+            next if plain.length <= max
 
-          found << Violation.new(path, "tail-fit-width",
-                                 "tail-fit last column cannot wrap, but #{plain[0, 40].inspect}… is #{plain.length} chars (max #{TAIL_FIT_MAX}) — move commentary into prose (§5)")
+            found << Violation.new(path, "tail-fit-width",
+                                   "#{what}, but #{plain[0, 40].inspect}… is #{plain.length} chars (max #{max}) — move commentary into prose (§5)")
+          end
         end
       end
       found

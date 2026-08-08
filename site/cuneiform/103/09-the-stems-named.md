@@ -86,10 +86,10 @@ the identical build lands on both. All the forms say "he …-ed":
     <tr><th>Stem</th><th>The build</th><th>p-r-s, "decide"</th><th>m-ḫ-ṣ, "strike"</th><th>Says</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>G</strong> — the ground stem</td><td>root + "he" prefix, nothing else</td><td><span class="norm">iprus</span></td><td><span class="norm">imḫaṣ</span></td><td>"he decided" · "he struck"</td></tr>
-    <tr><td><strong>D</strong> — the doubled-middle</td><td>the MIDDLE consonant said twice</td><td><span class="norm">upa<strong>rr</strong>is</span></td><td><span class="norm">uma<strong>ḫḫ</strong>iṣ</span></td><td>"decided piece by piece" · "battered"</td></tr>
-    <tr><td><strong>Š</strong> — the causative</td><td><strong>š-</strong> put in front</td><td><span class="norm">u<strong>š</strong>apris</span></td><td><span class="norm">u<strong>š</strong>amḫiṣ</span></td><td>"he MADE (someone) decide · strike"</td></tr>
-    <tr><td><strong>N</strong> — the passive</td><td><strong>n-</strong> put in front, melting into the root</td><td><span class="norm">i<strong>pp</strong>aris</span></td><td><span class="norm">i<strong>mm</strong>aḫiṣ</span></td><td>"it WAS decided" · "he WAS struck"</td></tr>
+    <tr><td><strong>G</strong> — the ground stem</td><td>bare root + "he" prefix</td><td><span class="norm">iprus</span></td><td><span class="norm">imḫaṣ</span></td><td>"he decided" · "he struck"</td></tr>
+    <tr><td><strong>D</strong> — the doubled-middle</td><td>middle said twice</td><td><span class="norm">upa<strong>rr</strong>is</span></td><td><span class="norm">uma<strong>ḫḫ</strong>iṣ</span></td><td>"decided piece by piece" · "battered"</td></tr>
+    <tr><td><strong>Š</strong> — the causative</td><td><strong>š-</strong> in front</td><td><span class="norm">u<strong>š</strong>apris</span></td><td><span class="norm">u<strong>š</strong>amḫiṣ</span></td><td>"he MADE (someone) decide · strike"</td></tr>
+    <tr><td><strong>N</strong> — the passive</td><td><strong>n-</strong> in front, melting in</td><td><span class="norm">i<strong>pp</strong>aris</span></td><td><span class="norm">i<strong>mm</strong>aḫiṣ</span></td><td>"it WAS decided" · "he WAS struck"</td></tr>
   </tbody>
 </table>
 

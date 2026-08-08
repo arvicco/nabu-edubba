@@ -226,6 +226,28 @@ class LintTest < Minitest::Test
                  "tables without tail-fit may wrap and are exempt"
   end
 
+  def test_tail_fit_non_tail_cells_share_the_width_budget
+    clause = "n- put in front, melting into the root"   # 38 chars
+    five_col = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <thead><tr><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th></tr></thead>
+        <tbody><tr><td>N</td><td>#{clause}</td><td>x</td><td>y</td><td>short</td></tr></tbody>
+      </table>
+    HTML
+    v = Edubba::Lint.check_tail_fit("x.md", five_col)
+    assert_equal 1, v.size, "38 chars busts a 5-column budget (180/5 = 36)"
+    assert_equal "tail-fit-width", v[0].rule
+
+    three_col = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <thead><tr><th>a</th><th>b</th><th>c</th></tr></thead>
+        <tbody><tr><td>N</td><td>#{clause}</td><td>short</td></tr></tbody>
+      </table>
+    HTML
+    assert_empty Edubba::Lint.check_tail_fit("x.md", three_col),
+                 "the same label fits a 3-column budget (180/3 = 60)"
+  end
+
   def test_akk_translit_bans_indexes_and_lowercase_sumerograms
     path = "site/cuneiform/103/04-x.md"
     idx = %(<span class="translit">i₃-nu an</span>)
