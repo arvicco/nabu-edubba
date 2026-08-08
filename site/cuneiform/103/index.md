@@ -50,6 +50,7 @@ his name — all in the original.
   <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
   <li><a href="{{ '/cuneiform/103/15-it-has-happened/' | relative_url }}">It has happened</a> — the perfect named, and law 202 read whole</li>
   <li><a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">Eye, tooth, bone</a> — the bone law paid in signs, and the scale of persons</li>
+  <li><a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">Silver changes hands</a> — a real Sippar loan: interest, witnesses, year-name</li>
 </ol>
 
 Two stretches are live; the course still ends mid-story on
