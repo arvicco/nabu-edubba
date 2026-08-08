@@ -706,4 +706,4 @@ Detailed plan: .docs/phase-14-plan.md.
 ## M14-6 · ch 18 + catalogs — close + Reference  [tier: top — Fable] [status: done — the invitation read whole (17 lines, precative festival), tense×stem grid with honest dashes, queue-driven Reference table with anchors, 76.4% final coverage, frontier; AR/UR₂/ALAN, 3 codex pages, catalogs flipped to complete] [deps: M14-5]
 ## M14-7 · Retrieval mirror update  [tier: mid] [status: done — deal includes all stretch-3 signs (build-verified), deck 61 cards with loan lines, decks-page provenance line updated, Reference-anchor law reconciled with the site-wide chapter-seat convention] [deps: M14-6]
    akk drills + deck regenerated; decks page counts.
-## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: ready] [deps: M14-7]
+## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: done — built-site structural review (nav, term bubbles, reference rows, drill deal), WORKLOG, PR #18] [deps: M14-7]
