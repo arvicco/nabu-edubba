@@ -12,6 +12,13 @@ require_relative "script_scan"
 # plus its own display-only `shows:` exhibits. The course
 # index page (index.md, no `chapter:` key) is exempt from the taught
 # rule but its glyphs must still be font-covered (lint's other rule).
+#
+# shows-in-reading (cuneiform §5, owner report 2026-08-08: law 197
+# shipped as a "reading exhibit" transliterating three untaught
+# signs): inside a reading figure, `shows:` licenses nothing — a
+# graded reading carries taught signs only, untaught ones as ▢.
+# Scoped to the cuneiform school; the hieroglyphs rulebook rules on
+# its own cartouche/frame exhibits.
 
 module Edubba
   module CourseCheck
@@ -56,6 +63,7 @@ module Edubba
                     .select { |c| c[:chapter] }
                     .sort_by { |c| c[:chapter] }
       found = []
+      strict_readings = File.basename(File.dirname(course_dir)) == "cuneiform"
       taught = assumed_signs(course_dir)
       chapters.each do |ch|
         taught.merge(ch[:teaches])
@@ -63,6 +71,12 @@ module Edubba
         (ch[:used] - allowed).sort.each do |cp|
           found << Violation.new(ch[:path], "untaught-sign",
                                  "U+#{ScriptScan.format_codepoint(cp)} used but not taught by ch. #{ch[:chapter]} nor listed in shows:")
+        end
+        next unless strict_readings
+
+        (ch[:reading_used] - taught).sort.each do |cp|
+          found << Violation.new(ch[:path], "shows-in-reading",
+                                 "U+#{ScriptScan.format_codepoint(cp)} inside a reading figure but not taught by ch. #{ch[:chapter]} — shows: licenses exhibits, never readings; box it ▢ or wait for its batch (§5)")
         end
       end
       found
@@ -82,7 +96,10 @@ module Edubba
         chapter: fm["chapter"],
         teaches: glyph_codepoints(fm["teaches"]),
         shows: glyph_codepoints(fm["shows"]),
-        used: body_codepoints(body)
+        used: body_codepoints(body),
+        reading_used: body_codepoints(
+          body.scan(%r{<figure class="reading[^"]*">.*?</figure>}m).join
+        )
       }
     end
 

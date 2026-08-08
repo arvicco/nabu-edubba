@@ -105,6 +105,17 @@ machine-enforceable subset (`script/rulebook.rb`, run by
   never silently skipped.
 - Standard references are footnoted, once or twice per course
   (102 uses Foxvog's *Introduction to Sumerian Grammar*).
+- Chapter titles and sidebar labels speak the student's
+  language (owner rulings: "šumma" 2026-08-06, "anāku"
+  2026-08-08): plain English carrying the chapter's essence — a
+  transliterated ancient word is never a title or label; it
+  enters in the first paragraph instead, where it can be
+  taught. Root cause of the recurrence: the nav-label rule
+  mechanized only sidebar-page AGREEMENT, so "anāku" passed by
+  literally appearing in the title. The title-language lint now
+  bans transliteration characters (macrons, ṣ/ṭ/ḫ/š/ŋ,
+  subscript indexes) from chapter titles and short_titles
+  outright.
 
 ## 5 · Pedagogy mechanics
 
@@ -118,6 +129,17 @@ concrete holdable example; batch label = chapter number + 1
 essence. The nothing-untaught validator and the every-chapter
 rules are enforced by `rake gate`.
 
+`shows:` never licenses a reading (owner report 2026-08-08,
+after law 197 shipped as a "reading exhibit" whose bone-compound
+GIR₃.PAD.RA₂ transliterated three untaught signs as if the
+student could read them): a `shows:` sign may appear only in a
+standalone display exhibit, never inside a reading figure — a
+graded reading carries taught signs only, untaught ones as ▢,
+no exceptions and no exhibit framing. If a passage's key word
+is written with untaught signs, the passage waits for its batch
+or speaks in bound transcription alone. The shows-in-reading
+check enforces this for cuneiform courses.
+
 A reading that carries NEW grammar gets an item-by-item
 breakdown after the figure (owner ruling 2026-08-06, the C102
 "take inventory" style): every word parsed — form, ending,
@@ -126,6 +148,46 @@ literally. A lumped one-line gloss never introduces grammar on
 its own; quick glosses are for review material, and even those
 link the chapter that taught the form.
 
+A grammatical MECHANISM is demonstrated, never asserted (owner
+ruling 2026-08-07, after the stems table taught "doubled" on a
+form whose doubling is invisible): the demonstrating example
+must SHOW the mechanism in its spelling — a doubling the reader
+can see (u-ub-bi-ir), a prefix they can point at — and terms
+like "causative" are explained in plain words (fall vs fell)
+before the label is used. A form that hides the mechanism
+(ukīn's doubling inside a weak root) never carries the
+demonstration. Sharpened same day: a PARADIGM is taught on ONE
+model verb run consistently through every slot, in phonetic
+transcription (the grammars' p-r-s), with the changing material
+marked — never a different verb per slot with shifting
+meanings. Only after the model grid stands are the corpus's
+real (often weak-rooted) verbs mapped onto it. Sharpened again
+2026-08-07 (owner request): when the pattern must be seen to
+GENERALIZE, a second model root runs through the same slots in
+parallel — every root filling EVERY slot, so the reader watches
+the identical build land on different consonants. Model roots
+are strong roots with textbook-standard forms in every slot;
+gaps and weak-root wrinkles belong to the mapping step after —
+and in that step each real verb's ROOT is spelled out before
+its slot is named (owner report 2026-08-07: "the accusing-verb's
+middle consonant is b" — of which root?), so the reader always
+sees skeleton, then build, then form.
+
+Table cells hold forms and few-word glosses; sentence-length
+commentary lives in prose AROUND the table, never inside cells
+(owner report 2026-08-07: the stems table's Says column carried
+whole sentences and blew the layout). Mechanically:
+`sign-table--tail-fit` pins the table's last column to a single
+unwrapped line, so cells there stay ≤ 60 characters of rendered
+text — the tail-fit-width lint enforces it; a longer tail
+column means the class is wrong or the commentary belongs in
+prose. Sharpened 2026-08-08 (owner report: the stems grid
+unbalanced again, this time on The build): a table's width
+budget is SHARED — in an n-column tail-fit table, non-tail
+cells are labels capped at 180/n characters (five columns →
+36); anything needing a clause is prose. The lint enforces
+both caps.
+
 ## 6 · What the gate checks mechanically
 
 From this rulebook: ŋ-not-ĝ, no accent indexes, ETCSL and CDLI
@@ -133,7 +195,7 @@ license labels (`script/rulebook.rb`); from §7, the codex checks —
 keyword presence and uniqueness, one codex page per taught sign,
 name-slug agreement (activation staged per school as the pages
 land); plus the standing rules — subscript-index, untaught-sign,
-font coverage, no-JS, link hygiene. Everything else above is law
+font coverage, no-JS, link hygiene, tail-fit-width (§5). Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
 
@@ -294,7 +356,9 @@ content exists.
   identity, and the accent-indexes of the handbooks are banned
   by §1 anyway. Sumerogram values inside Akkadian reading lines
   are CAPS (LUGAL, KALAM), per this section's display law —
-  lowercase would read as Sumerian leaking in. Sumerian-course
+  lowercase would read as Sumerian leaking in. A sumerogram
+  NAME keeps its index (E₂-su — the index belongs to the name,
+  §1); only lowercase readings drop theirs. Sumerian-course
   transliterations keep their indexes (field standard, §1).
   Enforced by the akk-translit lint rule.
 - **Normalization (bound transcription).** A layer distinct from
@@ -352,3 +416,52 @@ content exists.
   extended as a separate base — sux and akk ranks never mix.
   Reinforcement selection (§8) applies from the first chapter:
   candidate lines are scored for the veterans they revise.
+
+### Stretch 2 (ruled 2026-08-06 at the phase-13 opening, before content)
+
+- **Compound-only signs** (owner ruling 2026-08-07, after ENGUR
+  shipped with Reads [engur] while the chapter said "spoken
+  Id"): when a sign is taught only as part of a compound
+  writing, its Reads bracket carries what the reader SPEAKS for
+  that writing ([id] for 𒇉 in 𒀀𒇉), never the sign's Sumerian
+  identity-value — that identity (engur, the deep) lives in the
+  Name, keyword and story. The bracket is always the voice.
+  Extended 2026-08-08 (owner report: ENGUR / [id] / {d}I₇ / Id —
+  four labels, no bridge): the reading-line TRANSLITERATION of a
+  compound writing carries that same voice — glyph →
+  transliteration → bracket → normalized word must chain without
+  a leap. The river-pair 𒀀𒇉 is therefore transliterated ID₂
+  (OSL lists id₂ and i₇ as the same deterministic value of
+  |A.LAGAB×HAL|), the index habit the reader owns from E₂ — and
+  the chapter states the name/spelling/voice equation in one
+  place. Where the corpus files the value differently (CDLI's
+  {d}i7), the divergence is a footnote in the teaching chapter,
+  never a reading line.
+
+- **Plurals.** Displayed in the same two layers as the singular
+  (§9 transliteration + bound transcription, vowel length always
+  marked: nišū, nišī, šīmātum). Taught as the singular was — one
+  table, concrete holdable examples (masc. -ū nominative / -ī
+  genitive-accusative; fem. -ātum / -ātim). The "singular only"
+  hedges stretch 1 planted (ch02's table, ch07's nišī note) are
+  resolved by the plural chapter and link forward to it.
+- **Verbal stems.** The course names stems with the field's
+  letters — G, D, Š, N (as in Huehnergard) — and at first mention
+  each letter carries a plain-word handle: G "the ground stem,"
+  D "the doubled-middle stem," Š "the causative," N "the
+  passive." The Roman-numeral stem systems of some handbooks
+  never appear in this school. Stem letters are upright Latin
+  caps. Stretch 1's "thickened forms" honesty note resolves into
+  this naming; t-infixed forms (uktīn) are named where met, not
+  systematized until a later stretch.
+- **Letters.** Epistolary readings enter from the CDLI OB slice,
+  license attribution only (the deck law stands). The citation
+  line identifies the text as a letter with sender and recipient
+  when known, plus the URN as ever. The epistolary frame (ana X
+  qibīma — umma Y-ma) is taught before the first letter line is
+  read; letter readings obey every §9 display law (no homophone
+  indexes, CAPS sumerograms, bound transcription alongside).
+- **Independent pronouns.** anāku, atta, šū … display in bound
+  transcription; each pronoun taught with a concrete line, never
+  a bare paradigm; the paradigm table stays course-sized (the
+  persons the readings actually use).

@@ -142,8 +142,9 @@ Same drill — item by item:
   construct chain in the genitive. One honest note: "people" is
   a plural, and its genitive ends in -ī — a column
   <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a>
-  singular table does not have. The next stretch tables the
-  plurals; for now, hold the chain's sense: *flesh-of
+  singular table does not have.
+  <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">Chapter 08</a>
+  tables the plurals; for now, hold the chain's sense: *flesh-of
   the-people.*
 - <span class="norm">ṭubbim</span> — "the making-well": another
   infinitive, so another noun — and under ana's rule it takes
@@ -187,8 +188,9 @@ one glossed politely, and the moment the king finally says
 4. Both veterans this chapter carry sounds Sumerian never wrote
    the same way. Name the two sounds.
 
-*This closes the first stretch of Cuneiform 103. The
+*This closes the first stretch of Cuneiform 103 — and the second
+begins at once: the plural, in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>.
+The
 [Akkadian Addenda]({{ '/cuneiform/addenda-akk/' | relative_url }})
-holds every sign's Akkadian story; the drills and decks of the
-[Sumerian shelf]({{ '/cuneiform/addenda/' | relative_url }}) keep
-your veterans sharp while the next stretch is written.*
+holds every sign's Akkadian story.*

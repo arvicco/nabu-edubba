@@ -150,13 +150,19 @@ terms:
     def: "the verb form that says \"let me / let us\" — a wish the speaker makes about their own action; Sumerian fronts the verb with ga-"
   - name: precative
     slug: precative
-    def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-"
+    def: "the verb form that says \"may he, may it be so\" — a wish aimed at someone else's action; Sumerian fronts the verb with ha-, Akkadian with l-: liṭīb, \"may it be well\""
   - name: Winkelhaken
     slug: winkelhaken
     def: "the field's name (German, \"angle-hook\") for the corner wedge — the small open-angle impression made with the corner of the stylus tip"
   - name: transitive
     slug: transitive
     def: "a verb whose action lands on something — someone builds SOMETHING, eats SOMETHING; a verb that just happens (going, sitting) is intransitive"
+  - name: causative
+    slug: causative
+    def: "a verb build meaning \"make someone do it\" — the tree falls, the woodsman FELLS it; Akkadian builds it with š- in front (šūbilam, \"make-carry it — send it\")"
+  - name: passive
+    slug: passive
+    def: "a verb build that flips who suffers the action — \"he kills\" versus \"he IS killed\"; Akkadian builds it with n- in front (iddâk)"
   - name: verbal sentence
     slug: verbal-sentence
     school: hieroglyphs
@@ -228,3 +234,15 @@ terms:
     school: akk
     slug: infinitive
     def: "a verb packed whole into a noun — ḫabālum, \"to wrong / the wronging\" — and, being a noun, it wears the case endings like any other"
+  - name: verbal stem
+    school: akk
+    slug: verbal-stem
+    def: "one of the shapes a verb's root can be built into — G the ground stem, D the doubled-middle, Š the causative, N the passive — each with its own preterite and durative"
+  - name: stative
+    school: akk
+    slug: stative
+    def: "an adjective or noun conjugated like a tiny verb, stating a condition with no verb in sight — nasqā, \"(my words) are choice\""
+  - name: imperative
+    school: akk
+    slug: imperative
+    def: "the naked command form of a verb, no prefix at all — qibīma, \"speak!\"; šūbilam, \"send it!\""
