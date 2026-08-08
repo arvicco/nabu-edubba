@@ -90,3 +90,8 @@ signs:
   - { glyph: "𒊍", codepoint: "1228D", name: "AZ",  value: "as, az, as,", osl_name: "|PIRIG×ZA|", meaning: "the bear in the lists; one sign for three tails — as, az, and the pressed aṣ", freq_akkob: 585, certainty: stated, chapter: 15, keyword: "bear" }
   - { glyph: "𒋫", codepoint: "122EB", name: "TA",  value: "ta",   veteran: true, keyword: "from", meaning: "veteran — TA gains [ta]: the perfect's own marker, im-ta-ḫa-aṣ", chapter: 15 }
   - { glyph: "𒈤", codepoint: "12224", name: "MAH", value: "mah",  veteran: true, keyword: "exalted", meaning: "veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, \"he shall be struck\"", chapter: 15 }
+  # ch 16 · Eye, tooth, bone (laws 197+200 in signs; the scale of persons)
+  - { glyph: "𒄊", codepoint: "1210A", name: "GIR3", value: "es,emtum", display_value: "eṣemtum", meaning: "the foot, the path; never voiced alone here — with PAD.DU it writes eṣemtum, \"bone\"", certainty: classic, chapter: 16, keyword: "path" }
+  - { glyph: "𒉻", codepoint: "1227B", name: "PAD", value: "es,emtum", display_value: "eṣemtum", meaning: "a morsel, a ration; the middle of the bone-compound GIR₃.PAD.RA₂", certainty: stated, chapter: 16, keyword: "morsel" }
+  - { glyph: "𒄴", codepoint: "12134", name: "AH",  value: "ah, eh, uh", osl_name: "|HI×NUN|", meaning: "a pure syllable — the throat's breath in three colors; me-eḫ-ri-šu, \"his equal\"", freq_akkob: 2771, certainty: unclear, chapter: 16, keyword: "sigh" }
+  - { glyph: "𒁺", codepoint: "1207A", name: "DU",  value: "ra2",  veteran: true, keyword: "go", meaning: "veteran — DU gains [ra₂]: the third sign of the bone-compound", chapter: 16 }

@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-4 · phase-14 · ch16 "Eye, tooth, bone": the
+ch11 promise paid — law 197 read whole in signs, every piece
+already owned ("the law owes you nothing"); law 200 read whole
+with meḫrišu, "his equal" — the unquoted hinge of
+tooth-for-tooth — and the iddi/ittadi/inaddû root run through
+ch15's melody; laws 198–201 as the scale of persons in bound
+transcription (flesh in kind, the commoner in weighed silver,
+the slave in his price; išaqqal and the pre-coinage
+balance-pan), title-words honestly shelved in a footnote; the
+DUAL paid at last (īnān, šēpān — one row, a survival, why the
+laws still write īn), closing ch02's oldest hedge. Batch:
+GIR₃/PAD ([eṣemtum] both — the compound law's first use) + AḪ
+([aḫ/eḫ/uḫ]) + DU veteran ([ra], ra₂ closing the compound);
+codex pages gir3/pad/ah/du; queue 75.7%, deck 54 cards. Gate
+green first run.
+
 2026-08-08 · M14-3 · phase-14 · ch15 "It has happened": the
 perfect joins preterite/durative in a three-tense grid on BOTH
 model roots (§5 parallel law; -ta- bolded), the deed-proof-
