@@ -124,10 +124,11 @@ rake serve          # local preview at http://127.0.0.1:4000
   (`00-orientation.md`, …), `layout: chapter`, permalink
   `/<school>/<NNN>/<NN-slug>/`. Front matter carries the pedagogy
   contract: `chapter:` (ordinal), `teaches:` (signs this chapter
-  introduces, as glyph strings), `shows:` (display-only exhibits).
-  The gate enforces: a chapter's body may use only signs taught in
-  chapters <= its own, plus its own `shows:` — nothing untaught in a
-  reading, ever.
+  introduces, as glyph strings), `shows:` (display-only exhibits —
+  never inside a reading figure). The gate enforces: a chapter's
+  body may use only signs taught in chapters <= its own, plus its
+  own `shows:` outside readings — nothing untaught in a reading,
+  ever, exhibit framing included.
 
 ## Testing conventions
 
@@ -170,9 +171,10 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 13 — pending owner pick (candidates: E102 stretch 2 toward
-Sinuhe; C103 stretch 2 — verbal stems, letters; akk retrieval
-instruments).
+Phase 13 — C103 Akkadian, stretch 2: plurals, the verbal stems
+named (D/Š/N), laws 2–3 and 196–200, an OB letter, anāku; akk
+retrieval mirror at the end. Per .docs/phase-13-plan.md (plan
+pending owner approval).
 
 Gate 12 merged 2026-08-06 (C103 Akkadian stretch 1: §9 Akkadian
 law + two-codex rulebook checks, OB frequency base off 204,820

@@ -67,7 +67,8 @@ chapter teaches you to see all three.
 ## The three endings
 
 An Old Babylonian noun in the singular wears one of three
-endings:[^mimation]
+endings (the plural has its own table, in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>):[^mimation]
 
 <table class="sign-table sign-table--tail-fit">
   <thead>

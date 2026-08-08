@@ -24,6 +24,10 @@ require_relative "rulebook"
 #                 — owner stylistic ruling 2026-07-30. Applies to
 #                 <span class="translit"> content; spans additionally
 #                 classed "atf" are exempt (verbatim raw-ATF exhibits)
+#   tail-fit-width a sign-table--tail-fit table pins its last
+#                 column to one unwrapped line (style.css), so
+#                 cells there stay <= 60 chars of rendered text —
+#                 commentary belongs in prose, never in cells (§5)
 #   rulebook      course content obeys its school's rulebook
 #                 (docs/courses/<school>.md — the single source of
 #                 truth for conventions; script/rulebook.rb
@@ -122,6 +126,8 @@ module Edubba
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
       found.concat(check_nav_label(path, text))
+      found.concat(check_title_language(path, text))
+      found.concat(check_tail_fit(path, text))
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
       found.concat(check_akk_translit(path, text))
@@ -161,6 +167,67 @@ module Edubba
                      "short_title #{fm['short_title'].inspect} is not drawn from title #{fm['title'].inspect} — the sidebar must echo the page")]
     end
 
+    # tail-fit-width (§5, owner reports 2026-08-07/08: the stems
+    # table blew its layout twice — first on sentence-length Says
+    # cells, then on clause-length build labels): sign-table--tail-fit
+    # sets white-space: nowrap on the last column, so its cells must
+    # stay short — <= 60 characters after stripping tags and Liquid.
+    # And the table's width budget is shared: in an n-column table,
+    # non-tail cells are labels capped at 180/n characters. Longer
+    # commentary lives in prose around the table.
+    TAIL_FIT_MAX = 60
+    TAIL_FIT_BUDGET = 180
+    TAIL_FIT_TABLE = %r{<table[^>]*class="[^"]*sign-table--tail-fit[^"]*"[^>]*>.*?</table>}m
+    def check_tail_fit(path, text)
+      found = []
+      text.scan(TAIL_FIT_TABLE) do |tbl|
+        ncols = tbl.scan(%r{<th(?:\s[^>]*)?>}).size
+        tbl.scan(%r{<tr>(.*?)</tr>}m) do |(row)|
+          cells = row.scan(%r{<td[^>]*>(.*?)</td>}m).flatten
+          next if cells.empty?
+
+          label_max = TAIL_FIT_BUDGET / [ncols, cells.size, 1].max
+          cells.each_with_index do |cell, i|
+            plain = cell.gsub(/\{%.*?%\}/m, "").gsub(/\{\{.*?\}\}/m, "")
+                        .gsub(/<[^>]+>/, "").gsub(/\s+/, " ").strip
+            max, what = if i == cells.size - 1
+                          [TAIL_FIT_MAX, "tail-fit last column cannot wrap"]
+                        else
+                          [label_max, "non-tail cells are labels (#{TAIL_FIT_BUDGET}/#{[ncols, cells.size].max} columns)"]
+                        end
+            next if plain.length <= max
+
+            found << Violation.new(path, "tail-fit-width",
+                                   "#{what}, but #{plain[0, 40].inspect}… is #{plain.length} chars (max #{max}) — move commentary into prose (§5)")
+          end
+        end
+      end
+      found
+    end
+
+    # title-language (§4, owner rulings: "šumma" 2026-08-06, "anāku"
+    # 2026-08-08): chapter titles and sidebar labels speak the
+    # student's language — plain English essence, never a
+    # transliterated ancient word. nav-label only guarded
+    # sidebar-page agreement, so "13 · anāku" slipped through by
+    # appearing in the title; this bans the character class itself.
+    TRANSLIT_CHARS = /[āēīūâêîûṣṭḫŋĝřĀĒĪŪÂÊÎÛṢṬḪŊĜŘšŠḏḎṯṮẖḳḲꜣꜥʾ₀-₉]/
+    def check_title_language(path, text)
+      return [] unless path.end_with?(".md") && text.start_with?("---\n")
+      return [] unless (fm_end = text.index("\n---", 4))
+
+      require "yaml"
+      fm = YAML.safe_load(text[4..fm_end]) rescue nil
+      return [] unless fm.is_a?(Hash) && fm["chapter"]
+
+      %w[title short_title].filter_map do |key|
+        next unless (val = fm[key]) && (hit = val[TRANSLIT_CHARS])
+
+        Violation.new(path, "title-language",
+                      "#{key} #{val.inspect} carries transliteration (#{hit.inspect}) — titles and labels speak plain English; the ancient word enters in the first paragraph (§4)")
+      end
+    end
+
     # akk-translit (§9, owner rulings 2026-08-06): Akkadian reading
     # transliterations carry no homophone indexes (i-nu, not i₃-nu)
     # and no lowercase sumerograms (KALAM, not kalam) — the script
@@ -175,9 +242,9 @@ module Edubba
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
 
-        if (hit = body[/\p{L}[₀-₉]+/])
+        if (hit = body[/\p{Lower}[₀-₉]+/])
           found << Violation.new(path, "akk-translit",
-                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9)")
+                                 "homophone index #{hit.inspect} in an Akkadian reading — transliterate plain (i-nu, not i₃-nu); the script column carries the sign (§9). CAPS sumerogram NAMES (E₂) keep theirs")
         end
         if (hit = body[SUMEROGRAMS])
           found << Violation.new(path, "akk-translit",

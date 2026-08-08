@@ -155,6 +155,20 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_nav_label("x.md", index)
   end
 
+  def test_chapter_titles_speak_plain_english
+    bad = "---\ntitle: \"13 · anāku — I am he\"\nshort_title: \"13 · anāku\"\nchapter: 13\n---\nbody"
+    v = Edubba::Lint.check_title_language("x.md", bad)
+    assert_equal 2, v.size
+    assert_equal ["title-language"], v.map(&:rule).uniq
+
+    good = "---\ntitle: \"13 · I am he\"\nshort_title: \"13 · I am he\"\nchapter: 13\n---\nbody"
+    assert_empty Edubba::Lint.check_title_language("x.md", good)
+
+    index = "---\ntitle: \"anāku everywhere\"\n---\nbody"
+    assert_empty Edubba::Lint.check_title_language("x.md", index),
+                 "non-chapter pages (no chapter: key) are out of scope"
+  end
+
   def test_nav_order_must_be_globally_unique
     Dir.mktmpdir do |dir|
       %w[a b].each do |s|
@@ -202,6 +216,52 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_chapter_links("x.md", svg)
   end
 
+  def test_tail_fit_last_column_stays_short
+    long = "x" * 61
+    bad = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <tbody><tr><td>G</td><td>#{long}</td></tr></tbody>
+      </table>
+    HTML
+    v = Edubba::Lint.check_tail_fit("x.md", bad)
+    assert_equal 1, v.size
+    assert_equal "tail-fit-width", v[0].rule
+
+    liquid = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <tbody><tr><td>A</td><td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. 04</a>{% else %}ch. 04{% endif %}</td></tr></tbody>
+      </table>
+    HTML
+    assert_empty Edubba::Lint.check_tail_fit("x.md", liquid),
+                 "Liquid and tags are stripped before measuring"
+
+    plain_table = "<table class=\"sign-table\"><tbody><tr><td>#{long}</td></tr></tbody></table>"
+    assert_empty Edubba::Lint.check_tail_fit("x.md", plain_table),
+                 "tables without tail-fit may wrap and are exempt"
+  end
+
+  def test_tail_fit_non_tail_cells_share_the_width_budget
+    clause = "n- put in front, melting into the root"   # 38 chars
+    five_col = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <thead><tr><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th></tr></thead>
+        <tbody><tr><td>N</td><td>#{clause}</td><td>x</td><td>y</td><td>short</td></tr></tbody>
+      </table>
+    HTML
+    v = Edubba::Lint.check_tail_fit("x.md", five_col)
+    assert_equal 1, v.size, "38 chars busts a 5-column budget (180/5 = 36)"
+    assert_equal "tail-fit-width", v[0].rule
+
+    three_col = <<~HTML
+      <table class="sign-table sign-table--tail-fit">
+        <thead><tr><th>a</th><th>b</th><th>c</th></tr></thead>
+        <tbody><tr><td>N</td><td>#{clause}</td><td>short</td></tr></tbody>
+      </table>
+    HTML
+    assert_empty Edubba::Lint.check_tail_fit("x.md", three_col),
+                 "the same label fits a 3-column budget (180/3 = 60)"
+  end
+
   def test_akk_translit_bans_indexes_and_lowercase_sumerograms
     path = "site/cuneiform/103/04-x.md"
     idx = %(<span class="translit">i₃-nu an</span>)
@@ -214,6 +274,9 @@ class LintTest < Minitest::Test
 
     ok = %(<span class="translit">LUGAL {d}a-nun-na-ki i-nu</span>)
     assert_empty Edubba::Lint.check_akk_translit(path, ok)
+    caps_name = %(<span class="translit">E₂-su i-tab-ba-al</span>)
+    assert_empty Edubba::Lint.check_akk_translit(path, caps_name),
+                 "a sumerogram NAME keeps its index (E₂)"
     assert_empty Edubba::Lint.check_akk_translit("site/cuneiform/102/01-x.md", idx),
                  "Sumerian courses keep their indexes"
   end

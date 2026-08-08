@@ -637,3 +637,41 @@ the school); C103 veterans link to the akk codex.
 ## M12-4 · The shape of the language  [tier: top — Fable] [status: done — ch 02-05: cases/mimation, construct, prologue lines 1-3, preterite/durative]
 ## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
 ## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]
+
+## Phase 13 — C103 Akkadian, stretch 2 (plan pending owner approval)
+
+Source: owner pick 2026-08-06 ("AKK stretch next"). Honors stretch
+1's three promises: the D/Š/N stems named (ch05 footnote), the
+plurals tabled (ch07 breakdown), anāku (ch07 close). Detailed
+plan: .docs/phase-13-plan.md. Reading arc: plurals → stems → laws
+2–3 → laws 196–200 (eye for an eye) → one OB letter → anāku →
+stretch close; akk retrieval mirror (drills + deck) lands at the
+end, lifting the Gate-12 deferral.
+
+## M13-1 · The stretch-2 law  [tier: top — Fable] [status: done — §9 stretch-2 rules + verbal stem term]
+   Rulebook §9: plural display, stem naming (G/D/Š/N), epistolary
+   citations, independent pronouns; terms.yml additions. No
+   content until this lands.
+## M13-2 · Instruments  [tier: mid] [status: done — reading map + pins in .docs/phase-13-plan.md; letters picked (CUSAS 43,28 + YOS 13,172); pool rows land with chapters per the stretch-1 precedent]
+   pool-103 stretch-2 pins (identities via nabu signs --lang=akk),
+   letter pick (CDLI OB, attribution only), coverage report.
+## M13-3 · ch 08–09 — plural; the stems named  [tier: top — Fable] [status: done — 2 chapters, 6 signs, 6 codex pages, stative term, hedges resolved]
+## M13-4 · ch 10–11 — law 2 whole; eye for an eye  [tier: top — Fable] [status: done — ordeal both halves (one TE box, falls ch14), law 196 + 197 exhibit, E2/TUR sumerogram veterans, 8 codex pages]
+## M13-5 · ch 12–13 — a letter; anāku  [tier: top — Fable] [status: done — epistolary frame + plea, epilogue self-naming, la/ul law, 4 codex pages]
+## M13-6 · ch 14 + catalogs  [tier: top — Fable] [status: done — stretch close, TE box falls, course/school indexes updated]
+## M13-7 · Akk retrieval mirror  [tier: mid] [status: done — DRILL_SHELVES per-course config, akk drills + 12 cuts + Anki deck (47 cards), decks page]
+   DRILL_SCHOOLS gains akk; edubba-cuneiform-103 deck (license-
+   hard-fail as ever).
+## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: done — pixels verified (ch08/10/13, akk drills), WORKLOG, PR]
+
+## Decision items — Phase 13
+
+- D13-a · OPEN (found 2026-08-08, mechanizing the shows-in-reading
+  rule after the law-197 report): three hieroglyphs-101 chapters
+  read `shows:`-licensed signs inside reading figures — ch05/ch11
+  (cartouche rings 𓍹𓍺, and ch05's lion/lasso in the Ptolemy
+  demo) and ch06 (the stroke 𓏤). The cuneiform law now bans
+  shows-in-readings outright; Egyptian's silent frames may deserve
+  an exemption or the same ban. Needs an owner ruling + a
+  hieroglyphs-rulebook entry; the mechanical check is scoped to
+  cuneiform until then.

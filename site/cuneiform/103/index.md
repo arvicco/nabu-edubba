@@ -25,8 +25,10 @@ Semitic tongue with nothing in common with Sumerian, written in the
 same wedges — because the scribes of Babylon borrowed the script
 whole and bent it to their own sounds. Most of your signs are about
 to grow second lives as pure syllables, and the destination is not
-an exercise: this stretch reads the opening of the **Codex
-Hammurapi** and its first law, in the original.
+an exercise: this course reads the opening of the **Codex
+Hammurapi**, its first two laws whole, the eye-for-an-eye laws,
+real Old Babylonian mail, and the epilogue where the king signs
+his name — all in the original.
 
 ## Chapters
 
@@ -38,13 +40,22 @@ Hammurapi** and its first law, in the original.
   <li><a href="{{ '/cuneiform/103/04-when-lofty-an/' | relative_url }}">When lofty An…</a> — the prologue opens</li>
   <li><a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">The verb arrives</a> — he charged, he did not convict, he shall pay</li>
   <li><a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">If a man…</a> — šumma, and the first law</li>
-  <li><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">The strong shall not wrong the weak</a> — the creed, and the stretch made whole</li>
+  <li><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">The strong shall not wrong the weak</a> — the creed, and the first stretch made whole</li>
+  <li><a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">More than one: the plural</a> — -ū, -ī, -ātum, and the monument's own name</li>
+  <li><a href="{{ '/cuneiform/103/09-the-stems-named/' | relative_url }}">The stems named</a> — G, D, Š, N: the deferrals paid in full</li>
+  <li><a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">The River decides</a> — law 2 whole: the ordeal and its mirror</li>
+  <li><a href="{{ '/cuneiform/103/11-an-eye-for-an-eye/' | relative_url }}">An eye for an eye</a> — laws 196–197, read from the original</li>
+  <li><a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">Say to him: a letter</a> — the mail of Babylon, formula and plea</li>
+  <li><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">I am he</a> — the epilogue's self-naming, and the second negation</li>
+  <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
 </ol>
 
-This is the course's first stretch; it ends mid-story on purpose.
-The laws run to nearly three hundred, the epilogue is a monument of
-its own, and the letters of Hammurabi's chancery wait behind them —
-the next stretch continues where <a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a> leaves you: reading.
+Two stretches are live; the course still ends mid-story on
+purpose. The laws run to nearly three hundred, contracts and
+omens wait behind them, and the literary language of Gilgameš
+stands further on — later stretches continue where
+<a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">chapter 14</a>
+leaves you: reading.
 
 The conventions this course writes by — transliteration, the
 normalization layer, how a familiar sign is marked when it gains an
