@@ -173,6 +173,16 @@ its slot is named (owner report 2026-08-07: "the accusing-verb's
 middle consonant is b" — of which root?), so the reader always
 sees skeleton, then build, then form.
 
+A reading line is ONE visual line of script (owner report
+2026-08-08, after ch16's law-197 script wrapped mid-line and
+the transliteration no longer sat beside the signs it sounds):
+the script column sizes to its content and never wraps — a
+long tablet line scrolls within its figure rather than folding
+into false extra lines. Transliteration and gloss may wrap;
+the script may not. The mechanism is the reading-figure CSS
+(script column max-content + nowrap, figure-level overflow),
+which carries this law site-wide.
+
 Table cells hold forms and few-word glosses; sentence-length
 commentary lives in prose AROUND the table, never inside cells
 (owner report 2026-08-07: the stems table's Says column carried

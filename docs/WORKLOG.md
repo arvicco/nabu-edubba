@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · review round (Gate 14, reading-line alignment) ·
+phase-14 · Owner: ch16's readings "not properly aligned to the
+cuneiform lines they sound." Root cause, found by FINALLY
+doing the §6b headless-screenshot review I had skipped in
+favor of structural HTML checks (owned: the checklist's own
+line — "transliteration aligns with the script it glosses" —
+was the exact defect): the script column was minmax-capped
+with overflow-wrap:anywhere, so longer stretch-3 lines WRAPPED
+mid-line inside the script cell — more visible cuneiform lines
+than transliteration lines, pairing lost; latent site-wide
+(ch10's River lines wrapped too). Law (§5): a reading line is
+ONE visual line of script — the script column takes its
+content's width and never wraps; long lines scroll INSIDE the
+figure. CSS carries it: script track max-content + nowrap,
+figure overflow-x, gloss column given a readable minimum
+(first attempt's minmax track collapsed under pressure and let
+script paint OVER the translit — caught in the 560px shot);
+plus the same containment for wide sign-tables at narrow
+widths (pre-existing bleed, same disease class). Verified by
+screenshots at 1200 and 560 (Chrome headless clamps windows
+to ~500px — the 420px "break" was tool artifact, confirmed
+against a figure-free page). Pixel review is now genuinely
+part of the loop, not a checkbox.
+
 2026-08-08 · M14-8 · phase-14 · Stitching: built-site surface
 review structural pass — all four chapters render with
 readings and nav, term bubbles live (perfect ×11 in ch15,
