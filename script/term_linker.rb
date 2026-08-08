@@ -20,11 +20,17 @@ module Edubba
     module_function
 
     # terms: [{ "name" => ..., "slug" => ..., "def" => ...,
-    #           "school" => optional glossary key }, ...]
+    #           "school" => optional glossary key,
+    #           "scope" => optional page-URL prefix }, ...]
     # terms_url: a String (single glossary page) or a Hash mapping a
     # term's "school" key to its glossary page URL (nil key = the
     # general glossary; terms without a matching key fall back to it).
-    def transform(html, terms, terms_url, baseurl = "")
+    # page_url: the rendering page's site-absolute URL. A term with a
+    # "scope" prefix bubbles only on pages under that prefix — for
+    # names that are also common English words ("perfect" is Akkadian
+    # grammar under /cuneiform/, an adjective everywhere else).
+    def transform(html, terms, terms_url, baseurl = "", page_url: nil)
+      terms = terms.reject { |t| t["scope"] && !page_url.to_s.start_with?(t["scope"]) }
       return html if terms.empty?
 
       urls = terms_url.is_a?(Hash) ? terms_url : { nil => terms_url }

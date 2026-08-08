@@ -64,6 +64,29 @@ class TermLinkerTest < Minitest::Test
 end
 
 class UrnLinkerTest < Minitest::Test
+  def test_scoped_term_bubbles_only_under_its_prefix
+    terms = [{ "name" => "perfect", "slug" => "perfect",
+               "def" => "has happened", "scope" => "/cuneiform/" }]
+    inside = Edubba::TermLinker.transform(
+      "<p>the perfect tense</p>", terms, "/terms/", "",
+      page_url: "/cuneiform/103/15-x/"
+    )
+    assert_includes inside, %(class="term")
+
+    outside = Edubba::TermLinker.transform(
+      "<p>the perfect reading drill</p>", terms, "/terms/", "",
+      page_url: "/hieroglyphs/101/06-x/"
+    )
+    refute_includes outside, %(class="term"),
+                    "a scoped term is plain English outside its prefix"
+
+    no_url = Edubba::TermLinker.transform(
+      "<p>perfect</p>", terms, "/terms/", ""
+    )
+    refute_includes no_url, %(class="term"),
+                    "without a page URL a scoped term stays unlinked"
+  end
+
   def test_cuneiform_urn_links_to_cuneiform_axis
     out = Edubba::UrnLinker.transform("<code>urn:nabu:cdli:p010064</code>")
     assert_equal %(<a class="urn-link" href="https://arvicco.github.io/nabu/axis/cuneiform/"><code>urn:nabu:cdli:p010064</code></a>), out

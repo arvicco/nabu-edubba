@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-1 · phase-14 · Stretch-3 law before content:
+§9 gains the perfect (iptaras, -ta- after the first radical,
+met forms re-parsed, šumma tense chain stated once), the dual
+(paid on paired body parts, one row, no paradigm), compound
+sumerograms (GIR₃.PAD.RA₂ taught as one word — member brackets
+carry the compound's single voice [eṣemtum], identity stays in
+Name/keyword/story, RA₂ routes as 102's DU veteran), contracts
+(CDLI attribution, type+parties in citations, witnesses as
+"before PN", date formulae taught before met), weights (text's
+own units, one modern equivalence per chapter), and the ch18
+Reference conventions (anchors, instrument coverage, honest
+frontier). Terms perfect + dual added with a new per-term
+scope: guard in the linker — "perfect" is grammar under
+/cuneiform/ and plain English elsewhere (the hiero "perfect
+reading drill" and nfr's gloss stay unbubbled; verified in the
+build) — with linker + contract tests.
+
 2026-08-08 · review round (Gate 13, ch13 title) · phase-13 ·
 Owner: "13 anāku — not acceptable, out of place; I am he is the
 right title" and "it was correct before, why did it degrade?"
