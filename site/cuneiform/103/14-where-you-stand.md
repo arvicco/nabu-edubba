@@ -48,7 +48,7 @@ nothing withheld:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒀀𒉿𒇴 𒋗𒀀𒋾</span><span class="translit">šum-ma a-wi-lam šu-a-ti</span><span class="gloss"><span class="norm">šumma awīlam šuāti</span> — "If that man…"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒀀𒇉</span><span class="translit">{d}I₇</span><span class="gloss"><span class="norm">Id</span> — "…the River…"</span></div>
+    <div class="reading-line"><span class="script">𒀭𒀀𒇉</span><span class="translit">{d}ID₂</span><span class="gloss"><span class="norm">Id</span> — "…the River…"</span></div>
     <div class="reading-line"><span class="script">𒌑𒋼𒅁𒁉𒁀𒀸𒋗𒈠</span><span class="translit">u-te-eb-bi-ba-aš-šu-ma</span><span class="gloss"><span class="norm">ūtebbibaššuma</span> — "…has cleared, and —" whole, one year of your work wide</span></div>
     <div class="reading-line"><span class="script">𒅖𒋫𒀠𒈠𒄠</span><span class="translit">iš-ta-al-ma-am</span><span class="gloss"><span class="norm">ištalmam</span> — "he has come out safe:"</span></div>
     <div class="reading-line"><span class="script">𒀉𒁕𒀝</span><span class="translit">id-da-ak</span><span class="gloss"><span class="norm">iddâk</span> — "(the false accuser) shall be killed" — the verdict read in <a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">chapter 10</a>, standing law</span></div>

@@ -159,7 +159,12 @@ whole sentences and blew the layout). Mechanically:
 unwrapped line, so cells there stay ≤ 60 characters of rendered
 text — the tail-fit-width lint enforces it; a longer tail
 column means the class is wrong or the commentary belongs in
-prose.
+prose. Sharpened 2026-08-08 (owner report: the stems grid
+unbalanced again, this time on The build): a table's width
+budget is SHARED — in an n-column tail-fit table, non-tail
+cells are labels capped at 180/n characters (five columns →
+36); anything needing a clause is prose. The lint enforces
+both caps.
 
 ## 6 · What the gate checks mechanically
 
@@ -399,6 +404,17 @@ content exists.
   that writing ([id] for 𒇉 in 𒀀𒇉), never the sign's Sumerian
   identity-value — that identity (engur, the deep) lives in the
   Name, keyword and story. The bracket is always the voice.
+  Extended 2026-08-08 (owner report: ENGUR / [id] / {d}I₇ / Id —
+  four labels, no bridge): the reading-line TRANSLITERATION of a
+  compound writing carries that same voice — glyph →
+  transliteration → bracket → normalized word must chain without
+  a leap. The river-pair 𒀀𒇉 is therefore transliterated ID₂
+  (OSL lists id₂ and i₇ as the same deterministic value of
+  |A.LAGAB×HAL|), the index habit the reader owns from E₂ — and
+  the chapter states the name/spelling/voice equation in one
+  place. Where the corpus files the value differently (CDLI's
+  {d}i7), the divergence is a footnote in the teaching chapter,
+  never a reading line.
 
 - **Plurals.** Displayed in the same two layers as the singular
   (§9 transliteration + bound transcription, vowel length always
