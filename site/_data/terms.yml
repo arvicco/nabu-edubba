@@ -255,3 +255,7 @@ terms:
     scope: /cuneiform/
     slug: dual
     def: "a grammatical number for exactly two, beyond singular and plural — Akkadian keeps it for natural pairs: īnān, \"the two eyes\""
+  - name: year-name
+    scope: /cuneiform/
+    slug: year-name
+    def: "Babylon's dating system: years carry no numbers — each is NAMED for a royal deed (\"the year Immerum built Inanna's temple\"); the scribes' lists of these names are how we order their history"

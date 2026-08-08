@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-5 · phase-14 · ch17 "Silver changes hands":
+PBS 8/2, 195 read whole — the mina, the interest that "will
+grow" (uṣṣab, the herdsman's arithmetic under the kid-goat
+sign), the borrower pinned to his village (subjunctive -u met,
+named, honestly deferred), ŠU BA.AN.TI and I₃.LA₂.E read as
+the SUMERIAN formulary with 102's own grammar, the
+brazier-festival deadline, the year-name (new term), EN.ZU
+read backwards as Suen, and witness Sîn-heard-me — a
+sentence-name carrying the hearing-verb ch18's blessing will
+reuse. The two-languages-one-tablet section closes the circle:
+102 reads the frame, 103 reads the life. Batch: MAŠ₂ (kid =
+interest), GIN₂ [šiqlum], INANNA [ištar] + KI veteran (dual
+jobs); codex pages ×4; deck 58 cards. Gate caught translit
+indexes (u₂/u₃ → plain), the untaught ⅓-numeral in a reading
+(boxed ▢ per my own shows-in-reading law), and a KI tip over
+the 60-char hover law — all fixed pre-commit; EN's seat
+verified into 101 (not 102 as first drafted).
+
 2026-08-08 · M14-4 · phase-14 · ch16 "Eye, tooth, bone": the
 ch11 promise paid — law 197 read whole in signs, every piece
 already owned ("the law owes you nothing"); law 200 read whole

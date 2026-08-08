@@ -95,3 +95,8 @@ signs:
   - { glyph: "𒉻", codepoint: "1227B", name: "PAD", value: "es,emtum", display_value: "eṣemtum", meaning: "a morsel, a ration; the middle of the bone-compound GIR₃.PAD.RA₂", certainty: stated, chapter: 16, keyword: "morsel" }
   - { glyph: "𒄴", codepoint: "12134", name: "AH",  value: "ah, eh, uh", osl_name: "|HI×NUN|", meaning: "a pure syllable — the throat's breath in three colors; me-eḫ-ri-šu, \"his equal\"", freq_akkob: 2771, certainty: unclear, chapter: 16, keyword: "sigh" }
   - { glyph: "𒁺", codepoint: "1207A", name: "DU",  value: "ra2",  veteran: true, keyword: "go", meaning: "veteran — DU gains [ra₂]: the third sign of the bone-compound", chapter: 16 }
+  # ch 17 · Silver changes hands (PBS 8/2, 195 — an OB loan)
+  - { glyph: "𒈧", codepoint: "12227", name: "MASZ2", value: "masz2", display_value: "maš", meaning: "the kid goat — and the interest on a loan: growth measured the herdsman's way", freq_akkob: 19, certainty: stated, chapter: 17, keyword: "kid" }
+  - { glyph: "𒂆", codepoint: "12086", name: "GIN2", value: "sziqlum", display_value: "šiqlum", osl_name: "DUN₃@g", meaning: "the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves in", certainty: stated, chapter: 17, keyword: "shekel" }
+  - { glyph: "𒈹", codepoint: "12239", name: "INANNA", value: "isztar", display_value: "Ištar", osl_name: "MUŠ₃", meaning: "the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian mouths", certainty: classic, chapter: 17, keyword: "goddess" }
+  - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki",   veteran: true, keyword: "place", meaning: "veteran — KI gains [ki]: plain syllable; its old self still says \"from\"", chapter: 17 }

@@ -109,6 +109,13 @@ batches:
   - AH
   - DU (vet)
   coverage_akkob_pct: 75.7
+- chapter: 17
+  signs:
+  - MASZ2
+  - GIN2
+  - INANNA
+  - KI (vet)
+  coverage_akkob_pct: 75.7
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -615,3 +622,44 @@ signs:
   keyword: go
   meaning: 'veteran — DU gains [ra₂]: the third sign of the bone-compound'
   chapter: 16
+- glyph: "\U00012227"
+  codepoint: '12227'
+  name: MASZ2
+  value: masz2
+  display_value: maš
+  meaning: 'the kid goat — and the interest on a loan: growth measured the herdsman''s
+    way'
+  freq_akkob: 19
+  certainty: stated
+  chapter: 17
+  keyword: kid
+- glyph: "\U00012086"
+  codepoint: '12086'
+  name: GIN2
+  value: sziqlum
+  display_value: šiqlum
+  osl_name: DUN₃@g
+  meaning: 'the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves
+    in'
+  certainty: stated
+  chapter: 17
+  keyword: shekel
+- glyph: "\U00012239"
+  codepoint: '12239'
+  name: INANNA
+  value: isztar
+  display_value: Ištar
+  osl_name: MUŠ₃
+  meaning: the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian
+    mouths
+  certainty: classic
+  chapter: 17
+  keyword: goddess
+- glyph: "\U000121A0"
+  codepoint: 121A0
+  name: KI
+  value: ki
+  veteran: true
+  keyword: place
+  meaning: 'veteran — KI gains [ki]: plain syllable; its old self still says "from"'
+  chapter: 17
