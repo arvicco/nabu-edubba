@@ -5,6 +5,19 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-7 · phase-14 · Retrieval mirror: the drill
+deal includes every stretch-3 sign (verified in the built
+shelf), the 61-card deck quotes the loan lines
+(license-attribution hard-fail passed), and the decks page's
+provenance sentence now names all three sources (codex,
+letter, loan). One law reconciled to reality: the ch18
+Reference lists and codex-links every sign, but incoming
+veteran links target CHAPTER teaching-seat anchors — the
+site-wide sign_linker convention; 101's reference-anchoring is
+its own historical seat. §9 Reference bullet amended
+accordingly (build-verified: ch15 carries AZ's anchor, ch18
+rows link the codex).
+
 2026-08-08 · M14-6 · phase-14 · ch18 "The whole course in one
 room": the epilogue's invitation read entire — awīlum ḫablum
 through libbašu linappišma, seventeen lines of precatives
