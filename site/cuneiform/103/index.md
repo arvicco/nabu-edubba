@@ -26,9 +26,11 @@ same wedges — because the scribes of Babylon borrowed the script
 whole and bent it to their own sounds. Most of your signs are about
 to grow second lives as pure syllables, and the destination is not
 an exercise: this course reads the opening of the **Codex
-Hammurapi**, its first two laws whole, the eye-for-an-eye laws,
-real Old Babylonian mail, and the epilogue where the king signs
-his name — all in the original.
+Hammurapi**, its laws whole — from the murder charge to
+tooth-for-tooth and the priced injuries below it — real Old
+Babylonian mail, a Sippar loan with its witnesses and
+year-name, the epilogue where the king signs his name, and his
+invitation to every future reader — all in the original.
 
 ## Chapters
 
@@ -48,6 +50,10 @@ his name — all in the original.
   <li><a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">Say to him: a letter</a> — the mail of Babylon, formula and plea</li>
   <li><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">I am he</a> — the epilogue's self-naming, and the second negation</li>
   <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
+  <li><a href="{{ '/cuneiform/103/15-it-has-happened/' | relative_url }}">It has happened</a> — the perfect named, and law 202 read whole</li>
+  <li><a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">Eye, tooth, bone</a> — the bone law paid in signs, and the scale of persons</li>
+  <li><a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">Silver changes hands</a> — a real Sippar loan: interest, witnesses, year-name</li>
+  <li><a href="{{ '/cuneiform/103/18-the-whole-course/' | relative_url }}">The whole course in one room</a> — the invitation answered; Reference, and the close</li>
 </ol>
 
 Two stretches are live; the course still ends mid-story on

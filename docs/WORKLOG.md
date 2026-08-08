@@ -5,6 +5,156 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · review round (Gate 14, reading-line alignment) ·
+phase-14 · Owner: ch16's readings "not properly aligned to the
+cuneiform lines they sound." Root cause, found by FINALLY
+doing the §6b headless-screenshot review I had skipped in
+favor of structural HTML checks (owned: the checklist's own
+line — "transliteration aligns with the script it glosses" —
+was the exact defect): the script column was minmax-capped
+with overflow-wrap:anywhere, so longer stretch-3 lines WRAPPED
+mid-line inside the script cell — more visible cuneiform lines
+than transliteration lines, pairing lost; latent site-wide
+(ch10's River lines wrapped too). Law (§5): a reading line is
+ONE visual line of script — the script column takes its
+content's width and never wraps; long lines scroll INSIDE the
+figure. CSS carries it: script track max-content + nowrap,
+figure overflow-x, gloss column given a readable minimum
+(first attempt's minmax track collapsed under pressure and let
+script paint OVER the translit — caught in the 560px shot);
+plus the same containment for wide sign-tables at narrow
+widths (pre-existing bleed, same disease class). Verified by
+screenshots at 1200 and 560 (Chrome headless clamps windows
+to ~500px — the 420px "break" was tool artifact, confirmed
+against a figure-free page). Pixel review is now genuinely
+part of the loop, not a checkbox.
+
+2026-08-08 · M14-8 · phase-14 · Stitching: built-site surface
+review structural pass — all four chapters render with
+readings and nav, term bubbles live (perfect ×11 in ch15,
+dual, year-name), the ch18 Reference lists every queue row
+with codex links and tips, the drill deal carries the new
+signs, catalogs say complete. Gate green at every packet; six
+packets, six commits, no red pushes this phase. PR #18 opened
+for Gate 14: C103 Akkadian stretch 3 — the course closed at
+nineteen chapters, 76.4% OB coverage, every standing debt paid
+(dual, perfect, bone law, contracts) with the receipts quoted
+in the WORKLOG entries above.
+
+2026-08-08 · M14-7 · phase-14 · Retrieval mirror: the drill
+deal includes every stretch-3 sign (verified in the built
+shelf), the 61-card deck quotes the loan lines
+(license-attribution hard-fail passed), and the decks page's
+provenance sentence now names all three sources (codex,
+letter, loan). One law reconciled to reality: the ch18
+Reference lists and codex-links every sign, but incoming
+veteran links target CHAPTER teaching-seat anchors — the
+site-wide sign_linker convention; 101's reference-anchoring is
+its own historical seat. §9 Reference bullet amended
+accordingly (build-verified: ch15 carries AZ's anchor, ch18
+rows link the codex).
+
+2026-08-08 · M14-6 · phase-14 · ch18 "The whole course in one
+room": the epilogue's invitation read entire — awīlum ḫablum
+through libbašu linappišma, seventeen lines of precatives
+addressed to whoever can read, answered by a reader the course
+itself made ("you no longer need the hired eyes"); the
+tense×stem grid with every met cell filled and honest dashes;
+the queue-driven Reference table (sign-linker anchors — the
+teaching-seat targets future courses will link); final
+coverage 76.4% (instrument-reported: three of every four signs
+on an OB tablet); the frontier named (280 laws, omens, math,
+SB/Gilgameš). Batch nineteen: AR (maḫar), UR₂ (closing līmur),
+ALAN [ṣalmum]; codex pages ar/ur2/alan; catalogs flipped —
+school and course pages now say COMPLETE, nineteen chapters.
+Deck 61 cards. Gate green first run. "May your heart breathe."
+
+2026-08-08 · M14-5 · phase-14 · ch17 "Silver changes hands":
+PBS 8/2, 195 read whole — the mina, the interest that "will
+grow" (uṣṣab, the herdsman's arithmetic under the kid-goat
+sign), the borrower pinned to his village (subjunctive -u met,
+named, honestly deferred), ŠU BA.AN.TI and I₃.LA₂.E read as
+the SUMERIAN formulary with 102's own grammar, the
+brazier-festival deadline, the year-name (new term), EN.ZU
+read backwards as Suen, and witness Sîn-heard-me — a
+sentence-name carrying the hearing-verb ch18's blessing will
+reuse. The two-languages-one-tablet section closes the circle:
+102 reads the frame, 103 reads the life. Batch: MAŠ₂ (kid =
+interest), GIN₂ [šiqlum], INANNA [ištar] + KI veteran (dual
+jobs); codex pages ×4; deck 58 cards. Gate caught translit
+indexes (u₂/u₃ → plain), the untaught ⅓-numeral in a reading
+(boxed ▢ per my own shows-in-reading law), and a KI tip over
+the 60-char hover law — all fixed pre-commit; EN's seat
+verified into 101 (not 102 as first drafted).
+
+2026-08-08 · M14-4 · phase-14 · ch16 "Eye, tooth, bone": the
+ch11 promise paid — law 197 read whole in signs, every piece
+already owned ("the law owes you nothing"); law 200 read whole
+with meḫrišu, "his equal" — the unquoted hinge of
+tooth-for-tooth — and the iddi/ittadi/inaddû root run through
+ch15's melody; laws 198–201 as the scale of persons in bound
+transcription (flesh in kind, the commoner in weighed silver,
+the slave in his price; išaqqal and the pre-coinage
+balance-pan), title-words honestly shelved in a footnote; the
+DUAL paid at last (īnān, šēpān — one row, a survival, why the
+laws still write īn), closing ch02's oldest hedge. Batch:
+GIR₃/PAD ([eṣemtum] both — the compound law's first use) + AḪ
+([aḫ/eḫ/uḫ]) + DU veteran ([ra], ra₂ closing the compound);
+codex pages gir3/pad/ah/du; queue 75.7%, deck 54 cards. Gate
+green first run.
+
+2026-08-08 · M14-3 · phase-14 · ch15 "It has happened": the
+perfect joins preterite/durative in a three-tense grid on BOTH
+model roots (§5 parallel law; -ta- bolded), the deed-proof-
+sentence melody of the šumma-clause stated on law 1's own
+chain, uktīn finally opened whole (D + perfect, both hedges
+resolved with links), and law 202 read entire — imtaḫaṣ at the
+top, immaḫḫaṣ at the bottom, the ch09 drill root paid out in
+sixty real strokes; the ox-whip line honestly boxed ▢▢▢
+(shows-in-reading law respected — nothing smuggled). Bone-law
+verbs now stand as sign exhibits (TE fell in ch14), with the
+bone itself promised one chapter out. Batch: AZ (the bear,
+[as/az/aṣ]) + veterans TA (the perfect's own marker — 102's
+from-sign) and MAḪ; codex pages az/ta/mah; queue 75.3%, deck
+50 cards. Gate caught four conventions en route (bare chapter
+link, homophone indexes in translit, veteran keyword
+invariance, 102-chapter-seat links) — all fixed pre-commit.
+
+2026-08-08 · M14-2 · phase-14 · Instruments: every stretch-3
+reading pinned against the 114-glyph taught inventory with a
+line-by-line nabu resolution check. Finds: law 202 costs ONE
+sign (AZ 𒊍 — and carries im-ta-ḫa-aṣ / im-maḫ-ḫa-aṣ, the ch09
+model root m-ḫ-ṣ in the corpus flesh); law 200 costs one (AḪ,
+meḫrišu); law 197 costs the owed GIR₃+PAD; the ch18 close is
+the epilogue's INVITATION (a:3240'–3256', "let the wronged man
+have my stele read aloud … let his heart breathe") — 17 lines,
+exactly 3 new signs (AR, UR₂, ALAN), precative-dense on taught
+grammar. Contract picked: PBS 8/2, 195 (p257793, Sippar under
+Immerum, attribution) — silver, interest (MAŠ₂), šu ba-an-ti,
+year-name (INANNA), witnesses incl. the sign-free
+sentence-name Sîn-išmeanni; GIN₂ the shekel sign. Laws
+198/199/201 stay transcription (MAŠ/ARAD₂/sa₁₀ = one-line
+signs); LU (freq rank 37) stays reserve — no reading needs it,
+and names alone don't seat a sign. 10 new signs total, freq-
+justified, identities OSL-deterministic.
+
+2026-08-08 · M14-1 · phase-14 · Stretch-3 law before content:
+§9 gains the perfect (iptaras, -ta- after the first radical,
+met forms re-parsed, šumma tense chain stated once), the dual
+(paid on paired body parts, one row, no paradigm), compound
+sumerograms (GIR₃.PAD.RA₂ taught as one word — member brackets
+carry the compound's single voice [eṣemtum], identity stays in
+Name/keyword/story, RA₂ routes as 102's DU veteran), contracts
+(CDLI attribution, type+parties in citations, witnesses as
+"before PN", date formulae taught before met), weights (text's
+own units, one modern equivalence per chapter), and the ch18
+Reference conventions (anchors, instrument coverage, honest
+frontier). Terms perfect + dual added with a new per-term
+scope: guard in the linker — "perfect" is grammar under
+/cuneiform/ and plain English elsewhere (the hiero "perfect
+reading drill" and nfr's gloss stay unbubbled; verified in the
+build) — with linker + contract tests.
+
 2026-08-08 · review round (Gate 13, ch13 title) · phase-13 ·
 Owner: "13 anāku — not acceptable, out of place; I am he is the
 right title" and "it was correct before, why did it degrade?"

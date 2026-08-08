@@ -31,7 +31,8 @@ One deck, one card per sign Cuneiform 103 teaches — front the
 glyph, back the keyword, name, Akkadian readings, meaning, the
 codex page's memory hook, and a real attested line (every quoted
 line in this deck is license-attribution, straight from the
-Codex Hammurapi or an Old Babylonian letter):
+Codex Hammurapi, an Old Babylonian letter, or a Sippar loan
+contract):
 
 - <a href="{{ '/assets/decks/edubba-cuneiform-103.txt' | relative_url }}">edubba-cuneiform-103.txt</a>
   — every sign of the Akkadian course, veterans included with
