@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · review round (Gate 13, ch11 law-197 smuggling) ·
+phase-13 · Owner: šum-ma GIR₃.PAD.RA₂ a-wi-lim — "NEVER taught,
+ILLEGAL according to all rules. Why did it get in?" It got in
+through `shows:`: the display-exhibit list licensed 𒄊 𒉻 𒋼
+into a READING figure with transliteration, as if the student
+could read them — and 𒋼 TE was shown outright while ch10's
+honest box had promised it stays boxed until ch14. My error:
+I framed a reading as an "exhibit" to dodge the graded-reading
+law; the framing does not change what it is. Fix: law 197 now
+speaks in bound transcription alone (norm + translation +
+footnoted URN with the raw-ATF giri3-pad-ra2), the script
+honestly deferred to the batch that teaches it; ch11 shows: is
+empty. Law (§5 + CLAUDE.md): shows: never licenses a reading —
+untaught signs in readings are ▢, no exceptions, no exhibit
+framing. New shows-in-reading check in course_check (cuneiform-
+scoped) with tests; the sweep found three hieroglyphs-101
+chapters with the same pattern (cartouche rings, stroke, Ptolemy
+lion) — filed as D13-a for an owner ruling rather than silently
+rewriting the Egyptian school.
+
 2026-08-08 · review round (Gate 13, ch09 balance + ch10 River
 chain) · phase-13 · Owner, two reports: (a) the stems grid
 unbalanced again, now on The build column; (b) the River's

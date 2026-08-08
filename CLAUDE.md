@@ -124,10 +124,11 @@ rake serve          # local preview at http://127.0.0.1:4000
   (`00-orientation.md`, …), `layout: chapter`, permalink
   `/<school>/<NNN>/<NN-slug>/`. Front matter carries the pedagogy
   contract: `chapter:` (ordinal), `teaches:` (signs this chapter
-  introduces, as glyph strings), `shows:` (display-only exhibits).
-  The gate enforces: a chapter's body may use only signs taught in
-  chapters <= its own, plus its own `shows:` — nothing untaught in a
-  reading, ever.
+  introduces, as glyph strings), `shows:` (display-only exhibits —
+  never inside a reading figure). The gate enforces: a chapter's
+  body may use only signs taught in chapters <= its own, plus its
+  own `shows:` outside readings — nothing untaught in a reading,
+  ever, exhibit framing included.
 
 ## Testing conventions
 
