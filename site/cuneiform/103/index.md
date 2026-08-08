@@ -48,6 +48,7 @@ his name — all in the original.
   <li><a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">Say to him: a letter</a> — the mail of Babylon, formula and plea</li>
   <li><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">I am he</a> — the epilogue's self-naming, and the second negation</li>
   <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
+  <li><a href="{{ '/cuneiform/103/15-it-has-happened/' | relative_url }}">It has happened</a> — the perfect named, and law 202 read whole</li>
 </ol>
 
 Two stretches are live; the course still ends mid-story on

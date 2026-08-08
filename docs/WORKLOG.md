@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-3 · phase-14 · ch15 "It has happened": the
+perfect joins preterite/durative in a three-tense grid on BOTH
+model roots (§5 parallel law; -ta- bolded), the deed-proof-
+sentence melody of the šumma-clause stated on law 1's own
+chain, uktīn finally opened whole (D + perfect, both hedges
+resolved with links), and law 202 read entire — imtaḫaṣ at the
+top, immaḫḫaṣ at the bottom, the ch09 drill root paid out in
+sixty real strokes; the ox-whip line honestly boxed ▢▢▢
+(shows-in-reading law respected — nothing smuggled). Bone-law
+verbs now stand as sign exhibits (TE fell in ch14), with the
+bone itself promised one chapter out. Batch: AZ (the bear,
+[as/az/aṣ]) + veterans TA (the perfect's own marker — 102's
+from-sign) and MAḪ; codex pages az/ta/mah; queue 75.3%, deck
+50 cards. Gate caught four conventions en route (bare chapter
+link, homophone indexes in translit, veteran keyword
+invariance, 102-chapter-seat links) — all fixed pre-commit.
+
 2026-08-08 · M14-2 · phase-14 · Instruments: every stretch-3
 reading pinned against the 114-glyph taught inventory with a
 line-by-line nabu resolution check. Finds: law 202 costs ONE

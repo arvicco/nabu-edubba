@@ -700,7 +700,7 @@ Detailed plan: .docs/phase-14-plan.md.
    pool-103 stretch-3 pins (nabu signs --lang=akk), contract
    pick (CDLI OB legal, attribution only), coverage report,
    reading map + pins appended to the plan.
-## M14-3 · ch 15 — the perfect  [tier: top — Fable] [status: ready] [deps: M14-2]
+## M14-3 · ch 15 — the perfect  [tier: top — Fable] [status: done — iptaras on both model roots, law 202 whole (▢▢▢ whip line), law-1 melody stated, bone-law verbs in signs; AZ + TA/MAḪ veterans, 3 codex pages, 50-card deck] [deps: M14-2]
 ## M14-4 · ch 16 — eye, tooth, bone + dual  [tier: top — Fable] [status: ready] [deps: M14-3]
 ## M14-5 · ch 17 — a contract  [tier: top — Fable] [status: ready] [deps: M14-4]
 ## M14-6 · ch 18 + catalogs — close + Reference  [tier: top — Fable] [status: ready] [deps: M14-5]
