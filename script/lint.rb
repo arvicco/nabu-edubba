@@ -126,6 +126,7 @@ module Edubba
         found << Violation.new(path, "front-matter", "Markdown page without front matter")
       end
       found.concat(check_nav_label(path, text))
+      found.concat(check_title_language(path, text))
       found.concat(check_tail_fit(path, text))
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
@@ -202,6 +203,29 @@ module Edubba
         end
       end
       found
+    end
+
+    # title-language (§4, owner rulings: "šumma" 2026-08-06, "anāku"
+    # 2026-08-08): chapter titles and sidebar labels speak the
+    # student's language — plain English essence, never a
+    # transliterated ancient word. nav-label only guarded
+    # sidebar-page agreement, so "13 · anāku" slipped through by
+    # appearing in the title; this bans the character class itself.
+    TRANSLIT_CHARS = /[āēīūâêîûṣṭḫŋĝřĀĒĪŪÂÊÎÛṢṬḪŊĜŘšŠḏḎṯṮẖḳḲꜣꜥʾ₀-₉]/
+    def check_title_language(path, text)
+      return [] unless path.end_with?(".md") && text.start_with?("---\n")
+      return [] unless (fm_end = text.index("\n---", 4))
+
+      require "yaml"
+      fm = YAML.safe_load(text[4..fm_end]) rescue nil
+      return [] unless fm.is_a?(Hash) && fm["chapter"]
+
+      %w[title short_title].filter_map do |key|
+        next unless (val = fm[key]) && (hit = val[TRANSLIT_CHARS])
+
+        Violation.new(path, "title-language",
+                      "#{key} #{val.inspect} carries transliteration (#{hit.inspect}) — titles and labels speak plain English; the ancient word enters in the first paragraph (§4)")
+      end
     end
 
     # akk-translit (§9, owner rulings 2026-08-06): Akkadian reading
