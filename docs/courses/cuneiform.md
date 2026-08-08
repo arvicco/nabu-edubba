@@ -105,6 +105,17 @@ machine-enforceable subset (`script/rulebook.rb`, run by
   never silently skipped.
 - Standard references are footnoted, once or twice per course
   (102 uses Foxvog's *Introduction to Sumerian Grammar*).
+- Chapter titles and sidebar labels speak the student's
+  language (owner rulings: "šumma" 2026-08-06, "anāku"
+  2026-08-08): plain English carrying the chapter's essence — a
+  transliterated ancient word is never a title or label; it
+  enters in the first paragraph instead, where it can be
+  taught. Root cause of the recurrence: the nav-label rule
+  mechanized only sidebar-page AGREEMENT, so "anāku" passed by
+  literally appearing in the title. The title-language lint now
+  bans transliteration characters (macrons, ṣ/ṭ/ḫ/š/ŋ,
+  subscript indexes) from chapter titles and short_titles
+  outright.
 
 ## 5 · Pedagogy mechanics
 

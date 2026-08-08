@@ -46,7 +46,7 @@ his name — all in the original.
   <li><a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">The River decides</a> — law 2 whole: the ordeal and its mirror</li>
   <li><a href="{{ '/cuneiform/103/11-an-eye-for-an-eye/' | relative_url }}">An eye for an eye</a> — laws 196–197, read from the original</li>
   <li><a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">Say to him: a letter</a> — the mail of Babylon, formula and plea</li>
-  <li><a href="{{ '/cuneiform/103/13-anaku/' | relative_url }}">anāku — I am he</a> — the epilogue's self-naming, and the second negation</li>
+  <li><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">I am he</a> — the epilogue's self-naming, and the second negation</li>
   <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
 </ol>
 

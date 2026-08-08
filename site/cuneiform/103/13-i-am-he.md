@@ -1,6 +1,6 @@
 ---
-title: "13 · anāku — I am he"
-short_title: "13 · anāku"
+title: "13 · I am he"
+short_title: "13 · I am he"
 description: >-
   The epilogue's self-naming, read whole: a blessing for the
   people's flesh, the king's titles, the word anāku — and the
@@ -8,19 +8,20 @@ description: >-
 layout: chapter
 course: cuneiform-103
 chapter: 13
-permalink: /cuneiform/103/13-anaku/
+permalink: /cuneiform/103/13-i-am-he/
 course_url: /cuneiform/103/
 course_title: "Cuneiform 103"
 teaches: ["𒌌"]
 shows: []
 ---
 
-# anāku — I am he
+# I am he
 
 Since
 <a href="{{ '/cuneiform/103/04-when-lofty-an/' | relative_url }}">chapter 04</a>
 this course has promised you the moment the king stops speaking
-in the third person. It is here — and on the way to it, the
+in the third person. It is here — one word,
+<span class="norm">anāku</span>, "I" — and on the way to it, the
 stele pays off two more debts: the blessing that echoes the
 creed of
 <a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a>,

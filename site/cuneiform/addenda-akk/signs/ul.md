@@ -41,4 +41,4 @@ closing.
 </figure>
 
 Akkadian reading taught in
-<a href="{{ '/cuneiform/103/13-anaku/' | relative_url }}">103's chapter 13</a>.
+<a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">103's chapter 13</a>.

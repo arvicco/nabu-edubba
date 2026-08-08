@@ -155,6 +155,20 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_nav_label("x.md", index)
   end
 
+  def test_chapter_titles_speak_plain_english
+    bad = "---\ntitle: \"13 · anāku — I am he\"\nshort_title: \"13 · anāku\"\nchapter: 13\n---\nbody"
+    v = Edubba::Lint.check_title_language("x.md", bad)
+    assert_equal 2, v.size
+    assert_equal ["title-language"], v.map(&:rule).uniq
+
+    good = "---\ntitle: \"13 · I am he\"\nshort_title: \"13 · I am he\"\nchapter: 13\n---\nbody"
+    assert_empty Edubba::Lint.check_title_language("x.md", good)
+
+    index = "---\ntitle: \"anāku everywhere\"\n---\nbody"
+    assert_empty Edubba::Lint.check_title_language("x.md", index),
+                 "non-chapter pages (no chapter: key) are out of scope"
+  end
+
   def test_nav_order_must_be_globally_unique
     Dir.mktmpdir do |dir|
       %w[a b].each do |s|

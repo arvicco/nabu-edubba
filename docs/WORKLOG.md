@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · review round (Gate 13, ch13 title) · phase-13 ·
+Owner: "13 anāku — not acceptable, out of place; I am he is the
+right title" and "it was correct before, why did it degrade?"
+Git answer: it never degraded through edits — ch13 shipped this
+way at birth (M13-5), title "anāku — I am he" with the Akkadian
+half as the sidebar label, ON THE SAME DAY the "06 · šumma"
+lesson was learned. Root cause: my nav-label guard mechanized
+only sidebar-page AGREEMENT (short_title drawn from title), not
+the lesson itself (labels speak the student's language), so
+"anāku" passed by literally appearing in the title — the gap my
+own rule left open. Fix: title and label are "13 · I am he", h1
+matches, anāku enters in the first paragraph where it can be
+taught; file and permalink renamed 13-i-am-he (not yet live, so
+not frozen), course index and ul codex links updated. Law in §4
++ new title-language lint banning transliteration characters
+(macrons, ṣ/ṭ/ḫ/š/ŋ, Egyptological letters, subscript indexes)
+from chapter titles and short_titles outright, with tests — the
+class is closed, not the instance.
+
 2026-08-08 · review round (Gate 13, ch11 law-197 smuggling) ·
 phase-13 · Owner: šum-ma GIR₃.PAD.RA₂ a-wi-lim — "NEVER taught,
 ILLEGAL according to all rules. Why did it get in?" It got in
