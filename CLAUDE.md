@@ -171,16 +171,17 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 13 — C103 Akkadian, stretch 2: plurals, the verbal stems
-named (D/Š/N), laws 2–3 and 196–200, an OB letter, anāku; akk
-retrieval mirror at the end. Per .docs/phase-13-plan.md (plan
-pending owner approval).
+Phase 14 — pending owner pick (candidates: E102 stretch 2
+toward Sinuhe; C103 stretch 3 — contracts, t-stems, SB
+frontier; Wiktionary enrichment sweep).
 
-Gate 12 merged 2026-08-06 (C103 Akkadian stretch 1: §9 Akkadian
-law + two-codex rulebook checks, OB frequency base off 204,820
-passages, 8 chapters reading the real Codex Hammurapi through
-law 1 and the creed, C AKK Addenda with 28 codex pages,
-LANGUAGE SEPARATION with keyword invariance, veteran routing
-(tips, links, sumerograms), item-by-item breakdown law, four
-new lint rules + terms contract test; nineteen review rounds).
-Update this line at each gate.
+Gate 13 merged 2026-08-08 (C103 Akkadian stretch 2: plurals,
+the stems on parallel model roots p-r-s/m-ḫ-ṣ, law 2 whole
+with the River ordeal and the ID₂/Id chain, laws 196–197, two
+OB letters, "I am he" (anāku) closing at 75.2% OB coverage;
+21 akk codex pages, akk retrieval mirror + 47-card deck; seven
+review rounds, each landing a rulebook law + mechanical guard:
+§5 demonstration/model-verb/table-budget laws, §9
+bracket-is-the-voice, shows-never-licenses-a-reading,
+title-language + tail-fit-width lints; D13-a open on
+hieroglyphs frames). Update this line at each gate.

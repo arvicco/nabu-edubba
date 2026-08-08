@@ -638,7 +638,14 @@ the school); C103 veterans link to the akk codex.
 ## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
 ## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]
 
-## Phase 13 — C103 Akkadian, stretch 2 (plan pending owner approval)
+## Phase 13 — C103 Akkadian, stretch 2 (Gate 13 CLOSED — PR #17
+merged 2026-08-08, CI + deploy green, live pixels verified;
+seven review rounds, each closing a rule class: §5
+mechanism-demonstrated / one-model-verb / parallel roots /
+root-before-slot, table width budget + tail-fit-width lint,
+§9 bracket-is-the-voice + the ID₂/Id chain,
+shows-never-licenses-a-reading + course check, title-language
+lint; D13-a open on hieroglyphs frames)
 
 Source: owner pick 2026-08-06 ("AKK stretch next"). Honors stretch
 1's three promises: the D/Š/N stems named (ch05 footnote), the
