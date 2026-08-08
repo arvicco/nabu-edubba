@@ -5,6 +5,21 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-6 · phase-14 · ch18 "The whole course in one
+room": the epilogue's invitation read entire — awīlum ḫablum
+through libbašu linappišma, seventeen lines of precatives
+addressed to whoever can read, answered by a reader the course
+itself made ("you no longer need the hired eyes"); the
+tense×stem grid with every met cell filled and honest dashes;
+the queue-driven Reference table (sign-linker anchors — the
+teaching-seat targets future courses will link); final
+coverage 76.4% (instrument-reported: three of every four signs
+on an OB tablet); the frontier named (280 laws, omens, math,
+SB/Gilgameš). Batch nineteen: AR (maḫar), UR₂ (closing līmur),
+ALAN [ṣalmum]; codex pages ar/ur2/alan; catalogs flipped —
+school and course pages now say COMPLETE, nineteen chapters.
+Deck 61 cards. Gate green first run. "May your heart breathe."
+
 2026-08-08 · M14-5 · phase-14 · ch17 "Silver changes hands":
 PBS 8/2, 195 read whole — the mina, the interest that "will
 grow" (uṣṣab, the herdsman's arithmetic under the kid-goat

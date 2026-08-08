@@ -116,6 +116,12 @@ batches:
   - INANNA
   - KI (vet)
   coverage_akkob_pct: 75.7
+- chapter: 18
+  signs:
+  - AR
+  - UR2
+  - ALAN
+  coverage_akkob_pct: 76.4
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -663,3 +669,31 @@ signs:
   keyword: place
   meaning: 'veteran — KI gains [ki]: plain syllable; its old self still says "from"'
   chapter: 17
+- glyph: "\U00012148"
+  codepoint: '12148'
+  name: AR
+  value: ar
+  osl_name: "|IGI.RI|"
+  meaning: praise, glory in the lists; here the syllable of maḫar, "before"
+  freq_akkob: 4488
+  certainty: stated
+  chapter: 18
+  keyword: praise
+- glyph: "\U0001232B"
+  codepoint: 1232B
+  name: UR2
+  value: ur2
+  meaning: the lap — a body's base; foundations in the lists
+  freq_akkob: 1465
+  certainty: stated
+  chapter: 18
+  keyword: lap
+- glyph: "\U00012029"
+  codepoint: '12029'
+  name: ALAN
+  value: s,almum
+  display_value: ṣalmum
+  meaning: the statue — a person's standing image; written ALAN, spoken ṣalmum
+  certainty: classic
+  chapter: 18
+  keyword: statue
