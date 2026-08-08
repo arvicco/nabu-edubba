@@ -118,6 +118,17 @@ concrete holdable example; batch label = chapter number + 1
 essence. The nothing-untaught validator and the every-chapter
 rules are enforced by `rake gate`.
 
+`shows:` never licenses a reading (owner report 2026-08-08,
+after law 197 shipped as a "reading exhibit" whose bone-compound
+GIR₃.PAD.RA₂ transliterated three untaught signs as if the
+student could read them): a `shows:` sign may appear only in a
+standalone display exhibit, never inside a reading figure — a
+graded reading carries taught signs only, untaught ones as ▢,
+no exceptions and no exhibit framing. If a passage's key word
+is written with untaught signs, the passage waits for its batch
+or speaks in bound transcription alone. The shows-in-reading
+check enforces this for cuneiform courses.
+
 A reading that carries NEW grammar gets an item-by-item
 breakdown after the figure (owner ruling 2026-08-06, the C102
 "take inventory" style): every word parsed — form, ending,

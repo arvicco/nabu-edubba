@@ -663,3 +663,15 @@ end, lifting the Gate-12 deferral.
    DRILL_SCHOOLS gains akk; edubba-cuneiform-103 deck (license-
    hard-fail as ever).
 ## M13-8 · Stitching + surface review, gate PR  [tier: top] [status: done — pixels verified (ch08/10/13, akk drills), WORKLOG, PR]
+
+## Decision items — Phase 13
+
+- D13-a · OPEN (found 2026-08-08, mechanizing the shows-in-reading
+  rule after the law-197 report): three hieroglyphs-101 chapters
+  read `shows:`-licensed signs inside reading figures — ch05/ch11
+  (cartouche rings 𓍹𓍺, and ch05's lion/lasso in the Ptolemy
+  demo) and ch06 (the stroke 𓏤). The cuneiform law now bans
+  shows-in-readings outright; Egyptian's silent frames may deserve
+  an exemption or the same ban. Needs an owner ruling + a
+  hieroglyphs-rulebook entry; the mechanical check is scoped to
+  cuneiform until then.

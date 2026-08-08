@@ -70,6 +70,33 @@ class CourseCheckTest < Minitest::Test
       assert_empty Edubba::CourseCheck.violations(dir)
     end
   end
+
+  READING = ->(glyph) { %(<figure class="reading reading--script"><div class="reading-line"><span class="script">#{glyph}</span></div></figure>) }
+
+  def test_shows_never_licenses_a_sign_inside_a_reading_figure
+    body = "Exhibit: #{LUGAL}\n#{READING.call(LUGAL)}"
+    with_course("00-a.md" => chapter(0, teaches: [AN], shows: [LUGAL], body: body)) do |dir|
+      offenses = Edubba::CourseCheck.violations(dir)
+      assert_equal ["shows-in-reading"], offenses.map(&:rule)
+      assert_match(/U\+12217/, offenses.first.detail)
+    end
+  end
+
+  def test_taught_signs_inside_readings_are_clean_and_other_schools_exempt
+    body = READING.call(AN)
+    with_course("00-a.md" => chapter(0, teaches: [AN], body: body)) do |dir|
+      assert_empty Edubba::CourseCheck.violations(dir)
+    end
+
+    Dir.mktmpdir do |dir|
+      course = File.join(dir, "hieroglyphs", "101")
+      FileUtils.mkdir_p(course)
+      File.write(File.join(course, "00-a.md"),
+                 chapter(0, shows: [LUGAL], body: READING.call(LUGAL)))
+      assert_empty Edubba::CourseCheck.violations(dir),
+                   "the reading-strict rule is cuneiform law; hieroglyphs rules on its own frames"
+    end
+  end
 end
 
 class CourseAssumesTest < Minitest::Test

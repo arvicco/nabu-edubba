@@ -12,7 +12,7 @@ permalink: /cuneiform/103/11-an-eye-for-an-eye/
 course_url: /cuneiform/103/
 course_title: "Cuneiform 103"
 teaches: ["𒌔", "𒉺", "𒀊"]
-shows: ["𒄊", "𒉻", "𒋼"]
+shows: []
 ---
 
 # An eye for an eye
@@ -105,32 +105,23 @@ both ways.
 
 ## The law beside it
 
-The very next ruling swaps the eye for a bone. Its three new
-signs belong to a later batch, so read it as an exhibit — the
-sumerogram in the middle is the skeleton's own compound,
-GIR₃.PAD.RA₂, "bone":
+The very next ruling swaps the eye for a bone. But its middle
+word is written with a three-sign Sumerian compound whose signs
+a later batch will teach — and a reading shows nothing this
+course has not taught. So take law 197 the way the court heard
+it, as sound alone:
 
-<figure class="reading reading--script">
-  <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒋳𒈠 𒄊𒉻𒁺 𒀀𒉿𒅆</span><span class="translit">šum-ma GIR₃.PAD.RA₂ a-wi-lim</span><span class="gloss"><span class="norm">šumma eṣemti awīlim</span> — "If the bone of a man…"</span></div>
-    <div class="reading-line"><span class="script">𒅖𒋼𒁉𒅕</span><span class="translit">iš-te-bi-ir</span><span class="gloss"><span class="norm">ištebir</span> — "…he has broken:"</span></div>
-    <div class="reading-line"><span class="script">𒄊𒉻𒁺𒋗</span><span class="translit">GIR₃.PAD.RA₂-šu</span><span class="gloss"><span class="norm">eṣemtašu</span> — "his bone"</span></div>
-    <div class="reading-line"><span class="script">𒄿𒊺𒅁𒁉𒊒</span><span class="translit">i-še-eb-bi-ru</span><span class="gloss"><span class="norm">išebbirū</span> — "they shall break."</span></div>
-  </div>
-  <figcaption class="citation">
-    <em>Codex Hammurapi</em> (composite text), law 197 —
-    exhibit; its signs join a later batch.
-    <code>urn:nabu:cdli:p464358:a:2512'</code>–<code>:a:2515'</code>
-    · license: attribution.
-  </figcaption>
-</figure>
+<span class="norm">šumma eṣemti awīlim ištebir — eṣemtašu
+išebbirū.</span> "If he has broken the bone of a man — his bone
+they shall break."[^law197]
 
 Same skeleton as law 196 in every sense: perfect for the deed,
 plural durative for the verdict, the -t- and the -ū doing
 exactly what they did one law up. Read law 196 until it is
-easy; law 197 then reads itself — which is the deepest fact
-about the Codex: it is one grammar, applied two hundred and
-eighty-two times.
+easy, and law 197 reads itself before you have seen its signs —
+which is the deepest fact about the Codex: it is one grammar,
+applied two hundred and eighty-two times. When the bone-word's
+own signs arrive, these four lines will owe you nothing new.
 
 ## Drill before you go on
 
@@ -145,3 +136,10 @@ eighty-two times.
 
 *Next: the mail of Babylon — a real letter, formula and all,
 and the sweetest conditional sentence in the corpus.*
+
+[^law197]: <em>Codex Hammurapi</em> (composite text), law 197,
+    in bound transcription; the stele writes the bone-word with
+    the sumerogram <code>giri3-pad-ra2</code> (raw ATF), whose
+    signs wait for their own batch.
+    <code>urn:nabu:cdli:p464358:a:2512'</code>–<code>:a:2515'</code>
+    · license: attribution.
