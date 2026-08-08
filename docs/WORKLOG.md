@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-08 · M14-8 · phase-14 · Stitching: built-site surface
+review structural pass — all four chapters render with
+readings and nav, term bubbles live (perfect ×11 in ch15,
+dual, year-name), the ch18 Reference lists every queue row
+with codex links and tips, the drill deal carries the new
+signs, catalogs say complete. Gate green at every packet; six
+packets, six commits, no red pushes this phase. PR #18 opened
+for Gate 14: C103 Akkadian stretch 3 — the course closed at
+nineteen chapters, 76.4% OB coverage, every standing debt paid
+(dual, perfect, bone law, contracts) with the receipts quoted
+in the WORKLOG entries above.
+
 2026-08-08 · M14-7 · phase-14 · Retrieval mirror: the drill
 deal includes every stretch-3 sign (verified in the built
 shelf), the 61-card deck quotes the loan lines
