@@ -100,3 +100,7 @@ signs:
   - { glyph: "𒂆", codepoint: "12086", name: "GIN2", value: "sziqlum", display_value: "šiqlum", osl_name: "DUN₃@g", meaning: "the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves in", certainty: stated, chapter: 17, keyword: "shekel" }
   - { glyph: "𒈹", codepoint: "12239", name: "INANNA", value: "isztar", display_value: "Ištar", osl_name: "MUŠ₃", meaning: "the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian mouths", certainty: classic, chapter: 17, keyword: "goddess" }
   - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki",   veteran: true, keyword: "place", meaning: "veteran — KI gains [ki]: plain syllable; its old self still says \"from\"", chapter: 17 }
+  # ch 18 · The whole course in one room (the invitation; close + Reference)
+  - { glyph: "𒅈", codepoint: "12148", name: "AR",  value: "ar",   osl_name: "|IGI.RI|", meaning: "praise, glory in the lists; here the syllable of maḫar, \"before\"", freq_akkob: 4488, certainty: stated, chapter: 18, keyword: "praise" }
+  - { glyph: "𒌫", codepoint: "1232B", name: "UR2", value: "ur2",  meaning: "the lap — a body's base; foundations in the lists", freq_akkob: 1465, certainty: stated, chapter: 18, keyword: "lap" }
+  - { glyph: "𒀩", codepoint: "12029", name: "ALAN", value: "s,almum", display_value: "ṣalmum", meaning: "the statue — a person's standing image; written ALAN, spoken ṣalmum", certainty: classic, chapter: 18, keyword: "statue" }
