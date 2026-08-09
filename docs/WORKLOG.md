@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, course-close review: the
+Reference unstuffed) · phase-14 · Owner: why are "Every sign
+taught" and the grammar summary stuffed into the close chapter
+instead of a separate Reference like the other courses — and
+the grammar summary is hasty besides. Both right. Split: ch18
+is now "The king's invitation" alone (retitled, renamed file +
+permalink — not yet live, so nothing frozen was touched); new
+ch19 · Reference carries the full 101-ch12/102-ch18 mold,
+including the sections 103 had been MISSING entirely:
+Conventions used in this course (the no-index rule, bound
+transcription, the green voice-marking law in one breath —
+"black is sounded out; green is read whole" — ▢, braces, ATF
+carve-out, URN+license) and Further study / Sources and
+licenses (Huehnergard; every tablet the course reads, each
+URN one click from its whole text). The grammar is no longer
+one grid and a hasty paragraph: four structured tables — the
+noun's case/number grid with met examples, the tense-and-stem
+grid with honest dashes, the melody of a law (deed/proof/
+sentence sung by law 1), and the little words with their
+teaching seats — plus construct, dual, suffix-melt, ventive,
+imperative, precative and ša-clause -u, every item linking
+the chapter that taught it. Coverage line updated to the
+instrument's current 79.4%. Six inbound links rewired; course
+index lists both pages; rulebook §9 close law amended.
+
 2026-08-09 · review round (Gate 14, ch17 review: rebus names
 are logograms) · phase-14 · Owner: 𒀭𒂗𒍪 "should be treated
 as compound (color marked, reading capped) since it's not a

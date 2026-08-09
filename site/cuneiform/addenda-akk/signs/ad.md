@@ -31,7 +31,7 @@ shall pay" — the father-sign is right there in the middle of the
 word, holding the family accountable. The pressed third of the
 family, *aṭ*, arrives with the epilogue's
 <span class="norm">šaṭram</span>, "the inscribed"
-(<a href="{{ '/cuneiform/103/18-the-whole-course/' | relative_url }}">chapter 18</a>) —
+(<a href="{{ '/cuneiform/103/18-the-kings-invitation/' | relative_url }}">chapter 18</a>) —
 ad, at, aṭ: one sign, the whole dental row.
 
 ## In the wild

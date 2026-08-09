@@ -192,5 +192,5 @@ itself holds the pen.
    name each verb's language and tense.
 5. Date this tablet aloud, the scribes' way.
 
-*Next: one room holds the whole course — the king's own
-invitation to read, and every sign you own on one page.*
+*Next: the king himself, near the stele's end, invites you —
+by name, almost — to read.*

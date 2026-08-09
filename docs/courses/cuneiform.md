@@ -539,9 +539,18 @@ content exists.
   (shekel, mina — the glossary carries the standing gram
   values); a modern equivalence may appear once per chapter at
   first mention, never per line.
-- **The Reference (course close).** ch18 closes the course in
-  the 101-ch12 / 102-ch18 mold: the full taught-sign table,
-  each glyph linking its codex page. Future courses link a 103
+- **The Reference (course close).** The course closes in the
+  101-ch12 / 102-ch18 mold: a dedicated Reference chapter with
+  the full taught-sign table, each glyph linking its codex
+  page. *(Amended 2026-08-09, course-close review: the shipped
+  ch18 had lumped the invitation narrative, the sign table and
+  a hasty grammar grid into one page. Split: ch18 is the
+  king's invitation alone; ch19 · Reference carries the mold
+  entire — sign table, the grammar shelved in structured
+  sections with met-in links (noun, verb, the melody of a law,
+  the little words), Conventions used in this course, Where
+  the road goes, Further study, Sources and licenses — the
+  sections 103 had been missing.)* Future courses link a 103
   sign to its CHAPTER teaching-seat anchor (#sign-<cp> on the
   chapter that taught it) — the site-wide convention; 101's
   reference-page anchors are that course's own historical

@@ -41,4 +41,4 @@ the sign, an audience in the meaning.
 </figure>
 
 Akkadian reading taught in
-<a href="{{ '/cuneiform/103/18-the-whole-course/' | relative_url }}">103's chapter 18</a>.
+<a href="{{ '/cuneiform/103/18-the-kings-invitation/' | relative_url }}">103's chapter 18</a>.
