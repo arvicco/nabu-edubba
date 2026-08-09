@@ -246,9 +246,11 @@ signs:
 - glyph: "\U00012146"
   codepoint: '12146'
   name: IGI
-  value: szi
+  value: szi, lim
+  value_seats:
+    lim: 10
   veteran: true
-  meaning: 'veteran — IGI gains [ši]: šīmātum, the destinies it decrees'
+  meaning: "veteran — IGI gains [ši/lim]: šīmātum's opener — and later the -lim closing a-wi-lim"
   freq_akkob: 32
   certainty: stated
   chapter: 3

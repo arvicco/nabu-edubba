@@ -25,7 +25,7 @@ gap in your learning but the exact edge of it. Read what you can
 (nearly everything), and let each box tell you what the next
 stretch owes you.
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓅨𓂋𓈙𓇳𓈖 𓍛𓏤𓅆 𓆑 𓁷𓏤 𓉔𓂋𓏲𓇳𓏤 𓄤𓆑𓂋 𓎛𓈖𓂝 𓉐𓏤𓇓𓏏𓈖 𓋹𓍑𓋴 𓏇𓇋𓈎▢𓏛 𓆑</span><span class="translit">wršu̯.n ḥm≡f ḥr hrw nfr ḥnꜥ pr-nswt ꜥnḫ-(w)ḏꜣ-s(nb) mj-qj≡f</span><span class="gloss">"His Majesty spent the day in holiday with the whole palace, l.p.h." — one sign short, in the word for "entirely"</span></div>
   </div>
@@ -36,7 +36,7 @@ stretch owes you.
   </figcaption>
 </figure>
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓂝𓈎𓏭𓂻 𓋴𓈖𓏥 𓂋 𓎡 𓋴𓅱𓍑𓄿𓏭𓏛 𓋴𓈖𓏥 𓎛𓂝𓏤▢𓏥 𓎡</span><span class="translit">ꜥq≡sn r≡k swḏꜣ≡sn ḥꜥ,w≡k</span><span class="gloss">"they enter to you, and they make your body whole" — one sign short: the flesh-classifier on "body"</span></div>
   </div>
@@ -47,7 +47,7 @@ stretch owes you.
   </figcaption>
 </figure>
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓂧𓊪▢ 𓏏𓈖𓏥 𓐍𓆑𓏏𓏱 𓎟 𓈖 𓉐𓉻𓅆 𓋹𓍑𓋴 𓅓 𓅓𓏏𓏱 𓅓 𓋹𓈖𓐍𓏛</span><span class="translit">dp≡tn ḫft nb n Pr-ꜥꜣ ꜥnḫ-(w)ḏꜣ-s(nb) m m(w)t m ꜥnḫ</span><span class="gloss">"may you taste every enemy of Pharaoh, l.p.h., in death and in life" — one sign short: the tasting head</span></div>
   </div>

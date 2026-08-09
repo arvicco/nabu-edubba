@@ -548,10 +548,17 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
    The whole figure is ONE grid (lines contribute cells via
    display: contents), so the script column is sized by the
    widest line and translit/gloss align across all rows. */
+/* Column math (the reading-width lint enforces it, script/lint.rb):
+   measure 44rem − figure padding 2.5rem − border ≈ 41.3rem of
+   content; minus 2×1rem gaps and the 8rem + 11rem text floors
+   leaves 20.3rem for the script column — 14.5em at the 1.4rem
+   script size. A figure whose widest line exceeds that budget
+   must declare reading--stacked below — three columns may never
+   cut text at the measure. */
 .reading--script .reading-lines {
   display: grid;
-  grid-template-columns: max-content minmax(9rem, 1.1fr) minmax(12rem, 1.4fr);
-  gap: 0.4rem 1.5rem;
+  grid-template-columns: max-content minmax(8rem, 1.1fr) minmax(11rem, 1.4fr);
+  gap: 0.4rem 1rem;
   align-items: baseline;
   overflow-x: auto;
   /* bubble headroom: a scroll container clips both axes (see the
@@ -559,6 +566,13 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
   padding-top: 5.5rem;
   margin-top: -5.5rem;
 }
+
+/* Stacked variant for over-budget lines: the voice sits UNDER its
+   script, both full width — text is never cut, and only a truly
+   measure-wide script line ever scrolls (§5: inside the figure). */
+.reading--stacked .reading-lines { display: block; }
+.reading--stacked .reading-line { display: block; padding-block: 0.5rem; }
+.reading--stacked .reading-line > span { display: block; }
 
 .reading--script .reading-line { display: contents; }
 
@@ -570,15 +584,20 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 .logo { color: var(--logogram); }
 
 .reading--script .script {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.3;
   white-space: nowrap;
 }
 
 @media (max-width: 480px) {
   .reading-line { grid-template-columns: 1fr; }
-  .reading--script .reading-lines { grid-template-columns: 1fr; }
   .reading-line .gloss { padding-left: 1rem; }
+}
+
+/* Below the full measure the three-column budget can't hold:
+   script readings stack (same guarantee as reading--stacked). */
+@media (max-width: 44rem) {
+  .reading--script .reading-lines { grid-template-columns: 1fr; }
 }
 
 /* Course pages carry their school's accent (landing cards already do) */

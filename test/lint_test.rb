@@ -326,6 +326,37 @@ class LintTest < Minitest::Test
                  "scope is the cuneiform school's rulebook"
   end
 
+  # reading-width (§5, 2026-08-09): a three-column reading figure's
+  # widest script line must fit the measured budget, or the figure
+  # declares reading--stacked. Widths come from the committed
+  # subset fonts, so the check measures what the reader sees.
+  def test_reading_width_flags_over_budget_three_column_figures
+    wide_line = "𒋳𒈠 " * 8   # ~15em of ŠUM alone — over any sane budget
+    fig = ->(mods) do
+      %(<figure class="reading reading--script#{mods}"><div class="reading-lines") +
+        %(><div class="reading-line"><span class="script">#{wide_line}</span>) +
+        %(<span class="translit">x</span><span class="gloss">y</span></div></div></figure>)
+    end
+    v = Edubba::Lint.check_reading_width("site/cuneiform/103/16-x.md", fig.call(""))
+    assert_equal 1, v.size
+    assert_equal "reading-width", v[0].rule
+    assert_match(/reading--stacked/, v[0].detail)
+
+    assert_empty Edubba::Lint.check_reading_width("site/cuneiform/103/16-x.md", fig.call(" reading--stacked")),
+                 "a stacked figure stacks its voice under the script — no budget applies"
+
+    narrow = fig.call("").sub(wide_line, "𒋳𒈠")
+    assert_empty Edubba::Lint.check_reading_width("site/cuneiform/103/16-x.md", narrow)
+  end
+
+  def test_font_metrics_measure_real_advances
+    em = Edubba::Lint.script_width_em("𒋳𒈠")
+    assert_operator em, :>, 1.5, "two real glyphs are wider than 1.5em"
+    assert_operator em, :<, 6, "and narrower than 6em — sane advance range"
+    assert_in_delta 0.4, Edubba::Lint.script_width_em(" "), 0.001,
+                    "spaces render in the fallback font — estimated width"
+  end
+
   def test_translit_span_sees_through_logo_spans
     nested = %(<span class="translit"><span class="logo">MAŠ2.BI</span> u₃</span>)
     hits = []
