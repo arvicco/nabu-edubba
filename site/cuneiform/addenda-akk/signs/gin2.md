@@ -32,7 +32,7 @@ shelf's loan, is what a mina of silver breeds.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈧 𒁹 𒈠𒈾 ▢ 𒂆</span><span class="translit">MAŠ₂ 1(diš) ma-na ▢ GIN₂</span><span class="gloss">"its interest: on the mina, a third of a shekel" — a Sippar rate</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈧</span> 𒁹 𒈠𒈾 ▢ <span class="logo">𒂆</span></span><span class="translit"><span class="logo">MAŠ₂</span> 1(diš) ma-na ▢ <span class="logo">GIN₂</span></span><span class="gloss">"its interest: on the mina, a third of a shekel" — a Sippar rate</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse 2.

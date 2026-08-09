@@ -32,7 +32,7 @@ foot-sign at the end, and the skeleton in between.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒄊𒉻𒁺𒋗</span><span class="translit">GIR₃.PAD.RA₂-šu</span><span class="gloss"><span class="norm">eṣemtašu</span>, "his bone" — the compound closed by the veteran</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒄊𒉻𒁺</span>𒋗</span><span class="translit"><span class="logo">EṢEMTA</span>-šu</span><span class="gloss"><span class="norm">eṣemtašu</span>, "his bone" — the compound closed by the veteran</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 197.

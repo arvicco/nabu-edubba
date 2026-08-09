@@ -37,7 +37,7 @@ case.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒀀𒇉 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}ID₂ i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span>, "into the River he shall plunge, and —" the ordeal of law 2</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒀀𒇉</span> 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}<span class="logo">ID</span> i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span>, "into the River he shall plunge, and —" the ordeal of law 2</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 2.

@@ -5,6 +5,44 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, logogram voice-marking) ·
+phase-14 · Owner: GIR₃.PAD.RA₂ mid-reading "ugly to the utmost
+extent" — the translit column printed the sign-lists' filing
+spelling where the reader needs the word actually spoken. New §9
+law (phase-14 review round): a logographically-written stretch
+prints its VOICE in green capitals inside span class "logo" —
+EṢEMTI, ID, ŠAR, MĀTIM, ŠANAT ŠĀR — and the glyphs that carry
+it wear the same mark, so the color binds voice to signs and
+shows which signs break out of the syllabic sequence. Where the
+course commits to NO Akkadian voice (ch17's Sumerian notary
+frame; broken lines with elided norms) the stretch stands in
+its Sumerian values, marked the same green: the color means
+"not sounded as Akkadian syllables," and the caps themselves
+say which language holds the pen. Names stay names. Ten
+chapters + 21 akk-codex mirror pages rewritten in one scripted
+pass (marks paired by construction); ch03 now teaches the
+convention beside the word "sumerogram" ("black is sounded
+out; green is read whole"), ch10's name/spelling/voice chain
+rewired to it, ch12/16/17 prose bridged. Enforced: reading-logo
+lint (caps only inside logo spans, per-line script/translit
+pairing, Akkadian-courses-only) and a nested-span-aware
+TRANSLIT_SPAN; cold_read and deck_export parsers taught to see
+through the marks — deck output byte-identical, which is the
+point: without the parser fix every frame line would have
+silently dropped from its card. Verified by 1200/560 headless
+shots; the loan figure now shows its two languages at a
+glance.
+
+2026-08-09 · review round (Gate 14, item 11: reading columns) ·
+phase-14 · Owner: the ch16 law-197 figure "ugly/unbalanced."
+The one-visual-line fix had made each reading-line its own
+grid, so the max-content script column differed per row and
+translit/gloss started at a different x on every line. Fix
+(style.css): the figure's .reading-lines is the single grid,
+lines contribute cells via display:contents — script column
+sized once by the widest line, all rows share tracks; scroll
+and mobile stacking unchanged. Commit 18cbc51.
+
 2026-08-08 · review round (Gate 14, reading-line alignment) ·
 phase-14 · Owner: ch16's readings "not properly aligned to the
 cuneiform lines they sound." Root cause, found by FINALLY

@@ -33,7 +33,7 @@ Sippar loan.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈬 𒂍 𒀭𒈹</span><span class="translit">MU E₂ {d}INANNA</span><span class="gloss">"Year: the temple of Inanna (…Immerum built)" — a year-name dating a loan</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈬 𒂍 𒀭𒈹</span></span><span class="translit"><span class="logo">MU E₂ {d}INANNA</span></span><span class="gloss">"Year: the temple of Inanna (…Immerum built)" — a year-name dating a loan</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), reverse 1.

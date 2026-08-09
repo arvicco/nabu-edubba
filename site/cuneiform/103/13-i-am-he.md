@@ -59,7 +59,7 @@ review; read it aloud and hear how much language you own now:
     <div class="reading-line"><span class="script">𒅆𒅕 𒉌𒅆𒋗</span><span class="translit">ši-ir ni-ši-šu</span><span class="gloss"><span class="norm">šīr nišīšu</span> — "the flesh of his people…"</span></div>
     <div class="reading-line"><span class="script">𒇷𒁲𒅁</span><span class="translit">li-ṭi-ib</span><span class="gloss"><span class="norm">liṭīb</span> — "…may he make well:"</span></div>
     <div class="reading-line"><span class="script">𒁹𒄩𒄠𒈬𒊏𒁉</span><span class="translit">{diš}ḫa-am-mu-ra-pi</span><span class="gloss"><span class="norm">Ḫammurapi</span> — "Ḫammurapi,"</span></div>
-    <div class="reading-line"><span class="script">𒈗 𒈪𒊭𒊑𒅎</span><span class="translit">LUGAL mi-ša-ri-im</span><span class="gloss"><span class="norm">šar mīšarim</span> — "king of justice,"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈗</span> 𒈪𒊭𒊑𒅎</span><span class="translit"><span class="logo">ŠAR</span> mi-ša-ri-im</span><span class="gloss"><span class="norm">šar mīšarim</span> — "king of justice,"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒀭𒌓 𒆠𒈾𒁴</span><span class="translit">ša {d}utu ki-na-tim</span><span class="gloss"><span class="norm">ša Šamaš kīnātim</span> — "to whom Šamaš the truths…"</span></div>
     <div class="reading-line"><span class="script">𒅖𒊒𒆪𒋳 𒀀𒈾𒆪</span><span class="translit">iš-ru-ku-šum a-na-ku</span><span class="gloss"><span class="norm">išrukūšum anāku</span> — "…granted — am I."</span></div>
     <div class="reading-line"><span class="script">𒀀𒉿𒌅𒌑𒀀 𒈾𒀾𒂵</span><span class="translit">a-wa-tu-u-a na-as-qa</span><span class="gloss"><span class="norm">awâtūya nasqā</span> — "My words are choice,"</span></div>

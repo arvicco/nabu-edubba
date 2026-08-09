@@ -34,7 +34,7 @@ child-sign stands in the line — and Babylon says
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒄿𒅔 𒌉 𒀀𒉿𒅆</span><span class="translit">i-in DUMU a-wi-lim</span><span class="gloss"><span class="norm">īn mār awīlim</span>, "the eye of a man's son" — law 196, the sumerogram mid-construct</span></div>
+    <div class="reading-line"><span class="script">𒄿𒅔 <span class="logo">𒌉</span> 𒀀𒉿𒅆</span><span class="translit">i-in <span class="logo">MĀR</span> a-wi-lim</span><span class="gloss"><span class="norm">īn mār awīlim</span>, "the eye of a man's son" — law 196, the sumerogram mid-construct</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 196.

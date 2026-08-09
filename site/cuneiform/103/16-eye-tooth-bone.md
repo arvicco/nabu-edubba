@@ -70,15 +70,17 @@ Together, then: 𒄊𒉻𒁺 — three signs, one word,
 GIR₃.PAD.RA₂ and no one ever says those syllables; the reader
 speaks the Akkadian word whole, exactly as
 <a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">the River</a>
-taught you.
+taught you — so that is what the reading below prints, in
+green: <span class="logo">EṢEMTI</span>, the voice, on the three
+signs that carry it.
 
 ## The bone, paid
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒋳𒈠 𒄊𒉻𒁺 𒀀𒉿𒅆</span><span class="translit">šum-ma GIR₃.PAD.RA₂ a-wi-lim</span><span class="gloss"><span class="norm">šumma eṣemti awīlim</span> — "If the bone of a man…"</span></div>
+    <div class="reading-line"><span class="script">𒋳𒈠 <span class="logo">𒄊𒉻𒁺</span> 𒀀𒉿𒅆</span><span class="translit">šum-ma <span class="logo">EṢEMTI</span> a-wi-lim</span><span class="gloss"><span class="norm">šumma eṣemti awīlim</span> — "If the bone of a man…"</span></div>
     <div class="reading-line"><span class="script">𒅖𒋼𒁉𒅕</span><span class="translit">iš-te-bi-ir</span><span class="gloss"><span class="norm">ištebir</span> — "…he has broken:"</span></div>
-    <div class="reading-line"><span class="script">𒄊𒉻𒁺𒋗</span><span class="translit">GIR₃.PAD.RA₂-šu</span><span class="gloss"><span class="norm">eṣemtašu</span> — "his bone"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒄊𒉻𒁺</span>𒋗</span><span class="translit"><span class="logo">EṢEMTA</span>-šu</span><span class="gloss"><span class="norm">eṣemtašu</span> — "his bone"</span></div>
     <div class="reading-line"><span class="script">𒄿𒊺𒅁𒁉𒊒</span><span class="translit">i-še-eb-bi-ru</span><span class="gloss"><span class="norm">išebbirū</span> — "they shall break."</span></div>
   </div>
   <figcaption class="citation">

@@ -64,8 +64,8 @@ been waiting four thousand years to say to you:
     <div class="reading-line"><span class="script">𒀀𒉿𒈝 𒄩𒀊𒈝</span><span class="translit">a-wi-lum ḫa-ab-lum</span><span class="gloss"><span class="norm">awīlum ḫablum</span> — "Let the wronged man"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒀀𒉿𒌓</span><span class="translit">ša a-wa-tam</span><span class="gloss"><span class="norm">ša awātam</span> — "who a case…"</span></div>
     <div class="reading-line"><span class="script">𒄿𒊏𒀸𒋗𒌑</span><span class="translit">i-ra-aš-šu-u</span><span class="gloss"><span class="norm">iraššû</span> — "…has,"</span></div>
-    <div class="reading-line"><span class="script">𒀀𒈾 𒈠𒄩𒅈 𒀩𒅀</span><span class="translit">a-na ma-ḫa-ar ALAN-ia</span><span class="gloss"><span class="norm">ana maḫar ṣalmīya</span> — "before my image —"</span></div>
-    <div class="reading-line"><span class="script">𒈗 𒈪𒊭𒊑𒅎</span><span class="translit">LUGAL mi-ša-ri-im</span><span class="gloss"><span class="norm">šar mīšarim</span> — "the king of justice —"</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒈠𒄩𒅈 <span class="logo">𒀩</span>𒅀</span><span class="translit">a-na ma-ḫa-ar <span class="logo">ṢALMĪ</span>-ia</span><span class="gloss"><span class="norm">ana maḫar ṣalmīya</span> — "before my image —"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈗</span> 𒈪𒊭𒊑𒅎</span><span class="translit"><span class="logo">ŠAR</span> mi-ša-ri-im</span><span class="gloss"><span class="norm">šar mīšarim</span> — "the king of justice —"</span></div>
     <div class="reading-line"><span class="script">𒇷𒅋𒇷𒅅𒈠</span><span class="translit">li-il-li-ik-ma</span><span class="gloss"><span class="norm">lillikma</span> — "come, and"</span></div>
     <div class="reading-line"><span class="script">𒈾𒊒𒄿</span><span class="translit">na-ru-i</span><span class="gloss"><span class="norm">narûya</span> — "my stele,"</span></div>
     <div class="reading-line"><span class="script">𒊭𒀜𒊏𒄠</span><span class="translit">ša-aṭ-ra-am</span><span class="gloss"><span class="norm">šaṭram</span> — "the inscribed,"</span></div>

@@ -64,7 +64,7 @@ word of it is about to be yours.
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒀀𒉿𒈝</span><span class="translit">šum-ma a-wi-lum</span><span class="gloss"><span class="norm">šumma awīlum</span> — "If a man…"</span></div>
-    <div class="reading-line"><span class="script">𒄿𒅔 𒌉 𒀀𒉿𒅆</span><span class="translit">i-in DUMU a-wi-lim</span><span class="gloss"><span class="norm">īn mār awīlim</span> — "…the eye of a man's son…"</span></div>
+    <div class="reading-line"><span class="script">𒄿𒅔 <span class="logo">𒌉</span> 𒀀𒉿𒅆</span><span class="translit">i-in <span class="logo">MĀR</span> a-wi-lim</span><span class="gloss"><span class="norm">īn mār awīlim</span> — "…the eye of a man's son…"</span></div>
     <div class="reading-line"><span class="script">𒌔𒋰𒁉𒀉</span><span class="translit">uh-tap-pi-id</span><span class="gloss"><span class="norm">uḫtappid</span> — "…has blinded:"</span></div>
     <div class="reading-line"><span class="script">𒄿𒅔𒋗</span><span class="translit">i-in-šu</span><span class="gloss"><span class="norm">īnšu</span> — "his eye"</span></div>
     <div class="reading-line"><span class="script">𒌑𒄩𒀊𒉺𒁺</span><span class="translit">u-ḫa-ap-pa-du</span><span class="gloss"><span class="norm">uḫappadū</span> — "they shall blind."</span></div>

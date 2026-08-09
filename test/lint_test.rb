@@ -280,4 +280,60 @@ class LintTest < Minitest::Test
     assert_empty Edubba::Lint.check_akk_translit("site/cuneiform/102/01-x.md", idx),
                  "Sumerian courses keep their indexes"
   end
+
+  # reading-logo (§9 voice-marking, ruled 2026-08-09): capitals in
+  # an Akkadian reading transliteration live only inside logo
+  # spans, script and translit marks pair per line, and the marking
+  # is Akkadian-course-only.
+  def test_reading_logo_requires_marked_capitals
+    path = "site/cuneiform/103/16-x.md"
+    line = ->(script, translit) do
+      %(<div class="reading-line"><span class="script">#{script}</span>) +
+        %(<span class="translit">#{translit}</span>) +
+        %(<span class="gloss"><span class="norm">x</span> — "y"</span></div>)
+    end
+    logo = ->(s) { %(<span class="logo">#{s}</span>) }
+
+    unmarked = line.call("𒋳𒈠 𒄊𒉻𒁺", "šum-ma GIR₃.PAD.RA₂")
+    v = Edubba::Lint.check_logo_marking(path, unmarked)
+    refute_empty v
+    assert_equal "reading-logo", v[0].rule
+
+    marked = line.call("𒋳𒈠 #{logo.call('𒄊𒉻𒁺')}",
+                       "šum-ma #{logo.call('EṢEMTI')}")
+    assert_empty Edubba::Lint.check_logo_marking(path, marked)
+
+    frame = line.call(logo.call("𒉌𒇲𒂊"), logo.call("I₃.LA₂.E"))
+    assert_empty Edubba::Lint.check_logo_marking(path, frame),
+                 "a Sumerian frame stretch keeps its values, marked"
+  end
+
+  def test_reading_logo_pairs_script_and_translit_marks
+    path = "site/cuneiform/103/16-x.md"
+    lopsided = %(<div class="reading-line"><span class="script">𒄊𒉻𒁺𒋗</span>) +
+               %(<span class="translit"><span class="logo">EṢEMTA</span>-šu</span></div>)
+    v = Edubba::Lint.check_logo_marking(path, lopsided)
+    assert_equal 1, v.size
+    assert_match(/must pair/, v[0].detail)
+  end
+
+  def test_reading_logo_is_akkadian_course_only
+    logo = %(<span class="logo">MĀTIM</span>)
+    v = Edubba::Lint.check_logo_marking("site/cuneiform/102/01-x.md", logo)
+    assert_equal 1, v.size
+    assert_equal "reading-logo", v[0].rule
+    assert_empty Edubba::Lint.check_logo_marking("site/hieroglyphs/101/01-x.md", logo),
+                 "scope is the cuneiform school's rulebook"
+  end
+
+  def test_translit_span_sees_through_logo_spans
+    nested = %(<span class="translit"><span class="logo">MAŠ2.BI</span> u₃</span>)
+    hits = []
+    nested.scan(Edubba::Lint::TRANSLIT_SPAN) do
+      hits << Regexp.last_match[:body]
+    end
+    assert_equal 1, hits.size
+    assert_match(/MAŠ2\.BI/, hits[0], "nested logo spans stay inside the translit body")
+    assert hits[0][Edubba::Lint::ASCII_INDEX], "ASCII index inside a logo span is still caught"
+  end
 end

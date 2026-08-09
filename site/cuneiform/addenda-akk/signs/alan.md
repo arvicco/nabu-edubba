@@ -31,7 +31,7 @@ and read. The sign is the king waiting in stone.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾 𒈠𒄩𒅈 𒀩𒅀</span><span class="translit">a-na ma-ḫa-ar ALAN-ia</span><span class="gloss"><span class="norm">ana maḫar ṣalmīya</span>, "before my image" — where the wronged man is told to stand</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒈠𒄩𒅈 <span class="logo">𒀩</span>𒅀</span><span class="translit">a-na ma-ḫa-ar <span class="logo">ṢALMĪ</span>-ia</span><span class="gloss"><span class="norm">ana maḫar ṣalmīya</span>, "before my image" — where the wronged man is told to stand</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), epilogue.
