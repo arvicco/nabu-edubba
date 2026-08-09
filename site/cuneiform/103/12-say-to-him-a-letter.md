@@ -83,10 +83,10 @@ names:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾 𒀭𒂗𒍪𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}suen-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:"</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒀭<span class="logo">𒂗𒍪</span>𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}<span class="logo">SUEN</span>-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:"</span></div>
     <div class="reading-line"><span class="script">𒆠𒉈𒈠</span><span class="translit">qi-bi-ma</span><span class="gloss"><span class="norm">qibīma</span> — "speak!"</span></div>
-    <div class="reading-line"><span class="script">𒌝𒈠 𒀭𒂗𒍪𒀀𒀀𒁀𒀸𒈠</span><span class="translit">um-ma {d}suen-a-a-ba-aš-ma</span><span class="gloss"><span class="norm">umma Sîn-ayabāš-ma</span> — "thus (says) Sîn-ayabāš:"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒌓 𒀸𒋳𒅀 <span class="logo">𒈬𒊹𒄰</span></span><span class="translit">{d}utu aš-šum-ia <span class="logo">ŠANAT ŠĀR</span></span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
+    <div class="reading-line"><span class="script">𒌝𒈠 𒀭<span class="logo">𒂗𒍪</span>𒀀𒀀𒁀𒀸𒈠</span><span class="translit">um-ma {d}<span class="logo">SUEN</span>-a-a-ba-aš-ma</span><span class="gloss"><span class="norm">umma Sîn-ayabāš-ma</span> — "thus (says) Sîn-ayabāš:"</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒌓</span> 𒀸𒋳𒅀 <span class="logo">𒈬𒊹𒄰</span></span><span class="translit">{d}<span class="logo">ŠAMAŠ</span> aš-šum-ia <span class="logo">ŠANAT ŠĀR</span></span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian school letter (CUSAS 43, 28),

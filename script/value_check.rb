@@ -42,14 +42,11 @@ module Edubba
     # dated, and is paid by teaching the value and deleting its row.
     KNOWN_DEBT = {}.freeze
 
-    # Rebus spellings taught as NAME units, not per-sign values: the
-    # token is the whole written complex's voice, licensed once its
-    # spelling is taught in prose. suen: 𒂗𒍪 read backwards as the
-    # moon-god (C103 ch12, "two signs … fused by convention"; the
-    # fuller EN.ZU story in ch17).
-    REBUS = {
-      "suen" => { glyphs: %w[𒂗 𒍪], chapter: 12 }
-    }.freeze
+    # (The former REBUS name-unit table is superseded, 2026-08-09
+    # ch17 review: a writing whose signs do not spell its sound —
+    # 𒂗𒍪 read Suen, 𒌓 read Šamaš — is a logogram like any
+    # other and now wears the green voice-mark, which this check
+    # skips as logogram territory.)
 
     module_function
 
@@ -167,10 +164,6 @@ module Edubba
           seats = taught[value] || {}
           next if seats.any? { |g, ch| glyphs.include?(g) && ch <= chapter }
           next if Array(KNOWN_DEBT[value]).include?(base)
-          if (rebus = REBUS[value]) && rebus[:chapter] <= chapter &&
-             rebus[:glyphs].all? { |g| glyphs.include?(g) }
-            next
-          end
 
           if pardons.positive?
             pardons -= 1

@@ -587,10 +587,19 @@ content exists.
   punctuation and never appears in a reading transliteration;
   Sumerian values hyphenate (ŠU BA-AN-TI), voices speak.
   Enforced by the reading-cites lint.*
-- **Names stay names.** Personal and divine names keep their
-  standing transliteration ({d}utu, {d}suen-i-mi-ti), unmarked;
-  a name inside a marked frame stretch ({d}INANNA in a
-  year-name) rides its stretch's marking.
+- **Names stay names — when they are SPELLED.** A name written
+  in its sound sequence keeps its plain transliteration
+  ({d}en-lil, the syllabic tail -i-mi-ti, za-ab-lum); a name
+  inside a marked frame stretch ({d}INANNA in a year-name)
+  rides its stretch's marking. *Amended 2026-08-09 (ch17
+  review, owner: 𒀭𒂗𒍪 "is not a proper logogram — treat as
+  compound"): a name ELEMENT whose writing does not spell its
+  sound — 𒂗𒍪 read backwards as Suen, 𒌓 spoken Šamaš — is a
+  logogram like any other and takes the full green treatment:
+  {d}SUEN, {d}ŠAMAŠ, voice capped over green-marked signs,
+  chaining to the norm's Sîn/Šamaš. This supersedes the D14-b
+  REBUS licensing table — the voice-marking law covers rebus
+  writings outright.*
 - **First taught** in C103 ch03, where "sumerogram" is defined
   ("black is sounded out; green is read whole"); ch10 chains it
   to name/spelling/voice. Enforced by the reading-logo lint:
@@ -620,8 +629,9 @@ content exists.
   Standing mechanics: a veteran-value row may teach a consonant
   family in one bracket (the AZ/AḪ style — [id/it/ed/et]),
   demonstrated by the member its chapter reads, each value's
-  seat recorded in the registry's `value_seats:`; a REBUS name
-  unit (𒂗𒍪 read suen) is licensed by its glyphs plus the
-  prose seat that teaches the fusion (ch12), recorded in the
-  check's REBUS table. The debt table now stands empty; a new
+  seat recorded in the registry's `value_seats:`. (The REBUS
+  licensing table this ruling introduced was superseded the
+  same day — see the names law above: rebus writings take the
+  green voice-mark outright.) The debt table now stands
+  empty; a new
   entry may only be added by owner ruling, dated.
