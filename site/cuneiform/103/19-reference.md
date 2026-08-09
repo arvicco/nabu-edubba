@@ -2,9 +2,9 @@
 title: "19 · Reference"
 short_title: "19 · Reference"
 description: >-
-  The course's shelf: every sign taught in 103 with its codex
-  link, the grammar met — noun, verb, melody, particles — the
-  display conventions, and where the road goes from here.
+  The course's shelf: the grammar met — noun, verb, melody,
+  particles — then every sign taught in 103 with its codex
+  link, the display conventions, and where the road goes.
 layout: chapter
 course: cuneiform-103
 chapter: 19
