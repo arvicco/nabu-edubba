@@ -23,39 +23,6 @@ and
 <a href="{{ '/cuneiform/102/18-reference/' | relative_url }}">102's</a>
 closing pages. Nothing here is new; everything here is yours.
 
-## Every sign taught in 103
-
-The course's own sign list, generated from its registry —
-each glyph links to its codex page; veterans carry the voice
-they gained at the border:
-
-<table class="sign-table sign-table--tail-fit">
-  <thead>
-    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Freq. rank (OB)</th><th>Taught in</th></tr>
-  </thead>
-  <tbody>
-  {% assign taught = site.data.cuneiform103_queue.signs | where_exp: "s", "s.chapter" %}
-  {% for s in taught %}
-    <tr>
-      <td class="script sign-cell">{{ s.glyph }}</td>
-      <td>{{ s | sign_name }}</td>
-      <td>{{ s.keyword }}</td>
-      <td><em>{{ s | sign_reads }}</em></td>
-      <td>{{ s.meaning }}</td>
-      <td>{{ s.freq_akkob | default: "—" }}</td>
-      {% assign ch = site.pages | where: "course", "cuneiform-103" | where: "chapter", s.chapter | first %}
-      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</a>{% else %}ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
-
-With these signs and their veterans, the course's reading kit
-covers **79.4%** of everything written in the Old Babylonian
-corpus this school measures against — four of every five
-signs on a random tablet of Hammurapi's century are now yours
-on sight.
-
 ## The grammar, shelved
 
 Everything below was met in a real line first; every cell
@@ -163,6 +130,39 @@ here from law 1:
     <tr><td><span class="norm">anāku</span></td><td>"I" — standing alone</td><td><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">ch. 13</a></td></tr>
   </tbody>
 </table>
+
+## Every sign taught in 103
+
+The course's own sign list, generated from its registry —
+each glyph links to its codex page; veterans carry the voice
+they gained at the border:
+
+<table class="sign-table sign-table--tail-fit">
+  <thead>
+    <tr><th>Sign</th><th>Name</th><th>Key</th><th>Reads</th><th>Means</th><th>Freq. rank (OB)</th><th>Taught in</th></tr>
+  </thead>
+  <tbody>
+  {% assign taught = site.data.cuneiform103_queue.signs | where_exp: "s", "s.chapter" %}
+  {% for s in taught %}
+    <tr>
+      <td class="script sign-cell">{{ s.glyph }}</td>
+      <td>{{ s | sign_name }}</td>
+      <td>{{ s.keyword }}</td>
+      <td><em>{{ s | sign_reads }}</em></td>
+      <td>{{ s.meaning }}</td>
+      <td>{{ s.freq_akkob | default: "—" }}</td>
+      {% assign ch = site.pages | where: "course", "cuneiform-103" | where: "chapter", s.chapter | first %}
+      <td>{% if ch %}<a href="{{ ch.url | relative_url }}">ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}</a>{% else %}ch. {{ s.chapter | prepend: "0" | slice: -2, 2 }}{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+With these signs and their veterans, the course's reading kit
+covers **79.4%** of everything written in the Old Babylonian
+corpus this school measures against — four of every five
+signs on a random tablet of Hammurapi's century are now yours
+on sight.
 
 ## Conventions used in this course
 
