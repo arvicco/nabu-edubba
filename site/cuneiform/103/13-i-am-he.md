@@ -46,6 +46,13 @@ left hanging in the air.
           sentence you have been waiting five chapters to
           finish</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td>[ṭi]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-12072' | relative_url }}">102's verdict-sign</a>
+          pressed to ṭi: <em>li-ṭi-ib</em>, "may he make well" —
+          the blessing this chapter walks in on</td>
+    </tr>
   </tbody>
 </table>
 

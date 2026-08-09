@@ -63,6 +63,13 @@ ordinariness is the point. This is what most cuneiform IS.
           keeps its old Sumerian self for the formulary's
           "from," as you are about to see</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[ṣa]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/13-you-are/#sign-1235D' | relative_url }}">102's bead-sign</a>
+          pressed to ṣa: <em>u-ṣa-ab</em>, "it will grow" — the
+          interest line's own syllable</td>
+    </tr>
   </tbody>
 </table>
 

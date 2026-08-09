@@ -48,6 +48,15 @@ class ValueCheckTest < Minitest::Test
     assert_empty line(marked, %({d}<span class="logo">ID</span>), chapter: 11)
   end
 
+  def test_rebus_name_units_need_their_glyphs_and_their_seat
+    text = %(<div class="reading-line"><span class="script">𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit">{d}suen-i-mi-ti</span><span class="gloss">g</span></div>)
+    taught = { "i" => { "𒄿" => 0 }, "mi" => { "𒈪" => 0 }, "ti" => { "𒋾" => 0 } }
+    assert_empty Edubba::ValueCheck.check_text("x.md", text, 17, taught),
+                 "suen: 𒂗𒍪 present and the ch12 fusion taught"
+    v = Edubba::ValueCheck.check_text("x.md", text, 11, taught)
+    assert_equal 1, v.size, "before its ch12 seat the rebus is untaught"
+  end
+
   def test_matching_is_index_blind
     # registry su₂ folded to su matches the display token su
     taught = { "su" => { "𒍪" => 10 } }

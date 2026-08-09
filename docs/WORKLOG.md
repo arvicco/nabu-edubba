@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · D14-b · phase-14 · The sixteen-value debt paid in
+full, same day, owner-ruled "now, spread across chapters."
+Fourteen veteran-value teachings seated at first use — ch08
+SAR [šar]/GA [qa]/LI [le], ch10 ZU [su] (beside IGI [lim]),
+ch12 KI [qi]/NE [bi]/RI [re]/A₂ [it/ed/et] (one row, the
+AZ/AḪ-style family bracket), ch13 DI [ṭi], ch17 ZA [ṣa], ch18
+AD [aṭ]/KU [qu] — each row demonstrated by the line that first
+speaks it. One was not a teaching gap at all: ch18's
+li-kal-lim-šu wrote 𒃲 where the stele has 𒆗, whose kal is
+ambient from C102 — the value check smokes out wrong SIGNS
+too, which is half its worth. suen formalized as a REBUS name
+unit in the check (𒂗𒍪 + the ch12 fusion prose seat). The
+pool (assets-src/data/pool-103.yml) is the hand-edited source
+— the queue is GENERATED (my earlier direct queue edit for IGI
+would have been silently reverted by the next regeneration;
+moved to the pool, regenerated properly). Eight new akk codex
+pages (sar ga zu ne ri di za ku), four updated (li ki ad a2 +
+igi), registry value_seats records every late seat, deck 61→69
+cards, OB coverage floor 76.4%→79.4%. The hover-size and
+accent-index lints both caught my first drafts — the
+machine-checkable rulebook disciplining its own author, as
+designed. KNOWN_DEBT now stands empty; future entries are
+owner-ruled, dated.
+
 2026-08-09 · incident+fix (Gate 14, untaught values — the lim
 hole) · phase-14 · Owner hover on ch16: "WHY is this IGI read
 as lim? Where is it taught? Why isn't it in the tooltip?"

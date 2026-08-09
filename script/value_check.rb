@@ -33,30 +33,22 @@ module Edubba
     LOGO = %r{<span class="logo">[^<]*</span>}
     LINE = %r{<span class="script">(?<script>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span><span class="translit">(?<translit>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}
 
-    # Known debt (found 2026-08-09 by this check's first run; each
-    # is a value genuinely read in a shipped chapter but not yet
-    # taught): tolerated in exactly these chapters until its
-    # teaching lands (phase-14 decision item). A NEW use of the
-    # same value elsewhere still fails. Pay a debt by teaching the
-    # value (veteran row or bracket widening + registry + codex)
-    # and deleting its row here.
-    KNOWN_DEBT = {
-      "su" => %w[10-the-river-decides],
-      "suen" => %w[12-say-to-him-a-letter 17-silver-changes-hands],
-      "qi" => %w[12-say-to-him-a-letter],
-      "bi" => %w[12-say-to-him-a-letter],
-      "re" => %w[12-say-to-him-a-letter],
-      "ed" => %w[12-say-to-him-a-letter],
-      "it" => %w[16-eye-tooth-bone],
-      "et" => %w[15-it-has-happened],
-      "le" => %w[08-more-than-one 15-it-has-happened],
-      "qa" => %w[08-more-than-one 13-i-am-he],
-      "szar" => %w[08-more-than-one],
-      "t,i" => %w[13-i-am-he],
-      "s,a" => %w[17-silver-changes-hands],
-      "at," => %w[18-the-whole-course],
-      "qu" => %w[18-the-whole-course],
-      "kal" => %w[18-the-whole-course]
+    # Known debt: values read but not yet taught, tolerated in
+    # exactly the listed chapters until their teaching lands; a NEW
+    # use of a listed value elsewhere still fails. The check's first
+    # run (2026-08-09) found sixteen; all were paid the same day
+    # (D14-b — veteran rows, bracket widenings, one glyph
+    # correction). A future entry may only be added by owner ruling,
+    # dated, and is paid by teaching the value and deleting its row.
+    KNOWN_DEBT = {}.freeze
+
+    # Rebus spellings taught as NAME units, not per-sign values: the
+    # token is the whole written complex's voice, licensed once its
+    # spelling is taught in prose. suen: 𒂗𒍪 read backwards as the
+    # moon-god (C103 ch12, "two signs … fused by convention"; the
+    # fuller EN.ZU story in ch17).
+    REBUS = {
+      "suen" => { glyphs: %w[𒂗 𒍪], chapter: 12 }
     }.freeze
 
     module_function
@@ -89,9 +81,11 @@ module Edubba
       end
       signs.call("cuneiform103_queue.yml").each do |s|
         next unless s["glyph"] && s["chapter"]
-        seats = s["value_seats"] || {}
+        # value_seats keys are written in registry ASCII (qi2, at,);
+        # matching is index-blind, so normalize them the same way.
+        seats = (s["value_seats"] || {}).transform_keys { |k| k.to_s.gsub(/\d+/, "") }
         ascii_values(s["value"]).each do |v|
-          seat = (seats[v] || seats[v.gsub(/\d+/, "")] || s["chapter"]).to_i
+          seat = (seats[v] || s["chapter"]).to_i
           cur = taught[v][s["glyph"]]
           taught[v][s["glyph"]] = seat if cur.nil? || seat < cur
         end
@@ -133,6 +127,10 @@ module Edubba
           seats = taught[value] || {}
           next if seats.any? { |g, ch| glyphs.include?(g) && ch <= chapter }
           next if Array(KNOWN_DEBT[value]).include?(base)
+          if (rebus = REBUS[value]) && rebus[:chapter] <= chapter &&
+             rebus[:glyphs].all? { |g| glyphs.include?(g) }
+            next
+          end
 
           if pardons.positive?
             pardons -= 1

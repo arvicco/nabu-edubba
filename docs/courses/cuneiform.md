@@ -602,9 +602,18 @@ content exists.
   determinatives and logogram stretches are governed by their
   own laws. Enforced by script/value_check.rb in the gate. The
   first run found sixteen unpaid values (su₂, suen, qi₂, bi₂,
-  re, ed, it, et, le, qa₂, šar, ṭi₃, ṣa, aṭ, qu₂, kal); they
-  stand as dated debt inside the check — a NEW use of any
-  fails the gate — and each is paid by teaching the value
-  (veteran row or bracket widening + registry + codex) and
-  deleting its debt row. IGI's lim paid 2026-08-09 (ch10
-  veteran row, the model case).
+  re, ed, it, et, le, qa₂, šar, ṭi₃, ṣa, aṭ, qu₂, kal); ALL
+  were paid the same day (D14-b, owner-ruled): fourteen
+  veteran-value teachings seated at first use — ch08 SAR/GA/LI,
+  ch10 IGI/ZU, ch12 KI/NE/RI/A₂, ch13 DI, ch17 ZA, ch18 AD/KU —
+  one glyph correction (ch18's li-kal-lim-šu wrote 𒃲 where the
+  stele's 𒆗 already carries kal from C102: the value check
+  smokes out wrong SIGNS too), and the suen rebus formalized.
+  Standing mechanics: a veteran-value row may teach a consonant
+  family in one bracket (the AZ/AḪ style — [id/it/ed/et]),
+  demonstrated by the member its chapter reads, each value's
+  seat recorded in the registry's `value_seats:`; a REBUS name
+  unit (𒂗𒍪 read suen) is licensed by its glyphs plus the
+  prose seat that teaches the fusion (ch12), recorded in the
+  check's REBUS table. The debt table now stands empty; a new
+  entry may only be added by owner ruling, dated.
