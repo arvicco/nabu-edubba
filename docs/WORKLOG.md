@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, ch17 review: ambient
+re-entry) · phase-14 · Owner: "WHY re-introduce the sign that
+kept its reading unchanged at all?" — ch17's KI [ki] row.
+Correct per the school's own ambient-veteran law (§9, ruled
+2026-08-06): a sign whose value crosses unchanged keeps its
+101/102 teaching and never re-enters. Audit found three such
+rows, all phase-14 content: KI [ki] (ch17), TA [ta] and MAH
+[maḫ] (ch15) — every other veteran genuinely gains a new
+voice. Fixed: the three rows removed (ch15's -ta- and
+immaḫḫaṣ spotlights already live in its prose; ch17's
+formulary-KI story stays in its bullets); KI's queue row
+reseated to ch12 where its real gain [qi] is taught; ta.md
+and mah.md akk codex pages deleted (unpublished — no frozen
+permalinks touched); their sux bubbles restored everywhere,
+as the law wants. Enforced for the future: the
+ambient-veteran guard in script/value_check.rb — a veteran
+row whose values are its Sumerian inventory unchanged fails
+the gate ("re-enters but gains NOTHING"). Deck 69→67.
+
 2026-08-09 · review round (Gate 14, ch17 review: readings never
 cite) + veteran-load rebalance · phase-14 · Owner: "KU3.BABBAR
 ŠU BA.AN.TI instead of PROPER reading in uppercase — are

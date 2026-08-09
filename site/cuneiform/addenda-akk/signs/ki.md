@@ -47,4 +47,4 @@ Babylon begins on it
 </figure>
 
 Akkadian reading taught in
-<a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">103's chapter 17</a>.
+<a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">103's chapter 12</a>.

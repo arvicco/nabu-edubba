@@ -70,6 +70,25 @@ class ValueCheckTest < Minitest::Test
     assert_equal ["pi"], Edubba::ValueCheck.ascii_values("pi2")
   end
 
+  # ambient-veteran guard (§9): a veteran row must gain a value not
+  # already in the sign's Sumerian inventory.
+  def test_ambient_veterans_may_not_reenter_the_queue
+    require "tmpdir"
+    Dir.mktmpdir do |dir|
+      File.write(File.join(dir, "cuneiform102_queue.yml"),
+                 { "signs" => [{ "glyph" => "𒆠", "value" => "ki" }] }.to_yaml)
+      File.write(File.join(dir, "cuneiform103_queue.yml"),
+                 { "signs" => [
+                   { "glyph" => "𒆠", "name" => "KI", "value" => "ki", "veteran" => true, "chapter" => 17 },
+                   { "glyph" => "𒆠", "name" => "KI2", "value" => "ki, qi2", "veteran" => true, "chapter" => 12 }
+                 ] }.to_yaml)
+      v = Edubba::ValueCheck.registry_violations(dir)
+      assert_equal 1, v.size
+      assert_match(/gains NOTHING/, v[0].detail)
+      assert_match(/\AKI /, v[0].detail, "the qi2-gaining row passes; the unchanged row fails")
+    end
+  end
+
   def test_live_site_carries_no_untracked_debt
     site = File.expand_path("../site", __dir__)
     v = Edubba::ValueCheck.violations(site)
