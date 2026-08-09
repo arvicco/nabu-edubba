@@ -27,9 +27,9 @@ stretch will read).
 
 A **juniper** is a modest tree with berries in everything —
 gin, stews, incense. The sign is the same: modest shape, spread
-through the whole corpus one *li* at a time. From
-<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>
-it also carries the e-colored twin, *le* — the opener of
+through the whole corpus one *li* at a time. Its e-colored
+twin *le* rides the same bracket, and first walks in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>:
 <span class="norm">lē'ûm</span>, "the capable," the epilogue's
 word for its able king.
 

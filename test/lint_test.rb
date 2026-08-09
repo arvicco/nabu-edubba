@@ -357,6 +357,23 @@ class LintTest < Minitest::Test
                     "spaces render in the fallback font — estimated width"
   end
 
+  # reading-cites (§9, 2026-08-09): a reading reads, it never
+  # cites — the dot is sign-list filing punctuation.
+  def test_reading_dots_flag_citation_compounds
+    line = ->(t) { %(<div class="reading-line"><span class="script">𒆬</span><span class="translit">#{t}</span><span class="gloss">g</span></div>) }
+    v = Edubba::Lint.check_reading_dots("site/cuneiform/103/17-x.md", line.call("KU₃.BABBAR ŠU BA.AN.TI"))
+    assert_equal 1, v.size, "one violation per offending translit span"
+    assert_equal "reading-cites", v[0].rule
+
+    assert_empty Edubba::Lint.check_reading_dots("site/cuneiform/103/17-x.md",
+                                                 line.call(%(<span class="logo">KASPAM</span> <span class="logo">ŠU BA-AN-TI</span>))),
+                 "hyphenated values and spoken voices are readings"
+    assert_empty Edubba::Lint.check_reading_dots("site/cuneiform/101/06-x.md", line.call("[...]")),
+                 "editorial damage ellipsis is not a citation"
+    assert_empty Edubba::Lint.check_reading_dots("site/hieroglyphs/102/01-x.md", line.call("msi̯.t")),
+                 "Leiden morphology dots are another school's law"
+  end
+
   def test_translit_span_sees_through_logo_spans
     nested = %(<span class="translit"><span class="logo">MAŠ2.BI</span> u₃</span>)
     hits = []

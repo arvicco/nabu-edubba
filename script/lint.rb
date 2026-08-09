@@ -40,6 +40,11 @@ require_relative "font_metrics"
 #                 in the line (script/value_check.rb; §9 2026-08-09
 #                 — glyph coverage alone let a-wi-lim ride the
 #                 eye-sign as an untaught lim)
+#   reading-cites in a cuneiform reading transliteration a dot never
+#                 sits between letters/digits — citation format
+#                 (KU₃.BABBAR) stays in prose and sign lists;
+#                 readings hyphenate values and speak voices (§9,
+#                 2026-08-09)
 #   reading-logo  in an Akkadian reading, capitals in the translit
 #                 live only inside <span class="logo"> voice-marks,
 #                 script and translit carry equally many marks per
@@ -153,6 +158,7 @@ module Edubba
       found.concat(check_akk_translit(path, text))
       found.concat(check_logo_marking(path, text))
       found.concat(check_reading_width(path, text))
+      found.concat(check_reading_dots(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -370,6 +376,37 @@ module Edubba
         cuneiform: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansCuneiform-subset.ttf", __dir__)),
         hieroglyphs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansEgyptianHieroglyphs-subset.ttf", __dir__))
       }
+    end
+
+    # reading-cites (§9, owner report 2026-08-09: a reading line
+    # showed KU₃.BABBAR ŠU BA.AN.TI — sign-name citation format,
+    # not a reading): in a cuneiform reading transliteration a dot
+    # may never sit between letters or digits. The dot is how sign
+    # lists FILE compounds; a reading line never cites, it reads —
+    # Sumerian values hyphenate (ŠU BA-AN-TI, I₃-LA₂-E), taught
+    # sumerogram voices speak (KASPAM). Editorial [...] and the
+    # hieroglyph school's Leiden morphology dots are out of scope.
+    CITATION_DOT = /[\p{L}\p{Nd}₀-₉]\.[\p{L}\p{Nd}{]/
+    def check_reading_dots(path, text)
+      return [] unless path.include?("cuneiform/")
+
+      found = []
+      text.lines.each_with_index do |line, i|
+        next unless line.include?("reading-line")
+
+        line.scan(TRANSLIT_SPAN) do
+          extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
+          next if extra.split.include?("atf")
+
+          bare = body.gsub(/<[^>]+>/, "")
+          if (hit = bare[CITATION_DOT])
+            found << Violation.new(path, "reading-cites",
+                                   "sign-name citation dot #{hit.inspect} in a reading transliteration (line #{i + 1}) — " \
+                                   "readings read, they never cite: hyphenate Sumerian values (ŠU BA-AN-TI), speak taught voices (KASPAM) (§9)")
+          end
+        end
+      end
+      found
     end
 
     # codex-reads (owner report 2026-08-06: a Reads row carried "the

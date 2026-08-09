@@ -51,12 +51,14 @@ the laws spell them with.
           with teeth, fittingly</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[id]</td>
+      <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[id/it/ed/et]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12009' | relative_url }}">102's arm-sign</a> crosses the
           border as pure sound: <em>id-di-ma</em>, "he charged,
           and…," and the executioner's <em>id-da-ak</em>, "he
-          shall be killed," both open on it</td>
+          shall be killed," both open on it. The arm covers its
+          whole dental family, both vowel colors — the siblings
+          report as they are met</td>
     </tr>
   </tbody>
 </table>

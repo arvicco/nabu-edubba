@@ -84,10 +84,10 @@ ordinariness is the point. This is what most cuneiform IS.
     <div class="reading-line"><span class="script">𒁹𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit">{diš}{d}suen-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "Sîn-is-my-support (approx.),"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒄿𒈾 𒊭𒅁𒁲𒄿</span><span class="translit">ša i-na ša-ib-di-i</span><span class="gloss"><span class="norm">ša ina Ša-ibdî</span> — "who in (the village of) Ša-ibdî…"</span></div>
     <div class="reading-line"><span class="script">𒉿𒀸𒁍</span><span class="translit">wa-aš-bu</span><span class="gloss"><span class="norm">wašbu</span> — "…dwells,"</span></div>
-    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓 𒋗 𒁀𒀭𒋾</span></span><span class="translit"><span class="logo">KU₃.BABBAR ŠU BA.AN.TI</span></span><span class="gloss">"the silver has received."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> <span class="logo">𒋗 𒁀𒀭𒋾</span></span><span class="translit"><span class="logo">KASPAM</span> <span class="logo">ŠU BA-AN-TI</span></span><span class="gloss">"the silver has received."</span></div>
     <div class="reading-line"><span class="script"><span class="logo">𒌓</span> 𒆠𒉡𒉌</span><span class="translit"><span class="logo">ŪM</span> ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span> — "On the day of the brazier-festival"</span></div>
-    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> 𒅇 <span class="logo">𒈧𒁉</span></span><span class="translit"><span class="logo">KU₃.BABBAR</span> u <span class="logo">MAŠ₂.BI</span></span><span class="gloss">"the silver and its interest"</span></div>
-    <div class="reading-line"><span class="script"><span class="logo">𒉌𒇲𒂊</span></span><span class="translit"><span class="logo">I₃.LA₂.E</span></span><span class="gloss">"he shall weigh out."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> 𒅇 <span class="logo">𒈧𒁉</span></span><span class="translit"><span class="logo">KASPAM</span> u <span class="logo">MAŠ₂-BI</span></span><span class="gloss">"the silver and its interest"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒉌𒇲𒂊</span></span><span class="translit"><span class="logo">I₃-LA₂-E</span></span><span class="gloss">"he shall weigh out."</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse —
@@ -115,7 +115,7 @@ Item by item — and watch the languages:
   the borrower, pinned to his village. The verb wears a quiet
   final -u that verbs take inside a ša-clause — the grammars'
   subjunctive; met here, named, and left for the frontier.
-- <span class="norm">KI … ŠU BA.AN.TI</span> — "from Zablum …
+- <span class="norm">KI … ŠU BA-AN-TI</span> — "from Zablum …
   he has received": and this is not Akkadian. The frame of the
   contract is SUMERIAN — the notary's formulary, five hundred
   years senior to the borrower —
@@ -126,7 +126,7 @@ Item by item — and watch the languages:
 - <span class="norm">ūm kinūni</span> — the deadline: the
   midwinter brazier-festival, when the braziers are lit. No
   calendar dates; the year turns by festivals.
-- <span class="norm">I₃.LA₂.E</span> — "he shall weigh out":
+- <span class="norm">I₃-LA₂-E</span> — "he shall weigh out":
   Sumerian again, the formulary's twin of the laws'
   <a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">išaqqal</a>
   — two languages, one balance-pan.
@@ -174,7 +174,7 @@ Item by item — and watch the languages:
 Step back and look at what you just read. The LIFE of the
 document is Akkadian — the growing interest, the borrower and
 his village, the festival. The FRAME is Sumerian — KI, ŠU
-BA.AN.TI, I₃.LA₂.E, MU — a notary's formulary already five
+BA-AN-TI, I₃-LA₂-E, MU — a notary's formulary already five
 centuries old, kept exactly as
 <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">102</a>
 taught it to you, long after Sumerian left the streets. Dead
@@ -183,7 +183,7 @@ now read both layers, and the green tells you — sign by sign —
 which is which: where the capitals are Akkadian
 (<span class="logo">KASPIM</span>, <span class="logo">ŪM</span>),
 a sumerogram is being voiced; where they are Sumerian
-(<span class="logo">ŠU BA.AN.TI</span>), the old formulary
+(<span class="logo">ŠU BA-AN-TI</span>), the old formulary
 itself holds the pen.
 
 ## Drill before you go on

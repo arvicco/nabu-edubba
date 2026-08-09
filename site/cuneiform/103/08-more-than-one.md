@@ -66,13 +66,6 @@ and this chapter gives you their endings.
           pressed to the emphatic q: <em>na-as-qa</em>, "choice"
           — how the epilogue rates its own words</td>
     </tr>
-    <tr>
-      <td class="script sign-cell">𒇷</td><td>LI</td><td>juniper</td><td>[le]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/01-sound-by-sound/#sign-121F7' | relative_url }}">chapter 01's juniper</a>
-          gains its e-color: <em>le-u-um</em>, "the capable" —
-          worn by the able king a few lines down</td>
-    </tr>
   </tbody>
 </table>
 
