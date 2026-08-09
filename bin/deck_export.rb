@@ -45,13 +45,16 @@ def codex_bits(school, ident, shelf = "addenda")
   hook = strip_prose(hook.to_s)
 
   line = nil
-  if (m = text.match(%r{<span class="translit(?: atf)?">([^<]+)</span><span class="gloss">([^<]+)</span>}))
+  # translit may carry nested logogram voice-marks (span class
+  # "logo", rulebook §9 2026-08-09); cards keep the capitals,
+  # strip_prose drops the markup.
+  if (m = text.match(%r{<span class="translit(?: atf)?">((?:[^<]|<span class="logo">[^<]*</span>)+)</span><span class="gloss">([^<]+)</span>}))
     caption = text[%r{<figcaption class="citation">(.+?)</figcaption>}m, 1].to_s
     urn = caption[/urn:nabu:[a-z0-9:.'\-]+/i]
     license = caption[/license:\s*([^.<]+)/, 1].to_s.gsub(/\s+/, " ").strip
     case license
     when /\Aattribution\z/
-      line = { translit: m[1], gloss: strip_prose(m[2]), urn: urn }
+      line = { translit: strip_prose(m[1]), gloss: strip_prose(m[2]), urn: urn }
     when /ETCSL · non-commercial/
       line = nil   # lawful skip: not redistributable
     else

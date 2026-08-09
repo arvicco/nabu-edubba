@@ -33,7 +33,7 @@ notary's old Sumerian does the talking.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓 𒆠𒉡𒉌</span><span class="translit">U₄ ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span>, "on the day of the brazier-festival" — a loan's due date</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒌓</span> 𒆠𒉡𒉌</span><span class="translit"><span class="logo">ŪM</span> ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span>, "on the day of the brazier-festival" — a loan's due date</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse 9.

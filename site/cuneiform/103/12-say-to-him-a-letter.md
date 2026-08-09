@@ -65,7 +65,7 @@ names:
     <div class="reading-line"><span class="script">𒀀𒈾 𒀭𒂗𒍪𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}suen-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:"</span></div>
     <div class="reading-line"><span class="script">𒆠𒉈𒈠</span><span class="translit">qi-bi-ma</span><span class="gloss"><span class="norm">qibīma</span> — "speak!"</span></div>
     <div class="reading-line"><span class="script">𒌝𒈠 𒀭𒂗𒍪𒀀𒀀𒁀𒀸𒈠</span><span class="translit">um-ma {d}suen-a-a-ba-aš-ma</span><span class="gloss"><span class="norm">umma Sîn-ayabāš-ma</span> — "thus (says) Sîn-ayabāš:"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒌓 𒀸𒋳𒅀 𒈬𒊹𒄰</span><span class="translit">{d}utu aš-šum-ia MU ŠAR₂.KAM</span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
+    <div class="reading-line"><span class="script">𒀭𒌓 𒀸𒋳𒅀 <span class="logo">𒈬𒊹𒄰</span></span><span class="translit">{d}utu aš-šum-ia <span class="logo">ŠANAT ŠĀR</span></span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian school letter (CUSAS 43, 28),
@@ -97,10 +97,13 @@ Item by item — the frame is new grammar, so take it slowly:
   the first-person cousin of
   <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01's</a>
   -šu.
-- <span class="norm">MU ŠAR₂.KAM</span> — "a 3600th year": MU
-  is the year-sumerogram (the same sign is Sumerian "name" and
-  "year" — here Babylon reads it <span class="norm">šattum</span>),
-  ŠAR₂ the myriad, KAM the counting tag. A blessing does not
+- <span class="norm">šanat šār</span> — "a 3600th year," and the
+  green shows you why the mouth and the tablet part ways: the
+  writing is MU ŠAR₂.KAM — MU the year-sumerogram (the same sign
+  is Sumerian "name" and "year"; Babylon reads it
+  <span class="norm">šattum</span>, "year of"
+  <span class="norm">šanat</span>), ŠAR₂ the myriad, KAM the
+  counting tag. A blessing does not
   say "long life"; it says *year number 3600* — may you outlive
   arithmetic.
 

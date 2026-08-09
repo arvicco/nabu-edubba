@@ -32,6 +32,7 @@
   --accent-cuneiform: #8a4b2d;   /* terracotta — clay and reed */
   --accent-hieroglyphs: #1f5f8b; /* lapis — faience and Nile */
   --accent-hanzi: #a83232;       /* cinnabar — seal ink */
+  --logogram: #2f6b33;           /* reed green — logogram voice-marking */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +45,7 @@
     --accent-cuneiform: #d08a5f;
     --accent-hieroglyphs: #6fa8d0;
     --accent-hanzi: #d76c6c;
+    --logogram: #8fbb7a;
   }
 }
 
@@ -541,6 +543,13 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 }
 
 .reading--script .reading-line { display: contents; }
+
+/* Logogram voice-marking (cuneiform rulebook §9, ruled 2026-08-09):
+   green binds a stretch of signs read as a whole word to the
+   capitals that speak it — same class on the glyphs and on the
+   voice, so the reader sees which signs break out of the
+   syllabic sequence. Color inherits through sign-links. */
+.logo { color: var(--logogram); }
 
 .reading--script .script {
   font-size: 1.5rem;

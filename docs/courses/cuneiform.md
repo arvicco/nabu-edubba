@@ -205,7 +205,9 @@ license labels (`script/rulebook.rb`); from §7, the codex checks —
 keyword presence and uniqueness, one codex page per taught sign,
 name-slug agreement (activation staged per school as the pages
 land); plus the standing rules — subscript-index, untaught-sign,
-font coverage, no-JS, link hygiene, tail-fit-width (§5). Everything else above is law
+font coverage, no-JS, link hygiene, tail-fit-width (§5),
+reading-logo (§9 voice-marking: capitals only inside logo spans,
+script/translit marks pair per line, Akkadian courses only). Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
 
@@ -364,13 +366,16 @@ content exists.
   2026-08-06, generalizing from u₃ → u): i-nu, ḫa-am-mu-ra-pi,
   ṭu-ub-bi-im, {d}en-lil — the script column carries the sign
   identity, and the accent-indexes of the handbooks are banned
-  by §1 anyway. Sumerogram values inside Akkadian reading lines
-  are CAPS (LUGAL, KALAM), per this section's display law —
-  lowercase would read as Sumerian leaking in. A sumerogram
-  NAME keeps its index (E₂-su — the index belongs to the name,
-  §1); only lowercase readings drop theirs. Sumerian-course
-  transliterations keep their indexes (field standard, §1).
-  Enforced by the akk-translit lint rule.
+  by §1 anyway. Sumerogram values inside Akkadian text are CAPS
+  (LUGAL, KALAM), per this section's display law — lowercase
+  would read as Sumerian leaking in. A sumerogram NAME keeps its
+  index (E₂ — the index belongs to the name, §1); only lowercase
+  readings drop theirs. Sumerian-course transliterations keep
+  their indexes (field standard, §1). Enforced by the
+  akk-translit lint rule. *Reading lines are further governed by
+  the 2026-08-09 voice-marking law (phase-14 review round,
+  below): there the translit column prints the spoken word, and
+  sign-name spellings stay in prose, codex and ATF exhibits.*
 - **Normalization (bound transcription).** A layer distinct from
   transliteration: dictionary-form Akkadian with vowel length
   marked (šarrum, awīlum, ā/â). It renders in its own visual
@@ -446,7 +451,11 @@ content exists.
   the chapter states the name/spelling/voice equation in one
   place. Where the corpus files the value differently (CDLI's
   {d}i7), the divergence is a footnote in the teaching chapter,
-  never a reading line.
+  never a reading line. *Reading-line clause superseded
+  2026-08-09 (voice-marking law, below): a reading now prints
+  the voice itself — green ID — while ID₂ remains the pair's
+  filing spelling in prose, codex and ATF exhibits; the
+  chain-without-a-leap requirement stands.*
 
 - **Plurals.** Displayed in the same two layers as the singular
   (§9 transliteration + bound transcription, vowel length always
@@ -525,3 +534,42 @@ content exists.
   frontier named honestly (omens, mathematics, Standard
   Babylonian). Every standing lint applies — title-language,
   tail-fit width budgets, the two-codex checks.
+
+### Phase-14 review round (ruled 2026-08-09, owner report: GIR₃.PAD.RA₂ mid-reading "ugly to the utmost extent")
+
+- **Voice-marking: the voice law reaches the reading line**
+  (supersedes, for reading lines only, §9's CAPS-sumerogram
+  display and stretch 2's ID₂-in-readings clause). In a
+  reading's transliteration, a logographically-written stretch
+  prints the word the reader actually SPEAKS, in capitals,
+  wrapped in `<span class="logo">` — EṢEMTI for 𒄊𒉻𒁺, ID for
+  𒀀𒇉, ŠAR for 𒈗 — and the glyphs that carry it wear the same
+  span. Both render reed-green (`--logogram`, both themes): the
+  color binds voice to signs and shows exactly which signs break
+  out of the syllabic sequence. Sign-name spellings
+  (GIR₃.PAD.RA₂, ID₂, KU₃.BABBAR) remain teaching material —
+  chapter prose, sign tables, codex pages, raw-ATF exhibits —
+  never a reading's translit column.
+- **The voice is the norm's word.** The capitals print the
+  inflected form the line's bound transcription commits to
+  (EṢEMTI / EṢEMTA-šu, MĀTIM, ŠANAT ŠĀR; BĪT-su with the norm
+  showing the melt to bīssu); suffixes written with
+  syllabograms stay lowercase outside the mark. Where the
+  course commits to NO Akkadian voice — the Sumerian notary
+  frame of contracts (KI, ŠU BA.AN.TI, I₃.LA₂.E, MU E₂
+  {d}INANNA, IGI) and broken lines whose norm is elided
+  (MAŠ₂ … GIN₂) — the stretch stands in its Sumerian values,
+  CAPS with their field-standard indexes, marked the same
+  green: the color means "not sounded as Akkadian syllables,"
+  and the printed word itself tells you which language holds
+  the pen (ch17 teaches the distinction where it is first met).
+- **Names stay names.** Personal and divine names keep their
+  standing transliteration ({d}utu, {d}suen-i-mi-ti), unmarked;
+  a name inside a marked frame stretch ({d}INANNA in a
+  year-name) rides its stretch's marking.
+- **First taught** in C103 ch03, where "sumerogram" is defined
+  ("black is sounded out; green is read whole"); ch10 chains it
+  to name/spelling/voice. Enforced by the reading-logo lint:
+  capitals in an Akkadian reading translit live only inside
+  logo spans, script and translit carry equally many marks per
+  line, and the marking never appears on Sumerian-course pages.

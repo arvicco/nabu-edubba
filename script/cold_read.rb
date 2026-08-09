@@ -20,7 +20,10 @@ module Edubba
       return html if figures.empty? || !html.match?(NAV)
 
       original = figures.last
-      script_only = original.scan(%r{<span class="script">[^<]*</span>})
+      # A script span may carry nested logogram voice-marks
+      # (<span class="logo">, rulebook §9 2026-08-09); the clone
+      # keeps them — the green is part of how the line reads.
+      script_only = original.scan(%r{<span class="script">(?:[^<]|<span class="logo">[^<]*</span>)*</span>})
                             .map { |s| %(<div class="reading-line">#{s}</div>) }
       return html if script_only.empty?
 

@@ -30,6 +30,17 @@ class ColdReadTest < Minitest::Test
     assert_equal FIG.to_s, Edubba::ColdRead.transform(FIG.dup)
   end
 
+  # A script span carrying a logogram voice-mark (rulebook §9,
+  # 2026-08-09) must clone whole — the nested span may not make
+  # the line silently vanish from the cold read.
+  def test_keeps_lines_with_logo_marks
+    fig = FIG.sub("𒀀𒈬", %(𒀀𒈾 𒀭<span class="logo">𒀀𒇉</span>))
+    out = Edubba::ColdRead.transform("<p>a</p>#{fig}#{NAV}")
+    cold = out[/<section class="cold-read">.*?<\/section>/m]
+    assert_includes cold,
+                    %(<div class="reading-line"><span class="script">𒀀𒈾 𒀭<span class="logo">𒀀𒇉</span></span></div>)
+  end
+
   def test_uses_the_last_figure
     fig2 = FIG.sub("𒀀𒈬", "𒁀𒋾").sub("a mu", "ba ti")
     out = Edubba::ColdRead.transform("#{FIG}#{fig2}#{NAV}")

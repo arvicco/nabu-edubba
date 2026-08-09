@@ -28,6 +28,11 @@ require_relative "rulebook"
 #                 column to one unwrapped line (style.css), so
 #                 cells there stay <= 60 chars of rendered text —
 #                 commentary belongs in prose, never in cells (§5)
+#   reading-logo  in an Akkadian reading, capitals in the translit
+#                 live only inside <span class="logo"> voice-marks,
+#                 script and translit carry equally many marks per
+#                 line, and the marking never appears on
+#                 Sumerian-course pages (cuneiform §9, 2026-08-09)
 #   rulebook      course content obeys its school's rulebook
 #                 (docs/courses/<school>.md — the single source of
 #                 truth for conventions; script/rulebook.rb
@@ -41,8 +46,10 @@ module Edubba
     SCRIPT_TAG = /<script\b/i
     ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
 
-    TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>.*?)</span>}m
+    TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}m
     ASCII_INDEX = /[A-Za-zŠšŊŋĜĝḪḫŘř]\d/
+    LOGO_SPAN = %r{<span class="logo">[^<]*</span>}
+    READING_LINE = %r{<div class="reading-line">(.*?)</div>}m
 
     Violation = Struct.new(:file, :rule, :detail)
 
@@ -131,6 +138,7 @@ module Edubba
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
       found.concat(check_akk_translit(path, text))
+      found.concat(check_logo_marking(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -249,6 +257,49 @@ module Edubba
         if (hit = body[SUMEROGRAMS])
           found << Violation.new(path, "akk-translit",
                                  "lowercase sumerogram #{hit.inspect} in an Akkadian reading — CAPS (LUGAL, KALAM) per §9")
+        end
+      end
+      found
+    end
+
+    # reading-logo (§9, owner ruling 2026-08-09; report:
+    # GIR₃.PAD.RA₂ mid-reading): a reading's transliteration prints
+    # the VOICE of a logographically-written stretch — capitals
+    # wrapped in <span class="logo"> — and the glyphs that carry it
+    # wear the same span, so the green binds voice to signs.
+    # Mechanically: capitals in an Akkadian reading transliteration
+    # live only inside logo spans, and every reading line carries as
+    # many logo marks in its script as in its transliteration. The
+    # marking is an Akkadian-course convention — on Sumerian-course
+    # pages it may not appear at all.
+    def check_logo_marking(path, text)
+      found = []
+      unless path.match?(%r{cuneiform/(103|addenda-akk)/})
+        if path.include?("cuneiform/") && text.include?('class="logo"')
+          found << Violation.new(path, "reading-logo",
+                                 %(logogram voice-marking (span class "logo") is an Akkadian-course convention (§9) — it does not belong on Sumerian-course pages))
+        end
+        return found
+      end
+
+      text.scan(READING_LINE) do |(line)|
+        spans = {}
+        line.scan(%r{<span class="(script|translit)([^"]*)">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |cls, extra, body|
+          spans[cls] = [extra, body]
+        end
+        script_marks = (spans.dig("script", 1) || "").scan(LOGO_SPAN).size
+        translit_extra, translit_body = spans["translit"] || ["", ""]
+        translit_marks = translit_body.scan(LOGO_SPAN).size
+        if script_marks != translit_marks
+          found << Violation.new(path, "reading-logo",
+                                 "logogram marks must pair: #{script_marks} in script vs #{translit_marks} in transliteration — the green binds voice to signs (§9)")
+        end
+        next if translit_extra.split.include?("atf")
+
+        bare = translit_body.gsub(LOGO_SPAN, "").gsub(/<[^>]+>/, "")
+        if (hit = bare[/\p{Lu}[\p{Lu}₀-₉.]*/])
+          found << Violation.new(path, "reading-logo",
+                                 "unmarked capitals #{hit.inspect} in an Akkadian reading transliteration — a logogram stretch shows its voice inside <span class=\"logo\"> (§9)")
         end
       end
       found
