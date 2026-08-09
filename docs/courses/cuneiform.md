@@ -183,6 +183,20 @@ the script may not. The mechanism is the reading-figure CSS
 (script column max-content + nowrap, figure-level overflow),
 which carries this law site-wide.
 
+And the columns may never CUT text (owner report 2026-08-09:
+the tooth-law figure's gloss sliced at the figure edge): the
+three-column layout holds only while the widest script line
+fits the measured budget — measure minus figure padding, gaps
+and the text columns' floors, ≈ 20.3rem, checked against the
+committed subset fonts' real advance widths
+(script/font_metrics.rb). A figure whose script is wider
+declares `reading--stacked` — voice under script, both full
+width, nothing cut, and only a truly measure-wide script line
+ever scrolls. Below the full measure every script reading
+stacks. The reading-width lint enforces the budget; a corpus
+line is never shortened to fit (the tablet's line is the
+tablet's line — the layout adapts, not the text).
+
 Table cells hold forms and few-word glosses; sentence-length
 commentary lives in prose AROUND the table, never inside cells
 (owner report 2026-08-07: the stems table's Says column carried
@@ -207,7 +221,9 @@ name-slug agreement (activation staged per school as the pages
 land); plus the standing rules — subscript-index, untaught-sign,
 font coverage, no-JS, link hygiene, tail-fit-width (§5),
 reading-logo (§9 voice-marking: capitals only inside logo spans,
-script/translit marks pair per line, Akkadian courses only). Everything else above is law
+script/translit marks pair per line, Akkadian courses only),
+value-coverage (§9: a reading speaks only taught values —
+script/value_check.rb, dated debt tracked inside the check). Everything else above is law
 for the author and material for review; when a rule becomes
 regexable, its check joins the script in the same commit.
 
@@ -573,3 +589,22 @@ content exists.
   capitals in an Akkadian reading translit live only inside
   logo spans, script and translit carry equally many marks per
   line, and the marking never appears on Sumerian-course pages.
+- **Value coverage** (ruled 2026-08-09, owner report: "WHY is
+  this IGI read as lim? Where is it taught?"). A reading may
+  only SPEAK values the course has taught: every syllabic token
+  in an Akkadian reading transliteration must be a value
+  taught, by that chapter, for a sign present in the line. The
+  untaught-sign law guards glyphs; this law guards voices —
+  a-wi-lim rode the eye-sign as an untaught lim for eight
+  chapters. A value seated later than its sign's row is
+  recorded in the registry (`value_seats:`, additive); each ▢
+  pardons its own spoken token (the box is the honest device);
+  determinatives and logogram stretches are governed by their
+  own laws. Enforced by script/value_check.rb in the gate. The
+  first run found sixteen unpaid values (su₂, suen, qi₂, bi₂,
+  re, ed, it, et, le, qa₂, šar, ṭi₃, ṣa, aṭ, qu₂, kal); they
+  stand as dated debt inside the check — a NEW use of any
+  fails the gate — and each is paid by teaching the value
+  (veteran row or bracket widening + registry + codex) and
+  deleting its debt row. IGI's lim paid 2026-08-09 (ch10
+  veteran row, the model case).

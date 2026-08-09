@@ -64,6 +64,14 @@ can exist? — and hands the case to a judge no one can bribe.
           and <span class="norm">bīssu</span>, "his estate," is
           what this law hands the winner</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[lim]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-12146' | relative_url }}">chapter 03's ši-sign</a>
+          gains a second voice: lim, the syllable that closes
+          <em>a-wi-lim</em>, "of a man" — and this law's first
+          accused wears it a few lines down</td>
+    </tr>
   </tbody>
 </table>
 

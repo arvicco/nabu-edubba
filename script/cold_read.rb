@@ -10,7 +10,7 @@
 
 module Edubba
   module ColdRead
-    FIGURE = %r{<figure class="reading reading--script">.*?</figure>}m
+    FIGURE = %r{<figure class="reading reading--script[^"]*">.*?</figure>}m
     NAV = %r{<nav class="chapter-nav chapter-nav-bottom"}
 
     module_function
@@ -27,12 +27,15 @@ module Edubba
                             .map { |s| %(<div class="reading-line">#{s}</div>) }
       return html if script_only.empty?
 
+      # the clone keeps the original's figure classes (a
+      # reading--stacked original must not un-stack, §5)
+      classes = original[/<figure class="([^"]*)"/, 1]
       section = <<~HTML
         <section class="cold-read">
         <h2>Read it cold</h2>
         <p>This chapter's last reading, once more — script only.
         Read it aloud before you unfold.</p>
-        <figure class="reading reading--script">
+        <figure class="#{classes}">
           <div class="reading-lines">
         #{script_only.join("\n")}
           </div>

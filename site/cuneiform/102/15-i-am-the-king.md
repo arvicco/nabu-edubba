@@ -88,7 +88,7 @@ Three lines of Šulgi A, read as a passage — the most copied royal
 hymn of the Old Babylonian schoolroom, which means generations of
 students your age read exactly these lines as homework:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒈗𒈨𒂗 𒊮𒋫 𒌨𒊕𒈨𒂗</span><span class="translit">lugal-me-en šag₄-ta ur-saŋ-me-en</span><span class="gloss">"I am the king: a hero from the womb —"</span></div>
     <div class="reading-line"><span class="script">𒀭𒂄𒄀𒈨𒂗 𒁀𒌅𒌓𒉈𒂗𒈾𒋫 ▢𒆗𒂵𒈨𒂗</span><span class="translit">{d}šul-gi-me-en ba-tu-ud-de₃-en-na-ta nitah kalag-ga-me-en</span><span class="gloss">"I am Šulgi: a mighty male since the day I was born —"</span></div>

@@ -3,6 +3,8 @@
 require_relative "script_scan"
 require_relative "course_check"
 require_relative "rulebook"
+require_relative "value_check"
+require_relative "font_metrics"
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -28,6 +30,16 @@ require_relative "rulebook"
 #                 column to one unwrapped line (style.css), so
 #                 cells there stay <= 60 chars of rendered text —
 #                 commentary belongs in prose, never in cells (§5)
+#   reading-width a three-column reading figure's widest script
+#                 line fits the measured 20.3rem budget (real font
+#                 metrics, script/font_metrics.rb) or the figure
+#                 declares reading--stacked — gloss text is never
+#                 cut at the measure (§5, 2026-08-09)
+#   value-coverage every syllabic token in an Akkadian reading is a
+#                 value taught, by that chapter, for a sign present
+#                 in the line (script/value_check.rb; §9 2026-08-09
+#                 — glyph coverage alone let a-wi-lim ride the
+#                 eye-sign as an untaught lim)
 #   reading-logo  in an Akkadian reading, capitals in the translit
 #                 live only inside <span class="logo"> voice-marks,
 #                 script and translit carry equally many marks per
@@ -64,7 +76,8 @@ module Edubba
         nav_order_unique(site_dir) +
         CourseCheck.violations(site_dir) +
         Rulebook.violations(site_dir) +
-        Rulebook.codex_violations(site_dir)
+        Rulebook.codex_violations(site_dir) +
+        ValueCheck.violations(site_dir)
     end
 
     # nav-order-unique (live-site incident 2026-08-06): the sidebar
@@ -139,6 +152,7 @@ module Edubba
       found.concat(check_chapter_links(path, text))
       found.concat(check_akk_translit(path, text))
       found.concat(check_logo_marking(path, text))
+      found.concat(check_reading_width(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -303,6 +317,59 @@ module Edubba
         end
       end
       found
+    end
+
+    # reading-width (§5, owner report 2026-08-09: gloss text cut at
+    # the figure's edge): a three-column reading figure holds only
+    # while its widest script line fits the measured budget — 44rem
+    # measure − 2.5rem figure padding − 2×1rem gaps − 8rem/11rem
+    # text floors ≈ 20.3rem, i.e. 14.5em at the 1.4rem script size.
+    # Width is MEASURED with the committed subset fonts
+    # (script/font_metrics.rb), never guessed; a wider line means
+    # the figure declares reading--stacked (voice under script,
+    # nothing ever cut). Spaces and boxes render in the fallback
+    # font — estimated 0.4em / 0.75em, on the generous side.
+    READING_FIGURE = %r{<figure class="reading reading--script(?<mods>[^"]*)">(?<body>.*?)</figure>}m
+    SCRIPT_EM_BUDGET = 14.5
+    def check_reading_width(path, text)
+      return [] unless path.end_with?(".md")
+
+      found = []
+      text.scan(READING_FIGURE) do
+        mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
+        next if mods.include?("reading--stacked")
+
+        body.scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
+          txt = s.gsub(/<[^>]+>/, "")
+          em = script_width_em(txt)
+          next if em <= SCRIPT_EM_BUDGET
+
+          found << Violation.new(path, "reading-width",
+                                 "script line #{txt[0, 12].inspect}… measures #{em.round(1)}em " \
+                                 "(budget #{SCRIPT_EM_BUDGET}em ≈ 20.3rem) — three columns would cut the " \
+                                 "gloss at the measure; declare the figure reading--stacked (§5)")
+        end
+      end
+      found
+    end
+
+    def script_width_em(txt)
+      fonts = reading_fonts
+      txt.each_char.sum do |c|
+        cp = c.ord
+        if cp.between?(0x12000, 0x1247F) then fonts[:cuneiform].advance_em(cp)
+        elsif cp.between?(0x13000, 0x1342F) then fonts[:hieroglyphs].advance_em(cp)
+        elsif c == " " then 0.4
+        else 0.75
+        end
+      end
+    end
+
+    def reading_fonts
+      @reading_fonts ||= {
+        cuneiform: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansCuneiform-subset.ttf", __dir__)),
+        hieroglyphs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansEgyptianHieroglyphs-subset.ttf", __dir__))
+      }
     end
 
     # codex-reads (owner report 2026-08-06: a Reads row carried "the

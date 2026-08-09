@@ -5,6 +5,51 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · incident+fix (Gate 14, untaught values — the lim
+hole) · phase-14 · Owner hover on ch16: "WHY is this IGI read
+as lim? Where is it taught? Why isn't it in the tooltip?"
+Answer: nowhere, and that is the defect — the untaught-sign
+gate guards GLYPHS, so a-wi-lim rode the (taught) eye-sign as
+an untaught VALUE from ch10 to ch18 without tripping anything.
+Fixed for the reported case: ch10 gains an IGI veteran row
+teaching [lim] beside the line that first speaks it; the
+registry entry widens to value szi, lim with an additive
+value_seats: {lim: 10} (teaching claims stay honest per
+value); the codex page and bubble now carry [ši/lim] and the
+a-wi-lim story; deck regenerated. Closed for the future:
+script/value_check.rb joins the gate — every syllabic token in
+an Akkadian reading must be a value taught, by that chapter,
+for a sign present in the line (registry ASCII folded
+index-blind; ▢ pardons its own spoken token; determinatives
+and logo stretches governed by their own laws). Its first full
+run found SIXTEEN more unpaid values (su₂, suen, qi₂, bi₂, re,
+ed, it, et, le, qa₂, šar, ṭi₃, ṣa, aṭ, qu₂, kal) — held as
+dated debt inside the check (a NEW use of any fails the gate);
+each is paid by teaching the value and deleting its debt row.
+Decision item D14-b: pay the debt this phase or next.
+
+2026-08-09 · review round (Gate 14, item 16: cut gloss text +
+reading-width law) · phase-14 · Owner: "new table set-up cuts
+some of the text at the end of lines, need a mechanical rule."
+Cause: the three-column grid's minimum (script max-content +
+text-column floors + gaps) can exceed the measure, and the
+scroll container shows the deficit as sliced gloss text.
+Mechanical rule (§5): the three-column layout holds only while
+the widest script line fits the measured budget (measure −
+padding − gaps − floors ≈ 20.3rem = 14.5em at the 1.4rem
+script size); wider figures declare reading--stacked (voice
+under script, both full width, nothing ever cut); below the
+full measure every script reading stacks. Widths are MEASURED,
+not guessed: script/font_metrics.rb reads advance widths from
+the committed subset TTFs (pure Ruby, offline), and the
+reading-width lint runs the same metric in the gate. Twelve
+figures site-wide crossed the budget and now stack (both
+schools' frontier pages, the 102 royal-hymn monster at
+21.9em, ch12's beer-letter line, five hiero codex pages);
+cold-read clones inherit the original figure's classes so a
+stacked original cannot un-stack. A corpus line is never
+shortened to fit — the layout adapts, not the text.
+
 2026-08-09 · incident+fix (Gate 14, clipped hover bubbles) ·
 phase-14 · Owner screenshot: a sign-tip bubble cut in half over
 a ch15 reading. Root cause: fe7b87b made reading figures and
