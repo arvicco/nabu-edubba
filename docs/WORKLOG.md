@@ -5,6 +5,23 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, ch17 review: rebus names
+are logograms) · phase-14 · Owner: 𒀭𒂗𒍪 "should be treated
+as compound (color marked, reading capped) since it's not a
+proper logogram" — right: EN.ZU read backwards is precisely a
+writing whose signs do not spell its sound, the defining case
+for the green treatment. Names law amended (§9): a
+sequence-spelled name stays plain ({d}en-lil, -i-mi-ti,
+za-ab-lum); a name element whose writing does not spell its
+sound takes the full voice-mark — {d}SUEN over green 𒂗𒍪
+(five lines, ch12/ch17 + codex mirrors), and by the same
+principle {d}ŠAMAŠ over green 𒌓 (ch12 letter, ch13 epilogue
++ mirrors), both chaining to the norm's Sîn/Šamaš. The D14-b
+REBUS licensing table is superseded — voice-marking covers
+rebus writings outright; its check branch removed, the
+syllabic name tails still value-checked. 22 line edits, deck
+regenerated.
+
 2026-08-09 · review round (Gate 14, ch17 review: ambient
 re-entry) · phase-14 · Owner: "WHY re-introduce the sign that
 kept its reading unchanged at all?" — ch17's KI [ki] row.

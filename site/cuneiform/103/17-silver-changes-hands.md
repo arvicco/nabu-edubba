@@ -73,7 +73,7 @@ ordinariness is the point. This is what most cuneiform IS.
     <div class="reading-line"><span class="script"><span class="logo">𒈧</span> 𒁹 𒈠𒈾 ▢ <span class="logo">𒂆</span></span><span class="translit"><span class="logo">MAŠ₂</span> 1(diš) ma-na ▢ <span class="logo">GIN₂</span></span><span class="gloss"><span class="norm">…</span> — "its interest: on the mina, a third of a shekel —"</span></div>
     <div class="reading-line"><span class="script">𒌑𒍝𒀊</span><span class="translit">u-ṣa-ab</span><span class="gloss"><span class="norm">uṣṣab</span> — "it will grow."</span></div>
     <div class="reading-line"><span class="script"><span class="logo">𒆠</span> 𒍝𒀊𒈝</span><span class="translit"><span class="logo">KI</span> za-ab-lum</span><span class="gloss">"From Zablum,"</span></div>
-    <div class="reading-line"><span class="script">𒁹𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit">{diš}{d}suen-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "Sîn-is-my-support (approx.),"</span></div>
+    <div class="reading-line"><span class="script">𒁹𒀭<span class="logo">𒂗𒍪</span>𒄿𒈪𒋾</span><span class="translit">{diš}{d}<span class="logo">SUEN</span>-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "Sîn-is-my-support (approx.),"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒄿𒈾 𒊭𒅁𒁲𒄿</span><span class="translit">ša i-na ša-ib-di-i</span><span class="gloss"><span class="norm">ša ina Ša-ibdî</span> — "who in (the village of) Ša-ibdî…"</span></div>
     <div class="reading-line"><span class="script">𒉿𒀸𒁍</span><span class="translit">wa-aš-bu</span><span class="gloss"><span class="norm">wašbu</span> — "…dwells,"</span></div>
     <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> <span class="logo">𒋗 𒁀𒀭𒋾</span></span><span class="translit"><span class="logo">KASPAM</span> <span class="logo">ŠU BA-AN-TI</span></span><span class="gloss">"the silver has received."</span></div>
@@ -129,8 +129,8 @@ Item by item — and watch the languages:
   <div class="reading-lines">
     <div class="reading-line"><span class="script"><span class="logo">𒈬 𒂍 𒀭𒈹</span></span><span class="translit"><span class="logo">MU E₂ {d}INANNA</span></span><span class="gloss">"Year: the temple of Inanna"</span></div>
     <div class="reading-line"><span class="script">𒅎𒈨𒊒𒌝 𒄿𒁍𒋗</span><span class="translit">im-me-ru-um i-pu-šu</span><span class="gloss"><span class="norm">Immerum īpušu</span> — "Immerum built."</span></div>
-    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭𒂗𒍪𒅖𒈨𒀀𒉌</span><span class="translit"><span class="logo">IGI</span> {d}suen-iš-me-a-ni</span><span class="gloss"><span class="norm">Sîn-išmeanni</span> — "Before Sîn-heard-me (approx.),"</span></div>
-    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit"><span class="logo">IGI</span> {d}suen-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "before Sîn-is-my-support (approx.)."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭<span class="logo">𒂗𒍪</span>𒅖𒈨𒀀𒉌</span><span class="translit"><span class="logo">IGI</span> {d}<span class="logo">SUEN</span>-iš-me-a-ni</span><span class="gloss"><span class="norm">Sîn-išmeanni</span> — "Before Sîn-heard-me (approx.),"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭<span class="logo">𒂗𒍪</span>𒄿𒈪𒋾</span><span class="translit"><span class="logo">IGI</span> {d}<span class="logo">SUEN</span>-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "before Sîn-is-my-support (approx.)."</span></div>
   </div>
   <figcaption class="citation">
     PBS 8/2, 195, reverse (selection — seven witnesses in all).

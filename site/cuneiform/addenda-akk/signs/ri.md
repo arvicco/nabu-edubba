@@ -32,7 +32,7 @@ the far-sign, e-colored, sits inside the word for it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾 𒀭𒂗𒍪𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}suen-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:" a letter finds its addressee</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒀭<span class="logo">𒂗𒍪</span>𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}<span class="logo">SUEN</span>-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:" a letter finds its addressee</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian school letter (CUSAS 43, 28), obverse 1.
