@@ -56,14 +56,6 @@ ordinariness is the point. This is what most cuneiform IS.
           shows her Sumerian name. She dates this tablet</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆠</td><td>KI</td><td>place</td><td>[ki]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-121A0' | relative_url }}">101's place-sign</a>
-          crosses as a plain syllable (<em>ki-nu-ni</em>) — and
-          keeps its old Sumerian self for the formulary's
-          "from," as you are about to see</td>
-    </tr>
-    <tr>
       <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[ṣa]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/13-you-are/#sign-1235D' | relative_url }}">102's bead-sign</a>

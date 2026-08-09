@@ -102,10 +102,50 @@ module Edubba
 
     def violations(site_dir, data_dir = File.join(site_dir, "_data"))
       taught = taught_values(data_dir)
-      Dir.glob(File.join(site_dir, "cuneiform", "103", "*.md")).sort.flat_map do |path|
-        text = File.read(path, encoding: "UTF-8")
-        chapter = text[/^chapter: (\d+)/, 1]&.to_i
-        chapter ? check_text(path, text, chapter, taught) : []
+      registry_violations(data_dir) +
+        Dir.glob(File.join(site_dir, "cuneiform", "103", "*.md")).sort.flat_map do |path|
+          text = File.read(path, encoding: "UTF-8")
+          chapter = text[/^chapter: (\d+)/, 1]&.to_i
+          chapter ? check_text(path, text, chapter, taught) : []
+        end
+    end
+
+    # ambient-veteran guard (§9 owner ruling 2026-08-06, enforced
+    # 2026-08-09 after ch17 re-taught KI as plain [ki]): a veteran
+    # row must GAIN something — at least one value that is not
+    # already the sign's Sumerian inventory. A sign whose value
+    # crosses the border unchanged (A, MU, GI, TA …) keeps its
+    # 101/102 teaching and never re-enters the queue.
+    def registry_violations(data_dir)
+      exists = ->(f) { File.exist?(File.join(data_dir, f)) }
+      return [] unless exists.call("cuneiform103_queue.yml")
+
+      sux = Hash.new { |h, k| h[k] = [] }
+      if exists.call("sign_teaching.yml")
+        Array(YAML.safe_load_file(File.join(data_dir, "sign_teaching.yml"))["signs"]).each do |s|
+          next unless s["glyph"]
+          vals = s["value"].to_s.gsub(/\([^)]*\)/, " ")
+                   .split(%r{[,;/]\s*}).map { |v| fold(v).strip.gsub(/\d+/, "") }
+          sux[s["glyph"]].concat(vals.reject(&:empty?))
+        end
+      end
+      if exists.call("cuneiform102_queue.yml")
+        Array(YAML.safe_load_file(File.join(data_dir, "cuneiform102_queue.yml"))["signs"]).each do |s|
+          next unless s["glyph"]
+          sux[s["glyph"]].concat(ascii_values(s["value"]))
+        end
+      end
+
+      Array(YAML.safe_load_file(File.join(data_dir, "cuneiform103_queue.yml"))["signs"]).filter_map do |s|
+        next unless s["veteran"] && s["glyph"]
+
+        gained = ascii_values(s["value"]) - sux[s["glyph"]]
+        next unless gained.empty?
+
+        Violation.new(File.join(data_dir, "cuneiform103_queue.yml"), "value-coverage",
+                      "#{s['name']} (ch#{s['chapter']}) re-enters as a veteran but gains NOTHING — " \
+                      "its values #{s['value'].inspect} are its Sumerian inventory unchanged; ambient " \
+                      "veterans keep their 101/102 teaching and never re-enter (§9)")
       end
     end
 

@@ -87,6 +87,7 @@ signs:
   - { glyph: "𒄰", codepoint: "12130", name: "KAM", value: "kam",  osl_name: "|HI×BAD|", meaning: "the counting tag after numbers — \"-th\"",          freq_akkob: 139, certainty: stated,  chapter: 12, keyword: "ordinal" }
   - { glyph: "𒉈", codepoint: "12248", name: "NE",  value: "bi2",  veteran: true, meaning: "veteran — NE gains [bi]: qibīma, \"speak!\" — the letter-opener's middle", freq_akkob: 82, certainty: stated, chapter: 12, keyword: "brazier" }
   - { glyph: "𒊑", codepoint: "12291", name: "RI",  value: "re",   veteran: true, meaning: "veteran — RI gains [re]: ašarēd, \"foremost\" — the e-colored ri", freq_akkob: 86, certainty: stated, chapter: 12, keyword: "distant" }
+  - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki, qi2", veteran: true, keyword: "place", meaning: "veteran — KI gains [qi]: qibīma's opener — the old ki serves as ever", chapter: 12 }
   # ch 13 · anāku — I am he
   - { glyph: "𒌌", codepoint: "1230C", name: "UL",  value: "ul",   osl_name: "|U.GUD|", meaning: "the flat no of statements",                          freq_akkob: 57,  certainty: stated,  chapter: 13, keyword: "never" }
   - { glyph: "𒁲", codepoint: "12072", name: "DI",  value: "t,i3", veteran: true, meaning: "veteran — DI gains [ṭi]: liṭīb, \"may it be sweet\"", freq_akkob: 242, certainty: stated, chapter: 13, keyword: "verdict" }
@@ -94,8 +95,6 @@ signs:
   - { glyph: "𒋼", codepoint: "122FC", name: "TE",  value: "te",   meaning: "to approach in the lists",                                  freq_akkob: 87,  certainty: unclear, chapter: 14, keyword: "approach" }
   # ch 15 · It has happened (the perfect; law 202)
   - { glyph: "𒊍", codepoint: "1228D", name: "AZ",  value: "as, az, as,", osl_name: "|PIRIG×ZA|", meaning: "the bear in the lists; one sign for three tails — as, az, and the pressed aṣ", freq_akkob: 585, certainty: stated, chapter: 15, keyword: "bear" }
-  - { glyph: "𒋫", codepoint: "122EB", name: "TA",  value: "ta",   veteran: true, keyword: "from", meaning: "veteran — TA gains [ta]: the perfect's own marker, im-ta-ḫa-aṣ", chapter: 15 }
-  - { glyph: "𒈤", codepoint: "12224", name: "MAH", value: "mah",  veteran: true, keyword: "exalted", meaning: "veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, \"he shall be struck\"", chapter: 15 }
   # ch 16 · Eye, tooth, bone (laws 197+200 in signs; the scale of persons)
   - { glyph: "𒄊", codepoint: "1210A", name: "GIR3", value: "es,emtum", display_value: "eṣemtum", meaning: "the foot, the path; never voiced alone here — with PAD.DU it writes eṣemtum, \"bone\"", certainty: classic, chapter: 16, keyword: "path" }
   - { glyph: "𒉻", codepoint: "1227B", name: "PAD", value: "es,emtum", display_value: "eṣemtum", meaning: "a morsel, a ration; the middle of the bone-compound GIR₃.PAD.RA₂", certainty: stated, chapter: 16, keyword: "morsel" }
@@ -106,7 +105,6 @@ signs:
   - { glyph: "𒂆", codepoint: "12086", name: "GIN2", value: "sziqlum", display_value: "šiqlum", osl_name: "DUN₃@g", meaning: "the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves in", certainty: stated, chapter: 17, keyword: "shekel" }
   - { glyph: "𒈹", codepoint: "12239", name: "INANNA", value: "isztar", display_value: "Ištar", osl_name: "MUŠ₃", meaning: "the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian mouths", certainty: classic, chapter: 17, keyword: "goddess" }
   - { glyph: "𒍝", codepoint: "1235D", name: "ZA",  value: "s,a",  veteran: true, meaning: "veteran — ZA gains [ṣa]: uṣṣab, \"it will grow\" — interest's own syllable", freq_akkob: 85, certainty: stated, chapter: 17, keyword: "bead" }
-  - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki, qi2", value_seats: { qi2: 12 }, veteran: true, keyword: "place", meaning: "veteran — KI gains [ki/qi]: qibīma's opener — and the formulary's \"from\"", chapter: 17 }
   # ch 18 · The whole course in one room (the invitation; close + Reference)
   - { glyph: "𒅈", codepoint: "12148", name: "AR",  value: "ar",   osl_name: "|IGI.RI|", meaning: "praise, glory in the lists; here the syllable of maḫar, \"before\"", freq_akkob: 4488, certainty: stated, chapter: 18, keyword: "praise" }
   - { glyph: "𒌫", codepoint: "1232B", name: "UR2", value: "ur2",  meaning: "the lap — a body's base; foundations in the lists", freq_akkob: 1465, certainty: stated, chapter: 18, keyword: "lap" }
