@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · incident+fix (Gate 14, clipped hover bubbles) ·
+phase-14 · Owner screenshot: a sign-tip bubble cut in half over
+a ch15 reading. Root cause: fe7b87b made reading figures and
+sign-tables scroll containers (overflow-x: auto) — and one
+non-visible overflow axis forces the other from visible to auto
+(CSS spec), so the box clips BOTH ways; the absolutely
+positioned bubbles that used to float over neighboring content
+now die at the container rim. Same change carried a second,
+quieter defect: hidden bubbles were visibility-hidden, which
+still contributes geometry — every bubble inflated its
+container's scrollable width (the phantom sideways scroll that
+made ch16's gloss column look cut at 1200px). Fix: hidden
+bubbles are display:none (no geometry; fade-in kept via
+@starting-style where supported); every scroll container
+hosting sign-links reserves 5.5rem bubble headroom (padding-top
+pulled back by an equal negative margin-top — the clip box
+grows, the layout does not move) and pins its bubbles to the
+glyph's left edge (left:0, no centering transform) so they
+cannot cross the left rim. Verified by a hover-probe page over
+the real build: bubble forced visible at the clip box's worst
+corner (first glyph, first line) renders whole. Lessons
+enforced: (1) test/style_guard_test.rb — every overflow rule in
+style.css must be a registered tip-safe container carrying the
+headroom+pin pairing, so the next scroll container fails the
+gate until bubble escape is handled; (2) §6b checklist gains a
+hover-probe line — static screenshots cannot hover, which is
+exactly how this shipped past a pixel review.
+
 2026-08-09 · review round (Gate 14, logogram voice-marking) ·
 phase-14 · Owner: GIR₃.PAD.RA₂ mid-reading "ugly to the utmost
 extent" — the translit column printed the sign-lists' filing

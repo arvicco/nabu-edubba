@@ -429,8 +429,22 @@ img, svg { max-width: 100%; }
 .sign-table:not(.sign-table--tail-fit) th:nth-last-child(2),
 .sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 24%; }
 /* Narrow screens: a wide table scrolls inside itself, never
-   bleeding past the page edge (same law as reading figures). */
-.sign-table { display: block; overflow-x: auto; }
+   bleeding past the page edge (same law as reading figures).
+   A scroll container CLIPS: overflow-x forces the other axis to
+   clip too (CSS spec), so a hover bubble can never escape the
+   box. Every scroll container hosting sign-links therefore
+   reserves bubble headroom above its first line — padding pulled
+   back by an equal negative margin, so the clip box grows while
+   the layout stays put — and pins its bubbles to the glyph's
+   left edge (see the .sign-tip section). Owner report
+   2026-08-09: half-invisible tooltip. test/style_guard_test.rb
+   enforces this pairing for every overflow rule in this sheet. */
+.sign-table {
+  display: block;
+  overflow-x: auto;
+  padding-top: 5.5rem;
+  margin-top: calc(1rem - 5.5rem);   /* margin-block 1rem, pulled back */
+}
 .sign-table--tail-fit th:last-child,
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }
@@ -540,6 +554,10 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
   gap: 0.4rem 1.5rem;
   align-items: baseline;
   overflow-x: auto;
+  /* bubble headroom: a scroll container clips both axes (see the
+     .sign-table comment) — grow the clip box, not the layout */
+  padding-top: 5.5rem;
+  margin-top: -5.5rem;
 }
 
 .reading--script .reading-line { display: contents; }
@@ -592,8 +610,13 @@ sub { font-size: 0.72em; line-height: 0; }
 a.sign-link { text-decoration: none; color: inherit; position: relative; }
 a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
 
-/* Hover bubble: sign name · readings · meaning (pure CSS, no JS) */
+/* Hover bubble: sign name · readings · meaning (pure CSS, no JS).
+   Hidden bubbles must take NO geometry: display, not visibility —
+   a visibility-hidden bubble still contributes its box to a scroll
+   container's scrollable width (phantom sideways scroll, owner
+   report 2026-08-09). */
 .sign-tip {
+  display: none;
   position: absolute;
   left: 50%;
   bottom: calc(100% + 0.45em);
@@ -619,7 +642,6 @@ a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.
   line-height: 1.4;
   text-align: center;
   white-space: normal;
-  visibility: hidden;
   opacity: 0;
   transition: opacity 0.12s ease-in 0.08s;
   pointer-events: none;
@@ -629,8 +651,26 @@ a.sign-link:hover .sign-tip,
 a.sign-link:focus-visible .sign-tip,
 a.term:hover .sign-tip,
 a.term:focus-visible .sign-tip {
-  visibility: visible;
+  display: block;
   opacity: 1;
+}
+/* Fade-in across the display flip where supported; elsewhere the
+   bubble simply appears (the 0.08s delay still guards sweeps). */
+@starting-style {
+  a.sign-link:hover .sign-tip,
+  a.sign-link:focus-visible .sign-tip,
+  a.term:hover .sign-tip,
+  a.term:focus-visible .sign-tip { opacity: 0; }
+}
+
+/* Inside a scroll container the bubble may not cross the box's
+   left rim: pin it to its glyph's left edge (headroom above is
+   reserved by the container — see the .sign-table comment). */
+.sign-table .sign-tip,
+.reading--script .sign-tip {
+  left: 0;
+  transform: none;
+  text-align: left;
 }
 
 /* Glossary terms: dotted underline, bubble on hover, link to /terms/ */
