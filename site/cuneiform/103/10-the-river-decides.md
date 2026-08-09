@@ -72,6 +72,15 @@ can exist? — and hands the case to a judge no one can bribe.
           <em>a-wi-lim</em>, "of a man" — and this law's first
           accused wears it a few lines down</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[su]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/03-say-it-twice/#sign-1236A' | relative_url }}">102's knowing-sign</a>
+          softens to su: when -šu melts against a root's last
+          consonant — <em>ik-ta-ša-su</em>,
+          <span class="norm">iktašassu</span> — this sign writes
+          what the melt leaves</td>
+    </tr>
   </tbody>
 </table>
 

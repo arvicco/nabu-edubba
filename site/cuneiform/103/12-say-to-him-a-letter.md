@@ -48,6 +48,35 @@ every schoolchild drilled. Today you read real mail.
           MU ŠAR₂.KAM, "a 3600th-year," i.e. a lifetime with no
           end in sight</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒆠</td><td>KI</td><td>place</td><td>[qi]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-121A0' | relative_url }}">101's place-sign</a>
+          pressed to qi: the opener of <em>qi-bi-ma</em>,
+          "speak!" — this chapter's second word</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td>[bi]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/04-the-verbal-chain/#sign-12248' | relative_url }}">102's brazier-sign</a>
+          flames up as bi, the middle of <em>qi-bi-ma</em> —
+          fire lending the letter its voice</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒊑</td><td>RI</td><td>distant</td><td>[re]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12291' | relative_url }}">102's distant-sign</a>
+          gains its e-color: <em>a-ša-re-ed</em>, "foremost," in
+          the first address you read today</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[it/ed/et]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/05-the-verb-arrives/#sign-12009' | relative_url }}">chapter 05's arm</a>
+          spreads over its whole dental family, both vowel
+          colors — the addressee's <em>-re-ed</em> shows the
+          e; the rest of the family reports as it is met</td>
+    </tr>
   </tbody>
 </table>
 

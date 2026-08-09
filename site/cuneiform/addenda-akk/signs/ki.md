@@ -7,7 +7,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KI"
-reads: "[ki]"
+reads: "[ki/qi]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -27,7 +27,11 @@ contracts' Sumerian formulary — as its old self, opening
 
 **Place** twice over: the ground a festival stands on when it
 is a syllable, and the place a loan comes FROM when the
-notary's old Sumerian does the talking.
+notary's old Sumerian does the talking. And pressed to its
+emphatic twin, *qi*, the place-sign opens
+<span class="norm">qibīma</span>, "speak!" — every letter in
+Babylon begins on it
+(<a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">chapter 12</a>).
 
 ## In the wild
 

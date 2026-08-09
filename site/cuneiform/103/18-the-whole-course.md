@@ -51,6 +51,21 @@ answers him, and then puts the whole course on one page.
           self, before which the wronged man is told to
           stand</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[aṭ]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-1201C' | relative_url }}">chapter 03's father-sign</a>
+          completes its dental row — ad, at, and now aṭ:
+          <em>ša-aṭ-ra-am</em>, "the inscribed" stele
+          itself</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td>[qu]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-121AA' | relative_url }}">102's seizing-sign</a>
+          pressed to qu: <em>šu-qu-ra-tim</em>, "precious" —
+          the king's word for these very words</td>
+    </tr>
   </tbody>
 </table>
 
@@ -74,7 +89,7 @@ been waiting four thousand years to say to you:
     <div class="reading-line"><span class="script">𒋗𒆪𒊏𒁴</span><span class="translit">šu-qu-ra-tim</span><span class="gloss"><span class="norm">šūqurātim</span> — "the precious,"</span></div>
     <div class="reading-line"><span class="script">𒇷𒅖𒈨𒈠</span><span class="translit">li-iš-me-ma</span><span class="gloss"><span class="norm">lišmēma</span> — "let him hear, and"</span></div>
     <div class="reading-line"><span class="script">𒈾𒊒𒄿 𒀀𒉿𒌓</span><span class="translit">na-ru-i a-wa-tam</span><span class="gloss"><span class="norm">narûya awâtam</span> — "let my stele the matter"</span></div>
-    <div class="reading-line"><span class="script">𒇷𒃲𒅆𒋗</span><span class="translit">li-kal-lim-šu</span><span class="gloss"><span class="norm">likallimšu</span> — "show him:"</span></div>
+    <div class="reading-line"><span class="script">𒇷𒆗𒅆𒋗</span><span class="translit">li-kal-lim-šu</span><span class="gloss"><span class="norm">likallimšu</span> — "show him:"</span></div>
     <div class="reading-line"><span class="script">𒁲𒅔𒋗 𒇷𒈬𒌫</span><span class="translit">di-in-šu li-mu-ur</span><span class="gloss"><span class="norm">dīnšu līmur</span> — "let him SEE his case,"</span></div>
     <div class="reading-line"><span class="script">𒇷𒅁𒁀𒋗</span><span class="translit">li-ib-ba-šu</span><span class="gloss"><span class="norm">libbašu</span> — "his heart —"</span></div>
     <div class="reading-line"><span class="script">𒇷𒈾𒀊𒁉𒅖𒈠</span><span class="translit">li-na-ap-pi-iš-ma</span><span class="gloss"><span class="norm">linappišma</span> — "let it breathe."</span></div>
