@@ -94,6 +94,13 @@ meant for readers; nothing internal lands in `docs/`.
    - [ ] every link on the page resolves (html-proofer backs this,
          but read the page too)
    - [ ] real rendered geometry + the mobile breakpoint
+   - [ ] hover states probed: a static screenshot cannot hover, so
+         force one bubble visible (a probe page injecting
+         `display: block` on a .sign-tip) at each clip box's worst
+         corner — first line of a scrolling figure, first row of a
+         table (incident 2026-08-09: bubbles clipped by
+         overflow-x containers shipped past a hoverless pixel
+         review)
    - [ ] keyboard floor: navigation reachable and operable; semantic
          HTML (this site must work in a text browser — it has no JS)
    - [ ] against the previous screenshot: intended changes present,
