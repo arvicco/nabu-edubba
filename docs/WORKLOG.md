@@ -5,7 +5,7 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
-2026-08-09 · review round (Gate 14, item 17: readings never
+2026-08-09 · review round (Gate 14, ch17 review: readings never
 cite) + veteran-load rebalance · phase-14 · Owner: "KU3.BABBAR
 ŠU BA.AN.TI instead of PROPER reading in uppercase — are
 lints/rules even working?" Honest answer: the lints enforce
@@ -79,8 +79,8 @@ dated debt inside the check (a NEW use of any fails the gate);
 each is paid by teaching the value and deleting its debt row.
 Decision item D14-b: pay the debt this phase or next.
 
-2026-08-09 · review round (Gate 14, item 16: cut gloss text +
-reading-width law) · phase-14 · Owner: "new table set-up cuts
+2026-08-09 · review round (Gate 14, ch16 review: cut gloss text +
+reading-width law) · phase-14 · Owner (reviewing chapter by chapter; their message numbers are CHAPTER ordinals): "new table set-up cuts
 some of the text at the end of lines, need a mechanical rule."
 Cause: the three-column grid's minimum (script max-content +
 text-column floors + gaps) can exceed the measure, and the
@@ -157,7 +157,7 @@ silently dropped from its card. Verified by 1200/560 headless
 shots; the loan figure now shows its two languages at a
 glance.
 
-2026-08-09 · review round (Gate 14, item 11: reading columns) ·
+2026-08-09 · review round (Gate 14, ch16 review: reading columns) ·
 phase-14 · Owner: the ch16 law-197 figure "ugly/unbalanced."
 The one-visual-line fix had made each reading-line its own
 grid, so the max-content script column differed per row and
