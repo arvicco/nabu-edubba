@@ -173,6 +173,16 @@ its slot is named (owner report 2026-08-07: "the accusing-verb's
 middle consonant is b" — of which root?), so the reader always
 sees skeleton, then build, then form.
 
+A reading line is ONE visual line of script (owner report
+2026-08-08, after ch16's law-197 script wrapped mid-line and
+the transliteration no longer sat beside the signs it sounds):
+the script column sizes to its content and never wraps — a
+long tablet line scrolls within its figure rather than folding
+into false extra lines. Transliteration and gloss may wrap;
+the script may not. The mechanism is the reading-figure CSS
+(script column max-content + nowrap, figure-level overflow),
+which carries this law site-wide.
+
 Table cells hold forms and few-word glosses; sentence-length
 commentary lives in prose AROUND the table, never inside cells
 (owner report 2026-08-07: the stems table's Says column carried
@@ -465,3 +475,53 @@ content exists.
   transcription; each pronoun taught with a concrete line, never
   a bare paradigm; the paradigm table stays course-sized (the
   persons the readings actually use).
+
+### Stretch 3 (ruled 2026-08-08 at the phase-14 opening, before content)
+
+- **The perfect.** The third and last tense this course names:
+  iptaras, a -ta- after the first root consonant, glossed "has
+  done." Taught on the parallel model roots (§5 law — p-r-s
+  beside m-ḫ-ṣ), then every met -t- form re-parsed and slotted:
+  G perfect (ištebir, iktašassu's kašādum, ištalmam), D perfect
+  (uktīn, uḫtappid, ūtebbib). The šumma-clause tense chain —
+  preterite/perfect for the deeds, durative for the verdict —
+  is stated once, when first whole. ch09's "named where met"
+  hedge resolves into this chapter and links forward. Gt/Št
+  lexical stems stay named-where-met: the frontier.
+- **The dual.** Paid where the corpus uses it — paired body
+  parts (īnān "the two eyes") — displayed like the plural
+  (bound transcription, length marked), one table row beside
+  the plural's, never a full paradigm. ch02's hedge links
+  forward to it.
+- **Compound sumerograms.** When several signs write ONE
+  Akkadian word (GIR₃.PAD.RA₂ = eṣemtum, "bone"), the compound
+  is taught as one word: each NEW member sign's Reads bracket
+  carries the compound's single voice ([eṣemtum]) — the bracket
+  is always the voice — while Name, keyword and story keep the
+  member's own identity (GIR₃ the foot, PAD the ration).
+  Notes name the full compound on every member row; veteran
+  members (RA₂ is 102's DU crossing with a new value) route as
+  veterans with their sux bubbles. Codex pages mirror the same
+  identity/voice split, ENGUR-style.
+- **Contracts.** Legal-document readings enter from the CDLI OB
+  slice, attribution only — the deck law stands. The citation
+  identifies the document type (loan, sale) and parties when
+  known, plus the URN as ever. Witness lines translate "before
+  PN" (IGI routes per the veteran law); date formulae are
+  taught before the first one is read. Party names take §4
+  conventional forms in prose, exact forms in transliteration.
+- **Weights and fines.** Fines stay in the text's own units
+  (shekel, mina — the glossary carries the standing gram
+  values); a modern equivalence may appear once per chapter at
+  first mention, never per line.
+- **The Reference (course close).** ch18 closes the course in
+  the 101-ch12 / 102-ch18 mold: the full taught-sign table,
+  each glyph linking its codex page. Future courses link a 103
+  sign to its CHAPTER teaching-seat anchor (#sign-<cp> on the
+  chapter that taught it) — the site-wide convention; 101's
+  reference-page anchors are that course's own historical
+  seat. Veterans point at their original seats,
+  instrument-reported coverage (no invented numbers), the
+  frontier named honestly (omens, mathematics, Standard
+  Babylonian). Every standing lint applies — title-language,
+  tail-fit width budgets, the two-codex checks.

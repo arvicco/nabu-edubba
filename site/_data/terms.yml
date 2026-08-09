@@ -246,3 +246,16 @@ terms:
     school: akk
     slug: imperative
     def: "the naked command form of a verb, no prefix at all — qibīma, \"speak!\"; šūbilam, \"send it!\""
+  - name: perfect
+    school: akk
+    scope: /cuneiform/
+    slug: perfect
+    def: "the Akkadian verb shape for what HAS happened — a -ta- slipped in after the first root consonant: iptaras \"he has decided\", uḫtappid \"he has blinded\"; the laws use it for the newest deed in a chain"
+  - name: dual
+    scope: /cuneiform/
+    slug: dual
+    def: "a grammatical number for exactly two, beyond singular and plural — Akkadian keeps it for natural pairs: īnān, \"the two eyes\""
+  - name: year-name
+    scope: /cuneiform/
+    slug: year-name
+    def: "Babylon's dating system: years carry no numbers — each is NAMED for a royal deed (\"the year Immerum built Inanna's temple\"); the scribes' lists of these names are how we order their history"

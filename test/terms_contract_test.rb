@@ -38,4 +38,13 @@ class TermsContractTest < Minitest::Test
                       "term #{t['name']} scopes unknown glossary #{t['school'].inspect}"
     end
   end
+
+  def test_scope_prefixes_are_site_absolute
+    TERMS.each do |t|
+      next unless t["scope"]
+
+      assert t["scope"].start_with?("/") && t["scope"].end_with?("/"),
+             "term #{t['name']} scope #{t['scope'].inspect} must be a /…/ URL prefix"
+    end
+  end
 end

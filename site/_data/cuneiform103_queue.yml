@@ -96,6 +96,32 @@ batches:
   signs:
   - TE
   coverage_akkob_pct: 75.2
+- chapter: 15
+  signs:
+  - AZ
+  - TA (vet)
+  - MAH (vet)
+  coverage_akkob_pct: 75.3
+- chapter: 16
+  signs:
+  - GIR3
+  - PAD
+  - AH
+  - DU (vet)
+  coverage_akkob_pct: 75.7
+- chapter: 17
+  signs:
+  - MASZ2
+  - GIN2
+  - INANNA
+  - KI (vet)
+  coverage_akkob_pct: 75.7
+- chapter: 18
+  signs:
+  - AR
+  - UR2
+  - ALAN
+  coverage_akkob_pct: 76.4
 signs:
 - glyph: "\U000122AD"
   codepoint: 122AD
@@ -537,3 +563,137 @@ signs:
   certainty: unclear
   chapter: 14
   keyword: approach
+- glyph: "\U0001228D"
+  codepoint: 1228D
+  name: AZ
+  value: as, az, as,
+  osl_name: "|PIRIG×ZA|"
+  meaning: the bear in the lists; one sign for three tails — as, az, and the pressed
+    aṣ
+  freq_akkob: 585
+  certainty: stated
+  chapter: 15
+  keyword: bear
+- glyph: "\U000122EB"
+  codepoint: 122EB
+  name: TA
+  value: ta
+  veteran: true
+  keyword: from
+  meaning: 'veteran — TA gains [ta]: the perfect''s own marker, im-ta-ḫa-aṣ'
+  chapter: 15
+- glyph: "\U00012224"
+  codepoint: '12224'
+  name: MAH
+  value: mah
+  veteran: true
+  keyword: exalted
+  meaning: 'veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, "he shall be struck"'
+  chapter: 15
+- glyph: "\U0001210A"
+  codepoint: 1210A
+  name: GIR3
+  value: es,emtum
+  display_value: eṣemtum
+  meaning: the foot, the path; never voiced alone here — with PAD.DU it writes eṣemtum,
+    "bone"
+  certainty: classic
+  chapter: 16
+  keyword: path
+- glyph: "\U0001227B"
+  codepoint: 1227B
+  name: PAD
+  value: es,emtum
+  display_value: eṣemtum
+  meaning: a morsel, a ration; the middle of the bone-compound GIR₃.PAD.RA₂
+  certainty: stated
+  chapter: 16
+  keyword: morsel
+- glyph: "\U00012134"
+  codepoint: '12134'
+  name: AH
+  value: ah, eh, uh
+  osl_name: "|HI×NUN|"
+  meaning: a pure syllable — the throat's breath in three colors; me-eḫ-ri-šu, "his
+    equal"
+  freq_akkob: 2771
+  certainty: unclear
+  chapter: 16
+  keyword: sigh
+- glyph: "\U0001207A"
+  codepoint: 1207A
+  name: DU
+  value: ra2
+  veteran: true
+  keyword: go
+  meaning: 'veteran — DU gains [ra₂]: the third sign of the bone-compound'
+  chapter: 16
+- glyph: "\U00012227"
+  codepoint: '12227'
+  name: MASZ2
+  value: masz2
+  display_value: maš
+  meaning: 'the kid goat — and the interest on a loan: growth measured the herdsman''s
+    way'
+  freq_akkob: 19
+  certainty: stated
+  chapter: 17
+  keyword: kid
+- glyph: "\U00012086"
+  codepoint: '12086'
+  name: GIN2
+  value: sziqlum
+  display_value: šiqlum
+  osl_name: DUN₃@g
+  meaning: 'the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves
+    in'
+  certainty: stated
+  chapter: 17
+  keyword: shekel
+- glyph: "\U00012239"
+  codepoint: '12239'
+  name: INANNA
+  value: isztar
+  display_value: Ištar
+  osl_name: MUŠ₃
+  meaning: the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian
+    mouths
+  certainty: classic
+  chapter: 17
+  keyword: goddess
+- glyph: "\U000121A0"
+  codepoint: 121A0
+  name: KI
+  value: ki
+  veteran: true
+  keyword: place
+  meaning: 'veteran — KI gains [ki]: plain syllable; its old self still says "from"'
+  chapter: 17
+- glyph: "\U00012148"
+  codepoint: '12148'
+  name: AR
+  value: ar
+  osl_name: "|IGI.RI|"
+  meaning: praise, glory in the lists; here the syllable of maḫar, "before"
+  freq_akkob: 4488
+  certainty: stated
+  chapter: 18
+  keyword: praise
+- glyph: "\U0001232B"
+  codepoint: 1232B
+  name: UR2
+  value: ur2
+  meaning: the lap — a body's base; foundations in the lists
+  freq_akkob: 1465
+  certainty: stated
+  chapter: 18
+  keyword: lap
+- glyph: "\U00012029"
+  codepoint: '12029'
+  name: ALAN
+  value: s,almum
+  display_value: ṣalmum
+  meaning: the statue — a person's standing image; written ALAN, spoken ṣalmum
+  certainty: classic
+  chapter: 18
+  keyword: statue

@@ -35,11 +35,13 @@ the ability to look at a real tablet and read it.
   through proverbs, Šulgi's royal hymn, and the opening of Gudea's
   temple cylinders.
 - **[103 · Akkadian]({{ '/cuneiform/103/' | relative_url }})** —
-  **open: two stretches live, fifteen chapters.** The same signs, a
-  new language: Old Babylonian Akkadian read straight into the Codex
-  Hammurapi — the prologue, laws 1 and 2 whole, an eye for an eye
-  in the original, real letters, and the epilogue where the king
-  signs his name anāku, "I am he."
+  **complete: nineteen chapters.** The same signs, a new
+  language: Old Babylonian Akkadian read straight into the Codex
+  Hammurapi — the prologue, laws read whole from murder to
+  tooth-for-tooth, real letters, a Sippar loan contract, the
+  king's own invitation to read — and a Reference closing the
+  course at three of every four signs on an Old Babylonian
+  tablet.
 - **2xx · The wider cuneiform world** — planned. One course per adapted
   tradition:
   - Hittite — planned.
@@ -71,7 +73,7 @@ Sumerian shelf.
 
 ## A note on where things stand
 
-101 and 102 are complete, and 103 has two stretches live;
+101, 102 and 103 are complete;
 everything below them is plan, not promise. Course numbers and scope for the later
 courses are still to be firmed up as curriculum design proceeds. If
 you'd like to see the wider project, go

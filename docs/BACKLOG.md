@@ -638,7 +638,14 @@ the school); C103 veterans link to the akk codex.
 ## M12-5 · šumma awīlum  [tier: top — Fable] [status: done — ch 06-07: law 1 (one honest box, then none), the creed; 26 akk codex pages]
 ## M12-6 · Stitching + surface review, gate PR  [tier: top] [status: done — C AKK Addenda + signs shelf, catalogs, akk codex checks flipped live, fonts, pixels]
 
-## Phase 13 — C103 Akkadian, stretch 2 (plan pending owner approval)
+## Phase 13 — C103 Akkadian, stretch 2 (Gate 13 CLOSED — PR #17
+merged 2026-08-08, CI + deploy green, live pixels verified;
+seven review rounds, each closing a rule class: §5
+mechanism-demonstrated / one-model-verb / parallel roots /
+root-before-slot, table width budget + tail-fit-width lint,
+§9 bracket-is-the-voice + the ID₂/Id chain,
+shows-never-licenses-a-reading + course check, title-language
+lint; D13-a open on hieroglyphs frames)
 
 Source: owner pick 2026-08-06 ("AKK stretch next"). Honors stretch
 1's three promises: the D/Š/N stems named (ch05 footnote), the
@@ -675,3 +682,28 @@ end, lifting the Gate-12 deferral.
   an exemption or the same ban. Needs an owner ruling + a
   hieroglyphs-rulebook entry; the mechanical check is scoped to
   cuneiform until then.
+
+## Phase 14 — C103 Akkadian, stretch 3: the course closed (plan approved 2026-08-08)
+
+Source: owner pick 2026-08-08 ("C103 stretch 3, let's wrap up
+Akk"), plan approved same day. Pays every standing debt (ch02
+dual, ch09 perfect hedge, ch11 bone law in signs, ch14 contracts
+promise) and closes the course at ch18 with its Reference.
+Detailed plan: .docs/phase-14-plan.md.
+
+## M14-1 · The stretch-3 law  [tier: top — Fable] [status: done — §9 stretch-3 (perfect, dual, compound sumerograms, contracts, weights, Reference), perfect/dual terms + term-scope guard]
+   Rulebook §9 stretch-3: perfect, dual, compound sumerograms,
+   contracts, weights, Reference conventions; terms perfect +
+   dual with the new term-scope guard. No content until this
+   lands.
+## M14-2 · Instruments  [tier: mid] [status: done — reading map + pins in .docs/phase-14-plan.md; 10 new signs OSL-pinned (1+3+3+3, all within the 1–3 law); contract picked (PBS 8/2, 195 = p257793, attribution); ch18 close = the epilogue invitation a:3240'–3256'; LU stays reserve, stated honestly] [deps: M14-1]
+   pool-103 stretch-3 pins (nabu signs --lang=akk), contract
+   pick (CDLI OB legal, attribution only), coverage report,
+   reading map + pins appended to the plan.
+## M14-3 · ch 15 — the perfect  [tier: top — Fable] [status: done — iptaras on both model roots, law 202 whole (▢▢▢ whip line), law-1 melody stated, bone-law verbs in signs; AZ + TA/MAḪ veterans, 3 codex pages, 50-card deck] [deps: M14-2]
+## M14-4 · ch 16 — eye, tooth, bone + dual  [tier: top — Fable] [status: done — law 197 paid in signs, law 200 whole (meḫrišu), scale of persons in transcription, dual paid; GIR₃/PAD/AḪ + DU veteran, 4 codex pages, 54-card deck, 75.7%] [deps: M14-3]
+## M14-5 · ch 17 — a contract  [tier: top — Fable] [status: done — PBS 8/2, 195 whole (obverse + year-name + 2 witnesses), two-languages-one-tablet teaching, EN.ZU rebus, year-name term; MAŠ₂/GIN₂/INANNA + KI veteran, 4 codex pages, 58-card deck] [deps: M14-4]
+## M14-6 · ch 18 + catalogs — close + Reference  [tier: top — Fable] [status: done — the invitation read whole (17 lines, precative festival), tense×stem grid with honest dashes, queue-driven Reference table with anchors, 76.4% final coverage, frontier; AR/UR₂/ALAN, 3 codex pages, catalogs flipped to complete] [deps: M14-5]
+## M14-7 · Retrieval mirror update  [tier: mid] [status: done — deal includes all stretch-3 signs (build-verified), deck 61 cards with loan lines, decks-page provenance line updated, Reference-anchor law reconciled with the site-wide chapter-seat convention] [deps: M14-6]
+   akk drills + deck regenerated; decks page counts.
+## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: done — built-site structural review (nav, term bubbles, reference rows, drill deal), WORKLOG, PR #18] [deps: M14-7]
