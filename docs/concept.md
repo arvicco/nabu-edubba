@@ -72,7 +72,7 @@ owner when we get closer:**
 |------|--------|-------|
 | 1 | **Cuneiform** | The flagship. Names the project, deepest Nabu support (CDLI, Oracc, eBL), richest open-questions material. |
 | 2 | **Egyptian hieroglyphs** | Second great logophonetic tradition; Nabu has TLA, Coptic Scriptorium. |
-| 3 | **Hanzi / Kanji** | The living logographic tradition; huge audience; Nabu has Kanripo, CBETA, Unihan, IDS decompositions, Old Japanese. |
+| 3 | **Sinographs** | The characters across all their uses — hanzi, kanji, hanja, chữ Hán. Classical-first (ruling 2026-08-09, §7): Literary Chinese and the script's history, not modern-language instruction. Nabu has Kanripo, CBETA, Unihan, IDS decompositions, Old Japanese. |
 | 4+ | Alphabet lineage · Devanagari & Brahmic · syllabaries · runes & ogham · Maya · Hangul · the undeciphered | Candidate pool; ordering deferred. |
 
 Each wave ships as its own phase-group of the dev loop — the site is
@@ -113,8 +113,9 @@ curriculum design):
 
 The same shape applies to every school — e.g., Egyptian: 101
 foundations, 102 Middle Egyptian literacy, 2xx hieratic / demotic /
-Coptic / Ptolemaic; Hanzi/Kanji: 101 how hanzi work, 102 Classical
-Chinese, 103 Japanese (kanji + kana), 2xx onward. A wave is *opened*,
+Coptic / Ptolemaic; sinographs: 101 how the characters work, 102
+Literary Chinese, 103 the script's own history, 2xx kanbun and Old
+Japanese onward (ladder ruled 2026-08-09). A wave is *opened*,
 not *finished*: wave 1 minimally means Cuneiform 101 plus the start of
 a literacy track, with later courses added in subsequent phases.
 
@@ -312,6 +313,31 @@ permission profile). Specifics for this repo:
   ordering deferred to the owner closer to the time.
 - Authorship stated **in README only**; **GitHub Issues** is the
   feedback loop.
+
+### Wave-3 rulings (2026-08-09)
+
+- The third school is named **sinographs** (slug `/sinographs/`) —
+  the field's umbrella term for the characters across all their
+  uses; the "Hanzi/Kanji" placeholder is renamed throughout, with
+  the already-published `/hanzi/` URL kept as a redirect stub.
+- **Classical-first:** the school teaches the historic tradition —
+  Literary Chinese (wenyan), the script's own history, old Japanese
+  later — not modern Chinese/Japanese writing, which existing tools
+  already serve well; where a modern tool does a job, the school
+  points at it instead of duplicating it.
+- **Voice of readings: modern Mandarin pinyin**, displayed with tone
+  diacritics, never tone numbers (ASCII indices only in
+  verbatim-source exhibits — the subscript-index law's shape,
+  adopted in advance). Later courses add their own voices (kanbun:
+  Japanese kundoku).
+- **Every character carries a keyword**, unique school-wide —
+  Heisig's where his keyword is the plain classical sense, grounded
+  in the historic meaning where that is better justified.
+- **Old-form glyphs** (oracle bone, seal): scout vendorable
+  license-verified fonts; public-domain *Shuowen* imagery is the
+  fallback if nothing licensable renders.
+
+Details and the machine-checkable subset: docs/courses/sinographs.md.
 
 ## 8. Open items
 
