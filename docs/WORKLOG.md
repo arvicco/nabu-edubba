@@ -5,6 +5,36 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · M15-3 · phase-15 · The classical-corpus frequency
+instrument, first of its family for the sinograph school.
+bin/sino_freq.rb (the hiero_freq mold) streams Nabu's kanripo
+jsonl export — 4,571,394 lzh passages, license verified CC BY-SA
+by the same-day scout (.docs/scouts/sino-corpus-licenses.md) —
+and counts every Han character: 721,813,636 tokens, 28,368
+distinct characters, with a doc-spread column (texts containing
+the character, of 5,122) so no single giant text can masquerade
+as the whole tradition. Top 3,000 rows (95.9% of the corpus —
+the frequency argument for the school in one number) annotated
+from Unihan (kTotalStrokes, kMandarin — diacritics native, the
+display law's friend) and BabelStone IDS (component structure
+for the simplicity axis). Head of the table is the canonical
+wenyan profile: 之不以也而其人為有者. Catches: BabelStone
+IDS.TXT is BOM + CRLF with ^IDS$(sources) markers — the first
+parser draft ate the whole sequence via the leading caret;
+17 of the top 3,000 are edition-variant glyphs (𤣥/䝉/𫝊 …)
+with no kMandarin — honest woodblock fidelity, variant folding
+deferred to queue time (Unihan_Variants.txt is synced next
+door). Table at assets-src/data/char-freq-kanripo.tsv with
+provenance + license header; unit tests for the parsing units.
+Also this batch: both delegated scout reports filed
+(.docs/scouts/) — corpus licenses (Kanripo primary, Wikisource
+second, ctext/CBETA avoided) and old-form glyphs (seal =
+vendorable Quanziku Shuowen TTF under OGDL-Taiwan-1.0; oracle
+bone/bronze = committed CC0/PD imagery from 小學堂 and the
+Commons ACC project; Unicode 18's seal block lands Sept 2026,
+the migration path, not the present) — D15-b closes at scout
+level; S103 is feasible.
+
 2026-08-09 · M15-1 + M15-2 · phase-15 · Wave 3 opens. Owner rulings
 recorded (concept §7, dated block): the third school is named
 sinographs, teaches the historic tradition classical-first (wenyan,

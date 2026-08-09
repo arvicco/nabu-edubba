@@ -731,14 +731,17 @@ Goal: the ratified name site-wide; the live /hanzi/ URL never breaks.
 Acceptance: gate green (html-proofer resolves both pages); redirect
       carries a visible link, meta refresh, noindex.
 
-## M15-3 · Classical-corpus frequency instrument  [tier: top — first-of-family instrument, ordering methodology] [status: ready] [deps: M15-1]
-Goal: bin/ instrument computing character frequency over a licensed
-      classical slice (Kanripo base; license verified first) merged
-      with simplicity (Unihan strokes, IDS components) per concept
-      §3.1; committed table under site/_data/ (frozen contract).
-Acceptance: deterministic over committed inputs; contract test for
-      the data-file shape in the same commit; license class recorded
-      per source.
+## M15-3 · Classical-corpus frequency instrument  [tier: top — first-of-family instrument, ordering methodology] [status: done — 721.8M tokens / 28,368 chars over 4.57M Kanripo passages; top-3000 = 95.9% coverage; canonical wenyan head 之不以也而; 17 top rows are edition-variant glyphs (no kMandarin), variant folding deferred to queue time] [deps: M15-1]
+Goal: bin/ instrument computing character frequency over the
+      license-verified Kanripo corpus (CC BY-SA 4.0, scout
+      2026-08-09) merged with simplicity inputs (Unihan strokes,
+      Mandarin readings, BabelStone IDS) per concept §3.1; committed
+      table at assets-src/data/char-freq-kanripo.tsv (the
+      hiero-freq-aes precedent — the frozen site/_data contract
+      arrives with the first queue, at content time).
+Acceptance: unit tests for the parsing/counting units in the same
+      commit; table committed with provenance + license header;
+      doc-spread column beside raw counts.
 
 ## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: blocked: D15-a] [deps: M15-3]
 Goal: orientation + first chapters of Sinographs 101 in the wave-1
@@ -753,7 +756,13 @@ Acceptance: gate green incl. pinyin-display lint + keyword-uniqueness
   the classical corpus writes them; simplified as later-hand notes,
   never the teaching base. RECOMMENDED, ruling pending — blocks
   first content (M15-4).
-- D15-b · Old-form glyph fonts: scout vendorable license-verified
-  fonts (BabelStone OBI et al.) before S103 is scheduled; ruled
-  fallback (2026-08-09) is public-domain Shuowen imagery. Blocks
-  S103 scheduling only.
+- D15-b · Old-form glyph fonts — SCOUTED 2026-08-09
+  (.docs/scouts/sino-oldform-glyphs.md): seal is coverable by a
+  vendorable font (CNS11643 Quanziku Shuowen seal TTF,
+  OGDL-Taiwan-1.0, explicitly CC BY 4.0-compatible, 6,721 glyphs
+  on ordinary codepoints); oracle bone/bronze have NO vendorable
+  font (Unicode has no block; best-coverage fonts non-
+  redistributable) — committed CC0/PD images instead (Academia
+  Sinica 小學堂 CC0 dedication; Commons ACC project PD SVGs), in
+  line with the ruled Shuowen fallback. S103 is feasible; the
+  rulebook §6 law lands when S103 is scheduled.
