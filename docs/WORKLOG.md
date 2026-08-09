@@ -5,6 +5,42 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · M15-1 + M15-2 · phase-15 · Wave 3 opens. Owner rulings
+recorded (concept §7, dated block): the third school is named
+sinographs, teaches the historic tradition classical-first (wenyan,
+script history, old Japanese later — never re-teaching modern
+Chinese/Japanese), readings voiced in Mandarin pinyin with tone
+diacritics never tone numbers (the subscript-index law's shape,
+adopted BEFORE content this time), every character carries a unique
+keyword (Heisig's where his keyword is the plain classical sense,
+historic sense where better justified — assigned from Kroll-class
+dictionary senses, never copied as a list: pedagogy and CC BY-SA
+cleanliness agree), Shuowen public-domain imagery as the old-form
+glyph fallback. docs/courses/sinographs.md written before any
+content per the rulebook-first law. Site rename: /sinographs/
+school page with the ruled catalog; the live /hanzi/ URL kept as a
+layoutless redirect stub (meta refresh + visible link + noindex) —
+first Jekyll attempt got double-wrapped by the default layout
+(nested html documents in the built page); `layout: none` is the
+fix, verified in _build. D15-a (traditional forms base) left
+pending — blocks first content, not the scaffold.
+
+2026-08-09 · INCIDENT · Gate 14 merged short — twelve commits
+missed the PR. PR #18 was merged while origin/phase-14 still sat
+at fe7b87b; the entire second review round (18cbc51..b811b62:
+one-grid figures, the green voice-marking law, tooltip escape,
+value-coverage gate + reading-width law, D14-b debt, veterans
+purge, rebus names, ch19 Reference) was committed locally but
+never pushed — the live site lacked every review fix while the
+worklog called them shipped. Root cause: the loop pushed early
+in the review rounds, then kept committing without pushing, and
+the owner merged on the (correct at its moment) "ready" signal.
+Durable fix: PR #19 opened with the remainder (gate re-verified
+green at b811b62 first); lesson — a "ready to merge" handoff, and
+every review-round turn end, includes `git push` + an
+origin-matches-local check (`git status -sb` shows no "ahead");
+never report a round shipped until origin has it.
+
 2026-08-09 · review round (Gate 14, course-close review: the
 Reference unstuffed) · phase-14 · Owner: why are "Every sign
 taught" and the grammar summary stuffed into the close chapter

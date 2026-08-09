@@ -707,3 +707,53 @@ Detailed plan: .docs/phase-14-plan.md.
 ## M14-7 · Retrieval mirror update  [tier: mid] [status: done — deal includes all stretch-3 signs (build-verified), deck 61 cards with loan lines, decks-page provenance line updated, Reference-anchor law reconciled with the site-wide chapter-seat convention] [deps: M14-6]
    akk drills + deck regenerated; decks page counts.
 ## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: done — built-site structural review (nav, term bubbles, reference rows, drill deal), WORKLOG, PR #18] [deps: M14-7]
+
+---
+
+## Phase 15 — wave 3 opens: the sinograph school (rulings 2026-08-09)
+
+Source: owner directive 2026-08-09 (post-Gate-14): plan the third
+school under a better semantic name, focused on applying modern
+techniques to the HISTORIC tradition, not re-teaching modern
+Chinese/Japanese. Rulings same day: name sinographs, classical-first
+thesis, pinyin voice (diacritics never indices), keyword law,
+Shuowen glyph fallback. Consideration: .docs/sinograph-school-scout.md;
+plan: .docs/phase-15-plan.md.
+
+## M15-1 · Ratification record + rulebook  [tier: top — owner-ruled domain recording] [status: done — concept §2/§3/§7 + docs/courses/sinographs.md skeleton, rulebook before content] [deps: --]
+Goal: wave-3 rulings recorded in concept.md; sinograph rulebook
+      written before any content, ruled laws only, proposals marked.
+Acceptance: rake gate green; rulebook exists; concept §7 carries the
+      dated rulings.
+
+## M15-2 · School rename hanzi → sinographs  [tier: top] [status: done — /sinographs/ page (ruled catalog), /hanzi/ layoutless redirect stub, card/accents/body-class renamed] [deps: M15-1]
+Goal: the ratified name site-wide; the live /hanzi/ URL never breaks.
+Acceptance: gate green (html-proofer resolves both pages); redirect
+      carries a visible link, meta refresh, noindex.
+
+## M15-3 · Classical-corpus frequency instrument  [tier: top — first-of-family instrument, ordering methodology] [status: ready] [deps: M15-1]
+Goal: bin/ instrument computing character frequency over a licensed
+      classical slice (Kanripo base; license verified first) merged
+      with simplicity (Unihan strokes, IDS components) per concept
+      §3.1; committed table under site/_data/ (frozen contract).
+Acceptance: deterministic over committed inputs; contract test for
+      the data-file shape in the same commit; license class recorded
+      per source.
+
+## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: blocked: D15-a] [deps: M15-3]
+Goal: orientation + first chapters of Sinographs 101 in the wave-1
+      mold (signs from ch00, keyword law live, pinyin display law
+      live), codex shelf started.
+Acceptance: gate green incl. pinyin-display lint + keyword-uniqueness
+      check landing with the first content commit.
+
+## Decision items — Phase 15
+
+- D15-a · Character forms (was D-W3c): traditional (kaishu) base as
+  the classical corpus writes them; simplified as later-hand notes,
+  never the teaching base. RECOMMENDED, ruling pending — blocks
+  first content (M15-4).
+- D15-b · Old-form glyph fonts: scout vendorable license-verified
+  fonts (BabelStone OBI et al.) before S103 is scheduled; ruled
+  fallback (2026-08-09) is public-domain Shuowen imagery. Blocks
+  S103 scheduling only.
