@@ -69,14 +69,6 @@ every schoolchild drilled. Today you read real mail.
           gains its e-color: <em>a-ša-re-ed</em>, "foremost," in
           the first address you read today</td>
     </tr>
-    <tr>
-      <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[it/ed/et]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/05-the-verb-arrives/#sign-12009' | relative_url }}">chapter 05's arm</a>
-          spreads over its whole dental family, both vowel
-          colors — the addressee's <em>-re-ed</em> shows the
-          e; the rest of the family reports as it is met</td>
-    </tr>
   </tbody>
 </table>
 

@@ -30,7 +30,7 @@ money is breeding.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> 𒅇 <span class="logo">𒈧𒁉</span></span><span class="translit"><span class="logo">KU₃.BABBAR</span> u <span class="logo">MAŠ₂.BI</span></span><span class="gloss">"the silver and its interest" — the repayment clause of a Sippar loan</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> 𒅇 <span class="logo">𒈧𒁉</span></span><span class="translit"><span class="logo">KASPAM</span> u <span class="logo">MAŠ₂-BI</span></span><span class="gloss">"the silver and its interest" — the repayment clause of a Sippar loan</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse 10.

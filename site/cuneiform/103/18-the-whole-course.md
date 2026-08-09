@@ -52,14 +52,6 @@ answers him, and then puts the whole course on one page.
           stand</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[aṭ]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-1201C' | relative_url }}">chapter 03's father-sign</a>
-          completes its dental row — ad, at, and now aṭ:
-          <em>ša-aṭ-ra-am</em>, "the inscribed" stele
-          itself</td>
-    </tr>
-    <tr>
       <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td>[qu]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-121AA' | relative_url }}">102's seizing-sign</a>

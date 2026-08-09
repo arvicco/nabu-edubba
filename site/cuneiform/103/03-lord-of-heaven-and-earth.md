@@ -46,11 +46,12 @@ stele's opening is built out of it.
           <span class="norm">bēl</span></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at]</td>
+      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at/aṭ]</td>
       <td>father</td>
       <td>the picture is a father in the oldest lists; the sound
           will close <em>ši-ma-at</em>, "destinies," four lines
-          from now</td>
+          from now — one sign for the whole dental row, its
+          pressed aṭ reporting when it is met</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[ši]</td>

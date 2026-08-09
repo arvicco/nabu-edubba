@@ -570,15 +570,23 @@ content exists.
   inflected form the line's bound transcription commits to
   (EṢEMTI / EṢEMTA-šu, MĀTIM, ŠANAT ŠĀR; BĪT-su with the norm
   showing the melt to bīssu); suffixes written with
-  syllabograms stay lowercase outside the mark. Where the
-  course commits to NO Akkadian voice — the Sumerian notary
-  frame of contracts (KI, ŠU BA.AN.TI, I₃.LA₂.E, MU E₂
-  {d}INANNA, IGI) and broken lines whose norm is elided
-  (MAŠ₂ … GIN₂) — the stretch stands in its Sumerian values,
-  CAPS with their field-standard indexes, marked the same
-  green: the color means "not sounded as Akkadian syllables,"
-  and the printed word itself tells you which language holds
-  the pen (ch17 teaches the distinction where it is first met).
+  syllabograms stay lowercase outside the mark. A sumerogram
+  with a TAUGHT voice speaks it wherever it stands — KASPAM
+  even inside a Sumerian frame clause (its table row committed
+  to "spoken kaspum"). Where the course commits to no Akkadian
+  voice — the Sumerian notary frame of contracts (KI, ŠU
+  BA-AN-TI, I₃-LA₂-E, MU E₂ {d}INANNA, IGI) and broken lines
+  whose norm is elided (MAŠ₂ … GIN₂) — the stretch stands in
+  its Sumerian VALUES, caps with their field-standard indexes,
+  marked the same green: the color means "not sounded as
+  Akkadian syllables," and the printed word itself tells you
+  which language holds the pen (ch17 teaches the distinction
+  where it is first met). *Amended 2026-08-09 (owner report:
+  KU₃.BABBAR ŠU BA.AN.TI mid-reading): a reading READS, it
+  never CITES — the citation dot is sign-list filing
+  punctuation and never appears in a reading transliteration;
+  Sumerian values hyphenate (ŠU BA-AN-TI), voices speak.
+  Enforced by the reading-cites lint.*
 - **Names stay names.** Personal and divine names keep their
   standing transliteration ({d}utu, {d}suen-i-mi-ti), unmarked;
   a name inside a marked frame stretch ({d}INANNA in a

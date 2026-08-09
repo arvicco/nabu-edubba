@@ -163,8 +163,6 @@ signs:
   codepoint: 121F7
   name: LI
   value: li, le
-  value_seats:
-    le: 8
   meaning: "[li/le]; a juniper in the lists"
   freq_akkob: 10
   certainty: unclear
@@ -248,8 +246,6 @@ signs:
   codepoint: 1201C
   name: AD
   value: ad, at, at,
-  value_seats:
-    at,: 18
   meaning: father
   freq_akkob: 45
   certainty: classic
@@ -328,10 +324,6 @@ signs:
   codepoint: '12009'
   name: A2
   value: id, it, ed, et
-  value_seats:
-    it: 12
-    ed: 12
-    et: 12
   veteran: true
   meaning: 'veteran — A₂ gains [id/it/ed/et]: the dental family, both vowel colors'
   freq_akkob: 101

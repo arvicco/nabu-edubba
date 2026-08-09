@@ -5,6 +5,33 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, item 17: readings never
+cite) + veteran-load rebalance · phase-14 · Owner: "KU3.BABBAR
+ŠU BA.AN.TI instead of PROPER reading in uppercase — are
+lints/rules even working?" Honest answer: the lints enforce
+only what has been RULED, and the dotted frame display was
+this author's own unruled design choice in the voice-marking
+round — a gap in law, not a broken check. Now ruled (§9): a
+reading READS, it never CITES — the dot is sign-list filing
+punctuation; Sumerian frame stretches hyphenate their values
+(ŠU BA-AN-TI, I₃-LA₂-E, MAŠ₂-BI) and a sumerogram with a
+taught voice speaks it wherever it stands (KASPAM even inside
+the frame clause — its table row committed to "spoken
+kaspum"). Enforced by the new reading-cites lint (no dot
+between letters/digits in a cuneiform reading translit;
+hieroglyph Leiden dots and editorial [...] out of scope), which
+would have caught the original. Rebalance (owner: ch12
+overloaded at 3+4 while 4/13/14 sit light): moving signs INTO
+light chapters would violate the thematic no-filler ruling, so
+the fix folds FAMILY values into their signs' original
+brackets, IR [ir/er] / AZ [as/az/aṣ] style — LI [li/le] at
+ch01, AD [ad/at/aṭ] at ch03, A₂ [id/it/ed/et] at ch05, each
+note saying the sibling "reports when met" — and drops the
+now-redundant veteran rows: ch08 3+2, ch12 3+2, ch18 3+1.
+Only genuinely NEW voices (lim, qi, bi, re, su, šar, qa, ṭi,
+ṣa, qu) keep first-use rows. Registry seats follow the rows;
+codex prose aligned; deck regenerated.
+
 2026-08-09 · D14-b · phase-14 · The sixteen-value debt paid in
 full, same day, owner-ruled "now, spread across chapters."
 Fourteen veteran-value teachings seated at first use — ch08
