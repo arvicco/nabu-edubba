@@ -528,13 +528,19 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 /* One tablet line is ONE visual line of script (rulebook §5):
    the script column takes its content's width and never wraps;
    a long line scrolls inside the figure, never folding into
-   false extra lines beside an unwrapped transliteration. */
-.reading--script .reading-lines { overflow-x: auto; }
-
-.reading--script .reading-line {
+   false extra lines beside an unwrapped transliteration.
+   The whole figure is ONE grid (lines contribute cells via
+   display: contents), so the script column is sized by the
+   widest line and translit/gloss align across all rows. */
+.reading--script .reading-lines {
+  display: grid;
   grid-template-columns: max-content minmax(9rem, 1.1fr) minmax(12rem, 1.4fr);
+  gap: 0.4rem 1.5rem;
   align-items: baseline;
+  overflow-x: auto;
 }
+
+.reading--script .reading-line { display: contents; }
 
 .reading--script .script {
   font-size: 1.5rem;
@@ -543,7 +549,8 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 }
 
 @media (max-width: 480px) {
-  .reading-line, .reading--script .reading-line { grid-template-columns: 1fr; }
+  .reading-line { grid-template-columns: 1fr; }
+  .reading--script .reading-lines { grid-template-columns: 1fr; }
   .reading-line .gloss { padding-left: 1rem; }
 }
 
