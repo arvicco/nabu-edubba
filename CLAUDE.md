@@ -172,11 +172,13 @@ bin/            authoring-time instruments (curriculum compiler; talks
 ## Current phase
 
 Phase 15 — wave 3 opens: the sinograph school (rulings
-2026-08-09: name "sinographs", classical-first thesis, pinyin
-voice with tone diacritics never indices, per-character
-keyword law, Shuowen glyph fallback). Rulebook + site rename
-landed; next: corpus/frequency instrument (M15-3), then S101
-content (blocked on D15-a, character forms).
+2026-08-09/10: name "sinographs", classical-first thesis,
+pinyin voice with tone diacritics never indices, per-character
+keyword law, traditional-forms base, characters-display-bigger
+size law, Shuowen glyph fallback). Rulebook, site rename, and
+the Kanripo frequency instrument (721.8M tokens) landed; in
+progress: S101 infrastructure (font, validators, queue) and
+ch00–04 (M15-4).
 
 Gate 14 merged 2026-08-09 (C103 Akkadian stretch 3: the course
 closed — perfect + dual, laws 197/200/202, a real Sippar loan
