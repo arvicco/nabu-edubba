@@ -174,10 +174,14 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 17 — opening item: audio player integration redesign
-(owner disliked the shrunk native pills; interactive design
-session first, M17-1; D17-a may open the concept's reserved
-vanilla-JS enhancement layer — owner-ruled).
+Phase 17 — complete, gate PR pending: the reading is the button
+(D17-a opened the reserved JS layer for exactly say.js — the
+pinyin plays on click, no chrome); primer phonetics voiced;
+codex identity moved from pinyin to KEYWORD slugs (55 pages,
+homophone/tone-proof); every clip loudness-normalized (−20 dB
+mean, −1 dB peak); tone verifier hardened (raw-view falls,
+de-octave); say-audio lint — no reading ships silent; absent
+list EMPTY (品 voiced); review re-cuts 曰休 yuē zhě hū.
 
 Gate 16 merged 2026-08-11 (S101 stretch 2: the borrowed words,
 ch05–09, 26 chars — 55 total = 20.9% of the classical corpus;
