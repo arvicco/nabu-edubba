@@ -87,7 +87,7 @@ module Edubba
         registries: %w[_data/sinographs101_queue.yml],
         shelf: "sinographs/addenda/signs",
         keywords: true,
-        pages: false }
+        pages: true }
     ].freeze
 
     module_function
