@@ -19,6 +19,16 @@ ji.mp3           — "Zh-jī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
 qi.mp3           — "Zh-qī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
 xi.mp3           — "Zh-xī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
 zhi.mp3          — "Zh-zhī.ogg" · Xudong Yang · CC BY 2.0
+chi.mp3          — "Zh-chī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+shi.mp3          — "Zh-shí.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ri.mp3           — "Zh-rì.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+zi.mp3           — "Zh-zì.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ci.mp3           — "Zh-cí.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ba.mp3           — "Zh-bā.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+pa.mp3           — "Zh-pà.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+nv.mp3           — "Zh-nǚ.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+lv.mp3           — "Zh-lǜ.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+e.mp3            — "Zh-é.ogg" · Yue Tan · CC BY-SA 3.0 US
 
 License texts: creativecommons.org/licenses/by/2.0/fr/ ·
 by-sa/3.0/us/ · by/3.0/ · by/2.0/

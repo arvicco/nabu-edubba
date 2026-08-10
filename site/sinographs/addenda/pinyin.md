@@ -183,23 +183,47 @@ The two traps: the **j q x** row (no English match — aim for
 "jee/chee/shee" with the tongue-tip resting down) and the fact
 that **c** is always *ts*: 曹操 <span class="translit pinyin">Cáo
 Cāo</span> begins like "tsow," never like "cow." Hear the trap
-rows — the smiling three, then a retroflex:
+rows — the aspiration pair, the smiling three, the retroflexes,
+the hisses:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Syllable</th><th>Hear</th></tr>
+    <tr><th>Row</th><th></th><th></th><th></th><th></th></tr>
   </thead>
   <tbody>
-    <tr><td><span class="translit pinyin">jī</span></td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}"></audio></td></tr>
-    <tr><td><span class="translit pinyin">qī</span></td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}"></audio></td></tr>
-    <tr><td><span class="translit pinyin">xī</span></td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}"></audio></td></tr>
-    <tr><td><span class="translit pinyin">zhī</span></td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}"></audio></td></tr>
+    <tr>
+      <td>plain / puffed</td>
+      <td><span class="translit pinyin">bā</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ba.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">pà</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/pa.mp3' | relative_url }}"></audio></td>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>the smiling three</td>
+      <td><span class="translit pinyin">jī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">qī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">xī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}"></audio></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>tongue curled back</td>
+      <td><span class="translit pinyin">zhī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">chī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/chi.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">shí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">rì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}"></audio></td>
+    </tr>
+    <tr>
+      <td>ds / ts</td>
+      <td><span class="translit pinyin">zì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">cí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}"></audio></td>
+      <td></td><td></td>
+    </tr>
   </tbody>
 </table>
+
+Notice how the buzz of <span class="translit pinyin">zhī</span>,
+<span class="translit pinyin">shí</span>, and
+<span class="translit pinyin">zì</span> just carries on where an
+English vowel would start — that is the "i" of the third face.
 
 ## The finals
 
@@ -252,6 +276,27 @@ Vowels and endings. Most are steady; three need care.
       <td><span class="translit pinyin">er</span></td>
       <td>[ɚ]</td>
       <td>American "er" in "her" — its own syllable: 二 <span class="translit pinyin">èr</span>, "two"</td>
+    </tr>
+  </tbody>
+</table>
+
+Hear the two sounds English is missing — the whistle-vowel and
+the back-of-the-mouth e:
+
+<table class="sign-table">
+  <thead>
+    <tr><th>Sound</th><th></th><th></th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ü, the whistle vowel</td>
+      <td><span class="translit pinyin">nǚ</span> "woman"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/nv.mp3' | relative_url }}"></audio></td>
+      <td><span class="translit pinyin">lǜ</span> "green"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/lv.mp3' | relative_url }}"></audio></td>
+    </tr>
+    <tr>
+      <td>the bare e</td>
+      <td><span class="translit pinyin">é</span> "goose"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/e.mp3' | relative_url }}"></audio></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
