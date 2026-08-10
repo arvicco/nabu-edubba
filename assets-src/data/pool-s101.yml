@@ -343,6 +343,61 @@ signs:
       mouth, by the received account. The meaning-component of the
       whole talking family to come.
 
+  # ch07 — doing and being
+  - char: 為
+    chapter: 7
+    keyword: do
+    slug: wei-do
+    pinyin: wèi
+    meaning: "to do, to make; to act as; for"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 8; the old form draws a hand leading an elephant — put
+      to work — and the working word "do" kept the character.
+      Read wéi as the verb, wèi as "for."
+  - char: 無
+    chapter: 7
+    keyword: without
+    pinyin: wú
+    meaning: "without, there is not — the classical nothing"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 21; a dancer with sleeves full of tassels, borrowed for
+      the word "not have" — the dance later took a new character
+      and left this one to nothing.
+  - char: 我
+    chapter: 7
+    keyword: I
+    pinyin: wǒ
+    meaning: "I, me, we — the plain first person"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 176; a toothed halberd by the received account, borrowed
+      early for the word "I" — the weapon's meaning long gone.
+  - char: 心
+    chapter: 7
+    keyword: heart
+    pinyin: xīn
+    meaning: "heart; mind — where classical thought happens"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 90; the heart drawn with its chambers — in the classics
+      it is the organ of thinking as much as feeling.
+  - char: 生
+    chapter: 7
+    keyword: grow
+    pinyin: shēng
+    meaning: "to grow, to be born; life"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 53; a sprout rising from the ground-line — the verb of
+      the Laozi's whole cosmology (道生一).
+
   # compounds of taught parts
   - char: 明
     chapter: 3
