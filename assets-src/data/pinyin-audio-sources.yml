@@ -71,6 +71,10 @@ sources:
   liu:       {file: "Zh-liù.ogg", pinyin: "liù"}
   bai:       {file: "Zh-bái.ogg", pinyin: "bái"}
   bai-hundred: {file: "Zh-bǎi.ogg", pinyin: "bǎi"}
+  jian:      {file: "Zh-jiàn.ogg", pinyin: "jiàn"}   # 見, via 件 jiàn
+  xiang:     {file: "Zh-xiāng.ogg", pinyin: "xiāng"} # 相, via 香 xiāng
+  shou:      {file: "Zh-shǒu.ogg", pinyin: "shǒu"}   # 首, via 手 shǒu
+  dao:       {file: "Zh-dào.ogg", pinyin: "dào"}     # 道, via 到 dào
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -118,6 +122,11 @@ voices:
   six: liu
   white: bai
   hundred: bai-hundred
+  eye: mu
+  see: jian
+  mutual: xiang
+  head: shou
+  way: dao
   know: zhi
   middle: zhong
   moon: yue
