@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M16-4 · phase-16 · ch06 · Knowing and walking —
+矢知而行言: the arrow pinned ahead of rank because 知 needs it
+(components-first stated in-chapter), 而 as the borrowed beard
+(rank five), 言 seeding the talking family on ch02's 口. Readings
+all ≤45%: 人不知而不慍 one box from open, 三人行 with its verb
+finally lit (third visit), 三十而立 on the 而 hinge, and
+不知▢不知 as the 2.17 teaser (為 honestly boxed until ch07 —
+caught my own draft shipping it unboxed). Codex ×5 same commit;
+the yan page's 13.3 witness corrected to the punctuated Analects
+itself (KR1h0004:013:7a — found while fixing my own wrong URN,
+and it upgrades ch08's planned citation too). 16.2%.
+
 2026-08-10 · M16-1..3 · phase-16 · Stretch 2 opens under its law
 (rulebook §5 stretch-2 section, ruled before content: the
 borrowed words, five batches, cap 45%, the shrinking-boxes return

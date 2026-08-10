@@ -36,6 +36,7 @@ modern languages too, because the characters are the same.
   <li><a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">The master says</a> — 子曰, and the first compounds built from what you own</li>
   <li><a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">Roots, tips, and borrowed sounds</a> — marks on the tree; the move that built the script</li>
   <li><a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">The busiest words</a> — of, not, indeed: the top of the frequency table</li>
+  <li><a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">Knowing and walking</a> — the arrow of knowing, the borrowed beard, speech</li>
 </ol>
 
 The course is opening; chapters appear here as they are written.
