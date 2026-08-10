@@ -33,7 +33,10 @@ end
 
 desc "Local preview at http://127.0.0.1:4000"
 task :serve do
-  sh "bundle exec jekyll serve --source site --destination #{BUILD_DIR}"
+  # Own destination: a long-running serve regenerating into the
+  # gate's BUILD_DIR races the gate build (and its memoized
+  # sign-map goes stale across data edits) — 2026-08-11 incident.
+  sh "bundle exec jekyll serve --source site --destination _build/serve"
 end
 
 desc "Pre-commit gate: all green or no commit"

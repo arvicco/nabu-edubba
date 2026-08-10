@@ -987,6 +987,94 @@ signs:
   - 未
   note: rank 871; mouth for the meaning, not-yet (wèi) for the sound — the same-page
     proof that a taught character can turn into a pure sound-carrier.
+- char: 以
+  glyph: 以
+  name: by-means-of
+  codepoint: 4EE5
+  keyword: by-means-of
+  pinyin: yǐ
+  meaning: by means of, using; to take — the instrumental
+  category: loan
+  certainty: unclear
+  strokes: 4
+  ids: "⿽人⿰\U0002010C丶"
+  rank: 3
+  count_kanripo: 8666213
+  docs: 5038
+  chapter: 10
+  note: rank 3 — the biggest character still untaught; the old graph (a person with
+    something carried, per one reading) was taken whole for the grammar word.
+- char: 自
+  glyph: 自
+  name: self
+  codepoint: 81EA
+  keyword: self
+  pinyin: zì
+  meaning: self; from — the reflexive and the point of origin
+  category: pictograph
+  certainty: classic
+  strokes: 6
+  ids: "⿱㇒目"
+  rank: 33
+  count_kanripo: 2281602
+  docs: 5060
+  chapter: 10
+  note: rank 33; a nose face-on — Chinese speakers still point at the nose to say
+    "me".
+- char: 丁
+  glyph: 丁
+  name: nail
+  codepoint: 4E01
+  keyword: nail
+  pinyin: dīng
+  meaning: nail; an able-bodied man; fourth of the stems
+  category: pictograph
+  certainty: stated
+  strokes: 2
+  ids: "⿱一亅"
+  rank: 514
+  count_kanripo: 284553
+  docs: 3910
+  chapter: 10
+  note: rank 514 — pinned ahead of its rank as the component 可 needs; a nail seen
+    head-on and driven home.
+- char: 可
+  glyph: 可
+  name: can
+  codepoint: 53EF
+  keyword: can
+  pinyin: kě
+  meaning: can, may; acceptable
+  category: phono-semantic
+  certainty: stated
+  strokes: 5
+  ids: "⿹丁口"
+  rank: 35
+  count_kanripo: 2241958
+  docs: 4946
+  chapter: 10
+  parts:
+  - 丁
+  - 口
+  note: rank 35; graphically a nail-stroke beside a mouth — the old phonetic 丂 wrote
+    the sound, the mouth grants the permission.
+- char: 用
+  glyph: 用
+  name: use
+  codepoint: '7528'
+  keyword: use
+  pinyin: yòng
+  meaning: to use, to employ
+  category: pictograph
+  certainty: unclear
+  strokes: 5
+  ids: "⿵⺆\U00030001"
+  rank: 77
+  count_kanripo: 1434879
+  docs: 4793
+  chapter: 10
+  note: 'rank 77; the old picture is disputed (a bucket, a fence, a hung bell) — the
+    grammar is not: 用 puts things to work, and 可 + 用 says "usable".'
 batches:
 - chapter: 0
   signs:
@@ -1073,3 +1161,11 @@ batches:
   - 于
   - 乎
   coverage_pct: 20.9
+- chapter: 10
+  signs:
+  - 以
+  - 自
+  - 丁
+  - 可
+  - 用
+  coverage_pct: 23.0
