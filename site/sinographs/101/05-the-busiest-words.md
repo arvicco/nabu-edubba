@@ -28,36 +28,36 @@ the table:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">之</td><td>of</td><td><span class="translit pinyin">zhī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">之</td><td>of</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
       <td>of; him, her, it — the classical linker</td>
       <td>an old drawing of a foot setting out over a line — but the
       word it writes is pure grammar</td>
     </tr>
     <tr>
-      <td class="script sign-cell">不</td><td>not</td><td><span class="translit pinyin">bù</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/bu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">不</td><td>not</td><td><a class="say" href="{{ '/assets/audio/pinyin/bu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bù</span></a></td>
       <td>not — the plain negation</td>
       <td>a calyx under its stem, by the received account — borrowed
       early and forever for "not"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">也</td><td>indeed</td><td><span class="translit pinyin">yě</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ye.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">也</td><td>indeed</td><td><a class="say" href="{{ '/assets/audio/pinyin/ye.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yě</span></a></td>
       <td>the sentence-final "it is so"</td>
       <td>what the picture once was is honestly disputed; its whole
       classical life is the closing beat of a statement</td>
     </tr>
     <tr>
-      <td class="script sign-cell">又</td><td>again</td><td><span class="translit pinyin">yòu</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/you.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">又</td><td>again</td><td><a class="say" href="{{ '/assets/audio/pinyin/you.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yòu</span></a></td>
       <td>again, further</td>
       <td>a right hand in profile, two strokes</td>
     </tr>
     <tr>
-      <td class="script sign-cell">有</td><td>have</td><td><span class="translit pinyin">yǒu</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/you-have.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">有</td><td>have</td><td><a class="say" href="{{ '/assets/audio/pinyin/you-have.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǒu</span></a></td>
       <td>to have; there is</td>
       <td>the hand again, holding meat — the meat-shape came to be
       written like your moon</td>
     </tr>
     <tr>
-      <td class="script sign-cell">十</td><td>ten</td><td><span class="translit pinyin">shí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">十</td><td>ten</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
       <td>ten; complete</td>
       <td>the tally-mark that closed the count</td>
     </tr>

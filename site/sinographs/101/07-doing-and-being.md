@@ -27,31 +27,31 @@ plain drawings to anchor them:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">為</td><td>do</td><td><span class="translit pinyin">wéi</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wei-do.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">為</td><td>do</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei-do.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wéi</span></a></td>
       <td>to do, to make; to act as; (wèi) for</td>
       <td>the old form draws a hand leading an elephant — work
       itself, borrowed for the verb "do"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">無</td><td>without</td><td><span class="translit pinyin">wú</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">無</td><td>without</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wú</span></a></td>
       <td>without; there is not</td>
       <td>a dancer, sleeves full of tassels — the dance moved out,
       "nothing" moved in</td>
     </tr>
     <tr>
-      <td class="script sign-cell">我</td><td>I</td><td><span class="translit pinyin">wǒ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wo.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">我</td><td>I</td><td><a class="say" href="{{ '/assets/audio/pinyin/wo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǒ</span></a></td>
       <td>I, me, we</td>
       <td>a toothed halberd, borrowed early for the word "I" — the
       weapon long forgotten</td>
     </tr>
     <tr>
-      <td class="script sign-cell">心</td><td>heart</td><td><span class="translit pinyin">xīn</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xin.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">心</td><td>heart</td><td><a class="say" href="{{ '/assets/audio/pinyin/xin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xīn</span></a></td>
       <td>heart; mind</td>
       <td>the heart with its chambers — in the classics, the organ
       of thought</td>
     </tr>
     <tr>
-      <td class="script sign-cell">生</td><td>grow</td><td><span class="translit pinyin">shēng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/sheng.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">生</td><td>grow</td><td><a class="say" href="{{ '/assets/audio/pinyin/sheng.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shēng</span></a></td>
       <td>to grow, to be born; life</td>
       <td>a sprout rising from the ground-line</td>
     </tr>

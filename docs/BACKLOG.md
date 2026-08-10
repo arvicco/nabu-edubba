@@ -820,7 +820,7 @@ same commit as their chapter (shelf check live).
 
 ## Phase 17 — opening item: the player (owner report at Gate 16 close)
 
-## M17-1 · Audio player integration redesign  [tier: top — visual identity, owner-interactive] [status: in-progress — design session with the owner precedes any code] [deps: --]
+## M17-1 · Audio player integration redesign  [tier: top — visual identity, owner-interactive] [status: owner-review — the pinyin IS the button (owner spec): a.say links play inline via the one sanctioned script, D17-a ruled and recorded in concept/CLAUDE/README/rulebook, gate allowlists exactly say.js; primer tables aligned, four-tones keeps its full player] [deps: --]
 Goal: replace the shrunk native <audio> pills in sign tables (and
       align the primer's players) with an integration the owner
       likes — designed together in an interactive session; if the

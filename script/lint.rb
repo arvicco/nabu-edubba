@@ -61,6 +61,10 @@ module Edubba
   module Lint
     PROD_ORIGIN = %r{https?://(www\.)?edubba\.ac}i
     SCRIPT_TAG = /<script\b/i
+    # D17-a (owner-ruled 2026-08-11): the ONE sanctioned script — the
+    # self-contained audio enhancement, included with this exact tag.
+    # Any other <script>, anywhere, is still a violation.
+    SANCTIONED_SCRIPT = %r{\A<script src="\{\{ '/assets/say\.js' \| relative_url \}\}" defer></script>\z}
     ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
 
     TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}m
@@ -129,7 +133,9 @@ module Edubba
     end
 
     def js_assets(site_dir)
-      Dir.glob(File.join(site_dir, "**", "*.js")).map do |path|
+      Dir.glob(File.join(site_dir, "**", "*.js")).filter_map do |path|
+        next if path.end_with?("/assets/say.js") # D17-a: the one sanctioned script
+
         Violation.new(path, "no-js", "JavaScript asset in site sources")
       end
     end
@@ -137,8 +143,12 @@ module Edubba
     def check_file(_site_dir, path)
       text = File.read(path, encoding: "UTF-8")
       found = []
-      if SCRIPT_TAG.match?(text)
-        found << Violation.new(path, "no-js", "<script> tag (wave 1 is text-pure)")
+      text.scan(/<script\b[^>]*>(?:<\/script>)?/i) do |tag|
+        next if SANCTIONED_SCRIPT.match?(tag) && !path.end_with?(".md")
+
+        found << Violation.new(path, "no-js",
+                               "<script> tag (text-pure law; the only sanctioned script is the " \
+                               "say.js enhancement include in the layout — D17-a)")
       end
       if PROD_ORIGIN.match?(text)
         found << Violation.new(path, "relative-links", "hard-coded production origin")

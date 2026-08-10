@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M17-1 + D17-a · phase-17 · The player, redone to the
+owner's spec: "table says rén — click it, the sound plays, nothing
+else." The pinyin IS the button: a.say links wrap the reading
+(dotted-underline affordance, no chrome), played inline by the
+FIRST sanctioned script of the site — D17-a formally opens the
+concept's reserved vanilla-JS enhancement layer for exactly this
+widget (14 self-contained lines; with JS off the link opens the
+file, so nothing requires JS). The law lives in four places and
+all four were amended in this commit: concept §4+§7, CLAUDE.md
+golden rule 1, README, rulebook §2. The gate now allowlists the
+one include tag (SANCTIONED_SCRIPT) and the one asset — any other
+script anywhere still fails, sanctioned tag inside content pages
+still fails; tests pin all three cases. 64 table pills converted
+(chapters + primer trap/ü tables + the tone table, whose Hear
+column is gone — its marks play themselves); the primer's
+four-tones bar keeps a full player deliberately (long clip,
+scrubbing earns its chrome).
+
 2026-08-11 · syllable audio (owner ruling) · phase-16 · Every
 chapter sign-table now carries a click-to-play button voicing its
 character's reading — 53 of 55 characters, browser-native audio,
