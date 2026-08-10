@@ -743,7 +743,7 @@ Acceptance: unit tests for the parsing/counting units in the same
       commit; table committed with provenance + license header;
       doc-spread column beside raw counts.
 
-## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: in-progress — infrastructure landed: font + size law, pool/queue/compiler (ch00 trio 人大天 pinned), pinyin-display lint, strict readings, contract test; chapters next] [deps: M15-3]
+## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: in-progress — ch00–04 all live (15 chars, 6.5% coverage, 8 real readings from 6 Kanripo witnesses); codex shelf remains] [deps: M15-3]
 Goal: orientation + first chapters of Sinographs 101 in the wave-1
       mold (signs from ch00, keyword law live, pinyin display law
       live), codex shelf started.

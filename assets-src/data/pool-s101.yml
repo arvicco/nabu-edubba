@@ -111,3 +111,67 @@ signs:
       rank 20; three strokes, middle shortest — and the end of the
       pattern: four breaks it, which is the chapter's own joke and
       lesson (shown, not taught).
+  - char: 山
+    chapter: 3
+    keyword: mountain
+    pinyin: shān
+    meaning: mountain, hill
+    category: pictograph
+    certainty: classic
+    note: rank 44; three peaks in a row, the middle one tallest.
+  - char: 水
+    chapter: 3
+    keyword: water
+    pinyin: shuǐ
+    meaning: water; a river
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 63; a stream mid-current — the center line is the flow,
+      the side strokes the eddies.
+  - char: 中
+    chapter: 3
+    keyword: middle
+    pinyin: zhōng
+    meaning: middle, center; within
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 22; a line through the very center of a box — the old
+      forms show a pole or banner planted mid-camp; the received
+      account (a stroke through the middle) is the useful one.
+      Pulled forward to sit with the landscape pair it locates
+      (山中, 水中 — "amid the mountains", "in the water").
+  - char: 子
+    chapter: 4
+    keyword: child
+    pinyin: zǐ
+    meaning: child, son; the Master; a title of respect
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 13; an infant — big head, spread arms, legs still
+      swaddled into one line. Half of the 子曰 formula.
+  - char: 曰
+    chapter: 4
+    keyword: say
+    pinyin: yuē
+    meaning: to say — the quotation-opener of the classical books
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 12; a mouth with a stroke of breath leaving it, by the
+      received account. The other half of 子曰; nearly five million
+      attestations, virtually all of them opening speech.
+  - char: 王
+    chapter: 4
+    keyword: king
+    pinyin: wáng
+    meaning: king
+    category: indicative
+    certainty: unclear
+    note: >-
+      rank 29; the received reading joins the three horizontals —
+      heaven, earth, humankind — with one vertical: the king is
+      what connects them. Early forms suggest an axe blade of
+      authority instead; the chapter says so honestly.
