@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · review round (Gate 15: ch00 cosmology + number batch)
+· phase-15 · Owner: ch00 misses the chance to teach 土 and 王 (the
+traditional heaven-earth connector) — the first reading would then
+carry far fewer unknowns; and 一二三 form a batch of their own,
+taught in one breath. Rebatched: ch00 人大天土王 (the chain plus
+the three levels — Laozi 25's four-greats now reads with 王
+unboxed, and 土 sings the Shijing's 樂土 refrain, KR1c0001); ch01
+一二三中上下 (the one-breath numbers with the pointing marks,
+where the stroke lesson lives — Laozi 42 cascade + Laozi 5 守中
+new-verified); ch02 pictures 日月山水木口 unchanged in content;
+ch03 子曰明旦休仁 (the master's hinge + the first compounds);
+ch04 gains 品. 29 characters, 8.0%, every law green (5–6 dial,
+components-first, slug order). The 樂土 draft shipped 樂 unboxed —
+own lint-eye caught it before the gate did (the untaught-sign rule
+would have).
+
 2026-08-10 · review round (Gate 15: pace + components) · phase-15 ·
 Owner: chapters too light — 5–6 characters each, not 1–3; and
 ch01's 時=日+寺 exhibit ran ahead of the taught set — teach ~12

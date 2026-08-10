@@ -57,6 +57,24 @@ signs:
   note: rank 24; the line above the big person's head — what is over everything. Shuowen
     reads it as the anthropomorphic chain 人→大→天; oracle forms show a box-headed figure.
     The course's thesis in three characters.
+- char: 土
+  glyph: 土
+  name: tu
+  codepoint: 571F
+  keyword: earth
+  pinyin: tǔ
+  meaning: earth, soil; the ground
+  category: pictograph
+  certainty: stated
+  strokes: 3
+  ids: "⿱十一"
+  rank: 360
+  count_kanripo: 410115
+  docs: 4500
+  chapter: 0
+  note: 'rank 360; a mound of earth on the ground-line — by the received account an
+    earthen altar. Pulled forward to complete the ch00 cosmology: heaven above, earth
+    below, and the king joining them.'
 - char: 一
   glyph: 一
   name: yi
@@ -71,7 +89,7 @@ signs:
   rank: 11
   count_kanripo: 4928405
   docs: 5103
-  chapter: 0
+  chapter: 1
   note: rank 11; one stroke for one — the purest "point at it" character, and the
     single most-written stroke of the script.
 - char: 二
@@ -88,7 +106,7 @@ signs:
   rank: 19
   count_kanripo: 3150948
   docs: 5039
-  chapter: 0
+  chapter: 1
   note: rank 19; two strokes, the upper slightly shorter.
 - char: 三
   glyph: 三
@@ -104,9 +122,9 @@ signs:
   rank: 20
   count_kanripo: 3128820
   docs: 5097
-  chapter: 0
+  chapter: 1
   note: 'rank 20; three strokes, middle shortest — and the end of the pattern: four
-    breaks it, told honestly in ch02.'
+    breaks it, told honestly in its chapter.'
 - char: 日
   glyph: 日
   name: ri
@@ -121,7 +139,7 @@ signs:
   rank: 38
   count_kanripo: 2173704
   docs: 5031
-  chapter: 1
+  chapter: 2
   note: rank 38; the sun-disc squared by the brush, the dot of light kept as the middle
     stroke.
 - char: 月
@@ -138,7 +156,7 @@ signs:
   rank: 51
   count_kanripo: 1849225
   docs: 4933
-  chapter: 1
+  chapter: 2
   note: rank 51; the crescent that never fills — the moon is drawn waxing.
 - char: 山
   glyph: 山
@@ -154,7 +172,7 @@ signs:
   rank: 44
   count_kanripo: 2056654
   docs: 4787
-  chapter: 1
+  chapter: 2
   note: rank 44; three peaks in a row, the middle one tallest.
 - char: 水
   glyph: 水
@@ -170,7 +188,7 @@ signs:
   rank: 63
   count_kanripo: 1551078
   docs: 4831
-  chapter: 1
+  chapter: 2
   note: rank 63; a stream mid-current — the center line is the flow, the side strokes
     the eddies.
 - char: 木
@@ -187,7 +205,7 @@ signs:
   rank: 320
   count_kanripo: 462151
   docs: 4474
-  chapter: 1
+  chapter: 2
   note: rank 320; trunk, branches up, roots down — pulled forward of its rank as the
     component base of ch04's whole family (本, 末, 未, 沐).
 - char: 口
@@ -204,7 +222,7 @@ signs:
   rank: 384
   count_kanripo: 387364
   docs: 4562
-  chapter: 1
+  chapter: 2
   note: rank 384; an open mouth squared by the brush — pulled forward as the busiest
     meaning-component in the whole script (品 and 味 build on it in this course alone).
 - char: 中
@@ -221,7 +239,7 @@ signs:
   rank: 22
   count_kanripo: 2931802
   docs: 5088
-  chapter: 2
+  chapter: 1
   note: rank 22; a stroke planted through the very center — the old forms show a pole
     or banner planted mid-camp.
 - char: 上
@@ -238,7 +256,7 @@ signs:
   rank: 26
   count_kanripo: 2760806
   docs: 5104
-  chapter: 2
+  chapter: 1
   note: rank 26; a mark set above the baseline — the pointing pair with 下, one gesture
     flipped.
 - char: 下
@@ -255,7 +273,7 @@ signs:
   rank: 27
   count_kanripo: 2736945
   docs: 5052
-  chapter: 2
+  chapter: 1
   note: rank 27; the same mark set under the line.
 - char: 子
   glyph: 子
@@ -271,7 +289,7 @@ signs:
   rank: 13
   count_kanripo: 4187613
   docs: 5006
-  chapter: 2
+  chapter: 3
   note: rank 13; an infant — big head, spread arms, legs still swaddled into one line.
     Half of the 子曰 formula.
 - char: 曰
@@ -288,7 +306,7 @@ signs:
   rank: 12
   count_kanripo: 4678922
   docs: 4887
-  chapter: 2
+  chapter: 3
   note: rank 12; a mouth with a stroke of breath leaving it, by the received account.
     Nearly five million attestations, virtually all opening speech.
 - char: 王
@@ -305,7 +323,7 @@ signs:
   rank: 29
   count_kanripo: 2466532
   docs: 4733
-  chapter: 2
+  chapter: 0
   note: 'rank 29; the received reading joins the three horizontals — heaven, earth,
     humankind — with one vertical: the king is what connects them. Early forms suggest
     an axe blade of authority instead; the chapter says so honestly.'
@@ -403,7 +421,7 @@ signs:
   rank: 808
   count_kanripo: 177618
   docs: 3652
-  chapter: 3
+  chapter: 4
   parts:
   - 口
   note: rank 808; three mouths — many voices, many kinds; the script's tripling move
@@ -515,11 +533,19 @@ batches:
   - 人
   - 大
   - 天
+  - 土
+  - 王
+  coverage_pct: 2.1
+- chapter: 1
+  signs:
   - 一
   - 二
   - 三
-  coverage_pct: 3.3
-- chapter: 1
+  - 中
+  - 上
+  - 下
+  coverage_pct: 4.8
+- chapter: 2
   signs:
   - 日
   - 月
@@ -527,29 +553,22 @@ batches:
   - 水
   - 木
   - 口
-  coverage_pct: 4.5
-- chapter: 2
-  signs:
-  - 中
-  - 上
-  - 下
-  - 子
-  - 曰
-  - 王
-  coverage_pct: 7.2
+  coverage_pct: 6.0
 - chapter: 3
   signs:
+  - 子
+  - 曰
   - 明
   - 旦
   - 休
   - 仁
-  - 品
-  coverage_pct: 7.5
+  coverage_pct: 7.6
 - chapter: 4
   signs:
+  - 品
   - 本
   - 末
   - 未
   - 沐
   - 味
-  coverage_pct: 7.9
+  coverage_pct: 8.0

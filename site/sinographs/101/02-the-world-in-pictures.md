@@ -1,14 +1,14 @@
 ---
-title: "01 · The world in pictures"
-short_title: "01 · The world in pictures"
+title: "02 · The world in pictures"
+short_title: "02 · The world in pictures"
 description: >-
   Sun, moon, mountain, water, tree, mouth — the pictographs the
   classical world is drawn from, and what pictures alone cannot say.
 layout: chapter
 school: sinographs
 course: sinographs-101
-chapter: 1
-permalink: /sinographs/101/01-the-world-in-pictures/
+chapter: 2
+permalink: /sinographs/101/02-the-world-in-pictures/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
 teaches: ["日", "月", "山", "水", "木", "口"]
@@ -61,12 +61,14 @@ Six characters, and every one of them is a drawing:
   </tbody>
 </table>
 
-This is the script's oldest layer: things with shapes, drawn. Add
-them to the chain and the numbers from
+This is the script's oldest layer: things with shapes, drawn. With
+the chain and the cosmology of
 <a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">chapter 00</a>
-and you own twelve characters — every one simple, none built from
-another. Hold that thought; it becomes the engine of the whole
-course two chapters from now.
+and the marks of
+<a href="{{ '/sinographs/101/01-the-order-of-strokes/' | relative_url }}">chapter 01</a>,
+you now own seventeen characters — every one simple, none built
+from another. Hold that thought; it becomes the engine of the
+whole course next chapter.
 
 <figure class="evolution">
   <svg viewBox="0 0 640 200" role="img" aria-label="A circle with a central dot becoming the square character for sun; three peaks becoming the character for mountain; a flowing stream becoming the character for water.">
@@ -120,34 +122,39 @@ doing the same jobs — *who* delights, and *delights*. Classical
 prose leans on this symmetry constantly; the boxes are already
 teaching you grammar.
 
-Two more, for the sun and moon and for the tree — the second one
-plants a seed this course harvests in <a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>:
+The sun and moon take the sky, and — with <a href="{{ '/sinographs/101/01-the-order-of-strokes/' | relative_url }}">chapter 01</a>'s 中 — the
+sun tells time:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">日▢▢月▢，月▢▢日▢。</span><span class="translit pinyin">rì wǎng zé yuè lái, yuè wǎng zé rì lái</span><span class="gloss">"the sun goes, and the moon comes; the moon goes, and the sun comes" — the Changes on why there is a tomorrow</span></div>
-    <div class="reading-line"><span class="script">▢▢▢木，▢▢▢▢。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest shoot" — the Laozi's tree; remember this line, you will reread it with one more character soon</span></div>
+    <div class="reading-line"><span class="script">日中▢▢。</span><span class="translit pinyin">rì zhōng zé zè</span><span class="gloss">"the sun at noon begins to slant" — 日中, "sun-middle," is noon; what is full begins to lean</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Zhouyi</em>, Appended Words (Xici II), in the
+    <em>Zhouyi</em>, Appended Words and hexagram Feng, in the
     compilation <em>Zhouyi jijie</em> ·
-    <code>urn:nabu:kanripo:KR1a0008:015:16b</code>.
-    Line 2: <em>Laozi</em> 64 ·
-    <code>urn:nabu:kanripo:KR5c0057:064:1a</code>.
+    <code>urn:nabu:kanripo:KR1a0008:015:16b</code> and
+    <code>urn:nabu:kanripo:KR1a0008:011:14a</code>.
     Both license: attribution.
   </figcaption>
 </figure>
 
-And 口 the mouth, from the *Changes* again — the hexagram about
-nourishment:
+The tree gets a line to remember — it plants a seed this course
+harvests in
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>
+— and the mouth closes the chapter in the oldest of the classics:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢，▢▢口▢。</span><span class="translit pinyin">guān yí, zì qiú kǒu shí</span><span class="gloss">"contemplate nourishment: each seeks the filling of its own mouth" — the mouth at work in the oldest of the classics</span></div>
+    <div class="reading-line"><span class="script">▢▢▢木，▢▢▢▢。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest shoot" — the Laozi's tree; remember this line, you will reread it with one more character soon</span></div>
+    <div class="reading-line"><span class="script">▢▢，▢▢口▢。</span><span class="translit pinyin">guān yí, zì qiú kǒu shí</span><span class="gloss">"contemplate nourishment: each seeks the filling of its own mouth" — the Changes' hexagram on feeding, with your 口 at the table</span></div>
   </div>
   <figcaption class="citation">
-    <em>Zhouyi</em>, hexagram Yi (Nourishment).
-    <code>urn:nabu:kanripo:KR1a0001:027:2a</code> · license: attribution.
+    Line 1: <em>Laozi</em> 64 ·
+    <code>urn:nabu:kanripo:KR5c0057:064:1a</code>.
+    Line 2: <em>Zhouyi</em>, hexagram Yi (Nourishment) ·
+    <code>urn:nabu:kanripo:KR1a0001:027:2a</code>.
+    Both license: attribution.
   </figcaption>
 </figure>
 
@@ -156,16 +163,18 @@ nourishment:
 Drawable things run out almost immediately. How do you draw
 *bright*? *yesterday*? *not yet*? A picture-script would stall at a
 few hundred nouns — and the real script did not stall, because
-drawing is only the first of its moves. The next chapters hand you
-the other three, each built on the characters you now hold: marks
-that point, characters that combine, and characters that lend
-nothing but their **sound**. The picture-story you may have heard —
-"every character is a little painting" — is charming and wrong;
-by <a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a> you will see the true engine, and you will own every
-part of it before it runs.
+drawing and pointing are only two of its moves. The next chapters
+hand you the other two, each built on the characters you now hold:
+characters that combine, and characters that lend nothing but
+their **sound**. The picture-story you may have heard — "every
+character is a little painting" — is charming and wrong; by
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>
+you will see the true engine, and you will own every part of it
+before it runs.
 
 ## Where this goes
 
-Twelve characters, all simple. Next: the pointing marks — above,
-below, middle — and the two characters that open almost every
-saying in the canon.
+Seventeen characters, all simple. That was deliberate, and the
+wait is over: next chapter the master starts speaking, and
+characters start combining — with every part of every compound
+already yours.

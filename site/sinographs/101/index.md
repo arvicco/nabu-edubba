@@ -30,10 +30,10 @@ modern languages too, because the characters are the same.
 ## Chapters
 
 <ol class="course-toc" start="0">
-  <li><a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is; the growing picture and the numbers</li>
-  <li><a href="{{ '/sinographs/101/01-the-world-in-pictures/' | relative_url }}">The world in pictures</a> — sun, moon, mountain, water, tree, mouth</li>
-  <li><a href="{{ '/sinographs/101/02-the-order-of-strokes/' | relative_url }}">The order of strokes</a> — the pointing marks, the master's formula, the king</li>
-  <li><a href="{{ '/sinographs/101/03-characters-built-from-characters/' | relative_url }}">Characters built from characters</a> — the first compounds, every part yours</li>
+  <li><a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is; the growing picture, heaven to earth to king</li>
+  <li><a href="{{ '/sinographs/101/01-the-order-of-strokes/' | relative_url }}">The order of strokes</a> — the numbers in one breath, and the pointing marks</li>
+  <li><a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">The world in pictures</a> — sun, moon, mountain, water, tree, mouth</li>
+  <li><a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">The master says</a> — 子曰, and the first compounds built from what you own</li>
   <li><a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">Roots, tips, and borrowed sounds</a> — marks on the tree; the move that built the script</li>
 </ol>
 
