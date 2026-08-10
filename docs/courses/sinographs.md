@@ -47,6 +47,16 @@ fallback. Recorded in docs/concept.md §7.
 - Later courses declare their own additional voices in their own
   Reference (kanbun: Japanese kundoku — the green voice-marking
   law of cuneiform §9 transfers verbatim; hanja: Sino-Korean).
+- **The Pinyin primer and its audio (owner request 2026-08-10):**
+  the Addenda shelf carries a pinyin page (tones with contours,
+  initials/finals with IPA where English blurs). Sound samples are
+  browser-native `<audio>` elements — no JS — with files VENDORED
+  as mp3, transcoded from license-verified recordings (CC BY /
+  CC BY-SA only, never NC), pitch-contour-verified for the tone
+  set at vendoring time; per-file credits live in
+  site/assets/audio/pinyin/CREDITS.txt, linked from the page.
+  Audio filenames carry no tone digits (the display law's shape
+  holds in URLs).
 
 ## 3 · The keyword law
 

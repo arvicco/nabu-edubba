@@ -169,7 +169,10 @@ otherwise. What it gives you is what the field itself uses when it
 reads the classics aloud: the modern Mandarin readings, written in
 pinyin with their tone marks — <span class="translit pinyin">rén,
 dà, tiān</span>. Think of it as the standard modern voice for an
-ancient text, the way Latin is read today in a modern accent. Later
+ancient text, the way Latin is read today in a modern accent. How
+to read the marks — the four tones, and the letters that do not
+say what they look like — has
+<a href="{{ '/sinographs/addenda/pinyin/' | relative_url }}">its own page on the reference shelf</a>. Later
 courses add other voices the same characters carry — the
 Sino-Japanese readings of kanji among them — and the honest history
 of the sounds gets its own chapter down the road.

@@ -109,6 +109,12 @@ terms:
   - name: votive
     slug: votive
     def: "given to a god in fulfillment of a vow — votive objects carry dedication inscriptions"
+  - name: aspiration
+    slug: aspiration
+    def: "the puff of air after a consonant — hold a hand before your mouth: English \"pie\" has it, \"spy\" does not"
+  - name: retroflex
+    slug: retroflex
+    def: "said with the tongue-tip curled up and back toward the roof of the mouth"
   - name: pictograph
     slug: pictograph
     def: "an early sign that is still simply a picture of the thing it means"

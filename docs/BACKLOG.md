@@ -764,6 +764,15 @@ Goal: orientation + first chapters of Sinographs 101 in the wave-1
 Acceptance: gate green incl. pinyin-display lint + keyword-uniqueness
       check landing with the first content commit.
 
+## M15-6 · Pinyin audio completion  [tier: implementation — mechanical fetch, URLs recorded] [status: ready] [deps: --]
+Goal: vendor the ten remaining Commons recordings for the primer's
+      initials/finals rows (chī shí rì · zì cí sī · bā pà · nǚ lǜ ·
+      é) — exact verified URLs in the 2026-08-10 audio scout report;
+      Wikimedia rate-limited this box mid-fetch, so refetch paced
+      (≥30s gaps) after cool-down, transcode per the §2 audio law,
+      extend CREDITS.txt + the trap-rows table.
+Acceptance: files play (ffprobe); gate green; credits complete.
+
 ## Decision items — Phase 15
 
 - D15-a · Character forms (was D-W3c) — RULED 2026-08-10 as
