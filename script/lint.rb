@@ -359,17 +359,14 @@ module Edubba
     # font — estimated 0.4em / 0.75em, on the generous side.
     READING_FIGURE = %r{<figure class="reading reading--script(?<mods>[^"]*)">(?<body>.*?)</figure>}m
     SCRIPT_EM_BUDGET = 14.5
-    # Sinograph lines get a tighter budget: pixel-measured 2026-08-10,
-    # a 14.25em line still clipped its gloss — the serif face and
-    # fullwidth punctuation run wider on the page than the
-    # cuneiform-derived arithmetic allows. 13em (≈ 18.2rem of script)
-    # is the calibrated safe ceiling.
-    SINO_EM_BUDGET = 13.0
     def check_reading_width(path, text)
       return [] unless path.end_with?(".md")
+      # Sinograph readings ALWAYS stack by stylesheet law (rulebook
+      # §6; the size-law scale left three columns no honest gloss
+      # room even under a calibrated budget — owner report
+      # 2026-08-10), so no width arithmetic applies there.
+      return [] if path.include?("/sinographs/")
 
-      sino = path.include?("/sinographs/")
-      budget = sino ? SINO_EM_BUDGET : SCRIPT_EM_BUDGET
       found = []
       text.scan(READING_FIGURE) do
         mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
@@ -377,12 +374,12 @@ module Edubba
 
         body.scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
           txt = s.gsub(/<[^>]+>/, "")
-          em = script_width_em(txt, sino ? :sinographs : nil)
-          next if em <= budget
+          em = script_width_em(txt)
+          next if em <= SCRIPT_EM_BUDGET
 
           found << Violation.new(path, "reading-width",
                                  "script line #{txt[0, 12].inspect}… measures #{em.round(1)}em " \
-                                 "(budget #{budget}em) — three columns would cut the " \
+                                 "(budget #{SCRIPT_EM_BUDGET}em ≈ 20.3rem) — three columns would cut the " \
                                  "gloss at the measure; declare the figure reading--stacked (§5)")
         end
       end

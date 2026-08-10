@@ -130,4 +130,11 @@ class StyleGuardTest < Minitest::Test
                       "#{sel} must exceed #{floor} (#{note}) — size law, rulebook §6"
     end
   end
+
+  def test_sinograph_readings_always_stack
+    body = bodies_for(".school-sinographs .reading--script .reading-lines")
+    assert_match(/display:\s*block/, body,
+                 "sinograph reading figures must stack unconditionally (rulebook §6 — " \
+                 "size-law characters leave three columns no honest gloss room)")
+  end
 end

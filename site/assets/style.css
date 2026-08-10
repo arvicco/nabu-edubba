@@ -81,6 +81,15 @@ body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.scrip
 .school-sinographs .sign-hero { font-size: 7.5rem; }
 .school-sinographs .sign-strip { font-size: 3.2rem; }
 
+/* Sinograph readings ALWAYS stack (rulebook §6): at the size-law
+   scale even short classical clauses leave the three-column grid
+   no honest room for a gloss — the measured 13em budget still
+   clipped in practice (owner report 2026-08-10). Script over
+   voice over gloss, full measure each. */
+.school-sinographs .reading--script .reading-lines { display: block; }
+.school-sinographs .reading--script .reading-line { display: block; padding-block: 0.5rem; }
+.school-sinographs .reading--script .reading-line > span { display: block; }
+
 * { box-sizing: border-box; }
 
 body {
