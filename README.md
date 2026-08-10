@@ -18,7 +18,7 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-08-10
+## Status — honest, as of 2026-08-11
 
 **Three schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) and
@@ -40,10 +40,12 @@ has its first stretch — sentence types, the suffix conjugation,
 the doctors' register, from Westcar to the medical papyri.
 The sinograph school has opened **classical-first**:
 [101 · How the characters work](https://edubba.ac/sinographs/101/)
-teaches its first fifteen characters on the classical corpus
-itself — real lines of the *Laozi*, the *Analects*, the *Changes*,
-and the *Annals* from the third chapter on — with the Character
-Codex shelf growing alongside.
+is ten chapters deep — 55 characters covering one in five
+characters of the whole classical corpus, taught on real lines of
+the *Laozi*, the *Analects*, the *Changes*, the *Songs*, and the
+*Annals*, with whole sayings now read box-free in the original —
+plus a Character Codex page for every taught character and a
+Pinyin primer with tone-verified audio.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
 hover bubbles giving name, readings, and meaning — no JavaScript

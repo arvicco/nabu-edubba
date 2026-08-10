@@ -171,11 +171,12 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 16 — S101 stretch 2 (owner pick 2026-08-10): chapters
-05–09, the borrowed words — the classical particles as the
-jiajie move, 26 fresh characters over five batches, box-share
-cap 45%, ending on Analects 1.1 read under cap. Stretch law in
-rulebook §5; plan in .docs/phase-16-plan.md.
+Phase 16 — S101 stretch 2 complete, gate PR pending: the
+borrowed words (ch05–09, 26 fresh characters, all loans and
+component chains), the shrinking-boxes return arc (6.23 read
+five times, 7.22 four, Laozi-25 four fragments), Analects 2.17
+whole at ZERO boxes, 1.1's questions under cap; 26 codex pages;
+55 chars = 20.9% of the classical corpus.
 
 Gate 15 merged 2026-08-10 (wave 3 opened: the sinograph school —
 rulebook-first laws (pinyin diacritics, keyword, 5–6 chapter
