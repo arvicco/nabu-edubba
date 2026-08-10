@@ -11,7 +11,8 @@ module Edubba
     AXES = {
       "cdli" => "cuneiform", "oracc" => "cuneiform",
       "etcsl" => "cuneiform", "ebl" => "cuneiform",
-      "aes" => "egyptian", "tla-hf" => "egyptian"
+      "aes" => "egyptian", "tla-hf" => "egyptian",
+      "kanripo" => "sinitic"
     }.freeze
     AXIS_BASE = "https://arvicco.github.io/nabu/axis/"
     URN_CODE = %r{<code>(urn:nabu:([a-z0-9-]+):[^<]*)</code>}

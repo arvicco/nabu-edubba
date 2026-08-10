@@ -369,7 +369,7 @@ module Edubba
 
         body.scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
           txt = s.gsub(/<[^>]+>/, "")
-          em = script_width_em(txt)
+          em = script_width_em(txt, path.include?("/sinographs/") ? :sinographs : nil)
           next if em <= SCRIPT_EM_BUDGET
 
           found << Violation.new(path, "reading-width",
@@ -381,22 +381,35 @@ module Edubba
       found
     end
 
-    def script_width_em(txt)
+    def script_width_em(txt, school = nil)
       fonts = reading_fonts
-      txt.each_char.sum do |c|
+      em = txt.each_char.sum do |c|
         cp = c.ord
         if cp.between?(0x12000, 0x1247F) then fonts[:cuneiform].advance_em(cp)
         elsif cp.between?(0x13000, 0x1342F) then fonts[:hieroglyphs].advance_em(cp)
+        elsif han?(cp) then fonts[:sinographs].advance_em(cp)
+        elsif cp.between?(0x3000, 0x303F) || cp.between?(0xFF00, 0xFFEF) then 1.0
         elsif c == " " then 0.4
         else 0.75
         end
       end
+      # The size law (sinographs §6) renders that school's reading
+      # script at 1.9rem against cuneiform's 1.4rem — the same pixel
+      # budget holds fewer, bigger glyphs.
+      school == :sinographs ? em * SINO_READING_SCALE : em
+    end
+
+    SINO_READING_SCALE = 1.9 / 1.4
+
+    def han?(cp)
+      ScriptScan.ranges_of(ScriptScan::SCRIPTS["sinographs"][:range]).any? { |r| r.cover?(cp) }
     end
 
     def reading_fonts
       @reading_fonts ||= {
         cuneiform: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansCuneiform-subset.ttf", __dir__)),
-        hieroglyphs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansEgyptianHieroglyphs-subset.ttf", __dir__))
+        hieroglyphs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansEgyptianHieroglyphs-subset.ttf", __dir__)),
+        sinographs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSerifTC-subset.otf", __dir__))
       }
     end
 

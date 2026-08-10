@@ -375,6 +375,9 @@ class LintTest < Minitest::Test
   end
 
   def test_font_metrics_measure_real_advances
+    han = Edubba::Lint.script_width_em("天大", :sinographs)
+    assert_in_delta 2 * (1.9 / 1.4), han, 0.05,
+                    "Han glyphs measure with sino metrics × the size-law scale"
     em = Edubba::Lint.script_width_em("𒋳𒈠")
     assert_operator em, :>, 1.5, "two real glyphs are wider than 1.5em"
     assert_operator em, :<, 6, "and narrower than 6em — sane advance range"

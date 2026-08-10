@@ -74,6 +74,11 @@
    law-satisfying size as they arrive. */
 body.school-sinographs :where(.script) { font-size: 1.35em; }
 
+/* Explicit sinograph script contexts — each exceeds its cuneiform
+   counterpart (registered in StyleGuardTest::SINO_CONTEXTS). */
+.school-sinographs .sign-cell { font-size: 2.6rem; }
+.school-sinographs .reading--script .script { font-size: 1.9rem; }
+
 * { box-sizing: border-box; }
 
 body {
