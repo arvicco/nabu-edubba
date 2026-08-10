@@ -40,12 +40,13 @@ has its first stretch — sentence types, the suffix conjugation,
 the doctors' register, from Westcar to the medical papyri.
 The sinograph school has opened **classical-first**:
 [101 · How the characters work](https://edubba.ac/sinographs/101/)
-is ten chapters deep — 55 characters covering one in five
+is fifteen chapters deep — 81 characters covering one in four
 characters of the whole classical corpus, taught on real lines of
-the *Laozi*, the *Analects*, the *Changes*, the *Songs*, and the
-*Annals*, with whole sayings now read box-free in the original —
-plus a Character Codex page for every taught character and a
-Pinyin primer with tone-verified audio.
+the *Laozi*, the *Analects*, the *Great Learning*, the *Changes*,
+the *Songs*, and the *Annals*, with whole sayings now read
+box-free in the original — plus a Character Codex page for every
+taught character and a Pinyin primer, every syllable voiced with
+tone-verified, loudness-normalized audio.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
 hover bubbles giving name, readings, and meaning. The site works

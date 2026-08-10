@@ -838,16 +838,16 @@ Acceptance: owner approves the rendered result on the served
 
 ## Phase 18 — S101 stretch 3 (owner pick at Gate 17 close)
 
-## M18-1 · Stretch law + reading map  [tier: top] [status: open] [deps: --]
+## M18-1 · Stretch law + reading map  [tier: top] [status: done — rulebook §5 stretch-3 ruled before content; all anchors Kanripo-verified, URNs in the plan] [deps: --]
 Goal: rulebook §5 stretch-3 section (ch10–14, cap 40%, the
       chapter roster) ruled before content; every anchor reading
       verified against its Kanripo witness, URN recorded in the
       plan.
-## M18-2 · Pool + compiler + first audio batch  [tier: top] [status: open] [deps: M18-1]
+## M18-2 · Pool + compiler + first audio batch  [tier: top] [status: done — 26 rows staged per-chapter after the complete-shelf lesson; ch10-11 syllables acquired] [deps: M18-1]
 Goal: 26 pool rows (parts, keywords, divergences noted), queue
       regenerated green; syllables for ch10–11 acquired through
       the pipeline.
-## M18-3..7 · ch10–ch14  [tier: top — content Fable-only] [status: open] [deps: M18-2]
+## M18-3..7 · ch10–ch14  [tier: top — content Fable-only] [status: done — five chapters, 26 codex pages, every syllable voiced, gate green at each] [deps: M18-2]
 Goal: one chapter per packet — chapter + codex pages + syllables
       wired; gate green at each.
-## M18-8 · Stitching + Gate 18 PR  [tier: top] [status: open] [deps: M18-7]
+## M18-8 · Stitching + Gate 18 PR  [tier: top] [status: done — README/worklog/phase line current; PR open] [deps: M18-7]

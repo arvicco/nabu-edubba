@@ -5,6 +5,36 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M18-1..M18-7 (stretch 3 complete) · phase-18 · The
+sentence at work, ch10–14, 26 characters, cap 40%. Every reading
+verified against its Kanripo witness BEFORE writing (the stretch's
+own law, rulebook §5): the Daxue passage KR1d0052:043:1a carried
+three ch14 readings alone; Zhuangzi's 子非魚 wanted for ch13 is
+NOT in the slice and was replaced (2.24/3.3). Notable acquisition
+finds: seven ch10–11 recordings are the taught characters
+themselves; 丁 existed only on Lingua Libre (Fake_estate); 所's
+obvious source Zh-suǒyǐ was REJECTED for 3-3 tone sandhi — a cut
+suǒ would sound rising — and a dedicated Jouketou 所 recording
+used instead; 女好如云 are their own recordings. The untaught-sign
+lint caught 何師所古 leaking into ch13/ch14 prose and glosses
+before commit — four catches, all real. Return arcs: 1.1 reached
+again (ch10), 2.4's decades completed (ch11), ch05's 未之有也
+closes the stretch at zero boxes (ch14), and 矣 turned out to be
+ALREADY WAITING in ch10's teacher-line — the box gets its name in
+ch13. Coverage 20.9% → 27.7%: one in four. Slip: the ch11 commit
+subject says "ch12 batch" (no history rewrite; noted here).
+
+2026-08-11 · INCIDENT: serve/gate build race (phase-18) · The
+ch10 gate failed with 110 phantom link errors: the phase-17
+`rake serve` was still running, its file-watcher regenerating
+into the SAME _build/site the gate builds into — with a
+sign-link map memoized from before the keyword-slug migration,
+so it kept writing /signs/ren/ links over the gate's fresh
+output. Durable fix: rake serve now builds to _build/serve, its
+own destination; the racing process killed. Lesson: a
+long-running serve is a second writer — never share the gate's
+build directory.
+
 2026-08-11 · INCIDENT: red gate committed and pushed (phase-18,
 449c965) · The M18-2 command chained `rake gate; git commit &&
 push` with SEMICOLONS — the gate exited 1 (complete-shelf check:
