@@ -31,6 +31,7 @@ modern languages too, because the characters are the same.
 
 <ol class="course-toc" start="0">
   <li><a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and your first three characters</li>
+  <li><a href="{{ '/sinographs/101/01-how-a-character-can-mean/' | relative_url }}">How a character can mean</a> — sun, moon, bright: the four ways</li>
 </ol>
 
 The course is opening; chapters appear here as they are written.

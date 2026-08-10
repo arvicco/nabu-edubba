@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 ch01 · phase-15 · 01 · How a character can mean
+— 日/月/明 taught (sun, moon, bright: the compound demo the chapter
+IS), the four moves (draw / point / combine / borrow-a-sound) with
+the picture-book myth put down honestly, 時=日+寺 as the shown
+phono-semantic preview (shows: 時寺), nine-in-ten figure footnoted
+to Qiu. Readings: the Xici parallel pair 法象莫大乎天地 /
+縣象著明莫大乎日月 (KR1a0019, Wuyuan Zhouyi jie) and the sun-goes-
+moon-comes pair (KR1a0008, Zhouyi jijie — witness writes the
+second 往 as 徃; both untaught, both boxed, variant honestly
+invisible). Gate catches this round: 山 name-dropped in prose
+before its chapter (untaught-sign — reworded); and the pixel pass
+caught a STILL-clipped gloss on a line the width lint had passed
+at 14.25em — the cuneiform-derived 14.5 budget overestimates what
+the serif face + fullwidth punctuation leave for columns. Lint
+calibrated: SINO_EM_BUDGET = 13.0 for sinograph figures (the
+pixel-measured safe ceiling); the pair-line now correctly demands
+and declares reading--stacked.
+
 2026-08-10 · M15-4 ch00 · phase-15 · S101 opens: 00 · Orientation
 — the thesis trio 人→大→天 taught in the school's first sign table
 (columns Character · Keyword · Says · Means · How to see it), the
