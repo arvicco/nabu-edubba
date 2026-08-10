@@ -5,6 +5,92 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · syllable audio (owner ruling) · phase-16 · Every
+chapter sign-table now carries a click-to-play button voicing its
+character's reading — 53 of 55 characters, browser-native audio,
+no JS. Built by the new PIPELINE (bin/pinyin_audio.rb +
+hand-curated manifest): Commons-only, license-gated at the API
+(BY/BY-SA, never NC — Arch Chinese and TTS both fail that bar,
+Apple voices being personal-use-only), word recordings cut to the
+named syllable, and EVERY file pitch-verified against its declared
+tone. The verifier earned its keep: it refused a mislabeled 山
+recording twice (both sources' contours fall), caught 為 taught as
+wèi while the course says wéi (pool corrected, divergence field
+added to the compiler), and exposed an ffmpeg seek/filter trap
+(output-seeking runs filters BEFORE the trim — a fade at cut-time
+silenced every non-initial syllable cut; input-seeking fixes it).
+Acceptance rules tuned to real citation speech (register-filtered
+tracks, tone-2 onset dips, low-flat tone 3) while the original
+mislabeled-tone-1 case stays refused. 曰 and 品 remain honestly
+buttonless (manifest absent:, reported every run). Credits
+regenerate; 48 mp3s vendored.
+
+2026-08-10 · M16-7 · phase-16 · ch09 · The master's opening —
+者其亦于乎, all loans, the connective tissue completed: 6.23 at
+its FIFTH visit (only "delights" boxed, twice), Analects 1.1's
+first two questions read under cap (the grammar audible, the
+content words boxed — the stretch's thesis in one figure), the
+Laozi-25 page yielding its FOURTH fragment (王▢其一, closing the
+count begun on the course's first page), and the Peach Tree's
+之子于▢. The gate earned its keep three times in one chapter:
+樂/居/歸 shipped unboxed against my own glosses (untaught-sign +
+shows-in-reading), a gloss carried raw untaught Han (de-Hanned to
+pinyin), and the bridal couplet measured exactly 50% against the
+45% cap (box-share lint) — trimmed to its refrain. Codex ×5 same
+commit. Stretch 2 content complete: 55 characters, 20.9% of the
+classical corpus — one character in five.
+
+2026-08-10 · M16-6 · phase-16 · ch08 · Stopping at true — 止正是夕名:
+the footprint chain (止→正→是, every part owned before the chain
+began — the SVG walks it), 名's evening story, the rectification
+of names read from the punctuated Analects itself (名不正，▢言不▢
+at 29%, three chapters' characters meeting in one sentence), the
+Daxue's know-where-to-stop (知止而▢有▢), and the stretch's
+showpiece: Analects 2.17 WHOLE — eleven characters, zero boxes,
+the ch06 promise kept. Codex ×5 same commit. 18.8%.
+
+2026-08-10 · M16-5 · phase-16 · ch07 · Doing and being — 為無我心生:
+the loan move at its grandest (the hand leading the elephant, the
+dancer whose dance moved out — SVG of the dancer becoming 無), 我
+the forgotten halberd, and the VERB-無-VERB mold named as a mold.
+Readings: Laozi 63 unfolded (為無為…味無味, one word boxed — the
+ch04 arc completing), 7.22's fourth visit (我 claims the teacher,
+37%), 本立而道生 at 40%, and the elegy's 天下▢心 (25%). Catches
+before the gate: 歸 nearly shipped unboxed in a reading (boxed,
+gloss cleaned), and the next-chapter teaser glyphs 止正是 needed
+shows: (the exhibit mechanism doing its job). Codex ×5 same
+commit. 18.0%.
+
+2026-08-10 · M16-4 · phase-16 · ch06 · Knowing and walking —
+矢知而行言: the arrow pinned ahead of rank because 知 needs it
+(components-first stated in-chapter), 而 as the borrowed beard
+(rank five), 言 seeding the talking family on ch02's 口. Readings
+all ≤45%: 人不知而不慍 one box from open, 三人行 with its verb
+finally lit (third visit), 三十而立 on the 而 hinge, and
+不知▢不知 as the 2.17 teaser (為 honestly boxed until ch07 —
+caught my own draft shipping it unboxed). Codex ×5 same commit;
+the yan page's 13.3 witness corrected to the punctuated Analects
+itself (KR1h0004:013:7a — found while fixing my own wrong URN,
+and it upgrades ch08's planned citation too). 16.2%.
+
+2026-08-10 · M16-1..3 · phase-16 · Stretch 2 opens under its law
+(rulebook §5 stretch-2 section, ruled before content: the
+borrowed words, five batches, cap 45%, the shrinking-boxes return
+arc). ch05 · The busiest words — 之不也又有十 (ranks 1/2/4/50/
+9/15): the loan move taught honestly (the picture is history, not
+meaning; certainty labels hedge accordingly), the foot→之→"of"
+figure, and the course's first ZERO-BOX reading — 未之有也, the
+Analects 1.2 clause that entered as a wall of boxes in ch04 and
+opens completely one chapter later; 物有本末 at its third visit
+(one box left); numbers composing in prose (二十/三十); X 之 Y
+syntax on taught phrases (天下之大, 山中之人). Six codex pages in
+the same commit (shelf law). Self-catches: 五 is untaught — the
+annals' 十有五年 line would have shipped it unboxed (moved to
+prose mention; 三十而立 verified for the codex instead, witness
+honestly the Ming Sishu liushu — the punctuated Analects lacks
+the exact string); the jiajie footnote nearly shipped untaught
+Han (pinyin only now). Coverage 8.0% → 14.4% in one chapter.
+
 2026-08-10 · M15-6 · phase-15 · The throttle cooled; the delayed
 paced retry (10-minute wait, 45-second gaps) brought all ten
 remaining recordings home. Transcoded and wired: the trap-row
