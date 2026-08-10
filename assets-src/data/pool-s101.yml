@@ -621,3 +621,57 @@ signs:
       rank 871; mouth for the meaning, not-yet (wèi) for the
       sound — the same-page proof that a taught character can turn
       into a pure sound-carrier.
+  # ---- stretch 3: the sentence at work (ch10-14, phase-18) ----
+  - char: 以
+    chapter: 10
+    keyword: by-means-of
+    pinyin: yǐ
+    meaning: "by means of, using; to take — the instrumental"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 3 — the biggest character still untaught; the old graph
+      (a person with something carried, per one reading) was taken
+      whole for the grammar word.
+  - char: 自
+    chapter: 10
+    keyword: self
+    pinyin: zì
+    meaning: "self; from — the reflexive and the point of origin"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 33; a nose face-on — Chinese speakers still point at
+      the nose to say "me".
+  - char: 丁
+    chapter: 10
+    keyword: nail
+    pinyin: dīng
+    meaning: "nail; an able-bodied man; fourth of the stems"
+    category: pictograph
+    certainty: stated
+    note: >-
+      rank 514 — pinned ahead of its rank as the component 可
+      needs; a nail seen head-on and driven home.
+  - char: 可
+    chapter: 10
+    keyword: can
+    pinyin: kě
+    meaning: "can, may; acceptable"
+    category: phono-semantic
+    certainty: stated
+    parts: ["丁", "口"]
+    note: >-
+      rank 35; graphically a nail-stroke beside a mouth — the old
+      phonetic 丂 wrote the sound, the mouth grants the permission.
+  - char: 用
+    chapter: 10
+    keyword: use
+    pinyin: yòng
+    meaning: "to use, to employ"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 77; the old picture is disputed (a bucket, a fence, a
+      hung bell) — the grammar is not: 用 puts things to work,
+      and 可 + 用 says "usable".

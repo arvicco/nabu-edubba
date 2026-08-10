@@ -3,6 +3,8 @@
 # by hand; the gate fails if site/ uses a sinographs codepoint not
 # listed here.
 4E00
+4E01
+4E02
 4E06
 4E09
 4E0A
@@ -76,7 +78,6 @@
 5BC2
 5BE5
 5C07
-5C45
 5C71
 5E1D
 5E2B
@@ -144,6 +145,8 @@
 7368
 738B
 751F
+7528
+76EE
 77E2
 77E5
 7940
@@ -155,6 +158,7 @@
 8002
 8005
 800C
+81EA
 83AB
 842C
 8457
