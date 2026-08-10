@@ -50,3 +50,35 @@ signs:
       everything. Shuowen reads it as the anthropomorphic chain
       人→大→天; oracle forms show a box-headed figure. The course's
       thesis in three characters.
+  - char: 日
+    chapter: 1
+    keyword: sun
+    pinyin: rì
+    meaning: the sun; a day
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 38; the sun-disc squared by the brush, the dot of light
+      kept as the middle stroke. Half of the ch01 compound demo.
+  - char: 月
+    chapter: 1
+    keyword: moon
+    pinyin: yuè
+    meaning: the moon; a month
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 51; the crescent that never fills — the moon is drawn
+      waxing. The other half of the demo.
+  - char: 明
+    chapter: 1
+    keyword: bright
+    pinyin: míng
+    meaning: bright; to shine, to understand
+    category: compound-ideograph
+    certainty: classic
+    note: >-
+      rank 62; sun beside moon — the textbook meaning-compound, and
+      the proof that characters are built from characters. Pulled a
+      few ranks ahead of its strict seat to land in the chapter
+      that needs it (its two halves are taught the same page).
