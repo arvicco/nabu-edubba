@@ -283,6 +283,66 @@ signs:
       rank 15; the tally-mark that closed the count — old forms
       are a single vertical with a thickening, later crossed.
 
+  # ch06 — knowing and walking
+  - char: 矢
+    chapter: 6
+    keyword: arrow
+    slug: shi-arrow
+    pinyin: shǐ
+    meaning: "arrow"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 1399 — pinned far ahead of its rank as the component 知
+      needs (components before compounds); head, shaft, and
+      fletching in five strokes.
+  - char: 知
+    chapter: 6
+    keyword: know
+    slug: zhi-know
+    pinyin: zhī
+    meaning: "to know, to understand"
+    category: phono-semantic
+    certainty: stated
+    parts: ["矢", "口"]
+    note: >-
+      rank 52; mouth for the speaking of it, arrow (shǐ) close to
+      the sound — the received account hears knowing as the word
+      that flies straight.
+  - char: 而
+    chapter: 6
+    keyword: and-then
+    slug: er-and
+    pinyin: ér
+    meaning: "and, and then, but — the clause-linker"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 5; the classic borrowed beard — a drawing of whiskers,
+      lent forever to the little word that joins classical clauses.
+  - char: 行
+    chapter: 6
+    keyword: walk
+    pinyin: xíng
+    meaning: "to walk, to go; to practice"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 49; a crossroads seen from above — where walking
+      happens. Doubles as "to carry out": the walked way.
+  - char: 言
+    chapter: 6
+    keyword: speech
+    pinyin: yán
+    meaning: "speech, words; to speak"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["口"]
+    note: >-
+      rank 40; the mouth 口 under rising lines — sound leaving the
+      mouth, by the received account. The meaning-component of the
+      whole talking family to come.
+
   # compounds of taught parts
   - char: 明
     chapter: 3

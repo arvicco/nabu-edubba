@@ -805,7 +805,7 @@ same commit as their chapter (shelf check live).
 ## M16-1 · Stretch-2 law + pool pins  [tier: top — Fable] [status: done — rulebook §5 stretch-2 section; batches ruled ch05–09, 26 chars] [deps: --]
 ## M16-2 · Reading map verified  [tier: top — Fable] [status: done — anchors verified (Analects 1.1/1.2/2.17/13.3 punctuated, 十有五年, 三十而立, Laozi 63); per-line verification continues at writing per the standing rule] [deps: M16-1]
 ## M16-3 · ch05 The busiest words + codex  [tier: top — Fable] [status: done — 之不也又有十, the loan move taught, first ZERO-BOX reading (未之有也), 6 codex pages, coverage 8.0→14.4%] [deps: M16-2]
-## M16-4 · ch06 Knowing and walking + codex  [tier: top — Fable] [status: ready] [deps: M16-3]
+## M16-4 · ch06 Knowing and walking + codex  [tier: top — Fable] [status: done — 矢知而行言, arrow-seeds-know per components-first, the borrowed beard, 人不知而不慍 at one box, 三人行 verb lit, 2.17 teaser; 5 codex pages; 16.2%] [deps: M16-3]
 ## M16-5 · ch07 Doing and being + codex  [tier: top — Fable] [status: ready] [deps: M16-4]
 ## M16-6 · ch08 Stopping at true + codex  [tier: top — Fable] [status: ready] [deps: M16-5]
 ## M16-7 · ch09 The master's opening + codex  [tier: top — Fable] [status: ready] [deps: M16-6]
