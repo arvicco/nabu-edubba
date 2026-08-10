@@ -216,6 +216,304 @@ signs:
       what connects them. Early forms suggest an axe blade of
       authority instead; the chapter says so honestly.
 
+  # ch05 — the busiest words (stretch 2 opens; loans + the hand chain)
+  - char: 之
+    chapter: 5
+    keyword: of
+    pinyin: zhī
+    meaning: "of; him, her, it — the classical linker and object"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 1 — the single most frequent character in the classical
+      corpus. Old forms show a foot over a line (setting out); the
+      word it writes is pure grammar, borrowed sound.
+  - char: 不
+    chapter: 5
+    keyword: not
+    pinyin: bù
+    meaning: "not — the plain negation"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 2; the received account sees a calyx or bird-and-sky
+      drawing, borrowed early and forever for "not."
+  - char: 也
+    chapter: 5
+    keyword: indeed
+    pinyin: yě
+    meaning: "the sentence-final 'it is so' of classical prose"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 4; what the picture once was is genuinely disputed —
+      the character's whole classical life is the final beat of a
+      statement.
+  - char: 又
+    chapter: 5
+    keyword: again
+    pinyin: yòu
+    meaning: "again, further; the old drawing of the right hand"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 50; a right hand in profile — two strokes. Seeds 有 in
+      this same chapter, and half the hand-characters to come.
+  - char: 有
+    chapter: 5
+    keyword: have
+    slug: you-have
+    pinyin: yǒu
+    meaning: "to have, there is"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["又", "月"]
+    note: >-
+      rank 9; a hand holding meat by the received account — the
+      meat-flesh component wrote itself like the moon, and the two
+      shapes merged in the standard script.
+  - char: 十
+    chapter: 5
+    keyword: ten
+    pinyin: shí
+    meaning: "ten; complete"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 15; the tally-mark that closed the count — old forms
+      are a single vertical with a thickening, later crossed.
+
+  # ch06 — knowing and walking
+  - char: 矢
+    chapter: 6
+    keyword: arrow
+    slug: shi-arrow
+    pinyin: shǐ
+    meaning: "arrow"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 1399 — pinned far ahead of its rank as the component 知
+      needs (components before compounds); head, shaft, and
+      fletching in five strokes.
+  - char: 知
+    chapter: 6
+    keyword: know
+    slug: zhi-know
+    pinyin: zhī
+    meaning: "to know, to understand"
+    category: phono-semantic
+    certainty: stated
+    parts: ["矢", "口"]
+    note: >-
+      rank 52; mouth for the speaking of it, arrow (shǐ) close to
+      the sound — the received account hears knowing as the word
+      that flies straight.
+  - char: 而
+    chapter: 6
+    keyword: and-then
+    slug: er-and
+    pinyin: ér
+    meaning: "and, and then, but — the clause-linker"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 5; the classic borrowed beard — a drawing of whiskers,
+      lent forever to the little word that joins classical clauses.
+  - char: 行
+    chapter: 6
+    keyword: walk
+    pinyin: xíng
+    meaning: "to walk, to go; to practice"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 49; a crossroads seen from above — where walking
+      happens. Doubles as "to carry out": the walked way.
+  - char: 言
+    chapter: 6
+    keyword: speech
+    pinyin: yán
+    meaning: "speech, words; to speak"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["口"]
+    note: >-
+      rank 40; the mouth 口 under rising lines — sound leaving the
+      mouth, by the received account. The meaning-component of the
+      whole talking family to come.
+
+  # ch07 — doing and being
+  - char: 為
+    chapter: 7
+    keyword: do
+    slug: wei-do
+    pinyin: wéi
+    pinyin_divergence: >-
+      Unihan kMandarin gives wèi; the course teaches the verb
+      reading wéi (為無為), with wèi "for" noted in the meaning.
+    meaning: "to do, to make; to act as; for"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 8; the old form draws a hand leading an elephant — put
+      to work — and the working word "do" kept the character.
+      Read wéi as the verb, wèi as "for."
+  - char: 無
+    chapter: 7
+    keyword: without
+    pinyin: wú
+    meaning: "without, there is not — the classical nothing"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 21; a dancer with sleeves full of tassels, borrowed for
+      the word "not have" — the dance later took a new character
+      and left this one to nothing.
+  - char: 我
+    chapter: 7
+    keyword: I
+    pinyin: wǒ
+    meaning: "I, me, we — the plain first person"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 176; a toothed halberd by the received account, borrowed
+      early for the word "I" — the weapon's meaning long gone.
+  - char: 心
+    chapter: 7
+    keyword: heart
+    pinyin: xīn
+    meaning: "heart; mind — where classical thought happens"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 90; the heart drawn with its chambers — in the classics
+      it is the organ of thinking as much as feeling.
+  - char: 生
+    chapter: 7
+    keyword: grow
+    pinyin: shēng
+    meaning: "to grow, to be born; life"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 53; a sprout rising from the ground-line — the verb of
+      the Laozi's whole cosmology (道生一).
+
+  # ch08 — stopping at true
+  - char: 止
+    chapter: 8
+    keyword: stop
+    slug: zhi-stop
+    pinyin: zhǐ
+    meaning: "to stop, to stay; where one rests"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 324; a footprint — toes and heel — the foot at rest.
+      Seeds 正 and, through it, 是.
+  - char: 正
+    chapter: 8
+    keyword: upright
+    pinyin: zhèng
+    meaning: "upright, correct; exactly"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["一", "止"]
+    note: >-
+      rank 87; the foot stopped at the line — arriving exactly
+      where one should: upright, correct.
+  - char: 是
+    chapter: 8
+    keyword: this
+    slug: shi-this
+    pinyin: shì
+    meaning: "this; to be right"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["日", "正"]
+    note: >-
+      rank 30; the sun over the upright foot — what is squarely
+      so, by the received account: this, the very one, right.
+  - char: 夕
+    chapter: 8
+    keyword: evening
+    slug: xi-evening
+    pinyin: xī
+    meaning: "evening, dusk"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 863; the moon-sliver missing one stroke — early moonrise,
+      the day's close. Pinned as 名's component.
+  - char: 名
+    chapter: 8
+    keyword: name
+    slug: ming-name
+    pinyin: míng
+    meaning: "name; to name"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["夕", "口"]
+    note: >-
+      rank 69; evening plus mouth — in the dark you cannot be seen,
+      so you say your name: the received story, and a good one.
+
+  # ch09 — the master's opening
+  - char: 者
+    chapter: 9
+    keyword: who
+    pinyin: zhě
+    meaning: "the one who — turns a verb into its doer"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 10; the old picture is disputed (the graph shows
+      something over a mouth-like box); its classical work is
+      pure grammar — X 者, "the one who X-es."
+  - char: 其
+    chapter: 9
+    keyword: its
+    pinyin: qí
+    meaning: "his, her, its, their"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 6; the classic borrowed winnowing-basket — the basket
+      later took a new character, the pronoun kept this one.
+  - char: 亦
+    chapter: 9
+    keyword: also
+    slug: yi-also
+    pinyin: yì
+    meaning: "also, likewise — the classical 'too'"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 61; a person with two marks under the arms — "armpits,"
+      by the received account — borrowed whole for "also."
+  - char: 于
+    chapter: 9
+    keyword: at
+    pinyin: yú
+    meaning: "at, to, toward — the old preposition"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 75; origin disputed; the annals' and Songs' preposition
+      of place and direction.
+  - char: 乎
+    chapter: 9
+    keyword: really
+    pinyin: hū
+    meaning: "the question-breath that ends classical questions"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 136; a rising breath-mark by the received account — the
+      spoken lift at the end of "…is it not?"
+
   # compounds of taught parts
   - char: 明
     chapter: 3

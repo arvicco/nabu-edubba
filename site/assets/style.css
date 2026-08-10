@@ -85,6 +85,10 @@ body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.scrip
    controls, no JS. Kept compact so a "Hear" column fits a table. */
 audio { width: 11rem; height: 2.1rem; vertical-align: middle; }
 
+/* Sign-table play buttons (§2 syllable pipeline): shrink the
+   native control to its play button beside the pinyin. */
+.sign-table audio { width: 2.75rem; min-width: 2.75rem; height: 1.7rem; }
+
 /* Sinograph readings ALWAYS stack (rulebook §6): at the size-law
    scale even short classical clauses leave the three-column grid
    no honest room for a gloss — the measured 13em budget still
