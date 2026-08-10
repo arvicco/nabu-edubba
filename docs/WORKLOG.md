@@ -5,6 +5,15 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-6 · phase-15 · The throttle cooled; the delayed
+paced retry (10-minute wait, 45-second gaps) brought all ten
+remaining recordings home. Transcoded and wired: the trap-row
+grid grew to four rows (bā/pà the puff pair, the smiling three,
+the full retroflex four, zì/cí the hisses — with the buzzing-i
+note) and the finals gained the missing-sounds table (nǚ/lǜ the
+whistle vowel, é the bare e). CREDITS.txt complete: 20 files,
+four authors, CC BY 2.0 FR / BY 2.0 / BY 3.0 / BY-SA 3.0 US.
+
 2026-08-10 · Pinyin primer (owner request) · phase-15 · The
 Addenda gains "Pinyin — how to read the voice": tone contours on
 the five-level staff (SVG), the ma tone table, initials and
