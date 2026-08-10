@@ -779,3 +779,68 @@ signs:
       rank 55; a head moving under the walking radical 辶 — a
       person going down a road; the word the classics made
       cosmic.
+  - char: 女
+    chapter: 13
+    keyword: woman
+    pinyin: nǚ
+    meaning: "woman"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 313 — pinned as the component 好 and 如 need; a figure
+      kneeling with folded hands, the oracle-bone posture.
+  - char: 好
+    chapter: 13
+    keyword: fond
+    pinyin: hǎo
+    meaning: "good, fine; (hào) to be fond of, to love"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["女", "子"]
+    note: >-
+      rank 355; woman and child together — the classical texts
+      mostly read it hào, the verb "to love": 6.20 turns on it.
+  - char: 如
+    chapter: 13
+    keyword: like
+    pinyin: rú
+    meaning: "to be like, as; if; to go to"
+    category: phono-semantic
+    certainty: stated
+    parts: ["女", "口"]
+    note: >-
+      rank 39; 女 lent its old sound beside the mouth; the
+      classical comparer — 不如 "is not as good as".
+  - char: 云
+    chapter: 13
+    keyword: quoth
+    pinyin: yún
+    meaning: "to say (introducing a quotation)"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 92; the original cloud pictograph, borrowed for the
+      quotative — clouds later got 雨 on top (雲) to stay
+      distinct. 曰 speaks; 云 quotes.
+  - char: 非
+    chapter: 13
+    keyword: is-not
+    pinyin: fēi
+    meaning: "is not, it is not the case that; wrong"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 98; two wings spread back to back — turned away,
+      contrary; the nominal negator (非 X = "it is not X"),
+      where 不 negates the verb.
+  - char: 矣
+    chapter: 13
+    keyword: by-now
+    pinyin: yǐ
+    meaning: "final particle: the state has arrived — 'now it is so'"
+    category: phono-semantic
+    certainty: stated
+    parts: ["矢"]
+    note: >-
+      rank 76; the arrow 矢 under 以's ancient top, which lends
+      the sound — the sentence lands like a shot: it is DONE.

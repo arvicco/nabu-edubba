@@ -1254,6 +1254,116 @@ signs:
   - 首
   note: rank 55; a head moving under the walking radical 辶 — a person going down a
     road; the word the classics made cosmic.
+- char: 女
+  glyph: 女
+  name: woman
+  codepoint: '5973'
+  keyword: woman
+  pinyin: nǚ
+  meaning: woman
+  category: pictograph
+  certainty: classic
+  strokes: 3
+  ids: 女
+  rank: 313
+  count_kanripo: 470719
+  docs: 4591
+  chapter: 13
+  note: rank 313 — pinned as the component 好 and 如 need; a figure kneeling with folded
+    hands, the oracle-bone posture.
+- char: 好
+  glyph: 好
+  name: fond
+  codepoint: 597D
+  keyword: fond
+  pinyin: hǎo
+  meaning: good, fine; (hào) to be fond of, to love
+  category: compound-ideograph
+  certainty: classic
+  strokes: 6
+  ids: "⿰女子"
+  rank: 355
+  count_kanripo: 419051
+  docs: 4414
+  chapter: 13
+  parts:
+  - 女
+  - 子
+  note: 'rank 355; woman and child together — the classical texts mostly read it hào,
+    the verb "to love": 6.20 turns on it.'
+- char: 如
+  glyph: 如
+  name: like
+  codepoint: '5982'
+  keyword: like
+  pinyin: rú
+  meaning: to be like, as; if; to go to
+  category: phono-semantic
+  certainty: stated
+  strokes: 6
+  ids: "⿰女口"
+  rank: 39
+  count_kanripo: 2164378
+  docs: 5028
+  chapter: 13
+  parts:
+  - 女
+  - 口
+  note: rank 39; 女 lent its old sound beside the mouth; the classical comparer — 不如
+    "is not as good as".
+- char: 云
+  glyph: 云
+  name: quoth
+  codepoint: 4E91
+  keyword: quoth
+  pinyin: yún
+  meaning: to say (introducing a quotation)
+  category: loan
+  certainty: classic
+  strokes: 4
+  ids: "⿱二厶"
+  rank: 92
+  count_kanripo: 1262116
+  docs: 4499
+  chapter: 13
+  note: rank 92; the original cloud pictograph, borrowed for the quotative — clouds
+    later got 雨 on top (雲) to stay distinct. 曰 speaks; 云 quotes.
+- char: 非
+  glyph: 非
+  name: is-not
+  codepoint: 975E
+  keyword: is-not
+  pinyin: fēi
+  meaning: is not, it is not the case that; wrong
+  category: loan
+  certainty: stated
+  strokes: 8
+  ids: "⿰⿰三丨⿰丨三"
+  rank: 98
+  count_kanripo: 1225942
+  docs: 4850
+  chapter: 13
+  note: rank 98; two wings spread back to back — turned away, contrary; the nominal
+    negator (非 X = "it is not X"), where 不 negates the verb.
+- char: 矣
+  glyph: 矣
+  name: by-now
+  codepoint: 77E3
+  keyword: by-now
+  pinyin: yǐ
+  meaning: 'final particle: the state has arrived — ''now it is so'''
+  category: phono-semantic
+  certainty: stated
+  strokes: 7
+  ids: "⿱厶矢"
+  rank: 76
+  count_kanripo: 1436530
+  docs: 4626
+  chapter: 13
+  parts:
+  - 矢
+  note: 'rank 76; the arrow 矢 under 以''s ancient top, which lends the sound — the
+    sentence lands like a shot: it is DONE.'
 batches:
 - chapter: 0
   signs:
@@ -1364,3 +1474,12 @@ batches:
   - 首
   - 道
   coverage_pct: 24.9
+- chapter: 13
+  signs:
+  - 女
+  - 好
+  - 如
+  - 云
+  - 非
+  - 矣
+  coverage_pct: 25.9
