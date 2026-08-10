@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-5 · phase-15 · Owner: why don't the chapter
+tables' characters link to the codex? Because only ren/da/tian
+had pages — the sign-linker routes a cell to the codex only when
+the page really exists (no dead links). Answer: the backfill,
+now. Twenty-six pages written (every taught character), each with
+origin (certainty carried from the pool), an invented-and-said-so
+hook, and its attested line reused from the chapters' verified
+witnesses — codex pages show the lines whole, unboxed (reference,
+not graded reading). pages: true flipped on the CODEX entry: the
+complete-shelf check is now live, so a taught character without a
+page fails the gate from here on. Subset grew to 130 codepoints
+(the unboxed witness lines carry their full character load).
+Every sign-table cell site-wide now routes to its codex page.
+
 2026-08-10 · review round (Gate 15: 木/口 examples) · phase-15 ·
 Owner: the tree and mouth examples were nearly all boxes — better
 short lines reinforcing taught characters. Replaced: 木 now leads

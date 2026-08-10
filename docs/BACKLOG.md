@@ -750,7 +750,7 @@ Acceptance: gate green incl. pinyin-display lint, keyword
       uniqueness, readings-strict, size-law guard; pixel review
       per §6b.
 
-## M15-5 · Codex backfill — the remaining twenty-five  [tier: top — Fable, content] [status: ready] [deps: M15-4]
+## M15-5 · Codex backfill — the shelf complete  [tier: top — Fable, content] [status: done — all 29 characters paged (26 written this round), pages: true flipped, every chapter table cell now codex-routed; spot-checked wang + wei-flavor] [deps: M15-4]
 Goal: one codex page per remaining taught character (the 28-char
       queue minus ren/da/tian), each with origin
       (certainty-labeled), memory hook, real attested line; then
