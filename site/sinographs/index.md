@@ -21,12 +21,17 @@ own history — rather than repeating modern-language instruction. The
 goal, as with every Edubba school, is genuine reading literacy: real
 texts, not facts about the characters.
 
-## Course catalog (planned)
+## Course catalog
 
-- **101 · How the characters work** — planned. The foundations course:
-  strokes, components, and how the system encodes language, with the
-  teaching order computed over the classical corpus. Prerequisite for
-  everything below.
+- **[101 · How the characters work]({{ '/sinographs/101/' | relative_url }})** —
+  **open**: the first five chapters are live. Strokes, components,
+  and the ways a character can mean, with the teaching order
+  computed over the classical corpus itself — real lines of the
+  *Laozi*, the *Analects*, and the *Changes* from the first pages.
+  Prerequisite for everything below.
+- **[Sinograph Addenda]({{ '/sinographs/addenda/' | relative_url }})** —
+  the Character Codex: one reference page per taught character,
+  growing alongside the course.
 - **102 · Literary Chinese** — planned. The literacy track: the
   classical written language on real texts, graded from one-line
   sayings to whole passages.
@@ -37,10 +42,9 @@ texts, not facts about the characters.
 
 ## A note on where things stand
 
-No courses exist yet — this catalog is the plan, not a promise of what
-has already been built. Scope will be firmed as curriculum design
-proceeds, following the cuneiform school's lead. If you'd like to see
-the wider project, go back to
+The school is newly open: 101 is being written chapter by chapter,
+and the later courses are the plan, not a promise. If you'd like to
+see the wider project, go back to
 [the map of writing]({{ '/' | relative_url }}); thoughts, corrections,
 or requests for what should come first are welcome on
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

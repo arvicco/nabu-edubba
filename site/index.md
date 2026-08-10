@@ -35,7 +35,7 @@ at any pace, forever.
   <a class="school-card accent-sinographs" href="{{ '/sinographs/' | relative_url }}">
     <span class="school-glyph script" aria-hidden="true">字</span>
     <strong>Sinographs</strong>
-    <span class="school-note">The characters of China, Japan, Korea, and Vietnam, taught classical-first — planned</span>
+    <span class="school-note">The characters of China, Japan, Korea, and Vietnam, taught classical-first — 101 open</span>
   </a>
 </div>
 
