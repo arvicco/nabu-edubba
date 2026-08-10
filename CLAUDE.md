@@ -174,10 +174,13 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 18 — S101 stretch 3: the sentence at work (ch10–14, 26
-chars, box cap 40%): 以 arrives (rank 3), the second number
-batch, the seeing pictographs, 道 itself; plan in
-.docs/phase-18-plan.md.
+Phase 18 — complete, gate PR pending: S101 stretch 3, the
+sentence at work (ch10–14, 26 chars, cap 40%) — 以 finally
+lands, 可以 and the modal frame, the second number batch, the
+seeing family, 道 itself, and the here-and-now closers; 81
+characters = 27.7% of the classical corpus, every syllable
+voiced; two incidents logged (red-gate semicolon chain, the
+serve/gate build race) with durable fixes.
 
 Gate 17 merged 2026-08-11 (the audio phase: D17-a say.js — the
 reading is the button; primer phonetics voiced; keyword slugs
