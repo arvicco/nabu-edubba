@@ -216,6 +216,73 @@ signs:
       what connects them. Early forms suggest an axe blade of
       authority instead; the chapter says so honestly.
 
+  # ch05 — the busiest words (stretch 2 opens; loans + the hand chain)
+  - char: 之
+    chapter: 5
+    keyword: of
+    pinyin: zhī
+    meaning: "of; him, her, it — the classical linker and object"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 1 — the single most frequent character in the classical
+      corpus. Old forms show a foot over a line (setting out); the
+      word it writes is pure grammar, borrowed sound.
+  - char: 不
+    chapter: 5
+    keyword: not
+    pinyin: bù
+    meaning: "not — the plain negation"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 2; the received account sees a calyx or bird-and-sky
+      drawing, borrowed early and forever for "not."
+  - char: 也
+    chapter: 5
+    keyword: indeed
+    pinyin: yě
+    meaning: "the sentence-final 'it is so' of classical prose"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 4; what the picture once was is genuinely disputed —
+      the character's whole classical life is the final beat of a
+      statement.
+  - char: 又
+    chapter: 5
+    keyword: again
+    pinyin: yòu
+    meaning: "again, further; the old drawing of the right hand"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 50; a right hand in profile — two strokes. Seeds 有 in
+      this same chapter, and half the hand-characters to come.
+  - char: 有
+    chapter: 5
+    keyword: have
+    slug: you-have
+    pinyin: yǒu
+    meaning: "to have, there is"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["又", "月"]
+    note: >-
+      rank 9; a hand holding meat by the received account — the
+      meat-flesh component wrote itself like the moon, and the two
+      shapes merged in the standard script.
+  - char: 十
+    chapter: 5
+    keyword: ten
+    pinyin: shí
+    meaning: "ten; complete"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 15; the tally-mark that closed the count — old forms
+      are a single vertical with a thickening, later crossed.
+
   # compounds of taught parts
   - char: 明
     chapter: 3
