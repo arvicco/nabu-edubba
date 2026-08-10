@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 codex start · phase-15 · The Character Codex
+opens (rulebook §8 written first): shelf sinographs/addenda +
+signs index (queue-driven table) + the ch00 trio's pages
+(ren/da/tian — origin with certainty labels, invented-and-said-so
+memory hooks, real attested lines from the Laozi/Xici witnesses
+already cited by the course). Slug law: toneless pinyin; colliding
+readings take explicit pinyin-keyword slugs (月/曰 → yue-moon/
+yue-say — tone digits never, even in URLs); the compiler enforces
+uniqueness and the queue now carries name + glyph (contract
+extended). rulebook.rb CODEX gains the sinographs entry staged
+(keywords on, complete-shelf check off until backfill — the law's
+own staging). sign.html gains the sinographs branch. SIZE-LAW BUG
+found by the hero pixel: the :where(.script) inline default
+(0,1,1) beat every single-class context — .sign-hero's 6.5rem AND
+the SVG font-size attributes (why ch00's chain figure rendered
+small). Redesigned: the default scopes to prose CHILDREN
+(p/li/td/th/dd/dt/figcaption > .script); self-carrying .script
+elements keep explicit sizes; sinograph sign-hero (7.5rem) and
+sign-strip (3.2rem) added and registered in SINO_CONTEXTS (guard
+grew a whole-selector matcher — bodies_for comma-splits and my
+selector contains commas). M15-4 closes: ch00–04 + codex started;
+the 12-page backfill is M15-5.
+
 2026-08-10 · M15-4 ch03 + ch04 · phase-15 · 03 · Mountains and
 water — 山/水/中 (landscape pictographs + the planted-banner
 indicative, certainty stated), 山水/山中 as first whole phrases,

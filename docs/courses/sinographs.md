@@ -120,12 +120,48 @@ fallback. Recorded in docs/concept.md §7.
 
 ## 7 · What the gate checks mechanically
 
-Nothing sinograph-specific yet — this section grows as laws
-activate, each with its check named here:
+Live since the first content commit (2026-08-10):
 
-- With the first content commit: pinyin-display lint (tone numbers
-  in displayed text = violation, verbatim-source exhibits
-  excepted); keyword-uniqueness check; the nothing-untaught
-  validator adapted to characters.
-- When a multi-voice course opens (kanbun): the value-coverage
-  machinery (cuneiform §9) adapts to on/kun readings.
+- **pinyin-display** (lint): tone-numbered tokens in sinograph
+  pages are violations; span class "pinyin ascii" is the
+  verbatim-exhibit carve-out.
+- **nothing-untaught + readings-strict** (course_check): Han
+  codepoints tracked site-wide; a chapter body uses only taught
+  (≤ its ordinal) plus its own `shows:`; inside a reading figure
+  `shows:` licenses nothing — untaught is ▢, from birth.
+- **reading-width** (lint): script lines measured with the vendored
+  Serif TC metrics × the size-law scale against the calibrated
+  13em sinograph budget; over-budget figures declare
+  `reading--stacked`.
+- **size law** (style guard): the low-specificity inline default
+  must scale Han up; every explicit sinograph script context
+  registers in SINO_CONTEXTS with its cuneiform counterpart floor
+  and must exceed it.
+- **queue contract** (test): required fields, char/codepoint match,
+  keyword uniqueness, digit-free pinyin, 1–3 fresh per chapter,
+  monotonic coverage; the compiler additionally cross-checks pinyin
+  against Unihan kMandarin and enforces codex-slug uniqueness.
+- **codex registry** (rulebook.rb): keyword invariance and
+  page-slug matching on the Addenda shelf (§8); the complete-shelf
+  check flips with the backfill.
+- Still ahead: when a multi-voice course opens (kanbun), the
+  value-coverage machinery (cuneiform §9) adapts to on/kun
+  readings.
+
+## 8 · The Character Codex (Addenda shelf)
+
+- One Addenda page per taught character, on the shelf
+  `sinographs/addenda/signs` — the site-wide Sign Codex law in this
+  school's terms. Staged activation as ever: keyword checks are on
+  from birth; the every-taught-character-has-a-page check flips
+  when the shelf is complete.
+- **Slug law:** a page's slug is the toneless ASCII of the
+  character's pinyin (人 rén → `ren`). Where readings collide, the
+  colliding rows carry explicit slugs of the form pinyin-keyword
+  (月/曰 → `yue-moon`, `yue-say`) — tone numbers never appear in
+  slugs (the display law's shape holds in URLs too). The compiler
+  enforces uniqueness and demands explicit slugs on collision.
+- Page shape (the akk-codex mold): where it comes from (form
+  origin, certainty-labeled), how to remember it (the keyword
+  hook — this is where the memory-hook technique is applied), in
+  the wild (one real cited attestation).
