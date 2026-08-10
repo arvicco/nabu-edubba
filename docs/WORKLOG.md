@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (keyword slugs + loudness) · phase-17 ·
+Two owner rulings landed. (1) Codex identity: pinyin slugs are
+homophone- and tone-ambiguous (/ren-humane/), so the KEYWORD —
+already unique school-wide by the §3 law — is now the slug law
+(rulebook §8 rewritten): compiler derives slugs from keywords,
+all 55 codex pages renamed (person, humane, not-yet…), the audio
+manifest's aliases block became a voices: map (keyword-slug →
+shared syllable file), pipeline gap-reporting follows. NOTE for
+the gate: 55 day-old codex URLs changed with no redirect stubs —
+flagged as acceptable pre-announcement, worth an owner glance.
+(2) Loudness: samples ranged shout-to-whisper across the three
+source voices; every clip now gains to a −20 dB mean under a
+−1 dB peak ceiling at encode, whole set rebuilt into a ~1 dB
+band. The rebuild surfaced two verifier gaps, both fixed with
+pinned tests: a steep tone-4 glide fragments the smooth vowel
+run (acceptance now consults the raw trimmed track too), and
+creak halves the pitch period so autocorrelation doubles the
+frequency (de-octave pass snaps 1.6× jumps onto the contour) —
+zhèng, a false "level" before, verifies as its true fall.
+
 2026-08-11 · review round (ch03 audio: 曰 silent, 休 hissing) ·
 phase-17 · Owner: yuē has no sound; xiū's ends in a hiss. Both
 root causes found and fixed. 曰: the syllable yuē exists in
