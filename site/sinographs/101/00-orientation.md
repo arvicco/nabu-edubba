@@ -3,7 +3,8 @@ title: "00 · Orientation"
 short_title: "00 · Orientation"
 description: >-
   What Sinographs 101 teaches, what you will be able to read at the
-  end, and your first three characters — person, big, heaven.
+  end, and your first six characters — person, big, heaven, and the
+  numbers one to three.
 layout: chapter
 school: sinographs
 course: sinographs-101
@@ -11,15 +12,16 @@ chapter: 0
 permalink: /sinographs/101/00-orientation/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
-teaches: ["人", "大", "天"]
+teaches: ["人", "大", "天", "一", "二", "三"]
 ---
 
 # Orientation
 
 You are at the start of the foundations course of the sinograph
 school. It has no prerequisites. In Edubba every chapter begins by
-handing you signs, so here are your first three characters, right
-now:
+handing you signs, so here are your first six characters, right
+now — a picture that grows, and the three easiest numbers ever
+written:
 
 <table class="sign-table">
   <thead>
@@ -42,14 +44,31 @@ now:
       <td>a line drawn over the big person's head — what is above even
       the greatest</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">一</td><td>one</td><td><span class="translit pinyin">yī</span></td>
+      <td>one; whole, unified</td>
+      <td>one stroke for <em>one</em> — nothing to draw, everything
+      to point at</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">二</td><td>two</td><td><span class="translit pinyin">èr</span></td>
+      <td>two</td>
+      <td>two strokes, the upper one shorter</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">三</td><td>three</td><td><span class="translit pinyin">sān</span></td>
+      <td>three; several</td>
+      <td>three strokes, the middle one shortest</td>
+    </tr>
   </tbody>
 </table>
 
 Write each one a few times before reading on — two strokes for the
-person, three for big, four for heaven. They are not a random
-starter set: 人 is the seventh most frequent character in the whole
-classical written tradition, and the three of them are a single
-picture growing.
+person, three for big, four for heaven, and the numbers count their
+own strokes. They are not a random starter set: 人 is the seventh
+most frequent character in the whole classical written tradition,
+一 the eleventh, and the first three of them are a single picture
+growing.
 
 <figure class="evolution">
   <svg viewBox="0 0 640 190" role="img" aria-label="The character for person; an arrow; the same figure with arms spread wide as the character big; an arrow; the same figure with a line above its head as the character heaven.">
@@ -109,8 +128,22 @@ already read:
   </figcaption>
 </figure>
 
-Three characters in, and a sentence from twenty-four centuries ago
-is already coming apart into pieces you own. That is the whole
+And the numbers earn their place the same page. Here is the most
+famous counting in Chinese literature — the *Laozi* on where
+everything comes from:
+
+<figure class="reading reading--script reading--stacked">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">▢▢一，一▢二，二▢三，三▢▢▢。</span><span class="translit pinyin">dào shēng yī, yī shēng èr, èr shēng sān, sān shēng wàn wù</span><span class="gloss">"the Way gives birth to one; one gives birth to two; two gives birth to three; three gives birth to the ten thousand things" — the same boxed character repeats between every pair: watch its shape, you will own it soon</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Laozi</em> 42.
+    <code>urn:nabu:kanripo:KR5c0057:042:1a</code> · license: attribution.
+  </figcaption>
+</figure>
+
+Six characters in, and two sentences from twenty-four centuries ago
+are already coming apart into pieces you own. That is the whole
 method of this school: signs first, real text immediately, nothing
 in a reading you have not been taught — the boxes shrink chapter by
 chapter.
@@ -142,9 +175,11 @@ of the sounds gets its own chapter down the road.
 
 ## How this course runs
 
-- **Every chapter opens with one to three new characters** — chosen
+- **Every chapter opens with five or six new characters** — chosen
   by real frequency in the classical books, adjusted only where a
   simpler or more picturable character makes the road smoother.
+  Simple characters come first; a character built from parts never
+  appears before you own every part.
 - **Every character gets one keyword** — *person*, *big*,
   *heaven* — its own and nobody else's, your permanent handle on it.
 - **Every chapter reads real text**, cited to its source, with
@@ -162,7 +197,8 @@ it — Sinographs 102 — teaches the classical language itself,
 grammar and all, on the same principle. Deeper courses go on to the
 script's own history, back through bronze and oracle-bone forms,
 and outward to the characters' lives in Japan, Korea, and Vietnam.
-You need none of that yet. You need 人, 大, 天 — and you have them.
+You need none of that yet. You need 人, 大, 天, and your first
+numbers — and you have them.
 
 [^chain]: The person→big→heaven chain follows the traditional
     analysis going back to the *Shuowen jiezi*; modern paleography

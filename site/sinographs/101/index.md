@@ -30,11 +30,11 @@ modern languages too, because the characters are the same.
 ## Chapters
 
 <ol class="course-toc" start="0">
-  <li><a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is, and your first three characters</li>
-  <li><a href="{{ '/sinographs/101/01-how-a-character-can-mean/' | relative_url }}">How a character can mean</a> — sun, moon, bright: the four ways</li>
-  <li><a href="{{ '/sinographs/101/02-one-stroke-two-strokes-three/' | relative_url }}">One stroke, two strokes, three</a> — the numbers, and the stroke itself</li>
-  <li><a href="{{ '/sinographs/101/03-mountains-and-water/' | relative_url }}">Mountains and water</a> — the landscape pictographs, and the middle</li>
-  <li><a href="{{ '/sinographs/101/04-the-master-says/' | relative_url }}">The master says</a> — 子曰, the hinge of the canon; the king's first month</li>
+  <li><a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">Orientation</a> — what this course is; the growing picture and the numbers</li>
+  <li><a href="{{ '/sinographs/101/01-the-world-in-pictures/' | relative_url }}">The world in pictures</a> — sun, moon, mountain, water, tree, mouth</li>
+  <li><a href="{{ '/sinographs/101/02-the-order-of-strokes/' | relative_url }}">The order of strokes</a> — the pointing marks, the master's formula, the king</li>
+  <li><a href="{{ '/sinographs/101/03-characters-built-from-characters/' | relative_url }}">Characters built from characters</a> — the first compounds, every part yours</li>
+  <li><a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">Roots, tips, and borrowed sounds</a> — marks on the tree; the move that built the script</li>
 </ol>
 
 The course is opening; chapters appear here as they are written.

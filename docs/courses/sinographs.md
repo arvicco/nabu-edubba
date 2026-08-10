@@ -82,6 +82,19 @@ fallback. Recorded in docs/concept.md §7.
   list is the product. Simplicity uses stroke count (Unihan) and
   component structure (IDS decompositions); curated pins recorded
   per character with their basis.
+- **Chapter dial (owner ruling 2026-08-10):** every chapter teaches
+  **5–6 fresh characters** — the site-wide 1–3 chapter-opening law
+  is the floor; characters are lighter units than cuneiform signs
+  and the pace dials up accordingly. The compiler enforces the
+  range.
+- **Components before compounds (owner ruling 2026-08-10, after
+  the 時=日+寺 exhibit outran the taught set):** the opening
+  chapters teach a base of SIMPLE, non-compound characters
+  (S101 banks eighteen across ch00–02); a compound character never
+  appears — in a teaching table, a reading, or an exhibit — before
+  every component it is analyzed into has been taught. Compound
+  pool rows carry `parts:`; the compiler and the queue contract
+  test enforce the ordering.
 - The frequency instrument lives in `bin/`, deterministic over
   committed inputs; its output tables under `site/_data/` are
   frozen contracts once introduced (additive changes only,
@@ -157,9 +170,10 @@ Live since the first content commit (2026-08-10):
   when the shelf is complete.
 - **Slug law:** a page's slug is the toneless ASCII of the
   character's pinyin (人 rén → `ren`). Where readings collide, the
-  colliding rows carry explicit slugs of the form pinyin-keyword
-  (月/曰 → `yue-moon`, `yue-say`) — tone numbers never appear in
-  slugs (the display law's shape holds in URLs too). The compiler
+  FIRST-taught character keeps the bare slug and later entrants
+  carry explicit pinyin-keyword slugs (人 `ren` / 仁 `ren-humane`;
+  月 `yue` / 曰 `yue-say`) — tone numbers never appear in slugs
+  (the display law's shape holds in URLs too). The compiler
   enforces uniqueness and demands explicit slugs on collision.
 - Page shape (the akk-codex mold): where it comes from (form
   origin, certainty-labeled), how to remember it (the keyword

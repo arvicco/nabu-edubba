@@ -59,12 +59,31 @@ module Edubba
       [rows, total]
     end
 
+    # 5–6 fresh characters per chapter (owner ruling 2026-08-10 —
+    # the site-wide 1–3 is the floor law; this school dials up).
+    FRESH = (5..6)
+
     def validate!(pool, freq)
       pool.group_by { |s| s["chapter"] }.each do |ch, signs|
         abort "sino_curriculum: unpinned row #{signs.map { |s| s['char'] }.join(',')}" if ch.nil?
-        next if signs.size.between?(1, 3)
+        next if FRESH.cover?(signs.size)
 
-        abort "sino_curriculum: ch #{ch} pins #{signs.size} characters — the law says 1-3"
+        abort "sino_curriculum: ch #{ch} pins #{signs.size} characters — the law says " \
+              "#{FRESH.min}-#{FRESH.max} (owner ruling 2026-08-10)"
+      end
+      # Components-first law (owner ruling 2026-08-10, the 時=日+寺
+      # lesson): a compound's every part is taught in an earlier
+      # chapter, or earlier in the same chapter's own table.
+      seen = []
+      pool.each do |s|
+        Array(s["parts"]).each do |part|
+          next if seen.include?(part)
+
+          abort "sino_curriculum: #{s['char']} (ch #{s['chapter']}) is built from " \
+                "#{part}, which is not yet taught — components before compounds " \
+                "(owner ruling 2026-08-10)"
+        end
+        seen << s["char"]
       end
       dup = pool.map { |s| s["char"] }.tally.select { |_, n| n > 1 }
       abort "sino_curriculum: duplicate rows #{dup.keys.join(',')}" unless dup.empty?
@@ -110,6 +129,7 @@ if $PROGRAM_NAME == __FILE__
       "count_kanripo" => row["count"],
       "docs" => row["docs"],
       "chapter" => s["chapter"],
+      "parts" => s["parts"],
       "note" => s["note"] }.compact
   end
 

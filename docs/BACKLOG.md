@@ -750,11 +750,12 @@ Acceptance: gate green incl. pinyin-display lint, keyword
       uniqueness, readings-strict, size-law guard; pixel review
       per §6b.
 
-## M15-5 · Codex backfill — the remaining twelve  [tier: top — Fable, content] [status: ready] [deps: M15-4]
-Goal: one codex page per remaining taught character (日 月 明 一 二
-      三 山 水 中 子 曰 王), each with origin (certainty-labeled),
-      memory hook, real attested line; then flip pages: true on the
-      sinographs CODEX entry (staged-activation law).
+## M15-5 · Codex backfill — the remaining twenty-five  [tier: top — Fable, content] [status: ready] [deps: M15-4]
+Goal: one codex page per remaining taught character (the 28-char
+      queue minus ren/da/tian), each with origin
+      (certainty-labeled), memory hook, real attested line; then
+      flip pages: true on the sinographs CODEX entry
+      (staged-activation law).
 Acceptance: rulebook.rb codex check green with pages: true; gate
       green; pixel spot-check of two pages.
 Goal: orientation + first chapters of Sinographs 101 in the wave-1
