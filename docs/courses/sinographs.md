@@ -87,6 +87,17 @@ fallback. Recorded in docs/concept.md §7.
   is the floor; characters are lighter units than cuneiform signs
   and the pace dials up accordingly. The compiler enforces the
   range.
+- **Example-composition law (owner rulings 2026-08-10):** a
+  reading line shows at most half boxes — untaught characters
+  never outnumber taught ones in a displayed line (▢-share ≤ 50%),
+  and the ceiling tightens five points with each five-chapter
+  stretch (cap = max(25%, 50 − 5·⌊chapter/5⌋)). Beyond the
+  arithmetic, every example ties its featured character to OTHER
+  taught characters — the more the better, balanced against the
+  fame and interest of the phrase: a famous line trimmed to its
+  readable clause beats an obscure line quoted whole, and the
+  gloss carries what the trim leaves out. The box-share lint
+  enforces the ceiling.
 - **Components before compounds (owner ruling 2026-08-10, after
   the 時=日+寺 exhibit outran the taught set):** the opening
   chapters teach a base of SIMPLE, non-compound characters

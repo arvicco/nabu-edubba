@@ -76,7 +76,7 @@ two-character hinge on which the entire *Analects* swings:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">子曰：「三人▢，▢▢▢▢▢。」</span><span class="translit pinyin">zǐ yuē: sān rén xíng, bì yǒu wǒ shī yān</span><span class="gloss">"The Master said: when three people walk together, my teacher is surely among them" — 子曰 read straight, 三人 from chapters past, and the sentence has a speaker</span></div>
+    <div class="reading-line"><span class="script">子曰：「三人▢。」</span><span class="translit pinyin">zǐ yuē: sān rén xíng</span><span class="gloss">"The Master said: when three people walk together…" — and the saying finishes "…my teacher is surely among them." Four of your characters against one box, and the sentence has a speaker</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.22.
@@ -92,7 +92,7 @@ learned on the first page:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢王▢月。</span><span class="translit pinyin">yuán nián chūn wáng zhēng yuè</span><span class="gloss">"first year, spring: the royal first month" — the annals date every event by the king's calendar; your 王 and 月 anchor the phrase</span></div>
+    <div class="reading-line"><span class="script">王▢月。</span><span class="translit pinyin">wáng zhēng yuè</span><span class="gloss">"the royal first month" — the annals date every event by the king's calendar ("first year, spring: the royal first month"); your 王 and 月 hold the phrase, one box for "first"</span></div>
   </div>
   <figcaption class="citation">
     <em>Spring and Autumn Annals</em>, Duke Yin, year 1.
@@ -145,7 +145,7 @@ was 仁 — the deepest virtue in the Confucian world, built from
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢水，仁▢▢山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — the same page of the same book: 仁 now reads itself</span></div>
+    <div class="reading-line"><span class="script">仁▢▢山。</span><span class="translit pinyin">rén zhě yào shān</span><span class="gloss">"the humane delight in mountains" — the same page of the same book as the last chapter's fragment, and the clause now OPENS with its subject: 仁 reads itself</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23 —
@@ -159,13 +159,14 @@ And the other three compounds, each in a real line:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢明，▢大▢日月。</span><span class="translit pinyin">xuán xiàng zhù míng, mò dà hū rì yuè</span><span class="gloss">"of what hangs on high and shines bright, nothing is greater than the sun and moon" — the Changes praising 明's own parents, with your 明 mid-line</span></div>
-    <div class="reading-line"><span class="script">▢▢旦旦，▢▢▢▢。</span><span class="translit pinyin">xìn shì dàn dàn, bù sī qí fǎn</span><span class="gloss">"your oaths were dawn-bright, over and over — I never thought you would turn" — the Songs, a jilted lover throwing 旦 twice in one breath</span></div>
+    <div class="reading-line"><span class="script">▢明明▢。</span><span class="translit pinyin">zài míng míng dé</span><span class="gloss">"…lies in brightening bright virtue" — the opening sentence of the Great Learning: 明 twice running, first as the verb "to brighten," then inside "bright virtue"</span></div>
+    <div class="reading-line"><span class="script">▢▢旦旦。</span><span class="translit pinyin">xìn shì dàn dàn</span><span class="gloss">"your oaths were dawn-bright, over and over" — the Songs' jilted lover, doubling 旦 for emphasis; the line goes on "— I never thought you would turn"</span></div>
     <div class="reading-line"><span class="script">休▢，大人▢。</span><span class="translit pinyin">xiū pǐ, dà rén jí</span><span class="gloss">"the blockage rests: for the great, good fortune" — the Changes turning 休 from a nap under a tree into relief itself; 大人, "the great one", is two of your first characters</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Zhouyi</em>, Appended Words ·
-    <code>urn:nabu:kanripo:KR1a0019:007:30b</code>.
+    Line 1: <em>The Great Learning</em> (Daxue), opening, in a Ming
+    commentary edition ·
+    <code>urn:nabu:kanripo:KR1h0052:001:1a</code>.
     Line 2: <em>Classic of Songs</em> (Shijing), "Meng" ·
     <code>urn:nabu:kanripo:KR1c0001:005:27a</code>.
     Line 3: <em>Zhouyi</em>, hexagram Pi ·

@@ -137,7 +137,7 @@ duty:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢一，一▢二，二▢三，三▢▢▢。</span><span class="translit pinyin">dào shēng yī, yī shēng èr, èr shēng sān, sān shēng wàn wù</span><span class="gloss">"the Way gives birth to one; one gives birth to two; two gives birth to three; three gives birth to the ten thousand things" — the same boxed character repeats between every pair: watch its shape, you will own it soon</span></div>
+    <div class="reading-line"><span class="script">▢▢一，一▢二，二▢三。</span><span class="translit pinyin">dào shēng yī, yī shēng èr, èr shēng sān</span><span class="gloss">"the Way gives birth to one; one gives birth to two; two gives birth to three" — and the line runs on: "…and three gives birth to the ten thousand things." The boxed character between every pair is the same: watch its shape, you will own it soon</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 42.
@@ -145,18 +145,26 @@ duty:
   </figcaption>
 </figure>
 
-And the *Laozi* again, closing a chapter on knowing when to stop
-talking — the middle earning its keep:
+And a king's most famous sentence hands you 一 and 人 side by
+side — the ritual formula by which the throne took all blame on
+itself:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢▢，▢▢▢中。</span><span class="translit pinyin">duō yán shù qióng, bù rú shǒu zhōng</span><span class="gloss">"many words are soon exhausted; better to hold to the middle" — your 中 as the still point of the whole sentence</span></div>
+    <div class="reading-line"><span class="script">▢▢一人。</span><span class="translit pinyin">zài yǔ yī rén</span><span class="gloss">"…it lies on me, the One Man" — the king's oath: "if the hundred families have faults, they lie on me, the One Man"; 一人, the One Man, is how the throne says "I"</span></div>
   </div>
   <figcaption class="citation">
-    <em>Laozi</em> 5.
-    <code>urn:nabu:kanripo:KR5c0057:005:1a</code> · license: attribution.
+    <em>Analects</em> 20.1, quoting the oath of the ancient kings,
+    in a Song commentary edition.
+    <code>urn:nabu:kanripo:KR1h0017:020:3a</code> · license: attribution.
   </figcaption>
 </figure>
+
+And the marks grade the world. The tradition ranks everything —
+fields, essays, officials — on the scale
+<span class="script">上中下</span>, *shàng zhōng xià*: upper,
+middle, lower. Three of your marks in a row, and you have read a
+report card twenty centuries old.
 
 With 天 from <a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">chapter 00</a>, 上 and 下 hand you two words the classics
 never tire of: <span class="script">天下</span>, *tiān xià*, "all

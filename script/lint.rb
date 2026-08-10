@@ -160,6 +160,7 @@ module Edubba
       found.concat(check_reading_width(path, text))
       found.concat(check_reading_dots(path, text))
       found.concat(check_pinyin_display(path, text))
+      found.concat(check_box_share(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -193,6 +194,36 @@ module Edubba
                       "tone number #{hit.inspect} in displayed text — tone marks only " \
                       "(xué), or class the span \"pinyin ascii\" for a verbatim exhibit")
       end
+    end
+
+    # box-share (sinographs §5, owner ruling 2026-08-10): untaught
+    # boxes never outnumber taught characters in a reading line —
+    # ▢-share ≤ 50%, tightening five points per five-chapter
+    # stretch. A famous line trims to its readable clause; the
+    # gloss carries the rest.
+    def check_box_share(path, text)
+      return [] unless path.include?("/sinographs/") && path.end_with?(".md")
+
+      ch = text[/^chapter:\s*(\d+)/, 1] or return []
+      cap = [25, 50 - 5 * (ch.to_i / 5)].max
+      found = []
+      text.scan(READING_FIGURE) do
+        Regexp.last_match[:body].scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
+          txt = s.gsub(/<[^>]+>/, "")
+          boxes = txt.count("▢")
+          next if boxes.zero?
+
+          han = txt.each_char.count { |c| han?(c.ord) }
+          share = 100.0 * boxes / (boxes + han)
+          next if share <= cap
+
+          found << Violation.new(path, "box-share",
+                                 "reading line #{txt[0, 12].inspect}… is #{share.round}% boxes " \
+                                 "(cap #{cap}% for ch. #{ch}) — untaught may never outnumber taught: " \
+                                 "trim to the readable clause or pick a better-taught line (sinographs §5)")
+        end
+      end
+      found
     end
 
     # nav-label (owner report 2026-08-06: the sidebar said "šumma"
