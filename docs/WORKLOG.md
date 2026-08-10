@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · Pinyin primer (owner request) · phase-15 · The
+Addenda gains "Pinyin — how to read the voice": tone contours on
+the five-level staff (SVG), the ma tone table, initials and
+finals with IPA where English blurs (the b/d/g no-buzz trap, the
+j/q/x smiling row, retroflexes, the three faces of i, ü and its
+dropped dots), tone sandhi, and the honesty paragraph linking the
+course orientation. AUDIO, no JS: browser-native <audio> elements
+over VENDORED mp3s — a scout agent license-verified Commons
+recordings (Shtooka/Yue Tan/Xudong Yang/Isotalo, CC BY + BY-SA,
+NC excluded), and each tone file was verified by MEASURED PITCH
+(pure-python autocorrelation over ffmpeg PCM): the scout's flag on
+Zh-ma.ogg proved right — it DECLINES 128→104 Hz, no tone 1 — so
+tone 1 is cut from mā·ma's first syllable (level 180 Hz plateau,
+verified), whose full word also serves the neutral row. Rulebook
+§2 audio law (vendored, license-verified, pitch-verified,
+CREDITS.txt, no tone digits in filenames); audio CSS sizing;
+aspiration/retroflex glossary terms. Catches: sign-table--tail-fit
+rejected prose-length columns (10 tail-fit-width violations →
+plain wrapping tables); the pinyin-display lint flagged "mp3"
+inside src attributes — the law governs displayed text, so the
+check now strips markup first; Wikimedia rate-limited the box
+mid-fetch — ten initials/finals files deferred to M15-6 with
+verified URLs recorded.
+
 2026-08-10 · review round (Gate 15: the box-share law) · phase-15 ·
 Owner rulings, generalized from the 品/沐 report: a reading line
 shows AT MOST 50% boxes, the ceiling tightening as the course

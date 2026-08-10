@@ -189,6 +189,7 @@ module Edubba
       return [] unless path.include?("/sinographs/")
 
       bare = text.gsub(%r{<span class="pinyin ascii">.*?</span>}m, "")
+                 .gsub(/<[^>]+>/, "") # the law governs DISPLAYED text, not markup attributes
       bare.scan(TONE_NUMBER).map do |hit|
         Violation.new(path, "pinyin-display",
                       "tone number #{hit.inspect} in displayed text — tone marks only " \
