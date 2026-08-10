@@ -68,16 +68,18 @@
 
 /* Size law (sinographs rulebook §6, ruled 2026-08-10): characters
    display bigger than cuneiform/Egyptian script everywhere — Han
-   strokes are hard to make out at the other scripts' sizes. :where
-   keeps this a low-specificity default: explicit script contexts
-   (readings, drills, exhibits) must each set their own
-   law-satisfying size as they arrive. */
-body.school-sinographs :where(.script) { font-size: 1.35em; }
+   strokes are hard to make out at the other scripts' sizes. Scoped
+   to INLINE script runs (children of prose containers): elements
+   that carry .script themselves (sign-hero, sign-strip, sign-cell,
+   SVG groups) keep their own explicit, law-satisfying sizes. */
+body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.script) { font-size: 1.35em; }
 
 /* Explicit sinograph script contexts — each exceeds its cuneiform
    counterpart (registered in StyleGuardTest::SINO_CONTEXTS). */
 .school-sinographs .sign-cell { font-size: 2.6rem; }
 .school-sinographs .reading--script .script { font-size: 1.9rem; }
+.school-sinographs .sign-hero { font-size: 7.5rem; }
+.school-sinographs .sign-strip { font-size: 3.2rem; }
 
 * { box-sizing: border-box; }
 

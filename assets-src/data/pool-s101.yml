@@ -63,6 +63,7 @@ signs:
   - char: 月
     chapter: 1
     keyword: moon
+    slug: yue-moon
     pinyin: yuè
     meaning: the moon; a month
     category: pictograph
@@ -155,6 +156,7 @@ signs:
   - char: 曰
     chapter: 4
     keyword: say
+    slug: yue-say
     pinyin: yuē
     meaning: to say — the quotation-opener of the classical books
     category: indicative

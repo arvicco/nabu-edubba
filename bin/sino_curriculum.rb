@@ -24,6 +24,24 @@ module Edubba
   module SinoCurriculum
     module_function
 
+    PINYIN_FOLD = {
+      "ā" => "a", "á" => "a", "ǎ" => "a", "à" => "a",
+      "ē" => "e", "é" => "e", "ě" => "e", "è" => "e",
+      "ī" => "i", "í" => "i", "ǐ" => "i", "ì" => "i",
+      "ō" => "o", "ó" => "o", "ǒ" => "o", "ò" => "o",
+      "ū" => "u", "ú" => "u", "ǔ" => "u", "ù" => "u",
+      "ǖ" => "u", "ǘ" => "u", "ǚ" => "u", "ǜ" => "u", "ü" => "u"
+    }.freeze
+
+    # Codex identity (rulebook §8): toneless ASCII of the pinyin, or
+    # the pool's explicit slug where readings collide (yue-moon /
+    # yue-say).
+    def slug_of(row)
+      row["slug"] ||
+        row["pinyin"].to_s.split(/[,\s]+/).first.to_s
+                     .gsub(/./) { |c| PINYIN_FOLD[c] || c }
+    end
+
     # char => {rank:, count:, docs:, strokes:, pinyin:, ids:} from the
     # committed table; total corpus tokens from the header comment.
     def freq_table(lines)
@@ -52,6 +70,9 @@ module Edubba
       abort "sino_curriculum: duplicate rows #{dup.keys.join(',')}" unless dup.empty?
       kw = pool.map { |s| s["keyword"] }.tally.select { |_, n| n > 1 }
       abort "sino_curriculum: keyword taken twice: #{kw.keys.join(',')} (rulebook §3)" unless kw.empty?
+      slugs = pool.map { |s| slug_of(s) }.tally.select { |_, n| n > 1 }
+      abort "sino_curriculum: codex slug collision #{slugs.keys.join(',')} — give the " \
+            "colliding rows explicit slug: entries (rulebook §8)" unless slugs.empty?
       pool.each do |s|
         row = freq[s["char"]]
         abort "sino_curriculum: #{s['char']} not in the frequency table" unless row
@@ -75,6 +96,8 @@ if $PROGRAM_NAME == __FILE__
   signs = pool.map do |s|
     row = freq[s["char"]]
     { "char" => s["char"],
+      "glyph" => s["char"],
+      "name" => Edubba::SinoCurriculum.slug_of(s),
       "codepoint" => format("%04X", s["char"].codepoints.first),
       "keyword" => s["keyword"],
       "pinyin" => s["pinyin"],

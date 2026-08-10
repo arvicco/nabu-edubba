@@ -743,7 +743,20 @@ Acceptance: unit tests for the parsing/counting units in the same
       commit; table committed with provenance + license header;
       doc-spread column beside raw counts.
 
-## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: in-progress — ch00–04 all live (15 chars, 6.5% coverage, 8 real readings from 6 Kanripo witnesses); codex shelf remains] [deps: M15-3]
+## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: done — ch00–04 live (15 chars, 6.5% coverage, 8 real readings from 6 Kanripo witnesses); codex shelf open with rulebook §8, staged registry entry, signs index + ren/da/tian pages] [deps: M15-3]
+Goal: orientation + first chapters of Sinographs 101 in the wave-1
+      mold; Character Codex shelf started.
+Acceptance: gate green incl. pinyin-display lint, keyword
+      uniqueness, readings-strict, size-law guard; pixel review
+      per §6b.
+
+## M15-5 · Codex backfill — the remaining twelve  [tier: top — Fable, content] [status: ready] [deps: M15-4]
+Goal: one codex page per remaining taught character (日 月 明 一 二
+      三 山 水 中 子 曰 王), each with origin (certainty-labeled),
+      memory hook, real attested line; then flip pages: true on the
+      sinographs CODEX entry (staged-activation law).
+Acceptance: rulebook.rb codex check green with pages: true; gate
+      green; pixel spot-check of two pages.
 Goal: orientation + first chapters of Sinographs 101 in the wave-1
       mold (signs from ch00, keyword law live, pinyin display law
       live), codex shelf started.

@@ -95,15 +95,28 @@ class StyleGuardTest < Minitest::Test
     # sinograph selector => [its font-size floor in em/rem, note]
     ".school-sinographs .sign-cell" => [2.0, "cuneiform .sign-cell is 2rem"],
     ".school-sinographs .reading--script .script" =>
-      [1.4, "cuneiform reading script is 1.4rem"]
+      [1.4, "cuneiform reading script is 1.4rem"],
+    ".school-sinographs .sign-hero" => [6.5, "site .sign-hero is 6.5rem"],
+    ".school-sinographs .sign-strip" => [2.6, "site .sign-strip is 2.6rem"]
   }.freeze
 
+  SINO_INLINE = "body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.script)"
+
+  # bodies_for splits selector lists on commas; a selector that
+  # itself contains commas (:where(p, li, …)) needs whole-string
+  # matching instead.
+  def body_for_exact(selector)
+    want = selector.gsub(/\s+/, " ")
+    rules.select { |sel, _| sel.gsub(/\s+/, " ") == want }
+         .map(&:last).join(";")
+  end
+
   def test_sinograph_inline_script_scales_up
-    body = bodies_for("body.school-sinographs :where(.script)")
+    body = body_for_exact(SINO_INLINE)
     scale = body[/font-size:\s*([\d.]+)em/, 1]
     refute_nil scale,
-               "the size law needs a low-specificity default rule scaling " \
-               "inline Han runs (body.school-sinographs :where(.script), em units)"
+               "the size law needs a prose-scoped default rule scaling " \
+               "inline Han runs (#{SINO_INLINE}, em units)"
     assert_operator scale.to_f, :>, 1.0,
                     "sinograph inline script must display BIGGER than its context " \
                     "(size law, rulebook §6) — got #{scale}em"
