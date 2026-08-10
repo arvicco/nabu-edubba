@@ -58,6 +58,16 @@ sources:
   yu:        {file: "Zh-yú.ogg"}
   hu:        {file: "Zh-hū.oga"}
 
+  # Primer demo syllables (not queue characters): pinyin: declares
+  # the tone the verifier holds them to.
+  ge:        {file: "Zh-gē.oga", pinyin: "gē"}
+  ta:        {file: "Zh-tà.ogg", pinyin: "tà"}
+  fa:        {file: "Zh-fā.ogg", pinyin: "fā"}
+  hao:       {file: "Zh-hǎo.ogg", pinyin: "hǎo"}
+  ai:        {file: "Zh-ài.ogg", pinyin: "ài"}
+  lai:       {file: "Zh-lái.ogg", pinyin: "lái"}
+  bei:       {file: "Zh-bèi.ogg", pinyin: "bèi"}
+
 aliases:
   ren-humane: ren
   zhi-know: zhi

@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · primer phonetics voiced (owner request) · phase-17 ·
+Every initials/finals row of the Pinyin primer now carries
+clickable example syllables under its letters (bā·dà·gē for
+b·d·g; yī·zì·shí for the three faces of i; ài·bèi·hǎo·yòu for
+the diphthongs…) — the say-link treatment throughout. Seven demo
+syllables acquired through the pipeline (manifest gained a
+pinyin: field for non-queue entries so the tone verifier still
+holds them); the eighth, měi, was REFUSED — its recording rises,
+and a rising third tone is exactly what the verifier exists to
+catch — bèi covers the ei row instead. Manifest-editing
+note-to-self recorded: the header comment contains the literal
+string "aliases:", and a blind replace spliced eight entries into
+the middle of a sentence — repaired, entries at sources' end.
+
 2026-08-11 · M17-1 + D17-a · phase-17 · The player, redone to the
 owner's spec: "table says rén — click it, the sound plays, nothing
 else." The pinyin IS the button: a.say links wrap the reading
