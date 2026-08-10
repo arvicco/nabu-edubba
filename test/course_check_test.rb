@@ -97,6 +97,19 @@ class CourseCheckTest < Minitest::Test
                    "the reading-strict rule is cuneiform law; hieroglyphs rules on its own frames"
     end
   end
+
+  def test_sinograph_readings_are_strict_from_birth
+    Dir.mktmpdir do |dir|
+      course = File.join(dir, "sinographs", "101")
+      FileUtils.mkdir_p(course)
+      File.write(File.join(course, "00-a.md"),
+                 chapter(0, teaches: ["人"], shows: ["天"], body: READING.call("天")))
+      offenses = Edubba::CourseCheck.violations(dir)
+      assert_equal ["shows-in-reading"], offenses.map(&:rule),
+                   "sinographs adopts the readings-never-show law from birth (rulebook §6)"
+      assert_match(/U\+5929/, offenses.first.detail)
+    end
+  end
 end
 
 class CourseAssumesTest < Minitest::Test

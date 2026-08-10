@@ -17,8 +17,9 @@ require_relative "script_scan"
 # shipped as a "reading exhibit" transliterating three untaught
 # signs): inside a reading figure, `shows:` licenses nothing — a
 # graded reading carries taught signs only, untaught ones as ▢.
-# Scoped to the cuneiform school; the hieroglyphs rulebook rules on
-# its own cartouche/frame exhibits.
+# Scoped to cuneiform and sinographs (whose rulebook §6 adopts the
+# ▢ law from birth); the hieroglyphs rulebook still owes a ruling
+# on its cartouche/frame exhibits (D13-a).
 
 module Edubba
   module CourseCheck
@@ -63,7 +64,7 @@ module Edubba
                     .select { |c| c[:chapter] }
                     .sort_by { |c| c[:chapter] }
       found = []
-      strict_readings = File.basename(File.dirname(course_dir)) == "cuneiform"
+      strict_readings = %w[cuneiform sinographs].include?(File.basename(File.dirname(course_dir)))
       taught = assumed_signs(course_dir)
       chapters.each do |ch|
         taught.merge(ch[:teaches])
