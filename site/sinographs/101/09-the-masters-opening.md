@@ -26,31 +26,31 @@ one everywhere:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">者</td><td>who</td><td><span class="translit pinyin">zhě</span></td>
+      <td class="script sign-cell">者</td><td>who</td><td><span class="translit pinyin">zhě</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhe.mp3' | relative_url }}"></audio></td>
       <td>the one who — turns a verb into its doer</td>
       <td>the old picture is disputed; the grammar is not: X 者 is
       "the one who X-es"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">其</td><td>its</td><td><span class="translit pinyin">qí</span></td>
+      <td class="script sign-cell">其</td><td>its</td><td><span class="translit pinyin">qí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}"></audio></td>
       <td>his, her, its, their</td>
       <td>a winnowing basket on a stand — the basket moved out, the
       pronoun moved in</td>
     </tr>
     <tr>
-      <td class="script sign-cell">亦</td><td>also</td><td><span class="translit pinyin">yì</span></td>
+      <td class="script sign-cell">亦</td><td>also</td><td><span class="translit pinyin">yì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/yi-also.mp3' | relative_url }}"></audio></td>
       <td>also, likewise</td>
       <td>a person with two small marks under the arms — armpits,
       says the tradition, borrowed whole for "too"</td>
     </tr>
     <tr>
-      <td class="script sign-cell">于</td><td>at</td><td><span class="translit pinyin">yú</span></td>
+      <td class="script sign-cell">于</td><td>at</td><td><span class="translit pinyin">yú</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}"></audio></td>
       <td>at, to, toward</td>
       <td>origin disputed — the old preposition of the annals and
       the Songs</td>
     </tr>
     <tr>
-      <td class="script sign-cell">乎</td><td>really</td><td><span class="translit pinyin">hū</span></td>
+      <td class="script sign-cell">乎</td><td>really</td><td><span class="translit pinyin">hū</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/hu.mp3' | relative_url }}"></audio></td>
       <td>the breath that ends a classical question</td>
       <td>a rising breath-mark: the spoken lift of "…is it
       not?"</td>

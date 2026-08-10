@@ -25,11 +25,18 @@ class PinyinAudioTest < Minitest::Test
     assert_equal :silent, PA.classify([])
   end
 
-  def test_tone_acceptance
-    assert PA.tone_ok?(:level, :level)
-    refute PA.tone_ok?(:level, :fall)
-    assert PA.tone_ok?(:dip, :fall), "citation third tone may realize low-falling"
-    assert PA.tone_ok?(:neutral, :fall), "neutral makes no contour claim"
+  def test_tone_acceptance_on_tracks
+    level = [180] * 20
+    fall = 200.step(120, -4).to_a
+    rise_with_onset_dip = [210, 205, 200, 198, 198, 203, 211, 229, 242, 262, 281]
+    low_flat = [100] * 15
+    assert PA.tone_ok?(:level, level)
+    refute PA.tone_ok?(:level, fall), "the mislabeled ma case stays refused"
+    assert PA.tone_ok?(:rise, rise_with_onset_dip), "tone 2 may dip before rising"
+    assert PA.tone_ok?(:dip, low_flat), "citation tone 3 may sit low and flat"
+    refute PA.tone_ok?(:dip, rise_with_onset_dip.map { |x| x + 40 }.each_with_index.map { |x, i| x + i * 6 }), "a clear pure rise is not a third tone"
+    assert PA.tone_ok?(:fall, fall)
+    assert PA.tone_ok?(:neutral, fall), "neutral makes no contour claim"
   end
 
   def test_pitch_track_reads_synthetic_tone

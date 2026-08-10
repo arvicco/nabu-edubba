@@ -27,34 +27,34 @@ and three marks that point:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">一</td><td>one</td><td><span class="translit pinyin">yī</span></td>
+      <td class="script sign-cell">一</td><td>one</td><td><span class="translit pinyin">yī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/yi.mp3' | relative_url }}"></audio></td>
       <td>one; whole, unified</td>
       <td>one stroke for <em>one</em> — nothing to draw, everything
       to point at</td>
     </tr>
     <tr>
-      <td class="script sign-cell">二</td><td>two</td><td><span class="translit pinyin">èr</span></td>
+      <td class="script sign-cell">二</td><td>two</td><td><span class="translit pinyin">èr</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/er.mp3' | relative_url }}"></audio></td>
       <td>two</td>
       <td>two strokes, the upper one shorter</td>
     </tr>
     <tr>
-      <td class="script sign-cell">三</td><td>three</td><td><span class="translit pinyin">sān</span></td>
+      <td class="script sign-cell">三</td><td>three</td><td><span class="translit pinyin">sān</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/san.mp3' | relative_url }}"></audio></td>
       <td>three; several</td>
       <td>three strokes, the middle one shortest</td>
     </tr>
     <tr>
-      <td class="script sign-cell">中</td><td>middle</td><td><span class="translit pinyin">zhōng</span></td>
+      <td class="script sign-cell">中</td><td>middle</td><td><span class="translit pinyin">zhōng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhong.mp3' | relative_url }}"></audio></td>
       <td>middle, center; within</td>
       <td>a stroke planted through the very center — old forms show
       a banner set mid-camp</td>
     </tr>
     <tr>
-      <td class="script sign-cell">上</td><td>above</td><td><span class="translit pinyin">shàng</span></td>
+      <td class="script sign-cell">上</td><td>above</td><td><span class="translit pinyin">shàng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shang.mp3' | relative_url }}"></audio></td>
       <td>above, upper; to ascend</td>
       <td>a mark set above the baseline</td>
     </tr>
     <tr>
-      <td class="script sign-cell">下</td><td>below</td><td><span class="translit pinyin">xià</span></td>
+      <td class="script sign-cell">下</td><td>below</td><td><span class="translit pinyin">xià</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xia.mp3' | relative_url }}"></audio></td>
       <td>below, under; to descend</td>
       <td>the same mark, set under the line — one gesture,
       flipped</td>

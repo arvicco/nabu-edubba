@@ -55,29 +55,57 @@ module Edubba
       :neutral
     end
 
-    # Median-of-thirds contour classification over a pitch track.
-    def classify(track)
-      return :silent if track.empty?
+    # Trimmed median-of-thirds features over a pitch track. Onset
+    # and offset glides (and final creak) are not the tone, so 15%
+    # is dropped from each end before measuring.
+    def features(track)
+      return nil if track.empty?
 
-      third = [1, track.length / 3].max
+      trim = (track.length * 0.15).floor
+      core = track[trim...(track.length - trim)]
+      core = track if core.nil? || core.length < 3
+      # Fricative onsets and creak track at wild frequencies; keep
+      # only frames near the global median register (the voice).
+      med_all = core.sort[core.length / 2].to_f
+      voiced = core.select { |f| f.between?(med_all * 0.6, med_all * 1.5) }
+      core = voiced if voiced.length >= 3
+      third = [1, core.length / 3].max
       med = ->(a) { s = a.sort; s[s.length / 2] }
-      a = med.call(track.first(third)).to_f
-      b = med.call(track.last(third)).to_f
-      m = med.call(track[third...(track.length - third)] || track).to_f
-      return :dip if m < [a, b].min * 0.90 || (m <= a * 1.02 && b > m * 1.15 && a < b)
+      { a: med.call(core.first(third)).to_f,
+        m: med.call(core[third...(core.length - third)] || core).to_f,
+        b: med.call(core.last(third)).to_f }
+    end
+
+    # Acceptance per declared tone, tolerant of real citation-form
+    # variation (tone 2 onset dips, tone 3 low-flat, tone 4 creak)
+    # while still refusing gross mislabels — the level/fall and
+    # dip/rise confusions that would misteach.
+    def tone_ok?(expected, track)
+      return true if expected == :neutral
+
+      f = features(track)
+      return false unless f
+
+      a, m, b = f[:a], f[:m], f[:b]
+      case expected
+      when :level then b.between?(a * 0.85, a * 1.18) && m <= [a, b].max * 1.18
+      when :rise  then b > a * 1.08 || b > m * 1.15
+      when :dip   then !(b > a * 1.15 && m >= a * 0.95) # refuse only a clear pure rise
+      when :fall  then b < a * 0.90 || b < m * 0.88
+      end
+    end
+
+    # Coarse label for logs.
+    def classify(track)
+      f = features(track)
+      return :silent unless f
+
+      a, m, b = f[:a], f[:m], f[:b]
+      return :dip if m < [a, b].min * 0.90
       return :rise if b > a * 1.12
       return :fall if b < a * 0.85
 
       :level
-    end
-
-    def tone_ok?(expected, got)
-      return true if expected == :neutral # unstressed: no contour claim
-
-      # A citation third tone is often realized low-falling.
-      return got == :dip || got == :fall if expected == :dip
-
-      expected == got
     end
 
     # Pure-Ruby pitch track over 16 kHz mono s16le PCM.
@@ -86,11 +114,20 @@ module Edubba
       frame = 640
       hop = 320
       samples = pcm.unpack("s<*")
+      # Adaptive energy gate: 2% of the loudest frame, floored — so
+      # quiet cut syllables still track.
+      peak = 0.0
+      (0..(samples.length - frame)).step(hop) do |off|
+        w = samples[off, frame]
+        e = w.sum { |x| x * x } / frame.to_f
+        peak = e if e > peak
+      end
+      @gate = [peak * 0.02, 1e4].max
       track = []
       (0..(samples.length - frame)).step(hop) do |off|
         w = samples[off, frame]
         energy = w.sum { |x| x * x } / frame.to_f
-        next if energy < 2e5
+        next if energy < @gate
 
         best = nil
         best_v = 0.0
@@ -212,23 +249,40 @@ if $PROGRAM_NAME == __FILE__
     end
 
     work = cached
-    if (n = src["syllable"])
+    if src["start"] && src["end"]
+      # Explicit hand-measured window (the last resort a human sets
+      # after listening/measuring; still pitch-verified below).
+      work = File.join(CACHE, "#{slug}-cut.wav")
+      s0 = src["start"].to_f
+      e0 = src["end"].to_f
+      system("ffmpeg", "-v", "quiet", "-y",
+             "-ss", format("%.3f", s0), "-to", format("%.3f", e0), "-i", cached,
+             "-af", "afade=t=out:st=#{format('%.3f', e0 - s0 - 0.04)}:d=0.04", work)
+    elsif (n = src["syllable"])
       # Silence-segment the word and take the Nth syllable.
-      det = `ffmpeg -i #{cached.inspect} -af silencedetect=noise=-35dB:d=0.10 -f null - 2>&1`
+      noise = src["noise"] || "-35dB"
+      det = `ffmpeg -i #{cached.inspect} -af silencedetect=noise=#{noise}:d=0.10 -f null - 2>&1`
       starts = det.scan(/silence_end: ([\d.]+)/).flatten.map(&:to_f)
       ends = det.scan(/silence_start: ([\d.]+)/).flatten.map(&:to_f)
       dur = `ffprobe -v quiet -show_entries format=duration -of csv=p=0 #{cached.inspect}`.to_f
       seg_starts = [0.0] + starts
       seg_ends = ends + [dur]
       segs = seg_starts.zip(seg_ends).select { |s, e| e - s > 0.12 }
+      if segs.length < n && segs.length == 1 && (total = src["of"])
+        # Connected speech with no internal silences: split the one
+        # voiced span evenly by the word's declared syllable count.
+        s1, e1 = segs.first
+        step = (e1 - s1) / total
+        segs = (0...total).map { |k| [s1 + k * step, s1 + (k + 1) * step] }
+      end
       if segs.length < n
         failures << "#{slug}: expected ≥#{n} syllable segments, found #{segs.length}"
         next
       end
       s0, e0 = segs[n - 1]
       work = File.join(CACHE, "#{slug}-cut.wav")
-      system("ffmpeg", "-v", "quiet", "-y", "-i", cached,
-             "-ss", format("%.3f", [s0 - 0.02, 0].max), "-to", format("%.3f", e0 + 0.02),
+      system("ffmpeg", "-v", "quiet", "-y",
+             "-ss", format("%.3f", [s0 - 0.02, 0].max), "-to", format("%.3f", e0 + 0.02), "-i", cached,
              "-af", "afade=t=out:st=#{format('%.3f', e0 - s0 - 0.04)}:d=0.05", work)
     end
 
@@ -237,8 +291,8 @@ if $PROGRAM_NAME == __FILE__
     system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
     track = Edubba::PinyinAudio.pitch_track(File.binread(pcm_f))
     expected = Edubba::PinyinAudio.tone_of(pinyin_for[slug] || pinyin_for[aliases.key(slug)] || "")
-    got = Edubba::PinyinAudio.classify(track)
-    unless Edubba::PinyinAudio.tone_ok?(expected, got)
+    unless Edubba::PinyinAudio.tone_ok?(expected, track)
+      got = Edubba::PinyinAudio.classify(track)
       failures << "#{slug}: pitch says #{got}, pinyin #{pinyin_for[slug]} expects #{expected} — refused"
       next
     end
