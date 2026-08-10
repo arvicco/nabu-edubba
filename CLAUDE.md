@@ -171,19 +171,15 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 16 — S101 stretch 2 complete, gate PR pending: the
-borrowed words (ch05–09, 26 fresh characters, all loans and
-component chains), the shrinking-boxes return arc (6.23 read
-five times, 7.22 four, Laozi-25 four fragments), Analects 2.17
-whole at ZERO boxes, 1.1's questions under cap; 26 codex pages;
-55 chars = 20.9% of the classical corpus.
+Phase 17 — opening item: audio player integration redesign
+(owner disliked the shrunk native pills; interactive design
+session first, M17-1; D17-a may open the concept's reserved
+vanilla-JS enhancement layer — owner-ruled).
 
-Gate 15 merged 2026-08-10 (wave 3 opened: the sinograph school —
-rulebook-first laws (pinyin diacritics, keyword, 5–6 chapter
-dial, components-before-compounds, box-share ≤50% declining,
-size law, always-stacked readings), Kanripo frequency instrument
-(721.8M tokens), S101 ch00–04 (29 chars, 8.0%, all four moves),
-29-page Character Codex with live shelf check, sign-linker +
-codex routing, Pinyin primer with twenty license-verified,
-pitch-verified audio samples; PR #20, eight review rounds each
-landing a law + mechanical check). Update this line at each gate.
+Gate 16 merged 2026-08-11 (S101 stretch 2: the borrowed words,
+ch05–09, 26 chars — 55 total = 20.9% of the classical corpus;
+zero-box Analects 1.2 and 2.17, 1.1's questions under cap; the
+shrinking-boxes return arc; 26 codex pages, shelf complete; the
+syllable-audio pipeline — license-gated, pitch-verified, 53/55
+characters voiced with click-to-play tables; 為 wèi→wéi caught
+by the verifier; PR #21). Update this line at each gate.

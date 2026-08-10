@@ -815,3 +815,23 @@ same commit as their chapter (shelf check live).
 - D16-a · Sinograph retrieval instruments (deck export + drills,
   the cuneiform/hiero mirror): proposal for phase 17 — the queue
   and codex carry everything a deck needs.
+
+---
+
+## Phase 17 — opening item: the player (owner report at Gate 16 close)
+
+## M17-1 · Audio player integration redesign  [tier: top — visual identity, owner-interactive] [status: in-progress — design session with the owner precedes any code] [deps: --]
+Goal: replace the shrunk native <audio> pills in sign tables (and
+      align the primer's players) with an integration the owner
+      likes — designed together in an interactive session; if the
+      chosen design needs the vanilla-JS enhancement layer the
+      concept reserved for post-wave-1, that is decision item
+      D17-a (owner-ruled domain: the no-JS ratification).
+Acceptance: owner approves the rendered result on the served
+      preview; gate green; style guard pins whatever geometry the
+      design fixes.
+
+## Decision items — Phase 17
+- D17-a · Whether to open the concept's reserved vanilla-JS
+  enhancement layer (progressive enhancement only, nothing may
+  REQUIRE JS) for the audio player. Owner-ruled; raised by M17-1.
