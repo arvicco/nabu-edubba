@@ -174,19 +174,14 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 17 — complete, gate PR pending: the reading is the button
-(D17-a opened the reserved JS layer for exactly say.js — the
-pinyin plays on click, no chrome); primer phonetics voiced;
-codex identity moved from pinyin to KEYWORD slugs (55 pages,
-homophone/tone-proof); every clip loudness-normalized (−20 dB
-mean, −1 dB peak); tone verifier hardened (raw-view falls,
-de-octave); say-audio lint — no reading ships silent; absent
-list EMPTY (品 voiced); review re-cuts 曰休 yuē zhě hū.
+Phase 18 — S101 stretch 3: the sentence at work (ch10–14, 26
+chars, box cap 40%): 以 arrives (rank 3), the second number
+batch, the seeing pictographs, 道 itself; plan in
+.docs/phase-18-plan.md.
 
-Gate 16 merged 2026-08-11 (S101 stretch 2: the borrowed words,
-ch05–09, 26 chars — 55 total = 20.9% of the classical corpus;
-zero-box Analects 1.2 and 2.17, 1.1's questions under cap; the
-shrinking-boxes return arc; 26 codex pages, shelf complete; the
-syllable-audio pipeline — license-gated, pitch-verified, 53/55
-characters voiced with click-to-play tables; 為 wèi→wéi caught
-by the verifier; PR #21). Update this line at each gate.
+Gate 17 merged 2026-08-11 (the audio phase: D17-a say.js — the
+reading is the button; primer phonetics voiced; keyword slugs
+replace pinyin slugs codex-wide; loudness normalization −20 dB;
+tone verifier hardened; say-audio lint; all 55 characters
+voiced, absent list empty; PR #22). Update this line at each
+gate.
