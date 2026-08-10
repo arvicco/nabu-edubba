@@ -9,7 +9,7 @@
 # (date-stamped), kept visible in every pipeline report.
 
 sources:
-  yue-say:   {file: "LL-Q9192 (cmn)-Jouketou-约会.wav", syllable: 1, of: 2, pinyin: "yuē"}   # 曰's syllable, from 約會
+  yue-say:   {file: "LL-Q9192 (cmn)-Jouketou-约会.wav", start: 0.20, end: 0.62, pinyin: "yuē"}   # 曰's syllable, hand-windowed out of 約會 (even split had leaked 会's onset)
   ren:       {file: "Zh-rén.ogg", pinyin: "rén"}
   da:        {file: "Zh-dà.ogg", pinyin: "dà"}
   tian:      {file: "Zh-tiān.ogg", pinyin: "tiān"}
@@ -53,11 +53,11 @@ sources:
   zheng:     {file: "Zh-zhèng.ogg", pinyin: "zhèng"}
   shi-this:  {file: "Zh-shì.ogg", pinyin: "shì"}
   xi:        {file: "Zh-xī.ogg", pinyin: "xī"}
-  zhe:       {file: "Zh-huòzhě.ogg", pinyin: "zhě", start: 0.90, end: 1.15}   # zhě, hand-windowed: soft final syllable of huòzhě
+  zhe:       {file: "Zh-jìzhe.ogg", syllable: 2, of: 2, pinyin: "zhě"}   # zhě: final syllable of jìzhě (the huòzhě cut was too soft/creaky to read)
   qi:        {file: "Zh-qí.ogg", pinyin: "qí"}
   yi-also:   {file: "Zh-yì.ogg", pinyin: "yì"}
   yu:        {file: "Zh-yú.ogg", pinyin: "yú"}
-  hu:        {file: "Zh-hū.oga", pinyin: "hū"}
+  hu:        {file: "Zh-hūrán.ogg", start: 0.10, end: 0.56, pinyin: "hū"}   # 忽's hū, hand-windowed (connected speech, no internal silence); replaced Zh-hū.oga after owner doubt
   pin:       {file: "Zh-pin.ogg", pinyin: "pǐn"}
 
   # Primer demo syllables (not queue characters): pinyin: declares
