@@ -5,6 +5,15 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · review round (Gate 15: 本/未 examples) · phase-15 ·
+Owner: 本 and 未 need examples tied to known characters, not boxes.
+Replaced the Analects 1.2 figure (2/9 and 1/4 taught) with the
+Daxue's opening premise 物有本末 (KR1h0059 — today's pair carrying
+the whole four-character thought) and the Shijing's 東方未明，
+顛倒衣裳 (KR1c0001:008:26a, the Mao Shi itself — 未明
+"not-yet-bright" leans the new character on ch03's 明, and the
+courtier dressing upside-down in the dark makes it stick).
+
 2026-08-10 · M15-5 · phase-15 · Owner: why don't the chapter
 tables' characters link to the codex? Because only ren/da/tian
 had pages — the sign-linker routes a cell to the codex only when

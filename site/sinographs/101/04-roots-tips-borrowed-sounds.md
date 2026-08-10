@@ -123,20 +123,25 @@ yet" turns out to moonlight as a pure syllable.
   </figcaption>
 </figure>
 
-## Root and not-yet, in the master's mouth
+## Root and tip, dawn and not-yet
 
-The *Analects*, page one — a disciple of the Master on where
-character begins. Two of the ten characters were beyond you a page
-ago; now they anchor the line:
+The Great Learning opens its whole argument on today's pair — both
+marks on your tree — and the Songs hand 未 straight to a character
+you learned one chapter ago:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢本，本▢▢▢▢。</span><span class="translit pinyin">jūn zǐ wù běn, běn lì ér dào shēng</span><span class="gloss">"the noble person works at the root; when the root is set, the Way grows" — 本 twice, hinge of the whole sentence</span></div>
-    <div class="reading-line"><span class="script">未▢▢▢。</span><span class="translit pinyin">wèi zhī yǒu yě</span><span class="gloss">"such a thing has never yet been" — the same passage's 未, doing its everyday work as "not yet"</span></div>
+    <div class="reading-line"><span class="script">▢▢本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — the Great Learning's first premise, with today's pair carrying the whole thought</span></div>
+    <div class="reading-line"><span class="script">▢▢未明，▢▢▢▢。</span><span class="translit pinyin">dōng fāng wèi míng, diān dǎo yī cháng</span><span class="gloss">"the east is not yet bright — I pull my clothes on upside down" — a courtier summoned before dawn: 未明, "not-yet-bright," is your newest character leaning on <a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">chapter 03</a>'s 明</span></div>
   </div>
   <figcaption class="citation">
-    <em>Analects</em> 1.2.
-    <code>urn:nabu:kanripo:KR1h0004:001:2a</code> · license: attribution.
+    Line 1: <em>The Great Learning</em> (Daxue), in a Song
+    commentary edition ·
+    <code>urn:nabu:kanripo:KR1h0059:001:2b</code>.
+    Line 2: <em>Classic of Songs</em> (Shijing), "East Not Yet
+    Bright" ·
+    <code>urn:nabu:kanripo:KR1c0001:008:26a</code>.
+    Both license: attribution.
   </figcaption>
 </figure>
 
