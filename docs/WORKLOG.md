@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review rounds (ch04 pǐn; ch03/09 re-cuts; ch09
+bubble) · phase-17 · Three owner reports, each closed with the
+fix plus its durable check. (1) pǐn had no sound — Commons'
+Zh-pin.ogg IS the recording (its description declares pǐn 品;
+the diacritic-less filename had hidden it from the scout);
+verified a textbook full third tone; the absent list is EMPTY —
+all 55 characters voiced. The requested say-audio LINT closes
+the class: a sign-table reading that is not a say-link, or any
+say-link whose target file does not exist, now fails the gate.
+(2) yuē/zhě/hū all heard wrong or doubted, all confirmed bad by
+envelope analysis: yuē's even split had leaked 会's onset
+(hand-windowed to the syllable); zhě's old window sat in a noise
+burst AFTER the syllable (recut from 记者's final syllable);
+hū was genuine (呼) but doubted — replaced with 忽然's first
+syllable so two independent recordings agree. (3) A hover
+bubble in a table's LAST column crossed the scroll container's
+right rim — the mirror of the 2026-08-09 left-rim clip; last-
+column bubbles now pin right, style guard enforces both pins.
+
 2026-08-11 · review round (keyword slugs + loudness) · phase-17 ·
 Two owner rulings landed. (1) Codex identity: pinyin slugs are
 homophone- and tone-ambiguous (/ren-humane/), so the KEYWORD —
