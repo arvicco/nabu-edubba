@@ -57,6 +57,22 @@ fallback. Recorded in docs/concept.md §7.
   site/assets/audio/pinyin/CREDITS.txt, linked from the page.
   Audio filenames carry no tone digits (the display law's shape
   holds in URLs).
+- **The syllable pipeline (owner ruling 2026-08-11):** chapter
+  sign tables carry a per-character play button (a compact
+  browser-native `<audio>` — still no JS) voicing the character's
+  reading. Acquisition is an instrument, bin/pinyin_audio.rb,
+  driven by the hand-curated manifest
+  assets-src/data/pinyin-audio-sources.yml: Commons recordings
+  only, license-gated at the API (CC BY / CC BY-SA, never NC),
+  word recordings silence-segmented to the named syllable, and
+  EVERY file pitch-verified against the tone its pinyin declares
+  before it may ship — a recording that does not sing its tone
+  does not ship. Same-sound characters share one file via manifest
+  aliases; characters with no clean recording are recorded in
+  `absent:` and reported on every run, never faked (TTS output is
+  barred by the same license test — Apple's voices are
+  personal-use only, and open engines misteach tone). Credits
+  regenerate into CREDITS-syllables.txt.
 
 ## 3 · The keyword law
 

@@ -1,0 +1,273 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Syllable-audio acquisition pipeline (rulebook §2, owner request
+# 2026-08-11: the course will need ever more pinyin as it grows).
+# Reads the hand-curated manifest (pinyin-audio-sources.yml), and
+# for every slug without a committed mp3:
+#
+#   resolve  — Commons API: direct URL + license + author; anything
+#              that is not CC BY / CC BY-SA is REFUSED (never NC);
+#   fetch    — paced download with exponential backoff (Wikimedia
+#              rate-limits bursts hard);
+#   cut      — for word recordings, silence-segment and take the
+#              manifest's Nth syllable;
+#   verify   — measure the pitch contour (pure-Ruby autocorrelation
+#              over ffmpeg-decoded PCM) and check it against the
+#              tone the queue's pinyin declares — a recording that
+#              does not sing its tone does not ship;
+#   encode   — mono 64k mp3 under the codex slug (no tone digits in
+#              filenames — the display law holds in URLs);
+#   credit   — regenerate CREDITS-syllables.txt (GENERATED block).
+#
+# The gap report (manifest `absent:` + any queue slug not covered)
+# prints on every run. Requires ffmpeg. Network at authoring time
+# only; outputs are committed.
+#
+# Usage: ruby bin/pinyin_audio.rb            # build what's missing
+#        ruby bin/pinyin_audio.rb --report   # gaps only, no network
+
+require "yaml"
+require "json"
+require "net/http"
+require "uri"
+require "fileutils"
+
+MANIFEST = "assets-src/data/pinyin-audio-sources.yml"
+QUEUE = "site/_data/sinographs101_queue.yml"
+OUT_DIR = "site/assets/audio/pinyin"
+CREDITS = File.join(OUT_DIR, "CREDITS-syllables.txt")
+CACHE = ENV.fetch("PINYIN_AUDIO_CACHE", File.expand_path("~/.cache/edubba-pinyin-audio"))
+UA = "EdubbaBot/1.0 (edubba.ac; educational vendoring; github.com/arvicco/nabu-edubba)"
+API = "https://commons.wikimedia.org/w/api.php"
+
+module Edubba
+  module PinyinAudio
+    module_function
+
+    TONE_MARKS = {
+      level: "āēīōūǖ", rise: "áéíóúǘ", dip: "ǎěǐǒǔǚ", fall: "àèìòùǜ"
+    }.freeze
+
+    # The tone a pinyin syllable declares, from its diacritic.
+    def tone_of(pinyin)
+      TONE_MARKS.each { |tone, marks| return tone if pinyin.chars.any? { |c| marks.include?(c) } }
+      :neutral
+    end
+
+    # Median-of-thirds contour classification over a pitch track.
+    def classify(track)
+      return :silent if track.empty?
+
+      third = [1, track.length / 3].max
+      med = ->(a) { s = a.sort; s[s.length / 2] }
+      a = med.call(track.first(third)).to_f
+      b = med.call(track.last(third)).to_f
+      m = med.call(track[third...(track.length - third)] || track).to_f
+      return :dip if m < [a, b].min * 0.90 || (m <= a * 1.02 && b > m * 1.15 && a < b)
+      return :rise if b > a * 1.12
+      return :fall if b < a * 0.85
+
+      :level
+    end
+
+    def tone_ok?(expected, got)
+      return true if expected == :neutral # unstressed: no contour claim
+
+      # A citation third tone is often realized low-falling.
+      return got == :dip || got == :fall if expected == :dip
+
+      expected == got
+    end
+
+    # Pure-Ruby pitch track over 16 kHz mono s16le PCM.
+    def pitch_track(pcm)
+      sr = 16_000
+      frame = 640
+      hop = 320
+      samples = pcm.unpack("s<*")
+      track = []
+      (0..(samples.length - frame)).step(hop) do |off|
+        w = samples[off, frame]
+        energy = w.sum { |x| x * x } / frame.to_f
+        next if energy < 2e5
+
+        best = nil
+        best_v = 0.0
+        ((sr / 350)..(sr / 70)).step(1) do |lag|
+          s = 0
+          i = 0
+          while i < frame - lag
+            s += w[i] * w[i + lag]
+            i += 4
+          end
+          if s > best_v
+            best_v = s
+            best = lag
+          end
+        end
+        track << (sr.to_f / best).round if best
+      end
+      track
+    end
+  end
+end
+
+if $PROGRAM_NAME == __FILE__
+  manifest = YAML.safe_load_file(MANIFEST)
+  queue = YAML.safe_load_file(QUEUE)["signs"]
+  sources = manifest["sources"] || {}
+  aliases = manifest["aliases"] || {}
+  absent = (manifest["absent"] || []).map { |a| a["slug"] }
+
+  pinyin_for = queue.to_h { |s| [s["name"], s["pinyin"]] }
+  covered = sources.keys + aliases.keys + absent
+  gaps = queue.map { |s| s["name"] } - covered
+  puts "GAPS (no manifest entry): #{gaps.join(', ')}" unless gaps.empty?
+  puts "ABSENT (no clean recording known): #{absent.join(', ')}" unless absent.empty?
+  exit 0 if ARGV.include?("--report")
+
+  abort "pinyin_audio: ffmpeg not found" if `which ffmpeg`.empty?
+  FileUtils.mkdir_p(CACHE)
+  FileUtils.mkdir_p(OUT_DIR)
+
+  api_get = lambda do |params|
+    uri = URI(API)
+    uri.query = URI.encode_www_form(params.merge(format: "json"))
+    req = Net::HTTP::Get.new(uri)
+    req["User-Agent"] = UA
+    res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |h| h.request(req) }
+    JSON.parse(res.body)
+  rescue JSON::ParserError, SystemCallError, Net::OpenTimeout, Net::ReadTimeout
+    nil # rate-limit HTML page or transient network trouble — caller backs off
+  end
+
+  meta_cache_path = File.join(CACHE, "meta.json")
+  meta_cache = File.exist?(meta_cache_path) ? JSON.parse(File.read(meta_cache_path)) : {}
+
+  credits = []
+  built = 0
+  skipped = 0
+  failures = []
+
+  sources.each do |slug, src|
+    out_mp3 = File.join(OUT_DIR, "#{slug}.mp3")
+    title = "File:#{src['file']}"
+
+    if (m = meta_cache[title])
+      license = m["license"]
+      artist = m["artist"]
+      url = m["url"]
+    else
+      info = nil
+      4.times do |i|
+        d = api_get.call(action: "query", titles: title,
+                         prop: "imageinfo", iiprop: "url|extmetadata")
+        page = d&.dig("query", "pages")&.values&.first || {}
+        info = page["imageinfo"]&.first
+        break if info
+
+        sleep 30 * (i + 1)
+      end
+      unless info
+        failures << "#{slug}: #{title} unresolvable (not found, or API rate-limited) — rerun later"
+        next
+      end
+      meta = info["extmetadata"] || {}
+      license = meta.dig("LicenseShortName", "value").to_s
+      artist = meta.dig("Artist", "value").to_s.gsub(/<[^>]+>/, "").strip
+      url = info["url"]
+      meta_cache[title] = { "license" => license, "artist" => artist, "url" => url }
+      File.write(meta_cache_path, JSON.pretty_generate(meta_cache))
+      sleep 6 # pace the API too
+    end
+    unless license.match?(/\ACC (BY|BY-SA)\b/i)
+      failures << "#{slug}: license #{license.inspect} refused (BY/BY-SA only)"
+      next
+    end
+
+    if File.exist?(out_mp3) && !ARGV.include?("--force")
+      skipped += 1
+      credits << [slug, src, license, artist]
+      next
+    end
+
+    ext = File.extname(src["file"])
+    cached = File.join(CACHE, slug + ext)
+    unless File.exist?(cached) && `file -b #{cached.inspect}`.match?(/Ogg data|WAVE|RIFF/)
+      got = false
+      4.times do |attempt|
+        system("curl", "-sL", "-m", "60", "-A", UA, "-o", cached, url)
+        if `file -b #{cached.inspect}`.match?(/Ogg data|WAVE|RIFF/)
+          got = true
+          break
+        end
+        sleep 60 * (attempt + 1) # Wikimedia backoff: 1, 2, 3 minutes
+      end
+      sleep 25 # base pacing between fetches
+      unless got
+        failures << "#{slug}: download kept failing (rate limit?) — rerun later"
+        next
+      end
+    end
+
+    work = cached
+    if (n = src["syllable"])
+      # Silence-segment the word and take the Nth syllable.
+      det = `ffmpeg -i #{cached.inspect} -af silencedetect=noise=-35dB:d=0.10 -f null - 2>&1`
+      starts = det.scan(/silence_end: ([\d.]+)/).flatten.map(&:to_f)
+      ends = det.scan(/silence_start: ([\d.]+)/).flatten.map(&:to_f)
+      dur = `ffprobe -v quiet -show_entries format=duration -of csv=p=0 #{cached.inspect}`.to_f
+      seg_starts = [0.0] + starts
+      seg_ends = ends + [dur]
+      segs = seg_starts.zip(seg_ends).select { |s, e| e - s > 0.12 }
+      if segs.length < n
+        failures << "#{slug}: expected ≥#{n} syllable segments, found #{segs.length}"
+        next
+      end
+      s0, e0 = segs[n - 1]
+      work = File.join(CACHE, "#{slug}-cut.wav")
+      system("ffmpeg", "-v", "quiet", "-y", "-i", cached,
+             "-ss", format("%.3f", [s0 - 0.02, 0].max), "-to", format("%.3f", e0 + 0.02),
+             "-af", "afade=t=out:st=#{format('%.3f', e0 - s0 - 0.04)}:d=0.05", work)
+    end
+
+    # Pitch-verify against the declared tone.
+    pcm_f = File.join(CACHE, "#{slug}.pcm")
+    system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
+    track = Edubba::PinyinAudio.pitch_track(File.binread(pcm_f))
+    expected = Edubba::PinyinAudio.tone_of(pinyin_for[slug] || pinyin_for[aliases.key(slug)] || "")
+    got = Edubba::PinyinAudio.classify(track)
+    unless Edubba::PinyinAudio.tone_ok?(expected, got)
+      failures << "#{slug}: pitch says #{got}, pinyin #{pinyin_for[slug]} expects #{expected} — refused"
+      next
+    end
+
+    system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-ac", "1", "-ar", "44100",
+           "-codec:a", "libmp3lame", "-b:a", "64k", out_mp3)
+    built += 1
+    credits << [slug, src, license, artist]
+    puts "built #{slug}.mp3 (#{expected} ✓, #{license})"
+  end
+
+  unless credits.empty?
+    lines = credits.sort_by(&:first).map do |slug, src, license, artist|
+      cut = src["syllable"] ? " (syllable #{src['syllable']} cut from the word)" : ""
+      format("%-14s — \"%s\"%s · %s · %s", "#{slug}.mp3", src["file"], cut, artist, license)
+    end
+    File.write(CREDITS, <<~HEADER + lines.join("\n") + "\n")
+      Per-syllable audio credits
+      ==========================
+      GENERATED by bin/pinyin_audio.rb — do not edit by hand.
+      Recordings from Wikimedia Commons, converted to mp3 (mono,
+      64 kbps); word recordings cut to the named syllable and
+      pitch-verified against the declared tone at build time.
+      Source pages: commons.wikimedia.org/wiki/File:<source file>
+
+    HEADER
+  end
+
+  puts "pinyin_audio: #{built} built, #{skipped} already present, #{failures.length} failed"
+  failures.each { |f| puts "  FAIL #{f}" }
+  exit(failures.empty? ? 0 : 1)
+end

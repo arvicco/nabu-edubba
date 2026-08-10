@@ -1,0 +1,75 @@
+# Syllable-audio manifest — hand-curated source for
+# bin/pinyin_audio.rb (rulebook §2: the acquisition pipeline).
+# Every taught character's codex slug maps to a Wikimedia Commons
+# recording: `file:` alone vendors the whole recording; add
+# `syllable: N` to cut the Nth syllable out of a word recording
+# (silence-segmented, then pitch-verified against the tone the
+# queue's pinyin declares). `aliases:` map same-sound slugs to one
+# file; `absent:` records characters with NO clean recording found
+# (date-stamped), kept visible in every pipeline report.
+
+sources:
+  ren:       {file: "Zh-rén.ogg"}
+  da:        {file: "Zh-dà.ogg"}
+  tian:      {file: "Zh-tiān.ogg"}
+  tu:        {file: "LL-Q727694 (cmn)-Shangkuanlc-土.wav"}
+  wang:      {file: "Zh-wáng.ogg"}
+  yi:        {file: "Zh-yī.ogg"}
+  er:        {file: "Zh-èr.ogg"}
+  san:       {file: "Zh-sān.ogg"}
+  zhong:     {file: "Zh-zhōng.ogg"}
+  shang:     {file: "Zh-shàng.ogg"}
+  xia:       {file: "Zh-xià.ogg"}
+  ri:        {file: "Zh-rì.ogg"}
+  yue:       {file: "Zh-yuè.ogg"}
+  shan:      {file: "Zh-shān.ogg"}
+  shui:      {file: "Zh-shuǐ.ogg"}
+  mu:        {file: "Zh-mù.ogg"}
+  kou:       {file: "Zh-kǒu.ogg"}
+  zi:        {file: "Zh-zǐ.oga"}
+  ming:      {file: "Zh-míng.ogg"}
+  dan:       {file: "Zh-dàn.ogg"}
+  xiu:       {file: "Zh-xiūxi.ogg", syllable: 1}
+  ben:       {file: "Zh-běn.ogg"}
+  mo:        {file: "Zh-mò.ogg"}
+  wei:       {file: "Zh-wèi.ogg"}
+  zhi:       {file: "Zh-zhī.ogg"}
+  bu:        {file: "Zh-bù.ogg"}
+  ye:        {file: "Zh-yě.ogg"}
+  you:       {file: "Zh-yòu.ogg"}
+  you-have:  {file: "Zh-yǒu.ogg"}
+  shi:       {file: "Zh-shí.ogg"}
+  shi-arrow: {file: "Mandarin Chinese pronunciation-矢.wav"}
+  er-and:    {file: "Zh-ér.ogg"}
+  xing:      {file: "Zh-xíng.ogg"}
+  yan:       {file: "Zh-yán.ogg"}
+  wei-do:    {file: "Zh-wéi.ogg"}
+  wu:        {file: "Zh-wú.ogg"}
+  wo:        {file: "Zh-wǒ.ogg"}
+  xin:       {file: "Zh-xīn.ogg"}
+  sheng:     {file: "Zh-shēng.ogg"}
+  zhi-stop:  {file: "Zh-zhǐ.ogg"}
+  zheng:     {file: "Zh-zhèng.ogg"}
+  shi-this:  {file: "Zh-shì.ogg"}
+  xi:        {file: "Zh-xī.ogg"}
+  zhe:       {file: "LL-Q9192 (cmn)-Aa087159-志愿者.wav", syllable: 3}
+  qi:        {file: "Zh-qí.ogg"}
+  yi-also:   {file: "Zh-yì.ogg"}
+  yu:        {file: "Zh-yú.ogg"}
+  hu:        {file: "Zh-hū.oga"}
+
+aliases:
+  ren-humane: ren
+  zhi-know: zhi
+  mu-washing: mu
+  wei-flavor: wei
+  ming-name: ming
+  xi-evening: xi
+
+absent:
+  - slug: yue-say
+    char: 曰
+    note: no clean single- or word-recording found on Commons (2026-08-11)
+  - slug: pin
+    char: 品
+    note: no clean single- or word-recording found on Commons (2026-08-11)
