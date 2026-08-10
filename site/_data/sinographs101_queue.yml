@@ -523,6 +523,91 @@ signs:
   - 口
   note: rank 40; the mouth 口 under rising lines — sound leaving the mouth, by the
     received account. The meaning-component of the whole talking family to come.
+- char: 為
+  glyph: 為
+  name: wei-do
+  codepoint: 70BA
+  keyword: do
+  pinyin: wèi
+  meaning: to do, to make; to act as; for
+  category: loan
+  certainty: stated
+  strokes: 9
+  ids: "⿽⿵⿸⿻丿\U000200CD⿱\U000200CD\U000200CC灬丶"
+  rank: 8
+  count_kanripo: 5812583
+  docs: 3628
+  chapter: 7
+  note: rank 8; the old form draws a hand leading an elephant — put to work — and
+    the working word "do" kept the character. Read wéi as the verb, wèi as "for."
+- char: 無
+  glyph: 無
+  name: wu
+  codepoint: '7121'
+  keyword: without
+  pinyin: wú
+  meaning: without, there is not — the classical nothing
+  category: loan
+  certainty: stated
+  strokes: 12
+  ids: "⿱{56}灬"
+  rank: 21
+  count_kanripo: 2966863
+  docs: 5019
+  chapter: 7
+  note: rank 21; a dancer with sleeves full of tassels, borrowed for the word "not
+    have" — the dance later took a new character and left this one to nothing.
+- char: 我
+  glyph: 我
+  name: wo
+  codepoint: '6211'
+  keyword: I
+  pinyin: wǒ
+  meaning: I, me, we — the plain first person
+  category: loan
+  certainty: stated
+  strokes: 7
+  ids: "⿻⿱㇒扌{97}"
+  rank: 176
+  count_kanripo: 819058
+  docs: 4536
+  chapter: 7
+  note: rank 176; a toothed halberd by the received account, borrowed early for the
+    word "I" — the weapon's meaning long gone.
+- char: 心
+  glyph: 心
+  name: xin
+  codepoint: 5FC3
+  keyword: heart
+  pinyin: xīn
+  meaning: heart; mind — where classical thought happens
+  category: pictograph
+  certainty: classic
+  strokes: 4
+  ids: "⿰㇒⿻乚⿰丶丶"
+  rank: 90
+  count_kanripo: 1278593
+  docs: 4991
+  chapter: 7
+  note: rank 90; the heart drawn with its chambers — in the classics it is the organ
+    of thinking as much as feeling.
+- char: 生
+  glyph: 生
+  name: sheng
+  codepoint: 751F
+  keyword: grow
+  pinyin: shēng
+  meaning: to grow, to be born; life
+  category: pictograph
+  certainty: classic
+  strokes: 5
+  ids: "⿰㇒龶"
+  rank: 53
+  count_kanripo: 1825437
+  docs: 5080
+  chapter: 7
+  note: rank 53; a sprout rising from the ground-line — the verb of the Laozi's whole
+    cosmology (道生一).
 - char: 明
   glyph: 明
   name: ming
@@ -785,3 +870,11 @@ batches:
   - 行
   - 言
   coverage_pct: 16.2
+- chapter: 7
+  signs:
+  - 為
+  - 無
+  - 我
+  - 心
+  - 生
+  coverage_pct: 18.0

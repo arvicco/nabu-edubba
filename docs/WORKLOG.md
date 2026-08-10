@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M16-5 · phase-16 · ch07 · Doing and being — 為無我心生:
+the loan move at its grandest (the hand leading the elephant, the
+dancer whose dance moved out — SVG of the dancer becoming 無), 我
+the forgotten halberd, and the VERB-無-VERB mold named as a mold.
+Readings: Laozi 63 unfolded (為無為…味無味, one word boxed — the
+ch04 arc completing), 7.22's fourth visit (我 claims the teacher,
+37%), 本立而道生 at 40%, and the elegy's 天下▢心 (25%). Catches
+before the gate: 歸 nearly shipped unboxed in a reading (boxed,
+gloss cleaned), and the next-chapter teaser glyphs 止正是 needed
+shows: (the exhibit mechanism doing its job). Codex ×5 same
+commit. 18.0%.
+
 2026-08-10 · M16-4 · phase-16 · ch06 · Knowing and walking —
 矢知而行言: the arrow pinned ahead of rank because 知 needs it
 (components-first stated in-chapter), 而 as the borrowed beard
