@@ -58,6 +58,7 @@ sources:
   yi-also:   {file: "Zh-yì.ogg", pinyin: "yì"}
   yu:        {file: "Zh-yú.ogg", pinyin: "yú"}
   hu:        {file: "Zh-hū.oga", pinyin: "hū"}
+  pin:       {file: "Zh-pin.ogg", pinyin: "pǐn"}
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -93,6 +94,7 @@ voices:
   i: wo
   indeed: ye
   its: qi
+  kinds: pin
   king: wang
   know: zhi
   middle: zhong
@@ -125,7 +127,4 @@ voices:
   who: zhe
   without: wu
 
-absent:
-  - slug: kinds
-    char: 品
-    note: no clean single- or word-recording found on Commons (2026-08-11)
+absent: []

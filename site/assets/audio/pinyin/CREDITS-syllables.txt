@@ -23,6 +23,7 @@ lai.mp3        — "Zh-lái.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ming.mp3       — "Zh-míng.ogg" · Yue Tan · CC BY-SA 3.0 us
 mo.mp3         — "Zh-mò.ogg" · Yue Tan · CC BY-SA 3.0 us
 mu.mp3         — "Zh-mù.ogg" · Yue Tan · CC BY-SA 3.0 us
+pin.mp3        — "Zh-pin.ogg" · Yue Tan · CC BY-SA 3.0 us
 qi.mp3         — "Zh-qí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ren.mp3        — "Zh-rén.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ri.mp3         — "Zh-rì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
