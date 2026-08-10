@@ -457,6 +457,60 @@ signs:
       rank 69; evening plus mouth — in the dark you cannot be seen,
       so you say your name: the received story, and a good one.
 
+  # ch09 — the master's opening
+  - char: 者
+    chapter: 9
+    keyword: who
+    pinyin: zhě
+    meaning: "the one who — turns a verb into its doer"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 10; the old picture is disputed (the graph shows
+      something over a mouth-like box); its classical work is
+      pure grammar — X 者, "the one who X-es."
+  - char: 其
+    chapter: 9
+    keyword: its
+    pinyin: qí
+    meaning: "his, her, its, their"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 6; the classic borrowed winnowing-basket — the basket
+      later took a new character, the pronoun kept this one.
+  - char: 亦
+    chapter: 9
+    keyword: also
+    slug: yi-also
+    pinyin: yì
+    meaning: "also, likewise — the classical 'too'"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 61; a person with two marks under the arms — "armpits,"
+      by the received account — borrowed whole for "also."
+  - char: 于
+    chapter: 9
+    keyword: at
+    pinyin: yú
+    meaning: "at, to, toward — the old preposition"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 75; origin disputed; the annals' and Songs' preposition
+      of place and direction.
+  - char: 乎
+    chapter: 9
+    keyword: really
+    pinyin: hū
+    meaning: "the question-breath that ends classical questions"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 136; a rising breath-mark by the received account — the
+      spoken lift at the end of "…is it not?"
+
   # compounds of taught parts
   - char: 明
     chapter: 3
