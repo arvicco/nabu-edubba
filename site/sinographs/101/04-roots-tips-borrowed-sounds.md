@@ -2,8 +2,9 @@
 title: "04 · Roots, tips, and borrowed sounds"
 short_title: "04 · Borrowed sounds"
 description: >-
-  Root, tip, not-yet, washing, flavor — marks on the tree, and the
-  sound-borrowing move that built most of the script.
+  Kinds, root, tip, not-yet, washing, flavor — marks on the tree, a
+  crowd of mouths, and the sound-borrowing move that built most of
+  the script.
 layout: chapter
 school: sinographs
 course: sinographs-101
@@ -11,18 +12,24 @@ chapter: 4
 permalink: /sinographs/101/04-roots-tips-borrowed-sounds/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
-teaches: ["本", "末", "未", "沐", "味"]
+teaches: ["品", "本", "末", "未", "沐", "味"]
 ---
 
 # Roots, tips, and borrowed sounds
 
-One tree, three marks — then the move that changes everything:
+A crowd of mouths, one tree with three marks — then the move that
+changes everything:
 
 <table class="sign-table">
   <thead>
     <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
+    <tr>
+      <td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>
+      <td>kinds, grades; things in their sorts</td>
+      <td>your mouth three times over — many voices, many sorts</td>
+    </tr>
     <tr>
       <td class="script sign-cell">本</td><td>root</td><td><span class="translit pinyin">běn</span></td>
       <td>root, trunk; the fundamental</td>
@@ -55,12 +62,14 @@ One tree, three marks — then the move that changes everything:
   </tbody>
 </table>
 
-The first three are the pointing move again, played on a taught
-part: mark the bottom of 木 and you have named the root; mark the
-top, the tip; let the top sprout young growth and you have *not
-yet*.[^wei] Classical argument runs on the first pair — 本末, root
-and branch-tip, the essential versus the incidental — and runs on
-未 constantly, because "not yet" is how the classics say *still
+品 is the combining move from last chapter, played as a tripling:
+three of your 口 make *many kinds* — the world sorted. The next
+three are the pointing move, played on a taught part: mark the
+bottom of 木 and you have named the root; mark the top, the tip;
+let the top sprout young growth and you have *not yet*.[^wei]
+Classical argument runs on the marked pair — 本末, root and
+branch-tip, the essential versus the incidental — and runs on 未
+constantly, because "not yet" is how the classics say *still
 un-*.
 
 ## The fourth move
@@ -132,7 +141,7 @@ ago; now they anchor the line:
 </figure>
 
 And the tree line from
-<a href="{{ '/sinographs/101/01-the-world-in-pictures/' | relative_url }}">chapter 01</a>
+<a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">chapter 02</a>
 comes back with its last word lit:
 
 <figure class="reading reading--script reading--stacked">
@@ -140,31 +149,35 @@ comes back with its last word lit:
     <div class="reading-line"><span class="script">▢▢▢木，▢▢▢末。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest tip" — the promised rereading: the tiny shoot the giant grew from is 末, the tip you learned today</span></div>
   </div>
   <figcaption class="citation">
-    <em>Laozi</em> 64 — <a href="{{ '/sinographs/101/01-the-world-in-pictures/' | relative_url }}">chapter 01</a>'s reading, rereading.
+    <em>Laozi</em> 64 — <a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">chapter 02</a>'s reading, rereading.
     <code>urn:nabu:kanripo:KR5c0057:064:1a</code> · license: attribution.
   </figcaption>
 </figure>
 
-The sound-carriers close the chapter in two of the tradition's
-best sentences:
+品 takes its seat in the Changes' hymn to creation, and the
+sound-carriers close the chapter in two of the tradition's best
+sentences:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
+    <div class="reading-line"><span class="script">▢▢▢▢，品▢▢▢。</span><span class="translit pinyin">yún xíng yǔ shī, pǐn wù liú xíng</span><span class="gloss">"clouds move and rain falls; the kinds of things flow into form" — the Changes on creation, sorting the world with your three mouths</span></div>
     <div class="reading-line"><span class="script">▢▢沐▢，▢▢▢▢上▢。</span><span class="translit pinyin">zhāi jiè mù yù, zé kě yǐ sì shàng dì</span><span class="gloss">"having fasted and washed, anyone may sacrifice to the Lord on High" — Mencius: even the worst of us, washed, may stand before Heaven</span></div>
     <div class="reading-line"><span class="script">味▢味。</span><span class="translit pinyin">wèi wú wèi</span><span class="gloss">"taste the flavorless" — the Laozi in three characters, two of them yours and the third coming soon</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Mencius</em> 8.25 ·
+    Line 1: <em>Zhouyi</em>, hexagram Qian ·
+    <code>urn:nabu:kanripo:KR1a0001:001:22a</code>.
+    Line 2: <em>Mencius</em> 8.25 ·
     <code>urn:nabu:kanripo:KR1h0001:008:30a</code>.
-    Line 2: <em>Laozi</em> 63 ·
+    Line 3: <em>Laozi</em> 63 ·
     <code>urn:nabu:kanripo:KR5c0057:063:1a</code>.
-    Both license: attribution.
+    All license: attribution.
   </figcaption>
 </figure>
 
 ## Where this stretch ends
 
-Twenty-eight characters, and all four of the script's moves —
+Twenty-nine characters, and all four of the script's moves —
 drawing, pointing, combining, sound-borrowing — each learned on
 characters whose every part you own. From here the course rides
 the fourth move: most of what remains is a meaning-hint plus a

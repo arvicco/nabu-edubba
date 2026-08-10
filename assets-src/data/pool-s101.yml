@@ -15,7 +15,7 @@
 # pinyin-keyword (rulebook §8).
 
 signs:
-  # ch00 — the chain and the numbers (all simple)
+  # ch00 — the chain and the cosmology (all simple)
   - char: 人
     chapter: 0
     keyword: person
@@ -49,8 +49,20 @@ signs:
       everything. Shuowen reads it as the anthropomorphic chain
       人→大→天; oracle forms show a box-headed figure. The course's
       thesis in three characters.
-  - char: 一
+  - char: 土
     chapter: 0
+    keyword: earth
+    pinyin: tǔ
+    meaning: earth, soil; the ground
+    category: pictograph
+    certainty: stated
+    note: >-
+      rank 360; a mound of earth on the ground-line — by the
+      received account an earthen altar. Pulled forward to complete
+      the ch00 cosmology: heaven above, earth below, and the king
+      joining them.
+  - char: 一
+    chapter: 1
     keyword: one
     pinyin: yī
     meaning: one; whole, unified
@@ -60,7 +72,7 @@ signs:
       rank 11; one stroke for one — the purest "point at it"
       character, and the single most-written stroke of the script.
   - char: 二
-    chapter: 0
+    chapter: 1
     keyword: two
     pinyin: èr
     meaning: two
@@ -68,7 +80,7 @@ signs:
     certainty: classic
     note: rank 19; two strokes, the upper slightly shorter.
   - char: 三
-    chapter: 0
+    chapter: 1
     keyword: three
     pinyin: sān
     meaning: three; several
@@ -76,11 +88,11 @@ signs:
     certainty: classic
     note: >-
       rank 20; three strokes, middle shortest — and the end of the
-      pattern: four breaks it, told honestly in ch02.
+      pattern: four breaks it, told honestly in its chapter.
 
-  # ch01 — the world in pictures (all simple)
+  # ch01/ch02 — marks and pictures (all simple; batch = chapter field)
   - char: 日
-    chapter: 1
+    chapter: 2
     keyword: sun
     pinyin: rì
     meaning: the sun; a day
@@ -90,7 +102,7 @@ signs:
       rank 38; the sun-disc squared by the brush, the dot of light
       kept as the middle stroke.
   - char: 月
-    chapter: 1
+    chapter: 2
     keyword: moon
     pinyin: yuè
     meaning: the moon; a month
@@ -100,7 +112,7 @@ signs:
       rank 51; the crescent that never fills — the moon is drawn
       waxing.
   - char: 山
-    chapter: 1
+    chapter: 2
     keyword: mountain
     pinyin: shān
     meaning: mountain, hill
@@ -108,7 +120,7 @@ signs:
     certainty: classic
     note: rank 44; three peaks in a row, the middle one tallest.
   - char: 水
-    chapter: 1
+    chapter: 2
     keyword: water
     pinyin: shuǐ
     meaning: water; a river
@@ -118,7 +130,7 @@ signs:
       rank 63; a stream mid-current — the center line is the flow,
       the side strokes the eddies.
   - char: 木
-    chapter: 1
+    chapter: 2
     keyword: tree
     pinyin: mù
     meaning: tree; wood
@@ -129,7 +141,7 @@ signs:
       its rank as the component base of ch04's whole family
       (本, 末, 未, 沐).
   - char: 口
-    chapter: 1
+    chapter: 2
     keyword: mouth
     pinyin: kǒu
     meaning: mouth; an opening
@@ -140,9 +152,9 @@ signs:
       as the busiest meaning-component in the whole script (品 and
       味 build on it in this course alone).
 
-  # ch02 — pointing characters and the speakers (all simple)
+  # more simple rows (batch = chapter field)
   - char: 中
-    chapter: 2
+    chapter: 1
     keyword: middle
     pinyin: zhōng
     meaning: middle, center; within
@@ -152,7 +164,7 @@ signs:
       rank 22; a stroke planted through the very center — the old
       forms show a pole or banner planted mid-camp.
   - char: 上
-    chapter: 2
+    chapter: 1
     keyword: above
     pinyin: shàng
     meaning: above, upper; to ascend
@@ -162,7 +174,7 @@ signs:
       rank 26; a mark set above the baseline — the pointing pair
       with 下, one gesture flipped.
   - char: 下
-    chapter: 2
+    chapter: 1
     keyword: below
     pinyin: xià
     meaning: below, under; to descend
@@ -170,7 +182,7 @@ signs:
     certainty: classic
     note: rank 27; the same mark set under the line.
   - char: 子
-    chapter: 2
+    chapter: 3
     keyword: child
     pinyin: zǐ
     meaning: child, son; the Master; a title of respect
@@ -180,7 +192,7 @@ signs:
       rank 13; an infant — big head, spread arms, legs still
       swaddled into one line. Half of the 子曰 formula.
   - char: 曰
-    chapter: 2
+    chapter: 3
     keyword: say
     slug: yue-say
     pinyin: yuē
@@ -192,7 +204,7 @@ signs:
       received account. Nearly five million attestations, virtually
       all opening speech.
   - char: 王
-    chapter: 2
+    chapter: 0
     keyword: king
     pinyin: wáng
     meaning: king
@@ -204,7 +216,7 @@ signs:
       what connects them. Early forms suggest an axe blade of
       authority instead; the chapter says so honestly.
 
-  # ch03 — characters built from characters (compounds of taught parts)
+  # compounds of taught parts
   - char: 明
     chapter: 3
     keyword: bright
@@ -252,7 +264,7 @@ signs:
       holds between two people. Same sound as 人, and the classics
       lean on the pun.
   - char: 品
-    chapter: 3
+    chapter: 4
     keyword: kinds
     pinyin: pǐn
     meaning: kinds, grades; things in their sorts
