@@ -66,6 +66,21 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
       map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
                           tip: Edubba::SignLinker.tip_text(s) }
     end
+    # School #3 (sinographs): characters link to their teaching
+    # chapter in S101; the bubble is keyword · pinyin · meaning
+    # (rulebook §3/§6 — the keyword is the handle, the pinyin the
+    # voice).
+    sino_urls = site.pages.each_with_object({}) do |p, h|
+      h[p.data["chapter"]] = p.url if p.data["course"] == "sinographs-101" && p.data["chapter"]
+    end
+    Array(site.data.dig("sinographs101_queue", "signs")).each do |s|
+      ch = s["chapter"] or next
+      url = sino_urls[ch] or next
+      map[s["char"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                         tip: Edubba::SignLinker.tip_join(
+                           [s["keyword"], s["pinyin"], s["meaning"]]
+                         ) }
+    end
     # Codex pages (rulebook §7/§9): sign-table cells link the glyph
     # to its Addenda sign page — wired per school as each shelf
     # ships, keyed on the page actually existing in the build. The
@@ -89,6 +104,11 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
       slug = Edubba::Rulebook.sign_slug(s["name"])
       url = "/cuneiform/addenda-akk/signs/#{slug}/"
       entry[:codex_akk] = url if page_urls[url]
+    end
+    Array(site.data.dig("sinographs101_queue", "signs")).each do |s|
+      entry = map[s["char"]] or next
+      url = "/sinographs/addenda/signs/#{s['name']}/"
+      entry[:codex] = url if page_urls[url]
     end
     map
   end

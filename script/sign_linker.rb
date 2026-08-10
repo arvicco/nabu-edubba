@@ -21,8 +21,9 @@
 
 module Edubba
   module SignLinker
-    # All tracked script ranges (cuneiform + Egyptian hieroglyphs).
-    GLYPH = /[\u{12000}-\u{1254F}\u{13000}-\u{1342F}]/
+    # All tracked script ranges (cuneiform, Egyptian hieroglyphs, and
+    # the Han blocks of the sinograph school).
+    GLYPH = /[\u{12000}-\u{1254F}\u{13000}-\u{1342F}\u{3400}-\u{4DBF}\u{4E00}-\u{9FFF}\u{F900}-\u{FAFF}\u{20000}-\u{2EBEF}\u{2F800}-\u{2FA1F}\u{30000}-\u{323AF}]/
     TOKEN = /<[^>]*>|[^<]+/m
 
     module_function

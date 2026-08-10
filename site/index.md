@@ -2,7 +2,7 @@
 title: null
 description: >-
   Edubba — a free, self-paced school of writing systems: courses in
-  cuneiform, hieroglyphs, hanzi, and the world's other scripting
+  cuneiform, hieroglyphs, sinographs, and the world's other scripting
   traditions, from first signs to reading real texts.
 ---
 
@@ -32,10 +32,10 @@ at any pace, forever.
     <strong>Egyptian hieroglyphs</strong>
     <span class="school-note">The writing of the Nile, from sacred carvings to Coptic — planned next</span>
   </a>
-  <a class="school-card accent-hanzi" href="{{ '/hanzi/' | relative_url }}">
-    <span class="school-glyph" aria-hidden="true">字</span>
-    <strong>Hanzi &amp; Kanji</strong>
-    <span class="school-note">The living logographic tradition of China and Japan — planned</span>
+  <a class="school-card accent-sinographs" href="{{ '/sinographs/' | relative_url }}">
+    <span class="school-glyph script" aria-hidden="true">字</span>
+    <strong>Sinographs</strong>
+    <span class="school-note">The characters of China, Japan, Korea, and Vietnam, taught classical-first — 101 open</span>
   </a>
 </div>
 

@@ -84,4 +84,57 @@ class StyleGuardTest < Minitest::Test
                  "bubble still inflates a scroll container's scrollable width")
     refute_match(/visibility:\s*hidden/, body)
   end
+
+  # Size law (sinographs rulebook §6, owner ruling 2026-08-10):
+  # sinograph characters display bigger than cuneiform/Egyptian
+  # script everywhere. The stylesheet's default inline rule must
+  # scale Han runs up relative to their context; explicit sinograph
+  # script contexts (readings, drills, exhibits) register here with
+  # their cuneiform counterpart as they arrive, and must exceed it.
+  SINO_CONTEXTS = {
+    # sinograph selector => [its font-size floor in em/rem, note]
+    ".school-sinographs .sign-cell" => [2.0, "cuneiform .sign-cell is 2rem"],
+    ".school-sinographs .reading--script .script" =>
+      [1.4, "cuneiform reading script is 1.4rem"],
+    ".school-sinographs .sign-hero" => [6.5, "site .sign-hero is 6.5rem"],
+    ".school-sinographs .sign-strip" => [2.6, "site .sign-strip is 2.6rem"]
+  }.freeze
+
+  SINO_INLINE = "body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.script)"
+
+  # bodies_for splits selector lists on commas; a selector that
+  # itself contains commas (:where(p, li, …)) needs whole-string
+  # matching instead.
+  def body_for_exact(selector)
+    want = selector.gsub(/\s+/, " ")
+    rules.select { |sel, _| sel.gsub(/\s+/, " ") == want }
+         .map(&:last).join(";")
+  end
+
+  def test_sinograph_inline_script_scales_up
+    body = body_for_exact(SINO_INLINE)
+    scale = body[/font-size:\s*([\d.]+)em/, 1]
+    refute_nil scale,
+               "the size law needs a prose-scoped default rule scaling " \
+               "inline Han runs (#{SINO_INLINE}, em units)"
+    assert_operator scale.to_f, :>, 1.0,
+                    "sinograph inline script must display BIGGER than its context " \
+                    "(size law, rulebook §6) — got #{scale}em"
+  end
+
+  def test_registered_sinograph_contexts_exceed_their_floors
+    SINO_CONTEXTS.each do |sel, (floor, note)|
+      size = bodies_for(sel)[/font-size:\s*([\d.]+)(?:em|rem)/, 1]
+      refute_nil size, "#{sel} registered in SINO_CONTEXTS but sets no font-size"
+      assert_operator size.to_f, :>, floor,
+                      "#{sel} must exceed #{floor} (#{note}) — size law, rulebook §6"
+    end
+  end
+
+  def test_sinograph_readings_always_stack
+    body = bodies_for(".school-sinographs .reading--script .reading-lines")
+    assert_match(/display:\s*block/, body,
+                 "sinograph reading figures must stack unconditionally (rulebook §6 — " \
+                 "size-law characters leave three columns no honest gloss room)")
+  end
 end

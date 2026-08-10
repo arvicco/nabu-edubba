@@ -12,6 +12,10 @@ layout: default
   {% assign r1 = "" | split: "," %}
   {% assign r2 = site.data.cuneiform103_queue.signs %}
   {% assign queue_course = "cuneiform-103" %}
+{% elsif page.school == "sinographs" %}
+  {% assign r1 = "" | split: "," %}
+  {% assign r2 = site.data.sinographs101_queue.signs %}
+  {% assign queue_course = "sinographs-101" %}
 {% elsif page.school == "hieroglyphs" %}
   {% assign r1 = site.data.hiero_teaching.signs %}
   {% assign r2 = site.data.hieroglyphs102_queue.signs %}

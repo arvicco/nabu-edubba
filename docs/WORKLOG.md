@@ -5,6 +5,348 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-6 · phase-15 · The throttle cooled; the delayed
+paced retry (10-minute wait, 45-second gaps) brought all ten
+remaining recordings home. Transcoded and wired: the trap-row
+grid grew to four rows (bā/pà the puff pair, the smiling three,
+the full retroflex four, zì/cí the hisses — with the buzzing-i
+note) and the finals gained the missing-sounds table (nǚ/lǜ the
+whistle vowel, é the bare e). CREDITS.txt complete: 20 files,
+four authors, CC BY 2.0 FR / BY 2.0 / BY 3.0 / BY-SA 3.0 US.
+
+2026-08-10 · Pinyin primer (owner request) · phase-15 · The
+Addenda gains "Pinyin — how to read the voice": tone contours on
+the five-level staff (SVG), the ma tone table, initials and
+finals with IPA where English blurs (the b/d/g no-buzz trap, the
+j/q/x smiling row, retroflexes, the three faces of i, ü and its
+dropped dots), tone sandhi, and the honesty paragraph linking the
+course orientation. AUDIO, no JS: browser-native <audio> elements
+over VENDORED mp3s — a scout agent license-verified Commons
+recordings (Shtooka/Yue Tan/Xudong Yang/Isotalo, CC BY + BY-SA,
+NC excluded), and each tone file was verified by MEASURED PITCH
+(pure-python autocorrelation over ffmpeg PCM): the scout's flag on
+Zh-ma.ogg proved right — it DECLINES 128→104 Hz, no tone 1 — so
+tone 1 is cut from mā·ma's first syllable (level 180 Hz plateau,
+verified), whose full word also serves the neutral row. Rulebook
+§2 audio law (vendored, license-verified, pitch-verified,
+CREDITS.txt, no tone digits in filenames); audio CSS sizing;
+aspiration/retroflex glossary terms. Catches: sign-table--tail-fit
+rejected prose-length columns (10 tail-fit-width violations →
+plain wrapping tables); the pinyin-display lint flagged "mp3"
+inside src attributes — the law governs displayed text, so the
+check now strips markup first; Wikimedia rate-limited the box
+mid-fetch — ten initials/finals files deferred to M15-6 with
+verified URLs recorded.
+
+2026-08-10 · review round (Gate 15: the box-share law) · phase-15 ·
+Owner rulings, generalized from the 品/沐 report: a reading line
+shows AT MOST 50% boxes, the ceiling tightening as the course
+progresses; every example ties its sign to OTHER taught characters
+(the more the better, balanced against fame). Law in the rulebook
+(§5, cap = max(25%, 50 − 5·⌊ch/5⌋)) + box-share lint in the gate
+(counts ▢ vs Han per script line, cap from the chapter's front
+matter) + unit tests. Then ALL five chapters swept: famous lines
+TRIMMED to their readable clause with the gloss carrying the rest
+(cascade 54→44%, 樂土 refrain 75→50%, 6.23 landscape 75→50% with
+the ch03 return re-cut to 仁▢▢山 at 50%, 7.22 to 子曰：「三人▢」
+at 20%, 王正月 67→33%, 旦旦 75→50%, 東方未明 75→50%, river maxim
+62→50%); box-heavy lines REPLACED with taught-company witnesses
+(人: 大人虎變, Yi Ge — 50%; 一人: the One Man oath, Analects 20.1
+— 50%; 明: the Daxue's 明明德 doubled — 50%; 品: the Tribute of
+Yu's 金三品 — 33%; 沐: the Rites' 三日具沐 — 25%); the 87%-box
+Laozi-64 seed/harvest arc retired (本末 pair covers 末); 中 and
+月 demonstrated in prose words (上中下 the grading scale, 日月
+time itself). Every displayed line now reads mostly in taught
+characters.
+
+2026-08-10 · review round (Gate 15: 本/未 examples) · phase-15 ·
+Owner: 本 and 未 need examples tied to known characters, not boxes.
+Replaced the Analects 1.2 figure (2/9 and 1/4 taught) with the
+Daxue's opening premise 物有本末 (KR1h0059 — today's pair carrying
+the whole four-character thought) and the Shijing's 東方未明，
+顛倒衣裳 (KR1c0001:008:26a, the Mao Shi itself — 未明
+"not-yet-bright" leans the new character on ch03's 明, and the
+courtier dressing upside-down in the dark makes it stick).
+
+2026-08-10 · M15-5 · phase-15 · Owner: why don't the chapter
+tables' characters link to the codex? Because only ren/da/tian
+had pages — the sign-linker routes a cell to the codex only when
+the page really exists (no dead links). Answer: the backfill,
+now. Twenty-six pages written (every taught character), each with
+origin (certainty carried from the pool), an invented-and-said-so
+hook, and its attested line reused from the chapters' verified
+witnesses — codex pages show the lines whole, unboxed (reference,
+not graded reading). pages: true flipped on the CODEX entry: the
+complete-shelf check is now live, so a taught character without a
+page fails the gate from here on. Subset grew to 130 codepoints
+(the unboxed witness lines carry their full character load).
+Every sign-table cell site-wide now routes to its codex page.
+
+2026-08-10 · review round (Gate 15: 木/口 examples) · phase-15 ·
+Owner: the tree and mouth examples were nearly all boxes — better
+short lines reinforcing taught characters. Replaced: 木 now leads
+with the Changes' Image of the Well — 木上有水，井 (KR1a0001:048,
+the punctuated Zhouyi): four characters, three taught (木上水),
+one poignant box for the well itself; the Laozi-64 seed line stays
+beneath it (the ch04 arc). 口 gets the golden statue and the
+river from the Tang anthology Bai-Kong liutie (KR3k0008:030,
+preserving the Kongzi jiayu story): 三緘其口 (三 counts the seals
+on 口) and 防人之口若防大川 (人口大 all working). The weak 自求口實
+line retired.
+
+2026-08-10 · review round (Gate 15: ch00 cosmology + number batch)
+· phase-15 · Owner: ch00 misses the chance to teach 土 and 王 (the
+traditional heaven-earth connector) — the first reading would then
+carry far fewer unknowns; and 一二三 form a batch of their own,
+taught in one breath. Rebatched: ch00 人大天土王 (the chain plus
+the three levels — Laozi 25's four-greats now reads with 王
+unboxed, and 土 sings the Shijing's 樂土 refrain, KR1c0001); ch01
+一二三中上下 (the one-breath numbers with the pointing marks,
+where the stroke lesson lives — Laozi 42 cascade + Laozi 5 守中
+new-verified); ch02 pictures 日月山水木口 unchanged in content;
+ch03 子曰明旦休仁 (the master's hinge + the first compounds);
+ch04 gains 品. 29 characters, 8.0%, every law green (5–6 dial,
+components-first, slug order). The 樂土 draft shipped 樂 unboxed —
+own lint-eye caught it before the gate did (the untaught-sign rule
+would have).
+
+2026-08-10 · review round (Gate 15: pace + components) · phase-15 ·
+Owner: chapters too light — 5–6 characters each, not 1–3; and
+ch01's 時=日+寺 exhibit ran ahead of the taught set — teach ~12
+simple characters first, then compounding from THOSE only. Both
+became law (rulebook §5): the chapter dial (5–6 fresh; site-wide
+1–3 is the floor) and components-before-compounds (a compound
+never appears — table, reading, or exhibit — before every part is
+taught; pool rows carry parts:, compiler + contract test enforce
+the ordering, the 5–6 range replaced 1–3 in both). S101 rebuilt on
+the law: 28 characters across five chapters, the four moves now
+the SPINE (ch01 draw / ch02 point / ch03 combine / ch04 borrow
+sound) — ch00 人大天一二三; ch01 pictures 日月山水木口; ch02
+strokes + 中上下子曰王 (子曰 whole in Analects 7.22, Chunqiu
+opener); ch03 compounds of owned parts 明旦休仁品 (仁-return on
+6.23 — same URN, one box fewer; Shijing 信誓旦旦, Yi 休否/品物流形);
+ch04 marks-and-sound-carriers 本末未沐味 (Analects 1.2 本/未,
+Laozi-64 tree rereads with 末 lit, Mencius 沐浴, Laozi 味無味 —
+the 時 exhibit replaced by 沐/味, both halves taught, teaching 氵
+as the one shape-change). Slug law amended (first entrant keeps
+bare slug: 人 ren / 仁 ren-humane); new readings verified against
+eleven Kanripo witnesses before writing; 7.9% cumulative coverage.
+Also this round (owner reports): sinograph chars joined the
+sign-linker (tooltips + codex routing site-wide), sinograph
+readings stack unconditionally (the 3-col grid clipped glosses
+even under a calibrated budget — width lint stands down for the
+school, style guard pins the stacking), school page + landing card
+stopped saying "planned".
+
+2026-08-10 · M15-4 codex start · phase-15 · The Character Codex
+opens (rulebook §8 written first): shelf sinographs/addenda +
+signs index (queue-driven table) + the ch00 trio's pages
+(ren/da/tian — origin with certainty labels, invented-and-said-so
+memory hooks, real attested lines from the Laozi/Xici witnesses
+already cited by the course). Slug law: toneless pinyin; colliding
+readings take explicit pinyin-keyword slugs (月/曰 → yue-moon/
+yue-say — tone digits never, even in URLs); the compiler enforces
+uniqueness and the queue now carries name + glyph (contract
+extended). rulebook.rb CODEX gains the sinographs entry staged
+(keywords on, complete-shelf check off until backfill — the law's
+own staging). sign.html gains the sinographs branch. SIZE-LAW BUG
+found by the hero pixel: the :where(.script) inline default
+(0,1,1) beat every single-class context — .sign-hero's 6.5rem AND
+the SVG font-size attributes (why ch00's chain figure rendered
+small). Redesigned: the default scopes to prose CHILDREN
+(p/li/td/th/dd/dt/figcaption > .script); self-carrying .script
+elements keep explicit sizes; sinograph sign-hero (7.5rem) and
+sign-strip (3.2rem) added and registered in SINO_CONTEXTS (guard
+grew a whole-selector matcher — bodies_for comma-splits and my
+selector contains commas). M15-4 closes: ch00–04 + codex started;
+the 12-page backfill is M15-5.
+
+2026-08-10 · M15-4 ch03 + ch04 · phase-15 · 03 · Mountains and
+water — 山/水/中 (landscape pictographs + the planted-banner
+indicative, certainty stated), 山水/山中 as first whole phrases,
+Analects 6.23 read inside its quotation marks (the 子曰 opener
+honestly deferred: "two chapters away"), 日中則昃 from the same
+Zhouyi jijie edition ch01 used; the parallelism-teaches-grammar
+point made explicit. 04 · The master says — 子/曰/王: the 子曰
+hinge, the 日/曰 look-alike warning (wider-than-tall, inner
+stroke stops short), 王 with BOTH stories told and the honest
+verdict (certainty unclear: axe blade vs heaven-earth-humankind,
+footnoted to Qiu/Shuowen); the ARC move — Analects 7.22 returns
+from ch02 with 子曰 unboxed (same URN, fewer boxes: the school's
+progress made visible); the Chunqiu opener 元年春王正月
+(KR1e0113) with 王/月 anchored; 天王 read as a taught pair.
+Fifteen characters, 6.5% cumulative coverage, closing count in
+the chapter itself. Gate catches this round: three unlinked
+chapter mentions (chapter-link lint) and the returned 7.22 line
+at 18.3em correctly forced to stack by the calibrated budget.
+Codex shelf remains open within M15-4 — next commit.
+
+2026-08-10 · M15-4 ch02 · phase-15 · 02 · One stroke, two strokes,
+three — 一/二/三 as the purest indicatives ("point at it"), the
+stroke inventory and the three ordering rules, stroke order argued
+as information (running hands, dictionary filing), 四 shown as the
+pattern-breaker that tells the system's story in miniature.
+Figure: numbered stroke-order build of ch00's 大. Readings: Laozi
+42's counting cascade (KR5c0057:042, stacked — the repeated boxed
+生 planted for later) and Analects 7.22 三人行 (KR1h0004:007:26a,
+the real punctuated Analects). Gate catch: "chapter 00" mentioned
+in a figcaption without its link (chapter-link lint) — linked.
+Coverage after three batches: 4.1% of the classical corpus on
+nine characters.
+
+2026-08-10 · M15-4 ch01 · phase-15 · 01 · How a character can mean
+— 日/月/明 taught (sun, moon, bright: the compound demo the chapter
+IS), the four moves (draw / point / combine / borrow-a-sound) with
+the picture-book myth put down honestly, 時=日+寺 as the shown
+phono-semantic preview (shows: 時寺), nine-in-ten figure footnoted
+to Qiu. Readings: the Xici parallel pair 法象莫大乎天地 /
+縣象著明莫大乎日月 (KR1a0019, Wuyuan Zhouyi jie) and the sun-goes-
+moon-comes pair (KR1a0008, Zhouyi jijie — witness writes the
+second 往 as 徃; both untaught, both boxed, variant honestly
+invisible). Gate catches this round: 山 name-dropped in prose
+before its chapter (untaught-sign — reworded); and the pixel pass
+caught a STILL-clipped gloss on a line the width lint had passed
+at 14.25em — the cuneiform-derived 14.5 budget overestimates what
+the serif face + fullwidth punctuation leave for columns. Lint
+calibrated: SINO_EM_BUDGET = 13.0 for sinograph figures (the
+pixel-measured safe ceiling); the pair-line now correctly demands
+and declares reading--stacked.
+
+2026-08-10 · M15-4 ch00 · phase-15 · S101 opens: 00 · Orientation
+— the thesis trio 人→大→天 taught in the school's first sign table
+(columns Character · Keyword · Says · Means · How to see it), the
+one-picture-growing SVG chain, and a REAL first reading: Laozi 25
+(urn KR5c0057:025:1a, attribution), the four-greats line plus 人法地
+opener, untaught characters boxed — three characters in and the
+learner reads five of the fourteen glyphs of a twenty-four-century-
+old sentence. Course index page; kanripo→sinitic AXES entry (URN
+links to the Sinologist's desk). Text-critical catch: the received
+Kanripo/CBETA witnesses of Laozi 25 read 王亦大, not the 人亦大
+variant floating in popular quotation — cited text follows the
+witness. Pixel review caught TWO defects the gate had missed:
+kramdown footnotes do not render inside raw-HTML figcaptions
+([^chain] printed literally — marker moved to Markdown prose), and
+the reading gloss column CLIPPED at the measure — the width lint
+was blind to Han (metrics fell to the 0.75em default, no size-law
+scale). Hole closed mechanically: script_width_em now measures Han
+with the vendored Serif TC metrics × the 1.9/1.4 size-law scale
+(school picked by path), fullwidth punctuation at 1em; the Laozi
+figure measures 17.3em > 14.5 budget and correctly demands
+reading--stacked, which it now declares. Sign-table and reading
+script contexts registered in SINO_CONTEXTS (2.6rem/1.9rem, floors
+2rem/1.4rem).
+
+2026-08-10 · M15-4 instruments · phase-15 · The S101 curriculum
+rail, before any prose (rulebook §7 kept honest): pool-s101.yml
+(hand-edited source) → bin/sino_curriculum.rb →
+sinographs101_queue.yml (generated, contract-tested — required
+fields, char/codepoint match, keyword unique school-wide, pinyin
+digit-free, 1–3 fresh per chapter, monotonic coverage). The
+compiler cross-checks every pinned pinyin against Unihan
+kMandarin (typo trap) and refuses tone numbers. Gate additions:
+pinyin-display lint (tone-numbered tokens in sinograph pages;
+span class "pinyin ascii" is the verbatim carve-out — the
+subscript-index law's shape, adopted BEFORE the first chapter
+this time); readings-strict-from-birth (course_check
+shows-in-reading law now covers sinographs; hieroglyphs still
+awaits D13-a). First pins: the ch00 thesis trio 人→大→天
+(pictograph → built-from-parts; the IDS column shows the chain
+literally: 大=⿻一人, 天=⿱一大) — 1.7% of the whole classical
+corpus in three characters. Catch: the queue's IDS strings pulled
+一 into site/_data before any chapter taught it — the
+font-coverage gate flagged all four codepoints until rake fonts;
+the pipeline's laws compose exactly as designed.
+
+2026-08-10 · M15-4 infrastructure (font + size law) · phase-15 ·
+Owner rulings recorded (D15-a: traditional base as recommended;
+NEW size law: sinograph characters display bigger than
+cuneiform/Egyptian everywhere — strokes genuinely hard to make
+out at the other scripts' sizes). Infrastructure: Noto Serif TC
+vendored (OFL, same license file as the other faces; 23MB source,
+4.6KB subset today) through the existing subset pipeline —
+ScriptScan gained multi-range scripts (Han spans six blocks; the
+one-Range assumption was cuneiform-shaped) with the sinographs
+entry, manifest, and gate coverage exactly like the other two
+scripts. Size law implemented as a low-specificity default
+(body.school-sinographs :where(.script) { font-size: 1.35em }) so
+inline Han runs grow in any context while future explicit contexts
+(readings, drills, exhibits) must each set their own
+law-satisfying size — style guard pins the default > 1em and
+carries a SINO_CONTEXTS registry that each new context must join
+with its cuneiform counterpart floor. Catch: the school page's
+漢字 sat in bare prose — a unicode-range font-face only activates
+when the surrounding font-family stack names the face, so bare
+Han text got Georgia's system fallback and no size rule; law
+recorded in rulebook §6 (Han runs always sit in a script span)
+and both pages fixed. Pixel review: school page + landing card
+render the serif face at law size.
+
+2026-08-09 · M15-3 · phase-15 · The classical-corpus frequency
+instrument, first of its family for the sinograph school.
+bin/sino_freq.rb (the hiero_freq mold) streams Nabu's kanripo
+jsonl export — 4,571,394 lzh passages, license verified CC BY-SA
+by the same-day scout (.docs/scouts/sino-corpus-licenses.md) —
+and counts every Han character: 721,813,636 tokens, 28,368
+distinct characters, with a doc-spread column (texts containing
+the character, of 5,122) so no single giant text can masquerade
+as the whole tradition. Top 3,000 rows (95.9% of the corpus —
+the frequency argument for the school in one number) annotated
+from Unihan (kTotalStrokes, kMandarin — diacritics native, the
+display law's friend) and BabelStone IDS (component structure
+for the simplicity axis). Head of the table is the canonical
+wenyan profile: 之不以也而其人為有者. Catches: BabelStone
+IDS.TXT is BOM + CRLF with ^IDS$(sources) markers — the first
+parser draft ate the whole sequence via the leading caret;
+17 of the top 3,000 are edition-variant glyphs (𤣥/䝉/𫝊 …)
+with no kMandarin — honest woodblock fidelity, variant folding
+deferred to queue time (Unihan_Variants.txt is synced next
+door). Table at assets-src/data/char-freq-kanripo.tsv with
+provenance + license header; unit tests for the parsing units.
+Also this batch: both delegated scout reports filed
+(.docs/scouts/) — corpus licenses (Kanripo primary, Wikisource
+second, ctext/CBETA avoided) and old-form glyphs (seal =
+vendorable Quanziku Shuowen TTF under OGDL-Taiwan-1.0; oracle
+bone/bronze = committed CC0/PD imagery from 小學堂 and the
+Commons ACC project; Unicode 18's seal block lands Sept 2026,
+the migration path, not the present) — D15-b closes at scout
+level; S103 is feasible.
+
+2026-08-09 · M15-1 + M15-2 · phase-15 · Wave 3 opens. Owner rulings
+recorded (concept §7, dated block): the third school is named
+sinographs, teaches the historic tradition classical-first (wenyan,
+script history, old Japanese later — never re-teaching modern
+Chinese/Japanese), readings voiced in Mandarin pinyin with tone
+diacritics never tone numbers (the subscript-index law's shape,
+adopted BEFORE content this time), every character carries a unique
+keyword (Heisig's where his keyword is the plain classical sense,
+historic sense where better justified — assigned from Kroll-class
+dictionary senses, never copied as a list: pedagogy and CC BY-SA
+cleanliness agree), Shuowen public-domain imagery as the old-form
+glyph fallback. docs/courses/sinographs.md written before any
+content per the rulebook-first law. Site rename: /sinographs/
+school page with the ruled catalog; the live /hanzi/ URL kept as a
+layoutless redirect stub (meta refresh + visible link + noindex) —
+first Jekyll attempt got double-wrapped by the default layout
+(nested html documents in the built page); `layout: none` is the
+fix, verified in _build. D15-a (traditional forms base) left
+pending — blocks first content, not the scaffold.
+
+2026-08-09 · INCIDENT · Gate 14 merged short — twelve commits
+missed the PR. PR #18 was merged while origin/phase-14 still sat
+at fe7b87b; the entire second review round (18cbc51..b811b62:
+one-grid figures, the green voice-marking law, tooltip escape,
+value-coverage gate + reading-width law, D14-b debt, veterans
+purge, rebus names, ch19 Reference) was committed locally but
+never pushed — the live site lacked every review fix while the
+worklog called them shipped. Root cause: the loop pushed early
+in the review rounds, then kept committing without pushing, and
+the owner merged on the (correct at its moment) "ready" signal.
+Durable fix: PR #19 opened with the remainder (gate re-verified
+green at b811b62 first); lesson — a "ready to merge" handoff, and
+every review-round turn end, includes `git push` + an
+origin-matches-local check (`git status -sb` shows no "ahead");
+never report a round shipped until origin has it.
+
 2026-08-09 · review round (Gate 14, course-close review: the
 Reference unstuffed) · phase-14 · Owner: why are "Every sign
 taught" and the grammar summary stuffed into the close chapter

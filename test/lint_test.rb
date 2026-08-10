@@ -142,6 +142,45 @@ class LintTest < Minitest::Test
     end
   end
 
+  def test_scanner_handles_multi_range_scripts
+    with_site("index.md" => CUNEIFORM_PAGE + "\n學𦥯\n") do |dir|
+      han = Edubba::ScriptScan::SCRIPTS["sinographs"][:range]
+      assert_equal Set[0x5B78, 0x2696F],
+                   Edubba::ScriptScan.used_codepoints(dir, han),
+                   "URO and Ext-B codepoints both counted, cuneiform excluded"
+    end
+    assert Edubba::ScriptScan.tracked?(0x5B78)
+    refute Edubba::ScriptScan.tracked?(0x0041)
+  end
+
+  def test_box_share_caps_untaught_boxes_progressively
+    fig = ->(script) { "---\nchapter: 0\n---\n<figure class=\"reading reading--script\"><div><span class=\"script\">#{script}</span></div></figure>" }
+    sino = "site/sinographs/101/00-x.md"
+    v = Edubba::Lint.check_box_share(sino, fig.call("人▢▢，▢▢天。"))
+    assert_equal ["box-share"], v.map(&:rule), "67% boxes breaks the ch0 50% cap"
+    assert_empty Edubba::Lint.check_box_share(sino, fig.call("▢▢大，天大，▢大。")),
+                 "43% boxes passes at ch0"
+    ch5 = fig.call("▢水，▢山。").sub("chapter: 0", "chapter: 5")
+    assert_equal ["box-share"], Edubba::Lint.check_box_share(sino, ch5).map(&:rule),
+                 "50% breaks the tightened 45% cap of the second stretch"
+    assert_empty Edubba::Lint.check_box_share("site/cuneiform/103/x.md", fig.call("▢▢▢▢天。")),
+                 "sinograph law only"
+  end
+
+  def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
+    sino = "site/sinographs/101/00-x.md"
+    v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")
+    assert_equal ["pinyin-display"], v.map(&:rule)
+    assert_match(/xue2/, v.first.detail)
+
+    ok = 'the ASCII convention writes <span class="pinyin ascii">xue2</span>'
+    assert_empty Edubba::Lint.check_pinyin_display(sino, ok)
+    assert_empty Edubba::Lint.check_pinyin_display(sino, "phase-15 v2 M15-4 ch02"),
+                 "version-y tokens are not pinyin"
+    assert_empty Edubba::Lint.check_pinyin_display("site/cuneiform/103/05-x.md", "raw ATF du3"),
+                 "the rule is sinograph law only"
+  end
+
   def test_nav_label_must_be_drawn_from_title
     bad = "---\ntitle: \"06 · If a man…\"\nshort_title: \"06 · šumma\"\nchapter: 6\n---\nbody"
     v = Edubba::Lint.check_nav_label("x.md", bad)
@@ -350,6 +389,9 @@ class LintTest < Minitest::Test
   end
 
   def test_font_metrics_measure_real_advances
+    han = Edubba::Lint.script_width_em("天大", :sinographs)
+    assert_in_delta 2 * (1.9 / 1.4), han, 0.05,
+                    "Han glyphs measure with sino metrics × the size-law scale"
     em = Edubba::Lint.script_width_em("𒋳𒈠")
     assert_operator em, :>, 1.5, "two real glyphs are wider than 1.5em"
     assert_operator em, :<, 6, "and narrower than 6em — sane advance range"

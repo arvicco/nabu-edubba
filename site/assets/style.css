@@ -21,6 +21,16 @@
   unicode-range: U+13000-1342F;
 }
 
+/* Noto Serif TC — traditional character forms (sinographs rulebook
+   §4), same subset pipeline (sinographs-coverage.txt is the
+   gate-checked manifest). */
+@font-face {
+  font-family: "Noto Serif TC";
+  src: url("fonts/NotoSerifTC-subset.otf") format("opentype");
+  font-display: swap;
+  unicode-range: U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+20000-2EBEF, U+2F800-2FA1F, U+30000-323AF;
+}
+
 :root {
   --bg: #faf8f4;        /* unfired clay, light */
   --ink: #26211c;
@@ -31,7 +41,7 @@
   /* Per-school accents (school layouts set --accent to one of these) */
   --accent-cuneiform: #8a4b2d;   /* terracotta — clay and reed */
   --accent-hieroglyphs: #1f5f8b; /* lapis — faience and Nile */
-  --accent-hanzi: #a83232;       /* cinnabar — seal ink */
+  --accent-sinographs: #a83232;       /* cinnabar — seal ink */
   --logogram: #2f6b33;           /* reed green — logogram voice-marking */
 }
 
@@ -44,7 +54,7 @@
     --rule: #3a342d;
     --accent-cuneiform: #d08a5f;
     --accent-hieroglyphs: #6fa8d0;
-    --accent-hanzi: #d76c6c;
+    --accent-sinographs: #d76c6c;
     --logogram: #8fbb7a;
   }
 }
@@ -52,9 +62,37 @@
 /* Native-script text: the unicode-range font-face applies wherever
    these glyphs occur; this class adds sizing safe for dense signs. */
 .script, .wordmark-glyphs {
-  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", Georgia, serif;
+  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Serif TC", Georgia, serif;
   font-style: normal;
 }
+
+/* Size law (sinographs rulebook §6, ruled 2026-08-10): characters
+   display bigger than cuneiform/Egyptian script everywhere — Han
+   strokes are hard to make out at the other scripts' sizes. Scoped
+   to INLINE script runs (children of prose containers): elements
+   that carry .script themselves (sign-hero, sign-strip, sign-cell,
+   SVG groups) keep their own explicit, law-satisfying sizes. */
+body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.script) { font-size: 1.35em; }
+
+/* Explicit sinograph script contexts — each exceeds its cuneiform
+   counterpart (registered in StyleGuardTest::SINO_CONTEXTS). */
+.school-sinographs .sign-cell { font-size: 2.6rem; }
+.school-sinographs .reading--script .script { font-size: 1.9rem; }
+.school-sinographs .sign-hero { font-size: 7.5rem; }
+.school-sinographs .sign-strip { font-size: 3.2rem; }
+
+/* Vendored audio samples (sinographs rulebook §2): browser-native
+   controls, no JS. Kept compact so a "Hear" column fits a table. */
+audio { width: 11rem; height: 2.1rem; vertical-align: middle; }
+
+/* Sinograph readings ALWAYS stack (rulebook §6): at the size-law
+   scale even short classical clauses leave the three-column grid
+   no honest room for a gloss — the measured 13em budget still
+   clipped in practice (owner report 2026-08-10). Script over
+   voice over gloss, full measure each. */
+.school-sinographs .reading--script .reading-lines { display: block; }
+.school-sinographs .reading--script .reading-line { display: block; padding-block: 0.5rem; }
+.school-sinographs .reading--script .reading-line > span { display: block; }
 
 * { box-sizing: border-box; }
 
@@ -153,7 +191,7 @@ img, svg { max-width: 100%; }
 
 .accent-cuneiform   { --card-accent: var(--accent-cuneiform); }
 .accent-hieroglyphs { --card-accent: var(--accent-hieroglyphs); }
-.accent-hanzi       { --card-accent: var(--accent-hanzi); }
+.accent-sinographs       { --card-accent: var(--accent-sinographs); }
 
 /* --- Landing: family tree (nested lists, readable in any browser) --- */
 
@@ -602,7 +640,7 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 
 /* Course pages carry their school's accent (landing cards already do) */
 body.school-hieroglyphs { --accent: var(--accent-hieroglyphs); }
-body.school-hanzi { --accent: var(--accent-hanzi); }
+body.school-sinographs { --accent: var(--accent-sinographs); }
 
 .translit { font-style: italic; }
 /* Bound transcription (rulebook §9): its own register beside the

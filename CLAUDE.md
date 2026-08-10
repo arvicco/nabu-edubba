@@ -171,17 +171,26 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 14 — pending owner pick (candidates: E102 stretch 2
-toward Sinuhe; C103 stretch 3 — contracts, t-stems, SB
-frontier; Wiktionary enrichment sweep).
+Phase 15 — wave 3 opened: the sinograph school (rulings
+2026-08-09/10: name "sinographs", classical-first thesis,
+pinyin voice with tone diacritics never indices, per-character
+keyword law, traditional-forms base, characters-display-bigger
+size law, Shuowen glyph fallback). Shipped: rulebook, site
+rename (/hanzi/ redirect), Kanripo frequency instrument
+(721.8M tokens), Noto Serif TC via the subset pipeline,
+pinyin-display/reading-width/size-law checks, S101 ch00–04
+(15 characters, 6.5% coverage, 8 real readings), Character
+Codex opened (§8, ren/da/tian). Gate 15 PR pending; M15-5
+codex backfill next.
 
-Gate 13 merged 2026-08-08 (C103 Akkadian stretch 2: plurals,
-the stems on parallel model roots p-r-s/m-ḫ-ṣ, law 2 whole
-with the River ordeal and the ID₂/Id chain, laws 196–197, two
-OB letters, "I am he" (anāku) closing at 75.2% OB coverage;
-21 akk codex pages, akk retrieval mirror + 47-card deck; seven
-review rounds, each landing a rulebook law + mechanical guard:
-§5 demonstration/model-verb/table-budget laws, §9
-bracket-is-the-voice, shows-never-licenses-a-reading,
-title-language + tail-fit-width lints; D13-a open on
-hieroglyphs frames). Update this line at each gate.
+Gate 14 merged 2026-08-09 (C103 Akkadian stretch 3: the course
+closed — perfect + dual, laws 197/200/202, a real Sippar loan
+(PBS 8/2, 195) with the two-languages-one-tablet teaching, the
+king's invitation read whole, ch19 Reference in the full mold,
+79.4% OB coverage; review rounds landed the §9 voice-marking
+green law, value-coverage gate, reading-width law with real
+font metrics, tooltip-escape law, ambient-veterans-never-
+re-enter guard, reads-never-cite lint; D14-b sixteen-value
+debt paid. NOTE: merged in two PRs — #18, then #19 carrying
+twelve review-round commits that missed the first merge).
+Update this line at each gate.

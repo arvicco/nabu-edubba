@@ -35,6 +35,25 @@ class SignLinkerTest < Minitest::Test
     assert_equal html, t(html)
   end
 
+  REN = "人"
+  SINO_MAP = {
+    REN => { url: "/sinographs/101/00-orientation/", anchor: "sign-4EBA",
+             tip: "person · rén · a human being; other people",
+             codex: "/sinographs/addenda/signs/ren/" }
+  }.freeze
+
+  def test_han_glyph_links_with_tip_and_cell_routes_to_codex
+    out = Edubba::SignLinker.transform("<p>the #{REN} walks</p>", SINO_MAP, "/x/", "")
+    assert_includes out,
+                    %(<a class="sign-link" href="/sinographs/101/00-orientation/#sign-4EBA">#{REN}) +
+                    %(<span class="sign-tip" aria-hidden="true">person · rén · a human being; other people</span></a>)
+
+    cell = %(<td class="script sign-cell">#{REN}</td>)
+    out = Edubba::SignLinker.transform(cell, SINO_MAP, "/sinographs/101/02-x/", "")
+    assert_includes out, %(href="/sinographs/addenda/signs/ren/"),
+                    "a sign-cell off the teaching page routes to the codex"
+  end
+
   def test_glyph_in_title_svg_untouched
     html = "<title>#{AN}</title><svg><text>#{AN}</text></svg>"
     assert_equal html, t(html)

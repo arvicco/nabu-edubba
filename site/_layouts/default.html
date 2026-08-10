@@ -12,7 +12,7 @@
 </head>
 {% assign url_school = page.url | split: "/" | slice: 1 | first %}
 {% assign school = page.school | default: url_school %}
-<body{% if school == "cuneiform" or school == "hieroglyphs" or school == "hanzi" %} class="school-{{ school }}"{% endif %}>
+<body{% if school == "cuneiform" or school == "hieroglyphs" or school == "sinographs" %} class="school-{{ school }}"{% endif %}>
   <header class="site-header">
     <a class="wordmark" href="{{ '/' | relative_url }}" title="Edubba — the tablet house">
       <span class="wordmark-glyphs" aria-hidden="true">𒂍𒁾𒁀𒀀</span>
