@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 ch03 + ch04 · phase-15 · 03 · Mountains and
+water — 山/水/中 (landscape pictographs + the planted-banner
+indicative, certainty stated), 山水/山中 as first whole phrases,
+Analects 6.23 read inside its quotation marks (the 子曰 opener
+honestly deferred: "two chapters away"), 日中則昃 from the same
+Zhouyi jijie edition ch01 used; the parallelism-teaches-grammar
+point made explicit. 04 · The master says — 子/曰/王: the 子曰
+hinge, the 日/曰 look-alike warning (wider-than-tall, inner
+stroke stops short), 王 with BOTH stories told and the honest
+verdict (certainty unclear: axe blade vs heaven-earth-humankind,
+footnoted to Qiu/Shuowen); the ARC move — Analects 7.22 returns
+from ch02 with 子曰 unboxed (same URN, fewer boxes: the school's
+progress made visible); the Chunqiu opener 元年春王正月
+(KR1e0113) with 王/月 anchored; 天王 read as a taught pair.
+Fifteen characters, 6.5% cumulative coverage, closing count in
+the chapter itself. Gate catches this round: three unlinked
+chapter mentions (chapter-link lint) and the returned 7.22 line
+at 18.3em correctly forced to stack by the calibrated budget.
+Codex shelf remains open within M15-4 — next commit.
+
 2026-08-10 · M15-4 ch02 · phase-15 · 02 · One stroke, two strokes,
 three — 一/二/三 as the purest indicatives ("point at it"), the
 stroke inventory and the three ordering rules, stroke order argued

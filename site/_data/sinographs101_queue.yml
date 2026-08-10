@@ -141,6 +141,99 @@ signs:
   chapter: 2
   note: 'rank 20; three strokes, middle shortest — and the end of the pattern: four
     breaks it, which is the chapter''s own joke and lesson (shown, not taught).'
+- char: 山
+  codepoint: 5C71
+  keyword: mountain
+  pinyin: shān
+  meaning: mountain, hill
+  category: pictograph
+  certainty: classic
+  strokes: 3
+  ids: "⿶凵丨"
+  rank: 44
+  count_kanripo: 2056654
+  docs: 4787
+  chapter: 3
+  note: rank 44; three peaks in a row, the middle one tallest.
+- char: 水
+  codepoint: 6C34
+  keyword: water
+  pinyin: shuǐ
+  meaning: water; a river
+  category: pictograph
+  certainty: classic
+  strokes: 4
+  ids: "⿰㇇\U000306C5"
+  rank: 63
+  count_kanripo: 1551078
+  docs: 4831
+  chapter: 3
+  note: rank 63; a stream mid-current — the center line is the flow, the side strokes
+    the eddies.
+- char: 中
+  codepoint: 4E2D
+  keyword: middle
+  pinyin: zhōng
+  meaning: middle, center; within
+  category: indicative
+  certainty: stated
+  strokes: 4
+  ids: "⿻口丨"
+  rank: 22
+  count_kanripo: 2931802
+  docs: 5088
+  chapter: 3
+  note: rank 22; a line through the very center of a box — the old forms show a pole
+    or banner planted mid-camp; the received account (a stroke through the middle)
+    is the useful one. Pulled forward to sit with the landscape pair it locates (山中,
+    水中 — "amid the mountains", "in the water").
+- char: 子
+  codepoint: 5B50
+  keyword: child
+  pinyin: zǐ
+  meaning: child, son; the Master; a title of respect
+  category: pictograph
+  certainty: classic
+  strokes: 3
+  ids: "⿻了一"
+  rank: 13
+  count_kanripo: 4187613
+  docs: 5006
+  chapter: 4
+  note: rank 13; an infant — big head, spread arms, legs still swaddled into one line.
+    Half of the 子曰 formula.
+- char: 曰
+  codepoint: 66F0
+  keyword: say
+  pinyin: yuē
+  meaning: to say — the quotation-opener of the classical books
+  category: indicative
+  certainty: stated
+  strokes: 4
+  ids: 曰
+  rank: 12
+  count_kanripo: 4678922
+  docs: 4887
+  chapter: 4
+  note: rank 12; a mouth with a stroke of breath leaving it, by the received account.
+    The other half of 子曰; nearly five million attestations, virtually all of them
+    opening speech.
+- char: 王
+  codepoint: 738B
+  keyword: king
+  pinyin: wáng
+  meaning: king
+  category: indicative
+  certainty: unclear
+  strokes: 4
+  ids: "⿱一土"
+  rank: 29
+  count_kanripo: 2466532
+  docs: 4733
+  chapter: 4
+  note: 'rank 29; the received reading joins the three horizontals — heaven, earth,
+    humankind — with one vertical: the king is what connects them. Early forms suggest
+    an axe blade of authority instead; the chapter says so honestly.'
 batches:
 - chapter: 0
   signs:
@@ -160,3 +253,15 @@ batches:
   - 二
   - 三
   coverage_pct: 4.1
+- chapter: 3
+  signs:
+  - 山
+  - 水
+  - 中
+  coverage_pct: 5.0
+- chapter: 4
+  signs:
+  - 子
+  - 曰
+  - 王
+  coverage_pct: 6.5
