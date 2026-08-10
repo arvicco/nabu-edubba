@@ -5,6 +5,24 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M16-1..3 · phase-16 · Stretch 2 opens under its law
+(rulebook §5 stretch-2 section, ruled before content: the
+borrowed words, five batches, cap 45%, the shrinking-boxes return
+arc). ch05 · The busiest words — 之不也又有十 (ranks 1/2/4/50/
+9/15): the loan move taught honestly (the picture is history, not
+meaning; certainty labels hedge accordingly), the foot→之→"of"
+figure, and the course's first ZERO-BOX reading — 未之有也, the
+Analects 1.2 clause that entered as a wall of boxes in ch04 and
+opens completely one chapter later; 物有本末 at its third visit
+(one box left); numbers composing in prose (二十/三十); X 之 Y
+syntax on taught phrases (天下之大, 山中之人). Six codex pages in
+the same commit (shelf law). Self-catches: 五 is untaught — the
+annals' 十有五年 line would have shipped it unboxed (moved to
+prose mention; 三十而立 verified for the codex instead, witness
+honestly the Ming Sishu liushu — the punctuated Analects lacks
+the exact string); the jiajie footnote nearly shipped untaught
+Han (pinyin only now). Coverage 8.0% → 14.4% in one chapter.
+
 2026-08-10 · M15-6 · phase-15 · The throttle cooled; the delayed
 paced retry (10-minute wait, 45-second gaps) brought all ten
 remaining recordings home. Transcoded and wired: the trap-row

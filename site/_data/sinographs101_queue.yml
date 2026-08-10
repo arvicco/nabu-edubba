@@ -327,6 +327,112 @@ signs:
   note: 'rank 29; the received reading joins the three horizontals — heaven, earth,
     humankind — with one vertical: the king is what connects them. Early forms suggest
     an axe blade of authority instead; the chapter says so honestly.'
+- char: 之
+  glyph: 之
+  name: zhi
+  codepoint: 4E4B
+  keyword: of
+  pinyin: zhī
+  meaning: of; him, her, it — the classical linker and object
+  category: loan
+  certainty: stated
+  strokes: 3
+  ids: "⿱丶{100}"
+  rank: 1
+  count_kanripo: 18351733
+  docs: 5090
+  chapter: 5
+  note: rank 1 — the single most frequent character in the classical corpus. Old forms
+    show a foot over a line (setting out); the word it writes is pure grammar, borrowed
+    sound.
+- char: 不
+  glyph: 不
+  name: bu
+  codepoint: 4E0D
+  keyword: not
+  pinyin: bù
+  meaning: not — the plain negation
+  category: loan
+  certainty: stated
+  strokes: 4
+  ids: "⿸丆⿰丨丶"
+  rank: 2
+  count_kanripo: 8988592
+  docs: 5096
+  chapter: 5
+  note: rank 2; the received account sees a calyx or bird-and-sky drawing, borrowed
+    early and forever for "not."
+- char: 也
+  glyph: 也
+  name: ye
+  codepoint: 4E5F
+  keyword: indeed
+  pinyin: yě
+  meaning: the sentence-final 'it is so' of classical prose
+  category: loan
+  certainty: unclear
+  strokes: 3
+  ids: "⿻乜丨"
+  rank: 4
+  count_kanripo: 7231252
+  docs: 4836
+  chapter: 5
+  note: rank 4; what the picture once was is genuinely disputed — the character's
+    whole classical life is the final beat of a statement.
+- char: 又
+  glyph: 又
+  name: you
+  codepoint: 53C8
+  keyword: again
+  pinyin: yòu
+  meaning: again, further; the old drawing of the right hand
+  category: pictograph
+  certainty: classic
+  strokes: 2
+  ids: 又
+  rank: 50
+  count_kanripo: 1905773
+  docs: 4765
+  chapter: 5
+  note: rank 50; a right hand in profile — two strokes. Seeds 有 in this same chapter,
+    and half the hand-characters to come.
+- char: 有
+  glyph: 有
+  name: you-have
+  codepoint: '6709'
+  keyword: have
+  pinyin: yǒu
+  meaning: to have, there is
+  category: compound-ideograph
+  certainty: stated
+  strokes: 6
+  ids: "⿸\U00020087⺝"
+  rank: 9
+  count_kanripo: 5694658
+  docs: 5097
+  chapter: 5
+  parts:
+  - 又
+  - 月
+  note: rank 9; a hand holding meat by the received account — the meat-flesh component
+    wrote itself like the moon, and the two shapes merged in the standard script.
+- char: 十
+  glyph: 十
+  name: shi
+  codepoint: '5341'
+  keyword: ten
+  pinyin: shí
+  meaning: ten; complete
+  category: indicative
+  certainty: stated
+  strokes: 2
+  ids: "⿻一丨"
+  rank: 15
+  count_kanripo: 3789569
+  docs: 5043
+  chapter: 5
+  note: rank 15; the tally-mark that closed the count — old forms are a single vertical
+    with a thickening, later crossed.
 - char: 明
   glyph: 明
   name: ming
@@ -572,3 +678,12 @@ batches:
   - 沐
   - 味
   coverage_pct: 8.0
+- chapter: 5
+  signs:
+  - 之
+  - 不
+  - 也
+  - 又
+  - 有
+  - 十
+  coverage_pct: 14.4
