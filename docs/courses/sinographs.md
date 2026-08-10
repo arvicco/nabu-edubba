@@ -184,6 +184,43 @@ ch05–09, keywords unique, slug law (first entrant keeps the bare
 slug), every new character's codex page lands IN THE SAME COMMIT
 as its chapter (the complete-shelf check is live).
 
+### S101 stretch 3 (ruled 2026-08-11 at the phase-18 opening, before content)
+
+Chapters 10–14 put **the sentence at work**: the instrumental 以
+(rank 3, the biggest character still untaught), the reflexive,
+the modal pair, place-and-time words, the second number batch,
+the seeing pictographs — and 道 itself. Twenty-six fresh
+characters, five batches, box-share cap tightens to **40%**
+(the declining-cap law's second step):
+
+- **ch10 · The sentence's tools:** 以 自 丁 可 用 (丁 the nail
+  seeds 可; 可以 the modal pair; 以 taught honestly as the
+  grammaticalized loan). Anchors: 2.11 溫故而知新，可以為師矣;
+  1.1's second clause 有朋自遠方來 — the return arc reaches the
+  opening again.
+- **ch11 · Counting continues:** 四 五 六 白 百 (the second
+  number batch in one breath, the ch00 law; 白 seeds 百).
+  Anchors: 2.4's decade ladder; 2.2's 詩三百.
+- **ch12 · The eye and the Way:** 目 見 相 首 道 (eye seeds
+  seeing and mutual regard; the head walks under 辶 — told in
+  prose, parts: [首]). Anchor: Laozi 42's 道生一，一生二，二生三，
+  三生萬物 at two boxes in twelve.
+- **ch13 · Liking and likening:** 女 好 如 云 非 矣 (女 seeds
+  both 好 and 如; 云 the loaned cloud; 非 the spread wings;
+  矣 the perfective final). Anchors: 6.20's double 不如; 3.3's
+  人而不仁，如禮何; 2.24's 非其鬼而祭之.
+- **ch14 · Here and now:** 此 所 於 至 今 (此 through 止 with
+  the standing figure in prose; 所 pairs with ch09's 者; 於 the
+  fuller graph of ch09's 于 — the SAME word, a veteran row
+  moment; 至 the arrow landing — 矢 pays off again). Anchor:
+  Daxue's 自天子以至於庶人 at one box.
+
+Laws in force unchanged, plus this stretch's own: every reading
+verified against its Kanripo witness BEFORE writing (URNs in the
+phase plan), and every fresh syllable voiced through the pipeline
+in the same commit as its chapter — the say-audio lint holds the
+gate to it.
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught
