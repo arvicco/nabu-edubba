@@ -743,7 +743,7 @@ Acceptance: unit tests for the parsing/counting units in the same
       commit; table committed with provenance + license header;
       doc-spread column beside raw counts.
 
-## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: blocked: D15-a] [deps: M15-3]
+## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: ready] [deps: M15-3]
 Goal: orientation + first chapters of Sinographs 101 in the wave-1
       mold (signs from ch00, keyword law live, pinyin display law
       live), codex shelf started.
@@ -752,10 +752,12 @@ Acceptance: gate green incl. pinyin-display lint + keyword-uniqueness
 
 ## Decision items — Phase 15
 
-- D15-a · Character forms (was D-W3c): traditional (kaishu) base as
-  the classical corpus writes them; simplified as later-hand notes,
-  never the teaching base. RECOMMENDED, ruling pending — blocks
-  first content (M15-4).
+- D15-a · Character forms (was D-W3c) — RULED 2026-08-10 as
+  recommended: traditional (kaishu) base as the classical corpus
+  writes them; simplified as later-hand notes, never the teaching
+  base. Same ruling added the SIZE LAW: sinograph characters
+  display bigger than cuneiform/Egyptian script everywhere
+  (rulebook §6, style-guard-pinned).
 - D15-b · Old-form glyph fonts — SCOUTED 2026-08-09
   (.docs/scouts/sino-oldform-glyphs.md): seal is coverable by a
   vendorable font (CNS11643 Quanziku Shuowen seal TTF,

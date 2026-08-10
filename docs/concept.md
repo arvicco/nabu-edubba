@@ -336,6 +336,13 @@ permission profile). Specifics for this repo:
 - **Old-form glyphs** (oracle bone, seal): scout vendorable
   license-verified fonts; public-domain *Shuowen* imagery is the
   fallback if nothing licensable renders.
+- **Character forms** (ruled 2026-08-10): traditional (kaishu)
+  base as the classical corpus writes them; simplified forms as
+  later-hand notes, never the teaching base.
+- **Character size** (ruled 2026-08-10): sinograph characters
+  display bigger than cuneiform/Egyptian script text everywhere —
+  their strokes are genuinely difficult to make out at the sizes
+  the other scripts use.
 
 Details and the machine-checkable subset: docs/courses/sinographs.md.
 

@@ -68,12 +68,10 @@ fallback. Recorded in docs/concept.md §7.
 
 ## 4 · Character forms
 
-- **D15-a (pending ruling):** base forms are the traditional
-  (kaishu) forms as the classical corpus writes them — near-forced
-  by the classical-first thesis; simplified forms appear as
-  later-hand notes (the pattern used for Neo-Assyrian sign forms),
-  never as the teaching base. Recommended, not yet ratified; no
-  course content lands before this is ruled.
+- **D15-a (ruled 2026-08-10):** base forms are the traditional
+  (kaishu) forms as the classical corpus writes them; simplified
+  forms appear as later-hand notes (the pattern used for
+  Neo-Assyrian sign forms), never as the teaching base.
 
 ## 5 · Corpus, ordering, licenses
 
@@ -99,6 +97,13 @@ fallback. Recorded in docs/concept.md §7.
 - Native characters beside pinyin beside gloss, always; untaught
   characters appear as ▢; recurring characters link home to where
   they were first taught — the site-wide laws apply unchanged.
+- **Size law (owner ruling 2026-08-10):** sinograph characters
+  display BIGGER than cuneiform/Egyptian script text everywhere —
+  a character's strokes are genuinely difficult to make out at the
+  sizes the other scripts use. Mechanically: the stylesheet's
+  sinograph script size must exceed the cuneiform script size in
+  every context that shows both (inline runs, reading figures,
+  sign tables); the style guard pins the comparison.
 - Old-form glyphs (oracle bone, bronze, seal) appear only via
   vendored, license-verified fonts or public-domain imagery —
   never hotlinked. **Ruled fallback (2026-08-09):** if no
