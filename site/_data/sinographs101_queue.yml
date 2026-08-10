@@ -1075,6 +1075,92 @@ signs:
   chapter: 10
   note: 'rank 77; the old picture is disputed (a bucket, a fence, a hung bell) — the
     grammar is not: 用 puts things to work, and 可 + 用 says "usable".'
+- char: 四
+  glyph: 四
+  name: four
+  codepoint: 56DB
+  keyword: four
+  pinyin: sì
+  meaning: four
+  category: loan
+  certainty: stated
+  strokes: 5
+  ids: "⿴囗⿰丿㇄"
+  rank: 43
+  count_kanripo: 2111250
+  docs: 5023
+  chapter: 11
+  note: rank 43; the archaic four was four stacked strokes (亖) — this borrowed graph
+    replaced it early.
+- char: 五
+  glyph: 五
+  name: five
+  codepoint: 4E94
+  keyword: five
+  pinyin: wǔ
+  meaning: five
+  category: indicative
+  certainty: stated
+  strokes: 4
+  ids: "⿱一\U0002B740"
+  rank: 37
+  count_kanripo: 2186604
+  docs: 5054
+  chapter: 11
+  note: rank 37; strokes crossed between heaven-line and earth-line — counting past
+    four needed a knot, not more bars.
+- char: 六
+  glyph: 六
+  name: six
+  codepoint: 516D
+  keyword: six
+  pinyin: liù
+  meaning: six
+  category: loan
+  certainty: stated
+  strokes: 4
+  ids: "⿱亠八"
+  rank: 83
+  count_kanripo: 1414353
+  docs: 4989
+  chapter: 11
+  note: rank 83; an old hut-graph lent its sound to the numeral.
+- char: 白
+  glyph: 白
+  name: white
+  codepoint: 767D
+  keyword: white
+  pinyin: bái
+  meaning: white; plain, unadorned
+  category: pictograph
+  certainty: unclear
+  strokes: 5
+  ids: "⿱㇒日"
+  rank: 150
+  count_kanripo: 903458
+  docs: 4805
+  chapter: 11
+  note: rank 150 — pinned as the component 百 needs; the old picture is disputed (a
+    grain of rice, a thumbnail, the dawn glow).
+- char: 百
+  glyph: 百
+  name: hundred
+  codepoint: 767E
+  keyword: hundred
+  pinyin: bǎi
+  meaning: hundred; the many
+  category: phono-semantic
+  certainty: classic
+  strokes: 6
+  ids: "⿱一白"
+  rank: 73
+  count_kanripo: 1444478
+  docs: 4952
+  chapter: 11
+  parts:
+  - 一
+  - 白
+  note: rank 73; one over white — bái lends its sound, the stroke counts the tally.
 batches:
 - chapter: 0
   signs:
@@ -1169,3 +1255,11 @@ batches:
   - 可
   - 用
   coverage_pct: 23.0
+- chapter: 11
+  signs:
+  - 四
+  - 五
+  - 六
+  - 白
+  - 百
+  coverage_pct: 24.1
