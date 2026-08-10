@@ -835,3 +835,19 @@ Acceptance: owner approves the rendered result on the served
 - D17-a · Whether to open the concept's reserved vanilla-JS
   enhancement layer (progressive enhancement only, nothing may
   REQUIRE JS) for the audio player. Owner-ruled; raised by M17-1.
+
+## Phase 18 — S101 stretch 3 (owner pick at Gate 17 close)
+
+## M18-1 · Stretch law + reading map  [tier: top] [status: open] [deps: --]
+Goal: rulebook §5 stretch-3 section (ch10–14, cap 40%, the
+      chapter roster) ruled before content; every anchor reading
+      verified against its Kanripo witness, URN recorded in the
+      plan.
+## M18-2 · Pool + compiler + first audio batch  [tier: top] [status: open] [deps: M18-1]
+Goal: 26 pool rows (parts, keywords, divergences noted), queue
+      regenerated green; syllables for ch10–11 acquired through
+      the pipeline.
+## M18-3..7 · ch10–ch14  [tier: top — content Fable-only] [status: open] [deps: M18-2]
+Goal: one chapter per packet — chapter + codex pages + syllables
+      wired; gate green at each.
+## M18-8 · Stitching + Gate 18 PR  [tier: top] [status: open] [deps: M18-7]
