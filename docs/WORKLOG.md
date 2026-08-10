@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · INCIDENT: red gate committed and pushed (phase-18,
+449c965) · The M18-2 command chained `rake gate; git commit &&
+push` with SEMICOLONS — the gate exited 1 (complete-shelf check:
+26 chapter-pinned characters without codex pages) and the commit
+ran anyway. Root cause twofold: (a) process — the bare-exit-code
+law was printed but not acted on; a commit must be `&&`-chained
+on the gate, never sequenced after it; (b) content — stretch 2
+added pool rows PER CHAPTER so pages land with pins, and the
+front-loaded 26-row pool broke that invariant. Durable fix: pool
+restored to 55 rows in the follow-up commit (no history rewrite
+on the pushed branch), the stretch-3 rows parked in .docs/ to be
+spliced chapter by chapter; lesson recorded here. CI caught the
+same red on the pushed commit, as designed.
+
 2026-08-11 · review rounds (ch04 pǐn; ch03/09 re-cuts; ch09
 bubble) · phase-17 · Three owner reports, each closed with the
 fix plus its durable check. (1) pǐn had no sound — Commons'
