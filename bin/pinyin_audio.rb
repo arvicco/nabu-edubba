@@ -58,18 +58,19 @@ module Edubba
     # Trimmed median-of-thirds features over a pitch track. Onset
     # and offset glides (and final creak) are not the tone, so 15%
     # is dropped from each end before measuring.
-    def features(track)
+    def features(track, smooth: true)
       return nil if track.empty?
 
       trim = (track.length * 0.15).floor
       core = track[trim...(track.length - trim)]
       core = track if core.nil? || core.length < 3
-      # Fricatives and creak track at wild, jumpy frequencies; the
-      # vowel is the longest SMOOTH run (each step within 10%).
-      # Measure the tone there.
-      runs = core.slice_when { |a, b| (b - a).abs > a * 0.10 }.to_a
-      best = runs.max_by(&:length)
-      core = best if best && best.length >= 4
+      if smooth
+        # Fricatives and creak track at wild, jumpy frequencies; the
+        # vowel is the longest SMOOTH run (each step within 10%).
+        runs = core.slice_when { |a, b| (b - a).abs > a * 0.10 }.to_a
+        best = runs.max_by(&:length)
+        core = best if best && best.length >= 4
+      end
       third = [1, core.length / 3].max
       med = ->(a) { s = a.sort; s[s.length / 2] }
       { a: med.call(core.first(third)).to_f,
@@ -80,19 +81,20 @@ module Edubba
     # Acceptance per declared tone, tolerant of real citation-form
     # variation (tone 2 onset dips, tone 3 low-flat, tone 4 creak)
     # while still refusing gross mislabels — the level/fall and
-    # dip/rise confusions that would misteach.
+    # dip/rise confusions that would misteach. Both views are
+    # consulted: the smooth vowel run (immune to fricative junk)
+    # and the raw trimmed track (a steep fall fragments the run).
     def tone_ok?(expected, track)
       return true if expected == :neutral
 
-      f = features(track)
-      return false unless f
-
-      a, m, b = f[:a], f[:m], f[:b]
-      case expected
-      when :level then b.between?(a * 0.85, a * 1.18) && m <= [a, b].max * 1.18
-      when :rise  then b > a * 1.08 || b > m * 1.15
-      when :dip   then !(b > a * 1.15 && m >= a * 0.95) # refuse only a clear pure rise
-      when :fall  then b < a * 0.90 || b < m * 0.88
+      [features(track), features(track, smooth: false)].compact.any? do |f|
+        a, m, b = f[:a], f[:m], f[:b]
+        case expected
+        when :level then b.between?(a * 0.85, a * 1.18) && m <= [a, b].max * 1.18
+        when :rise  then b > a * 1.08 || b > m * 1.15
+        when :dip   then !(b > a * 1.15 && m >= a * 0.95)
+        when :fall  then b < a * 0.90 || b < m * 0.88
+        end
       end
     end
 
@@ -145,6 +147,17 @@ module Edubba
           end
         end
         track << (sr.to_f / best).round if best
+      end
+      # De-octave: creak halves the period, so autocorrelation reads
+      # a doubled frequency. Snap any 1.6x+ jump back onto its
+      # neighbor's octave when the halved value fits the contour.
+      (1...track.length).each do |i|
+        prev = track[i - 1]
+        if track[i] > prev * 1.6 && (track[i] / 2 - prev).abs < prev * 0.35
+          track[i] /= 2
+        elsif track[i] < prev * 0.6 && (track[i] * 2 - prev).abs < prev * 0.35
+          track[i] *= 2
+        end
       end
       track
     end
@@ -297,7 +310,15 @@ if $PROGRAM_NAME == __FILE__
       next
     end
 
+    # Loudness-normalize (owner report 2026-08-11: sources span
+    # three voices at very different levels): gain each clip to a
+    # −20 dB mean, capped so peaks stay under −1 dB.
+    det = `ffmpeg -i #{work.inspect} -af volumedetect -f null - 2>&1`
+    mean = det[/mean_volume: (-?[\d.]+) dB/, 1].to_f
+    peak = det[/max_volume: (-?[\d.]+) dB/, 1].to_f
+    gain = [-20.0 - mean, -1.0 - peak].min
     system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-ac", "1", "-ar", "44100",
+           "-af", format("volume=%.1fdB", gain),
            "-codec:a", "libmp3lame", "-b:a", "64k", out_mp3)
     built += 1
     credits << [slug, src, license, artist]

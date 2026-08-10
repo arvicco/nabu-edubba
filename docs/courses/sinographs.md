@@ -69,7 +69,9 @@ fallback. Recorded in docs/concept.md §7.
   word recordings silence-segmented to the named syllable, and
   EVERY file pitch-verified against the tone its pinyin declares
   before it may ship — a recording that does not sing its tone
-  does not ship. Same-sound
+  does not ship. Every clip is loudness-normalized at encode
+  (−20 dB mean, −1 dB peak ceiling; owner report 2026-08-11 —
+  sources span voices at very different levels). Same-sound
   characters share one file: the manifest's `voices:` map joins
   each queue keyword-slug to its audio slug (person → ren,
   humane → ren). Characters with no clean recording are recorded in
