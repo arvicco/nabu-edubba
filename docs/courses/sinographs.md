@@ -126,6 +126,38 @@ fallback. Recorded in docs/concept.md §7.
   reading drawn from that source; a new source needs its
   urn_linker AXES entry in the same commit.
 
+### S101 stretch 2 (ruled 2026-08-10 at the phase-16 opening, before content)
+
+Chapters 05–09 teach **the borrowed words**: the classical grammar
+particles — the highest-frequency characters in the language —
+written with borrowed pictures (the jiajie move, completing the
+four-move arc), plus the component chains they need. Twenty-six
+fresh characters, five batches, box-share cap 45% throughout:
+
+- **ch05 · The busiest words:** 之 不 也 又 有 十 (又 the hand
+  seeds 有; 十有五 = the annals' "fifteen"). The stretch opens
+  with the course's first ZERO-BOX reading: Analects 1.2's
+  未之有也, whole.
+- **ch06 · Knowing and walking:** 矢 知 而 行 言 (the arrow seeds
+  知, per components-first; 而 the borrowed beard). Analects 1.1's
+  人不知而不慍 at one box.
+- **ch07 · Doing and being:** 為 無 我 心 生 (the two great
+  jiajie stories — the hand leading the elephant, the dancer who
+  became "without"). Laozi 63's triple paradox nearly whole;
+  1.2's 本立而道生 returns under cap.
+- **ch08 · Stopping at true:** 止 正 是 夕 名 (the chain
+  止→正→是, and 夕→名; Analects 13.3's rectification of names).
+  Finale: 2.17 知之為知之… 是知也 at ZERO boxes.
+- **ch09 · The master's opening:** 者 其 亦 于 乎 — enough to
+  read both halves of Analects 1.1's famous opening under cap,
+  and 6.23 returns at 25%.
+
+Laws in force unchanged: 5–6 fresh per chapter, components before
+compounds (parts: on every compound row), box-share ≤ 45% for
+ch05–09, keywords unique, slug law (first entrant keeps the bare
+slug), every new character's codex page lands IN THE SAME COMMIT
+as its chapter (the complete-shelf check is live).
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught

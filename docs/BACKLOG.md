@@ -791,3 +791,27 @@ Acceptance: files play (ffprobe); gate green; credits complete.
   Sinica 小學堂 CC0 dedication; Commons ACC project PD SVGs), in
   line with the ruled Shuowen fallback. S103 is feasible; the
   rulebook §6 law lands when S103 is scheduled.
+
+---
+
+## Phase 16 — S101 stretch 2: the borrowed words (owner pick 2026-08-10)
+
+Source: owner at Gate 15 close ("Next phase extends S101 for the
+next stretch"). Stretch law ruled in rulebook §5 (stretch-2
+section) before content; plan in .docs/phase-16-plan.md. All
+Gate-15 laws in force; box-share cap 45%; codex pages land in the
+same commit as their chapter (shelf check live).
+
+## M16-1 · Stretch-2 law + pool pins  [tier: top — Fable] [status: done — rulebook §5 stretch-2 section; batches ruled ch05–09, 26 chars] [deps: --]
+## M16-2 · Reading map verified  [tier: top — Fable] [status: in-progress — anchors verified (Analects 1.1/1.2/2.17/13.3 punctuated, 十有五年, Laozi 63); per-line verification continues at writing] [deps: M16-1]
+## M16-3 · ch05 The busiest words + codex  [tier: top — Fable] [status: ready] [deps: M16-2]
+## M16-4 · ch06 Knowing and walking + codex  [tier: top — Fable] [status: ready] [deps: M16-3]
+## M16-5 · ch07 Doing and being + codex  [tier: top — Fable] [status: ready] [deps: M16-4]
+## M16-6 · ch08 Stopping at true + codex  [tier: top — Fable] [status: ready] [deps: M16-5]
+## M16-7 · ch09 The master's opening + codex  [tier: top — Fable] [status: ready] [deps: M16-6]
+## M16-8 · Stitching + surface review + gate PR  [tier: top] [status: ready] [deps: M16-7]
+
+## Decision items — Phase 16
+- D16-a · Sinograph retrieval instruments (deck export + drills,
+  the cuneiform/hiero mirror): proposal for phase 17 — the queue
+  and codex carry everything a deck needs.
