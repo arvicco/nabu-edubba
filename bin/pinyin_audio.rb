@@ -290,10 +290,10 @@ if $PROGRAM_NAME == __FILE__
     pcm_f = File.join(CACHE, "#{slug}.pcm")
     system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
     track = Edubba::PinyinAudio.pitch_track(File.binread(pcm_f))
-    expected = Edubba::PinyinAudio.tone_of(pinyin_for[slug] || pinyin_for[aliases.key(slug)] || "")
+    expected = Edubba::PinyinAudio.tone_of(src["pinyin"] || pinyin_for[slug] || pinyin_for[aliases.key(slug)] || "")
     unless Edubba::PinyinAudio.tone_ok?(expected, track)
       got = Edubba::PinyinAudio.classify(track)
-      failures << "#{slug}: pitch says #{got}, pinyin #{pinyin_for[slug]} expects #{expected} — refused"
+      failures << "#{slug}: pitch says #{got}, pinyin #{src['pinyin'] || pinyin_for[slug]} expects #{expected} — refused"
       next
     end
 
