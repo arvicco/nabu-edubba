@@ -60,6 +60,18 @@ sources:
   hu:        {file: "Zh-hūrán.ogg", start: 0.10, end: 0.56, pinyin: "hū"}   # 忽's hū, hand-windowed (connected speech, no internal silence); replaced Zh-hū.oga after owner doubt
   pin:       {file: "Zh-pin.ogg", pinyin: "pǐn"}
 
+  # ---- stretch 3 (phase-18) ----
+  yi-by:     {file: "Zh-yi.ogg", pinyin: "yǐ"}   # 以 (and 矣): file's own description declares yǐ 以
+  zi-self:   {file: "Zh-zì.ogg", pinyin: "zì"}   # 自, via 字 zì
+  ding:      {file: "LL-Q9192 (cmn)-Fake_estate-丁.wav", pinyin: "dīng"}
+  ke:        {file: "Zh-kě.ogg", pinyin: "kě"}   # 可, via 渴 kě
+  yong:      {file: "Zh-yòng.ogg", pinyin: "yòng"}
+  si:        {file: "Zh-sì.ogg", pinyin: "sì"}
+  wu-five:   {file: "Zh-wǔ.ogg", pinyin: "wǔ"}
+  liu:       {file: "Zh-liù.ogg", pinyin: "liù"}
+  bai:       {file: "Zh-bái.ogg", pinyin: "bái"}
+  bai-hundred: {file: "Zh-bǎi.ogg", pinyin: "bǎi"}
+
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
   ge:        {file: "Zh-gē.oga", pinyin: "gē"}
@@ -96,6 +108,16 @@ voices:
   its: qi
   kinds: pin
   king: wang
+  by-means-of: yi-by
+  self: zi-self
+  nail: ding
+  can: ke
+  use: yong
+  four: si
+  five: wu-five
+  six: liu
+  white: bai
+  hundred: bai-hundred
   know: zhi
   middle: zhong
   moon: yue
