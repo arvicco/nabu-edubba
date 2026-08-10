@@ -237,11 +237,14 @@ rulings 2026-07-29, 6–9 owner rulings 2026-07-30):
   accompanies native script; conventions per school follow the field's
   standard (ATF for cuneiform, MdC/Leiden for Egyptian, IAST for
   Sanskrit…) and are stated in each school's Reference chapter.
-- **Interactivity: wave 1 ships text-pure — no JS** (ratified).
-  Chapters must be fully usable as static text. Small self-contained
-  vanilla-JS widgets (flashcard drill, sign tracing,
-  reveal-the-translation) are a possible later enhancement layer, to be
-  decided when wave 1 is standing; nothing may ever *require* JS.
+- **Interactivity: text-pure — no JS** (ratified). Chapters must be
+  fully usable as static text. Small self-contained vanilla-JS
+  widgets are a reserved enhancement layer; nothing may ever
+  *require* JS. **The layer was first opened 2026-08-11 (D17-a,
+  owner-ruled) for exactly one widget:** assets/say.js, which turns
+  audio links into inline click-to-play — with JS off the link
+  opens the file. The gate allowlists that one script and rejects
+  any other.
 - **Licensing: CC BY-SA for original prose** (ratified); every borrowed
   text/image carries its source license, inherited from Nabu's
   per-passage `license_class`. Only openly-licensed material is used —
@@ -343,6 +346,12 @@ permission profile). Specifics for this repo:
   display bigger than cuneiform/Egyptian script text everywhere —
   their strokes are genuinely difficult to make out at the sizes
   the other scripts use.
+
+- **D17-a (ruled 2026-08-11):** the reserved vanilla-JS enhancement
+  layer opens for the audio click-to-play widget only (assets/
+  say.js — self-contained, no dependencies, progressive: the
+  underlying link works without it). Any further widget needs its
+  own ruling.
 
 Details and the machine-checkable subset: docs/courses/sinographs.md.
 

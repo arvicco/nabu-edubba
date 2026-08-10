@@ -26,29 +26,29 @@ evening names itself:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">止</td><td>stop</td><td><span class="translit pinyin">zhǐ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi-stop.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">止</td><td>stop</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi-stop.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhǐ</span></a></td>
       <td>to stop, to stay</td>
       <td>a footprint — toes and heel — the foot at rest</td>
     </tr>
     <tr>
-      <td class="script sign-cell">正</td><td>upright</td><td><span class="translit pinyin">zhèng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zheng.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">正</td><td>upright</td><td><a class="say" href="{{ '/assets/audio/pinyin/zheng.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhèng</span></a></td>
       <td>upright, correct; exactly</td>
       <td>your foot stopped at your line 一: arriving exactly where
       one should</td>
     </tr>
     <tr>
-      <td class="script sign-cell">是</td><td>this</td><td><span class="translit pinyin">shì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">是</td><td>this</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shì</span></a></td>
       <td>this; to be right</td>
       <td>your sun over your upright: what stands squarely so</td>
     </tr>
     <tr>
-      <td class="script sign-cell">夕</td><td>evening</td><td><span class="translit pinyin">xī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">夕</td><td>evening</td><td><a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td>evening, dusk</td>
       <td>your moon missing one stroke — the sliver that rises
       early</td>
     </tr>
     <tr>
-      <td class="script sign-cell">名</td><td>name</td><td><span class="translit pinyin">míng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">名</td><td>name</td><td><a class="say" href="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">míng</span></a></td>
       <td>name; to name</td>
       <td>evening plus mouth: in the dark no one can see you, so
       you say who you are</td>

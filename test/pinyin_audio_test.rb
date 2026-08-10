@@ -20,8 +20,10 @@ class PinyinAudioTest < Minitest::Test
     assert_equal :level, PA.classify([180] * 20)
     assert_equal :rise, PA.classify((100..160).step(3).to_a)
     assert_equal :fall, PA.classify(200.step(120, -4).to_a)
-    dip = [140, 120, 100, 95, 92, 90, 92, 100, 120, 145]
-    assert_equal :dip, PA.classify(dip)
+    dip = [140, 130, 122, 112, 104, 98, 95, 98, 104, 116, 128, 140]
+    assert_includes [:dip, :fall], PA.classify(dip),
+                    "a citation dip may measure low-falling on the smooth run"
+    assert PA.tone_ok?(:dip, dip)
     assert_equal :silent, PA.classify([])
   end
 
@@ -37,6 +39,28 @@ class PinyinAudioTest < Minitest::Test
     refute PA.tone_ok?(:dip, rise_with_onset_dip.map { |x| x + 40 }.each_with_index.map { |x, i| x + i * 6 }), "a clear pure rise is not a third tone"
     assert PA.tone_ok?(:fall, fall)
     assert PA.tone_ok?(:neutral, fall), "neutral makes no contour claim"
+  end
+
+  def test_steep_fall_accepted_on_raw_view
+    # A fast tone-4 glide steps >10% per frame, fragmenting the
+    # smooth vowel run; the raw trimmed track must carry it (the
+    # zhèng case, 2026-08-11).
+    steep = [229, 225, 213, 203, 176, 130, 119, 112]
+    assert PA.tone_ok?(:fall, steep)
+    refute PA.tone_ok?(:level, steep)
+  end
+
+  def test_de_octave_snaps_creak_doubling
+    sr = 16_000
+    # 150 Hz sine whose tail is 300 Hz — the period-halving shape
+    # creak induces; the de-octave pass reads the tail as 150.
+    samples = (0...(sr / 2)).map do |i|
+      f = i < (sr * 3 / 8) ? 150 : 300
+      (12_000 * Math.sin(2 * Math::PI * f * i / sr)).round
+    end
+    track = PA.pitch_track(samples.pack("s<*"))
+    refute_empty track
+    assert track.last < 200, "doubled tail snapped back to the base octave"
   end
 
   def test_pitch_track_reads_synthetic_tone

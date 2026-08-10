@@ -77,6 +77,18 @@ class StyleGuardTest < Minitest::Test
     end
   end
 
+  def test_last_column_bubbles_pin_to_the_right_rim
+    # The mirror of the left-edge pin (owner report 2026-08-11): a
+    # glyph in a table's LAST column extends its bubble across the
+    # scroll container's right rim and is cut. Those bubbles pin to
+    # the glyph's right edge and grow leftward into the row.
+    body = bodies_for(".sign-table td:last-child .sign-tip")
+    assert_match(/right:\s*0/, body,
+                 "last-column bubbles must pin to the glyph's right edge")
+    assert_match(/left:\s*auto/, body,
+                 "last-column bubbles must release the left pin")
+  end
+
   def test_hidden_bubbles_take_no_geometry
     body = bodies_for(".sign-tip")
     assert_match(/display:\s*none/, body,

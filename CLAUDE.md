@@ -14,8 +14,11 @@ decisions, and pedagogy. docs/DEV-LOOP.md governs process.
    on Ruby 3.3 (CI pin), kramdown/GFM.** Local dev may run newer Ruby;
    the Gemfile.lock is shared by local and CI — CI is the authority.
    Site sources live in `site/`; the built site must be pure static
-   HTML/CSS. **Wave 1 ships text-pure: no JavaScript anywhere in the
-   site** (ratified; the gate enforces it).
+   HTML/CSS. **Text-pure law: no JavaScript anywhere in the site**
+   (ratified; the gate enforces it) — with ONE owner-ruled exception
+   (D17-a, 2026-08-11): assets/say.js, the self-contained audio
+   click-to-play enhancement; progressive only, nothing may ever
+   REQUIRE JS, and the gate allowlists exactly that script.
 2. **Dependency policy: the Gemfile budget (jekyll, html-proofer,
    rake, minitest) is closed.** Never add a gem, webfont, or asset
    pipeline without asking. No JS dependencies exist, period.
@@ -171,19 +174,19 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 16 — S101 stretch 2 complete, gate PR pending: the
-borrowed words (ch05–09, 26 fresh characters, all loans and
-component chains), the shrinking-boxes return arc (6.23 read
-five times, 7.22 four, Laozi-25 four fragments), Analects 2.17
-whole at ZERO boxes, 1.1's questions under cap; 26 codex pages;
-55 chars = 20.9% of the classical corpus.
+Phase 17 — complete, gate PR pending: the reading is the button
+(D17-a opened the reserved JS layer for exactly say.js — the
+pinyin plays on click, no chrome); primer phonetics voiced;
+codex identity moved from pinyin to KEYWORD slugs (55 pages,
+homophone/tone-proof); every clip loudness-normalized (−20 dB
+mean, −1 dB peak); tone verifier hardened (raw-view falls,
+de-octave); say-audio lint — no reading ships silent; absent
+list EMPTY (品 voiced); review re-cuts 曰休 yuē zhě hū.
 
-Gate 15 merged 2026-08-10 (wave 3 opened: the sinograph school —
-rulebook-first laws (pinyin diacritics, keyword, 5–6 chapter
-dial, components-before-compounds, box-share ≤50% declining,
-size law, always-stacked readings), Kanripo frequency instrument
-(721.8M tokens), S101 ch00–04 (29 chars, 8.0%, all four moves),
-29-page Character Codex with live shelf check, sign-linker +
-codex routing, Pinyin primer with twenty license-verified,
-pitch-verified audio samples; PR #20, eight review rounds each
-landing a law + mechanical check). Update this line at each gate.
+Gate 16 merged 2026-08-11 (S101 stretch 2: the borrowed words,
+ch05–09, 26 chars — 55 total = 20.9% of the classical corpus;
+zero-box Analects 1.2 and 2.17, 1.1's questions under cap; the
+shrinking-boxes return arc; 26 codex pages, shelf complete; the
+syllable-audio pipeline — license-gated, pitch-verified, 53/55
+characters voiced with click-to-play tables; 為 wèi→wéi caught
+by the verifier; PR #21). Update this line at each gate.

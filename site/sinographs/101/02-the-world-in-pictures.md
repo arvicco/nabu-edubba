@@ -24,36 +24,36 @@ Six characters, and every one of them is a drawing:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">日</td><td>sun</td><td><span class="translit pinyin">rì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">日</td><td>sun</td><td><a class="say" href="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rì</span></a></td>
       <td>the sun; a day</td>
       <td>the sun-disc, squared off by the brush, its point of light
       kept as the middle stroke</td>
     </tr>
     <tr>
-      <td class="script sign-cell">月</td><td>moon</td><td><span class="translit pinyin">yuè</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/yue.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">月</td><td>moon</td><td><a class="say" href="{{ '/assets/audio/pinyin/yue.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yuè</span></a></td>
       <td>the moon; a month</td>
       <td>a crescent with its inner shading — the moon is always
       drawn waxing, never full</td>
     </tr>
     <tr>
-      <td class="script sign-cell">山</td><td>mountain</td><td><span class="translit pinyin">shān</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shan.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">山</td><td>mountain</td><td><a class="say" href="{{ '/assets/audio/pinyin/shan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shān</span></a></td>
       <td>mountain, hill</td>
       <td>three peaks in a row, the middle one tallest</td>
     </tr>
     <tr>
-      <td class="script sign-cell">水</td><td>water</td><td><span class="translit pinyin">shuǐ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shui.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">水</td><td>water</td><td><a class="say" href="{{ '/assets/audio/pinyin/shui.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shuǐ</span></a></td>
       <td>water; a river</td>
       <td>a stream mid-current — the long center line is the flow,
       the strokes beside it the eddies</td>
     </tr>
     <tr>
-      <td class="script sign-cell">木</td><td>tree</td><td><span class="translit pinyin">mù</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">木</td><td>tree</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>tree; wood</td>
       <td>a trunk with branches reaching up and roots reaching
       down</td>
     </tr>
     <tr>
-      <td class="script sign-cell">口</td><td>mouth</td><td><span class="translit pinyin">kǒu</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/kou.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">口</td><td>mouth</td><td><a class="say" href="{{ '/assets/audio/pinyin/kou.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">kǒu</span></a></td>
       <td>mouth; an opening</td>
       <td>an open mouth, squared off by the brush like the sun
       was</td>

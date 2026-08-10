@@ -85,9 +85,13 @@ body.school-sinographs :where(p, li, td, th, dd, dt, figcaption) > :where(.scrip
    controls, no JS. Kept compact so a "Hear" column fits a table. */
 audio { width: 11rem; height: 2.1rem; vertical-align: middle; }
 
-/* Sign-table play buttons (§2 syllable pipeline): shrink the
-   native control to its play button beside the pinyin. */
-.sign-table audio { width: 2.75rem; min-width: 2.75rem; height: 1.7rem; }
+/* D17-a (owner-ruled 2026-08-11): click the reading, hear it.
+   a.say plays its mp3 inline via the one sanctioned script
+   (assets/say.js); without JS the link opens the audio file. The
+   dotted underline is the whole affordance. */
+a.say { text-decoration: none; color: inherit; }
+a.say .translit { border-bottom: 1px dotted var(--accent); }
+a.say:hover .translit { border-bottom-style: solid; }
 
 /* Sinograph readings ALWAYS stack (rulebook §6): at the size-law
    scale even short classical clauses leave the three-column grid
@@ -732,6 +736,15 @@ a.term:focus-visible .sign-tip {
   left: 0;
   transform: none;
   text-align: left;
+}
+/* …and the right rim is the mirror (owner report 2026-08-11: a
+   last-column bubble cut in half): a glyph in the LAST column
+   extends its bubble across the container's right rim — pin those
+   to the glyph's right edge instead, growing leftward into the
+   wide row. */
+.sign-table td:last-child .sign-tip {
+  left: auto;
+  right: 0;
 }
 
 /* Glossary terms: dotted underline, bubble on hover, link to /terms/ */

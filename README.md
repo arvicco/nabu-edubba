@@ -48,8 +48,9 @@ plus a Character Codex page for every taught character and a
 Pinyin primer with tone-verified audio.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
-hover bubbles giving name, readings, and meaning — no JavaScript
-anywhere.
+hover bubbles giving name, readings, and meaning. The site works
+with JavaScript disabled; a single self-contained script upgrades
+audio links to click-to-play, and that is the only JS anywhere.
 
 Under the hood: a computed curriculum (sign order = corpus
 frequency × graphic simplicity, from committed frequency tables —
@@ -73,9 +74,10 @@ rake gate             # lint + tests + build + link check
 rake serve            # preview at http://127.0.0.1:4000
 ```
 
-Site sources live in `site/` (Jekyll 4.4, null theme, no JavaScript —
-the first wave is deliberately text-pure and must work in any
-browser).
+Site sources live in `site/` (Jekyll 4.4, null theme, text-pure —
+the site must work in any browser with JavaScript off; one
+self-contained enhancement script exists, for audio, and nothing
+requires it).
 
 ## Authorship, corrections, license
 
