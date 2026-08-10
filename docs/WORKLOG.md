@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · review round (Gate 15: 木/口 examples) · phase-15 ·
+Owner: the tree and mouth examples were nearly all boxes — better
+short lines reinforcing taught characters. Replaced: 木 now leads
+with the Changes' Image of the Well — 木上有水，井 (KR1a0001:048,
+the punctuated Zhouyi): four characters, three taught (木上水),
+one poignant box for the well itself; the Laozi-64 seed line stays
+beneath it (the ch04 arc). 口 gets the golden statue and the
+river from the Tang anthology Bai-Kong liutie (KR3k0008:030,
+preserving the Kongzi jiayu story): 三緘其口 (三 counts the seals
+on 口) and 防人之口若防大川 (人口大 all working). The weak 自求口實
+line retired.
+
 2026-08-10 · review round (Gate 15: ch00 cosmology + number batch)
 · phase-15 · Owner: ch00 misses the chance to teach 土 and 王 (the
 traditional heaven-earth connector) — the first reading would then
