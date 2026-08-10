@@ -5,6 +5,21 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (ch03 audio: 曰 silent, 休 hissing) ·
+phase-17 · Owner: yuē has no sound; xiū's ends in a hiss. Both
+root causes found and fixed. 曰: the syllable yuē exists in
+約-words — Jouketou's 约会 (LL, BY-SA 4.0) yields a clean initial
+yuē (level ✓), and 曰 LEAVES the absent list (only 品 remains).
+休: the "syllable 1" cut had silently taken BOTH syllables —
+xiūxi is connected speech with no internal silence, so the one
+detected span was the whole word and the "hiss" was 息 entire;
+hand-windowed to 0.19–0.57s, ending before the second x-. The
+verifier initially refused the fix as "fall" — fricative junk
+frames polluted the measurement — so the tone is now measured on
+the longest SMOOTH pitch run (the vowel; each step within 10%),
+which reads xiū's rock-steady 178–188 Hz plateau correctly while
+the mislabeled-recording refusals all still hold.
+
 2026-08-11 · primer phonetics voiced (owner request) · phase-17 ·
 Every initials/finals row of the Pinyin primer now carries
 clickable example syllables under its letters (bā·dà·gē for

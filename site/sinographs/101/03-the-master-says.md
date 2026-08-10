@@ -31,7 +31,7 @@ and then the wall comes down: characters start combining.
       single line</td>
     </tr>
     <tr>
-      <td class="script sign-cell">曰</td><td>say</td><td><span class="translit pinyin">yuē</span></td>
+      <td class="script sign-cell">曰</td><td>say</td><td><a class="say" href="{{ '/assets/audio/pinyin/yue-say.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yuē</span></a></td>
       <td>to say — the quotation-opener of the classics</td>
       <td>a mouth, with a short stroke of breath leaving it</td>
     </tr>
