@@ -348,7 +348,10 @@ signs:
     chapter: 7
     keyword: do
     slug: wei-do
-    pinyin: wèi
+    pinyin: wéi
+    pinyin_divergence: >-
+      Unihan kMandarin gives wèi; the course teaches the verb
+      reading wéi (為無為), with wèi "for" noted in the meaning.
     meaning: "to do, to make; to act as; for"
     category: loan
     certainty: stated

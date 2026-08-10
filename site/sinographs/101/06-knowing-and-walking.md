@@ -25,29 +25,29 @@ An arrow first — watch what it is for:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">矢</td><td>arrow</td><td><span class="translit pinyin">shǐ</span></td>
+      <td class="script sign-cell">矢</td><td>arrow</td><td><span class="translit pinyin">shǐ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shi-arrow.mp3' | relative_url }}"></audio></td>
       <td>arrow</td>
       <td>head, shaft, and fletching in five strokes</td>
     </tr>
     <tr>
-      <td class="script sign-cell">知</td><td>know</td><td><span class="translit pinyin">zhī</span></td>
+      <td class="script sign-cell">知</td><td>know</td><td><span class="translit pinyin">zhī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}"></audio></td>
       <td>to know, to understand</td>
       <td>your new arrow beside your old mouth: the word that flies
       straight — the arrow also hums the sound, shǐ for zhī</td>
     </tr>
     <tr>
-      <td class="script sign-cell">而</td><td>and-then</td><td><span class="translit pinyin">ér</span></td>
+      <td class="script sign-cell">而</td><td>and-then</td><td><span class="translit pinyin">ér</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/er-and.mp3' | relative_url }}"></audio></td>
       <td>and, and then, but — the clause-linker</td>
       <td>a drawing of a beard, borrowed forever for the little
       joining word</td>
     </tr>
     <tr>
-      <td class="script sign-cell">行</td><td>walk</td><td><span class="translit pinyin">xíng</span></td>
+      <td class="script sign-cell">行</td><td>walk</td><td><span class="translit pinyin">xíng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xing.mp3' | relative_url }}"></audio></td>
       <td>to walk, to go; to practice</td>
       <td>a crossroads seen from above — where walking happens</td>
     </tr>
     <tr>
-      <td class="script sign-cell">言</td><td>speech</td><td><span class="translit pinyin">yán</span></td>
+      <td class="script sign-cell">言</td><td>speech</td><td><span class="translit pinyin">yán</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/yan.mp3' | relative_url }}"></audio></td>
       <td>speech, words; to speak</td>
       <td>your mouth under rising lines — sound on its way out</td>
     </tr>

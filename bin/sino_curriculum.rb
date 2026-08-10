@@ -98,6 +98,7 @@ module Edubba
         abort "sino_curriculum: #{s['char']} pinyin '#{s['pinyin']}' carries a tone " \
               "number — diacritics only (rulebook §2)" if s["pinyin"].to_s.match?(/\d/)
         next if row["pinyin"].empty? || row["pinyin"].split.include?(s["pinyin"])
+        next if s["pinyin_divergence"] # recorded, deliberate
 
         abort "sino_curriculum: #{s['char']} pinyin '#{s['pinyin']}' does not match " \
               "Unihan kMandarin '#{row['pinyin']}' — typo, or record the divergence"

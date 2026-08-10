@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · syllable audio (owner ruling) · phase-16 · Every
+chapter sign-table now carries a click-to-play button voicing its
+character's reading — 53 of 55 characters, browser-native audio,
+no JS. Built by the new PIPELINE (bin/pinyin_audio.rb +
+hand-curated manifest): Commons-only, license-gated at the API
+(BY/BY-SA, never NC — Arch Chinese and TTS both fail that bar,
+Apple voices being personal-use-only), word recordings cut to the
+named syllable, and EVERY file pitch-verified against its declared
+tone. The verifier earned its keep: it refused a mislabeled 山
+recording twice (both sources' contours fall), caught 為 taught as
+wèi while the course says wéi (pool corrected, divergence field
+added to the compiler), and exposed an ffmpeg seek/filter trap
+(output-seeking runs filters BEFORE the trim — a fade at cut-time
+silenced every non-initial syllable cut; input-seeking fixes it).
+Acceptance rules tuned to real citation speech (register-filtered
+tracks, tone-2 onset dips, low-flat tone 3) while the original
+mislabeled-tone-1 case stays refused. 曰 and 品 remain honestly
+buttonless (manifest absent:, reported every run). Credits
+regenerate; 48 mp3s vendored.
+
 2026-08-10 · M16-7 · phase-16 · ch09 · The master's opening —
 者其亦于乎, all loans, the connective tissue completed: 6.23 at
 its FIFTH visit (only "delights" boxed, twice), Analects 1.1's

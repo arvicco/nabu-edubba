@@ -22,7 +22,7 @@ sources:
   xia:       {file: "Zh-xià.ogg"}
   ri:        {file: "Zh-rì.ogg"}
   yue:       {file: "Zh-yuè.ogg"}
-  shan:      {file: "Zh-shān.ogg"}
+  shan:      {file: "LL-Q9192 (cmn)-Jouketou-山.wav"}   # Zh-shān.ogg refused: contour falls
   shui:      {file: "Zh-shuǐ.ogg"}
   mu:        {file: "Zh-mù.ogg"}
   kou:       {file: "Zh-kǒu.ogg"}
@@ -41,7 +41,7 @@ sources:
   shi:       {file: "Zh-shí.ogg"}
   shi-arrow: {file: "Mandarin Chinese pronunciation-矢.wav"}
   er-and:    {file: "Zh-ér.ogg"}
-  xing:      {file: "Zh-xíng.ogg"}
+  xing:      {file: "LL-Q9192 (cmn)-Jouketou-行.wav"}   # Zh-xíng.ogg refused: contour dips
   yan:       {file: "Zh-yán.ogg"}
   wei-do:    {file: "Zh-wéi.ogg"}
   wu:        {file: "Zh-wú.ogg"}
@@ -52,7 +52,7 @@ sources:
   zheng:     {file: "Zh-zhèng.ogg"}
   shi-this:  {file: "Zh-shì.ogg"}
   xi:        {file: "Zh-xī.ogg"}
-  zhe:       {file: "LL-Q9192 (cmn)-Aa087159-志愿者.wav", syllable: 3}
+  zhe:       {file: "Zh-huòzhě.ogg", start: 0.90, end: 1.15}   # zhě, hand-windowed: soft final syllable of huòzhě
   qi:        {file: "Zh-qí.ogg"}
   yi-also:   {file: "Zh-yì.ogg"}
   yu:        {file: "Zh-yú.ogg"}
