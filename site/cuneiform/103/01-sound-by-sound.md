@@ -32,11 +32,13 @@ them in runs.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">𒇷</td><td>LI</td><td>juniper</td><td>[li]</td>
+      <td class="script sign-cell">𒇷</td><td>LI</td><td>juniper</td><td>[li/le]</td>
       <td>a juniper in the sign lists</td>
       <td>tenth most frequent syllable in the Old Babylonian
           corpus — it will be everywhere, including inside the
-          word for "over him" below</td>
+          word for "over him" below; its e-colored twin le
+          reports when it is met (the able king of
+          <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>)</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅖</td><td>IŠ</td><td>dust</td><td>[iš]</td>

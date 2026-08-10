@@ -35,10 +35,11 @@ can exist? — and hands the case to a judge no one can bribe.
       <td>Sumer called this sign <em>engur</em>, Enki's deep;
           Akkadian never voices it alone. It stands only behind
           <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>,
-          and the pair 𒀀𒇉 is one word: written ID₂ in
-          transliteration — a sign-name in capitals wearing its
-          index, exactly like E₂ below — and spoken
-          <span class="norm">Id</span>, the River. Not
+          and the pair 𒀀𒇉 is one word, spoken
+          <span class="norm">Id</span>, the River — the readings
+          print that voice in green capitals, while the sign
+          lists file the pair as ID₂, a name wearing its index
+          exactly like E₂ below. Not
           <a href="{{ '/cuneiform/103/05-the-verb-arrives/#sign-12009' | relative_url }}">chapter 05's</a>
           syllable id (the arm), but the god's own name</td>
     </tr>
@@ -63,6 +64,23 @@ can exist? — and hands the case to a judge no one can bribe.
           and <span class="norm">bīssu</span>, "his estate," is
           what this law hands the winner</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[lim]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-12146' | relative_url }}">chapter 03's ši-sign</a>
+          gains a second voice: lim, the syllable that closes
+          <em>a-wi-lim</em>, "of a man" — and this law's first
+          accused wears it a few lines down</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[su]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/03-say-it-twice/#sign-1236A' | relative_url }}">102's knowing-sign</a>
+          softens to su: when -šu melts against a root's last
+          consonant — <em>ik-ta-ša-su</em>,
+          <span class="norm">iktašassu</span> — this sign writes
+          what the melt leaves</td>
+    </tr>
   </tbody>
 </table>
 
@@ -79,11 +97,14 @@ hold the chain once and every line below reads itself:
 
 - **ENGUR** is the deep-sign's NAME on the shelf — its identity,
   never spoken in this course;
-- **ID₂** is how the pair 𒀀𒇉 is written in transliteration —
-  a word-sign in capitals with its little index, the same habit
+- **ID₂** is how the sign lists FILE the pair 𒀀𒇉 — a
+  word-sign in capitals with its little index, the same habit
   as E₂;[^idfiling]
 - **Id** is what your mouth says: the god's name, declined like
-  any noun.
+  any noun — and the voice is what a reading line prints, in
+  <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03's</a>
+  green capitals: <span class="logo">ID</span>, on green-marked
+  signs.
 
 Name, spelling, voice — in that order, every time the River
 flows through a line. This is the **ordeal**: the accused walks
@@ -100,13 +121,13 @@ Every sign of the phrase is now yours, and so is the whole law.
     <div class="reading-line"><span class="script">𒆷 𒊌𒋾𒅔𒋗</span><span class="translit">la uk-ti-in-šu</span><span class="gloss"><span class="norm">lā uktīnšu</span> — "…did not convict him:"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒂊𒇷𒋗</span><span class="translit">ša e-li-šu</span><span class="gloss"><span class="norm">ša elīšu</span> — "the one upon whom…"</span></div>
     <div class="reading-line"><span class="script">𒆠𒅖𒁍 𒈾𒁺𒌑</span><span class="translit">ki-iš-pu na-du-u</span><span class="gloss"><span class="norm">kišpū nadû</span> — "…sorcery is laid…"</span></div>
-    <div class="reading-line"><span class="script">𒀀𒈾 𒀭𒀀𒇉</span><span class="translit">a-na {d}ID₂</span><span class="gloss"><span class="norm">ana Id</span> — "…to the River…"</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒀭<span class="logo">𒀀𒇉</span></span><span class="translit">a-na {d}<span class="logo">ID</span></span><span class="gloss"><span class="norm">ana Id</span> — "…to the River…"</span></div>
     <div class="reading-line"><span class="script">𒄿𒅋𒆷𒀝</span><span class="translit">i-il-la-ak</span><span class="gloss"><span class="norm">illak</span> — "…shall go;"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒀀𒇉 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}ID₂ i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span> — "into the River he shall plunge, and —"</span></div>
-    <div class="reading-line"><span class="script">𒋳𒈠 𒀭𒀀𒇉</span><span class="translit">šum-ma {d}ID₂</span><span class="gloss"><span class="norm">šumma Id</span> — "if the River…"</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒀀𒇉</span> 𒄿𒊭𒀠𒇷𒀀𒄠𒈠</span><span class="translit">{d}<span class="logo">ID</span> i-ša-al-li-a-am-ma</span><span class="gloss"><span class="norm">Id išalliamma</span> — "into the River he shall plunge, and —"</span></div>
+    <div class="reading-line"><span class="script">𒋳𒈠 𒀭<span class="logo">𒀀𒇉</span></span><span class="translit">šum-ma {d}<span class="logo">ID</span></span><span class="gloss"><span class="norm">šumma Id</span> — "if the River…"</span></div>
     <div class="reading-line"><span class="script">𒅅𒋫𒊭𒍪</span><span class="translit">ik-ta-ša-su</span><span class="gloss"><span class="norm">iktašassu</span> — "…has overwhelmed him,"</span></div>
     <div class="reading-line"><span class="script">𒈬𒌒𒁉𒅕𒋗</span><span class="translit">mu-ub-bi-ir-šu</span><span class="gloss"><span class="norm">mubbiršu</span> — "his accuser"</span></div>
-    <div class="reading-line"><span class="script">𒂍𒍪 𒄿𒋰𒁀𒀠</span><span class="translit">E₂-su i-tab-ba-al</span><span class="gloss"><span class="norm">bīssu itabbal</span> — "shall carry off his estate."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒂍</span>𒍪 𒄿𒋰𒁀𒀠</span><span class="translit"><span class="logo">BĪT</span>-su i-tab-ba-al</span><span class="gloss"><span class="norm">bīssu itabbal</span> — "shall carry off his estate."</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 2, first half.
@@ -156,15 +177,15 @@ ends:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒀀𒉿𒇴 𒋗𒀀𒋾</span><span class="translit">šum-ma a-wi-lam šu-a-ti</span><span class="gloss"><span class="norm">šumma awīlam šuāti</span> — "If that man…"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒀀𒇉</span><span class="translit">{d}ID₂</span><span class="gloss"><span class="norm">Id</span> — "…the River…"</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒀀𒇉</span></span><span class="translit">{d}<span class="logo">ID</span></span><span class="gloss"><span class="norm">Id</span> — "…the River…"</span></div>
     <div class="reading-line"><span class="script">𒌑▢𒅁𒁉𒁀𒀸𒋗𒈠</span><span class="translit">u-▢-eb-bi-ba-aš-šu-ma</span><span class="gloss"><span class="norm">ūtebbibaššuma</span> — "…has cleared, and —" the purifying-verb, one box wide</span></div>
     <div class="reading-line"><span class="script">𒅖𒋫𒀠𒈠𒄠</span><span class="translit">iš-ta-al-ma-am</span><span class="gloss"><span class="norm">ištalmam</span> — "he has come out safe:"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒂊𒇷𒋗</span><span class="translit">ša e-li-šu</span><span class="gloss"><span class="norm">ša elīšu</span> — "the one who upon him…"</span></div>
     <div class="reading-line"><span class="script">𒆠𒅖𒁉 𒀉𒁺𒌑</span><span class="translit">ki-iš-pi id-du-u</span><span class="gloss"><span class="norm">kišpī iddû</span> — "…laid sorcery…"</span></div>
     <div class="reading-line"><span class="script">𒀉𒁕𒀝</span><span class="translit">id-da-ak</span><span class="gloss"><span class="norm">iddâk</span> — "…shall be killed;"</span></div>
-    <div class="reading-line"><span class="script">𒊭 𒀭𒀀𒇉</span><span class="translit">ša {d}ID₂</span><span class="gloss"><span class="norm">ša Id</span> — "the one who into the River…"</span></div>
+    <div class="reading-line"><span class="script">𒊭 𒀭<span class="logo">𒀀𒇉</span></span><span class="translit">ša {d}<span class="logo">ID</span></span><span class="gloss"><span class="norm">ša Id</span> — "the one who into the River…"</span></div>
     <div class="reading-line"><span class="script">𒅖𒇷𒀀𒄠</span><span class="translit">iš-li-a-am</span><span class="gloss"><span class="norm">išliam</span> — "…plunged"</span></div>
-    <div class="reading-line"><span class="script">𒂍 𒈬𒌒𒁉𒊑𒋗</span><span class="translit">E₂ mu-ub-bi-ri-šu</span><span class="gloss"><span class="norm">bīt mubbirīšu</span> — "the estate of his accuser"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒂍</span> 𒈬𒌒𒁉𒊑𒋗</span><span class="translit"><span class="logo">BĪT</span> mu-ub-bi-ri-šu</span><span class="gloss"><span class="norm">bīt mubbirīšu</span> — "the estate of his accuser"</span></div>
     <div class="reading-line"><span class="script">𒄿𒋰𒁀𒀠</span><span class="translit">i-tab-ba-al</span><span class="gloss"><span class="norm">itabbal</span> — "shall carry off."</span></div>
   </div>
   <figcaption class="citation">
@@ -218,5 +239,7 @@ the original.*
 [^idfiling]: The sign lists file this pair-value both ways —
     id₂ and i₇ name the same writing, water + deep — and the
     corpus transliteration of the stele uses the latter
-    (<code>{d}i7</code>, raw ATF). This course writes ID₂ so
-    that the written word and the spoken word agree.
+    (<code>{d}i7</code>, raw ATF). This course files the pair
+    as ID₂ in prose and codex; the reading lines print the
+    voice itself, green ID, so that the written word and the
+    spoken word agree.

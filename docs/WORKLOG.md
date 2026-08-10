@@ -5,6 +5,229 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-09 · review round (Gate 14, course-close review: the
+Reference unstuffed) · phase-14 · Owner: why are "Every sign
+taught" and the grammar summary stuffed into the close chapter
+instead of a separate Reference like the other courses — and
+the grammar summary is hasty besides. Both right. Split: ch18
+is now "The king's invitation" alone (retitled, renamed file +
+permalink — not yet live, so nothing frozen was touched); new
+ch19 · Reference carries the full 101-ch12/102-ch18 mold,
+including the sections 103 had been MISSING entirely:
+Conventions used in this course (the no-index rule, bound
+transcription, the green voice-marking law in one breath —
+"black is sounded out; green is read whole" — ▢, braces, ATF
+carve-out, URN+license) and Further study / Sources and
+licenses (Huehnergard; every tablet the course reads, each
+URN one click from its whole text). The grammar is no longer
+one grid and a hasty paragraph: four structured tables — the
+noun's case/number grid with met examples, the tense-and-stem
+grid with honest dashes, the melody of a law (deed/proof/
+sentence sung by law 1), and the little words with their
+teaching seats — plus construct, dual, suffix-melt, ventive,
+imperative, precative and ša-clause -u, every item linking
+the chapter that taught it. Coverage line updated to the
+instrument's current 79.4%. Six inbound links rewired; course
+index lists both pages; rulebook §9 close law amended.
+
+2026-08-09 · review round (Gate 14, ch17 review: rebus names
+are logograms) · phase-14 · Owner: 𒀭𒂗𒍪 "should be treated
+as compound (color marked, reading capped) since it's not a
+proper logogram" — right: EN.ZU read backwards is precisely a
+writing whose signs do not spell its sound, the defining case
+for the green treatment. Names law amended (§9): a
+sequence-spelled name stays plain ({d}en-lil, -i-mi-ti,
+za-ab-lum); a name element whose writing does not spell its
+sound takes the full voice-mark — {d}SUEN over green 𒂗𒍪
+(five lines, ch12/ch17 + codex mirrors), and by the same
+principle {d}ŠAMAŠ over green 𒌓 (ch12 letter, ch13 epilogue
++ mirrors), both chaining to the norm's Sîn/Šamaš. The D14-b
+REBUS licensing table is superseded — voice-marking covers
+rebus writings outright; its check branch removed, the
+syllabic name tails still value-checked. 22 line edits, deck
+regenerated.
+
+2026-08-09 · review round (Gate 14, ch17 review: ambient
+re-entry) · phase-14 · Owner: "WHY re-introduce the sign that
+kept its reading unchanged at all?" — ch17's KI [ki] row.
+Correct per the school's own ambient-veteran law (§9, ruled
+2026-08-06): a sign whose value crosses unchanged keeps its
+101/102 teaching and never re-enters. Audit found three such
+rows, all phase-14 content: KI [ki] (ch17), TA [ta] and MAH
+[maḫ] (ch15) — every other veteran genuinely gains a new
+voice. Fixed: the three rows removed (ch15's -ta- and
+immaḫḫaṣ spotlights already live in its prose; ch17's
+formulary-KI story stays in its bullets); KI's queue row
+reseated to ch12 where its real gain [qi] is taught; ta.md
+and mah.md akk codex pages deleted (unpublished — no frozen
+permalinks touched); their sux bubbles restored everywhere,
+as the law wants. Enforced for the future: the
+ambient-veteran guard in script/value_check.rb — a veteran
+row whose values are its Sumerian inventory unchanged fails
+the gate ("re-enters but gains NOTHING"). Deck 69→67.
+
+2026-08-09 · review round (Gate 14, ch17 review: readings never
+cite) + veteran-load rebalance · phase-14 · Owner: "KU3.BABBAR
+ŠU BA.AN.TI instead of PROPER reading in uppercase — are
+lints/rules even working?" Honest answer: the lints enforce
+only what has been RULED, and the dotted frame display was
+this author's own unruled design choice in the voice-marking
+round — a gap in law, not a broken check. Now ruled (§9): a
+reading READS, it never CITES — the dot is sign-list filing
+punctuation; Sumerian frame stretches hyphenate their values
+(ŠU BA-AN-TI, I₃-LA₂-E, MAŠ₂-BI) and a sumerogram with a
+taught voice speaks it wherever it stands (KASPAM even inside
+the frame clause — its table row committed to "spoken
+kaspum"). Enforced by the new reading-cites lint (no dot
+between letters/digits in a cuneiform reading translit;
+hieroglyph Leiden dots and editorial [...] out of scope), which
+would have caught the original. Rebalance (owner: ch12
+overloaded at 3+4 while 4/13/14 sit light): moving signs INTO
+light chapters would violate the thematic no-filler ruling, so
+the fix folds FAMILY values into their signs' original
+brackets, IR [ir/er] / AZ [as/az/aṣ] style — LI [li/le] at
+ch01, AD [ad/at/aṭ] at ch03, A₂ [id/it/ed/et] at ch05, each
+note saying the sibling "reports when met" — and drops the
+now-redundant veteran rows: ch08 3+2, ch12 3+2, ch18 3+1.
+Only genuinely NEW voices (lim, qi, bi, re, su, šar, qa, ṭi,
+ṣa, qu) keep first-use rows. Registry seats follow the rows;
+codex prose aligned; deck regenerated.
+
+2026-08-09 · D14-b · phase-14 · The sixteen-value debt paid in
+full, same day, owner-ruled "now, spread across chapters."
+Fourteen veteran-value teachings seated at first use — ch08
+SAR [šar]/GA [qa]/LI [le], ch10 ZU [su] (beside IGI [lim]),
+ch12 KI [qi]/NE [bi]/RI [re]/A₂ [it/ed/et] (one row, the
+AZ/AḪ-style family bracket), ch13 DI [ṭi], ch17 ZA [ṣa], ch18
+AD [aṭ]/KU [qu] — each row demonstrated by the line that first
+speaks it. One was not a teaching gap at all: ch18's
+li-kal-lim-šu wrote 𒃲 where the stele has 𒆗, whose kal is
+ambient from C102 — the value check smokes out wrong SIGNS
+too, which is half its worth. suen formalized as a REBUS name
+unit in the check (𒂗𒍪 + the ch12 fusion prose seat). The
+pool (assets-src/data/pool-103.yml) is the hand-edited source
+— the queue is GENERATED (my earlier direct queue edit for IGI
+would have been silently reverted by the next regeneration;
+moved to the pool, regenerated properly). Eight new akk codex
+pages (sar ga zu ne ri di za ku), four updated (li ki ad a2 +
+igi), registry value_seats records every late seat, deck 61→69
+cards, OB coverage floor 76.4%→79.4%. The hover-size and
+accent-index lints both caught my first drafts — the
+machine-checkable rulebook disciplining its own author, as
+designed. KNOWN_DEBT now stands empty; future entries are
+owner-ruled, dated.
+
+2026-08-09 · incident+fix (Gate 14, untaught values — the lim
+hole) · phase-14 · Owner hover on ch16: "WHY is this IGI read
+as lim? Where is it taught? Why isn't it in the tooltip?"
+Answer: nowhere, and that is the defect — the untaught-sign
+gate guards GLYPHS, so a-wi-lim rode the (taught) eye-sign as
+an untaught VALUE from ch10 to ch18 without tripping anything.
+Fixed for the reported case: ch10 gains an IGI veteran row
+teaching [lim] beside the line that first speaks it; the
+registry entry widens to value szi, lim with an additive
+value_seats: {lim: 10} (teaching claims stay honest per
+value); the codex page and bubble now carry [ši/lim] and the
+a-wi-lim story; deck regenerated. Closed for the future:
+script/value_check.rb joins the gate — every syllabic token in
+an Akkadian reading must be a value taught, by that chapter,
+for a sign present in the line (registry ASCII folded
+index-blind; ▢ pardons its own spoken token; determinatives
+and logo stretches governed by their own laws). Its first full
+run found SIXTEEN more unpaid values (su₂, suen, qi₂, bi₂, re,
+ed, it, et, le, qa₂, šar, ṭi₃, ṣa, aṭ, qu₂, kal) — held as
+dated debt inside the check (a NEW use of any fails the gate);
+each is paid by teaching the value and deleting its debt row.
+Decision item D14-b: pay the debt this phase or next.
+
+2026-08-09 · review round (Gate 14, ch16 review: cut gloss text +
+reading-width law) · phase-14 · Owner (reviewing chapter by chapter; their message numbers are CHAPTER ordinals): "new table set-up cuts
+some of the text at the end of lines, need a mechanical rule."
+Cause: the three-column grid's minimum (script max-content +
+text-column floors + gaps) can exceed the measure, and the
+scroll container shows the deficit as sliced gloss text.
+Mechanical rule (§5): the three-column layout holds only while
+the widest script line fits the measured budget (measure −
+padding − gaps − floors ≈ 20.3rem = 14.5em at the 1.4rem
+script size); wider figures declare reading--stacked (voice
+under script, both full width, nothing ever cut); below the
+full measure every script reading stacks. Widths are MEASURED,
+not guessed: script/font_metrics.rb reads advance widths from
+the committed subset TTFs (pure Ruby, offline), and the
+reading-width lint runs the same metric in the gate. Twelve
+figures site-wide crossed the budget and now stack (both
+schools' frontier pages, the 102 royal-hymn monster at
+21.9em, ch12's beer-letter line, five hiero codex pages);
+cold-read clones inherit the original figure's classes so a
+stacked original cannot un-stack. A corpus line is never
+shortened to fit — the layout adapts, not the text.
+
+2026-08-09 · incident+fix (Gate 14, clipped hover bubbles) ·
+phase-14 · Owner screenshot: a sign-tip bubble cut in half over
+a ch15 reading. Root cause: fe7b87b made reading figures and
+sign-tables scroll containers (overflow-x: auto) — and one
+non-visible overflow axis forces the other from visible to auto
+(CSS spec), so the box clips BOTH ways; the absolutely
+positioned bubbles that used to float over neighboring content
+now die at the container rim. Same change carried a second,
+quieter defect: hidden bubbles were visibility-hidden, which
+still contributes geometry — every bubble inflated its
+container's scrollable width (the phantom sideways scroll that
+made ch16's gloss column look cut at 1200px). Fix: hidden
+bubbles are display:none (no geometry; fade-in kept via
+@starting-style where supported); every scroll container
+hosting sign-links reserves 5.5rem bubble headroom (padding-top
+pulled back by an equal negative margin-top — the clip box
+grows, the layout does not move) and pins its bubbles to the
+glyph's left edge (left:0, no centering transform) so they
+cannot cross the left rim. Verified by a hover-probe page over
+the real build: bubble forced visible at the clip box's worst
+corner (first glyph, first line) renders whole. Lessons
+enforced: (1) test/style_guard_test.rb — every overflow rule in
+style.css must be a registered tip-safe container carrying the
+headroom+pin pairing, so the next scroll container fails the
+gate until bubble escape is handled; (2) §6b checklist gains a
+hover-probe line — static screenshots cannot hover, which is
+exactly how this shipped past a pixel review.
+
+2026-08-09 · review round (Gate 14, logogram voice-marking) ·
+phase-14 · Owner: GIR₃.PAD.RA₂ mid-reading "ugly to the utmost
+extent" — the translit column printed the sign-lists' filing
+spelling where the reader needs the word actually spoken. New §9
+law (phase-14 review round): a logographically-written stretch
+prints its VOICE in green capitals inside span class "logo" —
+EṢEMTI, ID, ŠAR, MĀTIM, ŠANAT ŠĀR — and the glyphs that carry
+it wear the same mark, so the color binds voice to signs and
+shows which signs break out of the syllabic sequence. Where the
+course commits to NO Akkadian voice (ch17's Sumerian notary
+frame; broken lines with elided norms) the stretch stands in
+its Sumerian values, marked the same green: the color means
+"not sounded as Akkadian syllables," and the caps themselves
+say which language holds the pen. Names stay names. Ten
+chapters + 21 akk-codex mirror pages rewritten in one scripted
+pass (marks paired by construction); ch03 now teaches the
+convention beside the word "sumerogram" ("black is sounded
+out; green is read whole"), ch10's name/spelling/voice chain
+rewired to it, ch12/16/17 prose bridged. Enforced: reading-logo
+lint (caps only inside logo spans, per-line script/translit
+pairing, Akkadian-courses-only) and a nested-span-aware
+TRANSLIT_SPAN; cold_read and deck_export parsers taught to see
+through the marks — deck output byte-identical, which is the
+point: without the parser fix every frame line would have
+silently dropped from its card. Verified by 1200/560 headless
+shots; the loan figure now shows its two languages at a
+glance.
+
+2026-08-09 · review round (Gate 14, ch16 review: reading columns) ·
+phase-14 · Owner: the ch16 law-197 figure "ugly/unbalanced."
+The one-visual-line fix had made each reading-line its own
+grid, so the max-content script column differed per row and
+translit/gloss started at a different x on every line. Fix
+(style.css): the figure's .reading-lines is the single grid,
+lines contribute cells via display:contents — script column
+sized once by the widest line, all rows share tracks; scroll
+and mobile stacking unchanged. Commit 18cbc51.
+
 2026-08-08 · review round (Gate 14, reading-line alignment) ·
 phase-14 · Owner: ch16's readings "not properly aligned to the
 cuneiform lines they sound." Root cause, found by FINALLY

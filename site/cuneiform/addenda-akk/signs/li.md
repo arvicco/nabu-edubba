@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "LI"
-reads: "[li]"
+reads: "[li/le]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -27,7 +27,11 @@ stretch will read).
 
 A **juniper** is a modest tree with berries in everything —
 gin, stews, incense. The sign is the same: modest shape, spread
-through the whole corpus one *li* at a time.
+through the whole corpus one *li* at a time. Its e-colored
+twin *le* rides the same bracket, and first walks in
+<a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>:
+<span class="norm">lē'ûm</span>, "the capable," the epilogue's
+word for its able king.
 
 ## In the wild
 

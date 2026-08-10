@@ -56,12 +56,11 @@ ordinariness is the point. This is what most cuneiform IS.
           shows her Sumerian name. She dates this tablet</td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒆠</td><td>KI</td><td>place</td><td>[ki]</td>
+      <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[ṣa]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-121A0' | relative_url }}">101's place-sign</a>
-          crosses as a plain syllable (<em>ki-nu-ni</em>) — and
-          keeps its old Sumerian self for the formulary's
-          "from," as you are about to see</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/13-you-are/#sign-1235D' | relative_url }}">102's bead-sign</a>
+          pressed to ṣa: <em>u-ṣa-ab</em>, "it will grow" — the
+          interest line's own syllable</td>
     </tr>
   </tbody>
 </table>
@@ -70,17 +69,17 @@ ordinariness is the point. This is what most cuneiform IS.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒁹 𒈠𒈾 𒆬𒌓</span><span class="translit">1(diš) ma-na KU₃.BABBAR</span><span class="gloss"><span class="norm">1 mana kaspim</span> — "One mina of silver,"</span></div>
-    <div class="reading-line"><span class="script">𒈧 𒁹 𒈠𒈾 ▢ 𒂆</span><span class="translit">MAŠ₂ 1(diš) ma-na ▢ GIN₂</span><span class="gloss"><span class="norm">…</span> — "its interest: on the mina, a third of a shekel —"</span></div>
+    <div class="reading-line"><span class="script">𒁹 𒈠𒈾 <span class="logo">𒆬𒌓</span></span><span class="translit">1(diš) ma-na <span class="logo">KASPIM</span></span><span class="gloss"><span class="norm">1 mana kaspim</span> — "One mina of silver,"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈧</span> 𒁹 𒈠𒈾 ▢ <span class="logo">𒂆</span></span><span class="translit"><span class="logo">MAŠ₂</span> 1(diš) ma-na ▢ <span class="logo">GIN₂</span></span><span class="gloss"><span class="norm">…</span> — "its interest: on the mina, a third of a shekel —"</span></div>
     <div class="reading-line"><span class="script">𒌑𒍝𒀊</span><span class="translit">u-ṣa-ab</span><span class="gloss"><span class="norm">uṣṣab</span> — "it will grow."</span></div>
-    <div class="reading-line"><span class="script">𒆠 𒍝𒀊𒈝</span><span class="translit">KI za-ab-lum</span><span class="gloss">"From Zablum,"</span></div>
-    <div class="reading-line"><span class="script">𒁹𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit">{diš}{d}suen-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "Sîn-is-my-support (approx.),"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆠</span> 𒍝𒀊𒈝</span><span class="translit"><span class="logo">KI</span> za-ab-lum</span><span class="gloss">"From Zablum,"</span></div>
+    <div class="reading-line"><span class="script">𒁹𒀭<span class="logo">𒂗𒍪</span>𒄿𒈪𒋾</span><span class="translit">{diš}{d}<span class="logo">SUEN</span>-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "Sîn-is-my-support (approx.),"</span></div>
     <div class="reading-line"><span class="script">𒊭 𒄿𒈾 𒊭𒅁𒁲𒄿</span><span class="translit">ša i-na ša-ib-di-i</span><span class="gloss"><span class="norm">ša ina Ša-ibdî</span> — "who in (the village of) Ša-ibdî…"</span></div>
     <div class="reading-line"><span class="script">𒉿𒀸𒁍</span><span class="translit">wa-aš-bu</span><span class="gloss"><span class="norm">wašbu</span> — "…dwells,"</span></div>
-    <div class="reading-line"><span class="script">𒆬𒌓 𒋗 𒁀𒀭𒋾</span><span class="translit">KU₃.BABBAR ŠU BA.AN.TI</span><span class="gloss">"the silver has received."</span></div>
-    <div class="reading-line"><span class="script">𒌓 𒆠𒉡𒉌</span><span class="translit">U₄ ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span> — "On the day of the brazier-festival"</span></div>
-    <div class="reading-line"><span class="script">𒆬𒌓 𒅇 𒈧𒁉</span><span class="translit">KU₃.BABBAR u MAŠ₂.BI</span><span class="gloss">"the silver and its interest"</span></div>
-    <div class="reading-line"><span class="script">𒉌𒇲𒂊</span><span class="translit">I₃.LA₂.E</span><span class="gloss">"he shall weigh out."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> <span class="logo">𒋗 𒁀𒀭𒋾</span></span><span class="translit"><span class="logo">KASPAM</span> <span class="logo">ŠU BA-AN-TI</span></span><span class="gloss">"the silver has received."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒌓</span> 𒆠𒉡𒉌</span><span class="translit"><span class="logo">ŪM</span> ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span> — "On the day of the brazier-festival"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒆬𒌓</span> 𒅇 <span class="logo">𒈧𒁉</span></span><span class="translit"><span class="logo">KASPAM</span> u <span class="logo">MAŠ₂-BI</span></span><span class="gloss">"the silver and its interest"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒉌𒇲𒂊</span></span><span class="translit"><span class="logo">I₃-LA₂-E</span></span><span class="gloss">"he shall weigh out."</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse —
@@ -92,7 +91,7 @@ ordinariness is the point. This is what most cuneiform IS.
 
 Item by item — and watch the languages:
 
-- <span class="norm">1 mana KU₃.BABBAR</span> — "one mina of
+- <span class="norm">1 mana kaspim</span> — "one mina of
   silver": the silver-word is
   <a href="{{ '/cuneiform/102/07-i-am-king/#sign-121AC' | relative_url }}">102's</a>
   pure-metal compound crossing whole — written KU₃.BABBAR,
@@ -108,7 +107,7 @@ Item by item — and watch the languages:
   the borrower, pinned to his village. The verb wears a quiet
   final -u that verbs take inside a ša-clause — the grammars'
   subjunctive; met here, named, and left for the frontier.
-- <span class="norm">KI … ŠU BA.AN.TI</span> — "from Zablum …
+- <span class="norm">KI … ŠU BA-AN-TI</span> — "from Zablum …
   he has received": and this is not Akkadian. The frame of the
   contract is SUMERIAN — the notary's formulary, five hundred
   years senior to the borrower —
@@ -119,7 +118,7 @@ Item by item — and watch the languages:
 - <span class="norm">ūm kinūni</span> — the deadline: the
   midwinter brazier-festival, when the braziers are lit. No
   calendar dates; the year turns by festivals.
-- <span class="norm">I₃.LA₂.E</span> — "he shall weigh out":
+- <span class="norm">I₃-LA₂-E</span> — "he shall weigh out":
   Sumerian again, the formulary's twin of the laws'
   <a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">išaqqal</a>
   — two languages, one balance-pan.
@@ -128,10 +127,10 @@ Item by item — and watch the languages:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈬 𒂍 𒀭𒈹</span><span class="translit">MU E₂ {d}INANNA</span><span class="gloss">"Year: the temple of Inanna"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈬 𒂍 𒀭𒈹</span></span><span class="translit"><span class="logo">MU E₂ {d}INANNA</span></span><span class="gloss">"Year: the temple of Inanna"</span></div>
     <div class="reading-line"><span class="script">𒅎𒈨𒊒𒌝 𒄿𒁍𒋗</span><span class="translit">im-me-ru-um i-pu-šu</span><span class="gloss"><span class="norm">Immerum īpušu</span> — "Immerum built."</span></div>
-    <div class="reading-line"><span class="script">𒅆 𒀭𒂗𒍪𒅖𒈨𒀀𒉌</span><span class="translit">IGI {d}suen-iš-me-a-ni</span><span class="gloss"><span class="norm">Sîn-išmeanni</span> — "Before Sîn-heard-me (approx.),"</span></div>
-    <div class="reading-line"><span class="script">𒅆 𒀭𒂗𒍪𒄿𒈪𒋾</span><span class="translit">IGI {d}suen-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "before Sîn-is-my-support (approx.)."</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭<span class="logo">𒂗𒍪</span>𒅖𒈨𒀀𒉌</span><span class="translit"><span class="logo">IGI</span> {d}<span class="logo">SUEN</span>-iš-me-a-ni</span><span class="gloss"><span class="norm">Sîn-išmeanni</span> — "Before Sîn-heard-me (approx.),"</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒅆</span> 𒀭<span class="logo">𒂗𒍪</span>𒄿𒈪𒋾</span><span class="translit"><span class="logo">IGI</span> {d}<span class="logo">SUEN</span>-i-mi-ti</span><span class="gloss"><span class="norm">Sîn-imittī</span> — "before Sîn-is-my-support (approx.)."</span></div>
   </div>
   <figcaption class="citation">
     PBS 8/2, 195, reverse (selection — seven witnesses in all).
@@ -167,13 +166,17 @@ Item by item — and watch the languages:
 Step back and look at what you just read. The LIFE of the
 document is Akkadian — the growing interest, the borrower and
 his village, the festival. The FRAME is Sumerian — KI, ŠU
-BA.AN.TI, I₃.LA₂.E, MU — a notary's formulary already five
+BA-AN-TI, I₃-LA₂-E, MU — a notary's formulary already five
 centuries old, kept exactly as
 <a href="{{ '/cuneiform/102/00-orientation/' | relative_url }}">102</a>
 taught it to you, long after Sumerian left the streets. Dead
 languages keep working: ask any diploma written in Latin. You
-now read both layers, and can tell — sign by sign — which is
-which.
+now read both layers, and the green tells you — sign by sign —
+which is which: where the capitals are Akkadian
+(<span class="logo">KASPIM</span>, <span class="logo">ŪM</span>),
+a sumerogram is being voiced; where they are Sumerian
+(<span class="logo">ŠU BA-AN-TI</span>), the old formulary
+itself holds the pen.
 
 ## Drill before you go on
 
@@ -189,5 +192,5 @@ which.
    name each verb's language and tense.
 5. Date this tablet aloud, the scribes' way.
 
-*Next: one room holds the whole course — the king's own
-invitation to read, and every sign you own on one page.*
+*Next: the king himself, near the stele's end, invites you —
+by name, almost — to read.*

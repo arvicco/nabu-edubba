@@ -31,7 +31,7 @@ body, the bone.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒋳𒈠 𒄊𒉻𒁺 𒀀𒉿𒅆</span><span class="translit">šum-ma GIR₃.PAD.RA₂ a-wi-lim</span><span class="gloss"><span class="norm">šumma eṣemti awīlim</span>, "if the bone of a man…" — the bone law opens</span></div>
+    <div class="reading-line"><span class="script">𒋳𒈠 <span class="logo">𒄊𒉻𒁺</span> 𒀀𒉿𒅆</span><span class="translit">šum-ma <span class="logo">EṢEMTI</span> a-wi-lim</span><span class="gloss"><span class="norm">šumma eṣemti awīlim</span>, "if the bone of a man…" — the bone law opens</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 197.

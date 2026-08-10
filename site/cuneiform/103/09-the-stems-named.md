@@ -199,7 +199,7 @@ today, and both end on the hoe:
 And the Š stem's specimen is a whole sentence from a real letter
 — every sign taught, and worth the wait:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒋫𒊏𒄠𒈠𒀭𒉌 𒋗𒁉𒇴</span><span class="translit">šum-ma ta-ra-am-ma-an-ni šu-bi-lam</span><span class="gloss"><span class="norm">šumma tarammanni šūbilam</span> — "if you love me, send it to me!"</span></div>
   </div>

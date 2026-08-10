@@ -32,7 +32,7 @@ only its language. Where Sumerian said *lugal*, Babylon says
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒈗 𒀭𒀀𒉣𒈾𒆠</span><span class="translit">LUGAL {d}a-nun-na-ki</span><span class="gloss"><span class="norm">šar Anunnakī</span>, "king of the Anunnaki" — the sumerogram in the construct, governing the gods' family name</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒈗</span> 𒀭𒀀𒉣𒈾𒆠</span><span class="translit"><span class="logo">ŠAR</span> {d}a-nun-na-ki</span><span class="gloss"><span class="norm">šar Anunnakī</span>, "king of the Anunnaki" — the sumerogram in the construct, governing the gods' family name</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

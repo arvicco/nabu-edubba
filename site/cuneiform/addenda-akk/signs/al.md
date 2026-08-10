@@ -32,7 +32,7 @@ both close on the hoe. Slow, repeated, thorough work.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒂍𒍪 𒄿𒋰𒁀𒀠</span><span class="translit">E₂-su i-tab-ba-al</span><span class="gloss"><span class="norm">bīssu itabbal</span>, "he shall carry off his house" — the accuser's reward in law 2, closing on the hoe</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒂍</span>𒍪 𒄿𒋰𒁀𒀠</span><span class="translit"><span class="logo">BĪT</span>-su i-tab-ba-al</span><span class="gloss"><span class="norm">bīssu itabbal</span>, "he shall carry off his house" — the accuser's reward in law 2, closing on the hoe</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), law 2.

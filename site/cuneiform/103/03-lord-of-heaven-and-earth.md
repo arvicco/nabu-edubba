@@ -46,11 +46,12 @@ stele's opening is built out of it.
           <span class="norm">bēl</span></td>
     </tr>
     <tr>
-      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at]</td>
+      <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at/aṭ]</td>
       <td>father</td>
       <td>the picture is a father in the oldest lists; the sound
           will close <em>ši-ma-at</em>, "destinies," four lines
-          from now</td>
+          from now — one sign for the whole dental row, its
+          pressed aṭ reporting when it is met</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[ši]</td>
@@ -100,7 +101,7 @@ yours; read aloud, joint by joint:
     <div class="reading-line"><span class="script">𒁁𒂖 𒊭𒈨𒂊</span><span class="translit">be-el ša-me-e</span><span class="gloss"><span class="norm">bēl šamê</span>, "lord of heaven" — the construct you just met, on the stone</span></div>
     <div class="reading-line"><span class="script">𒅇 𒅕𒍢𒁴</span><span class="translit">u er-ṣe-tim</span><span class="gloss"><span class="norm">u erṣetim</span>, "and of earth" — <a href="{{ '/cuneiform/103/00-orientation/' | relative_url }}">chapter 00's</a> "and," then earth in the genitive: -tim doing <a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02's</a> work</span></div>
     <div class="reading-line"><span class="script">𒊭𒄿𒅎</span><span class="translit">ša-i-im</span><span class="gloss"><span class="norm">šā'im</span>, "who decrees" — ša opening its other career: "the one who…"</span></div>
-    <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at KALAM</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye-sign as ši, AD closing the construct, and then a pure Sumerian guest: the Land-sign itself, read as Akkadian <span class="norm">mātim</span></span></div>
+    <div class="reading-line"><span class="script">𒅆𒈠𒀜 <span class="logo">𒌧</span></span><span class="translit">ši-ma-at <span class="logo">MĀTIM</span></span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye-sign as ši, AD closing the construct, and then a pure Sumerian guest: the Land-sign itself, read as Akkadian <span class="norm">mātim</span></span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue — Enlil's
@@ -117,6 +118,14 @@ embedded in Akkadian text is called a sumerogram, and this is the
 borrowing's final trick: the old logograms survive inside the new
 language as learned shorthand, the way we still write *etc.* and
 say "and so on."
+
+And the reading lines mark the trick in green, from here to the
+end of the school: wherever signs are spoken as one whole word
+instead of being sounded syllable by syllable, the
+transliteration prints the word your mouth actually says, in
+green capitals — <span class="logo">MĀTIM</span> — and the signs
+that carry it wear the same green. Black is sounded out; green
+is read whole.
 
 <figure class="glyph-exhibit">
   <span class="script">𒅆𒈠𒀜 𒌧</span>

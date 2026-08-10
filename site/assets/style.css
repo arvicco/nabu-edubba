@@ -32,6 +32,7 @@
   --accent-cuneiform: #8a4b2d;   /* terracotta — clay and reed */
   --accent-hieroglyphs: #1f5f8b; /* lapis — faience and Nile */
   --accent-hanzi: #a83232;       /* cinnabar — seal ink */
+  --logogram: #2f6b33;           /* reed green — logogram voice-marking */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +45,7 @@
     --accent-cuneiform: #d08a5f;
     --accent-hieroglyphs: #6fa8d0;
     --accent-hanzi: #d76c6c;
+    --logogram: #8fbb7a;
   }
 }
 
@@ -427,8 +429,22 @@ img, svg { max-width: 100%; }
 .sign-table:not(.sign-table--tail-fit) th:nth-last-child(2),
 .sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 24%; }
 /* Narrow screens: a wide table scrolls inside itself, never
-   bleeding past the page edge (same law as reading figures). */
-.sign-table { display: block; overflow-x: auto; }
+   bleeding past the page edge (same law as reading figures).
+   A scroll container CLIPS: overflow-x forces the other axis to
+   clip too (CSS spec), so a hover bubble can never escape the
+   box. Every scroll container hosting sign-links therefore
+   reserves bubble headroom above its first line — padding pulled
+   back by an equal negative margin, so the clip box grows while
+   the layout stays put — and pins its bubbles to the glyph's
+   left edge (see the .sign-tip section). Owner report
+   2026-08-09: half-invisible tooltip. test/style_guard_test.rb
+   enforces this pairing for every overflow rule in this sheet. */
+.sign-table {
+  display: block;
+  overflow-x: auto;
+  padding-top: 5.5rem;
+  margin-top: calc(1rem - 5.5rem);   /* margin-block 1rem, pulled back */
+}
 .sign-table--tail-fit th:last-child,
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }
@@ -528,23 +544,60 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
 /* One tablet line is ONE visual line of script (rulebook §5):
    the script column takes its content's width and never wraps;
    a long line scrolls inside the figure, never folding into
-   false extra lines beside an unwrapped transliteration. */
-.reading--script .reading-lines { overflow-x: auto; }
-
-.reading--script .reading-line {
-  grid-template-columns: max-content minmax(9rem, 1.1fr) minmax(12rem, 1.4fr);
+   false extra lines beside an unwrapped transliteration.
+   The whole figure is ONE grid (lines contribute cells via
+   display: contents), so the script column is sized by the
+   widest line and translit/gloss align across all rows. */
+/* Column math (the reading-width lint enforces it, script/lint.rb):
+   measure 44rem − figure padding 2.5rem − border ≈ 41.3rem of
+   content; minus 2×1rem gaps and the 8rem + 11rem text floors
+   leaves 20.3rem for the script column — 14.5em at the 1.4rem
+   script size. A figure whose widest line exceeds that budget
+   must declare reading--stacked below — three columns may never
+   cut text at the measure. */
+.reading--script .reading-lines {
+  display: grid;
+  grid-template-columns: max-content minmax(8rem, 1.1fr) minmax(11rem, 1.4fr);
+  gap: 0.4rem 1rem;
   align-items: baseline;
+  overflow-x: auto;
+  /* bubble headroom: a scroll container clips both axes (see the
+     .sign-table comment) — grow the clip box, not the layout */
+  padding-top: 5.5rem;
+  margin-top: -5.5rem;
 }
 
+/* Stacked variant for over-budget lines: the voice sits UNDER its
+   script, both full width — text is never cut, and only a truly
+   measure-wide script line ever scrolls (§5: inside the figure). */
+.reading--stacked .reading-lines { display: block; }
+.reading--stacked .reading-line { display: block; padding-block: 0.5rem; }
+.reading--stacked .reading-line > span { display: block; }
+
+.reading--script .reading-line { display: contents; }
+
+/* Logogram voice-marking (cuneiform rulebook §9, ruled 2026-08-09):
+   green binds a stretch of signs read as a whole word to the
+   capitals that speak it — same class on the glyphs and on the
+   voice, so the reader sees which signs break out of the
+   syllabic sequence. Color inherits through sign-links. */
+.logo { color: var(--logogram); }
+
 .reading--script .script {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.3;
   white-space: nowrap;
 }
 
 @media (max-width: 480px) {
-  .reading-line, .reading--script .reading-line { grid-template-columns: 1fr; }
+  .reading-line { grid-template-columns: 1fr; }
   .reading-line .gloss { padding-left: 1rem; }
+}
+
+/* Below the full measure the three-column budget can't hold:
+   script readings stack (same guarantee as reading--stacked). */
+@media (max-width: 44rem) {
+  .reading--script .reading-lines { grid-template-columns: 1fr; }
 }
 
 /* Course pages carry their school's accent (landing cards already do) */
@@ -576,8 +629,13 @@ sub { font-size: 0.72em; line-height: 0; }
 a.sign-link { text-decoration: none; color: inherit; position: relative; }
 a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
 
-/* Hover bubble: sign name · readings · meaning (pure CSS, no JS) */
+/* Hover bubble: sign name · readings · meaning (pure CSS, no JS).
+   Hidden bubbles must take NO geometry: display, not visibility —
+   a visibility-hidden bubble still contributes its box to a scroll
+   container's scrollable width (phantom sideways scroll, owner
+   report 2026-08-09). */
 .sign-tip {
+  display: none;
   position: absolute;
   left: 50%;
   bottom: calc(100% + 0.45em);
@@ -603,7 +661,6 @@ a.sign-link:hover { text-decoration: underline dotted; text-underline-offset: 0.
   line-height: 1.4;
   text-align: center;
   white-space: normal;
-  visibility: hidden;
   opacity: 0;
   transition: opacity 0.12s ease-in 0.08s;
   pointer-events: none;
@@ -613,8 +670,26 @@ a.sign-link:hover .sign-tip,
 a.sign-link:focus-visible .sign-tip,
 a.term:hover .sign-tip,
 a.term:focus-visible .sign-tip {
-  visibility: visible;
+  display: block;
   opacity: 1;
+}
+/* Fade-in across the display flip where supported; elsewhere the
+   bubble simply appears (the 0.08s delay still guards sweeps). */
+@starting-style {
+  a.sign-link:hover .sign-tip,
+  a.sign-link:focus-visible .sign-tip,
+  a.term:hover .sign-tip,
+  a.term:focus-visible .sign-tip { opacity: 0; }
+}
+
+/* Inside a scroll container the bubble may not cross the box's
+   left rim: pin it to its glyph's left edge (headroom above is
+   reserved by the container — see the .sign-table comment). */
+.sign-table .sign-tip,
+.reading--script .sign-tip {
+  left: 0;
+  transform: none;
+  text-align: left;
 }
 
 /* Glossary terms: dotted underline, bubble on hover, link to /terms/ */

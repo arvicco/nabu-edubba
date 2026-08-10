@@ -163,7 +163,7 @@ line runs the full titulary of king Šulgi — the formula you now know,
 embedded in the middle of bookkeeping, opened by your new sign *mu*,
 "year":
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒈬 𒀭▢▢ ▢▢ 𒈗▢𒆠 𒈗𒀭▢▢▢▢▢ …</span><span class="translit atf">mu {d}szul-gi [nita] kal-ga# lugal uri5#{ki#} lugal an-ub-da limmu2-ba-ke4 ...</span><span class="gloss">Year: (when) Šulgi, mighty man, king of Ur, king of the four quarters, …</span></div>
   </div>
