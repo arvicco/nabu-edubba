@@ -5,6 +5,21 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M16-7 · phase-16 · ch09 · The master's opening —
+者其亦于乎, all loans, the connective tissue completed: 6.23 at
+its FIFTH visit (only "delights" boxed, twice), Analects 1.1's
+first two questions read under cap (the grammar audible, the
+content words boxed — the stretch's thesis in one figure), the
+Laozi-25 page yielding its FOURTH fragment (王▢其一, closing the
+count begun on the course's first page), and the Peach Tree's
+之子于▢. The gate earned its keep three times in one chapter:
+樂/居/歸 shipped unboxed against my own glosses (untaught-sign +
+shows-in-reading), a gloss carried raw untaught Han (de-Hanned to
+pinyin), and the bridal couplet measured exactly 50% against the
+45% cap (box-share lint) — trimmed to its refrain. Codex ×5 same
+commit. Stretch 2 content complete: 55 characters, 20.9% of the
+classical corpus — one character in five.
+
 2026-08-10 · M16-6 · phase-16 · ch08 · Stopping at true — 止正是夕名:
 the footprint chain (止→正→是, every part owned before the chain
 began — the SVG walks it), 名's evening story, the rectification

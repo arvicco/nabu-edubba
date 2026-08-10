@@ -702,6 +702,91 @@ signs:
   - 口
   note: 'rank 69; evening plus mouth — in the dark you cannot be seen, so you say
     your name: the received story, and a good one.'
+- char: 者
+  glyph: 者
+  name: zhe
+  codepoint: '8005'
+  keyword: who
+  pinyin: zhě
+  meaning: the one who — turns a verb into its doer
+  category: loan
+  certainty: unclear
+  strokes: 8
+  ids: "⿱耂日"
+  rank: 10
+  count_kanripo: 5209634
+  docs: 5024
+  chapter: 9
+  note: rank 10; the old picture is disputed (the graph shows something over a mouth-like
+    box); its classical work is pure grammar — X 者, "the one who X-es."
+- char: 其
+  glyph: 其
+  name: qi
+  codepoint: '5176'
+  keyword: its
+  pinyin: qí
+  meaning: his, her, its, their
+  category: loan
+  certainty: classic
+  strokes: 8
+  ids: "⿱{94}八"
+  rank: 6
+  count_kanripo: 6296920
+  docs: 5013
+  chapter: 9
+  note: rank 6; the classic borrowed winnowing-basket — the basket later took a new
+    character, the pronoun kept this one.
+- char: 亦
+  glyph: 亦
+  name: yi-also
+  codepoint: 4EA6
+  keyword: also
+  pinyin: yì
+  meaning: also, likewise — the classical 'too'
+  category: loan
+  certainty: stated
+  strokes: 6
+  ids: "⿱亠⿻⿰丿亅八"
+  rank: 61
+  count_kanripo: 1588447
+  docs: 4796
+  chapter: 9
+  note: rank 61; a person with two marks under the arms — "armpits," by the received
+    account — borrowed whole for "also."
+- char: 于
+  glyph: 于
+  name: yu
+  codepoint: 4E8E
+  keyword: at
+  pinyin: yú
+  meaning: at, to, toward — the old preposition
+  category: loan
+  certainty: unclear
+  strokes: 3
+  ids: "⿱一\U0002CEB0"
+  rank: 75
+  count_kanripo: 1442527
+  docs: 4185
+  chapter: 9
+  note: rank 75; origin disputed; the annals' and Songs' preposition of place and
+    direction.
+- char: 乎
+  glyph: 乎
+  name: hu
+  codepoint: 4E4E
+  keyword: really
+  pinyin: hū
+  meaning: the question-breath that ends classical questions
+  category: loan
+  certainty: stated
+  strokes: 5
+  ids: "⿻\U0002008C丷"
+  rank: 136
+  count_kanripo: 957821
+  docs: 4374
+  chapter: 9
+  note: rank 136; a rising breath-mark by the received account — the spoken lift at
+    the end of "…is it not?"
 - char: 明
   glyph: 明
   name: ming
@@ -980,3 +1065,11 @@ batches:
   - 夕
   - 名
   coverage_pct: 18.8
+- chapter: 9
+  signs:
+  - 者
+  - 其
+  - 亦
+  - 于
+  - 乎
+  coverage_pct: 20.9

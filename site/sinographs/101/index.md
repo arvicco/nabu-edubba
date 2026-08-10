@@ -39,6 +39,7 @@ modern languages too, because the characters are the same.
   <li><a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">Knowing and walking</a> — the arrow of knowing, the borrowed beard, speech</li>
   <li><a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">Doing and being</a> — the elephant, the dancer, the halberd; wu wei opens</li>
   <li><a href="{{ '/sinographs/101/08-stopping-at-true/' | relative_url }}">Stopping at true</a> — the footprint chain to "this"; names set upright</li>
+  <li><a href="{{ '/sinographs/101/09-the-masters-opening/' | relative_url }}">The master's opening</a> — who, its, also, really: the first sentence in reach</li>
 </ol>
 
 The course is opening; chapters appear here as they are written.
