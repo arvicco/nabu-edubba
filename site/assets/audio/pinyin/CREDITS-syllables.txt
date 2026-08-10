@@ -14,6 +14,7 @@ ben.mp3        — "Zh-běn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 bu.mp3         — "Zh-bù.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 da.mp3         — "Zh-dà.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dan.mp3        — "Zh-dàn.ogg" · Yue Tan · CC BY-SA 3.0 us
+dao.mp3        — "Zh-dào.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ding.mp3       — "LL-Q9192 (cmn)-Fake_estate-丁.wav" · Speaker: Fake estate
 Recorder: Fake estate · CC BY-SA 4.0
 er.mp3         — "Zh-èr.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -22,6 +23,7 @@ fa.mp3         — "Zh-fā.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ge.mp3         — "Zh-gē.oga" · Yue Tan · CC BY-SA 3.0 us
 hao.mp3        — "Zh-hǎo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hu.mp3         — "Zh-hūrán.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+jian.mp3       — "Zh-jiàn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ke.mp3         — "Zh-kě.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 kou.mp3        — "Zh-kǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 lai.mp3        — "Zh-lái.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -41,6 +43,7 @@ sheng.mp3      — "Zh-shēng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi.mp3        — "Zh-shí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi-arrow.mp3  — "Mandarin Chinese pronunciation-矢.wav" · Jiāgěng Liú · CC BY-SA 4.0
 shi-this.mp3   — "Zh-shì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+shou.mp3       — "Zh-shǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shui.mp3       — "Zh-shuǐ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 si.mp3         — "Zh-sì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ta.mp3         — "Zh-tà.ogg" · Yue Tan · CC BY-SA 3.0 us
@@ -55,6 +58,7 @@ wu.mp3         — "Zh-wú.ogg" · Yue Tan · CC BY-SA 3.0 us
 wu-five.mp3    — "Zh-wǔ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xi.mp3         — "Zh-xī.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xia.mp3        — "Zh-xià.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+xiang.mp3      — "Zh-xiāng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xin.mp3        — "Zh-xīn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xing.mp3       — "LL-Q9192 (cmn)-Jouketou-行.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0

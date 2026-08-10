@@ -725,3 +725,57 @@ signs:
     note: >-
       rank 73; one over white — bái lends its sound, the stroke
       counts the tally.
+  - char: 目
+    chapter: 12
+    keyword: eye
+    pinyin: mù
+    meaning: "eye"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 433 — pinned as the component 見 and 相 need; an eye
+      turned upright, iris in the middle.
+  - char: 見
+    chapter: 12
+    keyword: see
+    pinyin: jiàn
+    meaning: "to see; to appear, to visit"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["目", "人"]
+    note: >-
+      rank 58; an eye set on human legs (儿 is 人's running form)
+      — the whole person reduced to the act of seeing.
+  - char: 相
+    chapter: 12
+    keyword: mutual
+    pinyin: xiāng
+    meaning: "mutually, each other; to inspect"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["木", "目"]
+    note: >-
+      rank 65; an eye examining a tree — the forester's appraisal
+      became "regarding one another".
+  - char: 首
+    chapter: 12
+    keyword: head
+    pinyin: shǒu
+    meaning: "head; chief, first"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 283 — pinned as the component 道 needs; a head with
+      hair still on it, face turned to profile.
+  - char: 道
+    chapter: 12
+    keyword: way
+    pinyin: dào
+    meaning: "way, road; the Way; to guide"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["首"]
+    note: >-
+      rank 55; a head moving under the walking radical 辶 — a
+      person going down a road; the word the classics made
+      cosmic.
