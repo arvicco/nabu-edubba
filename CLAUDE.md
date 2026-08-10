@@ -171,26 +171,18 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 15 — wave 3 opened: the sinograph school (rulings
-2026-08-09/10: name "sinographs", classical-first thesis,
-pinyin voice with tone diacritics never indices, per-character
-keyword law, traditional-forms base, characters-display-bigger
-size law, Shuowen glyph fallback). Shipped: rulebook, site
-rename (/hanzi/ redirect), Kanripo frequency instrument
-(721.8M tokens), Noto Serif TC via the subset pipeline,
-pinyin-display/reading-width/size-law checks, S101 ch00–04
-(15 characters, 6.5% coverage, 8 real readings), Character
-Codex opened (§8, ren/da/tian). Gate 15 PR pending; M15-5
-codex backfill next.
+Phase 16 — S101 stretch 2 (owner pick 2026-08-10): chapters
+05–09, the borrowed words — the classical particles as the
+jiajie move, 26 fresh characters over five batches, box-share
+cap 45%, ending on Analects 1.1 read under cap. Stretch law in
+rulebook §5; plan in .docs/phase-16-plan.md.
 
-Gate 14 merged 2026-08-09 (C103 Akkadian stretch 3: the course
-closed — perfect + dual, laws 197/200/202, a real Sippar loan
-(PBS 8/2, 195) with the two-languages-one-tablet teaching, the
-king's invitation read whole, ch19 Reference in the full mold,
-79.4% OB coverage; review rounds landed the §9 voice-marking
-green law, value-coverage gate, reading-width law with real
-font metrics, tooltip-escape law, ambient-veterans-never-
-re-enter guard, reads-never-cite lint; D14-b sixteen-value
-debt paid. NOTE: merged in two PRs — #18, then #19 carrying
-twelve review-round commits that missed the first merge).
-Update this line at each gate.
+Gate 15 merged 2026-08-10 (wave 3 opened: the sinograph school —
+rulebook-first laws (pinyin diacritics, keyword, 5–6 chapter
+dial, components-before-compounds, box-share ≤50% declining,
+size law, always-stacked readings), Kanripo frequency instrument
+(721.8M tokens), S101 ch00–04 (29 chars, 8.0%, all four moves),
+29-page Character Codex with live shelf check, sign-linker +
+codex routing, Pinyin primer with twenty license-verified,
+pitch-verified audio samples; PR #20, eight review rounds each
+landing a law + mechanical check). Update this line at each gate.
