@@ -3,9 +3,11 @@
 # by hand; the gate fails if site/ uses a sinographs codepoint not
 # listed here.
 4E00
+4E09
 4E8C
 4EBA
 56D7
+56DB
 5927
 5929
 5B57

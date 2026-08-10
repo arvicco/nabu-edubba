@@ -5,6 +5,19 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 ch02 · phase-15 · 02 · One stroke, two strokes,
+three — 一/二/三 as the purest indicatives ("point at it"), the
+stroke inventory and the three ordering rules, stroke order argued
+as information (running hands, dictionary filing), 四 shown as the
+pattern-breaker that tells the system's story in miniature.
+Figure: numbered stroke-order build of ch00's 大. Readings: Laozi
+42's counting cascade (KR5c0057:042, stacked — the repeated boxed
+生 planted for later) and Analects 7.22 三人行 (KR1h0004:007:26a,
+the real punctuated Analects). Gate catch: "chapter 00" mentioned
+in a figcaption without its link (chapter-link lint) — linked.
+Coverage after three batches: 4.1% of the classical corpus on
+nine characters.
+
 2026-08-10 · M15-4 ch01 · phase-15 · 01 · How a character can mean
 — 日/月/明 taught (sun, moon, bright: the compound demo the chapter
 IS), the four moves (draw / point / combine / borrow-a-sound) with

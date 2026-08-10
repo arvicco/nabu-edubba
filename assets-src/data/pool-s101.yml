@@ -82,3 +82,32 @@ signs:
       the proof that characters are built from characters. Pulled a
       few ranks ahead of its strict seat to land in the chapter
       that needs it (its two halves are taught the same page).
+  - char: 一
+    chapter: 2
+    keyword: one
+    pinyin: yī
+    meaning: one; whole, unified
+    category: indicative
+    certainty: classic
+    note: >-
+      rank 11; one stroke for one — the purest "point at it"
+      character, and the single most-written stroke of the script.
+  - char: 二
+    chapter: 2
+    keyword: two
+    pinyin: èr
+    meaning: two
+    category: indicative
+    certainty: classic
+    note: rank 19; two strokes, the upper slightly shorter.
+  - char: 三
+    chapter: 2
+    keyword: three
+    pinyin: sān
+    meaning: three; several
+    category: indicative
+    certainty: classic
+    note: >-
+      rank 20; three strokes, middle shortest — and the end of the
+      pattern: four breaks it, which is the chapter's own joke and
+      lesson (shown, not taught).

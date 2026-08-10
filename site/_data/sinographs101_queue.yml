@@ -97,6 +97,50 @@ signs:
   note: rank 62; sun beside moon — the textbook meaning-compound, and the proof that
     characters are built from characters. Pulled a few ranks ahead of its strict seat
     to land in the chapter that needs it (its two halves are taught the same page).
+- char: 一
+  codepoint: 4E00
+  keyword: one
+  pinyin: yī
+  meaning: one; whole, unified
+  category: indicative
+  certainty: classic
+  strokes: 1
+  ids: 一
+  rank: 11
+  count_kanripo: 4928405
+  docs: 5103
+  chapter: 2
+  note: rank 11; one stroke for one — the purest "point at it" character, and the
+    single most-written stroke of the script.
+- char: 二
+  codepoint: 4E8C
+  keyword: two
+  pinyin: èr
+  meaning: two
+  category: indicative
+  certainty: classic
+  strokes: 2
+  ids: "⿱一一"
+  rank: 19
+  count_kanripo: 3150948
+  docs: 5039
+  chapter: 2
+  note: rank 19; two strokes, the upper slightly shorter.
+- char: 三
+  codepoint: 4E09
+  keyword: three
+  pinyin: sān
+  meaning: three; several
+  category: indicative
+  certainty: classic
+  strokes: 3
+  ids: 三
+  rank: 20
+  count_kanripo: 3128820
+  docs: 5097
+  chapter: 2
+  note: 'rank 20; three strokes, middle shortest — and the end of the pattern: four
+    breaks it, which is the chapter''s own joke and lesson (shown, not taught).'
 batches:
 - chapter: 0
   signs:
@@ -110,3 +154,9 @@ batches:
   - 月
   - 明
   coverage_pct: 2.5
+- chapter: 2
+  signs:
+  - 一
+  - 二
+  - 三
+  coverage_pct: 4.1
