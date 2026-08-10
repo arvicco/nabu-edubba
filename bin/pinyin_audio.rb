@@ -64,11 +64,12 @@ module Edubba
       trim = (track.length * 0.15).floor
       core = track[trim...(track.length - trim)]
       core = track if core.nil? || core.length < 3
-      # Fricative onsets and creak track at wild frequencies; keep
-      # only frames near the global median register (the voice).
-      med_all = core.sort[core.length / 2].to_f
-      voiced = core.select { |f| f.between?(med_all * 0.6, med_all * 1.5) }
-      core = voiced if voiced.length >= 3
+      # Fricatives and creak track at wild, jumpy frequencies; the
+      # vowel is the longest SMOOTH run (each step within 10%).
+      # Measure the tone there.
+      runs = core.slice_when { |a, b| (b - a).abs > a * 0.10 }.to_a
+      best = runs.max_by(&:length)
+      core = best if best && best.length >= 4
       third = [1, core.length / 3].max
       med = ->(a) { s = a.sort; s[s.length / 2] }
       { a: med.call(core.first(third)).to_f,

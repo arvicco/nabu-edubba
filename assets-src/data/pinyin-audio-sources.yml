@@ -9,6 +9,7 @@
 # (date-stamped), kept visible in every pipeline report.
 
 sources:
+  yue-say:   {file: "LL-Q9192 (cmn)-Jouketou-约会.wav", syllable: 1, of: 2, pinyin: "yuē"}   # 曰's syllable, from 約會
   ren:       {file: "Zh-rén.ogg"}
   da:        {file: "Zh-dà.ogg"}
   tian:      {file: "Zh-tiān.ogg"}
@@ -29,7 +30,7 @@ sources:
   zi:        {file: "Zh-zǐ.oga"}
   ming:      {file: "Zh-míng.ogg"}
   dan:       {file: "Zh-dàn.ogg"}
-  xiu:       {file: "Zh-xiūxi.ogg", syllable: 1}
+  xiu:       {file: "Zh-xiūxi.ogg", start: 0.19, end: 0.57}   # connected speech; hand-windowed to stop before 息's hiss
   ben:       {file: "Zh-běn.ogg"}
   mo:        {file: "Zh-mò.ogg"}
   wei:       {file: "Zh-wèi.ogg"}
@@ -77,9 +78,6 @@ aliases:
   xi-evening: xi
 
 absent:
-  - slug: yue-say
-    char: 曰
-    note: no clean single- or word-recording found on Commons (2026-08-11)
   - slug: pin
     char: 品
     note: no clean single- or word-recording found on Commons (2026-08-11)
