@@ -5,6 +5,15 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M16-6 · phase-16 · ch08 · Stopping at true — 止正是夕名:
+the footprint chain (止→正→是, every part owned before the chain
+began — the SVG walks it), 名's evening story, the rectification
+of names read from the punctuated Analects itself (名不正，▢言不▢
+at 29%, three chapters' characters meeting in one sentence), the
+Daxue's know-where-to-stop (知止而▢有▢), and the stretch's
+showpiece: Analects 2.17 WHOLE — eleven characters, zero boxes,
+the ch06 promise kept. Codex ×5 same commit. 18.8%.
+
 2026-08-10 · M16-5 · phase-16 · ch07 · Doing and being — 為無我心生:
 the loan move at its grandest (the hand leading the elephant, the
 dancer whose dance moved out — SVG of the dancer becoming 無), 我

@@ -398,6 +398,65 @@ signs:
       rank 53; a sprout rising from the ground-line — the verb of
       the Laozi's whole cosmology (道生一).
 
+  # ch08 — stopping at true
+  - char: 止
+    chapter: 8
+    keyword: stop
+    slug: zhi-stop
+    pinyin: zhǐ
+    meaning: "to stop, to stay; where one rests"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 324; a footprint — toes and heel — the foot at rest.
+      Seeds 正 and, through it, 是.
+  - char: 正
+    chapter: 8
+    keyword: upright
+    pinyin: zhèng
+    meaning: "upright, correct; exactly"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["一", "止"]
+    note: >-
+      rank 87; the foot stopped at the line — arriving exactly
+      where one should: upright, correct.
+  - char: 是
+    chapter: 8
+    keyword: this
+    slug: shi-this
+    pinyin: shì
+    meaning: "this; to be right"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["日", "正"]
+    note: >-
+      rank 30; the sun over the upright foot — what is squarely
+      so, by the received account: this, the very one, right.
+  - char: 夕
+    chapter: 8
+    keyword: evening
+    slug: xi-evening
+    pinyin: xī
+    meaning: "evening, dusk"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 863; the moon-sliver missing one stroke — early moonrise,
+      the day's close. Pinned as 名's component.
+  - char: 名
+    chapter: 8
+    keyword: name
+    slug: ming-name
+    pinyin: míng
+    meaning: "name; to name"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["夕", "口"]
+    note: >-
+      rank 69; evening plus mouth — in the dark you cannot be seen,
+      so you say your name: the received story, and a good one.
+
   # compounds of taught parts
   - char: 明
     chapter: 3

@@ -608,6 +608,100 @@ signs:
   chapter: 7
   note: rank 53; a sprout rising from the ground-line — the verb of the Laozi's whole
     cosmology (道生一).
+- char: 止
+  glyph: 止
+  name: zhi-stop
+  codepoint: 6B62
+  keyword: stop
+  pinyin: zhǐ
+  meaning: to stop, to stay; where one rests
+  category: pictograph
+  certainty: classic
+  strokes: 4
+  ids: "⿽上丨"
+  rank: 324
+  count_kanripo: 459635
+  docs: 4444
+  chapter: 8
+  note: rank 324; a footprint — toes and heel — the foot at rest. Seeds 正 and, through
+    it, 是.
+- char: 正
+  glyph: 正
+  name: zheng
+  codepoint: 6B63
+  keyword: upright
+  pinyin: zhèng
+  meaning: upright, correct; exactly
+  category: compound-ideograph
+  certainty: stated
+  strokes: 5
+  ids: "⿱一止"
+  rank: 87
+  count_kanripo: 1363857
+  docs: 4914
+  chapter: 8
+  parts:
+  - 一
+  - 止
+  note: 'rank 87; the foot stopped at the line — arriving exactly where one should:
+    upright, correct.'
+- char: 是
+  glyph: 是
+  name: shi-this
+  codepoint: 662F
+  keyword: this
+  pinyin: shì
+  meaning: this; to be right
+  category: compound-ideograph
+  certainty: stated
+  strokes: 9
+  ids: "⿱日\U00024D13"
+  rank: 30
+  count_kanripo: 2412052
+  docs: 5006
+  chapter: 8
+  parts:
+  - 日
+  - 正
+  note: 'rank 30; the sun over the upright foot — what is squarely so, by the received
+    account: this, the very one, right.'
+- char: 夕
+  glyph: 夕
+  name: xi-evening
+  codepoint: '5915'
+  keyword: evening
+  pinyin: xī
+  meaning: evening, dusk
+  category: pictograph
+  certainty: classic
+  strokes: 3
+  ids: "⿴\U0002008A丶"
+  rank: 863
+  count_kanripo: 163276
+  docs: 3717
+  chapter: 8
+  note: rank 863; the moon-sliver missing one stroke — early moonrise, the day's close.
+    Pinned as 名's component.
+- char: 名
+  glyph: 名
+  name: ming-name
+  codepoint: 540D
+  keyword: name
+  pinyin: míng
+  meaning: name; to name
+  category: compound-ideograph
+  certainty: stated
+  strokes: 6
+  ids: "⿱夕口"
+  rank: 69
+  count_kanripo: 1472166
+  docs: 4959
+  chapter: 8
+  parts:
+  - 夕
+  - 口
+  note: 'rank 69; evening plus mouth — in the dark you cannot be seen, so you say
+    your name: the received story, and a good one.'
 - char: 明
   glyph: 明
   name: ming
@@ -878,3 +972,11 @@ batches:
   - 心
   - 生
   coverage_pct: 18.0
+- chapter: 8
+  signs:
+  - 止
+  - 正
+  - 是
+  - 夕
+  - 名
+  coverage_pct: 18.8

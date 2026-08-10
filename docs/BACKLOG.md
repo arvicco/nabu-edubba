@@ -807,7 +807,7 @@ same commit as their chapter (shelf check live).
 ## M16-3 · ch05 The busiest words + codex  [tier: top — Fable] [status: done — 之不也又有十, the loan move taught, first ZERO-BOX reading (未之有也), 6 codex pages, coverage 8.0→14.4%] [deps: M16-2]
 ## M16-4 · ch06 Knowing and walking + codex  [tier: top — Fable] [status: done — 矢知而行言, arrow-seeds-know per components-first, the borrowed beard, 人不知而不慍 at one box, 三人行 verb lit, 2.17 teaser; 5 codex pages; 16.2%] [deps: M16-3]
 ## M16-5 · ch07 Doing and being + codex  [tier: top — Fable] [status: done — 為無我心生, the elephant and the dancer, 無為 opened (Laozi 63 at one distinct box), 7.22 fourth visit with 我, 天下▢心; 5 codex pages; 18.0%] [deps: M16-4]
-## M16-6 · ch08 Stopping at true + codex  [tier: top — Fable] [status: ready] [deps: M16-5]
+## M16-6 · ch08 Stopping at true + codex  [tier: top — Fable] [status: done — 止正是夕名, the footprint chain, rectification of names (13.3 in the punctuated Analects), Daxue know-where-to-stop, and the ZERO-BOX 2.17 whole (11 chars); 5 codex pages; 18.8%] [deps: M16-5]
 ## M16-7 · ch09 The master's opening + codex  [tier: top — Fable] [status: ready] [deps: M16-6]
 ## M16-8 · Stitching + surface review + gate PR  [tier: top] [status: ready] [deps: M16-7]
 
