@@ -61,6 +61,10 @@ module Edubba
   module Lint
     PROD_ORIGIN = %r{https?://(www\.)?edubba\.ac}i
     SCRIPT_TAG = /<script\b/i
+    # D17-a (owner-ruled 2026-08-11): the ONE sanctioned script — the
+    # self-contained audio enhancement, included with this exact tag.
+    # Any other <script>, anywhere, is still a violation.
+    SANCTIONED_SCRIPT = %r{\A<script src="\{\{ '/assets/say\.js' \| relative_url \}\}" defer></script>\z}
     ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
 
     TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}m
@@ -129,16 +133,23 @@ module Edubba
     end
 
     def js_assets(site_dir)
-      Dir.glob(File.join(site_dir, "**", "*.js")).map do |path|
+      Dir.glob(File.join(site_dir, "**", "*.js")).filter_map do |path|
+        next if path.end_with?("/assets/say.js") # D17-a: the one sanctioned script
+
         Violation.new(path, "no-js", "JavaScript asset in site sources")
       end
     end
 
-    def check_file(_site_dir, path)
+    def check_file(site_dir, path)
       text = File.read(path, encoding: "UTF-8")
       found = []
-      if SCRIPT_TAG.match?(text)
-        found << Violation.new(path, "no-js", "<script> tag (wave 1 is text-pure)")
+      found.concat(check_say_audio(site_dir, path, text))
+      text.scan(/<script\b[^>]*>(?:<\/script>)?/i) do |tag|
+        next if SANCTIONED_SCRIPT.match?(tag) && !path.end_with?(".md")
+
+        found << Violation.new(path, "no-js",
+                               "<script> tag (text-pure law; the only sanctioned script is the " \
+                               "say.js enhancement include in the layout — D17-a)")
       end
       if PROD_ORIGIN.match?(text)
         found << Violation.new(path, "relative-links", "hard-coded production origin")
@@ -497,6 +508,42 @@ module Edubba
 
       [Violation.new(path, "codex-reads",
                      "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
+    end
+
+    # say-audio (sinographs rulebook §2; owner report 2026-08-11 —
+    # pǐn shipped silent): in a sign-table row the reading IS the
+    # button, so a pinyin span on a sign-cell line must sit inside
+    # an a.say link; and every say-link on any page must point at
+    # an audio file that exists in the tree.
+    SAY_LINK = %r{<a class="say" href="\{\{ '(?<href>/assets/audio/[^']+)' \| relative_url \}\}"}
+    PINYIN_SPAN = /<span class="translit pinyin">(?<body>[^<]*)</
+    VOICED_SPAN = %r{<a class="say"[^>]*>\s*<span class="translit pinyin">}
+
+    def check_say_audio(site_dir, path, text)
+      return [] unless path.end_with?(".md")
+
+      found = []
+      if path.include?("/sinographs/")
+        text.each_line do |line|
+          next unless line.include?("sign-cell")
+
+          mute = line.scan(PINYIN_SPAN).flatten.size - line.scan(VOICED_SPAN).size
+          next unless mute.positive?
+
+          reading = line[PINYIN_SPAN, :body]
+          found << Violation.new(path, "say-audio",
+                                 "sign-table reading #{reading.inspect} is not a say-link — " \
+                                 "the reading is the button (§2); acquire the syllable or flag it")
+        end
+      end
+      text.scan(SAY_LINK) do
+        href = Regexp.last_match[:href]
+        next if File.exist?(File.join(site_dir, href))
+
+        found << Violation.new(path, "say-audio",
+                               "say-link target #{href} does not exist in the site tree")
+      end
+      found
     end
 
     # chapter-link (owner request 2026-08-06, mechanizing the §4

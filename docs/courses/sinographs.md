@@ -57,22 +57,32 @@ fallback. Recorded in docs/concept.md §7.
   site/assets/audio/pinyin/CREDITS.txt, linked from the page.
   Audio filenames carry no tone digits (the display law's shape
   holds in URLs).
-- **The syllable pipeline (owner ruling 2026-08-11):** chapter
-  sign tables carry a per-character play button (a compact
-  browser-native `<audio>` — still no JS) voicing the character's
-  reading. Acquisition is an instrument, bin/pinyin_audio.rb,
+- **The syllable pipeline (owner ruling 2026-08-11):** in chapter
+  sign tables the READING IS THE BUTTON — the pinyin is an
+  `a.say` link that plays its syllable inline (D17-a's sanctioned
+  script; with JS off the link opens the file). No visible player
+  chrome; the dotted underline is the affordance. Longer clips
+  (the primer's four-tones bar) may keep a full native player. Acquisition is an instrument, bin/pinyin_audio.rb,
   driven by the hand-curated manifest
   assets-src/data/pinyin-audio-sources.yml: Commons recordings
   only, license-gated at the API (CC BY / CC BY-SA, never NC),
   word recordings silence-segmented to the named syllable, and
   EVERY file pitch-verified against the tone its pinyin declares
   before it may ship — a recording that does not sing its tone
-  does not ship. Same-sound characters share one file via manifest
-  aliases; characters with no clean recording are recorded in
+  does not ship. Every clip is loudness-normalized at encode
+  (−20 dB mean, −1 dB peak ceiling; owner report 2026-08-11 —
+  sources span voices at very different levels). Same-sound
+  characters share one file: the manifest's `voices:` map joins
+  each queue keyword-slug to its audio slug (person → ren,
+  humane → ren). Characters with no clean recording are recorded in
   `absent:` and reported on every run, never faked (TTS output is
   barred by the same license test — Apple's voices are
   personal-use only, and open engines misteach tone). Credits
-  regenerate into CREDITS-syllables.txt.
+  regenerate into CREDITS-syllables.txt. The say-audio lint
+  (owner request 2026-08-11, after pǐn shipped silent) enforces
+  the law's surface: a sign-table reading that is not a say-link
+  fails the gate, and every say-link must point at a file that
+  exists in the tree.
 
 ## 3 · The keyword law
 
@@ -237,13 +247,16 @@ Live since the first content commit (2026-08-10):
   school's terms. Staged activation as ever: keyword checks are on
   from birth; the every-taught-character-has-a-page check flips
   when the shelf is complete.
-- **Slug law:** a page's slug is the toneless ASCII of the
-  character's pinyin (人 rén → `ren`). Where readings collide, the
-  FIRST-taught character keeps the bare slug and later entrants
-  carry explicit pinyin-keyword slugs (人 `ren` / 仁 `ren-humane`;
-  月 `yue` / 曰 `yue-say`) — tone numbers never appear in slugs
-  (the display law's shape holds in URLs too). The compiler
-  enforces uniqueness and demands explicit slugs on collision.
+- **Slug law (owner ruling 2026-08-11):** a page's slug is the
+  character's KEYWORD, lowercased and hyphenated (人 person →
+  `person`, 仁 humane → `humane`, 未 not-yet → `not-yet`).
+  Keywords are unique by the §3 law, so slugs are collision-free
+  by construction — where pinyin slugs drowned in homophones and
+  tone ambiguity (rén/rěn, 人/仁), keywords never do. Tone
+  numbers, diacritics, and pinyin of any kind never appear in
+  slugs. The compiler derives the slug from the keyword and still
+  enforces uniqueness; an explicit `slug:` in the pool overrides
+  only when a keyword's ASCII form misbehaves.
 - Page shape (the akk-codex mold): where it comes from (form
   origin, certainty-labeled), how to remember it (the keyword
   hook — this is where the memory-hook technique is applied), in

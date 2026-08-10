@@ -5,6 +5,92 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review rounds (ch04 pǐn; ch03/09 re-cuts; ch09
+bubble) · phase-17 · Three owner reports, each closed with the
+fix plus its durable check. (1) pǐn had no sound — Commons'
+Zh-pin.ogg IS the recording (its description declares pǐn 品;
+the diacritic-less filename had hidden it from the scout);
+verified a textbook full third tone; the absent list is EMPTY —
+all 55 characters voiced. The requested say-audio LINT closes
+the class: a sign-table reading that is not a say-link, or any
+say-link whose target file does not exist, now fails the gate.
+(2) yuē/zhě/hū all heard wrong or doubted, all confirmed bad by
+envelope analysis: yuē's even split had leaked 会's onset
+(hand-windowed to the syllable); zhě's old window sat in a noise
+burst AFTER the syllable (recut from 记者's final syllable);
+hū was genuine (呼) but doubted — replaced with 忽然's first
+syllable so two independent recordings agree. (3) A hover
+bubble in a table's LAST column crossed the scroll container's
+right rim — the mirror of the 2026-08-09 left-rim clip; last-
+column bubbles now pin right, style guard enforces both pins.
+
+2026-08-11 · review round (keyword slugs + loudness) · phase-17 ·
+Two owner rulings landed. (1) Codex identity: pinyin slugs are
+homophone- and tone-ambiguous (/ren-humane/), so the KEYWORD —
+already unique school-wide by the §3 law — is now the slug law
+(rulebook §8 rewritten): compiler derives slugs from keywords,
+all 55 codex pages renamed (person, humane, not-yet…), the audio
+manifest's aliases block became a voices: map (keyword-slug →
+shared syllable file), pipeline gap-reporting follows. NOTE for
+the gate: 55 day-old codex URLs changed with no redirect stubs —
+flagged as acceptable pre-announcement, worth an owner glance.
+(2) Loudness: samples ranged shout-to-whisper across the three
+source voices; every clip now gains to a −20 dB mean under a
+−1 dB peak ceiling at encode, whole set rebuilt into a ~1 dB
+band. The rebuild surfaced two verifier gaps, both fixed with
+pinned tests: a steep tone-4 glide fragments the smooth vowel
+run (acceptance now consults the raw trimmed track too), and
+creak halves the pitch period so autocorrelation doubles the
+frequency (de-octave pass snaps 1.6× jumps onto the contour) —
+zhèng, a false "level" before, verifies as its true fall.
+
+2026-08-11 · review round (ch03 audio: 曰 silent, 休 hissing) ·
+phase-17 · Owner: yuē has no sound; xiū's ends in a hiss. Both
+root causes found and fixed. 曰: the syllable yuē exists in
+約-words — Jouketou's 约会 (LL, BY-SA 4.0) yields a clean initial
+yuē (level ✓), and 曰 LEAVES the absent list (only 品 remains).
+休: the "syllable 1" cut had silently taken BOTH syllables —
+xiūxi is connected speech with no internal silence, so the one
+detected span was the whole word and the "hiss" was 息 entire;
+hand-windowed to 0.19–0.57s, ending before the second x-. The
+verifier initially refused the fix as "fall" — fricative junk
+frames polluted the measurement — so the tone is now measured on
+the longest SMOOTH pitch run (the vowel; each step within 10%),
+which reads xiū's rock-steady 178–188 Hz plateau correctly while
+the mislabeled-recording refusals all still hold.
+
+2026-08-11 · primer phonetics voiced (owner request) · phase-17 ·
+Every initials/finals row of the Pinyin primer now carries
+clickable example syllables under its letters (bā·dà·gē for
+b·d·g; yī·zì·shí for the three faces of i; ài·bèi·hǎo·yòu for
+the diphthongs…) — the say-link treatment throughout. Seven demo
+syllables acquired through the pipeline (manifest gained a
+pinyin: field for non-queue entries so the tone verifier still
+holds them); the eighth, měi, was REFUSED — its recording rises,
+and a rising third tone is exactly what the verifier exists to
+catch — bèi covers the ei row instead. Manifest-editing
+note-to-self recorded: the header comment contains the literal
+string "aliases:", and a blind replace spliced eight entries into
+the middle of a sentence — repaired, entries at sources' end.
+
+2026-08-11 · M17-1 + D17-a · phase-17 · The player, redone to the
+owner's spec: "table says rén — click it, the sound plays, nothing
+else." The pinyin IS the button: a.say links wrap the reading
+(dotted-underline affordance, no chrome), played inline by the
+FIRST sanctioned script of the site — D17-a formally opens the
+concept's reserved vanilla-JS enhancement layer for exactly this
+widget (14 self-contained lines; with JS off the link opens the
+file, so nothing requires JS). The law lives in four places and
+all four were amended in this commit: concept §4+§7, CLAUDE.md
+golden rule 1, README, rulebook §2. The gate now allowlists the
+one include tag (SANCTIONED_SCRIPT) and the one asset — any other
+script anywhere still fails, sanctioned tag inside content pages
+still fails; tests pin all three cases. 64 table pills converted
+(chapters + primer trap/ü tables + the tone table, whose Hear
+column is gone — its marks play themselves); the primer's
+four-tones bar keeps a full player deliberately (long clip,
+scrubbing earns its chrome).
+
 2026-08-11 · syllable audio (owner ruling) · phase-16 · Every
 chapter sign-table now carries a click-to-play button voicing its
 character's reading — 53 of 55 characters, browser-native audio,

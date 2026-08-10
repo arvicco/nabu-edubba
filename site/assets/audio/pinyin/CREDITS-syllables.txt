@@ -6,17 +6,24 @@ Recordings from Wikimedia Commons, converted to mp3 (mono,
 pitch-verified against the declared tone at build time.
 Source pages: commons.wikimedia.org/wiki/File:<source file>
 
+ai.mp3         — "Zh-ài.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+bei.mp3        — "Zh-bèi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ben.mp3        — "Zh-běn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 bu.mp3         — "Zh-bù.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 da.mp3         — "Zh-dà.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dan.mp3        — "Zh-dàn.ogg" · Yue Tan · CC BY-SA 3.0 us
 er.mp3         — "Zh-èr.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 er-and.mp3     — "Zh-ér.ogg" · Yue Tan · CC BY-SA 3.0 us
-hu.mp3         — "Zh-hū.oga" · Yue Tan · CC BY-SA 3.0 us
+fa.mp3         — "Zh-fā.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+ge.mp3         — "Zh-gē.oga" · Yue Tan · CC BY-SA 3.0 us
+hao.mp3        — "Zh-hǎo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+hu.mp3         — "Zh-hūrán.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 kou.mp3        — "Zh-kǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+lai.mp3        — "Zh-lái.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ming.mp3       — "Zh-míng.ogg" · Yue Tan · CC BY-SA 3.0 us
 mo.mp3         — "Zh-mò.ogg" · Yue Tan · CC BY-SA 3.0 us
 mu.mp3         — "Zh-mù.ogg" · Yue Tan · CC BY-SA 3.0 us
+pin.mp3        — "Zh-pin.ogg" · Yue Tan · CC BY-SA 3.0 us
 qi.mp3         — "Zh-qí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ren.mp3        — "Zh-rén.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ri.mp3         — "Zh-rì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -29,6 +36,7 @@ shi.mp3        — "Zh-shí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi-arrow.mp3  — "Mandarin Chinese pronunciation-矢.wav" · Jiāgěng Liú · CC BY-SA 4.0
 shi-this.mp3   — "Zh-shì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shui.mp3       — "Zh-shuǐ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+ta.mp3         — "Zh-tà.ogg" · Yue Tan · CC BY-SA 3.0 us
 tian.mp3       — "Zh-tiān.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 tu.mp3         — "LL-Q727694 (cmn)-Shangkuanlc-土.wav" · Speaker: Shangkuanlc
 Recorder: Shangkuanlc · CC BY-SA 4.0
@@ -42,7 +50,7 @@ xia.mp3        — "Zh-xià.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xin.mp3        — "Zh-xīn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 xing.mp3       — "LL-Q9192 (cmn)-Jouketou-行.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0
-xiu.mp3        — "Zh-xiūxi.ogg" (syllable 1 cut from the word) · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+xiu.mp3        — "Zh-xiūxi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yan.mp3        — "Zh-yán.ogg" · Yue Tan · CC BY-SA 3.0 us
 ye.mp3         — "Zh-yě.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yi.mp3         — "Zh-yī.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -51,7 +59,9 @@ you.mp3        — "Zh-yòu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 you-have.mp3   — "Zh-yǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yu.mp3         — "Zh-yú.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yue.mp3        — "Zh-yuè.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
-zhe.mp3        — "Zh-huòzhě.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+yue-say.mp3    — "LL-Q9192 (cmn)-Jouketou-约会.wav" · Speaker: Jouketou
+Recorder: Jouketou · CC BY-SA 4.0
+zhe.mp3        — "Zh-jìzhe.ogg" (syllable 2 cut from the word) · Yue Tan · CC BY-SA 3.0 us
 zheng.mp3      — "Zh-zhèng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 zhi.mp3        — "Zh-zhī.ogg" · Xudong Yang · CC BY 2.0
 zhi-stop.mp3   — "Zh-zhǐ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr

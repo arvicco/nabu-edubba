@@ -62,44 +62,39 @@ The tone mark sits over the vowel, and its shape draws the pitch:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Tone</th><th>Mark</th><th>Shape</th><th>Say it like</th><th>Word</th><th>Hear</th></tr>
+    <tr><th>Tone</th><th>Mark</th><th>Shape</th><th>Say it like</th><th>Word</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td>first</td><td><span class="translit pinyin">mā</span></td>
+      <td>first</td><td><a class="say" href="{{ '/assets/audio/pinyin/ma-high.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mā</span></a></td>
       <td>high and level</td>
       <td>a singer holding a note: <em>maaa</em></td>
       <td>媽 "mother"</td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-high.mp3' | relative_url }}"></audio></td>
     </tr>
     <tr>
-      <td>second</td><td><span class="translit pinyin">má</span></td>
+      <td>second</td><td><a class="say" href="{{ '/assets/audio/pinyin/ma-rising.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">má</span></a></td>
       <td>rising</td>
       <td>the lift of a question: <em>ma?</em></td>
       <td>麻 "hemp"</td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-rising.mp3' | relative_url }}"></audio></td>
     </tr>
     <tr>
-      <td>third</td><td><span class="translit pinyin">mǎ</span></td>
+      <td>third</td><td><a class="say" href="{{ '/assets/audio/pinyin/ma-dipping.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mǎ</span></a></td>
       <td>low dip, then rise</td>
       <td>a doubtful, drawn-out <em>ma-a?</em> from the bottom of
       the voice</td>
       <td>馬 "horse"</td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-dipping.mp3' | relative_url }}"></audio></td>
     </tr>
     <tr>
-      <td>fourth</td><td><span class="translit pinyin">mà</span></td>
+      <td>fourth</td><td><a class="say" href="{{ '/assets/audio/pinyin/ma-falling.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mà</span></a></td>
       <td>sharp fall</td>
       <td>a command: <em>ma!</em> — the pitch of "No!"</td>
       <td>罵 "to scold"</td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-falling.mp3' | relative_url }}"></audio></td>
     </tr>
     <tr>
-      <td>neutral</td><td><span class="translit pinyin">ma</span></td>
+      <td>neutral</td><td><a class="say" href="{{ '/assets/audio/pinyin/ma-neutral.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ma</span></a></td>
       <td>short, unstressed</td>
       <td>the throwaway second syllable of "sofa"</td>
       <td>嗎 (question particle)</td>
-      <td><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-neutral.mp3' | relative_url }}"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -128,50 +123,50 @@ International Phonetic Alphabet).[^ipa]
   </thead>
   <tbody>
     <tr>
-      <td><span class="translit pinyin">b · d · g</span></td>
+      <td><span class="translit pinyin">b · d · g</span><br><a class="say" href="{{ '/assets/audio/pinyin/ba.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bā</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/da.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dà</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ge.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">gē</span></a></td>
       <td>[p] [t] [k]</td>
       <td>like English b/d/g but with NO voice-buzz — really the
       p/t/k of "spy," "sty," "sky": no aspiration, no hum</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">p · t · k</span></td>
+      <td><span class="translit pinyin">p · t · k</span><br><a class="say" href="{{ '/assets/audio/pinyin/pa.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pà</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ta.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tà</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/kou.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">kǒu</span></a></td>
       <td>[pʰ] [tʰ] [kʰ]</td>
       <td>English p/t/k with the puff turned up — "pie," "tie,"
       "kite" said emphatically</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">m · f · n · l · s</span></td>
+      <td><span class="translit pinyin">m · f · n · l · s</span><br><a class="say" href="{{ '/assets/audio/pinyin/ma-high.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mā</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/fa.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">fā</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/nv.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nǚ</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/lai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">lái</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/san.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sān</span></a></td>
       <td>[m] [f] [n] [l] [s]</td>
       <td>just what they look like</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">h</span></td>
+      <td><span class="translit pinyin">h</span><br><a class="say" href="{{ '/assets/audio/pinyin/hao.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hǎo</span></a></td>
       <td>[x]</td>
       <td>rougher than English h — the Scottish "loch" sound,
       lightly</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">j · q · x</span></td>
+      <td><span class="translit pinyin">j · q · x</span><br><a class="say" href="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td>[tɕ] [tɕʰ] [ɕ]</td>
       <td>the smiling sounds: "jee," "chee," "shee" said with
       spread lips and the tongue-tip DOWN behind the lower teeth —
       q is j with a puff, x is the matching hiss</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">zh · ch · sh · r</span></td>
+      <td><span class="translit pinyin">zh · ch · sh · r</span><br><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/chi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">chī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rì</span></a></td>
       <td>[ʈʂ] [ʈʂʰ] [ʂ] [ɻ]</td>
       <td>the retroflex family: "j," "ch," "sh," "r" with the
       tongue-tip curled up and back — say "sh" while pointing the
       tongue at the roof of the mouth</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">z · c</span></td>
+      <td><span class="translit pinyin">z · c</span><br><a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cí</span></a></td>
       <td>[ts] [tsʰ]</td>
       <td>"ds" as in "kids"; c is "ts" as in "cats" with a puff —
       never English k</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">w · y</span></td>
+      <td><span class="translit pinyin">w · y</span><br><a class="say" href="{{ '/assets/audio/pinyin/wo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǒ</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ye.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yě</span></a></td>
       <td>[w] [j]</td>
       <td>as in English — mostly spelling devices for syllables
       that begin with u or i</td>
@@ -193,28 +188,28 @@ the hisses:
   <tbody>
     <tr>
       <td>plain / puffed</td>
-      <td><span class="translit pinyin">bā</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ba.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">pà</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/pa.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/ba.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bā</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/pa.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pà</span></a></td>
       <td></td><td></td>
     </tr>
     <tr>
       <td>the smiling three</td>
-      <td><span class="translit pinyin">jī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">qī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">xī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jī</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qī</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td></td>
     </tr>
     <tr>
       <td>tongue curled back</td>
-      <td><span class="translit pinyin">zhī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">chī</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/chi.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">shí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">rì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/chi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">chī</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rì</span></a></td>
     </tr>
     <tr>
       <td>ds / ts</td>
-      <td><span class="translit pinyin">zì</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">cí</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cí</span></a></td>
       <td></td><td></td>
     </tr>
   </tbody>
@@ -235,18 +230,18 @@ Vowels and endings. Most are steady; three need care.
   </thead>
   <tbody>
     <tr>
-      <td><span class="translit pinyin">a · o · u</span></td>
+      <td><span class="translit pinyin">a · o · u</span><br><a class="say" href="{{ '/assets/audio/pinyin/da.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dà</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/mo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mò</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/bu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bù</span></a></td>
       <td>[a] [o] [u]</td>
       <td>"father," "more," "food" — full and steady</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">e</span></td>
+      <td><span class="translit pinyin">e</span><br><a class="say" href="{{ '/assets/audio/pinyin/ge.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">gē</span></a></td>
       <td>[ɤ]</td>
       <td>NOT "eh": an unrounded "uh" from the back of the mouth —
       the vowel of "duh" with spread lips. 德 <span class="translit pinyin">dé</span> ≈ "duh," rising</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">i</span></td>
+      <td><span class="translit pinyin">i</span><br><a class="say" href="{{ '/assets/audio/pinyin/yi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
       <td>[i] / [ɹ̩]</td>
       <td>three faces: "ee" after most letters (<span class="translit pinyin">bǐ</span>, <span class="translit pinyin">mǐ</span>);
       but after z/c/s and zh/ch/sh/r it is only the buzz of the
@@ -254,7 +249,7 @@ Vowels and endings. Most are steady; three need care.
       <span class="translit pinyin">shī</span> ≈ "shr." It is never "eye"</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">ü</span></td>
+      <td><span class="translit pinyin">ü</span><br><a class="say" href="{{ '/assets/audio/pinyin/nv.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nǚ</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/lv.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">lǜ</span></a></td>
       <td>[y]</td>
       <td>say "ee" and round the lips to a whistle — French *u*,
       German *ü*: 女 <span class="translit pinyin">nǚ</span>, 律 <span class="translit pinyin">lǜ</span>.
@@ -262,18 +257,18 @@ Vowels and endings. Most are steady; three need care.
       sound stays: <span class="translit pinyin">jù</span>, <span class="translit pinyin">xué</span> both have it</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">ai · ei · ao · ou</span></td>
+      <td><span class="translit pinyin">ai · ei · ao · ou</span><br><a class="say" href="{{ '/assets/audio/pinyin/ai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ài</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/bei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bèi</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/hao.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hǎo</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/you.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yòu</span></a></td>
       <td>[ai] [ei] [au] [ou]</td>
       <td>"eye," "hey," "how," "low"</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">an · en · ang · eng · ong</span></td>
+      <td><span class="translit pinyin">an · en · ang · eng · ong</span><br><a class="say" href="{{ '/assets/audio/pinyin/san.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sān</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ben.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">běn</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/wang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wáng</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/sheng.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shēng</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/zhong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhōng</span></a></td>
       <td>[an] [ən] [aŋ] [əŋ] [ʊŋ]</td>
       <td>-n as in "fan"; -ng as in "song," never breaking into a
       hard g</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">er</span></td>
+      <td><span class="translit pinyin">er</span><br><a class="say" href="{{ '/assets/audio/pinyin/er.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">èr</span></a></td>
       <td>[ɚ]</td>
       <td>American "er" in "her" — its own syllable: 二 <span class="translit pinyin">èr</span>, "two"</td>
     </tr>
@@ -290,12 +285,12 @@ the back-of-the-mouth e:
   <tbody>
     <tr>
       <td>ü, the whistle vowel</td>
-      <td><span class="translit pinyin">nǚ</span> "woman"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/nv.mp3' | relative_url }}"></audio></td>
-      <td><span class="translit pinyin">lǜ</span> "green"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/lv.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/nv.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nǚ</span></a> "woman"</td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/lv.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">lǜ</span></a> "green"</td>
     </tr>
     <tr>
       <td>the bare e</td>
-      <td><span class="translit pinyin">é</span> "goose"<br><audio controls preload="none" src="{{ '/assets/audio/pinyin/e.mp3' | relative_url }}"></audio></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/e.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">é</span></a> "goose"</td>
       <td></td>
     </tr>
   </tbody>

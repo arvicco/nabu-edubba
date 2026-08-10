@@ -9,67 +9,122 @@
 # (date-stamped), kept visible in every pipeline report.
 
 sources:
-  ren:       {file: "Zh-rén.ogg"}
-  da:        {file: "Zh-dà.ogg"}
-  tian:      {file: "Zh-tiān.ogg"}
-  tu:        {file: "LL-Q727694 (cmn)-Shangkuanlc-土.wav"}
-  wang:      {file: "Zh-wáng.ogg"}
-  yi:        {file: "Zh-yī.ogg"}
-  er:        {file: "Zh-èr.ogg"}
-  san:       {file: "Zh-sān.ogg"}
-  zhong:     {file: "Zh-zhōng.ogg"}
-  shang:     {file: "Zh-shàng.ogg"}
-  xia:       {file: "Zh-xià.ogg"}
-  ri:        {file: "Zh-rì.ogg"}
-  yue:       {file: "Zh-yuè.ogg"}
-  shan:      {file: "LL-Q9192 (cmn)-Jouketou-山.wav"}   # Zh-shān.ogg refused: contour falls
-  shui:      {file: "Zh-shuǐ.ogg"}
-  mu:        {file: "Zh-mù.ogg"}
-  kou:       {file: "Zh-kǒu.ogg"}
-  zi:        {file: "Zh-zǐ.oga"}
-  ming:      {file: "Zh-míng.ogg"}
-  dan:       {file: "Zh-dàn.ogg"}
-  xiu:       {file: "Zh-xiūxi.ogg", syllable: 1}
-  ben:       {file: "Zh-běn.ogg"}
-  mo:        {file: "Zh-mò.ogg"}
-  wei:       {file: "Zh-wèi.ogg"}
-  zhi:       {file: "Zh-zhī.ogg"}
-  bu:        {file: "Zh-bù.ogg"}
-  ye:        {file: "Zh-yě.ogg"}
-  you:       {file: "Zh-yòu.ogg"}
-  you-have:  {file: "Zh-yǒu.ogg"}
-  shi:       {file: "Zh-shí.ogg"}
-  shi-arrow: {file: "Mandarin Chinese pronunciation-矢.wav"}
-  er-and:    {file: "Zh-ér.ogg"}
-  xing:      {file: "LL-Q9192 (cmn)-Jouketou-行.wav"}   # Zh-xíng.ogg refused: contour dips
-  yan:       {file: "Zh-yán.ogg"}
-  wei-do:    {file: "Zh-wéi.ogg"}
-  wu:        {file: "Zh-wú.ogg"}
-  wo:        {file: "Zh-wǒ.ogg"}
-  xin:       {file: "Zh-xīn.ogg"}
-  sheng:     {file: "Zh-shēng.ogg"}
-  zhi-stop:  {file: "Zh-zhǐ.ogg"}
-  zheng:     {file: "Zh-zhèng.ogg"}
-  shi-this:  {file: "Zh-shì.ogg"}
-  xi:        {file: "Zh-xī.ogg"}
-  zhe:       {file: "Zh-huòzhě.ogg", start: 0.90, end: 1.15}   # zhě, hand-windowed: soft final syllable of huòzhě
-  qi:        {file: "Zh-qí.ogg"}
-  yi-also:   {file: "Zh-yì.ogg"}
-  yu:        {file: "Zh-yú.ogg"}
-  hu:        {file: "Zh-hū.oga"}
+  yue-say:   {file: "LL-Q9192 (cmn)-Jouketou-约会.wav", start: 0.20, end: 0.62, pinyin: "yuē"}   # 曰's syllable, hand-windowed out of 約會 (even split had leaked 会's onset)
+  ren:       {file: "Zh-rén.ogg", pinyin: "rén"}
+  da:        {file: "Zh-dà.ogg", pinyin: "dà"}
+  tian:      {file: "Zh-tiān.ogg", pinyin: "tiān"}
+  tu:        {file: "LL-Q727694 (cmn)-Shangkuanlc-土.wav", pinyin: "tǔ"}
+  wang:      {file: "Zh-wáng.ogg", pinyin: "wáng"}
+  yi:        {file: "Zh-yī.ogg", pinyin: "yī"}
+  er:        {file: "Zh-èr.ogg", pinyin: "èr"}
+  san:       {file: "Zh-sān.ogg", pinyin: "sān"}
+  zhong:     {file: "Zh-zhōng.ogg", pinyin: "zhōng"}
+  shang:     {file: "Zh-shàng.ogg", pinyin: "shàng"}
+  xia:       {file: "Zh-xià.ogg", pinyin: "xià"}
+  ri:        {file: "Zh-rì.ogg", pinyin: "rì"}
+  yue:       {file: "Zh-yuè.ogg", pinyin: "yuè"}
+  shan:      {file: "LL-Q9192 (cmn)-Jouketou-山.wav", pinyin: "shān"}   # Zh-shān.ogg refused: contour falls
+  shui:      {file: "Zh-shuǐ.ogg", pinyin: "shuǐ"}
+  mu:        {file: "Zh-mù.ogg", pinyin: "mù"}
+  kou:       {file: "Zh-kǒu.ogg", pinyin: "kǒu"}
+  zi:        {file: "Zh-zǐ.oga", pinyin: "zǐ"}
+  ming:      {file: "Zh-míng.ogg", pinyin: "míng"}
+  dan:       {file: "Zh-dàn.ogg", pinyin: "dàn"}
+  xiu:       {file: "Zh-xiūxi.ogg", pinyin: "xiū", start: 0.19, end: 0.57}   # connected speech; hand-windowed to stop before 息's hiss
+  ben:       {file: "Zh-běn.ogg", pinyin: "běn"}
+  mo:        {file: "Zh-mò.ogg", pinyin: "mò"}
+  wei:       {file: "Zh-wèi.ogg", pinyin: "wèi"}
+  zhi:       {file: "Zh-zhī.ogg", pinyin: "zhī"}
+  bu:        {file: "Zh-bù.ogg", pinyin: "bù"}
+  ye:        {file: "Zh-yě.ogg", pinyin: "yě"}
+  you:       {file: "Zh-yòu.ogg", pinyin: "yòu"}
+  you-have:  {file: "Zh-yǒu.ogg", pinyin: "yǒu"}
+  shi:       {file: "Zh-shí.ogg", pinyin: "shí"}
+  shi-arrow: {file: "Mandarin Chinese pronunciation-矢.wav", pinyin: "shǐ"}
+  er-and:    {file: "Zh-ér.ogg", pinyin: "ér"}
+  xing:      {file: "LL-Q9192 (cmn)-Jouketou-行.wav", pinyin: "xíng"}   # Zh-xíng.ogg refused: contour dips
+  yan:       {file: "Zh-yán.ogg", pinyin: "yán"}
+  wei-do:    {file: "Zh-wéi.ogg", pinyin: "wéi"}
+  wu:        {file: "Zh-wú.ogg", pinyin: "wú"}
+  wo:        {file: "Zh-wǒ.ogg", pinyin: "wǒ"}
+  xin:       {file: "Zh-xīn.ogg", pinyin: "xīn"}
+  sheng:     {file: "Zh-shēng.ogg", pinyin: "shēng"}
+  zhi-stop:  {file: "Zh-zhǐ.ogg", pinyin: "zhǐ"}
+  zheng:     {file: "Zh-zhèng.ogg", pinyin: "zhèng"}
+  shi-this:  {file: "Zh-shì.ogg", pinyin: "shì"}
+  xi:        {file: "Zh-xī.ogg", pinyin: "xī"}
+  zhe:       {file: "Zh-jìzhe.ogg", syllable: 2, of: 2, pinyin: "zhě"}   # zhě: final syllable of jìzhě (the huòzhě cut was too soft/creaky to read)
+  qi:        {file: "Zh-qí.ogg", pinyin: "qí"}
+  yi-also:   {file: "Zh-yì.ogg", pinyin: "yì"}
+  yu:        {file: "Zh-yú.ogg", pinyin: "yú"}
+  hu:        {file: "Zh-hūrán.ogg", start: 0.10, end: 0.56, pinyin: "hū"}   # 忽's hū, hand-windowed (connected speech, no internal silence); replaced Zh-hū.oga after owner doubt
+  pin:       {file: "Zh-pin.ogg", pinyin: "pǐn"}
 
-aliases:
-  ren-humane: ren
-  zhi-know: zhi
-  mu-washing: mu
-  wei-flavor: wei
-  ming-name: ming
-  xi-evening: xi
+  # Primer demo syllables (not queue characters): pinyin: declares
+  # the tone the verifier holds them to.
+  ge:        {file: "Zh-gē.oga", pinyin: "gē"}
+  ta:        {file: "Zh-tà.ogg", pinyin: "tà"}
+  fa:        {file: "Zh-fā.ogg", pinyin: "fā"}
+  hao:       {file: "Zh-hǎo.ogg", pinyin: "hǎo"}
+  ai:        {file: "Zh-ài.ogg", pinyin: "ài"}
+  lai:       {file: "Zh-lái.ogg", pinyin: "lái"}
+  bei:       {file: "Zh-bèi.ogg", pinyin: "bèi"}
 
-absent:
-  - slug: yue-say
-    char: 曰
-    note: no clean single- or word-recording found on Commons (2026-08-11)
-  - slug: pin
-    char: 品
-    note: no clean single- or word-recording found on Commons (2026-08-11)
+voices:
+  above: shang
+  again: you
+  also: yi-also
+  and-then: er-and
+  arrow: shi-arrow
+  at: yu
+  below: xia
+  big: da
+  bright: ming
+  child: zi
+  dawn: dan
+  do: wei-do
+  earth: tu
+  evening: xi
+  flavor: wei
+  grow: sheng
+  have: you-have
+  heart: xin
+  heaven: tian
+  humane: ren
+  i: wo
+  indeed: ye
+  its: qi
+  kinds: pin
+  king: wang
+  know: zhi
+  middle: zhong
+  moon: yue
+  mountain: shan
+  mouth: kou
+  name: ming
+  not: bu
+  not-yet: wei
+  of: zhi
+  one: yi
+  person: ren
+  really: hu
+  rest: xiu
+  root: ben
+  say: yue-say
+  speech: yan
+  stop: zhi-stop
+  sun: ri
+  ten: shi
+  this: shi-this
+  three: san
+  tip: mo
+  tree: mu
+  two: er
+  upright: zheng
+  walk: xing
+  washing: mu
+  water: shui
+  who: zhe
+  without: wu
+
+absent: []

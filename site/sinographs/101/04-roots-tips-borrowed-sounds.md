@@ -26,35 +26,35 @@ changes everything:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>
+      <td class="script sign-cell">品</td><td>kinds</td><td><a class="say" href="{{ '/assets/audio/pinyin/pin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pǐn</span></a></td>
       <td>kinds, grades; things in their sorts</td>
       <td>your mouth three times over — many voices, many sorts</td>
     </tr>
     <tr>
-      <td class="script sign-cell">本</td><td>root</td><td><span class="translit pinyin">běn</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ben.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">本</td><td>root</td><td><a class="say" href="{{ '/assets/audio/pinyin/ben.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">běn</span></a></td>
       <td>root, trunk; the fundamental</td>
       <td>your 木 with a mark at the base: <em>this</em> part, the
       root</td>
     </tr>
     <tr>
-      <td class="script sign-cell">末</td><td>tip</td><td><span class="translit pinyin">mò</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/mo.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">末</td><td>tip</td><td><a class="say" href="{{ '/assets/audio/pinyin/mo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mò</span></a></td>
       <td>tip, branch-end; the incidental</td>
       <td>the same tree, the mark at the top</td>
     </tr>
     <tr>
-      <td class="script sign-cell">未</td><td>not-yet</td><td><span class="translit pinyin">wèi</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">未</td><td>not-yet</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>not yet — the classical "still un-"</td>
       <td>the tree with young top growth — what has not yet come to
       be</td>
     </tr>
     <tr>
-      <td class="script sign-cell">沐</td><td>washing</td><td><span class="translit pinyin">mù</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">沐</td><td>washing</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>to wash the hair; to bathe in</td>
       <td>water for the meaning, tree for the <em>sound</em>: 木 is
       mù, and so is 沐</td>
     </tr>
     <tr>
-      <td class="script sign-cell">味</td><td>flavor</td><td><span class="translit pinyin">wèi</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">味</td><td>flavor</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>flavor, taste</td>
       <td>mouth for the meaning, not-yet for the <em>sound</em>:
       未 is wèi, and so is 味</td>

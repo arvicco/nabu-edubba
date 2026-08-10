@@ -28,28 +28,28 @@ now — a picture that grows, and the world it grows into:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">人</td><td>person</td><td><span class="translit pinyin">rén</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">人</td><td>person</td><td><a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rén</span></a></td>
       <td>a human being; other people</td>
       <td>a figure walking, seen from the side — two legs and a leaning back</td>
     </tr>
     <tr>
-      <td class="script sign-cell">大</td><td>big</td><td><span class="translit pinyin">dà</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/da.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">大</td><td>big</td><td><a class="say" href="{{ '/assets/audio/pinyin/da.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dà</span></a></td>
       <td>big, great</td>
       <td>a person again, arms thrown wide: <em>this</em> big</td>
     </tr>
     <tr>
-      <td class="script sign-cell">天</td><td>heaven</td><td><span class="translit pinyin">tiān</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/tian.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">天</td><td>heaven</td><td><a class="say" href="{{ '/assets/audio/pinyin/tian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tiān</span></a></td>
       <td>sky; Heaven, the ordering power above everything</td>
       <td>a line drawn over the big person's head — what is above even
       the greatest</td>
     </tr>
     <tr>
-      <td class="script sign-cell">土</td><td>earth</td><td><span class="translit pinyin">tǔ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/tu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">土</td><td>earth</td><td><a class="say" href="{{ '/assets/audio/pinyin/tu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tǔ</span></a></td>
       <td>earth, soil; the ground</td>
       <td>a mound of earth standing on the ground-line</td>
     </tr>
     <tr>
-      <td class="script sign-cell">王</td><td>king</td><td><span class="translit pinyin">wáng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/wang.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">王</td><td>king</td><td><a class="say" href="{{ '/assets/audio/pinyin/wang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wáng</span></a></td>
       <td>king</td>
       <td>three level strokes — heaven above, earth below, humankind
       between — joined by the one vertical that runs through all

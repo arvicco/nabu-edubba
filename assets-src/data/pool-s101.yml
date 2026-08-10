@@ -194,7 +194,6 @@ signs:
   - char: 曰
     chapter: 3
     keyword: say
-    slug: yue-say
     pinyin: yuē
     meaning: to say — the quotation-opener of the classical books
     category: indicative
@@ -262,7 +261,6 @@ signs:
   - char: 有
     chapter: 5
     keyword: have
-    slug: you-have
     pinyin: yǒu
     meaning: "to have, there is"
     category: compound-ideograph
@@ -287,7 +285,6 @@ signs:
   - char: 矢
     chapter: 6
     keyword: arrow
-    slug: shi-arrow
     pinyin: shǐ
     meaning: "arrow"
     category: pictograph
@@ -299,7 +296,6 @@ signs:
   - char: 知
     chapter: 6
     keyword: know
-    slug: zhi-know
     pinyin: zhī
     meaning: "to know, to understand"
     category: phono-semantic
@@ -312,7 +308,6 @@ signs:
   - char: 而
     chapter: 6
     keyword: and-then
-    slug: er-and
     pinyin: ér
     meaning: "and, and then, but — the clause-linker"
     category: loan
@@ -347,7 +342,6 @@ signs:
   - char: 為
     chapter: 7
     keyword: do
-    slug: wei-do
     pinyin: wéi
     pinyin_divergence: >-
       Unihan kMandarin gives wèi; the course teaches the verb
@@ -405,7 +399,6 @@ signs:
   - char: 止
     chapter: 8
     keyword: stop
-    slug: zhi-stop
     pinyin: zhǐ
     meaning: "to stop, to stay; where one rests"
     category: pictograph
@@ -427,7 +420,6 @@ signs:
   - char: 是
     chapter: 8
     keyword: this
-    slug: shi-this
     pinyin: shì
     meaning: "this; to be right"
     category: compound-ideograph
@@ -439,7 +431,6 @@ signs:
   - char: 夕
     chapter: 8
     keyword: evening
-    slug: xi-evening
     pinyin: xī
     meaning: "evening, dusk"
     category: pictograph
@@ -450,7 +441,6 @@ signs:
   - char: 名
     chapter: 8
     keyword: name
-    slug: ming-name
     pinyin: míng
     meaning: "name; to name"
     category: compound-ideograph
@@ -485,7 +475,6 @@ signs:
   - char: 亦
     chapter: 9
     keyword: also
-    slug: yi-also
     pinyin: yì
     meaning: "also, likewise — the classical 'too'"
     category: loan
@@ -551,7 +540,6 @@ signs:
   - char: 仁
     chapter: 3
     keyword: humane
-    slug: ren-humane
     pinyin: rén
     meaning: humane; humaneness, the Confucian virtue
     category: compound-ideograph
@@ -612,7 +600,6 @@ signs:
   - char: 沐
     chapter: 4
     keyword: washing
-    slug: mu-washing
     pinyin: mù
     meaning: to wash the hair; to bathe in
     category: phono-semantic
@@ -625,7 +612,6 @@ signs:
   - char: 味
     chapter: 4
     keyword: flavor
-    slug: wei-flavor
     pinyin: wèi
     meaning: flavor, taste
     category: phono-semantic
