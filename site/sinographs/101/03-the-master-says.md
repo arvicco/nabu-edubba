@@ -25,7 +25,7 @@ and then the wall comes down: characters start combining.
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">子</td><td>child</td><td><span class="translit pinyin">zǐ</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">子</td><td>child</td><td><a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zǐ</span></a></td>
       <td>child, son; the Master; a title of respect</td>
       <td>an infant: big head, spread arms, legs swaddled into a
       single line</td>
@@ -36,22 +36,22 @@ and then the wall comes down: characters start combining.
       <td>a mouth, with a short stroke of breath leaving it</td>
     </tr>
     <tr>
-      <td class="script sign-cell">明</td><td>bright</td><td><span class="translit pinyin">míng</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">明</td><td>bright</td><td><a class="say" href="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">míng</span></a></td>
       <td>bright; to shine; to understand</td>
       <td>your sun beside your moon: the two lights of the sky</td>
     </tr>
     <tr>
-      <td class="script sign-cell">旦</td><td>dawn</td><td><span class="translit pinyin">dàn</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/dan.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">旦</td><td>dawn</td><td><a class="say" href="{{ '/assets/audio/pinyin/dan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dàn</span></a></td>
       <td>dawn, daybreak</td>
       <td>your sun just clear of the horizon line</td>
     </tr>
     <tr>
-      <td class="script sign-cell">休</td><td>rest</td><td><span class="translit pinyin">xiū</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/xiu.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">休</td><td>rest</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiū</span></a></td>
       <td>to rest; respite, good fortune</td>
       <td>your person leaning against your tree</td>
     </tr>
     <tr>
-      <td class="script sign-cell">仁</td><td>humane</td><td><span class="translit pinyin">rén</span><br><audio controls preload="none" src="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}"></audio></td>
+      <td class="script sign-cell">仁</td><td>humane</td><td><a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rén</span></a></td>
       <td>humane; humaneness, the Confucian virtue</td>
       <td>your person beside your two: what holds between two
       people</td>

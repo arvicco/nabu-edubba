@@ -14,8 +14,11 @@ decisions, and pedagogy. docs/DEV-LOOP.md governs process.
    on Ruby 3.3 (CI pin), kramdown/GFM.** Local dev may run newer Ruby;
    the Gemfile.lock is shared by local and CI — CI is the authority.
    Site sources live in `site/`; the built site must be pure static
-   HTML/CSS. **Wave 1 ships text-pure: no JavaScript anywhere in the
-   site** (ratified; the gate enforces it).
+   HTML/CSS. **Text-pure law: no JavaScript anywhere in the site**
+   (ratified; the gate enforces it) — with ONE owner-ruled exception
+   (D17-a, 2026-08-11): assets/say.js, the self-contained audio
+   click-to-play enhancement; progressive only, nothing may ever
+   REQUIRE JS, and the gate allowlists exactly that script.
 2. **Dependency policy: the Gemfile budget (jekyll, html-proofer,
    rake, minitest) is closed.** Never add a gem, webfont, or asset
    pipeline without asking. No JS dependencies exist, period.

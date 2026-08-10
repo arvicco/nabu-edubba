@@ -57,10 +57,12 @@ fallback. Recorded in docs/concept.md §7.
   site/assets/audio/pinyin/CREDITS.txt, linked from the page.
   Audio filenames carry no tone digits (the display law's shape
   holds in URLs).
-- **The syllable pipeline (owner ruling 2026-08-11):** chapter
-  sign tables carry a per-character play button (a compact
-  browser-native `<audio>` — still no JS) voicing the character's
-  reading. Acquisition is an instrument, bin/pinyin_audio.rb,
+- **The syllable pipeline (owner ruling 2026-08-11):** in chapter
+  sign tables the READING IS THE BUTTON — the pinyin is an
+  `a.say` link that plays its syllable inline (D17-a's sanctioned
+  script; with JS off the link opens the file). No visible player
+  chrome; the dotted underline is the affordance. Longer clips
+  (the primer's four-tones bar) may keep a full native player. Acquisition is an instrument, bin/pinyin_audio.rb,
   driven by the hand-curated manifest
   assets-src/data/pinyin-audio-sources.yml: Commons recordings
   only, license-gated at the API (CC BY / CC BY-SA, never NC),

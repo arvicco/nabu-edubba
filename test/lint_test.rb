@@ -167,6 +167,25 @@ class LintTest < Minitest::Test
                  "sinograph law only"
   end
 
+  def test_only_the_sanctioned_script_passes
+    good = %(<script src="{{ '/assets/say.js' | relative_url }}" defer></script>)
+    v = Edubba::Lint.check_file(nil, __FILE__) rescue nil
+    ok_html = Edubba::Lint.check_file("x", write_tmp("layout.html", good))
+    assert_empty ok_html.select { |x| x.rule == "no-js" },
+                 "the D17-a say.js include is sanctioned in layouts"
+    bad_md = Edubba::Lint.check_file("x", write_tmp("page.md", "---\nt: 1\n---\n" + good))
+    assert_equal ["no-js"], bad_md.map(&:rule) & ["no-js"],
+                 "even the sanctioned tag is refused inside content pages"
+    evil = Edubba::Lint.check_file("x", write_tmp("evil.html", %(<script src="{{ '/assets/other.js' | relative_url }}" defer></script>)))
+    assert_includes evil.map(&:rule), "no-js", "any other script still fails"
+  end
+
+  def write_tmp(name, content)
+    path = File.join(Dir.mktmpdir, name)
+    File.write(path, content)
+    path
+  end
+
   def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
     sino = "site/sinographs/101/00-x.md"
     v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")
