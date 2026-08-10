@@ -61,9 +61,9 @@ Cuneiform, Noto Sans Egyptian Hieroglyphs, and Noto Serif TC), and
 the full gate (`rake gate`: lint + tests + build + offline link
 check) with auto-deploy on merge.
 
-Next: the schools grow in alternating phases — the sinograph
-codex backfill and 101's later stretches, the Egyptian literacy
-track toward Sinuhe, and the wider cuneiform world.
+Next: the schools grow in alternating phases — Sinographs 101's
+closing stretch, the Egyptian literacy track toward Sinuhe, and
+the wider cuneiform world.
 
 ## Building locally
 
