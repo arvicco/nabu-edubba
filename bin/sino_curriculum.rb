@@ -33,13 +33,14 @@ module Edubba
       "ǖ" => "u", "ǘ" => "u", "ǚ" => "u", "ǜ" => "u", "ü" => "u"
     }.freeze
 
-    # Codex identity (rulebook §8): toneless ASCII of the pinyin, or
-    # the pool's explicit slug where readings collide (yue-moon /
-    # yue-say).
+    # Codex identity (rulebook §8, owner ruling 2026-08-11): the
+    # KEYWORD is the slug — unique by law, tone-proof, homophone-
+    # proof (person, humane, not-yet), where pinyin slugs were
+    # neither.
     def slug_of(row)
       row["slug"] ||
-        row["pinyin"].to_s.split(/[,\s]+/).first.to_s
-                     .gsub(/./) { |c| PINYIN_FOLD[c] || c }
+        row["keyword"].to_s.downcase.gsub(/[^a-z0-9]+/, "-")
+                      .gsub(/\A-|-\z/, "")
     end
 
     # char => {rank:, count:, docs:, strokes:, pinyin:, ids:} from the

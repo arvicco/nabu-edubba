@@ -155,11 +155,10 @@ if $PROGRAM_NAME == __FILE__
   manifest = YAML.safe_load_file(MANIFEST)
   queue = YAML.safe_load_file(QUEUE)["signs"]
   sources = manifest["sources"] || {}
-  aliases = manifest["aliases"] || {}
+  voices = manifest["voices"] || {}
   absent = (manifest["absent"] || []).map { |a| a["slug"] }
 
-  pinyin_for = queue.to_h { |s| [s["name"], s["pinyin"]] }
-  covered = sources.keys + aliases.keys + absent
+  covered = voices.keys + absent
   gaps = queue.map { |s| s["name"] } - covered
   puts "GAPS (no manifest entry): #{gaps.join(', ')}" unless gaps.empty?
   puts "ABSENT (no clean recording known): #{absent.join(', ')}" unless absent.empty?
@@ -291,10 +290,10 @@ if $PROGRAM_NAME == __FILE__
     pcm_f = File.join(CACHE, "#{slug}.pcm")
     system("ffmpeg", "-v", "quiet", "-y", "-i", work, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
     track = Edubba::PinyinAudio.pitch_track(File.binread(pcm_f))
-    expected = Edubba::PinyinAudio.tone_of(src["pinyin"] || pinyin_for[slug] || pinyin_for[aliases.key(slug)] || "")
+    expected = Edubba::PinyinAudio.tone_of(src["pinyin"].to_s)
     unless Edubba::PinyinAudio.tone_ok?(expected, track)
       got = Edubba::PinyinAudio.classify(track)
-      failures << "#{slug}: pitch says #{got}, pinyin #{src['pinyin'] || pinyin_for[slug]} expects #{expected} — refused"
+      failures << "#{slug}: pitch says #{got}, pinyin #{src['pinyin']} expects #{expected} — refused"
       next
     end
 
