@@ -117,7 +117,7 @@ The temple library kept the language's most compressed sentences.
 This one runs the adverbial pattern twice — and needs the cautious
 stroke to write its second half:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓋹𓈖𓐍𓏛 𓇋𓅓 𓆑 𓅓𓏏𓏱 𓇋𓅓 𓆑</span><span class="translit">ꜥnḫ jm≡f m(w)t jm≡f</span><span class="gloss">"life is in it, death is in it"</span></div>
   </div>
@@ -165,7 +165,7 @@ Nile — records not just the battles but his judgments. Of the
 defeated princes who came to submit, it explains why all but one
 were kept from his palace:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓂜 𓂋𓏙𓏏𓈖 𓊃𓈖𓏥 𓇋𓏠𓈖𓊹 𓅓 𓄣 𓋴𓈖𓏥</span><span class="translit">n rdi̯.n≡sn Jmn m jb≡sn</span><span class="gloss">"they had not put Amun in their hearts"</span></div>
   </div>

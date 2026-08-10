@@ -3,6 +3,8 @@
 require_relative "script_scan"
 require_relative "course_check"
 require_relative "rulebook"
+require_relative "value_check"
+require_relative "font_metrics"
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -28,6 +30,26 @@ require_relative "rulebook"
 #                 column to one unwrapped line (style.css), so
 #                 cells there stay <= 60 chars of rendered text —
 #                 commentary belongs in prose, never in cells (§5)
+#   reading-width a three-column reading figure's widest script
+#                 line fits the measured 20.3rem budget (real font
+#                 metrics, script/font_metrics.rb) or the figure
+#                 declares reading--stacked — gloss text is never
+#                 cut at the measure (§5, 2026-08-09)
+#   value-coverage every syllabic token in an Akkadian reading is a
+#                 value taught, by that chapter, for a sign present
+#                 in the line (script/value_check.rb; §9 2026-08-09
+#                 — glyph coverage alone let a-wi-lim ride the
+#                 eye-sign as an untaught lim)
+#   reading-cites in a cuneiform reading transliteration a dot never
+#                 sits between letters/digits — citation format
+#                 (KU₃.BABBAR) stays in prose and sign lists;
+#                 readings hyphenate values and speak voices (§9,
+#                 2026-08-09)
+#   reading-logo  in an Akkadian reading, capitals in the translit
+#                 live only inside <span class="logo"> voice-marks,
+#                 script and translit carry equally many marks per
+#                 line, and the marking never appears on
+#                 Sumerian-course pages (cuneiform §9, 2026-08-09)
 #   rulebook      course content obeys its school's rulebook
 #                 (docs/courses/<school>.md — the single source of
 #                 truth for conventions; script/rulebook.rb
@@ -41,8 +63,10 @@ module Edubba
     SCRIPT_TAG = /<script\b/i
     ROOT_ABSOLUTE_LINK = %r{(?:href="|\]\()/(?![/)])}
 
-    TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>.*?)</span>}m
+    TRANSLIT_SPAN = %r{<span class="translit(?<extra>[^"]*)">(?<body>(?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}m
     ASCII_INDEX = /[A-Za-zŠšŊŋĜĝḪḫŘř]\d/
+    LOGO_SPAN = %r{<span class="logo">[^<]*</span>}
+    READING_LINE = %r{<div class="reading-line">(.*?)</div>}m
 
     Violation = Struct.new(:file, :rule, :detail)
 
@@ -57,7 +81,8 @@ module Edubba
         nav_order_unique(site_dir) +
         CourseCheck.violations(site_dir) +
         Rulebook.violations(site_dir) +
-        Rulebook.codex_violations(site_dir)
+        Rulebook.codex_violations(site_dir) +
+        ValueCheck.violations(site_dir)
     end
 
     # nav-order-unique (live-site incident 2026-08-06): the sidebar
@@ -131,6 +156,9 @@ module Edubba
       found.concat(check_codex_reads(path, text))
       found.concat(check_chapter_links(path, text))
       found.concat(check_akk_translit(path, text))
+      found.concat(check_logo_marking(path, text))
+      found.concat(check_reading_width(path, text))
+      found.concat(check_reading_dots(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -249,6 +277,133 @@ module Edubba
         if (hit = body[SUMEROGRAMS])
           found << Violation.new(path, "akk-translit",
                                  "lowercase sumerogram #{hit.inspect} in an Akkadian reading — CAPS (LUGAL, KALAM) per §9")
+        end
+      end
+      found
+    end
+
+    # reading-logo (§9, owner ruling 2026-08-09; report:
+    # GIR₃.PAD.RA₂ mid-reading): a reading's transliteration prints
+    # the VOICE of a logographically-written stretch — capitals
+    # wrapped in <span class="logo"> — and the glyphs that carry it
+    # wear the same span, so the green binds voice to signs.
+    # Mechanically: capitals in an Akkadian reading transliteration
+    # live only inside logo spans, and every reading line carries as
+    # many logo marks in its script as in its transliteration. The
+    # marking is an Akkadian-course convention — on Sumerian-course
+    # pages it may not appear at all.
+    def check_logo_marking(path, text)
+      found = []
+      unless path.match?(%r{cuneiform/(103|addenda-akk)/})
+        if path.include?("cuneiform/") && text.include?('class="logo"')
+          found << Violation.new(path, "reading-logo",
+                                 %(logogram voice-marking (span class "logo") is an Akkadian-course convention (§9) — it does not belong on Sumerian-course pages))
+        end
+        return found
+      end
+
+      text.scan(READING_LINE) do |(line)|
+        spans = {}
+        line.scan(%r{<span class="(script|translit)([^"]*)">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |cls, extra, body|
+          spans[cls] = [extra, body]
+        end
+        script_marks = (spans.dig("script", 1) || "").scan(LOGO_SPAN).size
+        translit_extra, translit_body = spans["translit"] || ["", ""]
+        translit_marks = translit_body.scan(LOGO_SPAN).size
+        if script_marks != translit_marks
+          found << Violation.new(path, "reading-logo",
+                                 "logogram marks must pair: #{script_marks} in script vs #{translit_marks} in transliteration — the green binds voice to signs (§9)")
+        end
+        next if translit_extra.split.include?("atf")
+
+        bare = translit_body.gsub(LOGO_SPAN, "").gsub(/<[^>]+>/, "")
+        if (hit = bare[/\p{Lu}[\p{Lu}₀-₉.]*/])
+          found << Violation.new(path, "reading-logo",
+                                 "unmarked capitals #{hit.inspect} in an Akkadian reading transliteration — a logogram stretch shows its voice inside <span class=\"logo\"> (§9)")
+        end
+      end
+      found
+    end
+
+    # reading-width (§5, owner report 2026-08-09: gloss text cut at
+    # the figure's edge): a three-column reading figure holds only
+    # while its widest script line fits the measured budget — 44rem
+    # measure − 2.5rem figure padding − 2×1rem gaps − 8rem/11rem
+    # text floors ≈ 20.3rem, i.e. 14.5em at the 1.4rem script size.
+    # Width is MEASURED with the committed subset fonts
+    # (script/font_metrics.rb), never guessed; a wider line means
+    # the figure declares reading--stacked (voice under script,
+    # nothing ever cut). Spaces and boxes render in the fallback
+    # font — estimated 0.4em / 0.75em, on the generous side.
+    READING_FIGURE = %r{<figure class="reading reading--script(?<mods>[^"]*)">(?<body>.*?)</figure>}m
+    SCRIPT_EM_BUDGET = 14.5
+    def check_reading_width(path, text)
+      return [] unless path.end_with?(".md")
+
+      found = []
+      text.scan(READING_FIGURE) do
+        mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
+        next if mods.include?("reading--stacked")
+
+        body.scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
+          txt = s.gsub(/<[^>]+>/, "")
+          em = script_width_em(txt)
+          next if em <= SCRIPT_EM_BUDGET
+
+          found << Violation.new(path, "reading-width",
+                                 "script line #{txt[0, 12].inspect}… measures #{em.round(1)}em " \
+                                 "(budget #{SCRIPT_EM_BUDGET}em ≈ 20.3rem) — three columns would cut the " \
+                                 "gloss at the measure; declare the figure reading--stacked (§5)")
+        end
+      end
+      found
+    end
+
+    def script_width_em(txt)
+      fonts = reading_fonts
+      txt.each_char.sum do |c|
+        cp = c.ord
+        if cp.between?(0x12000, 0x1247F) then fonts[:cuneiform].advance_em(cp)
+        elsif cp.between?(0x13000, 0x1342F) then fonts[:hieroglyphs].advance_em(cp)
+        elsif c == " " then 0.4
+        else 0.75
+        end
+      end
+    end
+
+    def reading_fonts
+      @reading_fonts ||= {
+        cuneiform: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansCuneiform-subset.ttf", __dir__)),
+        hieroglyphs: FontMetrics::Font.new(File.expand_path("../site/assets/fonts/NotoSansEgyptianHieroglyphs-subset.ttf", __dir__))
+      }
+    end
+
+    # reading-cites (§9, owner report 2026-08-09: a reading line
+    # showed KU₃.BABBAR ŠU BA.AN.TI — sign-name citation format,
+    # not a reading): in a cuneiform reading transliteration a dot
+    # may never sit between letters or digits. The dot is how sign
+    # lists FILE compounds; a reading line never cites, it reads —
+    # Sumerian values hyphenate (ŠU BA-AN-TI, I₃-LA₂-E), taught
+    # sumerogram voices speak (KASPAM). Editorial [...] and the
+    # hieroglyph school's Leiden morphology dots are out of scope.
+    CITATION_DOT = /[\p{L}\p{Nd}₀-₉]\.[\p{L}\p{Nd}{]/
+    def check_reading_dots(path, text)
+      return [] unless path.include?("cuneiform/")
+
+      found = []
+      text.lines.each_with_index do |line, i|
+        next unless line.include?("reading-line")
+
+        line.scan(TRANSLIT_SPAN) do
+          extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
+          next if extra.split.include?("atf")
+
+          bare = body.gsub(/<[^>]+>/, "")
+          if (hit = bare[CITATION_DOT])
+            found << Violation.new(path, "reading-cites",
+                                   "sign-name citation dot #{hit.inspect} in a reading transliteration (line #{i + 1}) — " \
+                                   "readings read, they never cite: hyphenate Sumerian values (ŠU BA-AN-TI), speak taught voices (KASPAM) (§9)")
+          end
         end
       end
       found

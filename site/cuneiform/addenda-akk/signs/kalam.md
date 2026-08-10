@@ -33,7 +33,7 @@ answers in Akkadian. When you meet it in a reading, say
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at KALAM</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — three syllables spelled sound by sound, then the whole word in one Sumerian sign</span></div>
+    <div class="reading-line"><span class="script">𒅆𒈠𒀜 <span class="logo">𒌧</span></span><span class="translit">ši-ma-at <span class="logo">MĀTIM</span></span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — three syllables spelled sound by sound, then the whole word in one Sumerian sign</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.

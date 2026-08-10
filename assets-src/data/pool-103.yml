@@ -24,7 +24,7 @@ signs:
   - { glyph: "𒅇", codepoint: "12147", name: "U3",  value: "u3",   osl_name: "|IGI.DIB|", meaning: "the conjunction u — \"and\"",                                  freq_akkob: 14,  certainty: unclear, chapter: 0, keyword: "and" }
   - { glyph: "𒌝", codepoint: "1231D", name: "UM",  value: "um",   meaning: "[um]; the nominative's closing -um",       freq_akkob: 9,   certainty: unclear, chapter: 0, keyword: "tether" }
   # ch 01 · Spelling sound by sound
-  - { glyph: "𒇷", codepoint: "121F7", name: "LI",  value: "li",   meaning: "[li]; a juniper in the lists",                              freq_akkob: 10,  certainty: unclear, chapter: 1, keyword: "juniper" }
+  - { glyph: "𒇷", codepoint: "121F7", name: "LI",  value: "li, le",  meaning: "[li/le]; a juniper in the lists",                              freq_akkob: 10,  certainty: unclear, chapter: 1, keyword: "juniper" }
   - { glyph: "𒅖", codepoint: "12156", name: "IŠ",  value: "isz",  meaning: "dust, soil",      freq_akkob: 35,  certainty: stated,  chapter: 1, keyword: "dust" }
   - { glyph: "𒅕", codepoint: "12155", name: "IR",  value: "ir, er",   meaning: "scent, perfume in the lists",                          freq_akkob: 66,  certainty: stated,  chapter: 1, keyword: "scent" }
   # ch 02 · The noun and its cases (-um, -am, -im … -tim)
@@ -35,8 +35,8 @@ signs:
   # ch 03 · bēl šamê — lord of heaven (the construct state)
   - { glyph: "𒁁", codepoint: "12041", name: "BAD", value: "be",   meaning: "[be]; as a word, to open, apart",                     freq_akkob: 46,  certainty: unclear, chapter: 3, keyword: "open" }
   - { glyph: "𒂖", codepoint: "12096", name: "EL",  value: "el",   meaning: "bright, pure (ellum)",                                              freq_akkob: 81,  certainty: stated,  chapter: 3, keyword: "bright" }
-  - { glyph: "𒀜", codepoint: "1201C", name: "AD",  value: "ad, at",   meaning: "father",                                              freq_akkob: 45,  certainty: classic, chapter: 3, keyword: "father" }
-  - { glyph: "𒅆", codepoint: "12146", name: "IGI", value: "szi",  veteran: true, meaning: "veteran — IGI gains [ši]: šīmātum, the destinies it decrees",       freq_akkob: 32,  certainty: stated,  chapter: 3, keyword: "eye" }
+  - { glyph: "𒀜", codepoint: "1201C", name: "AD",  value: "ad, at, at,", meaning: "father",                                              freq_akkob: 45,  certainty: classic, chapter: 3, keyword: "father" }
+  - { glyph: "𒅆", codepoint: "12146", name: "IGI", value: "szi, lim", value_seats: { lim: 10 }, veteran: true, meaning: "veteran — IGI gains [ši/lim]: šīmātum's opener, awīlim's close",       freq_akkob: 32,  certainty: stated,  chapter: 3, keyword: "eye" }
   # Sumerogram veterans (owner ruling 2026-08-06): signs crossing the
   # border WHOLE — written Sumerian, spoken as the Akkadian word.
   # Their value is that word (no freq_akkob: word-sign use is not a
@@ -49,7 +49,7 @@ signs:
   - { glyph: "𒌒", codepoint: "12312", name: "UB",  value: "ub",   meaning: "[ub]; a corner-nook in the lists",                               freq_akkob: 116, certainty: stated,  chapter: 5, keyword: "nook" }
   - { glyph: "𒊌", codepoint: "1228C", name: "UG",  value: "ug, uk",   osl_name: "|PIRIG×UD|", meaning: "a raging beast — a lion-sign marked with \"day\"", freq_akkob: 169, certainty: stated, chapter: 5, keyword: "lion" }
   - { glyph: "𒌑", codepoint: "12311", name: "U2",  value: "u2",   meaning: "plant, grass",           freq_akkob: 13,  certainty: stated,  chapter: 5, keyword: "grass" }
-  - { glyph: "𒀉", codepoint: "12009", name: "A2",  value: "id",   veteran: true, meaning: "veteran — A₂ gains [id]: iddi-ma, \"he charged — and\"",            freq_akkob: 101, certainty: stated,  chapter: 5, keyword: "arm" }
+  - { glyph: "𒀉", codepoint: "12009", name: "A2",  value: "id, it, ed, et", veteran: true, meaning: "veteran — A₂ gains [id/it/ed/et]: the dental family, both vowel colors",            freq_akkob: 101, certainty: stated,  chapter: 5, keyword: "arm" }
   # ch 06 · šumma awīlum — if a man (the laws begin)
   - { glyph: "𒋳", codepoint: "122F3", name: "TAG", value: "szum", meaning: "to touch, strike; šumma's first half",                   freq_akkob: 56,  certainty: stated,  chapter: 6, keyword: "touch" }
   - { glyph: "𒉿", codepoint: "1227F", name: "PI",  value: "wa, wi",   meaning: "ear; the w Sumerian never wrote",                     freq_akkob: 69,  certainty: stated,  chapter: 6, keyword: "ear" }
@@ -64,6 +64,8 @@ signs:
   - { glyph: "𒈪", codepoint: "1222A", name: "MI",  value: "mi",   meaning: "night, black",                                              freq_akkob: 33,  certainty: stated,  chapter: 8, keyword: "night" }
   - { glyph: "𒀾", codepoint: "1203E", name: "AŠ2", value: "as2",  meaning: "a curse in the lists",                                      freq_akkob: 194, certainty: unclear, chapter: 8, keyword: "curse" }
   - { glyph: "𒅁", codepoint: "12141", name: "IB",  value: "ib, eb, ep", meaning: "a corner in the lists",                               freq_akkob: 52,  certainty: unclear, chapter: 8, keyword: "corner" }
+  - { glyph: "𒊬", codepoint: "122AC", name: "SAR", value: "szar", veteran: true, meaning: "veteran — SAR gains [šar]: šarrum, the king spelled sound by sound", freq_akkob: 117, certainty: stated, chapter: 8, keyword: "write" }
+  - { glyph: "𒂵", codepoint: "120B5", name: "GA",  value: "qa2",  veteran: true, meaning: "veteran — GA gains [qa]: nasqā, \"choice\" — the emphatic q",          freq_akkob: 72,  certainty: stated, chapter: 8, keyword: "milk" }
   # ch 09 · The stems named (G, D, Š, N)
   - { glyph: "𒅋", codepoint: "1214B", name: "IL",  value: "il",   meaning: "the il- of illak, \"he goes\"",                             freq_akkob: 64,  certainty: unclear, chapter: 9, keyword: "step" }
   - { glyph: "𒀠", codepoint: "12020", name: "AL",  value: "al",   meaning: "the hoe",                                                   freq_akkob: 51,  certainty: classic, chapter: 9, keyword: "hoe" }
@@ -73,6 +75,7 @@ signs:
   - { glyph: "𒇉", codepoint: "121C9", name: "ENGUR", value: "id", osl_name: "|LAGAB×HAL|", meaning: "the sweet waters under the earth (engur); with A before it one word — written ID₂, spoken Id: the River", certainty: stated, chapter: 10, keyword: "the deep" }
   - { glyph: "𒁍", codepoint: "1204D", name: "BU",  value: "bu, pu", meaning: "[bu]; to tear away in the lists",                           freq_akkob: 38,  certainty: unclear, chapter: 10, keyword: "tear" }
   - { glyph: "𒅅", codepoint: "12145", name: "IG",  value: "ig, ik, iq", meaning: "the door",                                              freq_akkob: 109, certainty: stated,  chapter: 10, keyword: "door" }
+  - { glyph: "𒍪", codepoint: "1236A", name: "ZU",  value: "su2",  veteran: true, meaning: "veteran — ZU gains [su]: the -su left when -šu melts: iktašassu", freq_akkob: 92, certainty: stated, chapter: 10, keyword: "know" }
   # ch 11 · An eye for an eye (laws 196-197)
   - { glyph: "𒌔", codepoint: "12314", name: "UH2", value: "uh2",  osl_name: "|UD.KUŠU₂|", meaning: "spittle, phlegm in the lists",           freq_akkob: 220, certainty: stated,  chapter: 11, keyword: "spittle" }
   - { glyph: "𒉺", codepoint: "1227A", name: "PA",  value: "pa",   meaning: "branch; the scepter in Sumerian",                            freq_akkob: 48,  certainty: classic, chapter: 11, keyword: "branch" }
@@ -82,14 +85,16 @@ signs:
   - { glyph: "𒅀", codepoint: "12140", name: "IA",  value: "ia",   osl_name: "|I.A|", meaning: "i and a fused in one sign — the -ya of \"my\"",        freq_akkob: 26,  certainty: stated,  chapter: 12, keyword: "my" }
   - { glyph: "𒊹", codepoint: "122B9", name: "ŠAR2", value: "szar2", meaning: "3600 — the number of everything",                            certainty: stated,  chapter: 12, keyword: "myriad" }
   - { glyph: "𒄰", codepoint: "12130", name: "KAM", value: "kam",  osl_name: "|HI×BAD|", meaning: "the counting tag after numbers — \"-th\"",          freq_akkob: 139, certainty: stated,  chapter: 12, keyword: "ordinal" }
+  - { glyph: "𒉈", codepoint: "12248", name: "NE",  value: "bi2",  veteran: true, meaning: "veteran — NE gains [bi]: qibīma, \"speak!\" — the letter-opener's middle", freq_akkob: 82, certainty: stated, chapter: 12, keyword: "brazier" }
+  - { glyph: "𒊑", codepoint: "12291", name: "RI",  value: "re",   veteran: true, meaning: "veteran — RI gains [re]: ašarēd, \"foremost\" — the e-colored ri", freq_akkob: 86, certainty: stated, chapter: 12, keyword: "distant" }
+  - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki, qi2", veteran: true, keyword: "place", meaning: "veteran — KI gains [qi]: qibīma's opener — the old ki serves as ever", chapter: 12 }
   # ch 13 · anāku — I am he
   - { glyph: "𒌌", codepoint: "1230C", name: "UL",  value: "ul",   osl_name: "|U.GUD|", meaning: "the flat no of statements",                          freq_akkob: 57,  certainty: stated,  chapter: 13, keyword: "never" }
+  - { glyph: "𒁲", codepoint: "12072", name: "DI",  value: "t,i3", veteran: true, meaning: "veteran — DI gains [ṭi]: liṭīb, \"may it be sweet\"", freq_akkob: 242, certainty: stated, chapter: 13, keyword: "verdict" }
   # ch 14 · Where you stand (stretch close; the last box falls)
   - { glyph: "𒋼", codepoint: "122FC", name: "TE",  value: "te",   meaning: "to approach in the lists",                                  freq_akkob: 87,  certainty: unclear, chapter: 14, keyword: "approach" }
   # ch 15 · It has happened (the perfect; law 202)
   - { glyph: "𒊍", codepoint: "1228D", name: "AZ",  value: "as, az, as,", osl_name: "|PIRIG×ZA|", meaning: "the bear in the lists; one sign for three tails — as, az, and the pressed aṣ", freq_akkob: 585, certainty: stated, chapter: 15, keyword: "bear" }
-  - { glyph: "𒋫", codepoint: "122EB", name: "TA",  value: "ta",   veteran: true, keyword: "from", meaning: "veteran — TA gains [ta]: the perfect's own marker, im-ta-ḫa-aṣ", chapter: 15 }
-  - { glyph: "𒈤", codepoint: "12224", name: "MAH", value: "mah",  veteran: true, keyword: "exalted", meaning: "veteran — MAḪ gains [maḫ]: im-maḫ-ḫa-aṣ, \"he shall be struck\"", chapter: 15 }
   # ch 16 · Eye, tooth, bone (laws 197+200 in signs; the scale of persons)
   - { glyph: "𒄊", codepoint: "1210A", name: "GIR3", value: "es,emtum", display_value: "eṣemtum", meaning: "the foot, the path; never voiced alone here — with PAD.DU it writes eṣemtum, \"bone\"", certainty: classic, chapter: 16, keyword: "path" }
   - { glyph: "𒉻", codepoint: "1227B", name: "PAD", value: "es,emtum", display_value: "eṣemtum", meaning: "a morsel, a ration; the middle of the bone-compound GIR₃.PAD.RA₂", certainty: stated, chapter: 16, keyword: "morsel" }
@@ -99,8 +104,9 @@ signs:
   - { glyph: "𒈧", codepoint: "12227", name: "MASZ2", value: "masz2", display_value: "maš", meaning: "the kid goat — and the interest on a loan: growth measured the herdsman's way", freq_akkob: 19, certainty: stated, chapter: 17, keyword: "kid" }
   - { glyph: "𒂆", codepoint: "12086", name: "GIN2", value: "sziqlum", display_value: "šiqlum", osl_name: "DUN₃@g", meaning: "the shekel-sign — written GIN₂, spoken šiqlum: the weight silver moves in", certainty: stated, chapter: 17, keyword: "shekel" }
   - { glyph: "𒈹", codepoint: "12239", name: "INANNA", value: "isztar", display_value: "Ištar", osl_name: "MUŠ₃", meaning: "the goddess's reed-bundle standard — written INANNA, spoken Ištar in Akkadian mouths", certainty: classic, chapter: 17, keyword: "goddess" }
-  - { glyph: "𒆠", codepoint: "121A0", name: "KI",  value: "ki",   veteran: true, keyword: "place", meaning: "veteran — KI gains [ki]: plain syllable; its old self still says \"from\"", chapter: 17 }
+  - { glyph: "𒍝", codepoint: "1235D", name: "ZA",  value: "s,a",  veteran: true, meaning: "veteran — ZA gains [ṣa]: uṣṣab, \"it will grow\" — interest's own syllable", freq_akkob: 85, certainty: stated, chapter: 17, keyword: "bead" }
   # ch 18 · The whole course in one room (the invitation; close + Reference)
   - { glyph: "𒅈", codepoint: "12148", name: "AR",  value: "ar",   osl_name: "|IGI.RI|", meaning: "praise, glory in the lists; here the syllable of maḫar, \"before\"", freq_akkob: 4488, certainty: stated, chapter: 18, keyword: "praise" }
   - { glyph: "𒌫", codepoint: "1232B", name: "UR2", value: "ur2",  meaning: "the lap — a body's base; foundations in the lists", freq_akkob: 1465, certainty: stated, chapter: 18, keyword: "lap" }
+  - { glyph: "𒆪", codepoint: "121AA", name: "KU",  value: "qu2",  veteran: true, meaning: "veteran — KU gains [qu]: šūqurātim, \"precious\"", freq_akkob: 104, certainty: stated, chapter: 18, keyword: "seize" }
   - { glyph: "𒀩", codepoint: "12029", name: "ALAN", value: "s,almum", display_value: "ṣalmum", meaning: "the statue — a person's standing image; written ALAN, spoken ṣalmum", certainty: classic, chapter: 18, keyword: "statue" }

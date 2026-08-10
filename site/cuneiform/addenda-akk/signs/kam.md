@@ -31,7 +31,7 @@ scribes counted anything in order — and they counted everything
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀭𒌓 𒀸𒋳𒅀 𒈬𒊹𒄰</span><span class="translit">{d}utu aš-šum-ia MU ŠAR₂.KAM</span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "…for a 3600TH year": the tag at work in a blessing</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒌓</span> 𒀸𒋳𒅀 <span class="logo">𒈬𒊹𒄰</span></span><span class="translit">{d}<span class="logo">ŠAMAŠ</span> aš-šum-ia <span class="logo">ŠANAT ŠĀR</span></span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "…for a 3600TH year": the tag at work in a blessing</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian school letter (CUSAS 43, 28), obverse 4.

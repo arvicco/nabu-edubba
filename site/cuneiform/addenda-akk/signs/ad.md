@@ -6,7 +6,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "AD"
-reads: "[ad/at]"
+reads: "[ad/at/aṭ]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -28,7 +28,11 @@ ever-repeating *i-na-ad-di-in*, "he shall pay."
 The **father** stands at the head of the household and the end of
 the ledger: when a payment falls due in the laws — *inaddin*, "he
 shall pay" — the father-sign is right there in the middle of the
-word, holding the family accountable.
+word, holding the family accountable. The pressed third of the
+family, *aṭ*, arrives with the epilogue's
+<span class="norm">šaṭram</span>, "the inscribed"
+(<a href="{{ '/cuneiform/103/18-the-kings-invitation/' | relative_url }}">chapter 18</a>) —
+ad, at, aṭ: one sign, the whole dental row.
 
 ## In the wild
 

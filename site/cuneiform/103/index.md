@@ -53,7 +53,8 @@ invitation to every future reader — all in the original.
   <li><a href="{{ '/cuneiform/103/15-it-has-happened/' | relative_url }}">It has happened</a> — the perfect named, and law 202 read whole</li>
   <li><a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">Eye, tooth, bone</a> — the bone law paid in signs, and the scale of persons</li>
   <li><a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">Silver changes hands</a> — a real Sippar loan: interest, witnesses, year-name</li>
-  <li><a href="{{ '/cuneiform/103/18-the-whole-course/' | relative_url }}">The whole course in one room</a> — the invitation answered; Reference, and the close</li>
+  <li><a href="{{ '/cuneiform/103/18-the-kings-invitation/' | relative_url }}">The king's invitation</a> — the epilogue addresses its future reader, answered; the close</li>
+  <li><a href="{{ '/cuneiform/103/19-reference/' | relative_url }}">Reference</a> — every sign taught, the grammar shelved, conventions, sources</li>
 </ol>
 
 Two stretches are live; the course still ends mid-story on

@@ -7,7 +7,7 @@ description: >-
 layout: sign
 school: cuneiform
 sign: "KI"
-reads: "[ki]"
+reads: "[ki/qi]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -27,13 +27,17 @@ contracts' Sumerian formulary — as its old self, opening
 
 **Place** twice over: the ground a festival stands on when it
 is a syllable, and the place a loan comes FROM when the
-notary's old Sumerian does the talking.
+notary's old Sumerian does the talking. And pressed to its
+emphatic twin, *qi*, the place-sign opens
+<span class="norm">qibīma</span>, "speak!" — every letter in
+Babylon begins on it
+(<a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">chapter 12</a>).
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒌓 𒆠𒉡𒉌</span><span class="translit">U₄ ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span>, "on the day of the brazier-festival" — a loan's due date</span></div>
+    <div class="reading-line"><span class="script"><span class="logo">𒌓</span> 𒆠𒉡𒉌</span><span class="translit"><span class="logo">ŪM</span> ki-nu-ni</span><span class="gloss"><span class="norm">ūm kinūni</span>, "on the day of the brazier-festival" — a loan's due date</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian loan (PBS 8/2, 195), obverse 9.
@@ -43,4 +47,4 @@ notary's old Sumerian does the talking.
 </figure>
 
 Akkadian reading taught in
-<a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">103's chapter 17</a>.
+<a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">103's chapter 12</a>.

@@ -25,7 +25,7 @@ for what shall happen — and
 slipped past a -t- with a promise: named where met. You have
 met it five times since. The waiting ends here too.
 
-## Batch sixteen — and two veterans
+## Batch sixteen
 
 <table class="sign-table">
   <thead>
@@ -38,21 +38,6 @@ met it five times since. The waiting ends here too.
       <td>one sign for three tails — as, az, and the pressed
           aṣ, your second emphatic in a sign; it closes this
           chapter's verb of record, <em>im-ta-ḫa-aṣ</em></td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒋫</td><td>TA</td><td>from</td><td>[ta]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/00-orientation/#sign-122EB' | relative_url }}">102's from-sign</a>
-          crosses the border as pure sound — and lands the
-          biggest job of its life: the -ta- this whole chapter
-          is named for</td>
-    </tr>
-    <tr>
-      <td class="script sign-cell">𒈤</td><td>MAḪ</td><td>exalted</td><td>[maḫ]</td>
-      <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12224' | relative_url }}">102's majesty-word</a>
-          crosses as sound: <em>im-maḫ-ḫa-aṣ</em>, "he shall be
-          struck" — sixty times, as you are about to read</td>
     </tr>
   </tbody>
 </table>

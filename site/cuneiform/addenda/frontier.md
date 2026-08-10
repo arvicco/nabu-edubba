@@ -25,7 +25,7 @@ not a gap in your learning but the exact edge of it. Read what
 you can (nearly everything), and let each box tell you what the
 next course owes you.
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢ 𒈤 𒀭 𒆠𒀀 𒈨 𒃻𒉆𒈠 𒅆 𒍪𒍪</span><span class="translit">alan mah an ki-a me niŋ₂-nam-ma igi zu-zu</span><span class="gloss">"a majestic statue, knowing by sight the essence of everything in heaven and earth" — one sign short: <em>alan</em>, the statue itself</span></div>
   </div>
@@ -36,7 +36,7 @@ next course owes you.
   </figcaption>
 </figure>
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒂍𒍪 𒆳 𒄀▢𒈾 𒈬𒍪 𒊮 𒄥𒊏</span><span class="translit">e₂-zu kur gi-rin-na mu-zu šag₄ gur-ra</span><span class="gloss">"your house — a mountain in blossom; your name — a turning of hearts" — one sign short, inside the word for blossom</span></div>
   </div>
@@ -47,7 +47,7 @@ next course owes you.
   </figcaption>
 </figure>
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒆷𒄩𒈠 𒁾𒇲 𒃲 𒂍𒂊 ▢𒂵𒁉</span><span class="translit">la-ha-ma dub-la₂ gal e₂-e sug₂-ga-bi</span><span class="gloss">"the lahama-figures standing at the house's great gate-platform" — one sign short: their standing</span></div>
   </div>

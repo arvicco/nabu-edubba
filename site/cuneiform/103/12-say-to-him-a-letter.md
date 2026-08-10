@@ -48,6 +48,27 @@ every schoolchild drilled. Today you read real mail.
           MU ŠAR₂.KAM, "a 3600th-year," i.e. a lifetime with no
           end in sight</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">𒆠</td><td>KI</td><td>place</td><td>[qi]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-121A0' | relative_url }}">101's place-sign</a>
+          pressed to qi: the opener of <em>qi-bi-ma</em>,
+          "speak!" — this chapter's second word</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td>[bi]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/04-the-verbal-chain/#sign-12248' | relative_url }}">102's brazier-sign</a>
+          flames up as bi, the middle of <em>qi-bi-ma</em> —
+          fire lending the letter its voice</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">𒊑</td><td>RI</td><td>distant</td><td>[re]</td>
+      <td>—</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12291' | relative_url }}">102's distant-sign</a>
+          gains its e-color: <em>a-ša-re-ed</em>, "foremost," in
+          the first address you read today</td>
+    </tr>
   </tbody>
 </table>
 
@@ -62,10 +83,10 @@ names:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒀀𒈾 𒀭𒂗𒍪𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}suen-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:"</span></div>
+    <div class="reading-line"><span class="script">𒀀𒈾 𒀭<span class="logo">𒂗𒍪</span>𒀀𒊭𒊑𒀉</span><span class="translit">a-na {d}<span class="logo">SUEN</span>-a-ša-re-ed</span><span class="gloss"><span class="norm">ana Sîn-ašarēd</span> — "To Sîn-is-foremost:"</span></div>
     <div class="reading-line"><span class="script">𒆠𒉈𒈠</span><span class="translit">qi-bi-ma</span><span class="gloss"><span class="norm">qibīma</span> — "speak!"</span></div>
-    <div class="reading-line"><span class="script">𒌝𒈠 𒀭𒂗𒍪𒀀𒀀𒁀𒀸𒈠</span><span class="translit">um-ma {d}suen-a-a-ba-aš-ma</span><span class="gloss"><span class="norm">umma Sîn-ayabāš-ma</span> — "thus (says) Sîn-ayabāš:"</span></div>
-    <div class="reading-line"><span class="script">𒀭𒌓 𒀸𒋳𒅀 𒈬𒊹𒄰</span><span class="translit">{d}utu aš-šum-ia MU ŠAR₂.KAM</span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
+    <div class="reading-line"><span class="script">𒌝𒈠 𒀭<span class="logo">𒂗𒍪</span>𒀀𒀀𒁀𒀸𒈠</span><span class="translit">um-ma {d}<span class="logo">SUEN</span>-a-a-ba-aš-ma</span><span class="gloss"><span class="norm">umma Sîn-ayabāš-ma</span> — "thus (says) Sîn-ayabāš:"</span></div>
+    <div class="reading-line"><span class="script">𒀭<span class="logo">𒌓</span> 𒀸𒋳𒅀 <span class="logo">𒈬𒊹𒄰</span></span><span class="translit">{d}<span class="logo">ŠAMAŠ</span> aš-šum-ia <span class="logo">ŠANAT ŠĀR</span></span><span class="gloss"><span class="norm">Šamaš aššumīya šanat šār</span> — "May Šamaš, for my sake, for a 3600-year —" and the wish-verb, "keep you well," stands in the tablet's next line, too damaged to read</span></div>
   </div>
   <figcaption class="citation">
     An Old Babylonian school letter (CUSAS 43, 28),
@@ -97,10 +118,13 @@ Item by item — the frame is new grammar, so take it slowly:
   the first-person cousin of
   <a href="{{ '/cuneiform/103/01-sound-by-sound/' | relative_url }}">chapter 01's</a>
   -šu.
-- <span class="norm">MU ŠAR₂.KAM</span> — "a 3600th year": MU
-  is the year-sumerogram (the same sign is Sumerian "name" and
-  "year" — here Babylon reads it <span class="norm">šattum</span>),
-  ŠAR₂ the myriad, KAM the counting tag. A blessing does not
+- <span class="norm">šanat šār</span> — "a 3600th year," and the
+  green shows you why the mouth and the tablet part ways: the
+  writing is MU ŠAR₂.KAM — MU the year-sumerogram (the same sign
+  is Sumerian "name" and "year"; Babylon reads it
+  <span class="norm">šattum</span>, "year of"
+  <span class="norm">šanat</span>), ŠAR₂ the myriad, KAM the
+  counting tag. A blessing does not
   say "long life"; it says *year number 3600* — may you outlive
   arithmetic.
 
@@ -114,7 +138,7 @@ home in its mailbag at last
 (<a href="{{ '/cuneiform/103/09-the-stems-named/' | relative_url }}">chapter 09</a>
 met it as a stem specimen):
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒋳𒈠 𒋫𒊏𒄠𒈠𒀭𒉌 𒋗𒁉𒇴</span><span class="translit">šum-ma ta-ra-am-ma-an-ni šu-bi-lam</span><span class="gloss"><span class="norm">šumma tarammanni šūbilam</span> — "if you love me, send it to me!"</span></div>
   </div>

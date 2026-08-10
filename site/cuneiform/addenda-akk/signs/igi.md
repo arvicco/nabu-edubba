@@ -1,12 +1,12 @@
 ---
 title: "IGI · eye"
 description: >-
-  The veteran sign IGI in Akkadian — pure sound at last: the
-  [ši], free of the eye entirely.
+  The veteran sign IGI in Akkadian — pure sound at last: ši
+  and lim, free of the eye entirely.
 layout: sign
 school: cuneiform
 sign: "IGI"
-reads: "[ši]"
+reads: "[ši/lim]"
 course: cuneiform-addenda-akk
 course_url: /cuneiform/addenda-akk/
 course_title: "Akkadian Addenda"
@@ -29,11 +29,19 @@ whispering *ši*. When destinies are decreed on the stele —
 <span class="norm">šīmātum</span> — the old eye opens the word
 without seeing a thing.
 
+And from
+<a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">chapter 10</a>
+the same sign carries a second syllable: **lim**, the closer of
+<span class="norm">awīlim</span>, "of a man" — every time the
+laws put a man in the genitive (<em>a-wi-lim</em>), the old eye
+seals the word. One sign, two workaday sounds, no eyes in
+either.
+
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">𒅆𒈠𒀜 𒌧</span><span class="translit">ši-ma-at KALAM</span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye as pure ši, with a sumerogram for a neighbor</span></div>
+    <div class="reading-line"><span class="script">𒅆𒈠𒀜 <span class="logo">𒌧</span></span><span class="translit">ši-ma-at <span class="logo">MĀTIM</span></span><span class="gloss"><span class="norm">šīmāt mātim</span>, "the destinies of the Land" — the veteran eye as pure ši, with a sumerogram for a neighbor</span></div>
   </div>
   <figcaption class="citation">
     <em>Codex Hammurapi</em> (composite text), prologue.
@@ -41,5 +49,8 @@ without seeing a thing.
   </figcaption>
 </figure>
 
-Akkadian reading taught in
-<a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">103's chapter 03</a>.
+Akkadian readings taught in
+<a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">103's chapter 03</a>
+(ši) and
+<a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">chapter 10</a>
+(lim).
