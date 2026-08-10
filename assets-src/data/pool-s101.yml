@@ -675,3 +675,53 @@ signs:
       rank 77; the old picture is disputed (a bucket, a fence, a
       hung bell) — the grammar is not: 用 puts things to work,
       and 可 + 用 says "usable".
+  - char: 四
+    chapter: 11
+    keyword: four
+    pinyin: sì
+    meaning: "four"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 43; the archaic four was four stacked strokes (亖) —
+      this borrowed graph replaced it early.
+  - char: 五
+    chapter: 11
+    keyword: five
+    pinyin: wǔ
+    meaning: "five"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 37; strokes crossed between heaven-line and earth-line
+      — counting past four needed a knot, not more bars.
+  - char: 六
+    chapter: 11
+    keyword: six
+    pinyin: liù
+    meaning: "six"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 83; an old hut-graph lent its sound to the numeral.
+  - char: 白
+    chapter: 11
+    keyword: white
+    pinyin: bái
+    meaning: "white; plain, unadorned"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 150 — pinned as the component 百 needs; the old picture
+      is disputed (a grain of rice, a thumbnail, the dawn glow).
+  - char: 百
+    chapter: 11
+    keyword: hundred
+    pinyin: bǎi
+    meaning: "hundred; the many"
+    category: phono-semantic
+    certainty: classic
+    parts: ["一", "白"]
+    note: >-
+      rank 73; one over white — bái lends its sound, the stroke
+      counts the tally.
