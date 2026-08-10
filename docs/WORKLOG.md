@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · review round (Gate 15: the box-share law) · phase-15 ·
+Owner rulings, generalized from the 品/沐 report: a reading line
+shows AT MOST 50% boxes, the ceiling tightening as the course
+progresses; every example ties its sign to OTHER taught characters
+(the more the better, balanced against fame). Law in the rulebook
+(§5, cap = max(25%, 50 − 5·⌊ch/5⌋)) + box-share lint in the gate
+(counts ▢ vs Han per script line, cap from the chapter's front
+matter) + unit tests. Then ALL five chapters swept: famous lines
+TRIMMED to their readable clause with the gloss carrying the rest
+(cascade 54→44%, 樂土 refrain 75→50%, 6.23 landscape 75→50% with
+the ch03 return re-cut to 仁▢▢山 at 50%, 7.22 to 子曰：「三人▢」
+at 20%, 王正月 67→33%, 旦旦 75→50%, 東方未明 75→50%, river maxim
+62→50%); box-heavy lines REPLACED with taught-company witnesses
+(人: 大人虎變, Yi Ge — 50%; 一人: the One Man oath, Analects 20.1
+— 50%; 明: the Daxue's 明明德 doubled — 50%; 品: the Tribute of
+Yu's 金三品 — 33%; 沐: the Rites' 三日具沐 — 25%); the 87%-box
+Laozi-64 seed/harvest arc retired (本末 pair covers 末); 中 and
+月 demonstrated in prose words (上中下 the grading scale, 日月
+time itself). Every displayed line now reads mostly in taught
+characters.
+
 2026-08-10 · review round (Gate 15: 本/未 examples) · phase-15 ·
 Owner: 本 and 未 need examples tied to known characters, not boxes.
 Replaced the Analects 1.2 figure (2/9 and 1/4 taught) with the

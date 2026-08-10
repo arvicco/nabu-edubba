@@ -153,6 +153,20 @@ class LintTest < Minitest::Test
     refute Edubba::ScriptScan.tracked?(0x0041)
   end
 
+  def test_box_share_caps_untaught_boxes_progressively
+    fig = ->(script) { "---\nchapter: 0\n---\n<figure class=\"reading reading--script\"><div><span class=\"script\">#{script}</span></div></figure>" }
+    sino = "site/sinographs/101/00-x.md"
+    v = Edubba::Lint.check_box_share(sino, fig.call("人▢▢，▢▢天。"))
+    assert_equal ["box-share"], v.map(&:rule), "67% boxes breaks the ch0 50% cap"
+    assert_empty Edubba::Lint.check_box_share(sino, fig.call("▢▢大，天大，▢大。")),
+                 "43% boxes passes at ch0"
+    ch5 = fig.call("▢水，▢山。").sub("chapter: 0", "chapter: 5")
+    assert_equal ["box-share"], Edubba::Lint.check_box_share(sino, ch5).map(&:rule),
+                 "50% breaks the tightened 45% cap of the second stretch"
+    assert_empty Edubba::Lint.check_box_share("site/cuneiform/103/x.md", fig.call("▢▢▢▢天。")),
+                 "sinograph law only"
+  end
+
   def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
     sino = "site/sinographs/101/00-x.md"
     v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")

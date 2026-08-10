@@ -132,7 +132,7 @@ you learned one chapter ago:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢▢本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — the Great Learning's first premise, with today's pair carrying the whole thought</span></div>
-    <div class="reading-line"><span class="script">▢▢未明，▢▢▢▢。</span><span class="translit pinyin">dōng fāng wèi míng, diān dǎo yī cháng</span><span class="gloss">"the east is not yet bright — I pull my clothes on upside down" — a courtier summoned before dawn: 未明, "not-yet-bright," is your newest character leaning on <a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">chapter 03</a>'s 明</span></div>
+    <div class="reading-line"><span class="script">▢▢未明。</span><span class="translit pinyin">dōng fāng wèi míng</span><span class="gloss">"the east is not yet bright" — and the poem goes on: "I pull my clothes on upside down," a courtier summoned before dawn. 未明, "not-yet-bright," is your newest character leaning on <a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">chapter 03</a>'s 明</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>The Great Learning</em> (Daxue), in a Song
@@ -145,35 +145,22 @@ you learned one chapter ago:
   </figcaption>
 </figure>
 
-And the tree line from
-<a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">chapter 02</a>
-comes back with its last word lit:
+品 counts a province's tribute, the Rites command the washing,
+and the Laozi tastes the flavorless — the new characters close the
+chapter in taught company:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢木，▢▢▢末。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest tip" — the promised rereading: the tiny shoot the giant grew from is 末, the tip you learned today</span></div>
-  </div>
-  <figcaption class="citation">
-    <em>Laozi</em> 64 — <a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">chapter 02</a>'s reading, rereading.
-    <code>urn:nabu:kanripo:KR5c0057:064:1a</code> · license: attribution.
-  </figcaption>
-</figure>
-
-品 takes its seat in the Changes' hymn to creation, and the
-sound-carriers close the chapter in two of the tradition's best
-sentences:
-
-<figure class="reading reading--script reading--stacked">
-  <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢▢，品▢▢▢。</span><span class="translit pinyin">yún xíng yǔ shī, pǐn wù liú xíng</span><span class="gloss">"clouds move and rain falls; the kinds of things flow into form" — the Changes on creation, sorting the world with your three mouths</span></div>
-    <div class="reading-line"><span class="script">▢▢沐▢，▢▢▢▢上▢。</span><span class="translit pinyin">zhāi jiè mù yù, zé kě yǐ sì shàng dì</span><span class="gloss">"having fasted and washed, anyone may sacrifice to the Lord on High" — Mencius: even the worst of us, washed, may stand before Heaven</span></div>
+    <div class="reading-line"><span class="script">▢三品。</span><span class="translit pinyin">jīn sān pǐn</span><span class="gloss">"metal of three grades" — the Tribute of Yu counting a province's bronze, copper, and iron, with your 三 doing the sorting</span></div>
+    <div class="reading-line"><span class="script">三日▢沐。</span><span class="translit pinyin">sān rì jù mù</span><span class="gloss">"every third day, prepare a hair-washing" — the Rites' rule for serving one's parents; 三日, "every three days," reads straight through</span></div>
     <div class="reading-line"><span class="script">味▢味。</span><span class="translit pinyin">wèi wú wèi</span><span class="gloss">"taste the flavorless" — the Laozi in three characters, two of them yours and the third coming soon</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Zhouyi</em>, hexagram Qian ·
-    <code>urn:nabu:kanripo:KR1a0001:001:22a</code>.
-    Line 2: <em>Mencius</em> 8.25 ·
-    <code>urn:nabu:kanripo:KR1h0001:008:30a</code>.
+    Line 1: <em>Book of Documents</em> (Shangshu), Tribute of Yu,
+    in a Song commentary edition ·
+    <code>urn:nabu:kanripo:KR1b0018:010:19a</code>.
+    Line 2: <em>Book of Rites</em> (Liji), "Nei ze" ·
+    <code>urn:nabu:kanripo:KR1d0052:012:11a</code>.
     Line 3: <em>Laozi</em> 63 ·
     <code>urn:nabu:kanripo:KR5c0057:063:1a</code>.
     All license: attribution.

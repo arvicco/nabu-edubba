@@ -108,7 +108,7 @@ quotation marks:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢水，▢▢▢山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — perfectly parallel clauses, your two landscapes holding down the closing seats</span></div>
+    <div class="reading-line"><span class="script">▢水，▢山。</span><span class="translit pinyin">yào shuǐ, yào shān</span><span class="gloss">"…delight in water, …delight in mountains" — the heart of the canon's most famous landscape line, "the wise delight in water; the humane delight in mountains"; it returns whole in the next chapter, one box brighter</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23.
@@ -116,45 +116,38 @@ quotation marks:
   </figcaption>
 </figure>
 
-Note what the parallelism does: once you know 水 ends the first
-clause and 山 the second, you know the boxed words before each are
-doing the same jobs — *who* delights, and *delights*. Classical
-prose leans on this symmetry constantly; the boxes are already
-teaching you grammar.
+Note what the parallelism does: the two boxed words are the same
+character doing the same job — *delights* — so the clauses mirror.
+Classical prose leans on this symmetry constantly; the boxes are
+already teaching you grammar.
 
-The sun and moon take the sky, and — with <a href="{{ '/sinographs/101/01-the-order-of-strokes/' | relative_url }}">chapter 01</a>'s 中 — the
-sun tells time:
+The sun pairs with the moon in the word
+<span class="script">日月</span>, *rì yuè* — sun-and-moon, which
+is to say *time itself* — and pairs with
+<a href="{{ '/sinographs/101/01-the-order-of-strokes/' | relative_url }}">chapter 01</a>'s
+中 to tell the hour:
 
-<figure class="reading reading--script reading--stacked">
+<figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">日▢▢月▢，月▢▢日▢。</span><span class="translit pinyin">rì wǎng zé yuè lái, yuè wǎng zé rì lái</span><span class="gloss">"the sun goes, and the moon comes; the moon goes, and the sun comes" — the Changes on why there is a tomorrow</span></div>
     <div class="reading-line"><span class="script">日中▢▢。</span><span class="translit pinyin">rì zhōng zé zè</span><span class="gloss">"the sun at noon begins to slant" — 日中, "sun-middle," is noon; what is full begins to lean</span></div>
   </div>
   <figcaption class="citation">
-    <em>Zhouyi</em>, Appended Words and hexagram Feng, in the
-    compilation <em>Zhouyi jijie</em> ·
-    <code>urn:nabu:kanripo:KR1a0008:015:16b</code> and
-    <code>urn:nabu:kanripo:KR1a0008:011:14a</code>.
-    Both license: attribution.
+    <em>Zhouyi</em>, hexagram Feng, in the compilation
+    <em>Zhouyi jijie</em>.
+    <code>urn:nabu:kanripo:KR1a0008:011:14a</code> · license: attribution.
   </figcaption>
 </figure>
 
 The tree stands in one of the Changes' image-formulas — four
-characters, three of them yours — and in a Laozi line that plants
-a seed this course harvests in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>:
+characters, three of them yours:
 
-<figure class="reading reading--script reading--stacked">
+<figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">木上▢水，▢。</span><span class="translit pinyin">mù shàng yǒu shuǐ, jǐng</span><span class="gloss">"wood with water above: the Well" — the well-sweep's timber lifting its bucket, drawn in your tree, your above, your water; the one box is the well itself, a picture of a wellhead you will meet down the road</span></div>
-    <div class="reading-line"><span class="script">▢▢▢木，▢▢▢▢。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest shoot" — the Laozi's tree; remember this line, you will reread it with one more character soon</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Zhouyi</em>, Image of hexagram Jing (the Well) ·
-    <code>urn:nabu:kanripo:KR1a0001:048:4a</code>.
-    Line 2: <em>Laozi</em> 64 ·
-    <code>urn:nabu:kanripo:KR5c0057:064:1a</code>.
-    Both license: attribution.
+    <em>Zhouyi</em>, Image of hexagram Jing (the Well).
+    <code>urn:nabu:kanripo:KR1a0001:048:4a</code> · license: attribution.
   </figcaption>
 </figure>
 
@@ -166,7 +159,7 @@ the old world's monument to guarded speech:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">三▢▢口。</span><span class="translit pinyin">sān jiān qí kǒu</span><span class="gloss">"its mouth thrice sealed" — your 三 counts the seals on your 口</span></div>
-    <div class="reading-line"><span class="script">▢人▢口，▢▢大▢。</span><span class="translit pinyin">fáng rén zhī kǒu, ruò fáng dà chuān</span><span class="gloss">"to dam the people's mouths is like damming a great river" — the ancient warning to kings, with 人, 口, and 大 all doing their work</span></div>
+    <div class="reading-line"><span class="script">▢人▢口。</span><span class="translit pinyin">fáng rén zhī kǒu</span><span class="gloss">"to dam the people's mouths…" — the ancient warning to kings continues "…is like damming a great river"; your 人 and 口 hold the phrase</span></div>
   </div>
   <figcaption class="citation">
     The mouth-chapter of the Tang anthology <em>Bai-Kong liutie</em>,

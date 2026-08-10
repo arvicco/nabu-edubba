@@ -119,11 +119,14 @@ already read:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢▢大，天大，▢大，王▢大。</span><span class="translit pinyin">gù dào dà, tiān dà, dì dà, wáng yì dà</span><span class="gloss">"so the Way is great, heaven is great, earth is great, and the king too is great" — four <em>greats</em> in one breath, with your heaven and your king holding two of the seats; the boxed earth-word wears your 土 inside it, as you will see soon</span></div>
-    <div class="reading-line"><span class="script">人▢▢，▢▢天。</span><span class="translit pinyin">rén fǎ dì, dì fǎ tiān</span><span class="gloss">"the person takes earth as measure; earth takes heaven" — your person opens the line, your heaven closes it</span></div>
+    <div class="reading-line"><span class="script">大人▢▢。</span><span class="translit pinyin">dà rén hǔ biàn</span><span class="gloss">"the great one transforms like a tiger" — the Changes on a leader remade: 大人, "the great one," is your first two-character word, and both characters are yours</span></div>
   </div>
   <figcaption class="citation">
-    <em>Laozi</em> 25.
-    <code>urn:nabu:kanripo:KR5c0057:025:1a</code> · license: attribution.
+    Line 1: <em>Laozi</em> 25 ·
+    <code>urn:nabu:kanripo:KR5c0057:025:1a</code>.
+    Line 2: <em>Zhouyi</em>, hexagram Ge (Revolution) ·
+    <code>urn:nabu:kanripo:KR1a0001:049:13a</code>.
+    Both license: attribution.
   </figcaption>
 </figure>
 
@@ -132,7 +135,7 @@ songs in the world — a field-worker dreaming of a better country:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢▢土。▢土▢土！▢▢▢▢？</span><span class="translit pinyin">shì bǐ lè tǔ. lè tǔ lè tǔ! yuán dé wǒ suǒ</span><span class="gloss">"off to that happy land — happy land, happy land! — where I shall find my place" — your 土 three times in one cry, each time behind the same boxed character, which means "happy": watch it repeat, the refrain is teaching it to you</span></div>
+    <div class="reading-line"><span class="script">▢土▢土！</span><span class="translit pinyin">lè tǔ lè tǔ!</span><span class="gloss">"happy land, happy land!" — the song's whole cry runs "I am leaving you, off to that happy land — happy land, happy land! — where I shall find my place"; your 土 carries the refrain, and the boxed character before each one means "happy"</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Big Rat".
