@@ -142,6 +142,17 @@ class LintTest < Minitest::Test
     end
   end
 
+  def test_scanner_handles_multi_range_scripts
+    with_site("index.md" => CUNEIFORM_PAGE + "\n學𦥯\n") do |dir|
+      han = Edubba::ScriptScan::SCRIPTS["sinographs"][:range]
+      assert_equal Set[0x5B78, 0x2696F],
+                   Edubba::ScriptScan.used_codepoints(dir, han),
+                   "URO and Ext-B codepoints both counted, cuneiform excluded"
+    end
+    assert Edubba::ScriptScan.tracked?(0x5B78)
+    refute Edubba::ScriptScan.tracked?(0x0041)
+  end
+
   def test_nav_label_must_be_drawn_from_title
     bad = "---\ntitle: \"06 · If a man…\"\nshort_title: \"06 · šumma\"\nchapter: 6\n---\nbody"
     v = Edubba::Lint.check_nav_label("x.md", bad)

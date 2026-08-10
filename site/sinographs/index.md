@@ -11,7 +11,7 @@ permalink: /sinographs/
 
 # The Sinograph School
 
-Sinographs — the characters known as hanzi (漢字) in Chinese, kanji in
+Sinographs — the characters known as hanzi (<span class="script">漢字</span>) in Chinese, kanji in
 Japanese, hanja in Korean, chữ Hán in Vietnamese — are the one great
 logographic tradition still in daily use. Because the modern languages
 are already well served by excellent tools, this school takes the road

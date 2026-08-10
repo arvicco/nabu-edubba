@@ -33,7 +33,7 @@ at any pace, forever.
     <span class="school-note">The writing of the Nile, from sacred carvings to Coptic — planned next</span>
   </a>
   <a class="school-card accent-sinographs" href="{{ '/sinographs/' | relative_url }}">
-    <span class="school-glyph" aria-hidden="true">字</span>
+    <span class="school-glyph script" aria-hidden="true">字</span>
     <strong>Sinographs</strong>
     <span class="school-note">The characters of China, Japan, Korea, and Vietnam, taught classical-first — planned</span>
   </a>

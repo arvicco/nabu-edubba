@@ -21,6 +21,16 @@
   unicode-range: U+13000-1342F;
 }
 
+/* Noto Serif TC — traditional character forms (sinographs rulebook
+   §4), same subset pipeline (sinographs-coverage.txt is the
+   gate-checked manifest). */
+@font-face {
+  font-family: "Noto Serif TC";
+  src: url("fonts/NotoSerifTC-subset.otf") format("opentype");
+  font-display: swap;
+  unicode-range: U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+20000-2EBEF, U+2F800-2FA1F, U+30000-323AF;
+}
+
 :root {
   --bg: #faf8f4;        /* unfired clay, light */
   --ink: #26211c;
@@ -52,9 +62,17 @@
 /* Native-script text: the unicode-range font-face applies wherever
    these glyphs occur; this class adds sizing safe for dense signs. */
 .script, .wordmark-glyphs {
-  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", Georgia, serif;
+  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Serif TC", Georgia, serif;
   font-style: normal;
 }
+
+/* Size law (sinographs rulebook §6, ruled 2026-08-10): characters
+   display bigger than cuneiform/Egyptian script everywhere — Han
+   strokes are hard to make out at the other scripts' sizes. :where
+   keeps this a low-specificity default: explicit script contexts
+   (readings, drills, exhibits) must each set their own
+   law-satisfying size as they arrive. */
+body.school-sinographs :where(.script) { font-size: 1.35em; }
 
 * { box-sizing: border-box; }
 

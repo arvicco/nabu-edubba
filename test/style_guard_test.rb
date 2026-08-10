@@ -84,4 +84,34 @@ class StyleGuardTest < Minitest::Test
                  "bubble still inflates a scroll container's scrollable width")
     refute_match(/visibility:\s*hidden/, body)
   end
+
+  # Size law (sinographs rulebook §6, owner ruling 2026-08-10):
+  # sinograph characters display bigger than cuneiform/Egyptian
+  # script everywhere. The stylesheet's default inline rule must
+  # scale Han runs up relative to their context; explicit sinograph
+  # script contexts (readings, drills, exhibits) register here with
+  # their cuneiform counterpart as they arrive, and must exceed it.
+  SINO_CONTEXTS = {
+    # sinograph selector => [its font-size floor in em/rem, note]
+  }.freeze
+
+  def test_sinograph_inline_script_scales_up
+    body = bodies_for("body.school-sinographs :where(.script)")
+    scale = body[/font-size:\s*([\d.]+)em/, 1]
+    refute_nil scale,
+               "the size law needs a low-specificity default rule scaling " \
+               "inline Han runs (body.school-sinographs :where(.script), em units)"
+    assert_operator scale.to_f, :>, 1.0,
+                    "sinograph inline script must display BIGGER than its context " \
+                    "(size law, rulebook §6) — got #{scale}em"
+  end
+
+  def test_registered_sinograph_contexts_exceed_their_floors
+    SINO_CONTEXTS.each do |sel, (floor, note)|
+      size = bodies_for(sel)[/font-size:\s*([\d.]+)(?:em|rem)/, 1]
+      refute_nil size, "#{sel} registered in SINO_CONTEXTS but sets no font-size"
+      assert_operator size.to_f, :>, floor,
+                      "#{sel} must exceed #{floor} (#{note}) — size law, rulebook §6"
+    end
+  end
 end

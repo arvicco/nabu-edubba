@@ -97,6 +97,12 @@ fallback. Recorded in docs/concept.md §7.
 - Native characters beside pinyin beside gloss, always; untaught
   characters appear as ▢; recurring characters link home to where
   they were first taught — the site-wide laws apply unchanged.
+- **Text face:** Noto Serif TC (OFL, vendored, subset via the
+  site-wide pipeline — sinographs-coverage.txt is the gate-checked
+  manifest). Serif matches the classical print register and the
+  site's serif body; traditional glyphs per §4. Han runs in pages
+  always sit in a `script` span — bare Han text outside one never
+  gets the vendored face.
 - **Size law (owner ruling 2026-08-10):** sinograph characters
   display BIGGER than cuneiform/Egyptian script text everywhere —
   a character's strokes are genuinely difficult to make out at the
