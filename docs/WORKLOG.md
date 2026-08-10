@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 ch00 · phase-15 · S101 opens: 00 · Orientation
+— the thesis trio 人→大→天 taught in the school's first sign table
+(columns Character · Keyword · Says · Means · How to see it), the
+one-picture-growing SVG chain, and a REAL first reading: Laozi 25
+(urn KR5c0057:025:1a, attribution), the four-greats line plus 人法地
+opener, untaught characters boxed — three characters in and the
+learner reads five of the fourteen glyphs of a twenty-four-century-
+old sentence. Course index page; kanripo→sinitic AXES entry (URN
+links to the Sinologist's desk). Text-critical catch: the received
+Kanripo/CBETA witnesses of Laozi 25 read 王亦大, not the 人亦大
+variant floating in popular quotation — cited text follows the
+witness. Pixel review caught TWO defects the gate had missed:
+kramdown footnotes do not render inside raw-HTML figcaptions
+([^chain] printed literally — marker moved to Markdown prose), and
+the reading gloss column CLIPPED at the measure — the width lint
+was blind to Han (metrics fell to the 0.75em default, no size-law
+scale). Hole closed mechanically: script_width_em now measures Han
+with the vendored Serif TC metrics × the 1.9/1.4 size-law scale
+(school picked by path), fullwidth punctuation at 1em; the Laozi
+figure measures 17.3em > 14.5 budget and correctly demands
+reading--stacked, which it now declares. Sign-table and reading
+script contexts registered in SINO_CONTEXTS (2.6rem/1.9rem, floors
+2rem/1.4rem).
+
 2026-08-10 · M15-4 instruments · phase-15 · The S101 curriculum
 rail, before any prose (rulebook §7 kept honest): pool-s101.yml
 (hand-edited source) → bin/sino_curriculum.rb →

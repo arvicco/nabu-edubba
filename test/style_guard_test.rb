@@ -93,6 +93,9 @@ class StyleGuardTest < Minitest::Test
   # their cuneiform counterpart as they arrive, and must exceed it.
   SINO_CONTEXTS = {
     # sinograph selector => [its font-size floor in em/rem, note]
+    ".school-sinographs .sign-cell" => [2.0, "cuneiform .sign-cell is 2rem"],
+    ".school-sinographs .reading--script .script" =>
+      [1.4, "cuneiform reading script is 1.4rem"]
   }.freeze
 
   def test_sinograph_inline_script_scales_up
