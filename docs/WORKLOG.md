@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 infrastructure (font + size law) · phase-15 ·
+Owner rulings recorded (D15-a: traditional base as recommended;
+NEW size law: sinograph characters display bigger than
+cuneiform/Egyptian everywhere — strokes genuinely hard to make
+out at the other scripts' sizes). Infrastructure: Noto Serif TC
+vendored (OFL, same license file as the other faces; 23MB source,
+4.6KB subset today) through the existing subset pipeline —
+ScriptScan gained multi-range scripts (Han spans six blocks; the
+one-Range assumption was cuneiform-shaped) with the sinographs
+entry, manifest, and gate coverage exactly like the other two
+scripts. Size law implemented as a low-specificity default
+(body.school-sinographs :where(.script) { font-size: 1.35em }) so
+inline Han runs grow in any context while future explicit contexts
+(readings, drills, exhibits) must each set their own
+law-satisfying size — style guard pins the default > 1em and
+carries a SINO_CONTEXTS registry that each new context must join
+with its cuneiform counterpart floor. Catch: the school page's
+漢字 sat in bare prose — a unicode-range font-face only activates
+when the surrounding font-family stack names the face, so bare
+Han text got Georgia's system fallback and no size rule; law
+recorded in rulebook §6 (Han runs always sit in a script span)
+and both pages fixed. Pixel review: school page + landing card
+render the serif face at law size.
+
 2026-08-09 · M15-3 · phase-15 · The classical-corpus frequency
 instrument, first of its family for the sinograph school.
 bin/sino_freq.rb (the hiero_freq mold) streams Nabu's kanripo
