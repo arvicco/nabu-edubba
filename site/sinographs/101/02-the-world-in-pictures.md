@@ -139,22 +139,39 @@ sun tells time:
   </figcaption>
 </figure>
 
-The tree gets a line to remember — it plants a seed this course
-harvests in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>
-— and the mouth closes the chapter in the oldest of the classics:
+The tree stands in one of the Changes' image-formulas — four
+characters, three of them yours — and in a Laozi line that plants
+a seed this course harvests in
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">chapter 04</a>:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
+    <div class="reading-line"><span class="script">木上▢水，▢。</span><span class="translit pinyin">mù shàng yǒu shuǐ, jǐng</span><span class="gloss">"wood with water above: the Well" — the well-sweep's timber lifting its bucket, drawn in your tree, your above, your water; the one box is the well itself, a picture of a wellhead you will meet down the road</span></div>
     <div class="reading-line"><span class="script">▢▢▢木，▢▢▢▢。</span><span class="translit pinyin">hé bào zhī mù, shēng yú háo mò</span><span class="gloss">"a tree you can barely hug grows from the finest shoot" — the Laozi's tree; remember this line, you will reread it with one more character soon</span></div>
-    <div class="reading-line"><span class="script">▢▢，▢▢口▢。</span><span class="translit pinyin">guān yí, zì qiú kǒu shí</span><span class="gloss">"contemplate nourishment: each seeks the filling of its own mouth" — the Changes' hexagram on feeding, with your 口 at the table</span></div>
   </div>
   <figcaption class="citation">
-    Line 1: <em>Laozi</em> 64 ·
+    Line 1: <em>Zhouyi</em>, Image of hexagram Jing (the Well) ·
+    <code>urn:nabu:kanripo:KR1a0001:048:4a</code>.
+    Line 2: <em>Laozi</em> 64 ·
     <code>urn:nabu:kanripo:KR5c0057:064:1a</code>.
-    Line 2: <em>Zhouyi</em>, hexagram Yi (Nourishment) ·
-    <code>urn:nabu:kanripo:KR1a0001:027:2a</code>.
     Both license: attribution.
+  </figcaption>
+</figure>
+
+And the mouth gets a statue and a river. When Confucius visited
+the ancestral temple of Zhou, the story goes, he found a golden
+figure by the steps with its mouth bound shut three times over —
+the old world's monument to guarded speech:
+
+<figure class="reading reading--script reading--stacked">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">三▢▢口。</span><span class="translit pinyin">sān jiān qí kǒu</span><span class="gloss">"its mouth thrice sealed" — your 三 counts the seals on your 口</span></div>
+    <div class="reading-line"><span class="script">▢人▢口，▢▢大▢。</span><span class="translit pinyin">fáng rén zhī kǒu, ruò fáng dà chuān</span><span class="gloss">"to dam the people's mouths is like damming a great river" — the ancient warning to kings, with 人, 口, and 大 all doing their work</span></div>
+  </div>
+  <figcaption class="citation">
+    The mouth-chapter of the Tang anthology <em>Bai-Kong liutie</em>,
+    preserving the <em>Kongzi jiayu</em> story and the old maxim.
+    <code>urn:nabu:kanripo:KR3k0008:030:17a</code> · license: attribution.
   </figcaption>
 </figure>
 
