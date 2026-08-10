@@ -159,6 +159,7 @@ module Edubba
       found.concat(check_logo_marking(path, text))
       found.concat(check_reading_width(path, text))
       found.concat(check_reading_dots(path, text))
+      found.concat(check_pinyin_display(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -171,6 +172,27 @@ module Edubba
       found
     rescue ArgumentError, Encoding::InvalidByteSequenceError
       [Violation.new(path, "encoding", "not valid UTF-8")]
+    end
+
+    # Tone-numbered pinyin (ma1, xue2) shaped like a letters+digit
+    # token; two letters minimum keeps version-y tokens (v2) out.
+    TONE_NUMBER = /\b[a-zA-ZüÜ]{2,}[1-5]\b/
+
+    # pinyin-display (sinographs rulebook §2, ruled 2026-08-09 —
+    # the subscript-index law's shape, adopted BEFORE content):
+    # displayed pinyin carries tone diacritics (xué), never tone
+    # numbers (xue2). ASCII tone numbers live only in spans classed
+    # "pinyin ascii" (verbatim-source exhibits and mentions of the
+    # ASCII convention).
+    def check_pinyin_display(path, text)
+      return [] unless path.include?("/sinographs/")
+
+      bare = text.gsub(%r{<span class="pinyin ascii">.*?</span>}m, "")
+      bare.scan(TONE_NUMBER).map do |hit|
+        Violation.new(path, "pinyin-display",
+                      "tone number #{hit.inspect} in displayed text — tone marks only " \
+                      "(xué), or class the span \"pinyin ascii\" for a verbatim exhibit")
+      end
     end
 
     # nav-label (owner report 2026-08-06: the sidebar said "šumma"

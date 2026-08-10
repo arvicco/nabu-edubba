@@ -153,6 +153,20 @@ class LintTest < Minitest::Test
     refute Edubba::ScriptScan.tracked?(0x0041)
   end
 
+  def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
+    sino = "site/sinographs/101/00-x.md"
+    v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")
+    assert_equal ["pinyin-display"], v.map(&:rule)
+    assert_match(/xue2/, v.first.detail)
+
+    ok = 'the ASCII convention writes <span class="pinyin ascii">xue2</span>'
+    assert_empty Edubba::Lint.check_pinyin_display(sino, ok)
+    assert_empty Edubba::Lint.check_pinyin_display(sino, "phase-15 v2 M15-4 ch02"),
+                 "version-y tokens are not pinyin"
+    assert_empty Edubba::Lint.check_pinyin_display("site/cuneiform/103/05-x.md", "raw ATF du3"),
+                 "the rule is sinograph law only"
+  end
+
   def test_nav_label_must_be_drawn_from_title
     bad = "---\ntitle: \"06 · If a man…\"\nshort_title: \"06 · šumma\"\nchapter: 6\n---\nbody"
     v = Edubba::Lint.check_nav_label("x.md", bad)

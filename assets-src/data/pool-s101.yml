@@ -1,0 +1,52 @@
+# S101 curated pool — hand-edited source for bin/sino_curriculum.rb
+# (which merges char-freq-kanripo.tsv and emits
+# site/_data/sinographs101_queue.yml — never edit the queue by hand).
+#
+# chapter: the S101 chapter that teaches the character (1–3 fresh per
+# chapter, the chapter-opening law). keyword: unique school-wide
+# (rulebook §3 — Heisig-convergent where his keyword is the plain
+# classical sense, historic sense otherwise; assigned from Kroll).
+# pinyin: tone diacritics, never numbers (rulebook §2) — the
+# generator cross-checks it against Unihan kMandarin. category with
+# certainty labels like the hieroglyph pool: classic (the received
+# six-scripts account is uncontroversial) / stated (a tradition
+# says so; scholarship hedges) / unclear.
+#
+# Curated-pin basis notes follow concept §3.1: frequency pulls from
+# the committed Kanripo table; simplicity/iconicity and didactic
+# chaining justify any pull forward, recorded per character.
+
+signs:
+  - char: 人
+    chapter: 0
+    keyword: person
+    pinyin: rén
+    meaning: a human being; other people
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 7 of the whole corpus; two strokes. A walking figure in
+      profile — the course's first character and the component the
+      next two are built from.
+  - char: 大
+    chapter: 0
+    keyword: big
+    pinyin: dà
+    meaning: big, great
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 16; a person with arms spread wide — "big" shown, not
+      said. IDS ⿻一人: the person is still visible inside.
+  - char: 天
+    chapter: 0
+    keyword: heaven
+    pinyin: tiān
+    meaning: sky; Heaven, the ordering power
+    category: pictograph
+    certainty: stated
+    note: >-
+      rank 24; the line above the big person's head — what is over
+      everything. Shuowen reads it as the anthropomorphic chain
+      人→大→天; oracle forms show a box-headed figure. The course's
+      thesis in three characters.

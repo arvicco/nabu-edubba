@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · M15-4 instruments · phase-15 · The S101 curriculum
+rail, before any prose (rulebook §7 kept honest): pool-s101.yml
+(hand-edited source) → bin/sino_curriculum.rb →
+sinographs101_queue.yml (generated, contract-tested — required
+fields, char/codepoint match, keyword unique school-wide, pinyin
+digit-free, 1–3 fresh per chapter, monotonic coverage). The
+compiler cross-checks every pinned pinyin against Unihan
+kMandarin (typo trap) and refuses tone numbers. Gate additions:
+pinyin-display lint (tone-numbered tokens in sinograph pages;
+span class "pinyin ascii" is the verbatim carve-out — the
+subscript-index law's shape, adopted BEFORE the first chapter
+this time); readings-strict-from-birth (course_check
+shows-in-reading law now covers sinographs; hieroglyphs still
+awaits D13-a). First pins: the ch00 thesis trio 人→大→天
+(pictograph → built-from-parts; the IDS column shows the chain
+literally: 大=⿻一人, 天=⿱一大) — 1.7% of the whole classical
+corpus in three characters. Catch: the queue's IDS strings pulled
+一 into site/_data before any chapter taught it — the
+font-coverage gate flagged all four codepoints until rake fonts;
+the pipeline's laws compose exactly as designed.
+
 2026-08-10 · M15-4 infrastructure (font + size law) · phase-15 ·
 Owner rulings recorded (D15-a: traditional base as recommended;
 NEW size law: sinograph characters display bigger than
