@@ -80,6 +80,10 @@ sources:
   ru:        {file: "Zh-rú.ogg", pinyin: "rú"}
   yun:       {file: "Zh-yún.ogg", pinyin: "yún"}
   fei:       {file: "Zh-fēi.ogg", pinyin: "fēi"}     # 非, via 飛 fēi
+  ci:        {file: "Zh-ci.ogg", pinyin: "cǐ"}       # 此: the file's own description declares cǐ 此
+  suo:       {file: "LL-Q9192 (cmn)-Jouketou-所.wav", pinyin: "suǒ"}   # dedicated single-character recording — citation tone, no sandhi
+  zhi-arrive: {file: "Zh-zhì.ogg", pinyin: "zhì"}    # 至, via 致 zhì
+  jin:       {file: "Zh-jīn.ogg", pinyin: "jīn"}     # 今, via 斤 jīn
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -138,6 +142,11 @@ voices:
   quoth: yun
   is-not: fei
   by-now: yi-by
+  this-here: ci
+  place: suo
+  in: yu
+  arrive: zhi-arrive
+  now: jin
   know: zhi
   middle: zhong
   moon: yue
