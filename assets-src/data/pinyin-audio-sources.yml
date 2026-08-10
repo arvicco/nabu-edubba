@@ -75,6 +75,11 @@ sources:
   xiang:     {file: "Zh-xiāng.ogg", pinyin: "xiāng"} # 相, via 香 xiāng
   shou:      {file: "Zh-shǒu.ogg", pinyin: "shǒu"}   # 首, via 手 shǒu
   dao:       {file: "Zh-dào.ogg", pinyin: "dào"}     # 道, via 到 dào
+  nuu:       {file: "Zh-nǚ.ogg", pinyin: "nǚ"}       # 女 (nü folds to nuu for the ASCII filename)
+  hao:       {file: "Zh-hǎo.ogg", pinyin: "hǎo"}
+  ru:        {file: "Zh-rú.ogg", pinyin: "rú"}
+  yun:       {file: "Zh-yún.ogg", pinyin: "yún"}
+  fei:       {file: "Zh-fēi.ogg", pinyin: "fēi"}     # 非, via 飛 fēi
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -127,6 +132,12 @@ voices:
   mutual: xiang
   head: shou
   way: dao
+  woman: nuu
+  fond: hao
+  like: ru
+  quoth: yun
+  is-not: fei
+  by-now: yi-by
   know: zhi
   middle: zhong
   moon: yue
