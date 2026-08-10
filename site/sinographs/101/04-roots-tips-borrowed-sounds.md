@@ -26,7 +26,7 @@ changes everything:
   </thead>
   <tbody>
     <tr>
-      <td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>
+      <td class="script sign-cell">品</td><td>kinds</td><td><a class="say" href="{{ '/assets/audio/pinyin/pin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pǐn</span></a></td>
       <td>kinds, grades; things in their sorts</td>
       <td>your mouth three times over — many voices, many sorts</td>
     </tr>

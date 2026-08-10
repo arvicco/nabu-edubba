@@ -140,9 +140,10 @@ module Edubba
       end
     end
 
-    def check_file(_site_dir, path)
+    def check_file(site_dir, path)
       text = File.read(path, encoding: "UTF-8")
       found = []
+      found.concat(check_say_audio(site_dir, path, text))
       text.scan(/<script\b[^>]*>(?:<\/script>)?/i) do |tag|
         next if SANCTIONED_SCRIPT.match?(tag) && !path.end_with?(".md")
 
@@ -507,6 +508,42 @@ module Edubba
 
       [Violation.new(path, "codex-reads",
                      "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
+    end
+
+    # say-audio (sinographs rulebook §2; owner report 2026-08-11 —
+    # pǐn shipped silent): in a sign-table row the reading IS the
+    # button, so a pinyin span on a sign-cell line must sit inside
+    # an a.say link; and every say-link on any page must point at
+    # an audio file that exists in the tree.
+    SAY_LINK = %r{<a class="say" href="\{\{ '(?<href>/assets/audio/[^']+)' \| relative_url \}\}"}
+    PINYIN_SPAN = /<span class="translit pinyin">(?<body>[^<]*)</
+    VOICED_SPAN = %r{<a class="say"[^>]*>\s*<span class="translit pinyin">}
+
+    def check_say_audio(site_dir, path, text)
+      return [] unless path.end_with?(".md")
+
+      found = []
+      if path.include?("/sinographs/")
+        text.each_line do |line|
+          next unless line.include?("sign-cell")
+
+          mute = line.scan(PINYIN_SPAN).flatten.size - line.scan(VOICED_SPAN).size
+          next unless mute.positive?
+
+          reading = line[PINYIN_SPAN, :body]
+          found << Violation.new(path, "say-audio",
+                                 "sign-table reading #{reading.inspect} is not a say-link — " \
+                                 "the reading is the button (§2); acquire the syllable or flag it")
+        end
+      end
+      text.scan(SAY_LINK) do
+        href = Regexp.last_match[:href]
+        next if File.exist?(File.join(site_dir, href))
+
+        found << Violation.new(path, "say-audio",
+                               "say-link target #{href} does not exist in the site tree")
+      end
+      found
     end
 
     # chapter-link (owner request 2026-08-06, mechanizing the §4

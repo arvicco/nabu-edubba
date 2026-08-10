@@ -186,6 +186,31 @@ class LintTest < Minitest::Test
     path
   end
 
+  def test_say_audio_flags_mute_sign_table_readings
+    sino = "site/sinographs/101/04-x.md"
+    mute = %(<td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>)
+    v = Edubba::Lint.check_say_audio("site", sino, mute)
+    assert_equal ["say-audio"], v.map(&:rule), "the shipped-silent pǐn case"
+    assert_match(/pǐn/, v.first.detail)
+
+    voiced = %(<td class="script sign-cell">品</td><td><a class="say" href="{{ '/assets/audio/pinyin/pin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pǐn</span></a></td>)
+    assert_empty Edubba::Lint.check_say_audio("site", sino, voiced)
+
+    reading_line = %(<div class="reading-line"><span class="translit pinyin">rén fǎ dì</span></div>)
+    assert_empty Edubba::Lint.check_say_audio("site", sino, reading_line),
+                 "reading transliteration is not a button"
+  end
+
+  def test_say_audio_flags_dead_targets
+    live = %(<a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}">x</a>)
+    assert_empty Edubba::Lint.check_say_audio("site", "site/sinographs/101/00-x.md", live)
+
+    dead = live.sub("ren.mp3", "no-such.mp3")
+    v = Edubba::Lint.check_say_audio("site", "site/anywhere/page.md", dead)
+    assert_equal ["say-audio"], v.map(&:rule), "a say-link must resolve on any page"
+    assert_match(%r{no-such\.mp3}, v.first.detail)
+  end
+
   def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
     sino = "site/sinographs/101/00-x.md"
     v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")

@@ -78,7 +78,11 @@ fallback. Recorded in docs/concept.md §7.
   `absent:` and reported on every run, never faked (TTS output is
   barred by the same license test — Apple's voices are
   personal-use only, and open engines misteach tone). Credits
-  regenerate into CREDITS-syllables.txt.
+  regenerate into CREDITS-syllables.txt. The say-audio lint
+  (owner request 2026-08-11, after pǐn shipped silent) enforces
+  the law's surface: a sign-table reading that is not a say-link
+  fails the gate, and every say-link must point at a file that
+  exists in the tree.
 
 ## 3 · The keyword law
 
