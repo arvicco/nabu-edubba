@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-10 · review round (Gate 15: pace + components) · phase-15 ·
+Owner: chapters too light — 5–6 characters each, not 1–3; and
+ch01's 時=日+寺 exhibit ran ahead of the taught set — teach ~12
+simple characters first, then compounding from THOSE only. Both
+became law (rulebook §5): the chapter dial (5–6 fresh; site-wide
+1–3 is the floor) and components-before-compounds (a compound
+never appears — table, reading, or exhibit — before every part is
+taught; pool rows carry parts:, compiler + contract test enforce
+the ordering, the 5–6 range replaced 1–3 in both). S101 rebuilt on
+the law: 28 characters across five chapters, the four moves now
+the SPINE (ch01 draw / ch02 point / ch03 combine / ch04 borrow
+sound) — ch00 人大天一二三; ch01 pictures 日月山水木口; ch02
+strokes + 中上下子曰王 (子曰 whole in Analects 7.22, Chunqiu
+opener); ch03 compounds of owned parts 明旦休仁品 (仁-return on
+6.23 — same URN, one box fewer; Shijing 信誓旦旦, Yi 休否/品物流形);
+ch04 marks-and-sound-carriers 本末未沐味 (Analects 1.2 本/未,
+Laozi-64 tree rereads with 末 lit, Mencius 沐浴, Laozi 味無味 —
+the 時 exhibit replaced by 沐/味, both halves taught, teaching 氵
+as the one shape-change). Slug law amended (first entrant keeps
+bare slug: 人 ren / 仁 ren-humane); new readings verified against
+eleven Kanripo witnesses before writing; 7.9% cumulative coverage.
+Also this round (owner reports): sinograph chars joined the
+sign-linker (tooltips + codex routing site-wide), sinograph
+readings stack unconditionally (the 3-col grid clipped glosses
+even under a calibrated budget — width lint stands down for the
+school, style guard pins the stacking), school page + landing card
+stopped saying "planned".
+
 2026-08-10 · M15-4 codex start · phase-15 · The Character Codex
 opens (rulebook §8 written first): shelf sinographs/addenda +
 signs index (queue-driven table) + the ch00 trio's pages

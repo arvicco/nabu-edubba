@@ -2,21 +2,20 @@
 # (which merges char-freq-kanripo.tsv and emits
 # site/_data/sinographs101_queue.yml — never edit the queue by hand).
 #
-# chapter: the S101 chapter that teaches the character (1–3 fresh per
-# chapter, the chapter-opening law). keyword: unique school-wide
-# (rulebook §3 — Heisig-convergent where his keyword is the plain
-# classical sense, historic sense otherwise; assigned from Kroll).
-# pinyin: tone diacritics, never numbers (rulebook §2) — the
-# generator cross-checks it against Unihan kMandarin. category with
-# certainty labels like the hieroglyph pool: classic (the received
-# six-scripts account is uncontroversial) / stated (a tradition
-# says so; scholarship hedges) / unclear.
-#
-# Curated-pin basis notes follow concept §3.1: frequency pulls from
-# the committed Kanripo table; simplicity/iconicity and didactic
-# chaining justify any pull forward, recorded per character.
+# chapter: the S101 chapter that teaches the character — 5–6 fresh
+# per chapter (owner ruling 2026-08-10; the site-wide 1–3 is the
+# floor, this school dials up: characters are lighter units).
+# Components-first law (same ruling, after the 時=日+寺 exhibit):
+# simple characters first; a compound never appears before every
+# component it is analyzed into is taught — compound rows carry
+# parts:, validated by the compiler. keyword: unique school-wide
+# (rulebook §3). pinyin: tone diacritics (rulebook §2),
+# cross-checked against Unihan. slug: only where readings collide —
+# the first entrant keeps the bare slug, later ones take
+# pinyin-keyword (rulebook §8).
 
 signs:
+  # ch00 — the chain and the numbers (all simple)
   - char: 人
     chapter: 0
     keyword: person
@@ -50,41 +49,8 @@ signs:
       everything. Shuowen reads it as the anthropomorphic chain
       人→大→天; oracle forms show a box-headed figure. The course's
       thesis in three characters.
-  - char: 日
-    chapter: 1
-    keyword: sun
-    pinyin: rì
-    meaning: the sun; a day
-    category: pictograph
-    certainty: classic
-    note: >-
-      rank 38; the sun-disc squared by the brush, the dot of light
-      kept as the middle stroke. Half of the ch01 compound demo.
-  - char: 月
-    chapter: 1
-    keyword: moon
-    slug: yue-moon
-    pinyin: yuè
-    meaning: the moon; a month
-    category: pictograph
-    certainty: classic
-    note: >-
-      rank 51; the crescent that never fills — the moon is drawn
-      waxing. The other half of the demo.
-  - char: 明
-    chapter: 1
-    keyword: bright
-    pinyin: míng
-    meaning: bright; to shine, to understand
-    category: compound-ideograph
-    certainty: classic
-    note: >-
-      rank 62; sun beside moon — the textbook meaning-compound, and
-      the proof that characters are built from characters. Pulled a
-      few ranks ahead of its strict seat to land in the chapter
-      that needs it (its two halves are taught the same page).
   - char: 一
-    chapter: 2
+    chapter: 0
     keyword: one
     pinyin: yī
     meaning: one; whole, unified
@@ -94,7 +60,7 @@ signs:
       rank 11; one stroke for one — the purest "point at it"
       character, and the single most-written stroke of the script.
   - char: 二
-    chapter: 2
+    chapter: 0
     keyword: two
     pinyin: èr
     meaning: two
@@ -102,7 +68,7 @@ signs:
     certainty: classic
     note: rank 19; two strokes, the upper slightly shorter.
   - char: 三
-    chapter: 2
+    chapter: 0
     keyword: three
     pinyin: sān
     meaning: three; several
@@ -110,10 +76,31 @@ signs:
     certainty: classic
     note: >-
       rank 20; three strokes, middle shortest — and the end of the
-      pattern: four breaks it, which is the chapter's own joke and
-      lesson (shown, not taught).
+      pattern: four breaks it, told honestly in ch02.
+
+  # ch01 — the world in pictures (all simple)
+  - char: 日
+    chapter: 1
+    keyword: sun
+    pinyin: rì
+    meaning: the sun; a day
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 38; the sun-disc squared by the brush, the dot of light
+      kept as the middle stroke.
+  - char: 月
+    chapter: 1
+    keyword: moon
+    pinyin: yuè
+    meaning: the moon; a month
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 51; the crescent that never fills — the moon is drawn
+      waxing.
   - char: 山
-    chapter: 3
+    chapter: 1
     keyword: mountain
     pinyin: shān
     meaning: mountain, hill
@@ -121,7 +108,7 @@ signs:
     certainty: classic
     note: rank 44; three peaks in a row, the middle one tallest.
   - char: 水
-    chapter: 3
+    chapter: 1
     keyword: water
     pinyin: shuǐ
     meaning: water; a river
@@ -130,21 +117,60 @@ signs:
     note: >-
       rank 63; a stream mid-current — the center line is the flow,
       the side strokes the eddies.
+  - char: 木
+    chapter: 1
+    keyword: tree
+    pinyin: mù
+    meaning: tree; wood
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 320; trunk, branches up, roots down — pulled forward of
+      its rank as the component base of ch04's whole family
+      (本, 末, 未, 沐).
+  - char: 口
+    chapter: 1
+    keyword: mouth
+    pinyin: kǒu
+    meaning: mouth; an opening
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 384; an open mouth squared by the brush — pulled forward
+      as the busiest meaning-component in the whole script (品 and
+      味 build on it in this course alone).
+
+  # ch02 — pointing characters and the speakers (all simple)
   - char: 中
-    chapter: 3
+    chapter: 2
     keyword: middle
     pinyin: zhōng
     meaning: middle, center; within
     category: indicative
     certainty: stated
     note: >-
-      rank 22; a line through the very center of a box — the old
-      forms show a pole or banner planted mid-camp; the received
-      account (a stroke through the middle) is the useful one.
-      Pulled forward to sit with the landscape pair it locates
-      (山中, 水中 — "amid the mountains", "in the water").
+      rank 22; a stroke planted through the very center — the old
+      forms show a pole or banner planted mid-camp.
+  - char: 上
+    chapter: 2
+    keyword: above
+    pinyin: shàng
+    meaning: above, upper; to ascend
+    category: indicative
+    certainty: classic
+    note: >-
+      rank 26; a mark set above the baseline — the pointing pair
+      with 下, one gesture flipped.
+  - char: 下
+    chapter: 2
+    keyword: below
+    pinyin: xià
+    meaning: below, under; to descend
+    category: indicative
+    certainty: classic
+    note: rank 27; the same mark set under the line.
   - char: 子
-    chapter: 4
+    chapter: 2
     keyword: child
     pinyin: zǐ
     meaning: child, son; the Master; a title of respect
@@ -154,7 +180,7 @@ signs:
       rank 13; an infant — big head, spread arms, legs still
       swaddled into one line. Half of the 子曰 formula.
   - char: 曰
-    chapter: 4
+    chapter: 2
     keyword: say
     slug: yue-say
     pinyin: yuē
@@ -163,10 +189,10 @@ signs:
     certainty: stated
     note: >-
       rank 12; a mouth with a stroke of breath leaving it, by the
-      received account. The other half of 子曰; nearly five million
-      attestations, virtually all of them opening speech.
+      received account. Nearly five million attestations, virtually
+      all opening speech.
   - char: 王
-    chapter: 4
+    chapter: 2
     keyword: king
     pinyin: wáng
     meaning: king
@@ -177,3 +203,125 @@ signs:
       heaven, earth, humankind — with one vertical: the king is
       what connects them. Early forms suggest an axe blade of
       authority instead; the chapter says so honestly.
+
+  # ch03 — characters built from characters (compounds of taught parts)
+  - char: 明
+    chapter: 3
+    keyword: bright
+    pinyin: míng
+    meaning: bright; to shine, to understand
+    category: compound-ideograph
+    certainty: classic
+    parts: ["日", "月"]
+    note: >-
+      rank 62; sun beside moon — the textbook meaning-compound, and
+      the proof that characters are built from characters.
+  - char: 旦
+    chapter: 3
+    keyword: dawn
+    pinyin: dàn
+    meaning: dawn, daybreak
+    category: compound-ideograph
+    certainty: classic
+    parts: ["日", "一"]
+    note: >-
+      rank 1092; the sun just above the horizon line — the morning
+      the classics date things by (旦日, "next morning").
+  - char: 休
+    chapter: 3
+    keyword: rest
+    pinyin: xiū
+    meaning: to rest; respite, good fortune
+    category: compound-ideograph
+    certainty: classic
+    parts: ["人", "木"]
+    note: >-
+      rank 747; a person leaning against a tree — rest drawn from
+      two things the learner already owns.
+  - char: 仁
+    chapter: 3
+    keyword: humane
+    slug: ren-humane
+    pinyin: rén
+    meaning: humane; humaneness, the Confucian virtue
+    category: compound-ideograph
+    certainty: stated
+    parts: ["人", "二"]
+    note: >-
+      rank 317; person beside two — the received reading: what
+      holds between two people. Same sound as 人, and the classics
+      lean on the pun.
+  - char: 品
+    chapter: 3
+    keyword: kinds
+    pinyin: pǐn
+    meaning: kinds, grades; things in their sorts
+    category: compound-ideograph
+    certainty: stated
+    parts: ["口"]
+    note: >-
+      rank 808; three mouths — many voices, many kinds; the
+      script's tripling move on a single taught part.
+
+  # ch04 — marks on the tree, sound in the mouth
+  - char: 本
+    chapter: 4
+    keyword: root
+    pinyin: běn
+    meaning: root, trunk; the fundamental
+    category: indicative
+    certainty: classic
+    parts: ["木", "一"]
+    note: >-
+      rank 132; the tree with a mark at its base — point at the
+      root and you have named the fundamental.
+  - char: 末
+    chapter: 4
+    keyword: tip
+    pinyin: mò
+    meaning: tip, branch-end; the incidental
+    category: indicative
+    certainty: classic
+    parts: ["木", "一"]
+    note: >-
+      rank 536; the same tree, the mark at the top — root and tip,
+      one pair of marks apart, and classical prose argues with the
+      pair constantly (本末).
+  - char: 未
+    chapter: 4
+    keyword: not-yet
+    pinyin: wèi
+    meaning: not yet — the classical "still un-"
+    category: indicative
+    certainty: stated
+    parts: ["木", "一"]
+    note: >-
+      rank 74; the received account reads young top growth — what
+      has not yet come to be. Its real work in the classics is as
+      the word "not yet", and as ch04's sound-carrier.
+  - char: 沐
+    chapter: 4
+    keyword: washing
+    slug: mu-washing
+    pinyin: mù
+    meaning: to wash the hair; to bathe in
+    category: phono-semantic
+    certainty: classic
+    parts: ["水", "木"]
+    note: >-
+      rank 2257; water for the meaning, tree (mù) for the sound —
+      the course's first sound-carrier compound, chosen because
+      both halves are already taught. Teaches the side-form 氵.
+  - char: 味
+    chapter: 4
+    keyword: flavor
+    slug: wei-flavor
+    pinyin: wèi
+    meaning: flavor, taste
+    category: phono-semantic
+    certainty: classic
+    parts: ["口", "未"]
+    note: >-
+      rank 871; mouth for the meaning, not-yet (wèi) for the
+      sound — the same-page proof that a taught character can turn
+      into a pure sound-carrier.

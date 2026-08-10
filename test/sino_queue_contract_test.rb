@@ -42,11 +42,24 @@ class SinoQueueContractTest < Minitest::Test
     end
   end
 
-  def test_chapters_pin_one_to_three_characters
+  def test_chapters_pin_five_to_six_characters
     QUEUE["signs"].select { |s| s["chapter"] }
          .group_by { |s| s["chapter"] }.each do |ch, batch|
-      assert_includes 1..3, batch.size,
-                      "ch #{ch} pins #{batch.size} characters — the law says 1-3"
+      assert_includes 5..6, batch.size,
+                      "ch #{ch} pins #{batch.size} characters — the law says 5-6 " \
+                      "(owner ruling 2026-08-10)"
+    end
+  end
+
+  def test_compounds_never_precede_their_parts
+    seen = []
+    QUEUE["signs"].each do |s|
+      Array(s["parts"]).each do |part|
+        assert_includes seen, part,
+                        "#{s['char']} is built from #{part} before it is taught — " \
+                        "components before compounds (owner ruling 2026-08-10)"
+      end
+      seen << s["char"]
     end
   end
 
