@@ -9,7 +9,7 @@ Pages site).
 
 Edubba (Sumerian *é-dub-ba-a*, "the tablet house", the scribal school
 of ancient Mesopotamia) is a static site of **schools**, one per
-scripting tradition — cuneiform, Egyptian hieroglyphs, Hanzi/Kanji,
+scripting tradition — cuneiform, Egyptian hieroglyphs, sinographs,
 and more. Each school is a catalog of numbered courses with
 prerequisites (Cuneiform 101 Foundations, 102 Sumerian, 103
 Akkadian, …), and each course is a progressive sequence of chapters
@@ -18,49 +18,50 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-08-04
+## Status — honest, as of 2026-08-10
 
-**Two schools are open.** In the cuneiform school,
-[101 · Foundations](https://edubba.ac/cuneiform/101/) is complete —
-thirteen chapters from orientation to decipherment, 26 signs,
-genuine Ur III royal inscriptions read in the original — and
-[102 · Sumerian](https://edubba.ac/cuneiform/102/) is complete —
-nineteen chapters, 51 more signs in computed order (77 taught in
-all, covering over half the sign-occurrences of the real corpora),
-reading from 4,600-year-old Fara-period tablets through Sumerian
-proverbs, Šulgi's royal hymn, and the opening of Gudea's temple
-cylinders — the longest Sumerian composition — from its first
-line.
+**Three schools are open.** In the cuneiform school,
+[101 · Foundations](https://edubba.ac/cuneiform/101/) and
+[102 · Sumerian](https://edubba.ac/cuneiform/102/) are complete
+(orientation to decipherment; 77 signs in computed order; real
+readings from Fara-period tablets through proverbs, Šulgi's hymn,
+and Gudea's cylinders), and
+[103 · Akkadian](https://edubba.ac/cuneiform/103/) is complete —
+eighteen chapters plus a full Reference: the syllabary on Codex
+Hammurapi, laws 1–2 and the mutilation laws read whole, real Old
+Babylonian letters, a genuine Sippar silver loan, and the king's
+own closing invitation, at 79% coverage of the Old Babylonian
+value-tokens.
 In the Egyptian school,
-[102 · Middle Egyptian](https://edubba.ac/hieroglyphs/102/) has
-opened its first stretch — seven chapters: the three sentence
-types, the suffix conjugation, negations and the doctors' recipe
-register, read from Papyrus Westcar, the Doomed Prince, Piye's
-victory stela, and the medical papyri — and
-[Hieroglyphs 101 · Foundations](https://edubba.ac/hieroglyphs/101/)
-is complete — thirteen chapters and 53 signs, from the media and
-origins of the script through uniliterals, biliterals, phonetic
-complements, the classifier system, and the culture words, to the
-Rosetta decipherment told with Ptolemy and Cleopatra read sign by
-sign — all texts from real monuments (the CDLI and BBAW/AES
-corpora via Nabu, cited by URN and license).
-Also live: the map-of-writing landing page, a catalog stub for the
-hanzi school, and a layout specimen. Every recurring sign links to
-where it was taught, with hover bubbles giving name, readings, and
-meaning — no JavaScript anywhere.
+[101 · Foundations](https://edubba.ac/hieroglyphs/101/) is complete
+(53 signs, Rosetta told with Ptolemy and Cleopatra read sign by
+sign) and [102 · Middle Egyptian](https://edubba.ac/hieroglyphs/102/)
+has its first stretch — sentence types, the suffix conjugation,
+the doctors' register, from Westcar to the medical papyri.
+The sinograph school has opened **classical-first**:
+[101 · How the characters work](https://edubba.ac/sinographs/101/)
+teaches its first fifteen characters on the classical corpus
+itself — real lines of the *Laozi*, the *Analects*, the *Changes*,
+and the *Annals* from the third chapter on — with the Character
+Codex shelf growing alongside.
+Also live: the map-of-writing landing page and per-school sign
+codices. Every recurring sign links to where it was taught, with
+hover bubbles giving name, readings, and meaning — no JavaScript
+anywhere.
 
-Under the hood: a computed curriculum (sign order = corpus frequency
-× graphic simplicity, from committed frequency tables over 1.7M+
-Nabu passages), a "nothing untaught" validator that fails the build
-if a chapter uses a sign not yet taught, a per-script font-coverage
-rule that makes tofu unshippable (computed subsets of Noto Sans
-Cuneiform and Noto Sans Egyptian Hieroglyphs), and the full gate
-(`rake gate`: lint + tests + build + offline link check) with
-auto-deploy on merge.
+Under the hood: a computed curriculum (sign order = corpus
+frequency × graphic simplicity, from committed frequency tables —
+including a 722-million-character count over the Kanripo classical
+corpus), a "nothing untaught" validator that fails the build if a
+chapter uses a sign not yet taught, a per-script font-coverage rule
+that makes tofu unshippable (computed subsets of Noto Sans
+Cuneiform, Noto Sans Egyptian Hieroglyphs, and Noto Serif TC), and
+the full gate (`rake gate`: lint + tests + build + offline link
+check) with auto-deploy on merge.
 
-Next: the schools grow in alternating phases — the Egyptian
-literacy track's later stretches (toward Sinuhe), and Cuneiform
-103 · Akkadian.
+Next: the schools grow in alternating phases — the sinograph
+codex backfill and 101's later stretches, the Egyptian literacy
+track toward Sinuhe, and the wider cuneiform world.
 
 ## Building locally
 

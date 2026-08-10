@@ -707,3 +707,87 @@ Detailed plan: .docs/phase-14-plan.md.
 ## M14-7 · Retrieval mirror update  [tier: mid] [status: done — deal includes all stretch-3 signs (build-verified), deck 61 cards with loan lines, decks-page provenance line updated, Reference-anchor law reconciled with the site-wide chapter-seat convention] [deps: M14-6]
    akk drills + deck regenerated; decks page counts.
 ## M14-8 · Stitching + surface review, gate PR  [tier: top] [status: done — built-site structural review (nav, term bubbles, reference rows, drill deal), WORKLOG, PR #18] [deps: M14-7]
+
+---
+
+## Phase 15 — wave 3 opens: the sinograph school (rulings 2026-08-09)
+
+Source: owner directive 2026-08-09 (post-Gate-14): plan the third
+school under a better semantic name, focused on applying modern
+techniques to the HISTORIC tradition, not re-teaching modern
+Chinese/Japanese. Rulings same day: name sinographs, classical-first
+thesis, pinyin voice (diacritics never indices), keyword law,
+Shuowen glyph fallback. Consideration: .docs/sinograph-school-scout.md;
+plan: .docs/phase-15-plan.md.
+
+## M15-1 · Ratification record + rulebook  [tier: top — owner-ruled domain recording] [status: done — concept §2/§3/§7 + docs/courses/sinographs.md skeleton, rulebook before content] [deps: --]
+Goal: wave-3 rulings recorded in concept.md; sinograph rulebook
+      written before any content, ruled laws only, proposals marked.
+Acceptance: rake gate green; rulebook exists; concept §7 carries the
+      dated rulings.
+
+## M15-2 · School rename hanzi → sinographs  [tier: top] [status: done — /sinographs/ page (ruled catalog), /hanzi/ layoutless redirect stub, card/accents/body-class renamed] [deps: M15-1]
+Goal: the ratified name site-wide; the live /hanzi/ URL never breaks.
+Acceptance: gate green (html-proofer resolves both pages); redirect
+      carries a visible link, meta refresh, noindex.
+
+## M15-3 · Classical-corpus frequency instrument  [tier: top — first-of-family instrument, ordering methodology] [status: done — 721.8M tokens / 28,368 chars over 4.57M Kanripo passages; top-3000 = 95.9% coverage; canonical wenyan head 之不以也而; 17 top rows are edition-variant glyphs (no kMandarin), variant folding deferred to queue time] [deps: M15-1]
+Goal: bin/ instrument computing character frequency over the
+      license-verified Kanripo corpus (CC BY-SA 4.0, scout
+      2026-08-09) merged with simplicity inputs (Unihan strokes,
+      Mandarin readings, BabelStone IDS) per concept §3.1; committed
+      table at assets-src/data/char-freq-kanripo.tsv (the
+      hiero-freq-aes precedent — the frozen site/_data contract
+      arrives with the first queue, at content time).
+Acceptance: unit tests for the parsing/counting units in the same
+      commit; table committed with provenance + license header;
+      doc-spread column beside raw counts.
+
+## M15-4 · S101 ch00–04 + codex start  [tier: top — Fable, content] [status: done — ch00–04 live (15 chars, 6.5% coverage, 8 real readings from 6 Kanripo witnesses); codex shelf open with rulebook §8, staged registry entry, signs index + ren/da/tian pages] [deps: M15-3]
+Goal: orientation + first chapters of Sinographs 101 in the wave-1
+      mold; Character Codex shelf started.
+Acceptance: gate green incl. pinyin-display lint, keyword
+      uniqueness, readings-strict, size-law guard; pixel review
+      per §6b.
+
+## M15-5 · Codex backfill — the shelf complete  [tier: top — Fable, content] [status: done — all 29 characters paged (26 written this round), pages: true flipped, every chapter table cell now codex-routed; spot-checked wang + wei-flavor] [deps: M15-4]
+Goal: one codex page per remaining taught character (the 28-char
+      queue minus ren/da/tian), each with origin
+      (certainty-labeled), memory hook, real attested line; then
+      flip pages: true on the sinographs CODEX entry
+      (staged-activation law).
+Acceptance: rulebook.rb codex check green with pages: true; gate
+      green; pixel spot-check of two pages.
+Goal: orientation + first chapters of Sinographs 101 in the wave-1
+      mold (signs from ch00, keyword law live, pinyin display law
+      live), codex shelf started.
+Acceptance: gate green incl. pinyin-display lint + keyword-uniqueness
+      check landing with the first content commit.
+
+## M15-6 · Pinyin audio completion  [tier: implementation — mechanical fetch, URLs recorded] [status: done — throttle cooled after ~25 min; all ten fetched paced, transcoded, wired (trap-row grid + ü/e table), credits complete] [deps: --]
+Goal: vendor the ten remaining Commons recordings for the primer's
+      initials/finals rows (chī shí rì · zì cí sī · bā pà · nǚ lǜ ·
+      é) — exact verified URLs in the 2026-08-10 audio scout report;
+      Wikimedia rate-limited this box mid-fetch, so refetch paced
+      (≥30s gaps) after cool-down, transcode per the §2 audio law,
+      extend CREDITS.txt + the trap-rows table.
+Acceptance: files play (ffprobe); gate green; credits complete.
+
+## Decision items — Phase 15
+
+- D15-a · Character forms (was D-W3c) — RULED 2026-08-10 as
+  recommended: traditional (kaishu) base as the classical corpus
+  writes them; simplified as later-hand notes, never the teaching
+  base. Same ruling added the SIZE LAW: sinograph characters
+  display bigger than cuneiform/Egyptian script everywhere
+  (rulebook §6, style-guard-pinned).
+- D15-b · Old-form glyph fonts — SCOUTED 2026-08-09
+  (.docs/scouts/sino-oldform-glyphs.md): seal is coverable by a
+  vendorable font (CNS11643 Quanziku Shuowen seal TTF,
+  OGDL-Taiwan-1.0, explicitly CC BY 4.0-compatible, 6,721 glyphs
+  on ordinary codepoints); oracle bone/bronze have NO vendorable
+  font (Unicode has no block; best-coverage fonts non-
+  redistributable) — committed CC0/PD images instead (Academia
+  Sinica 小學堂 CC0 dedication; Commons ACC project PD SVGs), in
+  line with the ruled Shuowen fallback. S103 is feasible; the
+  rulebook §6 law lands when S103 is scheduled.

@@ -1,0 +1,35 @@
+Pinyin audio credits
+====================
+
+All recordings sourced from Wikimedia Commons, converted to mp3
+(mono, 64 kbps) for self-hosting; no other changes unless noted.
+Each line: file — source file · author · license.
+
+ma-high.mp3      — first syllable cut from "Zh-māma.ogg" (mā of
+                   mā·ma, with a 60 ms fade) · Wei Gao, recorded by
+                   Nicolas Vion / Shtooka Project · CC BY 2.0 FR
+ma-rising.mp3    — "Zh-má.ogg" · Yue Tan · CC BY-SA 3.0 US
+ma-dipping.mp3   — "Zh-mǎ.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ma-falling.mp3   — "Zh-mà.ogg" · Yue Tan · CC BY-SA 3.0 US
+ma-neutral.mp3   — "Zh-māma.ogg" (mā·ma, whole word) · Wei Gao /
+                   Shtooka Project · CC BY 2.0 FR
+ma-four-tones.mp3 — "Zh-pinyin tones with ma.ogg" · Peter Isotalo ·
+                   CC BY 3.0
+ji.mp3           — "Zh-jī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+qi.mp3           — "Zh-qī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+xi.mp3           — "Zh-xī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+zhi.mp3          — "Zh-zhī.ogg" · Xudong Yang · CC BY 2.0
+chi.mp3          — "Zh-chī.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+shi.mp3          — "Zh-shí.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ri.mp3           — "Zh-rì.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+zi.mp3           — "Zh-zì.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ci.mp3           — "Zh-cí.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+ba.mp3           — "Zh-bā.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+pa.mp3           — "Zh-pà.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+nv.mp3           — "Zh-nǚ.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+lv.mp3           — "Zh-lǜ.ogg" · Wei Gao / Shtooka Project · CC BY 2.0 FR
+e.mp3            — "Zh-é.ogg" · Yue Tan · CC BY-SA 3.0 US
+
+License texts: creativecommons.org/licenses/by/2.0/fr/ ·
+by-sa/3.0/us/ · by/3.0/ · by/2.0/
+Source pages: commons.wikimedia.org/wiki/File:<source file name>

@@ -81,6 +81,12 @@ module Edubba
         registries: %w[_data/hiero_teaching.yml _data/hieroglyphs102_queue.yml],
         shelf: "hieroglyphs/addenda/signs",
         keywords: true,
+        pages: true },
+      { doc: "docs/courses/sinographs.md §8",
+        school: "sinographs",
+        registries: %w[_data/sinographs101_queue.yml],
+        shelf: "sinographs/addenda/signs",
+        keywords: true,
         pages: true }
     ].freeze
 
