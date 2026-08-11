@@ -54,6 +54,7 @@ modern languages too, because the characters are the same.
   <li><a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">The work and its doing</a> — the crew of doing hired; 為無為 read without a box</li>
   <li><a href="{{ '/sinographs/101/22-wanting-and-getting/' | relative_url }}">Wanting and getting</a> — desire priced, gain guarded; the people say 自然</li>
   <li><a href="{{ '/sinographs/101/23-the-thousand-chariot-state/' | relative_url }}">The thousand-chariot state</a> — the missing thousand, heaven and earth, and Analects 1.5 whole</li>
+  <li><a href="{{ '/sinographs/101/24-like-water/' | relative_url }}">Like water</a> — 上善若水 without a box; the sixty-year ladder complete</li>
 </ol>
 
 More chapters are on the way; everything above is complete and
