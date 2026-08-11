@@ -911,12 +911,12 @@ Goal: compress the long notes columns in the older schools' sign
 ## Phase 22 — the table flip + S101 stretch 5 (opened 2026-08-11)
 Plan: .docs/phase-22-plan.md (owner pick: both queued items).
 
-## M22-1 · Table-balance flip (= M21-8)  [tier: top] [status: open] [deps: --]
-## M22-2 · Stretch-5 rule + plan (arc table, witnesses)  [tier: top] [status: open] [deps: --]
-## M22-3 · ch20 · First and after, then (貝刀分則先後)  [tier: top] [status: open] [deps: M22-2]
-## M22-4 · ch21 · The work and its doing (事作成能使)  [tier: top] [status: open] [deps: M22-3]
-## M22-5 · ch22 · Wanting and getting (得與欲皆謂然)  [tier: top] [status: open] [deps: M22-4]
-## M22-6 · ch23 · The thousand-chariot state (國千世地風)  [tier: top] [status: open] [deps: M22-5]
-## M22-7 · ch24 · Like water (若同從善長)  [tier: top] [status: open] [deps: M22-6]
+## M22-1 · Table-balance flip (= M21-8)  [tier: top] [status: done] [deps: --]
+## M22-2 · Stretch-5 rule + plan (arc table, witnesses)  [tier: top] [status: done] [deps: --]
+## M22-3 · ch20 · First and after, then (貝刀分則先後)  [tier: top] [status: done] [deps: M22-2]
+## M22-4 · ch21 · The work and its doing (事作成能使)  [tier: top] [status: done] [deps: M22-3]
+## M22-5 · ch22 · Wanting and getting (得與欲皆謂然)  [tier: top] [status: done] [deps: M22-4]
+## M22-6 · ch23 · The thousand-chariot state (國千世地風)  [tier: top] [status: done] [deps: M22-5]
+## M22-7 · ch24 · Like water (若同從善長)  [tier: top] [status: done] [deps: M22-6]
 ## M22-8 · Stitching + Gate 22 PR  [tier: top] [status: open] [deps: M22-1..7]
 
