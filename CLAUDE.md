@@ -179,12 +179,17 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 21 — in progress: S101 stretch 4, the world of the text
-(ch15–19, 28 chars, cap 35%; .docs/phase-21-plan.md) — numbers
-complete and 萬物 named, the written tradition (古故文書詩), lords
-and the people, out and in, and 學 itself; finale: Analects 1.1
-whole. First stretch under the full workbench and process codex:
-arc table planned, witnesses verified before writing.
+Phase 21 — complete, gate PR pending: S101 stretch 4, the world
+of the text (ch15–19, 29 chars, cap 35%) — numbers complete, 萬物
+named, the written tradition, lords and the people, out and in,
+and 學 itself; finale: Analects 1.1 WHOLE (12.11 at zero as the
+bonus arc). 110 characters = 33.3% — one in three. First stretch
+under the full codex: arc table planned and delivered, witnesses
+verified before writing (three plan errors caught at plan stage),
+box_line on every line (caught 來 missing — taught in ch18). Plus
+the table-balance law (owner ruling): computed per-table grids,
+15% hard rule enforced for sinographs, older schools queued
+(M21-8).
 
 Gate 20 merged 2026-08-11 (the process codex: interactive-surface
 review law, pre-flight checklist, structured-edits rule, law

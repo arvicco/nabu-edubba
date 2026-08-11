@@ -891,13 +891,13 @@ Plan: .docs/phase-20-plan.md. Light, docs-only; governs phase 21+.
 ## Phase 21 — S101 stretch 4: the world of the text (opened 2026-08-11)
 Plan: .docs/phase-21-plan.md (arc table, verified URNs).
 
-## M21-1 · Plan + rulebook stretch section + audio acquisition  [tier: top] [status: in-progress] [deps: --]
-## M21-2 · ch15 · The ten thousand things  [tier: top] [status: open] [deps: M21-1]
-## M21-3 · ch16 · The old and the written  [tier: top] [status: open] [deps: M21-2]
-## M21-4 · ch17 · Lords and the people  [tier: top] [status: open] [deps: M21-3]
-## M21-5 · ch18 · Going out and coming in  [tier: top] [status: open] [deps: M21-4]
-## M21-6 · ch19 · Learning, in its season  [tier: top] [status: open] [deps: M21-5]
-## M21-7 · Stitching + Gate 21 PR  [tier: top] [status: open] [deps: M21-1..6]
+## M21-1 · Plan + rulebook stretch section + audio acquisition  [tier: top] [status: done] [deps: --]
+## M21-2 · ch15 · The ten thousand things  [tier: top] [status: done] [deps: M21-1]
+## M21-3 · ch16 · The old and the written  [tier: top] [status: done] [deps: M21-2]
+## M21-4 · ch17 · Lords and the people  [tier: top] [status: done] [deps: M21-3]
+## M21-5 · ch18 · Going out and coming in  [tier: top] [status: done] [deps: M21-4]
+## M21-6 · ch19 · Learning, in its season  [tier: top] [status: done] [deps: M21-5]
+## M21-7 · Stitching + Gate 21 PR  [tier: top] [status: done] [deps: M21-1..6]
 
 ## M21-8 · Table-balance flip: cuneiform + hieroglyphs  [tier: top] [status: open] [deps: --]
 Goal: compress the long notes columns in the older schools' sign

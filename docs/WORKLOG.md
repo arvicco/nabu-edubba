@@ -5,6 +5,26 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M21-2..M21-6 (stretch 4 complete: ch15–19) ·
+phase-21 · The world of the text, 29 characters (28 planned + 來,
+added mid-stretch when box_line measured 1.1's second clause at
+40% without it — the instrument caught the plan error before a
+word shipped). Coverage 27.7% → 33.3%: one in three. Every arc in
+the plan's table delivered: Laozi 42 and 40 at ZERO boxes (ch15),
+2.4's ladder topped, 溫故/詩三百/詩云 paid (ch16), 如禮何 paid and
+1.1's third clause first read (ch17), the Daxue opening's three
+在s and the sunset oxen one box lighter (ch18), and the finale —
+Analects 1.1 WHOLE at 22/30/9%, twenty-four of thirty characters
+taught, plus the unplanned bonus of 12.11 returning at zero the
+moment 父 landed (ch19). Witness-first caught three plan errors
+at the PLAN stage (Laozi 50 absent from the course edition,
+Mencius ox-mountain absent from the slice, 7.1 over cap); the
+untaught-sign lint caught 君/役 in a figcaption and 巳 in a table
+cell; box_line corrected two hand-counts and my own codex boxing
+twice (惟, 忠 unboxed in drafts). 29 codex pages shipped with
+their chapters; 27 syllables voiced (25 acquired + 時→shi and
+已→yi-by voice joins); every reading verified before writing.
+
 2026-08-11 · review round (table-balance law) · phase-21 · Owner:
 intro tables unbalanced across the board, How-to-see-it starved —
 HARD rule: no column may add 15%+ to the table's height over the
