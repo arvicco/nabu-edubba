@@ -18,7 +18,7 @@ The received account reads young growth at the top of the tree:
 what has **not yet** come to be. Its real work in the classics is
 as the word "not yet" — the classical "still un-" — and, in this
 course, as the sound-carrier inside 味. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

@@ -490,6 +490,13 @@ img, svg { max-width: 100%; }
   overflow-x: auto;
   padding-top: 5.5rem;
   margin-top: calc(1rem - 5.5rem);   /* margin-block 1rem, pulled back */
+  /* …and the right rim gets the same treatment (owner report
+     2026-08-11, a hieroglyph reading's bubble cut at the right
+     edge): 14rem covers a bubble at max-width plus padding, so a
+     bubble extending right from a rim-adjacent glyph stays
+     visible. */
+  padding-right: 14rem;
+  margin-right: -14rem;
 }
 .sign-table--tail-fit th:last-child,
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
@@ -608,9 +615,12 @@ a.deal-tile:visited { color: #9b9189; border-color: #d8d2cb; }
   align-items: baseline;
   overflow-x: auto;
   /* bubble headroom: a scroll container clips both axes (see the
-     .sign-table comment) — grow the clip box, not the layout */
+     .sign-table comment) — grow the clip box, not the layout;
+     the right rim gets the same reserve as the top */
   padding-top: 5.5rem;
   margin-top: -5.5rem;
+  padding-right: 14rem;
+  margin-right: -14rem;
 }
 
 /* Stacked variant for over-budget lines: the voice sits UNDER its

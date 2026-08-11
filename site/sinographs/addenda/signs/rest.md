@@ -15,7 +15,7 @@ permalink: /sinographs/addenda/signs/rest/
 ## Where it comes from
 
 A person leaning against a tree: **rest**, assembled from two
-of the course's first pictures. In the old texts it stretches to
+of the course's first pictures. In the old texts it widens to
 "respite" and even "good fortune" — the blessing of being let
 alone. Taught in
 <a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">the master's chapter</a>.

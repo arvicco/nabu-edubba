@@ -17,7 +17,7 @@ permalink: /sinographs/addenda/signs/kinds/
 Your mouth 口 three times over: many voices, many sorts —
 **kinds**, grades, things in their categories. The script's
 tripling move played on a single taught part. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

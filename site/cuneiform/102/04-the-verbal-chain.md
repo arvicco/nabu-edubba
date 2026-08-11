@@ -94,7 +94,7 @@ write your first whole verb — prefix, then stem, in signs:
     the shape stays: prefix opens, stem lands late. (You have in
     fact already seen <em>mu</em> and <em>DU</em> side by side in
     the wild — delivery records use exactly this pair as a term of
-    art, which a later stretch will unpack.)
+    art, which a later chapter will unpack.)
   </figcaption>
 </figure>
 
@@ -172,7 +172,7 @@ gave you for nouns:
 House, and go-go: <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03</a> taught you that a doubled sign can mark
 a plural or an intensity; here, doubled the same way, a verb reads as
 something closer to "goes and goes," or "the coming-and-going one" —
-a plausible shape for a name, though, as every name in this stretch
+a plausible shape for a name, though, as every name in these chapters
 has insisted, the exact sense stays a proposal, not a certainty.
 Either way, the device is one you already own; this entry just aims
 it at a verb instead of a noun.

@@ -109,6 +109,11 @@ rake serve          # local preview at http://127.0.0.1:4000
   corpus names, compiler talk, chart cross-references, or obscure
   external references in lesson flow (orientation chapters,
   citations, and footnotes are where machinery may speak).
+  Production borders are INVISIBLE to the student (owner ruling
+  2026-08-11): "stretches", phase boundaries, and any authoring-
+  calendar talk never appear in site prose — speak in chapters
+  and content; the production-vocab lint bans the word "stretch"
+  site-wide (physical senses use a synonym).
 - Chapter titles express the chapter's ESSENCE in a few short words
   (the grammar piece, the main idea) — never mechanical labels like
   "Batch III". Batches are a mechanic, not a name.
@@ -174,19 +179,17 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 17 — complete, gate PR pending: the reading is the button
-(D17-a opened the reserved JS layer for exactly say.js — the
-pinyin plays on click, no chrome); primer phonetics voiced;
-codex identity moved from pinyin to KEYWORD slugs (55 pages,
-homophone/tone-proof); every clip loudness-normalized (−20 dB
-mean, −1 dB peak); tone verifier hardened (raw-view falls,
-de-octave); say-audio lint — no reading ships silent; absent
-list EMPTY (品 voiced); review re-cuts 曰休 yuē zhě hū.
+Phase 18 — complete, gate PR pending: S101 stretch 3, the
+sentence at work (ch10–14, 26 chars, cap 40%) — 以 finally
+lands, 可以 and the modal frame, the second number batch, the
+seeing family, 道 itself, and the here-and-now closers; 81
+characters = 27.7% of the classical corpus, every syllable
+voiced; two incidents logged (red-gate semicolon chain, the
+serve/gate build race) with durable fixes.
 
-Gate 16 merged 2026-08-11 (S101 stretch 2: the borrowed words,
-ch05–09, 26 chars — 55 total = 20.9% of the classical corpus;
-zero-box Analects 1.2 and 2.17, 1.1's questions under cap; the
-shrinking-boxes return arc; 26 codex pages, shelf complete; the
-syllable-audio pipeline — license-gated, pitch-verified, 53/55
-characters voiced with click-to-play tables; 為 wèi→wéi caught
-by the verifier; PR #21). Update this line at each gate.
+Gate 17 merged 2026-08-11 (the audio phase: D17-a say.js — the
+reading is the button; primer phonetics voiced; keyword slugs
+replace pinyin slugs codex-wide; loudness normalization −20 dB;
+tone verifier hardened; say-audio lint; all 55 characters
+voiced, absent list empty; PR #22). Update this line at each
+gate.

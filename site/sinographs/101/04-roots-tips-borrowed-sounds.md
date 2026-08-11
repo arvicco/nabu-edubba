@@ -167,7 +167,7 @@ chapter in taught company:
   </figcaption>
 </figure>
 
-## Where this stretch ends
+## Where this leaves you
 
 Twenty-nine characters, and all four of the script's moves —
 drawing, pointing, combining, sound-borrowing — each learned on

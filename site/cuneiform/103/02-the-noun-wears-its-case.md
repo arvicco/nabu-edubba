@@ -140,5 +140,5 @@ loud:
 the stele's own titles for its gods.*
 
 [^mimation]: Case and mimation as in Huehnergard §§2.2–2.3; the
-    dual and the plural wait for the next stretch, where the texts
+    dual and the plural wait for later chapters, where the texts
     demand them.

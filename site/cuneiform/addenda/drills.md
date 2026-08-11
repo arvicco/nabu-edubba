@@ -25,7 +25,7 @@ three ways — *read it* (sign to sound), *write it* (sound to
 sign; draw before you peek), *what does it mean* — and the deck
 is interleaved so neighboring cards never come from the same
 chapter: harder on purpose, because mixed practice is what sticks.
-Work a stretch daily rather than the whole deck weekly; the
+Work a section daily rather than the whole deck weekly; the
 answers link nowhere, but every sign's full story lives one click
 away on the [Signs shelf]({{ '/cuneiform/addenda/signs/' | relative_url }}).
 

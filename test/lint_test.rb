@@ -186,6 +186,25 @@ class LintTest < Minitest::Test
     path
   end
 
+  def test_production_vocab_stays_out_of_site_prose
+    v = Edubba::Lint.check_production_vocab("site/sinographs/101/08-x.md",
+                                            "One chapter left in this stretch: the last little words.")
+    assert_equal ["production-vocab"], v.map(&:rule), "the ch08 line the owner flagged"
+
+    v2 = Edubba::Lint.check_production_vocab("site/hieroglyphs/addenda/signs/e34.md",
+                                             "A desert hare at full stretch, ears flat.")
+    assert_equal ["production-vocab"], v2.map(&:rule),
+                 "even physical senses are banned — use a synonym, keep the lint simple"
+
+    v3 = Edubba::Lint.check_production_vocab("site/cuneiform/102/index.md",
+                                             "the track continues in a later phase")
+    assert_equal ["production-vocab"], v3.map(&:rule), "calendar deferrals are borders too"
+
+    assert_empty Edubba::Lint.check_production_vocab("site/cuneiform/101/11-x.md",
+                                                     "The earliest phase of the script, proto-cuneiform."),
+                 "historical 'phase' with no calendar sense stays legal"
+  end
+
   def test_say_audio_flags_mute_sign_table_readings
     sino = "site/sinographs/101/04-x.md"
     mute = %(<td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>)

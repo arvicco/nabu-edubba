@@ -621,3 +621,280 @@ signs:
       rank 871; mouth for the meaning, not-yet (wèi) for the
       sound — the same-page proof that a taught character can turn
       into a pure sound-carrier.
+  # ---- stretch 3: the sentence at work (ch10-14, phase-18) ----
+  - char: 以
+    chapter: 10
+    keyword: by-means-of
+    pinyin: yǐ
+    meaning: "by means of, using; to take — the instrumental"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 3 — the biggest character still untaught; the old graph
+      (a person with something carried, per one reading) was taken
+      whole for the grammar word.
+  - char: 自
+    chapter: 10
+    keyword: self
+    pinyin: zì
+    meaning: "self; from — the reflexive and the point of origin"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 33; a nose face-on — Chinese speakers still point at
+      the nose to say "me".
+  - char: 丁
+    chapter: 10
+    keyword: nail
+    pinyin: dīng
+    meaning: "nail; an able-bodied man; fourth of the stems"
+    category: pictograph
+    certainty: stated
+    note: >-
+      rank 514 — pinned ahead of its rank as the component 可
+      needs; a nail seen head-on and driven home.
+  - char: 可
+    chapter: 10
+    keyword: can
+    pinyin: kě
+    meaning: "can, may; acceptable"
+    category: phono-semantic
+    certainty: stated
+    parts: ["丁", "口"]
+    note: >-
+      rank 35; graphically a nail-stroke beside a mouth — the old
+      phonetic 丂 wrote the sound, the mouth grants the permission.
+  - char: 用
+    chapter: 10
+    keyword: use
+    pinyin: yòng
+    meaning: "to use, to employ"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 77; the old picture is disputed (a bucket, a fence, a
+      hung bell) — the grammar is not: 用 puts things to work,
+      and 可 + 用 says "usable".
+  - char: 四
+    chapter: 11
+    keyword: four
+    pinyin: sì
+    meaning: "four"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 43; the archaic four was four stacked strokes (亖) —
+      this borrowed graph replaced it early.
+  - char: 五
+    chapter: 11
+    keyword: five
+    pinyin: wǔ
+    meaning: "five"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 37; strokes crossed between heaven-line and earth-line
+      — counting past four needed a knot, not more bars.
+  - char: 六
+    chapter: 11
+    keyword: six
+    pinyin: liù
+    meaning: "six"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 83; an old hut-graph lent its sound to the numeral.
+  - char: 白
+    chapter: 11
+    keyword: white
+    pinyin: bái
+    meaning: "white; plain, unadorned"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 150 — pinned as the component 百 needs; the old picture
+      is disputed (a grain of rice, a thumbnail, the dawn glow).
+  - char: 百
+    chapter: 11
+    keyword: hundred
+    pinyin: bǎi
+    meaning: "hundred; the many"
+    category: phono-semantic
+    certainty: classic
+    parts: ["一", "白"]
+    note: >-
+      rank 73; one over white — bái lends its sound, the stroke
+      counts the tally.
+  - char: 目
+    chapter: 12
+    keyword: eye
+    pinyin: mù
+    meaning: "eye"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 433 — pinned as the component 見 and 相 need; an eye
+      turned upright, iris in the middle.
+  - char: 見
+    chapter: 12
+    keyword: see
+    pinyin: jiàn
+    meaning: "to see; to appear, to visit"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["目", "人"]
+    note: >-
+      rank 58; an eye set on human legs (儿 is 人's running form)
+      — the whole person reduced to the act of seeing.
+  - char: 相
+    chapter: 12
+    keyword: mutual
+    pinyin: xiāng
+    meaning: "mutually, each other; to inspect"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["木", "目"]
+    note: >-
+      rank 65; an eye examining a tree — the forester's appraisal
+      became "regarding one another".
+  - char: 首
+    chapter: 12
+    keyword: head
+    pinyin: shǒu
+    meaning: "head; chief, first"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 283 — pinned as the component 道 needs; a head with
+      hair still on it, face turned to profile.
+  - char: 道
+    chapter: 12
+    keyword: way
+    pinyin: dào
+    meaning: "way, road; the Way; to guide"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["首"]
+    note: >-
+      rank 55; a head moving under the walking radical 辶 — a
+      person going down a road; the word the classics made
+      cosmic.
+  - char: 女
+    chapter: 13
+    keyword: woman
+    pinyin: nǚ
+    meaning: "woman"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 313 — pinned as the component 好 and 如 need; a figure
+      kneeling with folded hands, the oracle-bone posture.
+  - char: 好
+    chapter: 13
+    keyword: fond
+    pinyin: hǎo
+    meaning: "good, fine; (hào) to be fond of, to love"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["女", "子"]
+    note: >-
+      rank 355; woman and child together — the classical texts
+      mostly read it hào, the verb "to love": 6.20 turns on it.
+  - char: 如
+    chapter: 13
+    keyword: like
+    pinyin: rú
+    meaning: "to be like, as; if; to go to"
+    category: phono-semantic
+    certainty: stated
+    parts: ["女", "口"]
+    note: >-
+      rank 39; 女 lent its old sound beside the mouth; the
+      classical comparer — 不如 "is not as good as".
+  - char: 云
+    chapter: 13
+    keyword: quoth
+    pinyin: yún
+    meaning: "to say (introducing a quotation)"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 92; the original cloud pictograph, borrowed for the
+      quotative — clouds later got 雨 on top (雲) to stay
+      distinct. 曰 speaks; 云 quotes.
+  - char: 非
+    chapter: 13
+    keyword: is-not
+    pinyin: fēi
+    meaning: "is not, it is not the case that; wrong"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 98; two wings spread back to back — turned away,
+      contrary; the nominal negator (非 X = "it is not X"),
+      where 不 negates the verb.
+  - char: 矣
+    chapter: 13
+    keyword: by-now
+    pinyin: yǐ
+    meaning: "final particle: the state has arrived — 'now it is so'"
+    category: phono-semantic
+    certainty: stated
+    parts: ["矢"]
+    note: >-
+      rank 76; the arrow 矢 under 以's ancient top, which lends
+      the sound — the sentence lands like a shot: it is DONE.
+  - char: 此
+    chapter: 14
+    keyword: this-here
+    pinyin: cǐ
+    meaning: "this, this one here"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["止"]
+    note: >-
+      rank 28; a footprint 止 with a figure standing beside it —
+      the spot where someone stops is "here".
+  - char: 所
+    chapter: 14
+    keyword: place
+    pinyin: suǒ
+    meaning: "place; that which — the nominalizer"
+    category: phono-semantic
+    certainty: stated
+    note: >-
+      rank 17; a door leaf and an axe — Shuowen hears a
+      woodcutter's sound-word; take the graph whole. 所 X = "what
+      is X-ed", the mirror of 者's "the one who X-es".
+  - char: 於
+    chapter: 14
+    keyword: in
+    pinyin: yú
+    meaning: "in, at, on; than — the full locative"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 14; an old form of the crow 烏, borrowed whole — the
+      SAME word as ch09's 于 in a fuller dress; the Analects
+      prefer 於, the oldest songs 于.
+  - char: 至
+    chapter: 14
+    keyword: arrive
+    pinyin: zhì
+    meaning: "to arrive, to reach; utmost"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 41; an arrow point-down striking the ground line —
+      矢 flies again, and this time it lands.
+  - char: 今
+    chapter: 14
+    keyword: now
+    pinyin: jīn
+    meaning: "now, the present"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 68; the old picture is disputed (a cover over
+      something, an inverted mouth); paired against 古
+      "antiquity" it marks the present moment.

@@ -2,7 +2,7 @@
 title: "LAM · flourish"
 description: >-
   The sign LAM in Akkadian — [lam], the accusative
-  close of awīlam and the last box of the first stretch.
+  close of awīlam read whole at last.
 layout: sign
 school: cuneiform
 sign: "LAM"

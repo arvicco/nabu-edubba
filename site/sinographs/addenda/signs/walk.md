@@ -15,7 +15,7 @@ permalink: /sinographs/addenda/signs/walk/
 ## Where it comes from
 
 A crossroads seen from above — the place where walking
-happens. From "to walk" the classical language stretched it to
+happens. From "to walk" the classical language widened it to
 "to carry out, to practice": the walked way. Taught in <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">the knowing-and-walking chapter</a>.
 
 ## How to remember it

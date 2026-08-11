@@ -60,6 +60,31 @@ sources:
   hu:        {file: "Zh-hūrán.ogg", start: 0.10, end: 0.56, pinyin: "hū"}   # 忽's hū, hand-windowed (connected speech, no internal silence); replaced Zh-hū.oga after owner doubt
   pin:       {file: "Zh-pin.ogg", pinyin: "pǐn"}
 
+  # ---- stretch 3 (phase-18) ----
+  yi-by:     {file: "Zh-yi.ogg", pinyin: "yǐ"}   # 以 (and 矣): file's own description declares yǐ 以
+  zi-self:   {file: "Zh-zì.ogg", pinyin: "zì"}   # 自, via 字 zì
+  ding:      {file: "LL-Q9192 (cmn)-Fake_estate-丁.wav", pinyin: "dīng"}
+  ke:        {file: "Zh-kě.ogg", pinyin: "kě"}   # 可, via 渴 kě
+  yong:      {file: "Zh-yòng.ogg", pinyin: "yòng"}
+  si:        {file: "Zh-sì.ogg", pinyin: "sì"}
+  wu-five:   {file: "Zh-wǔ.ogg", pinyin: "wǔ"}
+  liu:       {file: "Zh-liù.ogg", pinyin: "liù"}
+  bai:       {file: "Zh-bái.ogg", pinyin: "bái"}
+  bai-hundred: {file: "Zh-bǎi.ogg", pinyin: "bǎi"}
+  jian:      {file: "Zh-jiàn.ogg", pinyin: "jiàn"}   # 見, via 件 jiàn
+  xiang:     {file: "Zh-xiāng.ogg", pinyin: "xiāng"} # 相, via 香 xiāng
+  shou:      {file: "Zh-shǒu.ogg", pinyin: "shǒu"}   # 首, via 手 shǒu
+  dao:       {file: "Zh-dào.ogg", pinyin: "dào"}     # 道, via 到 dào
+  nuu:       {file: "Zh-nǚ.ogg", pinyin: "nǚ"}       # 女 (nü folds to nuu for the ASCII filename)
+  hao:       {file: "Zh-hǎo.ogg", pinyin: "hǎo"}
+  ru:        {file: "Zh-rú.ogg", pinyin: "rú"}
+  yun:       {file: "Zh-yún.ogg", pinyin: "yún"}
+  fei:       {file: "Zh-fēi.ogg", pinyin: "fēi"}     # 非, via 飛 fēi
+  ci:        {file: "Zh-ci.ogg", pinyin: "cǐ"}       # 此: the file's own description declares cǐ 此
+  suo:       {file: "LL-Q9192 (cmn)-Jouketou-所.wav", pinyin: "suǒ"}   # dedicated single-character recording — citation tone, no sandhi
+  zhi-arrive: {file: "Zh-zhì.ogg", pinyin: "zhì"}    # 至, via 致 zhì
+  jin:       {file: "Zh-jīn.ogg", pinyin: "jīn"}     # 今, via 斤 jīn
+
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
   ge:        {file: "Zh-gē.oga", pinyin: "gē"}
@@ -96,6 +121,32 @@ voices:
   its: qi
   kinds: pin
   king: wang
+  by-means-of: yi-by
+  self: zi-self
+  nail: ding
+  can: ke
+  use: yong
+  four: si
+  five: wu-five
+  six: liu
+  white: bai
+  hundred: bai-hundred
+  eye: mu
+  see: jian
+  mutual: xiang
+  head: shou
+  way: dao
+  woman: nuu
+  fond: hao
+  like: ru
+  quoth: yun
+  is-not: fei
+  by-now: yi-by
+  this-here: ci
+  place: suo
+  in: yu
+  arrive: zhi-arrive
+  now: jin
   know: zhi
   middle: zhong
   moon: yue

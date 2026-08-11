@@ -108,7 +108,7 @@ one at a time:
 A note of honesty for the grammar-curious: Akkadian verbs also
 come in derived stems — <span class="norm">ubbir</span> and
 <span class="norm">uktīn</span> are "thickened" forms with their
-own nuances of meaning. The next stretch names that system
+own nuances of meaning. A later chapter names that system
 properly; for now, read each verb as the story-piece it is, and
 let the shapes accumulate.
 
@@ -127,5 +127,5 @@ let the shapes accumulate.
 whole but for a single box.*
 
 [^verbs]: The preterite/durative opposition as in Huehnergard
-    §§12, 18; derived stems (D, Š, N) arrive with the next
-    stretch's texts.
+    §§12, 18; derived stems (D, Š, N) arrive with later
+    chapters' texts.

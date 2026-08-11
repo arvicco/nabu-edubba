@@ -19,7 +19,7 @@ shows: []
 
 <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">Chapter 04</a> showed you the verbal chain's silhouette and asked you
 only to spot its prefixes marching by, not to parse them. <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">Chapter 05</a>
-closed the opening stretch with a promise: a later chapter would
+left a promise: a later chapter would
 come back and take that silhouette apart, piece by piece. This is
 that chapter. Three new signs, and the chain finally gets named.
 
@@ -48,7 +48,7 @@ that chapter. Three new signs, and the chain finally gets named.
     <tr>
       <td class="script sign-cell">𒉡</td><td>NU</td><td>not</td><td>[nu]</td>
       <td>not — the negation</td>
-      <td>the simplest sign of the whole stretch; it flips
+      <td>the simplest sign yet; it flips
           any sentence it opens</td>
     </tr>
   </tbody>

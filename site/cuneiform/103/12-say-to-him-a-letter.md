@@ -167,4 +167,4 @@ the whole letter-writer's toolbox in eight signs.
    and which is spoken?
 
 *Next: the king steps out from behind his own monument and says
-the word the whole stretch has been walking toward.*
+the word the whole course has been walking toward.*

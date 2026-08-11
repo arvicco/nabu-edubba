@@ -17,7 +17,7 @@ permalink: /sinographs/addenda/signs/tip/
 The same tree, the mark at the top: the **tip**, the branch-end
 — and, in argument, the incidental as against the fundamental 本.
 One pair of marks apart, a whole philosophy apart. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

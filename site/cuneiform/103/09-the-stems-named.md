@@ -3,7 +3,7 @@ title: "09 · The stems named"
 short_title: "09 · The stems"
 description: >-
   G, D, Š, N — the four shapes a verb's root can be built into.
-  Stretch 1's polite deferrals paid in full, and law 1 re-read
+  The course's polite deferrals paid in full, and law 1 re-read
   with every verb's family name attached.
 layout: chapter
 course: cuneiform-103
