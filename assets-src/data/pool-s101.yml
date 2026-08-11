@@ -967,3 +967,65 @@ signs:
       curled below — borrowed for the biggest round number the
       language names; 萬物 "the ten thousand things" is the
       classics' phrase for everything alive.
+  - char: 古
+    chapter: 16
+    keyword: old
+    pinyin: gǔ
+    meaning: "old, ancient; antiquity"
+    category: compound-ideograph
+    certainty: stated
+    parts: ["十", "口"]
+    note: >-
+      rank 142; ten 十 mouths 口 — what has passed through ten
+      generations of telling is old. The Shuowen's story;
+      whatever its first intent, it is how two thousand years of
+      readers have parsed it.
+  - char: 故
+    chapter: 16
+    keyword: therefore
+    pinyin: gù
+    meaning: "cause, precedent; old, former; therefore"
+    category: phono-semantic
+    certainty: classic
+    parts: ["古"]
+    note: >-
+      rank 42; 古 "old" lends sound and sense, the action-hand 攵
+      makes it a happening: what stands behind — the precedent,
+      the cause — and so the classical hinge-word "therefore".
+  - char: 文
+    chapter: 16
+    keyword: pattern
+    pinyin: wén
+    meaning: "pattern, writing; culture, the civil"
+    category: pictograph
+    certainty: stated
+    note: >-
+      rank 46; a standing figure with a patterned chest — the
+      old graphs show crossed lines, a heart, tattooed marks.
+      Pattern became writing became everything writing carries:
+      文 is the classics' word for civilization itself.
+  - char: 書
+    chapter: 16
+    keyword: book
+    pinyin: shū
+    meaning: "to write; writings, document; the Documents"
+    category: phono-semantic
+    certainty: stated
+    parts: ["曰"]
+    note: >-
+      rank 31; a hand gripping a brush (聿) above what it sets
+      down; the lower element began as a phonetic (者) and wore
+      down to the 曰-like shape you can read. Capitalized, 書 is
+      the Book of Documents.
+  - char: 詩
+    chapter: 16
+    keyword: poem
+    pinyin: shī
+    meaning: "poem, song; the Odes"
+    category: phono-semantic
+    certainty: classic
+    parts: ["言"]
+    note: >-
+      rank 79; speech 言 with 寺 as the sound. Capitalized, 詩 is
+      the Book of Odes — the three hundred songs the course has
+      been quoting since 詩三百.
