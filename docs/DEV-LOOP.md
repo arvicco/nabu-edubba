@@ -212,8 +212,9 @@ One writer per output dir (M19-5; 2026-08-11 incident — a live
 phantom failures shipped into the report): every long-running process
 owns a PRIVATE output directory (`rake serve` → `_build/serve`), and
 the gate asserts sole ownership of `_build/site` before it starts —
-`rake gate` aborts, naming the PID, while any other jekyll process is
-alive.
+`rake gate` aborts, naming the PID, while any jekyll process that is
+NOT pinned to the private `_build/serve` is alive (a `rake serve` on
+its own dir is the sanctioned pattern and never blocks the gate).
 
 ## 7. Human-action inventory
 

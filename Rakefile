@@ -49,11 +49,17 @@ task :sole_writer do
   # pattern there: red gate on PR #24, 2026-08-11).
   next if ENV["CI"]
 
-  pids = `pgrep -f "jekyll (serve|build)"`.split.map(&:to_i) - [Process.pid]
-  unless pids.empty?
-    abort "gate: another jekyll process is alive (PID #{pids.join(', ')}) — " \
+  # A serve pinned to its private _build/serve is the SANCTIONED
+  # pattern (rake serve) and cannot touch the gate's dir — only a
+  # jekyll writing anywhere else is a racing second writer.
+  offenders = `pgrep -fl "jekyll (serve|build)"`.lines
+              .map { |l| l.split(" ", 2) }
+              .reject { |pid, cmd| pid.to_i == Process.pid || cmd.include?("_build/serve") }
+              .map(&:first)
+  unless offenders.empty?
+    abort "gate: another jekyll process is alive (PID #{offenders.join(', ')}) — " \
           "a second writer races the gate build (2026-08-11 incident); " \
-          "stop it first (kill #{pids.join(' ')})"
+          "stop it first (kill #{offenders.join(' ')})"
   end
 end
 
