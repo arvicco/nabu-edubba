@@ -47,14 +47,14 @@ Egypt carved about itself.
     <tr>
       <td class="script sign-cell">𓆣</td><td>L1</td><td>scarab</td><td><em>ḫpr</em></td>
       <td>the scarab beetle — kheper: to become, to transform</td>
-      <td>ḫ+p+r; the beetle that rolls the sun over the horizon
-          each dawn, and the verb for everything that changes</td>
+      <td>ḫ+p+r; the beetle that rolls the sun — the
+          verb of change</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓊹</td><td>R8</td><td>flag</td><td><em>nṯr</em></td>
       <td>a temple flag on its pole — netjer: god</td>
-      <td>n+ṯ+r; not a picture of a god but of the banner that
-          marked sacred ground — the abstraction is the point</td>
+      <td>n+ṯ+r; not a god but the banner marking sacred
+          ground</td>
     </tr>
   </tbody>
 </table>

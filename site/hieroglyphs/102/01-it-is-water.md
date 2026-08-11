@@ -35,16 +35,13 @@ literature. Two signs first.
     <tr>
       <td class="script sign-cell">𓈗</td><td>N35A</td><td>water</td><td><em>mw</em></td>
       <td>water</td>
-      <td>three of 101's single ripples 𓈖 stacked into a body of
-          water — the word mw, and the silent classifier of
-          everything liquid</td>
+      <td>three stacked ripples: mw; liquids</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓏇</td><td>W19</td><td>likeness</td><td><em>mj</em></td>
       <td>like — the preposition of likeness</td>
-      <td>a milk jug in its carrying net; by sound alone it came to
-          write "like," and comparison is what it does in every
-          reading below</td>
+      <td>a milk jug in its net; by sound it writes
+          "like" — comparison</td>
     </tr>
   </tbody>
 </table>

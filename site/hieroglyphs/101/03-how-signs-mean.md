@@ -32,12 +32,12 @@ signs are the demonstration kit:
     <tr>
       <td class="script sign-cell">𓏤</td><td>Z1</td><td>stroke</td><td>—</td>
       <td>a single stroke</td>
-      <td>not read aloud; marks "this sign means the thing it shows"</td>
+      <td>silent; marks "this sign means what it shows"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓂻</td><td>D54</td><td>walking</td><td>—</td>
       <td>walking legs</td>
-      <td>not read aloud; silently classifies a word as motion</td>
+      <td>silent; classifies a word as motion</td>
     </tr>
   </tbody>
 </table>

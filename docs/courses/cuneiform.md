@@ -217,10 +217,9 @@ keep their natural width, prose columns take everything left),
 so a starved column cannot exist; what still drives height after
 that is TEXT concentrated in one column, and the text gets
 trimmed or compressed. The table-balance lint enforces the hard
-rule with the same model; activation is staged (owner ruling,
-same day: start from the newer courses) — sinographs is enforced
-now, this school and hieroglyphs join when their long notes
-columns are compressed (backlog packet).
+rule with the same model, school-wide since 2026-08-11 (M22-1:
+the older schools' notes columns were compressed to their
+computed budgets, ending the staged activation).
 
 Table cells hold forms and few-word glosses; sentence-length
 commentary lives in prose AROUND the table, never inside cells
@@ -700,7 +699,7 @@ listed in script/lint.rb's header — not repeated per school.
 | A reading line is one visual line (script never wraps) | §5 | stylesheet + style_guard test (pinned 2026-08-11, this audit) |
 | Columns never cut text (script fits or stacks) | §5 | `reading-width` lint (real font metrics) |
 | Cells hold labels, not sentences | §5 | `tail-fit-width` lint (60-char tail, 180/n labels) |
-| No column adds >15% to a table's height | §5 | build-time balanced colgroups; `table-balance` lint (staged: sinographs now, this school after notes compression) |
+| No column adds >15% to a table's height | §5 | build-time balanced colgroups; `table-balance` lint (enforced 2026-08-11, M22-1) |
 | Codex identity: keyword unique, page per sign, name-slug | §7 | rulebook.rb codex + complete-shelf checks |
 | Two-heading honesty (origin cited vs hook owned) | §7 | owner review; the wild's citation via `citation-urn` |
 | Codex attested line carries no ▢ | §7 | `codex-reads` lint |

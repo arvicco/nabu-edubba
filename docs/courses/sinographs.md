@@ -409,7 +409,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Size law: Han bigger than other scripts everywhere | §6 | style_guard SINO_CONTEXTS tests |
 | Han runs sit in `script` spans | §6 | font-coverage guards tofu; span discipline owner review |
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
-| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced, this school) |
+| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |
