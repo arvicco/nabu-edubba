@@ -851,3 +851,42 @@ Goal: 26 pool rows (parts, keywords, divergences noted), queue
 Goal: one chapter per packet — chapter + codex pages + syllables
       wired; gate green at each.
 ## M18-8 · Stitching + Gate 18 PR  [tier: top] [status: done — README/worklog/phase line current; PR open] [deps: M18-7]
+
+## Phase 19 — the workbench (retro batch, code half; owner approved 2026-08-11)
+Queued AHEAD of the next content stretch. Plan: .docs/phase-19-plan.md;
+rationale: .docs/retro-2026-08-11.md.
+
+## M19-1 · box_line instrument  [tier: code] [status: open] [deps: --]
+Goal: bin/box_line.rb — line + chapter in; ▢-rendered reading,
+      untaught list, share-vs-cap verdict, paste-ready HTML out.
+      Reuses the lint's han-counting; exact-value tests; three
+      shipped readings re-derived byte-identical.
+## M19-2 · citation-urn lint  [tier: code] [status: open] [deps: --]
+Goal: every reading figure carries urn:nabu: in its citation, or
+      is explicitly classed reading--composed with honest caption
+      wording; existing composed figures swept and classed.
+## M19-3 · audio cut QA  [tier: code] [status: open] [deps: --]
+Goal: duration bounds + envelope hump-count refusals in
+      bin/pinyin_audio.rb beside the tone check; synthetic tests;
+      full set re-verified 79/79.
+## M19-4 · sino_reading_picker  [tier: code] [status: open] [deps: M19-1]
+Goal: coverage-graded clause discovery over the Kanripo export
+      (parity with the other schools' pickers); stretch-4
+      candidate sheet generated into .docs/.
+## M19-5 · no-second-writer assert  [tier: code] [status: open] [deps: --]
+Goal: gate aborts if another jekyll process is alive; DEV-LOOP
+      standing rule in the same commit.
+## M19-6 · Stitching + Gate 19 PR  [tier: top] [status: open] [deps: M19-1..5]
+
+## Phase 20 — the process codex (retro batch, docs half; owner approved 2026-08-11)
+Plan: .docs/phase-20-plan.md. Light, docs-only; governs phase 21+.
+
+## M20-1 · Interactive-surface review law  [tier: top] [status: open] [deps: --]
+## M20-2 · Author pre-flight checklist  [tier: top] [status: open] [deps: --]
+## M20-3 · Structured-edits rule  [tier: top] [status: open] [deps: --]
+## M20-4 · Law ledgers ×3 rulebooks + gap audit  [tier: top] [status: open] [deps: --]
+## M20-5 · Return-arc planning law  [tier: top] [status: open] [deps: --]
+## M20-6 · Stitching + Gate 20 PR  [tier: top] [status: open] [deps: M20-1..5]
+
+(Phase 21 = next S101 stretch, owner pick at Gate 20 — written
+against the new workbench and process codex from day one.)
