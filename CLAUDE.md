@@ -179,13 +179,16 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 22 — opening: next packet slate awaits the owner's pick
-(candidates: M21-8 older-schools notes compression + table-balance
-lint flip school-wide; S101 stretch 5 — 則 with a 貝/刀 components
-chapter, 事得與後謂然皆國…). Landed so far: Gate 21 closed; Nabu's
-overlay-live message integrated (contract join key corrected to
-kEH_JSesh, contract law in hieroglyphs rulebook §3, `--min-chars`
-in the witness lane).
+Phase 22 — in progress (owner pick 2026-08-11: both queued items,
+one phase): M22-1 the table-balance flip — compress older schools'
+notes columns (probe: 71 cells), then enforce the 15% law
+school-wide; M22-2+ S101 stretch 5 (ch20–24, cap 30%) — 貝/刀
+components opener so 則 lands compositionally, candidates
+事得與後謂然皆國 from the phase-21 deferral, arc table after the
+regenerated picker sheet. Also landed: Gate 21 closed; Nabu's
+overlay-live message integrated (join key corrected to kEH_JSesh,
+contract law in hieroglyphs rulebook §3, `--min-chars` in the
+witness lane).
 
 Gate 21 merged 2026-08-11 (S101 stretch 4, the world of the text:
 ch15–19, 29 chars; 110 characters = 33.3% — one in three; finale
