@@ -249,8 +249,10 @@ convention; the CLI lives next door (read-only for us). Delivered
 against our FR survey (Nabu P72, 2026-08-11):
 
 - **Witness hunting, interactive**: `nabu search --charset "<taught
-  chars>" --max-foreign N [--source S] [TEXT]` — passages readable
-  with at most N strangers, strangers printed, cleanest line first.
+  chars>" --max-foreign N [--min-chars N] [--source S] [TEXT]` —
+  passages readable with at most N strangers, strangers printed,
+  cleanest line first; `--min-chars` floors distinct-char count so
+  the first screen is sentence-shaped, not one-char fragments.
   The mid-writing lane; fold-aware (学 covers 學).
 - **Witness hunting, batch**: `bin/*_picker.rb` — full-corpus sweeps
   with per-chapter bucketing and fame ranking (doc spread) that feed
@@ -267,3 +269,9 @@ against our FR survey (Nabu P72, 2026-08-11):
   "<taught chars>"` — per-document coverage %, top strangers by
   frequency: which text the course can read next, and what teaching
   those strangers would buy.
+
+The lane also runs the OTHER way: Nabu's `edubba-overlay` module
+(live 2026-08-11) reads our hiero data files and codex front matter
+straight from this repo — the contract fields are frozen law
+(hieroglyphs rulebook §3): additive-only, renames announced in
+Nabu's inbox BEFORE landing.

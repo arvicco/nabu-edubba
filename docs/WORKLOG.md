@@ -5,6 +5,22 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · Gate 21 closed + Nabu overlay-live integration ·
+phase-22 · PR #26 merged by owner (S101 stretch 4 + five review
+rounds); phase line updated. Same turn: Nabu's contract-implemented
+message (P72 closed, one day end to end) integrated. Their
+correction: our extraction contract claimed `gardiner` joins their
+card's `cat` — wrong; the true join key is `kEH_JSesh` (fallback
+`kEH_HG`); contract text amended in their inbox. The contract is
+now LAW on our side: hieroglyphs rulebook §3 records the frozen
+field lists (hiero-101/102.yml + codex front matter, additive-only,
+renames announced in Nabu's inbox BEFORE landing) + ledger row;
+DEV-LOOP §9 notes the reverse lane and adds `--min-chars` (our
+paper cut, shipped same-day) to the witness-hunting command. The
+zì audio fix they applied rode in earlier with the tone-agreement
+lint (f66442c). Next phase awaits owner pick: M21-8 and/or S101
+stretch 5.
+
 2026-08-11 · review round (novice-eye translation pass) ·
 phase-21 · Owner, on "take not-knowing as not-knowing": still a
 confused explanation — review EVERY reading as a student who
