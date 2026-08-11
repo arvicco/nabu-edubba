@@ -66,6 +66,26 @@ class StyleGuardTest < Minitest::Test
     end
   end
 
+  def test_scroll_containers_reserve_right_rim_room
+    # The right rim clips like the top (owner report 2026-08-11: a
+    # hieroglyph reading's bubble cut at the figure's right edge —
+    # school-wide law, every registered container). The reserve must
+    # cover a bubble at max-width (16em at the 0.78rem bubble font
+    # ≈ 12.5rem) plus its padding: 14rem, pulled back by an equal
+    # negative margin-right.
+    SCROLL_CONTAINERS.each_key do |sel|
+      body = bodies_for(sel)
+      pad = body[/padding-right:\s*([\d.]+rem)/, 1]
+      refute_nil pad, "#{sel} must reserve right-rim room (padding-right)"
+      assert_operator pad.to_f, :>=, 13.6,
+                      "#{sel}: right reserve #{pad} is smaller than a max-width bubble"
+      assert_match(/margin-right:\s*(?:-#{Regexp.escape(pad)}|calc\([^)]*-\s*#{Regexp.escape(pad)}\))/,
+                   body,
+                   "#{sel}: right reserve #{pad} must be pulled back by an equal " \
+                   "negative margin-right so the clip box grows, not the layout")
+    end
+  end
+
   def test_scroll_containers_pin_bubbles_to_the_glyph
     SCROLL_CONTAINERS.each_value do |pin|
       body = bodies_for(pin)
