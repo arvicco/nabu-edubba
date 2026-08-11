@@ -264,6 +264,35 @@ class LintTest < Minitest::Test
     assert_match(%r{no-such\.mp3}, v.first.detail)
   end
 
+  def test_say_audio_flags_tone_disagreement_between_link_and_file
+    # The zì/zǐ class (2026-08-11, Nabu-loop report): three primer
+    # links DISPLAYED zì (4th) while zi.mp3 is DECLARED zǐ (3rd, 子).
+    # The generator verifies files against declared tones; this rule
+    # checks pages against files.
+    manifest = write_tmp("sources.yml", <<~YAML)
+      sources:
+        zi:      {file: "Zh-zǐ.oga", pinyin: "zǐ"}
+        zi-self: {file: "Zh-zì.ogg", pinyin: "zì"}
+    YAML
+    link = lambda do |slug, shown|
+      %(<a class="say" href="{{ '/assets/audio/pinyin/#{slug}.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">#{shown}</span></a>)
+    end
+    path = "site/sinographs/addenda/pinyin.md"
+    v = Edubba::Lint.check_say_audio("site", path, link.call("zi", "zì"), manifest: manifest)
+    assert_equal ["say-audio"], v.map(&:rule), "shown 4th tone, plays 3rd — refused"
+    assert_match(/declared "zǐ"/, v.first.detail)
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("zi-self", "zì"),
+                                              manifest: manifest),
+                 "the correct 4th-tone file passes"
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("zi", "zǐ"),
+                                              manifest: manifest),
+                 "zi.mp3 for displayed zǐ (子) is correct and untouched"
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("ren", "rén"),
+                                              manifest: manifest),
+                 "a slug outside the manifest makes no tone claim " \
+                 "(the dead-target rule owns missing files)"
+  end
+
   def test_pinyin_display_bans_tone_numbers_in_sinograph_pages
     sino = "site/sinographs/101/00-x.md"
     v = Edubba::Lint.check_pinyin_display(sino, "say xue2 aloud")
