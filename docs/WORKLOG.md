@@ -5,6 +5,13 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M20-5 (return-arc planning law) · phase-20 · Stated
+in full in sinographs §5, mirrored in cuneiform §5 and hieroglyphs
+§6: a segment plan carries its return-arc table (reading · first
+taught · returns at · expected boxes · payoff) from the next
+planned segment onward — the stretch-4 plan will be the first
+written under it.
+
 2026-08-11 · M20-4 (law ledgers ×3 + gap audit) · phase-20 ·
 Closing ledger section in every school rulebook: law → where
 recorded → enforcing check, no blank cells; site-wide laws stated
@@ -26,6 +33,23 @@ Markdown+HTML source, as §8 records); (6) hiero museum exhibits
 now cite the reading--monument class M19-2 created. Everything
 else already had its check — the loop's law-follows-report habit
 held better than feared.
+
+2026-08-11 · M20-1..M20-3 (DEV-LOOP amendments) · phase-20 ·
+M20-1: interactive surfaces get NAMED review checks — a round that
+touched CSS, hover, or audio is not closed by static screenshots;
+the §6b checklist gains a copy-and-fill block (hover/listen/
+compare, direct URL + concrete target + what good looks like)
+pre-listing today's three interactive surfaces; the bubble-clip
+class took three owner reports because no checklist said "hover
+near every rim". M20-2: the author pre-flight checklist (DEV-LOOP
+6c) — the owner taste rulings in the order they bite during
+writing, each line citing the law it compresses; all three
+rulebooks' pedagogy sections point at it first. M20-3: structured
+edits over text replaces written into §6 Guardrails (loader
+round-trips or anchor-asserted scripts only for machine-read data
+files, both splice incidents cited) — the M20-4 audit run itself
+demonstrated the rule when a mis-guessed anchor failed loud
+instead of splicing silently.
 
 2026-08-11 · Gate 19 closed, phase 20 opened · phase-20 · Owner
 merged PR #24 (7bd35ba). Branched phase-20 from fresh main; phase
