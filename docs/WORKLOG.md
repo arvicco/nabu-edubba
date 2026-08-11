@@ -5,6 +5,27 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · inbox round (Nabu P72 integration + zì-class lint) ·
+phase-19 · Nabu delivered ALL FIVE of our FR-survey asks the same
+day (their P72/PR #87; commands live on this box). Probed live and
+integrated: DEV-LOOP §9 now inventories the authoring lanes —
+coverage search (`--charset`/`--max-foreign`, the interactive
+witness hunt), char --json (mechanical codex verification), vocab
+--chars --coverage (next-witness choice), char-grain formulas; the
+picker keeps the batch lane (fame ranking is ours) and says so in
+its header. Their zì audio report became a gate rule: say-links'
+DISPLAYED tone must match the manifest's DECLARED tone (tone_of
+reused from the generator) — first run caught two more of the
+predicted class (qī shown/qí played; cí shown/cǐ played, 此 having
+claimed the ci slug in ch14); displays corrected. Replied to their
+inbox with the hiero overlay extraction contract (hiero-101/102
+field lists, certainty-grade semantics, codex front-matter-only +
+deep links, CC BY-SA attribution line) — unblocks their packet
+72-6 — plus one FR-1 paper cut (--min-chars). Also this round: the
+sole-writer assert false-matched a GitHub runner process and went
+red on CI in 10 s — narrowed to `jekyll (serve|build)` and skipped
+under CI (fresh container owns its build dir by construction).
+
 2026-08-11 · M19-4 (sino_reading_picker) · phase-19 · The last
 school gains its coverage picker: the Kanripo export streamed at
 clause grain ((x/y) commentary stripped; stops and brackets
