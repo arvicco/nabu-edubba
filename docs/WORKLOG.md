@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (table-balance law) · phase-21 · Owner:
+intro tables unbalanced across the board, How-to-see-it starved —
+HARD rule: no column may add 15%+ to the table's height over the
+table without it; rebalance the starved column wider. Root cause
+found: .sign-table was its own display:block scroll container, so
+the browser shrink-wrapped an ANONYMOUS table box and the
+percentage floors resolved against an unpredictable width. Cure
+in three parts: (1) a render-time wrapper (div.table-scroll,
+script/table_wrap.rb) takes the scroll + bubble reserves so the
+table becomes a real fixed-layout table again; (2) every sign
+table's balanced grid is COMPUTED from its own content at build
+time (script/table_balance.rb — labels keep natural width, prose
+splits the rest) and emitted as a static colgroup — width
+rebalancing by construction, all schools, ch15's tail column went
+to 49.9%; (3) the table-balance lint measures the 15% rule with
+the SAME model, so what survives allocation is concentrated TEXT.
+Owner ruled staging: enforce from the newer courses — sinographs
+live now (five chapter tables trimmed to pass: ch10, 11, 12, 14,
+15), cuneiform + hieroglyphs get the width fix today and join the
+lint when their long notes columns are compressed (M21-8 queued,
+~50 tables). Model refinements en route: glyph columns are exempt
+from the excess check (their height is font size, not wrapping —
+no width lowers it), and the pinyin primer's phonetics grids opt
+out as sign-table--even (no glyph column, own proportions).
+
 2026-08-11 · Gate 20 closed, phase 21 opened (M21-1 planning) ·
 phase-21 · Owner merged PR #25. S101 stretch 4 planned UNDER the
 new codex — the first plan with a return-arc table (M20-5): 28

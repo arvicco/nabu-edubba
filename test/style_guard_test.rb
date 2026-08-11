@@ -25,7 +25,9 @@ class StyleGuardTest < Minitest::Test
 
   # scroll container => the selector that pins its bubbles
   SCROLL_CONTAINERS = {
-    ".sign-table" => ".sign-table .sign-tip",
+    # sign tables scroll inside a render-time wrapper (table-balance
+    # law, 2026-08-11) so the table keeps a real fixed-layout grid
+    ".table-scroll" => ".sign-table .sign-tip",
     ".reading--script .reading-lines" => ".reading--script .sign-tip"
   }.freeze
 

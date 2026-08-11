@@ -283,6 +283,15 @@ the chapters deliver it.
   site's serif body; traditional glyphs per §4. Han runs in pages
   always sit in a `script` span — bare Han text outside one never
   gets the vendored face.
+- **Table balance (owner ruling 2026-08-11; cuneiform §5 states
+  the law in full):** no sign-table column adds more than 15% to
+  the table's height over the table without it. The build computes
+  every table's balanced grid from its content; the table-balance
+  lint enforces the hard rule for THIS school from day one — a
+  violation means text concentrated in one column, and the cells
+  get trimmed. Non-sign tables that borrow the styling (the
+  pinyin primer's phonetics grids) opt out with
+  `sign-table--even`.
 - **Size law (owner ruling 2026-08-10):** sinograph characters
   display BIGGER than cuneiform/Egyptian script text everywhere —
   a character's strokes are genuinely difficult to make out at the
@@ -383,5 +392,6 @@ script/lint.rb's header; "owner review" is a disposition.
 | Size law: Han bigger than other scripts everywhere | §6 | style_guard SINO_CONTEXTS tests |
 | Han runs sit in `script` spans | §6 | font-coverage guards tofu; span discipline owner review |
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
+| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced, this school) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |

@@ -29,32 +29,32 @@ the head on the road:
     <tr>
       <td class="script sign-cell">目</td><td>eye</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>eye</td>
-      <td>an eye turned upright to fit the column, iris in the
-      middle — the classic account</td>
+      <td>an eye stood upright to fit the column, iris in the
+      middle</td>
     </tr>
     <tr>
       <td class="script sign-cell">見</td><td>see</td><td><a class="say" href="{{ '/assets/audio/pinyin/jian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jiàn</span></a></td>
-      <td>to see; to appear, to visit</td>
+      <td>to see; to visit</td>
       <td>the eye 目 set on running legs — a whole person reduced
       to the act of looking</td>
     </tr>
     <tr>
       <td class="script sign-cell">相</td><td>mutual</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiāng</span></a></td>
-      <td>mutually, each other; to inspect</td>
+      <td>each other; to inspect</td>
       <td>an eye 目 examining a tree 木 — the forester's
-      appraisal, turned into "regarding one another"</td>
+      appraisal made mutual</td>
     </tr>
     <tr>
       <td class="script sign-cell">首</td><td>head</td><td><a class="say" href="{{ '/assets/audio/pinyin/shou.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shǒu</span></a></td>
       <td>head; chief, first</td>
-      <td>a head in profile with the hair still on — the classic
-      account; the eye is in there, look for it</td>
+      <td>a head in profile, hair still on — the eye is in
+      there, look for it</td>
     </tr>
     <tr>
       <td class="script sign-cell">道</td><td>way</td><td><a class="say" href="{{ '/assets/audio/pinyin/dao.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dào</span></a></td>
       <td>way, road; the Way</td>
-      <td>the head 首 moving under the walking radical (the
-      bent path at its left) — a person going down a road</td>
+      <td>the head 首 under the walking radical — a person
+      going down a road</td>
     </tr>
   </tbody>
 </table>

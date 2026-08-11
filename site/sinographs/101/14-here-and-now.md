@@ -27,33 +27,33 @@ down — to a place, and to the present:
     <tr>
       <td class="script sign-cell">此</td><td>this-here</td><td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cǐ</span></a></td>
       <td>this, this one here</td>
-      <td>a footprint 止 with a figure standing beside it — where
-      someone has stopped is "here"</td>
+      <td>a footprint 止 and a figure beside it — where you
+      stop is "here"</td>
     </tr>
     <tr>
       <td class="script sign-cell">所</td><td>place</td><td><a class="say" href="{{ '/assets/audio/pinyin/suo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">suǒ</span></a></td>
       <td>place; that which</td>
-      <td>a door leaf and an axe — an old sound-word taken whole;
-      the grammar is the thing to hold</td>
+      <td>a door leaf and an axe — a sound-word taken whole;
+      hold the grammar</td>
     </tr>
     <tr>
       <td class="script sign-cell">於</td><td>in</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
       <td>in, at, on; than</td>
-      <td>an old crow-graph borrowed whole — the same word as
+      <td>an old crow-graph —
       <a href="{{ '/sinographs/addenda/signs/at/' | relative_url }}">chapter 09's 于</a>
-      in a fuller dress; the Analects prefer this one</td>
+      in fuller dress; the Analects' favorite</td>
     </tr>
     <tr>
       <td class="script sign-cell">至</td><td>arrive</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi-arrive.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhì</span></a></td>
-      <td>to arrive, reach; utmost</td>
-      <td>an arrow point-down striking the ground line — the
-      arrow from <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> flies once more, and lands</td>
+      <td>arrive, reach; utmost</td>
+      <td>the <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> arrow, point-down, striking
+      the ground — flown and landed</td>
     </tr>
     <tr>
       <td class="script sign-cell">今</td><td>now</td><td><a class="say" href="{{ '/assets/audio/pinyin/jin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jīn</span></a></td>
       <td>now, the present</td>
-      <td>the old picture is disputed (a cover, an inverted
-      mouth); set against "antiquity" it marks the present</td>
+      <td>a disputed picture — a cover? an inverted mouth? —
+      it marks the present</td>
     </tr>
   </tbody>
 </table>
