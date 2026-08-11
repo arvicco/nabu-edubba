@@ -90,7 +90,6 @@ sources:
   ge:        {file: "Zh-gē.oga", pinyin: "gē"}
   ta:        {file: "Zh-tà.ogg", pinyin: "tà"}
   fa:        {file: "Zh-fā.ogg", pinyin: "fā"}
-  hao:       {file: "Zh-hǎo.ogg", pinyin: "hǎo"}
   ai:        {file: "Zh-ài.ogg", pinyin: "ài"}
   lai:       {file: "Zh-lái.ogg", pinyin: "lái"}
   bei:       {file: "Zh-bèi.ogg", pinyin: "bèi"}
