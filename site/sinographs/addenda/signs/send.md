@@ -1,0 +1,38 @@
+---
+title: "shǐ · send"
+description: >-
+  The character 使 in the Character Codex — a person beside the
+  officer's tally: to commission, employ, cause.
+layout: sign
+school: sinographs
+sign: "send"
+reads: "shǐ"
+course: sinographs-addenda
+course_url: /sinographs/addenda/
+course_title: "Sinograph Addenda"
+permalink: /sinographs/addenda/signs/send/
+---
+
+## Where it comes from
+
+A person 亻 stands beside the officer-with-tally sign — someone
+is being given the job. To send on a mission, to employ, and in
+grammar the causer: 使 X do Y, "make X do Y." An envoy is this
+character with a title. Taught in
+<a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">the work-and-doing chapter</a>.
+
+## How to remember it
+
+Hand the tally over: **send**.
+
+## In the wild
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions. The boxes are "courtesy" and "loyalty"; 使 sends downward, 事 serves upward</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Analects</em> 3.19.
+    <code>urn:nabu:kanripo:KR1h0004:003:20a</code> · license: attribution.
+  </figcaption>
+</figure>

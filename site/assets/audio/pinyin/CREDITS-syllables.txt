@@ -15,6 +15,7 @@ bei.mp3        — "Zh-bèi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ben.mp3        — "Zh-běn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 bu.mp3         — "Zh-bù.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 chen.mp3       — "Zh-chén.ogg" · Yue Tan · CC BY-SA 3.0 us
+cheng.mp3      — "Zh-chéng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 chu.mp3        — "Zh-chū.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ci.mp3         — "Zh-ci.ogg" · Yue Tan · CC BY-SA 3.0 us
 da.mp3         — "Zh-dà.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -51,6 +52,7 @@ min.mp3        — "Zh-rénmín.ogg" (syllable 2 cut from the word) · Wei Gao, 
 ming.mp3       — "Zh-míng.ogg" · Yue Tan · CC BY-SA 3.0 us
 mo.mp3         — "Zh-mò.ogg" · Yue Tan · CC BY-SA 3.0 us
 mu.mp3         — "Zh-mù.ogg" · Yue Tan · CC BY-SA 3.0 us
+neng.mp3       — "Zh-néng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 nian.mp3       — "Zh-nián.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 niu.mp3        — "LL-Q9192 (cmn)-Jouketou-牛.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0
@@ -70,6 +72,7 @@ sheng.mp3      — "Zh-shēng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi.mp3        — "Zh-shí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi-arrow.mp3  — "Mandarin Chinese pronunciation-矢.wav" · Jiāgěng Liú · CC BY-SA 4.0
 shi-poem.mp3   — "Zh-lǎoshī.ogg" (syllable 2 cut from the word) · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+shi-send.mp3   — "Zh-shǐyòng.ogg" (syllable 1 cut from the word) · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi-this.mp3   — "Zh-shì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shou.mp3       — "Zh-shǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shu.mp3        — "Zh-shū.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -122,3 +125,4 @@ zhi-stop.mp3   — "Zh-zhǐ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 zhong.mp3      — "Zh-zhōng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 zi.mp3         — "Zh-zǐ.oga" · Yue Tan · CC BY-SA 3.0 us
 zi-self.mp3    — "Zh-zì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+zuo.mp3        — "Zh-zuò.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr

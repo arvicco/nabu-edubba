@@ -117,6 +117,10 @@ sources:
   ze:        {file: "Zh-yuánzé.ogg", pinyin: "zé", syllable: 2, of: 2}  # 則, via 原則 yuánzé (Zh-zé.ogg reads level, refused)
   xian:      {file: "Zh-xiān.ogg", pinyin: "xiān"}   # 先
   hou:       {file: "Zh-hòu.ogg", pinyin: "hòu"}     # 後
+  zuo:       {file: "Zh-zuò.ogg", pinyin: "zuò"}     # 作
+  cheng:     {file: "Zh-chéng.ogg", pinyin: "chéng"} # 成
+  neng:      {file: "Zh-néng.ogg", pinyin: "néng"}   # 能
+  shi-send:  {file: "Zh-shǐyòng.ogg", pinyin: "shǐ", syllable: 1, of: 2}  # 使, via 使用 shǐyòng
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -214,6 +218,11 @@ voices:
   rule: ze
   first: xian
   after: hou
+  work: shi-this
+  make: zuo
+  become: cheng
+  able: neng
+  send: shi-send
   know: zhi
   middle: zhong
   moon: yue
