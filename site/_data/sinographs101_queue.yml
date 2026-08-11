@@ -1557,6 +1557,104 @@ signs:
   note: rank 117; a scorpion drawn whole — pincers up top, tail curled below — borrowed
     for the biggest round number the language names; 萬物 "the ten thousand things"
     is the classics' phrase for everything alive.
+- char: 古
+  glyph: 古
+  name: old
+  codepoint: 53E4
+  keyword: old
+  pinyin: gǔ
+  meaning: old, ancient; antiquity
+  category: compound-ideograph
+  certainty: stated
+  strokes: 5
+  ids: "⿱十口"
+  rank: 142
+  count_kanripo: 947064
+  docs: 4431
+  chapter: 16
+  parts:
+  - 十
+  - 口
+  note: rank 142; ten 十 mouths 口 — what has passed through ten generations of telling
+    is old. The Shuowen's story; whatever its first intent, it is how two thousand
+    years of readers have parsed it.
+- char: 故
+  glyph: 故
+  name: therefore
+  codepoint: '6545'
+  keyword: therefore
+  pinyin: gù
+  meaning: cause, precedent; old, former; therefore
+  category: phono-semantic
+  certainty: classic
+  strokes: 9
+  ids: "⿰古攵"
+  rank: 42
+  count_kanripo: 2112082
+  docs: 4840
+  chapter: 16
+  parts:
+  - 古
+  note: 'rank 42; 古 "old" lends sound and sense, the action-hand 攵 makes it a happening:
+    what stands behind — the precedent, the cause — and so the classical hinge-word
+    "therefore".'
+- char: 文
+  glyph: 文
+  name: pattern
+  codepoint: '6587'
+  keyword: pattern
+  pinyin: wén
+  meaning: pattern, writing; culture, the civil
+  category: pictograph
+  certainty: stated
+  strokes: 4
+  ids: "⿱亠乂"
+  rank: 46
+  count_kanripo: 1986390
+  docs: 4852
+  chapter: 16
+  note: 'rank 46; a standing figure with a patterned chest — the old graphs show crossed
+    lines, a heart, tattooed marks. Pattern became writing became everything writing
+    carries: 文 is the classics'' word for civilization itself.'
+- char: 書
+  glyph: 書
+  name: book
+  codepoint: 66F8
+  keyword: book
+  pinyin: shū
+  meaning: to write; writings, document; the Documents
+  category: phono-semantic
+  certainty: stated
+  strokes: 10
+  ids: "⿱{82}日"
+  rank: 31
+  count_kanripo: 2327321
+  docs: 4735
+  chapter: 16
+  parts:
+  - 曰
+  note: rank 31; a hand gripping a brush (聿) above what it sets down; the lower element
+    began as a phonetic (者) and wore down to the 曰-like shape you can read. Capitalized,
+    書 is the Book of Documents.
+- char: 詩
+  glyph: 詩
+  name: poem
+  codepoint: 8A69
+  keyword: poem
+  pinyin: shī
+  meaning: poem, song; the Odes
+  category: phono-semantic
+  certainty: classic
+  strokes: 13
+  ids: "⿰訁寺"
+  rank: 79
+  count_kanripo: 1433212
+  docs: 3751
+  chapter: 16
+  parts:
+  - 言
+  note: rank 79; speech 言 with 寺 as the sound. Capitalized, 詩 is the Book of Odes
+    — the three hundred songs the course has been quoting since 詩三百.
 batches:
 - chapter: 0
   signs:
@@ -1693,3 +1791,11 @@ batches:
   - 物
   - 萬
   coverage_pct: 28.5
+- chapter: 16
+  signs:
+  - 古
+  - 故
+  - 文
+  - 書
+  - 詩
+  coverage_pct: 29.7
