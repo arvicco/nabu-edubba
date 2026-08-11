@@ -124,6 +124,9 @@ meant for readers; nothing internal lands in `docs/`.
          tone/reading is what the ear hears
        - compare: <URL> — click <syllable A> then <syllable B>
          (different sources) — EXPECT no loudness jump
+       - scroll: <URL, wide window> — wheel with the cursor over
+         the sidebar — EXPECT the sidebar list scrolls itself
+         when taller than the viewport, the page only when not
 
 6c. **Before writing a chapter** (M20-2) — the owner taste rulings
    in the order they bite during writing. Each line compresses a law

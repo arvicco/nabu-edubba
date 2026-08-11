@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (sidebar wheel-scroll) · phase-21 ·
+Owner: wheel over the navbar scrolls the CHAPTER, not the navbar.
+Root cause: the wide-screen course sidebar is position:sticky
+with no height cap and no overflow — the list outgrew the
+viewport (20 S101 chapters plus every school) and a sticky box
+with no scroll viewport of its own passes wheel events to the
+page. Fix: max-height calc(100vh − 3rem) + overflow-y auto —
+when the list fits, nothing changes; when it doesn't, the wheel
+scrolls the list under the cursor, as expected. The style guard
+gains NO_TIP_CONTAINERS (overflow allowed without bubble reserves
+for chrome that can never host sign-links, by documented
+judgment); the 6b interactive block gains its fourth line — the
+scroll check.
+
 2026-08-11 · M21-2..M21-6 (stretch 4 complete: ch15–19) ·
 phase-21 · The world of the text, 29 characters (28 planned + 來,
 added mid-stretch when box_line measured 1.1's second clause at
