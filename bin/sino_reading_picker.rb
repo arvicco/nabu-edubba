@@ -12,6 +12,12 @@
 # texts carry the exact clause, the corpus's own fame proxy — then
 # by length. Boxing is M19-1's, reused, never reimplemented.
 #
+# Division of labor with Nabu's coverage search (P72, 2026-08-11):
+# `nabu search --charset ... --max-foreign N` is the INTERACTIVE
+# lane — one readable-line query mid-writing, quasi-instant. This
+# picker is the BATCH lane: the full-corpus sweep whose doc-spread
+# fame ranking and per-chapter bucketing feed a stretch plan.
+#
 # Usage: ruby bin/sino_reading_picker.rb [from_ch] [to_ch]
 #        output is Markdown; redirect to .docs/s101-stretch4-readings.md
 
