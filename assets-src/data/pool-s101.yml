@@ -1246,3 +1246,77 @@ signs:
       rank 105; a woman 女 seated under a roof 宀 — the house at
       rest. The classics also borrow it as a question word
       ("wherein?"), but its heart is the settled home.
+  - char: 貝
+    chapter: 20
+    keyword: cowrie
+    pinyin: bèi
+    meaning: "cowrie shell; wealth, value"
+    category: pictograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 1981 — a curated pin (§5): cheap to learn, and it buys
+      則 in the same chapter. A cowrie shell face-on, feelers
+      trailing; cowries were early money, so the shell marks
+      value words across the script.
+  - char: 刀
+    chapter: 20
+    keyword: knife
+    pinyin: dāo
+    meaning: "knife, blade"
+    category: pictograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 1397 — the second curated pin: a blade with its curved
+      handle, two strokes. On the right side of a compound it
+      slims to 刂 — the same knife, drawn thin.
+  - char: 分
+    chapter: 20
+    keyword: divide
+    pinyin: fēn
+    meaning: "to divide; a part, a share"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["八", "刀"]
+    note: >-
+      rank 120; ch15's 八 "eight" began as "to split apart," and
+      here the knife 刀 does the splitting under it — dividing,
+      drawn as its instrument.
+  - char: 則
+    chapter: 20
+    keyword: rule
+    pinyin: zé
+    meaning: "rule, pattern; then, in that case"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["貝", "刀"]
+    note: >-
+      rank 23; the knife (slim 刂) beside the cowrie 貝. The
+      bronzes cut their rules into a ritual cauldron 鼎, and the
+      cauldron wore down to a cowrie in the received graph — the
+      engraved standard; hence "rule," hence "then" (as the rule
+      dictates).
+  - char: 先
+    chapter: 20
+    keyword: first
+    pinyin: xiān
+    meaning: "first, ahead, before"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 107; a foot over a walking man's legs — one step out
+      in front. The foot on top is ch08's 止 worn slant.
+  - char: 後
+    chapter: 20
+    keyword: after
+    pinyin: hòu
+    meaning: "after, behind; later"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 54; a road-step 彳, a small thread 幺, and a dragging
+      foot 夊 — tied and trailing on the road: falling behind,
+      coming after.
