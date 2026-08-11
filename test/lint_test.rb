@@ -153,6 +153,40 @@ class LintTest < Minitest::Test
     refute Edubba::ScriptScan.tracked?(0x0041)
   end
 
+  def test_citation_urn_requires_a_witness_in_the_figcaption
+    fig = lambda do |mods, caption|
+      "---\nt: 1\n---\n<figure class=\"reading reading--script#{mods}\">" \
+        "<div class=\"reading-lines\"></div>" \
+        "<figcaption class=\"citation\">#{caption}</figcaption></figure>"
+    end
+    path = "site/cuneiform/101/04-x.md"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call("", "<em>Laozi</em> 42. <code>urn:nabu:kanripo:KR5c0057:042:1a</code>")
+    )
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(path, fig.call("", "A famous line.")).map(&:rule),
+                 "a reading figure without a urn:nabu: witness fails"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call(" reading--composed", "Assembled from signs you already hold.")
+    ), "composed figures escape via class + displayed wording"
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(
+                   path, fig.call(" reading--composed", "A teaching example.")
+                 ).map(&:rule),
+                 "the composed class alone is not enough — the caption must SAY so"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call(" reading--monument", "As carved on the Rosetta Stone, BM EA 24.")
+    ), "real objects outside the corpora escape via reading--monument + wording"
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(
+                   path, fig.call(" reading--monument", "The Rosetta Stone, BM EA 24.")
+                 ).map(&:rule),
+                 "monument class without carved/inscribed wording fails"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, "---\nt: 1\n---\n<figure class=\"reading-grid\">no caption at all</figure>"
+    ), "only reading figures are in scope"
+  end
+
   def test_box_share_caps_untaught_boxes_progressively
     fig = ->(script) { "---\nchapter: 0\n---\n<figure class=\"reading reading--script\"><div><span class=\"script\">#{script}</span></div></figure>" }
     sino = "site/sinographs/101/00-x.md"

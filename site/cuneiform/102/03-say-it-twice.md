@@ -106,12 +106,12 @@ word's part of speech. Put <span class="script">𒉆</span> *nam-* in
 front of a concrete noun and you get the abstraction built from it —
 not "king" but "the state of being king":
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--composed">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒉆𒈗</span><span class="translit">nam-lugal</span><span class="gloss">nam-lugal — "kingship," built from nam- + lugal "king"</span></div>
   </div>
   <figcaption class="citation">
-    A compound, not a citation — built from signs you already hold,
+    A compound, not a citation — assembled from signs you already hold,
     to show the machine at work: concrete noun in, abstraction out.
   </figcaption>
 </figure>

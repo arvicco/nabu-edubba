@@ -181,7 +181,7 @@ single fact turned the cartouche into the crowbar of decipherment: a
 ring around a foreign name was a ring around pure phonetics, with
 nothing pictorial hiding the sounds.
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--monument">
   <div class="reading-lines">
     <div class="reading-line"><span class="script"><span class="nobr">𓍹𓊪𓏏𓍯𓃭𓅓𓇋𓇋𓋴𓍺</span></span><span class="translit">Ptwlmys</span><span class="gloss">Ptolemy</span></div>
   </div>
