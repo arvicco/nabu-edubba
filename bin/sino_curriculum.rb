@@ -4,8 +4,8 @@
 # S101 curriculum compiler (M15-4, rulebook §5/§7): reads the curated
 # pool (assets-src/data/pool-s101.yml), merges the committed Kanripo
 # frequency table (rank, counts, strokes, Unihan pinyin, IDS),
-# validates the chapter-opening law (1–3 fresh characters per
-# chapter), the keyword law (unique school-wide) and the pinyin
+# validates the chapter-dial law (5–6 fresh characters per
+# chapter, §5), the keyword law (unique school-wide) and the pinyin
 # display law (tone diacritics, never numbers — cross-checked
 # against Unihan kMandarin), computes cumulative corpus coverage per
 # chapter, and writes site/_data/sinographs101_queue.yml —

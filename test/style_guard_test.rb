@@ -163,6 +163,19 @@ class StyleGuardTest < Minitest::Test
     end
   end
 
+  def test_reading_script_never_wraps
+    # One visual line of script (cuneiform rulebook §5, owner report
+    # 2026-08-08: ch16's law-197 script wrapped mid-line and the
+    # transliteration no longer sat beside the signs it sounds): the
+    # script column never wraps — a long tablet line scrolls inside
+    # its figure. Pinned by the 2026-08-11 law-ledger audit (M20-4);
+    # the law had lived in CSS with no guard.
+    body = bodies_for(".reading--script .script")
+    assert_match(/white-space:\s*nowrap/, body,
+                 ".reading--script .script must never wrap — a reading line " \
+                 "is ONE visual line of script (rulebook §5)")
+  end
+
   def test_sinograph_readings_always_stack
     body = bodies_for(".school-sinographs .reading--script .reading-lines")
     assert_match(/display:\s*block/, body,
