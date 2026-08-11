@@ -179,14 +179,18 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 19 — complete, gate PR pending: the workbench (retro
-batch, code half) — box_line mechanical boxing (three shipped
-readings re-derived byte-identical), citation-urn lint (8 of 489
-figures classed composed/monument), audio cut QA (span + hump
-checks, 79/79 re-verified, tone-3 glottal closure learned),
-no-second-writer gate assert, and the sinograph coverage picker
-(4.57M passages → 162k clauses; the fame proxy independently
-found 未之有也). Phase 20 (process codex, docs half) follows.
+Phase 20 — complete, gate PR pending: the process codex (retro
+batch, docs half) — interactive-surface review law (named
+hover/listen/compare checks), author pre-flight checklist
+(DEV-LOOP 6c), structured-edits standing rule, law ledgers with
+gap audit in all three rulebooks (six finds, all dispatched),
+return-arc planning law. Governs phase 21+ (next content
+stretch, owner pick at Gate 20).
+
+Gate 19 merged 2026-08-11 (the workbench: box_line, citation-urn
+lint, audio cut QA span+hump, sole-writer gate assert, sinograph
+coverage picker; Nabu P72 instruments integrated; tone-agreement
+say-audio lint; PR #24). Update this line at each gate.
 
 Gate 18 merged 2026-08-11 (S101 stretch 3, the sentence at work:
 ch10–14, 26 chars, cap 40%; 81 characters = 27.7% of the

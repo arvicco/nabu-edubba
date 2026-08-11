@@ -105,6 +105,46 @@ meant for readers; nothing internal lands in `docs/`.
          HTML (this site must work in a text browser — it has no JS)
    - [ ] against the previous screenshot: intended changes present,
          nothing else moved
+
+   **Interactive surfaces get named checks** (M20-1; the bubble-clip
+   class took THREE owner reports — left rim, last column, reading
+   right rim — because no checklist said "hover near every rim").
+   A review round or gate runbook that touched CSS, hover behavior,
+   or audio is NOT closed by static screenshots: it must enumerate
+   its interactive checks — each one a direct URL plus a concrete
+   target and what good looks like. Copy and fill this block (the
+   three interactive surfaces the site has today; extend it when a
+   new one ships):
+
+       INTERACTIVE CHECKS
+       - hover: <URL> — hover <glyph> in <the risky spot: last
+         table column, first row of a scrolling figure, longest
+         reading line> — EXPECT the full bubble, no cut edge
+       - listen: <URL> — click <syllable> — EXPECT the displayed
+         tone/reading is what the ear hears
+       - compare: <URL> — click <syllable A> then <syllable B>
+         (different sources) — EXPECT no loudness jump
+
+6c. **Before writing a chapter** (M20-2) — the owner taste rulings
+   in the order they bite during writing. Each line compresses a law
+   recorded elsewhere (cited); this list never replaces it.
+   - [ ] witness VERIFIED first — the reading's URN is in the phase
+         plan before a word is drafted (rulebook §-Readings; the §9
+         instruments are the mechanical lanes)
+   - [ ] famous line over obscure, trimmed to its readable clause —
+         the gloss carries the rest (box-share law)
+   - [ ] taught company around every new sign: it debuts amid known
+         signs, never wild-among-wilds (nothing-untaught, CLAUDE.md)
+   - [ ] box mechanically — bin/box_line.rb, never by head; share
+         under the chapter cap (sinographs §5 cap law)
+   - [ ] no production vocab in prose — chapters and content, never
+         stretches and phases (owner ruling 2026-08-11)
+   - [ ] every new sign USED in its own chapter, immediately; taught
+         exactly once, ever (owner rulings 2026-07-31)
+   - [ ] the syllable voiced and the codex page written in the SAME
+         commit as the chapter (sinographs §2/§8; complete-shelf)
+   - [ ] the return arc named in the stretch plan is DELIVERED at
+         its promised chapter (return-arc law, rulebook §-Pedagogy)
 7. **Pre-gate: README.md current** — honest about what does not work
    yet. A phase is not gate-ready with a stale README.
 8. **One PR per phase** (owner ruling 2026-07-29): all of a phase's
@@ -157,6 +197,15 @@ Loop discipline: two-strike rule bounds spend; the loop never marks
 its own phase done; no opportunistic refactors; owner-facing
 verification asks are always SPECIFIC (exact commands, files, and what
 good/bad looks like).
+
+Structured edits over text replaces (M20-3): machine-read YAML/data
+files are edited only via (a) a loader → mutate → dump round-trip, or
+(b) a script whose every replacement is ANCHOR-ASSERTED — assert the
+anchor exists exactly once BEFORE replacing, fail loud otherwise.
+Blind text substitution on files that carry comments is banned: both
+manifest splice incidents (phase 17/18) were header-comment
+collisions, where a comment happened to contain the literal key
+string the replace was aimed at.
 
 One writer per output dir (M19-5; 2026-08-11 incident — a live
 `jekyll serve` regenerated into the gate's build dir mid-gate and 110
