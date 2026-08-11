@@ -898,3 +898,72 @@ signs:
       rank 68; the old picture is disputed (a cover over
       something, an inverted mouth); paired against 古
       "antiquity" it marks the present moment.
+  - char: 七
+    chapter: 15
+    keyword: seven
+    pinyin: qī
+    meaning: "seven"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 124; originally a cross-cut — a stroke severed by
+      another, the ancestor of 切 "to cut" — borrowed early and
+      permanently for the number.
+  - char: 八
+    chapter: 15
+    keyword: eight
+    pinyin: bā
+    meaning: "eight; (original sense) to divide"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 126; two strokes parting company — the old word for
+      "divide" (分 keeps it, with a knife added), borrowed for
+      the number that divides evenly best.
+  - char: 九
+    chapter: 15
+    keyword: nine
+    pinyin: jiǔ
+    meaning: "nine"
+    category: loan
+    certainty: stated
+    note: >-
+      rank 104; a bent arm reaching in — the probable original of
+      "elbow" — loaned for the last digit; the classics' number
+      of utmost height (九天, the ninth heaven).
+  - char: 牛
+    chapter: 15
+    keyword: ox
+    pinyin: niú
+    meaning: "ox, cow, cattle"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 665; an ox head-on — horns up top, ears out the sides,
+      the muzzle running down. The great sacrificial animal; a
+      state's wealth walked on these legs.
+  - char: 物
+    chapter: 15
+    keyword: thing
+    pinyin: wù
+    meaning: "thing, creature; the things of the world"
+    category: phono-semantic
+    certainty: classic
+    parts: ["牛"]
+    note: >-
+      rank 182; the ox 牛 gives the sense — cattle as the
+      archetypal possessions — and 勿 (a streaked banner) gives
+      the sound; originally the motley of an ox's coat, then
+      "kinds", then every thing there is.
+  - char: 萬
+    chapter: 15
+    keyword: myriad
+    pinyin: wàn
+    meaning: "ten thousand; myriad, countless"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 117; a scorpion drawn whole — pincers up top, tail
+      curled below — borrowed for the biggest round number the
+      language names; 萬物 "the ten thousand things" is the
+      classics' phrase for everything alive.

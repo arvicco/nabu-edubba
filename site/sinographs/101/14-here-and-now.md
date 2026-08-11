@@ -136,6 +136,7 @@ in hand:
 Eighty-one characters — one in every four characters of the
 classical corpus. These chapters began with the sentence's
 biggest tool and end with its finest: the words that say *here*,
-*where*, *reaching*, *now*. Ahead lies the family that talks:
-the words that grow on 言, and with them longer runs of the
-texts you have been reading in pieces.
+*where*, *reaching*, *now*. Ahead, the numbers finish counting,
+the ten thousand things get their name, and the course turns to
+the written tradition itself — the old, the books, and the words
+that order the world they made.
