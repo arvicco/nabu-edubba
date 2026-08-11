@@ -237,6 +237,41 @@ phase plan), and every fresh syllable voiced through the pipeline
 in the same commit as its chapter — the say-audio lint holds the
 gate to it.
 
+### S101 stretch 4 (ruled 2026-08-11 at the phase-21 opening, before content)
+
+Chapters 15–19 open **the world of the text**: the numbers
+completed and the myriad things named, the written tradition (古
+故 文 書 詩), the social order (君 公 士 民 臣), motion and place
+(在 出 入 方 東), and learning itself (學 時 年 父 已 安) — 28
+fresh characters, five batches, box-share cap tightens to **35%**
+(the declining-cap law's third step):
+
+- **ch15 · The ten thousand things:** 七 八 九 牛 物 萬 — the
+  number set closes (一–十 whole); 牛 seeds 物; 萬 the borrowed
+  scorpion. Arcs: Laozi 42 returns at ZERO boxes (ch12's 三生▢▢
+  paid); Laozi 40's 天下萬物生於有，有生於無 lands whole; 2.4's
+  ladder completes at 七十而從心所欲.
+- **ch16 · The old and the written:** 古 故 文 書 詩 (古 = ⿱十口,
+  both taught; components-first holds). Arcs: 溫故而知新 returns
+  (故 paid); 詩三百 spoken in full (2.2); ch13's ▢云 gets its
+  name — 詩云.
+- **ch17 · Lords and the people:** 君 公 士 民 臣 何 (公 rides
+  ch15's 八; 何 = 亻+可, both taught). Arcs: 如禮何 returns at one
+  box (何 paid); 1.1's third clause read first (不亦君子乎);
+  12.11's 君君臣臣.
+- **ch18 · Going out and coming in:** 在 出 入 方 東 (在 rides
+  土; 東 = 木+日, both taught). Arcs: 1.1's second clause deepens
+  (遠方 half-paid); the Daxue opening's three 在s at 25%.
+- **ch19 · Learning, in its season:** 學 時 年 父 已 安 (學 rides
+  子; 時 = 日+寺 taught at last — the incident sign; 安 rides 女).
+  Finale: **Analects 1.1 WHOLE**, three lines, every clause an
+  arc paid — the course's opening read end to end.
+
+Laws in force unchanged (witness-first with URNs in the plan,
+same-commit voicing and codex pages, per-chapter pool splicing),
+plus the first return-arc TABLE (M20-5) — the plan carries it;
+the chapters deliver it.
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught

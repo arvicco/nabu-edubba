@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · Gate 20 closed, phase 21 opened (M21-1 planning) ·
+phase-21 · Owner merged PR #25. S101 stretch 4 planned UNDER the
+new codex — the first plan with a return-arc table (M20-5): 28
+chars, ch15–19, cap 35%; finale = Analects 1.1 whole, every
+clause an arc paid. Witness verification BEFORE writing caught
+two plan errors at the plan stage (the law working): Laozi 50
+出生入死 is NOT in the course's KR5c0057 edition (Laozi 43's
+無有入於無間 replaces it for 入), and Mencius 牛山之木 is not in
+the slice's KR1h0001 (the Shijing sunset oxen 日之夕矣，羊牛下來
+KR1c0001:006:9a replace it for 牛); 7.1 述而不作，信而好古
+measured 37.5% by box_line — over the new 35% cap — and trims to
+信而好古 at 25%. All URNs in .docs/phase-21-plan.md; stretch-4
+section ruled into sinographs §5 before content.
+
 2026-08-11 · M20-5 (return-arc planning law) · phase-20 · Stated
 in full in sinographs §5, mirrored in cuneiform §5 and hieroglyphs
 §6: a segment plan carries its return-arc table (reading · first
