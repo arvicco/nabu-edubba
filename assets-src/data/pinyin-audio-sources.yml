@@ -121,6 +121,11 @@ sources:
   cheng:     {file: "Zh-chéng.ogg", pinyin: "chéng"} # 成
   neng:      {file: "Zh-néng.ogg", pinyin: "néng"}   # 能
   shi-send:  {file: "Zh-shǐyòng.ogg", pinyin: "shǐ", syllable: 1, of: 2}  # 使, via 使用 shǐyòng
+  de:        {file: "Zh-dé.ogg", pinyin: "dé"}       # 得
+  yu-with:   {file: "Zh-yǔ.ogg", pinyin: "yǔ"}       # 與
+  yu-want:   {file: "Zh-yù.ogg", pinyin: "yù"}       # 欲
+  jie:       {file: "Zh-jiē.ogg", pinyin: "jiē"}     # 皆
+  ran:       {file: "Zh-rán.ogg", pinyin: "rán"}     # 然
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -223,6 +228,12 @@ voices:
   become: cheng
   able: neng
   send: shi-send
+  get: de
+  give-with: yu-with
+  want: yu-want
+  all: jie
+  say-of: wei
+  so: ran
   know: zhi
   middle: zhong
   moon: yue

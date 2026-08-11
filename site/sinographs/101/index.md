@@ -52,6 +52,7 @@ modern languages too, because the characters are the same.
   <li><a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">Learning, in its season</a> — 學 at last, and the opening of the Analects read whole</li>
   <li><a href="{{ '/sinographs/101/20-first-and-after-then/' | relative_url }}">First and after, then</a> — the cowrie and the knife buy 則, the hinge of every argument</li>
   <li><a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">The work and its doing</a> — the crew of doing hired; 為無為 read without a box</li>
+  <li><a href="{{ '/sinographs/101/22-wanting-and-getting/' | relative_url }}">Wanting and getting</a> — desire priced, gain guarded; the people say 自然</li>
 </ol>
 
 More chapters are on the way; everything above is complete and

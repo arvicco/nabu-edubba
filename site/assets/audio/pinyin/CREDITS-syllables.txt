@@ -22,6 +22,7 @@ da.mp3         — "Zh-dà.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dan.mp3        — "Zh-dàn.ogg" · Yue Tan · CC BY-SA 3.0 us
 dao.mp3        — "Zh-dào.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dao-knife.mp3  — "Zh-dāo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+de.mp3         — "Zh-dé.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ding.mp3       — "LL-Q9192 (cmn)-Fake_estate-丁.wav" · Speaker: Fake estate
 Recorder: Fake estate · CC BY-SA 4.0
 dong.mp3       — "Zh-dōng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -41,6 +42,7 @@ he.mp3         — "Zh-hé.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hou.mp3        — "Zh-hòu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hu.mp3         — "Zh-hūrán.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 jian.mp3       — "Zh-jiàn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+jie.mp3        — "Zh-jiē.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 jin.mp3        — "Zh-jīn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 jiu.mp3        — "Zh-jiǔ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 jun.mp3        — "Zh-jun.ogg" · Yue Tan · CC BY-SA 3.0 us
@@ -60,6 +62,7 @@ nuu.mp3        — "Zh-nǚ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 pin.mp3        — "Zh-pin.ogg" · Yue Tan · CC BY-SA 3.0 us
 qi.mp3         — "Zh-qí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 qi-seven.mp3   — "Zh-qī.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+ran.mp3        — "Zh-rán.ogg" · Yue Tan · CC BY-SA 3.0 us
 ren.mp3        — "Zh-rén.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ri.mp3         — "Zh-rì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ru.mp3         — "Zh-rú.ogg" · Yue Tan · CC BY-SA 3.0 us
@@ -111,6 +114,8 @@ yong.mp3       — "Zh-yòng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 you.mp3        — "Zh-yòu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 you-have.mp3   — "Zh-yǒu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yu.mp3         — "Zh-yú.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+yu-want.mp3    — "Zh-yù.ogg" · Yue Tan · CC BY-SA 3.0 us
+yu-with.mp3    — "Zh-yǔ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yue.mp3        — "Zh-yuè.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 yue-say.mp3    — "LL-Q9192 (cmn)-Jouketou-约会.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0
