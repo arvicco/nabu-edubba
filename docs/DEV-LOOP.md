@@ -124,6 +124,9 @@ meant for readers; nothing internal lands in `docs/`.
          tone/reading is what the ear hears
        - compare: <URL> — click <syllable A> then <syllable B>
          (different sources) — EXPECT no loudness jump
+       - scroll: <URL, wide window> — wheel with the cursor over
+         the sidebar — EXPECT the sidebar list scrolls itself
+         when taller than the viewport, the page only when not
 
 6c. **Before writing a chapter** (M20-2) — the owner taste rulings
    in the order they bite during writing. Each line compresses a law
@@ -133,6 +136,9 @@ meant for readers; nothing internal lands in `docs/`.
          instruments are the mechanical lanes)
    - [ ] famous line over obscure, trimmed to its readable clause —
          the gloss carries the rest (box-share law)
+   - [ ] the reading's MEANING delivered in plain words — what the
+         saying is about and why anyone said it; translation and
+         box inventory are not meaning (meaning law, 2026-08-11)
    - [ ] taught company around every new sign: it debuts amid known
          signs, never wild-among-wilds (nothing-untaught, CLAUDE.md)
    - [ ] box mechanically — bin/box_line.rb, never by head; share
@@ -143,6 +149,9 @@ meant for readers; nothing internal lands in `docs/`.
          exactly once, ever (owner rulings 2026-07-31)
    - [ ] the syllable voiced and the codex page written in the SAME
          commit as the chapter (sinographs §2/§8; complete-shelf)
+   - [ ] the chapter linked from its course index, same commit —
+         with its tagline (course-toc lint backs the link, taste
+         writes the tagline)
    - [ ] the return arc named in the stretch plan is DELIVERED at
          its promised chapter (return-arc law, rulebook §-Pedagogy)
 7. **Pre-gate: README.md current** — honest about what does not work
@@ -212,8 +221,9 @@ One writer per output dir (M19-5; 2026-08-11 incident — a live
 phantom failures shipped into the report): every long-running process
 owns a PRIVATE output directory (`rake serve` → `_build/serve`), and
 the gate asserts sole ownership of `_build/site` before it starts —
-`rake gate` aborts, naming the PID, while any other jekyll process is
-alive.
+`rake gate` aborts, naming the PID, while any jekyll process that is
+NOT pinned to the private `_build/serve` is alive (a `rake serve` on
+its own dir is the sanctioned pattern and never blocks the gate).
 
 ## 7. Human-action inventory
 

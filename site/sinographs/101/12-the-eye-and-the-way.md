@@ -23,38 +23,38 @@ the head on the road:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">目</td><td>eye</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>eye</td>
-      <td>an eye turned upright to fit the column, iris in the
-      middle — the classic account</td>
+      <td>an eye stood upright to fit the column, iris in the
+      middle</td>
     </tr>
     <tr>
       <td class="script sign-cell">見</td><td>see</td><td><a class="say" href="{{ '/assets/audio/pinyin/jian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jiàn</span></a></td>
-      <td>to see; to appear, to visit</td>
+      <td>to see; to visit</td>
       <td>the eye 目 set on running legs — a whole person reduced
       to the act of looking</td>
     </tr>
     <tr>
       <td class="script sign-cell">相</td><td>mutual</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiāng</span></a></td>
-      <td>mutually, each other; to inspect</td>
+      <td>each other; to inspect</td>
       <td>an eye 目 examining a tree 木 — the forester's
-      appraisal, turned into "regarding one another"</td>
+      appraisal made mutual</td>
     </tr>
     <tr>
       <td class="script sign-cell">首</td><td>head</td><td><a class="say" href="{{ '/assets/audio/pinyin/shou.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shǒu</span></a></td>
       <td>head; chief, first</td>
-      <td>a head in profile with the hair still on — the classic
-      account; the eye is in there, look for it</td>
+      <td>a head in profile, hair still on — the eye is in
+      there, look for it</td>
     </tr>
     <tr>
       <td class="script sign-cell">道</td><td>way</td><td><a class="say" href="{{ '/assets/audio/pinyin/dao.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dào</span></a></td>
       <td>way, road; the Way</td>
-      <td>the head 首 moving under the walking radical (the
-      bent path at its left) — a person going down a road</td>
+      <td>the head 首 under the walking radical — a person
+      going down a road</td>
     </tr>
   </tbody>
 </table>
@@ -94,7 +94,7 @@ to each other:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有無相生，▢▢相▢。</span><span class="translit pinyin">yǒu wú xiāng shēng, nán yì xiāng chéng</span><span class="gloss">"being and non-being beget each other; hard and easy complete each other" — the first clause entirely yours; the second's boxes are "hard", "easy", "complete"</span></div>
+    <div class="reading-line"><span class="script">有無相生，▢▢相▢。</span><span class="translit pinyin">yǒu wú xiāng shēng, nán yì xiāng chéng</span><span class="gloss">"being and non-being beget each other; hard and easy complete each other" — the point: opposites create each other. Call something easy and you have invented "hard"; call something beautiful and ugliness is born. Every judgment drags its shadow in with it — the first clause entirely yours</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2 — the chain runs on: long and short, high
@@ -110,7 +110,7 @@ has no face to meet and no back to follow:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢之不見其首，▢之不見其▢。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu, suí zhī bù jiàn qí hòu</span><span class="gloss">"go to meet it and you do not see its head; follow it and you do not see its back" — the boxes are "meet", "follow", "back"; both 不見 clauses are fully yours</span></div>
+    <div class="reading-line"><span class="script">▢之不見其首，▢之不見其▢。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu, suí zhī bù jiàn qí hòu</span><span class="gloss">"go to meet it and you do not see its head; follow it and you do not see its back" — the Way has no front to confront and no end to chase: you cannot corner it, only move with it. The boxes are "meet", "follow", "back"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14.

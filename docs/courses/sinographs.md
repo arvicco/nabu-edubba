@@ -148,6 +148,21 @@ site-wide laws into writing order.
   every component it is analyzed into has been taught. Compound
   pool rows carry `parts:`; the compiler and the queue contract
   test enforce the ordering.
+- **The meaning law (owner ruling 2026-08-11, after 知其白 shipped
+  as word-dust):** a reading is TAUGHT, not displayed. Every
+  reading must leave a first-time reader knowing what the saying
+  MEANS — the point, the claim, what the tradition took from it —
+  in plain words, in the prose around the figure or the gloss's
+  tail. Translation is not meaning; the box inventory is
+  bookkeeping, never interpretation; a paraphrase that restates
+  the same riddle ("know the bright side, hold to the dark") is
+  not an explanation. The test: a student who has never met the
+  saying, and who by design has no grammar book, closes the figure
+  knowing why anyone said this and what it is FOR. Aphorisms and
+  paradoxes — the Laozi's above all — get their sense stated flat,
+  in the mainstream interpretive reading, hedged only where the
+  tradition genuinely divides. Enforcement: owner review (ledger);
+  the pre-flight checklist carries the line.
 - **Return-arc planning (M20-5, ruled 2026-08-11):** a course
   segment's plan names its RETURN ARCS up front — which earlier
   readings come back, at which chapter, at what expected box
@@ -237,6 +252,43 @@ phase plan), and every fresh syllable voiced through the pipeline
 in the same commit as its chapter — the say-audio lint holds the
 gate to it.
 
+### S101 stretch 4 (ruled 2026-08-11 at the phase-21 opening, before content)
+
+Chapters 15–19 open **the world of the text**: the numbers
+completed and the myriad things named, the written tradition (古
+故 文 書 詩), the social order (君 公 士 民 臣), motion and place
+(在 出 入 方 東 來), and learning itself (學 時 年 父 已 安) — 29
+fresh characters, five batches, box-share cap tightens to **35%**
+(the declining-cap law's third step):
+
+- **ch15 · The ten thousand things:** 七 八 九 牛 物 萬 — the
+  number set closes (一–十 whole); 牛 seeds 物; 萬 the borrowed
+  scorpion. Arcs: Laozi 42 returns at ZERO boxes (ch12's 三生▢▢
+  paid); Laozi 40's 天下萬物生於有，有生於無 lands whole; 2.4's
+  ladder completes at 七十而從心所欲.
+- **ch16 · The old and the written:** 古 故 文 書 詩 (古 = ⿱十口,
+  both taught; components-first holds). Arcs: 溫故而知新 returns
+  (故 paid); 詩三百 spoken in full (2.2); ch13's ▢云 gets its
+  name — 詩云.
+- **ch17 · Lords and the people:** 君 公 士 民 臣 何 (公 rides
+  ch15's 八; 何 = 亻+可, both taught). Arcs: 如禮何 returns at one
+  box (何 paid); 1.1's third clause read first (不亦君子乎);
+  12.11's 君君臣臣.
+- **ch18 · Going out and coming in:** 在 出 入 方 東 來 (在
+  rides 土; 東 = 木+日, both taught; 來 the wheat loan — added
+  when box_line measured 1.1's second clause at 40% without it,
+  over cap). Arcs: 1.1's second clause deepens to 30%; the Daxue
+  opening's three 在s at 25%.
+- **ch19 · Learning, in its season:** 學 時 年 父 已 安 (學 rides
+  子; 時 = 日+寺 taught at last — the incident sign; 安 rides 女).
+  Finale: **Analects 1.1 WHOLE**, three lines, every clause an
+  arc paid — the course's opening read end to end.
+
+Laws in force unchanged (witness-first with URNs in the plan,
+same-commit voicing and codex pages, per-chapter pool splicing),
+plus the first return-arc TABLE (M20-5) — the plan carries it;
+the chapters deliver it.
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught
@@ -248,6 +300,15 @@ gate to it.
   site's serif body; traditional glyphs per §4. Han runs in pages
   always sit in a `script` span — bare Han text outside one never
   gets the vendored face.
+- **Table balance (owner ruling 2026-08-11; cuneiform §5 states
+  the law in full):** no sign-table column adds more than 15% to
+  the table's height over the table without it. The build computes
+  every table's balanced grid from its content; the table-balance
+  lint enforces the hard rule for THIS school from day one — a
+  violation means text concentrated in one column, and the cells
+  get trimmed. Non-sign tables that borrow the styling (the
+  pinyin primer's phonetics grids) opt out with
+  `sign-table--even`.
 - **Size law (owner ruling 2026-08-10):** sinograph characters
   display BIGGER than cuneiform/Egyptian script text everywhere —
   a character's strokes are genuinely difficult to make out at the
@@ -348,5 +409,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Size law: Han bigger than other scripts everywhere | §6 | style_guard SINO_CONTEXTS tests |
 | Han runs sit in `script` spans | §6 | font-coverage guards tofu; span discipline owner review |
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
+| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced, this school) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
+| Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |

@@ -23,15 +23,14 @@ whole classical language, the biggest one you have not yet met:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">以</td><td>by-means-of</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
-      <td>by means of, using; to take</td>
-      <td>the old picture is disputed (one reading: a person
-      carrying something); the job is not — 以 X means "using
-      X", "by X"</td>
+      <td>by, using; to take</td>
+      <td>a disputed picture; the job is not — 以 X is
+      "using X"</td>
     </tr>
     <tr>
       <td class="script sign-cell">自</td><td>self</td><td><a class="say" href="{{ '/assets/audio/pinyin/zi-self.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a></td>
@@ -41,21 +40,20 @@ whole classical language, the biggest one you have not yet met:
     </tr>
     <tr>
       <td class="script sign-cell">丁</td><td>nail</td><td><a class="say" href="{{ '/assets/audio/pinyin/ding.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dīng</span></a></td>
-      <td>a nail; an able-bodied man</td>
+      <td>a nail; an able man</td>
       <td>a nail seen head-on, driven flush — two strokes</td>
     </tr>
     <tr>
       <td class="script sign-cell">可</td><td>can</td><td><a class="say" href="{{ '/assets/audio/pinyin/ke.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">kě</span></a></td>
       <td>can, may; acceptable</td>
-      <td>a nail-stroke 丁 beside a mouth 口 — the mouth that
-      grants permission (the hooked stroke is an old
-      sound-carrier)</td>
+      <td>a nail 丁 by a mouth 口 — the mouth that grants
+      permission</td>
     </tr>
     <tr>
       <td class="script sign-cell">用</td><td>use</td><td><a class="say" href="{{ '/assets/audio/pinyin/yong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yòng</span></a></td>
       <td>to use, to employ</td>
-      <td>the old picture is disputed — a bucket, a fence, a hung
-      bell; whatever it was, it was put to use</td>
+      <td>a disputed picture — bucket, fence, or bell; it got
+      used</td>
     </tr>
   </tbody>
 </table>
@@ -77,7 +75,7 @@ is the payoff word:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知人者▢，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows himself is enlightened" — one box for "clever"; 者 frames both doers, and 自知 turns the knowing inward</span></div>
+    <div class="reading-line"><span class="script">知人者▢，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows himself is enlightened" — the Laozi's ranking: reading other people is a skill, reading yourself is wisdom, and the second is the rarer and higher; one box for "clever"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 33.

@@ -85,6 +85,34 @@ sources:
   zhi-arrive: {file: "Zh-zhì.ogg", pinyin: "zhì"}    # 至, via 致 zhì
   jin:       {file: "Zh-jīn.ogg", pinyin: "jīn"}     # 今, via 斤 jīn
 
+  # Stretch 4 (ch15-19), added 2026-08-11. Toneless filenames noted;
+  # the verifier holds every file to its declared tone regardless.
+  qi-seven:  {file: "Zh-qī.ogg", pinyin: "qī"}       # 七
+  ba:        {file: "Zh-bā.ogg", pinyin: "bā"}       # 八
+  jiu:       {file: "Zh-jiǔ.ogg", pinyin: "jiǔ"}     # 九
+  niu:       {file: "LL-Q9192 (cmn)-Jouketou-牛.wav", pinyin: "niú"}   # 牛 — dedicated single-character recording; the Zh-niú.ogg take says its rise too lazily to verify
+  wu-thing:  {file: "Zh-wù.ogg", pinyin: "wù"}       # 物
+  wan:       {file: "Zh-wàn.ogg", pinyin: "wàn"}     # 萬
+  gu:        {file: "Zh-gu.ogg", pinyin: "gǔ"}       # 古 (toneless filename)
+  gu-therefore: {file: "Zh-gù.ogg", pinyin: "gù"}    # 故
+  wen:       {file: "Zh-wén.ogg", pinyin: "wén"}     # 文
+  shu:       {file: "Zh-shū.ogg", pinyin: "shū"}     # 書
+  shi-poem:  {file: "Zh-lǎoshī.ogg", pinyin: "shī", syllable: 2, of: 2}  # 詩, via 老師 lǎoshī
+  jun:       {file: "Zh-jun.ogg", pinyin: "jūn"}     # 君 (toneless filename)
+  gong:      {file: "Zh-gōng.oga", pinyin: "gōng"}   # 公
+  min:       {file: "Zh-rénmín.ogg", pinyin: "mín", syllable: 2, of: 2}  # 民, via 人民
+  chen:      {file: "Zh-chén.ogg", pinyin: "chén"}   # 臣
+  he:        {file: "Zh-hé.ogg", pinyin: "hé", start: 0.44, end: 0.95}   # 何 — a pre-sound rides the file's first half-second; window to the clean take
+  zai:       {file: "Zh-zài.ogg", pinyin: "zài"}     # 在
+  chu:       {file: "Zh-chū.ogg", pinyin: "chū"}     # 出
+  ru-enter:  {file: "Zh-rù.ogg", pinyin: "rù"}       # 入
+  fang:      {file: "Zh-fang.ogg", pinyin: "fāng"}   # 方 (toneless filename)
+  dong:      {file: "Zh-dōng.ogg", pinyin: "dōng"}   # 東
+  xue:       {file: "Zh-xué.ogg", pinyin: "xué"}     # 學
+  nian:      {file: "Zh-nián.ogg", pinyin: "nián"}   # 年
+  fu:        {file: "Zh-fù.ogg", pinyin: "fù"}       # 父
+  an:        {file: "Zh-ān.oga", pinyin: "ān"}       # 安
+
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
   ge:        {file: "Zh-gē.oga", pinyin: "gē"}
@@ -146,6 +174,35 @@ voices:
   in: yu
   arrive: zhi-arrive
   now: jin
+  seven: qi-seven
+  eight: ba
+  nine: jiu
+  ox: niu
+  thing: wu-thing
+  myriad: wan
+  old: gu
+  therefore: gu-therefore
+  pattern: wen
+  book: shu
+  poem: shi-poem
+  lord: jun
+  duke: gong
+  officer: shi-this
+  people: min
+  minister: chen
+  what: he
+  be-at: zai
+  go-out: chu
+  enter: ru-enter
+  direction: fang
+  east: dong
+  come: lai
+  learn: xue
+  season: shi
+  year: nian
+  father: fu
+  already: yi-by
+  peace: an
   know: zhi
   middle: zhong
   moon: yue

@@ -22,7 +22,7 @@ changes everything:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -131,7 +131,7 @@ you learned one chapter ago:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — the Great Learning's first premise, with today's pair carrying the whole thought</span></div>
+    <div class="reading-line"><span class="script">▢▢本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — the Great Learning's first premise, and its whole method: tell the fundamental from the incidental, tend the root first, and the tip follows</span></div>
     <div class="reading-line"><span class="script">▢▢未明。</span><span class="translit pinyin">dōng fāng wèi míng</span><span class="gloss">"the east is not yet bright" — and the poem goes on: "I pull my clothes on upside down," a courtier summoned before dawn. 未明, "not-yet-bright," is your newest character leaning on <a href="{{ '/sinographs/101/03-the-master-says/' | relative_url }}">chapter 03</a>'s 明</span></div>
   </div>
   <figcaption class="citation">
@@ -153,7 +153,7 @@ chapter in taught company:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢三品。</span><span class="translit pinyin">jīn sān pǐn</span><span class="gloss">"metal of three grades" — the Tribute of Yu counting a province's bronze, copper, and iron, with your 三 doing the sorting</span></div>
     <div class="reading-line"><span class="script">三日▢沐。</span><span class="translit pinyin">sān rì jù mù</span><span class="gloss">"every third day, prepare a hair-washing" — the Rites' rule for serving one's parents; 三日, "every three days," reads straight through</span></div>
-    <div class="reading-line"><span class="script">味▢味。</span><span class="translit pinyin">wèi wú wèi</span><span class="gloss">"taste the flavorless" — the Laozi in three characters, two of them yours and the third coming soon</span></div>
+    <div class="reading-line"><span class="script">味▢味。</span><span class="translit pinyin">wèi wú wèi</span><span class="gloss">"taste the flavorless" — the Laozi's recipe for contentment: learn to find relish in the plain, and nothing can disappoint you; two of the three characters are yours, the third comes soon</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>Book of Documents</em> (Shangshu), Tribute of Yu,

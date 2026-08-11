@@ -21,39 +21,39 @@ down — to a place, and to the present:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">此</td><td>this-here</td><td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cǐ</span></a></td>
       <td>this, this one here</td>
-      <td>a footprint 止 with a figure standing beside it — where
-      someone has stopped is "here"</td>
+      <td>a footprint 止 and a figure beside it — where you
+      stop is "here"</td>
     </tr>
     <tr>
       <td class="script sign-cell">所</td><td>place</td><td><a class="say" href="{{ '/assets/audio/pinyin/suo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">suǒ</span></a></td>
       <td>place; that which</td>
-      <td>a door leaf and an axe — an old sound-word taken whole;
-      the grammar is the thing to hold</td>
+      <td>a door leaf and an axe — a sound-word taken whole;
+      hold the grammar</td>
     </tr>
     <tr>
       <td class="script sign-cell">於</td><td>in</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
       <td>in, at, on; than</td>
-      <td>an old crow-graph borrowed whole — the same word as
-      <a href="{{ '/sinographs/addenda/signs/at/' | relative_url }}">chapter 09's 于</a>
-      in a fuller dress; the Analects prefer this one</td>
+      <td>an old crow-graph —
+      <a href="{{ '/sinographs/addenda/signs/at/' | relative_url }}">于</a>
+      in fuller dress</td>
     </tr>
     <tr>
       <td class="script sign-cell">至</td><td>arrive</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi-arrive.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhì</span></a></td>
-      <td>to arrive, reach; utmost</td>
-      <td>an arrow point-down striking the ground line — the
-      arrow from <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> flies once more, and lands</td>
+      <td>arrive, reach; utmost</td>
+      <td>the <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> arrow, point-down,
+      struck home</td>
     </tr>
     <tr>
       <td class="script sign-cell">今</td><td>now</td><td><a class="say" href="{{ '/assets/audio/pinyin/jin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jīn</span></a></td>
       <td>now, the present</td>
-      <td>the old picture is disputed (a cover, an inverted
-      mouth); set against "antiquity" it marks the present</td>
+      <td>a disputed picture — a cover? an inverted mouth? —
+      it marks the present</td>
     </tr>
   </tbody>
 </table>
@@ -104,7 +104,7 @@ in <a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">chapte
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">其所▢者▢，而其所▢者▢，</span><span class="translit pinyin">qí suǒ hòu zhě bó, ér qí suǒ bó zhě hòu</span><span class="gloss">"that what he should treat as weighty is treated thinly, and what he treats thinly comes out weighty" — 所…者 makes "the what-is-X-ed"; the boxes alternate "thick" and "thin"</span></div>
+    <div class="reading-line"><span class="script">其所▢者▢，而其所▢者▢，</span><span class="translit pinyin">qí suǒ hòu zhě bó, ér qí suǒ bó zhě hòu</span><span class="gloss">"that what he should treat as weighty is treated thinly, and what he treats thinly comes out weighty" — in plain terms: neglect the essentials while fussing over trifles, and expect it to work out. It never has, says the next line. 所…者 makes "the what-is-X-ed"; the boxes alternate "thick" and "thin"</span></div>
     <div class="reading-line"><span class="script">未之有也。</span><span class="translit pinyin">wèi zhī yǒu yě</span><span class="gloss">"such a thing has never been" — the very first sentence you ever read whole, returned at zero boxes</span></div>
   </div>
   <figcaption class="citation">
@@ -122,7 +122,7 @@ in hand:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢之道，以▢今之有。</span><span class="translit pinyin">zhí gǔ zhī dào, yǐ yù jīn zhī yǒu</span><span class="gloss">"grasp the Way of old to steer what is here now" — the boxes are "grasp", "of-old", "steer"; 今之有, "what now exists", stands fully readable</span></div>
+    <div class="reading-line"><span class="script">▢▢之道，以▢今之有。</span><span class="translit pinyin">zhí gǔ zhī dào, yǐ yù jīn zhī yǒu</span><span class="gloss">"grasp the Way of old to steer what is here now" — the oldest knowledge as the steering gear for the present moment: that is what the classics believe they are for. The boxes are "grasp", "of-old", "steer"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14 — the chapter of the faceless Way, closing
@@ -136,6 +136,7 @@ in hand:
 Eighty-one characters — one in every four characters of the
 classical corpus. These chapters began with the sentence's
 biggest tool and end with its finest: the words that say *here*,
-*where*, *reaching*, *now*. Ahead lies the family that talks:
-the words that grow on 言, and with them longer runs of the
-texts you have been reading in pieces.
+*where*, *reaching*, *now*. Ahead, the numbers finish counting,
+the ten thousand things get their name, and the course turns to
+the written tradition itself — the old, the books, and the words
+that order the world they made.

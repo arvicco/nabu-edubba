@@ -24,22 +24,20 @@ word. So the numbers past three changed strategy:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">四</td><td>four</td><td><a class="say" href="{{ '/assets/audio/pinyin/si.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sì</span></a></td>
       <td>four</td>
-      <td>the archaic four really was four stacked bars; this
-      borrowed graph replaced it early — count the strokes and
-      you will see why</td>
+      <td>the archaic four was four stacked bars; this borrowed
+      graph replaced it early</td>
     </tr>
     <tr>
       <td class="script sign-cell">五</td><td>five</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-five.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǔ</span></a></td>
       <td>five</td>
-      <td>strokes crossed between a heaven-line and an
-      earth-line — past four you tie a knot instead of adding
-      bars</td>
+      <td>crossed strokes between heaven- and earth-line — the
+      knot you tie past four</td>
     </tr>
     <tr>
       <td class="script sign-cell">六</td><td>six</td><td><a class="say" href="{{ '/assets/audio/pinyin/liu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">liù</span></a></td>
@@ -50,14 +48,14 @@ word. So the numbers past three changed strategy:
     <tr>
       <td class="script sign-cell">白</td><td>white</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bái</span></a></td>
       <td>white; plain</td>
-      <td>the old picture is disputed — a grain of rice, a
-      thumbnail, the first dawn glow; all of them pale</td>
+      <td>a disputed picture — a rice grain, a thumbnail, dawn's
+      first glow; all pale</td>
     </tr>
     <tr>
       <td class="script sign-cell">百</td><td>hundred</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai-hundred.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bǎi</span></a></td>
       <td>hundred; the many</td>
-      <td>one 一 over white 白 — bái lends its sound and the
-      stroke tallies it: bǎi, the round hundred</td>
+      <td>one 一 over white 白 — bái lends the sound: bǎi, the
+      round hundred</td>
     </tr>
   </tbody>
 </table>
@@ -77,8 +75,8 @@ spirit long ago; now the later decades are yours almost box-free
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">四十而不▢，五十而知天▢。</span><span class="translit pinyin">sì shí ér bù huò, wǔ shí ér zhī tiān mìng</span><span class="gloss">"at forty, no longer led astray; at fifty, I knew heaven's charge" — the boxes are "astray" and "charge"; the decades, the hinge 而, and heaven itself are all yours</span></div>
-    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, the ear obeyed" — two boxes for the famous obedient ear: nothing he heard could unsettle him</span></div>
+    <div class="reading-line"><span class="script">四十而不▢，五十而知天▢。</span><span class="translit pinyin">sì shí ér bù huò, wǔ shí ér zhī tiān mìng</span><span class="gloss">"at forty, nothing could confuse me; at fifty, I knew the task Heaven had set me" — doubt gone by forty, purpose clear by fifty. The boxes are "confused" and "charge"; the decades, the hinge 而, and heaven itself are all yours</span></div>
+    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, nothing I heard could throw me" — literally "the ear was attuned": criticism, praise, bad news, all heard without a flinch; two boxes for the famous phrase</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4 — the master's own curriculum, decade
@@ -98,7 +96,7 @@ walks straight back in behind it:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢三百，一言以▢之。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī</span><span class="gloss">"the Songs are three hundred — one saying covers them all" — the boxes are "Songs" and "covers"; the count 三百 and the instrument 以 are yours. (The one saying, the master adds: think nothing crooked.)</span></div>
+    <div class="reading-line"><span class="script">▢三百，一言以▢之。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī</span><span class="gloss">"the Songs are three hundred — one saying covers them all" — the boxes are "Songs" and "covers"; the count 三百 and the instrument 以 are yours. (And the one saying, the Master adds: not one insincere line.)</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.
@@ -113,13 +111,26 @@ side. The *Laozi* sets it against its shadow:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知其白，▢其▢，為天下▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi, wéi tiān xià shì</span><span class="gloss">"know its white, keep its black, and be a pattern for the world" — the boxes are "keep", "black", "pattern"; know the bright side, hold to the dark one</span></div>
+    <div class="reading-line"><span class="script">知其白，▢其▢，為天下▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi, wéi tiān xià shì</span><span class="gloss">"know its white, keep its black, and be a pattern for the world" — the boxes are "keep", "black", "pattern"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 28.
     <code>urn:nabu:kanripo:KR5c0057:028:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+What is it actually saying? White and black here are fame and
+obscurity. The white is the lit side of life — being seen,
+known, praised; the black is the unlit side — being nobody. The
+advice is deliberately backwards: understand exactly what it
+takes to shine, and then choose the shadow anyway. Whoever can
+do that, says the *Laozi*, becomes the pattern — the model
+others end up measuring themselves against — precisely because
+they never competed for it. It is the same upside-down
+move as
+<a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">chapter 07's</a>
+無為: the *Laozi* keeps insisting that the way to first place
+is to stop racing for it.
 
 ## Where the count stands
 

@@ -28,7 +28,7 @@ possession drawn in six strokes.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢有本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — 有 as the Great Learning's verb of having</span></div>
+    <div class="reading-line"><span class="script">▢有本末。</span><span class="translit pinyin">wù yǒu běn mò</span><span class="gloss">"things have their root and their tip" — put first things first, and the rest follows; 有 as the Great Learning's verb of having</span></div>
   </div>
   <figcaption class="citation">
     <em>The Great Learning</em> (Daxue), in a Song commentary edition.

@@ -117,6 +117,19 @@ class PinyinAudioTest < Minitest::Test
     assert_match(/span/, why)
   end
 
+  def test_a_one_frame_floor_flicker_does_not_split_the_hump
+    # The shū case (2026-08-11): a strong fricative onset ramps
+    # ACROSS the 15% floor and dips back under it for a single
+    # 25 ms frame — one syllable, not two. A splitting valley must
+    # be ≥2 frames of sub-floor.
+    ramp = (0...(SR * 0.15).to_i).map do |i|
+      amp = 1800 + 900 * Math.sin(2 * Math::PI * i / (SR * 0.06)) # hovers about the floor
+      (amp * Math.sin(2 * Math::PI * 150 * i / SR)).round
+    end
+    ok, why = PA.cut_ok?(pcm(silence(0.03) + ramp + burst(0.45)), tone: :level)
+    assert ok, "a floor-flicker in the onset split the hump: #{why}"
+  end
+
   def test_breathy_onset_does_not_split_the_hump
     # Low-level aspiration before the vowel (well under the 15%
     # valley floor) must read as ONE hump, not two.

@@ -139,14 +139,20 @@ module Edubba
 
     # Maxima separated by sub-floor valleys, counted as runs of ≥2
     # frames (≥50 ms) above the floor — clicks don't count, breathy
-    # onsets below the floor don't split the vowel's hump.
+    # onsets below the floor don't split the vowel's hump. A valley
+    # must itself be ≥2 frames (≥50 ms) of sub-floor to split: a
+    # fricative onset ramping across the floor flickers under it for
+    # a single frame (the shū case, 2026-08-11), while a real
+    # inter-syllable gap is wide.
     def humps(env)
       peak = env.max.to_f
       return 0 if peak <= 0
 
       env.map { |e| e >= peak * HUMP_FLOOR }
          .slice_when { |a, b| a != b }
-         .count { |run| run.first && run.length >= 2 }
+         .reject { |run| !run.first && run.length < 2 } # 1-frame dips join
+         .chunk_while { |a, b| a.first == b.first }     # re-merge neighbors
+         .count { |runs| runs.first.first && runs.sum(&:length) >= 2 }
     end
 
     # First-to-last voiced frame, valleys included — a cut that goes

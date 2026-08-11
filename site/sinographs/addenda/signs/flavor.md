@@ -29,7 +29,7 @@ half is only there to say *wèi* — listen to it, don't read it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">為無為，事無事，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — the Laozi's triple paradox, closing on your character</span></div>
+    <div class="reading-line"><span class="script">為無為，事無事，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — the Laozi's triple paradox: do not force, do not strain, learn to relish the plain — closing on your character</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 63.
