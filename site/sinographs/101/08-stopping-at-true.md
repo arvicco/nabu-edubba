@@ -22,7 +22,7 @@ evening names itself:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -129,7 +129,7 @@ saying — eleven characters, and not one of them is a box:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知之為知之，不知為不知，是知也。</span><span class="translit pinyin">zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhī yě</span><span class="gloss">"to know a thing, take it as known; not to know, take as not known — THIS is knowing." Every character taught, every character yours: the longest fully open reading in the course, sealed by today's 是 and closed by 也's bell</span></div>
+    <div class="reading-line"><span class="script">知之為知之，不知為不知，是知也。</span><span class="translit pinyin">zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhī yě</span><span class="gloss">"when you know a thing, say you know it; when you do not, say you do not — THAT is real knowing." No pretending in either direction: knowledge begins with an honest map of your own ignorance. Every character taught, every character yours — the longest fully open reading in the course, sealed by today's 是 and closed by 也's bell</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.17 — the promise of

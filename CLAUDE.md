@@ -179,18 +179,22 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 20 — complete, gate PR pending: the process codex (retro
-batch, docs half) — interactive-surface review law (named
-hover/listen/compare checks), author pre-flight checklist
-(DEV-LOOP 6c), structured-edits standing rule, law ledgers with
-gap audit in all three rulebooks (six finds, all dispatched),
-return-arc planning law. Governs phase 21+ (next content
-stretch, owner pick at Gate 20).
+Phase 21 — complete, gate PR pending: S101 stretch 4, the world
+of the text (ch15–19, 29 chars, cap 35%) — numbers complete, 萬物
+named, the written tradition, lords and the people, out and in,
+and 學 itself; finale: Analects 1.1 WHOLE (12.11 at zero as the
+bonus arc). 110 characters = 33.3% — one in three. First stretch
+under the full codex: arc table planned and delivered, witnesses
+verified before writing (three plan errors caught at plan stage),
+box_line on every line (caught 來 missing — taught in ch18). Plus
+the table-balance law (owner ruling): computed per-table grids,
+15% hard rule enforced for sinographs, older schools queued
+(M21-8).
 
-Gate 19 merged 2026-08-11 (the workbench: box_line, citation-urn
-lint, audio cut QA span+hump, sole-writer gate assert, sinograph
-coverage picker; Nabu P72 instruments integrated; tone-agreement
-say-audio lint; PR #24). Update this line at each gate.
+Gate 20 merged 2026-08-11 (the process codex: interactive-surface
+review law, pre-flight checklist, structured-edits rule, law
+ledgers + gap audit ×3 rulebooks, return-arc planning law;
+PR #25). Update this line at each gate.
 
 Gate 18 merged 2026-08-11 (S101 stretch 3, the sentence at work:
 ch10–14, 26 chars, cap 40%; 81 characters = 27.7% of the

@@ -300,7 +300,8 @@ img, svg { max-width: 100%; }
   border-bottom: 1px solid var(--rule);
   padding-bottom: 0.3rem;
 }
-.course-sidebar-school:first-child { margin-top: 0; }
+.course-sidebar-school-details:first-child .course-sidebar-school { margin-top: 0; }
+.course-sidebar-school { cursor: pointer; }
 .course-sidebar-school a { color: inherit; text-decoration: none; }
 .course-sidebar-school a:hover { text-decoration: underline; }
 
@@ -367,9 +368,21 @@ img, svg { max-width: 100%; }
     top: 1.5rem;
     border-right: 1px solid var(--rule);
     padding-right: 1.25rem;
+    /* The course list outgrew the viewport (owner report
+       2026-08-11: wheel over the sidebar scrolled the chapter):
+       a sticky element with no scroll viewport of its own passes
+       wheel events to the page. Cap it and let it scroll itself;
+       when it fits, auto does nothing and the wheel falls through
+       as before. No sign-links live here (nav text only) — the
+       style guard carries it in NO_TIP_CONTAINERS. */
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
   }
-  .course-sidebar-details summary { list-style: none; }
-  .course-sidebar-details summary::-webkit-details-marker { display: none; }
+  .course-sidebar-details summary,
+  .course-sidebar-school-details summary { list-style: none; }
+  .course-sidebar-details summary::-webkit-details-marker,
+  .course-sidebar-school-details summary::-webkit-details-marker { display: none; }
 }
 
 @media (max-width: 1099.9px) {
@@ -441,8 +454,16 @@ img, svg { max-width: 100%; }
 .sign-table {
   border-collapse: collapse;
   width: 100%;
-  margin-block: 1rem;
+  /* The declared grid IS the layout (table-balance law, owner
+     ruling 2026-08-11): fixed layout makes every column's width
+     computable, so the table-balance lint can enforce that no
+     single column drives the table's height. Below min-width the
+     wrapper scrolls instead of crushing the columns. */
+  table-layout: fixed;
+  min-width: 38rem;
+  margin: 0 0 1rem;
 }
+.sign-table td, .sign-table th { overflow-wrap: break-word; }
 
 .sign-table th, .sign-table td {
   text-align: left;
@@ -463,41 +484,50 @@ img, svg { max-width: 100%; }
 .sign-cell a { text-decoration: none; color: inherit; }
 .sign-cell a:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
 
-/* The last column of a sign table carries the long prose (Notes,
-   Why now); give it the width the short label columns waste.
-   Tables whose last column is short (references, shelf indexes)
-   opt out with sign-table--tail-fit. */
-.sign-table th:last-child, .sign-table td:last-child { width: 38%; }
-/* Means (second-to-last) carries the sign's semantic core; without
-   a floor, auto layout crushes it to a word per line against the
-   wide Notes column. Tail-fit tables (references, shelf indexes)
-   keep auto columns. */
+/* The declared column grid (table-balance law, owner ruling
+   2026-08-11: a HARD rule — no single column may add 15%+ to the
+   table's height over what the table would measure without it;
+   the under-allotted column gets widened until it doesn't). The
+   long-prose tail column gets the width the label columns waste;
+   Means keeps a working floor; every remaining column splits the
+   rest equally under the fixed layout. These percentages are the
+   SAME constants the table-balance lint computes heights with
+   (script/lint.rb) — the style guard pins the two together, so
+   the sheet cannot drift from the check. Tables whose last
+   column is short (references, shelf indexes) opt out with
+   sign-table--tail-fit and keep auto layout. */
+.sign-table th:last-child, .sign-table td:last-child { width: 50%; }
 .sign-table:not(.sign-table--tail-fit) th:nth-last-child(2),
-.sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 24%; }
-/* Narrow screens: a wide table scrolls inside itself, never
-   bleeding past the page edge (same law as reading figures).
-   A scroll container CLIPS: overflow-x forces the other axis to
-   clip too (CSS spec), so a hover bubble can never escape the
-   box. Every scroll container hosting sign-links therefore
-   reserves bubble headroom above its first line — padding pulled
-   back by an equal negative margin, so the clip box grows while
-   the layout stays put — and pins its bubbles to the glyph's
-   left edge (see the .sign-tip section). Owner report
-   2026-08-09: half-invisible tooltip. test/style_guard_test.rb
-   enforces this pairing for every overflow rule in this sheet. */
-.sign-table {
-  display: block;
+.sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 18%; }
+/* Narrow screens: a wide table scrolls inside its render-time
+   wrapper (div.table-scroll, added by script/table_wrap.rb),
+   never bleeding past the page edge. The wrapper — not the
+   table — is the scroll container, so the table keeps its real
+   fixed-layout grid. A scroll container CLIPS: overflow-x forces
+   the other axis to clip too (CSS spec), so a hover bubble can
+   never escape the box. Every scroll container hosting
+   sign-links therefore reserves bubble headroom above its first
+   line — padding pulled back by an equal negative margin, so the
+   clip box grows while the layout stays put — and pins its
+   bubbles to the glyph's left edge (see the .sign-tip section).
+   Owner report 2026-08-09: half-invisible tooltip; right rim
+   2026-08-11. test/style_guard_test.rb enforces the pairing for
+   every overflow rule in this sheet. */
+.table-scroll {
   overflow-x: auto;
   padding-top: 5.5rem;
-  margin-top: calc(1rem - 5.5rem);   /* margin-block 1rem, pulled back */
-  /* …and the right rim gets the same treatment (owner report
-     2026-08-11, a hieroglyph reading's bubble cut at the right
-     edge): 14rem covers a bubble at max-width plus padding, so a
-     bubble extending right from a rim-adjacent glyph stays
-     visible. */
+  margin-top: calc(1rem - 5.5rem);   /* table's old 1rem top gap, pulled back */
   padding-right: 14rem;
   margin-right: -14rem;
 }
+/* Non-sign tables that borrow the styling (the pinyin primer's
+   phonetics grids — no glyph column, their own proportions) opt
+   out of the fixed grid and the balance lint with --even. */
+.sign-table--even { table-layout: auto; min-width: 0; }
+.sign-table--even th:last-child, .sign-table--even td:last-child { width: auto; }
+.sign-table--even th:nth-last-child(2),
+.sign-table--even td:nth-last-child(2) { width: auto; }
+.sign-table--tail-fit { table-layout: auto; min-width: 0; }
 .sign-table--tail-fit th:last-child,
 .sign-table--tail-fit td:last-child { width: auto; white-space: nowrap; }
 .sign-facts td:last-child { width: auto; }

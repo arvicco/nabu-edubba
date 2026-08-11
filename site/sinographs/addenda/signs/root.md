@@ -29,7 +29,7 @@ where the growing starts and the arguing should.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君子務本，本立而道生。</span><span class="translit pinyin">jūn zǐ wù běn, běn lì ér dào shēng</span><span class="gloss">"the noble person works at the root; when the root is set, the Way grows" — 本 twice, hinge of the whole sentence</span></div>
+    <div class="reading-line"><span class="script">君子務本，本立而道生。</span><span class="translit pinyin">jūn zǐ wù běn, běn lì ér dào shēng</span><span class="gloss">"the noble person works at the root; when the root is set, the Way grows" — the root is care close to home, and everything larger grows from it; 本 twice, hinge of the whole sentence</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.2.

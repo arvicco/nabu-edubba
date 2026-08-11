@@ -5,6 +5,158 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (novice-eye translation pass) ·
+phase-21 · Owner, on "take not-knowing as not-knowing": still a
+confused explanation — review EVERY reading as a student who
+knows nothing of the Laozi or Chinese culture: is it
+understandable, does it make sense, is it a good translation of
+the ancient meaning into modern concepts? Second full pass, this
+time interrogating the TRANSLATIONS themselves, not just the
+presence of interpretation. The failure class: translationese —
+renderings that mimic classical syntax instead of saying the
+thing ("take X as X", "the ear obeyed", "no longer led astray",
+"knew heaven's charge", "a ghost that is not one's own", "the
+kinds of things flow into form"). Rewritten into plain modern
+speech across ~20 glosses: 2.17 now reads "when you know a thing,
+say you know it; when you do not, say you do not — THAT is real
+knowing" (four surfaces aligned); the 2.4 decades speak like a
+person ("at forty, nothing could confuse me; at sixty, nothing I
+heard could throw me"); ghosts get identified as ancestors and
+the flattery explained; 2.15's 罔 corrected from my invented
+"empty net" to the standard "nothing sticks / lost"; the
+Fire-star means summer is ending; 思無邪 is "not one insincere
+thought"; the zenith warning and the eased deadlock stated flat.
+The novice test is now the standing bar for every gloss.
+
+2026-08-11 · review round (the meaning law) · phase-21 · Owner,
+on ch11's 知其白: every word glossed, the whole meaning NOTHING
+to anyone who doesn't already know the saying — the same pattern
+across the course; a student with no grammar left with obscure
+ancient words, no context, no interpretation. "Shameful," and
+correctly. The law (rulebook §5): a reading is TAUGHT, not
+displayed — every reading leaves a first-time reader knowing what
+the saying MEANS, in plain words; translation is not meaning, the
+box inventory is bookkeeping, a paraphrase restating the riddle
+is not an explanation. Full audit: all 20 chapters' 153 reading
+lines and all 110 codex wilds read against the law. Fixed: Laozi
+28 (white/black = fame/obscurity — the full interpretation as the
+model case), wu-wei finally EXPLAINED in ch07 (it had been
+celebrated and parsed, never once explained), 有無相生 (opposites
+create each other), Laozi 14 (no front to confront), 有生於無
+(emptiness as source), the Daxue leveling line, 12.11 (order =
+everyone being what their role demands), 4.15 (the one-rule
+definition of consideration), the 1.1 summation (the good life in
+three breaths), plus tails on ~10 more chapter readings and 15
+codex wilds (the rectification trio, wu-wei trio, root pair, "at
+thirty I stood" pair…). Most Analects readings already carried
+their context; the bare cases were overwhelmingly the Laozi's
+paradoxes — exactly where a first-time reader is most lost.
+Enforcement is owner review (ledgered); the pre-flight checklist
+carries the line so it bites during writing, not after.
+
+2026-08-11 · review round (course-TOC rot) · phase-21 · Owner:
+/sinographs/101 still said "chapters appear here as they are
+written" — and they hadn't: the hand-maintained TOC stopped at
+ch09, two whole stretches stale (my miss in every chapter commit
+of phases 18 and 21). Fixed: ch10–19 added with taglines, the
+failed promise replaced with an honest line. The class gets its
+check: the course-toc lint — every chapter page must be LINKED
+from its course index (taglines stay hand-curated; completeness
+is mechanical); fixture-tested, and the pre-flight checklist
+gains the line. All other course indexes audited current.
+
+2026-08-11 · review round (school folding + model calibration) ·
+phase-21 · Owner: the navbar grew too big — fold non-active
+SCHOOLS to their bare titles, like non-active courses. Done with
+native <details> per school (no JS): the active school opens to
+its course list, the active course to its chapters; every other
+school is one line, clickable to expand. The 6b pixel pass then
+caught the table model running hot against reality on cuneiform
+6-column tables ("NAM E", "touc h" breaking mid-word): calibrated
+against measured pixels — table width 42rem (the real wide-layout
+chapter column, not the 44rem measure), header advance 0.7 em/char
+(uppercase + letter-spacing), body advance 0.47 (measured Georgia),
+label headroom 1.2rem, and a 0.1-line tolerance before the ceil
+(2.05 modeled lines render as 2 — verified). Means columns
+reclassified as shrinkable prose (they were hoarding label width
+while 2-line means-cells are free under the glyph row). Final
+sweep: ~25 tail cells across ch00/06/13/14/16/18 compressed to the
+sharper budget; lint clean; cuneiform and sinograph tables
+re-screenshot verified — one-line headers, no mid-word breaks.
+
+2026-08-11 · review round (sidebar wheel-scroll) · phase-21 ·
+Owner: wheel over the navbar scrolls the CHAPTER, not the navbar.
+Root cause: the wide-screen course sidebar is position:sticky
+with no height cap and no overflow — the list outgrew the
+viewport (20 S101 chapters plus every school) and a sticky box
+with no scroll viewport of its own passes wheel events to the
+page. Fix: max-height calc(100vh − 3rem) + overflow-y auto —
+when the list fits, nothing changes; when it doesn't, the wheel
+scrolls the list under the cursor, as expected. The style guard
+gains NO_TIP_CONTAINERS (overflow allowed without bubble reserves
+for chrome that can never host sign-links, by documented
+judgment); the 6b interactive block gains its fourth line — the
+scroll check.
+
+2026-08-11 · M21-2..M21-6 (stretch 4 complete: ch15–19) ·
+phase-21 · The world of the text, 29 characters (28 planned + 來,
+added mid-stretch when box_line measured 1.1's second clause at
+40% without it — the instrument caught the plan error before a
+word shipped). Coverage 27.7% → 33.3%: one in three. Every arc in
+the plan's table delivered: Laozi 42 and 40 at ZERO boxes (ch15),
+2.4's ladder topped, 溫故/詩三百/詩云 paid (ch16), 如禮何 paid and
+1.1's third clause first read (ch17), the Daxue opening's three
+在s and the sunset oxen one box lighter (ch18), and the finale —
+Analects 1.1 WHOLE at 22/30/9%, twenty-four of thirty characters
+taught, plus the unplanned bonus of 12.11 returning at zero the
+moment 父 landed (ch19). Witness-first caught three plan errors
+at the PLAN stage (Laozi 50 absent from the course edition,
+Mencius ox-mountain absent from the slice, 7.1 over cap); the
+untaught-sign lint caught 君/役 in a figcaption and 巳 in a table
+cell; box_line corrected two hand-counts and my own codex boxing
+twice (惟, 忠 unboxed in drafts). 29 codex pages shipped with
+their chapters; 27 syllables voiced (25 acquired + 時→shi and
+已→yi-by voice joins); every reading verified before writing.
+
+2026-08-11 · review round (table-balance law) · phase-21 · Owner:
+intro tables unbalanced across the board, How-to-see-it starved —
+HARD rule: no column may add 15%+ to the table's height over the
+table without it; rebalance the starved column wider. Root cause
+found: .sign-table was its own display:block scroll container, so
+the browser shrink-wrapped an ANONYMOUS table box and the
+percentage floors resolved against an unpredictable width. Cure
+in three parts: (1) a render-time wrapper (div.table-scroll,
+script/table_wrap.rb) takes the scroll + bubble reserves so the
+table becomes a real fixed-layout table again; (2) every sign
+table's balanced grid is COMPUTED from its own content at build
+time (script/table_balance.rb — labels keep natural width, prose
+splits the rest) and emitted as a static colgroup — width
+rebalancing by construction, all schools, ch15's tail column went
+to 49.9%; (3) the table-balance lint measures the 15% rule with
+the SAME model, so what survives allocation is concentrated TEXT.
+Owner ruled staging: enforce from the newer courses — sinographs
+live now (five chapter tables trimmed to pass: ch10, 11, 12, 14,
+15), cuneiform + hieroglyphs get the width fix today and join the
+lint when their long notes columns are compressed (M21-8 queued,
+~50 tables). Model refinements en route: glyph columns are exempt
+from the excess check (their height is font size, not wrapping —
+no width lowers it), and the pinyin primer's phonetics grids opt
+out as sign-table--even (no glyph column, own proportions).
+
+2026-08-11 · Gate 20 closed, phase 21 opened (M21-1 planning) ·
+phase-21 · Owner merged PR #25. S101 stretch 4 planned UNDER the
+new codex — the first plan with a return-arc table (M20-5): 28
+chars, ch15–19, cap 35%; finale = Analects 1.1 whole, every
+clause an arc paid. Witness verification BEFORE writing caught
+two plan errors at the plan stage (the law working): Laozi 50
+出生入死 is NOT in the course's KR5c0057 edition (Laozi 43's
+無有入於無間 replaces it for 入), and Mencius 牛山之木 is not in
+the slice's KR1h0001 (the Shijing sunset oxen 日之夕矣，羊牛下來
+KR1c0001:006:9a replace it for 牛); 7.1 述而不作，信而好古
+measured 37.5% by box_line — over the new 35% cap — and trims to
+信而好古 at 25%. All URNs in .docs/phase-21-plan.md; stretch-4
+section ruled into sinographs §5 before content.
+
 2026-08-11 · M20-5 (return-arc planning law) · phase-20 · Stated
 in full in sinographs §5, mirrored in cuneiform §5 and hieroglyphs
 §6: a segment plan carries its return-arc table (reading · first

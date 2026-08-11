@@ -27,7 +27,7 @@ posture and a principle in five strokes.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">名不正，▢言不▢。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not upright, speech does not flow" — 正 at the hinge of the rectification of names</span></div>
+    <div class="reading-line"><span class="script">名不正，▢言不▢。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not upright, speech does not flow" — set the names straight or nothing downstream works; 正 at the hinge of the rectification of names</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.3.

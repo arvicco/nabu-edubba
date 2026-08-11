@@ -60,7 +60,7 @@ The tone mark sits over the vowel, and its shape draws the pitch:
   </figcaption>
 </figure>
 
-<table class="sign-table">
+<table class="sign-table sign-table--even">
   <thead>
     <tr><th>Tone</th><th>Mark</th><th>Shape</th><th>Say it like</th><th>Word</th></tr>
   </thead>
@@ -117,7 +117,7 @@ the "hold" column is the closest English anchor — exact values,
 where English has none, are in the bracketed IPA (the
 International Phonetic Alphabet).[^ipa]
 
-<table class="sign-table">
+<table class="sign-table sign-table--even">
   <thead>
     <tr><th>Letters</th><th>IPA</th><th>The hold</th></tr>
   </thead>
@@ -181,7 +181,7 @@ Cāo</span> begins like "tsow," never like "cow." Hear the trap
 rows — the aspiration pair, the smiling three, the retroflexes,
 the hisses:
 
-<table class="sign-table">
+<table class="sign-table sign-table--even">
   <thead>
     <tr><th>Row</th><th></th><th></th><th></th><th></th></tr>
   </thead>
@@ -224,7 +224,7 @@ English vowel would start — that is the "i" of the third face.
 
 Vowels and endings. Most are steady; three need care.
 
-<table class="sign-table">
+<table class="sign-table sign-table--even">
   <thead>
     <tr><th>Letters</th><th>IPA</th><th>The hold</th></tr>
   </thead>
@@ -278,7 +278,7 @@ Vowels and endings. Most are steady; three need care.
 Hear the two sounds English is missing — the whistle-vowel and
 the back-of-the-mouth e:
 
-<table class="sign-table">
+<table class="sign-table sign-table--even">
   <thead>
     <tr><th>Sound</th><th></th><th></th></tr>
   </thead>

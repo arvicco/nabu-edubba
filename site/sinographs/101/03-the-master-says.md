@@ -21,7 +21,7 @@ and then the wall comes down: characters start combining.
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -145,7 +145,7 @@ was 仁 — the deepest virtue in the Confucian world, built from
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">仁▢▢山。</span><span class="translit pinyin">rén zhě yào shān</span><span class="gloss">"the humane delight in mountains" — the same page of the same book as the last chapter's fragment, and the clause now OPENS with its subject: 仁 reads itself</span></div>
+    <div class="reading-line"><span class="script">仁▢▢山。</span><span class="translit pinyin">rén zhě yào shān</span><span class="gloss">"the humane delight in mountains" — the clause now opens with its subject, and the sense comes into view: the wise love water because they are like it, quick and always moving; the humane love mountains because they are like them, steady and enduring. Each virtue gets its landscape</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23 —
@@ -161,7 +161,7 @@ And the other three compounds, each in a real line:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢明明▢。</span><span class="translit pinyin">zài míng míng dé</span><span class="gloss">"…lies in brightening bright virtue" — the opening sentence of the Great Learning: 明 twice running, first as the verb "to brighten," then inside "bright virtue"</span></div>
     <div class="reading-line"><span class="script">▢▢旦旦。</span><span class="translit pinyin">xìn shì dàn dàn</span><span class="gloss">"your oaths were dawn-bright, over and over" — the Songs' jilted lover, doubling 旦 for emphasis; the line goes on "— I never thought you would turn"</span></div>
-    <div class="reading-line"><span class="script">休▢，大人▢。</span><span class="translit pinyin">xiū pǐ, dà rén jí</span><span class="gloss">"the blockage rests: for the great, good fortune" — the Changes turning 休 from a nap under a tree into relief itself; 大人, "the great one", is two of your first characters</span></div>
+    <div class="reading-line"><span class="script">休▢，大人▢。</span><span class="translit pinyin">xiū pǐ, dà rén jí</span><span class="gloss">"the deadlock eases — good fortune for the great one" — a line from the hexagram of stuck times: even a standstill takes a rest, and the strong come through it. The Changes turn 休 from a nap under a tree into relief itself; 大人, "the great one", is two of your first characters</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>The Great Learning</em> (Daxue), opening, in a Ming

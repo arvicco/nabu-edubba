@@ -27,7 +27,7 @@ have one.
 
 <table class="sign-table sign-table--tail-fit">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Taught in</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Taught in</th></tr>
   </thead>
   <tbody>
   {% assign chars = site.data.sinographs101_queue.signs | sort: "chapter" %}

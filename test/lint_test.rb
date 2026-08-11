@@ -239,6 +239,32 @@ class LintTest < Minitest::Test
                  "historical 'phase' with no calendar sense stays legal"
   end
 
+  def test_course_toc_must_link_every_chapter
+    # The /sinographs/101 rot (owner report 2026-08-11): the index
+    # promised chapters would appear and then stopped ten short.
+    Dir.mktmpdir do |site|
+      dir = File.join(site, "x", "101")
+      FileUtils.mkdir_p(dir)
+      File.write(File.join(dir, "index.md"), <<~MD)
+        ---
+        school: x
+        course_no: 101
+        ---
+        <a href="{{ '/x/101/00-a/' | relative_url }}">A</a>
+      MD
+      File.write(File.join(dir, "00-a.md"),
+                 "---\ncourse: x-101\nchapter: 0\npermalink: /x/101/00-a/\n---\n")
+      assert_empty Edubba::Lint.course_toc_complete(site), "a complete TOC passes"
+
+      File.write(File.join(dir, "01-b.md"),
+                 "---\ncourse: x-101\nchapter: 1\npermalink: /x/101/01-b/\n---\n")
+      v = Edubba::Lint.course_toc_complete(site)
+      assert_equal ["course-toc"], v.map(&:rule),
+                   "a chapter missing from its course index fails the gate"
+      assert_match(%r{01-b}, v.first.detail)
+    end
+  end
+
   def test_say_audio_flags_mute_sign_table_readings
     sino = "site/sinographs/101/04-x.md"
     mute = %(<td class="script sign-cell">品</td><td>kinds</td><td><span class="translit pinyin">pǐn</span></td>)

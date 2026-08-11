@@ -29,7 +29,7 @@ right.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">三十而▢。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — 而 hinging a life's decades together</span></div>
+    <div class="reading-line"><span class="script">三十而▢。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — stood on his own: formed, settled, needing no hand; 而 hinges the life's decades together</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4, as quoted in the Ming commentary <em>Sishu liushu</em>.

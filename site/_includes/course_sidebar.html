@@ -1,8 +1,10 @@
 {% comment %}
   Three-level sidebar: School -> Course -> Chapters (owner ruling
-  2026-07-30). Every school with at least one course appears; course
-  labels are the short form (C 101 Foundations, E 101 Foundations);
-  the current course expands to its chapter list. Parameters:
+  2026-07-30). Every school appears, but only as its TITLE unless it
+  is the active school (owner ruling 2026-08-11 — the list outgrew
+  the viewport): the active school opens to its course list, the
+  active course opens to its chapter list. Folding is native
+  <details>, no JS. Parameters:
     include.current — current course string ("cuneiform-102")
     include.here    — URL of the page being rendered (to highlight)
 {% endcomment %}
@@ -16,10 +18,12 @@
 <aside class="course-sidebar">
   {% for s in schools %}
   {% capture school_url %}/{{ s }}/{% endcapture %}
-  <p class="course-sidebar-school">
+  {% capture school_prefix %}{{ s }}-{% endcapture %}
+  <details class="course-sidebar-school-details"{% if include.current contains school_prefix or school_url == include.here %} open{% endif %}>
+  <summary class="course-sidebar-school">
     {% if school_url == include.here %}<span class="here">{{ s | capitalize }}</span>
     {% else %}<a href="{{ school_url | relative_url }}">{{ s | capitalize }}</a>{% endif %}
-  </p>
+  </summary>
   {% assign school_courses = all_courses | where: "school", s %}
   {% for c in school_courses %}
     {% assign c_course = s | append: "-" | append: c.course_no %}
@@ -49,5 +53,6 @@
   </p>
     {% endif %}
   {% endfor %}
+  </details>
   {% endfor %}
 </aside>

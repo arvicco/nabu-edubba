@@ -23,9 +23,19 @@ class StyleGuardTest < Minitest::Test
   SHEET = File.read(File.expand_path("../site/assets/style.css", __dir__),
                     encoding: "UTF-8")
 
+  # Overflow rules on containers that can NEVER host sign-links
+  # (site chrome: nav lists, no glyph content) — they scroll without
+  # bubble reserves, by documented judgment here. Anything with
+  # course content stays out of this list.
+  NO_TIP_CONTAINERS = [
+    ".course-sidebar" # chapter nav (owner report 2026-08-11: wheel-over-navbar scrolled the page)
+  ].freeze
+
   # scroll container => the selector that pins its bubbles
   SCROLL_CONTAINERS = {
-    ".sign-table" => ".sign-table .sign-tip",
+    # sign tables scroll inside a render-time wrapper (table-balance
+    # law, 2026-08-11) so the table keeps a real fixed-layout grid
+    ".table-scroll" => ".sign-table .sign-tip",
     ".reading--script .reading-lines" => ".reading--script .sign-tip"
   }.freeze
 
@@ -45,6 +55,8 @@ class StyleGuardTest < Minitest::Test
       body.match?(/overflow[^:;]*:\s*(auto|scroll|hidden|clip)\b/)
     end.map(&:first)
     offenders.each do |sel|
+      next if NO_TIP_CONTAINERS.include?(sel)
+
       assert_includes SCROLL_CONTAINERS.keys, sel,
                       "#{sel.inspect} becomes a clip box (overflow clips both axes) — " \
                       "hover bubbles inside it will be cut in half. Reserve bubble " \

@@ -21,7 +21,7 @@ An arrow first — watch what it is for:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -32,12 +32,12 @@ An arrow first — watch what it is for:
     <tr>
       <td class="script sign-cell">知</td><td>know</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
       <td>to know, to understand</td>
-      <td>your new arrow beside your old mouth: the word that flies
-      straight — the arrow also hums the sound, shǐ for zhī</td>
+      <td>arrow beside mouth: the word that flies straight — the
+      arrow hums the sound</td>
     </tr>
     <tr>
       <td class="script sign-cell">而</td><td>and-then</td><td><a class="say" href="{{ '/assets/audio/pinyin/er-and.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ér</span></a></td>
-      <td>and, and then, but — the clause-linker</td>
+      <td>and, and then; but</td>
       <td>a drawing of a beard, borrowed forever for the little
       joining word</td>
     </tr>
@@ -113,8 +113,8 @@ Three short sayings, all nearly or fully open:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">三人行。</span><span class="translit pinyin">sān rén xíng</span><span class="gloss">"three people walking" — the saying you have carried since <a href="{{ '/sinographs/101/02-the-world-in-pictures/' | relative_url }}">chapter 02</a>, its verb finally lit; the teacher among them arrives next chapter</span></div>
-    <div class="reading-line"><span class="script">三十而▢。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — the Master's life told in decades, hinged on your 而; one box for "stood"</span></div>
-    <div class="reading-line"><span class="script">不知▢不知。</span><span class="translit pinyin">bù zhī wéi bù zhī</span><span class="gloss">"take not-knowing as not-knowing" — honesty about ignorance, four of five characters yours; the "as" arrives next chapter, and the whole saying opens two chapters on</span></div>
+    <div class="reading-line"><span class="script">三十而▢。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — the Master's life told in decades, hinged on your 而; "stood" means stood on his own: formed, settled, no longer holding anyone's hand — the word the tradition still uses for turning thirty</span></div>
+    <div class="reading-line"><span class="script">不知▢不知。</span><span class="translit pinyin">bù zhī wéi bù zhī</span><span class="gloss">"when you do not know a thing — admit you do not know it" — half of the Master's advice about facing your own ignorance honestly; four of five characters yours, and the whole saying opens two chapters on</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>Analects</em> 7.22 ·

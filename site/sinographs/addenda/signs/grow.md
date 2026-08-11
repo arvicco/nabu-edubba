@@ -28,7 +28,7 @@ birth to, it gives birth to through this character.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">本▢而▢生。</span><span class="translit pinyin">běn lì ér dào shēng</span><span class="gloss">"when the root is set, the Way grows" — 生 sprouting exactly where a sprout should, at the end</span></div>
+    <div class="reading-line"><span class="script">本▢而▢生。</span><span class="translit pinyin">běn lì ér dào shēng</span><span class="gloss">"when the root is set, the Way grows" — plant care close to home and the whole moral Way grows from it; 生 sprouting exactly where a sprout should, at the end</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.2.

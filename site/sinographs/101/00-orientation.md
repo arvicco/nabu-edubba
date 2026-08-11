@@ -24,12 +24,12 @@ now — a picture that grows, and the world it grows into:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">人</td><td>person</td><td><a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rén</span></a></td>
-      <td>a human being; other people</td>
+      <td>a human being; others</td>
       <td>a figure walking, seen from the side — two legs and a leaning back</td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@ now — a picture that grows, and the world it grows into:
     </tr>
     <tr>
       <td class="script sign-cell">天</td><td>heaven</td><td><a class="say" href="{{ '/assets/audio/pinyin/tian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tiān</span></a></td>
-      <td>sky; Heaven, the ordering power above everything</td>
+      <td>sky; Heaven above all</td>
       <td>a line drawn over the big person's head — what is above even
       the greatest</td>
     </tr>
@@ -51,9 +51,8 @@ now — a picture that grows, and the world it grows into:
     <tr>
       <td class="script sign-cell">王</td><td>king</td><td><a class="say" href="{{ '/assets/audio/pinyin/wang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wáng</span></a></td>
       <td>king</td>
-      <td>three level strokes — heaven above, earth below, humankind
-      between — joined by the one vertical that runs through all
-      three</td>
+      <td>heaven, earth and humankind — three strokes joined by
+      one vertical</td>
     </tr>
   </tbody>
 </table>
@@ -118,8 +117,8 @@ already read:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢大，天大，▢大，王▢大。</span><span class="translit pinyin">gù dào dà, tiān dà, dì dà, wáng yì dà</span><span class="gloss">"so the Way is great, heaven is great, earth is great, and the king too is great" — four <em>greats</em> in one breath, with your heaven and your king holding two of the seats; the boxed earth-word wears your 土 inside it, as you will see soon</span></div>
-    <div class="reading-line"><span class="script">大人▢▢。</span><span class="translit pinyin">dà rén hǔ biàn</span><span class="gloss">"the great one transforms like a tiger" — the Changes on a leader remade: 大人, "the great one," is your first two-character word, and both characters are yours</span></div>
+    <div class="reading-line"><span class="script">▢▢大，天大，▢大，王▢大。</span><span class="translit pinyin">gù dào dà, tiān dà, dì dà, wáng yì dà</span><span class="gloss">"so the Way is great, heaven is great, earth is great, and the king too is great" — the Laozi counting the powers that outrank everything else — and setting the human king, your 王, among them; the boxed earth-word wears your 土 inside it, as you will see soon</span></div>
+    <div class="reading-line"><span class="script">大人▢▢。</span><span class="translit pinyin">dà rén hǔ biàn</span><span class="gloss">"the great one transforms like a tiger" — the Changes on a leader remade: the change is total and gleaming as a tiger's new coat, visible to everyone without a word said; 大人, "the great one," is your first two-character word</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>Laozi</em> 25 ·
