@@ -119,6 +119,10 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 
 ## 5 · Pedagogy mechanics
 
+Before writing any chapter, run the author pre-flight checklist
+(docs/DEV-LOOP.md §4 item 6c) — it compresses this section and the
+site-wide laws into writing order.
+
 The site-wide rules of CLAUDE.md apply in full: every chapter
 opens with 1–3 thematically relevant new signs in the standard
 table and uses them immediately; a sign is taught exactly once
