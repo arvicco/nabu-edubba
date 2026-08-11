@@ -179,11 +179,12 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 20 — in progress: the process codex (retro batch, docs
-half; .docs/phase-20-plan.md) — interactive-surface review law,
-author pre-flight checklist, structured-edits standing rule, law
-ledgers with gap audit in all three rulebooks, return-arc
-planning law. Docs-only; governs phase 21+ (next content
+Phase 20 — complete, gate PR pending: the process codex (retro
+batch, docs half) — interactive-surface review law (named
+hover/listen/compare checks), author pre-flight checklist
+(DEV-LOOP 6c), structured-edits standing rule, law ledgers with
+gap audit in all three rulebooks (six finds, all dispatched),
+return-arc planning law. Governs phase 21+ (next content
 stretch, owner pick at Gate 20).
 
 Gate 19 merged 2026-08-11 (the workbench: box_line, citation-urn
