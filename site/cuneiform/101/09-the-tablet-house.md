@@ -28,17 +28,14 @@ start of this course comes due.
     <tr>
       <td class="script sign-cell">𒁾</td><td>DUB</td><td>tablet</td><td>[dub]</td>
       <td>(clay) tablet</td>
-      <td>early forms are read as a tablet shown with its
-          ruled lines — the object drawn as its own writing surface</td>
+      <td>early forms show the tablet with its ruled
+          lines</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td>[ba]</td>
       <td>[ba]; as a verb, "to allot"</td>
-      <td>pictorial origin opaque — a pure workhorse
-          syllable, top six in BOTH of this course's counted corpora.
-          Borrowed a course ahead: its formal seat is the Sumerian
-          course's <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">chapter 08</a> — it stands here early because
-          the school's own name cannot be read without it</td>
+      <td>a workhorse syllable, <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">borrowed ahead</a> —
+          the school's own name needs it</td>
     </tr>
   </tbody>
 </table>

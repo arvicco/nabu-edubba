@@ -35,9 +35,8 @@ puts real clay in front of you.
     <tr>
       <td class="script sign-cell">𒈨</td><td>ME</td><td>rites</td><td>[me]</td>
       <td>rites, divine powers; to be</td>
-      <td>the simplest sign in this course, carrying one of
-          Sumer's deepest words: the <em>me</em> are the divine
-          ordinances of civilization</td>
+      <td>the simplest sign here; the <em>me</em> are the
+          divine ordinances of civilization</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌨</td><td>UR</td><td>dog</td><td>[ur]</td>
@@ -48,8 +47,8 @@ puts real clay in front of you.
     <tr>
       <td class="script sign-cell">𒋫</td><td>TA</td><td>from</td><td>[ta]</td>
       <td>[ta]; "from" (ablative)</td>
-      <td>pictorial origin not transparent — a grammar
-          workhorse you will meet properly in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></td>
+      <td>origin opaque — a grammar workhorse, properly
+          met in <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a></td>
     </tr>
   </tbody>
 </table>
@@ -69,10 +68,10 @@ decoration; two minutes here and they stop being noise.
   </thead>
   <tbody>
     <tr><td><em>š</em></td><td>"sh"</td><td>exactly English "sh": <em>ša₃</em> is "sha"</td></tr>
-    <tr><td><em>ŋ</em></td><td>"ng"</td><td>the "ng" of "song," a single sound Sumerian could start a syllable with: <em>saŋ</em>, <em>niŋ₂</em>. Many books print it <em>ĝ</em> — same sound, different hat</td></tr>
-    <tr><td><em>h</em></td><td>"kh"</td><td>Sumerian's h is the rasp of Scottish "lo<strong>ch</strong>": <em>ha</em>, <em>mah</em>. Specialist works often write it <em>ḫ</em></td></tr>
-    <tr><td><em>e₂, u₄, gu₇</em></td><td>"e", "u", "gu"</td><td>the little number is an index, not a pronunciation: <em>e₂</em> is "the second sign that reads e." Homophones are many; the index says which sign is meant</td></tr>
-    <tr><td><em>é, ì</em></td><td>"e", "i"</td><td>an older habit writes indexes 2 and 3 as accents instead: <em>é</em> = <em>e₂</em>, <em>ì</em> = <em>i₃</em>. You will meet it in books — and in this school's own name, <em>é-dub-ba-a</em></td></tr>
+    <tr><td><em>ŋ</em></td><td>"ng"</td><td>the "ng" of "song": <em>saŋ</em>, <em>niŋ₂</em> — many books print it <em>ĝ</em></td></tr>
+    <tr><td><em>h</em></td><td>"kh"</td><td>the rasp of Scottish "lo<strong>ch</strong>": <em>ha</em>, <em>mah</em> — often written <em>ḫ</em></td></tr>
+    <tr><td><em>e₂, u₄, gu₇</em></td><td>"e", "u", "gu"</td><td>the little number is an index, not a pronunciation: <em>e₂</em> is "the second sign that reads e"</td></tr>
+    <tr><td><em>é, ì</em></td><td>"e", "i"</td><td>an older habit writes accents for indexes: <em>é</em> = <em>e₂</em>, <em>ì</em> = <em>i₃</em> — as in this school's own name, <em>é-dub-ba-a</em></td></tr>
   </tbody>
 </table>
 

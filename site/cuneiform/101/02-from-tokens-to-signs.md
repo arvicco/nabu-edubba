@@ -28,8 +28,7 @@ is the grain itself:
     <tr>
       <td class="script sign-cell">𒊺</td><td>ŠE</td><td>barley</td><td>[še]</td>
       <td>barley; grain</td>
-      <td>a stalk with grains hanging off it — the field's classic
-      example of a picture worn down to wedges</td>
+      <td>a grain stalk worn down from picture to wedges</td>
     </tr>
   </tbody>
 </table>

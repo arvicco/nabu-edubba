@@ -31,30 +31,25 @@ word of it is about to be yours.
     <tr>
       <td class="script sign-cell">𒌔</td><td>UH₂</td><td>spittle</td><td>[uh]</td>
       <td>spittle, phlegm in the lists</td>
-      <td>an unlovely sign with a famous job: it opens
-          <em>uh-tap-pi-id</em>, "he has blinded" — the verb of
-          the most quoted law on earth</td>
+      <td>it opens <em>uh-tap-pi-id</em>, "he has
+          blinded" — the most quoted law on earth</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉺</td><td>PA</td><td>branch</td><td>[pa]</td>
       <td>branch; the scepter in Sumerian</td>
-      <td>the branch that rules — Sumerian read it as the
-          scepter; here it is the pa of the punishment,
+      <td>the ruling branch — Sumer's scepter; the pa of
           <em>u-ḫa-ap-pa-du</em></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀊</td><td>AB</td><td>window</td><td>[ab/ap]</td>
       <td>a window in the lists</td>
-      <td>a window into the same verb: the ap that doubles the
-          blinding back onto the blinder</td>
+      <td>the ap that doubles the blinding back</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌉</td><td>TUR</td><td>child</td><td>[mārum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12309' | relative_url }}">101's child-sign</a> crosses the
-          border whole, as the sumerogram DUMU: written with the
-          little one, spoken <span class="norm">mārum</span>,
-          "son"</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12309' | relative_url }}">101's child-sign</a>: DUMU,
+          read <span class="norm">mārum</span></td>
     </tr>
   </tbody>
 </table>

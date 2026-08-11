@@ -32,19 +32,14 @@ signs. One new sign is all it still needs from you.
     <tr>
       <td class="script sign-cell">𒉣</td><td>NUN</td><td>prince</td><td>[nun]</td>
       <td>prince, noble</td>
-      <td>an old and honest picture-sign of rank; here it sits
-          inside the name of the gods themselves — the
-          A-<strong>nun</strong>-na-ki, "the princely offspring,"
-          the great gods as a family</td>
+      <td>rank's picture-sign; the <strong>nun</strong> in
+          A-nun-na-ki</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈗</td><td>LUGAL</td><td>king</td><td>[šarrum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12217' | relative_url }}">101's king-sign</a> crosses the
-          border whole, as a sumerogram: written LUGAL, spoken as
-          the Akkadian word <span class="norm">šarrum</span> —
-          in this chapter's reading it stands before the gods'
-          name in the construct, <span class="norm">šar</span></td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12217' | relative_url }}">101's king-sign</a>, read
+          <span class="norm">šarrum</span></td>
     </tr>
   </tbody>
 </table>

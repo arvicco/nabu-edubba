@@ -33,8 +33,8 @@ his name; to write his name, you need a reed.
     <tr>
       <td class="script sign-cell">𒄀</td><td>GI</td><td>reed</td><td>[gi]</td>
       <td>reed</td>
-      <td>the writing tool itself, finally a sign of its own — and
-          the second syllable of Šulgi's name</td>
+      <td>the stylus itself — Šulgi's second
+          syllable</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂄</td><td>DUN</td><td>hero</td><td>[šul]</td>
@@ -45,8 +45,8 @@ his name; to write his name, you need a reed.
     <tr>
       <td class="script sign-cell">𒌅</td><td>TU</td><td>born</td><td>[tu]</td>
       <td>to be born (tu-ud)</td>
-      <td>the hymn's second line runs on it — kings in this genre
-          are always being born magnificently</td>
+      <td>the hymn's second line — kings born
+          magnificently</td>
     </tr>
   </tbody>
 </table>
@@ -74,10 +74,8 @@ Assemble the royal name before reading a word of the hymn:
     <tr>
       <td class="script sign-cell">𒆗</td><td>KAL</td><td>mighty</td><td>[kal]</td>
       <td>mighty, strong; precious</td>
-      <td>the royal epithet <em>nitah kalag-ga</em>, "mighty male,"
-          waits in line two below; on Ur III seals the name
-          <em>lu₂-kal-la</em>, "the precious one," wears the same
-          sign</td>
+      <td>the epithet <em>nitah kalag-ga</em>, "mighty
+          male," waits in line two below</td>
     </tr>
   </tbody>
 </table>

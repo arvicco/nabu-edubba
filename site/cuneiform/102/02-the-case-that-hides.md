@@ -33,22 +33,19 @@ spelling the moment you stop watching it.
     <tr>
       <td class="script sign-cell">𒊏</td><td>RA</td><td>toward</td><td>[ra]</td>
       <td>[ra]; "to, for" (a person) — the dative tag</td>
-      <td>pictorial origin not transparent — a grammar
-          workhorse from its first appearance, no picture to lean on</td>
+      <td>origin opaque — a grammar workhorse from its
+          first appearance</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂵</td><td>GA</td><td>milk</td><td>[ga]</td>
       <td>milk; [ga]</td>
-      <td>classic origin: the sign lists connect it with
-          the milk jug and dairy work — you will see why in this
-          chapter's names</td>
+      <td>the sign lists tie it to the milk jug</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀝</td><td>AK</td><td>do</td><td>[ak]</td>
       <td>to do, to make</td>
-      <td>origin unclear — and the reason it sits in THIS
-          chapter: <em>ak</em> is also the sound of the case this
-          whole chapter is about</td>
+      <td>origin unclear; <em>ak</em> is the case's
+          sound</td>
     </tr>
   </tbody>
 </table>

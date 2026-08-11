@@ -33,38 +33,32 @@ and this chapter gives you their endings.
     <tr>
       <td class="script sign-cell">𒈪</td><td>MI</td><td>night</td><td>[mi]</td>
       <td>night, black</td>
-      <td>Sumer's night-sign crosses the border as pure sound —
-          and promptly opens the stele's favorite word,
-          <span class="norm">mīšarum</span>, "justice"</td>
+      <td>Sumer's night-sign as sound; opens
+          <span class="norm">mīšarum</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀾</td><td>AŠ₂</td><td>curse</td><td>[as]</td>
       <td>a curse in the lists</td>
-      <td>a bitter sign carrying a sweet word today: the as of
-          <em>na-as-qa</em>, <span class="norm">nasqā</span>,
-          "are choice"</td>
+      <td>a bitter sign, sweet word: the as of
+          <span class="norm">nasqā</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅁</td><td>IB</td><td>corner</td><td>[ib/eb/ep]</td>
       <td>a corner in the lists</td>
-      <td>three vowels wide: it opens
-          <span class="norm">epšētum</span>, "deeds," in this
-          chapter, and a coming blessing will close
-          on it</td>
+      <td>three vowels wide; opens
+          <span class="norm">epšētum</span>, "deeds"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒊬</td><td>SAR</td><td>write</td><td>[šar]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/16-the-tablet-house-speaks/#sign-122AC' | relative_url }}">102's writing-sign</a>
-          sharpens to šar: <em>šar-ru-um</em>, the king spelled
-          sound by sound, no LUGAL about it</td>
+          sharpens to šar</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂵</td><td>GA</td><td>milk</td><td>[qa]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/02-the-case-that-hides/#sign-120B5' | relative_url }}">102's milk-sign</a>
-          pressed to the emphatic q: <em>na-as-qa</em>, "choice"
-          — how the epilogue rates its own words</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/02-the-case-that-hides/#sign-120B5' | relative_url }}">102's milk-sign</a>,
+          pressed to q</td>
     </tr>
   </tbody>
 </table>
