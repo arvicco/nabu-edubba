@@ -40,13 +40,14 @@ has its first stretch — sentence types, the suffix conjugation,
 the doctors' register, from Westcar to the medical papyri.
 The sinograph school has opened **classical-first**:
 [101 · How the characters work](https://edubba.ac/sinographs/101/)
-is fifteen chapters deep — 81 characters covering one in four
+is twenty-five chapters deep — 137 characters covering two in five
 characters of the whole classical corpus, taught on real lines of
 the *Laozi*, the *Analects*, the *Great Learning*, the *Changes*,
-the *Songs*, and the *Annals*, with whole sayings now read
-box-free in the original — plus a Character Codex page for every
-taught character and a Pinyin primer, every syllable voiced with
-tone-verified, loudness-normalized audio.
+the *Songs*, and the *Annals*, with whole sayings read box-free in
+the original (the opening of the *Analects*, 上善若水, 為無為) —
+plus a Character Codex page for every taught character and a
+Pinyin primer, every syllable voiced with tone-verified,
+loudness-normalized audio.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
 hover bubbles giving name, readings, and meaning. The site works
@@ -63,9 +64,9 @@ Cuneiform, Noto Sans Egyptian Hieroglyphs, and Noto Serif TC), and
 the full gate (`rake gate`: lint + tests + build + offline link
 check) with auto-deploy on merge.
 
-Next: the schools grow in alternating phases — Sinographs 101's
-closing stretch, the Egyptian literacy track toward Sinuhe, and
-the wider cuneiform world.
+Next: the schools grow in alternating phases — the Egyptian
+literacy track toward Sinuhe, the wider cuneiform world, and the
+sinograph course's march past the half-corpus line.
 
 ## Building locally
 

@@ -179,16 +179,20 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 22 — in progress (owner pick 2026-08-11: both queued items,
-one phase): M22-1 the table-balance flip — compress older schools'
-notes columns (probe: 71 cells), then enforce the 15% law
-school-wide; M22-2+ S101 stretch 5 (ch20–24, cap 30%) — 貝/刀
-components opener so 則 lands compositionally, candidates
-事得與後謂然皆國 from the phase-21 deferral, arc table after the
-regenerated picker sheet. Also landed: Gate 21 closed; Nabu's
-overlay-live message integrated (join key corrected to kEH_JSesh,
-contract law in hieroglyphs rulebook §3, `--min-chars` in the
-witness lane).
+Phase 22 — complete, gate PR pending: the table flip + S101
+stretch 5 (owner pick: both in one phase). M22-1: 71 notes cells
+compressed across cuneiform/hieroglyphs, 15% law enforced
+school-wide — and the surface review exposed that the old 50%/18%
+CSS fallbacks had been silently overriding every computed
+colgroup (fixed: the colgroup IS the layout now; caps-aware width
+model; headroom in both allocate branches). M22-2..7: stretch 5
+ruled then written — ch20–24 (則 from 貝+刀, the crew of doing,
+wanting and getting, the thousand-chariot state, like water), 137
+characters = 41.5% of the corpus, Analects 1.5 whole, the 2.4
+ladder closed, 上善若水 and 為無為 box-free; four witness variances
+caught at plan stage. Also landed: Gate 21 closed; Nabu's
+overlay-live message integrated (join key kEH_JSesh, contract law
+in hieroglyphs rulebook §3, `--min-chars`).
 
 Gate 21 merged 2026-08-11 (S101 stretch 4, the world of the text:
 ch15–19, 29 chars; 110 characters = 33.3% — one in three; finale
