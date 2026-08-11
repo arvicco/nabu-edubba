@@ -158,6 +158,14 @@ its own phase done; no opportunistic refactors; owner-facing
 verification asks are always SPECIFIC (exact commands, files, and what
 good/bad looks like).
 
+One writer per output dir (M19-5; 2026-08-11 incident — a live
+`jekyll serve` regenerated into the gate's build dir mid-gate and 110
+phantom failures shipped into the report): every long-running process
+owns a PRIVATE output directory (`rake serve` → `_build/serve`), and
+the gate asserts sole ownership of `_build/site` before it starts —
+`rake gate` aborts, naming the PID, while any other jekyll process is
+alive.
+
 ## 7. Human-action inventory
 
 | When | Action |
