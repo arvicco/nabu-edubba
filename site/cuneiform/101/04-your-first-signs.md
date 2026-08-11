@@ -19,7 +19,7 @@ shows: ["𒀸", "𒁹", "𒌋"]
 
 Seven signs handed to you one by one across chapters
 <a href="{{ '/cuneiform/101/00-orientation/' | relative_url }}">00</a>–<a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">03</a>, and two
-new ones to complete this stretch of the inventory: 𒆠 and 𒂍, the
+new ones to complete this part of the inventory: 𒆠 and 𒂍, the
 earth and the house, introduced properly below. This chapter is
 where it all becomes *hand* knowledge: by the end your hand will
 know all nine, your eye will resolve them at a glance, and you will

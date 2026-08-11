@@ -18,7 +18,7 @@ Your mouth 口 for the meaning — flavor is mouth-business — and
 未, *wèi*, for nothing but the sound of *wèi*. A character taught
 one page earlier as "not yet" turns out to moonlight as a pure
 syllable: the sound-borrowing move, caught in the act. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

@@ -18,7 +18,7 @@ Your tree 木 with a mark at the base: point at the root and you
 have named the fundamental. With its twin 末 it gives classical
 argument one of its favorite pairs — 本末, the essential versus
 the incidental. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

@@ -3,8 +3,7 @@ title: "14 · Here and now"
 short_title: "14 · Here and now"
 description: >-
   This-here, the place-maker, the full locative, arriving, and
-  now — the stretch closes with the words that pin a sentence to
-  a spot and a moment.
+  now — the words that pin a sentence to a spot and a moment.
 layout: chapter
 school: sinographs
 course: sinographs-101
@@ -17,7 +16,7 @@ teaches: ["此", "所", "於", "至", "今"]
 
 # Here and now
 
-The stretch that put the sentence to work ends by pinning it
+The sentence has learned to work; now it gets pinned
 down — to a place, and to the present:
 
 <table class="sign-table">
@@ -106,7 +105,7 @@ in <a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">chapte
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">其所▢者▢，而其所▢者▢，</span><span class="translit pinyin">qí suǒ hòu zhě bó, ér qí suǒ bó zhě hòu</span><span class="gloss">"that what he should treat as weighty is treated thinly, and what he treats thinly comes out weighty" — 所…者 makes "the what-is-X-ed"; the boxes alternate "thick" and "thin"</span></div>
-    <div class="reading-line"><span class="script">未之有也。</span><span class="translit pinyin">wèi zhī yǒu yě</span><span class="gloss">"such a thing has never been" — the very first sentence you ever read whole, returned to close the stretch's grammar at zero boxes</span></div>
+    <div class="reading-line"><span class="script">未之有也。</span><span class="translit pinyin">wèi zhī yǒu yě</span><span class="gloss">"such a thing has never been" — the very first sentence you ever read whole, returned at zero boxes</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue), same passage.
@@ -116,7 +115,7 @@ in <a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">chapte
 
 ## Steering the now
 
-今 closes the stretch where the Way opened it — the *Laozi* on
+今 gets the last word — the *Laozi* on
 holding oldest knowledge against the present moment, with 道
 from <a href="{{ '/sinographs/101/12-the-eye-and-the-way/' | relative_url }}">chapter 12</a>
 in hand:
@@ -132,11 +131,11 @@ in hand:
   </figcaption>
 </figure>
 
-## Where this stretch ends
+## Where this leaves you
 
 Eighty-one characters — one in every four characters of the
-classical corpus. This stretch began with the sentence's biggest
-tool and ends with its finest: the words that say *here*,
-*where*, *reaching*, *now*. The next stretch belongs to the
-family that talks: the words that grow on 言, and with them
-longer runs of the texts you have been reading in pieces.
+classical corpus. These chapters began with the sentence's
+biggest tool and end with its finest: the words that say *here*,
+*where*, *reaching*, *now*. Ahead lies the family that talks:
+the words that grow on 言, and with them longer runs of the
+texts you have been reading in pieces.

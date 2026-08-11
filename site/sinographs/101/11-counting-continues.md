@@ -62,8 +62,8 @@ word. So the numbers past three changed strategy:
   </tbody>
 </table>
 
-四 and 六 are borrowed graphs, like the particles of the last
-stretch — counting words wore out their pictures early. 五 is a
+四 and 六 are borrowed graphs, like the little words before
+them — counting words wore out their pictures early. 五 is a
 knot tied between heaven and earth. And 百 is this course's
 first *built* number: white for the sound, one stroke for the
 tally. Numbers stack the way you would hope: 五十 fifty, 三百

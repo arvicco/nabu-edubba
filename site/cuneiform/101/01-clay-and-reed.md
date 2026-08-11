@@ -101,7 +101,7 @@ wide where the corner first bit in, and shallow and narrow where it
 lifted out — a wedge, thick at the head and thin at the tail, exactly
 the shape that gave the script its name (from Latin *cuneus*, wedge).
 Drag that same corner sideways instead of lifting it straight out,
-and you get the same wedge shape stretched along a line. There is no
+and you get the same wedge shape drawn out along a line. There is no
 way to press a curve; a curve requires the tool to change direction
 continuously against the surface, which a rigid corner pressed into
 resistant clay simply will not do.
@@ -222,7 +222,7 @@ plastic card's edge, a rounded pencil turned to its flat facet — and
 press it into a lump of plasticine or soft modeling clay. Press
 straight in and lift straight out: a wedge appears, thick where you
 began, thin where you lifted. Press and *drag* slightly before
-lifting: the wedge stretches into a short stroke. Try to make a
+lifting: the wedge lengthens into a short stroke. Try to make a
 curve, and you will feel the material refuse you. Ten minutes of this
 will teach you more about why cuneiform has no curves than an hour of
 reading could.

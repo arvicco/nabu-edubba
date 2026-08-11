@@ -2,7 +2,7 @@
 title: "03 · Say it twice — doubling and nam-"
 short_title: "03 · Say it twice"
 description: >-
-  Three more signs, and Sumerian's favorite trick for stretching a
+  Three more signs, and Sumerian's favorite trick for making a
   word: doubling it. Plurals, intensifiers, and the nam- prefix that
   turns concrete things into abstractions.
 layout: chapter
@@ -20,7 +20,7 @@ shows: []
 Last chapter gave you the genitive — one noun folded inside another,
 the case that hides a whole possessive relationship in a single
 suffix. This chapter turns the other way. Instead of shrinking two
-nouns into one, Sumerian sometimes stretches a single word to do
+nouns into one, Sumerian sometimes sets a single word to do
 more work than it did alone: to mark a plural, to intensify a
 quality, or to turn a concrete thing into an abstraction. Three
 signs, and one small, versatile grammar habit.

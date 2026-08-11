@@ -2,7 +2,7 @@
 title: "11 · A dedication, for real"
 short_title: "11 · For real"
 description: >-
-  The stretch's close: to give and the bare vowel — and the votive
+  To give and the bare vowel — and the votive
   formula of chapter 05 found verbatim on a real ruler's foundation
   inscription, read line by line.
 layout: chapter
@@ -20,7 +20,7 @@ shows: []
 <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">Chapter 05</a> assembled the dedication formula from your inventory and
 made a promise: you would meet it verbatim on real stone and clay.
 This chapter keeps that promise. Two last signs first — the lightest
-batch of the stretch, like the one that closed the last.
+batch in a long while, like <a href="{{ '/cuneiform/102/05-a-dedication-whole/' | relative_url }}">chapter 05</a>'s.
 
 ## Batch twelve
 
@@ -94,7 +94,7 @@ of Umma") — **purpose** (*nam-ti-la-ni-še₃*, "for his life",
 letter-for-letter the phrase you assembled from your own inventory)
 — **verb, last** (*mu-na-du₃*, "built it for her": a verbal chain
 whose shape you know from chapters <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">04</a> and <a href="{{ '/cuneiform/102/08-the-chain-grows-rings/' | relative_url }}">08</a>, carrying two rings —
-an opener and a "for her" — whose full anatomy a later stretch
+an opener and a "for her" — whose full anatomy a later chapter
 opens). Nothing was
 simplified for you. That is a real ruler's real dedication, and the
 formula sits in it exactly where the course said it would.
@@ -153,8 +153,8 @@ So: hand-pure / water / lord-to / give-in-order-to — and read in
 Sumerian order the line builds exactly the way <a href="{{ '/cuneiform/102/01-the-sentence-in-the-clay/' | relative_url }}">chapter 01</a> said
 every Sumerian sentence would, participants first, verb last.
 
-One more line, from a royal praise poem, and the stretch can end
-on it:
+One more line, from a royal praise poem, to end
+on:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -185,12 +185,12 @@ on it:
 
 Object first, wish-prefix and verb last: *your majesty — let me
 proclaim it*. A sentence whose every piece — the abstraction, the
-suffix, the wish, the doubling — this stretch handed you on
+suffix, the wish, the doubling — these chapters handed you on
 purpose. There are worse notes for a chapter of school to end on.
 
-The second stretch ends here. The track keeps going the same way
+The track keeps going the same way
 it has: batches in computed order, grammar only when a reading
-demands it, real texts all the way down. A later stretch opens the
+demands it, real texts all the way down. A later chapter opens the
 verbal chain's remaining rings, brings the literary readings to
 full passages, and keeps its own promises in turn.
 
@@ -202,7 +202,7 @@ full passages, and keeps its own promises in turn.
 3. Write *nam-ti-la-ni-še₃* from memory — then check yourself
    against the stone, not the template.
 4. Compose in transliteration: "let me proclaim" + a wish of your
-   own choosing for the object. One of this stretch's sentences is
+   own choosing for the object. One of these chapters' sentences is
    now yours to reuse.
 
-*The stretch pauses here. The next one resumes it.*
+*The next chapter picks up from here.*

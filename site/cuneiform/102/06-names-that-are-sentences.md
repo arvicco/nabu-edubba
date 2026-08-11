@@ -2,7 +2,7 @@
 title: "06 · Names that are sentences"
 short_title: "06 · Names"
 description: >-
-  The second stretch opens: hand, spelling-ma, and the eye — and the
+  Hand, spelling-ma, and the eye — and the
   discovery that Sumerian personal names are tiny sentences you can
   already read.
 layout: chapter
@@ -17,8 +17,8 @@ shows: []
 
 # Names that are sentences
 
-The opening stretch closed with a dedication formula assembled from
-your own inventory. This stretch opens with something stranger and
+The last chapter closed with a dedication formula assembled from
+your own inventory. This one opens with something stranger and
 more personal: the discovery that the people on these tablets —
 the farmers, overseers, and scribes of the receipts — carry names
 that are complete little sentences, built from signs you already

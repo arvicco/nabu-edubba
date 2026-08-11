@@ -26,7 +26,7 @@ school met in
 
 A corner joins two walls; this sign joins vowels. It opens the
 king's <span class="norm">epšētum</span>, "deeds," and it will
-close the stretch's last blessing, <span class="norm">liṭīb</span>
+close a coming blessing, <span class="norm">liṭīb</span>
 — "may it be well." Deeds first, blessing after: a fair order.
 
 ## In the wild

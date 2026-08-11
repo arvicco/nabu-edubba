@@ -22,8 +22,8 @@ Everywhere else on this site, a reading is either fully yours or
 boxed sign by sign. This page is different by design: real corpus
 lines your 74 signs cover **all but one** of — the ▢ marks not a
 gap in your learning but the exact edge of it. Read what you can
-(nearly everything), and let each box tell you what the next
-stretch owes you.
+(nearly everything), and let each box tell you what the course
+still owes you.
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
@@ -61,7 +61,7 @@ stretch owes you.
 
 Each of these needed only your existing kit and one stranger —
 palace holidays, resurrection, and a curse, all one sign away.
-When the next stretch adds its batches, come back: these lines
+As the course adds its batches, come back: these lines
 will have quietly become fully yours. The instrument that finds
 them (any line ≥90% covered) will keep this page honest as the
 inventory grows.

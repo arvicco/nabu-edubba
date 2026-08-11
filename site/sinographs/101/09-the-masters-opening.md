@@ -17,7 +17,7 @@ teaches: ["者", "其", "亦", "于", "乎"]
 
 # The master's opening
 
-The last little words of the stretch — every one borrowed, every
+The last of the little words — every one borrowed, every
 one everywhere:
 
 <table class="sign-table">
@@ -103,12 +103,12 @@ Look at what you are actually reading in that first line: 而
 hinges the clauses, 之 carries the object, 不亦…乎 wraps the
 whole in a warm rhetorical question. The *content* words are still
 boxed — and the sentence's shape is already fully audible. That
-is the deepest lesson of this stretch: classical prose stands on
+is the deepest lesson so far: classical prose stands on
 its little words, and the little words are now yours.
 
 ## The basket and the bride
 
-其 and 于 close the stretch in the two oldest voices of the canon
+其 and 于 take their bow in the two oldest voices of the canon
 — the *Laozi* page you started on, and a wedding song:
 
 <figure class="reading reading--script reading--stacked">
@@ -127,11 +127,11 @@ its little words, and the little words are now yours.
   </figcaption>
 </figure>
 
-## Where this stretch ends
+## Where this leaves you
 
 Fifty-five characters — one in every five characters of the
-entire classical corpus is now yours. The stretch that began with
-the busiest word in the world ends with the busiest sentence:
-learn, and in season practice. The next stretch does exactly
-that — more sound-carriers, the talking family that grows on 言,
-and the first readings that run whole passages rather than lines.
+entire classical corpus is now yours. The chapters that began
+with the busiest word in the world end with the busiest sentence:
+learn, and in season practice. The chapters ahead do exactly
+that — the sentence put to work, the numbers finished, and the
+Way itself arriving in the original.

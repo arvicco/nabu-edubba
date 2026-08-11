@@ -35,7 +35,7 @@ medical prescriptions, temple walls — in full hieroglyphs.
   <li><a href="{{ '/hieroglyphs/102/06-life-prosperity-health/' | relative_url }}">Life, prosperity, health</a> — the royal wish, and the Great House that became "pharaoh"</li>
 </ol>
 
-The first stretch (<a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">chapters 00</a>–06) is complete; the track
-continues in a later phase — deeper into the tales, toward Sinuhe
+<a href="{{ '/hieroglyphs/102/00-orientation/' | relative_url }}">Chapters 00</a>–06 are live; the track
+continues — deeper into the tales, toward Sinuhe
 and the classics. Corrections are welcome in
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

@@ -18,7 +18,7 @@ Water 氵 for the meaning — washing is water-business — and your
 tree 木 for nothing but its sound: 木 is *mù*, and so is 沐. The
 course's first sound-carrier compound, and the page where 水
 learns its squeezed side-form. Taught in
-<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the final chapter of the stretch</a>.
+<a href="{{ '/sinographs/101/04-roots-tips-borrowed-sounds/' | relative_url }}">the roots-and-tips chapter</a>.
 
 ## How to remember it
 

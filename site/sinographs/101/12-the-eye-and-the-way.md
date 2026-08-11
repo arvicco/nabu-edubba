@@ -70,7 +70,7 @@ road, and then *the* road: the Way things go.
 The *Laozi*'s cosmology runs through your numbers — one, two,
 three from
 <a href="{{ '/sinographs/101/00-orientation/' | relative_url }}">chapter 00</a>,
-生 from the last stretch, and now the word that starts it all:
+生 already yours, and now the word that starts it all:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -89,7 +89,7 @@ oldest begat-list in Chinese.
 ## Each other
 
 相's first job in the canon's most famous chain of opposites —
-where having and not-having, from the last stretch, give birth
+where having and not-having give birth
 to each other:
 
 <figure class="reading reading--script">

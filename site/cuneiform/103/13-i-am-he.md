@@ -133,5 +133,5 @@ Item by item — three new pieces, and one long-awaited word:
    <span class="norm">Ḫammurapi</span> to
    <span class="norm">anāku</span>, aloud, from the signs.
 
-*Next: the stretch closes — where you stand, measured, and the
+*Next: where you stand, measured — and the
 last box falls.*

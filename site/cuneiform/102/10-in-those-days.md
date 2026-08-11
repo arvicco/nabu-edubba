@@ -252,8 +252,7 @@ receipt never repeats a line for effect; a lament always does.
 5. Explain why a lament repeats *e₂ zid* and *lu₂-bi* instead of
    saying each once.
 
-*Next: a real dedication, read whole from actual stone — and the
-stretch's close.*
+*Next: a real dedication, read whole from actual stone.*
 
 [^limit]: An honest limit: the full literary language carries far
     more machinery than this — a whole second dialect, *emesal*,

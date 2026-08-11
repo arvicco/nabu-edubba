@@ -20,8 +20,8 @@ though the identification is stated rather than certain. Sumerian
 used it sparingly; Akkadian adopted its sound wholesale, and *li*
 became the tenth most frequent syllable in Old Babylonian writing:
 inside verbs, inside names, and famously inside the wish-forms
-(*li-* opens Akkadian's "may he…" precatives, which the next
-stretch will read).
+(*li-* opens Akkadian's "may he…" precatives, which later
+chapters read).
 
 ## How to remember it
 

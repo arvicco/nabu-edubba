@@ -17,8 +17,8 @@ teaches: ["以", "自", "丁", "可", "用"]
 
 # The sentence's tools
 
-The last stretch gave the sentence its joints. This one puts it
-to work — starting with the third most frequent character in the
+The little words gave the sentence its joints. Now it goes to
+work — starting with the third most frequent character in the
 whole classical language, the biggest one you have not yet met:
 
 <table class="sign-table">
@@ -107,8 +107,8 @@ almost entirely of your characters:
 </figure>
 
 以為 — "take as, thereby make" — appears twice and carries the
-whole argument. 有 and 無, the having and the not-having from
-the last stretch, stand at the heads of the clauses; 用 lands
+whole argument. 有 and 無, the having and the not-having,
+stand at the heads of the clauses; 用 lands
 the point. This is what "the sentence at work" means: every
 grammatical muscle in that line is one you already own.
 
@@ -130,7 +130,7 @@ most teacherly sentence in the *Analects* ends on it:
 The saying's first half — "warm up the old and know the new"
 (wēn gù ér zhī xīn) — is this course's own method: every reading
 here reheats old characters around each new one. When the boxed teacher-word
-arrives in a later stretch, the sentence will close for you
+arrives in a later chapter, the sentence will close for you
 whole.
 
 ## Where this is going
