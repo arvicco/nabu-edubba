@@ -2107,6 +2107,100 @@ signs:
   parts: []
   note: 'rank 54; a road-step 彳, a small thread 幺, and a dragging foot 夊 — tied and
     trailing on the road: falling behind, coming after.'
+- char: 事
+  glyph: 事
+  name: work
+  codepoint: 4E8B
+  keyword: work
+  pinyin: shì
+  meaning: affair, work; to serve
+  category: compound-ideograph
+  certainty: classic
+  strokes: 8
+  ids: "⿻⿱\U00020B9B{43}亅"
+  rank: 34
+  count_kanripo: 2273308
+  docs: 4826
+  chapter: 21
+  parts: []
+  note: rank 34; a hand gripping a tally-staff — the officer's job in his fist. Kin
+    to the scribe-signs; the affair, the task, and (as a verb) serving someone with
+    it.
+- char: 作
+  glyph: 作
+  name: make
+  codepoint: 4F5C
+  keyword: make
+  pinyin: zuò
+  meaning: to make, arise, invent
+  category: phono-semantic
+  certainty: classic
+  strokes: 7
+  ids: "⿰亻乍"
+  rank: 81
+  count_kanripo: 1425864
+  docs: 4805
+  chapter: 21
+  parts:
+  - 人
+  note: rank 81; the person 亻 doing, with 乍 lending the sound — to make, to arise,
+    to originate something new.
+- char: 成
+  glyph: 成
+  name: become
+  codepoint: '6210'
+  keyword: become
+  pinyin: chéng
+  meaning: to complete, become
+  category: phono-semantic
+  certainty: classic
+  strokes: 6
+  ids: "⿵戊\U000200CC"
+  rank: 93
+  count_kanripo: 1261732
+  docs: 4979
+  chapter: 21
+  parts:
+  - 丁
+  note: rank 93; a blade-sign with ch10's 丁 as its sound-mark — the work brought to
+    completion; to become, to succeed.
+- char: 能
+  glyph: 能
+  name: able
+  codepoint: 80FD
+  keyword: able
+  pinyin: néng
+  meaning: can, to be able
+  category: loan
+  certainty: classic
+  strokes: 10
+  ids: "⿰䏍\U0002B9C7"
+  rank: 85
+  count_kanripo: 1395336
+  docs: 4883
+  chapter: 21
+  parts: []
+  note: rank 85; the old lists draw a bear — head, meat, and two clawed legs — borrowed
+    so early for "ability" that the animal had to grow a new character of its own.
+- char: 使
+  glyph: 使
+  name: send
+  codepoint: 4F7F
+  keyword: send
+  pinyin: shǐ
+  meaning: to send, employ, cause
+  category: compound-ideograph
+  certainty: classic
+  strokes: 8
+  ids: "⿰亻吏"
+  rank: 78
+  count_kanripo: 1433538
+  docs: 4826
+  chapter: 21
+  parts:
+  - 人
+  note: 'rank 78; a person 亻 beside the officer with his tally — to commission: send
+    someone, put someone to work, cause a thing to happen.'
 batches:
 - chapter: 0
   signs:
@@ -2287,3 +2381,11 @@ batches:
   - 先
   - 後
   coverage_pct: 34.3
+- chapter: 21
+  signs:
+  - 事
+  - 作
+  - 成
+  - 能
+  - 使
+  coverage_pct: 35.4
