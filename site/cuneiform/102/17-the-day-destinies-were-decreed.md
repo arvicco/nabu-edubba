@@ -2,7 +2,7 @@
 title: "17 · The day destinies were decreed"
 short_title: "17 · Destinies"
 description: >-
-  The stretch's summit: the opening of Gudea's temple hymn — the
+  The course's summit: the opening of Gudea's temple hymn — the
   longest Sumerian composition — read from its first line, with the
   sign that cuts fates and the banks a heart can overflow.
 layout: chapter

@@ -136,7 +136,7 @@ A Semitic language arrives with a Semitic mouth, and several of
 its sounds simply did not exist in Sumerian — which means the
 borrowed script had no signs waiting for them. The scribes'
 solution, every time, was to draft a nearby sign into the new
-job; this stretch meets each recruit at the moment a real text
+job; this course meets each recruit at the moment a real text
 needs it.
 
 Here is the complete delegation — every sound Akkadian brings

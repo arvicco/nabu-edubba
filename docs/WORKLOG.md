@@ -5,6 +5,64 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (production borders out of prose) ·
+phase-18 · Owner, on ch08's "one chapter left in this stretch":
+the stretch language is irrelevant to the student and only
+confuses — remove it and everything tied to these temporary
+borders. Swept site-wide: ~120 lines across all three schools
+rewritten to speak in chapters and content; physical senses of
+the word ("hare at full stretch") rephrased so the ban stays
+total and the lint trivial; stale calendar deferrals fixed en
+route (102's index promised 103 "in a later phase" — it is
+live; ch09's next-up promise now describes what ch10 actually
+teaches). Law in CLAUDE.md content rules; production-vocab lint
+(bans "stretch" and later/next/future-phase talk in site prose)
+with the owner's exact ch08 line as a test fixture.
+
+2026-08-11 · M18-1..M18-7 (stretch 3 complete) · phase-18 · The
+sentence at work, ch10–14, 26 characters, cap 40%. Every reading
+verified against its Kanripo witness BEFORE writing (the stretch's
+own law, rulebook §5): the Daxue passage KR1d0052:043:1a carried
+three ch14 readings alone; Zhuangzi's 子非魚 wanted for ch13 is
+NOT in the slice and was replaced (2.24/3.3). Notable acquisition
+finds: seven ch10–11 recordings are the taught characters
+themselves; 丁 existed only on Lingua Libre (Fake_estate); 所's
+obvious source Zh-suǒyǐ was REJECTED for 3-3 tone sandhi — a cut
+suǒ would sound rising — and a dedicated Jouketou 所 recording
+used instead; 女好如云 are their own recordings. The untaught-sign
+lint caught 何師所古 leaking into ch13/ch14 prose and glosses
+before commit — four catches, all real. Return arcs: 1.1 reached
+again (ch10), 2.4's decades completed (ch11), ch05's 未之有也
+closes the stretch at zero boxes (ch14), and 矣 turned out to be
+ALREADY WAITING in ch10's teacher-line — the box gets its name in
+ch13. Coverage 20.9% → 27.7%: one in four. Slip: the ch11 commit
+subject says "ch12 batch" (no history rewrite; noted here).
+
+2026-08-11 · INCIDENT: serve/gate build race (phase-18) · The
+ch10 gate failed with 110 phantom link errors: the phase-17
+`rake serve` was still running, its file-watcher regenerating
+into the SAME _build/site the gate builds into — with a
+sign-link map memoized from before the keyword-slug migration,
+so it kept writing /signs/ren/ links over the gate's fresh
+output. Durable fix: rake serve now builds to _build/serve, its
+own destination; the racing process killed. Lesson: a
+long-running serve is a second writer — never share the gate's
+build directory.
+
+2026-08-11 · INCIDENT: red gate committed and pushed (phase-18,
+449c965) · The M18-2 command chained `rake gate; git commit &&
+push` with SEMICOLONS — the gate exited 1 (complete-shelf check:
+26 chapter-pinned characters without codex pages) and the commit
+ran anyway. Root cause twofold: (a) process — the bare-exit-code
+law was printed but not acted on; a commit must be `&&`-chained
+on the gate, never sequenced after it; (b) content — stretch 2
+added pool rows PER CHAPTER so pages land with pins, and the
+front-loaded 26-row pool broke that invariant. Durable fix: pool
+restored to 55 rows in the follow-up commit (no history rewrite
+on the pushed branch), the stretch-3 rows parked in .docs/ to be
+spliced chapter by chapter; lesson recorded here. CI caught the
+same red on the pushed commit, as designed.
+
 2026-08-11 · review rounds (ch04 pǐn; ch03/09 re-cuts; ch09
 bubble) · phase-17 · Three owner reports, each closed with the
 fix plus its durable check. (1) pǐn had no sound — Commons'

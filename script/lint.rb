@@ -144,6 +144,7 @@ module Edubba
       text = File.read(path, encoding: "UTF-8")
       found = []
       found.concat(check_say_audio(site_dir, path, text))
+      found.concat(check_production_vocab(path, text))
       text.scan(/<script\b[^>]*>(?:<\/script>)?/i) do |tag|
         next if SANCTIONED_SCRIPT.match?(tag) && !path.end_with?(".md")
 
@@ -508,6 +509,26 @@ module Edubba
 
       [Violation.new(path, "codex-reads",
                      "reads: #{reads.inspect} is not pure readings — [phonetics], word-readings, (fuller form …) only; meaning prose belongs in Means and the body")]
+    end
+
+    # production-vocab (owner ruling 2026-08-11, on ch08's "one
+    # chapter left in this stretch"): the authoring mechanics —
+    # stretches, phase borders — are invisible in the final course
+    # and only confuse the student. The word "stretch" (any
+    # inflection, including physical senses — use a synonym) never
+    # appears in site prose; "in a later phase" never defers to the
+    # production calendar.
+    PRODUCTION_VOCAB = /stretch|\b(?:later|next|future) phase\b/i
+
+    def check_production_vocab(path, text)
+      return [] unless path.end_with?(".md")
+
+      text.scan(PRODUCTION_VOCAB).map do |hit|
+        Violation.new(path, "production-vocab",
+                      "#{hit.inspect} in student-facing prose — authoring borders " \
+                      "(stretches, phases) do not exist in the final course; speak in " \
+                      "chapters and content (owner ruling 2026-08-11)")
+      end
     end
 
     # say-audio (sinographs rulebook §2; owner report 2026-08-11 —

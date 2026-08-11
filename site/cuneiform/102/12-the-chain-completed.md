@@ -2,7 +2,7 @@
 title: "12 · Build it for me"
 short_title: "12 · Build it for me"
 description: >-
-  The third stretch opens: the builder's peg, the dedicating verb,
+  The builder's peg, the dedicating verb,
   and mother — and the two chain rings, mu- and -na-, that finally
   let you parse a votive's verb whole.
 layout: chapter
@@ -20,7 +20,7 @@ shows: []
 <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">Chapter 11</a> read a ruler's dedication and left two rings of its
 final verb politely unopened — *mu-na-du₃*, "built it for her,"
 carried "an opener and a 'for her' whose full anatomy a later
-stretch opens." This is that stretch, and this chapter opens the
+chapter opens." This is that chapter, and it opens the
 anatomy. Three signs first, all three from the world of votive
 gifts.
 

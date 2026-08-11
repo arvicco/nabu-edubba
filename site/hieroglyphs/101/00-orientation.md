@@ -51,7 +51,7 @@ this page.
 
 You have just read three hieroglyphs — an owl, a ripple, a mouth
 that are, at the same time, the sounds *m*, *n*, *r*. By the end of
-this course's opening stretch you will own the small kit of signs
+this course's opening chapters you will own the small kit of signs
 every Egyptian scribe learned first,
 read real royal names inside their rings —
 
@@ -193,7 +193,7 @@ Chapters build strictly on one another; read them in order.
   real monuments — the same names that deciphered the script.
 - **06** reads the offering formula whole: Egypt's most-written
   sentence, assembled entirely from signs you own.
-- **07–12** (later stretches) keep going: two- and three-consonant
+- **07–12** keep going: two- and three-consonant
   signs, numbers, gods and titles, the script's cursive family, the
   decipherment story in full, and the reference.
 

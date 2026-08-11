@@ -18,8 +18,8 @@ permalink: /cuneiform/addenda-akk/signs/ud/
 The day-sign — one of <a href="{{ '/cuneiform/101/12-reference/#sign-12313' | relative_url }}">101's first signs</a>, polyvalent from its
 first appearance: *ud*, "day," and *utu*, the sun-god. Akkadian
 inherited the whole bundle and added *tam* to it, a value the
-sign had carried in syllabic use since early times. In this
-stretch's texts it closes accusatives of -t- nouns:
+sign had carried in syllabic use since early times. In the course's
+texts it closes accusatives of -t- nouns:
 <span class="norm">nērtam</span>, "a murder (charge)."
 
 ## How to remember it

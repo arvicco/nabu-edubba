@@ -146,7 +146,7 @@ teacher would write a model — a sign, a line, a short passage — on
 one face, and the student would copy it on the other, sometimes
 several times over, sometimes with the student's attempt visibly less
 assured than the model beside it. Other exercises are larger,
-multi-column tablets carrying long stretches of a lexical list or a
+multi-column tablets carrying long runs of a lexical list or a
 literary text, copied out in full. Between the two formats, the
 day-to-day discipline of learning to write reveals itself with unusual
 directness: model and copy, side by side, on the same lump of clay.
@@ -179,7 +179,7 @@ drill — they were reference works, and in a real sense they are the
 ancestors of dictionaries and encyclopedias. Lists of signs, of
 professions, of trees, of stones, of geographical names, were compiled,
 copied, and recopied for centuries, occasionally expanded or adapted
-but recognizably continuous across enormous stretches of time. A list
+but recognizably continuous across enormous spans of time. A list
 copied by a student in one century could descend, with real fidelity,
 from a list compiled a thousand years earlier. That same
 lexical-list tradition — organized signs, arranged systematically,

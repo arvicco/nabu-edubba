@@ -2,7 +2,7 @@
 title: "TE · approach"
 description: >-
   The sign TE in Akkadian — the approaching-sign of the lists,
-  and the last box of stretch 2 to fall.
+  and a long-waited box to fall.
 layout: sign
 school: cuneiform
 sign: "TE"

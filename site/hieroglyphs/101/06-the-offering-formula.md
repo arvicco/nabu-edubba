@@ -128,7 +128,7 @@ signs. The little grammar of the sentence — *n* "for", *n* "of" —
 carried entirely by 𓈖, <a href="{{ '/hieroglyphs/101/04-your-first-signs/' | relative_url }}">chapter 04's</a> water ripple. The *ka* that
 receives the offering, read sign by sign. The boxes hide a basket, a
 land-sign, two divine spellings, and a seated woman — inventory for
-later stretches, not mysteries.
+later chapters, not mysteries.
 
 ## The formula as a machine
 

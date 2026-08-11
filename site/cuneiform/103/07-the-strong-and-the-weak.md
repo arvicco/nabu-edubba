@@ -3,8 +3,7 @@ title: "07 · The strong shall not wrong the weak"
 short_title: "07 · The strong"
 description: >-
   The last box falls: law 1 complete, the stele's statement of
-  purpose read whole, and where the course stands — measured — at
-  the end of its first stretch.
+  purpose read whole, and where the course stands, measured.
 layout: chapter
 course: cuneiform-103
 chapter: 7
@@ -151,7 +150,7 @@ Same drill — item by item:
   the genitive -im, exactly as <span class="norm">ḫabālim</span>
   did. It is one of the "thickened" verb shapes
   <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05</a>
-  promised to name properly next stretch: plain
+  promised to name properly in a later chapter: plain
   <span class="norm">ṭâbum</span> is "to be well," this shape
   makes it "to *make* well."
 
@@ -170,13 +169,13 @@ from one identical frame.
 ## Where you stand
 
 Measured against this site's own count of the Old Babylonian
-corpus, the twenty new signs and six veteran readings of this
-stretch — on top of everything Sumerian taught you — cover
+corpus, the twenty new signs and six veteran readings so far
+— on top of everything Sumerian taught you — cover
 about two thirds of all syllable-occurrences in the documents of
 Hammurabi's age. You have read the stele's first sentence-opening,
 its statement of purpose, and its first law in the original. The
-next stretch keeps walking: more laws, the verbal stems that this
-one glossed politely, and the moment the king finally says
+course keeps walking: more laws, the verbal stems glossed
+politely so far, and the moment the king finally says
 <span class="norm">anāku</span> — "I am he."
 
 ## Drill before you go on
@@ -188,8 +187,7 @@ one glossed politely, and the moment the king finally says
 4. Both veterans this chapter carry sounds Sumerian never wrote
    the same way. Name the two sounds.
 
-*This closes the first stretch of Cuneiform 103 — and the second
-begins at once: the plural, in
+*Next: the plural, in
 <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>.
 The
 [Akkadian Addenda]({{ '/cuneiform/addenda-akk/' | relative_url }})

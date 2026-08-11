@@ -2,7 +2,7 @@
 title: "07 · Two sounds in one sign"
 short_title: "07 · Two sounds in one sign"
 description: >-
-  The second stretch opens: mn, nb, and ḥr — signs that carry two
+  mn, nb, and ḥr — signs that carry two
   consonants at once, the layer that makes Egyptian writing compact
   enough for real life.
 layout: chapter
@@ -18,7 +18,7 @@ shows: []
 # Two sounds in one sign
 
 Twenty-six one-sound signs, three royal names, and a whole offering
-formula: that was the opening stretch. If Egyptian stopped there, a
+formula: that was the opening act. If Egyptian stopped there, a
 scribe would spell every word letter by letter, forever, like a
 typist who never learns the shortcuts. Egyptian did not stop there.
 Most signs in a real inscription carry *two* consonants in one

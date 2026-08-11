@@ -49,7 +49,7 @@ and this chapter gives you their endings.
       <td>a corner in the lists</td>
       <td>three vowels wide: it opens
           <span class="norm">epšētum</span>, "deeds," in this
-          chapter, and the stretch's last blessing will close
+          chapter, and a coming blessing will close
           on it</td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@ Item by item:
 - <span class="norm">šāninam</span> — "a rival," accusative,
   waiting for its verb… which sits in the NEXT line of the
   stele, and which you cannot read for one more sign. The
-  boast completes at the stretch's end, where the king finally
+  boast completes six chapters on, where the king finally
   says who he is.
 
 ## Drill before you go on
@@ -203,5 +203,5 @@ Item by item:
    work?
 4. Spell <em>mi-ša-ri-im</em> in signs, from memory.
 
-*Next: the four shapes every verb can wear — and stretch 1's
+*Next: the four shapes every verb can wear — and the course's
 polite deferrals paid in full.*
