@@ -5,6 +5,17 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · Gate 18 closed, phase 19 opened · phase-19 · Owner
+merged PR #23 (9c60ffa). Branched phase-19 from fresh main; phase
+line updated. Scope: .docs/phase-19-plan.md — the workbench, code
+half of the retro batch (.docs/retro-2026-08-11.md, all ten recs
+approved). Order: M19-1 box_line → M19-2 citation-urn lint →
+M19-3 audio cut QA → M19-5 no-second-writer assert → M19-4
+sino_reading_picker (consumes M19-1). Opening sweep also caught a
+leftover uncommitted fix from the gate-close window: three pinyin
+primer rows display zì but voiced zi.mp3 (zǐ, tone 3, 子) —
+repointed at zi-self.mp3 (tone 4) and committed separately.
+
 2026-08-11 · review round (production borders out of prose) ·
 phase-18 · Owner, on ch08's "one chapter left in this stretch":
 the stretch language is irrelevant to the student and only

@@ -179,17 +179,15 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 18 — complete, gate PR pending: S101 stretch 3, the
-sentence at work (ch10–14, 26 chars, cap 40%) — 以 finally
-lands, 可以 and the modal frame, the second number batch, the
-seeing family, 道 itself, and the here-and-now closers; 81
-characters = 27.7% of the classical corpus, every syllable
-voiced; two incidents logged (red-gate semicolon chain, the
-serve/gate build race) with durable fixes.
+Phase 19 — in progress: the workbench (retro batch, code half;
+.docs/phase-19-plan.md, all recs owner-approved 2026-08-11) —
+box_line mechanical boxing, citation-urn lint, audio cut QA
+(duration + envelope), no-second-writer gate assert, and the
+sinograph coverage picker. Phase 20 (process codex, docs half)
+follows; the next content stretch runs on the new workbench.
 
-Gate 17 merged 2026-08-11 (the audio phase: D17-a say.js — the
-reading is the button; primer phonetics voiced; keyword slugs
-replace pinyin slugs codex-wide; loudness normalization −20 dB;
-tone verifier hardened; say-audio lint; all 55 characters
-voiced, absent list empty; PR #22). Update this line at each
-gate.
+Gate 18 merged 2026-08-11 (S101 stretch 3, the sentence at work:
+ch10–14, 26 chars, cap 40%; 81 characters = 27.7% of the
+classical corpus, every syllable voiced; production borders
+swept from prose + lint; right-rim bubble reserve school-wide;
+phases 19–20 queued; PR #23). Update this line at each gate.
