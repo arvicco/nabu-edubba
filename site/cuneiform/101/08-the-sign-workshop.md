@@ -38,8 +38,8 @@ for you since then. It is yours now:
     <tr>
       <td class="script sign-cell">𒊕</td><td>SAG</td><td>head</td><td>[saŋ]</td>
       <td>head; first, foremost</td>
-      <td>the drawn profile of a head, quarter-turned and rebuilt in
-          wedges — you watched it happen in <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a></td>
+      <td>a profile head rebuilt in wedges — see
+          <a href="{{ '/cuneiform/101/02-from-tokens-to-signs/' | relative_url }}">chapter 02</a></td>
     </tr>
   </tbody>
 </table>
@@ -76,9 +76,7 @@ mouth. New meaning, minimal new drawing:
     <tr>
       <td class="script sign-cell">𒅗</td><td>KA</td><td>mouth</td><td>[ka]</td>
       <td>mouth</td>
-      <td>the head with its mouth marked; a busy sign in both
-          corpora — mouths say, eat, and drink, and the script
-          knows it</td>
+      <td>the head, mouth marked</td>
     </tr>
   </tbody>
 </table>
@@ -112,15 +110,13 @@ or portion, not yet yours — one ▢ still owed) written inside:
     <tr>
       <td class="script sign-cell">𒅘</td><td>KA×A</td><td>drink</td><td>[naŋ]</td>
       <td>to drink</td>
-      <td>water in the mouth. Rare in the counted corpora — it is
-          here because no frequent sign teaches the containment move
-          half as clearly</td>
+      <td>water in the mouth; rare but the clearest
+          teacher</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅥</td><td>KA×GAR</td><td>eat</td><td>[gu]</td>
       <td>to eat</td>
-      <td>a portion in the mouth; the everyday verb of ration lists —
-          mid-table in both corpora</td>
+      <td>a portion in the mouth</td>
     </tr>
   </tbody>
 </table>

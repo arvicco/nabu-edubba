@@ -34,21 +34,19 @@ gifts.
     <tr>
       <td class="script sign-cell">𒆕</td><td>KAK</td><td>build</td><td>[du]</td>
       <td>to build; a peg</td>
-      <td>a peg driven in, and the verb of every temple
-          ever raised in this course's readings</td>
+      <td>a peg driven in — the temple-raising verb</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒊒</td><td>RU</td><td>dedicate</td><td>[ru]</td>
       <td>to dedicate</td>
-      <td>the closing verb of the votive genre: <em>a mu-na-ru</em>,
-          "dedicated this to him" — you will read it on real clay
-          below</td>
+      <td>the votive closer — <em>a mu-na-ru</em>,
+          "dedicated it"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂼</td><td>AMA</td><td>mother</td><td>[ama]</td>
       <td>mother</td>
-      <td>the word <a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11</a> had to box; a goddess's favorite title
-          — <em>ama kalam-ma</em>, "mother of the Land"</td>
+      <td><a href="{{ '/cuneiform/102/11-a-dedication-for-real/' | relative_url }}">chapter 11's</a> box, paid: "mother of
+          the Land"</td>
     </tr>
   </tbody>
 </table>

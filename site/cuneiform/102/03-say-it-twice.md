@@ -35,10 +35,9 @@ signs, and one small, versatile grammar habit.
     <tr>
       <td class="script sign-cell">𒉆</td><td>NAM</td><td>fate</td><td>[nam]</td>
       <td>fate, destiny; the abstract-noun prefix</td>
-      <td>its pictorial origin is stated variously across
-          the sign lists, and for once the etymology matters less
-          than the job — prefixed to a concrete word, <em>nam-</em>
-          builds the abstraction (<em>nam-lugal</em>, "kingship")</td>
+      <td>the job over the etymology: <em>nam-</em> before
+          a word builds the abstraction (<em>nam-lugal</em>,
+          "kingship")</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁕</td><td>DA</td><td>side</td><td>[da]</td>
@@ -51,9 +50,8 @@ signs, and one small, versatile grammar habit.
     <tr>
       <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[zu]</td>
       <td>to know; -zu, "your"</td>
-      <td>the knowing sign, and by the same sound the possessive
-          "your" — what is yours is what you know; its picture,
-          honestly, is not established</td>
+      <td>the knowing sign; by the same sound, "your" —
+          picture not established</td>
     </tr>
   </tbody>
 </table>

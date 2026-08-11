@@ -90,22 +90,20 @@ Akkadian reaches for constantly.
     <tr>
       <td class="script sign-cell">𒊭</td><td>ŠA</td><td>which</td><td>[ša]</td>
       <td>the particle <em>ša</em>, "which, of"</td>
-      <td>the busiest little word in Akkadian: it glues nouns to
-          nouns and clauses to clauses — fifth most frequent
-          syllable in the whole Old Babylonian corpus</td>
+      <td>the busiest word in Akkadian — glue for nouns
+          and clauses</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅇</td><td>U₃</td><td>and</td><td>[u]</td>
       <td>the conjunction <em>u</em>, "and"</td>
-      <td>Sumerian mostly did without an "and"; Akkadian says it
-          out loud, and this is its sign</td>
+      <td>Sumerian mostly did without an "and"; Akkadian
+          says it out loud</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌝</td><td>UM</td><td>tether</td><td>[um]</td>
       <td>—</td>
-      <td>the sound every Old Babylonian noun ends on when it is
-          the subject: <em>šarrum</em>, <em>awīlum</em> — learn
-          this sign and you can spot a noun's ending on sight</td>
+      <td>the ending of every noun-subject:
+          <em>šarrum</em>, <em>awīlum</em></td>
     </tr>
   </tbody>
 </table>
@@ -147,10 +145,10 @@ that Sumerian's script had never needed to write:
     <tr><th>Sound</th><th>What it is</th><th>You will meet it</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td><a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>, in the very first line of the stele</td></tr>
-    <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a>, in the king's promise to make the people well</td></tr>
+    <tr><td><strong>ṣ</strong></td><td>an emphatic s — pressed, with an edge</td><td><a href="{{ '/cuneiform/103/02-the-noun-wears-its-case/' | relative_url }}">chapter 02</a>, the stele's opening</td></tr>
+    <tr><td><strong>ṭ</strong></td><td>an emphatic t — the same pressure on t</td><td><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">chapter 07</a>, the king's promise</td></tr>
     <tr><td><strong>q</strong></td><td>an emphatic k — the third of the pressed set</td><td>in the laws' vocabulary: <span class="norm">ḫulluqum</span>, "to destroy"</td></tr>
-    <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td><a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">chapter 06</a>, standing in the middle of <span class="norm">awīlum</span>, "man"</td></tr>
+    <tr><td><strong>w</strong></td><td>plain w, which Sumerian never wrote</td><td><a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">chapter 06</a>, inside <span class="norm">awīlum</span></td></tr>
     <tr><td><strong>y</strong></td><td>the glide y — rare, and often melted into its vowels</td><td>in words like <span class="norm">ayyum</span>, "which one?"</td></tr>
     <tr><td><strong>ʾ</strong></td><td>the glottal stop — a catch in the throat between vowels</td><td><a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/' | relative_url }}">chapter 03</a>, unwritten but audible in <span class="norm">šā'im</span>, "who decrees"</td></tr>
     <tr><td><strong>ā ē ī ū, â</strong></td><td>vowel LENGTH — long vowels that change meaning; the circumflex marks length born from two vowels contracting</td><td>everywhere in bound transcription; the tablet often hints at length by writing the vowel twice</td></tr>

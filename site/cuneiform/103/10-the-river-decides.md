@@ -32,54 +32,38 @@ can exist? — and hands the case to a judge no one can bribe.
     <tr>
       <td class="script sign-cell">𒇉</td><td>ENGUR</td><td>the deep</td><td>[id]</td>
       <td>the sweet waters under the earth</td>
-      <td>Sumer called this sign <em>engur</em>, Enki's deep;
-          Akkadian never voices it alone. It stands only behind
-          <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a>,
-          and the pair 𒀀𒇉 is one word, spoken
-          <span class="norm">Id</span>, the River — the readings
-          print that voice in green capitals, while the sign
-          lists file the pair as ID₂, a name wearing its index
-          exactly like E₂ below. Not
-          <a href="{{ '/cuneiform/103/05-the-verb-arrives/#sign-12009' | relative_url }}">chapter 05's</a>
-          syllable id (the arm), but the god's own name</td>
+      <td>Enki's deep; only behind <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a> —
+          the pair is one word, <span class="norm">Id</span>,
+          the River</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁍</td><td>BU</td><td>tear</td><td>[bu/pu]</td>
       <td>to tear away in the lists</td>
-      <td>the pu of <span class="norm">kišpū</span>, "sorcery" —
-          a word the law can name but never prove</td>
+      <td>the pu of <span class="norm">kišpū</span>,
+          "sorcery" — named, never proven</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅅</td><td>IG</td><td>door</td><td>[ig/ik/iq]</td>
       <td>the door</td>
-      <td>the door-sign, opening on the law's turning point:
-          <em>ik-ta-ša-su</em>, "it has overwhelmed him"</td>
+      <td>the door-sign at the law's turning point</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂍</td><td>E₂</td><td>house</td><td>[bītum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-1208D' | relative_url }}">101's house-sign</a> crosses the
-          border whole, as a sumerogram: written E₂, spoken as
-          the Akkadian word <span class="norm">bītum</span> —
-          and <span class="norm">bīssu</span>, "his estate," is
-          what this law hands the winner</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-1208D' | relative_url }}">101's house-sign</a>, read
+          <span class="norm">bītum</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[lim]</td>
       <td>—</td>
       <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-12146' | relative_url }}">chapter 03's ši-sign</a>
-          gains a second voice: lim, the syllable that closes
-          <em>a-wi-lim</em>, "of a man" — and this law's first
-          accused wears it a few lines down</td>
+          gains lim</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[su]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/03-say-it-twice/#sign-1236A' | relative_url }}">102's knowing-sign</a>
-          softens to su: when -šu melts against a root's last
-          consonant — <em>ik-ta-ša-su</em>,
-          <span class="norm">iktašassu</span> — this sign writes
-          what the melt leaves</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/03-say-it-twice/#sign-1236A' | relative_url }}">102's knowing-sign</a>,
+          now su</td>
     </tr>
   </tbody>
 </table>

@@ -34,33 +34,26 @@ ordinariness is the point. This is what most cuneiform IS.
     <tr>
       <td class="script sign-cell">𒈧</td><td>MAŠ₂</td><td>kid</td><td>[maš]</td>
       <td>the kid goat — and the interest on a loan</td>
-      <td>herds grow by birth, so the scribes named a loan's
-          growth after the newborn goat: interest, measured the
-          herdsman's way. This tablet's second line runs on
-          it</td>
+      <td>a loan's growth is named after the newborn
+          goat: interest, the herdsman's way</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂆</td><td>GIN₂</td><td>shekel</td><td>[šiqlum]</td>
       <td>—</td>
-      <td>the shekel-sign: written GIN₂, spoken as the Akkadian
-          word <span class="norm">šiqlum</span> — the weight
-          all silver moves in, about a month of a worker's
-          wage</td>
+      <td>the shekel — GIN₂, read
+          <span class="norm">šiqlum</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈹</td><td>INANNA</td><td>goddess</td><td>[ištar]</td>
       <td>the goddess's reed-bundle standard</td>
-      <td>the oldest divine signature in writing — the
-          door-post bundle of Inanna; Akkadian mouths say
-          <span class="norm">Ištar</span> where the writing
-          shows her Sumerian name. She dates this tablet</td>
+      <td>Inanna's door-post bundle; Akkadian says
+          <span class="norm">Ištar</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒍝</td><td>ZA</td><td>bead</td><td>[ṣa]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/13-you-are/#sign-1235D' | relative_url }}">102's bead-sign</a>
-          pressed to ṣa: <em>u-ṣa-ab</em>, "it will grow" — the
-          interest line's own syllable</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/13-you-are/#sign-1235D' | relative_url }}">102's bead-sign</a>,
+          pressed to ṣa</td>
     </tr>
   </tbody>
 </table>

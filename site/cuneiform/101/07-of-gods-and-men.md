@@ -28,20 +28,19 @@ have been hiding inside a sign you already write.
     <tr>
       <td class="script sign-cell">𒇽</td><td>LU₂</td><td>man</td><td>[lu]</td>
       <td>man, person</td>
-      <td>the field's ASCII writes it <em>lu2</em>. Its
-          pictorial past is opaque — learn the shape</td>
+      <td>the field's ASCII writes it <em>lu2</em>;
+          pictorial past opaque</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒃲</td><td>GAL</td><td>big</td><td>[gal]</td>
       <td>big, great</td>
-      <td>its pictorial origin is not transparent in the
-          late form — but watch what it builds, below</td>
+      <td>origin opaque — watch what it builds, below</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌉</td><td>TUR</td><td>child</td><td>[dumu], tur</td>
       <td>child, son; small</td>
-      <td>one sign for both "small" and "child" — the
-          logic is visible from across four millennia</td>
+      <td>one sign for "small" and "child" — the logic
+          shows</td>
     </tr>
   </tbody>
 </table>

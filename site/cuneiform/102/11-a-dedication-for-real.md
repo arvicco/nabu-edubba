@@ -32,14 +32,14 @@ batch in a long while, like <a href="{{ '/cuneiform/102/05-a-dedication-whole/' 
     <tr>
       <td class="script sign-cell">𒋧</td><td>SUM</td><td>give</td><td>[šum]</td>
       <td>to give</td>
-      <td>a bundle of onions in origin, the standard lists say — the
-          giving verb of gods and administrators alike</td>
+      <td>a bundle of onions, the lists say — the giving
+          verb</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄿</td><td>I</td><td>cry</td><td>[i]</td>
       <td>the bare vowel i</td>
-      <td>five wedges for one small sound; spells names, professions,
-          and — doubled — the verb "to bring forth, to proclaim"</td>
+      <td>five wedges, one small sound; doubled, "to
+          proclaim"</td>
     </tr>
   </tbody>
 </table>

@@ -39,19 +39,14 @@ left hanging in the air.
     <tr>
       <td class="script sign-cell">𒌌</td><td>UL</td><td>never</td><td>[ul]</td>
       <td>the flat no of statements</td>
-      <td>Akkadian's second negation:
-          <a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05's</a>
-          lā denies inside the law's conditions; ul denies flat
-          out — "my deeds have NO rival" — and it closes the
-          sentence you have been waiting five chapters to
-          finish</td>
+      <td><a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">chapter 05's</a> lā denies inside
+          conditions; ul denies flat out</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td>[ṭi]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-12072' | relative_url }}">102's verdict-sign</a>
-          pressed to ṭi: <em>li-ṭi-ib</em>, "may he make well" —
-          the blessing this chapter walks in on</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-12072' | relative_url }}">102's verdict-sign</a>,
+          pressed to ṭi</td>
     </tr>
   </tbody>
 </table>
