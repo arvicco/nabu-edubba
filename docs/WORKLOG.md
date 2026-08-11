@@ -5,6 +5,20 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (production borders out of prose) ·
+phase-18 · Owner, on ch08's "one chapter left in this stretch":
+the stretch language is irrelevant to the student and only
+confuses — remove it and everything tied to these temporary
+borders. Swept site-wide: ~120 lines across all three schools
+rewritten to speak in chapters and content; physical senses of
+the word ("hare at full stretch") rephrased so the ban stays
+total and the lint trivial; stale calendar deferrals fixed en
+route (102's index promised 103 "in a later phase" — it is
+live; ch09's next-up promise now describes what ch10 actually
+teaches). Law in CLAUDE.md content rules; production-vocab lint
+(bans "stretch" and later/next/future-phase talk in site prose)
+with the owner's exact ch08 line as a test fixture.
+
 2026-08-11 · M18-1..M18-7 (stretch 3 complete) · phase-18 · The
 sentence at work, ch10–14, 26 characters, cap 40%. Every reading
 verified against its Kanripo witness BEFORE writing (the stretch's
