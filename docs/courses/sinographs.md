@@ -148,6 +148,21 @@ site-wide laws into writing order.
   every component it is analyzed into has been taught. Compound
   pool rows carry `parts:`; the compiler and the queue contract
   test enforce the ordering.
+- **The meaning law (owner ruling 2026-08-11, after 知其白 shipped
+  as word-dust):** a reading is TAUGHT, not displayed. Every
+  reading must leave a first-time reader knowing what the saying
+  MEANS — the point, the claim, what the tradition took from it —
+  in plain words, in the prose around the figure or the gloss's
+  tail. Translation is not meaning; the box inventory is
+  bookkeeping, never interpretation; a paraphrase that restates
+  the same riddle ("know the bright side, hold to the dark") is
+  not an explanation. The test: a student who has never met the
+  saying, and who by design has no grammar book, closes the figure
+  knowing why anyone said this and what it is FOR. Aphorisms and
+  paradoxes — the Laozi's above all — get their sense stated flat,
+  in the mainstream interpretive reading, hedged only where the
+  tradition genuinely divides. Enforcement: owner review (ledger);
+  the pre-flight checklist carries the line.
 - **Return-arc planning (M20-5, ruled 2026-08-11):** a course
   segment's plan names its RETURN ARCS up front — which earlier
   readings come back, at which chapter, at what expected box
@@ -397,3 +412,4 @@ script/lint.rb's header; "owner review" is a disposition.
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced, this school) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
+| Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |

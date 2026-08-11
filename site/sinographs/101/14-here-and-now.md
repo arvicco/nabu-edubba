@@ -104,7 +104,7 @@ in <a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">chapte
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">其所▢者▢，而其所▢者▢，</span><span class="translit pinyin">qí suǒ hòu zhě bó, ér qí suǒ bó zhě hòu</span><span class="gloss">"that what he should treat as weighty is treated thinly, and what he treats thinly comes out weighty" — 所…者 makes "the what-is-X-ed"; the boxes alternate "thick" and "thin"</span></div>
+    <div class="reading-line"><span class="script">其所▢者▢，而其所▢者▢，</span><span class="translit pinyin">qí suǒ hòu zhě bó, ér qí suǒ bó zhě hòu</span><span class="gloss">"that what he should treat as weighty is treated thinly, and what he treats thinly comes out weighty" — in plain terms: neglect the essentials while fussing over trifles, and expect it to work out. It never has, says the next line. 所…者 makes "the what-is-X-ed"; the boxes alternate "thick" and "thin"</span></div>
     <div class="reading-line"><span class="script">未之有也。</span><span class="translit pinyin">wèi zhī yǒu yě</span><span class="gloss">"such a thing has never been" — the very first sentence you ever read whole, returned at zero boxes</span></div>
   </div>
   <figcaption class="citation">
@@ -122,7 +122,7 @@ in hand:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢之道，以▢今之有。</span><span class="translit pinyin">zhí gǔ zhī dào, yǐ yù jīn zhī yǒu</span><span class="gloss">"grasp the Way of old to steer what is here now" — the boxes are "grasp", "of-old", "steer"; 今之有, "what now exists", stands fully readable</span></div>
+    <div class="reading-line"><span class="script">▢▢之道，以▢今之有。</span><span class="translit pinyin">zhí gǔ zhī dào, yǐ yù jīn zhī yǒu</span><span class="gloss">"grasp the Way of old to steer what is here now" — the oldest knowledge as the steering gear for the present moment: that is what the classics believe they are for. The boxes are "grasp", "of-old", "steer"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14 — the chapter of the faceless Way, closing

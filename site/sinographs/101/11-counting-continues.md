@@ -111,13 +111,26 @@ side. The *Laozi* sets it against its shadow:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知其白，▢其▢，為天下▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi, wéi tiān xià shì</span><span class="gloss">"know its white, keep its black, and be a pattern for the world" — the boxes are "keep", "black", "pattern"; know the bright side, hold to the dark one</span></div>
+    <div class="reading-line"><span class="script">知其白，▢其▢，為天下▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi, wéi tiān xià shì</span><span class="gloss">"know its white, keep its black, and be a pattern for the world" — the boxes are "keep", "black", "pattern"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 28.
     <code>urn:nabu:kanripo:KR5c0057:028:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+What is it actually saying? White and black here are fame and
+obscurity. The white is the lit side of life — being seen,
+known, praised; the black is the unlit side — being nobody. The
+advice is deliberately backwards: understand exactly what it
+takes to shine, and then choose the shadow anyway. Whoever can
+do that, says the *Laozi*, becomes the pattern — the model
+others end up measuring themselves against — precisely because
+they never competed for it. It is the same upside-down
+move as
+<a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">chapter 07's</a>
+無為: the *Laozi* keeps insisting that the way to first place
+is to stop racing for it.
 
 ## Where the count stands
 

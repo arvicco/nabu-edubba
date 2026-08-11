@@ -81,7 +81,7 @@ words, each said twice:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — each noun becomes its own verb; the boxed pair is "father", two chapters away</span></div>
+    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — the whole Confucian theory of order in four doubled words: a state runs when every person actually IS what their role demands, starting at the top. Each noun becomes its own verb; the boxed pair is "father", two chapters away</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 12.11 — the duke's delighted reply begins

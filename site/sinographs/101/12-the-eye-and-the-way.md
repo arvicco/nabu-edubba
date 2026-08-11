@@ -94,7 +94,7 @@ to each other:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有無相生，▢▢相▢。</span><span class="translit pinyin">yǒu wú xiāng shēng, nán yì xiāng chéng</span><span class="gloss">"being and non-being beget each other; hard and easy complete each other" — the first clause entirely yours; the second's boxes are "hard", "easy", "complete"</span></div>
+    <div class="reading-line"><span class="script">有無相生，▢▢相▢。</span><span class="translit pinyin">yǒu wú xiāng shēng, nán yì xiāng chéng</span><span class="gloss">"being and non-being beget each other; hard and easy complete each other" — the point: opposites create each other. Call something easy and you have invented "hard"; call something beautiful and ugliness is born. Every judgment drags its shadow in with it — the first clause entirely yours</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2 — the chain runs on: long and short, high
@@ -110,7 +110,7 @@ has no face to meet and no back to follow:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢之不見其首，▢之不見其▢。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu, suí zhī bù jiàn qí hòu</span><span class="gloss">"go to meet it and you do not see its head; follow it and you do not see its back" — the boxes are "meet", "follow", "back"; both 不見 clauses are fully yours</span></div>
+    <div class="reading-line"><span class="script">▢之不見其首，▢之不見其▢。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu, suí zhī bù jiàn qí hòu</span><span class="gloss">"go to meet it and you do not see its head; follow it and you do not see its back" — the Way has no front to confront and no end to chase: you cannot corner it, only move with it. The boxes are "meet", "follow", "back"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14.

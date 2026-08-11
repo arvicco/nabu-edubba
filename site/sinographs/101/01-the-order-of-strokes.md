@@ -137,7 +137,7 @@ duty:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢一，一▢二，二▢三。</span><span class="translit pinyin">dào shēng yī, yī shēng èr, èr shēng sān</span><span class="gloss">"the Way gives birth to one; one gives birth to two; two gives birth to three" — and the line runs on: "…and three gives birth to the ten thousand things." The boxed character between every pair is the same: watch its shape, you will own it soon</span></div>
+    <div class="reading-line"><span class="script">▢▢一，一▢二，二▢三。</span><span class="translit pinyin">dào shēng yī, yī shēng èr, èr shēng sān</span><span class="gloss">"the Way gives birth to one; one gives birth to two; two gives birth to three" — and the line runs on: "…and three gives birth to the ten thousand things." It is the Laozi's account of how the world came to be: from the Way, one step at a time, to everything there is. The boxed character between every pair is the same: watch its shape, you will own it soon</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 42.

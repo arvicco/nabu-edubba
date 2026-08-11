@@ -29,7 +29,7 @@ elephant is invisible now; the doing never stopped.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">為無為，▢無▢，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — 為 opening the most famous paradox in Daoist thought</span></div>
+    <div class="reading-line"><span class="script">為無為，▢無▢，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — act without forcing, and things come right on their own: 為 opening the most famous paradox in Daoist thought</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 63.

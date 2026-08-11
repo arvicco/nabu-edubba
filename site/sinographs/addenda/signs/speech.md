@@ -29,7 +29,7 @@ talking.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">名不正，則言不順。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not right, speech does not flow" — 言 in the rectification of names, its starring sentence</span></div>
+    <div class="reading-line"><span class="script">名不正，則言不順。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not right, speech does not flow" — words only work when they match the things they name; 言 in the rectification of names, its starring sentence</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.3.

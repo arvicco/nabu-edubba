@@ -95,7 +95,10 @@ characters:
 
 Read it aloud. Twenty-four of its thirty characters are yours,
 and every one of its bones — 而, 之, 不亦…乎, 自…來 — you can
-name.
+name. And notice what the three questions add up to: learning
+made sweet by practice, friendship worth the longest road, and
+worth that does not need an audience — the book opens with its
+picture of a good life, whole in three breaths.
 
 ## In its season
 
@@ -151,7 +154,7 @@ zero boxes:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">仁者安仁。</span><span class="translit pinyin">rén zhě ān rén</span><span class="gloss">"the humane person is at peace in humaneness" — every character yours; the unforced goodness the whole book aims at</span></div>
-    <div class="reading-line"><span class="script">▢子之道，▢▢而已矣。</span><span class="translit pinyin">fū zǐ zhī dào, zhōng shù ér yǐ yǐ</span><span class="gloss">"the Master's way is devotion and consideration — and that is all" — the boxes are "master", "devotion", "consideration"; 而已矣, "and no more than that", closes the argument with today's 已</span></div>
+    <div class="reading-line"><span class="script">▢子之道，▢▢而已矣。</span><span class="translit pinyin">fū zǐ zhī dào, zhōng shù ér yǐ yǐ</span><span class="gloss">"the Master's way is devotion and consideration — and that is all" — "consideration" is the virtue the Master elsewhere fits into one rule: what you would not want done to you, do not do to others. A disciple asked for the whole teaching; this was the answer. The boxes are "master", "devotion", "consideration"; 而已矣, "and no more than that", closes with today's 已</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 4.2 and 4.15.

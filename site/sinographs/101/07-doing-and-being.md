@@ -113,10 +113,16 @@ With 為 and 無 the whole saying unfolds:
 </figure>
 
 無為, *wú wéi* — "doing-without-doing" — is the most famous two
-characters of Daoist thought, and you now read both. Notice the
-pattern of the sentence: VERB 無 VERB, three times; classical
-prose loves a mold, and once you see the mold you can pour any
-verb into it.
+characters of Daoist thought, and you now read both. But what
+does doing-without-doing *mean*? Not laziness. The *Laozi*'s
+claim is that forcing things breaks them: the best ruler barely
+seems to govern, and the state runs; the best work does not feel
+like straining; push against the river and it drowns you, move
+with it and it carries you. 為無為 is advice to act the way
+water acts — effective without effort, never forcing. Now notice
+the pattern of the sentence: VERB 無 VERB, three times;
+classical prose loves a mold, and once you see the mold you can
+pour any verb into it.
 
 ## The teacher arrives, the root grows
 
@@ -125,7 +131,7 @@ Two returns, each closer to open:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">三人行，▢有我▢▢。</span><span class="translit pinyin">sān rén xíng, bì yǒu wǒ shī yān</span><span class="gloss">"when three walk together, my teacher is surely there" — 我 takes its place: MY teacher; only "surely," "teacher," and the final particle stay boxed</span></div>
-    <div class="reading-line"><span class="script">本▢而▢生。</span><span class="translit pinyin">běn lì ér dào shēng</span><span class="gloss">"when the root is set, the Way grows" — 生 sprouting at the end of the old root sentence; the boxed pair are "is set" and "the Way"</span></div>
+    <div class="reading-line"><span class="script">本▢而▢生。</span><span class="translit pinyin">běn lì ér dào shēng</span><span class="gloss">"when the root is set, the Way grows" — the root is care close to home, family feeling; get that planted, says the saying, and the whole moral Way grows out of it. 生 sprouts at the end of the old root sentence; the boxed pair are "is set" and "the Way"</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>Analects</em> 7.22 — the fourth visit ·
