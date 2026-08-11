@@ -125,6 +125,26 @@ meant for readers; nothing internal lands in `docs/`.
        - compare: <URL> — click <syllable A> then <syllable B>
          (different sources) — EXPECT no loudness jump
 
+6c. **Before writing a chapter** (M20-2) — the owner taste rulings
+   in the order they bite during writing. Each line compresses a law
+   recorded elsewhere (cited); this list never replaces it.
+   - [ ] witness VERIFIED first — the reading's URN is in the phase
+         plan before a word is drafted (rulebook §-Readings; the §9
+         instruments are the mechanical lanes)
+   - [ ] famous line over obscure, trimmed to its readable clause —
+         the gloss carries the rest (box-share law)
+   - [ ] taught company around every new sign: it debuts amid known
+         signs, never wild-among-wilds (nothing-untaught, CLAUDE.md)
+   - [ ] box mechanically — bin/box_line.rb, never by head; share
+         under the chapter cap (sinographs §5 cap law)
+   - [ ] no production vocab in prose — chapters and content, never
+         stretches and phases (owner ruling 2026-08-11)
+   - [ ] every new sign USED in its own chapter, immediately; taught
+         exactly once, ever (owner rulings 2026-07-31)
+   - [ ] the syllable voiced and the codex page written in the SAME
+         commit as the chapter (sinographs §2/§8; complete-shelf)
+   - [ ] the return arc named in the stretch plan is DELIVERED at
+         its promised chapter (return-arc law, rulebook §-Pedagogy)
 7. **Pre-gate: README.md current** — honest about what does not work
    yet. A phase is not gate-ready with a stale README.
 8. **One PR per phase** (owner ruling 2026-07-29): all of a phase's

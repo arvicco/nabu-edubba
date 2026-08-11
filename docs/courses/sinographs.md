@@ -111,6 +111,10 @@ fallback. Recorded in docs/concept.md §7.
 
 ## 5 · Corpus, ordering, licenses
 
+Before writing any chapter, run the author pre-flight checklist
+(docs/DEV-LOOP.md §4 item 6c) — it compresses this section and the
+site-wide laws into writing order.
+
 - Teaching order follows the ratified frequency-AND-simplicity
   methodology (concept §3): character frequency computed over the
   CLASSICAL corpus (a licensed Kanripo slice as the base), never
