@@ -5,6 +5,7 @@ require_relative "course_check"
 require_relative "rulebook"
 require_relative "value_check"
 require_relative "font_metrics"
+require_relative "../bin/pinyin_audio" # tone_of — the canonical tone reader
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -588,13 +589,31 @@ module Edubba
     # say-audio (sinographs rulebook §2; owner report 2026-08-11 —
     # pǐn shipped silent): in a sign-table row the reading IS the
     # button, so a pinyin span on a sign-cell line must sit inside
-    # an a.say link; and every say-link on any page must point at
-    # an audio file that exists in the tree.
+    # an a.say link; every say-link on any page must point at an
+    # audio file that exists in the tree; and the tone the link
+    # DISPLAYS must be the tone the file DECLARES in the audio
+    # manifest (the zì/zǐ class, 2026-08-11: three primer links
+    # showed 4th tone and played 3rd — the generator verifies files
+    # against declared tones, but nothing checked links against
+    # files until now).
     SAY_LINK = %r{<a class="say" href="\{\{ '(?<href>/assets/audio/[^']+)' \| relative_url \}\}"}
     PINYIN_SPAN = /<span class="translit pinyin">(?<body>[^<]*)</
     VOICED_SPAN = %r{<a class="say"[^>]*>\s*<span class="translit pinyin">}
+    SAY_PINYIN_LINK = %r{<a class="say" href="\{\{ '/assets/audio/pinyin/(?<slug>[^.']+)\.mp3' \| relative_url \}\}"[^>]*>\s*<span class="translit pinyin">(?<shown>[^<]+)</span>}
+    SAY_MANIFEST = File.expand_path("../assets-src/data/pinyin-audio-sources.yml", __dir__)
 
-    def check_say_audio(site_dir, path, text)
+    # slug => declared pinyin, memoized per manifest path (tests
+    # inject fixtures).
+    def say_declared(manifest)
+      @say_declared ||= {}
+      @say_declared[manifest] ||= begin
+        require "yaml"
+        sources = (YAML.safe_load_file(manifest)["sources"] rescue nil) || {}
+        sources.transform_values { |s| s["pinyin"].to_s }
+      end
+    end
+
+    def check_say_audio(site_dir, path, text, manifest: SAY_MANIFEST)
       return [] unless path.end_with?(".md")
 
       found = []
@@ -617,6 +636,20 @@ module Edubba
 
         found << Violation.new(path, "say-audio",
                                "say-link target #{href} does not exist in the site tree")
+      end
+      text.scan(SAY_PINYIN_LINK) do
+        slug, shown = Regexp.last_match[:slug], Regexp.last_match[:shown]
+        declared = say_declared(manifest)[slug]
+        next if declared.nil? || declared.empty?
+
+        heard = Edubba::PinyinAudio.tone_of(declared)
+        read = Edubba::PinyinAudio.tone_of(shown)
+        next if heard == read
+
+        found << Violation.new(path, "say-audio",
+                               "say-link shows #{shown.inspect} (#{read}) but #{slug}.mp3 is " \
+                               "declared #{declared.inspect} (#{heard}) — the ear must hear the " \
+                               "tone the eye reads (zì/zǐ class, 2026-08-11)")
       end
       found
     end
