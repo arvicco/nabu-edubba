@@ -81,8 +81,10 @@ fallback. Recorded in docs/concept.md §7.
   regenerate into CREDITS-syllables.txt. The say-audio lint
   (owner request 2026-08-11, after pǐn shipped silent) enforces
   the law's surface: a sign-table reading that is not a say-link
-  fails the gate, and every say-link must point at a file that
-  exists in the tree.
+  fails the gate, every say-link must point at a file that
+  exists in the tree, and the tone a link DISPLAYS must be the
+  tone its file's manifest entry DECLARES (the zì/zǐ class,
+  2026-08-11 — the ear must hear the tone the eye reads).
 
 ## 3 · The keyword law
 
@@ -271,8 +273,9 @@ Live since the first content commit (2026-08-10):
   registers in SINO_CONTEXTS with its cuneiform counterpart floor
   and must exceed it.
 - **queue contract** (test): required fields, char/codepoint match,
-  keyword uniqueness, digit-free pinyin, 1–3 fresh per chapter,
-  monotonic coverage; the compiler additionally cross-checks pinyin
+  keyword uniqueness, digit-free pinyin, 5–6 fresh per chapter
+  (the §5 chapter dial; this line said "1–3" until the 2026-08-11
+  ledger audit caught the drift), monotonic coverage; the compiler additionally cross-checks pinyin
   against Unihan kMandarin and enforces codex-slug uniqueness.
 - **codex registry** (rulebook.rb): keyword invariance and
   page-slug matching on the Addenda shelf (§8); the complete-shelf
@@ -302,3 +305,38 @@ Live since the first content commit (2026-08-10):
   origin, certainty-labeled), how to remember it (the keyword
   hook — this is where the memory-hook technique is applied), in
   the wild (one real cited attestation).
+
+## 9 · Law ledger
+
+The audit table (M20-4); same reading rules as the cuneiform
+ledger (§10 there): site-wide laws live in CLAUDE.md +
+script/lint.rb's header; "owner review" is a disposition.
+
+| Law | Recorded | Enforcing check |
+|---|---|---|
+| Classical-first thesis; point at tools, don't duplicate | §1 | owner review (direction) |
+| Pinyin diacritics, never tone numbers | §2 | `pinyin-display` lint |
+| Audio: CC BY/BY-SA only, never NC, never TTS | §2 | bin/pinyin_audio.rb license gate (refusal) |
+| Every clip sings its declared tone | §2 | pinyin_audio pitch verifier (refusal) |
+| Every clip is one syllable's span | §2 | pinyin_audio cut QA — duration + humps (M19-3) |
+| Loudness −20 dB mean / −1 dB peak | §2 | pinyin_audio normalization at encode |
+| The reading is the button (sign tables) | §2 | `say-audio` lint (mute check) |
+| Say-links resolve to real files | §2 | `say-audio` lint (dead-target check) |
+| Displayed tone = the file's declared tone | §2 | `say-audio` lint (tone agreement, 2026-08-11) |
+| Absent syllables reported, never faked | §2 | manifest `absent:` + generator report |
+| Keyword unique school-wide | §3 | compiler + queue contract + rulebook codex |
+| Keywords grounded in classical sense (Kroll) | §3 | owner review |
+| Traditional forms are the base | §4 | owner review; Serif TC subset renders traditional |
+| Frequency-AND-simplicity ordering, classical corpus | §5 | sino_freq + compiler, deterministic over committed inputs; contract tests |
+| 5–6 fresh characters per chapter | §5 | compiler + sino_queue_contract_test |
+| Box-share cap, declining by stretch | §5 | `box-share` lint; box_line instrument (M19-1) |
+| Components before compounds (`parts:`) | §5 | compiler + queue contract test |
+| Witness verified BEFORE writing (URN in plan) | §5 | process — pre-flight 6c + DEV-LOOP §9 instruments; `citation-urn` guards the shipped figure |
+| URN + license per quoted source; AXES entry | §5 | urn_links plugin (build); `citation-urn` lint |
+| Syllable voiced in the same commit | §5 | `say-audio` mute check (an unvoiced new row fails) |
+| Codex page in the same commit | §5/§8 | complete-shelf check (rulebook.rb) |
+| Size law: Han bigger than other scripts everywhere | §6 | style_guard SINO_CONTEXTS tests |
+| Han runs sit in `script` spans | §6 | font-coverage guards tofu; span discipline owner review |
+| Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
+| Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
+| Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |

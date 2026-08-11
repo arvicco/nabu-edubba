@@ -5,6 +5,28 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M20-4 (law ledgers ×3 + gap audit) · phase-20 ·
+Closing ledger section in every school rulebook: law → where
+recorded → enforcing check, no blank cells; site-wide laws stated
+once (CLAUDE.md + lint.rb header), "owner review" a deliberate
+disposition. The audit's finds and dispositions: (1) sinographs §7
+claimed the queue contract enforces "1–3 fresh per chapter" while
+the test enforces the §5 chapter dial's 5–6 — doc drift in three
+surfaces (rulebook, test header, compiler header), all corrected;
+(2) the one-visual-line law (script never wraps) lived in CSS with
+no guard — style_guard test pinned on the spot; (3) the say-audio
+tone-agreement rule (shipped in the phase-19 inbox round) was
+enforced but unrecorded in rulebook §2 — clause added; (4)
+cuneiform's chapter-opening law (1–3 thematic, used at once) has
+no compiler behind it, unlike sinographs' — ledgered as owner
+review with the disposition that a queue compiler joins any NEW
+cuneiform course before its content; (5) hieroglyphs' ≡-join law
+re-examined and left as review (bare = is unregexable in
+Markdown+HTML source, as §8 records); (6) hiero museum exhibits
+now cite the reading--monument class M19-2 created. Everything
+else already had its check — the loop's law-follows-report habit
+held better than feared.
+
 2026-08-11 · Gate 19 closed, phase 20 opened · phase-20 · Owner
 merged PR #24 (7bd35ba). Branched phase-20 from fresh main; phase
 line updated. Scope: .docs/phase-20-plan.md — the process codex,

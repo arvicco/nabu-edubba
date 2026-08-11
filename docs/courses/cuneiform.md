@@ -648,3 +648,50 @@ content exists.
   green voice-mark outright.) The debt table now stands
   empty; a new
   entry may only be added by owner ruling, dated.
+
+## 10 · Law ledger
+
+The audit table (M20-4): every law of THIS rulebook → where it is
+recorded → what enforces it. "owner review" is a deliberate
+disposition, not a blank; site-wide laws (no-JS, front matter, link
+hygiene, font coverage, production vocab, terms, chapter links,
+citation-urn, hover-bubble geometry, taught-once, untaught-sign)
+are recorded in CLAUDE.md and enforced by the standing checks
+listed in script/lint.rb's header — not repeated per school.
+
+| Law | Recorded | Enforcing check |
+|---|---|---|
+| Subscript indexes in displayed translit | §1 | `subscript-index` lint; subscript_render_test |
+| ŋ never ĝ; no accent indexes | §1 | rulebook.rb notation patterns |
+| Plain h, š in display; names in CAPS | §1 | owner review (legit mentions defeat a regex) |
+| Reads = phonetic brackets; ";" splits lexemes | §1 | registry structure (display code reads it); bracket content owner review |
+| CDLI/ETCSL conventions never merged | §2 | fold tables in bin pickers; verbatim quotes owner review |
+| Script columns OSL-resolved, never from memory | §3 | authoring instrument (`nabu signs`/`char`, DEV-LOOP §9); owner review |
+| CDLI/ETCSL license labels | §3 | rulebook.rb license checks |
+| Every reading cites its witness URN | §3 | `citation-urn` lint |
+| No damaged lines; approximate names say so | §3 | owner review |
+| Back-references link at the mention | §4 | `chapter-link` lint (chapters); sign_links plugin + test (signs); course mentions owner review |
+| Titles/labels speak the student's language | §4 | `title-language` + `nav-label` lints |
+| Walkthrough, paradigm and demonstration laws | §4–5 | owner review (prose judgment) |
+| Chapter opens 1–3 thematic signs, used at once | §5 | owner review — GAP noted 2026-08-11: no compiler guards cuneiform openings (sinographs' does); a queue compiler joins any NEW cuneiform course before its content |
+| A sign is taught exactly once | §5 | taught_once_test |
+| Nothing untaught; `shows:` never licenses a reading | §5 | course_check (untaught-sign, shows-in-reading) |
+| A reading line is one visual line (script never wraps) | §5 | stylesheet + style_guard test (pinned 2026-08-11, this audit) |
+| Columns never cut text (script fits or stacks) | §5 | `reading-width` lint (real font metrics) |
+| Cells hold labels, not sentences | §5 | `tail-fit-width` lint (60-char tail, 180/n labels) |
+| Codex identity: keyword unique, page per sign, name-slug | §7 | rulebook.rb codex + complete-shelf checks |
+| Two-heading honesty (origin cited vs hook owned) | §7 | owner review; the wild's citation via `citation-urn` |
+| Codex attested line carries no ▢ | §7 | `codex-reads` lint |
+| Spiral warm-up (N−1/−2/−4/−8, generated) | §8 | warmup_test; layout renders from registries |
+| Drills deterministic; twelve dealt cuts | §8 | drills_test, deck_contract_test |
+| Study decks attribution-only | §8 | exporter hard-fails non-attribution URNs; deck_contract_test |
+| Read-it-cold repeats, never introduces | §8 | cold_read_test |
+| Reinforcement selection informs line choice | §8 | picker scores (instrument); authoring owner review |
+| Akkadian display folds; no homophone indexes in readings | §9 | `akk-translit` lint |
+| Voice-marking (green logo spans, paired) | §9 | `reading-logo` lint |
+| A reading reads, never cites (no dots) | §9 | `reading-cites` lint |
+| A reading speaks only taught values; debt table owner-only | §9 | value_check (gate) |
+| Language separation; keyword invariance across codices | §9 | rulebook.rb cross-codex check |
+| Veteran routing by course (sux/akk seats) | §9 | sign_links plugin + sign_linker_test |
+| Normalization register distinct, never alone | §9 | owner review |
+| OB ordering on its own frequency base | §9 | akk_seq instrument over committed tables |
