@@ -198,6 +198,15 @@ its own phase done; no opportunistic refactors; owner-facing
 verification asks are always SPECIFIC (exact commands, files, and what
 good/bad looks like).
 
+Structured edits over text replaces (M20-3): machine-read YAML/data
+files are edited only via (a) a loader → mutate → dump round-trip, or
+(b) a script whose every replacement is ANCHOR-ASSERTED — assert the
+anchor exists exactly once BEFORE replacing, fail loud otherwise.
+Blind text substitution on files that carry comments is banned: both
+manifest splice incidents (phase 17/18) were header-comment
+collisions, where a comment happened to contain the literal key
+string the replace was aimed at.
+
 One writer per output dir (M19-5; 2026-08-11 incident — a live
 `jekyll serve` regenerated into the gate's build dir mid-gate and 110
 phantom failures shipped into the report): every long-running process
