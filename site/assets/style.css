@@ -300,7 +300,8 @@ img, svg { max-width: 100%; }
   border-bottom: 1px solid var(--rule);
   padding-bottom: 0.3rem;
 }
-.course-sidebar-school:first-child { margin-top: 0; }
+.course-sidebar-school-details:first-child .course-sidebar-school { margin-top: 0; }
+.course-sidebar-school { cursor: pointer; }
 .course-sidebar-school a { color: inherit; text-decoration: none; }
 .course-sidebar-school a:hover { text-decoration: underline; }
 
@@ -378,8 +379,10 @@ img, svg { max-width: 100%; }
     overflow-y: auto;
     scrollbar-width: thin;
   }
-  .course-sidebar-details summary { list-style: none; }
-  .course-sidebar-details summary::-webkit-details-marker { display: none; }
+  .course-sidebar-details summary,
+  .course-sidebar-school-details summary { list-style: none; }
+  .course-sidebar-details summary::-webkit-details-marker,
+  .course-sidebar-school-details summary::-webkit-details-marker { display: none; }
 }
 
 @media (max-width: 1099.9px) {
