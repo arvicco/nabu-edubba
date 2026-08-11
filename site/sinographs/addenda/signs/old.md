@@ -30,7 +30,7 @@ Ten mouths told it before it reached yours: **old**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">古之▢者為▢，今之▢者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wéi jǐ, jīn zhī xué zhě wéi rén</span><span class="gloss">"the learners of old learned for themselves; the learners of today learn for others" — the boxes are "learn" (twice) and "self"; 古之…今之…, the tradition's favorite then-versus-now frame</span></div>
+    <div class="reading-line"><span class="script">古之▢者為▢，今之▢者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wéi jǐ, jīn zhī xué zhě wéi rén</span><span class="gloss">"the learners of old learned to better themselves; today's learners learn to impress others" — study as self-improvement against study as showing off. The boxes are "learn" (twice) and "self"; 古之…今之…, the tradition's then-versus-now frame</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 14.24.

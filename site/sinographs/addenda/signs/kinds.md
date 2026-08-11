@@ -28,7 +28,7 @@ disagree, the world has **kinds**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">雲行雨施，品物流形。</span><span class="translit pinyin">yún xíng yǔ shī, pǐn wù liú xíng</span><span class="gloss">"clouds move and rain falls; the kinds of things flow into form" — the Changes on creation, sorting the world</span></div>
+    <div class="reading-line"><span class="script">雲行雨施，品物流形。</span><span class="translit pinyin">yún xíng yǔ shī, pǐn wù liú xíng</span><span class="gloss">"clouds drift, rain falls, and the world's many kinds of things take shape" — the Changes on how creation works: no maker, just weather and time sorting everything into its kind</span></div>
   </div>
   <figcaption class="citation">
     <em>Zhouyi</em>, hexagram Qian.

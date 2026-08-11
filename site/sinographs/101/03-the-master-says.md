@@ -161,7 +161,7 @@ And the other three compounds, each in a real line:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢明明▢。</span><span class="translit pinyin">zài míng míng dé</span><span class="gloss">"…lies in brightening bright virtue" — the opening sentence of the Great Learning: 明 twice running, first as the verb "to brighten," then inside "bright virtue"</span></div>
     <div class="reading-line"><span class="script">▢▢旦旦。</span><span class="translit pinyin">xìn shì dàn dàn</span><span class="gloss">"your oaths were dawn-bright, over and over" — the Songs' jilted lover, doubling 旦 for emphasis; the line goes on "— I never thought you would turn"</span></div>
-    <div class="reading-line"><span class="script">休▢，大人▢。</span><span class="translit pinyin">xiū pǐ, dà rén jí</span><span class="gloss">"the blockage rests: for the great, good fortune" — the Changes turning 休 from a nap under a tree into relief itself; 大人, "the great one", is two of your first characters</span></div>
+    <div class="reading-line"><span class="script">休▢，大人▢。</span><span class="translit pinyin">xiū pǐ, dà rén jí</span><span class="gloss">"the deadlock eases — good fortune for the great one" — a line from the hexagram of stuck times: even a standstill takes a rest, and the strong come through it. The Changes turn 休 from a nap under a tree into relief itself; 大人, "the great one", is two of your first characters</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>The Great Learning</em> (Daxue), opening, in a Ming

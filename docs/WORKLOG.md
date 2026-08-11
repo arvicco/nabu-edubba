@@ -5,6 +5,29 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (novice-eye translation pass) ·
+phase-21 · Owner, on "take not-knowing as not-knowing": still a
+confused explanation — review EVERY reading as a student who
+knows nothing of the Laozi or Chinese culture: is it
+understandable, does it make sense, is it a good translation of
+the ancient meaning into modern concepts? Second full pass, this
+time interrogating the TRANSLATIONS themselves, not just the
+presence of interpretation. The failure class: translationese —
+renderings that mimic classical syntax instead of saying the
+thing ("take X as X", "the ear obeyed", "no longer led astray",
+"knew heaven's charge", "a ghost that is not one's own", "the
+kinds of things flow into form"). Rewritten into plain modern
+speech across ~20 glosses: 2.17 now reads "when you know a thing,
+say you know it; when you do not, say you do not — THAT is real
+knowing" (four surfaces aligned); the 2.4 decades speak like a
+person ("at forty, nothing could confuse me; at sixty, nothing I
+heard could throw me"); ghosts get identified as ancestors and
+the flattery explained; 2.15's 罔 corrected from my invented
+"empty net" to the standard "nothing sticks / lost"; the
+Fire-star means summer is ending; 思無邪 is "not one insincere
+thought"; the zenith warning and the eased deadlock stated flat.
+The novice test is now the standing bar for every gloss.
+
 2026-08-11 · review round (the meaning law) · phase-21 · Owner,
 on ch11's 知其白: every word glossed, the whole meaning NOTHING
 to anyone who doesn't already know the saying — the same pattern

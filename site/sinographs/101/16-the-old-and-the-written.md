@@ -107,7 +107,7 @@ verdict on the *Odes* opens up:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">詩三百，一言以▢之，曰▢無▢。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī, yuē sī wú xié</span><span class="gloss">"the Odes are three hundred, and one saying covers them all: no crookedness in the thinking" — the boxes are "cover", "thought", "crooked"; 一言以…之 is the classical "in one word" frame</span></div>
+    <div class="reading-line"><span class="script">詩三百，一言以▢之，曰▢無▢。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī, yuē sī wú xié</span><span class="gloss">"the Odes are three hundred, and one saying covers them all: not one insincere thought" — three hundred poems, says the Master, and every single one honest: that is why they are worth memorizing. The boxes are "cover", "thought", "crooked"; 一言以…之 is the classical "in one word" frame</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.

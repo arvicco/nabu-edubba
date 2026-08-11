@@ -129,7 +129,7 @@ is to say *time itself* — and pairs with
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">日中▢▢。</span><span class="translit pinyin">rì zhōng zé zè</span><span class="gloss">"the sun at noon begins to slant" — 日中, "sun-middle," is noon; what is full begins to lean</span></div>
+    <div class="reading-line"><span class="script">日中▢▢。</span><span class="translit pinyin">rì zhōng zé zè</span><span class="gloss">"the sun at noon begins to slant" — the moment the sun peaks, it is already sinking: the Changes' warning that nothing stays at its height, fortune included. 日中, "sun-middle," is noon</span></div>
   </div>
   <figcaption class="citation">
     <em>Zhouyi</em>, hexagram Feng, in the compilation
