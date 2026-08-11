@@ -148,6 +148,16 @@ site-wide laws into writing order.
   every component it is analyzed into has been taught. Compound
   pool rows carry `parts:`; the compiler and the queue contract
   test enforce the ordering.
+- **Return-arc planning (M20-5, ruled 2026-08-11):** a course
+  segment's plan names its RETURN ARCS up front — which earlier
+  readings come back, at which chapter, at what expected box
+  count — as a table the phase plan carries (reading · first
+  taught · returns at · expected boxes · the payoff). The device
+  behind the course's best moments (1.1 reached again at ch10,
+  2.4's ladder completed, 未之有也 closing ch14 at zero boxes)
+  becomes an input, not a discovery; opportunistic arcs stay
+  welcome, planned ones are the spine. Applies from the next
+  segment's plan onward, every school.
 - The frequency instrument lives in `bin/`, deterministic over
   committed inputs; its output tables under `site/_data/` are
   frozen contracts once introduced (additive changes only,

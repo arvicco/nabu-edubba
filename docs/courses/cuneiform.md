@@ -133,6 +133,12 @@ concrete holdable example; batch label = chapter number + 1
 essence. The nothing-untaught validator and the every-chapter
 rules are enforced by `rake gate`.
 
+Return arcs are planned, not found (M20-5, ruled 2026-08-11;
+the sinograph rulebook §5 states the law in full): a course
+segment's plan carries its return-arc table — which earlier
+readings come back, where, at what expected box count — from the
+next planned segment onward.
+
 `shows:` never licenses a reading (owner report 2026-08-08,
 after law 197 shipped as a "reading exhibit" whose bone-compound
 GIR₃.PAD.RA₂ transliterated three untaught signs as if the
