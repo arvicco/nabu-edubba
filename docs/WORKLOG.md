@@ -5,6 +5,18 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · M19-5 (no-second-writer gate assert) · phase-19 ·
+`rake gate` now runs :sole_writer first: abort, naming the PID,
+while any other jekyll process is alive — the durable half of the
+2026-08-11 build-race fix (the serve/gate collision that shipped
+110 phantom failures). Demonstrated live: with `rake serve`
+running, the gate refused ("another jekyll process is alive (PID
+48060, 70020)… stop it first"); with it stopped, :sole_writer
+passed silently. DEV-LOOP §6 gains the standing rule: one writer
+per output dir; long-running processes own private destinations.
+No unit test — pgrep isn't fixture-able; the demonstration above
+is the evidence.
+
 2026-08-11 · Gate 18 closed, phase 19 opened · phase-19 · Owner
 merged PR #23 (9c60ffa). Branched phase-19 from fresh main; phase
 line updated. Scope: .docs/phase-19-plan.md — the workbench, code
