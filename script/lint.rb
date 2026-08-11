@@ -94,10 +94,47 @@ module Edubba
         js_assets(site_dir) +
         font_coverage(site_dir, manifests) +
         nav_order_unique(site_dir) +
+        course_toc_complete(site_dir) +
         CourseCheck.violations(site_dir) +
         Rulebook.violations(site_dir) +
         Rulebook.codex_violations(site_dir) +
         ValueCheck.violations(site_dir)
+    end
+
+    # course-toc (owner report 2026-08-11: /sinographs/101 promised
+    # "chapters appear here as they are written" while its list
+    # stopped ten chapters short — two stretches of hand-maintained
+    # TOC rot): every chapter page of a course must be LINKED from
+    # that course's index page. The taglines stay hand-curated; only
+    # completeness is mechanical.
+    def course_toc_complete(site_dir)
+      require "yaml"
+      fm_of = lambda do |path|
+        text = File.read(path, encoding: "UTF-8")
+        next [nil, text] unless text.start_with?("---\n") && (fm_end = text.index("\n---", 4))
+
+        [(YAML.safe_load(text[4..fm_end]) rescue nil), text]
+      end
+      chapters = Hash.new { |h, k| h[k] = [] }
+      Dir.glob(File.join(site_dir, "**", "[0-9][0-9]-*.md")).each do |path|
+        fm, = fm_of.call(path)
+        next unless fm.is_a?(Hash) && fm["course"] && fm["chapter"] && fm["permalink"]
+
+        chapters[fm["course"]] << [path, fm["permalink"]]
+      end
+      Dir.glob(File.join(site_dir, "**", "index.md")).flat_map do |index|
+        fm, text = fm_of.call(index)
+        next [] unless fm.is_a?(Hash) && fm["course_no"] && fm["school"]
+
+        course = "#{fm['school']}-#{fm['course_no']}"
+        chapters[course].reject { |_, permalink| text.include?(permalink.to_s) }
+                        .map do |page, permalink|
+          Violation.new(index, "course-toc",
+                        "#{File.basename(page)} (#{permalink}) is not linked from its course " \
+                        "index — the TOC rotted ten chapters deep once (2026-08-11); every " \
+                        "chapter lands in its course index in the same commit")
+        end
+      end
     end
 
     # nav-order-unique (live-site incident 2026-08-06): the sidebar
