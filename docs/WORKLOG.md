@@ -5,6 +5,32 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (the meaning law) · phase-21 · Owner,
+on ch11's 知其白: every word glossed, the whole meaning NOTHING
+to anyone who doesn't already know the saying — the same pattern
+across the course; a student with no grammar left with obscure
+ancient words, no context, no interpretation. "Shameful," and
+correctly. The law (rulebook §5): a reading is TAUGHT, not
+displayed — every reading leaves a first-time reader knowing what
+the saying MEANS, in plain words; translation is not meaning, the
+box inventory is bookkeeping, a paraphrase restating the riddle
+is not an explanation. Full audit: all 20 chapters' 153 reading
+lines and all 110 codex wilds read against the law. Fixed: Laozi
+28 (white/black = fame/obscurity — the full interpretation as the
+model case), wu-wei finally EXPLAINED in ch07 (it had been
+celebrated and parsed, never once explained), 有無相生 (opposites
+create each other), Laozi 14 (no front to confront), 有生於無
+(emptiness as source), the Daxue leveling line, 12.11 (order =
+everyone being what their role demands), 4.15 (the one-rule
+definition of consideration), the 1.1 summation (the good life in
+three breaths), plus tails on ~10 more chapter readings and 15
+codex wilds (the rectification trio, wu-wei trio, root pair, "at
+thirty I stood" pair…). Most Analects readings already carried
+their context; the bare cases were overwhelmingly the Laozi's
+paradoxes — exactly where a first-time reader is most lost.
+Enforcement is owner review (ledgered); the pre-flight checklist
+carries the line so it bites during writing, not after.
+
 2026-08-11 · review round (course-TOC rot) · phase-21 · Owner:
 /sinographs/101 still said "chapters appear here as they are
 written" — and they hadn't: the hand-maintained TOC stopped at

@@ -145,7 +145,7 @@ was 仁 — the deepest virtue in the Confucian world, built from
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">仁▢▢山。</span><span class="translit pinyin">rén zhě yào shān</span><span class="gloss">"the humane delight in mountains" — the same page of the same book as the last chapter's fragment, and the clause now OPENS with its subject: 仁 reads itself</span></div>
+    <div class="reading-line"><span class="script">仁▢▢山。</span><span class="translit pinyin">rén zhě yào shān</span><span class="gloss">"the humane delight in mountains" — the clause now opens with its subject, and the sense comes into view: the wise love water because they are like it, quick and always moving; the humane love mountains because they are like them, steady and enduring. Each virtue gets its landscape</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23 —

@@ -86,7 +86,7 @@ sixty. With 七 the ladder tops out:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">七十而▢心所▢。</span><span class="translit pinyin">qī shí ér cóng xīn suǒ yù</span><span class="gloss">"at seventy, I followed what my heart desired" — the boxes are "follow" and "desire"; 心 and 所 you own, and the saying finishes: "…without overstepping the line"</span></div>
+    <div class="reading-line"><span class="script">七十而▢心所▢。</span><span class="translit pinyin">qī shí ér cóng xīn suǒ yù</span><span class="gloss">"at seventy, I followed what my heart desired" — the ladder's last rung and its point: after a lifetime of practice, wanting and doing right have finally merged — he can trust his own desires. The boxes are "follow" and "desire", and the saying finishes: "…without overstepping the line"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4 — the last age in the autobiography
@@ -135,7 +135,7 @@ same pieces — 有 and 無, being and not-being, from
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">天下萬物生於有，有生於無。</span><span class="translit pinyin">tiān xià wàn wù shēng yú yǒu, yǒu shēng yú wú</span><span class="gloss">"the ten thousand things under heaven are born from being — and being is born from non-being" — eleven characters, all yours</span></div>
+    <div class="reading-line"><span class="script">天下萬物生於有，有生於無。</span><span class="translit pinyin">tiān xià wàn wù shēng yú yǒu, yǒu shēng yú wú</span><span class="gloss">"the ten thousand things under heaven are born from being — and being is born from non-being" — trace anything back far enough, says the Laozi, and you reach not a first thing but the open emptiness things come FROM: the claim that made 無 a cornerstone of Chinese thought. Eleven characters, all yours</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 40.

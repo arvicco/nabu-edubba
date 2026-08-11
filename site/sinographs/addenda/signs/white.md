@@ -30,7 +30,7 @@ the day.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知其白，▢其▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi</span><span class="gloss">"know its white, keep its black" — the lit side you can know, the dark side you hold to</span></div>
+    <div class="reading-line"><span class="script">知其白，▢其▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi</span><span class="gloss">"know its white, keep its black" — white is fame, black is obscurity: understand what it takes to shine, and choose the shadow anyway; the Laozi's recipe for lasting influence</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 28.

@@ -136,6 +136,9 @@ meant for readers; nothing internal lands in `docs/`.
          instruments are the mechanical lanes)
    - [ ] famous line over obscure, trimmed to its readable clause —
          the gloss carries the rest (box-share law)
+   - [ ] the reading's MEANING delivered in plain words — what the
+         saying is about and why anyone said it; translation and
+         box inventory are not meaning (meaning law, 2026-08-11)
    - [ ] taught company around every new sign: it debuts amid known
          signs, never wild-among-wilds (nothing-untaught, CLAUDE.md)
    - [ ] box mechanically — bin/box_line.rb, never by head; share

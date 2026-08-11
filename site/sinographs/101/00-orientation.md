@@ -117,8 +117,8 @@ already read:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢大，天大，▢大，王▢大。</span><span class="translit pinyin">gù dào dà, tiān dà, dì dà, wáng yì dà</span><span class="gloss">"so the Way is great, heaven is great, earth is great, and the king too is great" — four <em>greats</em> in one breath, with your heaven and your king holding two of the seats; the boxed earth-word wears your 土 inside it, as you will see soon</span></div>
-    <div class="reading-line"><span class="script">大人▢▢。</span><span class="translit pinyin">dà rén hǔ biàn</span><span class="gloss">"the great one transforms like a tiger" — the Changes on a leader remade: 大人, "the great one," is your first two-character word, and both characters are yours</span></div>
+    <div class="reading-line"><span class="script">▢▢大，天大，▢大，王▢大。</span><span class="translit pinyin">gù dào dà, tiān dà, dì dà, wáng yì dà</span><span class="gloss">"so the Way is great, heaven is great, earth is great, and the king too is great" — the Laozi counting the powers that outrank everything else — and setting the human king, your 王, among them; the boxed earth-word wears your 土 inside it, as you will see soon</span></div>
+    <div class="reading-line"><span class="script">大人▢▢。</span><span class="translit pinyin">dà rén hǔ biàn</span><span class="gloss">"the great one transforms like a tiger" — the Changes on a leader remade: the change is total and gleaming as a tiger's new coat, visible to everyone without a word said; 大人, "the great one," is your first two-character word</span></div>
   </div>
   <figcaption class="citation">
     Line 1: <em>Laozi</em> 25 ·

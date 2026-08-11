@@ -95,7 +95,7 @@ work, 天下 from your first chapters:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the box is "door"; the chapter continues: the further you go, the less you know</span></div>
+    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the Laozi's claim: the world runs on one pattern, and the pattern is visible from anywhere — insight is not mileage. The box is "door"; the chapter presses on: the further you go, the less you know</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 47.
@@ -108,7 +108,7 @@ substanceless entering where there is no gap:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無有入於無▢。</span><span class="translit pinyin">wú yǒu rù yú wú jiàn</span><span class="gloss">"what has no being enters where there is no gap" — the box is "gap"; 無有, "the not-having", walks straight through the wall</span></div>
+    <div class="reading-line"><span class="script">無有入於無▢。</span><span class="translit pinyin">wú yǒu rù yú wú jiàn</span><span class="gloss">"what has no being enters where there is no gap" — water seeps, air passes, the immaterial goes where nothing solid can: the Laozi's case that the yielding beats the hard. The box is "gap"; 無有, "the not-having", walks straight through the wall</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 43 — the softest thing in the world at work
@@ -126,7 +126,7 @@ plants 在 three times in one breath:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">大▢之道，在明明▢，在▢民，在止於至▢。</span><span class="translit pinyin">dà xué zhī dào, zài míng míng dé, zài qīn mín, zài zhǐ yú zhì shàn</span><span class="gloss">"the way of the Great Learning lies in brightening bright virtue, in loving the people, in coming to rest in the utmost good" — the boxes are "learning", "virtue", "loving", "good"; 明明, 止, 於, 至 and 民 all do work you know</span></div>
+    <div class="reading-line"><span class="script">大▢之道，在明明▢，在▢民，在止於至▢。</span><span class="translit pinyin">dà xué zhī dào, zài míng míng dé, zài qīn mín, zài zhǐ yú zhì shàn</span><span class="gloss">"the way of the Great Learning lies in brightening bright virtue, in loving the people, in coming to rest in the utmost good" — the book's whole program in one sentence: polish what is best in yourself, turn it outward, and stop only at the good. The boxes are "learning", "virtue", "loving", "good"; 明明, 止, 於, 至 and 民 all do work you know</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue), the opening sentence.
