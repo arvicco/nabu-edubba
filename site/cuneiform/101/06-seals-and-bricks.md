@@ -42,8 +42,7 @@ you can see exactly how much of the original is already yours.
     <tr>
       <td class="script sign-cell">𒈬</td><td>MU</td><td>name</td><td>[mu]</td>
       <td>name; year</td>
-      <td>origin debated; it opens the year-name
-          formulas</td>
+      <td>origin debated; opens the year-names</td>
     </tr>
   </tbody>
 </table>

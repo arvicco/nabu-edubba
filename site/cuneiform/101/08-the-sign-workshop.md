@@ -110,8 +110,7 @@ or portion, not yet yours — one ▢ still owed) written inside:
     <tr>
       <td class="script sign-cell">𒅘</td><td>KA×A</td><td>drink</td><td>[naŋ]</td>
       <td>to drink</td>
-      <td>water in the mouth; rare but the clearest
-          teacher</td>
+      <td>water in the mouth; the clearest teacher</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅥</td><td>KA×GAR</td><td>eat</td><td>[gu]</td>

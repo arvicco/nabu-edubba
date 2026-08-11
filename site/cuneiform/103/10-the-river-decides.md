@@ -32,9 +32,8 @@ can exist? — and hands the case to a judge no one can bribe.
     <tr>
       <td class="script sign-cell">𒇉</td><td>ENGUR</td><td>the deep</td><td>[id]</td>
       <td>the sweet waters under the earth</td>
-      <td>Enki's deep; only behind <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">101's water-sign</a> —
-          the pair is one word, <span class="norm">Id</span>,
-          the River</td>
+      <td>Enki's deep; with <a href="{{ '/cuneiform/101/12-reference/#sign-12000' | relative_url }}">the water-sign</a>:
+          <span class="norm">Id</span>, the River</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁍</td><td>BU</td><td>tear</td><td>[bu/pu]</td>
@@ -45,19 +44,19 @@ can exist? — and hands the case to a judge no one can bribe.
     <tr>
       <td class="script sign-cell">𒅅</td><td>IG</td><td>door</td><td>[ig/ik/iq]</td>
       <td>the door</td>
-      <td>the door-sign at the law's turning point</td>
+      <td>the door-sign at the law's turn</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂍</td><td>E₂</td><td>house</td><td>[bītum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-1208D' | relative_url }}">101's house-sign</a>, read
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-1208D' | relative_url }}">101's house-sign</a>:
           <span class="norm">bītum</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[lim]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-12146' | relative_url }}">chapter 03's ši-sign</a>
-          gains lim</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/103/03-lord-of-heaven-and-earth/#sign-12146' | relative_url }}">the ši-sign</a> gains
+          lim</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒍪</td><td>ZU</td><td>know</td><td>[su]</td>
