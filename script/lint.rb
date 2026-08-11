@@ -5,6 +5,7 @@ require_relative "course_check"
 require_relative "rulebook"
 require_relative "value_check"
 require_relative "font_metrics"
+require_relative "../bin/pinyin_audio" # tone_of — the canonical tone reader
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
 # Rules (see CLAUDE.md):
@@ -50,6 +51,15 @@ require_relative "font_metrics"
 #                 script and translit carry equally many marks per
 #                 line, and the marking never appears on
 #                 Sumerian-course pages (cuneiform §9, 2026-08-09)
+#   citation-urn  every reading figure cites its witness — a
+#                 urn:nabu: code in the figcaption — or declares
+#                 what it is instead, class AND displayed wording
+#                 together: reading--composed says "assembled"/
+#                 "composed" in the caption; reading--monument
+#                 (a real object outside the corpora) says
+#                 "carved"/"inscribed" (M19-2, retro rec 3 — two
+#                 codex wilds were drafted without witnesses in
+#                 one phase)
 #   rulebook      course content obeys its school's rulebook
 #                 (docs/courses/<school>.md — the single source of
 #                 truth for conventions; script/rulebook.rb
@@ -173,6 +183,7 @@ module Edubba
       found.concat(check_reading_dots(path, text))
       found.concat(check_pinyin_display(path, text))
       found.concat(check_box_share(path, text))
+      found.concat(check_citation_urn(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -234,6 +245,50 @@ module Edubba
                                  "reading line #{txt[0, 12].inspect}… is #{share.round}% boxes " \
                                  "(cap #{cap}% for ch. #{ch}) — untaught may never outnumber taught: " \
                                  "trim to the readable clause or pick a better-taught line (sinographs §5)")
+        end
+      end
+      found
+    end
+
+    # citation-urn (M19-2, retro rec 3): the anti-fabrication law,
+    # mechanized. A reading figure either cites its witness (a
+    # urn:nabu: code in the figcaption) or wears its true nature as
+    # class AND caption wording together — the honesty is displayed,
+    # not just declared. Two escapes, both discovered by the first
+    # sweep: reading--composed (lesson-assembled lines) must say
+    # "assembled" or "composed"; reading--monument (a real object
+    # outside the corpora, e.g. the Rosetta Stone) must say "carved"
+    # or "inscribed".
+    ANY_READING_FIGURE = %r{<figure class="reading(?<mods> [^"]*|)">(?<body>.*?)</figure>}m
+    CITATION_CAPTION = %r{<figcaption class="citation[^"]*">(?<cap>.*?)</figcaption>}m
+
+    def check_citation_urn(path, text)
+      return [] unless path.end_with?(".md")
+
+      found = []
+      text.scan(ANY_READING_FIGURE) do
+        mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
+        cap = body[CITATION_CAPTION, :cap].to_s
+        rule = "citation-urn"
+        if mods.include?("reading--composed")
+          next if cap.match?(/assembled|composed/i)
+
+          found << Violation.new(path, rule,
+                                 "reading--composed figure whose caption never says so — write " \
+                                 "\"assembled\" or \"composed\" where the reader sees it")
+        elsif mods.include?("reading--monument")
+          next if cap.match?(/carved|inscribed/i)
+
+          found << Violation.new(path, rule,
+                                 "reading--monument figure whose caption never says so — write " \
+                                 "\"carved\" or \"inscribed\" where the reader sees it")
+        else
+          next if cap.include?("urn:nabu:")
+
+          found << Violation.new(path, rule,
+                                 "reading figure without a urn:nabu: witness in its figcaption — " \
+                                 "cite the source, or class it reading--composed / reading--monument " \
+                                 "and say so in the caption")
         end
       end
       found
@@ -534,13 +589,31 @@ module Edubba
     # say-audio (sinographs rulebook §2; owner report 2026-08-11 —
     # pǐn shipped silent): in a sign-table row the reading IS the
     # button, so a pinyin span on a sign-cell line must sit inside
-    # an a.say link; and every say-link on any page must point at
-    # an audio file that exists in the tree.
+    # an a.say link; every say-link on any page must point at an
+    # audio file that exists in the tree; and the tone the link
+    # DISPLAYS must be the tone the file DECLARES in the audio
+    # manifest (the zì/zǐ class, 2026-08-11: three primer links
+    # showed 4th tone and played 3rd — the generator verifies files
+    # against declared tones, but nothing checked links against
+    # files until now).
     SAY_LINK = %r{<a class="say" href="\{\{ '(?<href>/assets/audio/[^']+)' \| relative_url \}\}"}
     PINYIN_SPAN = /<span class="translit pinyin">(?<body>[^<]*)</
     VOICED_SPAN = %r{<a class="say"[^>]*>\s*<span class="translit pinyin">}
+    SAY_PINYIN_LINK = %r{<a class="say" href="\{\{ '/assets/audio/pinyin/(?<slug>[^.']+)\.mp3' \| relative_url \}\}"[^>]*>\s*<span class="translit pinyin">(?<shown>[^<]+)</span>}
+    SAY_MANIFEST = File.expand_path("../assets-src/data/pinyin-audio-sources.yml", __dir__)
 
-    def check_say_audio(site_dir, path, text)
+    # slug => declared pinyin, memoized per manifest path (tests
+    # inject fixtures).
+    def say_declared(manifest)
+      @say_declared ||= {}
+      @say_declared[manifest] ||= begin
+        require "yaml"
+        sources = (YAML.safe_load_file(manifest)["sources"] rescue nil) || {}
+        sources.transform_values { |s| s["pinyin"].to_s }
+      end
+    end
+
+    def check_say_audio(site_dir, path, text, manifest: SAY_MANIFEST)
       return [] unless path.end_with?(".md")
 
       found = []
@@ -563,6 +636,20 @@ module Edubba
 
         found << Violation.new(path, "say-audio",
                                "say-link target #{href} does not exist in the site tree")
+      end
+      text.scan(SAY_PINYIN_LINK) do
+        slug, shown = Regexp.last_match[:slug], Regexp.last_match[:shown]
+        declared = say_declared(manifest)[slug]
+        next if declared.nil? || declared.empty?
+
+        heard = Edubba::PinyinAudio.tone_of(declared)
+        read = Edubba::PinyinAudio.tone_of(shown)
+        next if heard == read
+
+        found << Violation.new(path, "say-audio",
+                               "say-link shows #{shown.inspect} (#{read}) but #{slug}.mp3 is " \
+                               "declared #{declared.inspect} (#{heard}) — the ear must hear the " \
+                               "tone the eye reads (zì/zǐ class, 2026-08-11)")
       end
       found
     end

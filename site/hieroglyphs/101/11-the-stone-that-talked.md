@@ -86,7 +86,7 @@ by sound, as <a href="{{ '/hieroglyphs/101/05-names-in-rings/' | relative_url }}
 every sign inside it. That was the hunch. Here is the payoff,
 kept exactly as promised:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--monument">
   <div class="reading-lines">
     <div class="reading-line"><span class="script"><span class="nobr">𓍹𓊪𓏏𓍯𓃭𓅓𓇋𓇋𓋴𓍺</span></span><span class="translit">Ptwlmys</span><span class="gloss">Ptolemy — p, t, o, L, m, y-y, s: every sign now yours</span></div>
   </div>
@@ -110,7 +110,7 @@ If the values from Ptolemy's ring were *real*, they had to work in
 a different name, at different positions. Here is that ring, one
 sign still beyond this course:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--monument">
   <div class="reading-lines">
     <div class="reading-line"><span class="script"><span class="nobr">𓍹𓈎𓃭𓇋𓍯𓊪𓄿𓂧𓂋𓄿𓏏▢𓁐𓍺</span></span><span class="translit">Qljwpꜣdrꜣ,t</span><span class="gloss">Cleopatra — with <a href="{{ '/hieroglyphs/101/09-the-silent-signs/' | relative_url }}">chapter 09's</a> seated woman closing the queen's name, and one ▢ (an egg, another feminine marker) for a later day</span></div>
   </div>

@@ -158,6 +158,14 @@ its own phase done; no opportunistic refactors; owner-facing
 verification asks are always SPECIFIC (exact commands, files, and what
 good/bad looks like).
 
+One writer per output dir (M19-5; 2026-08-11 incident — a live
+`jekyll serve` regenerated into the gate's build dir mid-gate and 110
+phantom failures shipped into the report): every long-running process
+owns a PRIVATE output directory (`rake serve` → `_build/serve`), and
+the gate asserts sole ownership of `_build/site` before it starts —
+`rake gate` aborts, naming the PID, while any other jekyll process is
+alive.
+
 ## 7. Human-action inventory
 
 | When | Action |
@@ -173,3 +181,30 @@ Not yet applicable — no scheduled producers. If/when Edubba gains any
 (e.g., a nightly link-rot check or a Nabu-sync freshness probe), adopt
 the standard pattern: wrapper script + scheduler entry, TTY-gated
 install task, status file, monitor, content-progress invariant.
+
+## 9. Nabu instruments (authoring-time)
+
+All authoring-time only — outputs verified and committed; the site
+never talks to Nabu at runtime (CLAUDE.md rule 6). `NABU_BIN`
+convention; the CLI lives next door (read-only for us). Delivered
+against our FR survey (Nabu P72, 2026-08-11):
+
+- **Witness hunting, interactive**: `nabu search --charset "<taught
+  chars>" --max-foreign N [--source S] [TEXT]` — passages readable
+  with at most N strangers, strangers printed, cleanest line first.
+  The mid-writing lane; fold-aware (学 covers 學).
+- **Witness hunting, batch**: `bin/*_picker.rb` — full-corpus sweeps
+  with per-chapter bucketing and fame ranking (doc spread) that feed
+  a stretch plan's candidate sheet into `.docs/`.
+- **Codex verification**: `nabu char <GLYPH> --json` (all three
+  schools; frozen contracts) — radical, IDS/components, readings,
+  concordances, per-source attestation. Check a sign page's factual
+  claims against it BEFORE writing; it is the mechanical backstop of
+  the no-confident-nonsense law.
+- **Collocation discovery**: `nabu formulas kanripo --gram-size 2` —
+  char-grain recurrence (子曰-class) for choosing a chapter's frame
+  phrases.
+- **Next-witness choice**: `nabu vocab <URN> --chars --coverage
+  "<taught chars>"` — per-document coverage %, top strangers by
+  frequency: which text the course can read next, and what teaching
+  those strangers would buy.

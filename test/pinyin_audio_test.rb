@@ -63,6 +63,68 @@ class PinyinAudioTest < Minitest::Test
     assert track.last < 200, "doubled tail snapped back to the base octave"
   end
 
+  # --- M19-3: cut QA over the energy envelope. Synthetic PCM:
+  # --- 150 Hz sine bursts shaped by an amplitude envelope.
+
+  SR = 16_000
+
+  def burst(seconds, amp: 12_000, hz: 150)
+    (0...(SR * seconds).to_i).map do |i|
+      # half-sine amplitude shape — a natural syllable swell
+      shape = Math.sin(Math::PI * i / (SR * seconds))
+      (amp * shape * Math.sin(2 * Math::PI * hz * i / SR)).round
+    end
+  end
+
+  def silence(seconds) = [0] * (SR * seconds).to_i
+
+  def pcm(samples) = samples.pack("s<*")
+
+  def test_a_clean_single_syllable_passes_cut_qa
+    ok, why = PA.cut_ok?(pcm(silence(0.05) + burst(0.5) + silence(0.05)))
+    assert ok, "one hump, 0.5 s — a clean cut: #{why}"
+  end
+
+  def test_two_humps_refuse_the_yue_signature
+    # The 2026-08-11 escape: yuē's cut carried 会's onset — two
+    # energy humps with a near-silent valley, tone still "level".
+    two = silence(0.05) + burst(0.3) + silence(0.15) + burst(0.25) + silence(0.05)
+    ok, why = PA.cut_ok?(pcm(two), tone: :level)
+    refute ok
+    assert_match(/humps/, why)
+  end
+
+  def test_the_third_tone_glottal_closure_is_allowed_a_second_hump
+    # Citation tone 3 may close the glottis completely mid-dip (the
+    # kě/bǎi envelopes, 2026-08-11: dedicated single-syllable
+    # recordings at ~2% RMS in the trough) — two humps for :dip is
+    # one syllable, not two. Three still refuses.
+    closed = silence(0.05) + burst(0.25) + silence(0.08) + burst(0.25) + silence(0.05)
+    ok, why = PA.cut_ok?(pcm(closed), tone: :dip)
+    assert ok, "tone-3 glottal closure refused: #{why}"
+    refute PA.cut_ok?(pcm(closed), tone: :level).first,
+           "the same shape in a level syllable is a wrong cut"
+    three = silence(0.05) + burst(0.2) + silence(0.1) + burst(0.2) + silence(0.1) + burst(0.2)
+    refute PA.cut_ok?(pcm(three), tone: :dip).first
+  end
+
+  def test_span_bounds_refuse_slivers_and_whole_words
+    ok, why = PA.cut_ok?(pcm(burst(0.08)))
+    refute ok, "an 80 ms sliver is not a syllable"
+    assert_match(/span/, why)
+    ok, why = PA.cut_ok?(pcm(burst(1.2)))
+    refute ok, "a 1.2 s span is a word, not a syllable (the hū case)"
+    assert_match(/span/, why)
+  end
+
+  def test_breathy_onset_does_not_split_the_hump
+    # Low-level aspiration before the vowel (well under the 15%
+    # valley floor) must read as ONE hump, not two.
+    breath = (0...(SR * 0.08).to_i).map { rand(-600..600) }
+    ok, why = PA.cut_ok?(pcm(silence(0.03) + breath + burst(0.45)))
+    assert ok, "breathy onset split the hump: #{why}"
+  end
+
   def test_pitch_track_reads_synthetic_tone
     sr = 16_000
     samples = (0...(sr / 2)).map { |i| (12_000 * Math.sin(2 * Math::PI * 150 * i / sr)).round }

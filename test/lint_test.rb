@@ -153,6 +153,40 @@ class LintTest < Minitest::Test
     refute Edubba::ScriptScan.tracked?(0x0041)
   end
 
+  def test_citation_urn_requires_a_witness_in_the_figcaption
+    fig = lambda do |mods, caption|
+      "---\nt: 1\n---\n<figure class=\"reading reading--script#{mods}\">" \
+        "<div class=\"reading-lines\"></div>" \
+        "<figcaption class=\"citation\">#{caption}</figcaption></figure>"
+    end
+    path = "site/cuneiform/101/04-x.md"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call("", "<em>Laozi</em> 42. <code>urn:nabu:kanripo:KR5c0057:042:1a</code>")
+    )
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(path, fig.call("", "A famous line.")).map(&:rule),
+                 "a reading figure without a urn:nabu: witness fails"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call(" reading--composed", "Assembled from signs you already hold.")
+    ), "composed figures escape via class + displayed wording"
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(
+                   path, fig.call(" reading--composed", "A teaching example.")
+                 ).map(&:rule),
+                 "the composed class alone is not enough — the caption must SAY so"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, fig.call(" reading--monument", "As carved on the Rosetta Stone, BM EA 24.")
+    ), "real objects outside the corpora escape via reading--monument + wording"
+    assert_equal ["citation-urn"],
+                 Edubba::Lint.check_citation_urn(
+                   path, fig.call(" reading--monument", "The Rosetta Stone, BM EA 24.")
+                 ).map(&:rule),
+                 "monument class without carved/inscribed wording fails"
+    assert_empty Edubba::Lint.check_citation_urn(
+      path, "---\nt: 1\n---\n<figure class=\"reading-grid\">no caption at all</figure>"
+    ), "only reading figures are in scope"
+  end
+
   def test_box_share_caps_untaught_boxes_progressively
     fig = ->(script) { "---\nchapter: 0\n---\n<figure class=\"reading reading--script\"><div><span class=\"script\">#{script}</span></div></figure>" }
     sino = "site/sinographs/101/00-x.md"
@@ -228,6 +262,35 @@ class LintTest < Minitest::Test
     v = Edubba::Lint.check_say_audio("site", "site/anywhere/page.md", dead)
     assert_equal ["say-audio"], v.map(&:rule), "a say-link must resolve on any page"
     assert_match(%r{no-such\.mp3}, v.first.detail)
+  end
+
+  def test_say_audio_flags_tone_disagreement_between_link_and_file
+    # The zì/zǐ class (2026-08-11, Nabu-loop report): three primer
+    # links DISPLAYED zì (4th) while zi.mp3 is DECLARED zǐ (3rd, 子).
+    # The generator verifies files against declared tones; this rule
+    # checks pages against files.
+    manifest = write_tmp("sources.yml", <<~YAML)
+      sources:
+        zi:      {file: "Zh-zǐ.oga", pinyin: "zǐ"}
+        zi-self: {file: "Zh-zì.ogg", pinyin: "zì"}
+    YAML
+    link = lambda do |slug, shown|
+      %(<a class="say" href="{{ '/assets/audio/pinyin/#{slug}.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">#{shown}</span></a>)
+    end
+    path = "site/sinographs/addenda/pinyin.md"
+    v = Edubba::Lint.check_say_audio("site", path, link.call("zi", "zì"), manifest: manifest)
+    assert_equal ["say-audio"], v.map(&:rule), "shown 4th tone, plays 3rd — refused"
+    assert_match(/declared "zǐ"/, v.first.detail)
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("zi-self", "zì"),
+                                              manifest: manifest),
+                 "the correct 4th-tone file passes"
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("zi", "zǐ"),
+                                              manifest: manifest),
+                 "zi.mp3 for displayed zǐ (子) is correct and untouched"
+    assert_empty Edubba::Lint.check_say_audio("site", path, link.call("ren", "rén"),
+                                              manifest: manifest),
+                 "a slug outside the manifest makes no tone claim " \
+                 "(the dead-target rule owns missing files)"
   end
 
   def test_pinyin_display_bans_tone_numbers_in_sinograph_pages

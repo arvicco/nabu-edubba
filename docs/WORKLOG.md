@@ -5,6 +5,108 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · inbox round (Nabu P72 integration + zì-class lint) ·
+phase-19 · Nabu delivered ALL FIVE of our FR-survey asks the same
+day (their P72/PR #87; commands live on this box). Probed live and
+integrated: DEV-LOOP §9 now inventories the authoring lanes —
+coverage search (`--charset`/`--max-foreign`, the interactive
+witness hunt), char --json (mechanical codex verification), vocab
+--chars --coverage (next-witness choice), char-grain formulas; the
+picker keeps the batch lane (fame ranking is ours) and says so in
+its header. Their zì audio report became a gate rule: say-links'
+DISPLAYED tone must match the manifest's DECLARED tone (tone_of
+reused from the generator) — first run caught two more of the
+predicted class (qī shown/qí played; cí shown/cǐ played, 此 having
+claimed the ci slug in ch14); displays corrected. Replied to their
+inbox with the hiero overlay extraction contract (hiero-101/102
+field lists, certainty-grade semantics, codex front-matter-only +
+deep links, CC BY-SA attribution line) — unblocks their packet
+72-6 — plus one FR-1 paper cut (--min-chars). Also this round: the
+sole-writer assert false-matched a GitHub runner process and went
+red on CI in 10 s — narrowed to `jekyll (serve|build)` and skipped
+under CI (fresh container owns its build dir by construction).
+
+2026-08-11 · M19-4 (sino_reading_picker) · phase-19 · The last
+school gains its coverage picker: the Kanripo export streamed at
+clause grain ((x/y) commentary stripped; stops and brackets
+split), clauses bucketed by untaught count against the cumulative
+queue (0/1/2 boxes), ranked by document spread — how many
+distinct texts carry the exact clause, the corpus's own fame
+proxy — then length; boxing/share reuse M19-1, never
+reimplemented. First sweep: 4,571,394 passages → 162,094
+candidate clauses → .docs/s101-stretch4-readings.md. The sheet
+self-validates: ch05's zero-box bucket is topped at 25 docs by
+未之有也 — the exact line the course chose by hand for ch05 and
+the ch14 return arc; the fame proxy found our best moment on its
+own. Spot-checks against witnesses: 有生於無 = Laozi 40 (in the
+course's own edition), 有所不為也 = Analects 13.21 (the wild and
+the fastidious), 有如此者 = the Liji Ru-conduct refrain (17
+docs). Pure functions unit-tested; the streaming shell thin and
+untested, matching the other pickers.
+
+2026-08-11 · M19-5 (no-second-writer gate assert) · phase-19 ·
+`rake gate` now runs :sole_writer first: abort, naming the PID,
+while any other jekyll process is alive — the durable half of the
+2026-08-11 build-race fix (the serve/gate collision that shipped
+110 phantom failures). Demonstrated live: with `rake serve`
+running, the gate refused ("another jekyll process is alive (PID
+48060, 70020)… stop it first"); with it stopped, :sole_writer
+passed silently. DEV-LOOP §6 gains the standing rule: one writer
+per output dir; long-running processes own private destinations.
+No unit test — pgrep isn't fixture-able; the demonstration above
+is the evidence.
+
+2026-08-11 · M19-3 (audio cut QA) · phase-19 · Span checks join
+the verify stage: voiced span 0.15–0.85 s and an energy hump
+count (25 ms RMS frames, 3-frame moving average, valleys below
+15% of peak) — the tone check reads pitch, not span, which is
+how yuē carried 会's onset and still verified level-✓. The first
+full re-verify refused eight files, ALL tone-3 — and all
+whole-file dedicated recordings where a wrong span is impossible
+by provenance: the citation third tone closes the glottis
+mid-dip (kě and bǎi bottom at ~2% RMS). Threshold bug, not eight
+catches: :dip is allowed a second hump, with the envelope data
+as evidence and a synthetic test pinning the shape. --force
+rebuild 79/79 green. Two catches en route: a duplicate hao:
+manifest key (phase-17 primer leftover; YAML last-wins hid it),
+and ci.mp3 had shipped un-normalized at −15.2 dB mean — rebuilt
+to the −20 dB law.
+
+2026-08-11 · M19-2 (citation-urn lint) · phase-19 · The
+anti-fabrication law is now a gate rule: a reading figure either
+carries urn:nabu: in its figcaption or wears its true nature as
+class AND caption wording together — reading--composed must say
+"assembled"/"composed", reading--monument (a real object outside
+the corpora) must say "carved"/"inscribed". The first sweep found
+8 URN-less figures among 489: five composed (teaching compounds,
+schematic gur-accounts, the hiero textbook sentence, the counts
+exhibit), three monuments (Rosetta ×2, the Bankes obelisk) — the
+monument class is the audit's discovery, not the plan's; classing
+real stones "composed" would itself have been a small fabrication.
+Four captions gained the honesty word they lacked.
+
+2026-08-11 · M19-1 (box_line instrument) · phase-19 ·
+bin/box_line.rb: raw witness line + chapter in → ▢-rendered line,
+untaught list with Unihan pinyin, share vs the chapter cap
+(PASS/OVER, the lint's own counting via require — never
+duplicated), paste-ready reading-line skeleton out. Acceptance:
+three shipped phase-18 readings re-derived byte-identical from
+the real queue (Laozi 42 ch12, Analects 6.20 ch13, the Daxue
+leveling line ch14). The tool immediately corrected two of my own
+hand-counts: Laozi 42 is 2/13 boxes (15.4%), the Daxue line 4/11
+(36.4%) — the instrument exists precisely because heads miscount.
+
+2026-08-11 · Gate 18 closed, phase 19 opened · phase-19 · Owner
+merged PR #23 (9c60ffa). Branched phase-19 from fresh main; phase
+line updated. Scope: .docs/phase-19-plan.md — the workbench, code
+half of the retro batch (.docs/retro-2026-08-11.md, all ten recs
+approved). Order: M19-1 box_line → M19-2 citation-urn lint →
+M19-3 audio cut QA → M19-5 no-second-writer assert → M19-4
+sino_reading_picker (consumes M19-1). Opening sweep also caught a
+leftover uncommitted fix from the gate-close window: three pinyin
+primer rows display zì but voiced zi.mp3 (zǐ, tone 3, 子) —
+repointed at zi-self.mp3 (tone 4) and committed separately.
+
 2026-08-11 · review round (production borders out of prose) ·
 phase-18 · Owner, on ch08's "one chapter left in this stretch":
 the stretch language is irrelevant to the student and only
