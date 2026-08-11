@@ -27,8 +27,8 @@ here, out, in, east, and on the way back:
     <tr>
       <td class="script sign-cell">在</td><td>be-at</td><td><a class="say" href="{{ '/assets/audio/pinyin/zai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zài</span></a></td>
       <td>to be at, be present</td>
-      <td>a sprout breaking ground over earth 土 — presence as
-      the seedling's stubborn "here"</td>
+      <td>a sprout over earth 土 — presence as the seedling's
+      "here"</td>
     </tr>
     <tr>
       <td class="script sign-cell">出</td><td>go-out</td><td><a class="say" href="{{ '/assets/audio/pinyin/chu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">chū</span></a></td>
@@ -39,20 +39,20 @@ here, out, in, east, and on the way back:
     <tr>
       <td class="script sign-cell">入</td><td>enter</td><td><a class="say" href="{{ '/assets/audio/pinyin/ru-enter.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rù</span></a></td>
       <td>to enter</td>
-      <td>a point driving inward — a wedge, a parted tent-flap;
-      the mirror of 出</td>
+      <td>a point driving in — wedge or tent-flap; the mirror
+      of 出</td>
     </tr>
     <tr>
       <td class="script sign-cell">方</td><td>direction</td><td><a class="say" href="{{ '/assets/audio/pinyin/fang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">fāng</span></a></td>
-      <td>direction, quarter; square</td>
+      <td>direction, quarter</td>
       <td>a disputed picture — plough-bar, boat prow, yoke;
       no winner picked</td>
     </tr>
     <tr>
       <td class="script sign-cell">東</td><td>east</td><td><a class="say" href="{{ '/assets/audio/pinyin/dong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dōng</span></a></td>
       <td>east</td>
-      <td>the sun 日 rising through a tree 木 — so the
-      schoolbook; more likely a tied sack</td>
+      <td>the sun 日 in a tree 木 — so the schoolbook;
+      likelier a tied sack</td>
     </tr>
     <tr>
       <td class="script sign-cell">來</td><td>come</td><td><a class="say" href="{{ '/assets/audio/pinyin/lai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">lái</span></a></td>

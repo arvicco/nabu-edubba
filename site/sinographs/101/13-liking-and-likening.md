@@ -28,26 +28,26 @@ compounds in the script grow out of her:
     <tr>
       <td class="script sign-cell">女</td><td>woman</td><td><a class="say" href="{{ '/assets/audio/pinyin/nuu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nǚ</span></a></td>
       <td>woman</td>
-      <td>a figure kneeling with folded hands — the oracle-bone
-      posture, kept through every rewriting</td>
+      <td>a figure kneeling, hands folded — the oracle-bone
+      posture, kept ever since</td>
     </tr>
     <tr>
       <td class="script sign-cell">好</td><td>fond</td><td><a class="say" href="{{ '/assets/audio/pinyin/hao.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hǎo</span></a></td>
-      <td>good; (hào) to love, be fond of</td>
-      <td>woman 女 and child 子 side by side — the classic account
-      of what good looks like</td>
+      <td>good; (hào) to love</td>
+      <td>woman 女 and child 子 side by side — what good looks
+      like</td>
     </tr>
     <tr>
       <td class="script sign-cell">如</td><td>like</td><td><a class="say" href="{{ '/assets/audio/pinyin/ru.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rú</span></a></td>
       <td>to be like, as; if</td>
-      <td>女 lends an old sound beside the mouth 口 — the
-      comparer: X 如 Y, "X is like Y"</td>
+      <td>女 lends its sound to the mouth 口 — X 如 Y, "X is
+      like Y"</td>
     </tr>
     <tr>
       <td class="script sign-cell">云</td><td>quoth</td><td><a class="say" href="{{ '/assets/audio/pinyin/yun.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yún</span></a></td>
-      <td>to say (opening a quotation)</td>
-      <td>the original cloud, borrowed for quoting — clouds later
-      took a rain-roof to stay distinct. 曰 speaks; 云 quotes</td>
+      <td>to say, to quote</td>
+      <td>the original cloud, borrowed for quoting — 曰 speaks,
+      云 quotes</td>
     </tr>
     <tr>
       <td class="script sign-cell">非</td><td>is-not</td><td><a class="say" href="{{ '/assets/audio/pinyin/fei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">fēi</span></a></td>
@@ -57,9 +57,9 @@ compounds in the script grow out of her:
     </tr>
     <tr>
       <td class="script sign-cell">矣</td><td>by-now</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
-      <td>final particle: the state has arrived</td>
-      <td>the arrow 矢 under an ancient top that lends the sound
-      yǐ — the sentence lands like a shot: done</td>
+      <td>final particle: it is so</td>
+      <td>the arrow 矢 under a sound-lending top — the sentence
+      lands: done</td>
     </tr>
   </tbody>
 </table>

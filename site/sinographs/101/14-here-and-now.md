@@ -40,14 +40,14 @@ down — to a place, and to the present:
       <td class="script sign-cell">於</td><td>in</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
       <td>in, at, on; than</td>
       <td>an old crow-graph —
-      <a href="{{ '/sinographs/addenda/signs/at/' | relative_url }}">chapter 09's 于</a>
-      in fuller dress; the Analects' favorite</td>
+      <a href="{{ '/sinographs/addenda/signs/at/' | relative_url }}">于</a>
+      in fuller dress</td>
     </tr>
     <tr>
       <td class="script sign-cell">至</td><td>arrive</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi-arrive.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhì</span></a></td>
       <td>arrive, reach; utmost</td>
-      <td>the <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> arrow, point-down, striking
-      the ground — flown and landed</td>
+      <td>the <a href="{{ '/sinographs/101/06-knowing-and-walking/' | relative_url }}">chapter 06</a> arrow, point-down,
+      struck home</td>
     </tr>
     <tr>
       <td class="script sign-cell">今</td><td>now</td><td><a class="say" href="{{ '/assets/audio/pinyin/jin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jīn</span></a></td>

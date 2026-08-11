@@ -32,12 +32,12 @@ An arrow first — watch what it is for:
     <tr>
       <td class="script sign-cell">知</td><td>know</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
       <td>to know, to understand</td>
-      <td>your new arrow beside your old mouth: the word that flies
-      straight — the arrow also hums the sound, shǐ for zhī</td>
+      <td>arrow beside mouth: the word that flies straight — the
+      arrow hums the sound</td>
     </tr>
     <tr>
       <td class="script sign-cell">而</td><td>and-then</td><td><a class="say" href="{{ '/assets/audio/pinyin/er-and.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ér</span></a></td>
-      <td>and, and then, but — the clause-linker</td>
+      <td>and, and then; but</td>
       <td>a drawing of a beard, borrowed forever for the little
       joining word</td>
     </tr>

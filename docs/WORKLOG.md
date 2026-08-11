@@ -5,6 +5,25 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (school folding + model calibration) ·
+phase-21 · Owner: the navbar grew too big — fold non-active
+SCHOOLS to their bare titles, like non-active courses. Done with
+native <details> per school (no JS): the active school opens to
+its course list, the active course to its chapters; every other
+school is one line, clickable to expand. The 6b pixel pass then
+caught the table model running hot against reality on cuneiform
+6-column tables ("NAM E", "touc h" breaking mid-word): calibrated
+against measured pixels — table width 42rem (the real wide-layout
+chapter column, not the 44rem measure), header advance 0.7 em/char
+(uppercase + letter-spacing), body advance 0.47 (measured Georgia),
+label headroom 1.2rem, and a 0.1-line tolerance before the ceil
+(2.05 modeled lines render as 2 — verified). Means columns
+reclassified as shrinkable prose (they were hoarding label width
+while 2-line means-cells are free under the glyph row). Final
+sweep: ~25 tail cells across ch00/06/13/14/16/18 compressed to the
+sharper budget; lint clean; cuneiform and sinograph tables
+re-screenshot verified — one-line headers, no mid-word breaks.
+
 2026-08-11 · review round (sidebar wheel-scroll) · phase-21 ·
 Owner: wheel over the navbar scrolls the CHAPTER, not the navbar.
 Root cause: the wide-screen course sidebar is position:sticky

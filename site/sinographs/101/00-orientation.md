@@ -29,7 +29,7 @@ now — a picture that grows, and the world it grows into:
   <tbody>
     <tr>
       <td class="script sign-cell">人</td><td>person</td><td><a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rén</span></a></td>
-      <td>a human being; other people</td>
+      <td>a human being; others</td>
       <td>a figure walking, seen from the side — two legs and a leaning back</td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@ now — a picture that grows, and the world it grows into:
     </tr>
     <tr>
       <td class="script sign-cell">天</td><td>heaven</td><td><a class="say" href="{{ '/assets/audio/pinyin/tian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tiān</span></a></td>
-      <td>sky; Heaven, the ordering power above everything</td>
+      <td>sky; Heaven above all</td>
       <td>a line drawn over the big person's head — what is above even
       the greatest</td>
     </tr>
@@ -51,9 +51,8 @@ now — a picture that grows, and the world it grows into:
     <tr>
       <td class="script sign-cell">王</td><td>king</td><td><a class="say" href="{{ '/assets/audio/pinyin/wang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wáng</span></a></td>
       <td>king</td>
-      <td>three level strokes — heaven above, earth below, humankind
-      between — joined by the one vertical that runs through all
-      three</td>
+      <td>heaven, earth and humankind — three strokes joined by
+      one vertical</td>
     </tr>
   </tbody>
 </table>

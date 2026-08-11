@@ -25,15 +25,18 @@ module Edubba
   module TableBalance
     module_function
 
-    TABLE_REM = 44.0     # --measure: tables are modeled at the measure
+    TABLE_REM = 42.0     # the wide layout's chapter column (62 − sidebar)
     CELL_PAD = 1.5       # rem of inline padding per cell
-    LATIN_EM = 0.5       # average body-text advance, em
+    LATIN_EM = 0.47      # average body-text advance, measured from rendered Georgia
     WIDE_EM = 1.4        # CJK, boxes and other wide glyphs inline
     PROSE_LINE = 1.5     # rem per wrapped prose line
-    LABEL_MAX = 8.0      # rem — columns needing less are labels: never shrunk
-    LABEL_HEADROOM = 0.8 # rem — labels get slack so a word never breaks mid-word
-    HEADER_EM = 0.6      # th advance: uppercase + letter-spacing, per char
-    PROSE_FLOOR = 8.0    # rem — no prose column shrinks below this
+    LINE_SLACK = 0.1     # fractional-line tolerance before the ceil — the
+                         # model is approximate and 2.05 modeled lines
+                         # render as 2 (verified against pixels 2026-08-11)
+    LABEL_MAX = 6.5      # rem — columns needing less are labels: never shrunk
+    LABEL_HEADROOM = 1.2 # rem — labels get slack so a word never breaks mid-word
+    HEADER_EM = 0.7      # th advance: uppercase + letter-spacing, per char
+    PROSE_FLOOR = 7.0    # rem — no prose column shrinks below this
     LIMIT = 0.15
 
     ROW = %r{<tr>(.*?)</tr>}m
@@ -110,7 +113,7 @@ module Edubba
         [(text.length * size / usable).ceil, 1].max * size * 1.2
       else
         em = text.each_char.sum { |c| c.ord < 0x2E80 ? LATIN_EM : WIDE_EM }
-        [(em / usable).ceil, 1].max * PROSE_LINE
+        [(em / usable - LINE_SLACK).ceil, 1].max * PROSE_LINE
       end
     end
 
