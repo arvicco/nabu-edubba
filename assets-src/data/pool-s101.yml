@@ -1320,3 +1320,135 @@ signs:
       rank 54; a road-step 彳, a small thread 幺, and a dragging
       foot 夊 — tied and trailing on the road: falling behind,
       coming after.
+  - char: 事
+    chapter: 21
+    keyword: work
+    pinyin: shì
+    meaning: "affair, work; to serve"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 34; a hand gripping a tally-staff — the officer's job
+      in his fist. Kin to the scribe-signs; the affair, the task,
+      and (as a verb) serving someone with it.
+  - char: 作
+    chapter: 21
+    keyword: make
+    pinyin: zuò
+    meaning: "to make, arise, invent"
+    category: phono-semantic
+    certainty: classic
+    parts: ["人"]
+    note: >-
+      rank 81; the person 亻 doing, with 乍 lending the sound —
+      to make, to arise, to originate something new.
+  - char: 成
+    chapter: 21
+    keyword: become
+    pinyin: chéng
+    meaning: "to complete, become"
+    category: phono-semantic
+    certainty: classic
+    parts: ["丁"]
+    note: >-
+      rank 93; a blade-sign with ch10's 丁 as its sound-mark —
+      the work brought to completion; to become, to succeed.
+  - char: 能
+    chapter: 21
+    keyword: able
+    pinyin: néng
+    meaning: "can, to be able"
+    category: loan
+    certainty: classic
+    parts: []
+    note: >-
+      rank 85; the old lists draw a bear — head, meat, and two
+      clawed legs — borrowed so early for "ability" that the
+      animal had to grow a new character of its own.
+  - char: 使
+    chapter: 21
+    keyword: send
+    pinyin: shǐ
+    meaning: "to send, employ, cause"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["人"]
+    note: >-
+      rank 78; a person 亻 beside the officer with his tally —
+      to commission: send someone, put someone to work, cause a
+      thing to happen.
+  - char: 得
+    chapter: 22
+    keyword: get
+    pinyin: dé
+    meaning: "to get, obtain; succeed"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 45; a hand closing on a cowrie found on the road —
+      gain in one picture. The modern right half wears the shell
+      down past recognizing; the road-step 彳 survives on the
+      left.
+  - char: 與
+    chapter: 22
+    keyword: give-with
+    pinyin: yǔ
+    meaning: "to give; together with, and"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 47; four hands passing one object between them —
+      giving, sharing in, and so the little word "with, and"
+      between nouns.
+  - char: 欲
+    chapter: 22
+    keyword: want
+    pinyin: yù
+    meaning: "to want, desire"
+    category: phono-semantic
+    certainty: classic
+    parts: []
+    note: >-
+      rank 158; an open-mouthed yawning figure 欠 wanting, with
+      the valley 谷 lending its sound — desire drawn as the open
+      mouth.
+  - char: 皆
+    chapter: 22
+    keyword: all
+    pinyin: jiē
+    meaning: "all, everyone alike"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["白"]
+    note: >-
+      rank 66; two people side by side 比 over a saying-mark
+      (the received graph writes it 白) — everyone speaking
+      alike: all.
+  - char: 謂
+    chapter: 22
+    keyword: say-of
+    pinyin: wèi
+    meaning: "to say of, call, mean"
+    category: phono-semantic
+    certainty: classic
+    parts: ["言"]
+    note: >-
+      rank 59; speech 言 with a sound-carrier — to say OF
+      something: X 謂 Y, "X calls it Y." The classics' verb for
+      naming and defining.
+  - char: 然
+    chapter: 22
+    keyword: so
+    pinyin: rán
+    meaning: "so, thus; like that"
+    category: loan
+    certainty: classic
+    parts: []
+    note: >-
+      rank 64; meat over a dog over fire-dots — originally "to
+      roast/burn" (which later grew its own fire-sided
+      character), borrowed for "so, thus." 自然, "so of
+      itself," is how the Laozi says "naturally."
