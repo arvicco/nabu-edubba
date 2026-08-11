@@ -1103,3 +1103,75 @@ signs:
       graphs show a man shouldering a load — the ancestor of 荷
       "to carry" — borrowed for the question word the classics
       ask most.
+  - char: 在
+    chapter: 18
+    keyword: be-at
+    pinyin: zài
+    meaning: "to be at, be present in; at"
+    category: phono-semantic
+    certainty: classic
+    parts: ["土"]
+    note: >-
+      rank 36; a sprout breaking ground (才, also the sound) over
+      earth 土 — presence as the seedling's stubborn "here". The
+      classical verb of location.
+  - char: 出
+    chapter: 18
+    keyword: go-out
+    pinyin: chū
+    meaning: "to go out, come forth, emerge"
+    category: compound-ideograph
+    certainty: stated
+    note: >-
+      rank 71; a foot stepping up out of a hollow — the old
+      graphs draw the footprint climbing the pit's lip; worn
+      smooth, it looks like twin sprouts. Exit, emergence, and
+      every "out" the classics need.
+  - char: 入
+    chapter: 18
+    keyword: enter
+    pinyin: rù
+    meaning: "to enter, go in"
+    category: indicative
+    certainty: stated
+    note: >-
+      rank 101; a point driving inward — a wedge, an arrowhead,
+      a tent-flap parted; the identification is old and the
+      meaning never wavered. The mirror of 出.
+  - char: 方
+    chapter: 18
+    keyword: direction
+    pinyin: fāng
+    meaning: "direction, quarter, region; square; method"
+    category: pictograph
+    certainty: unclear
+    note: >-
+      rank 94; the picture is genuinely debated — a plough's
+      cross-bar, a boat's prow, a yoke — and the course does not
+      pick a winner. The word fans out from "quarter of the
+      world": 遠方, the far quarters.
+  - char: 東
+    chapter: 18
+    keyword: east
+    pinyin: dōng
+    meaning: "east"
+    category: loan
+    certainty: unclear
+    parts: ["木", "日"]
+    note: >-
+      rank 67; the schoolbook reading — the sun 日 caught rising
+      through a tree 木 — is the East every learner remembers;
+      the older graphs more likely show a tied provision-sack,
+      loaned for the direction. Both stories are told; only one
+      is history.
+  - char: 來
+    chapter: 18
+    keyword: come
+    pinyin: lái
+    meaning: "to come; coming, next"
+    category: loan
+    certainty: classic
+    note: >-
+      rank 130; a wheat plant with drooping ears — the old word
+      for wheat, borrowed for "come" (the grain that came, says
+      the oldest story); wheat later grew a graph of its own.

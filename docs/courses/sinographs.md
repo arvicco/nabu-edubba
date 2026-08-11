@@ -242,7 +242,7 @@ gate to it.
 Chapters 15–19 open **the world of the text**: the numbers
 completed and the myriad things named, the written tradition (古
 故 文 書 詩), the social order (君 公 士 民 臣), motion and place
-(在 出 入 方 東), and learning itself (學 時 年 父 已 安) — 28
+(在 出 入 方 東 來), and learning itself (學 時 年 父 已 安) — 29
 fresh characters, five batches, box-share cap tightens to **35%**
 (the declining-cap law's third step):
 
@@ -259,9 +259,11 @@ fresh characters, five batches, box-share cap tightens to **35%**
   ch15's 八; 何 = 亻+可, both taught). Arcs: 如禮何 returns at one
   box (何 paid); 1.1's third clause read first (不亦君子乎);
   12.11's 君君臣臣.
-- **ch18 · Going out and coming in:** 在 出 入 方 東 (在 rides
-  土; 東 = 木+日, both taught). Arcs: 1.1's second clause deepens
-  (遠方 half-paid); the Daxue opening's three 在s at 25%.
+- **ch18 · Going out and coming in:** 在 出 入 方 東 來 (在
+  rides 土; 東 = 木+日, both taught; 來 the wheat loan — added
+  when box_line measured 1.1's second clause at 40% without it,
+  over cap). Arcs: 1.1's second clause deepens to 30%; the Daxue
+  opening's three 在s at 25%.
 - **ch19 · Learning, in its season:** 學 時 年 父 已 安 (學 rides
   子; 時 = 日+寺 taught at last — the incident sign; 安 rides 女).
   Finale: **Analects 1.1 WHOLE**, three lines, every clause an
