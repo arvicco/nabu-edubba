@@ -30,16 +30,14 @@ word. So the numbers past three changed strategy:
     <tr>
       <td class="script sign-cell">四</td><td>four</td><td><a class="say" href="{{ '/assets/audio/pinyin/si.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sì</span></a></td>
       <td>four</td>
-      <td>the archaic four really was four stacked bars; this
-      borrowed graph replaced it early — count the strokes and
-      you will see why</td>
+      <td>the archaic four was four stacked bars; this borrowed
+      graph replaced it early</td>
     </tr>
     <tr>
       <td class="script sign-cell">五</td><td>five</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-five.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǔ</span></a></td>
       <td>five</td>
-      <td>strokes crossed between a heaven-line and an
-      earth-line — past four you tie a knot instead of adding
-      bars</td>
+      <td>crossed strokes between heaven- and earth-line — the
+      knot you tie past four</td>
     </tr>
     <tr>
       <td class="script sign-cell">六</td><td>six</td><td><a class="say" href="{{ '/assets/audio/pinyin/liu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">liù</span></a></td>
@@ -50,14 +48,14 @@ word. So the numbers past three changed strategy:
     <tr>
       <td class="script sign-cell">白</td><td>white</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bái</span></a></td>
       <td>white; plain</td>
-      <td>the old picture is disputed — a grain of rice, a
-      thumbnail, the first dawn glow; all of them pale</td>
+      <td>a disputed picture — a rice grain, a thumbnail, dawn's
+      first glow; all pale</td>
     </tr>
     <tr>
       <td class="script sign-cell">百</td><td>hundred</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai-hundred.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bǎi</span></a></td>
       <td>hundred; the many</td>
-      <td>one 一 over white 白 — bái lends its sound and the
-      stroke tallies it: bǎi, the round hundred</td>
+      <td>one 一 over white 白 — bái lends the sound: bǎi, the
+      round hundred</td>
     </tr>
   </tbody>
 </table>

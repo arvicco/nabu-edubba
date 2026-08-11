@@ -5,6 +5,7 @@ require_relative "course_check"
 require_relative "rulebook"
 require_relative "value_check"
 require_relative "font_metrics"
+require_relative "table_balance"
 require_relative "../bin/pinyin_audio" # tone_of — the canonical tone reader
 
 # Conventions scan over site/ sources (the lint half of `rake gate`).
@@ -184,6 +185,7 @@ module Edubba
       found.concat(check_pinyin_display(path, text))
       found.concat(check_box_share(path, text))
       found.concat(check_citation_urn(path, text))
+      found.concat(check_table_balance(path, text))
       text.scan(TRANSLIT_SPAN) do
         extra, body = Regexp.last_match[:extra], Regexp.last_match[:body]
         next if extra.split.include?("atf")
@@ -245,6 +247,42 @@ module Edubba
                                  "reading line #{txt[0, 12].inspect}… is #{share.round}% boxes " \
                                  "(cap #{cap}% for ch. #{ch}) — untaught may never outnumber taught: " \
                                  "trim to the readable clause or pick a better-taught line (sinographs §5)")
+        end
+      end
+      found
+    end
+
+    # table-balance (owner ruling 2026-08-11, a HARD rule): no
+    # single column of a sign table may add more than 15% to the
+    # table's height over what the table would measure without it.
+    # Width first: the build already gives every table its balanced
+    # per-table grid (script/table_balance.rb, emitted as colgroup
+    # by the table_wrap plugin), so anything this check finds is
+    # CONTENT — excessive text concentrated in one column; trim or
+    # compress it. STAGED ACTIVATION (owner ruling 2026-08-11:
+    # "start from the newer courses"): enforced for the sinograph
+    # school now; cuneiform and hieroglyphs join as their long
+    # notes columns are trimmed (backlog packet) — their tables
+    # already get the width rebalancing today.
+    TB_EL = %r{<table class="sign-table(?<mods>[^"]*)">(?<body>.*?)</table>}m
+
+    def check_table_balance(path, text)
+      return [] unless path.end_with?(".md") && path.include?("/sinographs/")
+
+      found = []
+      text.scan(TB_EL) do
+        mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
+        next if mods.include?("tail-fit") || mods.include?("--even")
+
+        rows = TableBalance.rows_of(body)
+        next if rows.empty? || rows.map(&:size).max < 2
+
+        TableBalance.excesses(rows, true).each do |col, added|
+          found << Violation.new(path, "table-balance",
+                                 "sign-table column #{col + 1} adds #{(added * 100).round}% to the " \
+                                 "table's height even at its balanced width (hard limit 15%) — " \
+                                 "text is concentrated in one column: trim or compress the cells " \
+                                 "(table-balance law, 2026-08-11)")
         end
       end
       found

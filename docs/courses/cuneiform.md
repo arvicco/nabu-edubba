@@ -207,6 +207,21 @@ stacks. The reading-width lint enforces the budget; a corpus
 line is never shortened to fit (the tablet's line is the
 tablet's line — the layout adapts, not the text).
 
+No single column makes a table tall (table-balance law, owner
+ruling 2026-08-11, all schools): a sign-table column may not add
+more than 15% to the table's height over what the table would
+measure without it. Width first: every sign table's column grid
+is computed from its own content at build time
+(script/table_balance.rb, emitted as a static colgroup — labels
+keep their natural width, prose columns take everything left),
+so a starved column cannot exist; what still drives height after
+that is TEXT concentrated in one column, and the text gets
+trimmed or compressed. The table-balance lint enforces the hard
+rule with the same model; activation is staged (owner ruling,
+same day: start from the newer courses) — sinographs is enforced
+now, this school and hieroglyphs join when their long notes
+columns are compressed (backlog packet).
+
 Table cells hold forms and few-word glosses; sentence-length
 commentary lives in prose AROUND the table, never inside cells
 (owner report 2026-08-07: the stems table's Says column carried
@@ -685,6 +700,7 @@ listed in script/lint.rb's header — not repeated per school.
 | A reading line is one visual line (script never wraps) | §5 | stylesheet + style_guard test (pinned 2026-08-11, this audit) |
 | Columns never cut text (script fits or stacks) | §5 | `reading-width` lint (real font metrics) |
 | Cells hold labels, not sentences | §5 | `tail-fit-width` lint (60-char tail, 180/n labels) |
+| No column adds >15% to a table's height | §5 | build-time balanced colgroups; `table-balance` lint (staged: sinographs now, this school after notes compression) |
 | Codex identity: keyword unique, page per sign, name-slug | §7 | rulebook.rb codex + complete-shelf checks |
 | Two-heading honesty (origin cited vs hook owned) | §7 | owner review; the wild's citation via `citation-urn` |
 | Codex attested line carries no ▢ | §7 | `codex-reads` lint |

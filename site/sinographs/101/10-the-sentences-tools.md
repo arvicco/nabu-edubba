@@ -28,10 +28,9 @@ whole classical language, the biggest one you have not yet met:
   <tbody>
     <tr>
       <td class="script sign-cell">以</td><td>by-means-of</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
-      <td>by means of, using; to take</td>
-      <td>the old picture is disputed (one reading: a person
-      carrying something); the job is not — 以 X means "using
-      X", "by X"</td>
+      <td>by, using; to take</td>
+      <td>the picture is disputed; the job is not — 以 X means
+      "using X", "by X"</td>
     </tr>
     <tr>
       <td class="script sign-cell">自</td><td>self</td><td><a class="say" href="{{ '/assets/audio/pinyin/zi-self.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a></td>
@@ -41,21 +40,20 @@ whole classical language, the biggest one you have not yet met:
     </tr>
     <tr>
       <td class="script sign-cell">丁</td><td>nail</td><td><a class="say" href="{{ '/assets/audio/pinyin/ding.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dīng</span></a></td>
-      <td>a nail; an able-bodied man</td>
+      <td>a nail; an able man</td>
       <td>a nail seen head-on, driven flush — two strokes</td>
     </tr>
     <tr>
       <td class="script sign-cell">可</td><td>can</td><td><a class="say" href="{{ '/assets/audio/pinyin/ke.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">kě</span></a></td>
       <td>can, may; acceptable</td>
       <td>a nail-stroke 丁 beside a mouth 口 — the mouth that
-      grants permission (the hooked stroke is an old
-      sound-carrier)</td>
+      grants permission</td>
     </tr>
     <tr>
       <td class="script sign-cell">用</td><td>use</td><td><a class="say" href="{{ '/assets/audio/pinyin/yong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yòng</span></a></td>
       <td>to use, to employ</td>
-      <td>the old picture is disputed — a bucket, a fence, a hung
-      bell; whatever it was, it was put to use</td>
+      <td>a disputed picture — bucket, fence, or bell; whatever
+      it was, it got used</td>
     </tr>
   </tbody>
 </table>

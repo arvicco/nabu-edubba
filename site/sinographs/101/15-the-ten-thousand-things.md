@@ -31,20 +31,20 @@ scorpion at the end of the table counts them all:
     <tr>
       <td class="script sign-cell">七</td><td>seven</td><td><a class="say" href="{{ '/assets/audio/pinyin/qi-seven.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qī</span></a></td>
       <td>seven</td>
-      <td>a stroke severed by another — the old "cut", lent out
-      to the number and never returned</td>
+      <td>a stroke severed by another — the old "cut", lent to
+      the number for good</td>
     </tr>
     <tr>
       <td class="script sign-cell">八</td><td>eight</td><td><a class="say" href="{{ '/assets/audio/pinyin/ba.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bā</span></a></td>
-      <td>eight; (originally) to divide</td>
-      <td>two strokes parting company — the old "divide",
-      borrowed for the number that halves best</td>
+      <td>eight; to divide</td>
+      <td>two strokes parting company — the old "divide", spent
+      on the number that halves best</td>
     </tr>
     <tr>
       <td class="script sign-cell">九</td><td>nine</td><td><a class="say" href="{{ '/assets/audio/pinyin/jiu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jiǔ</span></a></td>
       <td>nine</td>
-      <td>a bent arm reaching in — probably the old "elbow",
-      loaned to the last and loftiest digit</td>
+      <td>a bent arm — probably the old "elbow", loaned to the
+      last and loftiest digit</td>
     </tr>
     <tr>
       <td class="script sign-cell">牛</td><td>ox</td><td><a class="say" href="{{ '/assets/audio/pinyin/niu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">niú</span></a></td>
@@ -55,14 +55,14 @@ scorpion at the end of the table counts them all:
     <tr>
       <td class="script sign-cell">物</td><td>thing</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-thing.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wù</span></a></td>
       <td>thing, creature</td>
-      <td>the ox lends the sense — cattle as the archetypal
-      possessions — and 勿 lends the sound</td>
+      <td>the ox lends the sense — cattle as possessions — and
+      勿 lends the sound</td>
     </tr>
     <tr>
       <td class="script sign-cell">萬</td><td>myriad</td><td><a class="say" href="{{ '/assets/audio/pinyin/wan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wàn</span></a></td>
       <td>ten thousand; myriad</td>
-      <td>a whole scorpion — pincers up top, tail curled below —
-      borrowed for the biggest round number there is</td>
+      <td>a whole scorpion, pincers to curled sting — borrowed
+      for the biggest round number</td>
     </tr>
   </tbody>
 </table>

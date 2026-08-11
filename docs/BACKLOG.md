@@ -899,3 +899,11 @@ Plan: .docs/phase-21-plan.md (arc table, verified URNs).
 ## M21-6 · ch19 · Learning, in its season  [tier: top] [status: open] [deps: M21-5]
 ## M21-7 · Stitching + Gate 21 PR  [tier: top] [status: open] [deps: M21-1..6]
 
+## M21-8 · Table-balance flip: cuneiform + hieroglyphs  [tier: top] [status: open] [deps: --]
+Goal: compress the long notes columns in the older schools' sign
+      tables until the table-balance lint passes there, then flip
+      the lint's staged activation to all schools (owner ruling
+      2026-08-11: start from the newer courses; width rebalancing
+      already live site-wide via build-time colgroups). ~50 tables;
+      may run as its own phase or ride a later stretch's gate.
+

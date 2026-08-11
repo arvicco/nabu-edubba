@@ -196,6 +196,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Museum objects labeled exhibits, not readings | §4 | `citation-urn` lint, `reading--monument` class (M19-2) |
 | Names approximate and say so | §4 | owner review |
 | New jargon → terms.yml same commit | §5 | term_links plugin + terms contract test |
+| No column adds >15% to a table's height (cuneiform §5 states the law) | shared | build-time balanced colgroups; `table-balance` lint (staged — joins after notes compression) |
 | Promises ledger: named chapter delivers, and says so | §6 | owner review |
 | E102 queue additive-only | §8 | hiero_queue_contract_test |
 | Batches from committed freq table; taught-means-used | §8 | queue contract; readable-line requirement owner review |
