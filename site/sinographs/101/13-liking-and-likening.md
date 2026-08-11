@@ -79,7 +79,7 @@ carry it — 知 already yours, 好 read as the verb hào:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知之者不如好之者，</span><span class="translit pinyin">zhī zhī zhě bù rú hào zhī zhě</span><span class="gloss">"the one who knows it is not the equal of the one who loves it" — 不如 makes the comparison: falls short of</span></div>
+    <div class="reading-line"><span class="script">知之者不如好之者，</span><span class="translit pinyin">zhī zhī zhě bù rú hào zhī zhě</span><span class="gloss">"the one who knows it is not the equal of the one who loves it" — "it" is whatever you are learning: knowing about a thing falls short of loving it, and loving falls short of delighting. 不如 makes the comparison: falls short of</span></div>
     <div class="reading-line"><span class="script">好之者不如▢之者。</span><span class="translit pinyin">hào zhī zhě bù rú lè zhī zhě</span><span class="gloss">"and the one who loves it is not the equal of the one who delights in it" — one box for the delight; sixteen characters, and only that one is not yours</span></div>
   </div>
   <figcaption class="citation">
@@ -112,7 +112,7 @@ second half, on seeing and courage, closed
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">非其▢而▢之，▢也。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī, chǎn yě</span><span class="gloss">"to sacrifice to a ghost that is not one's own — that is flattery" — the boxes are "ghost", "sacrifice", "flattery"; 非其… denies the belonging itself</span></div>
+    <div class="reading-line"><span class="script">非其▢而▢之，▢也。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī, chǎn yě</span><span class="gloss">"to sacrifice to a ghost not your own is toadying" — "ghosts" are ancestors: you owe worship to YOUR dead, and courting someone else's powerful ancestors is just sucking up to their family. The boxes are "ghost", "sacrifice", "flattery"; 非其… denies the belonging itself</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.24.

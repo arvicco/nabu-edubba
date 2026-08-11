@@ -28,7 +28,7 @@ for this character.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知之為知之，不知為不知，是知也。</span><span class="translit pinyin">zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhī yě</span><span class="gloss">"…THIS is knowing" — 是 sealing the course's first fully open saying</span></div>
+    <div class="reading-line"><span class="script">知之為知之，不知為不知，是知也。</span><span class="translit pinyin">zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhī yě</span><span class="gloss">"…THAT is real knowing" — knowing what you know and admitting what you don't; 是 seals the course's first fully open saying</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.17.

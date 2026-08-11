@@ -75,8 +75,8 @@ spirit long ago; now the later decades are yours almost box-free
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">四十而不▢，五十而知天▢。</span><span class="translit pinyin">sì shí ér bù huò, wǔ shí ér zhī tiān mìng</span><span class="gloss">"at forty, no longer led astray; at fifty, I knew heaven's charge" — the boxes are "astray" and "charge"; the decades, the hinge 而, and heaven itself are all yours</span></div>
-    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, the ear obeyed" — two boxes for the famous obedient ear: nothing he heard could unsettle him</span></div>
+    <div class="reading-line"><span class="script">四十而不▢，五十而知天▢。</span><span class="translit pinyin">sì shí ér bù huò, wǔ shí ér zhī tiān mìng</span><span class="gloss">"at forty, nothing could confuse me; at fifty, I knew the task Heaven had set me" — doubt gone by forty, purpose clear by fifty. The boxes are "confused" and "charge"; the decades, the hinge 而, and heaven itself are all yours</span></div>
+    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, nothing I heard could throw me" — literally "the ear was attuned": criticism, praise, bad news, all heard without a flinch; two boxes for the famous phrase</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4 — the master's own curriculum, decade
@@ -96,7 +96,7 @@ walks straight back in behind it:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢三百，一言以▢之。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī</span><span class="gloss">"the Songs are three hundred — one saying covers them all" — the boxes are "Songs" and "covers"; the count 三百 and the instrument 以 are yours. (The one saying, the master adds: think nothing crooked.)</span></div>
+    <div class="reading-line"><span class="script">▢三百，一言以▢之。</span><span class="translit pinyin">shī sān bǎi, yī yán yǐ bì zhī</span><span class="gloss">"the Songs are three hundred — one saying covers them all" — the boxes are "Songs" and "covers"; the count 三百 and the instrument 以 are yours. (And the one saying, the Master adds: not one insincere line.)</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.

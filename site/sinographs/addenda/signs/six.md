@@ -28,7 +28,7 @@ A little house with the count of **six** under its roof.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, the ear obeyed" — 六十, the master's decade of the unshakable ear</span></div>
+    <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn</span><span class="gloss">"at sixty, nothing I heard could throw me" — literally "the ear was attuned"; 六十, the decade nothing could unsettle</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4.

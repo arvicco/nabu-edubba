@@ -29,7 +29,7 @@ what is at the middle of a thing is inside it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">多言數窮，不如守中。</span><span class="translit pinyin">duō yán shù qióng, bù rú shǒu zhōng</span><span class="gloss">"many words are soon exhausted; better to hold to the middle" — the Laozi's advice, with 中 as the still point</span></div>
+    <div class="reading-line"><span class="script">多言數窮，不如守中。</span><span class="translit pinyin">duō yán shù qióng, bù rú shǒu zhōng</span><span class="gloss">"many words are soon exhausted; better to hold to the middle" — talk runs out, your center does not: the Laozi against wordiness, with 中 as the still point</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 5.

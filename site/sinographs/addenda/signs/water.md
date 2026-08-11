@@ -29,7 +29,7 @@ the current, the side strokes the spray.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知者樂水，仁者樂山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — the moving half of the pair</span></div>
+    <div class="reading-line"><span class="script">知者樂水，仁者樂山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — water for the wise because they are like it: quick, adaptive, always moving; the mountain half belongs to the steady</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23.

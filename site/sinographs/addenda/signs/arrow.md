@@ -27,7 +27,7 @@ is inside other characters: listen for shǐ, look for the point.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不知▢不知。</span><span class="translit pinyin">bù zhī wéi bù zhī</span><span class="gloss">"take not-knowing as not-knowing" — honesty about ignorance as the beginning of knowledge; the arrow doing its work inside 知, four times over</span></div>
+    <div class="reading-line"><span class="script">不知▢不知。</span><span class="translit pinyin">bù zhī wéi bù zhī</span><span class="gloss">"when you do not know — admit you do not know" — honesty about ignorance as the start of knowledge; the arrow doing its work inside 知, four times over</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.17.
