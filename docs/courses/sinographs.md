@@ -289,6 +289,46 @@ same-commit voicing and codex pages, per-chapter pool splicing),
 plus the first return-arc TABLE (M20-5) — the plan carries it;
 the chapters deliver it.
 
+### S101 stretch 5 (ruled 2026-08-12 at the phase-22 opening, before content)
+
+Chapters 20–24 open **cause and consequence**: the rule and its
+parts (貝 刀 分 則 先 後), doing and becoming (事 作 成 能 使),
+wanting and getting (得 與 欲 皆 謂 然), the state and the world
+(國 千 世 地 風), and likeness (若 同 從) — 25 fresh characters,
+box-share cap tightens to **30%** (the declining-cap law's fourth
+step). Total 135 = two of every five characters on a classical
+page:
+
+- **ch20 · First and after, then:** 貝 刀 分 則 先 後 — two cheap
+  pictographs (cowrie, knife) buy two compounds in the same
+  chapter: 分 = ⿱八刀 (ch15's 八), 則 = ⿰貝刀 (values cut beside
+  the cowrie: the rule; hence "then"). Finale: the Daxue's 知所
+  先後，則近道矣 at one box.
+- **ch21 · The work and its doing:** 事 作 成 能 使 — Laozi's
+  chapter: 為無為，事無事，味無味 at ZERO boxes (ch04's 味 paid);
+  物有本末，事有終始 (ch04's 本末 paid); 難易相成 (ch12's 相);
+  萬物作焉而不辭; 故能成其大; 使民以時 returns at zero (ch19's
+  box paid).
+- **ch22 · Wanting and getting:** 得 與 欲 皆 謂 然 — Analects
+  4.5 whole clause (富與貴，是人之所欲也；不以其道得之，不處也);
+  finale Laozi 17's 功成事遂，而百姓皆謂我自然 — the people all
+  say: we did it ourselves.
+- **ch23 · The thousand-chariot state:** 國 千 世 地 風 — 千
+  completes the number ladder the course forgot it owed (一–萬
+  minus a thousand); 天地不仁; 君子之德風; 十世可知也; finale
+  **Analects 1.5 WHOLE** (道千乘之國…使民以時), the second full
+  saying after 1.1.
+- **ch24 · Like water:** 若 同 從 — 上善若水; 是謂玄同; the 2.4
+  ladder closes COMPLETELY (七十而從心所欲，不踰矩 at two boxes);
+  the Daxue's 古之欲明明德於天下者，先治其國 stitches the whole
+  stretch (先 欲 國 all its own).
+
+Laws in force unchanged; the arc table with verified URNs lives
+in the phase-22 plan. Course edition note (caught at plan stage,
+witness-first): this Laozi writes 小邦寡民, not 小國寡民 — 國's
+witnesses are the Analects and the Daxue, never a paraphrased
+Laozi 80.
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught
