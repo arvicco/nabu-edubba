@@ -146,7 +146,7 @@ International Phonetic Alphabet).[^ipa]
       lightly</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">j · q · x</span><br><a class="say" href="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
+      <td><span class="translit pinyin">j · q · x</span><br><a class="say" href="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qí</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td>[tɕ] [tɕʰ] [ɕ]</td>
       <td>the smiling sounds: "jee," "chee," "shee" said with
       spread lips and the tongue-tip DOWN behind the lower teeth —
@@ -160,7 +160,7 @@ International Phonetic Alphabet).[^ipa]
       tongue at the roof of the mouth</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">z · c</span><br><a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cí</span></a></td>
+      <td><span class="translit pinyin">z · c</span><br><a class="say" href="{{ '/assets/audio/pinyin/zi-self.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cǐ</span></a></td>
       <td>[ts] [tsʰ]</td>
       <td>"ds" as in "kids"; c is "ts" as in "cats" with a puff —
       never English k</td>
@@ -195,7 +195,7 @@ the hisses:
     <tr>
       <td>the smiling three</td>
       <td><a class="say" href="{{ '/assets/audio/pinyin/ji.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jī</span></a></td>
-      <td><a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qī</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qí</span></a></td>
       <td><a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td></td>
     </tr>
@@ -208,8 +208,8 @@ the hisses:
     </tr>
     <tr>
       <td>ds / ts</td>
-      <td><a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a></td>
-      <td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cí</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/zi-self.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a></td>
+      <td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cǐ</span></a></td>
       <td></td><td></td>
     </tr>
   </tbody>
@@ -241,7 +241,7 @@ Vowels and endings. Most are steady; three need care.
       the vowel of "duh" with spread lips. 德 <span class="translit pinyin">dé</span> ≈ "duh," rising</td>
     </tr>
     <tr>
-      <td><span class="translit pinyin">i</span><br><a class="say" href="{{ '/assets/audio/pinyin/yi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/zi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
+      <td><span class="translit pinyin">i</span><br><a class="say" href="{{ '/assets/audio/pinyin/yi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yī</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/zi-self.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zì</span></a> · <a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
       <td>[i] / [ɹ̩]</td>
       <td>three faces: "ee" after most letters (<span class="translit pinyin">bǐ</span>, <span class="translit pinyin">mǐ</span>);
       but after z/c/s and zh/ch/sh/r it is only the buzz of the

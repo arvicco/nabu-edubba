@@ -231,7 +231,7 @@ scheme for four of the plainest shapes:
 Twenty-six signs are enough, right now, for real Egyptian words —
 short ones, honestly, but genuine and heavily attested:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--composed">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓆓𓂧</span><span class="translit">ḏd</span><span class="gloss">"say, speak" — 1,060 attestations</span></div>
     <div class="reading-line"><span class="script">𓊪𓈖</span><span class="translit">pn</span><span class="gloss">"this" — 617 attestations</span></div>
@@ -243,7 +243,7 @@ short ones, honestly, but genuine and heavily attested:
     <div class="reading-line"><span class="script">𓊪𓏲</span><span class="translit">pw</span><span class="gloss">"this is / it is" — 821 attestations</span></div>
     <div class="reading-line"><span class="script">𓇋𓏲</span><span class="translit">jw</span><span class="gloss">"it is so that…" — opens a statement of fact; demonstrated below — 2,329 attestations</span></div>
   </div>
-  <figcaption class="citation">Counts computed over the aes corpus
+  <figcaption class="citation">An exhibit assembled from counts computed over the aes corpus
   (BBAW Ancient Egyptian Sentences) via Nabu, license: attribution.</figcaption>
 </figure>
 
@@ -254,7 +254,7 @@ buried inside English "he *is* in the house". With <a href="{{ '/hieroglyphs/101
 house you can watch it work, in the textbook sentence every
 Egyptian grammar reaches for first:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--composed">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𓇋𓏲𓆑𓅓𓉐𓏤</span><span class="translit">jw=f m pr</span><span class="gloss">"he is in the house"</span></div>
   </div>

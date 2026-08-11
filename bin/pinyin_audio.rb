@@ -111,6 +111,75 @@ module Edubba
       :level
     end
 
+    # Cut QA (M19-3, retro rec 4): the tone check reads pitch, not
+    # span — a cut carrying a neighbor syllable's onset (yuē rode
+    # 会's onset, 2026-08-11) still verified "level ✓". Two span
+    # checks close the gap: a single cut syllable's voiced span
+    # lives inside 0.15–0.85 s, and its smoothed energy envelope is
+    # one hump — a second hump is another syllable riding the cut
+    # (except the citation third tone's glottal closure; see
+    # cut_ok?).
+    FRAME = 400 # 25 ms at 16 kHz
+    SPAN = (0.15..0.85) # seconds; tuned so all 79 committed cuts pass
+    HUMP_FLOOR = 0.15 # a valley below 15% of peak separates humps
+
+    # Non-overlapping 25 ms RMS frames, 3-frame moving average.
+    def envelope(pcm)
+      samples = pcm.unpack("s<*")
+      raw = (0...(samples.length / FRAME)).map do |i|
+        w = samples[i * FRAME, FRAME]
+        Math.sqrt(w.sum { |x| x * x } / w.length.to_f)
+      end
+      raw.each_index.map do |i|
+        a = [i - 1, 0].max
+        b = [i + 1, raw.length - 1].min
+        raw[a..b].sum / (b - a + 1)
+      end
+    end
+
+    # Maxima separated by sub-floor valleys, counted as runs of ≥2
+    # frames (≥50 ms) above the floor — clicks don't count, breathy
+    # onsets below the floor don't split the vowel's hump.
+    def humps(env)
+      peak = env.max.to_f
+      return 0 if peak <= 0
+
+      env.map { |e| e >= peak * HUMP_FLOOR }
+         .slice_when { |a, b| a != b }
+         .count { |run| run.first && run.length >= 2 }
+    end
+
+    # First-to-last voiced frame, valleys included — a cut that goes
+    # quiet in the middle is still that wide.
+    def voiced_span(env)
+      peak = env.max.to_f
+      idx = env.each_index.select { |i| env[i] >= peak * HUMP_FLOOR } if peak.positive?
+      return 0.0 if idx.nil? || idx.empty?
+
+      (idx.last - idx.first + 1) * FRAME / 16_000.0
+    end
+
+    # => [ok, reason-if-refused]. The citation third tone may close
+    # the glottis completely mid-dip — kě and bǎi drop to ~2% RMS in
+    # dedicated single-syllable recordings — so :dip is allowed a
+    # second hump; every other tone is one syllable, one hump.
+    def cut_ok?(pcm, tone: nil)
+      env = envelope(pcm)
+      span = voiced_span(env)
+      unless SPAN.cover?(span)
+        return [false, format("voiced span %.2f s outside %.2f–%.2f s", span, SPAN.min, SPAN.max)]
+      end
+
+      h = humps(env)
+      allowed = tone == :dip ? 2 : 1
+      if h > allowed
+        return [false, "#{h} energy humps (#{allowed} allowed for this tone) — " \
+                       "another syllable rides the cut"]
+      end
+
+      [true, nil]
+    end
+
     # Pure-Ruby pitch track over 16 kHz mono s16le PCM.
     def pitch_track(pcm)
       sr = 16_000
@@ -307,6 +376,13 @@ if $PROGRAM_NAME == __FILE__
     unless Edubba::PinyinAudio.tone_ok?(expected, track)
       got = Edubba::PinyinAudio.classify(track)
       failures << "#{slug}: pitch says #{got}, pinyin #{src['pinyin']} expects #{expected} — refused"
+      next
+    end
+
+    # Span-verify the cut (M19-3) — tone can pass on a wrong span.
+    cut_pass, why = Edubba::PinyinAudio.cut_ok?(File.binread(pcm_f), tone: expected)
+    unless cut_pass
+      failures << "#{slug}: #{why} — refused"
       next
     end
 

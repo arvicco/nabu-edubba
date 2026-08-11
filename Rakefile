@@ -39,8 +39,26 @@ task :serve do
   sh "bundle exec jekyll serve --source site --destination _build/serve"
 end
 
+# No second writer (M19-5, 2026-08-11 incident): a live `jekyll
+# serve` regenerated into the gate's build dir mid-gate and 110
+# phantom link failures shipped into the report. The gate asserts
+# sole ownership of the build before it starts.
+task :sole_writer do
+  # CI is a fresh container per job — sole ownership by construction
+  # (and the runner's own processes false-matched a bare "jekyll"
+  # pattern there: red gate on PR #24, 2026-08-11).
+  next if ENV["CI"]
+
+  pids = `pgrep -f "jekyll (serve|build)"`.split.map(&:to_i) - [Process.pid]
+  unless pids.empty?
+    abort "gate: another jekyll process is alive (PID #{pids.join(', ')}) — " \
+          "a second writer races the gate build (2026-08-11 incident); " \
+          "stop it first (kill #{pids.join(' ')})"
+  end
+end
+
 desc "Pre-commit gate: all green or no commit"
-task gate: %i[lint test build check] do
+task gate: %i[sole_writer lint test build check] do
   puts "GATE GREEN"
 end
 
