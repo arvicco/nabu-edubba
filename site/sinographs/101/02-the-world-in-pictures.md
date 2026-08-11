@@ -20,20 +20,20 @@ Six characters, and every one of them is a drawing:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
       <td class="script sign-cell">日</td><td>sun</td><td><a class="say" href="{{ '/assets/audio/pinyin/ri.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rì</span></a></td>
       <td>the sun; a day</td>
-      <td>the sun-disc, squared off by the brush, its point of light
-      kept as the middle stroke</td>
+      <td>the sun-disc squared by the brush, the middle stroke
+      its spark</td>
     </tr>
     <tr>
       <td class="script sign-cell">月</td><td>moon</td><td><a class="say" href="{{ '/assets/audio/pinyin/yue.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yuè</span></a></td>
       <td>the moon; a month</td>
-      <td>a crescent with its inner shading — the moon is always
-      drawn waxing, never full</td>
+      <td>a crescent, shaded within — always drawn waxing,
+      never full</td>
     </tr>
     <tr>
       <td class="script sign-cell">山</td><td>mountain</td><td><a class="say" href="{{ '/assets/audio/pinyin/shan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shān</span></a></td>
@@ -43,8 +43,8 @@ Six characters, and every one of them is a drawing:
     <tr>
       <td class="script sign-cell">水</td><td>water</td><td><a class="say" href="{{ '/assets/audio/pinyin/shui.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shuǐ</span></a></td>
       <td>water; a river</td>
-      <td>a stream mid-current — the long center line is the flow,
-      the strokes beside it the eddies</td>
+      <td>a stream mid-current — the center line the flow, the
+      rest eddies</td>
     </tr>
     <tr>
       <td class="script sign-cell">木</td><td>tree</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>

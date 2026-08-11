@@ -450,7 +450,7 @@ img, svg { max-width: 100%; }
   min-width: 38rem;
   margin: 0 0 1rem;
 }
-.sign-table td { overflow-wrap: break-word; }
+.sign-table td, .sign-table th { overflow-wrap: break-word; }
 
 .sign-table th, .sign-table td {
   text-align: left;
