@@ -2407,6 +2407,101 @@ signs:
   note: 'rank 109; a sail-shaped outer sign for the sound, an insect within — the
     old lists say wind is what quickens the insects. Also the "Airs": the Odes'' name
     for its folk songs, and a lord''s influence on the people.'
+- char: 若
+  glyph: 若
+  name: as-if
+  codepoint: 82E5
+  keyword: as-if
+  pinyin: ruò
+  meaning: to be like; if
+  category: compound-ideograph
+  certainty: classic
+  strokes: 8
+  ids: "⿱艹右"
+  rank: 112
+  count_kanripo: 1119284
+  docs: 4907
+  chapter: 24
+  parts: []
+  note: rank 112; the oldest forms draw a kneeling figure smoothing long hair — yielding,
+    going along with — whence "to accord with, to be like," and in the classics also
+    "if." The received graph re-dressed the figure as plants over a hand.
+- char: 同
+  glyph: 同
+  name: same
+  codepoint: 540C
+  keyword: same
+  pinyin: tóng
+  meaning: same, together
+  category: compound-ideograph
+  certainty: classic
+  strokes: 6
+  ids: "⿵冂\U00020B9B"
+  rank: 97
+  count_kanripo: 1226451
+  docs: 4937
+  chapter: 24
+  parts:
+  - 口
+  note: 'rank 97; a cover held over a mouth 口 — many mouths under one roof-piece,
+    speaking as one: the same, together.'
+- char: 從
+  glyph: 從
+  name: follow
+  codepoint: 5F9E
+  keyword: follow
+  pinyin: cóng
+  meaning: to follow
+  category: compound-ideograph
+  certainty: classic
+  strokes: 11
+  ids: "⿰彳⿱从龰"
+  rank: 121
+  count_kanripo: 1037386
+  docs: 4828
+  chapter: 24
+  parts:
+  - 人
+  note: rank 121; two people, one walking behind the other — the old graph was just
+    the pair 从; the road-step and a foot joined later to make the walking explicit.
+- char: 善
+  glyph: 善
+  name: good
+  codepoint: '5584'
+  keyword: good
+  pinyin: shàn
+  meaning: good; to be good at
+  category: compound-ideograph
+  certainty: classic
+  strokes: 12
+  ids: "⿳羊䒑口"
+  rank: 234
+  count_kanripo: 618480
+  docs: 4600
+  chapter: 24
+  parts: []
+  note: 'rank 234 — a curated pin (§5): boxed twice already this run of chapters.
+    The sheep-sign over speech — words gentle as the flock: the good, and being good
+    at a thing.'
+- char: 長
+  glyph: 長
+  name: long
+  codepoint: '9577'
+  keyword: long
+  pinyin: cháng
+  meaning: long; to grow, elder
+  category: pictograph
+  certainty: classic
+  strokes: 8
+  ids: "⿱{76}{25}"
+  rank: 102
+  count_kanripo: 1181063
+  docs: 4984
+  chapter: 24
+  parts: []
+  note: 'rank 102; a long-haired elder leaning on a staff — the hair is the length.
+    Read cháng for "long," zhǎng for "to grow, elder": one picture, both ends of a
+    life.'
 batches:
 - chapter: 0
   signs:
@@ -2612,3 +2707,11 @@ batches:
   - 地
   - 風
   coverage_pct: 37.5
+- chapter: 24
+  signs:
+  - 若
+  - 同
+  - 從
+  - 善
+  - 長
+  coverage_pct: 38.2

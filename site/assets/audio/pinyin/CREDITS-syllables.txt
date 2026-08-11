@@ -14,10 +14,12 @@ bai-hundred.mp3 — "Zh-bǎi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 bei.mp3        — "Zh-bèi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ben.mp3        — "Zh-běn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 bu.mp3         — "Zh-bù.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+chang.mp3      — "Zh-cháng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 chen.mp3       — "Zh-chén.ogg" · Yue Tan · CC BY-SA 3.0 us
 cheng.mp3      — "Zh-chéng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 chu.mp3        — "Zh-chū.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ci.mp3         — "Zh-ci.ogg" · Yue Tan · CC BY-SA 3.0 us
+cong.mp3       — "Zh-cóng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 da.mp3         — "Zh-dà.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dan.mp3        — "Zh-dàn.ogg" · Yue Tan · CC BY-SA 3.0 us
 dao.mp3        — "Zh-dào.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -71,9 +73,11 @@ ren.mp3        — "Zh-rén.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ri.mp3         — "Zh-rì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ru.mp3         — "Zh-rú.ogg" · Yue Tan · CC BY-SA 3.0 us
 ru-enter.mp3   — "Zh-rù.ogg" · Yue Tan · CC BY-SA 3.0 us
+ruo.mp3        — "Zh-ruò.ogg" · Yue Tan · CC BY-SA 3.0 us
 san.mp3        — "Zh-sān.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shan.mp3       — "LL-Q9192 (cmn)-Jouketou-山.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0
+shan-good.mp3  — "Zh-shàn.ogg" · Yue Tan · CC BY-SA 3.0 us
 shang.mp3      — "Zh-shàng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 sheng.mp3      — "Zh-shēng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 shi.mp3        — "Zh-shí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -89,6 +93,7 @@ suo.mp3        — "LL-Q9192 (cmn)-Jouketou-所.wav" · Speaker: Jouketou
 Recorder: Jouketou · CC BY-SA 4.0
 ta.mp3         — "Zh-tà.ogg" · Yue Tan · CC BY-SA 3.0 us
 tian.mp3       — "Zh-tiān.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+tong.mp3       — "Zh-tóng.ogg" · Yue Tan · CC BY-SA 3.0 us
 tu.mp3         — "LL-Q727694 (cmn)-Shangkuanlc-土.wav" · Speaker: Shangkuanlc
 Recorder: Shangkuanlc · CC BY-SA 4.0
 wan.mp3        — "Zh-wàn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr

@@ -130,6 +130,11 @@ sources:
   qian:      {file: "Zh-qiān.ogg", pinyin: "qiān"}   # 千
   di:        {file: "Zh-dì.ogg", pinyin: "dì"}       # 地
   feng:      {file: "Zh-fēng.ogg", pinyin: "fēng"}   # 風
+  ruo:       {file: "Zh-ruò.ogg", pinyin: "ruò"}     # 若
+  tong:      {file: "Zh-tóng.ogg", pinyin: "tóng"}   # 同
+  cong:      {file: "Zh-cóng.ogg", pinyin: "cóng"}   # 從
+  shan-good: {file: "Zh-shàn.ogg", pinyin: "shàn"}   # 善 (shan = 山)
+  chang:     {file: "Zh-cháng.ogg", pinyin: "cháng"} # 長
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -243,6 +248,11 @@ voices:
   generation: shi-this
   ground: di
   wind: feng
+  as-if: ruo
+  same: tong
+  follow: cong
+  good: shan-good
+  long: chang
   know: zhi
   middle: zhong
   moon: yue
