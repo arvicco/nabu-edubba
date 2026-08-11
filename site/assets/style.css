@@ -367,6 +367,16 @@ img, svg { max-width: 100%; }
     top: 1.5rem;
     border-right: 1px solid var(--rule);
     padding-right: 1.25rem;
+    /* The course list outgrew the viewport (owner report
+       2026-08-11: wheel over the sidebar scrolled the chapter):
+       a sticky element with no scroll viewport of its own passes
+       wheel events to the page. Cap it and let it scroll itself;
+       when it fits, auto does nothing and the wheel falls through
+       as before. No sign-links live here (nav text only) — the
+       style guard carries it in NO_TIP_CONTAINERS. */
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
   }
   .course-sidebar-details summary { list-style: none; }
   .course-sidebar-details summary::-webkit-details-marker { display: none; }
