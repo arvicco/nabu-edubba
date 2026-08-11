@@ -1451,6 +1451,112 @@ signs:
   chapter: 14
   note: rank 68; the old picture is disputed (a cover over something, an inverted
     mouth); paired against 古 "antiquity" it marks the present moment.
+- char: 七
+  glyph: 七
+  name: seven
+  codepoint: 4E03
+  keyword: seven
+  pinyin: qī
+  meaning: seven
+  category: loan
+  certainty: stated
+  strokes: 2
+  ids: "〾⿻一乚"
+  rank: 124
+  count_kanripo: 1021901
+  docs: 4915
+  chapter: 15
+  note: rank 124; originally a cross-cut — a stroke severed by another, the ancestor
+    of 切 "to cut" — borrowed early and permanently for the number.
+- char: 八
+  glyph: 八
+  name: eight
+  codepoint: 516B
+  keyword: eight
+  pinyin: bā
+  meaning: eight; (original sense) to divide
+  category: loan
+  certainty: classic
+  strokes: 2
+  ids: "⿰丿㇏"
+  rank: 126
+  count_kanripo: 1020787
+  docs: 4908
+  chapter: 15
+  note: rank 126; two strokes parting company — the old word for "divide" (分 keeps
+    it, with a knife added), borrowed for the number that divides evenly best.
+- char: 九
+  glyph: 九
+  name: nine
+  codepoint: 4E5D
+  keyword: nine
+  pinyin: jiǔ
+  meaning: nine
+  category: loan
+  certainty: stated
+  strokes: 2
+  ids: 九
+  rank: 104
+  count_kanripo: 1153759
+  docs: 4977
+  chapter: 15
+  note: rank 104; a bent arm reaching in — the probable original of "elbow" — loaned
+    for the last digit; the classics' number of utmost height (九天, the ninth heaven).
+- char: 牛
+  glyph: 牛
+  name: ox
+  codepoint: 725B
+  keyword: ox
+  pinyin: niú
+  meaning: ox, cow, cattle
+  category: pictograph
+  certainty: classic
+  strokes: 4
+  ids: "⿰㇒\U00030001"
+  rank: 665
+  count_kanripo: 220677
+  docs: 3851
+  chapter: 15
+  note: rank 665; an ox head-on — horns up top, ears out the sides, the muzzle running
+    down. The great sacrificial animal; a state's wealth walked on these legs.
+- char: 物
+  glyph: 物
+  name: thing
+  codepoint: '7269'
+  keyword: thing
+  pinyin: wù
+  meaning: thing, creature; the things of the world
+  category: phono-semantic
+  certainty: classic
+  strokes: 8
+  ids: "⿰牜勿"
+  rank: 182
+  count_kanripo: 791295
+  docs: 4770
+  chapter: 15
+  parts:
+  - 牛
+  note: rank 182; the ox 牛 gives the sense — cattle as the archetypal possessions
+    — and 勿 (a streaked banner) gives the sound; originally the motley of an ox's
+    coat, then "kinds", then every thing there is.
+- char: 萬
+  glyph: 萬
+  name: myriad
+  codepoint: 842C
+  keyword: myriad
+  pinyin: wàn
+  meaning: ten thousand; myriad, countless
+  category: loan
+  certainty: classic
+  strokes: 12
+  ids: "⿱艹禺"
+  rank: 117
+  count_kanripo: 1057137
+  docs: 4986
+  chapter: 15
+  note: rank 117; a scorpion drawn whole — pincers up top, tail curled below — borrowed
+    for the biggest round number the language names; 萬物 "the ten thousand things"
+    is the classics' phrase for everything alive.
 batches:
 - chapter: 0
   signs:
@@ -1578,3 +1684,12 @@ batches:
   - 至
   - 今
   coverage_pct: 27.7
+- chapter: 15
+  signs:
+  - 七
+  - 八
+  - 九
+  - 牛
+  - 物
+  - 萬
+  coverage_pct: 28.5
