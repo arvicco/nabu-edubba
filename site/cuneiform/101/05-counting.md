@@ -174,7 +174,7 @@ an account line, not a transcription of any particular tablet — with
 one exception: the last line adds your new 𒄥, in the standard
 barley-account pattern the real corpus repeats endlessly.
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--composed">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒁹 𒊺</span><span class="translit">1 še</span><span class="gloss">one (unit) of barley</span></div>
     <div class="reading-line"><span class="script">𒁹𒁹𒁹 𒊺</span><span class="translit">3 še</span><span class="gloss">three (units) of barley</span></div>
@@ -182,7 +182,7 @@ barley-account pattern the real corpus repeats endlessly.
     <div class="reading-line"><span class="script">𒀸𒀸𒀸 𒊺 𒄥</span><span class="translit">3(aš) še gur</span><span class="gloss">three gur of barley — the full measure-phrase of the granary texts</span></div>
   </div>
   <figcaption class="citation">
-    Schematic examples in the pattern of real administrative texts,
+    Schematic examples composed in the pattern of real administrative texts,
     not a transcription of an attested tablet. In gur-accounting the
     horizontal 𒀸 does the counting — which is why the humble
     single-horizontal earns its keep on tens of thousands of

@@ -121,14 +121,14 @@ appearances in <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}
 Sumerian builds compounds happily, and you now hold enough signs for
 real entries from its lexicon — write each, then read it back aloud:
 
-<figure class="reading reading--script">
+<figure class="reading reading--script reading--composed">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">𒀭𒆠</span><span class="translit">an-ki</span><span class="gloss">heaven and earth — the cosmos</span></div>
     <div class="reading-line"><span class="script">𒆳𒆳</span><span class="translit">kur-kur</span><span class="gloss">the mountains, all the lands (doubling marks plural)</span></div>
     <div class="reading-line"><span class="script">𒂍𒆳</span><span class="translit">e₂-kur</span><span class="gloss">"Mountain House" — Ekur, the great temple of Enlil at Nippur</span></div>
   </div>
   <figcaption class="citation">
-    Compounds as given in the standard beginner's grammars and the
+    Assembled from the compounds given in the standard beginner's grammars and the
     ETCSL corpus; e₂-kur as the temple's proper name is standard in
     the literature (e.g., the ETCSL translations passim).
   </figcaption>
