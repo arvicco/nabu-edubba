@@ -33,23 +33,20 @@ yours.
     <tr>
       <td class="script sign-cell">𓁹</td><td>D4</td><td>eye</td><td><em>jr</em></td>
       <td>eye; the verb jrj, to do, to make</td>
-      <td>the human eye, painted rim and all — as a noun jrt "eye,"
-          as a verb the all-purpose "do, make, perform" of the
-          entire language</td>
+      <td>the human eye — jrt "eye"; as a verb, the
+          language's "do, make"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓂞</td><td>D37</td><td>giving arm</td><td><em>dj</em></td>
       <td>the verb rdj/dj, to give</td>
-      <td>an arm holding out a loaf of bread — giving drawn as
-          giving; you met its little cousin 𓏙 inside 101's
-          offering formula, and this is the full-arm form</td>
+      <td>an arm holding out bread — giving drawn as
+          giving</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓃹</td><td>E34</td><td>hare</td><td><em>wn</em></td>
       <td>the desert hare; wnn, to be, to exist</td>
-      <td>a hare at full alert — by sound it carries wnn, the verb
-          of existing; why the hare, of all animals, holds "to be"
-          is a question the sign lists leave open</td>
+      <td>a hare at full alert — wnn, the verb of
+          existing; why the hare, none can say</td>
     </tr>
   </tbody>
 </table>

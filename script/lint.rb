@@ -296,16 +296,15 @@ module Edubba
     # per-table grid (script/table_balance.rb, emitted as colgroup
     # by the table_wrap plugin), so anything this check finds is
     # CONTENT — excessive text concentrated in one column; trim or
-    # compress it. STAGED ACTIVATION (owner ruling 2026-08-11:
-    # "start from the newer courses"): enforced for the sinograph
-    # school now; cuneiform and hieroglyphs join as their long
-    # notes columns are trimmed (backlog packet) — their tables
-    # already get the width rebalancing today.
+    # compress it. Enforced school-wide since 2026-08-11 (M22-1):
+    # the staged activation ended when the older schools' notes
+    # columns were compressed to their computed budgets.
     TB_EL = %r{<table class="sign-table(?<mods>[^"]*)">(?<body>.*?)</table>}m
 
     def check_table_balance(path, text)
-      return [] unless path.end_with?(".md") && path.include?("/sinographs/")
+      return [] unless path.end_with?(".md")
 
+      sino = path.include?("/sinographs/")
       found = []
       text.scan(TB_EL) do
         mods, body = Regexp.last_match[:mods], Regexp.last_match[:body]
@@ -314,7 +313,7 @@ module Edubba
         rows = TableBalance.rows_of(body)
         next if rows.empty? || rows.map(&:size).max < 2
 
-        TableBalance.excesses(rows, true).each do |col, added|
+        TableBalance.excesses(rows, sino).each do |col, added|
           found << Violation.new(path, "table-balance",
                                  "sign-table column #{col + 1} adds #{(added * 100).round}% to the " \
                                  "table's height even at its balanced width (hard limit 15%) — " \

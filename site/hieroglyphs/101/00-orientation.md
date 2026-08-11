@@ -136,7 +136,7 @@ sound as written. These are the strangers:
     <tr><th>Letter</th><th>Say it as</th><th>What it really is</th></tr>
   </thead>
   <tbody>
-    <tr><td><em>ꜣ</em></td><td>"a"</td><td>a glottal stop — the catch in "uh-oh"; the vulture sign's sound</td></tr>
+    <tr><td><em>ꜣ</em></td><td>"a"</td><td>a glottal stop — the catch in "uh-oh"; the vulture's sound</td></tr>
     <tr><td><em>ꜥ</em></td><td>"a"</td><td>a pharyngeal — squeezed deep in the throat, like Arabic ʿayn</td></tr>
     <tr><td><em>j</em></td><td>"i"</td><td>a light y-ish glottal onset — never English j</td></tr>
     <tr><td><em>ḥ</em></td><td>"h"</td><td>an emphatic h, breathed harder than plain <em>h</em></td></tr>
@@ -145,7 +145,7 @@ sound as written. These are the strangers:
     <tr><td><em>š</em></td><td>"sh"</td><td>exactly English "sh"</td></tr>
     <tr><td><em>q</em></td><td>"k"</td><td>an emphatic k, further back in the throat</td></tr>
     <tr><td><em>ṯ</em></td><td>"tch"</td><td>the "ch" of "church"</td></tr>
-    <tr><td><em>ḏ</em></td><td>"j"</td><td>the "j" of "judge" — the sound the plain letter <em>j</em> above never makes</td></tr>
+    <tr><td><em>ḏ</em></td><td>"j"</td><td>the "j" of "judge" — which the plain <em>j</em> above never makes</td></tr>
     <tr><td><em>z</em></td><td>"s"</td><td>an s-sound; by the classic periods it had merged with <em>s</em></td></tr>
   </tbody>
 </table>
