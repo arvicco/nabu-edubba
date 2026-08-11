@@ -294,10 +294,10 @@ the chapters deliver it.
 Chapters 20–24 open **cause and consequence**: the rule and its
 parts (貝 刀 分 則 先 後), doing and becoming (事 作 成 能 使),
 wanting and getting (得 與 欲 皆 謂 然), the state and the world
-(國 千 世 地 風), and likeness (若 同 從) — 25 fresh characters,
-box-share cap tightens to **30%** (the declining-cap law's fourth
-step). Total 135 = two of every five characters on a classical
-page:
+(國 千 世 地 風), and likeness (若 同 從 善 長) — 27 fresh
+characters, box-share cap tightens to **30%** (the declining-cap
+law's fourth step). Total 137 = two of every five characters on a
+classical page:
 
 - **ch20 · First and after, then:** 貝 刀 分 則 先 後 — two cheap
   pictographs (cowrie, knife) buy two compounds in the same
@@ -318,10 +318,11 @@ page:
   minus a thousand); 天地不仁; 君子之德風; 十世可知也; finale
   **Analects 1.5 WHOLE** (道千乘之國…使民以時), the second full
   saying after 1.1.
-- **ch24 · Like water:** 若 同 從 — 上善若水; 是謂玄同; the 2.4
-  ladder closes COMPLETELY (七十而從心所欲，不踰矩 at two boxes);
-  the Daxue's 古之欲明明德於天下者，先治其國 stitches the whole
-  stretch (先 欲 國 all its own).
+- **ch24 · Like water:** 若 同 從 善 長 (the chapter-dial law
+  holds: five) — 上善若水 at ZERO boxes (善 taught, not boxed);
+  天長地久; 是謂玄同; the 2.4 ladder closes COMPLETELY (七十而從
+  心所欲，不踰矩 at two boxes); the Daxue's 古之欲明明德於天下者，
+  先治其國 stitches the whole stretch (先 欲 國 all its own).
 
 Laws in force unchanged; the arc table with verified URNs lives
 in the phase-22 plan. Course edition note (caught at plan stage,
