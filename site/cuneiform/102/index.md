@@ -47,7 +47,8 @@ texts — increasingly in full cuneiform, boxes turning into signs.
   <li><a href="{{ '/cuneiform/102/18-reference/' | relative_url }}">Reference</a> — every sign taught, the grammar shelved</li>
 </ol>
 
-The course is complete — nineteen chapters in three stretches.
-The track continues with Cuneiform 103 · Akkadian in a later
-phase. Corrections are welcome in
+The course is complete — nineteen chapters.
+The track continues in
+<a href="{{ '/cuneiform/103/' | relative_url }}">Cuneiform 103 · Akkadian</a>.
+Corrections are welcome in
 [GitHub Issues](https://github.com/arvicco/nabu-edubba/issues).

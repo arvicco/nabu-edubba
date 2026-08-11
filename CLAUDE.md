@@ -109,6 +109,11 @@ rake serve          # local preview at http://127.0.0.1:4000
   corpus names, compiler talk, chart cross-references, or obscure
   external references in lesson flow (orientation chapters,
   citations, and footnotes are where machinery may speak).
+  Production borders are INVISIBLE to the student (owner ruling
+  2026-08-11): "stretches", phase boundaries, and any authoring-
+  calendar talk never appear in site prose — speak in chapters
+  and content; the production-vocab lint bans the word "stretch"
+  site-wide (physical senses use a synonym).
 - Chapter titles express the chapter's ESSENCE in a few short words
   (the grammar piece, the main idea) — never mechanical labels like
   "Batch III". Batches are a mechanic, not a name.

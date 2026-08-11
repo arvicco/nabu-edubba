@@ -171,8 +171,7 @@ The new machinery, item by item:
 ## Law 2, second half: the mirror
 
 Now the stele turns the coin over. One sign in this half is not
-yet yours — the box marks it, and it falls before the stretch
-ends:
+yet yours — the box marks it, and it falls four chapters on:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
@@ -203,7 +202,7 @@ The mirror's own pieces:
   the purifying-verb, doubled-middle build with the -t- infix —
   a
   <a href="{{ '/cuneiform/103/09-the-stems-named/' | relative_url }}">chapter 09</a>
-  D at full formality. Its second sign is the stretch's one
+  D at full formality. Its second sign is the one
   remaining box.
 - <span class="norm">ištalmam</span> — "he has come out safe":
   šalāmum, "to be whole," in the perfect — the same root the

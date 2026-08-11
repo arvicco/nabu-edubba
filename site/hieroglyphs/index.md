@@ -29,7 +29,7 @@ school, the goal is not facts about the script but the ability to read it.
   decipherment told with Ptolemy and Cleopatra read sign by sign.
   Prerequisite for everything below.
 - **[102 · Middle Egyptian]({{ '/hieroglyphs/102/' | relative_url }})** —
-  **open: first stretch live, seven chapters.** The literacy track:
+  **open: seven chapters live.** The literacy track:
   the sign inventory grown in computed order past seventy signs,
   Middle Egyptian's three sentence types and the suffix
   conjugation in reading-sized bites, and real lines from the

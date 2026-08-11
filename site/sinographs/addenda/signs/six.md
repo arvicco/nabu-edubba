@@ -16,7 +16,7 @@ permalink: /sinographs/addenda/signs/six/
 
 The stated account: an old graph of a hut — roof above, legs
 below — borrowed whole for the numeral that shared its sound,
-the same move that gave the last stretch its particles. Taught
+the same move that gave the grammar its little words. Taught
 in
 <a href="{{ '/sinographs/101/11-counting-continues/' | relative_url }}">the counting-continues chapter</a>.
 

@@ -45,7 +45,7 @@ is the fastest way to see that it is not a curiosity but a *design*.
   <li><a href="{{ '/hieroglyphs/101/12-reference/' | relative_url }}">Reference</a> — every sign taught, conventions, further study</li>
 </ol>
 
-The course is complete — twelve chapters, both stretches live.
+The course is complete — twelve chapters.
 Numbers, gods' names in depth, and the hieratic–demotic–Coptic
 line continue in this school's later courses. Corrections are
 welcome in

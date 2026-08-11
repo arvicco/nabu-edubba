@@ -67,7 +67,7 @@ would be.
 
 ## Grammar bite — the adverbial sentence
 
-One new sentence type today, the third and last of the stretch.
+One new sentence type today, Egyptian's third and last.
 Beside the nominal sentence (*mw pw*) and the verbal sentence
 (*ḏd≡f*), Egyptian builds sentences from a subject and a
 *where*-phrase — nothing else:

@@ -2,7 +2,7 @@
 title: "05 · A dedication, whole"
 short_title: "05 · A dedication"
 description: >-
-  The closing chapter of 102's opening stretch: batch six — nin and
+  Batch six — nin and
   la — and the votive dedication formula, assembled whole from signs
   you already own.
 layout: chapter
@@ -19,9 +19,9 @@ shows: []
 
 Five chapters have handed you a sentence's skeleton, a hidden case,
 a way to multiply nouns and verbs, and a rebus that turns "arrow"
-into "life." This chapter closes the opening stretch of 102 with
-a final batch of two signs — and then spends its grammar bite
-doing something the whole stretch has been building toward: putting
+into "life." This chapter adds a final batch of two signs —
+and then spends its grammar bite doing something every chapter
+so far has been building toward: putting
 together, sign by sign, the single phrase that closes more Sumerian
 votive inscriptions than any other.
 
@@ -50,8 +50,7 @@ votive inscriptions than any other.
 </table>
 
 Five times each, aloud as you write: *nin*, *la*. That closes the
-batch, and with it the sixth and last batch of this opening
-stretch.
+batch, and with it the sixth.
 
 ## Grammar bite — the dedication formula, assembled
 
@@ -74,7 +73,7 @@ sign in it is now something you own.
   <figcaption class="citation">
     The template, assembled from your own inventory — not quoted
     from any one tablet; you will meet it verbatim on real votive
-    objects in the next stretch. Sign by sign: <strong>𒉆</strong>
+    objects in a later chapter. Sign by sign: <strong>𒉆</strong>
     <em>nam-</em> (abstraction, <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) + <strong>𒋾</strong> <em>ti</em>
     (life, <a href="{{ '/cuneiform/102/04-the-verbal-chain/' | relative_url }}">ch. 04</a>'s rebus) + <strong>𒆷</strong> <em>-la</em> (spelling
     glue for the /l/) + <strong>𒉌</strong> <em>-ni</em> ("his/her") +
@@ -118,7 +117,7 @@ behind the silent divine star you have known since 101:
 ## Reading: lady and knowing
 
 A last name from the same Early Dynastic name lists that have
-supplied every reading in this stretch — this one built squarely on
+supplied every reading so far — this one built squarely on
 the sign this chapter opened with:
 
 <figure class="reading reading--script">
@@ -140,8 +139,8 @@ named for the god or the god took the name first is the kind of
 question these lists never quite settle — but the reading itself,
 after six batches, needs no box.
 
-The opening stretch ends here. What comes next is exactly what it
-has been pointing at: a later stretch returns to read real votive
+What comes next is exactly what these chapters
+have been pointing at: a later chapter returns to read real votive
 inscriptions verbatim — the formula above quoted from actual stone
 and clay, not assembled for a lesson — to unmask the genitive's
 hidden consonant properly, and to take the verbal chain's
@@ -160,4 +159,4 @@ demands it.
    and notice that none of that history has vanished; it is just
    doing new work.
 
-*The stretch pauses here. The next one resumes it.*
+*The next chapter picks up from here.*

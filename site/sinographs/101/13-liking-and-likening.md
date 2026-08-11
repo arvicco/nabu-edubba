@@ -75,7 +75,7 @@ something has *become* so.
 ## Loving it beats knowing it
 
 The master's ladder of engagement, and the chapter's twin words
-carry it — 知 from the last stretch, 好 read as the verb hào:
+carry it — 知 already yours, 好 read as the verb hào:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
@@ -149,7 +149,7 @@ count is complete, the decade has turned.
 ## Where this leaves the sentence
 
 Likeness, love, denial, quotation, arrival: the sentence can now
-compare, refuse, and quote its elders. One chapter remains in
-this stretch — the words of *here* and *now*, and with them a
+compare, refuse, and quote its elders. Next come
+the words of *here* and *now*, and with them a
 place-maker that turns verbs into places the way 者 turns them
 into people.

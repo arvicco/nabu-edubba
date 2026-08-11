@@ -90,7 +90,7 @@ gave Marduk his rank and Babylon its kingship — *at that time*
 (the resolution arrives hundreds of lines later) *they named me,
 Hammurabi, to make justice rise in the land.* The laws hang from
 that sentence like the stele's own colophon. You now hold its
-first breath; the rest of the stretch works toward the clause
+first breath; the coming chapters work toward the clause
 where the king finally says <span class="norm">anāku</span> —
 "I am he."
 

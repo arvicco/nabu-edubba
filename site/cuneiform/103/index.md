@@ -42,14 +42,14 @@ invitation to every future reader — all in the original.
   <li><a href="{{ '/cuneiform/103/04-when-lofty-an/' | relative_url }}">When lofty An…</a> — the prologue opens</li>
   <li><a href="{{ '/cuneiform/103/05-the-verb-arrives/' | relative_url }}">The verb arrives</a> — he charged, he did not convict, he shall pay</li>
   <li><a href="{{ '/cuneiform/103/06-if-a-man/' | relative_url }}">If a man…</a> — šumma, and the first law</li>
-  <li><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">The strong shall not wrong the weak</a> — the creed, and the first stretch made whole</li>
+  <li><a href="{{ '/cuneiform/103/07-the-strong-and-the-weak/' | relative_url }}">The strong shall not wrong the weak</a> — the creed, and the stele's purpose made whole</li>
   <li><a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">More than one: the plural</a> — -ū, -ī, -ātum, and the monument's own name</li>
   <li><a href="{{ '/cuneiform/103/09-the-stems-named/' | relative_url }}">The stems named</a> — G, D, Š, N: the deferrals paid in full</li>
   <li><a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">The River decides</a> — law 2 whole: the ordeal and its mirror</li>
   <li><a href="{{ '/cuneiform/103/11-an-eye-for-an-eye/' | relative_url }}">An eye for an eye</a> — laws 196–197, read from the original</li>
   <li><a href="{{ '/cuneiform/103/12-say-to-him-a-letter/' | relative_url }}">Say to him: a letter</a> — the mail of Babylon, formula and plea</li>
   <li><a href="{{ '/cuneiform/103/13-i-am-he/' | relative_url }}">I am he</a> — the epilogue's self-naming, and the second negation</li>
-  <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the second stretch closes, measured</li>
+  <li><a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">Where you stand</a> — the course measured, honestly</li>
   <li><a href="{{ '/cuneiform/103/15-it-has-happened/' | relative_url }}">It has happened</a> — the perfect named, and law 202 read whole</li>
   <li><a href="{{ '/cuneiform/103/16-eye-tooth-bone/' | relative_url }}">Eye, tooth, bone</a> — the bone law paid in signs, and the scale of persons</li>
   <li><a href="{{ '/cuneiform/103/17-silver-changes-hands/' | relative_url }}">Silver changes hands</a> — a real Sippar loan: interest, witnesses, year-name</li>
@@ -57,10 +57,10 @@ invitation to every future reader — all in the original.
   <li><a href="{{ '/cuneiform/103/19-reference/' | relative_url }}">Reference</a> — every sign taught, the grammar shelved, conventions, sources</li>
 </ol>
 
-Two stretches are live; the course still ends mid-story on
+Sixteen chapters are live; the course still ends mid-story on
 purpose. The laws run to nearly three hundred, contracts and
 omens wait behind them, and the literary language of Gilgameš
-stands further on — later stretches continue where
+stands further on — later chapters continue where
 <a href="{{ '/cuneiform/103/14-where-you-stand/' | relative_url }}">chapter 14</a>
 leaves you: reading.
 

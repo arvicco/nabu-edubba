@@ -154,5 +154,5 @@ different.
 4. What did the tablet house teach first, and where did this
    course put the same material? One sentence.
 
-*Next: the day destiny was decreed — the stretch's longest
+*Next: the day destiny was decreed — the course's longest
 passage, and the sign that cuts fates.*

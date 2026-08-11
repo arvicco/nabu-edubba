@@ -146,6 +146,6 @@ the order in which you learned things.
 
 ## Where this goes
 
-Fifty characters. One chapter left in this stretch: the last
+Fifty characters. Next come the last
 little words — the ones that turn statements into questions and
 questions into the most famous opening sentence in East Asia.

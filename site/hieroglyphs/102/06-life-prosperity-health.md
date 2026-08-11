@@ -2,7 +2,7 @@
 title: "06 · Life, prosperity, health"
 short_title: "06 · Life, prosperity, health"
 description: >-
-  The stretch's close: the wish that follows every king — ꜥnḫ wḏꜣ
+  The wish that follows every king — ꜥnḫ wḏꜣ
   snb — the Great House that became the word "pharaoh," and the two
   ways Egyptian says great.
 layout: chapter
@@ -20,8 +20,8 @@ shows: []
 Every time this course has written "Pharaoh, l.p.h.," those three
 letters stood for something Egyptian scribes wrote so often they
 compressed it to three signs. This chapter teaches the wish itself,
-the Great House it followed, and — with the last batch of the
-stretch — lets you read the openings of three of the most famous
+the Great House it followed, and — with today's batch —
+lets you read the openings of three of the most famous
 stories in the language.
 
 ## Batch seven
@@ -60,7 +60,7 @@ drill with its cap.
 
 ## Grammar bite — the wish, and the two greats
 
-No new sentence type — the stretch taught its three, and they
+No new sentence type — the course taught its three, and they
 hold. Two pieces of reading knowledge instead:
 
 - **ꜥnḫ wḏꜣ snb** — "may he live, be whole, be healthy": three
@@ -172,19 +172,19 @@ One bird, two jobs — meaning in a name, pure sound in a verb —
 with the classifiers, as ever, silently keeping order. That is the
 whole writing system, working.
 
-## The stretch pauses here
+## The course pauses here
 
 Seven chapters, sixteen new signs, seventy-nine percent of the
 corpus's sign-occurrences under your eye — and, more to the
 point: three sentence types, the suffix conjugation, three
 negations, the recipe register, and the royal wish, every one
-taught from a real line and walked piece by piece. The tales this
-stretch opened — Khufu's court, the Doomed Prince, Merire,
-Wenamun, Neferti — keep going; a later stretch reads deeper into
+taught from a real line and walked piece by piece. The tales
+these chapters opened — Khufu's court, the Doomed Prince, Merire,
+Wenamun, Neferti — keep going; later chapters read deeper into
 them, and Sinuhe is still waiting where the classics keep their
 best seat.
 
-*The stretch pauses here. The next one resumes it.*
+*The course pauses here; more chapters are coming.*
 
 ## Drill before the pause
 
@@ -195,5 +195,5 @@ best seat.
    from, with the two signs to prove it.
 4. Read all three story-openings in this chapter cold, covering
    the glosses. You are reading the first lines of Egyptian
-   literature's shelf of classics. That was the point of the
-   stretch — and of the school.
+   literature's shelf of classics. That was the point of these
+   chapters — and of the school.

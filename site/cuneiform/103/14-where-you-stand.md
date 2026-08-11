@@ -2,7 +2,7 @@
 title: "14 · Where you stand"
 short_title: "14 · Where you stand"
 description: >-
-  The second stretch closes: the last box falls, the ordeal's
+  The last box falls, the ordeal's
   mirror reads clean, and the course measures what you now own
   against the whole Old Babylonian corpus.
 layout: chapter
@@ -20,7 +20,7 @@ shows: []
 One box has stood since
 <a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">chapter 10</a>.
 This chapter removes it, reads the ordeal's mirror clean, and
-then counts — honestly — what two stretches of Akkadian have
+then counts — honestly — what fifteen chapters of Akkadian have
 put in your hands.
 
 ## Batch fifteen
@@ -66,7 +66,7 @@ nothing withheld:
 
 Measured against this site's own count of the Old Babylonian
 corpus: the seventeen new signs and four veteran readings of
-this stretch, on top of everything before them, put roughly
+these chapters, on top of everything before them, put roughly
 three quarters of all syllable-occurrences in the documents of
 Hammurabi's age within your reach. More useful than the number
 is the kind of thing you can now do:
@@ -88,7 +88,7 @@ is the kind of thing you can now do:
 The stele has 280 more laws, and Babylon kept writing after it:
 contracts, omens, mathematics, and the long literary tradition
 of Standard Babylonian — Gilgameš stands in that line. Those
-are later stretches' promises. The
+are later chapters' promises. The
 [Akkadian Addenda]({{ '/cuneiform/addenda-akk/' | relative_url }})
 holds every sign's Akkadian story, and the drills of the
 [Sumerian shelf]({{ '/cuneiform/addenda/' | relative_url }})
@@ -104,4 +104,4 @@ keep your veterans sharp.
 4. <span class="norm">anāku</span> — say who YOU are, in the
    pattern of the epilogue: two titles and the pronoun.
 
-*This closes the second stretch of Cuneiform 103.*
+*The course pauses here to be measured; the laws keep going.*
