@@ -47,7 +47,7 @@ stele's opening is built out of it.
     <tr>
       <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at/aṭ]</td>
       <td>father</td>
-      <td>a father in the old lists; all dentals</td>
+      <td>a father; it serves all dentals</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[ši]</td>
@@ -58,7 +58,7 @@ stele's opening is built out of it.
     <tr>
       <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td>[mātum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's Land-sign</a>, read
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's Land-sign</a>:
           <span class="norm">mātum</span></td>
     </tr>
   </tbody>
