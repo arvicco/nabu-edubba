@@ -105,6 +105,26 @@ meant for readers; nothing internal lands in `docs/`.
          HTML (this site must work in a text browser — it has no JS)
    - [ ] against the previous screenshot: intended changes present,
          nothing else moved
+
+   **Interactive surfaces get named checks** (M20-1; the bubble-clip
+   class took THREE owner reports — left rim, last column, reading
+   right rim — because no checklist said "hover near every rim").
+   A review round or gate runbook that touched CSS, hover behavior,
+   or audio is NOT closed by static screenshots: it must enumerate
+   its interactive checks — each one a direct URL plus a concrete
+   target and what good looks like. Copy and fill this block (the
+   three interactive surfaces the site has today; extend it when a
+   new one ships):
+
+       INTERACTIVE CHECKS
+       - hover: <URL> — hover <glyph> in <the risky spot: last
+         table column, first row of a scrolling figure, longest
+         reading line> — EXPECT the full bubble, no cut edge
+       - listen: <URL> — click <syllable> — EXPECT the displayed
+         tone/reading is what the ear hears
+       - compare: <URL> — click <syllable A> then <syllable B>
+         (different sources) — EXPECT no loudness jump
+
 7. **Pre-gate: README.md current** — honest about what does not work
    yet. A phase is not gate-ready with a stale README.
 8. **One PR per phase** (owner ruling 2026-07-29): all of a phase's
