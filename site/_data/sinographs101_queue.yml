@@ -1655,6 +1655,121 @@ signs:
   - 言
   note: rank 79; speech 言 with 寺 as the sound. Capitalized, 詩 is the Book of Odes
     — the three hundred songs the course has been quoting since 詩三百.
+- char: 君
+  glyph: 君
+  name: lord
+  codepoint: 541B
+  keyword: lord
+  pinyin: jūn
+  meaning: lord, ruler; (君子) the noble man
+  category: compound-ideograph
+  certainty: classic
+  strokes: 7
+  ids: "⿸尹口"
+  rank: 60
+  count_kanripo: 1592476
+  docs: 4880
+  chapter: 17
+  parts:
+  - 口
+  note: 'rank 60; a hand holding the staff of office (尹, "to govern") over a mouth
+    口 giving commands. In the Analects the 君子 "lord''s son" becomes something new:
+    noble by conduct, not birth.'
+- char: 公
+  glyph: 公
+  name: duke
+  codepoint: 516C
+  keyword: duke
+  pinyin: gōng
+  meaning: duke; public, common
+  category: compound-ideograph
+  certainty: stated
+  strokes: 4
+  ids: "⿱八厶"
+  rank: 32
+  count_kanripo: 2309955
+  docs: 4486
+  chapter: 17
+  parts:
+  - 八
+  note: 'rank 32; dividing 八 above a closed circle 厶 "private" — Han Fei''s reading:
+    to turn your back on the private is the public. The title of feudal rank rides
+    the same word.'
+- char: 士
+  glyph: 士
+  name: officer
+  codepoint: 58EB
+  keyword: officer
+  pinyin: shì
+  meaning: officer, man of service; scholar
+  category: pictograph
+  certainty: unclear
+  strokes: 3
+  ids: "⿻一丄"
+  rank: 100
+  count_kanripo: 1210818
+  docs: 4667
+  chapter: 17
+  note: rank 100; the identification is debated — an axe blade set upright is the
+    strongest reading; the Shuowen parses "one who serves, from one 一 through ten
+    十". The lowest rung of the old nobility, remade by the philosophers into the scholar.
+- char: 民
+  glyph: 民
+  name: people
+  codepoint: 6C11
+  keyword: people
+  pinyin: mín
+  meaning: the people, the common folk
+  category: pictograph
+  certainty: stated
+  strokes: 5
+  ids: 民
+  rank: 119
+  count_kanripo: 1041063
+  docs: 4192
+  chapter: 17
+  note: 'rank 119; the bronze forms show an eye pierced by an awl — a blinded captive,
+    the subjugated mass. The word rose as the graph''s grimness faded: by the classics,
+    民 are the people whose welfare measures a ruler.'
+- char: 臣
+  glyph: 臣
+  name: minister
+  codepoint: 81E3
+  keyword: minister
+  pinyin: chén
+  meaning: minister, subject, servant
+  category: pictograph
+  certainty: classic
+  strokes: 6
+  ids: "⿷匚⿳丨{50}丨"
+  rank: 72
+  count_kanripo: 1454984
+  docs: 4418
+  chapter: 17
+  note: 'rank 72; an eye turned vertical — the downcast face of one who bows, looking
+    up. The servant''s eye became the minister''s title: 臣 is how officials say "I"
+    to a king.'
+- char: 何
+  glyph: 何
+  name: what
+  codepoint: 4F55
+  keyword: what
+  pinyin: hé
+  meaning: what? how? why?
+  category: phono-semantic
+  certainty: classic
+  strokes: 7
+  ids: "⿰亻可"
+  rank: 82
+  count_kanripo: 1419796
+  docs: 4690
+  chapter: 17
+  parts:
+  - 人
+  - 可
+  note: rank 82; a person 亻 with 可 giving the sound; the earliest graphs show a man
+    shouldering a load — the ancestor of 荷 "to carry" — borrowed for the question
+    word the classics ask most.
 batches:
 - chapter: 0
   signs:
@@ -1799,3 +1914,12 @@ batches:
   - 書
   - 詩
   coverage_pct: 29.7
+- chapter: 17
+  signs:
+  - 君
+  - 公
+  - 士
+  - 民
+  - 臣
+  - 何
+  coverage_pct: 30.9
