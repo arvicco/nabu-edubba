@@ -7,7 +7,8 @@ require "yaml"
 # rule 5: curriculum data files are frozen contracts — additive
 # changes only once published; this pins the shape) plus the data
 # layer of the sinograph rulebook laws: keyword unique (§3), pinyin
-# diacritics never numbers (§2), 1–3 fresh characters per chapter.
+# diacritics never numbers (§2), 5–6 fresh characters per chapter
+# (the §5 chapter dial).
 class SinoQueueContractTest < Minitest::Test
   QUEUE = YAML.safe_load_file(
     File.expand_path("../site/_data/sinographs101_queue.yml", __dir__)

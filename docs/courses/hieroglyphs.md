@@ -70,9 +70,16 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 
 ## 6 · Pedagogy mechanics
 
+Before writing any chapter, run the author pre-flight checklist
+(docs/DEV-LOOP.md §4 item 6c) — it compresses this section and the
+site-wide laws into writing order.
+
 The site-wide CLAUDE.md rules apply in full (thematic opening
 signs, taught-once, concrete examples, essence titles, terms in
-the same commit). This course additionally keeps its promises
+the same commit). Return arcs are planned, not found (M20-5; the
+sinograph rulebook §5 states the law in full): a segment plan
+carries its return-arc table from the next planned segment
+onward. This course additionally keeps its promises
 ledger explicit: a forward promise made in a chapter (Pepi's box,
 Ptolemy's ring) is delivered in the chapter that was named, and
 the delivering chapter says so.
@@ -167,3 +174,32 @@ identically. School specifics: warm-up lookback runs E102 → E101
 through the combined sequence; classifier prompts ask for the
 FUNCTION ("death's stand-in — draw the stroke"), since silent
 signs have no reading to produce.
+
+## 11 · Law ledger
+
+The audit table (M20-4); same reading rules as the cuneiform
+ledger (§10 there): site-wide laws live in CLAUDE.md +
+script/lint.rb's header; "owner review" is a disposition.
+
+| Law | Recorded | Enforcing check |
+|---|---|---|
+| Leiden translit; MdC only in verbatim exhibits | §1 | owner review (no robust pattern; §8 records why) |
+| No vowels in transliteration | §1 | owner review |
+| ≡ join for suffix pronouns; `=` verbatim-only | §1/§8 | owner review — GAP examined 2026-08-03 and again in this audit: bare `=` is unregexable in Markdown+HTML source; stands as review |
+| Single-line LTR; facsimiles labeled | §2 | owner review |
+| Reading inventory = source's hiero_inventar, exactly | §2/§8 | authoring instrument (picker emits matched lines); owner review |
+| Gardiner codes resolve by Unicode name | §3 | bin/hiero_registry.rb verification; hiero_queue_contract_test |
+| Classifiers are silent (Reads "—") | §3 | registry structure; drills prompt FUNCTION (drills_test) |
+| Debated identifications carry `certainty: unclear` | §3 | pool field; presentation owner review |
+| aes license labels | §4 | rulebook.rb |
+| Every corpus reading cites its URN | §4 | `citation-urn` lint |
+| Museum objects labeled exhibits, not readings | §4 | `citation-urn` lint, `reading--monument` class (M19-2) |
+| Names approximate and say so | §4 | owner review |
+| New jargon → terms.yml same commit | §5 | term_links plugin + terms contract test |
+| Promises ledger: named chapter delivers, and says so | §6 | owner review |
+| E102 queue additive-only | §8 | hiero_queue_contract_test |
+| Batches from committed freq table; taught-means-used | §8 | queue contract; readable-line requirement owner review |
+| Sentence types under Allen's names, one per chapter | §8 | terms contract (same-commit); pacing owner review |
+| Walkthrough law (3+ pieces → bullets) | §8 | owner review |
+| Codex: Gardiner-code slugs; classifier keywords = function | §9 | rulebook.rb codex checks |
+| Retrieval laws (shared §8 of cuneiform) | §10 | warmup/drills/deck/cold-read tests |

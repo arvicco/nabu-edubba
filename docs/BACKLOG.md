@@ -881,12 +881,12 @@ Goal: gate aborts if another jekyll process is alive; DEV-LOOP
 ## Phase 20 — the process codex (retro batch, docs half; owner approved 2026-08-11)
 Plan: .docs/phase-20-plan.md. Light, docs-only; governs phase 21+.
 
-## M20-1 · Interactive-surface review law  [tier: top] [status: open] [deps: --]
-## M20-2 · Author pre-flight checklist  [tier: top] [status: open] [deps: --]
-## M20-3 · Structured-edits rule  [tier: top] [status: open] [deps: --]
-## M20-4 · Law ledgers ×3 rulebooks + gap audit  [tier: top] [status: open] [deps: --]
-## M20-5 · Return-arc planning law  [tier: top] [status: open] [deps: --]
-## M20-6 · Stitching + Gate 20 PR  [tier: top] [status: open] [deps: M20-1..5]
+## M20-1 · Interactive-surface review law  [tier: top] [status: done] [deps: --]
+## M20-2 · Author pre-flight checklist  [tier: top] [status: done] [deps: --]
+## M20-3 · Structured-edits rule  [tier: top] [status: done] [deps: --]
+## M20-4 · Law ledgers ×3 rulebooks + gap audit  [tier: top] [status: done] [deps: --]
+## M20-5 · Return-arc planning law  [tier: top] [status: done] [deps: --]
+## M20-6 · Stitching + Gate 20 PR  [tier: top] [status: done] [deps: M20-1..5]
 
 (Phase 21 = next S101 stretch, owner pick at Gate 20 — written
 against the new workbench and process codex from day one.)
