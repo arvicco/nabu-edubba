@@ -112,6 +112,11 @@ sources:
   nian:      {file: "Zh-nián.ogg", pinyin: "nián"}   # 年
   fu:        {file: "Zh-fù.ogg", pinyin: "fù"}       # 父
   an:        {file: "Zh-ān.oga", pinyin: "ān"}       # 安
+  dao-knife: {file: "Zh-dāo.ogg", pinyin: "dāo"}     # 刀 (dao = 道)
+  fen:       {file: "Zh-fēn.ogg", pinyin: "fēn"}     # 分
+  ze:        {file: "Zh-yuánzé.ogg", pinyin: "zé", syllable: 2, of: 2}  # 則, via 原則 yuánzé (Zh-zé.ogg reads level, refused)
+  xian:      {file: "Zh-xiān.ogg", pinyin: "xiān"}   # 先
+  hou:       {file: "Zh-hòu.ogg", pinyin: "hòu"}     # 後
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -203,6 +208,12 @@ voices:
   father: fu
   already: yi-by
   peace: an
+  cowrie: bei
+  knife: dao-knife
+  divide: fen
+  rule: ze
+  first: xian
+  after: hou
   know: zhi
   middle: zhong
   moon: yue
