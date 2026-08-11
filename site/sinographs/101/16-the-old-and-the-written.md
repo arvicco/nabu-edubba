@@ -35,20 +35,20 @@ teaches it those words:
     <tr>
       <td class="script sign-cell">故</td><td>therefore</td><td><a class="say" href="{{ '/assets/audio/pinyin/gu-therefore.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">gù</span></a></td>
       <td>cause; former; therefore</td>
-      <td>old 古 plus the action-hand — what stands behind a
-      thing: its precedent, its cause</td>
+      <td>old 古 plus the action-hand — the precedent that
+      stands behind</td>
     </tr>
     <tr>
       <td class="script sign-cell">文</td><td>pattern</td><td><a class="say" href="{{ '/assets/audio/pinyin/wen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wén</span></a></td>
       <td>pattern, writing; culture</td>
-      <td>a standing figure with a patterned chest — the old
-      graphs show the tattooed marks</td>
+      <td>a standing figure, chest patterned — the old graphs
+      tattoo it</td>
     </tr>
     <tr>
       <td class="script sign-cell">書</td><td>book</td><td><a class="say" href="{{ '/assets/audio/pinyin/shu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shū</span></a></td>
       <td>to write; document</td>
-      <td>a hand gripping a brush above what it sets down —
-      the lower part wore into a 曰 shape</td>
+      <td>a brush-hand above what it sets down — the base wore
+      into a 曰 shape</td>
     </tr>
     <tr>
       <td class="script sign-cell">詩</td><td>poem</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-poem.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shī</span></a></td>
