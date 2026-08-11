@@ -5,6 +5,15 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · Gate 19 closed, phase 20 opened · phase-20 · Owner
+merged PR #24 (7bd35ba). Branched phase-20 from fresh main; phase
+line updated. Scope: .docs/phase-20-plan.md — the process codex,
+docs half of the retro batch: M20-1 interactive-surface review
+law → M20-2 author pre-flight checklist → M20-3 structured-edits
+rule → M20-4 law ledgers ×3 + gap audit → M20-5 return-arc
+planning law → M20-6 stitching + Gate 20 PR. Docs-only; each
+packet ends in enforceable words.
+
 2026-08-11 · inbox round (Nabu P72 integration + zì-class lint) ·
 phase-19 · Nabu delivered ALL FIVE of our FR-survey asks the same
 day (their P72/PR #87; commands live on this box). Probed live and
