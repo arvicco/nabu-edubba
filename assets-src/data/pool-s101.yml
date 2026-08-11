@@ -1175,3 +1175,74 @@ signs:
       rank 130; a wheat plant with drooping ears — the old word
       for wheat, borrowed for "come" (the grain that came, says
       the oldest story); wheat later grew a graph of its own.
+  - char: 學
+    chapter: 19
+    keyword: learn
+    pinyin: xué
+    meaning: "to learn, study; learning"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["子"]
+    note: >-
+      rank 134; two hands working crossed counting-rods over a
+      roof, the child 子 beneath — instruction drawn as a
+      building. The first word of the Analects, and this
+      course's own business.
+  - char: 時
+    chapter: 19
+    keyword: season
+    pinyin: shí
+    meaning: "season, time; timely, at the proper time"
+    category: phono-semantic
+    certainty: classic
+    parts: ["日"]
+    note: >-
+      rank 48; the sun 日 with 寺 as the sound — time as the
+      sun's schedule. 四時 are the four seasons; 以時 is "at the
+      proper season", the classics' measure of good government.
+  - char: 年
+    chapter: 19
+    keyword: year
+    pinyin: nián
+    meaning: "year; harvest"
+    category: compound-ideograph
+    certainty: classic
+    note: >-
+      rank 25; the old graphs show a person carrying grain home
+      on their back — one harvest, one year. The stack wore
+      smooth into today's strokes.
+  - char: 父
+    chapter: 19
+    keyword: father
+    pinyin: fù
+    meaning: "father"
+    category: pictograph
+    certainty: classic
+    note: >-
+      rank 250; a hand gripping a rod — the old emblem of
+      household authority, axe or staff by reading. Paired with
+      子 it frames the bond the Analects builds society from.
+  - char: 已
+    chapter: 19
+    keyword: already
+    pinyin: yǐ
+    meaning: "already; to stop, be done; (而已) and that is all"
+    category: loan
+    certainty: unclear
+    note: >-
+      rank 113; graphically a twin of 巳, whose picture is itself
+      debated (a serpent; an unborn child) — borrowed for
+      "finished, already". 而已 "and no more than that" closes
+      arguments across the classics.
+  - char: 安
+    chapter: 19
+    keyword: peace
+    pinyin: ān
+    meaning: "peace, ease, safety; how?"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["女"]
+    note: >-
+      rank 105; a woman 女 seated under a roof 宀 — the house at
+      rest. The classics also borrow it as a question word
+      ("wherein?"), but its heart is the settled home.
