@@ -146,6 +146,9 @@ meant for readers; nothing internal lands in `docs/`.
          exactly once, ever (owner rulings 2026-07-31)
    - [ ] the syllable voiced and the codex page written in the SAME
          commit as the chapter (sinographs §2/§8; complete-shelf)
+   - [ ] the chapter linked from its course index, same commit —
+         with its tagline (course-toc lint backs the link, taste
+         writes the tagline)
    - [ ] the return arc named in the stretch plan is DELIVERED at
          its promised chapter (return-arc law, rulebook §-Pedagogy)
 7. **Pre-gate: README.md current** — honest about what does not work

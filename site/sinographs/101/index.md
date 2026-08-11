@@ -40,6 +40,17 @@ modern languages too, because the characters are the same.
   <li><a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">Doing and being</a> — the elephant, the dancer, the halberd; wu wei opens</li>
   <li><a href="{{ '/sinographs/101/08-stopping-at-true/' | relative_url }}">Stopping at true</a> — the footprint chain to "this"; names set upright</li>
   <li><a href="{{ '/sinographs/101/09-the-masters-opening/' | relative_url }}">The master's opening</a> — who, its, also, really: the first sentence in reach</li>
+  <li><a href="{{ '/sinographs/101/10-the-sentences-tools/' | relative_url }}">The sentence's tools</a> — 以 the great instrumental, the self, and the modal pair</li>
+  <li><a href="{{ '/sinographs/101/11-counting-continues/' | relative_url }}">Counting continues</a> — four through six, white, and the round hundred</li>
+  <li><a href="{{ '/sinographs/101/12-the-eye-and-the-way/' | relative_url }}">The eye and the Way</a> — seeing, mutual regard, the head, and 道 itself</li>
+  <li><a href="{{ '/sinographs/101/13-liking-and-likening/' | relative_url }}">Liking and likening</a> — woman and child make good; likeness, quoting, done</li>
+  <li><a href="{{ '/sinographs/101/14-here-and-now/' | relative_url }}">Here and now</a> — this-here, the place-maker, arriving, the present</li>
+  <li><a href="{{ '/sinographs/101/15-the-ten-thousand-things/' | relative_url }}">The ten thousand things</a> — the numbers close; the ox, the thing, the myriad</li>
+  <li><a href="{{ '/sinographs/101/16-the-old-and-the-written/' | relative_url }}">The old and the written</a> — ten mouths make old; the pattern, the book, the poem</li>
+  <li><a href="{{ '/sinographs/101/17-lords-and-the-people/' | relative_url }}">Lords and the people</a> — the classical cast, and the question word</li>
+  <li><a href="{{ '/sinographs/101/18-going-out-and-coming-in/' | relative_url }}">Going out and coming in</a> — out and in, the four quarters, east, and come</li>
+  <li><a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">Learning, in its season</a> — 學 at last, and the opening of the Analects read whole</li>
 </ol>
 
-The course is opening; chapters appear here as they are written.
+More chapters are on the way; everything above is complete and
+self-contained.

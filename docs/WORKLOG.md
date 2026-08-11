@@ -5,6 +5,17 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-11 · review round (course-TOC rot) · phase-21 · Owner:
+/sinographs/101 still said "chapters appear here as they are
+written" — and they hadn't: the hand-maintained TOC stopped at
+ch09, two whole stretches stale (my miss in every chapter commit
+of phases 18 and 21). Fixed: ch10–19 added with taglines, the
+failed promise replaced with an honest line. The class gets its
+check: the course-toc lint — every chapter page must be LINKED
+from its course index (taglines stay hand-curated; completeness
+is mechanical); fixture-tested, and the pre-flight checklist
+gains the line. All other course indexes audited current.
+
 2026-08-11 · review round (school folding + model calibration) ·
 phase-21 · Owner: the navbar grew too big — fold non-active
 SCHOOLS to their bare titles, like non-active courses. Done with
