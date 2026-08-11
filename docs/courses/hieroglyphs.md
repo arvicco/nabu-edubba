@@ -76,7 +76,10 @@ site-wide laws into writing order.
 
 The site-wide CLAUDE.md rules apply in full (thematic opening
 signs, taught-once, concrete examples, essence titles, terms in
-the same commit). This course additionally keeps its promises
+the same commit). Return arcs are planned, not found (M20-5; the
+sinograph rulebook §5 states the law in full): a segment plan
+carries its return-arc table from the next planned segment
+onward. This course additionally keeps its promises
 ledger explicit: a forward promise made in a chapter (Pepi's box,
 Ptolemy's ring) is delivered in the chapter that was named, and
 the delivering chapter says so.
