@@ -856,27 +856,27 @@ Goal: one chapter per packet — chapter + codex pages + syllables
 Queued AHEAD of the next content stretch. Plan: .docs/phase-19-plan.md;
 rationale: .docs/retro-2026-08-11.md.
 
-## M19-1 · box_line instrument  [tier: code] [status: open] [deps: --]
+## M19-1 · box_line instrument  [tier: code] [status: done] [deps: --]
 Goal: bin/box_line.rb — line + chapter in; ▢-rendered reading,
       untaught list, share-vs-cap verdict, paste-ready HTML out.
       Reuses the lint's han-counting; exact-value tests; three
       shipped readings re-derived byte-identical.
-## M19-2 · citation-urn lint  [tier: code] [status: open] [deps: --]
+## M19-2 · citation-urn lint  [tier: code] [status: done] [deps: --]
 Goal: every reading figure carries urn:nabu: in its citation, or
       is explicitly classed reading--composed with honest caption
       wording; existing composed figures swept and classed.
-## M19-3 · audio cut QA  [tier: code] [status: open] [deps: --]
+## M19-3 · audio cut QA  [tier: code] [status: done] [deps: --]
 Goal: duration bounds + envelope hump-count refusals in
       bin/pinyin_audio.rb beside the tone check; synthetic tests;
       full set re-verified 79/79.
-## M19-4 · sino_reading_picker  [tier: code] [status: open] [deps: M19-1]
+## M19-4 · sino_reading_picker  [tier: code] [status: done] [deps: M19-1]
 Goal: coverage-graded clause discovery over the Kanripo export
       (parity with the other schools' pickers); stretch-4
       candidate sheet generated into .docs/.
-## M19-5 · no-second-writer assert  [tier: code] [status: open] [deps: --]
+## M19-5 · no-second-writer assert  [tier: code] [status: done] [deps: --]
 Goal: gate aborts if another jekyll process is alive; DEV-LOOP
       standing rule in the same commit.
-## M19-6 · Stitching + Gate 19 PR  [tier: top] [status: open] [deps: M19-1..5]
+## M19-6 · Stitching + Gate 19 PR  [tier: top] [status: done] [deps: M19-1..5]
 
 ## Phase 20 — the process codex (retro batch, docs half; owner approved 2026-08-11)
 Plan: .docs/phase-20-plan.md. Light, docs-only; governs phase 21+.

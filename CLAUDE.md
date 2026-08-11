@@ -179,12 +179,14 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 19 — in progress: the workbench (retro batch, code half;
-.docs/phase-19-plan.md, all recs owner-approved 2026-08-11) —
-box_line mechanical boxing, citation-urn lint, audio cut QA
-(duration + envelope), no-second-writer gate assert, and the
-sinograph coverage picker. Phase 20 (process codex, docs half)
-follows; the next content stretch runs on the new workbench.
+Phase 19 — complete, gate PR pending: the workbench (retro
+batch, code half) — box_line mechanical boxing (three shipped
+readings re-derived byte-identical), citation-urn lint (8 of 489
+figures classed composed/monument), audio cut QA (span + hump
+checks, 79/79 re-verified, tone-3 glottal closure learned),
+no-second-writer gate assert, and the sinograph coverage picker
+(4.57M passages → 162k clauses; the fame proxy independently
+found 未之有也). Phase 20 (process codex, docs half) follows.
 
 Gate 18 merged 2026-08-11 (S101 stretch 3, the sentence at work:
 ch10–14, 26 chars, cap 40%; 81 characters = 27.7% of the
