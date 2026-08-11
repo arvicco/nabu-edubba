@@ -23,7 +23,7 @@ the little word that questions all of them:
 
 <table class="sign-table">
   <thead>
-    <tr><th>Character</th><th>Keyword</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
+    <tr><th>Sign</th><th>Key</th><th>Says</th><th>Means</th><th>How to see it</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -35,20 +35,20 @@ the little word that questions all of them:
     <tr>
       <td class="script sign-cell">公</td><td>duke</td><td><a class="say" href="{{ '/assets/audio/pinyin/gong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">gōng</span></a></td>
       <td>duke; public</td>
-      <td>dividing 八 over a closed circle — the back turned on
-      the private is the public</td>
+      <td>the parting 八 over a private circle — back turned:
+      public</td>
     </tr>
     <tr>
       <td class="script sign-cell">士</td><td>officer</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shì</span></a></td>
       <td>officer; scholar</td>
-      <td>an axe blade set upright, by the strongest reading —
-      the identification is honestly debated</td>
+      <td>an axe blade upright — the strongest reading of a
+      debated graph</td>
     </tr>
     <tr>
       <td class="script sign-cell">民</td><td>people</td><td><a class="say" href="{{ '/assets/audio/pinyin/min.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mín</span></a></td>
       <td>the people</td>
-      <td>the bronze forms show an eye pierced by an awl — a
-      grim start the word outgrew</td>
+      <td>an eye pierced by an awl — a grim start the word
+      outgrew</td>
     </tr>
     <tr>
       <td class="script sign-cell">臣</td><td>minister</td><td><a class="say" href="{{ '/assets/audio/pinyin/chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">chén</span></a></td>
@@ -59,8 +59,8 @@ the little word that questions all of them:
     <tr>
       <td class="script sign-cell">何</td><td>what</td><td><a class="say" href="{{ '/assets/audio/pinyin/he.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hé</span></a></td>
       <td>what? how? why?</td>
-      <td>a person (人 squeezed thin) with 可 for sound — first
-      a man shouldering a load, then the question word</td>
+      <td>人 with 可 for sound — a burdened man, loaned to the
+      question</td>
     </tr>
   </tbody>
 </table>

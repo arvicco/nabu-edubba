@@ -31,6 +31,8 @@ module Edubba
     WIDE_EM = 1.4        # CJK, boxes and other wide glyphs inline
     PROSE_LINE = 1.5     # rem per wrapped prose line
     LABEL_MAX = 8.0      # rem — columns needing less are labels: never shrunk
+    LABEL_HEADROOM = 0.8 # rem — labels get slack so a word never breaks mid-word
+    HEADER_EM = 0.6      # th advance: uppercase + letter-spacing, per char
     PROSE_FLOOR = 8.0    # rem — no prose column shrinks below this
     LIMIT = 0.15
 
@@ -51,13 +53,17 @@ module Edubba
     def glyph_size(sino) = sino ? 2.6 : 2.0
 
     # Natural (unwrapped) width of a cell, rem, padding included.
-    def cell_demand(attrs, text, sino)
+    # Header cells render UPPERCASE with letter-spacing — wider per
+    # char than body text (the colliding-headers catch, 2026-08-11
+    # surface review).
+    def cell_demand(attrs, text, sino, header: false)
       return CELL_PAD if text.empty?
 
       if attrs.include?("sign-cell")
         text.length * glyph_size(sino) + CELL_PAD
       else
-        text.each_char.sum { |c| c.ord < 0x2E80 ? LATIN_EM : WIDE_EM } + CELL_PAD
+        per = header ? HEADER_EM : LATIN_EM
+        text.each_char.sum { |c| c.ord < 0x2E80 ? per : WIDE_EM } + CELL_PAD
       end
     end
 
@@ -67,7 +73,9 @@ module Edubba
     def allocate(rows, sino)
       ncols = rows.map(&:size).max
       demands = Array.new(ncols) do |i|
-        rows.filter_map { |cells| cells[i] && cell_demand(*cells[i], sino) }.max || CELL_PAD
+        rows.each_with_index.filter_map do |cells, r|
+          cells[i] && cell_demand(*cells[i], sino, header: r.zero?)
+        end.max || CELL_PAD
       end
       if demands.sum <= TABLE_REM
         spare = (TABLE_REM - demands.sum) / ncols
@@ -75,11 +83,11 @@ module Edubba
       end
 
       labels = demands.map { |d| d <= LABEL_MAX }
-      fixed = demands.zip(labels).sum { |d, l| l ? d : 0.0 }
+      fixed = demands.zip(labels).sum { |d, l| l ? d + LABEL_HEADROOM : 0.0 }
       pool = demands.zip(labels).filter_map { |d, l| d unless l }
       room = TABLE_REM - fixed
       widths = demands.zip(labels).map do |d, l|
-        next d if l
+        next d + LABEL_HEADROOM if l
 
         [room * d / pool.sum, PROSE_FLOOR].max
       end
