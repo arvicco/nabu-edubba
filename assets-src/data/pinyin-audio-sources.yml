@@ -126,6 +126,10 @@ sources:
   yu-want:   {file: "Zh-yù.ogg", pinyin: "yù"}       # 欲
   jie:       {file: "Zh-jiē.ogg", pinyin: "jiē"}     # 皆
   ran:       {file: "Zh-rán.ogg", pinyin: "rán"}     # 然
+  guo:       {file: "Zh-guó.ogg", pinyin: "guó"}     # 國
+  qian:      {file: "Zh-qiān.ogg", pinyin: "qiān"}   # 千
+  di:        {file: "Zh-dì.ogg", pinyin: "dì"}       # 地
+  feng:      {file: "Zh-fēng.ogg", pinyin: "fēng"}   # 風
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -234,6 +238,11 @@ voices:
   all: jie
   say-of: wei
   so: ran
+  state: guo
+  thousand: qian
+  generation: shi-this
+  ground: di
+  wind: feng
   know: zhi
   middle: zhong
   moon: yue

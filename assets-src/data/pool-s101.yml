@@ -1452,3 +1452,64 @@ signs:
       roast/burn" (which later grew its own fire-sided
       character), borrowed for "so, thus." 自然, "so of
       itself," is how the Laozi says "naturally."
+  - char: 國
+    chapter: 23
+    keyword: state
+    pinyin: guó
+    meaning: "state, country"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 70; a wall 囗 drawn around an armed inner sign — a
+      spear guarding a bounded place. The defended enclosure IS
+      the state.
+  - char: 千
+    chapter: 23
+    keyword: thousand
+    pinyin: qiān
+    meaning: "thousand"
+    category: indicative
+    certainty: classic
+    parts: []
+    note: >-
+      rank 153; a slanting human figure with one stroke through
+      it — a sound-loan on "person" marked into a count. The rung
+      the course's number ladder was missing between 百 and 萬.
+  - char: 世
+    chapter: 23
+    keyword: generation
+    pinyin: shì
+    meaning: "generation; the age, the world"
+    category: indicative
+    certainty: classic
+    parts: []
+    note: >-
+      rank 125; three tens tied into one sign — thirty years, the
+      span parents hand to children: a generation, and from there
+      the age one lives in.
+  - char: 地
+    chapter: 23
+    keyword: ground
+    pinyin: dì
+    meaning: "earth, ground"
+    category: phono-semantic
+    certainty: classic
+    parts: ["土", "也"]
+    note: >-
+      rank 89; the soil 土 with 也 lending its old sound — the
+      earth underfoot, 天's partner in the pair 天地, "heaven and
+      earth = the world."
+  - char: 風
+    chapter: 23
+    keyword: wind
+    pinyin: fēng
+    meaning: "wind; air, influence"
+    category: phono-semantic
+    certainty: classic
+    parts: []
+    note: >-
+      rank 109; a sail-shaped outer sign for the sound, an insect
+      within — the old lists say wind is what quickens the
+      insects. Also the "Airs": the Odes' name for its folk
+      songs, and a lord's influence on the people.

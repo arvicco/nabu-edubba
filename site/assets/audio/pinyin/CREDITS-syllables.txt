@@ -23,6 +23,7 @@ dan.mp3        — "Zh-dàn.ogg" · Yue Tan · CC BY-SA 3.0 us
 dao.mp3        — "Zh-dào.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 dao-knife.mp3  — "Zh-dāo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 de.mp3         — "Zh-dé.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+di.mp3         — "Zh-dì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ding.mp3       — "LL-Q9192 (cmn)-Fake_estate-丁.wav" · Speaker: Fake estate
 Recorder: Fake estate · CC BY-SA 4.0
 dong.mp3       — "Zh-dōng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -32,11 +33,13 @@ fa.mp3         — "Zh-fā.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 fang.mp3       — "Zh-fang.ogg" · Yue Tan · CC BY-SA 3.0 us
 fei.mp3        — "Zh-fēi.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 fen.mp3        — "Zh-fēn.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+feng.mp3       — "Zh-fēng.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 fu.mp3         — "Zh-fù.ogg" · Yue Tan · CC BY-SA 3.0 us
 ge.mp3         — "Zh-gē.oga" · Yue Tan · CC BY-SA 3.0 us
 gong.mp3       — "Zh-gōng.oga" · Yue Tan · CC BY-SA 3.0 us
 gu.mp3         — "Zh-gu.ogg" · Yue Tan · CC BY-SA 3.0 us
 gu-therefore.mp3 — "Zh-gù.ogg" · Yue Tan · CC BY-SA 3.0 us
+guo.mp3        — "Zh-guó.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hao.mp3        — "Zh-hǎo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 he.mp3         — "Zh-hé.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hou.mp3        — "Zh-hòu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
@@ -62,6 +65,7 @@ nuu.mp3        — "Zh-nǚ.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 pin.mp3        — "Zh-pin.ogg" · Yue Tan · CC BY-SA 3.0 us
 qi.mp3         — "Zh-qí.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 qi-seven.mp3   — "Zh-qī.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+qian.mp3       — "Zh-qiān.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ran.mp3        — "Zh-rán.ogg" · Yue Tan · CC BY-SA 3.0 us
 ren.mp3        — "Zh-rén.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 ri.mp3         — "Zh-rì.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
