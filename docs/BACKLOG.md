@@ -931,7 +931,7 @@ Plan: .docs/phase-23-plan.md (owner cadence: two gates).
 ## M23-3 · S102 shell; chapters parked; redirects; queue split  [tier: top] [status: done] [deps: M23-1]
 ## M23-4 · Stitching + Gate 23 PR  [tier: top] [status: done] [deps: M23-1..3]
 
-## M24-1 · S102 grammar rework (Gate 24)  [tier: top] [status: open] [deps: Gate 23]
+## M24-1 · S102 grammar rework (Gate 24)  [tier: top] [status: done] [deps: Gate 23]
 Goal: rebuild the fifteen parked chapters as the ruled grammar
       course (Pulleyblank spine, rulebook §5): each chapter one
       grammar element, characters re-batched to serve it, existing

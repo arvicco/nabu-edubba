@@ -179,19 +179,17 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 23 — complete, gate PR pending: THE COURSE BORDER (owner
-ruling, concept §7): foundations teach the script's mechanisms,
-nothing more; crossing a ladder mandate is a decision item, never
-a packet. S101 closed COMPLETE at ch00–09 + a new Reference (55
-characters, the honest border verified by review); S102 · Literary
-Chinese born and ruled as a GRAMMAR course (Pulleyblank spine);
-the fifteen inherited chapters parked unpublished until the
-Gate-24 rework so no char-batch permalink freezes; ten redirect
-stubs; per-course queue registries pinned by contract test. Gate
-24 next: the grammar rework (M24-1). This PR also carries all of
-phase 22 (table-balance law school-wide + dead-colgroup fix;
-stretch 5's readings, codex pages, and audio — parked with their
-chapters). PR #27 superseded, never merged.
+Phase 24 — complete, gate PR pending: S102 REBUILT GRAMMAR-FIRST
+(M24-1, Gate 24 of the owner-ruled two-gate cadence). The 82
+characters re-batched into fifteen grammar chapters on the ruled
+Pulleyblank spine; per-course queue ordinals and caps; every
+reading box_line-re-verified; parked files deleted, redirects
+chapter-grain, codex re-pointed, hover bubbles for all 137. The
+sinograph school now reads: S101 Foundations (10 ch + Reference,
+55 chars, complete) and S102 Literary Chinese (15 grammar
+chapters, 82 chars, complete). This PR also carries Gate 23 (the
+course-border law, concept §7) and all of phase 22. PR #27
+superseded, never merged.
 
 Gate 21 merged 2026-08-11 (S101 stretch 4, the world of the text:
 ch15–19, 29 chars; 110 characters = 33.3% — one in three; finale

@@ -18,7 +18,7 @@ pages — drawn from the [Nabu](https://arvicco.github.io/nabu/) library
 with per-passage citations and licenses. The full design is in
 [docs/concept.md](docs/concept.md).
 
-## Status — honest, as of 2026-08-11
+## Status — honest, as of 2026-08-12
 
 **Three schools are open.** In the cuneiform school,
 [101 · Foundations](https://edubba.ac/cuneiform/101/) and
@@ -45,8 +45,10 @@ work: strokes, pictographs, compounds, borrowed sounds, and the
 55 most frequent characters of the classical corpus, taught on
 real lines of the *Laozi*, the *Analects*, and the *Great
 Learning*. [102 · Literary Chinese](https://edubba.ac/sinographs/102/)
-is opening: the grammar of the classical written language, taught
-element by element on the same real texts. A Character Codex page
+is **complete** too — fifteen chapters teaching the grammar of the
+classical written language element by element, from the verbless
+sentence to the discourse words, on the same real texts; the famous
+sayings the foundations met in pieces read whole by the end. A Character Codex page
 backs every taught character, and a Pinyin primer voices every
 syllable with tone-verified, loudness-normalized audio.
 Also live: the map-of-writing landing page and per-school sign
