@@ -44,6 +44,7 @@ and the grammar holding them together.
   <li><a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">The art of asking</a> — 何 what, 安 wherein, 乎 the spoken question mark; friends from far quarters</li>
   <li><a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">If and then</a> — 則 the hinge of consequence, bought with a cowrie and a knife</li>
   <li><a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">Can, get, want</a> — the modal row; wealth priced, greatness unchased</li>
+  <li><a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">Making it happen</a> — the causative runs a thousand-chariot state; 天下為公 box-free</li>
 </ol>
 
 The course is opening; more chapters appear here as they are
