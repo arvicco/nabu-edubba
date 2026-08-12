@@ -5,6 +5,7 @@ nav_order: 311
 course_no: 102
 title: Sinographs 102 · Literary Chinese
 short_title: S 102 Literary Chinese
+assumes: sinographs/101
 description: >-
   The literacy course of the sinograph school: the grammar of the
   classical written language, taught element by element on the
