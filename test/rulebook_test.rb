@@ -104,6 +104,22 @@ class RulebookTest < Minitest::Test
                  "live registries/shelves must satisfy the codex config as flagged"
   end
 
+  def test_codex_index_must_draw_on_every_registry
+    cx = CODEX_ON.merge(registries: %w[_data/sinographs101_queue.yml
+                                       _data/sinographs102_queue.yml])
+    src = "{% assign chars = site.data.sinographs101_queue.signs %}"
+    details = Edubba::Rulebook.check_codex_index(src, cx)
+    assert_equal 1, details.size
+    assert_match(/does not draw on registry sinographs102_queue/, details[0])
+    both = "#{src} {% assign more = site.data.sinographs102_queue.signs %}"
+    assert_empty Edubba::Rulebook.check_codex_index(both, cx)
+  end
+
+  def test_codex_index_check_skips_fixture_sites_without_an_index
+    cx = CODEX_ON.merge(registries: %w[_data/sinographs101_queue.yml])
+    assert_empty Edubba::Rulebook.check_codex_index(nil, cx)
+  end
+
   SUX = { school: "cuneiform", shelf: "cuneiform/addenda/signs", doc: "§7" }.freeze
   AKK = { school: "cuneiform", shelf: "cuneiform/addenda-akk/signs", doc: "§9" }.freeze
 

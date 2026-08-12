@@ -24,6 +24,7 @@ the courses.
 - [Signs — one page for every character]({{ '/sinographs/addenda/signs/' | relative_url }})
 - [Pinyin — how to read the voice]({{ '/sinographs/addenda/pinyin/' | relative_url }})
 
-The shelf is being written alongside
-[Sinographs 101]({{ '/sinographs/101/' | relative_url }}); pages
-appear as their characters are taught.
+The shelf covers both
+[Sinographs 101]({{ '/sinographs/101/' | relative_url }}) and
+[Sinographs 102]({{ '/sinographs/102/' | relative_url }}): every
+taught character has its page.
