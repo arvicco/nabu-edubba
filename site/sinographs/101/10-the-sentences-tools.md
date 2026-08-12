@@ -7,11 +7,12 @@ description: >-
   missing: 以.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 10
 permalink: /sinographs/101/10-the-sentences-tools/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["以", "自", "丁", "可", "用"]
 ---
 

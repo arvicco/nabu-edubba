@@ -21,7 +21,7 @@ until it looks like 曰, which two millennia of learners have
 happily read as "what the brush sets down as said." As a title,
 書 is the Book of Documents — the court speeches of the oldest
 kings — which is why "the 書 says" carries such weight. Taught in
-<a href="{{ '/sinographs/101/16-the-old-and-the-written/' | relative_url }}">the old-and-written chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

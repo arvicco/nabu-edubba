@@ -7,11 +7,12 @@ description: >-
   pivot of every classical argument.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 20
 permalink: /sinographs/101/20-first-and-after-then/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["貝", "刀", "分", "則", "先", "後"]
 shows: ["刂"]
 ---

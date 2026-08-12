@@ -17,7 +17,7 @@ permalink: /sinographs/addenda/signs/five/
 Strokes crossed between an upper and a lower bar — the stated
 reading sees a tally-knot: past four, adding bars stops working,
 so the count ties itself off between heaven and earth. Taught in
-<a href="{{ '/sinographs/101/11-counting-continues/' | relative_url }}">the counting-continues chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -119,6 +119,9 @@ module Edubba
       Dir.glob(File.join(site_dir, "**", "[0-9][0-9]-*.md")).each do |path|
         fm, = fm_of.call(path)
         next unless fm.is_a?(Hash) && fm["course"] && fm["chapter"] && fm["permalink"]
+        # parked chapters (published: false — the S102 rework
+        # window, concept §7) are not on the site and owe no TOC row
+        next if fm["published"] == false
 
         chapters[fm["course"]] << [path, fm["permalink"]]
       end

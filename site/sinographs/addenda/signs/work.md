@@ -19,7 +19,7 @@ A hand gripping a tally-staff — the badge of office held tight.
 The graph is close kin to the scribe- and officer-signs; what
 the hand holds is the job. As a noun the affair; toward a
 person, the serving of them. Taught in
-<a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">the work-and-doing chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

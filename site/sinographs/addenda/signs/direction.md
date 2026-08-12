@@ -20,7 +20,7 @@ the course does not pick a winner. The WORD is not disputed:
 a quarter of the world (四方, the four quarters), a direction,
 a region, and later a method — the shape of "which way?"
 frozen into writing. Taught in
-<a href="{{ '/sinographs/101/18-going-out-and-coming-in/' | relative_url }}">the out-and-in chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

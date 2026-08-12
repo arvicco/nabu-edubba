@@ -7,11 +7,12 @@ description: >-
   long, climbed to its final rung.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 24
 permalink: /sinographs/101/24-like-water/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["若", "同", "從", "善", "長"]
 ---
 

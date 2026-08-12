@@ -96,7 +96,12 @@ class BoxLineTest < Minitest::Test
   # --- real queue (frozen contract — chapters of shipped characters
   # --- never move).
 
-  REAL_QUEUE = File.expand_path("../site/_data/sinographs101_queue.yml", __dir__)
+  # Since the course-border split (concept §7, 2026-08-12) the
+  # shipped chapters 10+ live in the S102 registry; the school-wide
+  # taught set is the union, exactly as SCHOOLS declares it.
+  REAL_QUEUE = ["../site/_data/sinographs101_queue.yml",
+                "../site/_data/sinographs102_queue.yml"]
+               .map { |p| File.expand_path(p, __dir__) }.freeze
 
   def real_taught(chapter) = B.taught_set(REAL_QUEUE, chapter)
 

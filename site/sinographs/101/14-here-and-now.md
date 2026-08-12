@@ -6,11 +6,12 @@ description: >-
   now — the words that pin a sentence to a spot and a moment.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 14
 permalink: /sinographs/101/14-here-and-now/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["此", "所", "於", "至", "今"]
 ---
 

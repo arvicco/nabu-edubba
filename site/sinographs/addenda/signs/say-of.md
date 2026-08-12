@@ -19,7 +19,7 @@ Speech 言 on the left; the right half only lends its sound. Where
 曰 opens a quotation, 謂 points at a thing and names it: X 謂 Y,
 "X calls it Y" — the classics' verb for defining, judging, and
 meaning. Taught in
-<a href="{{ '/sinographs/101/22-wanting-and-getting/' | relative_url }}">the wanting-and-getting chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

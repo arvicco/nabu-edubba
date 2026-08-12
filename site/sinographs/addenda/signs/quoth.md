@@ -20,7 +20,7 @@ verb, it kept the job so firmly that clouds had to take a rain
 roof (雲) to stay distinct. 曰 speaks in a person's own voice;
 云 hands over someone else's — the Songs say, the Book says.
 Taught in
-<a href="{{ '/sinographs/101/13-liking-and-likening/' | relative_url }}">the liking-and-likening chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

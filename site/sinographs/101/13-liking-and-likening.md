@@ -7,11 +7,12 @@ description: >-
   particle that says it is done.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 13
 permalink: /sinographs/101/13-liking-and-likening/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["女", "好", "如", "云", "非", "矣"]
 ---
 

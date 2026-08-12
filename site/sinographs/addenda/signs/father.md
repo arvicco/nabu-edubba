@@ -19,7 +19,7 @@ emblem of household authority: the classic account. Set beside
 子 it frames the bond the *Analects* builds society from, and
 in 12.11 the pair carries half of political philosophy. Taught
 in
-<a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">the learning chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

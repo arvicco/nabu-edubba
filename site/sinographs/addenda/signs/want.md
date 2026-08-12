@@ -19,7 +19,7 @@ On the right, a figure with mouth gaping open — the yawning,
 gaping element that marks words of breath and appetite. On the
 left, the valley, there for its sound (and, the moralists liked
 to add, as deep and hard to fill as desire itself). Taught in
-<a href="{{ '/sinographs/101/22-wanting-and-getting/' | relative_url }}">the wanting-and-getting chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

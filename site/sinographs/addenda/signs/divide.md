@@ -19,7 +19,7 @@ permalink: /sinographs/addenda/signs/divide/
 each other — before the number eight borrowed it. Set the knife
 刀 beneath and the splitting has its tool: 分, to divide; also
 the share that division hands you. Taught in
-<a href="{{ '/sinographs/101/20-first-and-after-then/' | relative_url }}">the first-and-after chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

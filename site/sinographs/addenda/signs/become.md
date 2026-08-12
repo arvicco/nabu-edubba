@@ -19,7 +19,7 @@ A broad-bladed weapon-sign with 丁 — the nail of the
 tool-chapter — set inside as its sound-mark. The old accounts
 read it as the work brought to its last stroke: completed,
 achieved, become. Taught in
-<a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">the work-and-doing chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

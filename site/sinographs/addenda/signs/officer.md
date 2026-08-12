@@ -20,7 +20,7 @@ parses "one who serves, from one 一 through ten 十." Whatever
 the picture, the word is clear — the lowest rung of the old
 nobility, the man-at-arms, remade by the philosophers into the
 scholar who serves with his learning. Taught in
-<a href="{{ '/sinographs/101/17-lords-and-the-people/' | relative_url }}">the lords-and-people chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

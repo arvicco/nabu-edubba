@@ -18,7 +18,7 @@ An eye stood on end — the classic account: the eye of a bowed
 head, glancing upward at the master. From "servant" the word
 climbed to the minister's title; before an emperor, officials
 of every rank say 臣 where we would say "I". Taught in
-<a href="{{ '/sinographs/101/17-lords-and-the-people/' | relative_url }}">the lords-and-people chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -80,7 +80,9 @@ if $PROGRAM_NAME == __FILE__
   from_ch = (ARGV[0] || 0).to_i
   to_ch = (ARGV[1] || 14).to_i
 
-  queue = YAML.safe_load_file("site/_data/sinographs101_queue.yml")["signs"]
+  queue = ["site/_data/sinographs101_queue.yml",
+           "site/_data/sinographs102_queue.yml"]
+          .flat_map { |q| YAML.safe_load_file(q)["signs"] }
   inv = Set.new
   cumulative = []
   queue.select { |s| s["chapter"] }.group_by { |s| s["chapter"] }.sort.each do |ch, rows|

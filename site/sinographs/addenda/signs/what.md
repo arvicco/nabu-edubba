@@ -19,7 +19,7 @@ ancestor of the word for "carry" — and the standard analysis
 reads the settled form as a person with 可 lending the sound.
 Borrowed for the question word, it never went back: 何 is the
 what, how and why of every classical argument. Taught in
-<a href="{{ '/sinographs/101/17-lords-and-the-people/' | relative_url }}">the lords-and-people chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

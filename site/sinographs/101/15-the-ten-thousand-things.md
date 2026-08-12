@@ -7,11 +7,12 @@ description: >-
   everything there is.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 15
 permalink: /sinographs/101/15-the-ten-thousand-things/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["七", "八", "九", "牛", "物", "萬"]
 shows: ["勿"]
 ---

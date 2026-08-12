@@ -22,7 +22,7 @@ standard engraved in metal is a **rule**. The classical language
 then made it a hinge: *X 則 Y*, "where X holds, Y follows, as
 the rule dictates" — the twenty-third most frequent character in
 the corpus, almost always in that job. Taught in
-<a href="{{ '/sinographs/101/20-first-and-after-then/' | relative_url }}">the first-and-after chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

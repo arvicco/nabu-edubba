@@ -130,8 +130,12 @@ its little words, and the little words are now yours.
 ## Where this leaves you
 
 Fifty-five characters — one in every five characters of the
-entire classical corpus is now yours. The chapters that began
+entire classical corpus is now yours, and with them every way a
+character can mean: pictures, marks, stacked meanings, borrowed
+sounds, and sound-plus-sense compounds. The chapters that began
 with the busiest word in the world end with the busiest sentence:
-learn, and in season practice. The chapters ahead do exactly
-that — the sentence put to work, the numbers finished, and the
-Way itself arriving in the original.
+learn, and in season practice. That is this course's whole
+foundation, laid. The next course does exactly what the sentence
+promises — <a href="{{ '/sinographs/102/' | relative_url }}">102 ·
+Literary Chinese</a> puts the sentence to work, grammar by
+grammar, on the real texts.
