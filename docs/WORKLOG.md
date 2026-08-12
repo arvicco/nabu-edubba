@@ -5,6 +5,32 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · incident · phase-24 · S102 SIGNS MISSING FROM THE
+CODEX. Owner, on review: the 82 newly-taught S102 characters were
+absent from the Character Codex index and their sign-table glyphs
+linked nowhere — and the gate had passed. Root cause: the queue
+split left two consumers hard-wired to sinographs101_queue — the
+shelf's signs index (site/sinographs/addenda/signs/index.md)
+iterated only the 101 queue, and sign_links.rb's hand-written
+:codex stanza wired only 101 chars (its teaching-link stanza HAD
+been given a 102 loop; the codex stanza three screens down had
+not). The gate passed because the rulebook's codex check verifies
+pages EXIST (all 82 did) — nothing checked that the index lists
+them or that the wiring links them. Durable fix, three layers:
+(1) the signs index now iterates both queues with course-labeled,
+chapter-linked "Taught in" cells, matching the cuneiform/hiero
+shelf pattern; (2) codex wiring is now LEDGER-DRIVEN —
+SignLinker.wire_codex! derives every shelf's links from
+Rulebook::CODEX, so a registry that enters the ledger (which the
+pages check already forces) is wired automatically, and the three
+per-school stanzas in the plugin are gone; (3) new rulebook check
+check_codex_index: a shelf's index must draw on every registry in
+its ledger entry — red on the pre-fix tree, green now, unit-
+tested, and the live-config test runs it against the real site.
+Lesson: when a registry splits, grep for every consumer of the
+old name in the same commit — and each consumer class needs a
+machine check, not just the data files.
+
 2026-08-12 · M24-1 · phase-24 · S102 REBUILT GRAMMAR-FIRST (Gate
 24 of the two-gate cadence). The 82 characters re-batched into
 fifteen grammar chapters on the ruled Pulleyblank spine — the

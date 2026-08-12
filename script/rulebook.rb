@@ -115,7 +115,9 @@ module Edubba
         shelf = File.join(site_dir, cx[:shelf])
         pages = Dir.glob(File.join(shelf, "*.md"))
                    .map { |p| File.basename(p, ".md") } - ["index"]
-        check_codex(signs, pages, cx)
+        index = File.join(shelf, "index.md")
+        index_src = File.exist?(index) ? File.read(index, encoding: "UTF-8") : nil
+        (check_codex(signs, pages, cx) + check_codex_index(index_src, cx))
           .map { |detail| Violation.new(cx[:shelf], "rulebook-codex", detail) }
       end
       per + cross_codex_check(loaded).map do |detail|
@@ -181,6 +183,20 @@ module Edubba
         end
       end
       out
+    end
+
+    # Pure: shelf index source + codex hash -> details. The shelf's
+    # index page must draw on EVERY registry in the ledger — the
+    # 2026-08-12 S102 gap: all 82 codex pages existed (so the pages
+    # check passed), but the signs index still iterated only the
+    # 101 queue, leaving the new characters invisible in the Codex.
+    # Fixture sites carry no index; nil skips.
+    def check_codex_index(index_src, cx)
+      return [] if index_src.nil?
+
+      cx[:registries].map { |r| File.basename(r, ".yml") }
+        .reject { |key| index_src.include?(key) }
+        .map { |key| "signs index does not draw on registry #{key} (#{cx[:doc]})" }
     end
 
     def violations(site_dir, rulebooks = RULEBOOKS)
