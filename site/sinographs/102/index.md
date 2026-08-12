@@ -34,6 +34,7 @@ and the grammar holding them together.
 
 <ol class="course-toc" start="1">
   <li><a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">The sentence without a verb</a> — X, Y 也: defining without "is"; the cast of persons</li>
+  <li><a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">The verb and its object</a> — subject, verb, object; nothing conjugates; the Laozi stays home</li>
 </ol>
 
 The course is opening; more chapters appear here as they are
