@@ -19,7 +19,7 @@ household settled, the house at rest. The classics also borrow
 it as a question word ("wherein? how?"), but its heart is
 peace, ease, safety — the thing good government owes the old.
 Taught in
-<a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">the learning chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

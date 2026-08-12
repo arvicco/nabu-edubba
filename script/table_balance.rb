@@ -66,7 +66,15 @@ module Edubba
         text.length * glyph_size(sino) + CELL_PAD
       else
         per = header ? HEADER_EM : LATIN_EM
-        text.each_char.sum { |c| c.ord < 0x2E80 ? per : WIDE_EM } + CELL_PAD
+        text.each_char.sum do |c|
+          if c.ord >= 0x2E80 then WIDE_EM
+          # capitals (sign names: LUGAL, [šarrum]) run wider than
+          # body lowercase — the LUGAL mid-word wrap, caught in the
+          # phase-22 surface review
+          elsif !header && c.match?(/[[:upper:]]/) then HEADER_EM
+          else per
+          end
+        end + CELL_PAD
       end
     end
 
@@ -80,12 +88,18 @@ module Edubba
           cells[i] && cell_demand(*cells[i], sino, header: r.zero?)
         end.max || CELL_PAD
       end
-      if demands.sum <= TABLE_REM
-        spare = (TABLE_REM - demands.sum) / ncols
-        return demands.map { |d| d + spare }
+      labels = demands.map { |d| d <= LABEL_MAX }
+      # label columns carry their no-mid-word headroom in BOTH
+      # branches — the fits-easily branch used to skip it, and the
+      # first table whose notes were compressed under 42rem started
+      # wrapping "LUGAL" and "prince" mid-word (phase-22 surface
+      # review)
+      roomy = demands.zip(labels).map { |d, l| l ? d + LABEL_HEADROOM : d }
+      if roomy.sum <= TABLE_REM
+        spare = (TABLE_REM - roomy.sum) / ncols
+        return roomy.map { |d| d + spare }
       end
 
-      labels = demands.map { |d| d <= LABEL_MAX }
       fixed = demands.zip(labels).sum { |d, l| l ? d + LABEL_HEADROOM : 0.0 }
       pool = demands.zip(labels).filter_map { |d, l| d unless l }
       room = TABLE_REM - fixed

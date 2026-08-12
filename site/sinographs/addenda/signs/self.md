@@ -19,7 +19,7 @@ classic. Pointing at one's own nose to mean "me" is a gesture
 Chinese speakers still make, and the graph froze it. The sense
 "from" (a starting point — where the self stands) rides along.
 Taught in
-<a href="{{ '/sinographs/101/10-the-sentences-tools/' | relative_url }}">the sentence's-tools chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

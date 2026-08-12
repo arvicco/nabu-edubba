@@ -113,6 +113,35 @@ fallback. Recorded in docs/concept.md §7.
 
 ## 5 · Corpus, ordering, licenses
 
+### The course border (owner ruling 2026-08-12 — concept §7 law)
+
+**S101 · How the characters work is CLOSED at chapter 09 plus its
+Reference**: ten chapters, 55 characters, the mechanism classes
+complete (strokes, pictographs, compound ideographs, indicative
+marks, rebus loans, phono-semantic compounds, worn grammar
+words). Foundations means orientation and basics, nothing more.
+Its inventory and permalinks are frozen; nothing is ever added.
+
+**S102 · Literary Chinese** owns everything beyond: the 82
+characters of the former ch10–24 plus all future growth. It is a
+GRAMMAR course — each chapter teaches one grammar element of
+Literary Chinese, on the spine of Pulleyblank, *Outline of
+Classical Chinese Grammar* (the course's cited grammar, named
+once); characters are re-batched to serve the chapter's grammar,
+never taught as frequency batches for their own sake. Ruled
+spine (15 chapters; final wording at rework): the nominal
+sentence and 也 · the verbal sentence and its objects · negation
+(不 非 無) · pronouns and demonstratives · 之 and subordination ·
+者/所 nominalization · coverbs (以 於 自 與) · aspect and
+finality (矣 已) · questions (乎 何 安) · conditionals (則 若) ·
+modals (可 能 得) · causative 使 · comparison (如 若) ·
+quantification (皆) · discourse (故 是以 然). Box-share cap for
+S102 ordinals: max(25%, 40 − 5·⌊(chapter−1)/5⌋) — the same
+declining curve the readings were written under. Until the
+rework lands (Gate 24), the inherited chapters are parked
+unpublished; no S102 chapter permalink publishes before its
+grammar-shaped final form (permalink freeze law).
+
 Before writing any chapter, run the author pre-flight checklist
 (docs/DEV-LOOP.md §4 item 6c) — it compresses this section and the
 site-wide laws into writing order.
@@ -289,6 +318,47 @@ same-commit voicing and codex pages, per-chapter pool splicing),
 plus the first return-arc TABLE (M20-5) — the plan carries it;
 the chapters deliver it.
 
+### S101 stretch 5 (ruled 2026-08-12 at the phase-22 opening, before content)
+
+Chapters 20–24 open **cause and consequence**: the rule and its
+parts (貝 刀 分 則 先 後), doing and becoming (事 作 成 能 使),
+wanting and getting (得 與 欲 皆 謂 然), the state and the world
+(國 千 世 地 風), and likeness (若 同 從 善 長) — 27 fresh
+characters, box-share cap tightens to **30%** (the declining-cap
+law's fourth step). Total 137 = two of every five characters on a
+classical page:
+
+- **ch20 · First and after, then:** 貝 刀 分 則 先 後 — two cheap
+  pictographs (cowrie, knife) buy two compounds in the same
+  chapter: 分 = ⿱八刀 (ch15's 八), 則 = ⿰貝刀 (values cut beside
+  the cowrie: the rule; hence "then"). Finale: the Daxue's 知所
+  先後，則近道矣 at one box.
+- **ch21 · The work and its doing:** 事 作 成 能 使 — Laozi's
+  chapter: 為無為，事無事，味無味 at ZERO boxes (ch04's 味 paid);
+  物有本末，事有終始 (ch04's 本末 paid); 難易相成 (ch12's 相);
+  萬物作焉而不辭; 故能成其大; 使民以時 returns at zero (ch19's
+  box paid).
+- **ch22 · Wanting and getting:** 得 與 欲 皆 謂 然 — Analects
+  4.5 whole clause (富與貴，是人之所欲也；不以其道得之，不處也);
+  finale Laozi 17's 功成事遂，而百姓皆謂我自然 — the people all
+  say: we did it ourselves.
+- **ch23 · The thousand-chariot state:** 國 千 世 地 風 — 千
+  completes the number ladder the course forgot it owed (一–萬
+  minus a thousand); 天地不仁; 君子之德風; 十世可知也; finale
+  **Analects 1.5 WHOLE** (道千乘之國…使民以時), the second full
+  saying after 1.1.
+- **ch24 · Like water:** 若 同 從 善 長 (the chapter-dial law
+  holds: five) — 上善若水 at ZERO boxes (善 taught, not boxed);
+  天長地久; 是謂玄同; the 2.4 ladder closes COMPLETELY (七十而從
+  心所欲，不踰矩 at two boxes); the Daxue's 古之欲明明德於天下者，
+  先治其國 stitches the whole stretch (先 欲 國 all its own).
+
+Laws in force unchanged; the arc table with verified URNs lives
+in the phase-22 plan. Course edition note (caught at plan stage,
+witness-first): this Laozi writes 小邦寡民, not 小國寡民 — 國's
+witnesses are the Analects and the Daxue, never a paraphrased
+Laozi 80.
+
 ## 6 · Display conventions
 
 - Native characters beside pinyin beside gloss, always; untaught
@@ -409,7 +479,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Size law: Han bigger than other scripts everywhere | §6 | style_guard SINO_CONTEXTS tests |
 | Han runs sit in `script` spans | §6 | font-coverage guards tofu; span discipline owner review |
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
-| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced, this school) |
+| No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |

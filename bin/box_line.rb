@@ -27,15 +27,19 @@ module Edubba
     # join when they gain a character-grain queue.
     SCHOOLS = {
       "sinographs" => {
-        queue: "site/_data/sinographs101_queue.yml",
+        # one inventory across the course border (concept §7):
+        # S101 holds ch00-09, S102 the rest; chapter ordinals are
+        # school-wide, so the merged set answers "taught by ch N"
+        queue: ["site/_data/sinographs101_queue.yml",
+                "site/_data/sinographs102_queue.yml"],
         freq: "assets-src/data/char-freq-kanripo.tsv"
       }
     }.freeze
 
     BOX = "▢"
 
-    def taught_set(queue_path, chapter)
-      rows = YAML.safe_load_file(queue_path).fetch("signs")
+    def taught_set(queue_paths, chapter)
+      rows = Array(queue_paths).flat_map { |p| YAML.safe_load_file(p).fetch("signs") }
       rows.select { |r| r.fetch("chapter") <= chapter }
           .map { |r| r.fetch("char") }.to_set
     end

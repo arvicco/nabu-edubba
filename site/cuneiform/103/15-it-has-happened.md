@@ -35,9 +35,7 @@ met it five times since. The waiting ends here too.
     <tr>
       <td class="script sign-cell">𒊍</td><td>AZ</td><td>bear</td><td>[as/az/aṣ]</td>
       <td>the bear in the lists</td>
-      <td>one sign for three tails — as, az, and the pressed
-          aṣ, your second emphatic in a sign; it closes this
-          chapter's verb of record, <em>im-ta-ḫa-aṣ</em></td>
+      <td>as, az, aṣ — one sign, three tails</td>
     </tr>
   </tbody>
 </table>

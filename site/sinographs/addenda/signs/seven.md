@@ -20,7 +20,7 @@ makes it the original of "to cut," which later grew a knife of
 its own to keep that job. The graph itself was lent to the
 number seven so early that no classical text remembers it
 meaning anything else. Taught in
-<a href="{{ '/sinographs/101/15-the-ten-thousand-things/' | relative_url }}">the ten-thousand-things chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

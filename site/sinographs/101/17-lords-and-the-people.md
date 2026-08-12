@@ -7,11 +7,12 @@ description: >-
   asks them.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 17
 permalink: /sinographs/101/17-lords-and-the-people/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["君", "公", "士", "民", "臣", "何"]
 ---
 

@@ -36,18 +36,14 @@ line, you recognize the shape instead of flinching at it.
     <tr>
       <td class="script sign-cell">𒁺</td><td>DU</td><td>go</td><td>[du]</td>
       <td>to go; (in accounts) delivered, brought</td>
-      <td>a foot/leg, by the classic reading of the picture — a
-          person's own legs, doing the going; in administrative
-          lines the same sign regularly means "delivered, brought"
-          rather than a literal journey</td>
+      <td>a foot doing the going; in administrative lines
+          it means "delivered, brought"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒋾</td><td>TI</td><td>arrow</td><td>[ti]</td>
       <td>arrow; by rebus, LIFE</td>
-      <td>the textbook rebus pair of the whole
-          discipline — arrow and life sounded close enough in
-          Sumerian that the arrow sign was drafted to write "life."
-          This is 101's rebus lesson, made good</td>
+      <td>the textbook rebus — arrow sounded like life,
+          so it writes "life"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉈</td><td>NE</td><td>brazier</td><td>[ne]</td>

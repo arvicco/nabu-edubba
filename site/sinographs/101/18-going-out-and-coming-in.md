@@ -6,11 +6,12 @@ description: >-
   world, the east where the sun rises — and coming back.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 18
 permalink: /sinographs/101/18-going-out-and-coming-in/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["在", "出", "入", "方", "東", "來"]
 ---
 

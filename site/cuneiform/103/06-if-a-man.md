@@ -33,30 +33,26 @@ from the top.
     <tr>
       <td class="script sign-cell">𒋳</td><td>TAG</td><td>touch</td><td>[šum]</td>
       <td>to touch, strike</td>
-      <td>šumma's first half; mind its lookalike — <a href="{{ '/cuneiform/102/11-a-dedication-for-real/#sign-122E7' | relative_url }}">102's give-sign</a> 𒋧 reads <em>šum₂</em>, a different sign with
-          a nearly identical name, and the index digit is the
-          field's way of keeping them apart</td>
+      <td>šumma's first half; the index parts it from
+          <a href="{{ '/cuneiform/102/11-a-dedication-for-real/#sign-122E7' | relative_url }}"><em>šum₂</em></a></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉿</td><td>PI</td><td>ear</td><td>[wa/wi]</td>
       <td>ear</td>
-      <td>Akkadian has a <em>w</em> that Sumerian never wrote, so
-          the scribes drafted the ear-sign to carry it — the wi
-          of <span class="norm">awīlum</span> is this sign</td>
+      <td>the ear-sign, drafted for w — the wi of
+          <span class="norm">awīlum</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈝</td><td>LUM</td><td>ripen</td><td>[lum]</td>
       <td>to ripen, be fruitful</td>
-      <td>closes <em>a-wi-lum</em> in the nominative — the most
-          important noun in Babylonian law ends on it</td>
+      <td>closes <em>a-wi-lum</em> in the
+          nominative</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[tam]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12313' | relative_url }}">101's day-sign</a>, polyvalent
-          since the beginning (ud, utu), crosses the border with
-          yet another voice: the tam that closes
-          <span class="norm">nērtam</span>, "a murder charge"</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/101/12-reference/#sign-12313' | relative_url }}">101's day-sign</a>, now
+          also tam (<span class="norm">nērtam</span>)</td>
     </tr>
   </tbody>
 </table>

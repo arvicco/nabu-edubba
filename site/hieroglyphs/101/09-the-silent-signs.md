@@ -33,9 +33,8 @@ all and still run the show.
     <tr>
       <td class="script sign-cell">𓀀</td><td>A1</td><td>person</td><td>—</td>
       <td>a seated man</td>
-      <td>silent; closes words for men, names, professions — and
-          stands in for "I" when a text speaks in the first
-          person</td>
+      <td>silent; closes men, names, professions — and
+          "I" in first person</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓁐</td><td>B1</td><td>woman</td><td>—</td>
@@ -45,9 +44,8 @@ all and still run the show.
     <tr>
       <td class="script sign-cell">𓀁</td><td>A2</td><td>hand to mouth</td><td>—</td>
       <td>a man with hand to mouth</td>
-      <td>silent; closes everything the mouth does — eat, drink,
-          speak, think, feel — the busiest classifier in the
-          script</td>
+      <td>silent; closes all the mouth does — eat, drink,
+          speak, think, feel</td>
     </tr>
   </tbody>
 </table>
@@ -94,20 +92,18 @@ quietly filing Nut where she belongs.
     <tr>
       <td class="script sign-cell">𓏥</td><td>Z2</td><td>plural</td><td>—</td>
       <td>three strokes</td>
-      <td>silent; marks a plural — three of anything is "many,"
-          a logic you have trusted since the tally sticks</td>
+      <td>silent; the plural — three is "many"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓏛</td><td>Y1</td><td>idea</td><td>—</td>
       <td>a papyrus roll, tied shut</td>
-      <td>silent; closes abstract words — thought, knowledge, plans:
-          things you can only keep on paper</td>
+      <td>silent; closes abstracts — thought, knowledge,
+          plans</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓅪</td><td>G37</td><td>smallness</td><td>—</td>
       <td>a sparrow</td>
-      <td>silent; closes words for small, young, weak, bad — the
-          scribes' all-purpose "lesser" bird</td>
+      <td>silent; closes small, young, weak, bad</td>
     </tr>
   </tbody>
 </table>

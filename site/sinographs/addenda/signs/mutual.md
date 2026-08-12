@@ -19,7 +19,7 @@ forester sizing up timber. The appraising look became the
 classical adverb of reciprocity: 相 before a verb makes it run
 both ways. Read xiàng, the same graph names the minister who
 inspects for the throne. Taught in
-<a href="{{ '/sinographs/101/12-the-eye-and-the-way/' | relative_url }}">the eye-and-the-Way chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -19,7 +19,7 @@ Chinese sound carrying the word. The uses fan out from
 likeness: X 如 Y "X is like Y"; 不如 "falls short of"; 如…何
 "what is to be done with…"; and at a clause's head, "if".
 Taught in
-<a href="{{ '/sinographs/101/13-liking-and-likening/' | relative_url }}">the liking-and-likening chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

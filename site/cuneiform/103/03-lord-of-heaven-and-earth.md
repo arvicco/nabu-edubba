@@ -35,41 +35,31 @@ stele's opening is built out of it.
     <tr>
       <td class="script sign-cell">𒁁</td><td>BAD</td><td>open</td><td>[be]</td>
       <td>to open, apart</td>
-      <td>the be- of <span class="norm">bēlum</span>, "lord" — a
-          sign you will now see at the head of titles constantly</td>
+      <td>the be- of <span class="norm">bēlum</span>,
+          "lord"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂖</td><td>EL</td><td>bright</td><td>[el]</td>
       <td>bright, pure (<span class="norm">ellum</span>)</td>
-      <td>carries its own Akkadian word inside it — and closes
-          <em>be-el</em>, the spelling of the construct
+      <td>closes <em>be-el</em>, the construct
           <span class="norm">bēl</span></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀜</td><td>AD</td><td>father</td><td>[ad/at/aṭ]</td>
       <td>father</td>
-      <td>the picture is a father in the oldest lists; the sound
-          will close <em>ši-ma-at</em>, "destinies," four lines
-          from now — one sign for the whole dental row, its
-          pressed aṭ reporting when it is met</td>
+      <td>a father; it serves all dentals</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅆</td><td>IGI</td><td>eye</td><td>[ši]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/06-names-that-are-sentences/#sign-12146' | relative_url }}">102's eye-sign</a> crosses the
-          border as pure sound: its Sumerian reading <em>ši</em>
-          becomes an all-purpose Akkadian syllable, free of the
-          eye entirely; it opens
-          <span class="norm">šīmātum</span>, "destinies"</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/06-names-that-are-sentences/#sign-12146' | relative_url }}">102's eye-sign</a> as
+          <em>ši</em></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td>[mātum]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's Land-sign</a> crosses the
-          border whole, as a sumerogram: written KALAM, spoken as
-          the Akkadian word <span class="norm">mātum</span>,
-          "the land" — you will see it do exactly that four lines
-          from now</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/07-i-am-king/#sign-12327' | relative_url }}">102's Land-sign</a>:
+          <span class="norm">mātum</span></td>
     </tr>
   </tbody>
 </table>

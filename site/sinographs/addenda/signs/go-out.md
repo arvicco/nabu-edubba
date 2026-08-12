@@ -20,7 +20,7 @@ smooth, the foot now looks like twin sprouts, but the word
 never wavered: emergence, exit, and everything that comes
 forth — words from mouths, troops from gates, the sun from the
 east. Taught in
-<a href="{{ '/sinographs/101/18-going-out-and-coming-in/' | relative_url }}">the out-and-in chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

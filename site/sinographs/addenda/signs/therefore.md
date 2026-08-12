@@ -21,7 +21,7 @@ behind a thing is its precedent; the precedent is its cause; and
 "from this cause" hardened into the classical hinge-word
 *therefore*, the word every argument in the classics turns on.
 Taught in
-<a href="{{ '/sinographs/101/16-the-old-and-the-written/' | relative_url }}">the old-and-written chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

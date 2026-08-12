@@ -34,9 +34,8 @@ answers him.
     <tr>
       <td class="script sign-cell">𒅈</td><td>AR</td><td>praise</td><td>[ar]</td>
       <td>praise, glory in the lists</td>
-      <td>the syllable of <em>ma-ḫa-ar</em>, "before" — the
-          word that stands you in front of the king's image;
-          a fitting sign to learn last but two</td>
+      <td>the syllable of <em>ma-ḫa-ar</em>, "before" —
+          standing you before the king</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌫</td><td>UR₂</td><td>lap</td><td>[ur]</td>
@@ -55,9 +54,8 @@ answers him.
     <tr>
       <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td>[qu]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-121AA' | relative_url }}">102's seizing-sign</a>
-          pressed to qu: <em>šu-qu-ra-tim</em>, "precious" —
-          the king's word for these very words</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/14-a-row-of-proverbs/#sign-121AA' | relative_url }}">102's seizing-sign</a>,
+          pressed to qu</td>
     </tr>
   </tbody>
 </table>

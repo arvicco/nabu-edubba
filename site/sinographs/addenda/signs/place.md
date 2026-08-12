@@ -19,7 +19,7 @@ sound-word; take the graph whole. The noun is *place*; the
 grammar is the treasure: 所 before a verb makes "the
 what-is-verbed" — 所知, what is known; 所欲, what is desired —
 the mirror of 者's "the one who". Taught in
-<a href="{{ '/sinographs/101/14-here-and-now/' | relative_url }}">the here-and-now chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

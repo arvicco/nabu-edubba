@@ -34,33 +34,25 @@ same injuries down the social ladder, and flesh becomes silver.
     <tr>
       <td class="script sign-cell">𒄊</td><td>GIR₃</td><td>path</td><td>[eṣemtum]</td>
       <td>the foot; the path it walks</td>
-      <td>never voiced alone in this course: with 𒉻 and 𒁺 it
-          writes ONE word — the bone. Like
-          <a href="{{ '/cuneiform/103/10-the-river-decides/' | relative_url }}">chapter 10's</a>
-          water-and-deep pair, the bracket carries what the
-          reader speaks</td>
+      <td>never voiced alone: with two partners, ONE
+          word — the bone</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉻</td><td>PAD</td><td>morsel</td><td>[eṣemtum]</td>
       <td>a morsel, a ration</td>
-      <td>on its own tablets it hands out bread; here it sits in
-          the middle of the skeleton's compound — a bit, a
-          piece, a bone</td>
+      <td>bread elsewhere; here, a piece of the
+          bone</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄴</td><td>AḪ</td><td>sigh</td><td>[aḫ/eḫ/uḫ]</td>
       <td>—</td>
-      <td>a pure syllable — the throat's breath in three
-          colors; it carries <em>me-eḫ-ri-šu</em>, "his equal,"
-          the word this chapter's justice turns on</td>
+      <td>the throat's breath in three colors</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒁺</td><td>DU</td><td>go</td><td>[ra]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/04-the-verbal-chain/#sign-1207A' | relative_url }}">102's go-sign</a>
-          crosses with a new voice, ra₂ in transliteration,
-          closing the bone-compound: a foot-sign ending the
-          skeleton's word, fittingly</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/04-the-verbal-chain/#sign-1207A' | relative_url }}">102's go-sign</a>, now
+          ra₂</td>
     </tr>
   </tbody>
 </table>

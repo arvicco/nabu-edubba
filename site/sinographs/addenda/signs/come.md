@@ -18,7 +18,7 @@ A wheat plant, head heavy and ears drooping — the old word for
 wheat itself. "Come" borrowed the graph — the oldest story says
 because the grain CAME, a gift from heaven — and kept it;
 wheat had to grow a new character of its own. Taught in
-<a href="{{ '/sinographs/101/18-going-out-and-coming-in/' | relative_url }}">the out-and-in chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

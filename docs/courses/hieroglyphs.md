@@ -46,6 +46,19 @@ machine-enforceable subset (`script/rulebook.rb`, run by
 - Sign pictures with debated identifications carry their honest
   question marks (*sandal strap?*) and `certainty: unclear` in the
   pool — the course teaches the use, not a story.
+- **Overlay extraction contract (Nabu `edubba-overlay`, live
+  2026-08-11)**: Nabu's hiero cards read our repo directly —
+  `assets-src/data/hiero-101.yml` (`gardiner`, `keyword`, `label`,
+  `sound`, `certainty`, `confusable_with`, `taught_in`),
+  `hiero-102.yml` (same shape; `sense`/`chapter` instead of
+  `sound`/`taught_in`), and codex front matter (`sign`, `title`,
+  `description`, `permalink` — body prose deep-linked, never
+  reprinted). These field names are FROZEN: additive changes only;
+  a rename or removal is announced in Nabu's inbox BEFORE it
+  lands. Join key: our `gardiner` ↔ their `kEH_JSesh` (fallback
+  `kEH_HG`), not their `cat`. `certainty: unclear` prints ahead of
+  the gloss in their renderer — the honesty grade is load-bearing
+  downstream, not just house style.
 
 ## 4 · Readings and citations
 
@@ -196,11 +209,12 @@ script/lint.rb's header; "owner review" is a disposition.
 | Museum objects labeled exhibits, not readings | §4 | `citation-urn` lint, `reading--monument` class (M19-2) |
 | Names approximate and say so | §4 | owner review |
 | New jargon → terms.yml same commit | §5 | term_links plugin + terms contract test |
-| No column adds >15% to a table's height (cuneiform §5 states the law) | shared | build-time balanced colgroups; `table-balance` lint (staged — joins after notes compression) |
+| No column adds >15% to a table's height (cuneiform §5 states the law) | shared | build-time balanced colgroups; `table-balance` lint (enforced 2026-08-11, M22-1) |
 | Promises ledger: named chapter delivers, and says so | §6 | owner review |
 | E102 queue additive-only | §8 | hiero_queue_contract_test |
 | Batches from committed freq table; taught-means-used | §8 | queue contract; readable-line requirement owner review |
 | Sentence types under Allen's names, one per chapter | §8 | terms contract (same-commit); pacing owner review |
 | Walkthrough law (3+ pieces → bullets) | §8 | owner review |
 | Codex: Gardiner-code slugs; classifier keywords = function | §9 | rulebook.rb codex checks |
+| Overlay contract fields frozen; renames announced to Nabu first | §3 | owner review (cross-repo; Nabu reads live) |
 | Retrieval laws (shared §8 of cuneiform) | §10 | warmup/drills/deck/cold-read tests |
