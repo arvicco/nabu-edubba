@@ -19,7 +19,7 @@ honest continuation of 一二三); the stated account is that this
 graph, whose own old picture is disputed, was borrowed for the
 numeral early and the bars retired. Counting words wear out
 their pictures fast. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>.
 
 ## How to remember it
 

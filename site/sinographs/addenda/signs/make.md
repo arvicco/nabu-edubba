@@ -19,7 +19,7 @@ The person 亻 on the left does the making; the right half is a
 sound-loan (an old picture of a collar being cut — the first
 stroke of any garment) that also whispers "beginning." To make,
 to arise, to originate. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 

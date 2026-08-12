@@ -50,5 +50,8 @@ and the grammar holding them together.
   <li><a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">And so</a> — therefore, so, follow — the ladder crowned; the people say 自然</li>
 </ol>
 
-The course is opening; more chapters appear here as they are
-written.
+**The course is complete.** Fifteen chapters: the grammar of
+the classical sentence from the verbless frame to the discourse
+words, taught entirely on real lines of the classics — with the
+famous sayings the Foundations course met in pieces now read
+whole.

@@ -18,7 +18,7 @@ permalink: /sinographs/addenda/signs/first/
 A foot over a walking man's legs — one step out in front of the
 walker. The foot on top is the stop-foot 止 worn slant by
 centuries of copying. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">the if-and-then chapter</a>.
 
 ## How to remember it
 

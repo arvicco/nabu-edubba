@@ -78,8 +78,8 @@ The pattern first, in sentences where every character is yours:
   </figcaption>
 </figure>
 
-Negate it with 非 — a character two chapters away — and you can
-deny an identity as flatly as you assert one. For now, assert.
+A special word for denying identities arrives two chapters on;
+for now, assert.
 
 ## Humaneness is being human
 

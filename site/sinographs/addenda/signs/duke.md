@@ -19,7 +19,7 @@ stated reading: to turn one's back on the private is the
 public. The word carries both senses at once in the classics:
 the feudal rank ("Duke of Zhou") and everything held in common.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">the making-it-happen chapter</a>.
 
 ## How to remember it
 

@@ -19,7 +19,7 @@ oracle-bone posture, kept recognizable through three thousand
 years of rewriting; the reading is classic. She anchors a whole
 family: beside a child she is 好, beside a mouth she lends her
 old sound to 如. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 

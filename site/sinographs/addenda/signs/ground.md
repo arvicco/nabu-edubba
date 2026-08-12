@@ -19,7 +19,7 @@ The soil-sign 土 does the meaning; 也 lends an old pronunciation.
 Together: the ground underfoot, and the lower half of the
 oldest pair in the language — 天地, heaven-and-earth, classical
 for *the world entire*. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 

@@ -20,7 +20,7 @@ smoothing long, loose hair — an image of yielding and going
 along with. From "accord with" the word softened into "to be
 like," and at the head of a clause, "if." The received graph
 re-dressed the figure as plants over a hand. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">the like-and-alike chapter</a>.
 
 ## How to remember it
 

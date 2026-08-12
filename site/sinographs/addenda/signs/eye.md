@@ -18,7 +18,7 @@ The oracle bones drew a level eye with its iris; when the script
 straightened into columns the eye stood up on end — the classic
 account. It anchors the whole seeing family: on legs it is 見,
 before a tree it is 相. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">the verb-and-object chapter</a>.
 
 ## How to remember it
 

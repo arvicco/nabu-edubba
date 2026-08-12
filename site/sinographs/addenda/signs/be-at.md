@@ -19,7 +19,7 @@ sound — set over earth 土: the classic build for presence, a
 thing rooted where it stands. It is the classical verb of
 location: X 在 Y says X is at Y, and the Great Learning opens
 by planting it three times in a row. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>.
 
 ## How to remember it
 

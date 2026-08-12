@@ -19,7 +19,7 @@ Two strokes leaning away from each other — the classic account:
 this was the word "to divide," and the picture is the dividing
 itself. The number borrowed the graph for good; "divide" carried
 on with a knife added underneath. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>.
 
 ## How to remember it
 

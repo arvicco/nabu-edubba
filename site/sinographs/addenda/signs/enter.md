@@ -19,7 +19,7 @@ an arrowhead, a tent-flap parted to admit a visitor; the
 picture is old enough that no one is sure, and the meaning
 never moved: to enter. It is the mirror of 出, and the classics
 love to swing the pair in one sentence. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">the verb-and-object chapter</a>.
 
 ## How to remember it
 

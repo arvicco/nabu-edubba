@@ -18,7 +18,7 @@ Two hands work crossed counting-rods above a roof, and beneath
 the roof stands the child 子 — instruction drawn as a building:
 the classic account. It is the first character of the *Analects*
 and the verb of this whole school of writing systems. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 

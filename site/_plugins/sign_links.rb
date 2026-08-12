@@ -81,6 +81,19 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                            [s["keyword"], s["pinyin"], s["meaning"]]
                          ) }
     end
+    # S102 (Literary Chinese, the border split): its queue's chars
+    # link to their S102 teaching chapters.
+    sino102_urls = site.pages.each_with_object({}) do |p, h|
+      h[p.data["chapter"]] = p.url if p.data["course"] == "sinographs-102" && p.data["chapter"]
+    end
+    Array(site.data.dig("sinographs102_queue", "signs")).each do |s|
+      ch = s["chapter"] or next
+      url = sino102_urls[ch] or next
+      map[s["char"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                         tip: Edubba::SignLinker.tip_join(
+                           [s["keyword"], s["pinyin"], s["meaning"]]
+                         ) }
+    end
     # Codex pages (rulebook §7/§9): sign-table cells link the glyph
     # to its Addenda sign page — wired per school as each shelf
     # ships, keyed on the page actually existing in the build. The

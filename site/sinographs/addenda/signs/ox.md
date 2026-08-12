@@ -20,7 +20,7 @@ up, ears standing out, the long muzzle down the middle stroke.
 The ox was the great sacrificial animal and the plough-engine of
 the fields; whole categories of doing and having are written
 with this head on their left side. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>.
 
 ## How to remember it
 

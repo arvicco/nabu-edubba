@@ -20,7 +20,7 @@ the oldest forms are unmistakably the shell. Cowries were money
 before coins were cast, and the graph kept the job after the
 shells retired: characters about value, goods, and trade wear 貝
 as their marker. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">the if-and-then chapter</a>.
 
 ## How to remember it
 

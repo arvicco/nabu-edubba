@@ -20,7 +20,7 @@ beneath: a roast on the flame — the original "to burn," which
 later grew a fire-sided character of its own to keep that sense.
 The classics borrowed the graph for "so, thus, like that"; 自然,
 "so of itself," is the Laozi's word for the natural. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 

@@ -19,7 +19,7 @@ The heart of the graph is just two person-signs, one walking
 behind the other — following, drawn twice over. The road-step
 on the left and the foot below joined later to make the walking
 explicit. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 

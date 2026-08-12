@@ -22,7 +22,7 @@ patterned thing — the grain of wood, the tracks of birds, the
 stars (天文, the sky's pattern) — and above all to writing,
 until 文 meant the whole civil, lettered order of the world.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 

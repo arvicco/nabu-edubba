@@ -19,7 +19,7 @@ the stated account. The particle closes a sentence with
 arrival: something has become so, the count is complete, the
 decade has turned. Where 也 lays a fact flat on the table, 矣
 tells you the arrow has landed. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 

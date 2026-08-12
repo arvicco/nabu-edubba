@@ -19,7 +19,7 @@ sound, the stroke tallies the count, and bǎi comes out the far
 side. The course's first *built* numeral, and in the classics
 also simply "the many": the hundred names, the hundred crafts.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 
