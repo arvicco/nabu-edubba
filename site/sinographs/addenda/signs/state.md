@@ -30,7 +30,7 @@ A spear inside a wall: the **state**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">欲▢其國者，先▢其▢。</span><span class="translit pinyin">yù zhì qí guó zhě, xiān qí qí jiā</span><span class="gloss">"whoever would set the state in order must first set the household in order" — the Great Learning's chain of scale: fix the near thing before the far one. The boxes are "govern", "set in order", "household"</span></div>
+    <div class="reading-line"><span class="script">欲治其國者，先齊其家。</span><span class="translit pinyin">yù zhì qí guó zhě, xiān qí qí jiā</span><span class="gloss">"whoever would set the state in order must first set the household in order" — the Great Learning's chain of scale: fix the near thing before the far one.</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

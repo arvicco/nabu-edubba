@@ -29,7 +29,7 @@ character needs a hand, look for these two strokes.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">十有五▢。</span><span class="translit pinyin">shí yòu wǔ nián</span><span class="gloss">"in the fifteenth year" — the annals write fifteen as "ten and five," and the "and" is 有 read as this character: the two hands trading places</span></div>
+    <div class="reading-line"><span class="script">十有五年。</span><span class="translit pinyin">shí yòu wǔ nián</span><span class="gloss">"in the fifteenth year" — the annals write fifteen as "ten and five," and the "and" is 有 read as this character: the two hands trading places</span></div>
   </div>
   <figcaption class="citation">
     <em>Spring and Autumn</em> annals, in the Song treatise <em>Chunqiu san zhuan yan</em>.

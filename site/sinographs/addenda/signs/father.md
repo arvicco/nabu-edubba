@@ -30,7 +30,7 @@ hand: household authority in four strokes — **father**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">父在，▢其▢。</span><span class="translit pinyin">fù zài, guān qí zhì</span><span class="gloss">"while the father lives, watch the son's intentions" — the boxes are "watch" and "intent"; after, watch his conduct — and 在 does its quiet "is alive" work again</span></div>
+    <div class="reading-line"><span class="script">父在，觀其志。</span><span class="translit pinyin">fù zài, guān qí zhì</span><span class="gloss">"while the father lives, watch the son's intentions" — after, watch his conduct — and 在 does its quiet "is alive" work again</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.11 — the verse the chapter's

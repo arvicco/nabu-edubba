@@ -29,7 +29,7 @@ lined up saying one plain thing — **all**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">皆知▢之為▢。</span><span class="translit pinyin">jiē zhī shàn zhī wéi shàn</span><span class="gloss">"everyone knows the good as good" — and the moment they do, says the Laozi, "not-good" has been invented too; unanimity manufactures its own opposite. Both boxes are "good"</span></div>
+    <div class="reading-line"><span class="script">皆知善之為善。</span><span class="translit pinyin">jiē zhī shàn zhī wéi shàn</span><span class="gloss">"everyone knows the good as good" — and the moment they do, says the Laozi, "not-good" has been invented too; unanimity manufactures its own opposite.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2, the second line.

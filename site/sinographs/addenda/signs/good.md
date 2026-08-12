@@ -30,7 +30,7 @@ the bottom: words gentle as a lamb — **good**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢其善者而從之。</span><span class="translit pinyin">zé qí shàn zhě ér cóng zhī</span><span class="gloss">"pick out what is good in them and follow it" — walking with any two people, says Confucius, I have a teacher: copy their good points, and let their bad ones warn you. The box is "pick out"</span></div>
+    <div class="reading-line"><span class="script">擇其善者而從之。</span><span class="translit pinyin">zé qí shàn zhě ér cóng zhī</span><span class="gloss">"pick out what is good in them and follow it" — walking with any two people, says Confucius, I have a teacher: copy their good points, and let their bad ones warn you.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.22, on the three walkers.

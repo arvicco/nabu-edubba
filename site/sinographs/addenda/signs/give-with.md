@@ -30,7 +30,7 @@ giving, taking, sharing in one frame — **give-with**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">天道無▢，▢與▢人。</span><span class="translit pinyin">tiān dào wú qīn, héng yǔ shàn rén</span><span class="gloss">"heaven's way plays no favorites — yet it always sides with the good" — no cosmic nepotism, only a long-run tilt toward decency. The boxes are "favorites", "always", "good"</span></div>
+    <div class="reading-line"><span class="script">天道無親，恒與善人。</span><span class="translit pinyin">tiān dào wú qīn, héng yǔ shàn rén</span><span class="gloss">"heaven's way plays no favorites — yet it always sides with the good" — no cosmic nepotism, only a long-run tilt toward decency.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 79, the closing line — this edition writes

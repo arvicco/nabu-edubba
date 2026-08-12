@@ -30,7 +30,7 @@ A person under a burden, asking the porter's eternal question:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">何如▢可▢之士矣？</span><span class="translit pinyin">hé rú sī kě wèi zhī shì yǐ</span><span class="gloss">"what must one be like to be called an officer?" — the boxes are "such" and "call"; a disciple's question, with 何如 "like what?" doing the asking</span></div>
+    <div class="reading-line"><span class="script">何如斯可謂之士矣？</span><span class="translit pinyin">hé rú sī kě wèi zhī shì yǐ</span><span class="gloss">"what must one be like to be called an officer?" — a disciple's question, with 何如 "like what?" doing the asking</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.20.

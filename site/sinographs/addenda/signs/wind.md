@@ -33,7 +33,7 @@ life.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">風▢如▢。</span><span class="translit pinyin">fēng yǔ rú huì</span><span class="gloss">"wind and rain, dark as night" — the Odes' storm, through which a rooster keeps crowing and a longed-for friend finally arrives; ever after, the phrase for grim times that decency outlasts. The boxes are "rain" and "gloom"</span></div>
+    <div class="reading-line"><span class="script">風雨如晦。</span><span class="translit pinyin">fēng yǔ rú huì</span><span class="gloss">"wind and rain, dark as night" — the Odes' storm, through which a rooster keeps crowing and a longed-for friend finally arrives; ever after, the phrase for grim times that decency outlasts.</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "Wind and rain" (風雨).

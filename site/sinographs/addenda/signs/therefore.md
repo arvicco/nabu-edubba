@@ -32,7 +32,7 @@ now — **therefore**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢故而知▢。</span><span class="translit pinyin">wēn gù ér zhī xīn</span><span class="gloss">"warm up the old and know the new" — here 故 is not yet "therefore" but the old stock itself, the thing rekindled: the noun the hinge-word grew out of</span></div>
+    <div class="reading-line"><span class="script">溫故而知新。</span><span class="translit pinyin">wēn gù ér zhī xīn</span><span class="gloss">"warm up the old and know the new" — here 故 is not yet "therefore" but the old stock itself, the thing rekindled: the noun the hinge-word grew out of</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11.

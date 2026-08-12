@@ -29,7 +29,7 @@ Eye meets tree, look meets look: **mutual**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有無相生。</span><span class="translit pinyin">yǒu wú xiāng shēng</span><span class="gloss">"being and non-being beget each other" — four characters, no boxes, and the whole doctrine of opposites</span></div>
+    <div class="reading-line"><span class="script">有無相生。</span><span class="translit pinyin">yǒu wú xiāng shēng</span><span class="gloss">"being and non-being beget each other" — four characters carrying the whole doctrine of opposites</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2.

@@ -29,7 +29,7 @@ nothing at all — and that is how you remember it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">為無為，▢無▢，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting…" — effectiveness without forcing; 無 three times, holding each paradox open</span></div>
+    <div class="reading-line"><span class="script">為無為，事無事，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting…" — effectiveness without forcing; 無 three times, holding each paradox open</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 63.

@@ -29,7 +29,7 @@ Hair, brow, eye: the **head**, first of the body's list.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢之不見其首。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu</span><span class="gloss">"go to meet it, and you do not see its head" — the Way, faceless even face-on</span></div>
+    <div class="reading-line"><span class="script">迎之不見其首。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu</span><span class="gloss">"go to meet it, and you do not see its head" — the Way, faceless even face-on</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14.

@@ -31,7 +31,7 @@ lending its sound. The stroke that finishes the work:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">大▢▢成。</span><span class="translit pinyin">dà qì wǎn chéng</span><span class="gloss">"the great vessel is finished late" — big talents ripen slowly; the Laozi's comfort for late bloomers, now a proverb on its own. The boxes are "vessel" and "late"</span></div>
+    <div class="reading-line"><span class="script">大器晚成。</span><span class="translit pinyin">dà qì wǎn chéng</span><span class="gloss">"the great vessel is finished late" — big talents ripen slowly; the Laozi's comfort for late bloomers, now a proverb on its own.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 41.

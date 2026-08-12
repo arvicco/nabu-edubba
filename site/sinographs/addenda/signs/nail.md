@@ -30,7 +30,7 @@ the head, drive the point.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢木丁丁。</span><span class="translit pinyin">fá mù zhēng zhēng</span><span class="gloss">"axe-blows on the trees ring zhēng, zhēng" — the Songs use the nail-character doubled for the SOUND of striking (read zhēng here, the commentators note); the boxed word is "felling"</span></div>
+    <div class="reading-line"><span class="script">伐木丁丁。</span><span class="translit pinyin">fá mù zhēng zhēng</span><span class="gloss">"axe-blows on the trees ring zhēng, zhēng" — the Songs use the nail-character doubled for the SOUND of striking (read zhēng here, the commentators note)</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Felling Trees".

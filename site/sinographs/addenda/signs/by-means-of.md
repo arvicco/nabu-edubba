@@ -31,7 +31,7 @@ is the thing in hand. Whatever it is, the sentence will be done
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">一言以▢之。</span><span class="translit pinyin">yī yán yǐ bì zhī</span><span class="gloss">"one saying to cover it all" — Confucius on the three hundred Songs; 以 hands the single saying to the verb as its instrument</span></div>
+    <div class="reading-line"><span class="script">一言以蔽之。</span><span class="translit pinyin">yī yán yǐ bì zhī</span><span class="gloss">"one saying to cover it all" — Confucius on the three hundred Songs; 以 hands the single saying to the verb as its instrument</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.

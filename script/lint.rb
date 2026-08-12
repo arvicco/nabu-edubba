@@ -224,6 +224,7 @@ module Edubba
       found.concat(check_reading_dots(path, text))
       found.concat(check_pinyin_display(path, text))
       found.concat(check_box_share(path, text))
+      found.concat(check_codex_boxes(path, text))
       found.concat(check_citation_urn(path, text))
       found.concat(check_table_balance(path, text))
       text.scan(TRANSLIT_SPAN) do
@@ -347,6 +348,23 @@ module Edubba
     # or "inscribed".
     ANY_READING_FIGURE = %r{<figure class="reading(?<mods> [^"]*|)">(?<body>.*?)</figure>}m
     CITATION_CAPTION = %r{<figcaption class="citation[^"]*">(?<cap>.*?)</figcaption>}m
+
+    # codex-boxes (sinographs rulebook §8, ruled 2026-08-12): the
+    # Codex is REFERENCE, not a graded reading — an attestation is
+    # shown whole, every character face-up; ▢ belongs to chapter
+    # readings, where the student's known set is chapter-bounded.
+    # Scoped to the sinograph shelf: kanripo editions are received
+    # texts with no lacunae, so a box there can only be the
+    # chapter-reading law wrongly imported (the 90-page drift).
+    # Cuneiform shelves may carry ▢ for genuine tablet damage.
+    def check_codex_boxes(path, text)
+      return [] unless path.match?(%r{sinographs/addenda/signs/})
+      return [] unless text.include?("▢")
+
+      [Violation.new(path, "codex-boxes",
+                     "▢ on a Codex page — the shelf is reference, not a graded " \
+                     "reading; show the attested line whole (sinographs.md §8)")]
+    end
 
     def check_citation_urn(path, text)
       return [] unless path.end_with?(".md")

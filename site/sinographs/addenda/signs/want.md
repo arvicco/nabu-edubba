@@ -31,7 +31,7 @@ filled. **Want**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢所不欲，▢▢於人。</span><span class="translit pinyin">jǐ suǒ bù yù, wù shī yú rén</span><span class="gloss">"what you yourself do not want, do not inflict on others" — the golden rule, in its oldest one-line form. The boxes are "oneself", "do not", "inflict"</span></div>
+    <div class="reading-line"><span class="script">己所不欲，勿施於人。</span><span class="translit pinyin">jǐ suǒ bù yù, wù shī yú rén</span><span class="gloss">"what you yourself do not want, do not inflict on others" — the golden rule, in its oldest one-line form.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 15.24 — offered as the one word to live

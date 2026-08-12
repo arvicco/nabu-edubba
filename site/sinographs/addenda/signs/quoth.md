@@ -30,7 +30,7 @@ Words drift in from elsewhere like a cloud: **quoth**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢云：之子于▢。</span><span class="translit pinyin">shī yún: zhī zǐ yú guī</span><span class="gloss">"the Songs say: this child goes to her wedding home" — 云 opening a quotation of a song this course already reads</span></div>
+    <div class="reading-line"><span class="script">詩云：之子于歸。</span><span class="translit pinyin">shī yún: zhī zǐ yú guī</span><span class="gloss">"the Songs say: this child goes to her wedding home" — 云 opening a quotation of a song this course already reads</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue), quoting the Peach Tree song.

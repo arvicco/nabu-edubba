@@ -29,7 +29,7 @@ One stroke banked on white: a round **hundred**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢三百。</span><span class="translit pinyin">shī sān bǎi</span><span class="gloss">"the Songs are three hundred" — the canon counted in one breath</span></div>
+    <div class="reading-line"><span class="script">詩三百。</span><span class="translit pinyin">shī sān bǎi</span><span class="gloss">"the Songs are three hundred" — the canon counted in one breath</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.

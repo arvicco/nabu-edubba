@@ -29,7 +29,7 @@ Wings flying apart: whatever you claimed, this **is not** it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">非其▢而▢之。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī</span><span class="gloss">"a ghost that is not one's own, and sacrificing to it anyway" — 非其… denies the belonging itself</span></div>
+    <div class="reading-line"><span class="script">非其鬼而祭之。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī</span><span class="gloss">"a ghost that is not one's own, and sacrificing to it anyway" — 非其… denies the belonging itself</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.24.

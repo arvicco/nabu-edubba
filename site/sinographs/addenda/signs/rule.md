@@ -33,7 +33,7 @@ rule says what follows.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">行有▢▢，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — Confucius, listing a student's duties: behave first, books after. The boxes are "surplus" and "strength"</span></div>
+    <div class="reading-line"><span class="script">行有餘力，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — Confucius, listing a student's duties: behave first, books after.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.6.

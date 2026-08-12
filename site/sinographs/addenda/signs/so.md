@@ -31,7 +31,7 @@ roast is cooked, the matter settled — it is **so**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">道▢自然。</span><span class="translit pinyin">dào fǎ zì rán</span><span class="gloss">"the way follows what is so of itself" — the last rung of the Laozi's ladder: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature. The box is "follows-the-model-of"</span></div>
+    <div class="reading-line"><span class="script">道法自然。</span><span class="translit pinyin">dào fǎ zì rán</span><span class="gloss">"the way follows what is so of itself" — the last rung of the Laozi's ladder: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 25, the final line.

@@ -29,7 +29,7 @@ The wedge goes in: **enter**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">入▢▢，出▢▢。</span><span class="translit pinyin">rù zé xiào, chū zé tì</span><span class="gloss">"entering, be filial; going out, be a younger brother" — the boxes are "then" (twice), "filial", "brotherly"; the door swings both ways and each side has its duty</span></div>
+    <div class="reading-line"><span class="script">入則孝，出則悌。</span><span class="translit pinyin">rù zé xiào, chū zé tì</span><span class="gloss">"entering, be filial; going out, be a younger brother" — the door swings both ways and each side has its duty</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.6 — the young person's whole curriculum,

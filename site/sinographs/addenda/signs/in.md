@@ -32,7 +32,7 @@ lands, there the sentence is — **in**, at, on.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">自天子以至於▢人。</span><span class="translit pinyin">zì tiān zǐ yǐ zhì yú shù rén</span><span class="gloss">"from the Son of Heaven down TO the common people" — 於 setting the far end of the span</span></div>
+    <div class="reading-line"><span class="script">自天子以至於庶人。</span><span class="translit pinyin">zì tiān zǐ yǐ zhì yú shù rén</span><span class="gloss">"from the Son of Heaven down TO the common people" — 於 setting the far end of the span</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

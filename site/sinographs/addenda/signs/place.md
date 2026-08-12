@@ -29,7 +29,7 @@ The **place** behind the door where the axe hangs.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">其所▢者▢。</span><span class="translit pinyin">qí suǒ hòu zhě bó</span><span class="gloss">"what he should treat as weighty is treated thinly" — neglecting the essential while fussing over trifles; 所…者 wrapping a verb into a thing</span></div>
+    <div class="reading-line"><span class="script">其所厚者薄。</span><span class="translit pinyin">qí suǒ hòu zhě bó</span><span class="gloss">"what he should treat as weighty is treated thinly" — neglecting the essential while fussing over trifles; 所…者 wrapping a verb into a thing</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

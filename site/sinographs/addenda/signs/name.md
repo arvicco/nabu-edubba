@@ -28,7 +28,7 @@ for when you cannot be seen.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">名不正，▢言不▢。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not upright, speech does not flow" — call things what they are, or nothing downstream — speech, ritual, justice — works; 名 opening its own most famous sentence</span></div>
+    <div class="reading-line"><span class="script">名不正，則言不順。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">"if names are not upright, speech does not flow" — call things what they are, or nothing downstream — speech, ritual, justice — works; 名 opening its own most famous sentence</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.3.

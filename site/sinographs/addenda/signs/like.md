@@ -30,7 +30,7 @@ heard.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">人而不仁，如▢▢？</span><span class="translit pinyin">rén ér bù rén, rú lǐ hé</span><span class="gloss">"a person who is not humane — what are the rites to him?" — the 如…何 frame at full force</span></div>
+    <div class="reading-line"><span class="script">人而不仁，如禮何？</span><span class="translit pinyin">rén ér bù rén, rú lǐ hé</span><span class="gloss">"a person who is not humane — what are the rites to him?" — the 如…何 frame at full force</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 3.3.

@@ -30,7 +30,7 @@ there.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢▢在，不▢▢。</span><span class="translit pinyin">fù mǔ zài, bù yuǎn yóu</span><span class="gloss">"while father and mother are alive, do not roam far" — the boxes are "father", "mother", "far", "roam"; 在 alone carries "are alive": to be present is to be</span></div>
+    <div class="reading-line"><span class="script">父母在，不遠遊。</span><span class="translit pinyin">fù mǔ zài, bù yuǎn yóu</span><span class="gloss">"while father and mother are alive, do not roam far" — 在 alone carries "are alive": to be present is to be</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 4.19 — the saying allows one exception:

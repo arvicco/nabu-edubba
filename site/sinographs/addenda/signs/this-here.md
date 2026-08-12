@@ -29,7 +29,7 @@ spot underfoot.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">此▢知本。</span><span class="translit pinyin">cǐ wèi zhī běn</span><span class="gloss">"THIS is called knowing the root" — 此 gathering a whole argument onto the spot</span></div>
+    <div class="reading-line"><span class="script">此謂知本。</span><span class="translit pinyin">cǐ wèi zhī běn</span><span class="gloss">"THIS is called knowing the root" — 此 gathering a whole argument onto the spot</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

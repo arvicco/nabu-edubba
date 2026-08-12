@@ -31,7 +31,7 @@ heaven-and-earth.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無名、天地之▢。</span><span class="translit pinyin">wú míng, tiān dì zhī shǐ</span><span class="gloss">"the nameless — the beginning of heaven and earth" — before anything had a name, says the Laozi's first page, the world already was; names came second. The box is "beginning"</span></div>
+    <div class="reading-line"><span class="script">無名、天地之始。</span><span class="translit pinyin">wú míng, tiān dì zhī shǐ</span><span class="gloss">"the nameless — the beginning of heaven and earth" — before anything had a name, says the Laozi's first page, the world already was; names came second.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 1.

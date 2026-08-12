@@ -29,7 +29,7 @@ The curl closes on itself: **already** done.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而▢已。</span><span class="translit pinyin">sǐ ér hòu yǐ</span><span class="gloss">"only death ends it" — the boxes are "die" and "after"; the officer's burden from the broad-and-resolute saying: carried until 已, the stop</span></div>
+    <div class="reading-line"><span class="script">死而後已。</span><span class="translit pinyin">sǐ ér hòu yǐ</span><span class="gloss">"only death ends it" — the officer's burden from the broad-and-resolute saying: carried until 已, the stop</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 8.7 — the road's end in Master Zeng's

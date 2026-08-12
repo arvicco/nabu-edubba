@@ -29,7 +29,7 @@ watching upward.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">臣▢君以▢。</span><span class="translit pinyin">chén shì jūn yǐ zhōng</span><span class="gloss">"a minister serves his lord with devotion" — the boxes are "serve" and "devotion"; the answer's other half sets the lord's duty first: to employ with ritual</span></div>
+    <div class="reading-line"><span class="script">臣事君以忠。</span><span class="translit pinyin">chén shì jūn yǐ zhōng</span><span class="gloss">"a minister serves his lord with devotion" — the answer's other half sets the lord's duty first: to employ with ritual</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 3.19.

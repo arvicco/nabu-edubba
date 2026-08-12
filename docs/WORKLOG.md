@@ -5,6 +5,32 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · incident · phase-24 · BOXES ON THE REFERENCE SHELF +
+MIS-ROUTED "TAUGHT IN". Owner, on 臣's codex page: why are there
+empty boxes in the Codex (臣▢君以▢) — and the same paste showed
+"Taught in: 01 · The order of strokes", an S101 chapter. Two
+drifts. (1) 90 of 137 sinograph codex pages had ▢ in their "In
+the wild" attestations: the chapter-reading law (untaught = ▢)
+wrongly imported into REFERENCE pages — including absurdities
+like 道 boxed on the grow page and 學 on the poem page,
+characters the courses teach. The mold everywhere else shows
+attestations whole (the one ▢ on the akk shelf is a genuine
+tablet lacuna in the Sippar loan). All 90 lines restored to the
+full text and EVERY one witness-verified against its cited
+kanripo edition via Nabu — the pass caught two real edition
+facts: Analects 1.6 writes 悌 (not 弟), and the Daxue witness
+(a commentary edition) writes 知止而后有定 with 后, not 後.
+Glosses purged of "the boxes are…" clauses. Ruled as the
+whole-attestation law (sinographs.md §8 + ledger row) with the
+codex-boxes lint: ▢ on a sinograph shelf page fails the gate.
+(2) sign.html still routed S102 chapters by the pre-rebatch
+"chapter > 9" heuristic, sending every S102 char in chapters 1–9
+to the same-numbered S101 chapter; now routed by the queue row's
+own course field. Lesson: a reference surface obeys reference
+law, not lesson law — and when a data scheme changes (ordinals
+re-based, registries split), grep every consumer of the OLD
+scheme, template heuristics included.
+
 2026-08-12 · incident · phase-24 · CODEX HOOKS THAT HOOKED
 NOTHING. Owner, on 民's "How to remember it" ("The stroke through
 the eye: the people, who were once looked past — and became the

@@ -29,7 +29,7 @@ Hands above, child below, the roof of the school between:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">學而不▢▢▢。</span><span class="translit pinyin">xué ér bù sī zé wǎng</span><span class="gloss">"learn without thinking, and nothing sticks" — cramming without digesting leaves you as lost as before; the other half turns the blade around: thinking without learning is dangerous. The boxes are "think", "then", "lost"</span></div>
+    <div class="reading-line"><span class="script">學而不思則罔。</span><span class="translit pinyin">xué ér bù sī zé wǎng</span><span class="gloss">"learn without thinking, and nothing sticks" — cramming without digesting leaves you as lost as before; the other half turns the blade around: thinking without learning is dangerous.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.15.

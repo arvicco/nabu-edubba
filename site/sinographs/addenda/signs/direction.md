@@ -31,7 +31,7 @@ it points — a **direction**, one of the four quarters.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢於四方。</span><span class="translit pinyin">shǐ yú sì fāng</span><span class="gloss">"sent to the four quarters" — the box is "sent as envoy"; what an officer must be fit for, says the Master: a mission anywhere under heaven</span></div>
+    <div class="reading-line"><span class="script">使於四方。</span><span class="translit pinyin">shǐ yú sì fāng</span><span class="gloss">"sent to the four quarters" — what an officer must be fit for, says the Master: a mission anywhere under heaven</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.20 — from the same answer the officer's

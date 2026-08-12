@@ -27,7 +27,7 @@ ethics of it — knowing where to stop is half of wisdom.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知止而▢有▢。</span><span class="translit pinyin">zhī zhǐ ér hòu yǒu dìng</span><span class="gloss">"know where to stop, and then there is steadiness" — the Great Learning's staircase begins on this foot</span></div>
+    <div class="reading-line"><span class="script">知止而后有定。</span><span class="translit pinyin">zhī zhǐ ér hòu yǒu dìng</span><span class="gloss">"know where to stop, and then there is steadiness" — the Great Learning's staircase begins on this foot</span></div>
   </div>
   <figcaption class="citation">
     <em>The Great Learning</em> (Daxue), in a Song commentary edition.

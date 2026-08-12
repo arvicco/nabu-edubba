@@ -33,7 +33,7 @@ them all: ten thousand.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">萬物▢▢。</span><span class="translit pinyin">wàn wù bìng zuò</span><span class="gloss">"the ten thousand things arise together" — the boxes are "together" and "arise"; the passage goes on: "and I watch them return" — the myriad in motion, seen from stillness</span></div>
+    <div class="reading-line"><span class="script">萬物並作。</span><span class="translit pinyin">wàn wù bìng zuò</span><span class="gloss">"the ten thousand things arise together" — the passage goes on: "and I watch them return" — the myriad in motion, seen from stillness</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 16.

@@ -30,7 +30,7 @@ splits cleanly, all the way down.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">八▢▢於▢，是可▢也，</span><span class="translit pinyin">bā yì wǔ yú tíng, shì kě rěn yě</span><span class="gloss">"eight rows of dancers in his courtyard — if this can be borne…" — the boxes are "dancer-rows", "dance", "courtyard", "bear"; eight ranks of eight were the Son of Heaven's prerogative, and a mere clan chief has helped himself</span></div>
+    <div class="reading-line"><span class="script">八佾舞於庭，是可忍也，</span><span class="translit pinyin">bā yì wǔ yú tíng, shì kě rěn yě</span><span class="gloss">"eight rows of dancers in his courtyard — if this can be borne…" — eight ranks of eight were the Son of Heaven's prerogative, and a mere clan chief has helped himself</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 3.1 — the saying finishes: "…what cannot

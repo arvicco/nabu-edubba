@@ -30,7 +30,7 @@ the bottom: flight over — **arrive**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">以至於▢人。</span><span class="translit pinyin">yǐ zhì yú shù rén</span><span class="gloss">"…reaching down to the common people" — 至 as the span's far landing</span></div>
+    <div class="reading-line"><span class="script">以至於庶人。</span><span class="translit pinyin">yǐ zhì yú shù rén</span><span class="gloss">"…reaching down to the common people" — 至 as the span's far landing</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

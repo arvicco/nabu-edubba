@@ -30,7 +30,7 @@ A staff in the hand, an order in the mouth: the **lord**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君子不▢。</span><span class="translit pinyin">jūn zǐ bù qì</span><span class="gloss">"the lord's son is not a vessel" — the box is "vessel": a tool made for one use; the noble person refuses to be a mere implement</span></div>
+    <div class="reading-line"><span class="script">君子不器。</span><span class="translit pinyin">jūn zǐ bù qì</span><span class="gloss">"the lord's son is not a vessel" — the noble person refuses to be a mere implement</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.12.

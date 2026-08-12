@@ -32,7 +32,7 @@ what was said, brushed down — a **book**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">書云：▢乎▢▢。</span><span class="translit pinyin">shū yún: xiào hū wéi xiào</span><span class="gloss">"the Documents say: filial! simply be filial" — the boxes are "filial", "only", "filial"; asked why he holds no office, the Master cites the Book: family virtue IS governing</span></div>
+    <div class="reading-line"><span class="script">書云：孝乎惟孝。</span><span class="translit pinyin">shū yún: xiào hū wéi xiào</span><span class="gloss">"the Documents say: filial! simply be filial" — asked why he holds no office, the Master cites the Book: family virtue IS governing</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.21.

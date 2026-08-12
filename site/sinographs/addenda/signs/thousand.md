@@ -31,7 +31,7 @@ tally — a **thousand**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">千▢之國。</span><span class="translit pinyin">qiān shèng zhī guó</span><span class="gloss">"a state of a thousand chariots" — the classical size-class of a serious power, measured in war-wagons the way navies were once measured in ships. The box is "chariot"</span></div>
+    <div class="reading-line"><span class="script">千乘之國。</span><span class="translit pinyin">qiān shèng zhī guó</span><span class="gloss">"a state of a thousand chariots" — the classical size-class of a serious power, measured in war-wagons the way navies were once measured in ships.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5.

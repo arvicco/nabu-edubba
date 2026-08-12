@@ -31,7 +31,7 @@ money.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">成是貝▢。</span><span class="translit pinyin">chéng shì bèi jǐn</span><span class="gloss">"they weave it into shell-brocade" — the Odes' image for slander: gossip worked over until it patterns like precious cloth. The box is "brocade"</span></div>
+    <div class="reading-line"><span class="script">成是貝錦。</span><span class="translit pinyin">chéng shì bèi jǐn</span><span class="gloss">"they weave it into shell-brocade" — the Odes' image for slander: gossip worked over until it patterns like precious cloth.</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "The Alley Lord" (巷伯), on slanderers.

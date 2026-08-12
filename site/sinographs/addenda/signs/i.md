@@ -28,7 +28,7 @@ has used it to say "me" for three thousand years.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">三人行，▢有我▢▢。</span><span class="translit pinyin">sān rén xíng, bì yǒu wǒ shī yān</span><span class="gloss">"when three walk together, MY teacher is surely there" — 我 claiming the teacher</span></div>
+    <div class="reading-line"><span class="script">三人行，必有我師焉。</span><span class="translit pinyin">sān rén xíng, bì yǒu wǒ shī yān</span><span class="gloss">"when three walk together, MY teacher is surely there" — 我 claiming the teacher</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.22.
