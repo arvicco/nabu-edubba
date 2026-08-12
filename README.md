@@ -39,15 +39,16 @@ sign) and [102 · Middle Egyptian](https://edubba.ac/hieroglyphs/102/)
 has its first stretch — sentence types, the suffix conjugation,
 the doctors' register, from Westcar to the medical papyri.
 The sinograph school has opened **classical-first**:
-[101 · How the characters work](https://edubba.ac/sinographs/101/)
-is twenty-five chapters deep — 137 characters covering two in five
-characters of the whole classical corpus, taught on real lines of
-the *Laozi*, the *Analects*, the *Great Learning*, the *Changes*,
-the *Songs*, and the *Annals*, with whole sayings read box-free in
-the original (the opening of the *Analects*, 上善若水, 為無為) —
-plus a Character Codex page for every taught character and a
-Pinyin primer, every syllable voiced with tone-verified,
-loudness-normalized audio.
+[101 · Foundations](https://edubba.ac/sinographs/101/) is
+**complete** — ten chapters and a reference on how the characters
+work: strokes, pictographs, compounds, borrowed sounds, and the
+55 most frequent characters of the classical corpus, taught on
+real lines of the *Laozi*, the *Analects*, and the *Great
+Learning*. [102 · Literary Chinese](https://edubba.ac/sinographs/102/)
+is opening: the grammar of the classical written language, taught
+element by element on the same real texts. A Character Codex page
+backs every taught character, and a Pinyin primer voices every
+syllable with tone-verified, loudness-normalized audio.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
 hover bubbles giving name, readings, and meaning. The site works

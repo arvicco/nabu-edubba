@@ -5,6 +5,33 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · M23-1..3 · phase-23 · THE COURSE BORDER, repaired.
+Owner, on discovering S101 at 25 chapters: the ladder ruling
+(2026-08-09) already assigned literacy to S102 — "Foundation is
+foundations… NOTHING more" — and the drift (stretches 2–5 adding
+literacy content into the foundations course, gate after gate,
+without the structural question ever being raised) was the
+process failure, mine. The honest border found by review: the
+last new script MECHANISM lands in ch04; ch09 is a built finale
+whose closing line announces the boundary itself ("the chapters
+ahead do exactly that — the sentence put to work"). Ruled into
+concept §7 as the course-border law (crossing a ladder mandate is
+a decision item, never a packet). Executed as Gate 23 of two
+(owner cadence): S101 closed COMPLETE at ch00–09 + a new
+Reference (55-character registry table, formation classes,
+conventions, onward pointer); S102 · Literary Chinese born as a
+course — ruled as a GRAMMAR course on Pulleyblank's spine, its
+fifteen inherited chapters parked published:false until the
+Gate-24 rework so no char-batch permalink ever freezes; ten
+redirect stubs cover the formerly-live ch10–19 URLs (the /hanzi/
+precedent); the queue split into per-course registries at the
+border (ruled break of the frozen contract, contract test updated
+same commit, border pinned by test); 82 codex pages re-pointed;
+the sign layout falls back to the course page while a teaching
+chapter is parked. Catch during the split: Ruby's sort_by is not
+stable — the compounds-before-parts test shuffled within-chapter
+order until the union was consumed in file order instead.
+
 2026-08-12 · INCIDENT: computed colgroups were silently dead ·
 phase-22 · The phase-22 surface review caught "LUGAL" and
 "prince" wrapping mid-word in a compressed cuneiform table. Root
