@@ -38,9 +38,7 @@ sign that made decipherment possible.
     <tr>
       <td class="script sign-cell">𒈾</td><td>NA</td><td>stone</td><td>[na]</td>
       <td>[na]</td>
-      <td>pictorial origin not transparent — a pure
-          phonetic workhorse, fourth most frequent value in the
-          literary corpus</td>
+      <td>origin opaque — a pure phonetic workhorse</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉌</td><td>NI</td><td>oil</td><td>[ni], i₃</td>

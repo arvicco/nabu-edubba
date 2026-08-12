@@ -33,30 +33,26 @@ inventory, and none of them would wait.
     <tr>
       <td class="script sign-cell">𓂜</td><td>D35</td><td>refusal</td><td><em>n</em></td>
       <td>the negation</td>
-      <td>two arms spread in refusal — the gesture is the grammar;
-          it opens nearly every "no" in the language</td>
+      <td>two arms spread in refusal — gesture as
+          grammar</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓄣</td><td>F34</td><td>heart</td><td><em>jb</em></td>
       <td>heart; mind</td>
-      <td>the heart drawn as the organ, vessels trimmed — where
-          Egyptians located thought, intent, and loyalty; the organ
-          weighed against the feather in the judgment</td>
+      <td>the heart — the seat of thought and
+          intent</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓊨</td><td>Q1</td><td>throne</td><td><em>st</em></td>
       <td>seat, throne; place</td>
-      <td>the block throne in profile — st, "seat, place"; and the
-          first half of the name this chapter has owed you since
-          the eye</td>
+      <td>the block throne — st, "seat"; half of the
+          owed name</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓏱</td><td>Z6</td><td>death's stand-in</td><td>—</td>
       <td>the substitute for death</td>
-      <td>a silent stand-in: where a proper death- or enemy-sign
-          ought to be drawn, scribes often refused — a dangerous
-          picture might act — and pressed this harmless stroke
-          instead. A superstition, kept in the inventory</td>
+      <td>a stand-in where a death-sign should be — a
+          dangerous picture might act</td>
     </tr>
   </tbody>
 </table>

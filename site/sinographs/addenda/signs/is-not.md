@@ -19,7 +19,7 @@ the stated account reads contrariety straight off the picture.
 Where 不 negates a verb ("does not"), 非 negates a whole claim:
 非 X, "it is not X, it is no X of yours" — and from "contrary
 to right" comes the sense *wrong*. Taught in
-<a href="{{ '/sinographs/101/13-liking-and-likening/' | relative_url }}">the liking-and-likening chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

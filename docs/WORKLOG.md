@@ -5,6 +5,98 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · M23-1..3 · phase-23 · THE COURSE BORDER, repaired.
+Owner, on discovering S101 at 25 chapters: the ladder ruling
+(2026-08-09) already assigned literacy to S102 — "Foundation is
+foundations… NOTHING more" — and the drift (stretches 2–5 adding
+literacy content into the foundations course, gate after gate,
+without the structural question ever being raised) was the
+process failure, mine. The honest border found by review: the
+last new script MECHANISM lands in ch04; ch09 is a built finale
+whose closing line announces the boundary itself ("the chapters
+ahead do exactly that — the sentence put to work"). Ruled into
+concept §7 as the course-border law (crossing a ladder mandate is
+a decision item, never a packet). Executed as Gate 23 of two
+(owner cadence): S101 closed COMPLETE at ch00–09 + a new
+Reference (55-character registry table, formation classes,
+conventions, onward pointer); S102 · Literary Chinese born as a
+course — ruled as a GRAMMAR course on Pulleyblank's spine, its
+fifteen inherited chapters parked published:false until the
+Gate-24 rework so no char-batch permalink ever freezes; ten
+redirect stubs cover the formerly-live ch10–19 URLs (the /hanzi/
+precedent); the queue split into per-course registries at the
+border (ruled break of the frozen contract, contract test updated
+same commit, border pinned by test); 82 codex pages re-pointed;
+the sign layout falls back to the course page while a teaching
+chapter is parked. Catch during the split: Ruby's sort_by is not
+stable — the compounds-before-parts test shuffled within-chapter
+order until the union was consumed in file order instead.
+
+2026-08-12 · INCIDENT: computed colgroups were silently dead ·
+phase-22 · The phase-22 surface review caught "LUGAL" and
+"prince" wrapping mid-word in a compressed cuneiform table. Root
+causes, three, peeled in order: (1) the width model counted
+ALL-CAPS sign names at lowercase advance — caps now cost
+HEADER_EM in cell_demand; (2) the fits-easily branch of allocate
+gave label columns no LABEL_HEADROOM (only the over-subscribed
+branch did) — headroom now applies in both; (3) the REAL one: the
+old 50%/18% last-column CSS fallbacks sat on the header row, and
+in fixed table layout Chrome lets first-row cell widths beat the
+injected <colgroup> — every computed grid since the table-balance
+law landed was being silently overridden wherever it disagreed
+with the fallback. Measured empirically with a headless-Chrome
+probe page (getBoundingClientRect before/after); the fallbacks
+are deleted, the colgroup IS the layout now, and the four tables
+the truer model then flagged were trimmed. Debugging detour worth
+recording: a shell left sitting in _build/site made the probe
+glob nothing (TOTAL=0 read as clean) while rake climbed to the
+repo Rakefile and reported honestly — verify a probe's cwd before
+trusting its silence. Also: a python -m http.server whose cwd
+directory Jekyll had recreated serves STALE files from the old
+inode — restart the server after every rebuild before
+screenshotting.
+
+2026-08-12 · M22-1..M22-7 · phase-22 · The table flip + S101
+stretch 5, both owner-picked into one phase. M22-1: all 71
+violating notes cells across cuneiform+hieroglyphs compressed to
+their computed budgets (the width-feedback loop — shorter notes
+narrow the column — needed a convergence round per course); the
+table-balance lint's staged activation removed, 15% law enforced
+school-wide; ledgers flipped in all three rulebooks. M22-2:
+stretch 5 ruled BEFORE content — 27 characters, ch20–24, cap 30%;
+all 19 arc-table witnesses verified against course editions at
+plan stage, catching FOUR wording variances (小邦寡民 not 小國寡民;
+Laozi 17's 而; Laozi 34's own ending; 恒與善人 not 常) plus the
+chapter-dial law rejecting a 3-char ch24 (grew 善長 — making
+上善若水 a zero-box finale). M22-3..7: five chapters (First and
+after, then · The work and its doing · Wanting and getting · The
+thousand-chariot state · Like water), 27 codex pages, 20 new
+syllable cuts tone-verified (zé via 原則 after Zh-zé.ogg read
+level; shǐ via 使用; slug collision dao/道 caught before it
+clobbered), Analects 1.5 whole as the second complete saying,
+2.4's sixty-year ladder closed, the Daxue bow using the run's own
+欲先國. 137 characters = two of five on a classical page.
+box_line caught over-cap lines at draft in four chapters (前後相隨
+dropped, Laozi 7 extended to dilute, 12.19 trimmed when 小 turned
+out untaught — queued for stretch 6). Every reading passed the
+novice three-question test before commit.
+
+2026-08-11 · Gate 21 closed + Nabu overlay-live integration ·
+phase-22 · PR #26 merged by owner (S101 stretch 4 + five review
+rounds); phase line updated. Same turn: Nabu's contract-implemented
+message (P72 closed, one day end to end) integrated. Their
+correction: our extraction contract claimed `gardiner` joins their
+card's `cat` — wrong; the true join key is `kEH_JSesh` (fallback
+`kEH_HG`); contract text amended in their inbox. The contract is
+now LAW on our side: hieroglyphs rulebook §3 records the frozen
+field lists (hiero-101/102.yml + codex front matter, additive-only,
+renames announced in Nabu's inbox BEFORE landing) + ledger row;
+DEV-LOOP §9 notes the reverse lane and adds `--min-chars` (our
+paper cut, shipped same-day) to the witness-hunting command. The
+zì audio fix they applied rode in earlier with the tone-agreement
+lint (f66442c). Next phase awaits owner pick: M21-8 and/or S101
+stretch 5.
+
 2026-08-11 · review round (novice-eye translation pass) ·
 phase-21 · Owner, on "take not-knowing as not-knowing": still a
 confused explanation — review EVERY reading as a student who

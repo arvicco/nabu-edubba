@@ -34,7 +34,8 @@ require "uri"
 require "fileutils"
 
 MANIFEST = "assets-src/data/pinyin-audio-sources.yml"
-QUEUE = "site/_data/sinographs101_queue.yml"
+QUEUES = ["site/_data/sinographs101_queue.yml",
+          "site/_data/sinographs102_queue.yml"].freeze
 OUT_DIR = "site/assets/audio/pinyin"
 CREDITS = File.join(OUT_DIR, "CREDITS-syllables.txt")
 CACHE = ENV.fetch("PINYIN_AUDIO_CACHE", File.expand_path("~/.cache/edubba-pinyin-audio"))
@@ -241,7 +242,7 @@ end
 
 if $PROGRAM_NAME == __FILE__
   manifest = YAML.safe_load_file(MANIFEST)
-  queue = YAML.safe_load_file(QUEUE)["signs"]
+  queue = QUEUES.flat_map { |q| YAML.safe_load_file(q)["signs"] }
   sources = manifest["sources"] || {}
   voices = manifest["voices"] || {}
   absent = (manifest["absent"] || []).map { |a| a["slug"] }

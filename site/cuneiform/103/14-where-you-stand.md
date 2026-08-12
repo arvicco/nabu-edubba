@@ -33,9 +33,9 @@ put in your hands.
     <tr>
       <td class="script sign-cell">𒋼</td><td>TE</td><td>approach</td><td>[te]</td>
       <td>to approach in the lists</td>
-      <td>the sign the box was holding a seat for: it completes
+      <td>the box's seat: it completes
           <span class="norm">ūtebbibaššuma</span>, "has cleared
-          him" — the River's good news, at last in full</td>
+          him"</td>
     </tr>
   </tbody>
 </table>

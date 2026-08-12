@@ -179,25 +179,29 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 21 — complete, gate PR pending: S101 stretch 4, the world
-of the text (ch15–19, 29 chars, cap 35%) — numbers complete, 萬物
-named, the written tradition, lords and the people, out and in,
-and 學 itself; finale: Analects 1.1 WHOLE (12.11 at zero as the
-bonus arc). 110 characters = 33.3% — one in three. First stretch
-under the full codex: arc table planned and delivered, witnesses
-verified before writing (three plan errors caught at plan stage),
-box_line on every line (caught 來 missing — taught in ch18). Plus
-the table-balance law (owner ruling): computed per-table grids,
-15% hard rule enforced for sinographs, older schools queued
-(M21-8).
+Phase 23 — complete, gate PR pending: THE COURSE BORDER (owner
+ruling, concept §7): foundations teach the script's mechanisms,
+nothing more; crossing a ladder mandate is a decision item, never
+a packet. S101 closed COMPLETE at ch00–09 + a new Reference (55
+characters, the honest border verified by review); S102 · Literary
+Chinese born and ruled as a GRAMMAR course (Pulleyblank spine);
+the fifteen inherited chapters parked unpublished until the
+Gate-24 rework so no char-batch permalink freezes; ten redirect
+stubs; per-course queue registries pinned by contract test. Gate
+24 next: the grammar rework (M24-1). This PR also carries all of
+phase 22 (table-balance law school-wide + dead-colgroup fix;
+stretch 5's readings, codex pages, and audio — parked with their
+chapters). PR #27 superseded, never merged.
+
+Gate 21 merged 2026-08-11 (S101 stretch 4, the world of the text:
+ch15–19, 29 chars; 110 characters = 33.3% — one in three; finale
+Analects 1.1 WHOLE. Plus five review rounds: table-balance law
+with computed grids + 15% rule, sidebar scroll fix + school
+folding, course-TOC lint, and the MEANING LAW + novice test —
+every reading taught in plain modern speech; PR #26). Update this
+line at each gate.
 
 Gate 20 merged 2026-08-11 (the process codex: interactive-surface
 review law, pre-flight checklist, structured-edits rule, law
 ledgers + gap audit ×3 rulebooks, return-arc planning law;
 PR #25). Update this line at each gate.
-
-Gate 18 merged 2026-08-11 (S101 stretch 3, the sentence at work:
-ch10–14, 26 chars, cap 40%; 81 characters = 27.7% of the
-classical corpus, every syllable voiced; production borders
-swept from prose + lint; right-rim bubble reserve school-wide;
-phases 19–20 queued; PR #23). Update this line at each gate.

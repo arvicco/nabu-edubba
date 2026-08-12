@@ -33,17 +33,15 @@ that chapter. Three new signs, and the chain finally gets named.
     <tr>
       <td class="script sign-cell">𒁀</td><td>BA</td><td>allot</td><td>[ba]</td>
       <td>to allot, to share out; the verbal prefix <em>ba-</em></td>
-      <td>on receipts it is a whole verb, "allotted"; inside
-          a chain it is a prefix that colors the action toward "away,
-          for itself" — the difference is position, not the sign. You
-          met these wedges once before their time, in the school's own
-          name in <a href="{{ '/cuneiform/101/09-the-tablet-house/' | relative_url }}">101's tablet house</a></td>
+      <td>a whole verb, "allotted," on receipts; in a
+          chain, a prefix coloring the action "away, for itself" —
+          position decides</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅔</td><td>IN</td><td>in-</td><td>[in]</td>
       <td>[in]; the verbal prefix <em>in-</em></td>
-      <td>the plain "he/she/it did" opener of thousands of
-          administrative and literary lines alike</td>
+      <td>the plain "he/she/it did" opener of thousands
+          of lines</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒉡</td><td>NU</td><td>not</td><td>[nu]</td>

@@ -112,6 +112,29 @@ sources:
   nian:      {file: "Zh-nián.ogg", pinyin: "nián"}   # 年
   fu:        {file: "Zh-fù.ogg", pinyin: "fù"}       # 父
   an:        {file: "Zh-ān.oga", pinyin: "ān"}       # 安
+  dao-knife: {file: "Zh-dāo.ogg", pinyin: "dāo"}     # 刀 (dao = 道)
+  fen:       {file: "Zh-fēn.ogg", pinyin: "fēn"}     # 分
+  ze:        {file: "Zh-yuánzé.ogg", pinyin: "zé", syllable: 2, of: 2}  # 則, via 原則 yuánzé (Zh-zé.ogg reads level, refused)
+  xian:      {file: "Zh-xiān.ogg", pinyin: "xiān"}   # 先
+  hou:       {file: "Zh-hòu.ogg", pinyin: "hòu"}     # 後
+  zuo:       {file: "Zh-zuò.ogg", pinyin: "zuò"}     # 作
+  cheng:     {file: "Zh-chéng.ogg", pinyin: "chéng"} # 成
+  neng:      {file: "Zh-néng.ogg", pinyin: "néng"}   # 能
+  shi-send:  {file: "Zh-shǐyòng.ogg", pinyin: "shǐ", syllable: 1, of: 2}  # 使, via 使用 shǐyòng
+  de:        {file: "Zh-dé.ogg", pinyin: "dé"}       # 得
+  yu-with:   {file: "Zh-yǔ.ogg", pinyin: "yǔ"}       # 與
+  yu-want:   {file: "Zh-yù.ogg", pinyin: "yù"}       # 欲
+  jie:       {file: "Zh-jiē.ogg", pinyin: "jiē"}     # 皆
+  ran:       {file: "Zh-rán.ogg", pinyin: "rán"}     # 然
+  guo:       {file: "Zh-guó.ogg", pinyin: "guó"}     # 國
+  qian:      {file: "Zh-qiān.ogg", pinyin: "qiān"}   # 千
+  di:        {file: "Zh-dì.ogg", pinyin: "dì"}       # 地
+  feng:      {file: "Zh-fēng.ogg", pinyin: "fēng"}   # 風
+  ruo:       {file: "Zh-ruò.ogg", pinyin: "ruò"}     # 若
+  tong:      {file: "Zh-tóng.ogg", pinyin: "tóng"}   # 同
+  cong:      {file: "Zh-cóng.ogg", pinyin: "cóng"}   # 從
+  shan-good: {file: "Zh-shàn.ogg", pinyin: "shàn"}   # 善 (shan = 山)
+  chang:     {file: "Zh-cháng.ogg", pinyin: "cháng"} # 長
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.
@@ -203,6 +226,33 @@ voices:
   father: fu
   already: yi-by
   peace: an
+  cowrie: bei
+  knife: dao-knife
+  divide: fen
+  rule: ze
+  first: xian
+  after: hou
+  work: shi-this
+  make: zuo
+  become: cheng
+  able: neng
+  send: shi-send
+  get: de
+  give-with: yu-with
+  want: yu-want
+  all: jie
+  say-of: wei
+  so: ran
+  state: guo
+  thousand: qian
+  generation: shi-this
+  ground: di
+  wind: feng
+  as-if: ruo
+  same: tong
+  follow: cong
+  good: shan-good
+  long: chang
   know: zhi
   middle: zhong
   moon: yue

@@ -35,18 +35,14 @@ survives from Egypt. Three signs first, all three from the court.
     <tr>
       <td class="script sign-cell">𓍛</td><td>U36</td><td>majesty</td><td><em>ḥm</em></td>
       <td>Majesty; servant</td>
-      <td>a fuller's club, the laundry-beater — by sound it writes
-          both ḥm "Majesty" and ḥm "servant," king and washerman
-          sharing one sign; ḥm-nṯr, "god's servant," is the word
-          for priest</td>
+      <td>the laundry-beater — ḥm, both "Majesty" and
+          "servant"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓅆</td><td>G7</td><td>watcher</td><td>—</td>
       <td>the falcon on the standard</td>
-      <td>a silent classifier: Horus perched over the word, marking
-          gods, kings, and everything that belongs to them — the
-          third most frequent sign this course has left to teach,
-          and it never makes a sound</td>
+      <td>silent: Horus perched over a word marks gods,
+          kings, and what is theirs</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓎢</td><td>V31A</td><td>mirror basket</td><td><em>k</em></td>

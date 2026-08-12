@@ -34,21 +34,20 @@ tomb walls use them to say the oldest sentence families know:
     <tr>
       <td class="script sign-cell">𓄟</td><td>F31</td><td>skins</td><td><em>ms</em></td>
       <td>three fox skins tied together</td>
-      <td><em>m</em>+<em>s</em>: the verb "to be born," the "-mose"
-          hiding in Thutmose and (probably) Moses</td>
+      <td><em>m</em>+<em>s</em>: "to be born" — the
+          "-mose" in Thutmose and (probably) Moses</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓅭</td><td>G39</td><td>duck</td><td><em>zꜣ</em></td>
       <td>a pintail duck</td>
-      <td><em>z</em>+<em>ꜣ</em>: "son" — the duck fills tomb walls
-          and royal titles alike; "son of Ra" sits before every
-          king's birth name</td>
+      <td><em>z</em>+<em>ꜣ</em>: "son of Ra" sits before
+          every birth name</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓏌</td><td>W24</td><td>pot</td><td><em>nw</em></td>
       <td>a round-bellied pot</td>
-      <td><em>n</em>+<em>w</em>: a quiet workhorse inside titles and
-          names — you will read it inside a queen's name below</td>
+      <td><em>n</em>+<em>w</em>: a quiet workhorse inside
+          titles and names</td>
     </tr>
   </tbody>
 </table>

@@ -56,31 +56,28 @@ this site's own reference font.
     <tr>
       <td class="script sign-cell">𒀀</td><td>A</td><td>water</td><td>[a]</td>
       <td>water</td>
-      <td>two streams of flowing water — the most frequent
-          value in Sumerian literature</td>
+      <td>two streams of water</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆳</td><td>KUR</td><td>mountain</td><td>[kur]</td>
       <td>mountain; foreign land</td>
-      <td>three peaks — to the flat river plain, mountains
-          and abroad were the same direction</td>
+      <td>three peaks — mountain and abroad, one
+          direction from the plain</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀭</td><td>AN</td><td>heaven</td><td>[an], diŋir, {d}</td>
       <td>heaven; god</td>
-      <td>an eight-pointed star — <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> champion of
-          polyvalency</td>
+      <td>an eight-pointed star, <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> champion</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌓</td><td>UD</td><td>day</td><td>[ud], utu</td>
       <td>day; sun</td>
-      <td>commonly explained as the sun rising</td>
+      <td>often seen as sunrise</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒊺</td><td>ŠE</td><td>barley</td><td>[še]</td>
       <td>barley, grain</td>
-      <td>an ear of barley on its stalk — the staple
-          crop, hence everywhere in accounts</td>
+      <td>an ear of barley on its stalk — the staple crop</td>
     </tr>
   </tbody>
 </table>
@@ -103,15 +100,13 @@ appearances in <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}
     <tr>
       <td class="script sign-cell">𒆠</td><td>KI</td><td>place</td><td>[ki], {ki}</td>
       <td>earth; place</td>
-      <td>the place-determinative of <a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03</a>. Its
-          pictorial origin is genuinely debated — learn the shape,
-          not a story: a diamond with barred heart</td>
+      <td><a href="{{ '/cuneiform/101/03-how-signs-mean/' | relative_url }}">chapter 03's</a> place-determinative;
+          origin debated</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒂍</td><td>É</td><td>house</td><td>[e]</td>
       <td>house, temple</td>
-      <td>the most complex sign of this chapter — earned
-          by being the É of é-dub-ba-a, this school's own name</td>
+      <td>the É of é-dub-ba-a, this school's own name</td>
     </tr>
   </tbody>
 </table>

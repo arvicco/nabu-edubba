@@ -7,11 +7,12 @@ description: >-
   the Way.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 12
 permalink: /sinographs/101/12-the-eye-and-the-way/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["目", "見", "相", "首", "道"]
 ---
 

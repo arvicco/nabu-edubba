@@ -30,25 +30,20 @@ words — why any of these laws exist at all.
     <tr>
       <td class="script sign-cell">𒇴</td><td>LAM</td><td>flourish</td><td>[lam]</td>
       <td>luxuriance, flourishing</td>
-      <td>the sign the box was holding a seat for: it closes
-          <span class="norm">awīlam</span>, and law 1 is yours
-          entire</td>
+      <td>the sign the box held a seat for — it closes
+          <span class="norm">awīlam</span>; law 1 is yours</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆗</td><td>KAL</td><td>mighty</td><td>[dan]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12197' | relative_url }}">102's mighty-sign</a> carries
-          exactly the right word across the border:
-          <span class="norm">dannum</span>, "the strong," opens
-          on it — the sign's Sumerian sense and its Akkadian
-          sound agreeing for once</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12197' | relative_url }}">102's mighty-sign</a>:
+          <span class="norm">dannum</span>, "strong"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌅</td><td>TU</td><td>born</td><td>[ṭu]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12305' | relative_url }}">102's birth-sign</a> gains the
-          emphatic ṭ: <span class="norm">ṭubbim</span>, "to make
-          well," ends the stele's mission statement on it</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/15-i-am-the-king/#sign-12305' | relative_url }}">102's birth-sign</a>, now
+          ṭ: <span class="norm">ṭubbim</span></td>
     </tr>
   </tbody>
 </table>

@@ -6,11 +6,12 @@ description: >-
   white, and the leap to a hundred.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 11
 permalink: /sinographs/101/11-counting-continues/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["四", "五", "六", "白", "百"]
 ---
 

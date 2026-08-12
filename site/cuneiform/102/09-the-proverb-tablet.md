@@ -32,24 +32,20 @@ shared at the end of a school day. First, the batch.
     <tr>
       <td class="script sign-cell">𒊮</td><td>ŠA₃</td><td>heart</td><td>[ša]</td>
       <td>heart; midst, interior</td>
-      <td>where feelings, thoughts, and the middle of anything live;
-          with 𒀀 in front it is <em>a-ša₃</em>, "field" — the plot at
-          the heart of the water</td>
+      <td>the seat of feelings; <em>a-ša₃</em> is
+          "field"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒃻</td><td>GAR</td><td>thing</td><td>[niŋ]</td>
       <td>thing, property</td>
-      <td>the thing-maker: what <em>nam-</em> (<a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">ch. 03</a>) does for
-          abstractions, <em>niŋ₂-</em> does for concrete stuff; the
-          sign also reads <em>gar</em>, "to place" — one shape, two
-          jobs, as usual</td>
+      <td>the thing-maker: <em>niŋ₂-</em> does for stuff
+          what <em>nam-</em> does for abstractions</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄩</td><td>HA</td><td>fish</td><td>[ha]</td>
       <td>fish; the wish-prefix ha-</td>
-      <td>a fish that kept its fins through the wedge era — and, by
-          pure sound, the syllable that fronts a verb to say
-          "may it be so"</td>
+      <td>a fish that kept its fins; by sound, the
+          "may it be so" prefix</td>
     </tr>
   </tbody>
 </table>

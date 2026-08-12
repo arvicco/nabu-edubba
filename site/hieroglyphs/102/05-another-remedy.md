@@ -34,29 +34,25 @@ of them makes a sound. That silence is the lesson.
     <tr>
       <td class="script sign-cell">𓀜</td><td>A24</td><td>effort</td><td>—</td>
       <td>man striking with both hands</td>
-      <td>the classifier of force and effort — it closes verbs of
-          hitting, driving, teaching-by-the-stick</td>
+      <td>closes verbs of hitting, driving,
+          teaching-by-the-stick</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓂡</td><td>D40</td><td>force</td><td>—</td>
       <td>arm gripping a stick</td>
-      <td>the working arm — classifier of strength and forceful
-          action; A24's close cousin, one limb instead of a whole
-          man</td>
+      <td>the working arm — A24's one-limbed
+          cousin</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓈒</td><td>N33</td><td>sand</td><td>—</td>
       <td>grain, pellet</td>
-      <td>the classifier of sands, minerals, powders, pills —
-          anything that comes in small dry pieces; the pharmacy's
-          own sign</td>
+      <td>sands, powders, pills — pharmacy's sign</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓐎</td><td>AA2</td><td>sickness</td><td>—</td>
       <td>pustule (?)</td>
-      <td>the classifier of sickness and bodily trouble; what the
-          picture shows is genuinely debated — the sign lists keep
-          a question mark, and so does this course</td>
+      <td>sickness; what the picture shows is
+          debated</td>
     </tr>
   </tbody>
 </table>

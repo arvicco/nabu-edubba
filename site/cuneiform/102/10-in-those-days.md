@@ -35,20 +35,18 @@ the vocabulary the shift runs on.
     <tr>
       <td class="script sign-cell">𒍣</td><td>ZI</td><td>breath</td><td>[zi]</td>
       <td>breath, life; true, righteous</td>
-      <td>the adjective behind every "true shepherd" and "true house"
-          in the hymns; literary texts often spell the fuller shape
-          <em>zid</em>, the form you will meet in every reading below</td>
+      <td>the adjective of every "true shepherd" in the
+          hymns; the fuller spelling <em>zid</em> appears below</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀉</td><td>A₂</td><td>hand to mouth</td><td>[a]</td>
       <td>arm; strength; side</td>
-      <td>pairs with this batch's other new sign in <em>a₂ zid-da</em>,
-          "the right side" — literally "the true/right arm"</td>
+      <td>pairs with the batch's other new sign in
+          <em>a₂ zid-da</em>, "the right side"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒊑</td><td>RI</td><td>distant</td><td>[ri]</td>
-      <td>[ri] (also re); distant; as a verb, to pour
-          out, set upon</td>
+      <td>[ri]; distant; to pour out</td>
       <td>the sign behind Sumerian epic's favorite way to begin:
           <em>ud ri-a</em> / <em>ud re-a</em>, "in those distant
           days"</td>

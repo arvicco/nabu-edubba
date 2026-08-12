@@ -33,8 +33,7 @@ them will have earned its seat before the row is done.
     <tr>
       <td class="script sign-cell">𒋛</td><td>SI</td><td>horn</td><td>[si]</td>
       <td>horn; to fill</td>
-      <td>a horn in profile — and, doubled, the verb of granaries
-          and floods filling up</td>
+      <td>a horn; doubled, the filling-up verb</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄄</td><td>GI₄</td><td>return</td><td>[gi]</td>
@@ -45,8 +44,8 @@ them will have earned its seat before the row is done.
     <tr>
       <td class="script sign-cell">𒁲</td><td>DI</td><td>verdict</td><td>[di]</td>
       <td>lawsuit, judgment; also a going</td>
-      <td>court records say <em>di</em> for a case; the proverbs use
-          its going-sense for anyone who wanders</td>
+      <td>court records say <em>di</em> for a case;
+          proverbs use its going-sense</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒆪</td><td>KU</td><td>seize</td><td>[dab]</td>

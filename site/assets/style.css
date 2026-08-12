@@ -485,20 +485,15 @@ img, svg { max-width: 100%; }
 .sign-cell a:hover { text-decoration: underline dotted; text-underline-offset: 0.2em; }
 
 /* The declared column grid (table-balance law, owner ruling
-   2026-08-11: a HARD rule — no single column may add 15%+ to the
-   table's height over what the table would measure without it;
-   the under-allotted column gets widened until it doesn't). The
-   long-prose tail column gets the width the label columns waste;
-   Means keeps a working floor; every remaining column splits the
-   rest equally under the fixed layout. These percentages are the
-   SAME constants the table-balance lint computes heights with
-   (script/lint.rb) — the style guard pins the two together, so
-   the sheet cannot drift from the check. Tables whose last
-   column is short (references, shelf indexes) opt out with
-   sign-table--tail-fit and keep auto layout. */
-.sign-table th:last-child, .sign-table td:last-child { width: 50%; }
-.sign-table:not(.sign-table--tail-fit) th:nth-last-child(2),
-.sign-table:not(.sign-table--tail-fit) td:nth-last-child(2) { width: 18%; }
+   2026-08-11: a HARD rule): every fixed-layout sign table carries
+   its computed per-table <colgroup> (script/table_wrap.rb from
+   script/table_balance.rb) — the colgroup IS the layout. Cell
+   width rules on the header row would OVERRIDE the colgroup in
+   fixed layout (measured in Chrome, phase-22 surface review: the
+   old 50%/18% fallbacks silently beat the computed grid and
+   crushed the label columns), so fixed tables carry none. Tables
+   whose last column is short (references, shelf indexes) opt out
+   with sign-table--tail-fit and keep auto layout (rules below). */
 /* Narrow screens: a wide table scrolls inside its render-time
    wrapper (div.table-scroll, added by script/table_wrap.rb),
    never bleeding past the page edge. The wrapper — not the

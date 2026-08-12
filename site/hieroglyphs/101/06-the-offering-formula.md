@@ -33,8 +33,8 @@ and it will buy you your first complete Egyptian sentence.
     <tr>
       <td class="script sign-cell">𓊵</td><td>R4</td><td>offering</td><td><em>ḥtp</em></td>
       <td>a loaf of bread on a reed mat</td>
-      <td>"offering; peace, contentment" — the formula's first word,
-      and a picture of exactly what it means: food set out on a mat</td>
+      <td>"offering; peace" — the formula's first word:
+      food set out on a mat</td>
     </tr>
     <tr>
       <td class="script sign-cell">𓏙</td><td>X8</td><td>given loaf</td><td><em>ḏi̯</em></td>
@@ -44,7 +44,7 @@ and it will buy you your first complete Egyptian sentence.
     <tr>
       <td class="script sign-cell">𓂓</td><td>D28</td><td>ka</td><td><em>kꜣ</em></td>
       <td>two arms raised</td>
-      <td>the <em>ka</em> — the life-force that receives the offering</td>
+      <td>the <em>ka</em>, the life-force being fed</td>
     </tr>
   </tbody>
 </table>

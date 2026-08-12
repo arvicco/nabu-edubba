@@ -34,24 +34,19 @@ them in runs.
     <tr>
       <td class="script sign-cell">𒇷</td><td>LI</td><td>juniper</td><td>[li/le]</td>
       <td>a juniper in the sign lists</td>
-      <td>tenth most frequent syllable in the Old Babylonian
-          corpus — it will be everywhere, including inside the
-          word for "over him" below; its e-colored twin le
-          reports when it is met (the able king of
-          <a href="{{ '/cuneiform/103/08-more-than-one/' | relative_url }}">chapter 08</a>)</td>
+      <td>everywhere — even inside "over him" below; its
+          twin <em>le</em> reports when met</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅖</td><td>IŠ</td><td>dust</td><td>[iš]</td>
       <td>dust, soil</td>
-      <td>your first vowel-first sign of the course: Akkadian
-          needs syllables that END in a consonant, and Sumerian's
-          inventory had them ready</td>
+      <td>your first vowel-first sign</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒅕</td><td>IR</td><td>scent</td><td>[ir/er]</td>
       <td>scent, perfume in the lists</td>
-      <td>one sign, two neighboring vowels — Akkadian spelling
-          tolerates that blur, and context settles it</td>
+      <td>one sign, two neighboring vowels — context
+          settles the blur</td>
     </tr>
   </tbody>
 </table>

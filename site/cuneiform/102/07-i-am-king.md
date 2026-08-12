@@ -35,25 +35,19 @@ for once he can say it.
     <tr>
       <td class="script sign-cell">𒆬</td><td>KU₃</td><td>pure</td><td>[ku]</td>
       <td>pure, holy; precious metal (silver)</td>
-      <td>silver is "pure metal" in Sumerian long before it
-          is anything else — and royal praise leans on this word
-          constantly. Its fuller spoken shape is <em>kug</em>, the
-          final consonant surfacing before vowels the same way
-          <a href="{{ '/cuneiform/102/02-the-case-that-hides/' | relative_url }}">chapter 02's</a> hidden genitive does</td>
+      <td>silver is "pure metal"; the fuller <em>kug</em>
+          surfaces before vowels</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒈤</td><td>MAH</td><td>exalted</td><td>[mah]</td>
       <td>great, exalted</td>
-      <td>the majesty word — combine it with <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter 03's</a>
-          abstraction-maker and you get <em>nam-mah</em>,
-          "greatness, majesty," one of the commonest words in royal
-          titulary</td>
+      <td>the majesty word — <em>nam-mah</em>,
+          "majesty"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌧</td><td>KALAM</td><td>the Land</td><td>[kalam]</td>
       <td>the Land — Sumer, as its own texts name itself</td>
-      <td>not "a land" among others but <em>the</em> Land,
-          the way a Sumerian text names its own country — kings are
+      <td>not "a land" but <em>the</em> Land — kings are
           <em>lugal kalam-ma</em>, "king of the Land"</td>
     </tr>
   </tbody>

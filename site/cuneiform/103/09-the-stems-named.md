@@ -39,16 +39,14 @@ introduced — and each way of building has a name.
     <tr>
       <td class="script sign-cell">𒅋</td><td>IL</td><td>step</td><td>[il]</td>
       <td>—</td>
-      <td>a pure syllable with one great job today: it opens
-          <em>i-il-la-ak</em>, "he goes" — the plainest verb on
-          the stele, walking</td>
+      <td>one great job: it opens <em>i-il-la-ak</em>,
+          "he goes"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀠</td><td>AL</td><td>hoe</td><td>[al]</td>
       <td>the hoe</td>
-      <td>the farmer's tool, hymned by the scribes and pressed
-          into service as a syllable — it closes both of this
-          chapter's walking verbs</td>
+      <td>the farmer's tool, pressed into syllable
+          service</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒋰</td><td>TAB</td><td>pair</td><td>[tab/tap]</td>

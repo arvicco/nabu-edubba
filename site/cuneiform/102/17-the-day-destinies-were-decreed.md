@@ -33,16 +33,14 @@ away from reading whole.
     <tr>
       <td class="script sign-cell">𒋻</td><td>TAR</td><td>cut</td><td>[tar]</td>
       <td>to cut; to decree</td>
-      <td>fate, in Sumerian, is a thing <em>cut</em> — <em>nam
-          tar</em>, "to cut a destiny," is how gods decide;
-          <a href="{{ '/cuneiform/102/03-say-it-twice/' | relative_url }}">chapter
-          03's</a> nam- comes full circle</td>
+      <td>fate is a thing <em>cut</em> — <em>nam tar</em>,
+          "to cut a destiny," is how gods decide</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒄘</td><td>GU₂</td><td>neck</td><td>[gu]</td>
       <td>neck; riverbank</td>
-      <td>what a flood rises over — and, in the line below, what an
-          inspired heart overflows</td>
+      <td>what a flood rises over — and an inspired
+          heart</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒇲</td><td>LAL</td><td>weigh</td><td>[la]</td>

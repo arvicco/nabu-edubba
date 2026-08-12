@@ -1246,3 +1246,333 @@ signs:
       rank 105; a woman 女 seated under a roof 宀 — the house at
       rest. The classics also borrow it as a question word
       ("wherein?"), but its heart is the settled home.
+  - char: 貝
+    chapter: 20
+    keyword: cowrie
+    pinyin: bèi
+    meaning: "cowrie shell; wealth, value"
+    category: pictograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 1981 — a curated pin (§5): cheap to learn, and it buys
+      則 in the same chapter. A cowrie shell face-on, feelers
+      trailing; cowries were early money, so the shell marks
+      value words across the script.
+  - char: 刀
+    chapter: 20
+    keyword: knife
+    pinyin: dāo
+    meaning: "knife, blade"
+    category: pictograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 1397 — the second curated pin: a blade with its curved
+      handle, two strokes. On the right side of a compound it
+      slims to 刂 — the same knife, drawn thin.
+  - char: 分
+    chapter: 20
+    keyword: divide
+    pinyin: fēn
+    meaning: "to divide; a part, a share"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["八", "刀"]
+    note: >-
+      rank 120; ch15's 八 "eight" began as "to split apart," and
+      here the knife 刀 does the splitting under it — dividing,
+      drawn as its instrument.
+  - char: 則
+    chapter: 20
+    keyword: rule
+    pinyin: zé
+    meaning: "rule, pattern; then, in that case"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["貝", "刀"]
+    note: >-
+      rank 23; the knife (slim 刂) beside the cowrie 貝. The
+      bronzes cut their rules into a ritual cauldron 鼎, and the
+      cauldron wore down to a cowrie in the received graph — the
+      engraved standard; hence "rule," hence "then" (as the rule
+      dictates).
+  - char: 先
+    chapter: 20
+    keyword: first
+    pinyin: xiān
+    meaning: "first, ahead, before"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 107; a foot over a walking man's legs — one step out
+      in front. The foot on top is ch08's 止 worn slant.
+  - char: 後
+    chapter: 20
+    keyword: after
+    pinyin: hòu
+    meaning: "after, behind; later"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 54; a road-step 彳, a small thread 幺, and a dragging
+      foot 夊 — tied and trailing on the road: falling behind,
+      coming after.
+  - char: 事
+    chapter: 21
+    keyword: work
+    pinyin: shì
+    meaning: "affair, work; to serve"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 34; a hand gripping a tally-staff — the officer's job
+      in his fist. Kin to the scribe-signs; the affair, the task,
+      and (as a verb) serving someone with it.
+  - char: 作
+    chapter: 21
+    keyword: make
+    pinyin: zuò
+    meaning: "to make, arise, invent"
+    category: phono-semantic
+    certainty: classic
+    parts: ["人"]
+    note: >-
+      rank 81; the person 亻 doing, with 乍 lending the sound —
+      to make, to arise, to originate something new.
+  - char: 成
+    chapter: 21
+    keyword: become
+    pinyin: chéng
+    meaning: "to complete, become"
+    category: phono-semantic
+    certainty: classic
+    parts: ["丁"]
+    note: >-
+      rank 93; a blade-sign with ch10's 丁 as its sound-mark —
+      the work brought to completion; to become, to succeed.
+  - char: 能
+    chapter: 21
+    keyword: able
+    pinyin: néng
+    meaning: "can, to be able"
+    category: loan
+    certainty: classic
+    parts: []
+    note: >-
+      rank 85; the old lists draw a bear — head, meat, and two
+      clawed legs — borrowed so early for "ability" that the
+      animal had to grow a new character of its own.
+  - char: 使
+    chapter: 21
+    keyword: send
+    pinyin: shǐ
+    meaning: "to send, employ, cause"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["人"]
+    note: >-
+      rank 78; a person 亻 beside the officer with his tally —
+      to commission: send someone, put someone to work, cause a
+      thing to happen.
+  - char: 得
+    chapter: 22
+    keyword: get
+    pinyin: dé
+    meaning: "to get, obtain; succeed"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 45; a hand closing on a cowrie found on the road —
+      gain in one picture. The modern right half wears the shell
+      down past recognizing; the road-step 彳 survives on the
+      left.
+  - char: 與
+    chapter: 22
+    keyword: give-with
+    pinyin: yǔ
+    meaning: "to give; together with, and"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 47; four hands passing one object between them —
+      giving, sharing in, and so the little word "with, and"
+      between nouns.
+  - char: 欲
+    chapter: 22
+    keyword: want
+    pinyin: yù
+    meaning: "to want, desire"
+    category: phono-semantic
+    certainty: classic
+    parts: []
+    note: >-
+      rank 158; an open-mouthed yawning figure 欠 wanting, with
+      the valley 谷 lending its sound — desire drawn as the open
+      mouth.
+  - char: 皆
+    chapter: 22
+    keyword: all
+    pinyin: jiē
+    meaning: "all, everyone alike"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["白"]
+    note: >-
+      rank 66; two people side by side 比 over a saying-mark
+      (the received graph writes it 白) — everyone speaking
+      alike: all.
+  - char: 謂
+    chapter: 22
+    keyword: say-of
+    pinyin: wèi
+    meaning: "to say of, call, mean"
+    category: phono-semantic
+    certainty: classic
+    parts: ["言"]
+    note: >-
+      rank 59; speech 言 with a sound-carrier — to say OF
+      something: X 謂 Y, "X calls it Y." The classics' verb for
+      naming and defining.
+  - char: 然
+    chapter: 22
+    keyword: so
+    pinyin: rán
+    meaning: "so, thus; like that"
+    category: loan
+    certainty: classic
+    parts: []
+    note: >-
+      rank 64; meat over a dog over fire-dots — originally "to
+      roast/burn" (which later grew its own fire-sided
+      character), borrowed for "so, thus." 自然, "so of
+      itself," is how the Laozi says "naturally."
+  - char: 國
+    chapter: 23
+    keyword: state
+    pinyin: guó
+    meaning: "state, country"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 70; a wall 囗 drawn around an armed inner sign — a
+      spear guarding a bounded place. The defended enclosure IS
+      the state.
+  - char: 千
+    chapter: 23
+    keyword: thousand
+    pinyin: qiān
+    meaning: "thousand"
+    category: indicative
+    certainty: classic
+    parts: []
+    note: >-
+      rank 153; a slanting human figure with one stroke through
+      it — a sound-loan on "person" marked into a count. The rung
+      the course's number ladder was missing between 百 and 萬.
+  - char: 世
+    chapter: 23
+    keyword: generation
+    pinyin: shì
+    meaning: "generation; the age, the world"
+    category: indicative
+    certainty: classic
+    parts: []
+    note: >-
+      rank 125; three tens tied into one sign — thirty years, the
+      span parents hand to children: a generation, and from there
+      the age one lives in.
+  - char: 地
+    chapter: 23
+    keyword: ground
+    pinyin: dì
+    meaning: "earth, ground"
+    category: phono-semantic
+    certainty: classic
+    parts: ["土", "也"]
+    note: >-
+      rank 89; the soil 土 with 也 lending its old sound — the
+      earth underfoot, 天's partner in the pair 天地, "heaven and
+      earth = the world."
+  - char: 風
+    chapter: 23
+    keyword: wind
+    pinyin: fēng
+    meaning: "wind; air, influence"
+    category: phono-semantic
+    certainty: classic
+    parts: []
+    note: >-
+      rank 109; a sail-shaped outer sign for the sound, an insect
+      within — the old lists say wind is what quickens the
+      insects. Also the "Airs": the Odes' name for its folk
+      songs, and a lord's influence on the people.
+  - char: 若
+    chapter: 24
+    keyword: as-if
+    pinyin: ruò
+    meaning: "to be like; if"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 112; the oldest forms draw a kneeling figure smoothing
+      long hair — yielding, going along with — whence "to accord
+      with, to be like," and in the classics also "if." The
+      received graph re-dressed the figure as plants over a hand.
+  - char: 同
+    chapter: 24
+    keyword: same
+    pinyin: tóng
+    meaning: "same, together"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["口"]
+    note: >-
+      rank 97; a cover held over a mouth 口 — many mouths under
+      one roof-piece, speaking as one: the same, together.
+  - char: 從
+    chapter: 24
+    keyword: follow
+    pinyin: cóng
+    meaning: "to follow"
+    category: compound-ideograph
+    certainty: classic
+    parts: ["人"]
+    note: >-
+      rank 121; two people, one walking behind the other — the
+      old graph was just the pair 从; the road-step and a foot
+      joined later to make the walking explicit.
+  - char: 善
+    chapter: 24
+    keyword: good
+    pinyin: shàn
+    meaning: "good; to be good at"
+    category: compound-ideograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 234 — a curated pin (§5): boxed twice already this
+      run of chapters. The sheep-sign over speech — words gentle
+      as the flock: the good, and being good at a thing.
+  - char: 長
+    chapter: 24
+    keyword: long
+    pinyin: cháng
+    pinyin_divergence: >-
+      Unihan kMandarin gives zhǎng; the course teaches the cháng
+      "long" reading first (天長地久), zhǎng noted in the codex.
+    meaning: "long; to grow, elder"
+    category: pictograph
+    certainty: classic
+    parts: []
+    note: >-
+      rank 102; a long-haired elder leaning on a staff — the
+      hair is the length. Read cháng for "long," zhǎng for "to
+      grow, elder": one picture, both ends of a life.

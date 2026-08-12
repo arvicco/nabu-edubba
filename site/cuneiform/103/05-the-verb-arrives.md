@@ -35,30 +35,25 @@ the laws spell them with.
     <tr>
       <td class="script sign-cell">𒌑</td><td>U₂</td><td>grass</td><td>[u]</td>
       <td>plant, grass</td>
-      <td>the vowel that opens so many of the laws' verbs —
-          <em>u-ub-bi-ir-ma</em> starts here</td>
+      <td>the vowel opening many of the laws' verbs —
+          <em>u-ub-bi-ir-ma</em></td>
     </tr>
     <tr>
       <td class="script sign-cell">𒌒</td><td>UB</td><td>nook</td><td>[ub]</td>
-      <td>a corner-nook in the lists</td>
-      <td>second sign of the same verb — the accusation is two
-          signs old before its consonants double</td>
+      <td>a corner-nook</td>
+      <td>the same verb's second sign</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒊌</td><td>UG</td><td>lion</td><td>[ug/uk]</td>
-      <td>a raging beast — a lion-sign marked with "day"</td>
-      <td>the uk- of <em>uk-ti-in</em>, "he convicted" — a verb
-          with teeth, fittingly</td>
+      <td>a day-marked lion</td>
+      <td>the uk- of <em>uk-ti-in</em>, "he
+          convicted"</td>
     </tr>
     <tr>
       <td class="script sign-cell">𒀉</td><td>A₂</td><td>arm</td><td>[id/it/ed/et]</td>
       <td>—</td>
-      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12009' | relative_url }}">102's arm-sign</a> crosses the
-          border as pure sound: <em>id-di-ma</em>, "he charged,
-          and…," and the executioner's <em>id-da-ak</em>, "he
-          shall be killed," both open on it. The arm covers its
-          whole dental family, both vowel colors — the siblings
-          report as they are met</td>
+      <td><strong>veteran</strong> — <a href="{{ '/cuneiform/102/10-in-those-days/#sign-12009' | relative_url }}">102's arm-sign</a> as pure
+          sound: the dentals</td>
     </tr>
   </tbody>
 </table>

@@ -19,7 +19,7 @@ rising through a tree 木 — dawn, the east. The older graphs
 more likely draw a provisions sack tied at both ends, borrowed
 for the direction's sound. The course tells both and marks
 which is memory-hook and which is history. Taught in
-<a href="{{ '/sinographs/101/18-going-out-and-coming-in/' | relative_url }}">the out-and-in chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 
