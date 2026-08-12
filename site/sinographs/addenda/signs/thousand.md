@@ -20,7 +20,7 @@ the old script borrowed the word for "person" (the two sounded
 close) and marked it to mean a count of a thousand. Two of the
 tally, 二千, was two thousand, and so on up the registers.
 Taught in
-<a href="{{ '/sinographs/101/23-the-thousand-chariot-state/' | relative_url }}">the thousand-chariot chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -19,7 +19,7 @@ Three ten-signs joined at the base into one graph: thirty years,
 the classical span from parent to child. From "generation" it
 widened to "the age one lives in" and finally "the world" of
 that age. Taught in
-<a href="{{ '/sinographs/101/23-the-thousand-chariot-state/' | relative_url }}">the thousand-chariot chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

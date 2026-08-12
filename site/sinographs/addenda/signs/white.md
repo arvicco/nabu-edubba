@@ -18,7 +18,7 @@ The old picture is honestly disputed — a grain of rice, a
 thumbnail, the first glow of dawn have all been proposed; every
 candidate is something pale. The senses run white → plain →
 clear, the lit and knowable side of things. Taught in
-<a href="{{ '/sinographs/101/11-counting-continues/' | relative_url }}">the counting-continues chapter</a>,
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>,
 where it also lends its sound to 百.
 
 ## How to remember it

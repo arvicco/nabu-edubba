@@ -7,11 +7,12 @@ description: >-
   all, read without a single box.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 21
 permalink: /sinographs/101/21-the-work-and-its-doing/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["事", "作", "成", "能", "使"]
 shows: ["亻"]
 ---

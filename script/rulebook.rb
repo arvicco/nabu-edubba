@@ -84,7 +84,8 @@ module Edubba
         pages: true },
       { doc: "docs/courses/sinographs.md §8",
         school: "sinographs",
-        registries: %w[_data/sinographs101_queue.yml],
+        registries: %w[_data/sinographs101_queue.yml
+                       _data/sinographs102_queue.yml],
         shelf: "sinographs/addenda/signs",
         keywords: true,
         pages: true }

@@ -20,7 +20,7 @@ it as a bent arm, the probable original of "elbow," borrowed for
 the ninth digit and kept. As the last of the digits, nine became
 the classics' number of utmost height: ninefold heavens, the
 nine provinces of the world. Taught in
-<a href="{{ '/sinographs/101/15-the-ten-thousand-things/' | relative_url }}">the ten-thousand-things chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

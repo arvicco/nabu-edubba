@@ -18,7 +18,7 @@ The old graphs show a person with grain bundled on their back —
 the harvest coming home. One harvest, one year: the count of
 years is the count of crops, and the strokes wore smooth into
 today's form long after the picture faded. Taught in
-<a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">the learning chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -19,7 +19,7 @@ A blade with its curved handle, cut to two strokes — one of the
 script's plainest pictures. On the right side of a compound it
 slims to 刂, the same knife drawn thin; cutting, dividing, and
 judging words carry it. Taught in
-<a href="{{ '/sinographs/101/20-first-and-after-then/' | relative_url }}">the first-and-after chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

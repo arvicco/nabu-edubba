@@ -14,7 +14,10 @@ layout: default
   {% assign queue_course = "cuneiform-103" %}
 {% elsif page.school == "sinographs" %}
   {% assign r1 = "" | split: "," %}
-  {% assign r2 = site.data.sinographs101_queue.signs %}
+  {% comment %} the course border (concept §7): the school's
+  inventory spans two registries; a character beyond chapter 09
+  belongs to S102 {% endcomment %}
+  {% assign r2 = site.data.sinographs101_queue.signs | concat: site.data.sinographs102_queue.signs %}
   {% assign queue_course = "sinographs-101" %}
 {% elsif page.school == "hieroglyphs" %}
   {% assign r1 = site.data.hiero_teaching.signs %}
@@ -33,6 +36,9 @@ layout: default
   {% assign entry = r2 | where: "name", page.sign | first %}
   {% assign taught_course = queue_course %}
   {% assign taught_ch = entry.chapter %}
+  {% if page.school == "sinographs" and taught_ch > 9 %}
+    {% assign taught_course = "sinographs-102" %}
+  {% endif %}
 {% endif %}
 {% assign taught_page = site.pages | where: "course", taught_course | where: "chapter", taught_ch | first %}
 <div class="chapter-shell">
@@ -48,7 +54,14 @@ layout: default
     <tr><th>Name</th><td>{{ entry | sign_name }}</td></tr>
     <tr><th>Reads</th><td><span class="translit">{{ page.reads }}</span></td></tr>
     <tr><th>Means</th><td>{{ entry.meaning }}</td></tr>
+    {% if taught_page %}
     <tr><th>Taught in</th><td><a href="{{ taught_page.url | relative_url }}">{{ taught_page.title }}</a></td></tr>
+    {% else %}
+    {% comment %} chapter parked (published: false) during the S102
+    rework — point at the course until it returns {% endcomment %}
+    {% assign course_slug = taught_course | replace: "-", "/" %}
+    <tr><th>Taught in</th><td><a href="{{ '/' | append: course_slug | append: '/' | relative_url }}">{{ taught_course | replace: "sinographs-", "Sinographs " }}</a></td></tr>
+    {% endif %}
     {% if entry.veteran %}
     {% assign vslug = entry.name | downcase | replace: "š", "sz" | replace: "é", "e2" | replace: "×", "x" %}
     <tr><th>In Sumerian</th><td><a href="{{ '/cuneiform/addenda/signs/' | append: vslug | append: '/' | relative_url }}">the same sign's Sumerian page</a></td></tr>

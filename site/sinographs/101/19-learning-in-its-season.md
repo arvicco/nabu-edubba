@@ -7,11 +7,12 @@ description: >-
   the opening of the Analects, read whole.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 19
 permalink: /sinographs/101/19-learning-in-its-season/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["學", "時", "年", "父", "已", "安"]
 shows: ["巳"]
 ---

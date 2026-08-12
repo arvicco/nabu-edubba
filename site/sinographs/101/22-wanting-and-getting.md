@@ -7,11 +7,12 @@ description: >-
   say they did it themselves.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 22
 permalink: /sinographs/101/22-wanting-and-getting/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["得", "與", "欲", "皆", "謂", "然"]
 ---
 

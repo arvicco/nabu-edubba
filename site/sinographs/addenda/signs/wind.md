@@ -21,7 +21,7 @@ is what quickens the bugs into life. From weather the word blew
 into metaphor: the "Airs" (風) are the Odes' folk songs, and a
 lord's 風 is the influence his example has on everyone downwind.
 Taught in
-<a href="{{ '/sinographs/101/23-the-thousand-chariot-state/' | relative_url }}">the thousand-chariot chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -18,7 +18,7 @@ An eye 目 set on running legs — a whole person reduced to the
 act of looking; the reading is classic. When what is seen does
 the appearing, the classics read the same graph xiàn, "to show
 oneself". Taught in
-<a href="{{ '/sinographs/101/12-the-eye-and-the-way/' | relative_url }}">the eye-and-the-Way chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

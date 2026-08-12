@@ -19,7 +19,7 @@ An elder with long, unbound hair leaning on a staff — the hair
 is the length. Read *cháng*, it is "long"; read *zhǎng*, it is
 "to grow, the elder, the chief" — one picture holding both ends
 of a life. Taught in
-<a href="{{ '/sinographs/101/24-like-water/' | relative_url }}">the like-water chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

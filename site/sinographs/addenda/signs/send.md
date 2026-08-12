@@ -19,7 +19,7 @@ A person 亻 stands beside the officer-with-tally sign — someone
 is being given the job. To send on a mission, to employ, and in
 grammar the causer: 使 X do Y, "make X do Y." An envoy is this
 character with a title. Taught in
-<a href="{{ '/sinographs/101/21-the-work-and-its-doing/' | relative_url }}">the work-and-doing chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

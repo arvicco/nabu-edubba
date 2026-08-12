@@ -20,7 +20,7 @@ that was itself "state": a bounded patch of ground with a spear
 over it — territory under arms. Wall the armed ground in and
 you have 國, the state as the thing its borders defend. Taught
 in
-<a href="{{ '/sinographs/101/23-the-thousand-chariot-state/' | relative_url }}">the thousand-chariot chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

@@ -18,7 +18,7 @@ A footprint 止 with a figure standing beside it — the stated
 account: where someone has stopped walking is *here*, and the
 near thing is *this*. Against 是 ("this" as the matter at hand)
 此 points with the finger. Taught in
-<a href="{{ '/sinographs/101/14-here-and-now/' | relative_url }}">the here-and-now chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

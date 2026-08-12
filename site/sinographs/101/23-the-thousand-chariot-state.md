@@ -7,11 +7,12 @@ description: >-
   saying of the Analects, read end to end.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 23
 permalink: /sinographs/101/23-the-thousand-chariot-state/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["國", "千", "世", "地", "風"]
 ---
 

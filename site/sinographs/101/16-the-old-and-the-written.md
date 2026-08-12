@@ -7,11 +7,12 @@ description: >-
   tradition uses for itself.
 layout: chapter
 school: sinographs
-course: sinographs-101
+course: sinographs-102
 chapter: 16
 permalink: /sinographs/101/16-the-old-and-the-written/
-course_url: /sinographs/101/
-course_title: "Sinographs 101"
+course_url: /sinographs/102/
+course_title: "Sinographs 102"
+published: false
 teaches: ["古", "故", "文", "書", "詩"]
 ---
 

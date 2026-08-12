@@ -19,7 +19,7 @@ build: time as the sun's own calendar. 四時 are the four
 seasons; 以時 "at the proper season" is the classics' measure of
 a well-run state; and in the *Analects*' first sentence it is
 the season that makes practice sweet. Taught in
-<a href="{{ '/sinographs/101/19-learning-in-its-season/' | relative_url }}">the learning chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 

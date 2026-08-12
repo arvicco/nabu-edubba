@@ -19,7 +19,7 @@ account; the eye survives inside the frame. From the body's head
 come the extended senses: chief, first, the head of a matter.
 Under the walking radical it becomes 道, the road a head
 travels. Taught in
-<a href="{{ '/sinographs/101/12-the-eye-and-the-way/' | relative_url }}">the eye-and-the-Way chapter</a>.
+<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
 
 ## How to remember it
 
