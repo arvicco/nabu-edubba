@@ -37,6 +37,7 @@ and the grammar holding them together.
   <li><a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">The verb and its object</a> — subject, verb, object; nothing conjugates; the Laozi stays home</li>
   <li><a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">Having and lacking</a> — there-is and is-not; the two ways of saying no; the myriad things arrive</li>
   <li><a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">Counting the world</a> — the number row filled; a life told in decades</li>
+  <li><a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">The belonging thread</a> — 之 ties owner to owned; the Way opens the chain whole</li>
 </ol>
 
 The course is opening; more chapters appear here as they are
