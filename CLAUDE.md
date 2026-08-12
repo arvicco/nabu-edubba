@@ -179,20 +179,19 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 22 — complete, gate PR pending: the table flip + S101
-stretch 5 (owner pick: both in one phase). M22-1: 71 notes cells
-compressed across cuneiform/hieroglyphs, 15% law enforced
-school-wide — and the surface review exposed that the old 50%/18%
-CSS fallbacks had been silently overriding every computed
-colgroup (fixed: the colgroup IS the layout now; caps-aware width
-model; headroom in both allocate branches). M22-2..7: stretch 5
-ruled then written — ch20–24 (則 from 貝+刀, the crew of doing,
-wanting and getting, the thousand-chariot state, like water), 137
-characters = 41.5% of the corpus, Analects 1.5 whole, the 2.4
-ladder closed, 上善若水 and 為無為 box-free; four witness variances
-caught at plan stage. Also landed: Gate 21 closed; Nabu's
-overlay-live message integrated (join key kEH_JSesh, contract law
-in hieroglyphs rulebook §3, `--min-chars`).
+Phase 23 — complete, gate PR pending: THE COURSE BORDER (owner
+ruling, concept §7): foundations teach the script's mechanisms,
+nothing more; crossing a ladder mandate is a decision item, never
+a packet. S101 closed COMPLETE at ch00–09 + a new Reference (55
+characters, the honest border verified by review); S102 · Literary
+Chinese born and ruled as a GRAMMAR course (Pulleyblank spine);
+the fifteen inherited chapters parked unpublished until the
+Gate-24 rework so no char-batch permalink freezes; ten redirect
+stubs; per-course queue registries pinned by contract test. Gate
+24 next: the grammar rework (M24-1). This PR also carries all of
+phase 22 (table-balance law school-wide + dead-colgroup fix;
+stretch 5's readings, codex pages, and audio — parked with their
+chapters). PR #27 superseded, never merged.
 
 Gate 21 merged 2026-08-11 (S101 stretch 4, the world of the text:
 ch15–19, 29 chars; 110 characters = 33.3% — one in three; finale

@@ -918,5 +918,24 @@ Plan: .docs/phase-22-plan.md (owner pick: both queued items).
 ## M22-5 · ch22 · Wanting and getting (得與欲皆謂然)  [tier: top] [status: done] [deps: M22-4]
 ## M22-6 · ch23 · The thousand-chariot state (國千世地風)  [tier: top] [status: done] [deps: M22-5]
 ## M22-7 · ch24 · Like water (若同從善長)  [tier: top] [status: done] [deps: M22-6]
-## M22-8 · Stitching + Gate 22 PR  [tier: top] [status: open] [deps: M22-1..7]
+## M22-8 · Stitching + Gate 22 PR  [tier: top] [status: done] [deps: M22-1..7]
+Superseded: PR #27 was never merged — the course-border ruling
+(concept §7, 2026-08-12) re-cut the phase; its content ships via
+Gate 23 with stretch 5 parked for the S102 rework.
+
+## Phase 23 — the course border: S101 cut, S102 born (opened 2026-08-12)
+Plan: .docs/phase-23-plan.md (owner cadence: two gates).
+
+## M23-1 · Rulings: concept §7 border law + rulebook split  [tier: top] [status: done] [deps: --]
+## M23-2 · S101 Reference + closed index  [tier: top] [status: done] [deps: M23-1]
+## M23-3 · S102 shell; chapters parked; redirects; queue split  [tier: top] [status: done] [deps: M23-1]
+## M23-4 · Stitching + Gate 23 PR  [tier: top] [status: done] [deps: M23-1..3]
+
+## M24-1 · S102 grammar rework (Gate 24)  [tier: top] [status: open] [deps: Gate 23]
+Goal: rebuild the fifteen parked chapters as the ruled grammar
+      course (Pulleyblank spine, rulebook §5): each chapter one
+      grammar element, characters re-batched to serve it, existing
+      readings/glosses/audio/codex reused where they fit, box_line
+      re-verified under the new order; final permalinks publish
+      then, redirect stubs re-pointed chapter-grain where 1:1.
 
