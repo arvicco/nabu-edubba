@@ -353,6 +353,22 @@ permission profile). Specifics for this repo:
   underlying link works without it). Any further widget needs its
   own ruling.
 
+- **The course-border law (ruled 2026-08-12, after the S101
+  drift):** a foundations (101) course teaches the SCRIPT'S
+  MECHANISMS — orientation and basics, nothing more — and closes
+  when they are taught; literacy belongs to the numbered courses
+  above it, per the ladder. Any stretch or packet that would grow
+  a course past its ladder mandate is a DECISION ITEM put to the
+  owner, never a routine packet. Applied retroactively to the
+  sinograph school: S101 ends at chapter 09 plus a Reference
+  (55 characters, the mechanism classes complete, the same scale
+  as C101/E101); chapters 10–24 and their inventory belong to
+  S102 · Literary Chinese, which is re-worked from
+  character-batches into a systematic grammar course (spine:
+  Pulleyblank's Outline of Classical Chinese Grammar) before its
+  chapter permalinks first publish. The ten formerly-live S101
+  chapter URLs become redirect stubs (the /hanzi/ precedent).
+
 Details and the machine-checkable subset: docs/courses/sinographs.md.
 
 ## 8. Open items

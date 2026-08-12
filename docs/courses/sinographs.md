@@ -113,6 +113,35 @@ fallback. Recorded in docs/concept.md §7.
 
 ## 5 · Corpus, ordering, licenses
 
+### The course border (owner ruling 2026-08-12 — concept §7 law)
+
+**S101 · How the characters work is CLOSED at chapter 09 plus its
+Reference**: ten chapters, 55 characters, the mechanism classes
+complete (strokes, pictographs, compound ideographs, indicative
+marks, rebus loans, phono-semantic compounds, worn grammar
+words). Foundations means orientation and basics, nothing more.
+Its inventory and permalinks are frozen; nothing is ever added.
+
+**S102 · Literary Chinese** owns everything beyond: the 82
+characters of the former ch10–24 plus all future growth. It is a
+GRAMMAR course — each chapter teaches one grammar element of
+Literary Chinese, on the spine of Pulleyblank, *Outline of
+Classical Chinese Grammar* (the course's cited grammar, named
+once); characters are re-batched to serve the chapter's grammar,
+never taught as frequency batches for their own sake. Ruled
+spine (15 chapters; final wording at rework): the nominal
+sentence and 也 · the verbal sentence and its objects · negation
+(不 非 無) · pronouns and demonstratives · 之 and subordination ·
+者/所 nominalization · coverbs (以 於 自 與) · aspect and
+finality (矣 已) · questions (乎 何 安) · conditionals (則 若) ·
+modals (可 能 得) · causative 使 · comparison (如 若) ·
+quantification (皆) · discourse (故 是以 然). Box-share cap for
+S102 ordinals: max(25%, 40 − 5·⌊(chapter−1)/5⌋) — the same
+declining curve the readings were written under. Until the
+rework lands (Gate 24), the inherited chapters are parked
+unpublished; no S102 chapter permalink publishes before its
+grammar-shaped final form (permalink freeze law).
+
 Before writing any chapter, run the author pre-flight checklist
 (docs/DEV-LOOP.md §4 item 6c) — it compresses this section and the
 site-wide laws into writing order.
