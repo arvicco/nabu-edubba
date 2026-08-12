@@ -68,8 +68,10 @@ chapter's verbs of seeing and motion:
   </tbody>
 </table>
 
-And 父 pays a debt: chapter 01's 父父, "let the father be a
-father," boxed it — one chapter early.
+And 父 pays a debt:
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01's</a>
+父父, "let the father be a father," boxed it — one chapter
+early.
 
 ## Subject, verb, object
 
@@ -94,7 +96,7 @@ about knowledge:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"; note the shape — verb 出 takes its object 戶 exactly as 知 takes 天下</span></div>
+    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"; note the shape — 出 takes "door" as its object exactly as 知 takes 天下</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 47.
