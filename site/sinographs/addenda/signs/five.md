@@ -27,7 +27,7 @@ A knot between two lines: **five**, the hand's full count.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">五十而知天▢。</span><span class="translit pinyin">wǔ shí ér zhī tiān mìng</span><span class="gloss">"at fifty, I knew the task Heaven had set me" — purpose, finally clear; 五十 marking the turn</span></div>
+    <div class="reading-line"><span class="script">五十而知天命。</span><span class="translit pinyin">wǔ shí ér zhī tiān mìng</span><span class="gloss">"at fifty, I knew the task Heaven had set me" — purpose, finally clear; 五十 marking the turn</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4.

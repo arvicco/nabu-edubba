@@ -29,7 +29,7 @@ The sun keeps the calendar: **season**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">四時行▢。</span><span class="translit pinyin">sì shí xíng yān</span><span class="gloss">"the four seasons go their round" — Heaven never says a word, the Master tells his student, and yet the seasons turn and everything grows: the deepest teaching happens without lecturing. The box is the final particle</span></div>
+    <div class="reading-line"><span class="script">四時行焉。</span><span class="translit pinyin">sì shí xíng yān</span><span class="gloss">"the four seasons go their round" — Heaven never says a word, the Master tells his student, and yet the seasons turn and everything grows: the deepest teaching happens without lecturing.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 17.19.

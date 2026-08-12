@@ -31,7 +31,7 @@ on.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">民無▢不▢。</span><span class="translit pinyin">mín wú xìn bù lì</span><span class="gloss">"without the people's trust, nothing stands" — the boxes are "trust" and "stand"; asked what a state could spare, the Master gives up arms, then food — never this</span></div>
+    <div class="reading-line"><span class="script">民無信不立。</span><span class="translit pinyin">mín wú xìn bù lì</span><span class="gloss">"without the people's trust, nothing stands" — asked what a state could spare, the Master gives up arms, then food — never this</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 12.7.

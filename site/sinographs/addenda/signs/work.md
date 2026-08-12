@@ -30,7 +30,7 @@ the tally of office: the job in that hand is the **work**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢事而▢。</span><span class="translit pinyin">jìng shì ér xìn</span><span class="gloss">"take the work seriously, and keep your word" — Confucius' first two rules for anyone in charge. The boxes are "respectfully" and "keep faith"</span></div>
+    <div class="reading-line"><span class="script">敬事而信。</span><span class="translit pinyin">jìng shì ér xìn</span><span class="gloss">"take the work seriously, and keep your word" — Confucius' first two rules for anyone in charge.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5.

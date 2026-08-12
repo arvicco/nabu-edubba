@@ -29,7 +29,7 @@ Two strokes, one edge: **knife**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢不容刀。</span><span class="translit pinyin">céng bù róng dāo</span><span class="gloss">"it wouldn't even float a knife of a boat" — a homesick poet insisting the river home is no barrier at all: too narrow, he claims, for even a knife-thin skiff. The commentators enjoy the loan — 刀 here names a slender boat. The boxes are "even" and "hold"</span></div>
+    <div class="reading-line"><span class="script">曾不容刀。</span><span class="translit pinyin">céng bù róng dāo</span><span class="gloss">"it wouldn't even float a knife of a boat" — a homesick poet insisting the river home is no barrier at all: too narrow, he claims, for even a knife-thin skiff. The commentators enjoy the loan — 刀 here names a slender boat.</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "Who says the river is wide?" (河廣).

@@ -31,7 +31,7 @@ march, falling behind — **after**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">是以▢人後其▢而▢先。</span><span class="translit pinyin">shì yǐ shèng rén hòu qí shēn ér shēn xiān</span><span class="gloss">"that is why the wise person puts himself last — and finds himself first" — the Laozi's paradox: step back, and people put you in front. The boxes are "sage" and (twice) "self"</span></div>
+    <div class="reading-line"><span class="script">是以聖人後其身而身先。</span><span class="translit pinyin">shì yǐ shèng rén hòu qí shēn ér shēn xiān</span><span class="gloss">"that is why the wise person puts himself last — and finds himself first" — the Laozi's paradox: step back, and people put you in front.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 7.

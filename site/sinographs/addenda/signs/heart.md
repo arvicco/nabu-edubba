@@ -28,7 +28,7 @@ two.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">天下▢心。</span><span class="translit pinyin">tiān xià guī xīn</span><span class="gloss">"the hearts of all under heaven come home" — the phrase of won loyalty, from an elegy in the great anthology</span></div>
+    <div class="reading-line"><span class="script">天下歸心。</span><span class="translit pinyin">tiān xià guī xīn</span><span class="gloss">"the hearts of all under heaven come home" — the phrase of won loyalty, from an elegy in the great anthology</span></div>
   </div>
   <figcaption class="citation">
     <em>Wen xuan</em> (Selections of Refined Literature).

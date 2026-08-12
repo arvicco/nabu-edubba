@@ -446,6 +446,17 @@ Live since the first content commit (2026-08-10):
   origin, certainty-labeled), how to remember it (the keyword
   hook — this is where the memory-hook technique is applied), in
   the wild (one real cited attestation).
+- **Whole-attestation law (owner ruling 2026-08-12, after the 90
+  boxed pages):** the Codex is REFERENCE, not a graded reading. An
+  "In the wild" line is shown WHOLE — every character face-up,
+  verified against the cited Nabu edition — and its gloss never
+  speaks of boxes. ▢ belongs to chapter readings, where the
+  student's known set is chapter-bounded; on the shelf a learner
+  looks characters up, and a reference that hides characters from
+  its reader serves no one. Machine check: the `codex-boxes` lint
+  fails any sinograph shelf page containing ▢ (kanripo editions
+  are received texts with no lacunae; cuneiform shelves keep ▢
+  for genuine tablet damage).
 - **Hook law (owner ruling 2026-08-12, after the 民 hook):** a
   memory hook works from the VISIBLE modern form, or it is not a
   hook. It names the strokes or components the learner can
@@ -494,5 +505,6 @@ script/lint.rb's header; "owner review" is a disposition.
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
 | Codex hooks anchored in the visible modern form | §8 | owner review (editorial) |
+| Codex attestations shown whole, never boxed | §8 | `codex-boxes` lint |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |

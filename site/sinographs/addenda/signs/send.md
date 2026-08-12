@@ -31,7 +31,7 @@ right: hand someone the job and **send** them — or, in grammar,
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions. The boxes are "courtesy" and "loyalty"; 使 sends downward, 事 serves upward</span></div>
+    <div class="reading-line"><span class="script">君使臣以禮，臣事君以忠。</span><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions. 使 sends downward, 事 serves upward</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 3.19.

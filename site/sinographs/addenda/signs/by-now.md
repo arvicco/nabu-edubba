@@ -30,7 +30,7 @@ off — **by now**, it is so.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">可以為▢矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can, by this, be a teacher — and it is so" — 矣 landing the sentence this course first read with the particle still boxed</span></div>
+    <div class="reading-line"><span class="script">可以為師矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can, by this, be a teacher — and it is so" — 矣 landing the close of the warm-up-the-old saying</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11.

@@ -31,7 +31,7 @@ garment: **make**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而不作。</span><span class="translit pinyin">shù ér bù zuò</span><span class="gloss">"I pass on; I do not invent" — Confucius on his own method: he claims to be a transmitter of the old ways, not an author of new ones. The box is "pass on"</span></div>
+    <div class="reading-line"><span class="script">述而不作。</span><span class="translit pinyin">shù ér bù zuò</span><span class="gloss">"I pass on; I do not invent" — Confucius on his own method: he claims to be a transmitter of the old ways, not an author of new ones.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.1 — the sentence continues 信而好古,

@@ -28,7 +28,7 @@ Arrow plus mouth — aim before you speak.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">人不知而不▢。</span><span class="translit pinyin">rén bù zhī ér bù yùn</span><span class="gloss">"to go unrecognized — and not resent it" — worth that does not need an audience; 知 in the Analects' opening page</span></div>
+    <div class="reading-line"><span class="script">人不知而不慍。</span><span class="translit pinyin">rén bù zhī ér bù yùn</span><span class="gloss">"to go unrecognized — and not resent it" — worth that does not need an audience; 知 in the Analects' opening page</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.1.

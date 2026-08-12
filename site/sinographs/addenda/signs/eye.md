@@ -29,7 +29,7 @@ the middle.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">五▢令人目▢，五味令人口▢。</span><span class="translit pinyin">wǔ sè lìng rén mù máng, wǔ wèi lìng rén kǒu shuǎng</span><span class="gloss">"the five colors blind the eye; the five flavors jade the mouth" — the eye worn out by too much to look at</span></div>
+    <div class="reading-line"><span class="script">五色令人目盲，五味令人口爽。</span><span class="translit pinyin">wǔ sè lìng rén mù máng, wǔ wèi lìng rén kǒu shuǎng</span><span class="gloss">"the five colors blind the eye; the five flavors jade the mouth" — the eye worn out by too much to look at</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 12.

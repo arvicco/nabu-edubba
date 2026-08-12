@@ -32,7 +32,7 @@ smooths everything to lie one way, the mouth says "just so" —
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">大成若▢。</span><span class="translit pinyin">dà chéng ruò quē</span><span class="gloss">"the greatest completeness looks chipped" — real mastery never looks polished; the Laozi's list of perfections that wear their opposite. The box is "chipped, lacking"</span></div>
+    <div class="reading-line"><span class="script">大成若缺。</span><span class="translit pinyin">dà chéng ruò quē</span><span class="gloss">"the greatest completeness looks chipped" — real mastery never looks polished; the Laozi's list of perfections that wear their opposite.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 45.

@@ -30,7 +30,7 @@ journey measured *from* it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知人者▢，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows HIMSELF is enlightened" — 自 folds the knowing back onto the knower</span></div>
+    <div class="reading-line"><span class="script">知人者智，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows HIMSELF is enlightened" — 自 folds the knowing back onto the knower</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 33.

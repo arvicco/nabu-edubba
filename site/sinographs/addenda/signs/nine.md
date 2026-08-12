@@ -31,7 +31,7 @@ go: nine.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">九五：▢▢▢天。</span><span class="translit pinyin">jiǔ wǔ: fēi lóng zài tiān</span><span class="gloss">"nine in the fifth place: flying dragon in the sky" — the boxes are "fly", "dragon", "be-at"; in the Changes each firm line is a "nine", and the fifth is the throne — 九五 still means imperial dignity</span></div>
+    <div class="reading-line"><span class="script">九五：飛龍在天。</span><span class="translit pinyin">jiǔ wǔ: fēi lóng zài tiān</span><span class="gloss">"nine in the fifth place: flying dragon in the sky" — in the Changes each firm line is a "nine", and the fifth is the throne — 九五 still means imperial dignity</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Changes</em>, hexagram 1 (乾) — the saying

@@ -29,7 +29,7 @@ of farm equipment.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">之子于歸，▢其▢▢。</span><span class="translit pinyin">zhī zǐ yú guī, yí qí shì jiā</span><span class="gloss">"this child goes to her wedding home — may she set HER house right" — 其 doing its possessive work in the Peach Tree song</span></div>
+    <div class="reading-line"><span class="script">之子于歸，宜其室家。</span><span class="translit pinyin">zhī zǐ yú guī, yí qí shì jiā</span><span class="gloss">"this child goes to her wedding home — may she set HER house right" — 其 doing its possessive work in the Peach Tree song</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Peach Tree".

@@ -32,7 +32,7 @@ way — **get**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢之在得。</span><span class="translit pinyin">jiè zhī zài dé</span><span class="gloss">"guard against getting" — Confucius' warning for old age: youth must watch its passions, maturity its quarrels, and age its greed. The box is "guard against"</span></div>
+    <div class="reading-line"><span class="script">戒之在得。</span><span class="translit pinyin">jiè zhī zài dé</span><span class="gloss">"guard against getting" — Confucius' warning for old age: youth must watch its passions, maturity its quarrels, and age its greed.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 16.7, the three warnings.

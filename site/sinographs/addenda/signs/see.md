@@ -28,7 +28,7 @@ The eye grew legs and went to **see** for itself.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">見▢不為，無▢也。</span><span class="translit pinyin">jiàn yì bù wéi, wú yǒng yě</span><span class="gloss">"to see the right thing and not do it is to lack courage" — seeing that obliges</span></div>
+    <div class="reading-line"><span class="script">見義不為，無勇也。</span><span class="translit pinyin">jiàn yì bù wéi, wú yǒng yě</span><span class="gloss">"to see the right thing and not do it is to lack courage" — seeing that obliges</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.24.

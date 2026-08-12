@@ -30,7 +30,7 @@ A nail and a mouth: the request is nailed up, the mouth says
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">可以為▢▢。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can thereby be a teacher" — the close of Analects 2.11: warm up the old, know the new, and 可以 grants the license</span></div>
+    <div class="reading-line"><span class="script">可以為師矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can thereby be a teacher" — the close of Analects 2.11: warm up the old, know the new, and 可以 grants the license</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11.

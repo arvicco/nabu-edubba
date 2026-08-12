@@ -30,7 +30,7 @@ most steadfast pictograph.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">女曰▢乎？</span><span class="translit pinyin">nǚ yuē guān hū</span><span class="gloss">"the girl says: shall we go look?" — a riverbank invitation from the Songs; one box for the looking</span></div>
+    <div class="reading-line"><span class="script">女曰觀乎？</span><span class="translit pinyin">nǚ yuē guān hū</span><span class="gloss">"the girl says: shall we go look?" — a riverbank invitation from the Songs</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Zhen and Wei".

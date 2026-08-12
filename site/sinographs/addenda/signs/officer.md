@@ -32,7 +32,7 @@ stands shoulders first; the earth sits base first.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">士不可以不▢▢。</span><span class="translit pinyin">shì bù kě yǐ bù hóng yì</span><span class="gloss">"an officer cannot but be broad and resolute" — the boxes are "broad" and "resolute"; Master Zeng's reason follows: the burden is heavy and the road is long</span></div>
+    <div class="reading-line"><span class="script">士不可以不弘毅。</span><span class="translit pinyin">shì bù kě yǐ bù hóng yì</span><span class="gloss">"an officer cannot but be broad and resolute" — Master Zeng's reason follows: the burden is heavy and the road is long</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 8.7.

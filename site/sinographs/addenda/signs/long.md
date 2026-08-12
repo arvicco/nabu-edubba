@@ -31,7 +31,7 @@ and you have *zhǎng*, "senior."
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">長▢相▢。</span><span class="translit pinyin">cháng duǎn xiāng jiào</span><span class="gloss">"long and short measure each other" — no length without a shortness beside it; another of the Laozi's pairs that create each other. The boxes are "short" and "compare"</span></div>
+    <div class="reading-line"><span class="script">長短相較。</span><span class="translit pinyin">cháng duǎn xiāng jiào</span><span class="gloss">"long and short measure each other" — no length without a shortness beside it; another of the Laozi's pairs that create each other.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2.

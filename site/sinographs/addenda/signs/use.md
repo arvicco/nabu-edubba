@@ -29,7 +29,7 @@ A rack of slats standing ready to hand: take it down and
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無之以為用。</span><span class="translit pinyin">wú zhī yǐ wéi yòng</span><span class="gloss">"what is not there gives the use" — the Laozi's empty hub, hollow pot, and open doorway, summed in five characters with no box at all</span></div>
+    <div class="reading-line"><span class="script">無之以為用。</span><span class="translit pinyin">wú zhī yǐ wéi yòng</span><span class="gloss">"what is not there gives the use" — the Laozi's empty hub, hollow pot, and open doorway, summed in five characters</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 11.

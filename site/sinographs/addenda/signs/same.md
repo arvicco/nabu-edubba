@@ -28,7 +28,7 @@ One cover, one voice: **same**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">與子同▢。</span><span class="translit pinyin">yǔ zǐ tóng páo</span><span class="gloss">"I will share my war-coat with you" — the soldiers' oath from the Odes: same cloak, same battle, same fate. The box is "war-coat"</span></div>
+    <div class="reading-line"><span class="script">與子同袍。</span><span class="translit pinyin">yǔ zǐ tóng páo</span><span class="gloss">"I will share my war-coat with you" — the soldiers' oath from the Odes: same cloak, same battle, same fate.</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "No clothes?" (無衣) — the brotherhood song.

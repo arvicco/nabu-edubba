@@ -27,7 +27,7 @@ Not yet the full moon of night — just its first sliver:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">名不正，▢言不▢。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">working inside 名 — the evening half of "name" — in the very sentence about names</span></div>
+    <div class="reading-line"><span class="script">名不正，則言不順。</span><span class="translit pinyin">míng bù zhèng, zé yán bù shùn</span><span class="gloss">working inside 名 — the evening half of "name" — in the very sentence about names</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.3.

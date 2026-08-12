@@ -30,7 +30,7 @@ The wheat that came as heaven's gift lent its picture to
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有▢自▢方來。</span><span class="translit pinyin">yǒu péng zì yuǎn fāng lái</span><span class="gloss">"friends come from the far quarters" — the boxes are "friend" and "far"; the arrival every teacher hopes for, from the book's first breath</span></div>
+    <div class="reading-line"><span class="script">有朋自遠方來。</span><span class="translit pinyin">yǒu péng zì yuǎn fāng lái</span><span class="gloss">"friends come from the far quarters" — the arrival every teacher hopes for, from the book's first breath</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.1.

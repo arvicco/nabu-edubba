@@ -30,7 +30,7 @@ the left and a foot below to keep them moving: **follow**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">從▢所好。</span><span class="translit pinyin">cóng wú suǒ hào</span><span class="gloss">"I will follow what I love" — Confucius on wealth: if it could be properly chased he would carry a whip and chase it; since it cannot, he will do what he loves instead. The box is "my"</span></div>
+    <div class="reading-line"><span class="script">從吾所好。</span><span class="translit pinyin">cóng wú suǒ hào</span><span class="gloss">"I will follow what I love" — Confucius on wealth: if it could be properly chased he would carry a whip and chase it; since it cannot, he will do what he loves instead.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.12, the last clause.
