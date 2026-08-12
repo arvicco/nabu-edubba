@@ -42,6 +42,7 @@ and the grammar holding them together.
   <li><a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">With, by, from, at</a> — the coverbs; the hub&#8217;s empty center gives the use</li>
   <li><a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">Already, and at last</a> — 矣 and 已 mark completion; the first line of the first book, at home</li>
   <li><a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">The art of asking</a> — 何 what, 安 wherein, 乎 the spoken question mark; friends from far quarters</li>
+  <li><a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">If and then</a> — 則 the hinge of consequence, bought with a cowrie and a knife</li>
 </ol>
 
 The course is opening; more chapters appear here as they are
