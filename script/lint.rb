@@ -269,9 +269,18 @@ module Edubba
     # gloss carries the rest.
     def check_box_share(path, text)
       return [] unless path.include?("/sinographs/") && path.end_with?(".md")
+      # parked pages (published: false, the Gate-24 rework window)
+      # are not on the site; each is re-verified as it converts
+      return [] if text.match?(/^published:\s*false$/)
 
       ch = text[/^chapter:\s*(\d+)/, 1] or return []
-      cap = [25, 50 - 5 * (ch.to_i / 5)].max
+      # per-course cap schedules (rulebook §5, the border split):
+      # S102 continues S101's declining curve on its own ordinals
+      cap = if text.match?(/^course:\s*sinographs-102/)
+              [25, 40 - 5 * ((ch.to_i - 1) / 5)].max
+            else
+              [25, 50 - 5 * (ch.to_i / 5)].max
+            end
       found = []
       text.scan(READING_FIGURE) do
         Regexp.last_match[:body].scan(%r{<span class="script">((?:[^<]|<span[^>]*>[^<]*</span>)*)</span>}) do |(s)|
