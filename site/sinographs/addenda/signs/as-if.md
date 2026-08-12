@@ -24,7 +24,9 @@ re-dressed the figure as plants over a hand. Taught in
 
 ## How to remember it
 
-Hair smoothed to flow the same way: **as-if**.
+Under the plant-strokes, a hand and a mouth 口: the hand
+smooths everything to lie one way, the mouth says "just so" —
+**as-if**.
 
 ## In the wild
 

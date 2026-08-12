@@ -24,7 +24,9 @@ and after a comparison, *than*. Taught in
 
 ## How to remember it
 
-The crow lands wherever it likes: **in**, at, on.
+The old crow, perched: the pole-shape at the left, two small
+marks for the folded wings at the right. Wherever the crow
+lands, there the sentence is — **in**, at, on.
 
 ## In the wild
 

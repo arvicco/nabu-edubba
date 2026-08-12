@@ -23,7 +23,9 @@ after in time. Taught in
 
 ## How to remember it
 
-Tied and trailing on the road: **after**.
+At the left, the road-step (the walking half of 行); at the
+right, a twist of thread over a dragging foot: hobbled on the
+march, falling behind — **after**.
 
 ## In the wild
 

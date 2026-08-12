@@ -22,8 +22,8 @@ Taught in
 
 ## How to remember it
 
-A frame of slats, ready to hand — whatever it once pictured,
-you can **use** it.
+A rack of slats standing ready to hand: take it down and
+**use** it.
 
 ## In the wild
 

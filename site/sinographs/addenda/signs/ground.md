@@ -23,7 +23,9 @@ for *the world entire*. Taught in
 
 ## How to remember it
 
-Soil plus a sound: the **ground**.
+Earth 土 on the left says what it is; 也 on the right is only
+there for the sound. The **ground** — the lower half of
+heaven-and-earth.
 
 ## In the wild
 

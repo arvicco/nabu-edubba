@@ -24,7 +24,8 @@ Taught in
 
 ## How to remember it
 
-One stroke through a person: a **thousand** of them.
+A person-stroke slanting over 十 ten: one figure marked as a
+tally — a **thousand**.
 
 ## In the wild
 

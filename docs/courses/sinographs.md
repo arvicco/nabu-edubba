@@ -446,6 +446,18 @@ Live since the first content commit (2026-08-10):
   origin, certainty-labeled), how to remember it (the keyword
   hook — this is where the memory-hook technique is applied), in
   the wild (one real cited attestation).
+- **Hook law (owner ruling 2026-08-12, after the 民 hook):** a
+  memory hook works from the VISIBLE modern form, or it is not a
+  hook. It names the strokes or components the learner can
+  actually see on the page — taught characters by glyph (the
+  linker bubbles them), untaught components in plain words — and
+  binds them to the keyword in ONE concrete image. Features that
+  survive only in oracle-bone or bronze forms belong in *Where it
+  comes from*; the hook may lean on the origin story only through
+  what today's strokes still show. No unexplained referents, no
+  free-floating profundity ("became the measure of everything").
+  Editorial law: enforced by review, not lint — a machine cannot
+  judge whether an image reconstructs a character.
 
 ## 9 · Law ledger
 
@@ -481,5 +493,6 @@ script/lint.rb's header; "owner review" is a disposition.
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
+| Codex hooks anchored in the visible modern form | §8 | owner review (editorial) |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |

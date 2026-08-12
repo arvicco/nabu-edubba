@@ -24,7 +24,9 @@ became permanent — the bear later had to grow a new character
 
 ## How to remember it
 
-Strong as a bear: **able**.
+Find the bear in the strokes: a snout at the upper left, the
+moon-shaped flesh sign 月 for its body, two claws stacked on the
+right. Strong as a bear: **able**.
 
 ## In the wild
 

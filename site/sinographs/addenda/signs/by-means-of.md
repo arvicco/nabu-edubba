@@ -23,8 +23,9 @@ as a tool-word: 以 X, "by X, using X". Taught in
 
 ## How to remember it
 
-A person bends to pick something up: whatever it is, the
-sentence will now be done **by means of** it.
+The person 人 stands at the right; the small tangle at the left
+is the thing in hand. Whatever it is, the sentence will be done
+**by means of** it.
 
 ## In the wild
 

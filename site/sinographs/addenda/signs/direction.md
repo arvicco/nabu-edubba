@@ -24,8 +24,8 @@ frozen into writing. Taught in
 
 ## How to remember it
 
-Whatever the picture was, it points: a **direction**, one of
-the four quarters.
+Read it as a pennant on its pole, streaming one way: look where
+it points — a **direction**, one of the four quarters.
 
 ## In the wild
 

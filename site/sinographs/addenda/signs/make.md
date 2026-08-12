@@ -23,7 +23,9 @@ to arise, to originate. Taught in
 
 ## How to remember it
 
-A person at the cutting-out: **make**.
+The thin person at the left does the making; the right half is
+the tailor's first cuts on a collar — raw cloth becoming a
+garment: **make**.
 
 ## In the wild
 

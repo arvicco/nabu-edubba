@@ -23,7 +23,8 @@ in
 
 ## How to remember it
 
-The hand that holds the household's rod: **father**.
+Two flicks for the arms, a crossing below them for the rod in
+hand: household authority in four strokes — **father**.
 
 ## In the wild
 

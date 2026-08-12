@@ -22,8 +22,9 @@ wheat had to grow a new character of its own. Taught in
 
 ## How to remember it
 
-The wheat that **came** and never left: the verb wears the
-plant.
+A grain plant: 木 with two drooping ears (the two small 人).
+The wheat that came as heaven's gift lent its picture to
+**come** — and never went home.
 
 ## In the wild
 

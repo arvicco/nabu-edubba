@@ -23,7 +23,9 @@ of a life. Taught in
 
 ## How to remember it
 
-Hair grown a lifetime long: **long**.
+Hair streaming out stroke by stroke past its pin — a lifetime's
+growth: **long**. Read the same picture as the elder it grew on
+and you have *zhǎng*, "senior."
 
 ## In the wild
 

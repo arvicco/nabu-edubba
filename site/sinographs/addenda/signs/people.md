@@ -23,8 +23,9 @@ they weigh more than the lord himself. Taught in
 
 ## How to remember it
 
-The stroke through the eye: the **people**, who were once
-looked past — and became the measure of everything.
+Read the strokes as a seed-tray with one long shoot striking
+out of it: the **people** — the growing stock the state lives
+on.
 
 ## In the wild
 

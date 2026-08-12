@@ -23,7 +23,8 @@ tells you the arrow has landed. Taught in
 
 ## How to remember it
 
-An arrow already in the target: **by now**, it is so.
+The arrow 矢 with a curl tied on top: flown, landed, knotted
+off — **by now**, it is so.
 
 ## In the wild
 

@@ -23,7 +23,9 @@ achieved, become. Taught in
 
 ## How to remember it
 
-The last stroke lands: **become**.
+The broad frame is a blade; tucked inside it is 丁 the nail,
+lending its sound. The stroke that finishes the work:
+**become**.
 
 ## In the wild
 

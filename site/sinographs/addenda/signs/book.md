@@ -25,7 +25,8 @@ kings — which is why "the 書 says" carries such weight. Taught in
 
 ## How to remember it
 
-A hand, a brush, and the saying written down: the **book**.
+A hand gripping the brush at the top, 曰 "say" at the bottom:
+what was said, brushed down — a **book**.
 
 ## In the wild
 

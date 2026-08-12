@@ -23,7 +23,8 @@ itself, and from there "good at." Taught in
 
 ## How to remember it
 
-Speech soft as sheep: **good**.
+The sheep's head with its little horns on top, a mouth 口 at
+the bottom: words gentle as a lamb — **good**.
 
 ## In the wild
 

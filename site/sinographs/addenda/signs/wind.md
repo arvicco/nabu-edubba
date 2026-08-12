@@ -25,7 +25,9 @@ Taught in
 
 ## How to remember it
 
-A sail full of humming air: **wind**.
+A sail bellied full, a little insect riding inside — the
+creature the old dictionaries said the **wind** quickens into
+life.
 
 ## In the wild
 
