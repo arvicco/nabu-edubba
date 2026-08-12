@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · M24-1 · phase-24 · S102 REBUILT GRAMMAR-FIRST (Gate
+24 of the two-gate cadence). The 82 characters re-batched into
+fifteen grammar chapters on the ruled Pulleyblank spine — the
+nominal sentence, the verb and its object, existence and the two
+negations, numbers as predicates, the 之-genitive, 者/所
+nominalization, coverbs, aspect (矣/已), questions, conditionals
+(則), modals, the causative state, comparison, quantification,
+discourse — each chapter teaching its element ON the famous
+readings the old chapters had verified (1.1 spread over its three
+grammatical homes; 1.5 whole in the causative chapter; the 2.4
+ladder split counting-chapter-to-finale as a course-length
+promise, paid). Toolchain: pool rows carry course+ordinal;
+per-course queues, caps (40/35/30), box_line --course; the
+contract test pins the border. Every reading re-verified by
+box_line under the new order — five draft lines caught over-cap
+and replaced; the tone lint caught hào-over-hǎo and 好 got a
+second verified cut; two ahead-of-teaching glyphs caught at the
+sweep; one roster swap ruled at draft (方↔父) when 方 had no
+readable use before 東. Parked files deleted; redirects
+re-pointed chapter-grain; 82 codex links name their chapters;
+sign_links serves all 137. Incident, self-inflicted and repaired
+in place: TWO commits landed on red gates because rake gate was
+piped to tail (the documented 2026-07-29 near-miss, repeated) —
+switched to gate > log + bare exit test, fix commits say so.
+
 2026-08-12 · M23-1..3 · phase-23 · THE COURSE BORDER, repaired.
 Owner, on discovering S101 at 25 chapters: the ladder ruling
 (2026-08-09) already assigned literacy to S102 — "Foundation is
