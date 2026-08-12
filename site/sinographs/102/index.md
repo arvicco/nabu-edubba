@@ -46,6 +46,7 @@ and the grammar holding them together.
   <li><a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">Can, get, want</a> — the modal row; wealth priced, greatness unchased</li>
   <li><a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">Making it happen</a> — the causative runs a thousand-chariot state; 天下為公 box-free</li>
   <li><a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">Like and alike</a> — the comparative ladder; 上善若水 without a box</li>
+  <li><a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">All of it</a> — 皆 all, 至 the utmost; the Great Learning stops at the good</li>
 </ol>
 
 The course is opening; more chapters appear here as they are
