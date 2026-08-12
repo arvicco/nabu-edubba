@@ -19,7 +19,7 @@ stated account of the oracle graph: flight ended, target
 reached. From *arrive* comes *utmost* — the point past which
 nothing goes. With 於 it makes 至於, "coming down to". Taught
 in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 

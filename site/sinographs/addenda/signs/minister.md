@@ -18,7 +18,7 @@ An eye stood on end — the classic account: the eye of a bowed
 head, glancing upward at the master. From "servant" the word
 climbed to the minister's title; before an emperor, officials
 of every rank say 臣 where we would say "I". Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 

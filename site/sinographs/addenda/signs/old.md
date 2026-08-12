@@ -20,7 +20,7 @@ come down through ten generations of mouths is old. Modern
 scholarship suspects the graph began otherwise, but two thousand
 years of readers have parsed it exactly this way, and the parse
 is the pedagogy. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 

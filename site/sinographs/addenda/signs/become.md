@@ -19,7 +19,7 @@ A broad-bladed weapon-sign with 丁 — the nail of the
 tool-chapter — set inside as its sound-mark. The old accounts
 read it as the work brought to its last stroke: completed,
 achieved, become. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 

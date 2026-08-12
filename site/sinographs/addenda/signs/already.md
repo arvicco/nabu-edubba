@@ -19,7 +19,7 @@ serpent, an unborn child — and the borrowing is old beyond
 tracing: 已 means what is finished, done, already so. With 而
 it makes the classics' favorite full stop: 而已, "and that is
 all." Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 

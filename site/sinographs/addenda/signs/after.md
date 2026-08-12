@@ -19,7 +19,7 @@ Three pieces tell one small story: a road-step on the left, and
 on the right a little thread over a dragging foot — hobbled and
 trailing, falling behind on the march. Behind in space, then
 after in time. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">the if-and-then chapter</a>.
 
 ## How to remember it
 

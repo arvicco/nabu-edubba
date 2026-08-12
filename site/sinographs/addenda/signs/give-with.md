@@ -19,7 +19,7 @@ Four hands — two above, two below — pass a single object between
 them: giving and taking part in one picture. Grammar wore it
 down to the word between nouns: X 與 Y, "X and Y, X with Y."
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 

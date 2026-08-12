@@ -18,7 +18,7 @@ permalink: /sinographs/addenda/signs/same/
 A covering piece held over a mouth 口 — the classic parse:
 everyone under one roof-piece, saying the same thing. Sameness,
 togetherness, agreement. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">the like-and-alike chapter</a>.
 
 ## How to remember it
 

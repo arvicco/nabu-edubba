@@ -19,7 +19,7 @@ old graph's picture is honestly disputed — one reading sees a
 person carrying something, another an implement — and the word
 grammaticalized so early that the classics use it almost purely
 as a tool-word: 以 X, "by X, using X". Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 

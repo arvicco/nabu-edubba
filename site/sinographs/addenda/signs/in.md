@@ -20,7 +20,7 @@ An old form of the crow 烏, borrowed whole for the preposition
 in a fuller dress: the oldest songs and annals point with 于,
 the *Analects* and the philosophers prefer 於. In, at, on —
 and after a comparison, *than*. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 

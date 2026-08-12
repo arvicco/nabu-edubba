@@ -20,7 +20,7 @@ found — sometimes already with the road-step at the left:
 picking up value on the way. The modern right half has worn the
 shell past recognizing, but the left-hand road survives. Taught
 in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 

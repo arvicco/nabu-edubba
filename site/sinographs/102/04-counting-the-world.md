@@ -109,7 +109,7 @@ no "years old." The count itself is the clock.
 
 ## Where this leaves you
 
-The number row runs whole from 一 to 十, then 百 and 萬 by
-name. Next chapter, the single most frequent character in the
+The number row runs whole from 一 to 十, with the hundred and
+the myriad already yours by name. Next chapter, the single most frequent character in the
 language gets its own lesson — the little thread 之 that ties
 one thing to another.

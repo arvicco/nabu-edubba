@@ -20,7 +20,7 @@ is speech given shape. As a title, 詩 is the Book of Odes, the
 three hundred songs that every educated voice could quote — the
 course met them as 詩三百 before it could even read the word
 詩 itself. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">the one-who chapter</a>.
 
 ## How to remember it
 

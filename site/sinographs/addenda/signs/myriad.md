@@ -22,7 +22,7 @@ loan was already ancient when writing settled, and the creature
 got a new graph of its own. As a number it means less a count
 than a totality: 萬物, the ten thousand things; 萬世, ten
 thousand generations — forever. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>.
 
 ## How to remember it
 

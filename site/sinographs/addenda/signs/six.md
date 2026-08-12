@@ -18,7 +18,7 @@ The stated account: an old graph of a hut — roof above, legs
 below — borrowed whole for the numeral that shared its sound,
 the same move that gave the grammar its little words. Taught
 in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>.
 
 ## How to remember it
 

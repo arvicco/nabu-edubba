@@ -18,7 +18,7 @@ A head 首 moving under the walking radical 辶 — a person going
 down a road; the stated account. From "road" the word widened to
 method, principle, and the absolute the *Laozi* is named for —
 and, as a verb, "to guide" and "to tell". Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 
