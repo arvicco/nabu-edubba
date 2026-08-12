@@ -135,6 +135,7 @@ sources:
   cong:      {file: "Zh-cóng.ogg", pinyin: "cóng"}   # 從
   shan-good: {file: "Zh-shàn.ogg", pinyin: "shàn"}   # 善 (shan = 山)
   chang:     {file: "Zh-cháng.ogg", pinyin: "cháng"} # 長
+  hao-love:  {file: "Zh-hào.ogg", pinyin: "hào"}     # 好 as the verb, to love
 
   # Primer demo syllables (not queue characters): pinyin: declares
   # the tone the verifier holds them to.

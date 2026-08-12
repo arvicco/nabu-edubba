@@ -43,6 +43,7 @@ gu.mp3         — "Zh-gu.ogg" · Yue Tan · CC BY-SA 3.0 us
 gu-therefore.mp3 — "Zh-gù.ogg" · Yue Tan · CC BY-SA 3.0 us
 guo.mp3        — "Zh-guó.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hao.mp3        — "Zh-hǎo.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
+hao-love.mp3   — "Zh-hào.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 he.mp3         — "Zh-hé.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hou.mp3        — "Zh-hòu.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
 hu.mp3         — "Zh-hūrán.ogg" · Wei Gao, Vion Nicolas · CC BY 2.0 fr
