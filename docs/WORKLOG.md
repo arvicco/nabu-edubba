@@ -5,6 +5,30 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · incident · phase-24 · CODEX HOOKS THAT HOOKED
+NOTHING. Owner, on 民's "How to remember it" ("The stroke through
+the eye: the people, who were once looked past — and became the
+measure of everything"): complete bullshit — no eye is visible in
+modern 民, and the rest explains nothing. Review of all 137
+sinograph hooks confirmed the pattern and its boundary: S101's
+hooks (written slowly) parse the visible form and pass; 32 S102
+hooks (written at rebuild speed) leaned on invisible etymology
+("the crow", "the elephant", "the eye") or dissolved into
+profundity with no referent. All 32 rewritten to the now-ruled
+hook law (sinographs.md §8 + ledger row): a hook names the
+strokes/components the learner can SEE — taught characters by
+glyph (the linker bubbles them), untaught components in plain
+words — and binds them to the keyword in one concrete image;
+origin-only features stay in "Where it comes from". Sample
+repairs: 民 = a seed-tray with one long shoot striking out (the
+awl-pierced eye stays in the origin story where it belongs); 士 =
+wide bar on top, the exact opposite of 土 — the officer stands
+shoulders first; 事 = the same writing-hand as 書, gripping the
+tally of office. Editorial law, enforced by review — a machine
+cannot judge whether an image reconstructs a character. Lesson
+for memory: hook quality collapses under authoring speed; check
+the hooks whenever pages are written in bulk.
+
 2026-08-12 · incident · phase-24 · S102 SIGNS MISSING FROM THE
 CODEX. Owner, on review: the 82 newly-taught S102 characters were
 absent from the Character Codex index and their sign-table glyphs

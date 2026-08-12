@@ -23,9 +23,8 @@ in
 
 ## How to remember it
 
-The <a href="{{ '/sinographs/addenda/signs/arrow/' | relative_url }}">arrow</a>
-that has flown since the knowing-and-walking chapter comes
-down: **arrive**.
+The arrow 矢 upside down, its point buried in the earth 土 at
+the bottom: flight over — **arrive**.
 
 ## In the wild
 

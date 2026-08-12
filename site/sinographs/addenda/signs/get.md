@@ -24,7 +24,9 @@ in
 
 ## How to remember it
 
-A cowrie in the fist on the open road: **get**.
+The road-step at the left; at the right a cowrie worn flat by
+time, with a hand closing under it: value picked up on the
+way — **get**.
 
 ## In the wild
 

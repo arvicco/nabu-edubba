@@ -24,8 +24,9 @@ scholar who serves with his learning. Taught in
 
 ## How to remember it
 
-An axe standing at attention — the **officer**, whose weapon
-became a writing brush.
+Wide bar on top, narrow stance below — the exact opposite of 土
+earth, whose wide line is the bottom one. The **officer**
+stands shoulders first; the earth sits base first.
 
 ## In the wild
 

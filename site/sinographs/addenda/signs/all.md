@@ -22,7 +22,8 @@ speaking with one voice — all, without exception. Taught in
 
 ## How to remember it
 
-Side by side, one voice: **all**.
+Two figures shoulder to shoulder on top, 白 beneath: everyone
+lined up saying one plain thing — **all**.
 
 ## In the wild
 

@@ -24,7 +24,8 @@ The classics borrowed the graph for "so, thus, like that"; 自然,
 
 ## How to remember it
 
-The roast crackles — and it is **so**.
+Flesh (the 月-shape) and a dog over four dots of fire: the
+roast is cooked, the matter settled — it is **so**.
 
 ## In the wild
 

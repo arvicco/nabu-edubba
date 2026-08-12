@@ -22,7 +22,8 @@ today's form long after the picture faded. Taught in
 
 ## How to remember it
 
-A back bent under the harvest — one more **year** carried in.
+The strokes are a figure with the harvest bundled on its back:
+one crop carried home, one **year** on the count.
 
 ## In the wild
 

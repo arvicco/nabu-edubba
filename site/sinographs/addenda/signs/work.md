@@ -23,7 +23,8 @@ person, the serving of them. Taught in
 
 ## How to remember it
 
-The job in the fist: **work**.
+The same writing-hand that grips the brush in 書, here gripping
+the tally of office: the job in that hand is the **work**.
 
 ## In the wild
 

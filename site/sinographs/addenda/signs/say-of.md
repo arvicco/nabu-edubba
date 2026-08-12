@@ -23,7 +23,9 @@ meaning. Taught in
 
 ## How to remember it
 
-Speech aimed at a thing: **say-of**.
+言 speech at the left aims the words; the right half only lends
+the sound *wèi*. Speech pointed at its object: **say-of** — to
+call a thing something.
 
 ## In the wild
 

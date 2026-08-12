@@ -23,7 +23,9 @@ character with a title. Taught in
 
 ## How to remember it
 
-Hand the tally over: **send**.
+A thin person at the left, the official with his tally at the
+right: hand someone the job and **send** them — or, in grammar,
+*make them do it*.
 
 ## In the wild
 

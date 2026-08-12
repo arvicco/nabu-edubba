@@ -23,7 +23,9 @@ to add, as deep and hard to fill as desire itself). Taught in
 
 ## How to remember it
 
-A mouth open wide as a valley: **want**.
+At the right a figure gapes wide; at the left a valley lends
+its sound — and its size: an appetite deep as a canyon, never
+filled. **Want**.
 
 ## In the wild
 

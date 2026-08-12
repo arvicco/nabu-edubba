@@ -23,7 +23,8 @@ explicit. Taught in
 
 ## How to remember it
 
-One walker behind another: **follow**.
+Two 人, one walking behind the other — with the road-step at
+the left and a foot below to keep them moving: **follow**.
 
 ## In the wild
 

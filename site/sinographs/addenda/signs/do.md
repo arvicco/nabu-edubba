@@ -22,8 +22,9 @@ the verb; read *wèi* when it means "for the sake of." Taught in
 
 ## How to remember it
 
-Whatever the job, a hand and an elephant can **do** it. The
-elephant is invisible now; the doing never stopped.
+A claw at the top, four small feet at the bottom: what is left
+of the hand leading the elephant — the heaviest **doing** the
+script ever drew.
 
 ## In the wild
 

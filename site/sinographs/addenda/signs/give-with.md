@@ -23,7 +23,8 @@ Taught in
 
 ## How to remember it
 
-Four hands, one gift: **give-with**.
+Hands at the four corners, one object held in the middle:
+giving, taking, sharing in one frame — **give-with**.
 
 ## In the wild
 
