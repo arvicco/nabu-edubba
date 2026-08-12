@@ -213,7 +213,7 @@ signs:
   count_kanripo: 1259720
   docs: 5012
   course: 102
-  chapter: 2
+  chapter: 9
   note: 'rank 94; the picture is genuinely debated — a plough''s cross-bar, a boat''s
     prow, a yoke — and the course does not pick a winner. The word fans out from "quarter
     of the world": 遠方, the far quarters.'
@@ -921,7 +921,7 @@ signs:
   count_kanripo: 572915
   docs: 4332
   course: 102
-  chapter: 9
+  chapter: 2
   note: rank 250; a hand gripping a rod — the old emblem of household authority, axe
     or staff by reading. Paired with 子 it frames the bond the Analects builds society
     from.
@@ -1620,8 +1620,8 @@ batches:
   - 出
   - 入
   - 來
-  - 方
-  coverage_pct: 1.8
+  - 父
+  coverage_pct: 1.7
 - chapter: 3
   signs:
   - 非
@@ -1639,7 +1639,7 @@ batches:
   - 七
   - 八
   - 丁
-  coverage_pct: 3.8
+  coverage_pct: 3.7
 - chapter: 5
   signs:
   - 首
@@ -1647,7 +1647,7 @@ batches:
   - 相
   - 古
   - 文
-  coverage_pct: 4.7
+  coverage_pct: 4.6
 - chapter: 6
   signs:
   - 所
@@ -1655,7 +1655,7 @@ batches:
   - 書
   - 詩
   - 云
-  coverage_pct: 6.1
+  coverage_pct: 6.0
 - chapter: 7
   signs:
   - 以
@@ -1663,7 +1663,7 @@ batches:
   - 於
   - 自
   - 與
-  coverage_pct: 8.6
+  coverage_pct: 8.5
 - chapter: 8
   signs:
   - 矣
@@ -1672,13 +1672,13 @@ batches:
   - 學
   - 時
   - 年
-  coverage_pct: 10.0
+  coverage_pct: 9.9
 - chapter: 9
   signs:
+  - 方
   - 可
   - 何
   - 安
-  - 父
   - 東
   coverage_pct: 10.9
 - chapter: 10
