@@ -56,6 +56,25 @@ class PinyinVoiceTest < Minitest::Test
     assert_equal "site/assets/audio/lines/102-15-dao-fa-zi-ran.mp3", line["out"]
   end
 
+  def test_middle_segment_picks_the_center_token_of_a_triple
+    # 媽、媽、媽。 — three voiced tokens split by two silences
+    silences = [[0.42, 0.61], [1.05, 1.22]]
+    assert_equal [0.61, 1.05], Edubba::PinyinVoice.middle_segment(silences, 1.70)
+    # tokens merged into one — nothing to pick mid-way, caller refuses
+    assert_nil Edubba::PinyinVoice.middle_segment([], 0.5)
+    # sub-0.08s slivers (clicks) are not tokens
+    assert_equal [0.30, 0.90],
+                 Edubba::PinyinVoice.middle_segment([[0.02, 0.30], [0.90, 0.95]], 1.0)
+  end
+
+  def test_plan_cut_flag_travels_into_the_batch
+    plan = PLAN.merge("syllables" => {
+                        "da" => { "pinyin" => "dà", "text" => "大、大、大。", "cut" => "middle" }
+                      })
+    item = Edubba::PinyinVoice.pending_items(plan, { "built" => {} }).first
+    assert_equal "middle", item["cut"]
+  end
+
   def test_syllable_count_reads_the_pinyin_line
     assert_equal 4, Edubba::PinyinVoice.syllable_count("dào fǎ zì rán")
     assert_equal 9, Edubba::PinyinVoice.syllable_count("xué ér shí xí zhī, bù yì yuè hū")

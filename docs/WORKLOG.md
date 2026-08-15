@@ -28,7 +28,26 @@ built clip ledgered (voice-ledger.yml). voice-plan.yml authored:
 140 syllable entries (12 polyphone carrier overrides — 形 for
 xíng, 維 wéi, 香 xiāng, 號 hào, 德 dé, 常 cháng, 雨 yǔ, 第 dì… —
 chosen so same-tone misreadings can't slip past the tone gate) +
-8 pilot lines. Batch 1 generated; awaiting the owner's synth run.
+8 pilot lines. Round 1 (owner synthesized 148): 99 passed the
+gate and shipped — all 8 pilot lines and 91 syllables; 49
+syllables REFUSED by the tone verifier, and the refusals were
+systematic TTS prosody, not noise: declarative declination (tone
+1 audibly sinking start-to-end), missing tone-2 rises, final
+rebounds — the pitch gate, built for human clips, correctly
+refused conversational contours as citation forms. Fix at the
+source, not the gate: the 49 re-planned as enumerated TRIPLE
+carriers (媽、媽、媽。) with integrate cutting the middle token —
+list intonation holds each token near citation form and the
+middle one has neither onset creak nor final declination — plus
+high-stability voice_settings. Pipeline hardened same commit:
+refused clips auto-move to staging/rejected/ (re-synth
+regenerates), synth records the true engine/voice to
+staging/_engine.json for the ledger, and the credits writer
+carries LEGACY Commons attribution lines forward for any clip
+not yet regenerated (caught in review: the first regeneration
+overwrote CC attributions while 49 human clips still shipped —
+an attribution-law violation, repaired before commit). Round 2
+batch (49) generated; awaiting the owner's second synth run.
 
 2026-08-12 · incident · phase-24 · BOXES ON THE REFERENCE SHELF +
 MIS-ROUTED "TAUGHT IN". Owner, on 臣's codex page: why are there

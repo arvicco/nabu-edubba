@@ -77,10 +77,12 @@ module Edubba
       (plan["syllables"] || {}).each do |id, s|
         next if !all && built.key?(id)
 
-        items << { "id" => id, "kind" => s["kind"] || "syllable",
-                   "text" => s["text"], "pinyin" => s["pinyin"],
-                   "verify" => s["verify"] || "tone",
-                   "out" => out_path(id, "syllable") }
+        item = { "id" => id, "kind" => s["kind"] || "syllable",
+                 "text" => s["text"], "pinyin" => s["pinyin"],
+                 "verify" => s["verify"] || "tone",
+                 "out" => out_path(id, "syllable") }
+        item["cut"] = s["cut"] if s["cut"]
+        items << item
       end
       (plan["lines"] || {}).each do |id, l|
         next if !all && built.key?(id)
@@ -96,6 +98,24 @@ module Edubba
     # Syllable count a line's pinyin declares (for the hump report).
     def syllable_count(pinyin)
       pinyin.to_s.split(/[\s,，。？！?!:：]+/).reject(&:empty?).size
+    end
+
+    # The middle voiced segment of a triple-carrier utterance
+    # (X、X、X。): silences is [[start,end],...] from silencedetect,
+    # dur the total duration. Voiced segments are the gaps between
+    # silences; the one nearest the utterance's center is the token
+    # with neither onset creak nor final declination — the citation
+    # form (2026-08-15: single-token synthesis failed the tone gate
+    # 47 times on declination and rebound).
+    def middle_segment(silences, dur)
+      return nil if silences.empty? # tokens merged — nothing separated
+
+      edges = [[nil, 0.0]] + silences + [[dur, nil]]
+      segs = edges.each_cons(2).map { |(_, e), (s, _)| [e, s] }
+                  .select { |from, to| to - from > 0.08 }
+      return nil if segs.empty?
+
+      segs.min_by { |from, to| ((from + to) / 2.0 - dur / 2.0).abs }
     end
   end
 end
@@ -142,6 +162,7 @@ if $PROGRAM_NAME == __FILE__
       uri = URI("#{API_BASE}/v1/text-to-speech/#{eng['voice_id']}?output_format=#{eng['output_format']}")
       body = { "text" => item["text"], "model_id" => eng["model_id"] }
       body["language_code"] = eng["language"] if eng["language"].to_s != ""
+      body["voice_settings"] = eng["voice_settings"] if eng["voice_settings"]
       req = Net::HTTP::Post.new(uri, "xi-api-key" => key, "Content-Type" => "application/json")
       req.body = JSON.generate(body)
       res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
@@ -159,6 +180,10 @@ if $PROGRAM_NAME == __FILE__
       end
       sleep 0.4
     end
+    # Record which voice actually spoke (sans key) so integrate can
+    # ledger true provenance — env at synth time is the authority.
+    File.write(File.join(STAGING, "_engine.json"),
+               JSON.pretty_generate(eng.reject { |k, _| k == "api_key" }))
     puts "voice synth: #{done} synthesized, #{skipped} already staged, #{failures.size} failed"
     failures.each { |f| puts "  FAIL #{f}" }
     puts "Next: rake voice:integrate (agent-run QA + site encode)" if failures.empty?
@@ -168,11 +193,19 @@ if $PROGRAM_NAME == __FILE__
     abort "voice integrate: ffmpeg not found" if `which ffmpeg`.empty?
     abort "voice integrate: no batch file" unless File.exist?(BATCH)
     batch = JSON.parse(File.read(BATCH))
+    engine_used = File.exist?(File.join(STAGING, "_engine.json")) ?
+                    JSON.parse(File.read(File.join(STAGING, "_engine.json"))) : batch["engine"]
     force = ARGV.reject { |a| a.start_with?("--") }
     built = 0
     failures = []
     tmp = File.join(STAGING, "_work")
+    rejected = File.join(STAGING, "rejected")
     FileUtils.mkdir_p(tmp)
+    FileUtils.mkdir_p(rejected)
+    reject = lambda do |id, staged, why|
+      failures << "#{id}: #{why}"
+      FileUtils.mv(staged, File.join(rejected, File.basename(staged)))
+    end
     batch["items"].each do |item|
       id = item["id"]
       staged = File.join(STAGING, "#{id}.mp3")
@@ -186,8 +219,24 @@ if $PROGRAM_NAME == __FILE__
                     "areverse,silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05,areverse",
              trimmed)
       unless File.exist?(trimmed) && File.size(trimmed) > 1000
-        failures << "#{id}: trim produced nothing usable"
+        reject.call(id, staged, "trim produced nothing usable — refused")
         next
+      end
+      if item["cut"] == "middle"
+        det = `ffmpeg -i #{trimmed.inspect} -af silencedetect=noise=-35dB:d=0.12 -f null - 2>&1`
+        dur_s = det[/Duration: (\d+):(\d+):([\d.]+)/] ? ($1.to_i * 3600 + $2.to_i * 60 + $3.to_f) : 0.0
+        silences = det.scan(/silence_start: ([\d.]+).*?silence_end: ([\d.]+)/m)
+                      .map { |s, e| [s.to_f, e.to_f] }
+        seg = Edubba::PinyinVoice.middle_segment(silences, dur_s)
+        if seg.nil? || silences.empty?
+          reject.call(id, staged, "triple-carrier tokens did not separate (#{silences.size} silences) — refused")
+          next
+        end
+        cutf = File.join(tmp, "#{id}-cut.wav")
+        from = [seg[0] - 0.02, 0].max
+        system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed,
+               "-ss", format("%.3f", from), "-to", format("%.3f", seg[1] + 0.02), cutf)
+        trimmed = cutf
       end
       pcm_f = File.join(tmp, "#{id}.pcm")
       system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
@@ -200,17 +249,17 @@ if $PROGRAM_NAME == __FILE__
         expected = Edubba::PinyinAudio.tone_of(item["pinyin"].to_s)
         unless Edubba::PinyinAudio.tone_ok?(expected, track)
           got = Edubba::PinyinAudio.classify(track)
-          failures << "#{id}: pitch says #{got}, pinyin #{item['pinyin']} expects #{expected} — refused"
+          reject.call(id, staged, "pitch says #{got}, pinyin #{item['pinyin']} expects #{expected} — refused")
           next
         end
         cut_pass, why = Edubba::PinyinAudio.cut_ok?(pcm, tone: expected)
         unless cut_pass
-          failures << "#{id}: #{why} — refused"
+          reject.call(id, staged, "#{why} — refused")
           next
         end
       when "line"
         unless dur.between?(0.8, 20.0)
-          failures << "#{id}: duration #{dur.round(2)}s outside 0.8–20s — refused"
+          reject.call(id, staged, "duration #{dur.round(2)}s outside 0.8–20s — refused")
           next
         end
         want = Edubba::PinyinVoice.syllable_count(item["pinyin"])
@@ -218,7 +267,7 @@ if $PROGRAM_NAME == __FILE__
         puts "  #{id}: #{dur.round(2)}s, #{got} energy humps for #{want} syllables (report only)"
       else # "loudness" — neutral tone, tone sequences: no contour law
         unless dur.between?(0.1, 20.0)
-          failures << "#{id}: duration #{dur.round(2)}s implausible — refused"
+          reject.call(id, staged, "duration #{dur.round(2)}s implausible — refused")
           next
         end
       end
@@ -233,8 +282,8 @@ if $PROGRAM_NAME == __FILE__
              "-af", format("volume=%.1fdB", gain),
              "-codec:a", "libmp3lame", "-b:a", "64k", out)
       ledger["built"][id] = { "date" => Time.now.strftime("%Y-%m-%d"),
-                              "voice_id" => batch["engine"]["voice_id"] || ENV["ELEVENLABS_VOICE_ID"],
-                              "model_id" => batch["engine"]["model_id"],
+                              "voice_id" => engine_used["voice_id"],
+                              "model_id" => engine_used["model_id"],
                               "text" => item["text"], "pinyin" => item["pinyin"] }
       built += 1
       puts "built #{File.basename(out)} (#{item['verify']} ✓)"
@@ -248,11 +297,21 @@ if $PROGRAM_NAME == __FILE__
                  " · voice #{ledger['built'].values.map { |b| b['voice_id'] }.compact.uniq.join('/')}"
       syl = ledger["built"].select { |id, _| File.exist?(File.join(OUT_SYL, "#{id}.mp3")) }
       lin = ledger["built"].select { |id, _| File.exist?(File.join(OUT_LIN, "#{id}.mp3")) }
-      File.write(File.join(OUT_SYL, "CREDITS-syllables.txt"), <<~TXT)
+      # Attribution law: any clip NOT yet regenerated is still a
+      # Commons recording and keeps its CC attribution line —
+      # carried forward from the previous credits file until the
+      # standard voice replaces it.
+      credits_f = File.join(OUT_SYL, "CREDITS-syllables.txt")
+      legacy = File.exist?(credits_f) ?
+                 File.read(credits_f).lines
+                     .select { |l| l =~ /\A(\S+)\.mp3\s+— / && !ledger["built"].key?(Regexp.last_match(1)) } : []
+      legacy_block = legacy.empty? ? "" :
+        "\nLegacy clips (Wikimedia Commons era), pending regeneration:\n#{legacy.join}"
+      File.write(credits_f, <<~TXT + legacy_block)
         Per-syllable audio credits
         ==========================
         GENERATED by bin/pinyin_voice.rb — do not edit by hand.
-        All syllable audio is SYNTHESIZED in one standard voice
+        The clips listed below are SYNTHESIZED in one standard voice
         (#{eng_line}), then pitch-verified against the declared tone
         and loudness-normalized (mono 64 kbps mp3). The rulebook
         (docs/courses/sinographs.md §2) records the ruling: no native
@@ -276,7 +335,7 @@ if $PROGRAM_NAME == __FILE__
     end
     puts "voice integrate: #{built} built, #{failures.size} failed"
     failures.each { |f| puts "  FAIL #{f}" }
-    puts "Failures stay staged for inspection; fix the plan and re-batch." unless failures.empty?
+    puts "Refused clips moved to staging/rejected/; the next synth run regenerates them." unless failures.empty?
     exit(failures.empty? ? 0 : 1)
 
   when "voices"
