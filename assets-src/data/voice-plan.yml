@@ -7,23 +7,12 @@
 # unambiguous for the target reading; polyphone overrides are
 # deliberate). lines: classical reading lines, modern Mandarin.
 # verify: tone (default) | line | loudness — what integrate demands.
-# Triple carriers (X、X、X。 with cut: middle, 2026-08-15): the
-# first synth round failed the tone gate 47 times — single-token
-# utterances carry declarative declination (tone 1 sinks), weak
-# rises, and final rebound. An enumerated triple keeps each token
-# near citation form; integrate cuts the middle one (no onset
-# creak, no final declination). voice_settings pins high
-# stability for the same reason.
 engine:
   vendor: elevenlabs
   model_id: eleven_multilingual_v2
   output_format: mp3_44100_128
   language: zh
   voice_id:
-  voice_settings:
-    stability: 0.9
-    style: 0.0
-    use_speaker_boost: false
 syllables:
   yue-say:
     pinyin: yuē
@@ -33,8 +22,7 @@ syllables:
     text: 仁
   da:
     pinyin: dà
-    text: 大、大、大。
-    cut: middle
+    text: 大
   tian:
     pinyin: tiān
     text: 天
@@ -43,15 +31,13 @@ syllables:
     text: 土
   wang:
     pinyin: wáng
-    text: 王、王、王。
-    cut: middle
+    text: 王
   yi:
     pinyin: yī
     text: 一
   er:
     pinyin: èr
-    text: 二、二、二。
-    cut: middle
+    text: 二
   san:
     pinyin: sān
     text: 三
@@ -60,29 +46,25 @@ syllables:
     text: 中
   shang:
     pinyin: shàng
-    text: 上、上、上。
-    cut: middle
+    text: 上
   xia:
     pinyin: xià
     text: 下
   ri:
     pinyin: rì
-    text: 日、日、日。
-    cut: middle
+    text: 日
   yue:
     pinyin: yuè
     text: 月
   shan:
     pinyin: shān
-    text: 山、山、山。
-    cut: middle
+    text: 山
   shui:
     pinyin: shuǐ
     text: 水
   mu:
     pinyin: mù
-    text: 木、木、木。
-    cut: middle
+    text: 木
   kou:
     pinyin: kǒu
     text: 口
@@ -91,12 +73,10 @@ syllables:
     text: 子
   ming:
     pinyin: míng
-    text: 明、明、明。
-    cut: middle
+    text: 明
   dan:
     pinyin: dàn
-    text: 旦、旦、旦。
-    cut: middle
+    text: 旦
   xiu:
     pinyin: xiū
     text: 休
@@ -108,8 +88,7 @@ syllables:
     text: 末
   wei:
     pinyin: wèi
-    text: 味、味、味。
-    cut: middle
+    text: 味
   zhi:
     pinyin: zhī
     text: 之
@@ -121,15 +100,13 @@ syllables:
     text: 也
   you:
     pinyin: yòu
-    text: 又、又、又。
-    cut: middle
+    text: 又
   you-have:
     pinyin: yǒu
     text: 有
   shi:
     pinyin: shí
-    text: 時、時、時。
-    cut: middle
+    text: 時
   shi-arrow:
     pinyin: shǐ
     text: 矢
@@ -138,20 +115,16 @@ syllables:
     text: 而
   xing:
     pinyin: xíng
-    text: 形、形、形。
-    cut: middle
+    text: 形
   yan:
     pinyin: yán
-    text: 言、言、言。
-    cut: middle
+    text: 言
   wei-do:
     pinyin: wéi
-    text: 維、維、維。
-    cut: middle
+    text: 維
   wu:
     pinyin: wú
-    text: 無、無、無。
-    cut: middle
+    text: 無
   wo:
     pinyin: wǒ
     text: 我
@@ -172,8 +145,7 @@ syllables:
     text: 是
   xi:
     pinyin: xī
-    text: 夕、夕、夕。
-    cut: middle
+    text: 夕
   zhe:
     pinyin: zhě
     text: 者
@@ -182,16 +154,13 @@ syllables:
     text: 其
   yi-also:
     pinyin: yì
-    text: 亦、亦、亦。
-    cut: middle
+    text: 亦
   yu:
     pinyin: yú
-    text: 魚、魚、魚。
-    cut: middle
+    text: 魚
   hu:
     pinyin: hū
-    text: 乎、乎、乎。
-    cut: middle
+    text: 乎
   pin:
     pinyin: pǐn
     text: 品
@@ -227,8 +196,7 @@ syllables:
     text: 百
   jian:
     pinyin: jiàn
-    text: 見、見、見。
-    cut: middle
+    text: 見
   xiang:
     pinyin: xiāng
     text: 香
@@ -237,8 +205,7 @@ syllables:
     text: 首
   dao:
     pinyin: dào
-    text: 道、道、道。
-    cut: middle
+    text: 道
   nuu:
     pinyin: nǚ
     text: 女
@@ -247,12 +214,10 @@ syllables:
     text: 好
   ru:
     pinyin: rú
-    text: 如、如、如。
-    cut: middle
+    text: 如
   yun:
     pinyin: yún
-    text: 云、云、云。
-    cut: middle
+    text: 云
   fei:
     pinyin: fēi
     text: 非
@@ -270,8 +235,7 @@ syllables:
     text: 今
   qi-seven:
     pinyin: qī
-    text: 七、七、七。
-    cut: middle
+    text: 七
   ba:
     pinyin: bā
     text: 八
@@ -280,23 +244,19 @@ syllables:
     text: 九
   niu:
     pinyin: niú
-    text: 牛、牛、牛。
-    cut: middle
+    text: 牛
   wu-thing:
     pinyin: wù
-    text: 物、物、物。
-    cut: middle
+    text: 物
   wan:
     pinyin: wàn
-    text: 萬、萬、萬。
-    cut: middle
+    text: 萬
   gu:
     pinyin: gǔ
     text: 古
   gu-therefore:
     pinyin: gù
-    text: 故、故、故。
-    cut: middle
+    text: 故
   wen:
     pinyin: wén
     text: 文
@@ -314,16 +274,13 @@ syllables:
     text: 公
   min:
     pinyin: mín
-    text: 民、民、民。
-    cut: middle
+    text: 民
   chen:
     pinyin: chén
-    text: 臣、臣、臣。
-    cut: middle
+    text: 臣
   he:
     pinyin: hé
-    text: 何、何、何。
-    cut: middle
+    text: 何
   zai:
     pinyin: zài
     text: 在
@@ -332,8 +289,7 @@ syllables:
     text: 出
   ru-enter:
     pinyin: rù
-    text: 入、入、入。
-    cut: middle
+    text: 入
   fang:
     pinyin: fāng
     text: 方
@@ -345,8 +301,7 @@ syllables:
     text: 學
   nian:
     pinyin: nián
-    text: 年、年、年。
-    cut: middle
+    text: 年
   fu:
     pinyin: fù
     text: 父
@@ -358,19 +313,16 @@ syllables:
     text: 刀
   fen:
     pinyin: fēn
-    text: 分、分、分。
-    cut: middle
+    text: 分
   ze:
     pinyin: zé
-    text: 則、則、則。
-    cut: middle
+    text: 則
   xian:
     pinyin: xiān
     text: 先
   hou:
     pinyin: hòu
-    text: 後、後、後。
-    cut: middle
+    text: 後
   zuo:
     pinyin: zuò
     text: 作
@@ -397,8 +349,7 @@ syllables:
     text: 皆
   ran:
     pinyin: rán
-    text: 然、然、然。
-    cut: middle
+    text: 然
   guo:
     pinyin: guó
     text: 國
@@ -407,8 +358,7 @@ syllables:
     text: 千
   di:
     pinyin: dì
-    text: 第、第、第。
-    cut: middle
+    text: 第
   feng:
     pinyin: fēng
     text: 風
@@ -423,46 +373,37 @@ syllables:
     text: 從
   shan-good:
     pinyin: shàn
-    text: 善、善、善。
-    cut: middle
+    text: 善
   chang:
     pinyin: cháng
     text: 常
   hao-love:
     pinyin: hào
-    text: 號、號、號。
-    cut: middle
+    text: 號
   ge:
     pinyin: gē
-    text: 歌、歌、歌。
-    cut: middle
+    text: 歌
   ta:
     pinyin: tà
-    text: 踏、踏、踏。
-    cut: middle
+    text: 踏
   fa:
     pinyin: fā
     text: 發
   ai:
     pinyin: ài
-    text: 愛、愛、愛。
-    cut: middle
+    text: 愛
   lai:
     pinyin: lái
-    text: 來、來、來。
-    cut: middle
+    text: 來
   bei:
     pinyin: bèi
-    text: 貝、貝、貝。
-    cut: middle
+    text: 貝
   ma-high:
     pinyin: mā
-    text: 媽、媽、媽。
-    cut: middle
+    text: 媽
   ma-rising:
     pinyin: má
-    text: 麻、麻、麻。
-    cut: middle
+    text: 麻
   ma-dipping:
     pinyin: mǎ
     text: 馬
@@ -483,8 +424,7 @@ syllables:
     text: 吃
   lv:
     pinyin: lǜ
-    text: 綠、綠、綠。
-    cut: middle
+    text: 綠
   e:
     pinyin: é
     text: 鵝
