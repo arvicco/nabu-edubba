@@ -99,10 +99,9 @@ The tone mark sits over the vowel, and its shape draws the pitch:
   </tbody>
 </table>
 
-(The tone-1 and neutral recordings are cut from and shown in the
-word <span class="translit pinyin">mā·ma</span>, "mother" — listen
-for the second syllable of the neutral row: short, low, thrown
-away.) All four tones in one breath, one voice:
+(The neutral row's clip is 嗎, the question particle — listen for
+how it is thrown away: short, low, unstressed.) All four tones in
+one breath, one voice:
 
 <p><audio controls preload="none" src="{{ '/assets/audio/pinyin/ma-four-tones.mp3' | relative_url }}"></audio></p>
 
@@ -322,9 +321,11 @@ not pronounced this way; the old sounds are a reconstruction
 problem, and this school tells that story in its own later
 chapter rather than pretending the problem away.
 
-Recordings by Wei Gao and Nicolas Vion (Shtooka Project), Yue
-Tan, Xudong Yang, and Peter Isotalo, from Wikimedia Commons under
-CC BY and CC BY-SA licenses — per-file credits in
+The audio is synthesized: one standard modern-Mandarin voice for
+every syllable and every voiced line in the school, and every
+clip is machine-checked before it ships — it must sing the tone
+it prints, at matched loudness, or it is refused and remade.
+Engine, voice, and per-file records in
 <a href="{{ '/assets/audio/pinyin/CREDITS.txt' | relative_url }}">the credits file</a>,
 served from this site, never hotlinked.
 

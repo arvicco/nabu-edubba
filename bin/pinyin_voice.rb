@@ -71,23 +71,38 @@ module Edubba
 
     # Pending work: every plan item not yet in the ledger (or all of
     # them with all: true — the wholesale regeneration mode).
-    def pending_items(plan, ledger, all: false)
+    #
+    # Variant fan-out (owner design 2026-08-15: "make MANY versions
+    # with the same syllables, and check what works"): a syllable may
+    # carry `variants:` — a list of {text, cut, voice_settings}
+    # strategies — and rolls > 1 duplicates every strategy for
+    # stochastic retries. Each attempt becomes its own batch item
+    # (id~v0a, id~v0b, id~v1a …) sharing the base id and out path;
+    # integrate ships the first attempt that passes QA.
+    def pending_items(plan, ledger, all: false, rolls: 1)
       built = ledger.fetch("built", {})
       items = []
       (plan["syllables"] || {}).each do |id, s|
         next if !all && built.key?(id)
 
-        item = { "id" => id, "kind" => s["kind"] || "syllable",
-                 "text" => s["text"], "pinyin" => s["pinyin"],
-                 "verify" => s["verify"] || "tone",
-                 "out" => out_path(id, "syllable") }
-        item["cut"] = s["cut"] if s["cut"]
-        items << item
+        specs = s["variants"] || [s]
+        specs.each_with_index do |spec, vi|
+          rolls.times do |roll|
+            item = { "id" => specs.length * rolls == 1 ? id : "#{id}~v#{vi}#{('a'.ord + roll).chr}",
+                     "base" => id, "kind" => s["kind"] || "syllable",
+                     "text" => spec["text"], "pinyin" => s["pinyin"],
+                     "verify" => s["verify"] || "tone",
+                     "out" => out_path(id, "syllable") }
+            item["cut"] = spec["cut"] if spec["cut"]
+            item["voice_settings"] = spec["voice_settings"] if spec["voice_settings"]
+            items << item
+          end
+        end
       end
       (plan["lines"] || {}).each do |id, l|
         next if !all && built.key?(id)
 
-        items << { "id" => id, "kind" => "line",
+        items << { "id" => id, "base" => id, "kind" => "line",
                    "text" => l["text"], "pinyin" => l["pinyin"],
                    "verify" => l["verify"] || "line",
                    "out" => out_path(id, "line") }
@@ -95,27 +110,100 @@ module Edubba
       items
     end
 
+    # Track hygiene for synthesized cuts (2026-08-15): the
+    # autocorrelation tracker, tuned on clean dedicated recordings,
+    # throws octave-jump garbage on TTS fricative onsets (學 tracked
+    # 85↔356 Hz frame to frame — physically impossible). Median-3
+    # filter, then clip to a physiological band around the track's
+    # median (0.6×–1.6×) and drop what falls outside. The contour
+    # LAW is untouched — only the measurement is cleaned.
+    def clean_track(track)
+      return track if track.length < 3
+
+      med3 = track.each_index.map do |i|
+        a = [i - 1, 0].max
+        b = [i + 1, track.length - 1].min
+        track[a..b].sort[(b - a) / 2]
+      end
+      center = med3.sort[med3.length / 2].to_f
+      med3.select { |f| f.between?(center * 0.6, center * 1.6) }
+    end
+
     # Syllable count a line's pinyin declares (for the hump report).
     def syllable_count(pinyin)
       pinyin.to_s.split(/[\s,，。？！?!:：]+/).reject(&:empty?).size
     end
 
-    # The middle voiced segment of a triple-carrier utterance
-    # (X、X、X。): silences is [[start,end],...] from silencedetect,
-    # dur the total duration. Voiced segments are the gaps between
-    # silences; the one nearest the utterance's center is the token
-    # with neither onset creak nor final declination — the citation
-    # form (2026-08-15: single-token synthesis failed the tone gate
-    # 47 times on declination and rebound).
-    def middle_segment(silences, dur)
-      return nil if silences.empty? # tokens merged — nothing separated
+    # The middle token of a triple-carrier utterance (X、X、X。),
+    # located on the ENERGY ENVELOPE (25 ms frames, PinyinAudio's) —
+    # silence detection failed on connected list readings
+    # (2026-08-15: "0 silences" on 大、大、大。 spoken without gaps),
+    # but even connected repetitions dip between syllables. Returns
+    # [from_s, to_s] or nil.
+    #
+    # Separated tokens: pick the voiced run nearest the center.
+    # Connected (one run): split at the lowest internal valleys in
+    # the run's middle thirds; the slice between them is the middle
+    # token. A middle shorter than 75 ms is a failed split.
+    FRAME_S = Edubba::PinyinAudio::FRAME / 16_000.0
 
-      edges = [[nil, 0.0]] + silences + [[dur, nil]]
-      segs = edges.each_cons(2).map { |(_, e), (s, _)| [e, s] }
-                  .select { |from, to| to - from > 0.08 }
-      return nil if segs.empty?
+    def middle_token(env)
+      token_at(env, :middle)
+    end
 
-      segs.min_by { |from, to| ((from + to) / 2.0 - dur / 2.0).abs }
+    # position :middle — the center token of a triple (X、X、X。);
+    # :first — the opening syllable of a disyllabic carrier word
+    # (時間 for shí): first position in a word gets full careful
+    # articulation where isolated repetition sags (2026-08-15, the
+    # eleven stragglers — eight of them tone-2 rises).
+    def token_at(env, position)
+      peak = env.max.to_f
+      return nil if peak <= 0
+
+      mask = env.map { |e| e >= peak * Edubba::PinyinAudio::HUMP_FLOOR }
+      runs = []
+      mask.each_with_index do |v, i|
+        if v && runs.last && runs.last.last == i - 1 then runs.last[1] = i
+        elsif v then runs << [i, i]
+        end
+      end
+      # join runs split by 1-frame dips (the humps law's tolerance)
+      runs = runs.each_with_object([]) do |r, acc|
+        if acc.last && r[0] - acc.last[1] <= 2 then acc.last[1] = r[1]
+        else acc << r
+        end
+      end
+      return nil if runs.empty?
+
+      if runs.length >= 2
+        pick = case position
+               when :first  then runs.first
+               when :second then runs.length >= 2 ? runs[1] : nil
+               else runs.min_by { |a, b| ((a + b) / 2.0 - env.length / 2.0).abs }
+               end
+        return pick && [pick[0] * FRAME_S, (pick[1] + 1) * FRAME_S]
+      end
+      # :second demands separated tokens — a connected four-tone
+      # paradigm can't be split reliably; refuse and re-roll.
+      return nil if position == :second
+
+      a, b = runs.first
+      len = b - a + 1
+      if position == :first
+        return nil if len < 6 # under ~150 ms can't hold two tokens
+
+        v1 = (a + len / 4..a + 3 * len / 4).min_by { |i| env[i] }
+        return nil if v1 - a < 3
+
+        return [a * FRAME_S, v1 * FRAME_S]
+      end
+      return nil if len < 9 # under ~225 ms can't hold three tokens
+
+      v1 = (a + len / 6..a + len / 2).min_by { |i| env[i] }
+      v2 = (a + len / 2..a + 5 * len / 6).min_by { |i| env[i] }
+      return nil if v2 - v1 < 3
+
+      [(v1 + 1) * FRAME_S, v2 * FRAME_S]
     end
   end
 end
@@ -128,7 +216,9 @@ if $PROGRAM_NAME == __FILE__
 
   case cmd
   when "batch"
-    items = Edubba::PinyinVoice.pending_items(plan, ledger, all: ARGV.include?("--all"))
+    rolls = ARGV.include?("--rolls") ? ARGV[ARGV.index("--rolls") + 1].to_i : 1
+    items = Edubba::PinyinVoice.pending_items(plan, ledger, all: ARGV.include?("--all"),
+                                                            rolls: [rolls, 1].max)
     if items.empty?
       puts "voice batch: nothing pending — plan fully built (use --all to regenerate)"
       exit 0
@@ -162,7 +252,8 @@ if $PROGRAM_NAME == __FILE__
       uri = URI("#{API_BASE}/v1/text-to-speech/#{eng['voice_id']}?output_format=#{eng['output_format']}")
       body = { "text" => item["text"], "model_id" => eng["model_id"] }
       body["language_code"] = eng["language"] if eng["language"].to_s != ""
-      body["voice_settings"] = eng["voice_settings"] if eng["voice_settings"]
+      settings = item["voice_settings"] || eng["voice_settings"]
+      body["voice_settings"] = settings if settings
       req = Net::HTTP::Post.new(uri, "xi-api-key" => key, "Content-Type" => "application/json")
       req.body = JSON.generate(body)
       res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
@@ -202,40 +293,27 @@ if $PROGRAM_NAME == __FILE__
     rejected = File.join(STAGING, "rejected")
     FileUtils.mkdir_p(tmp)
     FileUtils.mkdir_p(rejected)
-    reject = lambda do |id, staged, why|
-      failures << "#{id}: #{why}"
-      FileUtils.mv(staged, File.join(rejected, File.basename(staged)))
-    end
-    batch["items"].each do |item|
+    # QA one staged attempt: returns the trimmed/cut wav path on
+    # pass, or a refusal reason string.
+    qa = lambda do |item, staged|
       id = item["id"]
-      staged = File.join(STAGING, "#{id}.mp3")
-      next unless File.exist?(staged)
-      next if ledger["built"].key?(id) && !ARGV.include?("--force") && !force.include?(id)
-
-      # Trim leading/trailing silence, decode a QA copy.
       trimmed = File.join(tmp, "#{id}.wav")
       system("ffmpeg", "-v", "quiet", "-y", "-i", staged,
              "-af", "silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05," \
                     "areverse,silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05,areverse",
              trimmed)
-      unless File.exist?(trimmed) && File.size(trimmed) > 1000
-        reject.call(id, staged, "trim produced nothing usable — refused")
-        next
-      end
-      if item["cut"] == "middle"
-        det = `ffmpeg -i #{trimmed.inspect} -af silencedetect=noise=-35dB:d=0.12 -f null - 2>&1`
-        dur_s = det[/Duration: (\d+):(\d+):([\d.]+)/] ? ($1.to_i * 3600 + $2.to_i * 60 + $3.to_f) : 0.0
-        silences = det.scan(/silence_start: ([\d.]+).*?silence_end: ([\d.]+)/m)
-                      .map { |s, e| [s.to_f, e.to_f] }
-        seg = Edubba::PinyinVoice.middle_segment(silences, dur_s)
-        if seg.nil? || silences.empty?
-          reject.call(id, staged, "triple-carrier tokens did not separate (#{silences.size} silences) — refused")
-          next
-        end
+      return [nil, "trim produced nothing usable"] unless File.exist?(trimmed) && File.size(trimmed) > 1000
+
+      if %w[middle first second].include?(item["cut"])
+        pre_pcm = File.join(tmp, "#{id}-pre.pcm")
+        system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-f", "s16le", "-ac", "1", "-ar", "16000", pre_pcm)
+        seg = Edubba::PinyinVoice.token_at(Edubba::PinyinAudio.envelope(File.binread(pre_pcm)),
+                                           item["cut"].to_sym)
+        return [nil, "carrier token (#{item['cut']}) not separable on the envelope"] if seg.nil?
+
         cutf = File.join(tmp, "#{id}-cut.wav")
-        from = [seg[0] - 0.02, 0].max
         system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed,
-               "-ss", format("%.3f", from), "-to", format("%.3f", seg[1] + 0.02), cutf)
+               "-ss", format("%.3f", [seg[0] - 0.02, 0].max), "-to", format("%.3f", seg[1] + 0.02), cutf)
         trimmed = cutf
       end
       pcm_f = File.join(tmp, "#{id}.pcm")
@@ -245,33 +323,58 @@ if $PROGRAM_NAME == __FILE__
 
       case item["verify"]
       when "tone"
-        track = Edubba::PinyinAudio.pitch_track(pcm)
+        track = Edubba::PinyinVoice.clean_track(Edubba::PinyinAudio.pitch_track(pcm))
         expected = Edubba::PinyinAudio.tone_of(item["pinyin"].to_s)
         unless Edubba::PinyinAudio.tone_ok?(expected, track)
           got = Edubba::PinyinAudio.classify(track)
-          reject.call(id, staged, "pitch says #{got}, pinyin #{item['pinyin']} expects #{expected} — refused")
-          next
+          return [nil, "pitch says #{got}, pinyin #{item['pinyin']} expects #{expected}"]
         end
         cut_pass, why = Edubba::PinyinAudio.cut_ok?(pcm, tone: expected)
-        unless cut_pass
-          reject.call(id, staged, "#{why} — refused")
-          next
-        end
+        return [nil, why] unless cut_pass
       when "line"
-        unless dur.between?(0.8, 20.0)
-          reject.call(id, staged, "duration #{dur.round(2)}s outside 0.8–20s — refused")
-          next
-        end
+        return [nil, "duration #{dur.round(2)}s outside 0.8–20s"] unless dur.between?(0.8, 20.0)
+
         want = Edubba::PinyinVoice.syllable_count(item["pinyin"])
         got = Edubba::PinyinAudio.humps(Edubba::PinyinAudio.envelope(pcm))
         puts "  #{id}: #{dur.round(2)}s, #{got} energy humps for #{want} syllables (report only)"
       else # "loudness" — neutral tone, tone sequences: no contour law
-        unless dur.between?(0.1, 20.0)
-          reject.call(id, staged, "duration #{dur.round(2)}s implausible — refused")
+        return [nil, "duration #{dur.round(2)}s implausible"] unless dur.between?(0.1, 20.0)
+      end
+      [trimmed, nil]
+    end
+
+    # Variant groups: all attempts for one base id, in batch order.
+    # The FIRST attempt that passes QA ships as the base; later
+    # staged siblings are discarded (owner design 2026-08-15: many
+    # versions, keep what works). A base fails only when every
+    # staged attempt refused.
+    batch["items"].group_by { |i| i["base"] || i["id"] }.each do |base, attempts|
+      next if ledger["built"].key?(base) && !ARGV.include?("--force") && !force.include?(base)
+
+      winner = nil
+      refusals = []
+      attempts.each do |item|
+        staged = File.join(STAGING, "#{item['id']}.mp3")
+        next unless File.exist?(staged)
+
+        if winner
+          File.delete(staged)
           next
         end
+        wav, why = qa.call(item, staged)
+        if wav
+          winner = [item, wav]
+        else
+          refusals << "#{item['id']}: #{why}"
+          FileUtils.mv(staged, File.join(rejected, File.basename(staged)))
+        end
       end
-
+      if winner.nil?
+        failures << "#{base}: #{refusals.join('; ')}" unless refusals.empty?
+        next
+      end
+      item, trimmed = winner
+      refusals.each { |r| puts "  (refused attempt) #{r}" }
       out = item["out"]
       FileUtils.mkdir_p(File.dirname(out))
       det = `ffmpeg -i #{trimmed.inspect} -af volumedetect -f null - 2>&1`
@@ -281,12 +384,12 @@ if $PROGRAM_NAME == __FILE__
       system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-ac", "1", "-ar", "44100",
              "-af", format("volume=%.1fdB", gain),
              "-codec:a", "libmp3lame", "-b:a", "64k", out)
-      ledger["built"][id] = { "date" => Time.now.strftime("%Y-%m-%d"),
-                              "voice_id" => engine_used["voice_id"],
-                              "model_id" => engine_used["model_id"],
-                              "text" => item["text"], "pinyin" => item["pinyin"] }
+      ledger["built"][base] = { "date" => Time.now.strftime("%Y-%m-%d"),
+                                "voice_id" => engine_used["voice_id"],
+                                "model_id" => engine_used["model_id"],
+                                "text" => item["text"], "pinyin" => item["pinyin"] }
       built += 1
-      puts "built #{File.basename(out)} (#{item['verify']} ✓)"
+      puts "built #{File.basename(out)} (#{item['verify']} ✓#{item['id'] == base ? '' : ", won by #{item['id']}"})"
     end
 
     unless built.zero?
