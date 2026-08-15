@@ -31,6 +31,32 @@ task :fonts do
   ruby "script/subset_fonts.rb"
 end
 
+# The standard-voice pipeline (rulebook §2, owner ruling
+# 2026-08-15). batch/integrate are agent-run; synth/voices are
+# OWNER-run (they need ELEVENLABS_API_KEY — the key never enters
+# the repo, and the agent never runs network-mutating commands).
+namespace :voice do
+  desc "Write pending synthesis work to voice-batch.json (voice:batch[all] regenerates everything)"
+  task :batch, [:mode] do |_, args|
+    ruby "bin/pinyin_voice.rb batch#{args[:mode] == 'all' ? ' --all' : ''}"
+  end
+
+  desc "OWNER: synthesize the batch via ElevenLabs (env: ELEVENLABS_API_KEY, _VOICE_ID, _MODEL_ID, _OUTPUT_FORMAT)"
+  task :synth do
+    ruby "bin/pinyin_voice.rb synth"
+  end
+
+  desc "QA staged clips (tone/span/duration + loudness) and encode into the site"
+  task :integrate do
+    ruby "bin/pinyin_voice.rb integrate"
+  end
+
+  desc "OWNER: list the ElevenLabs account's voices (needs ELEVENLABS_API_KEY)"
+  task :voices do
+    ruby "bin/pinyin_voice.rb voices"
+  end
+end
+
 desc "Local preview at http://127.0.0.1:4000"
 task :serve do
   # Own destination: a long-running serve regenerating into the

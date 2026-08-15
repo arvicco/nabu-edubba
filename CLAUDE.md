@@ -179,6 +179,16 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
+Phase 25 — in progress: THE STANDARD VOICE (M25-1). Owner ruling
+2026-08-15: all course audio synthesized in one pinned ElevenLabs
+voice (never-TTS bar overturned — no one pronounces Old Chinese
+natively; one convention, consistently voiced). Pipeline
+bin/pinyin_voice.rb: agent runs voice:batch + voice:integrate;
+OWNER alone runs voice:synth with ELEVENLABS_* env (key never in
+repo). Batch 1 (140 syllables + 8 pilot lines) awaits the owner's
+synth run; voice_id to be pinned after they pick. QA laws
+unchanged: tone verify, span, loudness; credits say synthesized.
+
 Phase 24 — complete, gate PR pending: S102 REBUILT GRAMMAR-FIRST
 (M24-1, Gate 24 of the owner-ruled two-gate cadence). The 82
 characters re-batched into fifteen grammar chapters on the ruled

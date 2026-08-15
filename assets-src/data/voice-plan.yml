@@ -1,0 +1,463 @@
+# The standard-voice plan (rulebook §2, owner ruling 2026-08-15):
+# the single source of truth for ALL synthesized audio. engine: is
+# the pinned voice (env ELEVENLABS_VOICE_ID / _MODEL_ID /
+# _OUTPUT_FORMAT override at synth time; the API key is env-only,
+# never here). syllables: one entry per published mp3 basename —
+# text: is the CARRIER character actually spoken (chosen
+# unambiguous for the target reading; polyphone overrides are
+# deliberate). lines: classical reading lines, modern Mandarin.
+# verify: tone (default) | line | loudness — what integrate demands.
+engine:
+  vendor: elevenlabs
+  model_id: eleven_multilingual_v2
+  output_format: mp3_44100_128
+  language: zh
+  voice_id:
+syllables:
+  yue-say:
+    pinyin: yuē
+    text: 曰
+  ren:
+    pinyin: rén
+    text: 仁
+  da:
+    pinyin: dà
+    text: 大
+  tian:
+    pinyin: tiān
+    text: 天
+  tu:
+    pinyin: tǔ
+    text: 土
+  wang:
+    pinyin: wáng
+    text: 王
+  yi:
+    pinyin: yī
+    text: 一
+  er:
+    pinyin: èr
+    text: 二
+  san:
+    pinyin: sān
+    text: 三
+  zhong:
+    pinyin: zhōng
+    text: 中
+  shang:
+    pinyin: shàng
+    text: 上
+  xia:
+    pinyin: xià
+    text: 下
+  ri:
+    pinyin: rì
+    text: 日
+  yue:
+    pinyin: yuè
+    text: 月
+  shan:
+    pinyin: shān
+    text: 山
+  shui:
+    pinyin: shuǐ
+    text: 水
+  mu:
+    pinyin: mù
+    text: 木
+  kou:
+    pinyin: kǒu
+    text: 口
+  zi:
+    pinyin: zǐ
+    text: 子
+  ming:
+    pinyin: míng
+    text: 明
+  dan:
+    pinyin: dàn
+    text: 旦
+  xiu:
+    pinyin: xiū
+    text: 休
+  ben:
+    pinyin: běn
+    text: 本
+  mo:
+    pinyin: mò
+    text: 末
+  wei:
+    pinyin: wèi
+    text: 味
+  zhi:
+    pinyin: zhī
+    text: 之
+  bu:
+    pinyin: bù
+    text: 不
+  ye:
+    pinyin: yě
+    text: 也
+  you:
+    pinyin: yòu
+    text: 又
+  you-have:
+    pinyin: yǒu
+    text: 有
+  shi:
+    pinyin: shí
+    text: 時
+  shi-arrow:
+    pinyin: shǐ
+    text: 矢
+  er-and:
+    pinyin: ér
+    text: 而
+  xing:
+    pinyin: xíng
+    text: 形
+  yan:
+    pinyin: yán
+    text: 言
+  wei-do:
+    pinyin: wéi
+    text: 維
+  wu:
+    pinyin: wú
+    text: 無
+  wo:
+    pinyin: wǒ
+    text: 我
+  xin:
+    pinyin: xīn
+    text: 心
+  sheng:
+    pinyin: shēng
+    text: 生
+  zhi-stop:
+    pinyin: zhǐ
+    text: 止
+  zheng:
+    pinyin: zhèng
+    text: 正
+  shi-this:
+    pinyin: shì
+    text: 是
+  xi:
+    pinyin: xī
+    text: 夕
+  zhe:
+    pinyin: zhě
+    text: 者
+  qi:
+    pinyin: qí
+    text: 其
+  yi-also:
+    pinyin: yì
+    text: 亦
+  yu:
+    pinyin: yú
+    text: 魚
+  hu:
+    pinyin: hū
+    text: 乎
+  pin:
+    pinyin: pǐn
+    text: 品
+  yi-by:
+    pinyin: yǐ
+    text: 以
+  zi-self:
+    pinyin: zì
+    text: 自
+  ding:
+    pinyin: dīng
+    text: 丁
+  ke:
+    pinyin: kě
+    text: 可
+  yong:
+    pinyin: yòng
+    text: 用
+  si:
+    pinyin: sì
+    text: 四
+  wu-five:
+    pinyin: wǔ
+    text: 五
+  liu:
+    pinyin: liù
+    text: 六
+  bai:
+    pinyin: bái
+    text: 白
+  bai-hundred:
+    pinyin: bǎi
+    text: 百
+  jian:
+    pinyin: jiàn
+    text: 見
+  xiang:
+    pinyin: xiāng
+    text: 香
+  shou:
+    pinyin: shǒu
+    text: 首
+  dao:
+    pinyin: dào
+    text: 道
+  nuu:
+    pinyin: nǚ
+    text: 女
+  hao:
+    pinyin: hǎo
+    text: 好
+  ru:
+    pinyin: rú
+    text: 如
+  yun:
+    pinyin: yún
+    text: 云
+  fei:
+    pinyin: fēi
+    text: 非
+  ci:
+    pinyin: cǐ
+    text: 此
+  suo:
+    pinyin: suǒ
+    text: 所
+  zhi-arrive:
+    pinyin: zhì
+    text: 至
+  jin:
+    pinyin: jīn
+    text: 今
+  qi-seven:
+    pinyin: qī
+    text: 七
+  ba:
+    pinyin: bā
+    text: 八
+  jiu:
+    pinyin: jiǔ
+    text: 九
+  niu:
+    pinyin: niú
+    text: 牛
+  wu-thing:
+    pinyin: wù
+    text: 物
+  wan:
+    pinyin: wàn
+    text: 萬
+  gu:
+    pinyin: gǔ
+    text: 古
+  gu-therefore:
+    pinyin: gù
+    text: 故
+  wen:
+    pinyin: wén
+    text: 文
+  shu:
+    pinyin: shū
+    text: 書
+  shi-poem:
+    pinyin: shī
+    text: 詩
+  jun:
+    pinyin: jūn
+    text: 君
+  gong:
+    pinyin: gōng
+    text: 公
+  min:
+    pinyin: mín
+    text: 民
+  chen:
+    pinyin: chén
+    text: 臣
+  he:
+    pinyin: hé
+    text: 何
+  zai:
+    pinyin: zài
+    text: 在
+  chu:
+    pinyin: chū
+    text: 出
+  ru-enter:
+    pinyin: rù
+    text: 入
+  fang:
+    pinyin: fāng
+    text: 方
+  dong:
+    pinyin: dōng
+    text: 東
+  xue:
+    pinyin: xué
+    text: 學
+  nian:
+    pinyin: nián
+    text: 年
+  fu:
+    pinyin: fù
+    text: 父
+  an:
+    pinyin: ān
+    text: 安
+  dao-knife:
+    pinyin: dāo
+    text: 刀
+  fen:
+    pinyin: fēn
+    text: 分
+  ze:
+    pinyin: zé
+    text: 則
+  xian:
+    pinyin: xiān
+    text: 先
+  hou:
+    pinyin: hòu
+    text: 後
+  zuo:
+    pinyin: zuò
+    text: 作
+  cheng:
+    pinyin: chéng
+    text: 成
+  neng:
+    pinyin: néng
+    text: 能
+  shi-send:
+    pinyin: shǐ
+    text: 使
+  de:
+    pinyin: dé
+    text: 德
+  yu-with:
+    pinyin: yǔ
+    text: 雨
+  yu-want:
+    pinyin: yù
+    text: 欲
+  jie:
+    pinyin: jiē
+    text: 皆
+  ran:
+    pinyin: rán
+    text: 然
+  guo:
+    pinyin: guó
+    text: 國
+  qian:
+    pinyin: qiān
+    text: 千
+  di:
+    pinyin: dì
+    text: 第
+  feng:
+    pinyin: fēng
+    text: 風
+  ruo:
+    pinyin: ruò
+    text: 若
+  tong:
+    pinyin: tóng
+    text: 同
+  cong:
+    pinyin: cóng
+    text: 從
+  shan-good:
+    pinyin: shàn
+    text: 善
+  chang:
+    pinyin: cháng
+    text: 常
+  hao-love:
+    pinyin: hào
+    text: 號
+  ge:
+    pinyin: gē
+    text: 歌
+  ta:
+    pinyin: tà
+    text: 踏
+  fa:
+    pinyin: fā
+    text: 發
+  ai:
+    pinyin: ài
+    text: 愛
+  lai:
+    pinyin: lái
+    text: 來
+  bei:
+    pinyin: bèi
+    text: 貝
+  ma-high:
+    pinyin: mā
+    text: 媽
+  ma-rising:
+    pinyin: má
+    text: 麻
+  ma-dipping:
+    pinyin: mǎ
+    text: 馬
+  ma-falling:
+    pinyin: mà
+    text: 罵
+  pa:
+    pinyin: pà
+    text: 怕
+  nv:
+    pinyin: nǚ
+    text: 女
+  ji:
+    pinyin: jī
+    text: 雞
+  chi:
+    pinyin: chī
+    text: 吃
+  lv:
+    pinyin: lǜ
+    text: 綠
+  e:
+    pinyin: é
+    text: 鵝
+  ma-neutral:
+    pinyin: ma
+    text: 嗎
+    verify: loudness
+  ma-four-tones:
+    pinyin: mā má mǎ mà
+    text: 媽，麻，馬，罵。
+    verify: loudness
+lines:
+  101-09-xue-er-shi-xi:
+    text: 學而時習之，不亦說乎？
+    pinyin: xué ér shí xí zhī, bù yì yuè hū
+  102-01-jun-jun-chen-chen:
+    text: 君君，臣臣，父父，子子。
+    pinyin: jūn jūn, chén chén, fù fù, zǐ zǐ
+  102-04-shi-you-wu:
+    text: 吾十有五而志于學。
+    pinyin: wú shí yǒu wǔ ér zhì yú xué
+  102-04-san-shi-er-li:
+    text: 三十而立。
+    pinyin: sān shí ér lì
+  102-10-si-er-hou-yi:
+    text: 死而後已。
+    pinyin: sǐ ér hòu yǐ
+  102-12-jun-shi-chen:
+    text: 君使臣以禮，臣事君以忠。
+    pinyin: jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng
+  102-13-shang-shan-ruo-shui:
+    text: 上善若水。
+    pinyin: shàng shàn ruò shuǐ
+  102-15-dao-fa-zi-ran:
+    text: 道法自然。
+    pinyin: dào fǎ zì rán
