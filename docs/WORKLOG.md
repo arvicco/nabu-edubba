@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-15 · M25-1 · phase-25 · THE STANDARD VOICE (owner ruling):
+one pinned synthetic voice for all course audio — syllables AND
+classical reading lines — replacing the uneven multi-contributor
+patchwork (129 Commons/Lingua-Libre clips, dozens of voices).
+Assessment first (.docs/pinyin-voice-standard.md): no
+single-speaker pinyin chart exists under CC BY/BY-SA; no
+Chinese-language recordings of our classics on Librivox; the
+Anthropic API has no TTS (app voice output is subcontracted
+ElevenLabs, app-only). Owner ruled: ElevenLabs (their existing
+subscription), with the never-TTS bar in §2 overturned on the
+stated ground that no one pronounces Old Chinese natively — every
+modern voicing is a convention. Owner-designed MO implemented in
+bin/pinyin_voice.rb + rake voice:{batch,synth,integrate,voices}:
+agent batches and QA-integrates; the OWNER alone runs synth with
+ELEVENLABS_API_KEY/_VOICE_ID/_MODEL_ID/_OUTPUT_FORMAT in env (key
+never in repo; agent never runs the network-mutating step). QA
+unchanged in force: tone pitch-verify + span for syllables,
+duration+hump-report for lines, −20/−1 loudness for all; credits
+state the audio is synthesized, engine and voice named; every
+built clip ledgered (voice-ledger.yml). voice-plan.yml authored:
+140 syllable entries (12 polyphone carrier overrides — 形 for
+xíng, 維 wéi, 香 xiāng, 號 hào, 德 dé, 常 cháng, 雨 yǔ, 第 dì… —
+chosen so same-tone misreadings can't slip past the tone gate) +
+8 pilot lines. Batch 1 generated; awaiting the owner's synth run.
+
 2026-08-12 · incident · phase-24 · BOXES ON THE REFERENCE SHELF +
 MIS-ROUTED "TAUGHT IN". Owner, on 臣's codex page: why are there
 empty boxes in the Codex (臣▢君以▢) — and the same paste showed
