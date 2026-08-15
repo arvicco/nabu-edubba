@@ -2,63 +2,891 @@
 # every synthesized clip: when, which voice, what text.
 ---
 built:
+  yue-say:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 曰
+    pinyin: yuē
+  tian:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 天
+    pinyin: tiān
+  san:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 三
+    pinyin: sān
+  shan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 山
+    pinyin: shān
+  shui:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 水
+    pinyin: shuǐ
+  zi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 子
+    pinyin: zǐ
+  xiu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 休
+    pinyin: xiū
+  ben:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 本
+    pinyin: běn
+  zhi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 之
+    pinyin: zhī
+  bu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 不
+    pinyin: bù
+  ye:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 也
+    pinyin: yě
+  you-have:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 有
+    pinyin: yǒu
+  shi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 時、時、時。
+    pinyin: shí
+  shi-arrow:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 矢
+    pinyin: shǐ
+  er-and:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 而、而、而。
+    pinyin: ér
+  xing:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 形
+    pinyin: xíng
+  wo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 我
+    pinyin: wǒ
+  xin:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 心
+    pinyin: xīn
+  sheng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 生
+    pinyin: shēng
+  zhi-stop:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 止
+    pinyin: zhǐ
+  shi-this:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 是
+    pinyin: shì
+  zhe:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 者
+    pinyin: zhě
+  yi-also:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 亦
+    pinyin: yì
+  pin:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 品
+    pinyin: pǐn
+  ke:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 可
+    pinyin: kě
+  si:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 四
+    pinyin: sì
+  wu-five:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 五
+    pinyin: wǔ
+  bai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 白
+    pinyin: bái
+  bai-hundred:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 百
+    pinyin: bǎi
+  xiang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 香
+    pinyin: xiāng
+  shou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 首
+    pinyin: shǒu
+  nuu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 女
+    pinyin: nǚ
+  yun:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 雲南
+    pinyin: yún
+  ci:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 此
+    pinyin: cǐ
+  suo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 所
+    pinyin: suǒ
+  qi-seven:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 七
+    pinyin: qī
+  jiu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 九
+    pinyin: jiǔ
+  gu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 古
+    pinyin: gǔ
+  shi-poem:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 詩、詩、詩。
+    pinyin: shī
+  jun:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 君
+    pinyin: jūn
+  ru-enter:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 入
+    pinyin: rù
+  zuo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 作
+    pinyin: zuò
+  shi-send:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 使
+    pinyin: shǐ
+  yu-with:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 雨
+    pinyin: yǔ
+  jie:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 皆
+    pinyin: jiē
+  qian:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 千
+    pinyin: qiān
+  di:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 第
+    pinyin: dì
+  ge:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 歌
+    pinyin: gē
+  lai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 來
+    pinyin: lái
+  ma-dipping:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 馬
+    pinyin: mǎ
+  nv:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 女
+    pinyin: nǚ
+  ji:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 雞
+    pinyin: jī
+  chi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 吃
+    pinyin: chī
+  lv:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 綠
+    pinyin: lǜ
+  tu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 土
+    pinyin: tǔ
+  yi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 一
+    pinyin: yī
+  shang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 上
+    pinyin: shàng
+  mu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 木
+    pinyin: mù
+  kou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 口
+    pinyin: kǒu
+  dan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 但
+    pinyin: dàn
+  mo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 末
+    pinyin: mò
+  yu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 魚
+    pinyin: yú
+  hu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 乎
+    pinyin: hū
+  ding:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 丁
+    pinyin: dīng
+  liu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 六
+    pinyin: liù
+  jian:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 見
+    pinyin: jiàn
+  jin:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 今
+    pinyin: jīn
+  ba:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 八
+    pinyin: bā
+  shu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 書
+    pinyin: shū
+  chu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 出
+    pinyin: chū
+  xue:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 學
+    pinyin: xué
+  fu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 父
+    pinyin: fù
+  fen:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 分
+    pinyin: fēn
+  ze:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 則
+    pinyin: zé
+  xian:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 先
+    pinyin: xiān
+  shan-good:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 善
+    pinyin: shàn
+  fa:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 發
+    pinyin: fā
+  ai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 愛
+    pinyin: ài
+  bei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 貝
+    pinyin: bèi
   ma-neutral:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 嗎
     pinyin: ma
   ma-four-tones:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 媽，麻，馬，罵。
     pinyin: mā má mǎ mà
   101-09-xue-er-shi-xi:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 學而時習之，不亦說乎？
     pinyin: xué ér shí xí zhī, bù yì yuè hū
   102-01-jun-jun-chen-chen:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 君君，臣臣，父父，子子。
     pinyin: jūn jūn, chén chén, fù fù, zǐ zǐ
   102-04-shi-you-wu:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 吾十有五而志于學。
     pinyin: wú shí yǒu wǔ ér zhì yú xué
   102-04-san-shi-er-li:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 三十而立。
     pinyin: sān shí ér lì
   codex-si-er-hou-yi:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 死而後已。
     pinyin: sǐ ér hòu yǐ
   102-12-jun-shi-chen:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 君使臣以禮，臣事君以忠。
     pinyin: jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng
   102-13-shang-shan-ruo-shui:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 上善若水。
     pinyin: shàng shàn ruò shuǐ
   102-15-dao-fa-zi-ran:
     date: '2026-08-15'
-    voice_id: UFDAUkGzdLAEJlINT3Fx
+    voice_id: BWN0mOtkGHghA3CYFzFK
     model_id: eleven_multilingual_v2
     text: 道法自然。
     pinyin: dào fǎ zì rán
+  ri:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 日
+    pinyin: rì
+  yue:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 月
+    pinyin: yuè
+  yan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 言
+    pinyin: yán
+  wei-do:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 維
+    pinyin: wéi
+  zheng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 正
+    pinyin: zhèng
+  xi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 夕
+    pinyin: xī
+  yi-by:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 以
+    pinyin: yǐ
+  zi-self:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 自
+    pinyin: zì
+  yong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 用
+    pinyin: yòng
+  dao:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 道
+    pinyin: dào
+  zhi-arrive:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 至
+    pinyin: zhì
+  niu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 牛
+    pinyin: niú
+  fang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 方
+    pinyin: fāng
+  dao-knife:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 刀
+    pinyin: dāo
+  de:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 德
+    pinyin: dé
+  yu-want:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 欲
+    pinyin: yù
+  ran:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 燃
+    pinyin: rán
+  ruo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 若
+    pinyin: ruò
+  pa:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 怕
+    pinyin: pà
+  da:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 大
+    pinyin: dà
+  er:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 二
+    pinyin: èr
+  fei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 非
+    pinyin: fēi
+  wen:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 文
+    pinyin: wén
+  feng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 風
+    pinyin: fēng
+  tong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 同
+    pinyin: tóng
+  ma-high:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 媽、麻、馬、罵。
+    pinyin: mā
+  qi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 其
+    pinyin: qí
+  ma-rising:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 媽、麻、馬、罵。
+    pinyin: má
+  ren:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 仁
+    pinyin: rén
+  wang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 王
+    pinyin: wáng
+  zhong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 中
+    pinyin: zhōng
+  xia:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 下
+    pinyin: xià
+  ming:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 明
+    pinyin: míng
+  wei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 味
+    pinyin: wèi
+  you:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 又
+    pinyin: yòu
+  hao:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 好
+    pinyin: hǎo
+  ru:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 如
+    pinyin: rú
+  wu-thing:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 物
+    pinyin: wù
+  gu-therefore:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 故
+    pinyin: gù
+  gong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 公
+    pinyin: gōng
+  min:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 民
+    pinyin: mín
+  chen:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 臣
+    pinyin: chén
+  he:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 河
+    pinyin: hé
+  zai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 在
+    pinyin: zài
+  dong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 東
+    pinyin: dōng
+  an:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 安
+    pinyin: ān
+  cheng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 成
+    pinyin: chéng
+  neng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 能
+    pinyin: néng
+  guo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 國
+    pinyin: guó
+  cong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 從
+    pinyin: cóng
+  ma-falling:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 罵
+    pinyin: mà
+  e:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 鵝
+    pinyin: é
+  wan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 萬
+    pinyin: wàn
+  nian:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 年
+    pinyin: nián
+  hao-love:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 號
+    pinyin: hào
+  wu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 吳
+    pinyin: wú
+  hou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 後面
+    pinyin: hòu
+  ta:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 踏
+    pinyin: tà
+  chang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 嘗
+    pinyin: cháng

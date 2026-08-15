@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-15 · M25-3 · phase-25 · THE VOICE RE-CONVERGED, FOR THE
+EAR THIS TIME: 148/148 in Danyu Zhao (BWN0mOtkGHghA3CYFzFK, the
+Voice-Library bake), citation-length clips of 0.4–0.8 s where the
+first voice shipped 0.2–0.35 s. Owner review had killed the first
+converged set — "syllables TOO short… a novice just can't hear
+the tone" — and the repair became three laws and a saga: the
+LENGTH LAW (voiced span 0.4–1.5→2.2 s, gate-enforced; length is a
+shipping requirement, not a style); cooperative hints instead of
+fights (owner question) — previous_text teacher-register priming
+(跟我讀，慢慢地，一個字：), then, decisively, eleven_v3's [slowly]
+audio tag, which cracked 24 of the 31-syllable tail in ONE round
+after v2's speed slider proved to flatten the very contours it
+lengthened; crowdsourced voice research (owner direction) —
+Voice-Library Mandarin roster with IDs, pedagogy shortlist,
+Danyu Zhao picked and baked. The last four fell to
+pitch-preserving atempo stretch for inherently clipped syllables
+(踏, checked-tone history — the language-lab slowdown, gated on
+the RESULT) and, for cháng, a late-rise detector: the voice's
+dip-rise was REAL (113→155 in the final fifth) and the feature
+windows were trimming it away — measurement calibrated,
+exact-value tested, falls and levels still refuse. Ledger: 117
+clips on eleven_multilingual_v2, 31 on eleven_v3, one voice
+throughout, every clip's model recorded. Also: YAML-alias
+footgun (shared Ruby hashes → anchors → safe_load refusal; JSON
+round-trip breaks sharing). Open: owner site review; whether the
+v2/v3 render mix is audible enough to warrant one uniform all-v3
+regeneration; then the full line rollout.
+
 2026-08-15 · M25-2 · phase-25 · THE VOICE CONVERGED: 148/148 in
 one pinned voice (UFDAUkGzdLAEJlINT3Fx, eleven_multilingual_v2)
 — all 140 syllable clips regenerated and all 8 pilot lines

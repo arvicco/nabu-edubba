@@ -182,14 +182,17 @@ bin/            authoring-time instruments (curriculum compiler; talks
 Phase 25 — in progress: THE STANDARD VOICE (M25-1/2). Owner
 ruling 2026-08-15: all course audio synthesized in one pinned
 ElevenLabs voice (never-TTS bar overturned — no one pronounces
-Old Chinese natively). CONVERGED: 148/148 clips (140 syllables +
-8 pilot lines) in voice UFDAUkGzdLAEJlINT3Fx, pinned in
-voice-plan.yml. Pipeline bin/pinyin_voice.rb (agent:
-batch/integrate; OWNER alone: synth with ELEVENLABS_* env, key
-never in repo) with variant fan-out (variants: + --rolls),
-envelope-based token cutting, and track hygiene; QA laws
-unchanged. Open: owner ear-check of pilot lines; wiring line
-audio into chapter reading figures.
+Old Chinese natively). RE-CONVERGED after the owner's
+too-short-to-hear-the-tone review: 148/148 in Danyu Zhao
+(BWN0mOtkGHghA3CYFzFK, pinned), citation-length 0.4–0.8 s clips
+under the LENGTH LAW (span 0.4–2.2 s, gate-enforced). Pipeline
+bin/pinyin_voice.rb (agent: batch/integrate; OWNER alone: synth
+with ELEVENLABS_* env): variant fan-out + rolls, teacher-register
+previous_text, eleven_v3 [slowly] tags (v3 cracked the tone-2
+tail; 117 clips v2 / 31 v3, all one voice), envelope token cuts,
+atempo stretch for checked syllables, late-rise detector. Open:
+owner site review; possible uniform all-v3 regen; full line
+rollout.
 
 Phase 24 — complete, gate PR pending: S102 REBUILT GRAMMAR-FIRST
 (M24-1, Gate 24 of the owner-ruled two-gate cadence). The 82

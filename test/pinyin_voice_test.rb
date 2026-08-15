@@ -127,6 +127,17 @@ class PinyinVoiceTest < Minitest::Test
     assert_nil line["voice_settings"], "lines keep natural prosody"
   end
 
+  def test_late_rise_accepts_dip_rise_and_refuses_falls_and_levels
+    # chang~v2c's real shape: shallow dip, steep late climb
+    dip_rise = [126, 126, 125, 122, 121, 119, 118, 116, 114, 113, 113, 114,
+                115, 116, 118, 122, 125, 131, 134, 140, 145, 151, 155, 155]
+    assert Edubba::PinyinVoice.late_rise?(dip_rise)
+    fall = [190, 186, 184, 182, 176, 168, 160, 148, 142, 133, 128, 123, 119]
+    refute Edubba::PinyinVoice.late_rise?(fall), "a genuine fall ends low"
+    level = [220, 221, 220, 219, 220, 221, 220, 220, 219, 220, 221, 222]
+    refute Edubba::PinyinVoice.late_rise?(level), "a level never leaves the valley"
+  end
+
   def test_clean_track_kills_octave_spikes_and_keeps_the_contour
     dirty = [119, 327, 85, 320, 320, 356, 107, 103, 94, 86, 89, 90, 94, 86, 85, 348, 102]
     cleaned = Edubba::PinyinVoice.clean_track(dirty)
