@@ -7,19 +7,24 @@
 # unambiguous for the target reading; polyphone overrides are
 # deliberate). lines: classical reading lines, modern Mandarin.
 # verify: tone (default) | line | loudness — what integrate demands.
+# Triple carriers (X、X、X。, cut: middle) are the ESCALATION for
+# syllables that failed the tone gate three consecutive rolls as
+# bare singles (2026-08-15): list intonation holds citation form;
+# integrate keeps the middle token. Singles remain the default.
 engine:
   vendor: elevenlabs
   model_id: eleven_multilingual_v2
   output_format: mp3_44100_128
   language: zh
-  voice_id:
+  voice_id: UFDAUkGzdLAEJlINT3Fx   # PINNED 2026-08-15 — the standard voice; changing it means regenerating everything
 syllables:
   yue-say:
     pinyin: yuē
     text: 曰
   ren:
     pinyin: rén
-    text: 仁
+    text: 仁、仁、仁。
+    cut: middle
   da:
     pinyin: dà
     text: 大
@@ -76,7 +81,10 @@ syllables:
     text: 明
   dan:
     pinyin: dàn
-    text: 旦
+    text: 但是
+    cut: first
+    voice_settings:
+      speed: 0.8
   xiu:
     pinyin: xiū
     text: 休
@@ -107,12 +115,27 @@ syllables:
   shi:
     pinyin: shí
     text: 時
+    variants:
+    - text: 詩、時、史、是。
+      cut: second
+      voice_settings:
+        speed: 0.8
+    - text: 時鐘
+      cut: first
+      voice_settings:
+        speed: 0.8
+    - text: 時、時、時。
+      cut: middle
+      voice_settings:
+        speed: 0.8
+    - text: 時
   shi-arrow:
     pinyin: shǐ
     text: 矢
   er-and:
     pinyin: ér
-    text: 而
+    text: 而、而、而。
+    cut: middle
   xing:
     pinyin: xíng
     text: 形
@@ -121,10 +144,16 @@ syllables:
     text: 言
   wei-do:
     pinyin: wéi
-    text: 維
+    text: 維持
+    cut: first
+    voice_settings:
+      speed: 0.8
   wu:
     pinyin: wú
-    text: 無
+    text: 無、無、無。
+    cut: middle
+    voice_settings:
+      speed: 0.8
   wo:
     pinyin: wǒ
     text: 我
@@ -157,7 +186,8 @@ syllables:
     text: 亦
   yu:
     pinyin: yú
-    text: 魚
+    text: 魚、魚、魚。
+    cut: middle
   hu:
     pinyin: hū
     text: 乎
@@ -217,7 +247,10 @@ syllables:
     text: 如
   yun:
     pinyin: yún
-    text: 云
+    text: 雲南
+    cut: first
+    voice_settings:
+      speed: 0.8
   fei:
     pinyin: fēi
     text: 非
@@ -238,7 +271,8 @@ syllables:
     text: 七
   ba:
     pinyin: bā
-    text: 八
+    text: 八、八、八。
+    cut: middle
   jiu:
     pinyin: jiǔ
     text: 九
@@ -262,10 +296,16 @@ syllables:
     text: 文
   shu:
     pinyin: shū
-    text: 書
+    text: 書本
+    cut: first
+    voice_settings:
+      speed: 0.8
   shi-poem:
     pinyin: shī
-    text: 詩
+    text: 詩、詩、詩。
+    cut: middle
+    voice_settings:
+      speed: 0.8
   jun:
     pinyin: jūn
     text: 君
@@ -274,19 +314,26 @@ syllables:
     text: 公
   min:
     pinyin: mín
-    text: 民
+    text: 民、民、民。
+    cut: middle
   chen:
     pinyin: chén
     text: 臣
   he:
     pinyin: hé
-    text: 何
+    text: 河流
+    cut: first
+    voice_settings:
+      speed: 0.8
   zai:
     pinyin: zài
     text: 在
   chu:
     pinyin: chū
-    text: 出
+    text: 出發
+    cut: first
+    voice_settings:
+      speed: 0.8
   ru-enter:
     pinyin: rù
     text: 入
@@ -295,10 +342,25 @@ syllables:
     text: 方
   dong:
     pinyin: dōng
-    text: 東
+    text: 東、東、東。
+    cut: middle
   xue:
     pinyin: xué
     text: 學
+    variants:
+    - text: 靴、學、雪、血。
+      cut: second
+      voice_settings:
+        speed: 0.8
+    - text: 學期
+      cut: first
+      voice_settings:
+        speed: 0.8
+    - text: 學、學、學。
+      cut: middle
+      voice_settings:
+        speed: 0.8
+    - text: 學
   nian:
     pinyin: nián
     text: 年
@@ -337,7 +399,10 @@ syllables:
     text: 使
   de:
     pinyin: dé
-    text: 德
+    text: 德、德、德。
+    cut: middle
+    voice_settings:
+      speed: 0.8
   yu-with:
     pinyin: yǔ
     text: 雨
@@ -349,7 +414,10 @@ syllables:
     text: 皆
   ran:
     pinyin: rán
-    text: 然
+    text: 燃燒
+    cut: first
+    voice_settings:
+      speed: 0.8
   guo:
     pinyin: guó
     text: 國
@@ -385,7 +453,10 @@ syllables:
     text: 歌
   ta:
     pinyin: tà
-    text: 踏
+    text: 踏、踏、踏。
+    cut: middle
+    voice_settings:
+      speed: 0.8
   fa:
     pinyin: fā
     text: 發
@@ -403,7 +474,10 @@ syllables:
     text: 媽
   ma-rising:
     pinyin: má
-    text: 麻
+    text: 麻煩
+    cut: first
+    voice_settings:
+      speed: 0.8
   ma-dipping:
     pinyin: mǎ
     text: 馬
@@ -428,6 +502,20 @@ syllables:
   e:
     pinyin: é
     text: 鵝
+    variants:
+    - text: 阿、鵝、惡、餓。
+      cut: second
+      voice_settings:
+        speed: 0.8
+    - text: 額頭
+      cut: first
+      voice_settings:
+        speed: 0.8
+    - text: 鵝、鵝、鵝。
+      cut: middle
+      voice_settings:
+        speed: 0.8
+    - text: 鵝
   ma-neutral:
     pinyin: ma
     text: 嗎

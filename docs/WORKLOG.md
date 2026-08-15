@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-15 · M25-2 · phase-25 · THE VOICE CONVERGED: 148/148 in
+one pinned voice (UFDAUkGzdLAEJlINT3Fx, eleven_multilingual_v2)
+— all 140 syllable clips regenerated and all 8 pilot lines
+voiced. The road there, each step gate-scored: voice-1 singles
+91/140; voice-2 singles 84/140 with a nearly disjoint failure
+set — proof the failures were STOCHASTIC per generation, not
+per-syllable — so re-rolls became the primary tool (92→115→127
+across two re-roll rounds); the 21 three-time losers went to
+enumerated triple carriers (媽、媽、媽。cut middle), which
+surfaced connected-list readings ("0 silences") and moved the
+cutter from silencedetect to the ENERGY-ENVELOPE valleys;
+slowed triples (speed 0.8) and then disyllabic word carriers
+with tone-1 followers (時鐘, 出發…) took it to 145; the last
+three (shí xué é — this voice under-rises tone 2) fell to the
+owner's fan-out design: MANY versions per syllable in one run
+(4 strategies × 3 rolls, variants: + --rolls in the tool),
+integrate ships the first passer — the four-tone contrast
+paradigm (詩、時、史、是。cut second) won shi and xue, 額頭 won
+e. Track hygiene added along the way (median-3 + physiological
+band-clip before classification — the tracker threw 85↔356 Hz
+octave garbage on TTS fricatives); measurement cleaned, LAW
+never loosened: every shipped clip sings its declared tone.
+Voice pinned in the plan (contract-tested, with a
+plan↔manifest pinyin-drift guard); credits and primer prose now
+tell the synthesized story plainly, Commons contributors
+thanked in CREDITS.txt's closing note. Next: owner ear-check of
+the pilot lines, then wiring line audio into chapter readings.
+
 2026-08-15 · M25-1 · phase-25 · THE STANDARD VOICE (owner ruling):
 one pinned synthetic voice for all course audio — syllables AND
 classical reading lines — replacing the uneven multi-contributor

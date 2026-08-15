@@ -56,15 +56,45 @@ class PinyinVoiceTest < Minitest::Test
     assert_equal "site/assets/audio/lines/102-15-dao-fa-zi-ran.mp3", line["out"]
   end
 
-  def test_middle_segment_picks_the_center_token_of_a_triple
-    # 媽、媽、媽。 — three voiced tokens split by two silences
-    silences = [[0.42, 0.61], [1.05, 1.22]]
-    assert_equal [0.61, 1.05], Edubba::PinyinVoice.middle_segment(silences, 1.70)
-    # tokens merged into one — nothing to pick mid-way, caller refuses
-    assert_nil Edubba::PinyinVoice.middle_segment([], 0.5)
-    # sub-0.08s slivers (clicks) are not tokens
-    assert_equal [0.30, 0.90],
-                 Edubba::PinyinVoice.middle_segment([[0.02, 0.30], [0.90, 0.95]], 1.0)
+  def test_middle_token_picks_center_run_when_tokens_separate
+    # three voiced runs (frames of high RMS) split by quiet valleys
+    env = [0, 9, 9, 9, 0, 0, 8, 8, 8, 0, 0, 9, 9, 9, 0].map(&:to_f)
+    from, to = Edubba::PinyinVoice.middle_token(env)
+    assert_in_delta 6 * 0.025, from, 1e-9
+    assert_in_delta 9 * 0.025, to, 1e-9
+  end
+
+  def test_middle_token_splits_a_connected_triple_at_its_valleys
+    # one voiced run with two internal dips — connected 大大大
+    env = [9, 9, 9, 9, 3, 9, 9, 9, 9, 3, 9, 9, 9, 9].map(&:to_f)
+    from, to = Edubba::PinyinVoice.middle_token(env)
+    assert_in_delta 5 * 0.025, from, 1e-9
+    assert_in_delta 9 * 0.025, to, 1e-9
+  end
+
+  def test_middle_token_refuses_silence_and_too_short_runs
+    assert_nil Edubba::PinyinVoice.middle_token([0.0, 0.0, 0.0])
+    assert_nil Edubba::PinyinVoice.middle_token([9.0] * 5), "5 frames can't hold three tokens"
+  end
+
+  def test_variant_fan_out_expands_strategies_times_rolls
+    plan = PLAN.merge("syllables" => {
+                        "shi" => { "pinyin" => "shí", "text" => "時",
+                                   "variants" => [
+                                     { "text" => "詩、時、史、是。", "cut" => "second" },
+                                     { "text" => "時" }
+                                   ] }
+                      }, "lines" => {})
+    items = Edubba::PinyinVoice.pending_items(plan, { "built" => {} }, rolls: 2)
+    assert_equal %w[shi~v0a shi~v0b shi~v1a shi~v1b], items.map { |i| i["id"] }
+    assert items.all? { |i| i["base"] == "shi" }
+    assert items.all? { |i| i["out"] == "site/assets/audio/pinyin/shi.mp3" }
+    assert_equal "second", items[0]["cut"]
+    assert_nil items[2]["cut"]
+    # no variants + one roll → the plain unsuffixed item
+    plain = Edubba::PinyinVoice.pending_items(PLAN, { "built" => {} })
+    assert_equal "ren", plain.first["id"]
+    assert_equal "ren", plain.first["base"]
   end
 
   def test_plan_cut_flag_travels_into_the_batch
@@ -73,6 +103,16 @@ class PinyinVoiceTest < Minitest::Test
                       })
     item = Edubba::PinyinVoice.pending_items(plan, { "built" => {} }).first
     assert_equal "middle", item["cut"]
+  end
+
+  def test_clean_track_kills_octave_spikes_and_keeps_the_contour
+    dirty = [119, 327, 85, 320, 320, 356, 107, 103, 94, 86, 89, 90, 94, 86, 85, 348, 102]
+    cleaned = Edubba::PinyinVoice.clean_track(dirty)
+    assert cleaned.all? { |f| f < 200 }, "octave-doubled spikes removed: #{cleaned}"
+    smooth = [225, 213, 232, 184, 174, 157, 122, 119, 118]
+    assert_equal smooth.length, Edubba::PinyinVoice.clean_track(smooth).length,
+                 "a clean falling contour passes through whole"
+    assert_equal [150, 150], Edubba::PinyinVoice.clean_track([150, 150])
   end
 
   def test_syllable_count_reads_the_pinyin_line
@@ -90,6 +130,16 @@ class PinyinVoiceTest < Minitest::Test
     plan["syllables"].each do |id, s|
       assert s["text"].to_s != "", "#{id}: no carrier text"
       assert s["pinyin"].to_s != "", "#{id}: no pinyin"
+    end
+    assert plan["engine"]["voice_id"].to_s != "", "the standard voice must stay pinned"
+    # The say-audio lint reads tone declarations from the old
+    # manifest; the voice plan must never drift from it.
+    manifest = YAML.safe_load_file(
+      File.expand_path("../assets-src/data/pinyin-audio-sources.yml", __dir__)
+    )["sources"]
+    manifest.each do |slug, src|
+      assert_equal src["pinyin"], plan["syllables"][slug]["pinyin"],
+                   "#{slug}: voice-plan pinyin drifted from the manifest's declaration"
     end
   end
 end

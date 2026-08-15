@@ -50,7 +50,8 @@ classical written language element by element, from the verbless
 sentence to the discourse words, on the same real texts; the famous
 sayings the foundations met in pieces read whole by the end. A Character Codex page
 backs every taught character, and a Pinyin primer voices every
-syllable with tone-verified, loudness-normalized audio.
+syllable in one standard synthesized voice, every clip
+tone-verified and loudness-normalized.
 Also live: the map-of-writing landing page and per-school sign
 codices. Every recurring sign links to where it was taught, with
 hover bubbles giving name, readings, and meaning. The site works
