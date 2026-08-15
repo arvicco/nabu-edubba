@@ -104,7 +104,7 @@ nouns, each doubled into its own little sentence:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — the whole theory of order in four doubled words: things run when each person actually IS what their role demands, starting at the top. The second word of each pair does the predicate's work — a noun serving as its own verb. The boxed pair is "father"</span></div>
+    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><a class="say" href="{{ '/assets/audio/lines/102-01-jun-jun-chen-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span></a><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — the whole theory of order in four doubled words: things run when each person actually IS what their role demands, starting at the top. The second word of each pair does the predicate's work — a noun serving as its own verb. The boxed pair is "father"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 12.11.

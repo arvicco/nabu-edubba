@@ -74,7 +74,7 @@ opens the *Analects* — the most quoted first line in Chinese:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">學而時▢之，不亦▢乎？</span><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span><span class="gloss">"to learn, and in season practice what you learned — is that not a pleasure?" — learning becomes joy at the moment practice lands: 時 as "at the right time" turns study into a rhythm. The boxes are "practice" and "pleasure"</span></div>
+    <div class="reading-line"><span class="script">學而時▢之，不亦▢乎？</span><a class="say" href="{{ '/assets/audio/lines/101-09-xue-er-shi-xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span></a><span class="gloss">"to learn, and in season practice what you learned — is that not a pleasure?" — learning becomes joy at the moment practice lands: 時 as "at the right time" turns study into a rhythm. The boxes are "practice" and "pleasure"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.1, the opening clause.

@@ -90,7 +90,7 @@ opening in East Asian literature, read under your own power:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而▢▢之，不亦▢乎？</span><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span><span class="gloss">"to learn, and in season practice it — is that not a pleasure?" — the boxed words are "learn," "in season," "practice," "pleasure"; the grammar that carries them (而…之，不亦…乎) is all yours</span></div>
+    <div class="reading-line"><span class="script">▢而▢▢之，不亦▢乎？</span><a class="say" href="{{ '/assets/audio/lines/101-09-xue-er-shi-xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span></a><span class="gloss">"to learn, and in season practice it — is that not a pleasure?" — the boxed words are "learn," "in season," "practice," "pleasure"; the grammar that carries them (而…之，不亦…乎) is all yours</span></div>
     <div class="reading-line"><span class="script">不亦▢乎？</span><span class="translit pinyin">bù yì lè hū</span><span class="gloss">"is that not a joy?" — the second question's famous close (a friend has come from far away), one box for the joy; the four-character phrase (bù yì lè hū) has meant "what could be better" for two thousand years</span></div>
   </div>
   <figcaption class="citation">

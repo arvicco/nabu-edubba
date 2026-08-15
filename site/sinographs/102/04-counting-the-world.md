@@ -89,8 +89,8 @@ predicate:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢十有五而▢于▢，</span><span class="translit pinyin">wú shí yǒu wǔ ér zhì yú xué,</span><span class="gloss">"at fifteen, I set my heart on learning" — 十有五, "ten and five," is the classical fifteen. The boxes are "I", "set-heart-on", and "learning" — the last four chapters away</span></div>
-    <div class="reading-line"><span class="script">三十而▢，</span><span class="translit pinyin">sān shí ér lì,</span><span class="gloss">"at thirty, I stood on my own feet" — the box is "stand"</span></div>
+    <div class="reading-line"><span class="script">▢十有五而▢于▢，</span><a class="say" href="{{ '/assets/audio/lines/102-04-shi-you-wu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wú shí yǒu wǔ ér zhì yú xué,</span></a><span class="gloss">"at fifteen, I set my heart on learning" — 十有五, "ten and five," is the classical fifteen. The boxes are "I", "set-heart-on", and "learning" — the last four chapters away</span></div>
+    <div class="reading-line"><span class="script">三十而▢，</span><a class="say" href="{{ '/assets/audio/lines/102-04-san-shi-er-li.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sān shí ér lì,</span></a><span class="gloss">"at thirty, I stood on my own feet" — the box is "stand"</span></div>
     <div class="reading-line"><span class="script">四十而不▢，</span><span class="translit pinyin">sì shí ér bù huò,</span><span class="gloss">"at forty, nothing could confuse me"</span></div>
     <div class="reading-line"><span class="script">五十而知天▢，</span><span class="translit pinyin">wǔ shí ér zhī tiān mìng,</span><span class="gloss">"at fifty, I knew what heaven had given me to do" — the box is "charge, mandate"</span></div>
     <div class="reading-line"><span class="script">六十而▢▢。</span><span class="translit pinyin">liù shí ér ěr shùn.</span><span class="gloss">"at sixty, nothing I heard could throw me" — the boxes are "ear" and "flowed-smooth"</span></div>
