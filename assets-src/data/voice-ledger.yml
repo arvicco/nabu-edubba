@@ -398,7 +398,7 @@ built:
     model_id: eleven_multilingual_v2
     text: 三十而立。
     pinyin: sān shí ér lì
-  102-10-si-er-hou-yi:
+  codex-si-er-hou-yi:
     date: '2026-08-15'
     voice_id: UFDAUkGzdLAEJlINT3Fx
     model_id: eleven_multilingual_v2

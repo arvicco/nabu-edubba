@@ -132,7 +132,7 @@ all say one thing:
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">▢成事▢，而百▢皆謂我自然。</span><span class="translit pinyin">gōng chéng shì suì, ér bǎi xìng jiē wèi wǒ zì rán</span><span class="gloss">"the work is done, the task complete — and the people all say: we did it ourselves" — the highest praise of leadership: to lead so lightly that no one feels led. The boxes are "achievement", "follow through", and "families" — 百-families, "the hundred families," is classical for everyone</span></div>
-    <div class="reading-line"><span class="script">道▢自然。</span><span class="translit pinyin">dào fǎ zì rán</span><span class="gloss">"the way follows what is so of itself" — the Laozi's last rung: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature. The box is "follows-the-model-of"</span></div>
+    <div class="reading-line"><span class="script">道▢自然。</span><a class="say" href="{{ '/assets/audio/lines/102-15-dao-fa-zi-ran.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dào fǎ zì rán</span></a><span class="gloss">"the way follows what is so of itself" — the Laozi's last rung: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature. The box is "follows-the-model-of"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 17 and 25.
