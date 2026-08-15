@@ -286,7 +286,7 @@ if $PROGRAM_NAME == __FILE__
     res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |h|
       h.request(Net::HTTP::Get.new(uri, "xi-api-key" => key))
     end
-    abort "voice voices: HTTP #{res.code}" unless res.code == "200"
+    abort "voice voices: HTTP #{res.code} — #{res.body.to_s[0, 300]}" unless res.code == "200"
     JSON.parse(res.body).fetch("voices", []).each do |v|
       puts format("%-24s %s (%s)", v["voice_id"], v["name"], (v["labels"] || {}).values.join(", "))
     end
