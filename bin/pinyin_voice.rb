@@ -94,7 +94,20 @@ module Edubba
                      "verify" => s["verify"] || "tone",
                      "out" => out_path(id, "syllable") }
             item["cut"] = spec["cut"] if spec["cut"]
-            item["voice_settings"] = spec["voice_settings"] if spec["voice_settings"]
+            # Syllable items default to the engine's deliberate
+            # citation pace (syllable_voice_settings) and teacher-
+            # register prosody context (syllable_previous_text —
+            # conditions HOW the text is spoken without being
+            # spoken itself; the cooperative hint, owner question
+            # 2026-08-15). A spec's own fields win. Lines keep
+            # natural prosody.
+            settings = spec["voice_settings"] ||
+                       (s["verify"] != "loudness" && plan.dig("engine", "syllable_voice_settings")) || nil
+            item["voice_settings"] = settings if settings
+            prev = spec["previous_text"] ||
+                   (s["verify"] != "loudness" && plan.dig("engine", "syllable_previous_text")) || nil
+            item["previous_text"] = prev if prev
+            item["next_text"] = spec["next_text"] if spec["next_text"]
             items << item
           end
         end
@@ -254,6 +267,8 @@ if $PROGRAM_NAME == __FILE__
       body["language_code"] = eng["language"] if eng["language"].to_s != ""
       settings = item["voice_settings"] || eng["voice_settings"]
       body["voice_settings"] = settings if settings
+      body["previous_text"] = item["previous_text"] if item["previous_text"]
+      body["next_text"] = item["next_text"] if item["next_text"]
       req = Net::HTTP::Post.new(uri, "xi-api-key" => key, "Content-Type" => "application/json")
       req.body = JSON.generate(body)
       res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
@@ -329,7 +344,13 @@ if $PROGRAM_NAME == __FILE__
           got = Edubba::PinyinAudio.classify(track)
           return [nil, "pitch says #{got}, pinyin #{item['pinyin']} expects #{expected}"]
         end
-        cut_pass, why = Edubba::PinyinAudio.cut_ok?(pcm, tone: expected)
+        # Pedagogical length law (owner ruling 2026-08-15, review of
+        # the first full voice: "syllables too short everywhere —
+        # may be fluent speech, but no good pedagogy-wise"): a
+        # citation clip must be long enough to HEAR the contour.
+        span_cfg = plan.dig("engine", "syllable_span") || [0.35, 1.2]
+        cut_pass, why = Edubba::PinyinAudio.cut_ok?(pcm, tone: expected,
+                                                    span: (span_cfg[0]..span_cfg[1]))
         return [nil, why] unless cut_pass
       when "line"
         return [nil, "duration #{dur.round(2)}s outside 0.8–20s"] unless dur.between?(0.8, 20.0)
