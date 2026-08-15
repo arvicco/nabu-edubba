@@ -105,6 +105,28 @@ class PinyinVoiceTest < Minitest::Test
     assert_equal "middle", item["cut"]
   end
 
+  def test_cut_ok_accepts_a_span_override
+    # 0.30 s of steady tone at 16 kHz — inside the legacy 0.15–0.85
+    # window, below the pedagogical 0.4 floor.
+    pcm = ([12_000] * (16_000 * 3 / 10)).pack("s<*")
+    ok, = Edubba::PinyinAudio.cut_ok?(pcm)
+    assert ok, "legacy span accepts 0.30 s"
+    ok, why = Edubba::PinyinAudio.cut_ok?(pcm, span: (0.4..1.5))
+    refute ok, "the length law refuses it"
+    assert_match(/voiced span 0\.\d+ s outside 0\.40–1\.50 s/, why)
+  end
+
+  def test_syllable_items_inherit_the_deliberate_pace
+    plan = PLAN.merge("engine" => PLAN["engine"].merge("syllable_voice_settings" => { "speed" => 0.7 }))
+    items = Edubba::PinyinVoice.pending_items(plan, { "built" => {} })
+    ren = items.find { |i| i["base"] == "ren" }
+    assert_equal({ "speed" => 0.7 }, ren["voice_settings"])
+    neutral = items.find { |i| i["base"] == "ma-neutral" }
+    assert_nil neutral["voice_settings"], "loudness-verified demos keep natural pace"
+    line = items.find { |i| i["kind"] == "line" }
+    assert_nil line["voice_settings"], "lines keep natural prosody"
+  end
+
   def test_clean_track_kills_octave_spikes_and_keeps_the_contour
     dirty = [119, 327, 85, 320, 320, 356, 107, 103, 94, 86, 89, 90, 94, 86, 85, 348, 102]
     cleaned = Edubba::PinyinVoice.clean_track(dirty)
