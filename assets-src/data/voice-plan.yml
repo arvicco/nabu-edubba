@@ -16,13 +16,14 @@ engine:
   model_id: eleven_multilingual_v2
   output_format: mp3_44100_128
   language: zh
-  voice_id: UFDAUkGzdLAEJlINT3Fx
-  syllable_previous_text: "跟我讀，慢慢地，一個字："   # teacher-register prosody context — conditions delivery, never spoken
+  voice_id: BWN0mOtkGHghA3CYFzFK   # PINNED 2026-08-15 — Danyu Zhao; changing it means regenerating everything
+  v3_text_prefix: "[slowly]"
+  syllable_previous_text: 跟我讀，慢慢地，一個字：
   syllable_voice_settings:
-    speed: 0.7
+    speed: 0.85
   syllable_span:
   - 0.4
-  - 1.5
+  - 2.2
 syllables:
   yue-say:
     pinyin: yuē
@@ -30,10 +31,6 @@ syllables:
   ren:
     pinyin: rén
     text: 仁
-    variants:
-    - text: 仁
-    - text: 仁、仁、仁。
-      cut: middle
   da:
     pinyin: dà
     text: 大
@@ -152,17 +149,13 @@ syllables:
   wei-do:
     pinyin: wéi
     text: 維
-    variants:
-    - text: 維
-    - text: 維持
-      cut: first
   wu:
     pinyin: wú
     text: 無
     variants:
     - text: 無
-    - text: 無、無、無。
-      cut: middle
+      stretch: 1.4
+    - text: 吳
   wo:
     pinyin: wǒ
     text: 我
@@ -333,20 +326,12 @@ syllables:
   min:
     pinyin: mín
     text: 民
-    variants:
-    - text: 民
-    - text: 民、民、民。
-      cut: middle
   chen:
     pinyin: chén
     text: 臣
   he:
     pinyin: hé
     text: 河
-    variants:
-    - text: 河
-    - text: 河流
-      cut: first
   zai:
     pinyin: zài
     text: 在
@@ -366,10 +351,6 @@ syllables:
   dong:
     pinyin: dōng
     text: 東
-    variants:
-    - text: 東
-    - text: 東、東、東。
-      cut: middle
   xue:
     pinyin: xué
     text: 學
@@ -405,6 +386,12 @@ syllables:
   hou:
     pinyin: hòu
     text: 後
+    variants:
+    - text: 後
+      stretch: 1.5
+    - text: 後面
+      cut: first
+      stretch: 1.5
   zuo:
     pinyin: zuò
     text: 作
@@ -420,10 +407,6 @@ syllables:
   de:
     pinyin: dé
     text: 德
-    variants:
-    - text: 德
-    - text: 德、德、德。
-      cut: middle
   yu-with:
     pinyin: yǔ
     text: 雨
@@ -436,10 +419,6 @@ syllables:
   ran:
     pinyin: rán
     text: 燃
-    variants:
-    - text: 燃
-    - text: 燃燒
-      cut: first
   guo:
     pinyin: guó
     text: 國
@@ -467,6 +446,13 @@ syllables:
   chang:
     pinyin: cháng
     text: 常
+    variants:
+    - text: 嘗
+    - text: 常
+      stretch: 1.4
+    - text: 昌、常、廠、唱。
+      cut: second
+      stretch: 1.4
   hao-love:
     pinyin: hào
     text: 號
@@ -478,8 +464,10 @@ syllables:
     text: 踏
     variants:
     - text: 踏
+      stretch: 1.7
     - text: 踏、踏、踏。
       cut: middle
+      stretch: 1.6
   fa:
     pinyin: fā
     text: 發
@@ -495,19 +483,35 @@ syllables:
   ma-high:
     pinyin: mā
     text: 媽
+    variants:
+    - text: 媽、麻、馬、罵。
+      cut: token1
+      voice_settings:
+        speed: 0.7
+    - text: 媽
   ma-rising:
     pinyin: má
     text: 麻
     variants:
+    - text: 媽、麻、馬、罵。
+      cut: token2
     - text: 麻
-    - text: 麻煩
-      cut: first
   ma-dipping:
     pinyin: mǎ
     text: 馬
+    variants:
+    - text: 媽、麻、馬、罵。
+      cut: token3
+      voice_settings:
+        speed: 0.7
+    - text: 馬
   ma-falling:
     pinyin: mà
     text: 罵
+    variants:
+    - text: 媽、麻、馬、罵。
+      cut: token4
+    - text: 罵
   pa:
     pinyin: pà
     text: 怕
@@ -527,13 +531,10 @@ syllables:
     pinyin: é
     text: 鵝
     variants:
+    - text: 額
     - text: 鵝
     - text: 阿、鵝、惡、餓。
       cut: second
-    - text: 額頭
-      cut: first
-    - text: 鵝、鵝、鵝。
-      cut: middle
   ma-neutral:
     pinyin: ma
     text: 嗎

@@ -94,6 +94,7 @@ module Edubba
                      "verify" => s["verify"] || "tone",
                      "out" => out_path(id, "syllable") }
             item["cut"] = spec["cut"] if spec["cut"]
+            item["stretch"] = spec["stretch"] if spec["stretch"]
             # Syllable items default to the engine's deliberate
             # citation pace (syllable_voice_settings) and teacher-
             # register prosody context (syllable_previous_text —
@@ -140,6 +141,22 @@ module Edubba
       end
       center = med3.sort[med3.length / 2].to_f
       med3.select { |f| f.between?(center * 0.6, center * 1.6) }
+    end
+
+    # Late-rise detector (2026-08-15, the cháng blind spot): a slow
+    # deliberate tone-2 may hold a long low dip and rise steeply
+    # only in the final fifth — which the feature windows trim and
+    # median away (chang~v2c: 126→113 dip, then 113→155, refused).
+    # Accept a rise when the track's tail clearly climbs ≥22% out
+    # of the mid-track valley and keeps climbing. Falls end low and
+    # levels never leave the valley — both still refuse.
+    def late_rise?(track)
+      return false if track.length < 8
+
+      tail = track.last([track.length / 4, 3].max)
+      mid = track[(track.length / 5)...(track.length * 4 / 5)]
+      valley = mid.min.to_f
+      tail.max > valley * 1.22 && tail.last >= tail.first
     end
 
     # Syllable count a line's pinyin declares (for the hump report).
@@ -189,9 +206,13 @@ module Edubba
       return nil if runs.empty?
 
       if runs.length >= 2
-        pick = case position
-               when :first  then runs.first
-               when :second then runs.length >= 2 ? runs[1] : nil
+        pick = if position == :first then runs.first
+               elsif position == :second then runs[1]
+               elsif position.to_s =~ /\Atoken(\d+)\z/
+                 # tokenN (1-based) demands the tokens separated —
+                 # cutting the four-tone bar into its four demos
+                 n = Regexp.last_match(1).to_i
+                 runs.length >= n ? runs[n - 1] : nil
                else runs.min_by { |a, b| ((a + b) / 2.0 - env.length / 2.0).abs }
                end
         return pick && [pick[0] * FRAME_S, (pick[1] + 1) * FRAME_S]
@@ -263,7 +284,15 @@ if $PROGRAM_NAME == __FILE__
         next
       end
       uri = URI("#{API_BASE}/v1/text-to-speech/#{eng['voice_id']}?output_format=#{eng['output_format']}")
-      body = { "text" => item["text"], "model_id" => eng["model_id"] }
+      # v3 models take bracketed audio tags as delivery directives
+      # ([slowly] — deliberate pace without the speed slider's
+      # prosody flattening); applied to syllable items only, and
+      # only when a v3 model actually runs.
+      text = item["text"]
+      if eng["model_id"].to_s.start_with?("eleven_v3") && eng["v3_text_prefix"] && item["kind"] != "line"
+        text = "#{eng['v3_text_prefix']}#{text}"
+      end
+      body = { "text" => text, "model_id" => eng["model_id"] }
       body["language_code"] = eng["language"] if eng["language"].to_s != ""
       settings = item["voice_settings"] || eng["voice_settings"]
       body["voice_settings"] = settings if settings
@@ -272,9 +301,10 @@ if $PROGRAM_NAME == __FILE__
       req = Net::HTTP::Post.new(uri, "xi-api-key" => key, "Content-Type" => "application/json")
       req.body = JSON.generate(body)
       res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
-      if res.code == "400" && body.key?("language_code") && res.body.include?("language_code")
-        # model without language enforcement — retry without it
-        req.body = JSON.generate(body.reject { |k, _| k == "language_code" })
+      if res.code == "400"
+        # a model rejecting an optional param (language_code,
+        # previous_text, speed …) — retry with the minimal body
+        req.body = JSON.generate({ "text" => body["text"], "model_id" => body["model_id"] })
         res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
       end
       if res.code == "200"
@@ -315,11 +345,11 @@ if $PROGRAM_NAME == __FILE__
       trimmed = File.join(tmp, "#{id}.wav")
       system("ffmpeg", "-v", "quiet", "-y", "-i", staged,
              "-af", "silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05," \
-                    "areverse,silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05,areverse",
+                    "areverse,silenceremove=start_periods=1:start_threshold=-30dB:start_silence=0.05,areverse",
              trimmed)
       return [nil, "trim produced nothing usable"] unless File.exist?(trimmed) && File.size(trimmed) > 1000
 
-      if %w[middle first second].include?(item["cut"])
+      if item["cut"].to_s.match?(/\A(middle|first|second|token\d+)\z/)
         pre_pcm = File.join(tmp, "#{id}-pre.pcm")
         system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-f", "s16le", "-ac", "1", "-ar", "16000", pre_pcm)
         seg = Edubba::PinyinVoice.token_at(Edubba::PinyinAudio.envelope(File.binread(pre_pcm)),
@@ -331,6 +361,16 @@ if $PROGRAM_NAME == __FILE__
                "-ss", format("%.3f", [seg[0] - 0.02, 0].max), "-to", format("%.3f", seg[1] + 0.02), cutf)
         trimmed = cutf
       end
+      if item["stretch"]
+        # Pitch-preserving time-stretch (the language-lab slowdown):
+        # for inherently clipped syllables (checked-tone history —
+        # 踏 never reaches the length floor at any prompt). The tone
+        # and span gates run on the STRETCHED result.
+        sf = File.join(tmp, "#{id}-slow.wav")
+        system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed,
+               "-af", format("atempo=%.3f", 1.0 / item["stretch"].to_f), sf)
+        trimmed = sf if File.exist?(sf) && File.size(sf) > 1000
+      end
       pcm_f = File.join(tmp, "#{id}.pcm")
       system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
       pcm = File.binread(pcm_f)
@@ -340,7 +380,8 @@ if $PROGRAM_NAME == __FILE__
       when "tone"
         track = Edubba::PinyinVoice.clean_track(Edubba::PinyinAudio.pitch_track(pcm))
         expected = Edubba::PinyinAudio.tone_of(item["pinyin"].to_s)
-        unless Edubba::PinyinAudio.tone_ok?(expected, track)
+        unless Edubba::PinyinAudio.tone_ok?(expected, track) ||
+               (expected == :rise && Edubba::PinyinVoice.late_rise?(track))
           got = Edubba::PinyinAudio.classify(track)
           return [nil, "pitch says #{got}, pinyin #{item['pinyin']} expects #{expected}"]
         end
