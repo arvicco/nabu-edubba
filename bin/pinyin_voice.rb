@@ -159,6 +159,103 @@ module Edubba
       tail.max > valley * 1.22 && tail.last >= tail.first
     end
 
+    # THE TRANSCRIPT GATE (owner catches, 2026-08-15: mā shipped as
+    # "mama", mù as "musha", dà as "dar" — acoustic QA verified the
+    # pitch and length OF GARBAGE). Every clip must be RECOGNIZED
+    # as saying what it claims before it ships: whisper.cpp,
+    # forced-zh decode, offline. A syllable transcript must be
+    # exactly one han character from the accepted set (the carrier
+    # and same-sound characters of our own pool); anything Latin,
+    # empty, or multi-character is babble and refuses. Never ship
+    # speech the pipeline has not understood.
+    WHISPER_MODEL = ENV.fetch("EDUBBA_WHISPER_MODEL",
+                              File.expand_path("~/.cache/edubba-whisper/ggml-small.bin"))
+
+    def transcribe(wav)
+      out = `whisper-cli -m #{WHISPER_MODEL.inspect} -l zh -nt -f #{wav.inspect} 2>/dev/null`
+      out.gsub(/\s+/, "").gsub(/[。，、？！?!,.:：;；'"「」…-]/, "")
+    end
+
+    def han_only(str)
+      str.scan(/\p{Han}/).join
+    end
+
+    # Segmental identity via Unihan kMandarin (Nabu's canonical
+    # copy): the transcript character must SAY the expected base
+    # syllable — any tone (the pitch gate owns tones), any script
+    # (simplified 时 reads shí too). 約 clears yuē, 蛋 clears dàn;
+    # 是-for-zì and Latin babble refuse.
+    UNIHAN_READINGS = File.join(
+      ENV.fetch("UNIHAN_DIR", File.expand_path("~/Dev/nabu/canonical/unihan")),
+      "Unihan_Readings.txt"
+    )
+
+    def unihan_pinyin
+      @unihan_pinyin ||= begin
+        map = Hash.new { |h, k| h[k] = [] }
+        File.foreach(UNIHAN_READINGS) do |line|
+          next unless line.include?("\tkMandarin\t")
+
+          cp, _, vals = line.strip.split("\t", 3)
+          ch = [cp.sub("U+", "").hex].pack("U")
+          map[ch] = vals.split(/\s+/)
+        end
+        map
+      end
+    end
+
+    def base_syllable(pinyin)
+      pinyin.to_s.unicode_normalize(:nfd).gsub(/\p{Mn}/, "").downcase
+    end
+
+    def lcs_length(a, b)
+      dp = Array.new(b.length + 1, 0)
+      a.each do |x|
+        prev = 0
+        b.each_with_index do |y, j|
+          cur = dp[j + 1]
+          dp[j + 1] = x == y ? prev + 1 : [dp[j + 1], dp[j]].max
+          prev = cur
+        end
+      end
+      dp[b.length]
+    end
+
+    # ASR writes numbers as digits (三十而立 → "32里") — expand a
+    # digit run to its spoken Chinese bases before comparison.
+    DIGIT_BASE = %w[ling yi er san si wu liu qi ba jiu].freeze
+
+    def expand_digits(str)
+      out = []
+      str.scan(/\d+|\p{Han}/) do |tok|
+        if tok =~ /\A\d+\z/
+          n = tok.to_i
+          if n.between?(10, 99)
+            out << DIGIT_BASE[n / 10] unless n / 10 == 1
+            out << "shi"
+            out << DIGIT_BASE[n % 10] unless (n % 10).zero?
+          else
+            tok.each_char { |d| out << DIGIT_BASE[d.to_i] }
+          end
+        else
+          out << tok
+        end
+      end
+      out
+    end
+
+    # -n/-ng codas are the most confused pair in Mandarin ASR
+    # (chen→cheng); folded for LINE comparison only — syllable
+    # clips still face the strict segmental test.
+    def fold_coda(base)
+      base.sub(/ng\z/, "n")
+    end
+
+    def says_base?(char, expected_pinyin)
+      want = base_syllable(expected_pinyin)
+      unihan_pinyin.fetch(char, []).any? { |p| base_syllable(p) == want }
+    end
+
     # Syllable count a line's pinyin declares (for the hump report).
     def syllable_count(pinyin)
       pinyin.to_s.split(/[\s,，。？！?!:：]+/).reject(&:empty?).size
@@ -302,8 +399,12 @@ if $PROGRAM_NAME == __FILE__
       req.body = JSON.generate(body)
       res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
       if res.code == "400"
-        # a model rejecting an optional param (language_code,
-        # previous_text, speed …) — retry with the minimal body
+        # a model rejecting an optional param — retry minimally but
+        # NEVER silently drop language enforcement: say so out loud
+        # (the 2026-08-15 babble: with language_code stripped,
+        # nothing forced Chinese and 大 shipped as "dar").
+        dropped = body.keys - %w[text model_id]
+        puts "  #{item['id']}: model rejected #{dropped.join('/')} — retrying minimal (NO language enforcement!)"
         req.body = JSON.generate({ "text" => body["text"], "model_id" => body["model_id"] })
         res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 120) { |h| h.request(req) }
       end
@@ -327,6 +428,9 @@ if $PROGRAM_NAME == __FILE__
 
   when "integrate"
     abort "voice integrate: ffmpeg not found" if `which ffmpeg`.empty?
+    abort "voice integrate: whisper-cli not found — the transcript gate is law" if `which whisper-cli`.empty?
+    abort "voice integrate: whisper model missing at #{Edubba::PinyinVoice::WHISPER_MODEL}" \
+      unless File.exist?(Edubba::PinyinVoice::WHISPER_MODEL)
     abort "voice integrate: no batch file" unless File.exist?(BATCH)
     batch = JSON.parse(File.read(BATCH))
     engine_used = File.exist?(File.join(STAGING, "_engine.json")) ?
@@ -375,6 +479,39 @@ if $PROGRAM_NAME == __FILE__
       system("ffmpeg", "-v", "quiet", "-y", "-i", trimmed, "-f", "s16le", "-ac", "1", "-ar", "16000", pcm_f)
       pcm = File.binread(pcm_f)
       dur = pcm.bytesize / 2.0 / 16_000
+
+      # The transcript gate runs for EVERY clip, before acoustics.
+      transcript = Edubba::PinyinVoice.transcribe(trimmed)
+      if item["kind"] == "line"
+        # script-independent: compare base-syllable sequences (the
+        # declared pinyin vs the transcript chars' Unihan readings)
+        want = item["pinyin"].to_s.split(/[\s,，]+/).reject(&:empty?)
+                   .map { |p| Edubba::PinyinVoice.fold_coda(Edubba::PinyinVoice.base_syllable(p)) }
+        got = Edubba::PinyinVoice.expand_digits(transcript)
+                  .map { |tok| tok =~ /\A\p{Han}\z/ ? Edubba::PinyinVoice.unihan_pinyin.fetch(tok, []).first : tok }
+                  .compact
+                  .map { |p| Edubba::PinyinVoice.fold_coda(Edubba::PinyinVoice.base_syllable(p)) }
+        ratio = Edubba::PinyinVoice.lcs_length(want, got) / want.length.to_f
+        if ratio < 0.85
+          return [nil, "transcript #{transcript.inspect} does not say the line (#{(ratio * 100).round}% of syllables)"]
+        end
+      else
+        got_han = Edubba::PinyinVoice.han_only(transcript)
+        if item["pinyin"].to_s.include?(" ")
+          # multi-token demo (the four-tone bar): every spoken char
+          # must say the family's base syllable, count must match
+          bases = item["pinyin"].split(/\s+/)
+          unless got_han.length == bases.length &&
+                 got_han.chars.each_with_index.all? { |c, i| Edubba::PinyinVoice.says_base?(c, bases[i]) }
+            return [nil, "transcript #{transcript.inspect} is not the declared #{bases.length}-token sequence"]
+          end
+        else
+          unless got_han.length == 1 && transcript == got_han &&
+                 Edubba::PinyinVoice.says_base?(got_han, item["pinyin"])
+            return [nil, "transcript #{transcript.inspect} does not say #{item['pinyin']} (one syllable)"]
+          end
+        end
+      end
 
       case item["verify"]
       when "tone"

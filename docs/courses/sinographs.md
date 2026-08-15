@@ -521,6 +521,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Every clip sings its declared tone | §2 | pinyin_voice integrate pitch verifier (refusal) |
 | Every clip is one syllable's span | §2 | pinyin_voice integrate cut QA — duration + humps |
 | Citation clips long enough to hear the tone (0.4–1.5 s) | §2 | pinyin_voice integrate span gate (syllable_span) |
+| Every clip RECOGNIZED as saying what it claims (never ship speech the pipeline hasn't understood) | §2 | transcript gate — whisper.cpp + Unihan segmental check in voice:integrate |
 | Loudness −20 dB mean / −1 dB peak | §2 | pinyin_voice normalization at encode |
 | The reading is the button (sign tables) | §2 | `say-audio` lint (mute check) |
 | Say-links resolve to real files | §2 | `say-audio` lint (dead-target check) |
