@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-15 · incident · phase-25 · THE GATE WAS DEAF TO CONTENT.
+Owner, listening: mù shipped as "musha", mā as "mama", má as
+"mashimashima", dà as "dar" — and the gate had verified the pitch
+and length OF GARBAGE. Root causes, both structural: (1) acoustic
+QA never checked WHAT was said — connected reduplication and
+anglicized babble read as one long syllable with a plausible
+contour; (2) the synth's "graceful" 400-retry silently stripped
+language_code from every request, so nothing ever forced Chinese
+on a lone hanzi. Durable fix: THE TRANSCRIPT GATE — whisper.cpp
+(owner-installed; multilingual model cached) transcribes every
+clip inside voice:integrate before acoustics; a syllable must be
+recognized as ONE character that SAYS the expected base syllable
+(Unihan kMandarin from Nabu's canonical data — segmental
+identity, any tone since the pitch gate owns tones, any script
+since simplified reads too); lines compared as base-syllable
+sequences by LCS, with ASR digit-normalization expanded (三十而立
+heard as "32里" — same sounds) and -n/-ng coda folding (chen→
+cheng, the classic ASR confusion; lines only). Whisper's verdict
+on the shipped set: 88 flagged raw, 85 TRUE garbage after the
+segmental re-verdict cleared homophone picks (約 for yuē, 蛋 for
+dàn) and script mismatches. All 85 pruned and re-batched; the
+silent language strip now warns out loud. Lesson, in the
+rulebook's spirit: never ship speech the pipeline has not
+UNDERSTOOD — measuring it is not hearing it.
+
 2026-08-15 · M25-3 · phase-25 · THE VOICE RE-CONVERGED, FOR THE
 EAR THIS TIME: 148/148 in Danyu Zhao (BWN0mOtkGHghA3CYFzFK, the
 Voice-Library bake), citation-length clips of 0.4–0.8 s where the
