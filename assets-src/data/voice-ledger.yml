@@ -1102,3 +1102,11 @@ built:
     pinyin: cháng
     ear_approved: true
     take: chang~v1c
+  shou:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 首
+    pinyin: shǒu
+    ear_approved: true
+    take: shou~v9c

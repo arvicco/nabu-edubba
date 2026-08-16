@@ -104,6 +104,7 @@ shi-arrow.mp3
 shi-poem.mp3
 shi-send.mp3
 shi-this.mp3
+shou.mp3
 shu.mp3
 shui.mp3
 si.mp3
