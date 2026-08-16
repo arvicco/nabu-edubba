@@ -19,7 +19,6 @@ bu.mp3
 chang.mp3
 chen.mp3
 cheng.mp3
-chi.mp3
 chu.mp3
 ci.mp3
 cong.mp3
@@ -158,5 +157,6 @@ zhi-stop.mp3
 zhong.mp3
 zi.mp3
 zi-self.mp3
+zi-wealth.mp3
 zu.mp3
 zuo.mp3
