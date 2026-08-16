@@ -246,6 +246,22 @@ site-wide laws into writing order.
   in the mainstream interpretive reading, hedged only where the
   tradition genuinely divides. Enforcement: owner review (ledger);
   the pre-flight checklist carries the line.
+- **The element-by-element law (owner review 2026-08-16, after
+  the S102 grammar chapters read as "fast-food stuffing of
+  phrases one after another"):** a grammar chapter ANALYZES, it
+  does not just exhibit. For every pattern taught: (a) at least
+  one exhibit sentence is walked element by element in the prose
+  around its figure — each word named, its role in THIS sentence
+  stated, recurring words tied back to where they were first
+  taught — the C102/C103 manner; (b) the pattern is shown in
+  parallel composed lines built from already-taught characters,
+  varying one thing at a time, before or beside the borrowed
+  classic; (c) glosses carry the MEANING (the meaning law); the
+  grammatical analysis lives in the surrounding prose, never
+  crammed into gloss tails. The test: a student who closes the
+  chapter can say, for each character of its exhibits, what that
+  character is doing in the sentence. Enforcement: owner review;
+  the pre-flight checklist carries the line.
 - **Return-arc planning (M20-5, ruled 2026-08-11):** a course
   segment's plan names its RETURN ARCS up front — which earlier
   readings come back, at which chapter, at what expected box
@@ -568,3 +584,4 @@ script/lint.rb's header; "owner review" is a disposition.
 | Codex attestations shown whole, never boxed | §8 | `codex-boxes` lint |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |
+| Grammar exhibits walked element by element; parallels from taught stock | §5 | owner review (element-by-element law) |

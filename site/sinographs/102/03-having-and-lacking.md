@@ -88,6 +88,40 @@ The patterns on your own characters:
   </figcaption>
 </figure>
 
+Look at where <span class="script">有</span> stands in the first
+line: first, with nothing before it. An empty subject seat is
+the whole trick — nobody does the having, so
+<span class="script">有牛</span> is bare existence, "there is an
+ox." (Fill that seat and the same verb means *own* — next
+chapter does exactly that.) In the second line
+<span class="script">王在上</span> all three seats are full:
+<span class="script">王</span> the subject,
+<span class="script">在</span> the verb "is-at,"
+<span class="script">上</span> the where — whatever follows
+<span class="script">在</span> is always the where.
+
+The third line is <a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01's</a>
+frame wearing a negative: <span class="script">民非臣也</span>
+keeps the X…Y<span class="script">也</span> furniture — seal
+included — and slots <span class="script">非</span> in front of
+the definition. That is the division of labor between the two
+no-words, and it is worth a minimal pair:
+
+<figure class="reading reading--script reading--composed">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">士不出。</span><span class="translit pinyin">shì bù chū</span><span class="gloss">"the officer does not go out" — 不 denies the doing</span></div>
+    <div class="reading-line"><span class="script">士非王也。</span><span class="translit pinyin">shì fēi wáng yě</span><span class="gloss">"the officer is not a king" — 非 denies the being, and the nominal frame stays on</span></div>
+  </div>
+  <figcaption class="citation">
+    Composed from taught characters: one officer, two denials.
+    Choose by what you are denying — an act or an identity.
+  </figcaption>
+</figure>
+
+And the fourth line, <span class="script">白日出</span>: an
+adjective simply stands before its noun — "white sun," no glue —
+and the pair then takes the subject seat together.
+
 ## Where everything comes from
 
 The *Laozi* runs the having-words backwards to the source:
@@ -101,6 +135,19 @@ The *Laozi* runs the having-words backwards to the source:
     <code>urn:nabu:kanripo:KR5c0057:040:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Element by element: <span class="script">天下萬物</span> stacks
+two compounds — "the world's" + "ten thousand things" — into one
+wide subject. <span class="script">生</span> is the verb, "are
+born." The boxed small "from" hands the verb its source, and the
+source is <span class="script">有</span> — the verb of this
+chapter standing in a *noun's* seat: "having" as a thing. Then
+the sentence runs once more, one level up:
+<span class="script">有生</span>▢<span class="script">無</span> —
+having itself born from not-having, the last word of the first
+clause promoted to subject of the second. The grammar mirrors
+the metaphysics: each clause hands what it found to the next,
+all the way down to the empty ground.
 
 ## The wrong kind of ghost
 
@@ -116,6 +163,18 @@ The *Laozi* runs the having-words backwards to the source:
   </figcaption>
 </figure>
 
+The pieces: <span class="script">非其</span>▢ — here
+<span class="script">非</span> rejects not a whole sentence but
+a phrase, "not one's *own* ancestor," with
+<span class="script">其</span>, Foundations' pointer-word,
+carrying the "one's own." <span class="script">而</span> turns:
+"and yet." ▢<span class="script">之</span> is "sacrifice to
+*them*" — this small <span class="script">之</span> points back
+at the ancestor; its double life gets a whole chapter, two
+ahead. And the verdict is <a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01</a>
+again: ▢<span class="script">也</span> — the deed set beside its
+true name, "flattery," and sealed.
+
 ## The oxen come home
 
 The Odes' evening scene, readable now but for two boxes:
@@ -129,6 +188,18 @@ The Odes' evening scene, readable now but for two boxes:
     <code>urn:nabu:kanripo:KR1c0001:006:9a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Two small mechanisms carry the scene.
+<span class="script">日之夕</span> — the belonging-thread
+gluing "sun" to "evening": *the sun's setting*, a whole moment
+folded into a noun, with the boxed sentence-final "by now"
+sighing after it. Then ▢<span class="script">牛下來</span>:
+subject first (sheep-and-oxen sharing the seat, no "and" —
+<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+rule), and two motion verbs stacked at the end,
+<span class="script">下來</span> "come down" — down the hill,
+toward the speaker. The evening happens in the grammar: things
+settle, and settle homeward.
 
 ## Where this leaves you
 
