@@ -711,9 +711,31 @@ syllables:
   chi:
     pinyin: chī
     text: 吃
+    variants:
+    - text: 吃
+      next_text: 很好。
+    - text: 吃
+      stretch: 1.3
+    - text: 吃飯
+      cut: first
+    - text: 第一聲，吃。
+      cut: second
+    - text: 吃、吃、吃。
+      cut: middle
   lv:
     pinyin: lǜ
     text: 綠
+    variants:
+    - text: 綠
+      next_text: 很好。
+    - text: 律
+      next_text: 很好。
+    - text: 綠色
+      cut: first
+    - text: 第四聲，綠。
+      cut: second
+    - text: 綠、綠、綠。
+      cut: middle
   e:
     pinyin: é
     text: 鵝
@@ -839,10 +861,13 @@ syllables:
     text: 蘇
     variants:
     - text: 蘇
-    - text: 蘇
-      stretch: 1.4
+      next_text: 很好。
+    - text: 酥
+      next_text: 很好。
     - text: 蘇州
       cut: first
+    - text: 第一聲，蘇。
+      cut: second
     - text: 蘇、蘇、蘇。
       cut: middle
   la:
@@ -870,10 +895,11 @@ syllables:
     text: 資
     variants:
     - text: 資
-    - text: 資
-      stretch: 1.4
-    - text: 資源
+      next_text: 很好。
+    - text: 資金
       cut: first
+    - text: 第一聲，資。
+      cut: second
     - text: 資、資、資。
       cut: middle
   ben-rush:
