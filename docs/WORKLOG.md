@@ -5,6 +5,31 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-16 · M25-5 · phase-25 · THE FULL-SITE EAR REVIEW, CLOSED:
+162/162 (154 syllables + 8 lines), 76 ear-approved. The owner
+listened across the whole site and flagged ~30 clips in three
+classes, each with its own repair: (1) END NOISE — salvaged
+locally, no synthesis: tail-cut takes from the shipped clip (or
+the almost-fine reject), owner-picked depth; kǒu needed 500 ms
+off, most needed 140–200. (2) TOO LONG/SHORT — pitch-preserving
+atempo in both directions (zhī/bù shortened; shí won its tone as
+a stretched 十 then got sped back to 0.56 s). (3) UNCLEAR TONE /
+WRONG SYLLABLE — re-synthesis, where two strategy lessons landed:
+the CARRIER SWAP (a syllable is not its character — sixteen takes
+of 時 never rose, 十 rose first try; 褲 babbled, 酷 spoke
+cleanly) and the INSTRUCTED SCRIPT (the engine reads, it does not
+obey — "第二聲，時。" puts the instruction IN the spoken text and
+cuts out the target token). Also: pà·tà·kǒu-class rows got the
+contrast demos they needed (lā nī zī bēn synthesized; primer rows
+now one tone each); the dào-fǎ-zì-rán line re-synthesized at
+speed 0.8 after lines learned per-entry voice_settings +
+previous_text + roll fan-out; yán/jiàn/xiān "almost yen" ruled
+normative ([ɛ]-raising in -ian, Duanmu) — no fix. Catch worth
+keeping: a mid-run batch regeneration desynced from the owner's
+already-running synth (228 staged vs 240 expected) — integrate
+first, then re-batch the remainder; the staging watcher now reads
+the batch file per poll.
+
 2026-08-16 · M25-4 · phase-25 · THE EAR RULES, AND THE SET IS
 WHOLE: 158/158 clips in the pinned voice (150 syllables + 8
 lines), 55 of them ear-approved. The transcript gate's honesty
