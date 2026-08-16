@@ -20,7 +20,7 @@ it as a bent arm, the probable original of "elbow," borrowed for
 the ninth digit and kept. As the last of the digits, nine became
 the classics' number of utmost height: ninefold heavens, the
 nine provinces of the world. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 
@@ -31,7 +31,7 @@ go: nine.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">九五：▢▢▢天。</span><span class="translit pinyin">jiǔ wǔ: fēi lóng zài tiān</span><span class="gloss">"nine in the fifth place: flying dragon in the sky" — the boxes are "fly", "dragon", "be-at"; in the Changes each firm line is a "nine", and the fifth is the throne — 九五 still means imperial dignity</span></div>
+    <div class="reading-line"><span class="script">九五：飛龍在天。</span><span class="translit pinyin">jiǔ wǔ: fēi lóng zài tiān</span><span class="gloss">"nine in the fifth place: flying dragon in the sky" — in the Changes each firm line is a "nine", and the fifth is the throne — 九五 still means imperial dignity</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Changes</em>, hexagram 1 (乾) — the saying

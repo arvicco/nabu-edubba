@@ -28,7 +28,7 @@ pitch rise and let the question hang.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而▢▢之，不亦▢乎？</span><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span><span class="gloss">"to learn, and in season practice it — is that not a pleasure?" — 乎 hanging the canon's first question in the air</span></div>
+    <div class="reading-line"><span class="script">學而時習之，不亦說乎？</span><span class="translit pinyin">xué ér shí xí zhī, bù yì yuè hū</span><span class="gloss">"to learn, and in season practice it — is that not a pleasure?" — 乎 hanging the canon's first question in the air</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.1.

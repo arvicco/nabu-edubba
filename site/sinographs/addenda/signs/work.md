@@ -19,17 +19,18 @@ A hand gripping a tally-staff — the badge of office held tight.
 The graph is close kin to the scribe- and officer-signs; what
 the hand holds is the job. As a noun the affair; toward a
 person, the serving of them. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">the making-it-happen chapter</a>.
 
 ## How to remember it
 
-The job in the fist: **work**.
+The same writing-hand that grips the brush in 書, here gripping
+the tally of office: the job in that hand is the **work**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢事而▢。</span><span class="translit pinyin">jìng shì ér xìn</span><span class="gloss">"take the work seriously, and keep your word" — Confucius' first two rules for anyone in charge. The boxes are "respectfully" and "keep faith"</span></div>
+    <div class="reading-line"><span class="script">敬事而信。</span><span class="translit pinyin">jìng shì ér xìn</span><span class="gloss">"take the work seriously, and keep your word" — Confucius' first two rules for anyone in charge.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5.

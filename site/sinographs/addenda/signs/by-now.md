@@ -19,17 +19,18 @@ the stated account. The particle closes a sentence with
 arrival: something has become so, the count is complete, the
 decade has turned. Where 也 lays a fact flat on the table, 矣
 tells you the arrow has landed. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 
-An arrow already in the target: **by now**, it is so.
+The arrow 矢 with a curl tied on top: flown, landed, knotted
+off — **by now**, it is so.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">可以為▢矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can, by this, be a teacher — and it is so" — 矣 landing the sentence this course first read with the particle still boxed</span></div>
+    <div class="reading-line"><span class="script">可以為師矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"…can, by this, be a teacher — and it is so" — 矣 landing the close of the warm-up-the-old saying</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11.

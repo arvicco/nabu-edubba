@@ -18,7 +18,7 @@ A footprint 止 with a figure standing beside it — the stated
 account: where someone has stopped walking is *here*, and the
 near thing is *this*. Against 是 ("this" as the matter at hand)
 此 points with the finger. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ spot underfoot.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">此▢知本。</span><span class="translit pinyin">cǐ wèi zhī běn</span><span class="gloss">"THIS is called knowing the root" — 此 gathering a whole argument onto the spot</span></div>
+    <div class="reading-line"><span class="script">此謂知本。</span><span class="translit pinyin">cǐ wèi zhī běn</span><span class="gloss">"THIS is called knowing the root" — 此 gathering a whole argument onto the spot</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

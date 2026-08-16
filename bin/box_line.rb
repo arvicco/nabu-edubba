@@ -38,10 +38,18 @@ module Edubba
 
     BOX = "▢"
 
-    def taught_set(queue_paths, chapter)
+    # Per-course ordinals since the border split (concept §7):
+    # a course-101 query counts 101 rows only; a course-102 query
+    # counts ALL of 101 (its assumed prerequisite) plus 102 rows
+    # up to the chapter.
+    def taught_set(queue_paths, chapter, course: 101)
       rows = Array(queue_paths).flat_map { |p| YAML.safe_load_file(p).fetch("signs") }
-      rows.select { |r| r.fetch("chapter") <= chapter }
-          .map { |r| r.fetch("char") }.to_set
+      rows.select do |r|
+        if (r["course"] || 101) < course then true
+        elsif (r["course"] || 101) == course then r.fetch("chapter") <= chapter
+        else false
+        end
+      end.map { |r| r.fetch("char") }.to_set
     end
 
     def han?(char) = Edubba::Lint.han?(char.ord)
@@ -68,7 +76,15 @@ module Edubba
     end
 
     # The cap law (sinographs §5): max(25, 50 − 5·⌊ch/5⌋).
-    def cap_for(chapter) = [25, 50 - 5 * (chapter / 5)].max
+    # Cap schedules per course (rulebook §5): S101's declining curve
+    # keyed on its own ordinals; S102 continues where it left off.
+    def cap_for(chapter, course: 101)
+      if course == 102
+        [25, 40 - 5 * ((chapter - 1) / 5)].max
+      else
+        [25, 50 - 5 * (chapter / 5)].max
+      end
+    end
 
     # ON the cap passes — untaught may never OUTNUMBER the cap's
     # allowance, and the lint's own comparison is share <= cap.
@@ -89,9 +105,9 @@ module Edubba
         %(<span class="gloss">"TODO" — TODO</span></div>)
     end
 
-    def report(line, chapter, school: "sinographs")
+    def report(line, chapter, school: "sinographs", course: 101)
       paths = SCHOOLS.fetch(school)
-      taught = taught_set(paths[:queue], chapter)
+      taught = taught_set(paths[:queue], chapter, course: course)
       boxed = box(line, taught)
       missing = untaught(line, taught)
       pinyin = missing.empty? ? {} : pinyin_table(paths[:freq])
@@ -104,7 +120,7 @@ module Edubba
                "untaught: " + missing.map { |c| "#{c} (#{pinyin[c] || '?'})" }.join("  ")
              end
       if s
-        cap = cap_for(chapter)
+        cap = cap_for(chapter, course: course)
         out << format("share:    %d box / %d han+box = %.1f%% vs cap %d%% (ch. %d) — %s",
                       s[:boxes], s[:boxes] + s[:han], s[:share], cap, chapter,
                       verdict(s[:share], cap))
@@ -122,7 +138,8 @@ if $PROGRAM_NAME == __FILE__
   line = ARGV.find { |a| !a.start_with?("--") && !a.match?(/\A\d+\z/) }
   chapter = ARGV[ARGV.index("--chapter") + 1].to_i if ARGV.include?("--chapter")
   school = ARGV.include?("--school") ? ARGV[ARGV.index("--school") + 1] : "sinographs"
-  abort "usage: box_line.rb LINE --chapter N [--school sinographs]" unless line && chapter
+  course = ARGV.include?("--course") ? ARGV[ARGV.index("--course") + 1].to_i : 101
+  abort "usage: box_line.rb LINE --chapter N [--course 102] [--school sinographs]" unless line && chapter
 
-  puts Edubba::BoxLine.report(line, chapter, school: school)
+  puts Edubba::BoxLine.report(line, chapter, school: school, course: course)
 end

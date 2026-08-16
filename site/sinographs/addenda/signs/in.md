@@ -20,17 +20,19 @@ An old form of the crow 烏, borrowed whole for the preposition
 in a fuller dress: the oldest songs and annals point with 于,
 the *Analects* and the philosophers prefer 於. In, at, on —
 and after a comparison, *than*. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 
-The crow lands wherever it likes: **in**, at, on.
+The old crow, perched: the pole-shape at the left, two small
+marks for the folded wings at the right. Wherever the crow
+lands, there the sentence is — **in**, at, on.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">自天子以至於▢人。</span><span class="translit pinyin">zì tiān zǐ yǐ zhì yú shù rén</span><span class="gloss">"from the Son of Heaven down TO the common people" — 於 setting the far end of the span</span></div>
+    <div class="reading-line"><span class="script">自天子以至於庶人。</span><span class="translit pinyin">zì tiān zǐ yǐ zhì yú shù rén</span><span class="gloss">"from the Son of Heaven down TO the common people" — 於 setting the far end of the span</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

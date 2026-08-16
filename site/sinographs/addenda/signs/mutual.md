@@ -19,7 +19,7 @@ forester sizing up timber. The appraising look became the
 classical adverb of reciprocity: 相 before a verb makes it run
 both ways. Read xiàng, the same graph names the minister who
 inspects for the throne. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ Eye meets tree, look meets look: **mutual**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有無相生。</span><span class="translit pinyin">yǒu wú xiāng shēng</span><span class="gloss">"being and non-being beget each other" — four characters, no boxes, and the whole doctrine of opposites</span></div>
+    <div class="reading-line"><span class="script">有無相生。</span><span class="translit pinyin">yǒu wú xiāng shēng</span><span class="gloss">"being and non-being beget each other" — four characters carrying the whole doctrine of opposites</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 2.

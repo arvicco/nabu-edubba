@@ -19,7 +19,7 @@ honest continuation of 一二三); the stated account is that this
 graph, whose own old picture is disputed, was borrowed for the
 numeral early and the bars retired. Counting words wear out
 their pictures fast. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ A box divided — **four** panes where four bars would blur.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">四十而不▢。</span><span class="translit pinyin">sì shí ér bù huò</span><span class="gloss">"at forty, nothing could confuse me" — the decade doubt stopped; 四十 doing the counting</span></div>
+    <div class="reading-line"><span class="script">四十而不惑。</span><span class="translit pinyin">sì shí ér bù huò</span><span class="gloss">"at forty, nothing could confuse me" — the decade doubt stopped; 四十 doing the counting</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4.

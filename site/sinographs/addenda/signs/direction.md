@@ -20,18 +20,18 @@ the course does not pick a winner. The WORD is not disputed:
 a quarter of the world (四方, the four quarters), a direction,
 a region, and later a method — the shape of "which way?"
 frozen into writing. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">the asking chapter</a>.
 
 ## How to remember it
 
-Whatever the picture was, it points: a **direction**, one of
-the four quarters.
+Read it as a pennant on its pole, streaming one way: look where
+it points — a **direction**, one of the four quarters.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢於四方。</span><span class="translit pinyin">shǐ yú sì fāng</span><span class="gloss">"sent to the four quarters" — the box is "sent as envoy"; what an officer must be fit for, says the Master: a mission anywhere under heaven</span></div>
+    <div class="reading-line"><span class="script">使於四方。</span><span class="translit pinyin">shǐ yú sì fāng</span><span class="gloss">"sent to the four quarters" — what an officer must be fit for, says the Master: a mission anywhere under heaven</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 13.20 — from the same answer the officer's

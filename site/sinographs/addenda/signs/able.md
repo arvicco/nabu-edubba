@@ -20,11 +20,13 @@ meat, two clawed legs stacked on the right. Strength on four
 paws was lent to the idea "can, is able" so early that the loan
 became permanent — the bear later had to grow a new character
 (the same graph over fire-dots) to stay an animal. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 
-Strong as a bear: **able**.
+Find the bear in the strokes: a snout at the upper left, the
+moon-shaped flesh sign 月 for its body, two claws stacked on the
+right. Strong as a bear: **able**.
 
 ## In the wild
 

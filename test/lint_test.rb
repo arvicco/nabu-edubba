@@ -187,6 +187,17 @@ class LintTest < Minitest::Test
     ), "only reading figures are in scope"
   end
 
+  def test_codex_boxes_never_on_the_sinograph_shelf
+    shelf = "site/sinographs/addenda/signs/lord.md"
+    v = Edubba::Lint.check_codex_boxes(shelf, "君子不▢。")
+    assert_equal ["codex-boxes"], v.map(&:rule), "a Codex attestation is shown whole"
+    assert_empty Edubba::Lint.check_codex_boxes(shelf, "君子不器。")
+    assert_empty Edubba::Lint.check_codex_boxes("site/cuneiform/addenda-akk/signs/gin2.md", "𒈠𒈾 ▢"),
+                 "cuneiform shelves may carry ▢ for genuine tablet damage"
+    assert_empty Edubba::Lint.check_codex_boxes("site/sinographs/102/01-x.md", "臣▢君"),
+                 "chapter readings keep their own box law"
+  end
+
   def test_box_share_caps_untaught_boxes_progressively
     fig = ->(script) { "---\nchapter: 0\n---\n<figure class=\"reading reading--script\"><div><span class=\"script\">#{script}</span></div></figure>" }
     sino = "site/sinographs/101/00-x.md"

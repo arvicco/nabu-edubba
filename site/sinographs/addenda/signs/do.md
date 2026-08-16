@@ -22,14 +22,15 @@ the verb; read *wèi* when it means "for the sake of." Taught in
 
 ## How to remember it
 
-Whatever the job, a hand and an elephant can **do** it. The
-elephant is invisible now; the doing never stopped.
+A claw at the top, four small feet at the bottom: what is left
+of the hand leading the elephant — the heaviest **doing** the
+script ever drew.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">為無為，▢無▢，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — act without forcing, and things come right on their own: 為 opening the most famous paradox in Daoist thought</span></div>
+    <div class="reading-line"><span class="script">為無為，事無事，味無味。</span><span class="translit pinyin">wéi wú wéi, shì wú shì, wèi wú wèi</span><span class="gloss">"act without acting, work without working, taste the flavorless" — act without forcing, and things come right on their own: 為 opening the most famous paradox in Daoist thought</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 63.

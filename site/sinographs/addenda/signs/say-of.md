@@ -19,11 +19,13 @@ Speech 言 on the left; the right half only lends its sound. Where
 曰 opens a quotation, 謂 points at a thing and names it: X 謂 Y,
 "X calls it Y" — the classics' verb for defining, judging, and
 meaning. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">the one-who chapter</a>.
 
 ## How to remember it
 
-Speech aimed at a thing: **say-of**.
+言 speech at the left aims the words; the right half only lends
+the sound *wèi*. Speech pointed at its object: **say-of** — to
+call a thing something.
 
 ## In the wild
 

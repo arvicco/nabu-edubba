@@ -19,19 +19,18 @@ stated account of the oracle graph: flight ended, target
 reached. From *arrive* comes *utmost* — the point past which
 nothing goes. With 於 it makes 至於, "coming down to". Taught
 in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 
-The <a href="{{ '/sinographs/addenda/signs/arrow/' | relative_url }}">arrow</a>
-that has flown since the knowing-and-walking chapter comes
-down: **arrive**.
+The arrow 矢 upside down, its point buried in the earth 土 at
+the bottom: flight over — **arrive**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">以至於▢人。</span><span class="translit pinyin">yǐ zhì yú shù rén</span><span class="gloss">"…reaching down to the common people" — 至 as the span's far landing</span></div>
+    <div class="reading-line"><span class="script">以至於庶人。</span><span class="translit pinyin">yǐ zhì yú shù rén</span><span class="gloss">"…reaching down to the common people" — 至 as the span's far landing</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).

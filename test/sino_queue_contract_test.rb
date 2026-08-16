@@ -22,12 +22,14 @@ class SinoQueueContractTest < Minitest::Test
   ALL = (Q101["signs"] + Q102["signs"]).freeze
 
   def test_the_course_border_holds
-    assert Q101["signs"].all? { |s| s["chapter"] <= 9 },
+    assert Q101["signs"].all? { |s| s["chapter"] <= 9 && s["course"].nil? },
            "S101 may hold chapters 00-09 only (concept §7)"
-    assert Q102["signs"].all? { |s| s["chapter"] > 9 },
-           "S102 begins where S101 closed (concept §7)"
+    assert Q102["signs"].all? { |s| s["course"] == 102 && (1..15).cover?(s["chapter"]) },
+           "S102 rows carry course: 102 and grammar-spine ordinals 1-15 (Gate 24)"
     assert_equal (0..9).to_a, Q101["signs"].map { |s| s["chapter"] }.uniq.sort,
                  "S101 is complete: every chapter 00-09 teaches"
+    assert_equal (1..15).to_a, Q102["signs"].map { |s| s["chapter"] }.uniq.sort,
+                 "S102 is fully batched: every chapter 1-15 teaches"
   end
 
   def test_every_character_carries_the_contract_fields
@@ -61,7 +63,7 @@ class SinoQueueContractTest < Minitest::Test
 
   def test_chapters_pin_five_to_six_characters
     ALL.select { |s| s["chapter"] }
-       .group_by { |s| s["chapter"] }.each do |ch, batch|
+       .group_by { |s| [s["course"] || 101, s["chapter"]] }.each do |ch, batch|
       assert_includes 5..6, batch.size,
                       "ch #{ch} pins #{batch.size} characters — the law says 5-6 " \
                       "(owner ruling 2026-08-10)"

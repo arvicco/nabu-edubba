@@ -18,7 +18,7 @@ An eye stood on end — the classic account: the eye of a bowed
 head, glancing upward at the master. From "servant" the word
 climbed to the minister's title; before an emperor, officials
 of every rank say 臣 where we would say "I". Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ watching upward.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">臣▢君以▢。</span><span class="translit pinyin">chén shì jūn yǐ zhōng</span><span class="gloss">"a minister serves his lord with devotion" — the boxes are "serve" and "devotion"; the answer's other half sets the lord's duty first: to employ with ritual</span></div>
+    <div class="reading-line"><span class="script">臣事君以忠。</span><span class="translit pinyin">chén shì jūn yǐ zhōng</span><span class="gloss">"a minister serves his lord with devotion" — the answer's other half sets the lord's duty first: to employ with ritual</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 3.19.

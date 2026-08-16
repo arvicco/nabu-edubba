@@ -19,7 +19,7 @@ account; the eye survives inside the frame. From the body's head
 come the extended senses: chief, first, the head of a matter.
 Under the walking radical it becomes 道, the road a head
 travels. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ Hair, brow, eye: the **head**, first of the body's list.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢之不見其首。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu</span><span class="gloss">"go to meet it, and you do not see its head" — the Way, faceless even face-on</span></div>
+    <div class="reading-line"><span class="script">迎之不見其首。</span><span class="translit pinyin">yíng zhī bù jiàn qí shǒu</span><span class="gloss">"go to meet it, and you do not see its head" — the Way, faceless even face-on</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14.

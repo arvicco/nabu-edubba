@@ -19,7 +19,7 @@ oracle-bone posture, kept recognizable through three thousand
 years of rewriting; the reading is classic. She anchors a whole
 family: beside a child she is 好, beside a mouth she lends her
 old sound to 如. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ most steadfast pictograph.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">女曰▢乎？</span><span class="translit pinyin">nǚ yuē guān hū</span><span class="gloss">"the girl says: shall we go look?" — a riverbank invitation from the Songs; one box for the looking</span></div>
+    <div class="reading-line"><span class="script">女曰觀乎？</span><span class="translit pinyin">nǚ yuē guān hū</span><span class="gloss">"the girl says: shall we go look?" — a riverbank invitation from the Songs</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Zhen and Wei".

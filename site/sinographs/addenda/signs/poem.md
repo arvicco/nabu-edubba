@@ -20,7 +20,7 @@ is speech given shape. As a title, 詩 is the Book of Odes, the
 three hundred songs that every educated voice could quote — the
 course met them as 詩三百 before it could even read the word
 詩 itself. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">the one-who chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ Speech 言 measured and set — words that keep time: a **poem**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不▢詩，無以言。</span><span class="translit pinyin">bù xué shī, wú yǐ yán</span><span class="gloss">"if you do not study the Odes, you have nothing to speak with" — the box is "study"; the Master to his own son, across the courtyard: the songbook is the price of conversation</span></div>
+    <div class="reading-line"><span class="script">不學詩，無以言。</span><span class="translit pinyin">bù xué shī, wú yǐ yán</span><span class="gloss">"if you do not study the Odes, you have nothing to speak with" — the Master to his own son, across the courtyard: the songbook is the price of conversation</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 16.13.

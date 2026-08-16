@@ -249,6 +249,44 @@ class SignLinkerTest < Minitest::Test
                  Edubba::SignLinker.tip_join(["D46", "d", "hand"])
   end
 
+  def test_wire_codex_covers_every_ledger_registry_and_routes_akk
+    map = { "史" => { url: "/sinographs/102/01-x/", anchor: "sign-53F2" },
+            "\u{1202D}" => { url: "/cuneiform/103/02-y/", anchor: "sign-1202D" } }
+    codexes = [{ registries: %w[_data/q1.yml _data/q2.yml],
+                 shelf: "sinographs/addenda/signs" },
+               { registries: %w[_data/q3.yml],
+                 shelf: "cuneiform/addenda-akk/signs" }]
+    data = { "q1" => { "signs" => [{ "glyph" => "王", "name" => "king" }] },
+             "q2" => { "signs" => [{ "glyph" => "史", "name" => "scribe" }] },
+             "q3" => { "signs" => [{ "glyph" => "\u{1202D}", "name" => "AN" }] } }
+    pages = { "/sinographs/addenda/signs/scribe/" => true,
+              "/cuneiform/addenda-akk/signs/an/" => true }
+    Edubba::SignLinker.wire_codex!(map, codexes, data, pages)
+    assert_equal "/sinographs/addenda/signs/scribe/", map["史"][:codex]
+    assert_equal "/cuneiform/addenda-akk/signs/an/", map["\u{1202D}"][:codex_akk]
+    assert_nil map["\u{1202D}"][:codex]
+  end
+
+  def test_wire_codex_skips_absent_pages_and_glyphs_outside_the_map
+    map = { "史" => { url: "/sinographs/102/01-x/", anchor: "sign-53F2" } }
+    codexes = [{ registries: %w[_data/q.yml], shelf: "sinographs/addenda/signs" }]
+    data = { "q" => { "signs" => [{ "glyph" => "史", "name" => "scribe" },
+                                  { "glyph" => "王", "name" => "king" }] } }
+    Edubba::SignLinker.wire_codex!(map, codexes, data, {})
+    assert_nil map["史"][:codex]
+    assert_nil map["王"]
+  end
+
+  def test_wire_codex_gardiner_identity_wins_for_the_slug
+    owl = "\u{13153}"
+    map = { owl => { url: "/hieroglyphs/101/04-x/", anchor: "sign-13153" } }
+    codexes = [{ registries: %w[_data/q.yml], shelf: "hieroglyphs/addenda/signs" }]
+    data = { "q" => { "signs" => [{ "glyph" => owl, "gardiner" => "G17", "name" => "owl" }] } }
+    pages = { "/hieroglyphs/addenda/signs/g17/" => true }
+    Edubba::SignLinker.wire_codex!(map, codexes, data, pages)
+    assert_equal "/hieroglyphs/addenda/signs/g17/", map[owl][:codex]
+  end
+
   def test_hieroglyph_glyph_is_linked
     owl = "\u{13153}"
     map = { owl => { url: "/hieroglyphs/101/04-your-first-signs/", anchor: "sign-13153",

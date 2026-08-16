@@ -19,17 +19,19 @@ The person 亻 on the left does the making; the right half is a
 sound-loan (an old picture of a collar being cut — the first
 stroke of any garment) that also whispers "beginning." To make,
 to arise, to originate. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 
-A person at the cutting-out: **make**.
+The thin person at the left does the making; the right half is
+the tailor's first cuts on a collar — raw cloth becoming a
+garment: **make**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而不作。</span><span class="translit pinyin">shù ér bù zuò</span><span class="gloss">"I pass on; I do not invent" — Confucius on his own method: he claims to be a transmitter of the old ways, not an author of new ones. The box is "pass on"</span></div>
+    <div class="reading-line"><span class="script">述而不作。</span><span class="translit pinyin">shù ér bù zuò</span><span class="gloss">"I pass on; I do not invent" — Confucius on his own method: he claims to be a transmitter of the old ways, not an author of new ones.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 7.1 — the sentence continues 信而好古,

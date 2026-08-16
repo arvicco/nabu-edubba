@@ -36,7 +36,10 @@ layout: default
   {% assign entry = r2 | where: "name", page.sign | first %}
   {% assign taught_course = queue_course %}
   {% assign taught_ch = entry.chapter %}
-  {% if page.school == "sinographs" and taught_ch > 9 %}
+  {% comment %} the course border (concept §7): a queue row's own
+  course field routes it — S102 rows carry course: 102 with
+  chapter ordinals 1..15 {% endcomment %}
+  {% if entry.course == 102 %}
     {% assign taught_course = "sinographs-102" %}
   {% endif %}
 {% endif %}

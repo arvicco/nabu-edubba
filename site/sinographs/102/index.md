@@ -5,6 +5,7 @@ nav_order: 311
 course_no: 102
 title: Sinographs 102 · Literary Chinese
 short_title: S 102 Literary Chinese
+assumes: sinographs/101
 description: >-
   The literacy course of the sinograph school: the grammar of the
   classical written language, taught element by element on the
@@ -31,4 +32,26 @@ and the grammar holding them together.
 
 ## Chapters
 
-The course is opening; chapters appear here as they are written.
+<ol class="course-toc" start="1">
+  <li><a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">The sentence without a verb</a> — X, Y 也: defining without "is"; the cast of persons</li>
+  <li><a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">The verb and its object</a> — subject, verb, object; nothing conjugates; the Laozi stays home</li>
+  <li><a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">Having and lacking</a> — there-is and is-not; the two ways of saying no; the myriad things arrive</li>
+  <li><a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">Counting the world</a> — the number row filled; a life told in decades</li>
+  <li><a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">The belonging thread</a> — 之 ties owner to owned; the Way opens the chain whole</li>
+  <li><a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">The one who, the thing which</a> — 者 and 所 make nouns of verbs; the Odes quote themselves</li>
+  <li><a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">With, by, from, at</a> — the coverbs; the hub&#8217;s empty center gives the use</li>
+  <li><a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">Already, and at last</a> — 矣 and 已 mark completion; the first line of the first book, at home</li>
+  <li><a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">The art of asking</a> — 何 what, 安 wherein, 乎 the spoken question mark; friends from far quarters</li>
+  <li><a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">If and then</a> — 則 the hinge of consequence, bought with a cowrie and a knife</li>
+  <li><a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">Can, get, want</a> — the modal row; wealth priced, greatness unchased</li>
+  <li><a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">Making it happen</a> — the causative runs a thousand-chariot state; 天下為公 box-free</li>
+  <li><a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">Like and alike</a> — the comparative ladder; 上善若水 without a box</li>
+  <li><a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">All of it</a> — 皆 all, 至 the utmost; the Great Learning stops at the good</li>
+  <li><a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">And so</a> — therefore, so, follow — the ladder crowned; the people say 自然</li>
+</ol>
+
+**The course is complete.** Fifteen chapters: the grammar of
+the classical sentence from the verbless frame to the discourse
+words, taught entirely on real lines of the classics — with the
+famous sayings the Foundations course met in pieces now read
+whole.

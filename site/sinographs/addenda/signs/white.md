@@ -18,7 +18,7 @@ The old picture is honestly disputed — a grain of rice, a
 thumbnail, the first glow of dawn have all been proposed; every
 candidate is something pale. The senses run white → plain →
 clear, the lit and knowable side of things. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>,
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>,
 where it also lends its sound to 百.
 
 ## How to remember it
@@ -30,7 +30,7 @@ the day.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知其白，▢其▢。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi</span><span class="gloss">"know its white, keep its black" — white is fame, black is obscurity: understand what it takes to shine, and choose the shadow anyway; the Laozi's recipe for lasting influence</span></div>
+    <div class="reading-line"><span class="script">知其白，守其黑。</span><span class="translit pinyin">zhī qí bái, shǒu qí hēi</span><span class="gloss">"know its white, keep its black" — white is fame, black is obscurity: understand what it takes to shine, and choose the shadow anyway; the Laozi's recipe for lasting influence</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 28.

@@ -20,17 +20,18 @@ beneath: a roast on the flame — the original "to burn," which
 later grew a fire-sided character of its own to keep that sense.
 The classics borrowed the graph for "so, thus, like that"; 自然,
 "so of itself," is the Laozi's word for the natural. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 
-The roast crackles — and it is **so**.
+Flesh (the 月-shape) and a dog over four dots of fire: the
+roast is cooked, the matter settled — it is **so**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">道▢自然。</span><span class="translit pinyin">dào fǎ zì rán</span><span class="gloss">"the way follows what is so of itself" — the last rung of the Laozi's ladder: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature. The box is "follows-the-model-of"</span></div>
+    <div class="reading-line"><span class="script">道法自然。</span><span class="translit pinyin">dào fǎ zì rán</span><span class="gloss">"the way follows what is so of itself" — the last rung of the Laozi's ladder: people follow earth, earth follows heaven, heaven follows the way, and the way follows nothing but its own nature.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 25, the final line.

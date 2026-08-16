@@ -30,7 +30,7 @@ in five strokes.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知者樂水，仁者樂山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — 仁 in the seat the course watched through a box for two chapters</span></div>
+    <div class="reading-line"><span class="script">知者樂水，仁者樂山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the wise delight in water; the humane delight in mountains" — 仁 seated in one of its most-quoted homes</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23.

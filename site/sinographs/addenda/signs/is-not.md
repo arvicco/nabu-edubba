@@ -19,7 +19,7 @@ the stated account reads contrariety straight off the picture.
 Where 不 negates a verb ("does not"), 非 negates a whole claim:
 非 X, "it is not X, it is no X of yours" — and from "contrary
 to right" comes the sense *wrong*. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ Wings flying apart: whatever you claimed, this **is not** it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">非其▢而▢之。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī</span><span class="gloss">"a ghost that is not one's own, and sacrificing to it anyway" — 非其… denies the belonging itself</span></div>
+    <div class="reading-line"><span class="script">非其鬼而祭之。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī</span><span class="gloss">"a ghost that is not one's own, and sacrificing to it anyway" — 非其… denies the belonging itself</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.24.

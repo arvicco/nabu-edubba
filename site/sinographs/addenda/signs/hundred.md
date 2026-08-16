@@ -19,7 +19,7 @@ sound, the stroke tallies the count, and bǎi comes out the far
 side. The course's first *built* numeral, and in the classics
 also simply "the many": the hundred names, the hundred crafts.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/14-all-of-it/' | relative_url }}">the all-of-it chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ One stroke banked on white: a round **hundred**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢三百。</span><span class="translit pinyin">shī sān bǎi</span><span class="gloss">"the Songs are three hundred" — the canon counted in one breath</span></div>
+    <div class="reading-line"><span class="script">詩三百。</span><span class="translit pinyin">shī sān bǎi</span><span class="gloss">"the Songs are three hundred" — the canon counted in one breath</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.2.

@@ -19,18 +19,19 @@ account: a blinded captive, the subjugated mass. The graph's
 cruelty faded as the word rose; by the classics, 民 are the
 people whose welfare measures a ruler, and Mencius will say
 they weigh more than the lord himself. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 
-The stroke through the eye: the **people**, who were once
-looked past — and became the measure of everything.
+Read the strokes as a seed-tray with one long shoot striking
+out of it: the **people** — the growing stock the state lives
+on.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">民無▢不▢。</span><span class="translit pinyin">mín wú xìn bù lì</span><span class="gloss">"without the people's trust, nothing stands" — the boxes are "trust" and "stand"; asked what a state could spare, the Master gives up arms, then food — never this</span></div>
+    <div class="reading-line"><span class="script">民無信不立。</span><span class="translit pinyin">mín wú xìn bù lì</span><span class="gloss">"without the people's trust, nothing stands" — asked what a state could spare, the Master gives up arms, then food — never this</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 12.7.

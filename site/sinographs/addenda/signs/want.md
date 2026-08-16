@@ -19,17 +19,19 @@ On the right, a figure with mouth gaping open — the yawning,
 gaping element that marks words of breath and appetite. On the
 left, the valley, there for its sound (and, the moralists liked
 to add, as deep and hard to fill as desire itself). Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 
-A mouth open wide as a valley: **want**.
+At the right a figure gapes wide; at the left a valley lends
+its sound — and its size: an appetite deep as a canyon, never
+filled. **Want**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢所不欲，▢▢於人。</span><span class="translit pinyin">jǐ suǒ bù yù, wù shī yú rén</span><span class="gloss">"what you yourself do not want, do not inflict on others" — the golden rule, in its oldest one-line form. The boxes are "oneself", "do not", "inflict"</span></div>
+    <div class="reading-line"><span class="script">己所不欲，勿施於人。</span><span class="translit pinyin">jǐ suǒ bù yù, wù shī yú rén</span><span class="gloss">"what you yourself do not want, do not inflict on others" — the golden rule, in its oldest one-line form.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 15.24 — offered as the one word to live
