@@ -39,11 +39,13 @@ built:
     text: 本
     pinyin: běn
   bu:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_multilingual_v2
+    model_id: "(per take)"
     text: 不
     pinyin: bù
+    ear_approved: true
+    take: bu~v8a
   you-have:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -261,11 +263,13 @@ built:
     text: 好
     pinyin: hǎo
   gong:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 公
     pinyin: gōng
+    ear_approved: true
+    take: gong~v8c
   chen:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -279,11 +283,13 @@ built:
     text: 成
     pinyin: chéng
   neng:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 能
     pinyin: néng
+    ear_approved: true
+    take: neng~v8c
   guo:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -351,11 +357,13 @@ built:
     text: 明
     pinyin: míng
   zhi:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 之
     pinyin: zhī
+    ear_approved: true
+    take: zhi~v8c
   ye:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -363,11 +371,13 @@ built:
     text: 也
     pinyin: yě
   er-and:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 而
     pinyin: ér
+    ear_approved: true
+    take: er-and~v8a
   xing:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -387,11 +397,13 @@ built:
     text: 止
     pinyin: zhǐ
   zheng:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 正
     pinyin: zhèng
+    ear_approved: true
+    take: zheng~v8c
   zi-self:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -405,11 +417,13 @@ built:
     text: 丁
     pinyin: dīng
   ke:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 可
     pinyin: kě
+    ear_approved: true
+    take: ke~v8c
   ba:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -417,11 +431,13 @@ built:
     text: 八、八、八。
     pinyin: bā
   wen:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 文
     pinyin: wén
+    ear_approved: true
+    take: wen~v8c
   an:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -441,11 +457,13 @@ built:
     text: 雨
     pinyin: yǔ
   yu-want:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 欲
     pinyin: yù
+    ear_approved: true
+    take: yu-want~v8c
   ruo:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -453,11 +471,13 @@ built:
     text: 若
     pinyin: ruò
   tong:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 同
     pinyin: tóng
+    ear_approved: true
+    take: tong~v8c
   shan-good:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
