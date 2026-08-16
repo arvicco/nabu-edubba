@@ -78,7 +78,7 @@ whole — and shows the pattern:
 <figure class="reading reading--script">
   <div class="reading-lines">
     <div class="reading-line"><span class="script">使民以時。</span><span class="translit pinyin">shǐ mín yǐ shí</span><span class="gloss">"put the people to work in the right season" — 使 + 民 + (implied) labor: cause-the-people-to-work, with 以時 hitching the when. Call them after the harvest, never during it</span></div>
-    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions: 使 sends downward, 事 serves upward. The boxes are "courtesy" and "loyalty"</span></div>
+    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><a class="say" href="{{ '/assets/audio/lines/102-12-jun-shi-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span></a><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions: 使 sends downward, 事 serves upward. The boxes are "courtesy" and "loyalty"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5 and 3.19.

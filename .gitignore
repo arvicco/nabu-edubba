@@ -12,7 +12,13 @@ vendor/
 # Owner-facing working docs (consideration output, never published)
 .docs/
 
+# Voice-pipeline working files (batch request + raw synth output;
+# the plan, ledger, and encoded site mp3s ARE committed)
+assets-src/audio/voice-batch.json
+assets-src/audio/staging/
+
 # OS / editor noise
 .DS_Store
 *.swp
 log/
+assets-src/audio/review.html

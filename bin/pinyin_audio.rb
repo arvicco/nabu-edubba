@@ -170,11 +170,11 @@ module Edubba
     # the glottis completely mid-dip — kě and bǎi drop to ~2% RMS in
     # dedicated single-syllable recordings — so :dip is allowed a
     # second hump; every other tone is one syllable, one hump.
-    def cut_ok?(pcm, tone: nil)
+    def cut_ok?(pcm, tone: nil, span: SPAN)
       env = envelope(pcm)
-      span = voiced_span(env)
-      unless SPAN.cover?(span)
-        return [false, format("voiced span %.2f s outside %.2f–%.2f s", span, SPAN.min, SPAN.max)]
+      got = voiced_span(env)
+      unless span.cover?(got)
+        return [false, format("voiced span %.2f s outside %.2f–%.2f s", got, span.min, span.max)]
       end
 
       h = humps(env)

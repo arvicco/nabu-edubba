@@ -5,6 +5,184 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-16 · M25-5 · phase-25 · THE FULL-SITE EAR REVIEW, CLOSED:
+162/162 (154 syllables + 8 lines), 76 ear-approved. The owner
+listened across the whole site and flagged ~30 clips in three
+classes, each with its own repair: (1) END NOISE — salvaged
+locally, no synthesis: tail-cut takes from the shipped clip (or
+the almost-fine reject), owner-picked depth; kǒu needed 500 ms
+off, most needed 140–200. (2) TOO LONG/SHORT — pitch-preserving
+atempo in both directions (zhī/bù shortened; shí won its tone as
+a stretched 十 then got sped back to 0.56 s). (3) UNCLEAR TONE /
+WRONG SYLLABLE — re-synthesis, where two strategy lessons landed:
+the CARRIER SWAP (a syllable is not its character — sixteen takes
+of 時 never rose, 十 rose first try; 褲 babbled, 酷 spoke
+cleanly) and the INSTRUCTED SCRIPT (the engine reads, it does not
+obey — "第二聲，時。" puts the instruction IN the spoken text and
+cuts out the target token). Also: pà·tà·kǒu-class rows got the
+contrast demos they needed (lā nī zī bēn synthesized; primer rows
+now one tone each); the dào-fǎ-zì-rán line re-synthesized at
+speed 0.8 after lines learned per-entry voice_settings +
+previous_text + roll fan-out; yán/jiàn/xiān "almost yen" ruled
+normative ([ɛ]-raising in -ian, Duanmu) — no fix. Catch worth
+keeping: a mid-run batch regeneration desynced from the owner's
+already-running synth (228 staged vs 240 expected) — integrate
+first, then re-batch the remainder; the staging watcher now reads
+the batch file per poll.
+
+2026-08-16 · M25-4 · phase-25 · THE EAR RULES, AND THE SET IS
+WHOLE: 158/158 clips in the pinned voice (150 syllables + 8
+lines), 55 of them ear-approved. The transcript gate's honesty
+had a cost — on half-second clips the three machine referees
+(pitch, span, whisper) disagree in the noise, and re-roll loops
+stalled: whisper hears "Bye" for bái and would equally have
+blessed "dar". So the endgame inverted the authority: machine
+gates ADVISE, the owner's ear RULES — a local review page
+(gitignored) lists every pending base with all candidate takes
+and refusal reasons; the owner names winners per round
+("ai~v0a bai~v0a …"); `pinyin_voice.rb approve <take-ids>` ships
+them normalized and ledgered `ear_approved: true` with the take
+id. Convergence took five ear-rounds, with cache-busting
+previous_text rotation after the owner caught byte-identical
+"variants" (ElevenLabs ignores seed; identical requests return
+identical audio). Second owner catch became law: pà·tà·kǒu
+demo rows hide the consonant contrast behind mixed tones — the
+CONTRAST-ROW LAW (a demo row varies exactly ONE thing) is now in
+the rulebook, ten new uniform-tone demo syllables synthesized
+(dù·tù, gù·kù, sā, nán·lán, zū·cū·sū…), and the primer's
+initials/trap/finals rows rebuilt as same-tone sets with the
+aspiration pairs aligned as columns (bù/pù, dù/tù, gù/kù). Also
+fixed: approve now regenerates the credits files (it shipped
+clips the credits didn't list) via a shared write_credits that
+keeps ear-approved model placeholders out of the engine line;
+the rulebook's span numbers synced to the plan's 0.4–2.2 s.
+Open: full line rollout across all readings (next packet).
+
+2026-08-15 · incident · phase-25 · THE GATE WAS DEAF TO CONTENT.
+Owner, listening: mù shipped as "musha", mā as "mama", má as
+"mashimashima", dà as "dar" — and the gate had verified the pitch
+and length OF GARBAGE. Root causes, both structural: (1) acoustic
+QA never checked WHAT was said — connected reduplication and
+anglicized babble read as one long syllable with a plausible
+contour; (2) the synth's "graceful" 400-retry silently stripped
+language_code from every request, so nothing ever forced Chinese
+on a lone hanzi. Durable fix: THE TRANSCRIPT GATE — whisper.cpp
+(owner-installed; multilingual model cached) transcribes every
+clip inside voice:integrate before acoustics; a syllable must be
+recognized as ONE character that SAYS the expected base syllable
+(Unihan kMandarin from Nabu's canonical data — segmental
+identity, any tone since the pitch gate owns tones, any script
+since simplified reads too); lines compared as base-syllable
+sequences by LCS, with ASR digit-normalization expanded (三十而立
+heard as "32里" — same sounds) and -n/-ng coda folding (chen→
+cheng, the classic ASR confusion; lines only). Whisper's verdict
+on the shipped set: 88 flagged raw, 85 TRUE garbage after the
+segmental re-verdict cleared homophone picks (約 for yuē, 蛋 for
+dàn) and script mismatches. All 85 pruned and re-batched; the
+silent language strip now warns out loud. Lesson, in the
+rulebook's spirit: never ship speech the pipeline has not
+UNDERSTOOD — measuring it is not hearing it.
+
+2026-08-15 · M25-3 · phase-25 · THE VOICE RE-CONVERGED, FOR THE
+EAR THIS TIME: 148/148 in Danyu Zhao (BWN0mOtkGHghA3CYFzFK, the
+Voice-Library bake), citation-length clips of 0.4–0.8 s where the
+first voice shipped 0.2–0.35 s. Owner review had killed the first
+converged set — "syllables TOO short… a novice just can't hear
+the tone" — and the repair became three laws and a saga: the
+LENGTH LAW (voiced span 0.4–1.5→2.2 s, gate-enforced; length is a
+shipping requirement, not a style); cooperative hints instead of
+fights (owner question) — previous_text teacher-register priming
+(跟我讀，慢慢地，一個字：), then, decisively, eleven_v3's [slowly]
+audio tag, which cracked 24 of the 31-syllable tail in ONE round
+after v2's speed slider proved to flatten the very contours it
+lengthened; crowdsourced voice research (owner direction) —
+Voice-Library Mandarin roster with IDs, pedagogy shortlist,
+Danyu Zhao picked and baked. The last four fell to
+pitch-preserving atempo stretch for inherently clipped syllables
+(踏, checked-tone history — the language-lab slowdown, gated on
+the RESULT) and, for cháng, a late-rise detector: the voice's
+dip-rise was REAL (113→155 in the final fifth) and the feature
+windows were trimming it away — measurement calibrated,
+exact-value tested, falls and levels still refuse. Ledger: 117
+clips on eleven_multilingual_v2, 31 on eleven_v3, one voice
+throughout, every clip's model recorded. Also: YAML-alias
+footgun (shared Ruby hashes → anchors → safe_load refusal; JSON
+round-trip breaks sharing). Open: owner site review; whether the
+v2/v3 render mix is audible enough to warrant one uniform all-v3
+regeneration; then the full line rollout.
+
+2026-08-15 · M25-2 · phase-25 · THE VOICE CONVERGED: 148/148 in
+one pinned voice (UFDAUkGzdLAEJlINT3Fx, eleven_multilingual_v2)
+— all 140 syllable clips regenerated and all 8 pilot lines
+voiced. The road there, each step gate-scored: voice-1 singles
+91/140; voice-2 singles 84/140 with a nearly disjoint failure
+set — proof the failures were STOCHASTIC per generation, not
+per-syllable — so re-rolls became the primary tool (92→115→127
+across two re-roll rounds); the 21 three-time losers went to
+enumerated triple carriers (媽、媽、媽。cut middle), which
+surfaced connected-list readings ("0 silences") and moved the
+cutter from silencedetect to the ENERGY-ENVELOPE valleys;
+slowed triples (speed 0.8) and then disyllabic word carriers
+with tone-1 followers (時鐘, 出發…) took it to 145; the last
+three (shí xué é — this voice under-rises tone 2) fell to the
+owner's fan-out design: MANY versions per syllable in one run
+(4 strategies × 3 rolls, variants: + --rolls in the tool),
+integrate ships the first passer — the four-tone contrast
+paradigm (詩、時、史、是。cut second) won shi and xue, 額頭 won
+e. Track hygiene added along the way (median-3 + physiological
+band-clip before classification — the tracker threw 85↔356 Hz
+octave garbage on TTS fricatives); measurement cleaned, LAW
+never loosened: every shipped clip sings its declared tone.
+Voice pinned in the plan (contract-tested, with a
+plan↔manifest pinyin-drift guard); credits and primer prose now
+tell the synthesized story plainly, Commons contributors
+thanked in CREDITS.txt's closing note. Next: owner ear-check of
+the pilot lines, then wiring line audio into chapter readings.
+
+2026-08-15 · M25-1 · phase-25 · THE STANDARD VOICE (owner ruling):
+one pinned synthetic voice for all course audio — syllables AND
+classical reading lines — replacing the uneven multi-contributor
+patchwork (129 Commons/Lingua-Libre clips, dozens of voices).
+Assessment first (.docs/pinyin-voice-standard.md): no
+single-speaker pinyin chart exists under CC BY/BY-SA; no
+Chinese-language recordings of our classics on Librivox; the
+Anthropic API has no TTS (app voice output is subcontracted
+ElevenLabs, app-only). Owner ruled: ElevenLabs (their existing
+subscription), with the never-TTS bar in §2 overturned on the
+stated ground that no one pronounces Old Chinese natively — every
+modern voicing is a convention. Owner-designed MO implemented in
+bin/pinyin_voice.rb + rake voice:{batch,synth,integrate,voices}:
+agent batches and QA-integrates; the OWNER alone runs synth with
+ELEVENLABS_API_KEY/_VOICE_ID/_MODEL_ID/_OUTPUT_FORMAT in env (key
+never in repo; agent never runs the network-mutating step). QA
+unchanged in force: tone pitch-verify + span for syllables,
+duration+hump-report for lines, −20/−1 loudness for all; credits
+state the audio is synthesized, engine and voice named; every
+built clip ledgered (voice-ledger.yml). voice-plan.yml authored:
+140 syllable entries (12 polyphone carrier overrides — 形 for
+xíng, 維 wéi, 香 xiāng, 號 hào, 德 dé, 常 cháng, 雨 yǔ, 第 dì… —
+chosen so same-tone misreadings can't slip past the tone gate) +
+8 pilot lines. Round 1 (owner synthesized 148): 99 passed the
+gate and shipped — all 8 pilot lines and 91 syllables; 49
+syllables REFUSED by the tone verifier, and the refusals were
+systematic TTS prosody, not noise: declarative declination (tone
+1 audibly sinking start-to-end), missing tone-2 rises, final
+rebounds — the pitch gate, built for human clips, correctly
+refused conversational contours as citation forms. Fix at the
+source, not the gate: the 49 re-planned as enumerated TRIPLE
+carriers (媽、媽、媽。) with integrate cutting the middle token —
+list intonation holds each token near citation form and the
+middle one has neither onset creak nor final declination — plus
+high-stability voice_settings. Pipeline hardened same commit:
+refused clips auto-move to staging/rejected/ (re-synth
+regenerates), synth records the true engine/voice to
+staging/_engine.json for the ledger, and the credits writer
+carries LEGACY Commons attribution lines forward for any clip
+not yet regenerated (caught in review: the first regeneration
+overwrote CC attributions while 49 human clips still shipped —
+an attribution-law violation, repaired before commit). Round 2
+batch (49) generated; awaiting the owner's second synth run.
+
 2026-08-12 · incident · phase-24 · BOXES ON THE REFERENCE SHELF +
 MIS-ROUTED "TAUGHT IN". Owner, on 臣's codex page: why are there
 empty boxes in the Codex (臣▢君以▢) — and the same paste showed
