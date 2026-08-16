@@ -81,35 +81,28 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
                            [s["keyword"], s["pinyin"], s["meaning"]]
                          ) }
     end
+    # S102 (Literary Chinese, the border split): its queue's chars
+    # link to their S102 teaching chapters.
+    sino102_urls = site.pages.each_with_object({}) do |p, h|
+      h[p.data["chapter"]] = p.url if p.data["course"] == "sinographs-102" && p.data["chapter"]
+    end
+    Array(site.data.dig("sinographs102_queue", "signs")).each do |s|
+      ch = s["chapter"] or next
+      url = sino102_urls[ch] or next
+      map[s["char"]] = { url: url, anchor: "sign-#{s['codepoint']}",
+                         tip: Edubba::SignLinker.tip_join(
+                           [s["keyword"], s["pinyin"], s["meaning"]]
+                         ) }
+    end
     # Codex pages (rulebook §7/§9): sign-table cells link the glyph
-    # to its Addenda sign page — wired per school as each shelf
-    # ships, keyed on the page actually existing in the build. The
-    # akk codex is a separate shelf (§9 language separation); every
-    # sign the Akkadian course uses gets :codex_akk, routed to on
-    # Akkadian-course pages only.
+    # to its Addenda sign page. Wiring is driven by the rulebook's
+    # CODEX ledger (SignLinker.wire_codex!) — a new registry joins
+    # by landing in the ledger, which the rulebook gate already
+    # forces, so the wiring can never lag a queue split again. The
+    # akk shelf routes to :codex_akk (§9 language separation),
+    # served on Akkadian-course pages only.
     page_urls = site.pages.each_with_object({}) { |p, h| h[p.url] = true }
-    { "cuneiform" => [site.data["sign_teaching"], site.data["cuneiform102_queue"]],
-      "hieroglyphs" => [site.data["hiero_teaching"], site.data["hieroglyphs102_queue"]] }.each do |school, regs|
-      regs.each do |reg|
-        Array(reg&.dig("signs")).each do |s|
-          entry = map[s["glyph"]] or next
-          slug = Edubba::Rulebook.sign_slug(s["gardiner"] || s["name"])
-          url = "/#{school}/addenda/signs/#{slug}/"
-          entry[:codex] = url if page_urls[url]
-        end
-      end
-    end
-    Array(site.data.dig("cuneiform103_queue", "signs")).each do |s|
-      entry = map[s["glyph"]] or next
-      slug = Edubba::Rulebook.sign_slug(s["name"])
-      url = "/cuneiform/addenda-akk/signs/#{slug}/"
-      entry[:codex_akk] = url if page_urls[url]
-    end
-    Array(site.data.dig("sinographs101_queue", "signs")).each do |s|
-      entry = map[s["char"]] or next
-      url = "/sinographs/addenda/signs/#{s['name']}/"
-      entry[:codex] = url if page_urls[url]
-    end
+    Edubba::SignLinker.wire_codex!(map, Edubba::Rulebook::CODEX, site.data, page_urls)
     map
   end
 

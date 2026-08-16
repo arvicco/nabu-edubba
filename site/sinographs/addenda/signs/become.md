@@ -19,17 +19,19 @@ A broad-bladed weapon-sign with 丁 — the nail of the
 tool-chapter — set inside as its sound-mark. The old accounts
 read it as the work brought to its last stroke: completed,
 achieved, become. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/11-can-get-want/' | relative_url }}">the can-get-want chapter</a>.
 
 ## How to remember it
 
-The last stroke lands: **become**.
+The broad frame is a blade; tucked inside it is 丁 the nail,
+lending its sound. The stroke that finishes the work:
+**become**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">大▢▢成。</span><span class="translit pinyin">dà qì wǎn chéng</span><span class="gloss">"the great vessel is finished late" — big talents ripen slowly; the Laozi's comfort for late bloomers, now a proverb on its own. The boxes are "vessel" and "late"</span></div>
+    <div class="reading-line"><span class="script">大器晚成。</span><span class="translit pinyin">dà qì wǎn chéng</span><span class="gloss">"the great vessel is finished late" — big talents ripen slowly; the Laozi's comfort for late bloomers, now a proverb on its own.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 41.

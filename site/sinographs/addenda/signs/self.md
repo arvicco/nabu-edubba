@@ -19,7 +19,7 @@ classic. Pointing at one's own nose to mean "me" is a gesture
 Chinese speakers still make, and the graph froze it. The sense
 "from" (a starting point — where the self stands) rides along.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ journey measured *from* it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知人者▢，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows HIMSELF is enlightened" — 自 folds the knowing back onto the knower</span></div>
+    <div class="reading-line"><span class="script">知人者智，自知者明。</span><span class="translit pinyin">zhī rén zhě zhì, zì zhī zhě míng</span><span class="gloss">"the one who knows others is clever; the one who knows HIMSELF is enlightened" — 自 folds the knowing back onto the knower</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 33.

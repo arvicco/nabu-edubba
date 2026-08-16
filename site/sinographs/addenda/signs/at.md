@@ -28,7 +28,7 @@ texts say where, this is the word.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">之子于歸，▢其▢▢。</span><span class="translit pinyin">zhī zǐ yú guī, yí qí shì jiā</span><span class="gloss">"this child goes TO her wedding home" — 于 pointing the bride's way</span></div>
+    <div class="reading-line"><span class="script">之子于歸，宜其室家。</span><span class="translit pinyin">zhī zǐ yú guī, yí qí shì jiā</span><span class="gloss">"this child goes TO her wedding home" — 于 pointing the bride's way</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Peach Tree".

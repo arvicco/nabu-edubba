@@ -92,36 +92,35 @@ class BoxLineTest < Minitest::Test
                  B.skeleton("人▢。")
   end
 
-  # --- acceptance: re-derive three shipped phase-18 readings from the
-  # --- real queue (frozen contract — chapters of shipped characters
-  # --- never move).
+  # --- acceptance: re-derive three shipped readings from the real
+  # --- queues under the S102 grammar ordinals (the Gate-24 rework:
+  # --- per-course chapters, S101 assumed whole).
 
-  # Since the course-border split (concept §7, 2026-08-12) the
-  # shipped chapters 10+ live in the S102 registry; the school-wide
-  # taught set is the union, exactly as SCHOOLS declares it.
   REAL_QUEUE = ["../site/_data/sinographs101_queue.yml",
                 "../site/_data/sinographs102_queue.yml"]
                .map { |p| File.expand_path(p, __dir__) }.freeze
 
-  def real_taught(chapter) = B.taught_set(REAL_QUEUE, chapter)
-
-  def test_rederives_laozi_42_as_shipped_in_ch12
-    boxed = B.box("道生一，一生二，二生三，三生萬物。", real_taught(12))
-    assert_equal "道生一，一生二，二生三，三生▢▢。", boxed
-    assert_in_delta 100.0 * 2 / 13, B.share(boxed)[:share], 0.001,
-                    "2 boxes over 11 taught characters — punctuation outside"
+  def real_taught(chapter, course: 102)
+    B.taught_set(REAL_QUEUE, chapter, course: course)
   end
 
-  def test_rederives_analects_620_as_shipped_in_ch13
+  def test_rederives_laozi_42_zero_box_in_s102_ch5
+    boxed = B.box("道生一，一生二，二生三，三生萬物。", real_taught(5))
+    assert_equal "道生一，一生二，二生三，三生萬物。", boxed,
+                 "道 lands in ch5, 萬物 in ch3 — the chain reads whole"
+  end
+
+  def test_rederives_analects_620_in_s102_ch13
     boxed = B.box("好之者不如樂之者。", real_taught(13))
     assert_equal "好之者不如▢之者。", boxed
   end
 
-  def test_rederives_the_daxue_leveling_line_as_shipped_in_ch14
-    boxed = B.box("其所厚者薄，而其所薄者厚，", real_taught(14))
+  def test_rederives_the_daxue_leveling_line_in_s102_ch6
+    boxed = B.box("其所厚者薄，而其所薄者厚，", real_taught(6))
     assert_equal "其所▢者▢，而其所▢者▢，", boxed
     s = B.share(boxed)
     assert_in_delta 100.0 * 4 / 11, s[:share], 0.001
-    assert_equal "PASS", B.verdict(s[:share], B.cap_for(14))
+    assert_equal "OVER", B.verdict(s[:share], B.cap_for(6, course: 102)),
+                 "36.4% vs the ch6 cap 35 — the leveling line waits for a later chapter"
   end
 end

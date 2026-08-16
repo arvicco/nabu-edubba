@@ -18,7 +18,7 @@ Two hands work crossed counting-rods above a roof, and beneath
 the roof stands the child 子 — instruction drawn as a building:
 the classic account. It is the first character of the *Analects*
 and the verb of this whole school of writing systems. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ Hands above, child below, the roof of the school between:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">學而不▢▢▢。</span><span class="translit pinyin">xué ér bù sī zé wǎng</span><span class="gloss">"learn without thinking, and nothing sticks" — cramming without digesting leaves you as lost as before; the other half turns the blade around: thinking without learning is dangerous. The boxes are "think", "then", "lost"</span></div>
+    <div class="reading-line"><span class="script">學而不思則罔。</span><span class="translit pinyin">xué ér bù sī zé wǎng</span><span class="gloss">"learn without thinking, and nothing sticks" — cramming without digesting leaves you as lost as before; the other half turns the blade around: thinking without learning is dangerous.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.15.

@@ -28,7 +28,7 @@ does it. The character is a job title generator.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知者▢水，仁者▢山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the one who knows delights in water; the humane one delights in mountains" — 者 framing both halves</span></div>
+    <div class="reading-line"><span class="script">知者樂水，仁者樂山。</span><span class="translit pinyin">zhī zhě yào shuǐ, rén zhě yào shān</span><span class="gloss">"the one who knows delights in water; the humane one delights in mountains" — 者 framing both halves</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 6.23.

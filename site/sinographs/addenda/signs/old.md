@@ -20,7 +20,7 @@ come down through ten generations of mouths is old. Modern
 scholarship suspects the graph began otherwise, but two thousand
 years of readers have parsed it exactly this way, and the parse
 is the pedagogy. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ Ten mouths told it before it reached yours: **old**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">古之▢者為▢，今之▢者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wéi jǐ, jīn zhī xué zhě wéi rén</span><span class="gloss">"the learners of old learned to better themselves; today's learners learn to impress others" — study as self-improvement against study as showing off. The boxes are "learn" (twice) and "self"; 古之…今之…, the tradition's then-versus-now frame</span></div>
+    <div class="reading-line"><span class="script">古之學者為己，今之學者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wéi jǐ, jīn zhī xué zhě wéi rén</span><span class="gloss">"the learners of old learned to better themselves; today's learners learn to impress others" — study as self-improvement against study as showing off. 古之…今之…, the tradition's then-versus-now frame</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 14.24.

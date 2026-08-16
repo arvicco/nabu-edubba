@@ -22,7 +22,7 @@ standard engraved in metal is a **rule**. The classical language
 then made it a hinge: *X 則 Y*, "where X holds, Y follows, as
 the rule dictates" — the twenty-third most frequent character in
 the corpus, almost always in that job. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">the if-and-then chapter</a>.
 
 ## How to remember it
 
@@ -33,7 +33,7 @@ rule says what follows.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">行有▢▢，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — Confucius, listing a student's duties: behave first, books after. The boxes are "surplus" and "strength"</span></div>
+    <div class="reading-line"><span class="script">行有餘力，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — Confucius, listing a student's duties: behave first, books after.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.6.

@@ -22,7 +22,7 @@ loan was already ancient when writing settled, and the creature
 got a new graph of its own. As a number it means less a count
 than a totality: 萬物, the ten thousand things; 萬世, ten
 thousand generations — forever. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">the having-and-lacking chapter</a>.
 
 ## How to remember it
 
@@ -33,7 +33,7 @@ them all: ten thousand.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">萬物▢▢。</span><span class="translit pinyin">wàn wù bìng zuò</span><span class="gloss">"the ten thousand things arise together" — the boxes are "together" and "arise"; the passage goes on: "and I watch them return" — the myriad in motion, seen from stillness</span></div>
+    <div class="reading-line"><span class="script">萬物並作。</span><span class="translit pinyin">wàn wù bìng zuò</span><span class="gloss">"the ten thousand things arise together" — the passage goes on: "and I watch them return" — the myriad in motion, seen from stillness</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 16.

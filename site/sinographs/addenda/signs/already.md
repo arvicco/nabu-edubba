@@ -19,7 +19,7 @@ serpent, an unborn child — and the borrowing is old beyond
 tracing: 已 means what is finished, done, already so. With 而
 it makes the classics' favorite full stop: 而已, "and that is
 all." Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ The curl closes on itself: **already** done.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢而▢已。</span><span class="translit pinyin">sǐ ér hòu yǐ</span><span class="gloss">"only death ends it" — the boxes are "die" and "after"; the officer's burden from the broad-and-resolute saying: carried until 已, the stop</span></div>
+    <div class="reading-line"><span class="script">死而後已。</span><span class="translit pinyin">sǐ ér hòu yǐ</span><span class="gloss">"only death ends it" — the officer's burden from the broad-and-resolute saying: carried until 已, the stop</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 8.7 — the road's end in Master Zeng's

@@ -18,18 +18,18 @@ The old picture is honestly disputed — scholars have seen a
 bucket, a fence of planks, a hung bell struck in ceremony. The
 word it writes was never in doubt: *to use, to put to work*.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">the coverb chapter</a>.
 
 ## How to remember it
 
-A frame of slats, ready to hand — whatever it once pictured,
-you can **use** it.
+A rack of slats standing ready to hand: take it down and
+**use** it.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無之以為用。</span><span class="translit pinyin">wú zhī yǐ wéi yòng</span><span class="gloss">"what is not there gives the use" — the Laozi's empty hub, hollow pot, and open doorway, summed in five characters with no box at all</span></div>
+    <div class="reading-line"><span class="script">無之以為用。</span><span class="translit pinyin">wú zhī yǐ wéi yòng</span><span class="gloss">"what is not there gives the use" — the Laozi's empty hub, hollow pot, and open doorway, summed in five characters</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 11.

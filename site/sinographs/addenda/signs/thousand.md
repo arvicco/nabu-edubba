@@ -20,17 +20,18 @@ the old script borrowed the word for "person" (the two sounded
 close) and marked it to mean a count of a thousand. Two of the
 tally, 二千, was two thousand, and so on up the registers.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/12-making-it-happen/' | relative_url }}">the making-it-happen chapter</a>.
 
 ## How to remember it
 
-One stroke through a person: a **thousand** of them.
+A person-stroke slanting over 十 ten: one figure marked as a
+tally — a **thousand**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">千▢之國。</span><span class="translit pinyin">qiān shèng zhī guó</span><span class="gloss">"a state of a thousand chariots" — the classical size-class of a serious power, measured in war-wagons the way navies were once measured in ships. The box is "chariot"</span></div>
+    <div class="reading-line"><span class="script">千乘之國。</span><span class="translit pinyin">qiān shèng zhī guó</span><span class="gloss">"a state of a thousand chariots" — the classical size-class of a serious power, measured in war-wagons the way navies were once measured in ships.</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5.

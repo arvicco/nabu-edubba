@@ -18,7 +18,7 @@ The old picture is honestly disputed — a cover over something
 held, an inverted mouth about to speak. The word never wavered:
 *now*, the present, this very day; the classics pair it against
 antiquity — the now and the of-old. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 
@@ -28,7 +28,7 @@ A lid pressed on the moment before it slips away: **now**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">以▢今之有。</span><span class="translit pinyin">yǐ yù jīn zhī yǒu</span><span class="gloss">"…to steer what is here now" — 今之有, what now exists, held with the oldest Way</span></div>
+    <div class="reading-line"><span class="script">以御今之有。</span><span class="translit pinyin">yǐ yù jīn zhī yǒu</span><span class="gloss">"…to steer what is here now" — 今之有, what now exists, held with the oldest Way</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 14.

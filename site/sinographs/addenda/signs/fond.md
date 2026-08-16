@@ -18,7 +18,7 @@ Woman 女 and child 子 side by side — the classic account of
 what *good* looks like. Read hǎo it is the adjective; read hào,
 the classical texts' favorite, it is the verb: *to love, to be
 fond of*. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">the like-and-alike chapter</a>.
 
 ## How to remember it
 

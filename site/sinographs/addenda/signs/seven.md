@@ -20,7 +20,7 @@ makes it the original of "to cut," which later grew a knife of
 its own to keep that job. The graph itself was lent to the
 number seven so early that no classical text remembers it
 meaning anything else. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>.
 
 ## How to remember it
 
@@ -31,7 +31,7 @@ divide.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">七月▢▢。</span><span class="translit pinyin">qī yuè liú huǒ</span><span class="gloss">"in the seventh month the Fire-star slides down the sky" — the red star's slide means summer is ending: get the winter clothes ready. The farmers' almanac of the Odes; the boxes are "flows down" and "fire"</span></div>
+    <div class="reading-line"><span class="script">七月流火。</span><span class="translit pinyin">qī yuè liú huǒ</span><span class="gloss">"in the seventh month the Fire-star slides down the sky" — the red star's slide means summer is ending: get the winter clothes ready. The farmers' almanac of the Odes</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "The seventh month" (七月).

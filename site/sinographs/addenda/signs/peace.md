@@ -19,7 +19,7 @@ household settled, the house at rest. The classics also borrow
 it as a question word ("wherein? how?"), but its heart is
 peace, ease, safety — the thing good government owes the old.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">the asking chapter</a>.
 
 ## How to remember it
 
@@ -29,7 +29,7 @@ Roof over, seated within: **peace**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢者安之。</span><span class="translit pinyin">lǎo zhě ān zhī</span><span class="gloss">"the old — give them peace" — the box is "old (in years)"; asked his life's wish, the Master answers in three clauses, and this is the first</span></div>
+    <div class="reading-line"><span class="script">老者安之。</span><span class="translit pinyin">lǎo zhě ān zhī</span><span class="gloss">"the old — give them peace" — asked his life's wish, the Master answers in three clauses, and this is the first</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 5.26 — the wish continues: friends

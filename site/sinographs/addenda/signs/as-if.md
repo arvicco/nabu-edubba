@@ -20,17 +20,19 @@ smoothing long, loose hair — an image of yielding and going
 along with. From "accord with" the word softened into "to be
 like," and at the head of a clause, "if." The received graph
 re-dressed the figure as plants over a hand. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/13-like-and-alike/' | relative_url }}">the like-and-alike chapter</a>.
 
 ## How to remember it
 
-Hair smoothed to flow the same way: **as-if**.
+Under the plant-strokes, a hand and a mouth 口: the hand
+smooths everything to lie one way, the mouth says "just so" —
+**as-if**.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">大成若▢。</span><span class="translit pinyin">dà chéng ruò quē</span><span class="gloss">"the greatest completeness looks chipped" — real mastery never looks polished; the Laozi's list of perfections that wear their opposite. The box is "chipped, lacking"</span></div>
+    <div class="reading-line"><span class="script">大成若缺。</span><span class="translit pinyin">dà chéng ruò quē</span><span class="gloss">"the greatest completeness looks chipped" — real mastery never looks polished; the Laozi's list of perfections that wear their opposite.</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 45.

@@ -18,11 +18,12 @@ The old graphs show a person with grain bundled on their back —
 the harvest coming home. One harvest, one year: the count of
 years is the count of crops, and the strokes wore smooth into
 today's form long after the picture faded. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">the already chapter</a>.
 
 ## How to remember it
 
-A back bent under the harvest — one more **year** carried in.
+The strokes are a figure with the harvest bundled on its back:
+one crop carried home, one **year** on the count.
 
 ## In the wild
 

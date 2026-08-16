@@ -21,7 +21,7 @@ behind a thing is its precedent; the precedent is its cause; and
 "from this cause" hardened into the classical hinge-word
 *therefore*, the word every argument in the classics turns on.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 
@@ -32,7 +32,7 @@ now — **therefore**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢故而知▢。</span><span class="translit pinyin">wēn gù ér zhī xīn</span><span class="gloss">"warm up the old and know the new" — here 故 is not yet "therefore" but the old stock itself, the thing rekindled: the noun the hinge-word grew out of</span></div>
+    <div class="reading-line"><span class="script">溫故而知新。</span><span class="translit pinyin">wēn gù ér zhī xīn</span><span class="gloss">"warm up the old and know the new" — here 故 is not yet "therefore" but the old stock itself, the thing rekindled: the noun the hinge-word grew out of</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11.

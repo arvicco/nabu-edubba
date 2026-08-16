@@ -18,7 +18,7 @@ An eye 目 set on running legs — a whole person reduced to the
 act of looking; the reading is classic. When what is seen does
 the appearing, the classics read the same graph xiàn, "to show
 oneself". Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">the verb-and-object chapter</a>.
 
 ## How to remember it
 
@@ -28,7 +28,7 @@ The eye grew legs and went to **see** for itself.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">見▢不為，無▢也。</span><span class="translit pinyin">jiàn yì bù wéi, wú yǒng yě</span><span class="gloss">"to see the right thing and not do it is to lack courage" — seeing that obliges</span></div>
+    <div class="reading-line"><span class="script">見義不為，無勇也。</span><span class="translit pinyin">jiàn yì bù wéi, wú yǒng yě</span><span class="gloss">"to see the right thing and not do it is to lack courage" — seeing that obliges</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.24.

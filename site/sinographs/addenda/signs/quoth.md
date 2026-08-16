@@ -20,7 +20,7 @@ verb, it kept the job so firmly that clouds had to take a rain
 roof (雲) to stay distinct. 曰 speaks in a person's own voice;
 云 hands over someone else's — the Songs say, the Book says.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">the one-who chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ Words drift in from elsewhere like a cloud: **quoth**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢云：之子于▢。</span><span class="translit pinyin">shī yún: zhī zǐ yú guī</span><span class="gloss">"the Songs say: this child goes to her wedding home" — 云 opening a quotation of a song this course already reads</span></div>
+    <div class="reading-line"><span class="script">詩云：之子于歸。</span><span class="translit pinyin">shī yún: zhī zǐ yú guī</span><span class="gloss">"the Songs say: this child goes to her wedding home" — 云 opening a quotation of a song this course already reads</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue), quoting the Peach Tree song.

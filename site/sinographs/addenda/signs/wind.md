@@ -21,17 +21,19 @@ is what quickens the bugs into life. From weather the word blew
 into metaphor: the "Airs" (風) are the Odes' folk songs, and a
 lord's 風 is the influence his example has on everyone downwind.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/15-and-so/' | relative_url }}">the and-so chapter</a>.
 
 ## How to remember it
 
-A sail full of humming air: **wind**.
+A sail bellied full, a little insect riding inside — the
+creature the old dictionaries said the **wind** quickens into
+life.
 
 ## In the wild
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">風▢如▢。</span><span class="translit pinyin">fēng yǔ rú huì</span><span class="gloss">"wind and rain, dark as night" — the Odes' storm, through which a rooster keeps crowing and a longed-for friend finally arrives; ever after, the phrase for grim times that decency outlasts. The boxes are "rain" and "gloom"</span></div>
+    <div class="reading-line"><span class="script">風雨如晦。</span><span class="translit pinyin">fēng yǔ rú huì</span><span class="gloss">"wind and rain, dark as night" — the Odes' storm, through which a rooster keeps crowing and a longed-for friend finally arrives; ever after, the phrase for grim times that decency outlasts.</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "Wind and rain" (風雨).

@@ -19,6 +19,8 @@
 #   shown by pure CSS on hover/focus — no JS. Anchors on a sign's own
 #   page get no bubble (the table row already shows the same data).
 
+require_relative "rulebook"
+
 module Edubba
   module SignLinker
     # All tracked script ranges (cuneiform, Egyptian hieroglyphs, and
@@ -113,6 +115,30 @@ module Edubba
         url = chapter_urls[ch] or next
         map[s["glyph"]] = { url: url, anchor: "sign-#{s['codepoint']}",
                             tip: tip_text(s) }
+      end
+      map
+    end
+
+    # Codex wiring (rulebook §7/§9): give map entries their :codex
+    # (or :codex_akk, §9 language separation) URL so sign-table
+    # cells link the glyph to its Addenda page. Driven by the
+    # rulebook's CODEX ledger — every registry in the ledger gets
+    # wired, so a new queue can never be silently left out (the
+    # 2026-08-12 S102 gap: 82 taught characters' table glyphs
+    # linked nowhere because a hand-written stanza still read only
+    # the 101 queue). Only URLs that exist in the build are wired.
+    def wire_codex!(map, codexes, data, page_urls)
+      codexes.each do |cx|
+        key = cx[:shelf].include?("addenda-akk") ? :codex_akk : :codex
+        cx[:registries].each do |rel|
+          reg = data[File.basename(rel, ".yml")]
+          Array(reg&.dig("signs")).each do |s|
+            entry = map[s["glyph"]] or next
+            slug = Edubba::Rulebook.sign_slug(s["gardiner"] || s["name"])
+            url = "/#{cx[:shelf]}/#{slug}/"
+            entry[key] = url if page_urls[url]
+          end
+        end
       end
       map
     end

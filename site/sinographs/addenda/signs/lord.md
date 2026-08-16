@@ -20,7 +20,7 @@ the classic account of rulership drawn in two strokes of
 authority. In the *Analects* the compound 君子, "lord's son,"
 is remade into the book's hero: the person noble by conduct.
 Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>.
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">the verbless-sentence chapter</a>.
 
 ## How to remember it
 
@@ -30,7 +30,7 @@ A staff in the hand, an order in the mouth: the **lord**.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君子不▢。</span><span class="translit pinyin">jūn zǐ bù qì</span><span class="gloss">"the lord's son is not a vessel" — the box is "vessel": a tool made for one use; the noble person refuses to be a mere implement</span></div>
+    <div class="reading-line"><span class="script">君子不器。</span><span class="translit pinyin">jūn zǐ bù qì</span><span class="gloss">"the lord's son is not a vessel" — the noble person refuses to be a mere implement</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.12.

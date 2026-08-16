@@ -18,7 +18,7 @@ Two strokes: a nail seen head-on and driven flush. The stated
 reading goes back to the nail-head picture; the word also names
 an able-bodied man (a "stout nail" of a household) and the
 fourth of the ten day-stems the calendar counts by. Taught in
-<a href="{{ '/sinographs/102/' | relative_url }}">102 · Literary Chinese</a>
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">the counting chapter</a>
 as the right-hand piece of 可.
 
 ## How to remember it
@@ -30,7 +30,7 @@ the head, drive the point.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">▢木丁丁。</span><span class="translit pinyin">fá mù zhēng zhēng</span><span class="gloss">"axe-blows on the trees ring zhēng, zhēng" — the Songs use the nail-character doubled for the SOUND of striking (read zhēng here, the commentators note); the boxed word is "felling"</span></div>
+    <div class="reading-line"><span class="script">伐木丁丁。</span><span class="translit pinyin">fá mù zhēng zhēng</span><span class="gloss">"axe-blows on the trees ring zhēng, zhēng" — the Songs use the nail-character doubled for the SOUND of striking (read zhēng here, the commentators note)</span></div>
   </div>
   <figcaption class="citation">
     <em>Classic of Songs</em> (Shijing), "Felling Trees".

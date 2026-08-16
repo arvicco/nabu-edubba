@@ -29,7 +29,7 @@ every multiple of ten stacks a digit in front of it.
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">三十▢▢。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — stood on his own, formed and settled; the Master's life told in decades: 三十, three tens</span></div>
+    <div class="reading-line"><span class="script">三十而立。</span><span class="translit pinyin">sān shí ér lì</span><span class="gloss">"at thirty, I stood" — stood on his own, formed and settled; the Master's life told in decades: 三十, three tens</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.4, as quoted in the Ming commentary

@@ -5,6 +5,107 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-12 · incident · phase-24 · BOXES ON THE REFERENCE SHELF +
+MIS-ROUTED "TAUGHT IN". Owner, on 臣's codex page: why are there
+empty boxes in the Codex (臣▢君以▢) — and the same paste showed
+"Taught in: 01 · The order of strokes", an S101 chapter. Two
+drifts. (1) 90 of 137 sinograph codex pages had ▢ in their "In
+the wild" attestations: the chapter-reading law (untaught = ▢)
+wrongly imported into REFERENCE pages — including absurdities
+like 道 boxed on the grow page and 學 on the poem page,
+characters the courses teach. The mold everywhere else shows
+attestations whole (the one ▢ on the akk shelf is a genuine
+tablet lacuna in the Sippar loan). All 90 lines restored to the
+full text and EVERY one witness-verified against its cited
+kanripo edition via Nabu — the pass caught two real edition
+facts: Analects 1.6 writes 悌 (not 弟), and the Daxue witness
+(a commentary edition) writes 知止而后有定 with 后, not 後.
+Glosses purged of "the boxes are…" clauses. Ruled as the
+whole-attestation law (sinographs.md §8 + ledger row) with the
+codex-boxes lint: ▢ on a sinograph shelf page fails the gate.
+(2) sign.html still routed S102 chapters by the pre-rebatch
+"chapter > 9" heuristic, sending every S102 char in chapters 1–9
+to the same-numbered S101 chapter; now routed by the queue row's
+own course field. Lesson: a reference surface obeys reference
+law, not lesson law — and when a data scheme changes (ordinals
+re-based, registries split), grep every consumer of the OLD
+scheme, template heuristics included.
+
+2026-08-12 · incident · phase-24 · CODEX HOOKS THAT HOOKED
+NOTHING. Owner, on 民's "How to remember it" ("The stroke through
+the eye: the people, who were once looked past — and became the
+measure of everything"): complete bullshit — no eye is visible in
+modern 民, and the rest explains nothing. Review of all 137
+sinograph hooks confirmed the pattern and its boundary: S101's
+hooks (written slowly) parse the visible form and pass; 32 S102
+hooks (written at rebuild speed) leaned on invisible etymology
+("the crow", "the elephant", "the eye") or dissolved into
+profundity with no referent. All 32 rewritten to the now-ruled
+hook law (sinographs.md §8 + ledger row): a hook names the
+strokes/components the learner can SEE — taught characters by
+glyph (the linker bubbles them), untaught components in plain
+words — and binds them to the keyword in one concrete image;
+origin-only features stay in "Where it comes from". Sample
+repairs: 民 = a seed-tray with one long shoot striking out (the
+awl-pierced eye stays in the origin story where it belongs); 士 =
+wide bar on top, the exact opposite of 土 — the officer stands
+shoulders first; 事 = the same writing-hand as 書, gripping the
+tally of office. Editorial law, enforced by review — a machine
+cannot judge whether an image reconstructs a character. Lesson
+for memory: hook quality collapses under authoring speed; check
+the hooks whenever pages are written in bulk.
+
+2026-08-12 · incident · phase-24 · S102 SIGNS MISSING FROM THE
+CODEX. Owner, on review: the 82 newly-taught S102 characters were
+absent from the Character Codex index and their sign-table glyphs
+linked nowhere — and the gate had passed. Root cause: the queue
+split left two consumers hard-wired to sinographs101_queue — the
+shelf's signs index (site/sinographs/addenda/signs/index.md)
+iterated only the 101 queue, and sign_links.rb's hand-written
+:codex stanza wired only 101 chars (its teaching-link stanza HAD
+been given a 102 loop; the codex stanza three screens down had
+not). The gate passed because the rulebook's codex check verifies
+pages EXIST (all 82 did) — nothing checked that the index lists
+them or that the wiring links them. Durable fix, three layers:
+(1) the signs index now iterates both queues with course-labeled,
+chapter-linked "Taught in" cells, matching the cuneiform/hiero
+shelf pattern; (2) codex wiring is now LEDGER-DRIVEN —
+SignLinker.wire_codex! derives every shelf's links from
+Rulebook::CODEX, so a registry that enters the ledger (which the
+pages check already forces) is wired automatically, and the three
+per-school stanzas in the plugin are gone; (3) new rulebook check
+check_codex_index: a shelf's index must draw on every registry in
+its ledger entry — red on the pre-fix tree, green now, unit-
+tested, and the live-config test runs it against the real site.
+Lesson: when a registry splits, grep for every consumer of the
+old name in the same commit — and each consumer class needs a
+machine check, not just the data files.
+
+2026-08-12 · M24-1 · phase-24 · S102 REBUILT GRAMMAR-FIRST (Gate
+24 of the two-gate cadence). The 82 characters re-batched into
+fifteen grammar chapters on the ruled Pulleyblank spine — the
+nominal sentence, the verb and its object, existence and the two
+negations, numbers as predicates, the 之-genitive, 者/所
+nominalization, coverbs, aspect (矣/已), questions, conditionals
+(則), modals, the causative state, comparison, quantification,
+discourse — each chapter teaching its element ON the famous
+readings the old chapters had verified (1.1 spread over its three
+grammatical homes; 1.5 whole in the causative chapter; the 2.4
+ladder split counting-chapter-to-finale as a course-length
+promise, paid). Toolchain: pool rows carry course+ordinal;
+per-course queues, caps (40/35/30), box_line --course; the
+contract test pins the border. Every reading re-verified by
+box_line under the new order — five draft lines caught over-cap
+and replaced; the tone lint caught hào-over-hǎo and 好 got a
+second verified cut; two ahead-of-teaching glyphs caught at the
+sweep; one roster swap ruled at draft (方↔父) when 方 had no
+readable use before 東. Parked files deleted; redirects
+re-pointed chapter-grain; 82 codex links name their chapters;
+sign_links serves all 137. Incident, self-inflicted and repaired
+in place: TWO commits landed on red gates because rake gate was
+piped to tail (the documented 2026-07-29 near-miss, repeated) —
+switched to gate > log + bare exit test, fix commits say so.
+
 2026-08-12 · M23-1..3 · phase-23 · THE COURSE BORDER, repaired.
 Owner, on discovering S101 at 25 chapters: the ladder ruling
 (2026-08-09) already assigned literacy to S102 — "Foundation is
