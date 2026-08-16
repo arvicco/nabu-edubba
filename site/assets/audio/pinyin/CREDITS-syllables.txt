@@ -60,6 +60,7 @@ jiu.mp3
 jun.mp3
 ke.mp3
 kou.mp3
+ku.mp3
 la.mp3
 lai.mp3
 lan.mp3
