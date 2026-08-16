@@ -81,6 +81,20 @@ is how a whole life gets told in decades below.
   </figcaption>
 </figure>
 
+The first line closes a loop from
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">last chapter</a>:
+there <span class="script">有</span> stood with its subject seat
+empty and meant "there is"; here <span class="script">民</span>
+fills the seat, and the same verb turns to owning — "the people
+*have* eight oxen." <span class="script">八牛</span> shows the
+number's whole syntax: straight before the noun, no "head of,"
+no plural mark. And the Laozi chain runs
+<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+plain skeleton three times — <span class="script">一生二</span>:
+subject, verb, object — each clause handing its object to the
+next as subject, a ladder of begetting climbed from one to
+everything.
+
 ## A life in decades
 
 The most famous counting in Chinese literature is Confucius
@@ -103,9 +117,31 @@ predicate:
   </figcaption>
 </figure>
 
-Look at the grammar doing the storytelling: each line is just
-*number 十 而 verb* — "at N-ty, and-then X." No "when I was,"
-no "years old." The count itself is the clock.
+Walk the first rung, every element, because the other four
+repeat its frame. The boxed ▢ "I" opens — the Master speaking of
+himself. Then <span class="script">十有五</span>: ten,
+<span class="script">有</span>, five — the having-verb in yet
+another costume, stitching tens to units: "ten *and* five,"
+fifteen. <span class="script">而</span> is the ladder's hinge,
+once per rung: "and then." And the boxed pair ▢于▢ is the deed,
+"set (my) heart on learning."
+
+The later rungs shed even that: <span class="script">三十而</span>▢
+is number, hinge, verb — and by
+<span class="script">四十而不</span>▢ the number is doing the
+timekeeping alone. That a bare number can stand as a whole
+predicate is the chapter's last lesson, and your own characters
+can do it:
+
+<figure class="reading reading--script reading--composed">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">父五十，子十。</span><span class="translit pinyin">fù wǔ shí, zǐ shí</span><span class="gloss">"the father is fifty, the son ten" — two bare numbers, each a complete claim</span></div>
+  </div>
+  <figcaption class="citation">
+    Composed from taught characters. No "is," no "years old":
+    the count itself is the clock.
+  </figcaption>
+</figure>
 
 ## Where this leaves you
 

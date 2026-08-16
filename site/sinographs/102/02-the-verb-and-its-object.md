@@ -88,6 +88,26 @@ The pattern on characters you own outright:
   </figcaption>
 </figure>
 
+Take the first line apart seat by seat. <span class="script">人</span>
+sits first, so it is the **doer** — "people."
+<span class="script">見</span> follows: the **act**, "see."
+<span class="script">日月</span> fills the **object** seat — sun
+and moon side by side, and no "and" is needed: neighbors in the
+object seat simply share it. That is the entire machine.
+
+The second pair of lines is the proof that position is the only
+grammar there is. <span class="script">父見子</span> and
+<span class="script">子見父</span> spend the same three
+characters; swapping the seats swaps who sees whom. English
+would survive such a shuffle by leaning on its endings — here
+there are no endings to lean on, so **the seat is the ending**.
+
+And the third line shows the object seat standing empty: motion
+verbs are complete alone — <span class="script">出</span> "goes
+out" closes its clause with no object at all, and
+<span class="script">而</span> hinges the two halves as it has
+since Foundations.
+
 ## Knowing without going
 
 A verb's object can be a place — go out a door, know the world.
@@ -96,13 +116,25 @@ about knowledge:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"; note the shape — 出 takes "door" as its object exactly as 知 takes 天下</span></div>
+    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 47.
     <code>urn:nabu:kanripo:KR5c0057:047:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+The grammar, element by element. <span class="script">不</span>
+sits directly before the verb and negates the act: "not
+go-out." <span class="script">出</span> then takes ▢ "door"
+straight as its object — go-out-the-door, no "of," no
+"through": a place sits in the object seat like anything else.
+The answering clause is a twin skeleton:
+<span class="script">知</span> "know" takes
+<span class="script">天下</span> "all under heaven — the world"
+as *its* object. Two clauses, same shape, set side by side with
+not one connecting word between them — in this language the
+parallelism itself is the argument.
 
 ## The strangest entrance
 
@@ -119,6 +151,18 @@ And because objects are just words in the object seat, even
     <code>urn:nabu:kanripo:KR5c0057:043:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Here the *subject* seat holds a small philosophy:
+<span class="script">無有</span>, "the not-having" —
+<span class="script">無</span> negating
+<span class="script">有</span> makes a noun, *that which has no
+substance*. The verb <span class="script">入</span> you know
+from the sign table above. Its object is ▢無▢, "where there is
+no gap": the small boxed "into" hands the verb its place, and
+inside that place <span class="script">無</span> appears again —
+the word that opened the sentence closes it, one seat over. Read
+the seats and the paradox reads itself: no-thing enters
+no-gap.
 
 ## Where this leaves you
 

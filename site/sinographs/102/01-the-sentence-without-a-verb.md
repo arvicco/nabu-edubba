@@ -78,6 +78,33 @@ The pattern first, in sentences where every character is yours:
   </figcaption>
 </figure>
 
+Walk the first line seat by seat, because every nominal sentence
+you will ever read sits in these same seats. <span class="script">王</span>
+opens as the **topic** — the thing about to be defined.
+<span class="script">者</span> folds it into a phrase, "the one
+who is king": Foundations taught it as the *-er* word, and after
+any noun it means "the X one, X as such." Then comes the
+**definition**: <span class="script">天之子</span>, "heaven's
+son" — with <span class="script">之</span>, Foundations'
+belonging-thread, tying owner to owned. And
+<span class="script">也</span> **seals** the claim. No verb ever
+arrives, because nothing needs doing: the sentence sets one
+thing beside another and says *these two are one*.
+
+The seats will hold whatever you put in them — change one word
+at a time and watch the claim follow:
+
+<figure class="reading reading--script reading--composed">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">王者，民之君也。</span><span class="translit pinyin">wáng zhě, mín zhī jūn yě</span><span class="gloss">"the king is the people's lord" — same seats as heaven's-son, one claim milder</span></div>
+    <div class="reading-line"><span class="script">民者，天下之本也。</span><span class="translit pinyin">mín zhě, tiān xià zhī běn yě</span><span class="gloss">"the people are the root of the world" — now the people hold the topic seat, and the politics has flipped</span></div>
+  </div>
+  <figcaption class="citation">
+    Composed from taught characters — the frame holds whatever
+    its seats are given.
+  </figcaption>
+</figure>
+
 A special word for denying identities arrives two chapters on;
 for now, assert.
 
@@ -96,6 +123,14 @@ four characters, on exactly this frame:
   </figcaption>
 </figure>
 
+Four characters, and all four seats are filled:
+<span class="script">仁</span> the topic (humaneness),
+<span class="script">者</span> folding it ("humaneness as
+such"), <span class="script">人</span> the definition (a human),
+<span class="script">也</span> the seal. That the whole
+definition is a single character is the artistry — the frame
+carries a one-word answer as gracefully as heaven's-son.
+
 ## When a noun turns verb
 
 Push the pattern one step and a bare noun can carry a whole
@@ -104,13 +139,27 @@ nouns, each doubled into its own little sentence:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><a class="say" href="{{ '/assets/audio/lines/102-01-jun-jun-chen-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span></a><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — the whole theory of order in four doubled words: things run when each person actually IS what their role demands, starting at the top. The second word of each pair does the predicate's work — a noun serving as its own verb. The boxed pair is "father"</span></div>
+    <div class="reading-line"><span class="script">君君，臣臣，▢▢，子子。</span><a class="say" href="{{ '/assets/audio/lines/102-01-jun-jun-chen-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn jūn, chén chén, fù fù, zǐ zǐ</span></a><span class="gloss">"let the lord be a lord, the minister a minister, the father a father, the son a son" — the whole theory of order in four doubled words: things run when each person actually IS what their role demands, starting at the top. The boxed pair is "father"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 12.11.
     <code>urn:nabu:kanripo:KR1h0004:012:21a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Each pair is a whole nominal sentence squeezed into two
+characters. In <span class="script">君君</span>, the first
+<span class="script">君</span> holds the topic seat — "the
+lord" — and the second does the definition's work: "(is truly) a
+lord." At this compression even the frame's furniture drops
+away: no <span class="script">者</span>, no
+<span class="script">也</span> — position alone says which is
+subject and which is claim. The device works on your own cast
+just as well: <span class="script">王王，民民</span> —
+<span class="translit pinyin">wáng wáng, mín mín</span>, "let
+the king be a king and the people be the people." A bare pair
+reads as topic-then-claim because the nominal frame is already
+in your bones.
 
 ## The noble word
 
@@ -128,6 +177,19 @@ Foundations' final reading; here is its home sentence:
     <code>urn:nabu:kanripo:KR1h0004:001:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Element by element, because half the Analects speaks in exactly
+this rhythm. <span class="script">人</span> here is "other
+people" — the word means *others* whenever it stands opposite an
+implied *you*. <span class="script">不知</span>: "do not know
+(you)" — the object goes unsaid where it is obvious.
+<span class="script">而</span> hinges the clauses, and here it
+turns: "and *yet*." <span class="script">不</span>▢ repeats the
+negation on the boxed verb, "do not resent." Then the close,
+<span class="script">不亦…乎</span>, "is that not…?" — a
+rhetorical mold the asking chapter opens fully; inside it sits
+<span class="script">君子</span>, so the question is one more
+nominal claim: *(you,) a noble person* — asserted by asking.
 
 ## Where this leaves you
 
