@@ -1108,3 +1108,9 @@ built:
     pinyin: kù
     ear_approved: true
     take: ku~v8b
+  chi:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 吃
+    pinyin: chī
