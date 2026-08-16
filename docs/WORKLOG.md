@@ -5,6 +5,34 @@ date · packet · commit · notes (what changed, why, evidence, catches).
 Incidents get their own entries: what happened, root cause, the
 durable fix, the lesson now enforced.
 
+2026-08-16 · M25-4 · phase-25 · THE EAR RULES, AND THE SET IS
+WHOLE: 158/158 clips in the pinned voice (150 syllables + 8
+lines), 55 of them ear-approved. The transcript gate's honesty
+had a cost — on half-second clips the three machine referees
+(pitch, span, whisper) disagree in the noise, and re-roll loops
+stalled: whisper hears "Bye" for bái and would equally have
+blessed "dar". So the endgame inverted the authority: machine
+gates ADVISE, the owner's ear RULES — a local review page
+(gitignored) lists every pending base with all candidate takes
+and refusal reasons; the owner names winners per round
+("ai~v0a bai~v0a …"); `pinyin_voice.rb approve <take-ids>` ships
+them normalized and ledgered `ear_approved: true` with the take
+id. Convergence took five ear-rounds, with cache-busting
+previous_text rotation after the owner caught byte-identical
+"variants" (ElevenLabs ignores seed; identical requests return
+identical audio). Second owner catch became law: pà·tà·kǒu
+demo rows hide the consonant contrast behind mixed tones — the
+CONTRAST-ROW LAW (a demo row varies exactly ONE thing) is now in
+the rulebook, ten new uniform-tone demo syllables synthesized
+(dù·tù, gù·kù, sā, nán·lán, zū·cū·sū…), and the primer's
+initials/trap/finals rows rebuilt as same-tone sets with the
+aspiration pairs aligned as columns (bù/pù, dù/tù, gù/kù). Also
+fixed: approve now regenerates the credits files (it shipped
+clips the credits didn't list) via a shared write_credits that
+keeps ear-approved model placeholders out of the engine line;
+the rulebook's span numbers synced to the plan's 0.4–2.2 s.
+Open: full line rollout across all readings (next packet).
+
 2026-08-15 · incident · phase-25 · THE GATE WAS DEAF TO CONTENT.
 Owner, listening: mù shipped as "musha", mā as "mama", má as
 "mashimashima", dà as "dar" — and the gate had verified the pitch
