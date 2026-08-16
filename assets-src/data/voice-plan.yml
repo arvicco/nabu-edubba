@@ -175,12 +175,15 @@ syllables:
     pinyin: shí
     text: 時
     variants:
-    - text: 時
-    - text: 詩、時、史、是。
-      cut: second
-    - text: 時鐘
+    - text: 十
+      next_text: 很好。
+    - text: 十
+      stretch: 1.4
+    - text: 時間
       cut: first
-    - text: 時、時、時。
+    - text: 石頭
+      cut: first
+    - text: 十、十、十。
       cut: middle
   shi-arrow:
     pinyin: shǐ
@@ -762,12 +765,15 @@ syllables:
     pinyin: kù
     text: 褲
     variants:
+    - text: 酷
+      next_text: 很好。
+    - text: 庫
+      next_text: 很好。
     - text: 褲
-    - text: 褲
-      stretch: 1.4
+      stretch: 1.3
     - text: 褲子
       cut: first
-    - text: 褲、褲、褲。
+    - text: 酷、酷、酷。
       cut: middle
   sa:
     pinyin: sā
