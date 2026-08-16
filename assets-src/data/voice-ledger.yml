@@ -380,3 +380,683 @@ built:
     model_id: eleven_v3
     text: 踏
     pinyin: tà
+  ren:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 仁
+    pinyin: rén
+  yue:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 月
+    pinyin: yuè
+  kou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 口
+    pinyin: kǒu
+  ming:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 明
+    pinyin: míng
+  zhi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 之
+    pinyin: zhī
+  ye:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 也
+    pinyin: yě
+  er-and:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 而
+    pinyin: ér
+  xing:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 形
+    pinyin: xíng
+  yan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 言
+    pinyin: yán
+  zhi-stop:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 止
+    pinyin: zhǐ
+  zheng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 正
+    pinyin: zhèng
+  zi-self:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 自
+    pinyin: zì
+  ding:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 丁
+    pinyin: dīng
+  ke:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 可
+    pinyin: kě
+  ba:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 八、八、八。
+    pinyin: bā
+  wen:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 文
+    pinyin: wén
+  an:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 安
+    pinyin: ān
+  dao-knife:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 刀
+    pinyin: dāo
+  de:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 德
+    pinyin: dé
+  yu-with:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 雨
+    pinyin: yǔ
+  yu-want:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 欲
+    pinyin: yù
+  feng:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 風
+    pinyin: fēng
+  ruo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 若
+    pinyin: ruò
+  tong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 同
+    pinyin: tóng
+  shan-good:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 善
+    pinyin: shàn
+  chang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 昌、常、廠、唱。
+    pinyin: cháng
+  fa:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 發
+    pinyin: fā
+  lai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 來
+    pinyin: lái
+  bei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 貝
+    pinyin: bèi
+  ma-high:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 媽、麻、馬、罵。
+    pinyin: mā
+  ma-rising:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 媽、麻、馬、罵。
+    pinyin: má
+  chi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 吃
+    pinyin: chī
+  ma-neutral:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 嗎
+    pinyin: ma
+  tu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 土
+    pinyin: tǔ
+  si:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 四
+    pinyin: sì
+  min:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 民
+    pinyin: mín
+  ru-enter:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 入
+    pinyin: rù
+  ai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 愛
+    pinyin: ài
+    ear_approved: true
+    take: ai~v0a
+  bai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 白
+    pinyin: bái
+    ear_approved: true
+    take: bai~v0a
+  da:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 大
+    pinyin: dà
+    ear_approved: true
+    take: da~v0c
+  dao:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 道
+    pinyin: dào
+    ear_approved: true
+    take: dao~v0b
+  dong:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 東
+    pinyin: dōng
+    ear_approved: true
+    take: dong~v0b
+  fang:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 方
+    pinyin: fāng
+    ear_approved: true
+    take: fang~v0a
+  fu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 父
+    pinyin: fù
+    ear_approved: true
+    take: fu~v0c
+  fei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 非
+    pinyin: fēi
+    ear_approved: true
+    take: fei~v0a
+  gu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 古
+    pinyin: gǔ
+    ear_approved: true
+    take: gu~v0a
+  hou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 後
+    pinyin: hòu
+    ear_approved: true
+    take: hou~v0a
+  hu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 乎
+    pinyin: hū
+    ear_approved: true
+    take: hu~v0b
+  ji:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 雞
+    pinyin: jī
+    ear_approved: true
+    take: ji~v0b
+  jie:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 皆
+    pinyin: jiē
+    ear_approved: true
+    take: jie~v0a
+  jin:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 今
+    pinyin: jīn
+    ear_approved: true
+    take: jin~v0b
+  jun:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 君
+    pinyin: jūn
+    ear_approved: true
+    take: jun~v0a
+  mo:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 末
+    pinyin: mò
+    ear_approved: true
+    take: mo~v0b
+  niu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 牛
+    pinyin: niú
+    ear_approved: true
+    take: niu~v0c
+  nuu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 女
+    pinyin: nǚ
+    ear_approved: true
+    take: nuu~v0b
+  qi-seven:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 七
+    pinyin: qī
+    ear_approved: true
+    take: qi-seven~v0b
+  ri:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 日
+    pinyin: rì
+    ear_approved: true
+    take: ri~v0c
+  ru:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 如
+    pinyin: rú
+    ear_approved: true
+    take: ru~v0b
+  shan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 山
+    pinyin: shān
+    ear_approved: true
+    take: shan~v0b
+  wei:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 味
+    pinyin: wèi
+    ear_approved: true
+    take: wei~v0b
+  wu-five:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 五
+    pinyin: wǔ
+    ear_approved: true
+    take: wu-five~v0a
+  wu-thing:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 物
+    pinyin: wù
+    ear_approved: true
+    take: wu-thing~v0b
+  xi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 夕
+    pinyin: xī
+    ear_approved: true
+    take: xi~v0c
+  yi-also:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 亦
+    pinyin: yì
+    ear_approved: true
+    take: yi-also~v0b
+  you:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 又
+    pinyin: yòu
+    ear_approved: true
+    take: you~v0c
+  yu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 魚
+    pinyin: yú
+    ear_approved: true
+    take: yu~v0c
+  yun:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 雲
+    pinyin: yún
+    ear_approved: true
+    take: yun~v0a
+  zai:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 在
+    pinyin: zài
+    ear_approved: true
+    take: zai~v0c
+  ze:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 則
+    pinyin: zé
+    ear_approved: true
+    take: ze~v0b
+  zhe:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 者
+    pinyin: zhě
+    ear_approved: true
+    take: zhe~v0c
+  zhi-arrive:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 至
+    pinyin: zhì
+    ear_approved: true
+    take: zhi-arrive~v0c
+  liu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 六
+    pinyin: liù
+  di:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 第
+    pinyin: dì
+    ear_approved: true
+    take: di~v0b
+  er:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 二
+    pinyin: èr
+    ear_approved: true
+    take: er~v1b
+  ge:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 歌
+    pinyin: gē
+    ear_approved: true
+    take: ge~v1b
+  ma-falling:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 罵
+    pinyin: mà
+    ear_approved: true
+    take: ma-falling~v0b
+  shou:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 首
+    pinyin: shǒu
+    ear_approved: true
+    take: shou~v0a
+  wan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 萬
+    pinyin: wàn
+    ear_approved: true
+    take: wan~v1a
+  wei-do:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 維
+    pinyin: wéi
+    ear_approved: true
+    take: wei-do~v0a
+  yi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 一
+    pinyin: yī
+    ear_approved: true
+    take: yi~v0b
+  zi:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 子
+    pinyin: zǐ
+    ear_approved: true
+    take: zi~v0a
+  ku:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 褲
+    pinyin: kù
+  bai-hundred:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 百
+    pinyin: bǎi
+    ear_approved: true
+    take: bai-hundred~v0a
+  cu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 粗
+    pinyin: cū
+    ear_approved: true
+    take: cu~v1b
+  du:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 度
+    pinyin: dù
+    ear_approved: true
+    take: du~v0a
+  mu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 木
+    pinyin: mù
+    ear_approved: true
+    take: mu~v0a
+  nan:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 男
+    pinyin: nán
+    ear_approved: true
+    take: nan~v0a
+  pu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 鋪
+    pinyin: pù
+    ear_approved: true
+    take: pu~v0a
+  sa:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 撒
+    pinyin: sā
+    ear_approved: true
+    take: sa~v0a
+  tu-rabbit:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 兔
+    pinyin: tù
+    ear_approved: true
+    take: tu-rabbit~v0a
+  yi-by:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 以
+    pinyin: yǐ
+    ear_approved: true
+    take: yi-by~v0b
+  zu:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 租
+    pinyin: zū
+    ear_approved: true
+    take: zu~v0b
+  su:
+    date: '2026-08-15'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 蘇
+    pinyin: sū
+  gu-therefore:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 故
+    pinyin: gù
+    ear_approved: true
+    take: gu-therefore~v1c
+  lan:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 藍
+    pinyin: lán
+    ear_approved: true
+    take: lan~v1b

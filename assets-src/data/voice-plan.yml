@@ -16,7 +16,7 @@ engine:
   model_id: eleven_multilingual_v2
   output_format: mp3_44100_128
   language: zh
-  voice_id: BWN0mOtkGHghA3CYFzFK   # PINNED 2026-08-15 — Danyu Zhao; changing it means regenerating everything
+  voice_id: BWN0mOtkGHghA3CYFzFK
   v3_text_prefix: "[slowly]"
   syllable_previous_text: 跟我讀，慢慢地，一個字：
   syllable_voice_settings:
@@ -46,9 +46,25 @@ syllables:
   yi:
     pinyin: yī
     text: 一
+    variants:
+    - text: 一
+    - text: 一
+      stretch: 1.4
+    - text: 衣服
+      cut: first
+    - text: 一、一、一。
+      cut: middle
   er:
     pinyin: èr
     text: 二
+    variants:
+    - text: 二
+    - text: 二
+      stretch: 1.4
+    - text: 二月
+      cut: first
+    - text: 而、耳、二。
+      cut: token3
   san:
     pinyin: sān
     text: 三
@@ -76,12 +92,28 @@ syllables:
   mu:
     pinyin: mù
     text: 木
+    variants:
+    - text: 木
+    - text: 木
+      stretch: 1.4
+    - text: 木頭
+      cut: first
+    - text: 木、木、木。
+      cut: middle
   kou:
     pinyin: kǒu
     text: 口
   zi:
     pinyin: zǐ
     text: 子
+    variants:
+    - text: 子
+    - text: 子
+      stretch: 1.4
+    - text: 紫色
+      cut: first
+    - text: 資、紫、字。
+      cut: token2
   ming:
     pinyin: míng
     text: 明
@@ -149,6 +181,14 @@ syllables:
   wei-do:
     pinyin: wéi
     text: 維
+    variants:
+    - text: 維
+    - text: 維
+      stretch: 1.4
+    - text: 維持
+      cut: first
+    - text: 維、維、維。
+      cut: middle
   wu:
     pinyin: wú
     text: 無
@@ -202,6 +242,14 @@ syllables:
   yi-by:
     pinyin: yǐ
     text: 以
+    variants:
+    - text: 以
+    - text: 以
+      stretch: 1.4
+    - text: 以前
+      cut: first
+    - text: 以、以、以。
+      cut: middle
   zi-self:
     pinyin: zì
     text: 自
@@ -223,12 +271,28 @@ syllables:
   liu:
     pinyin: liù
     text: 六
+    variants:
+    - text: 六
+    - text: 六
+      stretch: 1.4
+    - text: 六月
+      cut: first
+    - text: 六、六、六。
+      cut: middle
   bai:
     pinyin: bái
     text: 白
   bai-hundred:
     pinyin: bǎi
     text: 百
+    variants:
+    - text: 百
+    - text: 百
+      stretch: 1.4
+    - text: 百分
+      cut: first
+    - text: 百、百、百。
+      cut: middle
   jian:
     pinyin: jiàn
     text: 見
@@ -238,6 +302,14 @@ syllables:
   shou:
     pinyin: shǒu
     text: 首
+    variants:
+    - text: 首
+    - text: 首
+      stretch: 1.4
+    - text: 首都
+      cut: first
+    - text: 首、首、首。
+      cut: middle
   dao:
     pinyin: dào
     text: 道
@@ -294,12 +366,28 @@ syllables:
   wan:
     pinyin: wàn
     text: 萬
+    variants:
+    - text: 萬
+    - text: 萬
+      stretch: 1.4
+    - text: 萬一
+      cut: first
+    - text: 萬、萬、萬。
+      cut: middle
   gu:
     pinyin: gǔ
     text: 古
   gu-therefore:
     pinyin: gù
     text: 故
+    variants:
+    - text: 故
+    - text: 故
+      stretch: 1.4
+    - text: 故事
+      cut: first
+    - text: 故、故、故。
+      cut: middle
   wen:
     pinyin: wén
     text: 文
@@ -428,6 +516,14 @@ syllables:
   di:
     pinyin: dì
     text: 第
+    variants:
+    - text: 第
+    - text: 第
+      stretch: 1.4
+    - text: 第一
+      cut: first
+    - text: 第、第、第。
+      cut: middle
   feng:
     pinyin: fēng
     text: 風
@@ -459,6 +555,14 @@ syllables:
   ge:
     pinyin: gē
     text: 歌
+    variants:
+    - text: 歌
+    - text: 歌
+      stretch: 1.4
+    - text: 歌曲
+      cut: first
+    - text: 歌、歌、歌。
+      cut: middle
   ta:
     pinyin: tà
     text: 踏
@@ -509,9 +613,13 @@ syllables:
     pinyin: mà
     text: 罵
     variants:
+    - text: 罵
+    - text: 罵
+      stretch: 1.4
+    - text: 罵人
+      cut: first
     - text: 媽、麻、馬、罵。
       cut: token4
-    - text: 罵
   pa:
     pinyin: pà
     text: 怕
@@ -543,6 +651,116 @@ syllables:
     pinyin: mā má mǎ mà
     text: 媽，麻，馬，罵。
     verify: loudness
+  du:
+    pinyin: dù
+    text: 度
+    variants:
+    - text: 度
+    - text: 度
+      stretch: 1.4
+    - text: 肚子
+      cut: first
+    - text: 度、度、度。
+      cut: middle
+  pu:
+    pinyin: pù
+    text: 鋪
+    variants:
+    - text: 鋪
+    - text: 鋪
+      stretch: 1.4
+    - text: 瀑布
+      cut: first
+    - text: 鋪、鋪、鋪。
+      cut: middle
+  tu-rabbit:
+    pinyin: tù
+    text: 兔
+    variants:
+    - text: 兔
+    - text: 兔
+      stretch: 1.4
+    - text: 兔子
+      cut: first
+    - text: 兔、兔、兔。
+      cut: middle
+  ku:
+    pinyin: kù
+    text: 褲
+    variants:
+    - text: 褲
+    - text: 褲
+      stretch: 1.4
+    - text: 褲子
+      cut: first
+    - text: 褲、褲、褲。
+      cut: middle
+  sa:
+    pinyin: sā
+    text: 撒
+    variants:
+    - text: 撒
+    - text: 撒
+      stretch: 1.4
+    - text: 撒謊
+      cut: first
+    - text: 撒、撒、撒。
+      cut: middle
+  nan:
+    pinyin: nán
+    text: 男
+    variants:
+    - text: 男
+    - text: 男
+      stretch: 1.4
+    - text: 男人
+      cut: first
+    - text: 男、男、男。
+      cut: middle
+  lan:
+    pinyin: lán
+    text: 藍
+    variants:
+    - text: 藍
+    - text: 藍
+      stretch: 1.4
+    - text: 藍色
+      cut: first
+    - text: 藍、藍、藍。
+      cut: middle
+  zu:
+    pinyin: zū
+    text: 租
+    variants:
+    - text: 租
+    - text: 租
+      stretch: 1.4
+    - text: 租金
+      cut: first
+    - text: 租、租、租。
+      cut: middle
+  cu:
+    pinyin: cū
+    text: 粗
+    variants:
+    - text: 粗
+    - text: 粗
+      stretch: 1.4
+    - text: 粗心
+      cut: first
+    - text: 粗、粗、粗。
+      cut: middle
+  su:
+    pinyin: sū
+    text: 蘇
+    variants:
+    - text: 蘇
+    - text: 蘇
+      stretch: 1.4
+    - text: 蘇州
+      cut: first
+    - text: 蘇、蘇、蘇。
+      cut: middle
 lines:
   101-09-xue-er-shi-xi:
     text: 學而時習之，不亦說乎？
