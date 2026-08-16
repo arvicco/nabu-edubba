@@ -130,12 +130,6 @@ built:
     model_id: eleven_multilingual_v2
     text: 女
     pinyin: nǚ
-  lv:
-    date: '2026-08-15'
-    voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_multilingual_v2
-    text: 綠
-    pinyin: lǜ
   jian:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -522,12 +516,6 @@ built:
     model_id: eleven_v3
     text: 媽、麻、馬、罵。
     pinyin: má
-  chi:
-    date: '2026-08-15'
-    voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
-    text: 吃
-    pinyin: chī
   ma-neutral:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -942,12 +930,6 @@ built:
     pinyin: zū
     ear_approved: true
     take: zu~v0b
-  su:
-    date: '2026-08-15'
-    voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_multilingual_v2
-    text: 蘇
-    pinyin: sū
   gu-therefore:
     date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -994,12 +976,6 @@ built:
     model_id: eleven_multilingual_v2
     text: 妮
     pinyin: nī
-  zi-wealth:
-    date: '2026-08-16'
-    voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_multilingual_v2
-    text: 資
-    pinyin: zī
   ben-rush:
     date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
