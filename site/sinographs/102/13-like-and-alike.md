@@ -93,7 +93,7 @@ line that explains them:
 
 <figure class="reading reading--script reading--stacked">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">上善若水。</span><span class="translit pinyin">shàng shàn ruò shuǐ</span><span class="gloss">"the highest good is like water" — four characters, no box, no gap</span></div>
+    <div class="reading-line"><span class="script">上善若水。</span><a class="say" href="{{ '/assets/audio/lines/102-13-shang-shan-ruo-shui.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shàng shàn ruò shuǐ</span></a><span class="gloss">"the highest good is like water" — four characters, no box, no gap</span></div>
     <div class="reading-line"><span class="script">水善▢萬物而不▢。</span><span class="translit pinyin">shuǐ shàn lì wàn wù ér bù zhēng</span><span class="gloss">"water is good to all ten thousand things — and does not contend" — it helps everything, fights nothing, and settles in the low places everyone else avoids. Here 善 works as "good at, good to." The boxes are "benefit" and "contend"</span></div>
   </div>
   <figcaption class="citation">
