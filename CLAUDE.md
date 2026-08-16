@@ -179,20 +179,23 @@ bin/            authoring-time instruments (curriculum compiler; talks
 
 ## Current phase
 
-Phase 25 — in progress: THE STANDARD VOICE (M25-1/2). Owner
-ruling 2026-08-15: all course audio synthesized in one pinned
-ElevenLabs voice (never-TTS bar overturned — no one pronounces
-Old Chinese natively). RE-CONVERGED after the owner's
-too-short-to-hear-the-tone review: 148/148 in Danyu Zhao
-(BWN0mOtkGHghA3CYFzFK, pinned), citation-length 0.4–0.8 s clips
-under the LENGTH LAW (span 0.4–2.2 s, gate-enforced). Pipeline
-bin/pinyin_voice.rb (agent: batch/integrate; OWNER alone: synth
-with ELEVENLABS_* env): variant fan-out + rolls, teacher-register
-previous_text, eleven_v3 [slowly] tags (v3 cracked the tone-2
-tail; 117 clips v2 / 31 v3, all one voice), envelope token cuts,
-atempo stretch for checked syllables, late-rise detector. Open:
-owner site review; possible uniform all-v3 regen; full line
-rollout.
+Phase 25 — in progress: THE STANDARD VOICE, set complete
+(M25-1..4). Owner ruling 2026-08-15: all course audio synthesized
+in one pinned ElevenLabs voice (never-TTS bar overturned — no one
+pronounces Old Chinese natively). 158/158 in Danyu Zhao
+(BWN0mOtkGHghA3CYFzFK, pinned): 150 syllables + 8 pilot lines,
+citation-length clips under the LENGTH LAW (span 0.4–2.2 s,
+gate-enforced), every clip transcript-gated (whisper.cpp +
+Unihan — never ship speech the pipeline hasn't understood), 55
+EAR-APPROVED (machine gates advise, the owner's ear rules —
+review page + `pinyin_voice.rb approve <take-ids>`). Pipeline
+bin/pinyin_voice.rb (agent: batch/integrate/approve; OWNER
+alone: synth with ELEVENLABS_* env): variant fan-out + rolls,
+previous_text rotation (cache-buster), eleven_v3 [slowly] tags,
+envelope token cuts, atempo stretch, late-rise detector.
+CONTRAST-ROW LAW (2026-08-16): a demo row varies exactly one
+thing — primer rows rebuilt as uniform-tone sets. Open: owner
+site review; full line rollout (all readings) as the next packet.
 
 Phase 24 — complete, gate PR pending: S102 REBUILT GRAMMAR-FIRST
 (M24-1, Gate 24 of the owner-ruled two-gate cadence). The 82
