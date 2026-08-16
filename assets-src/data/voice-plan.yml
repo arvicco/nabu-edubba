@@ -175,13 +175,15 @@ syllables:
     pinyin: shí
     text: 時
     variants:
+    - text: 第二聲，時。
+      cut: second
+    - text: 師。時。史。是。
+      cut: second
     - text: 十
       next_text: 很好。
     - text: 十
       stretch: 1.4
     - text: 時間
-      cut: first
-    - text: 石頭
       cut: first
     - text: 十、十、十。
       cut: middle
@@ -765,6 +767,8 @@ syllables:
     pinyin: kù
     text: 褲
     variants:
+    - text: 第四聲，褲。
+      cut: second
     - text: 酷
       next_text: 很好。
     - text: 庫
