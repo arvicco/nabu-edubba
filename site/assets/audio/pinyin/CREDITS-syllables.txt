@@ -65,6 +65,7 @@ la.mp3
 lai.mp3
 lan.mp3
 liu.mp3
+lv.mp3
 ma-dipping.mp3
 ma-falling.mp3
 ma-four-tones.mp3
@@ -109,6 +110,7 @@ shou.mp3
 shu.mp3
 shui.mp3
 si.mp3
+su.mp3
 suo.mp3
 ta.mp3
 tian.mp3
