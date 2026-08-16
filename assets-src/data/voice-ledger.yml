@@ -1124,3 +1124,11 @@ built:
     pinyin: lǜ
     ear_approved: true
     take: lv~v0a
+  zi-wealth:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 資
+    pinyin: zī
+    ear_approved: true
+    take: zi-wealth~v8c
