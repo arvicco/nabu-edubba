@@ -958,3 +958,51 @@ built:
     pinyin: lán
     ear_approved: true
     take: lan~v1b
+  shi-arrow:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 矢
+    pinyin: shǐ
+  pin:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 品
+    pinyin: pǐn
+  shi-send:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 使
+    pinyin: shǐ
+  la:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 拉
+    pinyin: lā
+  ni:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 妮
+    pinyin: nī
+  zi-wealth:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 資
+    pinyin: zī
+  ben-rush:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 奔
+    pinyin: bēn
+  102-15-dao-fa-zi-ran:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_multilingual_v2
+    text: 道法自然。
+    pinyin: dào fǎ zì rán

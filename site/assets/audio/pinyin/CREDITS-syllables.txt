@@ -13,6 +13,7 @@ ba.mp3
 bai.mp3
 bei.mp3
 ben.mp3
+ben-rush.mp3
 bu.mp3
 chen.mp3
 cheng.mp3
@@ -53,7 +54,7 @@ jiu.mp3
 jun.mp3
 ke.mp3
 kou.mp3
-ku.mp3
+la.mp3
 lai.mp3
 lan.mp3
 liu.mp3
@@ -70,11 +71,13 @@ mo.mp3
 mu.mp3
 nan.mp3
 neng.mp3
+ni.mp3
 nian.mp3
 niu.mp3
 nuu.mp3
 nv.mp3
 pa.mp3
+pin.mp3
 pu.mp3
 qi.mp3
 qi-seven.mp3
@@ -89,7 +92,9 @@ san.mp3
 shan.mp3
 shan-good.mp3
 sheng.mp3
+shi-arrow.mp3
 shi-poem.mp3
+shi-send.mp3
 shi-this.mp3
 shu.mp3
 shui.mp3
@@ -138,5 +143,6 @@ zhi-stop.mp3
 zhong.mp3
 zi.mp3
 zi-self.mp3
+zi-wealth.mp3
 zu.mp3
 zuo.mp3
