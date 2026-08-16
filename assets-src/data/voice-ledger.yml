@@ -277,11 +277,13 @@ built:
     text: 臣
     pinyin: chén
   cheng:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 成
     pinyin: chéng
+    ear_approved: true
+    take: cheng~v8c
   neng:
     date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -407,11 +409,13 @@ built:
     ear_approved: true
     take: zheng~v8c
   zi-self:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 自
     pinyin: zì
+    ear_approved: true
+    take: zi-self~v8c
   ding:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -499,11 +503,13 @@ built:
     text: 來
     pinyin: lái
   bei:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 貝
     pinyin: bèi
+    ear_approved: true
+    take: bei~v8c
   ma-high:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
