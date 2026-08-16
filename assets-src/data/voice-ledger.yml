@@ -345,11 +345,13 @@ built:
     text: 月
     pinyin: yuè
   kou:
-    date: '2026-08-15'
+    date: '2026-08-16'
     voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_v3
+    model_id: "(per take)"
     text: 口
     pinyin: kǒu
+    ear_approved: true
+    take: kou~v9c
   ming:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
@@ -862,12 +864,6 @@ built:
     pinyin: zǐ
     ear_approved: true
     take: zi~v0a
-  ku:
-    date: '2026-08-15'
-    voice_id: BWN0mOtkGHghA3CYFzFK
-    model_id: eleven_multilingual_v2
-    text: 褲
-    pinyin: kù
   cu:
     date: '2026-08-15'
     voice_id: BWN0mOtkGHghA3CYFzFK
