@@ -40,6 +40,14 @@ syllables:
   tu:
     pinyin: tǔ
     text: 土
+    variants:
+    - text: 土
+    - text: 土
+      stretch: 1.4
+    - text: 土地
+      cut: first
+    - text: 土、土、土。
+      cut: middle
   wang:
     pinyin: wáng
     text: 王
@@ -74,9 +82,21 @@ syllables:
   shang:
     pinyin: shàng
     text: 上
+    variants:
+    - text: 上
+    - text: 上面
+      cut: first
+    - text: 上、上、上。
+      cut: middle
   xia:
     pinyin: xià
     text: 下
+    variants:
+    - text: 下
+    - text: 下面
+      cut: first
+    - text: 下、下、下。
+      cut: middle
   ri:
     pinyin: rì
     text: 日
@@ -165,6 +185,14 @@ syllables:
   shi-arrow:
     pinyin: shǐ
     text: 矢
+    variants:
+    - text: 矢
+    - text: 矢
+      stretch: 1.4
+    - text: 矢量
+      cut: first
+    - text: 矢、矢、矢。
+      cut: middle
   er-and:
     pinyin: ér
     text: 而
@@ -239,6 +267,14 @@ syllables:
   pin:
     pinyin: pǐn
     text: 品
+    variants:
+    - text: 品
+    - text: 品
+      stretch: 1.4
+    - text: 品質
+      cut: first
+    - text: 品、品、品。
+      cut: middle
   yi-by:
     pinyin: yǐ
     text: 以
@@ -322,6 +358,14 @@ syllables:
   ru:
     pinyin: rú
     text: 如
+    variants:
+    - text: 如
+    - text: 如
+      stretch: 1.4
+    - text: 如果
+      cut: first
+    - text: 如、如、如。
+      cut: middle
   yun:
     pinyin: yún
     text: 雲
@@ -420,6 +464,14 @@ syllables:
   he:
     pinyin: hé
     text: 河
+    variants:
+    - text: 河
+    - text: 河
+      stretch: 1.4
+    - text: 河流
+      cut: first
+    - text: 河、河、河。
+      cut: middle
   zai:
     pinyin: zài
     text: 在
@@ -492,9 +544,25 @@ syllables:
   shi-send:
     pinyin: shǐ
     text: 使
+    variants:
+    - text: 使
+    - text: 使
+      stretch: 1.4
+    - text: 使用
+      cut: first
+    - text: 使、使、使。
+      cut: middle
   de:
     pinyin: dé
     text: 德
+    variants:
+    - text: 德
+    - text: 德
+      stretch: 1.4
+    - text: 德國
+      cut: first
+    - text: 德、德、德。
+      cut: middle
   yu-with:
     pinyin: yǔ
     text: 雨
@@ -527,6 +595,12 @@ syllables:
   feng:
     pinyin: fēng
     text: 風
+    variants:
+    - text: 風
+    - text: 風景
+      cut: first
+    - text: 風、風、風。
+      cut: middle
   ruo:
     pinyin: ruò
     text: 若
@@ -761,6 +835,48 @@ syllables:
       cut: first
     - text: 蘇、蘇、蘇。
       cut: middle
+  la:
+    pinyin: lā
+    text: 拉
+    variants:
+    - text: 拉
+    - text: 拉
+      stretch: 1.4
+    - text: 拉開
+      cut: first
+    - text: 拉、拉、拉。
+      cut: middle
+  ni:
+    pinyin: nī
+    text: 妮
+    variants:
+    - text: 妮
+    - text: 妮
+      stretch: 1.4
+    - text: 妮、妮、妮。
+      cut: middle
+  zi-wealth:
+    pinyin: zī
+    text: 資
+    variants:
+    - text: 資
+    - text: 資
+      stretch: 1.4
+    - text: 資源
+      cut: first
+    - text: 資、資、資。
+      cut: middle
+  ben-rush:
+    pinyin: bēn
+    text: 奔
+    variants:
+    - text: 奔
+    - text: 奔
+      stretch: 1.4
+    - text: 奔跑
+      cut: first
+    - text: 奔、奔、奔。
+      cut: middle
 lines:
   101-09-xue-er-shi-xi:
     text: 學而時習之，不亦說乎？
@@ -786,3 +902,6 @@ lines:
   102-15-dao-fa-zi-ran:
     text: 道法自然。
     pinyin: dào fǎ zì rán
+    voice_settings:
+      speed: 0.8
+    previous_text: 慢慢地，一字一字清楚地讀出下面這句：
