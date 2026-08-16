@@ -171,10 +171,24 @@ module Edubba
       (plan["lines"] || {}).each do |id, l|
         next if !all && built.key?(id)
 
-        items << { "id" => id, "base" => id, "kind" => "line",
+        # Lines keep natural prosody by default, but an entry may
+        # carry voice_settings (the too-fast line, owner review
+        # 2026-08-16: pace is a per-line recipe) and previous_text;
+        # rolls fan out like syllables, with the same rotation
+        # cache-buster when a priming text exists.
+        rolls.times do |roll|
+          item = { "id" => rolls == 1 ? id : "#{id}~v0#{('a'.ord + roll).chr}",
+                   "base" => id, "kind" => "line",
                    "text" => l["text"], "pinyin" => l["pinyin"],
                    "verify" => l["verify"] || "line",
                    "out" => out_path(id, "line") }
+          item["voice_settings"] = l["voice_settings"] if l["voice_settings"]
+          if l["previous_text"]
+            item["previous_text"] =
+              [l["previous_text"], "請#{l['previous_text']}", "現在，#{l['previous_text']}"][roll % 3]
+          end
+          items << item
+        end
       end
       items
     end
