@@ -1006,3 +1006,99 @@ built:
     model_id: eleven_multilingual_v2
     text: 道法自然。
     pinyin: dào fǎ zì rán
+  tu:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 土
+    pinyin: tǔ
+    ear_approved: true
+    take: tu~v1b
+  shang:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 上
+    pinyin: shàng
+    ear_approved: true
+    take: shang~v0a
+  xia:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 下
+    pinyin: xià
+    ear_approved: true
+    take: xia~v0a
+  dan:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 但
+    pinyin: dàn
+    ear_approved: true
+    take: dan~v0c
+  wei-do:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 維
+    pinyin: wéi
+    ear_approved: true
+    take: wei-do~v0c
+  bai-hundred:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 百
+    pinyin: bǎi
+    ear_approved: true
+    take: bai-hundred~v1c
+  ru:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 如
+    pinyin: rú
+    ear_approved: true
+    take: ru~v1b
+  yun:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 雲
+    pinyin: yún
+    ear_approved: true
+    take: yun~v0c
+  he:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 河
+    pinyin: hé
+    ear_approved: true
+    take: he~v1c
+  de:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 德
+    pinyin: dé
+    ear_approved: true
+    take: de~v0c
+  feng:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 風
+    pinyin: fēng
+    ear_approved: true
+    take: feng~v0b
+  chang:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 常
+    pinyin: cháng
+    ear_approved: true
+    take: chang~v1c
