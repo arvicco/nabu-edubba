@@ -100,6 +100,7 @@ shan.mp3
 shan-good.mp3
 shang.mp3
 sheng.mp3
+shi.mp3
 shi-arrow.mp3
 shi-poem.mp3
 shi-send.mp3

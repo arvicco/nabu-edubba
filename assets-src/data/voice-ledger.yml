@@ -1110,3 +1110,9 @@ built:
     pinyin: shǒu
     ear_approved: true
     take: shou~v9c
+  shi:
+    date: '2026-08-16'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: eleven_v3
+    text: 十
+    pinyin: shí
