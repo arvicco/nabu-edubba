@@ -19,6 +19,7 @@ bu.mp3
 chang.mp3
 chen.mp3
 cheng.mp3
+chi.mp3
 chu.mp3
 ci.mp3
 cong.mp3
