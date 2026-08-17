@@ -136,33 +136,43 @@ as *its* object. Two clauses, same shape, set side by side with
 not one connecting word between them — in this language the
 parallelism itself is the argument.
 
-## The strangest entrance
+## The sun's day
 
-And because objects are just words in the object seat, even
-"nothing" can sit there:
+One more thing the seats can do: stand empty. The oldest work
+song in the tradition runs this chapter's two motion verbs
+through a farmer's whole day —
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無有入▢無▢。</span><span class="translit pinyin">wú yǒu rù yú wú jiàn</span><span class="gloss">"what has no substance enters where there is no gap" — water seeps, air passes: the yielding goes where the solid cannot. The boxes are a small "into" (five chapters ahead) and "gap"; 無有, "the not-having," is the subject</span></div>
+    <div class="reading-line"><span class="script">日出而▢，日入而▢。</span><span class="translit pinyin">rì chū ér zuò, rì rù ér xī</span><span class="gloss">"the sun comes out — work; the sun goes in — rest" — a farmer's day, told by the sky's clock. The boxes are "work" and "rest"</span></div>
   </div>
   <figcaption class="citation">
-    <em>Laozi</em> 43 — the softest thing in the world at work
-    on the hardest.
-    <code>urn:nabu:kanripo:KR5c0057:043:1a</code> · license: attribution.
+    The Song of Striking the Soil (<em>Jirang ge</em>), sung —
+    so the tradition tells it — by farmers in the age of the
+    sage-king Yao; quoted here from the Ming music treatise
+    <em>Yuelü quanshu</em>.
+    <code>urn:nabu:kanripo:KR1i0009:020:35b</code> · license: attribution.
   </figcaption>
 </figure>
 
-Here the *subject* seat holds a small philosophy:
-<span class="script">無有</span>, "the not-having" —
-<span class="script">無</span> negating
-<span class="script">有</span> makes a noun, *that which has no
-substance*. The verb <span class="script">入</span> you know
-from the sign table above. Its object is ▢無▢, "where there is
-no gap": the small boxed "into" hands the verb its place, and
-inside that place <span class="script">無</span> appears again —
-the word that opened the sentence closes it, one seat over. Read
-the seats and the paradox reads itself: no-thing enters
-no-gap.
+Take it apart. <span class="script">日出</span> is a complete
+clause — subject and motion verb, this chapter's
+<span class="script">出</span> with the sun doing the going-out.
+<span class="script">而</span> hinges as ever. Then the boxed
+"work" stands **alone**: a verb with its subject seat empty.
+Whose work? The farmer's — and he never says "I," because when
+the subject is obvious the language simply leaves the seat
+empty. The second clause mirrors the first,
+<span class="script">入</span> answering
+<span class="script">出</span> exactly as the sign table paired
+them, and the empty seat carries over: sun in, (I) rest.
+
+The song's remaining lines dig a well and drink from it, plough
+a field and eat from it, and land on the punchline: *what is the
+emperor's power to me?* — the tradition's oldest picture of good
+government as the government you never notice. Eight characters
+in, you have met the pattern that makes such compression
+possible: seats, filled or pointedly left empty.
 
 ## Where this leaves you
 
