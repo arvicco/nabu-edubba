@@ -96,7 +96,7 @@ at a time and watch the claim follow:
 
 <figure class="reading reading--script reading--composed">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">王者，民之君也。</span><span class="translit pinyin">wáng zhě, mín zhī jūn yě</span><span class="gloss">"the king is the people's lord" — same seats as heaven's-son, one claim milder</span></div>
+    <div class="reading-line"><span class="script">王者，民之君也。</span><span class="translit pinyin">wáng zhě, mín zhī jūn yě</span><span class="gloss">"the king is the people's lord" — same seats as heaven's-son, but now the king is defined by whom he serves over, not by heaven: the first step of a political argument</span></div>
     <div class="reading-line"><span class="script">民者，天下之本也。</span><span class="translit pinyin">mín zhě, tiān xià zhī běn yě</span><span class="gloss">"the people are the root of the world" — now the people hold the topic seat, and the politics has flipped</span></div>
   </div>
   <figcaption class="citation">

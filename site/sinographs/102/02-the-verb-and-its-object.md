@@ -81,7 +81,7 @@ The pattern on characters you own outright:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">人見日月。</span><span class="translit pinyin">rén jiàn rì yuè</span><span class="gloss">"people see the sun and the moon" — subject 人, verb 見, objects 日月. Nothing else is needed, and nothing else is there</span></div>
     <div class="reading-line"><span class="script">父見子。子見父。</span><span class="translit pinyin">fù jiàn zǐ. zǐ jiàn fù</span><span class="gloss">"the father sees the son; the son sees the father" — swap the order and the seeing changes direction: position IS the grammar</span></div>
-    <div class="reading-line"><span class="script">民出而王入。</span><span class="translit pinyin">mín chū ér wáng rù</span><span class="gloss">"the people go out and the king comes in" — motion verbs need no object at all; 而 links the clauses as ever</span></div>
+    <div class="reading-line"><span class="script">日出而民出。</span><span class="translit pinyin">rì chū ér mín chū</span><span class="gloss">"the sun comes out, and the people go out" — daybreak sends everyone to the fields: the day's light is the day's clock. Motion verbs need no object at all; 而 links the clauses as ever</span></div>
   </div>
   <figcaption class="citation">
     Practice lines assembled from taught characters.
@@ -103,10 +103,12 @@ would survive such a shuffle by leaning on its endings — here
 there are no endings to lean on, so **the seat is the ending**.
 
 And the third line shows the object seat standing empty: motion
-verbs are complete alone — <span class="script">出</span> "goes
-out" closes its clause with no object at all, and
-<span class="script">而</span> hinges the two halves as it has
-since Foundations.
+verbs are complete alone. <span class="script">日出</span> —
+subject, verb, done; <span class="script">民出</span> answers it
+in the same two seats, with <span class="script">而</span>
+hinging the halves as it has since Foundations. Sunrise, and
+everyone out the door: hold the shape of that thought — this
+chapter ends on the oldest song ever built from it.
 
 ## Knowing without going
 
