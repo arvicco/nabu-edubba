@@ -135,7 +135,7 @@ can do it:
 
 <figure class="reading reading--script reading--composed">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">父五十，子十。</span><span class="translit pinyin">fù wǔ shí, zǐ shí</span><span class="gloss">"the father is fifty, the son ten" — two bare numbers, each a complete claim</span></div>
+    <div class="reading-line"><span class="script">父五十，子十。</span><span class="translit pinyin">fù wǔ shí, zǐ shí</span><span class="gloss">"the father is fifty, the son ten" — a household counted: forty years between them, the late child of a long life. Two bare numbers, each a complete claim</span></div>
   </div>
   <figcaption class="citation">
     Composed from taught characters. No "is," no "years old":

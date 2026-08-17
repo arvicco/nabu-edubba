@@ -78,7 +78,7 @@ The patterns on your own characters:
 
 <figure class="reading reading--script reading--composed">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有牛，有物。</span><span class="translit pinyin">yǒu niú, yǒu wù</span><span class="gloss">"there is an ox; there are things" — 有 asserts existence with no subject at all</span></div>
+    <div class="reading-line"><span class="script">山下有木，木下有牛。</span><span class="translit pinyin">shān xià yǒu mù, mù xià yǒu niú</span><span class="gloss">"below the mountain there is a tree; under the tree there is an ox" — a resting ox in the shade, painted in two strokes. This is what 有 is for: bringing things into the picture one at a time — the classical "once there was…"</span></div>
     <div class="reading-line"><span class="script">王在上，民在下。</span><span class="translit pinyin">wáng zài shàng, mín zài xià</span><span class="gloss">"the king is above, the people are below" — 在 places; what follows it is the where</span></div>
     <div class="reading-line"><span class="script">民非臣也。</span><span class="translit pinyin">mín fēi chén yě</span><span class="gloss">"the people are not servants" — 非 negating a nominal sentence: deny what a thing IS with 非, never 不</span></div>
     <div class="reading-line"><span class="script">白日出，萬物明。</span><span class="translit pinyin">bái rì chū, wàn wù míng</span><span class="gloss">"the bright sun comes out, and the ten thousand things grow clear" — 白 as an adjective sits before its noun, no glue needed</span></div>
@@ -88,12 +88,20 @@ The patterns on your own characters:
   </figcaption>
 </figure>
 
-Look at where <span class="script">有</span> stands in the first
-line: first, with nothing before it. An empty subject seat is
-the whole trick — nobody does the having, so
-<span class="script">有牛</span> is bare existence, "there is an
-ox." (Fill that seat and the same verb means *own* — next
-chapter does exactly that.) In the second line
+Walk the first line. <span class="script">山下</span>, "below
+the mountain," sets the stage — a place, no verb yet. Then
+<span class="script">有木</span>: nobody owns this tree, nobody
+does the having — <span class="script">有</span> with its
+subject seat empty just says the tree *is there*, newly in
+view. And the second clause stands on the first: the tree we
+just met becomes the next stage, <span class="script">木下</span>
+"under the tree," and <span class="script">有牛</span> settles
+the ox into its shade. That is how classical prose builds a
+scene — each
+<span class="script">有</span> introduces one thing, and the
+next clause walks into it. (Fill the subject seat and the same
+verb turns to *own* — next chapter does exactly that.) In the
+second line
 <span class="script">王在上</span> all three seats are full:
 <span class="script">王</span> the subject,
 <span class="script">在</span> the verb "is-at,"
@@ -109,12 +117,13 @@ no-words, and it is worth a minimal pair:
 
 <figure class="reading reading--script reading--composed">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">士不出。</span><span class="translit pinyin">shì bù chū</span><span class="gloss">"the officer does not go out" — 不 denies the doing</span></div>
-    <div class="reading-line"><span class="script">士非王也。</span><span class="translit pinyin">shì fēi wáng yě</span><span class="gloss">"the officer is not a king" — 非 denies the being, and the nominal frame stays on</span></div>
+    <div class="reading-line"><span class="script">日出，月不出。</span><span class="translit pinyin">rì chū, yuè bù chū</span><span class="gloss">"the sun comes out; the moon does not" — daybreak: one light takes the sky, the other stays home. 不 denies the doing</span></div>
+    <div class="reading-line"><span class="script">月非日也。</span><span class="translit pinyin">yuè fēi rì yě</span><span class="gloss">"the moon is not the sun" — the two lights of the sky, alike enough that saying so means something: it shines, but it will not warm you. 非 denies the being, and the nominal frame stays on</span></div>
   </div>
   <figcaption class="citation">
-    Composed from taught characters: one officer, two denials.
-    Choose by what you are denying — an act or an identity.
+    Composed from taught characters: the sky's two lights, two
+    denials. Choose by what you are denying — an act or an
+    identity.
   </figcaption>
 </figure>
 

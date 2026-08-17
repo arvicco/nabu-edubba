@@ -258,10 +258,17 @@ site-wide laws into writing order.
   varying one thing at a time, before or beside the borrowed
   classic; (c) glosses carry the MEANING (the meaning law); the
   grammatical analysis lives in the surrounding prose, never
-  crammed into gloss tails. The test: a student who closes the
-  chapter can say, for each character of its exhibits, what that
-  character is doing in the sentence. Enforcement: owner review;
-  the pre-flight checklist carries the line.
+  crammed into gloss tails. And (owner ruling 2026-08-17, after
+  有牛，有物 shipped meaning nothing): a composed line is an
+  UTTERANCE, not a specimen — it says something a person would
+  actually say, and its gloss delivers that meaning and its
+  context; the meaning law binds composed lines exactly as it
+  binds borrowed ones. Never throw characters together for
+  structure alone. The test: a student who closes the chapter can
+  say, for each character of its exhibits, what that character is
+  doing in the sentence — and for each composed line, why anyone
+  would say it. Enforcement: owner review; the pre-flight
+  checklist carries the line.
 - **Return-arc planning (M20-5, ruled 2026-08-11):** a course
   segment's plan names its RETURN ARCS up front — which earlier
   readings come back, at which chapter, at what expected box
