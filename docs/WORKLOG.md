@@ -30,6 +30,34 @@ already-running synth (228 staged vs 240 expected) — integrate
 first, then re-batch the remainder; the staging watcher now reads
 the batch file per poll.
 
+2026-08-17 · M25-6 · phase-25 · GRAMMAR THAT ANALYZES: all
+fifteen S102 chapters reworked to the ELEMENT-BY-ELEMENT LAW
+(owner review: "fast-food stuffing of phrases one after another
+— no element-by-element explanation like C102/C103"). The law
+(rulebook §5, beside the meaning law): every pattern gets one
+exhibit walked element by element in prose — each word named,
+its role in THIS sentence stated, recurring words tied back —
+plus parallel composed lines from taught stock varying one
+thing; glosses keep meaning, lose analysis. Its corollary landed
+mid-review (有牛，有物 "meant nothing"): a composed line is an
+UTTERANCE — why would anyone say it? — never a specimen. New
+grammar actually surfaced by the walking: the question-word
+inversion (何/安 jump before the verb — the language's one
+systematic order-break), passive 可+V vs 可以, the topic-也
+pause, the three lives of 之 and 故 and 善 told apart by
+position, dropped pronouns/verbs after 以 and 使, position-words
+verbing (後其身/道千乘之國). Exhibits replaced where boxes
+muddled: Laozi 43 → the Jirang-ge work song (KR1i0009, new
+witness), Analects 2.24 → Mencius 2A.6 (無是非之心非人也, zero
+boxes, KR1h0001). 羊 taught beside 牛 (owner pairing ruling; cap
+exception 7 recorded in rulebook + contract test; codex page;
+yang.mp3 machine-clean first take) — the Odes dusk line now one
+box in ch03 and ZERO at its ch08 return. Reading fix: Analects
+14.24 為己/為人 is wèi, not wéi. Plus the 曰 ruling (owner:
+"identical to the sun sign"): a 1.5 KB one-glyph LXGW WenKai TC
+subset (OFL, vendored) serves exactly U+66F0 via unicode-range —
+the say-sign finally shows its stopped-short middle stroke.
+
 2026-08-16 · M25-4 · phase-25 · THE EAR RULES, AND THE SET IS
 WHOLE: 158/158 clips in the pinned voice (150 syllables + 8
 lines), 55 of them ear-approved. The transcript gate's honesty
