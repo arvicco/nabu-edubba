@@ -77,14 +77,34 @@ whole — and shows the pattern:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">使民以時。</span><span class="translit pinyin">shǐ mín yǐ shí</span><span class="gloss">"put the people to work in the right season" — 使 + 民 + (implied) labor: cause-the-people-to-work, with 以時 hitching the when. Call them after the harvest, never during it</span></div>
-    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><a class="say" href="{{ '/assets/audio/lines/102-12-jun-shi-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span></a><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions: 使 sends downward, 事 serves upward. The boxes are "courtesy" and "loyalty"</span></div>
+    <div class="reading-line"><span class="script">使民以時。</span><span class="translit pinyin">shǐ mín yǐ shí</span><span class="gloss">"put the people to work in the right season" — call them after the harvest, never during it</span></div>
+    <div class="reading-line"><span class="script">君使臣以▢，臣事君以▢。</span><a class="say" href="{{ '/assets/audio/lines/102-12-jun-shi-chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn shǐ chén yǐ lǐ, chén shì jūn yǐ zhōng</span></a><span class="gloss">"the lord employs his ministers with courtesy; the ministers serve their lord with loyalty" — the deal that holds a court together, stated in both directions. The boxes are "courtesy" and "loyalty"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.5 and 3.19.
     <code>urn:nabu:kanripo:KR1h0004:003:20a</code> · license: attribution.
   </figcaption>
 </figure>
+
+The causative's anatomy, on the first line:
+<span class="script">使</span>, then
+<span class="script">民</span> — the one being caused — and then
+the caused verb… which is not there. "Put the people to (work)":
+where the work is obvious, the language drops it, the same
+trust-the-context habit as the vanished pronoun and the bare
+<span class="script">不能</span>. What survives is
+<span class="script">以時</span>, the hitch carrying the one
+thing the sentence cares to specify: the *when*.
+
+The second line is the pattern grown symmetrical. Two clauses,
+seat for seat: subject, verb, object,
+<span class="script">以</span>-phrase of manner. Only the
+fillings trade places — <span class="script">君</span> and
+<span class="script">臣</span> swap seats,
+<span class="script">使</span> "sends downward" answers
+<span class="script">事</span> "serves upward," courtesy answers
+loyalty. The reciprocity is not stated; it is *performed* by the
+mirrored grammar.
 
 ## The whole saying
 
@@ -101,6 +121,21 @@ Confucius on running a real country, end to end:
   </figcaption>
 </figure>
 
+Start at the startling first word:
+<span class="script">道</span> with an object —
+<span class="script">道千</span>▢<span class="script">之國</span>,
+"to *lead* a thousand-chariot state." The Way can verb: give
+<span class="script">道</span> something to govern and it means
+to guide it, exactly as <span class="script">後</span> learned
+to behind and <span class="script">先</span> to first
+<a href="{{ '/sinographs/102/10-if-and-then/' | relative_url }}">two chapters ago</a>.
+Then the program, in matched verb-pairs hinged on
+<span class="script">而</span>: respect the work *and* keep
+faith; spend sparingly *and* care for people. And the close you
+already own whole: <span class="script">使民以時</span>. Five
+duties, one breath — and the grammar gives each pair the same
+weight the ethics does.
+
 ## Held in common, knowable for ages
 
 公 pays the oldest box in this course, and 世 answers a question
@@ -116,6 +151,18 @@ about the far future:
     <code>urn:nabu:kanripo:KR1d0052:009:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+One rule hides in the second line, and it is worth owning:
+<span class="script">可</span> directly before a verb reads
+*passively* — <span class="script">可知</span> is "can be
+known," knowable, not "can know." (To say someone *can know*,
+the language reaches for <span class="script">可以</span> —
+the fused form <a href="{{ '/sinographs/102/09-the-art-of-asking/' | relative_url }}">chapter 09</a>
+gave you.) So the student's question parses: "ten generations —
+are they knowable?" — with no question word at all: the asking
+lives entirely in the situation, and the
+<span class="script">也</span> just holds the sentence out for
+an answer.
 
 ## Where this leaves you
 

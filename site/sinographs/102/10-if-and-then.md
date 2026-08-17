@@ -92,13 +92,27 @@ The *Great Learning*'s method, on the hinge:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">知所先後，則▢道矣。</span><span class="translit pinyin">zhī suǒ xiān hòu, zé jìn dào yǐ</span><span class="gloss">"know what comes first and what comes after — then you are near the way" — most of wisdom is getting the ORDER right: what to fix first, what can wait. The box is "near"; 所 makes first-and-after a noun, 矣 closes the arrival, and 則 stands at the turn</span></div>
+    <div class="reading-line"><span class="script">知所先後，則▢道矣。</span><span class="translit pinyin">zhī suǒ xiān hòu, zé jìn dào yǐ</span><span class="gloss">"know what comes first and what comes after — then you are near the way" — most of wisdom is getting the ORDER right: what to fix first, what can wait. The box is "near"</span></div>
   </div>
   <figcaption class="citation">
     <em>Great Learning</em> (Daxue).
     <code>urn:nabu:kanripo:KR1d0052:043:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+The hinge in its natural habitat. Before it, the condition:
+<span class="script">知</span> "know" takes
+<span class="script">所先後</span> as its object —
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">chapter 06's</a>
+<span class="script">所</span> seizing a *pair* of verbs at
+once, "that which one puts first and puts after." Then
+<span class="script">則</span> turns the corner: everything
+before it is the *if*, everything after is the *then*. The
+consequence: boxed "near" as a verb, "draws near," with
+<span class="script">道</span> its object — and
+<span class="script">矣</span> closing the arrival: you *have
+come* near. Condition, hinge, arrival — the three-part shape of
+classical reasoning, whole in eight characters.
 
 ## Duty first, books after
 
@@ -107,13 +121,25 @@ your word, care widely — and only then, on this chapter's hinge:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">行有▢▢，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — conduct first, books after; the boxes are "surplus" and "strength". Every other word is a chapter you have walked: 行 the doing, 以 the using, 學 the learning, 文 the pattern</span></div>
+    <div class="reading-line"><span class="script">行有▢▢，則以學文。</span><span class="translit pinyin">xíng yǒu yú lì, zé yǐ xué wén</span><span class="gloss">"if, after doing all that, you have strength left over — then use it to study the written arts" — conduct first, books after. The boxes are "surplus" and "strength"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.6.
     <code>urn:nabu:kanripo:KR1h0004:001:6a</code> · license: attribution.
   </figcaption>
 </figure>
+
+The condition first: <span class="script">行</span> "one's
+conduct" as topic, <span class="script">有</span> with a filled
+seat — "(your) conduct *has* surplus strength." Then the hinge,
+and after it a detail worth stopping for:
+<span class="script">以</span> stands with no object at all.
+The full thought is "use *it* — that leftover strength — to
+study," and the language simply drops the pronoun where the
+referent is obvious, leaving bare
+<span class="script">以</span>: "therewith." An empty seat
+after 以 always means *with the thing just mentioned* — one
+more case of this language trusting you to carry the context.
 
 ## Last in line, first in fact
 
@@ -129,6 +155,20 @@ leadership:
     <code>urn:nabu:kanripo:KR5c0057:007:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Two payoffs in the walking. <span class="script">是以</span>
+opens it — "this" plus <span class="script">以</span>, "by
+this, therefore": the fusion you met half-boxed in
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">chapter 06</a>,
+now wholly yours. And then watch this chapter's own pair change
+jobs: <span class="script">後</span> with an object —
+<span class="script">後其</span>▢, "puts his self *behind*" — is
+"after" turned into a verb; <span class="script">先</span> at
+the end, "comes first," is the same trick in mirror. Position
+words verb as easily as nouns do in this language: give
+<span class="script">後</span> an object and it *does*
+afterness. The paradox rides on the grammar — he behinds
+himself; the world firsts him.
 
 ## Where this leaves you
 
