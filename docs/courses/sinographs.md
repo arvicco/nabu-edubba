@@ -211,7 +211,9 @@ site-wide laws into writing order.
   **5–6 fresh characters** — the site-wide 1–3 chapter-opening law
   is the floor; characters are lighter units than cuneiform signs
   and the pace dials up accordingly. The compiler enforces the
-  range.
+  range. Exceptions are owner-ruled and recorded in the contract
+  test (2026-08-17: S102 ch03 carries 7 — 羊 taught beside 牛 as
+  its logical pair, so the Odes' herds walk in together).
 - **Example-composition law (owner rulings 2026-08-10):** a
   reading line shows at most half boxes — untaught characters
   never outnumber taught ones in a displayed line (▢-share ≤ 50%),

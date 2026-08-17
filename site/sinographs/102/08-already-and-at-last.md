@@ -89,7 +89,7 @@ it — watch what the little word does:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">日之夕矣，▢牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun has set BY NOW; the sheep and oxen come down" — 矣 is the ache in the line: not "the sun sets" but "it has already come to dusk," and still he is not home. One box left: "sheep"</span></div>
+    <div class="reading-line"><span class="script">日之夕矣，羊牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun has set BY NOW; the sheep and oxen come down" — 矣 is the ache in the line: not "the sun sets" but "it has already come to dusk," and still he is not home. Every character is yours now — the line reads whole</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "My lord is on service" — the box paid.
