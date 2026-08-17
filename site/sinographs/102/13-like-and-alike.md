@@ -71,6 +71,29 @@ With verbs of likeness: 如 and 若, *to be like* — and negated,
 is this chapter's key. 如 doubles as "if" at a clause's head —
 likeness and supposition were one thought.
 
+## Like, and the same
+
+The likeness verbs first, on your own characters:
+
+<figure class="reading reading--script reading--composed">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">民心如水。</span><span class="translit pinyin">mín xīn rú shuǐ</span><span class="gloss">"the people's heart is like water" — the old warning to rulers: water floats the boat and water sinks it, and so do they</span></div>
+    <div class="reading-line"><span class="script">古今不同。</span><span class="translit pinyin">gǔ jīn bù tóng</span><span class="gloss">"past and present are not the same" — the reformer's four-character answer to every appeal to the ancestors</span></div>
+  </div>
+  <figcaption class="citation">
+    Practice lines assembled from taught characters.
+  </figcaption>
+</figure>
+
+Both likeness-words are plain verbs with plain seats.
+<span class="script">如</span> takes an object like any verb:
+the people's heart *is-like* water — no "as" machinery, just
+subject, verb, standard. And <span class="script">同</span>
+verbs the other way: <span class="script">古今</span> share the
+subject seat (<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+pairing rule), and <span class="script">不同</span> denies their
+sameness with no object at all — "are not alike."
+
 ## Not as good as
 
 The classical comparative is a ladder of 不如, and its most
