@@ -78,6 +78,25 @@ speaking.
   </figcaption>
 </figure>
 
+The first two lines share the one systematic inversion this
+language allows, so look closely. In
+<span class="script">王安在</span> the subject keeps its seat —
+<span class="script">王</span> first — but
+<span class="script">安</span> stands *before* the verb it
+questions: "the king — where — is?" In
+<span class="script">何謂天</span>,
+<span class="script">何</span> is the *object* of the naming
+verb, and objects belong after their verb
+(<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+iron rule) — yet there it is in front. That is the law:
+**question words jump ahead of the verb.** A classical sentence
+bends its word order for almost nothing else; when you see the
+order broken, an old question word is usually the culprit. The
+third line answers in the plain register — and note the bare
+place: motion verbs may take their where directly,
+<span class="script">出東方</span>, no
+<span class="script">於</span> needed.
+
 ## Not yet bright in the east
 
 方 and 東 in the wild — the Odes' complaint of the clerk dragged
@@ -101,13 +120,28 @@ line of its opening arrives here, where its grammar lives:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">有▢自▢方來，不亦▢乎？</span><span class="translit pinyin">yǒu péng zì yuǎn fāng lái, bù yì lè hū</span><span class="gloss">"to have friends come from the far quarters — is that not a joy?" — someone who shares your learning has crossed distance to find you; the question expects only yes. The boxes are "friend", "far", "joy"; 自…來, "come from…", is the coverb chapter cashing in</span></div>
+    <div class="reading-line"><span class="script">有▢自▢方來，不亦▢乎？</span><span class="translit pinyin">yǒu péng zì yuǎn fāng lái, bù yì lè hū</span><span class="gloss">"to have friends come from the far quarters — is that not a joy?" — someone who shares your learning has crossed distance to find you; the question expects only yes. The boxes are "friend", "far", "joy"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 1.1, second clause.
     <code>urn:nabu:kanripo:KR1h0004:001:1a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Walk it and watch four chapters pay at once.
+<span class="script">有</span> opens with the subject seat
+empty — <a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">chapter 03's</a>
+scene-setter, "there are friends…" — and everything after is
+what the friends do. <span class="script">自</span>▢<span class="script">方</span>
+rides before the verb: "from the far quarters,"
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">chapter 07's</a>
+hitch in its favorite seat. <span class="script">來</span>
+closes the clause objectless, as motion verbs do. Then
+<span class="script">不亦</span>…<span class="script">乎</span>
+wraps the whole in the is-that-not mold. And with that, a small
+milestone: all three clauses of the *Analects*' opening line —
+learning, friends, the unresentful noble person — have now been
+walked, seat by seat, across this course.
 
 ## The teacher's license
 
@@ -116,13 +150,25 @@ line of its opening arrives here, where its grammar lives:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">可以為▢矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"such a one can serve as a teacher" — the verdict half of a famous sentence: whoever keeps the old warm and still meets the new has earned the seat. The box is "teacher"; the sentence's first half waits for a later chapter's word</span></div>
+    <div class="reading-line"><span class="script">可以為▢矣。</span><span class="translit pinyin">kě yǐ wéi shī yǐ</span><span class="gloss">"such a one can serve as a teacher" — the verdict half of a famous sentence: whoever keeps the old warm and still meets the new has earned the seat. The box is "teacher"; the first half waits for a later chapter's word</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 2.11, the conclusion.
     <code>urn:nabu:kanripo:KR1h0004:002:12a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Five characters carrying three little machines:
+<span class="script">可以</span>, the can-word fused with
+<a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">chapter 07's</a>
+<span class="script">以</span> — "can, by means of that," the
+classical *qualified to*; <span class="script">為</span>▢,
+"serve as teacher" — <span class="script">為</span> in its
+be-verb life; and the final <span class="script">矣</span>,
+<a href="{{ '/sinographs/102/08-already-and-at-last/' | relative_url }}">chapter 08's</a>
+arrival: not "is allowed" but "has *become* allowed" — the
+qualification has been reached, earned by the keeping-warm the
+first half describes.
 
 ## Where this leaves you
 
