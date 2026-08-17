@@ -31,6 +31,18 @@
   unicode-range: U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+20000-2EBEF, U+2F800-2FA1F, U+30000-323AF;
 }
 
+/* The 曰 override (owner review 2026-08-17): Noto Serif TC draws
+   曰 "say" nearly identical to 日 "sun". This one-glyph LXGW WenKai
+   TC subset serves ONLY U+66F0 — listed before Noto in the .script
+   stack, so the say-sign alone takes the distinct form (wider than
+   tall, middle stroke short of the right side). */
+@font-face {
+  font-family: "LXGW WenKai TC Yue";
+  src: url("fonts/LXGWWenKaiTC-yue.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+66F0;
+}
+
 :root {
   --bg: #faf8f4;        /* unfired clay, light */
   --ink: #26211c;
@@ -62,7 +74,7 @@
 /* Native-script text: the unicode-range font-face applies wherever
    these glyphs occur; this class adds sizing safe for dense signs. */
 .script, .wordmark-glyphs {
-  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Serif TC", Georgia, serif;
+  font-family: "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "LXGW WenKai TC Yue", "Noto Serif TC", Georgia, serif;
   font-style: normal;
 }
 

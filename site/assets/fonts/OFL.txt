@@ -1,5 +1,11 @@
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cuneiform)
 
+LXGW WenKai TC (LXGWWenKaiTC-Regular.ttf and the one-glyph
+subset LXGWWenKaiTC-yue.ttf, serving 曰 U+66F0 only):
+Copyright 2021 The LxgwWenKai Project Authors
+(https://github.com/lxgw/LxgwWenkaiTC), derived from Klee One,
+Copyright 2020 Fontworks Inc.
+
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 https://scripts.sil.org/OFL

@@ -46,4 +46,17 @@ Edubba::ScriptScan::SCRIPTS.each do |name, script|
   subsetted += 1
 end
 
+# Single-glyph override (owner review 2026-08-17): Noto Serif TC
+# draws 曰 U+66F0 nearly identical to 日 U+65E5 — the "say" sign was
+# unreadable as itself. LXGW WenKai TC (OFL) draws it distinctly
+# (wider than tall, middle stroke stopped short of the right); a
+# one-glyph subset serves ONLY that codepoint via unicode-range in
+# style.css, everything else stays Noto.
+YUE_SOURCE = "assets-src/fonts/LXGWWenKaiTC-Regular.ttf"
+YUE_OUT = File.join(OUT_DIR, "LXGWWenKaiTC-yue.ttf")
+abort "subset: #{YUE_SOURCE} missing" unless File.exist?(YUE_SOURCE)
+ok = system("hb-subset", YUE_SOURCE, "--unicodes=66F0", "--output-file=#{YUE_OUT}")
+abort "subset: hb-subset failed for the 曰 override" unless ok
+puts "subset: 曰 override -> #{YUE_OUT} (#{File.size(YUE_OUT)} bytes)"
+
 FileUtils.cp(SOURCE_OFL, File.join(OUT_DIR, "OFL.txt")) if subsetted.positive?
