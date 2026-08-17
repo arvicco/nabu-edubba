@@ -135,6 +135,7 @@ xing.mp3
 xiu.mp3
 xue.mp3
 yan.mp3
+yang.mp3
 ye.mp3
 yi.mp3
 yi-also.mp3

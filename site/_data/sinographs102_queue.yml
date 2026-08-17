@@ -273,6 +273,25 @@ signs:
   chapter: 3
   note: rank 665; an ox head-on — horns up top, ears out the sides, the muzzle running
     down. The great sacrificial animal; a state's wealth walked on these legs.
+- char: 羊
+  glyph: 羊
+  name: sheep
+  codepoint: 7F8A
+  keyword: sheep
+  pinyin: yáng
+  meaning: sheep, goat
+  category: pictograph
+  certainty: classic
+  strokes: 6
+  ids: "⿱䒑\U00030001"
+  rank: 858
+  count_kanripo: 164949
+  docs: 3477
+  course: 102
+  chapter: 3
+  note: 'rank 858; the ram head-on — horns curling from the crown, the muzzle running
+    down through the bars: 牛''s barnyard twin with the horns turned the other way.
+    Taught beside 牛 (owner ruling 2026-08-17): the herds of the Odes walk in together.'
 - char: 物
   glyph: 物
   name: thing
@@ -1627,6 +1646,7 @@ batches:
   - 非
   - 在
   - 牛
+  - 羊
   - 物
   - 萬
   - 白

@@ -911,6 +911,20 @@ syllables:
       cut: first
     - text: 奔、奔、奔。
       cut: middle
+  yang:
+    pinyin: yáng
+    text: 羊
+    variants:
+    - text: 羊
+      next_text: 很好。
+    - text: 羊
+      stretch: 1.4
+    - text: 第二聲，羊。
+      cut: second
+    - text: 羊毛
+      cut: first
+    - text: 羊、羊、羊。
+      cut: middle
 lines:
   101-09-xue-er-shi-xi:
     text: 學而時習之，不亦說乎？

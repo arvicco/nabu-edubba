@@ -12,7 +12,7 @@ chapter: 3
 permalink: /sinographs/102/03-having-and-lacking/
 course_url: /sinographs/102/
 course_title: "Sinographs 102"
-teaches: ["非", "在", "牛", "物", "萬", "白"]
+teaches: ["非", "在", "牛", "羊", "物", "萬", "白"]
 ---
 
 # Having and lacking
@@ -46,6 +46,12 @@ or reject nearly anything:
       <td>ox, cow</td>
       <td>a horned head face-on — the farm's biggest
       possession</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">羊</td><td>sheep</td><td><a class="say" href="{{ '/assets/audio/pinyin/yang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yáng</span></a></td>
+      <td>sheep, goat</td>
+      <td>the ox's barnyard twin, head-on — the horns curl the
+      other way, the muzzle runs down through the bars</td>
     </tr>
     <tr>
       <td class="script sign-cell">物</td><td>thing</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-thing.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wù</span></a></td>
@@ -158,31 +164,46 @@ clause promoted to subject of the second. The grammar mirrors
 the metaphysics: each clause hands what it found to the next,
 all the way down to the empty ground.
 
-## The wrong kind of ghost
+## The heart that says no
 
-非 in the field — Confucius on empty piety:
+非 lives a second life: not just the denier of identities but a
+noun in its own right — *the wrong*, as against
+<span class="script">是</span>, *the right*. Mencius uses both
+lives in seven characters, in his famous claim that the moral
+sense comes as standard equipment:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">非其▢而▢之，▢也。</span><span class="translit pinyin">fēi qí guǐ ér jì zhī, chǎn yě</span><span class="gloss">"to sacrifice to an ancestor who is not your own — that is flattery" — the ghosts here are one's own dead, owed remembrance; honoring somebody ELSE'S ancestors is social climbing dressed as reverence. The boxes are "ancestor-spirit", "sacrifice", "flattery"; 非其…, "not one's own…", is this chapter's word at work</span></div>
+    <div class="reading-line"><span class="script">無是非之心，非人也。</span><span class="translit pinyin">wú shì fēi zhī xīn, fēi rén yě</span><span class="gloss">"without a heart for right and wrong, one is no human" — Mencius's point is not an insult but an anatomy: the sense for right and wrong belongs to the standard equipment of a person, like limbs; to lack it is not to be a worse person but to fall outside the shape of one. Every character is yours</span></div>
   </div>
   <figcaption class="citation">
-    <em>Analects</em> 2.24.
-    <code>urn:nabu:kanripo:KR1h0004:002:25a</code> · license: attribution.
+    <em>Mencius</em> 2A.6 — from the argument of the four
+    sprouts: compassion, shame, deference, and the sense of
+    right and wrong, each inborn in everyone.
+    <code>urn:nabu:kanripo:KR1h0001:003:38a</code> · license: attribution.
   </figcaption>
 </figure>
 
-The pieces: <span class="script">非其</span>▢ — here
-<span class="script">非</span> rejects not a whole sentence but
-a phrase, "not one's *own* ancestor," with
-<span class="script">其</span>, Foundations' pointer-word,
-carrying the "one's own." <span class="script">而</span> turns:
-"and yet." ▢<span class="script">之</span> is "sacrifice to
-*them*" — this small <span class="script">之</span> points back
-at the ancestor; its double life gets a whole chapter, two
-ahead. And the verdict is <a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01</a>
-again: ▢<span class="script">也</span> — the deed set beside its
-true name, "flattery," and sealed.
+Seven characters, no boxes, and <span class="script">非</span>
+working two different jobs. First
+<span class="script">無是非之心</span>:
+<span class="script">無</span> — this chapter's not-having —
+heads the phrase, "lacking." <span class="script">是非</span> is
+"the right and the wrong": <span class="script">是</span>
+"this, the right" beside <span class="script">非</span> in its
+noun life, "the wrong" — the pair is the classical (and still
+the modern) word for moral judgment.
+<span class="script">之</span> ties the pair to
+<span class="script">心</span>, the heart — which in this
+tradition thinks as well as feels. So: *the heart that tells
+right from wrong*. Then the verdict, in
+<a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01's</a>
+frame worn negative: <span class="script">非人也</span>, "is not
+a person." One character, two lives — the first
+<span class="script">非</span> *names* the wrong, the second
+*denies* an identity — and only position tells you which is
+which: <a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+law, still paying.
 
 ## The oxen come home
 
@@ -190,7 +211,7 @@ The Odes' evening scene, readable now but for two boxes:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">日之夕▢，▢牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun is setting; the sheep and oxen come down" — a woman watching the herds come home while her husband is away at the war: everything returns at dusk except him. The boxes are a sentence-final "by now" (five chapters ahead) and "sheep"</span></div>
+    <div class="reading-line"><span class="script">日之夕▢，羊牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun is setting; the sheep and oxen come down" — a woman watching the herds come home while her husband is away at the war: everything returns at dusk except him. The box is a sentence-final "by now," five chapters ahead</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "My lord is on service."
@@ -202,10 +223,11 @@ Two small mechanisms carry the scene.
 <span class="script">日之夕</span> — the belonging-thread
 gluing "sun" to "evening": *the sun's setting*, a whole moment
 folded into a noun, with the boxed sentence-final "by now"
-sighing after it. Then ▢<span class="script">牛下來</span>:
-subject first (sheep-and-oxen sharing the seat, no "and" —
-<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
-rule), and two motion verbs stacked at the end,
+sighing after it. Then <span class="script">羊牛下來</span>:
+subject first — sheep and oxen sharing the seat with no "and"
+(<a href="{{ '/sinographs/102/02-the-verb-and-its-object/' | relative_url }}">chapter 02's</a>
+rule), this chapter's own pair walking home together — and two
+motion verbs stacked at the end,
 <span class="script">下來</span> "come down" — down the hill,
 toward the speaker. The evening happens in the grammar: things
 settle, and settle homeward.
