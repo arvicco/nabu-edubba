@@ -30,13 +30,13 @@ question. And 可 answers half of them: *can, may, it works.*
     <tr>
       <td class="script sign-cell">可</td><td>can</td><td><a class="say" href="{{ '/assets/audio/pinyin/ke.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">kě</span></a></td>
       <td>can, may; acceptable</td>
-      <td>a mouth with breath allowed out — permission,
+      <td>a mouth 口 with breath allowed out — permission,
       drawn</td>
     </tr>
     <tr>
       <td class="script sign-cell">何</td><td>what</td><td><a class="say" href="{{ '/assets/audio/pinyin/he.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hé</span></a></td>
       <td>what, why</td>
-      <td>the person-sign thinned, 可 lending the
+      <td>the person 人 thinned, 可 lending the
       sound</td>
     </tr>
     <tr>

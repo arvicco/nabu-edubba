@@ -31,7 +31,7 @@ chapter hires the state:
     <tr>
       <td class="script sign-cell">使</td><td>send</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-send.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shǐ</span></a></td>
       <td>to send, employ, cause</td>
-      <td>the person-sign beside an officer with his tally —
+      <td>the person 人 beside an officer with his tally —
       to commission</td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ chapter hires the state:
     <tr>
       <td class="script sign-cell">千</td><td>thousand</td><td><a class="say" href="{{ '/assets/audio/pinyin/qian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qiān</span></a></td>
       <td>thousand</td>
-      <td>a slanting figure, one stroke through — a person made
+      <td>a slanting stroke over ten 十 — a person made
       a count</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@ chapter hires the state:
     <tr>
       <td class="script sign-cell">世</td><td>generation</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shì</span></a></td>
       <td>generation; the age</td>
-      <td>three tens tied into one sign — thirty years, parent
+      <td>three tens 十 tied into one sign — thirty years, parent
       to child</td>
     </tr>
   </tbody>

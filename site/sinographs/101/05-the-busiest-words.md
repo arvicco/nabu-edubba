@@ -53,8 +53,8 @@ the table:
     <tr>
       <td class="script sign-cell">有</td><td>have</td><td><a class="say" href="{{ '/assets/audio/pinyin/you-have.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǒu</span></a></td>
       <td>to have; there is</td>
-      <td>the hand again, holding meat — the meat-shape came to be
-      written like your moon</td>
+      <td>the hand 又 again, holding meat — the meat-shape came to
+      be written like your moon 月</td>
     </tr>
     <tr>
       <td class="script sign-cell">十</td><td>ten</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>

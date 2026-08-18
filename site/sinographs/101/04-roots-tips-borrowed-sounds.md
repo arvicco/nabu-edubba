@@ -28,7 +28,7 @@ changes everything:
     <tr>
       <td class="script sign-cell">品</td><td>kinds</td><td><a class="say" href="{{ '/assets/audio/pinyin/pin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pǐn</span></a></td>
       <td>kinds, grades; things in their sorts</td>
-      <td>your mouth three times over — many voices, many sorts</td>
+      <td>your mouth 口 three times over — many voices, many sorts</td>
     </tr>
     <tr>
       <td class="script sign-cell">本</td><td>root</td><td><a class="say" href="{{ '/assets/audio/pinyin/ben.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">běn</span></a></td>
@@ -39,12 +39,12 @@ changes everything:
     <tr>
       <td class="script sign-cell">末</td><td>tip</td><td><a class="say" href="{{ '/assets/audio/pinyin/mo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mò</span></a></td>
       <td>tip, branch-end; the incidental</td>
-      <td>the same tree, the mark at the top</td>
+      <td>the same tree 木, the mark at the top</td>
     </tr>
     <tr>
       <td class="script sign-cell">未</td><td>not-yet</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>not yet — the classical "still un-"</td>
-      <td>the tree with young top growth — what has not yet come to
+      <td>the tree 木 with young top growth — what has not yet come to
       be</td>
     </tr>
     <tr>

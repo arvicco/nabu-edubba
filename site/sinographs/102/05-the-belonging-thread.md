@@ -44,7 +44,7 @@ most love to hang on it:
     <tr>
       <td class="script sign-cell">相</td><td>mutual</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiāng</span></a></td>
       <td>each other</td>
-      <td>an eye behind a tree — watching, answered by
+      <td>an eye 目 behind a tree 木 — watching, answered by
       watching back</td>
     </tr>
     <tr>

@@ -38,22 +38,22 @@ and then the wall comes down: characters start combining.
     <tr>
       <td class="script sign-cell">明</td><td>bright</td><td><a class="say" href="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">míng</span></a></td>
       <td>bright; to shine; to understand</td>
-      <td>your sun beside your moon: the two lights of the sky</td>
+      <td>your sun 日 beside your moon 月: the two lights of the sky</td>
     </tr>
     <tr>
       <td class="script sign-cell">旦</td><td>dawn</td><td><a class="say" href="{{ '/assets/audio/pinyin/dan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dàn</span></a></td>
       <td>dawn, daybreak</td>
-      <td>your sun just clear of the horizon line</td>
+      <td>your sun 日 just clear of the horizon line</td>
     </tr>
     <tr>
       <td class="script sign-cell">休</td><td>rest</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiū</span></a></td>
       <td>to rest; respite, good fortune</td>
-      <td>your person leaning against your tree</td>
+      <td>your person 人 leaning against your tree 木</td>
     </tr>
     <tr>
       <td class="script sign-cell">仁</td><td>humane</td><td><a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">rén</span></a></td>
       <td>humane; humaneness, the Confucian virtue</td>
-      <td>your person beside your two: what holds between two
+      <td>your person 人 beside your two 二: what holds between two
       people</td>
     </tr>
   </tbody>

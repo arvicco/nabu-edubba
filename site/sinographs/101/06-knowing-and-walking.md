@@ -32,8 +32,8 @@ An arrow first — watch what it is for:
     <tr>
       <td class="script sign-cell">知</td><td>know</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
       <td>to know, to understand</td>
-      <td>arrow beside mouth: the word that flies straight — the
-      arrow hums the sound</td>
+      <td>your arrow 矢 beside your mouth 口: the word that flies
+      straight — the arrow hums the sound</td>
     </tr>
     <tr>
       <td class="script sign-cell">而</td><td>and-then</td><td><a class="say" href="{{ '/assets/audio/pinyin/er-and.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ér</span></a></td>
@@ -49,7 +49,7 @@ An arrow first — watch what it is for:
     <tr>
       <td class="script sign-cell">言</td><td>speech</td><td><a class="say" href="{{ '/assets/audio/pinyin/yan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yán</span></a></td>
       <td>speech, words; to speak</td>
-      <td>your mouth under rising lines — sound on its way out</td>
+      <td>your mouth 口 under rising lines — sound on its way out</td>
     </tr>
   </tbody>
 </table>

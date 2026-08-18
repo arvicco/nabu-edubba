@@ -547,7 +547,13 @@ Live since the first content commit (2026-08-10):
   what today's strokes still show. No unexplained referents, no
   free-floating profundity ("became the measure of everything").
   Editorial law: enforced by review, not lint — a machine cannot
-  judge whether an image reconstructs a character.
+  judge whether an image reconstructs a character. Scope
+  (owner ruling 2026-08-18, after "your sun over your upright"
+  showed neither sign): this binds the CHAPTER SIGN-TABLE hooks
+  exactly as it binds codex hooks — a referenced earlier sign is
+  SHOWN ("your sun 日 over your upright 正"), never mentioned
+  only by its keyword; the reference glyph must itself be taught
+  by that chapter, else the component stays in plain words.
 
 ## 9 · Law ledger
 
@@ -589,7 +595,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
-| Codex hooks anchored in the visible modern form | §8 | owner review (editorial) |
+| Hooks (codex AND chapter tables) anchored in the visible form; referenced taught signs shown by glyph | §8 | owner review (editorial) |
 | Codex attestations shown whole, never boxed | §8 | `codex-boxes` lint |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |
