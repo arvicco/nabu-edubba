@@ -13,6 +13,7 @@ permalink: /sinographs/101/04-roots-tips-borrowed-sounds/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
 teaches: ["品", "本", "末", "未", "沐", "味"]
+shows: ["氵"]
 ---
 
 # Roots, tips, and borrowed sounds
@@ -49,7 +50,7 @@ changes everything:
     <tr>
       <td class="script sign-cell">沐</td><td>washing</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>to wash the hair; to bathe in</td>
-      <td>slim water 水 for meaning, 木 for <em>sound</em> (mù)</td>
+      <td>water 氵 for meaning, 木 for <em>sound</em> (mù)</td>
     </tr>
     <tr>
       <td class="script sign-cell">味</td><td>flavor</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
