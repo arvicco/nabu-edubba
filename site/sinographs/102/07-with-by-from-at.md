@@ -42,7 +42,7 @@ most of what a case system would:
       service</td>
     </tr>
     <tr>
-      <td class="script sign-cell">於</td><td>at</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
+      <td class="script sign-cell">於</td><td>in</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
       <td>at, in, to, from</td>
       <td>a swallow-shape lent to the busiest preposition;
       the older 于 does the same work</td>

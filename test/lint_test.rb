@@ -291,6 +291,34 @@ class LintTest < Minitest::Test
                  "reading transliteration is not a button"
   end
 
+  def test_sign_key_cells_match_the_queue
+    with_site("_data/sinographs101_queue.yml" => "signs:\n- char: 于\n  keyword: at\n",
+              "_data/sinographs102_queue.yml" => "signs:\n- char: 於\n  keyword: in\n") do |site|
+      drift = %(<td class="script sign-cell">於</td><td>at</td>)
+      v = Edubba::Lint.check_sign_keys(site, "site/sinographs/102/07-x.md", drift)
+      assert_equal ["sign-key"], v.map(&:rule), "the 于/於 double-at case (2026-08-19)"
+      assert_match(/one sign, one name/, v.first.detail)
+
+      aligned = %(<td class="script sign-cell">於</td><td>in</td>)
+      assert_empty Edubba::Lint.check_sign_keys(site, "site/sinographs/102/07-x.md", aligned)
+
+      unqueued = %(<td class="script sign-cell">龜</td><td>turtle</td>)
+      assert_empty Edubba::Lint.check_sign_keys(site, "site/sinographs/102/07-x.md", unqueued),
+                   "a sign missing from the queue is the queue contract's business"
+
+      assert_empty Edubba::Lint.sino_keyword_unique(site)
+    end
+  end
+
+  def test_sign_keywords_unique_across_the_school
+    with_site("_data/sinographs101_queue.yml" => "signs:\n- char: 于\n  keyword: at\n",
+              "_data/sinographs102_queue.yml" => "signs:\n- char: 於\n  keyword: at\n") do |site|
+      v = Edubba::Lint.sino_keyword_unique(site)
+      assert_equal ["sign-key"], v.map(&:rule), "two signs may never wear one keyword"
+      assert_match(/于, 於/, v.first.detail)
+    end
+  end
+
   def test_say_audio_flags_dead_targets
     live = %(<a class="say" href="{{ '/assets/audio/pinyin/ren.mp3' | relative_url }}">x</a>)
     assert_empty Edubba::Lint.check_say_audio("site", "site/sinographs/101/00-x.md", live)
