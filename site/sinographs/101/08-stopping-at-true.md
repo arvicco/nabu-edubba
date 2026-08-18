@@ -39,18 +39,18 @@ evening names itself:
     <tr>
       <td class="script sign-cell">是</td><td>this</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shì</span></a></td>
       <td>this; to be right</td>
-      <td>your sun over your upright: what stands squarely so</td>
+      <td>your sun 日 over your upright 正: what stands squarely so</td>
     </tr>
     <tr>
       <td class="script sign-cell">夕</td><td>evening</td><td><a class="say" href="{{ '/assets/audio/pinyin/xi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xī</span></a></td>
       <td>evening, dusk</td>
-      <td>your moon missing one stroke — the sliver that rises
+      <td>your moon 月 missing one stroke — the sliver that rises
       early</td>
     </tr>
     <tr>
       <td class="script sign-cell">名</td><td>name</td><td><a class="say" href="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">míng</span></a></td>
       <td>name; to name</td>
-      <td>evening plus mouth: in the dark no one can see you, so
+      <td>evening 夕 plus mouth 口: in the dark no one can see you, so
       you say who you are</td>
     </tr>
   </tbody>

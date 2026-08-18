@@ -55,7 +55,7 @@ With verbs of likeness: 如 and 若, *to be like* — and negated,
     <tr>
       <td class="script sign-cell">善</td><td>good</td><td><a class="say" href="{{ '/assets/audio/pinyin/shan-good.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shàn</span></a></td>
       <td>good; good at</td>
-      <td>the sheep-sign over speech — words gentle as the
+      <td>your sheep 羊 over speech 言 — words gentle as the
       flock</td>
     </tr>
     <tr>

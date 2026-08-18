@@ -50,8 +50,8 @@ or reject nearly anything:
     <tr>
       <td class="script sign-cell">羊</td><td>sheep</td><td><a class="say" href="{{ '/assets/audio/pinyin/yang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yáng</span></a></td>
       <td>sheep, goat</td>
-      <td>the ox's barnyard twin, head-on — the horns curl the
-      other way, the muzzle runs down through the bars</td>
+      <td>the barnyard twin of the ox 牛, head-on — the horns curl
+      the other way, the muzzle runs down through the bars</td>
     </tr>
     <tr>
       <td class="script sign-cell">物</td><td>thing</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-thing.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wù</span></a></td>

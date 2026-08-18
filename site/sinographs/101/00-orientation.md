@@ -40,7 +40,7 @@ now — a picture that grows, and the world it grows into:
     <tr>
       <td class="script sign-cell">天</td><td>heaven</td><td><a class="say" href="{{ '/assets/audio/pinyin/tian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tiān</span></a></td>
       <td>sky; Heaven above all</td>
-      <td>a line drawn over the big person's head — what is above even
+      <td>a line drawn over the big person 大 — what is above even
       the greatest</td>
     </tr>
     <tr>

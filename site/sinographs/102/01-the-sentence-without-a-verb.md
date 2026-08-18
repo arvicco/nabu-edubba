@@ -33,7 +33,7 @@ persons the classics most love to define:
     <tr>
       <td class="script sign-cell">君</td><td>lord</td><td><a class="say" href="{{ '/assets/audio/pinyin/jun.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jūn</span></a></td>
       <td>lord, ruler</td>
-      <td>a hand with a staff of office over a mouth — authority
+      <td>a hand with a staff of office over a mouth 口 — authority
       that speaks</td>
     </tr>
     <tr>

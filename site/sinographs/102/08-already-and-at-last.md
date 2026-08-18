@@ -32,8 +32,8 @@ words time is told in:
     <tr>
       <td class="script sign-cell">矣</td><td>by-now</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
       <td>sentence-final "it has come to pass"</td>
-      <td>an arrow-shape lent to pure grammar — the arrival
-      marker</td>
+      <td>your arrow 矢 under a tilted tip — lent to pure grammar:
+      the arrival marker</td>
     </tr>
     <tr>
       <td class="script sign-cell">已</td><td>already</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>

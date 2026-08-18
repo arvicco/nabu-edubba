@@ -56,7 +56,7 @@ under heaven, and the wind that crosses it:
     <tr>
       <td class="script sign-cell">從</td><td>follow</td><td><a class="say" href="{{ '/assets/audio/pinyin/cong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cóng</span></a></td>
       <td>to follow</td>
-      <td>two people, one behind the other; road and foot
+      <td>two people 人, one behind the other; road and foot
       joined later</td>
     </tr>
   </tbody>

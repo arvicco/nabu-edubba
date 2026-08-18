@@ -30,14 +30,14 @@ quantities and the pointing:
     <tr>
       <td class="script sign-cell">皆</td><td>all</td><td><a class="say" href="{{ '/assets/audio/pinyin/jie.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jiē</span></a></td>
       <td>all, everyone</td>
-      <td>two people side by side over a saying-mark — everyone
-      speaking alike</td>
+      <td>two people over your white 白 — in the old forms a
+      mouth: everyone speaking alike</td>
     </tr>
     <tr>
       <td class="script sign-cell">百</td><td>hundred</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai-hundred.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bǎi</span></a></td>
       <td>hundred; all kinds</td>
-      <td>one over 白 — the white-sign borrowed into the round
-      hundred</td>
+      <td>one 一 over white 白 — the white-sign borrowed into the
+      round hundred</td>
     </tr>
     <tr>
       <td class="script sign-cell">九</td><td>nine</td><td><a class="say" href="{{ '/assets/audio/pinyin/jiu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">jiǔ</span></a></td>
@@ -48,13 +48,13 @@ quantities and the pointing:
     <tr>
       <td class="script sign-cell">至</td><td>arrive</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi-arrive.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhì</span></a></td>
       <td>to arrive; utmost</td>
-      <td>an arrow struck ground-down — the flight ended, the
-      point reached</td>
+      <td>an arrow driven into the earth 土 — the flight ended,
+      the point reached</td>
     </tr>
     <tr>
       <td class="script sign-cell">此</td><td>this-here</td><td><a class="say" href="{{ '/assets/audio/pinyin/ci.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cǐ</span></a></td>
       <td>this, this-here</td>
-      <td>a stopped foot beside a person — the spot one stands
+      <td>a stopped foot 止 beside a person — the spot one stands
       on</td>
     </tr>
   </tbody>
