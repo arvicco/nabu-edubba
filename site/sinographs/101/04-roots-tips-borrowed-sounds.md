@@ -50,7 +50,8 @@ changes everything:
     <tr>
       <td class="script sign-cell">沐</td><td>washing</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>to wash the hair; to bathe in</td>
-      <td>water 氵 for meaning, 木 for <em>sound</em> (mù)</td>
+      <td>your 水, slimmed to 氵 at the left, for meaning; 木
+      for <em>sound</em> (mù)</td>
     </tr>
     <tr>
       <td class="script sign-cell">味</td><td>flavor</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
