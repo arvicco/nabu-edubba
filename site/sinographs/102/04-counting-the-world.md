@@ -2,9 +2,10 @@
 title: "04 · Counting the world"
 short_title: "04 · Counting the world"
 description: >-
-  The numbers four through nine minus one, the fourth stem, and
-  what counting does in a sentence — climbed up the most famous
-  ladder in Chinese literature, a decade per rung.
+  The numbers four through nine minus one, the fourth stem, the
+  thumb-width inch — and what counting does in a sentence,
+  climbed up the most famous ladder in Chinese literature, a
+  decade per rung.
 layout: chapter
 school: sinographs
 course: sinographs-102
@@ -12,7 +13,7 @@ chapter: 4
 permalink: /sinographs/102/04-counting-the-world/
 course_url: /sinographs/102/
 course_title: "Sinographs 102"
-teaches: ["四", "五", "六", "七", "八", "丁"]
+teaches: ["四", "五", "六", "七", "八", "丁", "寸"]
 ---
 
 # Counting the world
@@ -21,7 +22,10 @@ Foundations gave you one, two, three, ten, and the myriad. This
 chapter fills the gap — and shows what numbers DO in a
 sentence: they sit before a noun with no "of" and no plural
 (八牛, "eight oxen"), and they stand alone as predicates, which
-is how a whole life gets told in decades below.
+is how a whole life gets told in decades below. And after the
+numbers, a measure — because counting the world means measuring
+it too, and the script's smallest ruler is the width of your
+own thumb.
 
 <table class="sign-table">
   <thead>
@@ -64,6 +68,12 @@ is how a whole life gets told in decades below.
       <td>a nail-head seen from above — also day four of the
       old ten-day week</td>
     </tr>
+    <tr>
+      <td class="script sign-cell">寸</td><td>inch</td><td><a class="say" href="{{ '/assets/audio/pinyin/cun.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cùn</span></a></td>
+      <td>inch — the thumb-width measure</td>
+      <td>your hand 又 with a tick at the wrist — one thumb-width
+      down, where the pulse beats</td>
+    </tr>
   </tbody>
 </table>
 
@@ -74,10 +84,12 @@ is how a whole life gets told in decades below.
     <div class="reading-line"><span class="script">民有八牛。</span><span class="translit pinyin">mín yǒu bā niú</span><span class="gloss">"the people have eight oxen" — number before noun, no plural, no "of"</span></div>
     <div class="reading-line"><span class="script">丁日，父出。</span><span class="translit pinyin">dīng rì, fù chū</span><span class="gloss">"on the ding-day, father goes out" — the ten stems named the days of the old ten-day week; 丁 is day four</span></div>
     <div class="reading-line"><span class="script">一生二，二生三，三生萬物。</span><span class="translit pinyin">yī shēng èr, èr shēng sān, sān shēng wàn wù</span><span class="gloss">"one begets two, two begets three, three begets the ten thousand things" — the Laozi's whole cosmology counted on one hand; the line's first word arrives next chapter</span></div>
+    <div class="reading-line"><span class="script">王有萬民，無寸土。</span><span class="translit pinyin">wáng yǒu wàn mín, wú cùn tǔ</span><span class="gloss">"the king has ten thousand subjects — and not one inch of ground" — a king in name only: rich in people, landless in fact, the shape of every ruler-in-exile the histories tell of</span></div>
   </div>
   <figcaption class="citation">
-    The first two lines assembled from taught characters; the
-    third is <em>Laozi</em> 42's chain, opening word withheld.
+    The first, second, and last lines assembled from taught
+    characters; the third is <em>Laozi</em> 42's chain, opening
+    word withheld.
     <code>urn:nabu:kanripo:KR5c0057:042:1a</code> · license: attribution.
   </figcaption>
 </figure>
@@ -95,6 +107,19 @@ plain skeleton three times — <span class="script">一生二</span>:
 subject, verb, object — each clause handing its object to the
 next as subject, a ladder of begetting climbed from one to
 everything.
+
+The last line runs counting to both of its ends.
+<span class="script">萬民</span> is number before noun again —
+"ten thousand subjects," the myriad doing its usual work of
+*countless* — and <span class="script">寸土</span> is the very
+same seat with a measure in it: "an inch of ground." A measure
+word sits before its noun exactly as a number does, no "of"
+in sight. Between the two phrases,
+<a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">last chapter's</a>
+pair <span class="script">有</span> and
+<span class="script">無</span> do the arithmetic of the man's
+whole condition: everything countable, nothing measurable —
+a following without a footing.
 
 ## A life in decades
 
@@ -147,6 +172,7 @@ can do it:
 ## Where this leaves you
 
 The number row runs whole from 一 to 十, with the hundred and
-the myriad already yours by name. Next chapter, the single most frequent character in the
+the myriad already yours by name — and the inch under your
+thumb for everything smaller. Next chapter, the single most frequent character in the
 language gets its own lesson — the little thread 之 that ties
 one thing to another.

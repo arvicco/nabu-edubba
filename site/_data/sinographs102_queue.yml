@@ -457,6 +457,26 @@ signs:
   chapter: 4
   note: rank 514 — pinned ahead of its rank as the component 可 needs; a nail seen
     head-on and driven home.
+- char: 寸
+  glyph: 寸
+  name: inch
+  codepoint: 5BF8
+  keyword: inch
+  pinyin: cùn
+  meaning: inch, the thumb-width measure; a tiny amount
+  category: indicative
+  certainty: classic
+  strokes: 3
+  ids: "⿹𬺰丶"
+  rank: 692
+  count_kanripo: 212937
+  docs: 3705
+  course: 102
+  chapter: 4
+  note: 'rank 692; a hand 又 with a tick at the wrist — one thumb-width below the
+    palm, where the pulse is taken: the body''s own ruler. Taught with the numbers
+    (owner ruling 2026-08-18): counting the world runs large and small, and 寸 opens
+    the door to 寺 next chapter.'
 - char: 首
   glyph: 首
   name: head
@@ -557,6 +577,30 @@ signs:
   note: 'rank 46; a standing figure with a patterned chest — the old graphs show crossed
     lines, a heart, tattooed marks. Pattern became writing became everything writing
     carries: 文 is the classics'' word for civilization itself.'
+- char: 寺
+  glyph: 寺
+  name: court
+  codepoint: 5BFA
+  keyword: court
+  pinyin: sì
+  meaning: court, government office; (much later) temple
+  category: phono-semantic
+  certainty: classic
+  strokes: 6
+  ids: "⿱土寸"
+  rank: 557
+  count_kanripo: 265021
+  docs: 2937
+  course: 102
+  chapter: 5
+  parts:
+  - 土
+  - 寸
+  note: 'rank 557; a hand 寸 attending under 之 — the phonetic, squared by the clerk''s
+    brush to 土 — where hands wait on rule: the office, the court; the Buddhist temple
+    sense is centuries younger (Shuowen: 寺，廷也). Taught here (owner ruling
+    2026-08-18) as the sound-lender both 詩 and 時 borrow, in the chapter of its own
+    hidden 之.'
 - char: 所
   glyph: 所
   name: place
@@ -634,6 +678,7 @@ signs:
   chapter: 6
   parts:
   - 言
+  - 寺
   note: rank 79; speech 言 with 寺 as the sound. Capitalized, 詩 is the Book of Odes
     — the three hundred songs the course has been quoting since 詩三百.
 - char: 云
@@ -841,6 +886,7 @@ signs:
   chapter: 8
   parts:
   - 日
+  - 寺
   note: rank 48; the sun 日 with 寺 as the sound — time as the sun's schedule. 四時 are
     the four seasons; 以時 is "at the proper season", the classics' measure of good
     government.
@@ -1659,6 +1705,7 @@ batches:
   - 七
   - 八
   - 丁
+  - 寸
   coverage_pct: 3.7
 - chapter: 5
   signs:
@@ -1667,6 +1714,7 @@ batches:
   - 相
   - 古
   - 文
+  - 寺
   coverage_pct: 4.6
 - chapter: 6
   signs:

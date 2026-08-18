@@ -226,7 +226,7 @@ the model of" is the only word in the line you do not own.
 
 ## Where this leaves you
 
-Fifteen chapters of grammar, and 138 characters — two of every
+Fifteen chapters of grammar, and 140 characters — two of every
 five on a classical page. You can define, act, deny, count,
 own, name, hitch, finish, ask, infer, want, cause, compare,
 total, and conclude — in the language of the *Analects* and the

@@ -925,6 +925,27 @@ syllables:
       cut: first
     - text: 羊、羊、羊。
       cut: middle
+  cun:
+    pinyin: cùn
+    text: 寸
+    variants:
+    - text: 一寸光陰一寸金。
+      cut: second
+    - text: 寸步難行。
+      cut: first
+    - text: 寸，第四聲。
+      cut: first
+    - text: 分寸
+      cut: second
+    - text: 五吋
+      cut: second
+    - text: 三吋半。
+      cut: second
+    - text: 寸。
+      stretch: 1.3
+      voice_settings:
+        speed: 0.7
+      next_text: 很好。
 lines:
   101-09-xue-er-shi-xi:
     text: 學而時習之，不亦說乎？

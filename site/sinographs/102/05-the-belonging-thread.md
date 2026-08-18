@@ -12,7 +12,7 @@ chapter: 5
 permalink: /sinographs/102/05-the-belonging-thread/
 course_url: /sinographs/102/
 course_title: "Sinographs 102"
-teaches: ["首", "道", "相", "古", "文"]
+teaches: ["首", "道", "相", "古", "文", "寺"]
 ---
 
 # The belonging thread
@@ -58,6 +58,12 @@ most love to hang on it:
       <td>pattern, writing; cultured</td>
       <td>a figure with a patterned chest — ornament that
       became culture itself</td>
+    </tr>
+    <tr>
+      <td class="script sign-cell">寺</td><td>court</td><td><a class="say" href="{{ '/assets/audio/pinyin/si.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sì</span></a></td>
+      <td>court, government office; (much later) temple</td>
+      <td>your thread 之 of old, squared by the brush, over a
+      hand's inch 寸 — where hands attend on rule</td>
     </tr>
   </tbody>
 </table>
@@ -160,6 +166,39 @@ the great Way's walking…" Then the claim itself:
 all." One thread, and a whole age of the world becomes a thing
 you can talk about.
 
+## The officer at the door
+
+寺 earns its seat in this chapter twice over. Its top is your
+thread <span class="script">之</span> in its oldest costume,
+squared by the clerk's brush until it looks like
+<span class="script">土</span>; beneath it sits
+<a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">last chapter's</a>
+<span class="script">寸</span>, the hand with its wrist-tick. A
+place where hands attend on rule: the government office, the
+court — only many centuries later a temple. And in the Odes,
+the man of that office stands at a door you cannot pass:
+
+<figure class="reading reading--script">
+  <div class="reading-lines">
+    <div class="reading-line"><span class="script">未見君子，寺人之▢。</span><span class="translit pinyin">wèi jiàn jūn zǐ, sì rén zhī lìng</span><span class="gloss">"you have not yet seen the lord — you wait on the court officer's summons" — a great house from the outside: between you and the prince stands the man of the office, and his order is the only way in. The box is "order, summons"</span></div>
+  </div>
+  <figcaption class="citation">
+    <em>Odes</em>, "Chariots Rumbling" (Qin airs).
+    <code>urn:nabu:kanripo:KR1c0001:011:3a</code> · license: attribution.
+  </figcaption>
+</figure>
+
+Walk it. <span class="script">未見君子</span> is
+<span class="script">未</span> doing what it always does —
+"have *not yet* seen the lord." Then the thread:
+<span class="script">寺人</span>, court + man, "the man of the
+office," is the owner; <span class="script">之</span> hangs
+between; the boxed "summons" closes the phrase — *the
+officer's order*. The very same frame as
+<span class="script">民之首</span> above: whoever stands before
+the thread owns whatever stands after it, whether it is a head
+or a command you are waiting for.
+
 ## The king named Pattern
 
 文 ends the chapter as a name. The Odes open their great hymn to
@@ -191,5 +230,7 @@ dynasty, and an afterlife.
 ## Where this leaves you
 
 The thread 之 now ties owners to owned and clauses to their
-names. Next: the two little words that turn anything at all into
-a noun — the one-who and the thing-which.
+names — and 寺 sits in your hand with a second career ahead:
+next chapter it starts lending characters nothing but its
+sound. Next too: the two little words that turn anything at
+all into a noun — the one-who and the thing-which.
