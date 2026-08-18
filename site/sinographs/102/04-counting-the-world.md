@@ -31,13 +31,14 @@ is how a whole life gets told in decades below.
     <tr>
       <td class="script sign-cell">四</td><td>four</td><td><a class="say" href="{{ '/assets/audio/pinyin/si.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sì</span></a></td>
       <td>four</td>
-      <td>four strokes once; the mouth-with-lines shape is a
-      loan that stuck</td>
+      <td>four strokes once; the mouth-with-lines shape — like 口
+      with lines inside — is a loan that stuck</td>
     </tr>
     <tr>
       <td class="script sign-cell">五</td><td>five</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-five.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǔ</span></a></td>
       <td>five</td>
-      <td>a crossing-tally between heaven-and-earth lines</td>
+      <td>a crossing-tally between the two lines 二 of heaven
+      and earth</td>
     </tr>
     <tr>
       <td class="script sign-cell">六</td><td>six</td><td><a class="say" href="{{ '/assets/audio/pinyin/liu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">liù</span></a></td>

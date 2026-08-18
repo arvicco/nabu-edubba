@@ -33,7 +33,7 @@ evening names itself:
     <tr>
       <td class="script sign-cell">正</td><td>upright</td><td><a class="say" href="{{ '/assets/audio/pinyin/zheng.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhèng</span></a></td>
       <td>upright, correct; exactly</td>
-      <td>your foot stopped at your line 一: arriving exactly where
+      <td>your foot 止 stopped at your line 一: arriving exactly where
       one should</td>
     </tr>
     <tr>

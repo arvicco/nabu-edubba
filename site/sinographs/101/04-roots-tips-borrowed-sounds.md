@@ -44,20 +44,17 @@ changes everything:
     <tr>
       <td class="script sign-cell">未</td><td>not-yet</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>not yet — the classical "still un-"</td>
-      <td>the tree 木 with young top growth — what has not yet come to
-      be</td>
+      <td>the tree 木 with young top growth — not yet grown</td>
     </tr>
     <tr>
       <td class="script sign-cell">沐</td><td>washing</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>to wash the hair; to bathe in</td>
-      <td>water for the meaning, tree for the <em>sound</em>: 木 is
-      mù, and so is 沐</td>
+      <td>slim water 水 for meaning, 木 for <em>sound</em> (mù)</td>
     </tr>
     <tr>
       <td class="script sign-cell">味</td><td>flavor</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>flavor, taste</td>
-      <td>mouth for the meaning, not-yet for the <em>sound</em>:
-      未 is wèi, and so is 味</td>
+      <td>mouth 口 for meaning, 未 for <em>sound</em> (wèi)</td>
     </tr>
   </tbody>
 </table>
