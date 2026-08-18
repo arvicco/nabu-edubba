@@ -146,6 +146,14 @@ fallback. Recorded in docs/concept.md §7.
   **unique school-wide** — the same keyword-uniqueness law the
   cuneiform school arrived at independently; here it meets its
   origin (Heisig's core insight).
+- **The displayed key IS the keyword (2026-08-19,** after the
+  owner caught 于 and 於 both wearing "at" on the site while the
+  queue said at/in — the queue was unique, the ch07 table had
+  drifted, and only the queue was checked): a chapter sign-table
+  Key cell must show the queue's keyword verbatim, so the
+  uniqueness law holds on the SURFACE the student reads, not
+  just in the data. The `sign-key` lint enforces both halves —
+  cell/queue agreement per row, and cross-queue uniqueness.
 - **Grounding (ruled):** the keyword matches Heisig's where his
   keyword IS the plain classical sense; where the classical sense
   diverges from the modern-Japanese sense Heisig keys to, the
@@ -579,7 +587,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Say-links resolve to real files | §2 | `say-audio` lint (dead-target check) |
 | Displayed tone = the file's declared tone | §2 | `say-audio` lint (tone agreement, 2026-08-11) |
 | Absent syllables reported, never faked | §2 | manifest `absent:` + generator report |
-| Keyword unique school-wide | §3 | compiler + queue contract + rulebook codex |
+| Keyword unique school-wide, on the displayed surface too | §3 | compiler + queue contract + rulebook codex; `sign-key` lint (table cells = queue keyword, 2026-08-19) |
 | Keywords grounded in classical sense (Kroll) | §3 | owner review |
 | Traditional forms are the base | §4 | owner review; Serif TC subset renders traditional |
 | Frequency-AND-simplicity ordering, classical corpus | §5 | sino_freq + compiler, deterministic over committed inputs; contract tests |
