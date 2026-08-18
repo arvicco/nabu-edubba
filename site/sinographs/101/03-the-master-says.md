@@ -33,7 +33,7 @@ and then the wall comes down: characters start combining.
     <tr>
       <td class="script sign-cell">曰</td><td>say</td><td><a class="say" href="{{ '/assets/audio/pinyin/yue-say.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yuē</span></a></td>
       <td>to say — the quotation-opener of the classics</td>
-      <td>a mouth, with a short stroke of breath leaving it</td>
+      <td>a mouth 口, with a short stroke of breath leaving it</td>
     </tr>
     <tr>
       <td class="script sign-cell">明</td><td>bright</td><td><a class="say" href="{{ '/assets/audio/pinyin/ming.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">míng</span></a></td>
@@ -43,7 +43,7 @@ and then the wall comes down: characters start combining.
     <tr>
       <td class="script sign-cell">旦</td><td>dawn</td><td><a class="say" href="{{ '/assets/audio/pinyin/dan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dàn</span></a></td>
       <td>dawn, daybreak</td>
-      <td>your sun 日 just clear of the horizon line</td>
+      <td>your sun 日 just clear of the horizon line 一</td>
     </tr>
     <tr>
       <td class="script sign-cell">休</td><td>rest</td><td><a class="say" href="{{ '/assets/audio/pinyin/xiu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xiū</span></a></td>

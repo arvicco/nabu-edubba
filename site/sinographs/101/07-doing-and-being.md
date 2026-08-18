@@ -53,7 +53,7 @@ plain drawings to anchor them:
     <tr>
       <td class="script sign-cell">生</td><td>grow</td><td><a class="say" href="{{ '/assets/audio/pinyin/sheng.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shēng</span></a></td>
       <td>to grow, to be born; life</td>
-      <td>a sprout rising from the ground-line</td>
+      <td>a sprout rising from the earth 土</td>
     </tr>
   </tbody>
 </table>
