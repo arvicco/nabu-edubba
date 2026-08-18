@@ -55,8 +55,8 @@ words time is told in:
     <tr>
       <td class="script sign-cell">時</td><td>season</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
       <td>season, time; timely</td>
-      <td>the sun 日 with a sound-carrier — time as the sun's
-      schedule</td>
+      <td>the sun 日 with the court 寺 for sound — time as the
+      sun's schedule</td>
     </tr>
     <tr>
       <td class="script sign-cell">年</td><td>year</td><td><a class="say" href="{{ '/assets/audio/pinyin/nian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nián</span></a></td>

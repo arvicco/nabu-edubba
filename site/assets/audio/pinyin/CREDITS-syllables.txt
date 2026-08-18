@@ -24,6 +24,7 @@ chu.mp3
 ci.mp3
 cong.mp3
 cu.mp3
+cun.mp3
 da.mp3
 dan.mp3
 dao.mp3

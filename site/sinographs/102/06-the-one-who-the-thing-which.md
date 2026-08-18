@@ -49,8 +49,8 @@ seen." Between them they manufacture every "-er" and every
     <tr>
       <td class="script sign-cell">詩</td><td>poem</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-poem.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shī</span></a></td>
       <td>poem; the Odes</td>
-      <td>speech 言 with a temple-sound — the songs the
-      tradition kept</td>
+      <td>speech 言 for meaning, last chapter's court 寺 for
+      sound — the songs the tradition kept</td>
     </tr>
     <tr>
       <td class="script sign-cell">云</td><td>quoth</td><td><a class="say" href="{{ '/assets/audio/pinyin/yun.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yún</span></a></td>

@@ -221,7 +221,11 @@ site-wide laws into writing order.
   and the pace dials up accordingly. The compiler enforces the
   range. Exceptions are owner-ruled and recorded in the contract
   test (2026-08-17: S102 ch03 carries 7 — 羊 taught beside 牛 as
-  its logical pair, so the Odes' herds walk in together).
+  its logical pair, so the Odes' herds walk in together;
+  2026-08-18: S102 ch04 carries 7 — 寸 taught with the numbers,
+  so that 寺, the sound-lender 詩 and 時 both borrow, can be
+  taught whole in ch05 instead of haunting two hooks as an
+  untaught "temple").
 - **Example-composition law (owner rulings 2026-08-10):** a
   reading line shows at most half boxes — untaught characters
   never outnumber taught ones in a displayed line (▢-share ≤ 50%),

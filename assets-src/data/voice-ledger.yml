@@ -1146,3 +1146,11 @@ built:
     model_id: eleven_v3
     text: 羊
     pinyin: yáng
+  cun:
+    date: '2026-08-19'
+    voice_id: BWN0mOtkGHghA3CYFzFK
+    model_id: "(per take)"
+    text: 寸
+    pinyin: cùn
+    ear_approved: true
+    take: cun~v9c
