@@ -38,7 +38,7 @@ words time is told in:
     <tr>
       <td class="script sign-cell">已</td><td>already</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
       <td>already; to end</td>
-      <td>a coiled shape run to grammar — done, finished,
+      <td>a coil winding shut — the loop closed: done, finished,
       "and no more"</td>
     </tr>
     <tr>
@@ -61,8 +61,8 @@ words time is told in:
     <tr>
       <td class="script sign-cell">年</td><td>year</td><td><a class="say" href="{{ '/assets/audio/pinyin/nian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nián</span></a></td>
       <td>year; harvest</td>
-      <td>a figure carrying grain home — the year measured by
-      its harvest</td>
+      <td>a figure carrying grain home, the strokes long since
+      fused — the year measured by its harvest</td>
     </tr>
   </tbody>
 </table>

@@ -39,14 +39,14 @@ persons the classics most love to define:
     <tr>
       <td class="script sign-cell">士</td><td>officer</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi-this.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shì</span></a></td>
       <td>officer, gentleman</td>
-      <td>an axe-blade of office, the lists say — the
-      commissioned man</td>
+      <td>shoulders wider than his stance — the man at
+      attention; first a war-axe of office</td>
     </tr>
     <tr>
       <td class="script sign-cell">民</td><td>people</td><td><a class="say" href="{{ '/assets/audio/pinyin/min.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mín</span></a></td>
       <td>the people</td>
-      <td>an eye pierced by a point in the oldest forms — the
-      mass once marked as subject</td>
+      <td>an eye pierced by a point in the old forms — the
+      mass marked as subject</td>
     </tr>
     <tr>
       <td class="script sign-cell">臣</td><td>minister</td><td><a class="say" href="{{ '/assets/audio/pinyin/chen.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">chén</span></a></td>

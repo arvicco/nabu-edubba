@@ -54,8 +54,8 @@ question. And 可 answers half of them: *can, may, it works.*
     <tr>
       <td class="script sign-cell">方</td><td>direction</td><td><a class="say" href="{{ '/assets/audio/pinyin/fang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">fāng</span></a></td>
       <td>direction, quarter</td>
-      <td>a disputed picture — plough-bar, boat prow, yoke; no
-      winner picked</td>
+      <td>a pennant streaming from its staff, pointing the
+      way</td>
     </tr>
   </tbody>
 </table>

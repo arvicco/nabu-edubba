@@ -56,20 +56,20 @@ or reject nearly anything:
     <tr>
       <td class="script sign-cell">物</td><td>thing</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu-thing.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wù</span></a></td>
       <td>thing; kinds of things</td>
-      <td>the ox 牛 beside a sound-half — the herd-beast
-      standing in for everything ownable</td>
+      <td>the ox 牛 beside streamer-strokes that lend the sound
+      wù — the herd-beast standing in for everything ownable</td>
     </tr>
     <tr>
       <td class="script sign-cell">萬</td><td>myriad</td><td><a class="say" href="{{ '/assets/audio/pinyin/wan.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wàn</span></a></td>
       <td>ten thousand; all</td>
-      <td>a scorpion, pincers up — borrowed whole for the
-      biggest round number</td>
+      <td>a scorpion head-on — feelers raised, the body and
+      curling tail below — lent to the biggest round number</td>
     </tr>
     <tr>
       <td class="script sign-cell">白</td><td>white</td><td><a class="say" href="{{ '/assets/audio/pinyin/bai.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bái</span></a></td>
       <td>white; plain, bright</td>
-      <td>by the received account a ray of light — the plain
-      and the bright in one word</td>
+      <td>a ray of light atop your sun 日 — the plain and the
+      bright in one word</td>
     </tr>
   </tbody>
 </table>

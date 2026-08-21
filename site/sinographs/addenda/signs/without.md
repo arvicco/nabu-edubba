@@ -21,9 +21,10 @@ philosophy's favorite word. Taught in <a href="{{ '/sinographs/101/07-doing-and-
 
 ## How to remember it
 
-Twelve strokes of costume and no dancer left inside:
-**without**. The fullest-looking character in the chapter means
-nothing at all — and that is how you remember it.
+See today's strokes as a woodpile over a row of fire-dots —
+everything burned away. Twelve strokes of costume and no dancer
+left inside: **without**. The fullest-looking character in the
+chapter means nothing at all — and that is how you remember it.
 
 ## In the wild
 

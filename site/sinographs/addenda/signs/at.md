@@ -14,7 +14,9 @@ permalink: /sinographs/addenda/signs/at/
 
 ## Where it comes from
 
-Three strokes whose origin is honestly disputed; the word is
+Three strokes, two old accounts: an ancient wind-instrument
+(the early form of 竽), or — so the Shuowen — a breath sighed
+out over its exhaling hook. The word is
 the annals' and the Songs' preposition — at, to, toward. The
 later classics prefer a fuller twin, but the old texts point
 with this one. Taught in <a href="{{ '/sinographs/101/09-the-masters-opening/' | relative_url }}">the master's-opening chapter</a>.

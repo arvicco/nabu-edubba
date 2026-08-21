@@ -566,6 +566,16 @@ Live since the first content commit (2026-08-10):
   SHOWN ("your sun 日 over your upright 正"), never mentioned
   only by its keyword; the reference glyph must itself be taught
   by that chapter, else the component stays in plain words.
+  Sources + sweep (owner ruling 2026-08-21, after 寺's hook told
+  the seal-script 之-story over the visible 土+寸): authoring a
+  hook CONSULTS the decomposition sources (the BabelStone IDS
+  carried in the queue; `nabu char`) and the established
+  mnemonic traditions (Heisig/RTK and its community stories,
+  Wiktionary's glyph origin) BEFORE inventing — the tradition
+  has usually already found the visible image. "Origin
+  disputed" is a codex note, never a hook: every hook gives an
+  image. All 140 hooks audited to this standard 2026-08-21;
+  nineteen rebuilt.
 
 ## 9 · Law ledger
 
@@ -607,7 +617,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
-| Hooks (codex AND chapter tables) anchored in the visible form; referenced taught signs shown by glyph | §8 | owner review (editorial) |
+| Hooks (codex AND chapter tables) anchored in the visible form; referenced taught signs shown by glyph; sources consulted (IDS + mnemonic tradition); every hook an image | §8 | owner review (editorial); school-wide audit 2026-08-21 |
 | Codex attestations shown whole, never boxed | §8 | `codex-boxes` lint |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |
