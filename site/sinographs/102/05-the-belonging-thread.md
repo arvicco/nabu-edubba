@@ -61,9 +61,9 @@ most love to hang on it:
     </tr>
     <tr>
       <td class="script sign-cell">寺</td><td>court</td><td><a class="say" href="{{ '/assets/audio/pinyin/si.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">sì</span></a></td>
-      <td>court, government office; (much later) temple</td>
-      <td>your thread 之 of old, squared by the brush, over a
-      hand's inch 寸 — where hands attend on rule</td>
+      <td>court, office; much later a temple</td>
+      <td>your earth 土 over your inch 寸 — where the land is
+      measured: the office</td>
     </tr>
   </tbody>
 </table>
@@ -168,15 +168,14 @@ you can talk about.
 
 ## The officer at the door
 
-寺 earns its seat in this chapter twice over. Its top is your
-thread <span class="script">之</span> in its oldest costume,
-squared by the clerk's brush until it looks like
-<span class="script">土</span>; beneath it sits
+寺 is built from two characters you own whole: your earth
+<span class="script">土</span> set over
 <a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">last chapter's</a>
-<span class="script">寸</span>, the hand with its wrist-tick. A
-place where hands attend on rule: the government office, the
-court — only many centuries later a temple. And in the Odes,
-the man of that office stands at a door you cannot pass:
+<span class="script">寸</span>, the hand with its wrist-tick.
+Where the land is measured is where it is governed: 寺 is the
+office, the court — the plots surveyed, the grain weighed, the
+records kept; only many centuries later a temple. And in the
+Odes, the man of that office stands at a door you cannot pass:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
