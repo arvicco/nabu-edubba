@@ -15,20 +15,22 @@ permalink: /sinographs/addenda/signs/court/
 
 ## Where it comes from
 
-A hand 寸 attending, with 之 above lending the sound — squared
-by the clerk's brush until it looks like 土. The *Shuowen*
-glosses it 廷也, "a court": the government office where hands
-wait on rule. The famous "temple" sense is centuries younger —
-when Buddhism reached China its first monks were lodged in
-government buildings, and the word for the office became the
-word for the monastery. Taught in
-<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>,
-whose thread 之 is hidden in its crown.
+Earth 土 over a hand's inch 寸 — ground ruled by the hand's
+measure. The *Shuowen* glosses it 廷也, "a court": the
+government office where the state's business is weighed and
+handled. (Its stroke-history derives the top from an old
+sound-lending element, but the modern form no longer shows it;
+what the page shows is 土 over 寸.) The famous "temple" sense
+is centuries younger — when Buddhism reached China its first
+monks were lodged in government buildings, and the word for
+the office became the word for the monastery. Taught in
+<a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the belonging-thread chapter</a>.
 
 ## How to remember it
 
-The thread 之 of old over a hand's inch 寸 — and hold on to its
-sound: 寺 is the syllable inside 詩 the poem and 時 the season.
+Your earth 土 over your inch 寸: where the land is measured is
+where it is governed — the office. And hold on to its sound:
+寺 is the syllable inside 詩 the poem and 時 the season.
 
 ## In the wild
 
