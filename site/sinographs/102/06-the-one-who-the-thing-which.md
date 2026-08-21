@@ -38,7 +38,8 @@ seen." Between them they manufacture every "-er" and every
     <tr>
       <td class="script sign-cell">謂</td><td>say-of</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>to say of, call</td>
-      <td>speech 言 with a sound-carrier — naming, defining</td>
+      <td>speech 言, its sound lent by the stomach-sign (wèi) —
+      naming, defining</td>
     </tr>
     <tr>
       <td class="script sign-cell">書</td><td>book</td><td><a class="say" href="{{ '/assets/audio/pinyin/shu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shū</span></a></td>

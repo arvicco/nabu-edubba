@@ -24,9 +24,10 @@ in
 
 ## How to remember it
 
-The road-step at the left; at the right a cowrie worn flat by
-time, with a hand closing under it: value picked up on the
-way — **get**.
+The road-step at the left; at the right, read the worn strokes
+as dawn 旦 over an inch 寸 — out early, hand ready for what the
+road gives: **get**. (The strokes are really the cowrie worn
+flat, the hand closing under it.)
 
 ## In the wild
 

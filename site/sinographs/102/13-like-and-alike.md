@@ -43,8 +43,8 @@ With verbs of likeness: 如 and 若, *to be like* — and negated,
     <tr>
       <td class="script sign-cell">若</td><td>as-if</td><td><a class="say" href="{{ '/assets/audio/pinyin/ruo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">ruò</span></a></td>
       <td>to be like; if</td>
-      <td>a kneeling figure smoothing long hair — yielding,
-      going along; hence "like"</td>
+      <td>plants above, a hand at a mouth below — sorting herbs,
+      naming each like the last: as-if</td>
     </tr>
     <tr>
       <td class="script sign-cell">同</td><td>same</td><td><a class="say" href="{{ '/assets/audio/pinyin/tong.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">tóng</span></a></td>
@@ -55,8 +55,8 @@ With verbs of likeness: 如 and 若, *to be like* — and negated,
     <tr>
       <td class="script sign-cell">善</td><td>good</td><td><a class="say" href="{{ '/assets/audio/pinyin/shan-good.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shàn</span></a></td>
       <td>good; good at</td>
-      <td>your sheep 羊 over speech 言 — words gentle as the
-      flock</td>
+      <td>your sheep 羊 over a mouth 口 — speech gentle as the
+      flock: the good</td>
     </tr>
     <tr>
       <td class="script sign-cell">長</td><td>long</td><td><a class="say" href="{{ '/assets/audio/pinyin/chang.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">cháng</span></a></td>

@@ -29,20 +29,20 @@ plain drawings to anchor them:
     <tr>
       <td class="script sign-cell">為</td><td>do</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei-do.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wéi</span></a></td>
       <td>to do, to make; to act as; (wèi) for</td>
-      <td>the old form draws a hand leading an elephant — work
-      itself, borrowed for the verb "do"</td>
+      <td>a claw-stroke over a flexed body and four dots — once
+      a hand setting an elephant to work, kept for "do"</td>
     </tr>
     <tr>
       <td class="script sign-cell">無</td><td>without</td><td><a class="say" href="{{ '/assets/audio/pinyin/wu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wú</span></a></td>
       <td>without; there is not</td>
-      <td>a dancer, sleeves full of tassels — the dance moved out,
-      "nothing" moved in</td>
+      <td>a woodpile over a row of fire-dots, burned away to
+      nothing — once a dancer, sleeves full of tassels</td>
     </tr>
     <tr>
       <td class="script sign-cell">我</td><td>I</td><td><a class="say" href="{{ '/assets/audio/pinyin/wo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wǒ</span></a></td>
       <td>I, me, we</td>
-      <td>a toothed halberd, borrowed early for the word "I" — the
-      weapon long forgotten</td>
+      <td>a hand at left, a blade at right — the armed self: I;
+      a three-pronged polearm in the oldest forms</td>
     </tr>
     <tr>
       <td class="script sign-cell">心</td><td>heart</td><td><a class="say" href="{{ '/assets/audio/pinyin/xin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">xīn</span></a></td>

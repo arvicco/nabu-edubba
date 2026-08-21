@@ -22,8 +22,9 @@ picture for its sound and kept it forever. Taught in
 
 ## How to remember it
 
-Three quick strokes, everywhere. X 之 Y is "the Y **of** X" —
-read 之 as the hinge of the phrase and half of classical syntax
+The quickest shape in the script — a flick, a zigzag, a long
+sweep — for its busiest word. X 之 Y is "the Y **of** X": read
+之 as the hinge of the phrase and half of classical syntax
 opens.
 
 ## In the wild

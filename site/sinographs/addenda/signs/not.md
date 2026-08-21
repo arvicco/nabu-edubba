@@ -14,15 +14,17 @@ permalink: /sinographs/addenda/signs/not/
 
 ## Where it comes from
 
-Rank two. The received account sees a calyx under its stem —
-whatever the picture was, the negation borrowed it early and
-never gave it back. Taught in
+Rank two. The received account sees a calyx under its stem; an
+old rival account sees a bird flying up against the sky-line 一,
+which is as high as a bird goes — whatever the picture was, the
+negation borrowed it early and never gave it back. Taught in
 <a href="{{ '/sinographs/101/05-the-busiest-words/' | relative_url }}">the busiest-words chapter</a>.
 
 ## How to remember it
 
-A flower that never opens: **not**. Everything classical
-prose denies, it denies with these four strokes.
+A bird flat against the sky-line, never coming down — or a
+flower that never opens: **not**. Everything classical prose
+denies, it denies with these four strokes.
 
 ## In the wild
 

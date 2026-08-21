@@ -36,8 +36,8 @@ that sit before other verbs: 能, *is able to*; 得, *gets (to)*;
     <tr>
       <td class="script sign-cell">得</td><td>get</td><td><a class="say" href="{{ '/assets/audio/pinyin/de.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">dé</span></a></td>
       <td>to get, obtain</td>
-      <td>a hand closing on a road-found cowrie 貝, worn past
-      recognizing; the road-step survives at left</td>
+      <td>the road-step at left; your dawn 旦 over your inch 寸
+      at right — out early, hand ready for what the road gives</td>
     </tr>
     <tr>
       <td class="script sign-cell">欲</td><td>want</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu-want.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yù</span></a></td>

@@ -30,20 +30,21 @@ the table:
     <tr>
       <td class="script sign-cell">之</td><td>of</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhī</span></a></td>
       <td>of; him, her, it — the classical linker</td>
-      <td>an old drawing of a foot setting out over a line — but the
-      word it writes is pure grammar</td>
+      <td>the quickest shape in the script — a flick, a zigzag, a
+      sweep — for its busiest word; once a foot on its
+      starting line</td>
     </tr>
     <tr>
       <td class="script sign-cell">不</td><td>not</td><td><a class="say" href="{{ '/assets/audio/pinyin/bu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">bù</span></a></td>
       <td>not — the plain negation</td>
-      <td>a calyx under its stem, by the received account — borrowed
-      early and forever for "not"</td>
+      <td>a bird flat against the sky-line, never coming down —
+      one old picture of "not"</td>
     </tr>
     <tr>
       <td class="script sign-cell">也</td><td>indeed</td><td><a class="say" href="{{ '/assets/audio/pinyin/ye.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yě</span></a></td>
       <td>the sentence-final "it is so"</td>
-      <td>what the picture once was is honestly disputed; its whole
-      classical life is the closing beat of a statement</td>
+      <td>one winding stroke coming to rest — the pen's closing
+      flourish, a statement's final beat</td>
     </tr>
     <tr>
       <td class="script sign-cell">又</td><td>again</td><td><a class="say" href="{{ '/assets/audio/pinyin/you.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yòu</span></a></td>

@@ -27,9 +27,9 @@ one everywhere:
   <tbody>
     <tr>
       <td class="script sign-cell">者</td><td>who</td><td><a class="say" href="{{ '/assets/audio/pinyin/zhe.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">zhě</span></a></td>
-      <td>the one who — turns a verb into its doer</td>
-      <td>the old picture is disputed; the grammar is not: X 者 is
-      "the one who X-es"</td>
+      <td>the one who — the doer-maker</td>
+      <td>an old-timer's bent top over your sun 日 — someone who
+      has seen the days: the one-who</td>
     </tr>
     <tr>
       <td class="script sign-cell">其</td><td>its</td><td><a class="say" href="{{ '/assets/audio/pinyin/qi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">qí</span></a></td>
@@ -40,18 +40,18 @@ one everywhere:
     <tr>
       <td class="script sign-cell">亦</td><td>also</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-also.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yì</span></a></td>
       <td>also, likewise</td>
-      <td>a person with two small marks under the arms — armpits,
-      says the tradition, borrowed whole for "too"</td>
+      <td>a figure with marks under both arms — armpits,
+      borrowed whole for "too"</td>
     </tr>
     <tr>
       <td class="script sign-cell">于</td><td>at</td><td><a class="say" href="{{ '/assets/audio/pinyin/yu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yú</span></a></td>
       <td>at, to, toward</td>
-      <td>origin disputed — the old preposition of the annals and
-      the Songs</td>
+      <td>a breath-line over a hanging hook — the Shuowen's
+      sigh, worn to a place-word</td>
     </tr>
     <tr>
       <td class="script sign-cell">乎</td><td>really</td><td><a class="say" href="{{ '/assets/audio/pinyin/hu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">hū</span></a></td>
-      <td>the breath that ends a classical question</td>
+      <td>the question's final breath</td>
       <td>a rising breath-mark: the spoken lift of "…is it
       not?"</td>
     </tr>

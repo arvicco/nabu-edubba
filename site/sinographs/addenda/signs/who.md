@@ -21,8 +21,10 @@ humane one. Taught in <a href="{{ '/sinographs/101/09-the-masters-opening/' | re
 
 ## How to remember it
 
-Hang 者 after a verb and a person appears: the one **who**
-does it. The character is a job title generator.
+Read the strokes as an old-timer's bent top over the sun 日 —
+someone who has seen the days. Hang 者 after a verb and a
+person appears: the one **who** does it. The character is a
+job title generator.
 
 ## In the wild
 
