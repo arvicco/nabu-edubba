@@ -32,13 +32,13 @@ words time is told in:
     <tr>
       <td class="script sign-cell">矣</td><td>by-now</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
       <td>sentence-final "it has come to pass"</td>
-      <td>an arrow-shape lent to pure grammar — the arrival
-      marker</td>
+      <td>your arrow 矢 under a tilted tip — lent to pure grammar:
+      the arrival marker</td>
     </tr>
     <tr>
       <td class="script sign-cell">已</td><td>already</td><td><a class="say" href="{{ '/assets/audio/pinyin/yi-by.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">yǐ</span></a></td>
       <td>already; to end</td>
-      <td>a coiled shape run to grammar — done, finished,
+      <td>a coil winding shut — the loop closed: done, finished,
       "and no more"</td>
     </tr>
     <tr>
@@ -55,14 +55,14 @@ words time is told in:
     <tr>
       <td class="script sign-cell">時</td><td>season</td><td><a class="say" href="{{ '/assets/audio/pinyin/shi.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shí</span></a></td>
       <td>season, time; timely</td>
-      <td>the sun 日 with a sound-carrier — time as the sun's
-      schedule</td>
+      <td>the sun 日 with the court 寺 for sound — time as the
+      sun's schedule</td>
     </tr>
     <tr>
       <td class="script sign-cell">年</td><td>year</td><td><a class="say" href="{{ '/assets/audio/pinyin/nian.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">nián</span></a></td>
       <td>year; harvest</td>
-      <td>a figure carrying grain home — the year measured by
-      its harvest</td>
+      <td>a figure carrying grain home, the strokes long since
+      fused — the year measured by its harvest</td>
     </tr>
   </tbody>
 </table>
@@ -82,6 +82,21 @@ opens the *Analects* — the most quoted first line in Chinese:
   </figcaption>
 </figure>
 
+The line you have carried since Foundations, now walked seat by
+seat. <span class="script">學</span> opens alone — "to learn,"
+a bare verb as the topic of the whole thought.
+<span class="script">而</span> hinges. Then
+<span class="script">時</span> — a noun, "season," standing in
+front of the boxed verb and working as its adverb: "practice
+*in season*, at the right times" — time-words routinely take
+that seat, and this chapter's whole cast will use it. The
+little <span class="script">之</span> after the box is
+<a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">chapter 06's</a>
+pronoun: "practice *it*, what you learned." And the close,
+<span class="script">不亦…乎</span>, is the is-that-not mold
+from <a href="{{ '/sinographs/102/01-the-sentence-without-a-verb/' | relative_url }}">chapter 01's</a>
+noble-person line — asserting joy by asking about it.
+
 ## The dusk completes
 
 <a href="{{ '/sinographs/102/03-having-and-lacking/' | relative_url }}">Chapter 03's</a> evening scene owed a box to this chapter. 矣 pays
@@ -89,7 +104,7 @@ it — watch what the little word does:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">日之夕矣，▢牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun has set BY NOW; the sheep and oxen come down" — 矣 is the ache in the line: not "the sun sets" but "it has already come to dusk," and still he is not home. One box left: "sheep"</span></div>
+    <div class="reading-line"><span class="script">日之夕矣，羊牛下來。</span><span class="translit pinyin">rì zhī xī yǐ, yáng niú xià lái</span><span class="gloss">"the sun has set BY NOW; the sheep and oxen come down" — 矣 is the ache in the line: not "the sun sets" but "it has already come to dusk," and still he is not home. Every character is yours now — the line reads whole</span></div>
   </div>
   <figcaption class="citation">
     <em>Odes</em>, "My lord is on service" — the box paid.
@@ -97,19 +112,39 @@ it — watch what the little word does:
   </figcaption>
 </figure>
 
+Hear the difference one particle makes. With
+<span class="script">也</span> the line would state a fact —
+"it is evening" — a clock's remark.
+<span class="script">矣</span> records an *arrival*: dusk has
+come, the day got here while she watched. Same sentence, same
+seats; the final particle alone decides whether time is being
+told or felt.
+
 ## Then and now
 
 今 against 古 — the tradition's favorite hinge of complaint:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">古之學者為▢，今之學者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wéi jǐ, jīn zhī xué zhě wéi rén</span><span class="gloss">"the learners of old learned to better themselves; today's learners learn to impress others" — study as self-improvement against study as performance. The box is "oneself"; every other character is yours, 者 and 之 doing exactly what their chapters taught</span></div>
+    <div class="reading-line"><span class="script">古之學者為▢，今之學者為人。</span><span class="translit pinyin">gǔ zhī xué zhě wèi jǐ, jīn zhī xué zhě wèi rén</span><span class="gloss">"the learners of old learned for themselves; today's learners learn to impress others" — study as self-improvement against study as performance. The box is "oneself"</span></div>
   </div>
   <figcaption class="citation">
     <em>Analects</em> 14.24.
     <code>urn:nabu:kanripo:KR1h0004:014:32a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Twin skeletons with one swap — <span class="script">古</span>
+for <span class="script">今</span> — and everything else built
+from your own chapters: <span class="script">古之學者</span>
+stacks <a href="{{ '/sinographs/102/05-the-belonging-thread/' | relative_url }}">the thread</a>
+on <a href="{{ '/sinographs/102/06-the-one-who-the-thing-which/' | relative_url }}">the doer</a>,
+"the learners of the old days." One new thing to hear:
+<span class="script">為</span> here is not "to be" but "for the
+sake of" — the same character in a second life the reading
+tradition marks with a changed tone, *wèi*. "Learned *for*
+themselves… *for* others": the tiny word carries the whole
+indictment.
 
 ## Years, seasons, and no more
 
@@ -125,6 +160,22 @@ it — watch what the little word does:
     <code>urn:nabu:kanripo:KR1h0004:004:21a</code> · license: attribution.
   </figcaption>
 </figure>
+
+Three lines, three time-machines. In the first,
+<span class="script">三年</span> stands before the verb with no
+"for" — spans of time simply take that seat — and
+<span class="script">無</span> heads the boxed verb: not "do
+not change" but "let there be no changing," the not-having
+verb swallowing the act itself; <span class="script">於父之道</span>
+parks the domain with <a href="{{ '/sinographs/102/07-with-by-from-at/' | relative_url }}">chapter 07's</a>
+<span class="script">於</span>. In the second, the
+<span class="script">以</span>-phrase hangs *after* its verb —
+"employ the people, by the season" — the hitches ride before
+or behind, wherever the rhythm wants them. And the third:
+<span class="script">道一</span> — subject and a bare number as
+its whole predicate, <a href="{{ '/sinographs/102/04-counting-the-world/' | relative_url }}">chapter 04's</a>
+trick returning — then <span class="script">而已</span>, "and
+no more," the shrug that ends arguments across the classics.
 
 ## Where this leaves you
 

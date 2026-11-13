@@ -12,6 +12,7 @@ permalink: /sinographs/101/02-the-world-in-pictures/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
 teaches: ["日", "月", "山", "水", "木", "口"]
+shows: ["氵"]
 ---
 
 # The world in pictures
@@ -44,7 +45,8 @@ Six characters, and every one of them is a drawing:
       <td class="script sign-cell">水</td><td>water</td><td><a class="say" href="{{ '/assets/audio/pinyin/shui.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">shuǐ</span></a></td>
       <td>water; a river</td>
       <td>a stream mid-current — the center line the flow, the
-      rest eddies</td>
+      rest eddies; at a compound's left it slims to 氵, three
+      drops you will see everywhere</td>
     </tr>
     <tr>
       <td class="script sign-cell">木</td><td>tree</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>

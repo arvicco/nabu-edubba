@@ -61,12 +61,20 @@ class SinoQueueContractTest < Minitest::Test
     end
   end
 
+  # Owner-ruled exceptions to the 5-6 dial, recorded per chapter:
+  # S102 ch03 carries 7 (2026-08-17: 羊 taught beside 牛 — the
+  # herds of the Odes walk in as a pair). S102 ch04 carries 7
+  # (2026-08-18: 寸 taught with the numbers — the measure joins
+  # the counting, and opens the door to 寺, the 詩/時 sound-lender).
+  CHAPTER_CAP_EXCEPTIONS = { [102, 3] => 7, [102, 4] => 7 }.freeze
+
   def test_chapters_pin_five_to_six_characters
     ALL.select { |s| s["chapter"] }
        .group_by { |s| [s["course"] || 101, s["chapter"]] }.each do |ch, batch|
-      assert_includes 5..6, batch.size,
+      cap = CHAPTER_CAP_EXCEPTIONS[ch] || 6
+      assert_includes 5..cap, batch.size,
                       "ch #{ch} pins #{batch.size} characters — the law says 5-6 " \
-                      "(owner ruling 2026-08-10)"
+                      "(owner ruling 2026-08-10; exceptions owner-ruled, recorded above)"
     end
   end
 

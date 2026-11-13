@@ -92,6 +92,7 @@ module Edubba
     def violations(site_dir, manifests = {})
       sources(site_dir).flat_map { |path| check_file(site_dir, path) } +
         js_assets(site_dir) +
+        sino_keyword_unique(site_dir) +
         font_coverage(site_dir, manifests) +
         nav_order_unique(site_dir) +
         course_toc_complete(site_dir) +
@@ -195,6 +196,7 @@ module Edubba
       text = File.read(path, encoding: "UTF-8")
       found = []
       found.concat(check_say_audio(site_dir, path, text))
+      found.concat(check_sign_keys(site_dir, path, text))
       found.concat(check_production_vocab(path, text))
       text.scan(/<script\b[^>]*>(?:<\/script>)?/i) do |tag|
         next if SANCTIONED_SCRIPT.match?(tag) && !path.end_with?(".md")
@@ -756,6 +758,56 @@ module Edubba
                                "tone the eye reads (zì/zǐ class, 2026-08-11)")
       end
       found
+    end
+
+    # sign-key (owner report 2026-08-19: 于 and 於 both wore the
+    # displayed key "at" — the queue said at/in, ch07's table had
+    # drifted, and nothing compared them): a sign-table Key cell
+    # must SHOW the queue's keyword for its character, and queue
+    # keywords are unique across the whole sinograph school — the
+    # keyword is the sign's name everywhere (codex slug, links),
+    # so two signs may never wear one.
+    SIGN_KEY_ROW = %r{<td class="script sign-cell">(?<glyph>[^<]+)</td><td>(?<key>[^<]*)</td>}
+
+    # [[char, keyword], ...] across every sinographs queue file,
+    # memoized per site dir (tests inject fixtures).
+    def sino_keyword_pairs(site_dir)
+      @sino_keyword_pairs ||= {}
+      @sino_keyword_pairs[site_dir] ||= begin
+        require "yaml"
+        Dir[File.join(site_dir, "_data", "sinographs*_queue.yml")].sort.flat_map do |f|
+          ((YAML.safe_load_file(f)["signs"] rescue nil) || [])
+            .select { |s| s["char"] && s["keyword"] }
+            .map { |s| [s["char"].to_s, s["keyword"].to_s] }
+        end
+      end
+    end
+
+    def check_sign_keys(site_dir, path, text)
+      return [] unless path.end_with?(".md") && path.include?("/sinographs/")
+
+      names = sino_keyword_pairs(site_dir).to_h
+      found = []
+      text.scan(SIGN_KEY_ROW) do
+        glyph, key = Regexp.last_match[:glyph], Regexp.last_match[:key]
+        expected = names[glyph]
+        next if expected.nil? || expected == key
+
+        found << Violation.new(path, "sign-key",
+                               "sign-table key #{key.inspect} for #{glyph} — the queue names it " \
+                               "#{expected.inspect}; one sign, one name (2026-08-19)")
+      end
+      found
+    end
+
+    def sino_keyword_unique(site_dir)
+      sino_keyword_pairs(site_dir)
+        .group_by(&:last).select { |_k, pairs| pairs.map(&:first).uniq.size > 1 }
+        .map do |key, pairs|
+          Violation.new(File.join(site_dir, "_data"), "sign-key",
+                        "keyword #{key.inspect} names #{pairs.map(&:first).join(', ')} — " \
+                        "keywords are school-wide unique (2026-08-19)")
+        end
     end
 
     # chapter-link (owner request 2026-08-06, mechanizing the §4

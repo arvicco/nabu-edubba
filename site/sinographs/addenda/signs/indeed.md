@@ -22,8 +22,9 @@ struck bell at the end of "X is Y 也." Taught in
 
 ## How to remember it
 
-The full stop that speaks: **indeed**, it is so. When you
-hear the bell, the sentence is over.
+One winding stroke coming to rest — the pen's closing
+flourish. The full stop that speaks: **indeed**, it is so.
+When you hear the bell, the sentence is over.
 
 ## In the wild
 

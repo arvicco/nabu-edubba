@@ -146,6 +146,14 @@ fallback. Recorded in docs/concept.md §7.
   **unique school-wide** — the same keyword-uniqueness law the
   cuneiform school arrived at independently; here it meets its
   origin (Heisig's core insight).
+- **The displayed key IS the keyword (2026-08-19,** after the
+  owner caught 于 and 於 both wearing "at" on the site while the
+  queue said at/in — the queue was unique, the ch07 table had
+  drifted, and only the queue was checked): a chapter sign-table
+  Key cell must show the queue's keyword verbatim, so the
+  uniqueness law holds on the SURFACE the student reads, not
+  just in the data. The `sign-key` lint enforces both halves —
+  cell/queue agreement per row, and cross-queue uniqueness.
 - **Grounding (ruled):** the keyword matches Heisig's where his
   keyword IS the plain classical sense; where the classical sense
   diverges from the modern-Japanese sense Heisig keys to, the
@@ -211,7 +219,13 @@ site-wide laws into writing order.
   **5–6 fresh characters** — the site-wide 1–3 chapter-opening law
   is the floor; characters are lighter units than cuneiform signs
   and the pace dials up accordingly. The compiler enforces the
-  range.
+  range. Exceptions are owner-ruled and recorded in the contract
+  test (2026-08-17: S102 ch03 carries 7 — 羊 taught beside 牛 as
+  its logical pair, so the Odes' herds walk in together;
+  2026-08-18: S102 ch04 carries 7 — 寸 taught with the numbers,
+  so that 寺, the sound-lender 詩 and 時 both borrow, can be
+  taught whole in ch05 instead of haunting two hooks as an
+  untaught "temple").
 - **Example-composition law (owner rulings 2026-08-10):** a
   reading line shows at most half boxes — untaught characters
   never outnumber taught ones in a displayed line (▢-share ≤ 50%),
@@ -246,6 +260,29 @@ site-wide laws into writing order.
   in the mainstream interpretive reading, hedged only where the
   tradition genuinely divides. Enforcement: owner review (ledger);
   the pre-flight checklist carries the line.
+- **The element-by-element law (owner review 2026-08-16, after
+  the S102 grammar chapters read as "fast-food stuffing of
+  phrases one after another"):** a grammar chapter ANALYZES, it
+  does not just exhibit. For every pattern taught: (a) at least
+  one exhibit sentence is walked element by element in the prose
+  around its figure — each word named, its role in THIS sentence
+  stated, recurring words tied back to where they were first
+  taught — the C102/C103 manner; (b) the pattern is shown in
+  parallel composed lines built from already-taught characters,
+  varying one thing at a time, before or beside the borrowed
+  classic; (c) glosses carry the MEANING (the meaning law); the
+  grammatical analysis lives in the surrounding prose, never
+  crammed into gloss tails. And (owner ruling 2026-08-17, after
+  有牛，有物 shipped meaning nothing): a composed line is an
+  UTTERANCE, not a specimen — it says something a person would
+  actually say, and its gloss delivers that meaning and its
+  context; the meaning law binds composed lines exactly as it
+  binds borrowed ones. Never throw characters together for
+  structure alone. The test: a student who closes the chapter can
+  say, for each character of its exhibits, what that character is
+  doing in the sentence — and for each composed line, why anyone
+  would say it. Enforcement: owner review; the pre-flight
+  checklist carries the line.
 - **Return-arc planning (M20-5, ruled 2026-08-11):** a course
   segment's plan names its RETURN ARCS up front — which earlier
   readings come back, at which chapter, at what expected box
@@ -522,7 +559,23 @@ Live since the first content commit (2026-08-10):
   what today's strokes still show. No unexplained referents, no
   free-floating profundity ("became the measure of everything").
   Editorial law: enforced by review, not lint — a machine cannot
-  judge whether an image reconstructs a character.
+  judge whether an image reconstructs a character. Scope
+  (owner ruling 2026-08-18, after "your sun over your upright"
+  showed neither sign): this binds the CHAPTER SIGN-TABLE hooks
+  exactly as it binds codex hooks — a referenced earlier sign is
+  SHOWN ("your sun 日 over your upright 正"), never mentioned
+  only by its keyword; the reference glyph must itself be taught
+  by that chapter, else the component stays in plain words.
+  Sources + sweep (owner ruling 2026-08-21, after 寺's hook told
+  the seal-script 之-story over the visible 土+寸): authoring a
+  hook CONSULTS the decomposition sources (the BabelStone IDS
+  carried in the queue; `nabu char`) and the established
+  mnemonic traditions (Heisig/RTK and its community stories,
+  Wiktionary's glyph origin) BEFORE inventing — the tradition
+  has usually already found the visible image. "Origin
+  disputed" is a codex note, never a hook: every hook gives an
+  image. All 140 hooks audited to this standard 2026-08-21;
+  nineteen rebuilt.
 
 ## 9 · Law ledger
 
@@ -548,7 +601,7 @@ script/lint.rb's header; "owner review" is a disposition.
 | Say-links resolve to real files | §2 | `say-audio` lint (dead-target check) |
 | Displayed tone = the file's declared tone | §2 | `say-audio` lint (tone agreement, 2026-08-11) |
 | Absent syllables reported, never faked | §2 | manifest `absent:` + generator report |
-| Keyword unique school-wide | §3 | compiler + queue contract + rulebook codex |
+| Keyword unique school-wide, on the displayed surface too | §3 | compiler + queue contract + rulebook codex; `sign-key` lint (table cells = queue keyword, 2026-08-19) |
 | Keywords grounded in classical sense (Kroll) | §3 | owner review |
 | Traditional forms are the base | §4 | owner review; Serif TC subset renders traditional |
 | Frequency-AND-simplicity ordering, classical corpus | §5 | sino_freq + compiler, deterministic over committed inputs; contract tests |
@@ -564,7 +617,8 @@ script/lint.rb's header; "owner review" is a disposition.
 | Reading lines fit the sino budget or stack | §6 | `reading-width` lint (Serif TC metrics × size-law scale) |
 | No column adds >15% to a table's height | §6 | build-time balanced colgroups + `table-balance` lint (enforced school-wide since M22-1) |
 | Codex slugs = keywords, collision-free | §8 | compiler slug derivation + uniqueness |
-| Codex hooks anchored in the visible modern form | §8 | owner review (editorial) |
+| Hooks (codex AND chapter tables) anchored in the visible form; referenced taught signs shown by glyph; sources consulted (IDS + mnemonic tradition); every hook an image | §8 | owner review (editorial); school-wide audit 2026-08-21 |
 | Codex attestations shown whole, never boxed | §8 | `codex-boxes` lint |
 | Return arcs named in the stretch plan, delivered | §5 | phase-plan arc table (M20-5) + owner review |
 | Every reading delivers its MEANING, not just its translation | §5 | owner review (the meaning law) |
+| Grammar exhibits walked element by element; parallels from taught stock | §5 | owner review (element-by-element law) |

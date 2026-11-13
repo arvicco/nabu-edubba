@@ -81,12 +81,34 @@ The pattern on characters you own outright:
   <div class="reading-lines">
     <div class="reading-line"><span class="script">人見日月。</span><span class="translit pinyin">rén jiàn rì yuè</span><span class="gloss">"people see the sun and the moon" — subject 人, verb 見, objects 日月. Nothing else is needed, and nothing else is there</span></div>
     <div class="reading-line"><span class="script">父見子。子見父。</span><span class="translit pinyin">fù jiàn zǐ. zǐ jiàn fù</span><span class="gloss">"the father sees the son; the son sees the father" — swap the order and the seeing changes direction: position IS the grammar</span></div>
-    <div class="reading-line"><span class="script">民出而王入。</span><span class="translit pinyin">mín chū ér wáng rù</span><span class="gloss">"the people go out and the king comes in" — motion verbs need no object at all; 而 links the clauses as ever</span></div>
+    <div class="reading-line"><span class="script">日出而民出。</span><span class="translit pinyin">rì chū ér mín chū</span><span class="gloss">"the sun comes out, and the people go out" — daybreak sends everyone to the fields: the day's light is the day's clock. Motion verbs need no object at all; 而 links the clauses as ever</span></div>
   </div>
   <figcaption class="citation">
     Practice lines assembled from taught characters.
   </figcaption>
 </figure>
+
+Take the first line apart seat by seat. <span class="script">人</span>
+sits first, so it is the **doer** — "people."
+<span class="script">見</span> follows: the **act**, "see."
+<span class="script">日月</span> fills the **object** seat — sun
+and moon side by side, and no "and" is needed: neighbors in the
+object seat simply share it. That is the entire machine.
+
+The second pair of lines is the proof that position is the only
+grammar there is. <span class="script">父見子</span> and
+<span class="script">子見父</span> spend the same three
+characters; swapping the seats swaps who sees whom. English
+would survive such a shuffle by leaning on its endings — here
+there are no endings to lean on, so **the seat is the ending**.
+
+And the third line shows the object seat standing empty: motion
+verbs are complete alone. <span class="script">日出</span> —
+subject, verb, done; <span class="script">民出</span> answers it
+in the same two seats, with <span class="script">而</span>
+hinging the halves as it has since Foundations. Sunrise, and
+everyone out the door: hold the shape of that thought — this
+chapter ends on the oldest song ever built from it.
 
 ## Knowing without going
 
@@ -96,7 +118,7 @@ about knowledge:
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"; note the shape — 出 takes "door" as its object exactly as 知 takes 天下</span></div>
+    <div class="reading-line"><span class="script">不出▢，知天下。</span><span class="translit pinyin">bù chū hù, zhī tiān xià</span><span class="gloss">"without going out the door, know the world" — the world runs on one pattern, and the pattern is visible from anywhere: insight is not mileage. The box is "door"</span></div>
   </div>
   <figcaption class="citation">
     <em>Laozi</em> 47.
@@ -104,21 +126,55 @@ about knowledge:
   </figcaption>
 </figure>
 
-## The strangest entrance
+The grammar, element by element. <span class="script">不</span>
+sits directly before the verb and negates the act: "not
+go-out." <span class="script">出</span> then takes ▢ "door"
+straight as its object — go-out-the-door, no "of," no
+"through": a place sits in the object seat like anything else.
+The answering clause is a twin skeleton:
+<span class="script">知</span> "know" takes
+<span class="script">天下</span> "all under heaven — the world"
+as *its* object. Two clauses, same shape, set side by side with
+not one connecting word between them — in this language the
+parallelism itself is the argument.
 
-And because objects are just words in the object seat, even
-"nothing" can sit there:
+## The sun's day
+
+One more thing the seats can do: stand empty. The oldest work
+song in the tradition runs this chapter's two motion verbs
+through a farmer's whole day —
 
 <figure class="reading reading--script">
   <div class="reading-lines">
-    <div class="reading-line"><span class="script">無有入▢無▢。</span><span class="translit pinyin">wú yǒu rù yú wú jiàn</span><span class="gloss">"what has no substance enters where there is no gap" — water seeps, air passes: the yielding goes where the solid cannot. The boxes are a small "into" (five chapters ahead) and "gap"; 無有, "the not-having," is the subject</span></div>
+    <div class="reading-line"><span class="script">日出而▢，日入而▢。</span><span class="translit pinyin">rì chū ér zuò, rì rù ér xī</span><span class="gloss">"the sun comes out — work; the sun goes in — rest" — a farmer's day, told by the sky's clock. The boxes are "work" and "rest"</span></div>
   </div>
   <figcaption class="citation">
-    <em>Laozi</em> 43 — the softest thing in the world at work
-    on the hardest.
-    <code>urn:nabu:kanripo:KR5c0057:043:1a</code> · license: attribution.
+    The Song of Striking the Soil (<em>Jirang ge</em>), sung —
+    so the tradition tells it — by farmers in the age of the
+    sage-king Yao; quoted here from the Ming music treatise
+    <em>Yuelü quanshu</em>.
+    <code>urn:nabu:kanripo:KR1i0009:020:35b</code> · license: attribution.
   </figcaption>
 </figure>
+
+Take it apart. <span class="script">日出</span> is a complete
+clause — subject and motion verb, this chapter's
+<span class="script">出</span> with the sun doing the going-out.
+<span class="script">而</span> hinges as ever. Then the boxed
+"work" stands **alone**: a verb with its subject seat empty.
+Whose work? The farmer's — and he never says "I," because when
+the subject is obvious the language simply leaves the seat
+empty. The second clause mirrors the first,
+<span class="script">入</span> answering
+<span class="script">出</span> exactly as the sign table paired
+them, and the empty seat carries over: sun in, (I) rest.
+
+The song's remaining lines dig a well and drink from it, plough
+a field and eat from it, and land on the punchline: *what is the
+emperor's power to me?* — the tradition's oldest picture of good
+government as the government you never notice. Eight characters
+in, you have met the pattern that makes such compression
+possible: seats, filled or pointedly left empty.
 
 ## Where this leaves you
 

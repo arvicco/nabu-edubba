@@ -14,15 +14,17 @@ permalink: /sinographs/addenda/signs/i/
 
 ## Where it comes from
 
-By the received account a toothed halberd — some old weapon —
-borrowed so early for the word "I" that no classical writer ever
-thought of the blade. Rank 176; the plain first person, singular
-and plural alike. Taught in <a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">the doing-and-being chapter</a>.
+A three-pronged polearm — the oracle-bone form matches
+excavated three-bladed weapons — borrowed so early for the word
+"I" that no classical writer ever thought of the blade. Rank
+176; the plain first person, singular and plural alike. Taught
+in <a href="{{ '/sinographs/101/07-doing-and-being/' | relative_url }}">the doing-and-being chapter</a>.
 
 ## How to remember it
 
-The self armed: **I**. Nobody knows why the halberd; everybody
-has used it to say "me" for three thousand years.
+A hand at the left, a blade at the right — the self armed:
+**I**. Nobody knows why the weapon; everybody has used it to
+say "me" for three thousand years.
 
 ## In the wild
 

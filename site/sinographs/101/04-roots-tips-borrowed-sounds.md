@@ -13,6 +13,7 @@ permalink: /sinographs/101/04-roots-tips-borrowed-sounds/
 course_url: /sinographs/101/
 course_title: "Sinographs 101"
 teaches: ["品", "本", "末", "未", "沐", "味"]
+shows: ["氵"]
 ---
 
 # Roots, tips, and borrowed sounds
@@ -28,7 +29,7 @@ changes everything:
     <tr>
       <td class="script sign-cell">品</td><td>kinds</td><td><a class="say" href="{{ '/assets/audio/pinyin/pin.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">pǐn</span></a></td>
       <td>kinds, grades; things in their sorts</td>
-      <td>your mouth three times over — many voices, many sorts</td>
+      <td>your mouth 口 three times over — many voices, many sorts</td>
     </tr>
     <tr>
       <td class="script sign-cell">本</td><td>root</td><td><a class="say" href="{{ '/assets/audio/pinyin/ben.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">běn</span></a></td>
@@ -39,25 +40,23 @@ changes everything:
     <tr>
       <td class="script sign-cell">末</td><td>tip</td><td><a class="say" href="{{ '/assets/audio/pinyin/mo.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mò</span></a></td>
       <td>tip, branch-end; the incidental</td>
-      <td>the same tree, the mark at the top</td>
+      <td>the same tree 木, the mark at the top</td>
     </tr>
     <tr>
       <td class="script sign-cell">未</td><td>not-yet</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>not yet — the classical "still un-"</td>
-      <td>the tree with young top growth — what has not yet come to
-      be</td>
+      <td>the tree 木 with young top growth — not yet grown</td>
     </tr>
     <tr>
       <td class="script sign-cell">沐</td><td>washing</td><td><a class="say" href="{{ '/assets/audio/pinyin/mu.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">mù</span></a></td>
       <td>to wash the hair; to bathe in</td>
-      <td>water for the meaning, tree for the <em>sound</em>: 木 is
-      mù, and so is 沐</td>
+      <td>your 水, slimmed to 氵 at the left, for meaning; 木
+      for <em>sound</em> (mù)</td>
     </tr>
     <tr>
       <td class="script sign-cell">味</td><td>flavor</td><td><a class="say" href="{{ '/assets/audio/pinyin/wei.mp3' | relative_url }}" title="hear it"><span class="translit pinyin">wèi</span></a></td>
       <td>flavor, taste</td>
-      <td>mouth for the meaning, not-yet for the <em>sound</em>:
-      未 is wèi, and so is 味</td>
+      <td>mouth 口 for meaning, 未 for <em>sound</em> (wèi)</td>
     </tr>
   </tbody>
 </table>
